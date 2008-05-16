@@ -1,0 +1,3499 @@
+# translation of kget.po to Uzbek
+# Nurali Abdurahmonov <mavnur@gmail.com>, 2006.
+# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kget\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-05-13 19:30+0200\n"
+"PO-Revision-Date: 2007-02-03 14:08+0100\n"
+"Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
+"Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: conf/transfersgroupwidget.cpp:72
+msgid "The group name is empty"
+msgstr ""
+
+#: conf/transfersgroupwidget.cpp:72
+msgid ""
+"A group can not have an empty name\n"
+"Please select a new one"
+msgstr ""
+
+#: conf/transfersgroupwidget.cpp:83
+msgid "Group name already in use"
+msgstr ""
+
+#: conf/transfersgroupwidget.cpp:83
+msgid ""
+"Another group with this name already exists\n"
+"Please select a different name"
+msgstr ""
+
+#: conf/transfersgroupwidget.cpp:101 conf/transfersgroupwidget.cpp:106
+#, fuzzy
+msgid "New Group"
+msgstr "Andoza jild"
+
+#: conf/transfersgroupwidget.cpp:127 core/kget.cpp:677 ui/contextmenu.cpp:97
+#, fuzzy
+msgid "My Downloads"
+msgstr "Yozib olish davom ettrildi"
+
+#: conf/transfersgroupwidget.cpp:129
+msgid "You can not delete this group!"
+msgstr ""
+
+#: conf/transfersgroupwidget.cpp:134
+#, fuzzy, kde-format
+msgid ""
+"Are you sure that you want to remove\n"
+"the group named %1?"
+msgstr "Rostdan ham ushbu vazifalarni olib tashlashni istaysizmi?"
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 134
+#: conf/transfersgroupwidget.cpp:169 rc.cpp:77
+msgid "Add"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 154
+#: conf/transfersgroupwidget.cpp:171 rc.cpp:83
+#, fuzzy
+msgid "Delete"
+msgstr "Olib tashlanmadi"
+
+#: conf/transfersgroupwidget.cpp:174
+#, fuzzy
+msgid "Rename"
+msgstr "Andoza jild"
+
+#: conf/transfersgroupwidget.cpp:180
+msgid "Select Icon"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:45
+msgid "Xml"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:47
+msgid "Sqlite"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:56
+msgid "Appearance"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:56
+msgid "Change appearance settings"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:57
+msgid "Groups"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:57
+msgid "Manage the groups"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 108
+#: conf/preferencesdialog.cpp:58 rc.cpp:231
+msgid "Folders"
+msgstr "Jildlar"
+
+#: conf/preferencesdialog.cpp:58
+#, fuzzy
+msgid "Default Download Folders"
+msgstr "Andoza jild"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 22
+#: conf/preferencesdialog.cpp:59 rc.cpp:210
+msgid "Network"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:59
+#, fuzzy
+msgid "Network and Downloads"
+msgstr "Qisman yozib olinganni belgilash"
+
+#: conf/preferencesdialog.cpp:60
+msgid "Webinterface"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:60
+msgid "Control KGet over Network or Internet"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:61
+#, fuzzy
+#| msgid "Advanced"
+msgctxt "Advanced Options"
+msgid "Advanced"
+msgstr "Qoʻshimcha"
+
+#: conf/preferencesdialog.cpp:61
+msgid "Advanced Options"
+msgstr "Qoʻshimcha moslamalar"
+
+#: conf/preferencesdialog.cpp:62
+msgid "Plugins"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:62
+msgid "Transfer Plugin Options"
+msgstr ""
+
+#: conf/dlgdirectories.cpp:140
+msgid "Folder and extension can not be empty."
+msgstr ""
+
+#: conf/dlgdirectories.cpp:140 core/kget.cpp:472 core/kget.cpp:851
+msgid "Error"
+msgstr ""
+
+#: core/transfertreemodel.cpp:295
+#, fuzzy
+#| msgid "Name"
+msgctxt "name of download"
+msgid "Name"
+msgstr "Nomi"
+
+#: core/transfertreemodel.cpp:297
+#, fuzzy
+msgctxt "status of download"
+msgid "Status"
+msgstr "Qaytadan bosh&lash"
+
+#: core/transfertreemodel.cpp:299
+msgctxt "size of download"
+msgid "Size"
+msgstr ""
+
+#: core/transfertreemodel.cpp:301
+#, fuzzy
+msgctxt "progress of download"
+msgid "Progress"
+msgstr "Bajarish oynasi"
+
+#: core/transfertreemodel.cpp:303
+#, fuzzy
+#| msgid "Speed"
+msgctxt "speed of download"
+msgid "Speed"
+msgstr "Tezlik"
+
+#: core/transfertreemodel.cpp:305
+#, fuzzy
+#| msgid "Rem. Time"
+msgctxt "remaining time of download"
+msgid "Remaining Time"
+msgstr "Qolgan vaqt"
+
+#: core/transferhandler.cpp:138
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:27
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:28
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:29
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:30
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:31
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:32
+#: ui/transfersviewdelegate.cpp:352
+msgctxt "not available"
+msgid "n/a"
+msgstr ""
+
+#: core/transferhandler.cpp:146
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1444
+#: ui/transferdetails.cpp:90
+msgid "Stalled"
+msgstr "Toʻxtab qoldi"
+
+#: core/transferhandler.cpp:151 core/transfergrouphandler.cpp:129
+#: ui/transferdetails.cpp:95
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: core/transferhandler.cpp:325 core/transferhandler.cpp:331
+#: ui/droptarget.cpp:94
+#, fuzzy
+#| msgid "KGet"
+msgid "Quit KGet"
+msgstr "KGet"
+
+#: core/transferhandler.cpp:326 core/transferhandler.cpp:332
+#, fuzzy
+#| msgid "All the downloads are finished."
+msgid "KGet quits now because all downloads have been completed."
+msgstr "Hamma yozib olish vazifalari bajarildi."
+
+#: core/transfergrouphandler.cpp:113
+#, kde-format
+msgid "1 Item"
+msgid_plural "%1 Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/transfergrouphandler.cpp:311
+#, fuzzy
+msgctxt "start transfergroup downloads"
+msgid "Start"
+msgstr "Qaytadan bosh&lash"
+
+#: core/transfergrouphandler.cpp:317
+#, fuzzy
+msgctxt "stop transfergroup downloads"
+msgid "Stop"
+msgstr "Toʻxtatildi"
+
+#: core/transfer.cpp:47 core/transfer.cpp:135 core/transfer.cpp:202
+#: transfer-plugins/kio/transferKio.cpp:57
+#: transfer-plugins/metalink/metalink.cpp:53
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:62
+#: transfer-plugins/bittorrent/bttransfer.cpp:241
+#, fuzzy
+#| msgid "Stopped"
+msgctxt "transfer state: stopped"
+msgid "Stopped"
+msgstr "Toʻxtatildi"
+
+#: core/transfer.cpp:128
+#, fuzzy
+#| msgid "De&lay"
+msgctxt "transfer state: delayed"
+msgid "Delayed"
+msgstr "K&echikish"
+
+#: core/transfer.cpp:198 transfer-plugins/kio/transferKio.cpp:123
+#: transfer-plugins/metalink/metalink.cpp:103
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:210
+#: transfer-plugins/bittorrent/bttransfer.cpp:238
+#, fuzzy
+#| msgid "Finished"
+msgctxt "transfer state: finished"
+msgid "Finished"
+msgstr "Tugadi"
+
+#: core/linkimporter.cpp:64
+#, fuzzy, kde-format
+#| msgid ""
+#| "Error while writing file:\n"
+#| "%1"
+msgid "Error trying to get %1"
+msgstr ""
+"Faylga yozishda xato roʻy berdi:\n"
+"%1"
+
+#: core/kget.cpp:181
+#, fuzzy
+#| msgid "Open Transfer"
+msgid "Rename transfer"
+msgstr "Vazifani ochish"
+
+#: core/kget.cpp:444
+#, fuzzy, kde-format
+msgid ""
+"The file %1 already exists.\n"
+"Overwrite?"
+msgstr ""
+"Quyidagi fayl allaqachon mavjud:\n"
+"%1\n"
+"Uni almashtirishni istaysizmi?"
+
+#: core/kget.cpp:445
+msgid "Overwrite existing file?"
+msgstr ""
+
+#: core/kget.cpp:471
+#, kde-format
+msgid "Unable to save to: %1"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/newtransferwidget.ui line 24
+#: core/kget.cpp:788 ui/newtransferdialog.cpp:37 rc.cpp:395
+#, fuzzy
+msgid "New Download"
+msgstr "Qaytadan yozib olish"
+
+#: core/kget.cpp:788
+msgid "Enter URL:"
+msgstr ""
+
+#: core/kget.cpp:850
+#, kde-format
+msgid ""
+"Malformed URL:\n"
+"%1"
+msgstr ""
+"Notoʻgʻri URL:\n"
+"%1"
+
+#: core/kget.cpp:862
+#, fuzzy, kde-format
+msgid ""
+"URL already saved:\n"
+"%1\n"
+"Download again?"
+msgstr ""
+"URL allaqachon yozib olingan\n"
+"%1\n"
+"Uni qaytadan yozib olishni istaysizmi?"
+
+#: core/kget.cpp:863
+#, fuzzy
+msgid "Download URL again?"
+msgstr "Qaytadan yozib olish"
+
+#: core/kget.cpp:891 core/kget.cpp:898
+msgid "Directory is not writable"
+msgstr ""
+
+#: core/kget.cpp:908
+#, kde-format
+msgid ""
+"Destination file \n"
+"%1\n"
+"already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"Quyidagi fayl allaqachon mavjud:\n"
+"%1\n"
+"Uni almashtirishni istaysizmi?"
+
+#: core/kget.cpp:1023
+#, kde-format
+msgid ""
+"<html><p>KPluginFactory could not load the plugin:<br/><i>%1</i></p></html>"
+msgstr ""
+
+#: core/kget.cpp:1040
+#, kde-format
+msgid ""
+"Not deleting\n"
+"%1\n"
+"as it is a directory."
+msgstr ""
+"Quyidagi oʻchirilmaydi\n"
+"%1\n"
+"chunki u jild."
+
+#: core/kget.cpp:1042 core/kget.cpp:1053
+#, fuzzy
+msgid "Not Deleted"
+msgstr "Olib tashlanmadi"
+
+#: core/kget.cpp:1051
+#, kde-format
+msgid ""
+"Not deleting\n"
+"%1\n"
+"as it is not a local file."
+msgstr ""
+"Quyidagi oʻchirilmaydi\n"
+"%1\n"
+"chunki u lokal fayl."
+
+#: transfer-plugins/kio/transferKio.cpp:38
+#: transfer-plugins/metalink/metalink.cpp:37
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:44
+#, fuzzy
+#| msgid "Connection"
+msgctxt "transfer state: connecting"
+msgid "Connecting.."
+msgstr "Ulanish"
+
+#: transfer-plugins/kio/transferKio.cpp:134
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:221
+#: ui/history/transferhistory.cpp:216
+msgid "Aborted"
+msgstr ""
+
+#: transfer-plugins/kio/transferKio.cpp:162
+#, fuzzy
+msgid "Downloading..."
+msgstr "Yozib olish davom ettrildi"
+
+#: transfer-plugins/kio/transferKio.cpp:176
+#: transfer-plugins/kio/transferKio.cpp:191
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:252
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:269
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:286
+#, fuzzy
+msgid "Downloading.."
+msgstr "Yozib olish davom ettrildi"
+
+#: transfer-plugins/metalink/metalink.cpp:112
+msgctxt "transfer state: aborted"
+msgid "Aborted"
+msgstr ""
+
+#: transfer-plugins/bittorrent/scandlg.cpp:81
+#, kde-format
+msgid "Error scanning data: %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/scandlg.cpp:87
+#, kde-format
+msgid "Scanning data of <b>%1</b> :"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:256
+#: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:71
+#, fuzzy
+msgid "File"
+msgstr "&Faylni ochish"
+
+#. i18n: tag string
+#. i18n: file ui/history/transferhistory.ui line 120
+#: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:257
+#: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:72
+#: rc.cpp:467
+msgid "Size"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:64
+#, fuzzy
+msgctxt "Open file"
+msgid "Open"
+msgstr "&Faylni ochish"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:66
+#, fuzzy
+msgid "Download first"
+msgstr "Yozib olish davom ettrildi"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:67
+#, fuzzy
+msgid "Download normally"
+msgstr "Andoza jild"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:68
+#, fuzzy
+msgid "Download last"
+msgstr "Yozib olish davom ettrildi"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:70
+#, fuzzy
+msgid "Do Not Download"
+msgstr "Qaytadan yozib olish"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:71
+#, fuzzy
+#| msgid "Download Selected Files"
+msgid "Delete File(s)"
+msgstr "Tanlangan fayllarni yozib olish"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:73
+#, fuzzy
+msgid "Move File"
+msgstr "&Faylni ochish"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:252
+msgid "You will lose all data in this file, are you sure you want to do this ?"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:253
+msgid ""
+"You will lose all data in these files, are you sure you want to do this ?"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:267
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:288
+msgid "Select a directory to move the data to."
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:70
+msgctxt "Choked"
+msgid "Yes"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:70
+msgctxt "Not choked"
+msgid "No"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:71
+msgctxt "Snubbed"
+msgid "Yes"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:71
+msgctxt "Not snubbed"
+msgid "No"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:200
+#, fuzzy
+#| msgid "Address (URL)"
+msgid "IP Address"
+msgstr "Manzili (URL)"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:201
+msgid "Client"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:202
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:195
+#, fuzzy
+#| msgid "Speed"
+msgid "Down Speed"
+msgstr "Tezlik"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:203
+#, fuzzy
+#| msgid "Speed"
+msgid "Up Speed"
+msgstr "Tezlik"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:204
+msgid "Choked"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:205
+msgid "Snubbed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:206
+msgid "Availability"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:207
+msgid "DHT"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:208
+#, fuzzy
+#| msgid "Source:"
+msgid "Score"
+msgstr "Manba:"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:209
+msgid "Upload Slot"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:210
+msgid "Requests"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:211
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:126
+#, fuzzy
+msgid "Downloaded"
+msgstr "Yozib olish davom ettrildi"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:212
+msgid "Uploaded"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:124
+msgid "URL"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:125
+#, fuzzy
+#| msgid "Speed"
+msgid "Speed"
+msgstr "Tezlik"
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:127
+#: ui/history/transferhistory.cpp:247
+#, fuzzy
+msgid "Status"
+msgstr "Qaytadan bosh&lash"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:54
+#, fuzzy, kde-format
+#| msgid "Default folder:"
+msgid "Advanced-Details for %1"
+msgstr "Andoza jild:"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:58
+#, fuzzy, kde-format
+#| msgid "Default folder:"
+msgid "Advanced Details for %1"
+msgstr "Andoza jild:"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:66
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:197
+#, fuzzy
+msgid "Files"
+msgstr "&Faylni ochish"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:68
+msgid "Peers"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui line 13
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 154
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:71
+#: rc.cpp:257 rc.cpp:344
+msgid "Chunks"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:74
+#, fuzzy
+msgid "Trackers"
+msgstr "&Vazifa"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:77
+msgid "Webseeds"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.cpp:92
+#, kde-format
+msgid "Cannot add the webseed %1, it is already part of the list of webseeds."
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.cpp:110
+#, kde-format
+msgid "Cannot remove webseed %1, it is part of the torrent."
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:87
+#: transfer-plugins/bittorrent/bttransfer.cpp:198
+msgid "Cannot add a tracker to a private torrent."
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:94
+#: transfer-plugins/bittorrent/bttransfer.cpp:204
+#, fuzzy
+#| msgid "Malformed URL:\n"
+msgid "Malformed URL."
+msgstr "Notoʻgʻri URL:\n"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:101
+#, kde-format
+msgid "There already is a tracker named <b>%1</b> !"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:119
+msgid "Cannot remove torrent default tracker."
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:223
+msgid "You cannot add trackers to a private torrent"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerview.cpp:55
+msgid "Kick Peer"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerview.cpp:56
+msgid "Ban Peer"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:72
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:69
+msgid "Priority"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:73
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:70
+msgid "Preview"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:75
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:72
+#, no-c-format
+msgctxt "Percent of File Downloaded"
+msgid "% Complete"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:84
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:81
+msgctxt "Download first"
+msgid "First"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:85
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:82
+msgctxt "Download last"
+msgid "Last"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:90
+#, fuzzy
+#| msgid "Normal"
+msgctxt "Download Normal (not as first or last)"
+msgid "Normal"
+msgstr "Oddiy"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:141
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:164
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:162
+msgctxt "Preview available"
+msgid "Available"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:143
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:166
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:141
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:164
+msgctxt "Preview pending"
+msgid "Pending"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:146
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:169
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:144
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:167
+msgctxt "No preview available"
+msgid "No"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:150
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:173
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:148
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:171
+#, fuzzy, kde-format
+#| msgid " %1/s "
+msgid "%1 %"
+msgstr " %1/s "
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:192
+#, fuzzy
+msgid "Chunk"
+msgstr "Sanash"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:193
+#, fuzzy
+msgid "Progress"
+msgstr "Bajarish oynasi"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:194
+msgid "Peer"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:196
+msgid "Assigned Peers"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:87
+#, fuzzy
+#| msgid "Normal"
+msgctxt "Download normally(not as first or last)"
+msgid "Normal"
+msgstr "Oddiy"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:139
+msgctxt "preview available"
+msgid "Available"
+msgstr ""
+
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:74
+#, fuzzy
+#| msgid "Advanced Options"
+msgid "&Advanced Details"
+msgstr "Qoʻshimcha moslamalar"
+
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:80
+#, fuzzy
+msgid "&Scan Files"
+msgstr "&Faylni ochish"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:83
+#, fuzzy
+msgid "Downloading Torrent-File.."
+msgstr "Yozib olish davom ettrildi"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:223
+#, fuzzy
+msgctxt "transfer state: downloading"
+msgid "Downloading.."
+msgstr "Yozib olish davom ettrildi"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:285
+#, fuzzy
+msgid "Analyzing torrent.."
+msgstr "Yozib olish davom ettrildi"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:358
+#, fuzzy
+#| msgid "Scheduling"
+msgctxt "Transfer status: seeding"
+msgid "Seeding.."
+msgstr "Rejalashtirilmoqda"
+
+#: transfer-plugins/bittorrent/btsettingswidget.cpp:22
+#, fuzzy
+#| msgid "Default Folder"
+msgid "Select a default Torrent-Folder"
+msgstr "Andoza jild"
+
+#: transfer-plugins/bittorrent/btsettingswidget.cpp:24
+#, fuzzy
+#| msgid "Default folder:"
+msgid "Select a default Temporary-Folder"
+msgstr "Andoza jild:"
+
+#: transfer-plugins/bittorrent/libbtcore/peer/peerid.cpp:203
+msgid "Unknown client"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:258
+#, fuzzy, kde-format
+#| msgid " %1/s "
+msgid "%1 GB"
+msgstr " %1/s "
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:260
+#, fuzzy, kde-format
+#| msgid " %1/s "
+msgid "%1 MB"
+msgstr " %1/s "
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:262
+#, fuzzy, kde-format
+#| msgid " %1 KB/s "
+msgid "%1 KB"
+msgstr " %1 Kb/s "
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:264
+#, fuzzy, kde-format
+#| msgid " %1/s "
+msgid "%1 B"
+msgstr " %1/s "
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:270
+#, fuzzy, kde-format
+#| msgid " %1 KB/s "
+msgid "%1 KB/s"
+msgstr " %1 Kb/s "
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:281
+#, kde-format
+msgid "1 day "
+msgid_plural "%1 days "
+msgstr[0] ""
+msgstr[1] ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/log.cpp:116
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open log file %1 : %2"
+msgstr ""
+"Faylni ochib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/file.cpp:83
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not write to file:\n"
+#| "%1"
+msgid "Cannot write to %1 : %2"
+msgstr ""
+"Faylga yozib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/file.cpp:97
+#, fuzzy, kde-format
+msgid "Cannot read from %1"
+msgstr "Bu yerdan fayl nusxasini olish: %1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:80
+#, kde-format
+msgid "Cannot create directory %1: %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:94
+#, kde-format
+msgid "Cannot symlink %1 to %2: %3"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:111
+#, kde-format
+msgid "Cannot move %1 to %2: %3"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:127
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:143
+#, kde-format
+msgid "Cannot copy %1 to %2: %3"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:204
+#, kde-format
+msgid "Cannot delete %1: %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:221
+#, kde-format
+msgid "Cannot create %1: %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:240
+#, kde-format
+msgid "Cannot calculate the filesize of %1: %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:256
+#, kde-format
+msgid "Cannot calculate the filesize : %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:284
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:313
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:372
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:96
+#, kde-format
+msgid "Cannot open %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:334
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:340
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:343
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot expand file : %1"
+msgstr ""
+"Faylni oʻqib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:358
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:360
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot expand file: %1"
+msgstr ""
+"Faylni oʻqib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:393
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot seek in file : %1"
+msgstr ""
+"Faylni ochib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:74
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:114
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:36
+#, fuzzy
+#| msgid "Stay Connected"
+msgid "Not connected"
+msgstr "Ulangan holatda qolish"
+
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:260
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:117
+#, fuzzy
+#| msgid "Connection Type"
+msgid "Connection closed"
+msgstr "Ulanish turi"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:95
+#, kde-format
+msgid "Resolving proxy %1:%2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:104
+#, kde-format
+msgid "Resolving hostname %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:125
+#, kde-format
+msgid "Error: request failed: %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:142
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:204
+#, fuzzy
+#| msgid "Stay Connected"
+msgid "Connected"
+msgstr "Ulangan holatda qolish"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:148
+msgid "Error: Failed to connect to webseed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:211
+#, fuzzy
+#| msgid "Connection"
+msgid "Connecting"
+msgstr "Ulanish"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:222
+msgid "Failed to connect to webseed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:229
+msgid "Failed to resolve hostname of webseed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:289
+msgid "Error: failed to connect, server not responding"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:298
+msgid "Error: request timed out"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/download/chunkdownload.cpp:323
+#, kde-format
+msgid "%1 peers"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/migrate/ccmigrate.cpp:119
+#: transfer-plugins/bittorrent/libbtcore/migrate/ccmigrate.cpp:125
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:634
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:714
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open file %1 : %2"
+msgstr ""
+"Faylni ochib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/migrate/migrate.cpp:45
+#, fuzzy, kde-format
+#| msgid ""
+#| "The specified file does not exist:\n"
+#| "%1"
+msgid "The directory %1 does not exist"
+msgstr ""
+"Koʻrsatilgan fayl mavjud emas:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:61
+#, kde-format
+msgid "Illegal token: %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:82
+msgid "Decode error"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:143
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:188
+msgid "Unexpected end of input"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:163
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:197
+#, kde-format
+msgid "Cannot convert %1 to an int"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:202
+msgid "Torrent is incomplete!"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:65
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:102
+#, kde-format
+msgid "Failed to open %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:75
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:86
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:119
+#, kde-format
+msgid "Failed to create %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/chunkmanager.cpp:218
+#: transfer-plugins/bittorrent/libbtcore/diskio/chunkmanager.cpp:444
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open index file %1 : %2"
+msgstr ""
+"Faylni ochib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:108
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot create file %1 : %2"
+msgstr ""
+"Faylni oʻqib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:175
+#, kde-format
+msgid "Failed to write first chunk to DND file : %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:233
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not write to file:\n"
+#| "%1"
+msgid "Failed to write last chunk to DND file : %1"
+msgstr ""
+"Faylga yozib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:122
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:245
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:430
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:497
+#, kde-format
+msgid "Cannot open %1 for writing : readonly filesystem"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:255
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot expand file %1 : %2"
+msgstr ""
+"Faylni oʻqib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:396
+#, kde-format
+msgid "Error : Reading past the end of the file %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:401
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:447
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Failed to seek file %1 : %2"
+msgstr ""
+"Faylni oʻqib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:409
+#, fuzzy, kde-format
+#| msgid ""
+#| "Error while reading file:\n"
+#| "%1"
+msgid "Error reading from %1"
+msgstr ""
+"Faylni oʻqishda xato roʻy berdi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:451
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not write to file:\n"
+#| "%1"
+msgid "Failed to write to file %1 : %2"
+msgstr ""
+"Faylga yozib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:524
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:698
+#, kde-format
+msgid "Cannot preallocate diskspace : %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:63
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:125
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:148
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:156
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:163
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:167
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:175
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:189
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:193
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:207
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:216
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:230
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:237
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:243
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:250
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:256
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:272
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:319
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:325
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:328
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:331
+msgid "Corrupted torrent!"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:80
+msgid "Torrent has no announce or nodes field"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:116
+#, kde-format
+msgid " Unable to open torrent file %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:296
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:302
+msgid "Parse Error"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:528
+#, kde-format
+msgid ""
+"An error occurred while loading the torrent <b>%1</b>.<br/>The torrent is "
+"probably corrupt or is not a torrent file."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:557
+msgid ""
+"An error occurred while loading the torrent.<br/>The torrent is probably "
+"corrupt or is not a torrent file."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:566
+#, kde-format
+msgid "Unable to create %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:581
+#, kde-format
+msgid ""
+"You are already downloading this torrent %1, the list of trackers of both "
+"torrents has been merged."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:585
+#, kde-format
+msgid "You are already downloading the torrent %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:685
+#, kde-format
+msgid "Cannot migrate %1 : %2"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1341
+#, kde-format
+msgid ""
+"The torrent %1 was started with a previous version of KTorrent. To make sure "
+"this torrent still works with this version of KTorrent, we will migrate this "
+"torrent. You will be asked for a location to save the torrent to. If you "
+"press cancel, we will select your home directory."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1346
+msgid "Select Folder to Save To"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1434
+#, fuzzy
+msgid "Not started"
+msgstr "Olib tashlanmadi"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1436
+#, fuzzy
+#| msgid "Download finished"
+msgid "Download completed"
+msgstr "Yozib olish bajarildi"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1438
+msgid "Seeding completed"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1440
+#, fuzzy
+#| msgid "Scheduling"
+msgid "Seeding"
+msgstr "Rejalashtirilmoqda"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1442
+#, fuzzy
+msgid "Downloading"
+msgstr "Yozib olish davom ettrildi"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1446
+#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:162
+#: ui/history/transferhistory.cpp:214
+#, fuzzy
+#| msgid "Stopped"
+msgid "Stopped"
+msgstr "Toʻxtatildi"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1448
+msgid "Error: "
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1450
+msgid "Allocating diskspace"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1452
+msgid "Queued"
+msgstr "Navbatga qoʻyilgan"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1454
+msgid "Checking data"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1456
+msgid "Stopped. No space left on device."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:544
+#, fuzzy
+#| msgctxt "OK as in 'finished'"
+#| msgid "OK"
+msgid "OK"
+msgstr "Ok"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:551
+msgid "Announcing"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:124
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:257
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:295
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open file %1: %2"
+msgstr ""
+"Faylni ochib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:357
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not read file:\n"
+#| "%1"
+msgid "Cannot create index file: %1"
+msgstr ""
+"Faylni oʻqib boʻlmadi:\n"
+"%1"
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/udptrackersocket.cpp:66
+#, kde-format
+msgid "Cannot bind to udp port %1 or the 10 following ports."
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:270
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:290
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:330
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:433
+msgid "Invalid response from tracker"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:283
+msgid "Invalid data from tracker"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:449
+msgid "Invalid tracker URL"
+msgstr ""
+
+#: transfer-plugins/bittorrent/libbtcore/datachecker/singledatachecker.cpp:49
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open file:\n"
+#| "%1"
+msgid "Cannot open file : %1 : %2"
+msgstr ""
+"Faylni ochib boʻlmadi:\n"
+"%1"
+
+#: ui/tray.cpp:61
+#, fuzzy
+msgid "KGet - Download Manager"
+msgstr "Yozib olish boshqaruvchisi"
+
+#: ui/groupsettingsdialog.cpp:18
+#, fuzzy, kde-format
+#| msgid "Default folder:"
+msgid "Group-Settings for %1"
+msgstr "Andoza jild:"
+
+#: ui/contextmenu.cpp:65
+msgid "Semantic desktop"
+msgstr ""
+
+#: ui/transfersviewdelegate.cpp:490
+#, fuzzy
+msgid "Transfer details"
+msgstr " Vazifalar: %1 "
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:45
+#: ui/history/transferhistory.cpp:268
+msgid "Today"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:49
+#: ui/history/transferhistory.cpp:269
+msgid "Last week"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:53
+msgid "Last Month"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:57
+#: ui/history/transferhistory.cpp:271
+msgid "A long time ago"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:77
+msgid "Under 10MiB"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:80
+msgid "More than 10MiB and 50MiB"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:84
+msgid "More than 50MiB and 100MiB"
+msgstr ""
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:89
+msgid "More than 100MiB"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:48
+#, fuzzy
+msgid "Transfer History"
+msgstr "Vazifani ochish:"
+
+#: ui/history/transferhistory.cpp:210
+msgid "Running"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:212
+#, fuzzy
+#| msgid "De&lay"
+msgid "Delayed"
+msgstr "K&echikish"
+
+#: ui/history/transferhistory.cpp:218
+#, fuzzy
+#| msgid "Finished"
+msgid "Finished"
+msgstr "Tugadi"
+
+#: ui/history/transferhistory.cpp:247
+#, fuzzy
+#| msgid "Source:"
+msgid "Source-File"
+msgstr "Manba:"
+
+#. i18n: tag string
+#. i18n: file ui/newtransferwidget.ui line 49
+#: ui/history/transferhistory.cpp:247 rc.cpp:401
+#, fuzzy
+#| msgid "Destination:"
+msgid "Destination"
+msgstr "Manzil:"
+
+#: ui/history/transferhistory.cpp:247
+#, fuzzy
+#| msgid "Timer"
+msgid "Time"
+msgstr "Taymer"
+
+#: ui/history/transferhistory.cpp:247
+#, fuzzy
+msgid "File Size"
+msgstr "&Faylni ochish"
+
+#: ui/history/transferhistory.cpp:257
+msgid "Less than 1MiB"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:259
+msgid "Between 1MiB-10MiB"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:261
+msgid "Between 10MiB-100MiB"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:263
+msgid "Between 100MiB-1GiB"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:265
+msgid "More than 1GiB"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:270
+msgid "Last month"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:291
+#, fuzzy
+#| msgid "Finished"
+msgctxt "the transfer has been finished"
+msgid "Finished"
+msgstr "Tugadi"
+
+#: ui/history/transferhistoryitemdelegate.cpp:41
+#, fuzzy
+msgid "Download again"
+msgstr "Qaytadan yozib olish"
+
+#: ui/history/transferhistoryitemdelegate.cpp:46
+#, fuzzy
+msgid "Delete selected"
+msgstr "Fayl tanlanmagan"
+
+#: ui/history/transferhistoryitemdelegate.cpp:51
+#, fuzzy
+msgid "Open file"
+msgstr "&Faylni ochish"
+
+#: ui/transfersettingsdialog.cpp:18
+#, fuzzy, kde-format
+#| msgid "Default folder:"
+msgid "Transfer-Settings for %1"
+msgstr "Andoza jild:"
+
+#: ui/nepomukwidget.cpp:56
+#, fuzzy
+#| msgid "Open Transfer"
+msgid "Remove Tag"
+msgstr "Vazifani ochish"
+
+#: ui/transferdetails.cpp:37
+#, fuzzy
+#| msgid "Source:"
+msgctxt "@label transfer source"
+msgid "Source:"
+msgstr "Manba:"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 247
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 64
+#: ui/transferdetails.cpp:38 rc.cpp:374 rc.cpp:410
+msgid "Saving to:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 54
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 143
+#: ui/transferdetails.cpp:39 rc.cpp:284 rc.cpp:419
+msgid "Status:"
+msgstr ""
+
+#: ui/transferdetails.cpp:75
+#, fuzzy, kde-format
+#| msgid "%1% of %2 - %3"
+msgid "%1 of %2"
+msgstr "%3 - %2'dan %1%"
+
+#: ui/droptarget.cpp:87
+#, fuzzy
+#| msgid "Sticky"
+msgctxt "fix position for droptarget"
+msgid "Sticky"
+msgstr "Yopishqoq"
+
+#: ui/droptarget.cpp:221 mainwindow.cpp:806
+#, fuzzy
+msgid "&Download"
+msgstr "Yozib olish davom ettrildi"
+
+#: ui/droptarget.cpp:222 mainwindow.cpp:807
+#, fuzzy
+msgid "&Load transferlist"
+msgstr "Vazifani ochish:"
+
+#: ui/droptarget.cpp:280
+#, fuzzy
+msgid "Show Main Window"
+msgstr "Ishga tushganda asosiy oynani koʻrsatish"
+
+#: ui/droptarget.cpp:281
+#, fuzzy
+msgid "Hide Main Window"
+msgstr "&Log oynasini bekitish"
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 51
+#: ui/droptarget.cpp:358 rc.cpp:132
+msgid "Drop Target"
+msgstr ""
+
+#: ui/droptarget.cpp:359
+msgid "You can drag download links into the drop target."
+msgstr ""
+
+#: ui/droptarget.cpp:404
+msgid ""
+"Drop target has been hidden. If you want to show it again, go to Settings-"
+">Configure KGet->Look & Feel."
+msgstr ""
+
+#: ui/droptarget.cpp:406
+msgid "Hiding drop target"
+msgstr ""
+
+#: ui/viewscontainer.cpp:44
+#, fuzzy, kde-format
+#| msgid "Default folder:"
+msgid "Details for: %1"
+msgstr "Andoza jild:"
+
+#: ui/viewscontainer.cpp:49
+#, fuzzy
+msgid "All downloads"
+msgstr "Qisman yozib olinganni belgilash"
+
+#: ui/viewscontainer.cpp:54
+#, fuzzy
+msgid "Finished downloads"
+msgstr "Tugadi"
+
+#: ui/viewscontainer.cpp:83
+#, fuzzy
+msgid "Transfers:"
+msgstr "&Vazifa"
+
+#: ui/viewscontainer.cpp:186
+#, fuzzy
+msgid "Downloads"
+msgstr "Yozib olish davom ettrildi"
+
+#: ui/viewscontainer.cpp:199
+#, fuzzy
+msgid "Transfer details:"
+msgstr " Vazifalar: %1 "
+
+#: ui/linkview/kget_linkview.h:101
+msgctxt "filter: show all file types"
+msgid "All"
+msgstr ""
+
+#: ui/linkview/kget_linkview.h:102
+msgid "Videos"
+msgstr ""
+
+#: ui/linkview/kget_linkview.h:103
+msgid "Audio"
+msgstr ""
+
+#: ui/linkview/kget_linkview.h:104
+msgid "Archives"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:54
+#, fuzzy
+#| msgid "No Links"
+msgid "Import Links"
+msgstr "Bogʻlama yoʻq"
+
+#: ui/linkview/kget_linkview.cpp:76
+msgid "Filter files here..."
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:87
+msgid "Show:"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:98
+msgid "File with links to import:"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:127 ui/linkview/kget_linkview.cpp:317
+msgid "Select all"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:128 ui/linkview/kget_linkview.cpp:318
+msgid "Deselect all"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:130
+msgid "Show web content"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:131
+#, fuzzy
+#| msgid "Download finished"
+msgid "Download checked"
+msgstr "Yozib olish bajarildi"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/scandlg.ui line 183
+#: ui/linkview/kget_linkview.cpp:133 rc.cpp:207
+msgid "Cancel"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:176
+msgid "Auxiliar header"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:177
+#, fuzzy
+#| msgid "Local File Name"
+msgid "File Name"
+msgstr "Lokal faylning nomi"
+
+#: ui/linkview/kget_linkview.cpp:178
+msgid "Description"
+msgstr "Taʼrifi"
+
+#: ui/linkview/kget_linkview.cpp:179
+#, fuzzy
+msgctxt "list header: type of file"
+msgid "File Type"
+msgstr "Fayl turi"
+
+#: ui/linkview/kget_linkview.cpp:180
+msgid "Location (URL)"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:234
+#, kde-format
+msgid "Links in: %1 - KGet"
+msgstr "Bogʻlamalar: %1 -KGet"
+
+#: ui/linkview/kget_linkview.cpp:317
+msgid "Select all filtered"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:318
+msgid "Deselect all filtered"
+msgstr ""
+
+#: extensions/konqueror/kget_plug_in.cpp:43
+#, fuzzy
+msgid "Download Manager"
+msgstr "Yozib olish boshqaruvchisi"
+
+#: extensions/konqueror/kget_plug_in.cpp:50 mainwindow.cpp:257
+msgid "Show Drop Target"
+msgstr ""
+
+#: extensions/konqueror/kget_plug_in.cpp:57
+msgid "List All Links"
+msgstr "Hamma bogʻlamalarni koʻrsatish"
+
+#: extensions/konqueror/kget_plug_in.cpp:62
+#, fuzzy
+#| msgid "List All Links"
+msgid "List Selected Links"
+msgstr "Hamma bogʻlamalarni koʻrsatish"
+
+#: extensions/konqueror/kget_plug_in.cpp:197
+msgid "There are no links in the active frame of the current HTML page."
+msgstr ""
+
+#: extensions/konqueror/kget_plug_in.cpp:198
+msgid "No Links"
+msgstr "Bogʻlama yoʻq"
+
+#: main.cpp:113 mainwindow.cpp:84
+msgid "KGet"
+msgstr "KGet"
+
+#: main.cpp:114
+msgid "An advanced download manager for KDE"
+msgstr "KDE uchun yozib olish boshqaruvchisi"
+
+#: main.cpp:116
+msgid ""
+"(C) 2005 - 2008, The KGet developers\n"
+"(C) 2001 - 2002, Patrick Charbonnier\n"
+"(C) 2002, Carsten Pfeiffer\n"
+"(C) 1998 - 2000, Matej Koss"
+msgstr ""
+
+#: main.cpp:120
+msgid "<a href=\"mailto:kget@kde.org\">kget@kde.org</a>"
+msgstr ""
+
+#: main.cpp:122
+msgid "Dario Massarin"
+msgstr ""
+
+#: main.cpp:122
+msgid "Maintainer, Core Developer"
+msgstr ""
+
+#: main.cpp:123
+msgid "Urs Wolfer"
+msgstr ""
+
+#: main.cpp:123
+msgid "Core Developer"
+msgstr ""
+
+#: main.cpp:124
+msgid "Manolo Valdes"
+msgstr ""
+
+#: main.cpp:124
+msgid "Core Developer, Multithreaded Plugin Author"
+msgstr ""
+
+#: main.cpp:125
+msgid "Javier Goday"
+msgstr ""
+
+#: main.cpp:125 main.cpp:126
+msgid "Developer"
+msgstr ""
+
+#: main.cpp:126
+msgid "Lukas Appelhans"
+msgstr ""
+
+#: main.cpp:127
+msgid "Patrick Charbonnier"
+msgstr ""
+
+#: main.cpp:127 main.cpp:128 main.cpp:129
+msgid "Former Developer"
+msgstr ""
+
+#: main.cpp:128
+msgid "Carsten Pfeiffer"
+msgstr ""
+
+#: main.cpp:129
+msgid "Matej Koss"
+msgstr ""
+
+#: main.cpp:130
+msgid "Joris Guisson"
+msgstr ""
+
+#: main.cpp:130
+msgid "BTCore (KTorrent) Developer"
+msgstr ""
+
+#: main.cpp:131
+msgid "Mensur Zahirovic (Nookie)"
+msgstr ""
+
+#: main.cpp:131
+msgid "Design of Webinterface"
+msgstr ""
+
+#: main.cpp:136
+msgid "Start KGet with drop target"
+msgstr ""
+
+#: main.cpp:137
+msgid "Start KGet with hidden main window"
+msgstr ""
+
+#: main.cpp:138
+msgid "Start KGet without drop target animation"
+msgstr ""
+
+#: main.cpp:139
+msgid "URL(s) to download"
+msgstr "Yozib olish uchun URL(lar)"
+
+#: mainwindow.cpp:118
+msgid "&New Download..."
+msgstr ""
+
+#: mainwindow.cpp:124
+#, fuzzy
+#| msgid "&Import Transfer List..."
+msgid "&Import Transfers..."
+msgstr "Vazifalar roʻyxatini &import qilish..."
+
+#: mainwindow.cpp:130
+#, fuzzy
+msgid "&Export Transfers List..."
+msgstr "Vazifalar roʻyxatini &eksport qilish..."
+
+#: mainwindow.cpp:136
+msgid "Delete Group"
+msgstr ""
+
+#: mainwindow.cpp:141
+#, fuzzy
+msgid "Rename Group"
+msgstr "Andoza jild"
+
+#: mainwindow.cpp:146
+msgid "Set Icon"
+msgstr ""
+
+#: mainwindow.cpp:151
+#, fuzzy
+msgid "Auto-Paste Mode"
+msgstr "Avto-qoʻ&yish usuli"
+
+#: mainwindow.cpp:154
+msgid ""
+"<b>Auto paste</b> button toggles the auto-paste mode on and off.\n"
+"When set, KGet will periodically scan the clipboard for URLs and paste them "
+"automatically."
+msgstr ""
+
+#: mainwindow.cpp:160
+#, fuzzy
+msgid "Use KGet as Konqueror Download Manager"
+msgstr "Konqueror orqali yozi&b olish uchun KGet dasturidan foydalanilmasin"
+
+#: mainwindow.cpp:183
+#, fuzzy
+msgctxt "delete selected transfer item"
+msgid "Delete Selected"
+msgstr "Fayl tanlanmagan"
+
+#: mainwindow.cpp:189
+msgctxt "delete all finished transfers"
+msgid "Delete all finished"
+msgstr ""
+
+#: mainwindow.cpp:194
+#, fuzzy
+#| msgid "Download finished"
+msgctxt "redownload selected transfer item"
+msgid "Redownload Selected"
+msgstr "Yozib olish bajarildi"
+
+#: mainwindow.cpp:199
+msgid "Start / Resume All"
+msgstr ""
+
+#: mainwindow.cpp:205
+#, fuzzy
+msgid "Start / Resume Selected"
+msgstr "Fayl tanlanmagan"
+
+#: mainwindow.cpp:210
+msgid "Stop All"
+msgstr ""
+
+#: mainwindow.cpp:216
+#, fuzzy
+msgid "Stop Selected"
+msgstr "Fayl tanlanmagan"
+
+#: mainwindow.cpp:220
+msgid "Start / Resume"
+msgstr ""
+
+#: mainwindow.cpp:228
+#, fuzzy
+msgid "Stop"
+msgstr "Toʻxtatildi"
+
+#: mainwindow.cpp:237
+#, fuzzy
+msgid "Open Destination"
+msgstr "M&anzilni ochish"
+
+#: mainwindow.cpp:242 mainwindow.cpp:379
+#, fuzzy
+msgid "Open File"
+msgstr "&Faylni ochish"
+
+#: mainwindow.cpp:247
+#, fuzzy
+msgid "Show Details"
+msgstr "mavnur@gmail.com, kmashrab@uni-bremen.de"
+
+#: mainwindow.cpp:252
+#, fuzzy
+msgid "Copy URL to Clipboard"
+msgstr "Manzilni (URL) xotiraga &olish"
+
+#: mainwindow.cpp:263
+#, fuzzy
+msgid "&Transfer History"
+msgstr "Vazifani ochish:"
+
+#: mainwindow.cpp:269
+msgid "&Group Settings"
+msgstr ""
+
+#: mainwindow.cpp:275
+#, fuzzy
+msgid "&Transfer Settings"
+msgstr " Vazifalar: %1 "
+
+#: mainwindow.cpp:281
+#, fuzzy
+#| msgid "No Links"
+msgid "Import &Links"
+msgstr "Bogʻlama yoʻq"
+
+#: mainwindow.cpp:320
+#, fuzzy
+#| msgid ""
+#| "This is the first time that you have run KGet.\n"
+#| "Do you want to use KGet as Download Manager for Konqueror?"
+msgid ""
+"This is the first time you have run KGet.\n"
+"Would you like to enable KGet as the download manager for Konqueror?"
+msgstr ""
+"KGet birinchi marta ishga tushirilmoqda.\n"
+"Konqueror orqali yozib olish uchun KGet dasturidan foydalanishni istaysizmi?"
+
+#: mainwindow.cpp:322
+#, fuzzy
+msgid "Konqueror Integration"
+msgstr "Konqueror'ga bogʻlash"
+
+#: mainwindow.cpp:322
+msgid "Enable"
+msgstr "Yoqish"
+
+#: mainwindow.cpp:323
+msgid "Do Not Enable"
+msgstr "Yoqilmasin"
+
+#: mainwindow.cpp:378
+msgid "All Openable Files"
+msgstr ""
+
+#: mainwindow.cpp:395
+#, fuzzy
+#| msgid ""
+#| "Some transfers are still running.\n"
+#| "Are you sure you want to quit KGet?"
+msgid ""
+"Some transfers are still running.\n"
+"Are you sure you want to close KGet?"
+msgstr ""
+"Baʼzi vazifalar hali ham bajarilmoqda.\n"
+"Shunga qaramasdan KGet'dan chiqishni istaysizmi?"
+
+#: mainwindow.cpp:397
+msgid "Confirm Quit"
+msgstr ""
+
+#: mainwindow.cpp:430
+#, fuzzy
+msgid "KGet Transfer List"
+msgstr "Vazifani ochish:"
+
+#: mainwindow.cpp:432
+#, fuzzy
+msgid "Export Transfers"
+msgstr "Vazifalar roʻyxatini &eksport qilish..."
+
+#: mainwindow.cpp:455
+#, fuzzy
+msgid "Enter Group Name"
+msgstr "Nurali Abdurahmonov, Mashrab Quvatov"
+
+#: mainwindow.cpp:456
+#, fuzzy
+msgid "Group name:"
+msgstr "Nurali Abdurahmonov, Mashrab Quvatov"
+
+#: mainwindow.cpp:696
+msgid ""
+"KGet has been temporarily disabled as download manager for Konqueror. If you "
+"want to disable it forever, go to Settings->Advanced and disable \"Use as "
+"download manager for Konqueror\"."
+msgstr ""
+
+#: mainwindow.cpp:699
+#, fuzzy
+msgid "Konqueror Integration disabled"
+msgstr "Konqueror'ga bogʻlash"
+
+#: rc.cpp:1
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nurali Abdurahmonov, Mashrab Quvatov"
+
+#: rc.cpp:2
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mavnur@gmail.com, kmashrab@uni-bremen.de"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 28
+#: rc.cpp:5
+msgid "Start downloading files immediately after startup"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 35
+#: rc.cpp:8
+msgid "Limit maximum downloads per group"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 47
+#: rc.cpp:11
+msgid "Downloads from the same server:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 54
+#: rc.cpp:14
+#, fuzzy
+msgid "Downloads number:"
+msgstr "Yozib olish boshqaruvchisi"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 91
+#: rc.cpp:17
+#, fuzzy
+#| msgid "Speed"
+msgid "Speed limit"
+msgstr "Tezlik"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 100
+#: rc.cpp:20
+#, fuzzy
+msgid "Per Transfer:"
+msgstr "&Vazifa"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 123
+#: rc.cpp:23
+#, fuzzy
+#| msgid "0 B/s"
+msgid "kBi/s"
+msgstr "0 B/s"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 139
+#: rc.cpp:26
+#, fuzzy
+msgid "Global Download-Limit:"
+msgstr "Yozib olish davom ettrildi"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 146
+#: rc.cpp:29
+#, fuzzy
+msgid "Global Upload-Limit:"
+msgstr "Yozib olish davom ettrildi"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 153
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 160
+#: rc.cpp:32 rc.cpp:35
+#, fuzzy
+#| msgid " %1 KB/s "
+msgid "KiB/s"
+msgstr " %1 Kb/s "
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 196
+#: rc.cpp:38
+#, fuzzy
+msgid "Reconnect on error or broken connection"
+msgstr "Aloqa uzilganda"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 205
+#: rc.cpp:41
+#, fuzzy
+msgid "Retry after:"
+msgstr "Qayta ulanish vaqti:"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 212
+#: rc.cpp:44
+msgid "Number of retries:"
+msgstr "Urinishlar soni:"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 242
+#: rc.cpp:47
+msgid "sec"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 258
+#: rc.cpp:50
+#, fuzzy
+msgid "After Completing Downloads"
+msgstr "Vazifalar tugagach dasturdan avto-chiqish"
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 264
+#: rc.cpp:53
+#, fuzzy
+msgid "Auto shutdown"
+msgstr "Avto-chiqish usuli yoqildi."
+
+#. i18n: tag string
+#. i18n: file conf/dlgnetwork.ui line 271
+#: rc.cpp:56
+#, fuzzy
+msgid "Auto disconnect"
+msgstr "Avto-uzish usuli yoqildi."
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 28
+#: rc.cpp:59
+msgid "Ask save location for every new download"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 35
+#: rc.cpp:62
+msgid "Place new downloads inside default folder:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 69
+#: rc.cpp:65
+msgid "Except for specific file types"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 79
+#: rc.cpp:68
+msgid "Specify extension and target folder:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 104
+#: rc.cpp:71
+#, fuzzy
+#| msgid "Extension"
+msgid "File-Extension"
+msgstr "Kengaytma"
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 109
+#: rc.cpp:74
+msgid "Default Folder"
+msgstr "Andoza jild"
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 144
+#: rc.cpp:80
+msgid "Edit"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgdirectories.ui line 164
+#: rc.cpp:86
+msgid ""
+"Use a regular expression for the extension. \n"
+"Examples: *.tar.gz or *movies*.zip"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 19
+#: rc.cpp:90
+msgid "Disable confirmation dialogs (less verbosity)"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 26
+#: rc.cpp:93
+#, fuzzy
+msgid "Enable system tray icon"
+msgstr "Animatsiyadan foydalanish"
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 33
+#: rc.cpp:96
+#, fuzzy
+#| msgid "All the downloads are finished."
+msgid "Quit when all downloads have been finished"
+msgstr "Hamma yozib olish vazifalari bajarildi."
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 40
+#: rc.cpp:99
+#, fuzzy
+msgid "History"
+msgstr "Vazifani ochish:"
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 46
+#: rc.cpp:102
+msgid "History backend"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 63
+#: rc.cpp:105
+#, fuzzy
+msgid "Integration"
+msgstr "Konqueror'ga bogʻlash"
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 69
+#: rc.cpp:108
+#, fuzzy
+msgid "Use as download manager for Konqueror"
+msgstr "Konqueror orqali yozib olish uchun KGet dasturidan foydalanish"
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 76
+#: rc.cpp:111
+#, fuzzy
+msgid "Monitor clipboard for files to download"
+msgstr "Yozib olish uchun fayl tanlanmagan."
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 92
+#: rc.cpp:114
+msgid "Enable KDE global progress tracking"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 104
+#: rc.cpp:117
+msgid "Show every single download "
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgadvanced.ui line 111
+#: rc.cpp:120
+msgid "Show overall progress"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 28
+#: rc.cpp:123
+#, fuzzy
+msgid "Startup"
+msgstr "Qaytadan bosh&lash"
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 34
+#: rc.cpp:126
+msgid "Show main window at startup"
+msgstr "Ishga tushganda asosiy oynani koʻrsatish"
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 41
+#: rc.cpp:129
+msgid "Show splashscreen"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 57
+#: rc.cpp:135
+msgid "Show drop target"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 64
+#: rc.cpp:138
+#, fuzzy
+msgid "Enable animations"
+msgstr "Animatsiyadan foydalanish"
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 74
+#: rc.cpp:141
+#, fuzzy
+msgid "Transfer List"
+msgstr "Vazifani ochish:"
+
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 80
+#: rc.cpp:144
+msgid "Expandable transfer details instead of separate tabs"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgwebinterface.ui line 31
+#: rc.cpp:147
+msgid "Enable Webinterface"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgwebinterface.ui line 43
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 28
+#: rc.cpp:150 rc.cpp:213
+#, fuzzy
+#| msgid "Font:"
+msgid "Port:"
+msgstr "Shrift:"
+
+#. i18n: tag string
+#. i18n: file conf/dlgwebinterface.ui line 70
+#: rc.cpp:153
+msgid "User:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file conf/dlgwebinterface.ui line 84
+#: rc.cpp:156
+msgid "Password:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 16
+#: rc.cpp:159
+msgid "Threads"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 22
+#: rc.cpp:162
+#, fuzzy
+#| msgid "Number of retries:"
+msgid "Number of threads:"
+msgstr "Urinishlar soni:"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 42
+#: rc.cpp:165
+msgid "Minimal segment size:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 62
+#. i18n: tag string
+#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 91
+#: rc.cpp:168 rc.cpp:174
+#, fuzzy
+#| msgid "0 B/s"
+msgid "kBi"
+msgstr "0 B/s"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 84
+#: rc.cpp:171
+msgid "Save data every:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/multisegmentkio/dlgmultisegkio.ui line 113
+#: rc.cpp:177
+msgid "Use search engines"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/scandlg.ui line 16
+#: rc.cpp:180
+msgid "Scanning data of torrent :"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/scandlg.ui line 30
+#: rc.cpp:183
+#, fuzzy
+#| msgid "Number of retries:"
+msgid "Number of chunks found :"
+msgstr "Urinishlar soni:"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/scandlg.ui line 40
+#: rc.cpp:186
+#, fuzzy
+#| msgid "Number of retries:"
+msgid "Number of chunks failed :"
+msgstr "Urinishlar soni:"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/scandlg.ui line 50
+#: rc.cpp:189
+#, fuzzy
+#| msgid "Number of retries:"
+msgid "Number of chunks not downloaded:"
+msgstr "Urinishlar soni:"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/scandlg.ui line 57
+#: rc.cpp:192
+#, fuzzy
+#| msgid "Number of retries:"
+msgid "Number of chunks downloaded:"
+msgstr "Urinishlar soni:"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/scandlg.ui line 77
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/scandlg.ui line 102
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/scandlg.ui line 124
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/scandlg.ui line 137
+#: rc.cpp:195 rc.cpp:198 rc.cpp:201 rc.cpp:204
+msgid "0"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 51
+#: rc.cpp:216
+msgid "Upload Limit per Transfer: (0 if no limit)"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 58
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 75
+#. i18n: tag string
+#. i18n: file ui/transfersettingsdialog.ui line 45
+#. i18n: tag string
+#. i18n: file ui/transfersettingsdialog.ui line 71
+#. i18n: tag string
+#. i18n: file ui/groupsettingsdialog.ui line 49
+#. i18n: tag string
+#. i18n: file ui/groupsettingsdialog.ui line 75
+#: rc.cpp:219 rc.cpp:225 rc.cpp:383 rc.cpp:389 rc.cpp:443 rc.cpp:449
+msgid "KiB"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 68
+#: rc.cpp:222
+msgid "Download Limit per Transfer: (0 if no limit)"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 85
+#: rc.cpp:228
+msgid "Maximum Shared Ration: (0 if no limit)"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 120
+#: rc.cpp:234
+#, fuzzy
+#| msgid "Default Folder"
+msgid "Default Torrent-Folder:"
+msgstr "Andoza jild"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 140
+#: rc.cpp:237
+#, fuzzy
+#| msgid "Default Folder"
+msgid "Default temporary folder"
+msgstr "Andoza jild"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btsettingswidget.ui line 157
+#: rc.cpp:240
+msgid "Preallocate disk-space"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/webseedstab.ui line 21
+#: rc.cpp:243
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Webseed to add to the "
+"torrent.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Note: </span>Only http webseeds are supported.</p></body></"
+"html>"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/webseedstab.ui line 28
+#: rc.cpp:251
+msgid "Add Webseed"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/webseedstab.ui line 50
+#: rc.cpp:254
+#, fuzzy
+msgid "Remove Webseed"
+msgstr "Da&vom etish"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui line 23
+#: rc.cpp:260
+#, fuzzy
+#| msgid "Total"
+msgid "Total:"
+msgstr "Jami"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui line 59
+#: rc.cpp:263
+msgid "Currently downloading:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui line 95
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 163
+#: rc.cpp:266 rc.cpp:347
+#, fuzzy
+msgid "Downloaded:"
+msgstr "Yozib olish davom ettrildi"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui line 131
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 205
+#: rc.cpp:269 rc.cpp:365
+msgid "Excluded:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui line 167
+#: rc.cpp:272
+msgid "Left:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui line 203
+#: rc.cpp:275
+#, fuzzy
+#| msgid " Size: %1 "
+msgid "Size:"
+msgstr " Hajmi: %1 "
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 22
+#: rc.cpp:278
+#, fuzzy
+#| msgid "Open Transfer"
+msgid "Current Tracker"
+msgstr "Vazifani ochish"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 30
+#: rc.cpp:281
+msgid "URL:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 80
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 47
+#: rc.cpp:287 rc.cpp:320
+#, fuzzy
+#| msgid "Speed"
+msgid "Seeders:"
+msgstr "Tezlik"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 104
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 99
+#: rc.cpp:290 rc.cpp:332
+msgid "Leechers:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 128
+#: rc.cpp:293
+#, fuzzy
+msgid "Times Downloaded:"
+msgstr "Yozib olish davom ettrildi"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 152
+#: rc.cpp:296
+msgid "Next Update In:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 191
+#: rc.cpp:299
+msgid "Update Tracker"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 216
+#: rc.cpp:302
+#, fuzzy
+#| msgid "Open Transfer"
+msgid "Available Trackers"
+msgstr "Vazifani ochish"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 229
+#: rc.cpp:305
+msgid "Add Tracker"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 241
+#: rc.cpp:308
+#, fuzzy
+#| msgid "Open Transfer"
+msgid "Remove Tracker"
+msgstr "Vazifani ochish"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 248
+#: rc.cpp:311
+msgid "Change Tracker"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/advanceddetails/trackerview.ui line 268
+#: rc.cpp:314
+msgid "Restore Defaults"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 29
+#: rc.cpp:317
+#, fuzzy
+msgid "Stats"
+msgstr "Qaytadan bosh&lash"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 60
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 86
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 112
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 138
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 170
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 184
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 198
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 212
+#: rc.cpp:323 rc.cpp:329 rc.cpp:335 rc.cpp:341 rc.cpp:350 rc.cpp:356
+#: rc.cpp:362 rc.cpp:368
+msgid "<n>"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 73
+#: rc.cpp:326
+#, fuzzy
+#| msgid "Download finished"
+msgid "Download-Speed:"
+msgstr "Yozib olish bajarildi"
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 125
+#: rc.cpp:338
+msgid "Upload-Speed:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 177
+#: rc.cpp:353
+msgctxt "chunks left"
+msgid "Left:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 191
+#: rc.cpp:359
+msgctxt "all chunks"
+msgid "All:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file transfer-plugins/bittorrent/btdetailswidgetfrm.ui line 240
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 71
+#: rc.cpp:371 rc.cpp:413
+#, fuzzy
+#| msgid "Source:"
+msgctxt "source-file"
+msgid "Source:"
+msgstr "Manba:"
+
+#. i18n: tag string
+#. i18n: file ui/transfersettingsdialog.ui line 22
+#: rc.cpp:377
+#, fuzzy
+msgid "Transfer-Settings"
+msgstr " Vazifalar: %1 "
+
+#. i18n: tag string
+#. i18n: file ui/transfersettingsdialog.ui line 29
+#: rc.cpp:380
+#, fuzzy
+msgid "Upload Limit"
+msgstr "Yozib olish davom ettrildi"
+
+#. i18n: tag string
+#. i18n: file ui/transfersettingsdialog.ui line 55
+#: rc.cpp:386
+#, fuzzy
+msgid "Download Limit"
+msgstr "Yozib olish davom ettrildi"
+
+#. i18n: tag string
+#. i18n: file ui/transfersettingsdialog.ui line 81
+#: rc.cpp:392
+msgid "Maximum Share Ratio"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/newtransferwidget.ui line 39
+#: rc.cpp:398
+msgid "Url"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/newtransferwidget.ui line 59
+#: rc.cpp:404
+#, fuzzy
+msgid "Transfer Group"
+msgstr "&Vazifa"
+
+#. i18n: tag string
+#. i18n: file ui/newtransferwidget.ui line 89
+#: rc.cpp:407
+#, fuzzy
+#| msgid "Default folder:"
+msgid "Set as default folder"
+msgstr "Andoza jild:"
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 123
+#: rc.cpp:416
+msgid "<done> MiB of <todo> MiB"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 150
+#: rc.cpp:422
+msgid "<icon>"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 157
+#: rc.cpp:425
+msgid "<status>"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 183
+#: rc.cpp:428
+#, fuzzy
+msgid "<speed>"
+msgstr "Tezlik"
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 203
+#: rc.cpp:431
+#, fuzzy
+#| msgid "Rem. Time"
+msgid "Remaining Time:"
+msgstr "Qolgan vaqt"
+
+#. i18n: tag string
+#. i18n: file ui/transferdetailsfrm.ui line 210
+#: rc.cpp:434
+#, fuzzy
+#| msgid "Rem. Time"
+msgid "<remaining time>"
+msgstr "Qolgan vaqt"
+
+#. i18n: tag string
+#. i18n: file ui/groupsettingsdialog.ui line 26
+#: rc.cpp:437
+msgid "Group-Settings"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/groupsettingsdialog.ui line 33
+#: rc.cpp:440
+#, fuzzy
+#| msgid "Download finished"
+msgid "Max download Speed"
+msgstr "Yozib olish bajarildi"
+
+#. i18n: tag string
+#. i18n: file ui/groupsettingsdialog.ui line 59
+#: rc.cpp:446
+msgid "Max upload Speed"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/groupsettingsdialog.ui line 85
+#: rc.cpp:452
+#, fuzzy
+#| msgid "Default Folder"
+msgid "Default folder:"
+msgstr "Andoza jild"
+
+#. i18n: tag string
+#. i18n: file ui/history/transferhistory.ui line 26
+#: rc.cpp:455
+msgid "Clear History"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/history/transferhistory.ui line 46
+#: rc.cpp:458
+#, fuzzy
+#| msgid "Offline mode"
+msgctxt "View modes"
+msgid "View Modes"
+msgstr "Oflan usuli"
+
+#. i18n: tag string
+#. i18n: file ui/history/transferhistory.ui line 99
+#: rc.cpp:461
+msgid "Select ranges"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/history/transferhistory.ui line 115
+#: rc.cpp:464
+#, fuzzy
+msgid "Date"
+msgstr "Qaytadan bosh&lash"
+
+#. i18n: tag string
+#. i18n: file ui/history/transferhistory.ui line 125
+#: rc.cpp:470
+msgid "Host"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ui/history/transferhistory.ui line 136
+#: rc.cpp:473
+#, fuzzy
+msgid "Filter history"
+msgstr "Vazifani ochish:"
+
+#. i18n: tag string
+#. i18n: file ui/history/transferhistory.ui line 161
+#: rc.cpp:476
+#, fuzzy
+msgctxt "delete selected transfer"
+msgid "Delete Selected"
+msgstr "Fayl tanlanmagan"
+
+#. i18n: tag string
+#. i18n: file ui/history/transferhistory.ui line 166
+#: rc.cpp:479
+#, fuzzy
+msgid "Download"
+msgstr "Yozib olish davom ettrildi"
+
+#. i18n: tag text
+#. i18n: file ui/kgetui.rc line 4
+#: rc.cpp:482
+#, fuzzy
+msgid "&File"
+msgstr "&Faylni ochish"
+
+#. i18n: tag text
+#. i18n: file ui/kgetui.rc line 15
+#: rc.cpp:485
+#, fuzzy
+msgid "&Downloads"
+msgstr "Yozib olish davom ettrildi"
+
+#. i18n: tag text
+#. i18n: file ui/kgetui.rc line 25
+#: rc.cpp:488
+msgid "&Settings"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file ui/kgetui.rc line 37
+#: rc.cpp:491
+msgid "&Help"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file ui/kgetui.rc line 40
+#: rc.cpp:494
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: tag Text
+#. i18n: file extensions/konqueror/kget_plug_in.rc line 4
+#: rc.cpp:497
+msgid "&Tools"
+msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not read file:\n"
+#~| "%1"
+#~ msgid "Cannot expand file %1"
+#~ msgstr ""
+#~ "Faylni oʻqib boʻlmadi:\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Error while writing file:\n"
+#~| "%1"
+#~ msgid "Error writing to %1 : %2"
+#~ msgstr ""
+#~ "Faylga yozishda xato roʻy berdi:\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Error while writing file:\n"
+#~| "%1"
+#~ msgid "Error writing to %1"
+#~ msgstr ""
+#~ "Faylga yozishda xato roʻy berdi:\n"
+#~ "%1"
+
+#, fuzzy
+#~ msgid "Form"
+#~ msgstr "yoki"
+
+#, fuzzy
+#~| msgid "List All Links"
+#~ msgid "&List Links"
+#~ msgstr "Hamma bogʻlamalarni koʻrsatish"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not read file:\n"
+#~| "%1"
+#~ msgid "Cannot expand file"
+#~ msgstr ""
+#~ "Faylni oʻqib boʻlmadi:\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid "Normal"
+#~ msgctxt "Download normally(not as first or last"
+#~ msgid "Normal"
+#~ msgstr "Oddiy"
+
+#, fuzzy
+#~| msgid "Speed"
+#~ msgid "&Speed Limits"
+#~ msgstr "Tezlik"
+
+#, fuzzy
+#~| msgid "Speed"
+#~ msgid "Bittorrent-Speedlimits"
+#~ msgstr "Tezlik"
+
+#, fuzzy
+#~| msgid "Speed"
+#~ msgid "Speed-Limits"
+#~ msgstr "Tezlik"
+
+#, fuzzy
+#~ msgid " of "
+#~ msgstr "%2'dan %1"
+
+#, fuzzy
+#~ msgid "Download Folder"
+#~ msgstr "Andoza jild"
+
+#, fuzzy
+#~ msgid "Extension:"
+#~ msgstr "Kengaytma"
+
+#, fuzzy
+#~ msgid "Folder:"
+#~ msgstr "Jildlar"
+
+#~ msgid ""
+#~ "Already saving URL\n"
+#~ "%1"
+#~ msgstr ""
+#~ "URL allaqachon yozib olinmoqda:\n"
+#~ "%1"
+
+#, fuzzy
+#~ msgid "Default Group"
+#~ msgstr "Andoza jild"
+
+#, fuzzy
+#~ msgid "DlgAdvanced"
+#~ msgstr "Qoʻshimcha"
+
+#, fuzzy
+#~ msgid "Delete Group."
+#~ msgstr "Andoza jild"
+
+#, fuzzy
+#~ msgid "Hide Me"
+#~ msgstr "Fayl nomi"
+
+#~ msgid ""
+#~ "Folder does not exist:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Quyidagi jild mavjud emas\n"
+#~ "%1"
+
+#~ msgid "&Keep this window open after the operation is complete."
+#~ msgstr "Bajarish tugagach oynani &ochiq qoldirish"
+
+#~ msgid "Log"
+#~ msgstr "Log"
+
+#~ msgid "Resumed"
+#~ msgstr "Davom etilgan"
+
+#~ msgid "Not resumed"
+#~ msgstr "Davom etilmagan"
+
+#~ msgid "Automation"
+#~ msgstr "Avtomatlashtirish"
+
+#~ msgid "Limits"
+#~ msgstr "Cheklovlar"
+
+#~ msgid "System"
+#~ msgstr "Tizim"
+
+#~ msgid "Maximize"
+#~ msgstr "Yoyish"
+
+#~ msgid "Minimize"
+#~ msgstr "Yigʻish"
+
+#~ msgid ""
+#~ "This is a folder and not a file:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Bu fayl emas, aksincha jild:\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "You do not have read permission for the file:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Sizda ushbu faylni oʻqishga ruxsat yoʻq:\n"
+#~ "%1"
+
+#~ msgid "Could only read %1 bytes of %2."
+#~ msgstr "%2 baytdan faqat %1 baytni oʻqib boʻldi."
+
+#~ msgid ""
+#~ "File %1 exists.\n"
+#~ "Do you want to replace it?"
+#~ msgstr ""
+#~ "%1 fayli allaqachon mavjud.\n"
+#~ "Uni almashtirishni istaysizmi?"
+
+#~ msgid ""
+#~ "Failed to make a backup copy of %1.\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "%1 uchun zahira nusxani yaratib boʻlmadi.\n"
+#~ "Shunga qaramasdan davom etishni istaysizmi?"
+
+#~ msgid ""
+#~ "Could not open file for writing:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Yozish uchun faylni ochib boʻlmadi:\n"
+#~ "%1"
+
+#~ msgid "Could only write %1 bytes of %2."
+#~ msgstr "%2 baytdan faqat %1 baytni yozib boʻldi."
+
+#~ msgid "Welcome to KGet"
+#~ msgstr "KGet'ga marhamat"
+
+#~ msgid "Could not create valid socket"
+#~ msgstr "Yaroqli soket yaratib boʻlmadi"
+
+#~ msgid "Offline"
+#~ msgstr "Oflayn"
+
+#~ msgid "Starting offline"
+#~ msgstr "Oflayn holatiga oʻtilmoqda"
+
+#~ msgid "Import Text &File..."
+#~ msgstr "Matn &faylini import qilish..."
+
+#~ msgid "&Open Individual Window"
+#~ msgstr "Alohida oy&nada ochish"
+
+#~ msgid "Move to &Beginning"
+#~ msgstr "&Boshiga koʻchirish"
+
+#~ msgid "Move to &End"
+#~ msgstr "&Oxiriga koʻchirish"
+
+#~ msgid "&Pause"
+#~ msgstr "Vaqtincha toʻ&xtatish"
+
+#~ msgid "&Queue"
+#~ msgstr "&Navbatga qoʻyish"
+
+#~ msgid "&Timer"
+#~ msgstr "&Taymer"
+
+#~ msgid "Use &Animation"
+#~ msgstr "&Animatsiyadan foydalanish"
+
+#~ msgid "&Expert Mode"
+#~ msgstr "&Ekspert usuli"
+
+#~ msgid "&Use-Last-Folder Mode"
+#~ msgstr "Oxirgi &jild usulidan foydalanish"
+
+#~ msgid "Auto-&Disconnect Mode"
+#~ msgstr "Avto-&uzilish usuli"
+
+#~ msgid "Auto-S&hutdown Mode"
+#~ msgstr "Avto-&chiqish usuli"
+
+#~ msgid "&Offline Mode"
+#~ msgstr "&Oflayn usuli"
+
+#~ msgid "Show &Log Window"
+#~ msgstr "&Log oynasini koʻrsatish"
+
+#~ msgid "Enable &KGet as Konqueror Download Manager"
+#~ msgstr "Konqueror orqali yozi&b olish uchun KGet dasturidan foydalanish"
+
+#~ msgid " Files: %1 "
+#~ msgstr " Fayllar: %1 "
+
+#~ msgid " Size: %1 KB "
+#~ msgstr " Hajmi: %1 Kb "
+
+#~ msgid " Time: %1 "
+#~ msgstr " Vaqti: %1 "
+
+#~ msgid ""
+#~ "*.kgt|*.kgt\n"
+#~ "*|All Files"
+#~ msgstr ""
+#~ "*.kgt|*.kgt\n"
+#~ "*|Hamma fayllar"
+
+#~ msgid "Quitting..."
+#~ msgstr "Chiqilmoqda..."
+
+#~ msgid "Question"
+#~ msgstr "Savol"
+
+#~ msgid "Are you sure you want to delete this transfer?"
+#~ msgstr "Rostdan ham ushbu vazifani olib tashlashni istaysizmi?"
+
+#~ msgid "Stopping all jobs"
+#~ msgstr "Barcha vazifalar toʻxtatilmoqda"
+
+#~ msgid "Overwrite"
+#~ msgstr "Almashtirish"
+
+#~ msgid "Do Not Overwrite"
+#~ msgstr "Almashtirilmasin"
+
+#~ msgid "<i>%1</i> has been added."
+#~ msgstr "<i>%1</i> qoʻshildi."
+
+#~ msgid "1 download has been added."
+#~ msgid_plural "%n downloads have been added."
+#~ msgstr[0] "Bitta yozib olish vazifasi qoʻshildi."
+#~ msgstr[1] "%1-ta yozib olish vazifasi qoʻshildi."
+
+#~ msgid "Starting another queued job."
+#~ msgstr "Navbatdagi boshqa vazifa boshlanmoqda."
+
+#~ msgid "<i>%1</i> successfully downloaded."
+#~ msgstr "<i>%1</i> muvaffaqiyatli yozib olindi."
+
+#~ msgid "Offline mode on."
+#~ msgstr "Oflayn usuli yoqildi."
+
+#~ msgid "Offline mode off."
+#~ msgstr "Oflayn usuli oʻchirildi."
+
+#~ msgid "Expert mode on."
+#~ msgstr "Ekspert usuli yoqildi."
+
+#~ msgid "Expert mode off."
+#~ msgstr "Ekspert usuli oʻchirildi."
+
+#~ msgid "Auto disconnect off."
+#~ msgstr "Avto-uzish usuli oʻchirildi."
+
+#~ msgid "Auto shutdown off."
+#~ msgstr "Avto-chiqish usuli oʻchirildi."
+
+#~ msgid "Auto paste on."
+#~ msgstr "Avto-qoʻyish usuli yoqildi."
+
+#~ msgid "Auto paste off."
+#~ msgstr "Avto-qoʻyish usuli oʻchirildi."
+
+#~ msgid "<b>Transfers:</b> %1 "
+#~ msgstr "<b>Vazifalar:</b> %1 "
+
+#~ msgid "<br /><b>Files:</b> %1 "
+#~ msgstr "<br /><b>Fayllar:</b> %1 "
+
+#~ msgid "<br /><b>Size:</b> %1 "
+#~ msgstr "<br /><b>Hajmi:</b> %1 "
+
+#~ msgid "<br /><b>Time:</b> %1 "
+#~ msgstr "<br /><b>Vaqti:</b> %1 "
+
+#~ msgid "<br /><b>Speed:</b> %1/s"
+#~ msgstr "<br /><b>Tezligi:</b> %1/s"
+
+#~ msgid "Do you really want to disconnect?"
+#~ msgstr "Rostdan ham uzilishni istaysizmi?"
+
+#~ msgid "Disconnect"
+#~ msgstr "Uzilish"
+
+#~ msgid "Disconnecting..."
+#~ msgstr "Uzilmoqda..."
+
+#~ msgid "We are online."
+#~ msgstr "Biz onlaynmiz."
+
+#~ msgid "We are offline."
+#~ msgstr "Biz oflaynmiz."
+
+#, fuzzy
+#~ msgid "Id"
+#~ msgstr "Id"
+
+#~ msgid "Log Window"
+#~ msgstr "Log oynasi"
+
+#~ msgid "Mixed"
+#~ msgstr "Aralash"
+
+#~ msgid "Separated"
+#~ msgstr "Ajratilgan"
+
+#~ msgid "Add new transfers as:"
+#~ msgstr "Yangi vazifalarni qoʻshish:"
+
+#, fuzzy
+#~ msgid "Advanced individual windows"
+#~ msgstr "Har bir vazifa uchun alohida oyna"
+
+#~ msgid "Remove files from a list after success"
+#~ msgstr "Yozib olish muvaffaqiyatli tugagach vazifani roʻyxatdan olib tashlash"
+
+#~ msgid "Get file sizes"
+#~ msgstr "Fayl hajmini aniqlash"
+
+#~ msgid "Show individual windows"
+#~ msgstr "Alohida oynalarni koʻrsatish"
+
+#~ msgid "Automation Options"
+#~ msgstr "Avtomatlashtirish moslamalari"
+
+#~ msgid " min"
+#~ msgstr " daqiqa"
+
+#~ msgid "Auto disconnect after completing downloads"
+#~ msgstr "Vazifalar tugagach tarmoqdan avto-uzilish"
+
+#~ msgid "Autosave file list every:"
+#~ msgstr "Fayllar roʻyxatini avto-saqlash vaqti:"
+
+#, fuzzy
+#~ msgid "Timed disconnect"
+#~ msgstr "Belgilangan uzilish vaqti"
+
+#~ msgid "Disconnect command:"
+#~ msgstr "Uzilishi buyrugʻi:"
+
+#~ msgid "Auto paste from clipboard"
+#~ msgstr "Xotiradan avto-qoʻyish"
+
+#~ msgid "Reconnect Options"
+#~ msgstr "Qayta ulanish moslamalari"
+
+#~ msgid "Timeout Options"
+#~ msgstr "Taymaut moslamalari"
+
+#~ msgid "If no data arrives in:"
+#~ msgstr "Maʼlumotlar olinmasa:"
+
+#~ msgid "If server cannot resume:"
+#~ msgstr "Agar server davom etmasa:"
+
+#~ msgid "Permanent"
+#~ msgstr "Doimiy"
+
+#~ msgid "Ethernet"
+#~ msgstr "Ethernet"
+
+#~ msgid "PLIP"
+#~ msgstr "PLIP"
+
+#~ msgid "SLIP"
+#~ msgstr "SLIP"
+
+#~ msgid "PPP"
+#~ msgstr "PPP"
+
+#~ msgid "ISDN"
+#~ msgstr "ISDN"
+
+#~ msgid "Extension (* for all files):"
+#~ msgstr "Kengaytma (* hamma fayllar uchun):"
+
+#~ msgid "Limits Options"
+#~ msgstr "Cheklovlar moslamasi"
+
+#~ msgid "Maximum open connections:"
+#~ msgstr "Maksimal ulanish soni:"
+
+#~ msgid " bytes/sec"
+#~ msgstr " bayt/soniya"
+
+#~ msgid "Window style:"
+#~ msgstr "Oyna uslubi:"
+
+#~ msgid "To: %1"
+#~ msgstr "Bu yerga: %1"
+
+#~ msgid "unknown"
+#~ msgstr "nomaʼlum"
+
+#~ msgid "Attempt number %1"
+#~ msgstr "Urinish soni %1"
+
+#~ msgid "Stopping"
+#~ msgstr "Toʻxtalmoqda"
+
+#~ msgid "Pausing"
+#~ msgstr "Vaqtincha toʻxtatilmoqda"
+
+#~ msgid "Queueing"
+#~ msgstr "Navbatga qoʻyilmoqda"
+
+#~ msgid "Total size is %1 bytes"
+#~ msgstr "Umumiy hajmi %1 bayt"
+
+#~ msgid "The file size does not match."
+#~ msgstr "Fayl hajmi mos kelmaydi."
+
+#~ msgid "File Size checked"
+#~ msgstr "Fayl hajmi tekshirildi"
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "File Already exists"
+#~ msgstr "Fayl allaqachon mavjud"

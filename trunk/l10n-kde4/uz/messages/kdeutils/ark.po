@@ -1,0 +1,933 @@
+# translation of ark.po to
+# Copyright (C) 2003, 2004, 2006 Free Software Foundation, Inc.
+#
+# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003, 2004, 2006.
+# Abdurahmonov Nurali <mavnur@gmail.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: ark\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-04-21 20:10+0200\n"
+"PO-Revision-Date: 2006-12-17 13:36+0000\n"
+"Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
+"Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: app/main.cpp:32
+msgid "Ark"
+msgstr "Ark"
+
+#: app/main.cpp:33
+msgid "KDE Archiving tool"
+msgstr "KDE uchun arxivlash vositasi"
+
+#: app/main.cpp:35
+#, fuzzy
+#| msgid "(c) 1997-2003, The Various Ark Developers"
+msgid "(c) 1997-2007, The Various Ark Developers"
+msgstr "(S) 1997-2003, Turli Ark tuzuvchilari"
+
+#: app/main.cpp:38
+msgid "Henrique Pinto"
+msgstr ""
+
+#: app/main.cpp:39
+msgid "Maintainer"
+msgstr "Taʼminlovchi"
+
+#: app/main.cpp:41
+msgid "Helio Chissini de Castro"
+msgstr ""
+
+#: app/main.cpp:42
+msgid "Former maintainer"
+msgstr "Oldingi taʼminlovchi"
+
+#: app/main.cpp:44
+msgid "Georg Robbers"
+msgstr ""
+
+#: app/main.cpp:47
+msgid "Roberto Selbach Teixeira"
+msgstr ""
+
+#: app/main.cpp:50
+msgid "Francois-Xavier Duranceau"
+msgstr ""
+
+#: app/main.cpp:53
+msgid "Emily Ezust (Corel Corporation)"
+msgstr ""
+
+#: app/main.cpp:56
+msgid "Michael Jarrett (Corel Corporation)"
+msgstr ""
+
+#: app/main.cpp:59
+msgid "Robert Palmbos"
+msgstr ""
+
+#: app/main.cpp:63
+msgid "Bryce Corkins"
+msgstr ""
+
+#: app/main.cpp:64
+msgid "Icons"
+msgstr "Nishonchalar"
+
+#: app/main.cpp:66
+msgid "Liam Smit"
+msgstr ""
+
+#: app/main.cpp:67
+msgid "Ideas, help with the icons"
+msgstr ""
+
+#: app/main.cpp:69
+msgid "Andrew Smith"
+msgstr ""
+
+#: app/main.cpp:70
+msgid "bkisofs code"
+msgstr ""
+
+#: app/main.cpp:78
+msgid "URL of an archive to be opened"
+msgstr ""
+
+#: app/mainwindow.cpp:46
+msgid "Unable to find Ark's KPart component, please check your installation."
+msgstr ""
+
+#: app/mainwindow.cpp:87
+#, fuzzy
+msgctxt "action, to open an archive"
+msgid "Open"
+msgstr "&Ochish"
+
+#: app/mainwindow.cpp:88
+msgid ""
+"Click to open an archive, click and hold to open a recently-opened archive"
+msgstr ""
+
+#: app/mainwindow.cpp:89
+#, fuzzy
+#| msgid "Open 'archive'"
+msgid "Open an archive"
+msgstr "Arxivni ochish"
+
+#: kerfuffle/jobs.cpp:40
+msgid "Listing entries"
+msgstr ""
+
+#: kerfuffle/jobs.cpp:68
+#, fuzzy
+#| msgid "Extract all files"
+msgid "Extracting all files"
+msgstr "Hamma fayllarni ajratish"
+
+#: kerfuffle/jobs.cpp:72
+#, fuzzy, kde-format
+#| msgid "Extract all files"
+msgid "Extracting one file"
+msgid_plural "Extracting %1 files"
+msgstr[0] "Hamma fayllarni ajratish"
+msgstr[1] "Hamma fayllarni ajratish"
+
+#: kerfuffle/jobs.cpp:116
+#, fuzzy, kde-format
+#| msgid "Adding files..."
+msgid "Adding a file"
+msgid_plural "Adding %1 files"
+msgstr[0] "Fayllar qoʻshilmoqda..."
+msgstr[1] "Fayllar qoʻshilmoqda..."
+
+#: kerfuffle/jobs.cpp:157
+#, fuzzy, kde-format
+#| msgid "An error occurred while adding the files to the archive."
+msgid "Deleting a file from the archive"
+msgid_plural "Deleting %1 files"
+msgstr[0] "Fayllarni arxivga qoʻshishda xato roʻy berdi."
+msgstr[1] "Fayllarni arxivga qoʻshishda xato roʻy berdi."
+
+#: part/archivemodel.cpp:225
+msgctxt "Name of a file inside an archive"
+msgid "Name"
+msgstr ""
+
+#: part/archivemodel.cpp:227
+#, fuzzy
+#| msgid " Size "
+msgctxt "Uncompressed size of a file inside an archive"
+msgid "Size"
+msgstr " Hajmi "
+
+#: part/extractiondialog.cpp:41
+msgid "Extract"
+msgstr "Ajratish"
+
+#: part/infopanel.cpp:59
+msgid "No archive loaded"
+msgstr ""
+
+#: part/infopanel.cpp:96
+#, kde-format
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: part/infopanel.cpp:100
+msgid "Symbolic Link"
+msgstr ""
+
+#: part/infopanel.cpp:129
+#, fuzzy, kde-format
+#| msgid "0 files selected"
+msgid "One file selected"
+msgid_plural "%1 files selected"
+msgstr[0] "0 fayl tanlangan"
+msgstr[1] "0 fayl tanlangan"
+
+#: part/infopanel.cpp:181
+#, kde-format
+msgid "<b>Type:</b> %1<br/>"
+msgstr ""
+
+#: part/infopanel.cpp:185
+#, kde-format
+msgid "<b>Owner:</b> %1<br/>"
+msgstr ""
+
+#: part/infopanel.cpp:190
+#, kde-format
+msgid "<b>Group:</b> %1<br/>"
+msgstr ""
+
+#: part/infopanel.cpp:195
+#, kde-format
+msgid "<b>Target:</b> %1<br/>"
+msgstr ""
+
+#: part/jobtracker.cpp:85
+#, fuzzy
+#| msgid "Open extract dialog, quit when finished"
+msgid "Operation finished."
+msgstr "Ajratish oynasini ochish va tugagandan soʻng yopish"
+
+#: part/part.cpp:118
+#, fuzzy
+#| msgctxt "to view something"
+#| msgid "&View"
+msgctxt "to preview a file inside an archive"
+msgid "Pre&view"
+msgstr "&Koʻrish"
+
+#: part/part.cpp:120
+msgid "Click to preview the selected file"
+msgstr ""
+
+#: part/part.cpp:125
+msgid "E&xtract..."
+msgstr "&Ajratish"
+
+#: part/part.cpp:127
+msgid ""
+"Click to open an extraction dialog, where you can choose to extract either "
+"all files or just the selected ones"
+msgstr ""
+
+#: part/part.cpp:133
+msgid "Add &File..."
+msgstr "Faylni &qoʻshish"
+
+#: part/part.cpp:134
+#, fuzzy
+#| msgid "An error occurred while adding the files to the archive."
+msgid "Click to add files to the archive"
+msgstr "Fayllarni arxivga qoʻshishda xato roʻy berdi."
+
+#: part/part.cpp:140
+#, fuzzy
+#| msgid "Add Folde&r..."
+msgid "Add Fo&lder..."
+msgstr "&Jildni qoʻshish"
+
+#: part/part.cpp:141
+msgid "Click to add a folder to the archive"
+msgstr ""
+
+#: part/part.cpp:147
+msgid "De&lete"
+msgstr "Oʻch&irish"
+
+#: part/part.cpp:148
+#, fuzzy
+#| msgid "Do you really want to delete the selected items?"
+msgid "Click to delete the selected files"
+msgstr "Tanlangan elementlarni rostdan oʻchirishni istaysizmi?"
+
+#: part/part.cpp:180
+#, fuzzy
+#| msgid "Ark"
+msgid "ArkPart"
+msgstr "Ark"
+
+#: part/part.cpp:253
+msgid "The internal viewer cannot preview this file."
+msgstr ""
+
+#: part/part.cpp:346
+#, fuzzy
+#| msgid "All Files"
+msgid "Add Files"
+msgstr "Hamma fayllar"
+
+#: part/part.cpp:360
+#, fuzzy
+#| msgid "Add Folde&r..."
+msgid "Add Folder"
+msgstr "&Jildni qoʻshish"
+
+#: plugins/karchiveplugin/karchiveplugin.cpp:68
+#, kde-format
+msgid "Could not open the archive '%1' for reading"
+msgstr ""
+
+#: plugins/karchiveplugin/karchiveplugin.cpp:159
+#, kde-format
+msgid "Could not open the archive '%1' for writing."
+msgstr ""
+
+#: plugins/karchiveplugin/karchiveplugin.cpp:175
+#, fuzzy, kde-format
+#| msgid "An error occurred while adding the files to the archive."
+msgid "Could not add the directory %1 to the archive"
+msgstr "Fayllarni arxivga qoʻshishda xato roʻy berdi."
+
+#: plugins/karchiveplugin/karchiveplugin.cpp:183
+#: plugins/libzipplugin/zipplugin.cpp:208
+#, fuzzy, kde-format
+#| msgid "An error occurred while adding the files to the archive."
+msgid "Could not add the file %1 to the archive."
+msgstr "Fayllarni arxivga qoʻshishda xato roʻy berdi."
+
+#: plugins/libzipplugin/zipplugin.cpp:66
+#, fuzzy, kde-format
+#| msgid "Could not create the folder %1"
+msgid "Could not open the archive '%1'"
+msgstr "%1 jildini yaratib boʻlmadi"
+
+#: plugins/libzipplugin/zipplugin.cpp:77
+#, fuzzy, kde-format
+#| msgid "An error occurred while trying to create the archive."
+msgid "An error occurred while trying to read entry #%1 of the archive"
+msgstr "Arxivni yaratishda xato roʻy berdi."
+
+#: plugins/libzipplugin/zipplugin.cpp:145
+#, fuzzy, kde-format
+#| msgid "An error occurred while adding the files to the archive."
+msgid "Could not locate file '%1' in the archive"
+msgstr "Fayllarni arxivga qoʻshishda xato roʻy berdi."
+
+#: plugins/libzipplugin/zipplugin.cpp:153
+#, fuzzy
+#| msgid "Could not create the folder %1"
+msgid "Could not write to the destination file"
+msgstr "%1 jildini yaratib boʻlmadi"
+
+#: plugins/libzipplugin/zipplugin.cpp:190
+msgid "Adding directories is not supported yet, sorry."
+msgstr ""
+
+#: plugins/libzipplugin/zipplugin.cpp:199
+#, fuzzy, kde-format
+#| msgid "Could not create the folder %1"
+msgid "Could not read from the input file '%1'"
+msgstr "%1 jildini yaratib boʻlmadi"
+
+#: plugins/libzipplugin/zipplugin.cpp:227
+#, fuzzy, kde-format
+#| msgid "An error occurred while adding the files to the archive."
+msgid "Could not find a file named %1 in the archive."
+msgstr "Fayllarni arxivga qoʻshishda xato roʻy berdi."
+
+#: plugins/rarplugin/rarplugin.cpp:43
+msgid "Neither rar or unrar are available in your PATH."
+msgstr ""
+
+#, fuzzy
+#~| msgid "An error occurred while adding the files to the archive."
+#~ msgid "Could not add the file %1 to the archive"
+#~ msgstr "Fayllarni arxivga qoʻshishda xato roʻy berdi."
+
+#, fuzzy
+#~| msgid "Extracting file to view"
+#~ msgid "Extracting all files from the archive '%1'"
+#~ msgstr "Koʻrish uchun fayl ajratilmoqda"
+
+#, fuzzy
+#~| msgid "Extracting file to view"
+#~ msgid "Extracting one file from the archive %2"
+#~ msgid_plural "Extracting %1 files from the archive '%2'"
+#~ msgstr[0] "Koʻrish uchun fayl ajratilmoqda"
+#~ msgstr[1] "Koʻrish uchun fayl ajratilmoqda"
+
+#, fuzzy
+#~| msgid "An error occurred while adding the files to the archive."
+#~ msgid "Adding one file to the archive"
+#~ msgid_plural "Adding %1 files to the archive"
+#~ msgstr[0] "Fayllarni arxivga qoʻshishda xato roʻy berdi."
+#~ msgstr[1] "Fayllarni arxivga qoʻshishda xato roʻy berdi."
+
+#~ msgid "The deletion operation failed."
+#~ msgstr "Oʻchirish muvaffaqiyatsiz tugadi."
+
+#~ msgid "The password was incorrect. "
+#~ msgstr "Maxfiy soʻz xato. "
+
+#~ msgid "You must enter a password to extract the file:"
+#~ msgstr "Ajratish uchun maxfiy soʻzni kiriting:"
+
+#~ msgid "The extraction operation failed."
+#~ msgstr "Ajratish muvaffaqiyatsiz tugadi."
+
+#~ msgid "The addition operation failed."
+#~ msgstr "Qoʻshish muvaffaqiyatsiz tugadi."
+
+#~ msgid "Choose Archive Format"
+#~ msgstr "Arxivning formatini tanlash"
+
+#~ msgid "Compressed File"
+#~ msgstr "Qisilgan fayl"
+
+#~ msgid "All Valid Archives\n"
+#~ msgstr "Hamma arxivlar\n"
+
+#~ msgid "ark"
+#~ msgstr "ark"
+
+#~ msgid "Ark KParts Component"
+#~ msgstr "Ark KParts komponenti"
+
+#~ msgid "&Open With..."
+#~ msgstr "...bilan &ochish"
+
+#~ msgid "Edit &With..."
+#~ msgstr "...bilan &tahrirlash"
+
+#~ msgid "&Unselect All"
+#~ msgstr "Hammasini tanlashni &bekor qilish"
+
+#~ msgid "&Invert Selection"
+#~ msgstr "Te&skarisini tanlash"
+
+#~ msgid "Configure &Ark..."
+#~ msgstr "Ark &moslamasi"
+
+#~ msgid "Show Search Bar"
+#~ msgstr "Qidirish panelini koʻrsatish"
+
+#~ msgid "Hide Search Bar"
+#~ msgstr "Qidirish panelini bekitish"
+
+#~ msgid ""
+#~ "The archive \"%1\" has been modified.\n"
+#~ "Do you want to save it?"
+#~ msgstr ""
+#~ "\"%1\" arxivi oʻzgardi.\n"
+#~ "Uni saqlashni istaysizmi?"
+
+#~ msgid "Save Archive?"
+#~ msgstr "Arxivni saqlaymi?"
+
+#~ msgid "Downloading %1..."
+#~ msgstr "%1 yozib olinmoqda..."
+
+#~ msgid "Total: 0 files"
+#~ msgstr "Jami: 0 fayl"
+
+#~ msgid "Wrong number of arguments specified"
+#~ msgstr "Koʻrsatilgan argumentlarning soni notoʻgʻri"
+
+#~ msgid "You need to specify at least one file to be added to the archive."
+#~ msgstr "Arxivga qoʻshish uchun kamida bitta faylni koʻrsatishingiz kerak."
+
+#~ msgid "You have run out of disk space."
+#~ msgstr "Diskda boʻsh joy qolmadi."
+
+#, fuzzy
+#~| msgid ""
+#~| "The file you're trying to view may be an executable. Running untrusted "
+#~| "executables may compromise your system's security.\n"
+#~| "Are you sure you want to run that file?"
+#~ msgid ""
+#~ "The file you are trying to view may be an executable. Running untrusted "
+#~ "executables may compromise your system's security.\n"
+#~ "Are you sure you want to run that file?"
+#~ msgstr ""
+#~ "Siz koʻrmoqchi boʻlgan fayl bajarib boʻladigan fayl boʻlishi mumkin. Ishonchsiz "
+#~ "fayllarni ishga tushirish tizim xavfsizligiga zarar keltirishi mumkin.\n"
+#~ "Shunga qaramasdan uni ishga tushirishni istaysizmi?"
+
+#~ msgid "Run Nevertheless"
+#~ msgstr "Ishga tushirish"
+
+#~ msgid "&Search:"
+#~ msgstr "Q&idirish:"
+
+#~ msgid "%1 file  %2"
+#~ msgid_plural "%1 files  %2"
+#~ msgstr[0] "%1 fayl  %2"
+#~ msgstr[1] "%1 fayl  %2"
+
+#~ msgid "Save Archive As"
+#~ msgstr "Arxivni saqlash"
+
+#~ msgid ""
+#~ "Please save your archive in the same format as the original.\n"
+#~ "Hint: Use one of the suggested extensions."
+#~ msgstr ""
+#~ "Iltimos arxivni uning asl kengaytmasi kabi saqlang.\n"
+#~ "Maslahat: Taklif qilingan kengaytmalardan bittasini tanlang."
+
+#~ msgid "Saving..."
+#~ msgstr "Saqlanmoqda..."
+
+#~ msgid "An error occurred while opening the archive %1."
+#~ msgstr "%1 arxivini ochishda xato roʻy berdi."
+
+#~ msgid ""
+#~ "The following files will not be extracted\n"
+#~ "because they already exist:"
+#~ msgstr ""
+#~ "Quyidagi fayllar allaqachon mavjudligi\n"
+#~ "sababli ajratilmadi:"
+
+#~ msgid "Not enough free disc space to extract the archive."
+#~ msgstr "Arxivni ajratish uchun diskda boʻsh joy yetmaydi."
+
+#~ msgid "An error occurred while extracting the archive."
+#~ msgstr "Arxivni ajratishda xato roʻy berdi."
+
+#~ msgid "The archive %1 does not exist."
+#~ msgstr "%1 arxivi mavjud emas."
+
+#~ msgid "You do not have permission to access that archive."
+#~ msgstr "Sizda ushbu arxivga murojaat qilishga ruxsat yoʻq."
+
+#~ msgid "Archive already exists. Do you wish to overwrite it?"
+#~ msgstr "Arxiv allaqachon mavjud. Uni almashtirishni istaysizmi?"
+
+#~ msgid "Archive Already Exists"
+#~ msgstr "Arxiv allaqachon mavjud"
+
+#~ msgid "Do Not Overwrite"
+#~ msgstr "Almashtirilmasin"
+
+#~ msgid "You do not have permission to write to the directory %1"
+#~ msgstr "Sizda %1 jildiga yozishga ruxsat yoʻq"
+
+#~ msgid "Create New Archive"
+#~ msgstr "Yangi arxivni yaratish"
+
+#~ msgid "Make Into Archive"
+#~ msgstr "Arxivga aylantirish"
+
+#~ msgid "Do Not Make"
+#~ msgstr "Arxivga aylantirilmasin"
+
+#~ msgid "Creating archive..."
+#~ msgstr "Arxiv yaratilmoqda..."
+
+#~ msgid "Select Files to Add"
+#~ msgstr "Qoʻshish uchun fayllarni tanlash"
+
+#~ msgid "Select Folder to Add"
+#~ msgstr "Qoʻshish uchun jildni tanlash"
+
+#~ msgid "Adding folder..."
+#~ msgstr "Jild qoʻshilmoqda..."
+
+#~ msgid "Removing..."
+#~ msgstr "Olib tashlanmoqda..."
+
+#~ msgid "Open with:"
+#~ msgstr "Bilan ochish:"
+
+#~ msgid "Extracting..."
+#~ msgstr "Ajratilmoqda..."
+
+#~ msgid "Edit with:"
+#~ msgstr "Bilan tahrirlash:"
+
+#~ msgid "Trouble editing the file..."
+#~ msgstr "Faylni tahrirlashda muammo..."
+
+#~ msgid "Readding edited file..."
+#~ msgstr "Tahrirlangan fayl oʻqilmoqda..."
+
+#~ msgid ""
+#~ "The internal viewer is not able to display this file. Would you like to "
+#~ "view it using an external program?"
+#~ msgstr ""
+#~ "Ichki koʻruvchi ushbu faylni koʻra olmadi. Tashqi koʻruvchi dasturi bilan koʻrishni "
+#~ "istaysizmi?"
+
+#~ msgid "View Externally"
+#~ msgstr "Tashqi koʻruvchi bilan koʻrish"
+
+#~ msgid "Do Not View"
+#~ msgstr "Koʻrilmasin"
+
+#, fuzzy
+#~ msgctxt "%2 is the total size of selected files"
+#~ msgid "1 files selected  %2"
+#~ msgid_plural "%1 files selected  %2"
+#~ msgstr[0] "%1 fayl tanlangan  %2"
+#~ msgstr[1] "%1 fayl tanlangan  %2"
+
+#~ msgid ""
+#~ "Do you wish to add this to the current archive or open it as a new "
+#~ "archive?"
+#~ msgstr ""
+#~ "Buni joriy arxivga qoʻshishni istaysizmi yoki yangi arxiv sifatida ochishni "
+#~ "istaysizmi?"
+
+#~ msgid "&Add"
+#~ msgstr "Qoʻsh&ish"
+
+#~ msgid "&Open"
+#~ msgstr "&Ochish"
+
+#~ msgid ""
+#~ "There is no archive currently open. Do you wish to create one now for "
+#~ "these files?"
+#~ msgstr ""
+#~ "Hech qanday arxiv ochilmagan. Bu fayllar uchun yangi arxivni yaratishni "
+#~ "istaysizmi?"
+
+#~ msgid ""
+#~ "There is no archive currently open. Do you wish to create one now for "
+#~ "this file?"
+#~ msgstr ""
+#~ "Hech qanday arxiv ochilmagan. Bu fayl uchun yangi arxivni yaratishni istaysizmi?"
+
+#~ msgid "Create Archive"
+#~ msgstr "Yangi arxivni yaratish"
+
+#~ msgid "Do Not Create"
+#~ msgstr "Yaratilmasin"
+
+#~ msgid "Unknown archive format or corrupted archive"
+#~ msgstr "Arxivning turi nomaʼlum, yoki u buzuq"
+
+#~ msgid ""
+#~ "The utility %1 is not in your PATH.\n"
+#~ "Please install it or contact your system administrator."
+#~ msgstr ""
+#~ "%1 utilitasi sizning $PATH muhit oʻzgaruvchingizda koʻrsatilgan "
+#~ "direktoriyalar ichida topilmadi.\n"
+#~ "Iltimos uni oʻrnating yoki tizim boshqaruvchisiga murojaat qiling."
+
+#~ msgid "Opening the archive..."
+#~ msgstr "Arxiv ochilmoqda..."
+
+#~ msgid ""
+#~ "This archive is read-only. If you want to save it under a new name, go to "
+#~ "the File menu and select Save As."
+#~ msgstr ""
+#~ "Ushbu arxiv faqat oʻqish uchun. Agar uni yangi nom ostida saqlashni istasangiz, "
+#~ "Fayl menyusidan Saqlash bandini tanlang."
+
+#~ msgid "An error occurred while trying to open the archive %1"
+#~ msgstr "%1 arxivini ochishda xato roʻy berdi"
+
+#~ msgid "General"
+#~ msgstr "Umumiy"
+
+#~ msgid "General Settings"
+#~ msgstr "Umumiy moslamalar"
+
+#~ msgid "Simple Compressed Archive"
+#~ msgstr "Oddiy siqilgan arxiv"
+
+#~ msgid "Trouble writing to the archive..."
+#~ msgstr "Arxivga yozishda muammo..."
+
+#~ msgid "Extract Files From %1"
+#~ msgstr "Fayllarni '%1' arxividan ajratish"
+
+#~ msgid "Extract:"
+#~ msgstr "Ajratish:"
+
+#~ msgid "Selected files only"
+#~ msgstr "Faqat tanlangan fayllar"
+
+#~ msgid "All files"
+#~ msgstr "Hamma fayllar"
+
+#~ msgid "Destination folder: "
+#~ msgstr "Moʻljal jildi: "
+
+#~ msgid "Open destination folder after extraction"
+#~ msgstr "Ajratishdan soʻng moʻljal jildini ochish"
+
+#~ msgid "Create folder %1?"
+#~ msgstr "%1 jildini yarataymi?"
+
+#~ msgid "Missing Folder"
+#~ msgstr "Jild yetishmayapti"
+
+#~ msgid "Create Folder"
+#~ msgstr "Jildni yaratish"
+
+#~ msgid "The folder could not be created. Please check permissions."
+#~ msgstr "Jildni yaratib boʻlmadi. Iltimos huquqlarni tekshiring."
+
+#~ msgid ""
+#~ "You do not have write permission to this folder. Please provide another "
+#~ "folder."
+#~ msgstr "Bu jildga yozishga sizda ruxsat yoʻq. Iltimos boshqa jildni koʻrsating."
+
+#~ msgctxt "Packed Ratio"
+#~ msgid "%1 %"
+#~ msgstr "%1 %"
+
+#, fuzzy
+#~ msgid "(c) 1997-2005, The Various Ark Developers"
+#~ msgstr "(S) 1997-2003, Turli Ark tuzuvchilari"
+
+#~ msgid ""
+#~ "Extract 'archive' to 'folder'. Quit when finished.\n"
+#~ "'folder' will be created if it does not exist."
+#~ msgstr ""
+#~ "Arxivni jildga ajratish. Yakunlanganda yopish.\n"
+#~ "Agar jild mavjud boʻlmasa, u yaratiladi."
+
+#~ msgid ""
+#~ "Add 'files' to 'archive'. Quit when finished.\n"
+#~ "'archive' will be created if it does not exist."
+#~ msgstr ""
+#~ "Arxivga fayl qoʻshish. Yakunlanganda yopish.\n"
+#~ "Agar arxiv mavjud boʻlmasa, u yaratiladi."
+
+#~ msgid "Folder to extract to"
+#~ msgstr "Ajratish uchun jild"
+
+#~ msgid "Files to be added"
+#~ msgstr "Qoʻshish uchun fayllar"
+
+#~ msgid "New &Window"
+#~ msgstr "&Yangi oyna"
+
+#~ msgid "Re&load"
+#~ msgstr "&Qaytadan yuklash"
+
+#~ msgid "Open &as:"
+#~ msgstr "&Ochish:"
+
+#~ msgid "Autodetect (default)"
+#~ msgstr "Avto-aniqlash (andoza)"
+
+#~ msgid "Select Archive to Add Files To"
+#~ msgstr "Fayllarni qoʻshish uchun arxivni tanlang"
+
+#~ msgid "Compressing..."
+#~ msgstr "Qisilmoqda..."
+
+#~ msgid "Please Wait"
+#~ msgstr "Iltimos kutib turing"
+
+#~ msgid "Replace old files only &with newer files"
+#~ msgstr "Faqat eski fayllarni yangi fayllar bilan &almashtirish"
+
+#~ msgid "Last folders used for extraction"
+#~ msgstr "Ajratishda ishlatilgan oxirgi jildlar"
+
+#~ msgid "Replace old files only with newer files"
+#~ msgstr "Faqat eski fayllarni yangi fayllar bilan almashtirish"
+
+#~ msgid "Overwrite files (Zip, Tar, Zoo, Rar)"
+#~ msgstr "Fayllarni almashtirish (Zip, Tar, Zoo, Rar)"
+
+#~ msgid "Preserve permissions"
+#~ msgstr "Huquqlarni saqlab qolish"
+
+#~ msgid "Ignore folder names (Zip)"
+#~ msgstr "Jild nomlariga eʼtibor berilmasin (Zip)"
+
+#~ msgid "Convert filenames to lowercase (Zip, Rar)"
+#~ msgstr "Fayllarning nomini kichkina harflarga almashtirish (Zip, Rar)"
+
+#~ msgid "Convert filenames to uppercase"
+#~ msgstr "Fayllarning nomini bosh harflarga almashtirish"
+
+#~ msgid "Show search bar"
+#~ msgstr "Qidirish panelini koʻrsatish"
+
+#~ msgid "Enable Konqueror integration"
+#~ msgstr "Konqueror'ga moslashtirish"
+
+#~ msgid ""
+#~ "Enables integration with Konqueror's context menus, letting you easily "
+#~ "archive or unarchive files. This option will only work if you have the "
+#~ "kdeaddons package installed."
+#~ msgstr ""
+#~ "Konqueror'ga moslashtirilganda, siz fayllarni osongina arxivlash yoki "
+#~ "ajratishingiz mumkin. Ushbu qulaylik kdeaddons paketi oʻrnatilgandagina "
+#~ "ishlaydi."
+
+#~ msgid "Use integrated viewer"
+#~ msgstr "Ichki koʻruvchini ishlatish"
+
+#~ msgid "Tar Command"
+#~ msgstr "Tar buyrugʻi"
+
+#, fuzzy
+#~ msgid "&File"
+#~ msgstr "&Jildlar"
+
+#~ msgid "&Action"
+#~ msgstr "&Amal"
+
+#, fuzzy
+#~ msgid "&Settings"
+#~ msgstr "Moslamalar"
+
+#~ msgid "O&verwrite files (Zip, Tar, Zoo, Rar)"
+#~ msgstr "&Fayllarni almashtirish (Zip, Tar, Zoo, Rar)"
+
+#~ msgid "&Preserve permissions (Tar)"
+#~ msgstr "&Huquqlarni saqlab qolish (Tar)"
+
+#~ msgid "&Ignore folder names (Zip)"
+#~ msgstr "Jild nomlariga &eʼtibor berilmasin (Zip)"
+
+#~ msgid "Convert file names to &lowercase (Zip, Rar)"
+#~ msgstr "Fayllarning nomini &kichkina harflarga almashtirish (Zip, Rar)"
+
+#~ msgid "Convert file names to &uppercase (Rar)"
+#~ msgstr "Fayllarning nomini &bosh harflarga almashtirish (Rar)"
+
+#~ msgid "&Use integrated viewer"
+#~ msgstr "Ichki koʻruvchini &ishlatish"
+
+#~ msgid "&Enable Konqueror integration"
+#~ msgstr "Konqueror'ga &moslashtirish"
+
+#, fuzzy
+#~ msgid ""
+#~ "<font size=\"-1\"><i>Konqueror integration is only available<br> if you "
+#~ "install the Konqueror integration<br> plugin from the kdeaddons package.</"
+#~ "i></font>"
+#~ msgstr ""
+#~ "<font size=\"-1\"><i>Konqueror bilan birga ishlash qulayligi kdeaddons "
+#~ "paketidan Konqueror'ga moslashtirish plagini oʻrnatilganda amalga oshiriladi."
+#~ "</i></font>"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Mashrab Quvatov, Nurali Abdurahmonov"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kmashrab@uni-bremen.de, mavnur@gmail.com"
+
+#~ msgid "Trouble writing to the tempfile..."
+#~ msgstr "Vaqtinchalik faylga yozishda muammo..."
+
+#~ msgid " Filename "
+#~ msgstr " Faylning nomi "
+
+#~ msgid " Permissions "
+#~ msgstr " Huquqlar "
+
+#~ msgid " Owner/Group "
+#~ msgstr " Egasi/Guruh "
+
+#~ msgid " Timestamp "
+#~ msgstr " Vaqt "
+
+#~ msgid " Link "
+#~ msgstr " Bogʻ "
+
+#~ msgid " Size Now "
+#~ msgstr " Joriy hajmi "
+
+#~ msgid " Ratio "
+#~ msgstr " Nisbat "
+
+#~ msgid " Method "
+#~ msgstr " Usuli "
+
+#~ msgid " Version "
+#~ msgstr " Versiyasi "
+
+#~ msgid " Owner "
+#~ msgstr " Egasi "
+
+#~ msgid " Group "
+#~ msgstr " Guruh "
+
+#~ msgid "Settings"
+#~ msgstr "Moslamalar"
+
+#~ msgid "&Adding"
+#~ msgstr "&Qoʻshish"
+
+#~ msgid "&Extracting"
+#~ msgstr "&Ajratish"
+
+#~ msgid "&Folders"
+#~ msgstr "&Jildlar"
+
+#~ msgid "Add Settings"
+#~ msgstr "Qoʻshish moslamalari"
+
+#~ msgid "Extract Settings"
+#~ msgstr "Ajratish moslamalari"
+
+#~ msgid "Replace &old files only with newer files"
+#~ msgstr "Faqat eski fayllarni yangi fayllar bilan &almashtirish"
+
+#~ msgid "Convert filenames to &lowercase (Zip, Rar)"
+#~ msgstr "Fayllarning nomini &kichkina harflarga almashtirish (Zip, Rar)"
+
+#~ msgid "Convert filenames to &uppercase (Rar)"
+#~ msgstr "Fayllarning nomini &bosh harflarga almashtirish (Rar)"
+
+#~ msgid "Overwrite"
+#~ msgstr "Almashtirish"
+
+#~ msgid "1 file selected  %2"
+#~ msgstr "1 fayl tanlangan  %2"
+
+#~ msgid "Addition"
+#~ msgstr "Qoʻshish"
+
+#~ msgid "File Addition Settings"
+#~ msgstr "Faylni qoʻshish moslamalari"
+
+#~ msgid "Extraction"
+#~ msgstr "Ajratish"
+
+#~ msgid "Extraction Settings"
+#~ msgstr "Ajratish moslamalari"
+
+#~ msgid "(c) 1997-2006, The Various Ark Developers"
+#~ msgstr "(S) 1997-2006, Turli Ark tuzuvchilari"
+
+#~ msgid "Reset Search"
+#~ msgstr "Qidirishni tozalash"
+
+#~ msgid ""
+#~ "Reset Search\n"
+#~ "Resets the search bar, so that all archive entries are shown again."
+#~ msgstr ""
+#~ "Qidirishni tozalash\n"
+#~ "Qidirish paneli tozalanadi. Soʻng arxivdagi hamma narsa yana koʻrinadi."
