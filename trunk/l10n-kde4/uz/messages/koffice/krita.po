@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-11 10:16+0200\n"
+"POT-Creation-Date: 2008-05-16 18:37+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1234,7 +1234,7 @@ msgstr "Ranglar boʻshligʻi"
 #. i18n: tag string
 #. i18n: file ./ui/forms/wdglayerproperties.ui line 62
 #. i18n: tag string
-#. i18n: file ./plugins/generators/example/wdgcoloroptions.ui line 45
+#. i18n: file ./plugins/generators/solid/wdgcoloroptions.ui line 45
 #: rc.cpp:125 rc.cpp:2681
 msgid "&Opacity:"
 msgstr "&Xiralik:"
@@ -5882,7 +5882,7 @@ msgid "&Ambient light:"
 msgstr "&Uzunasi:"
 
 #. i18n: tag string
-#. i18n: file ./plugins/generators/example/wdgcoloroptions.ui line 16
+#. i18n: file ./plugins/generators/solid/wdgcoloroptions.ui line 16
 #: rc.cpp:2678
 msgid "&Color:"
 msgstr "Ran&g:"
@@ -6319,7 +6319,8 @@ msgstr "Qatlamni eksport qilish"
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:181
 #, fuzzy, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only."
-msgstr "%1 paoitra faylig yozib boʻlmadi. Fayl faqat oʻqish uchun boʻlishi mumkin."
+msgstr ""
+"%1 paoitra faylig yozib boʻlmadi. Fayl faqat oʻqish uchun boʻlishi mumkin."
 
 #: ui/kis_custom_palette.cc:104 ui/kis_custom_palette.cc:142
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:181
@@ -7732,20 +7733,6 @@ msgstr "Chegara..."
 msgid "&CImg Image Restoration..."
 msgstr "&CImg tasvirini tiklash..."
 
-#: plugins/filters/cubismfilter/kis_cubism_filter.cc:68
-msgid "&Cubism..."
-msgstr "&Kubsimon..."
-
-#: plugins/filters/cubismfilter/kis_cubism_filter.cc:474
-#, fuzzy
-msgid "Tile size"
-msgstr "Oʻlchami&ni oʻzgartirish"
-
-#: plugins/filters/cubismfilter/kis_cubism_filter.cc:475
-#, fuzzy
-msgid "Tile saturation"
-msgstr "Toʻyintirish"
-
 #: plugins/filters/convolutionfilters/convolutionfilters.cc:86
 msgid "&Gaussian Blur"
 msgstr ""
@@ -7910,7 +7897,7 @@ msgstr "Tekshirishlar soni:"
 msgid "&Random Pick..."
 msgstr "Tasodifiy"
 
-#: plugins/filters/unsharp/kis_unsharp_filter.cc:41
+#: plugins/filters/unsharp/kis_unsharp_filter.cc:40
 #, fuzzy
 msgid "&Unsharp Mask..."
 msgstr "Alfa niqob"
@@ -8082,6 +8069,17 @@ msgstr ""
 #: ui/kis_aboutdata.h:64
 msgid "Andreas Lundin"
 msgstr ""
+
+#~ msgid "&Cubism..."
+#~ msgstr "&Kubsimon..."
+
+#, fuzzy
+#~ msgid "Tile size"
+#~ msgstr "Oʻlchami&ni oʻzgartirish"
+
+#, fuzzy
+#~ msgid "Tile saturation"
+#~ msgstr "Toʻyintirish"
 
 #, fuzzy
 #~ msgid "Form"
@@ -9445,8 +9443,8 @@ msgstr ""
 #~ msgstr ""
 #~ "Joriy skrinshotning kichik nusxasi.\n"
 #~ "\n"
-#~ "Uni boshqa dasturga tortib tashlasa boʻladi. Natijada oʻsha dasturga rasmning "
-#~ "asl nusxasi olinadi."
+#~ "Uni boshqa dasturga tortib tashlasa boʻladi. Natijada oʻsha dasturga "
+#~ "rasmning asl nusxasi olinadi."
 
 #~ msgid "&New Snapshot"
 #~ msgstr "&Yangi skrinshot"
@@ -9464,7 +9462,8 @@ msgstr ""
 #~ msgstr "Kechikishsiz"
 
 #~ msgid "Snapshot delay in seconds"
-#~ msgstr "Ekrandan surat olishda kechikish vaqti. Soniyalarda koʻrsatilishi kerak."
+#~ msgstr ""
+#~ "Ekrandan surat olishda kechikish vaqti. Soniyalarda koʻrsatilishi kerak."
 
 #~ msgid "Snapshot &delay:"
 #~ msgstr "&Skrinshot kechikishi:"
