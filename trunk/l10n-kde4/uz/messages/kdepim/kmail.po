@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-20 07:38+0200\n"
+"POT-Creation-Date: 2008-05-21 09:03+0200\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -87,8 +87,8 @@ msgstr ""
 msgid "multiple encryption keys per address"
 msgstr ""
 
-#: aboutdata.cpp:212 kmreaderwin.cpp:1308 kmstartup.cpp:140
-#: mailinglistpropertiesdialog.cpp:110
+#: aboutdata.cpp:212 kmreaderwin.cpp:1303 kmstartup.cpp:140
+#: mailinglistpropertiesdialog.cpp:109
 msgid "KMail"
 msgstr "KMail"
 
@@ -298,7 +298,7 @@ msgstr "&Qoʻshimcha"
 msgid "Check &What the Server Supports"
 msgstr "Server qaysi usulni qoʻllashini &tekshirish"
 
-#: accountdialog.cpp:711 accountdialog.cpp:1064 kmheaders.cpp:165
+#: accountdialog.cpp:711 accountdialog.cpp:1064 kmheaders.cpp:163
 msgid "Encryption"
 msgstr "Kodlash"
 
@@ -977,8 +977,8 @@ msgstr ""
 msgid "Name"
 msgstr "Nomi"
 
-#: attachmentlistview.cpp:47 kmfoldertree.cpp:1768 kmheaders.cpp:168
-#: kmheaders.cpp:217 kmmainwidget.cpp:584 kmmainwidget.cpp:591
+#: attachmentlistview.cpp:47 kmfoldertree.cpp:1768 kmheaders.cpp:166
+#: kmheaders.cpp:213 kmmainwidget.cpp:584 kmmainwidget.cpp:591
 #: kmmainwidget.cpp:598 kmmimeparttree.cpp:66 kmpopfiltercnfrmdlg.cpp:54
 msgid "Size"
 msgstr "Hajmi"
@@ -1696,7 +1696,7 @@ msgstr ""
 msgid "Fallback ch&aracter encoding:"
 msgstr "Kodlash usuli"
 
-#: configuredialog.cpp:2114 configuredialog.cpp:2169 kmreaderwin.cpp:628
+#: configuredialog.cpp:2114 configuredialog.cpp:2169 kmreaderwin.cpp:623
 msgid "Auto"
 msgstr "Avto"
 
@@ -4117,7 +4117,7 @@ msgstr "Hisob tekshirilmoqda: "
 msgid " completed"
 msgstr " bajarildi"
 
-#: kmacctimap.cpp:591 kmheaders.cpp:1344
+#: kmacctimap.cpp:591 kmheaders.cpp:1340
 msgid "Unable to process messages: "
 msgstr ""
 
@@ -4340,12 +4340,12 @@ msgid ""
 "\n"
 msgstr ""
 
-#: kmcommands.cpp:1713 kmheaders.cpp:1480
+#: kmcommands.cpp:1713 kmheaders.cpp:1476
 #, fuzzy
 msgid "Filtering messages"
 msgstr "Xabarlarni oʻchirish"
 
-#: kmcommands.cpp:1722 kmheaders.cpp:1488
+#: kmcommands.cpp:1722 kmheaders.cpp:1484
 #, fuzzy, kde-format
 msgid "Filtering message %1 of %2"
 msgstr "Xabarlarni oʻchirish"
@@ -4678,7 +4678,7 @@ msgstr "Boʻsh joylarni oʻchi&rish"
 
 #. i18n: tag label
 #. i18n: file kmail.kcfg line 328
-#: kmcomposewin.cpp:1185 kmreaderwin.cpp:665 rc.cpp:262
+#: kmcomposewin.cpp:1185 kmreaderwin.cpp:660 rc.cpp:262
 msgid "Use Fi&xed Font"
 msgstr "Eni oʻzgarmaydigan &shriftni qoʻllash"
 
@@ -4945,7 +4945,7 @@ msgstr ""
 msgid "Select the public key which should be attached."
 msgstr ""
 
-#: kmcomposewin.cpp:2614 kmmimeparttree.cpp:166 kmreaderwin.cpp:1937
+#: kmcomposewin.cpp:2614 kmmimeparttree.cpp:166 kmreaderwin.cpp:1932
 msgctxt "to open"
 msgid "Open"
 msgstr "Ochish"
@@ -4955,7 +4955,7 @@ msgctxt "to view"
 msgid "View"
 msgstr "Koʻrish"
 
-#: kmcomposewin.cpp:2618 kmreaderwin.cpp:2616 vacation.cpp:655
+#: kmcomposewin.cpp:2618 kmreaderwin.cpp:2611 vacation.cpp:655
 #, fuzzy
 msgid "Edit"
 msgstr "Chiqish"
@@ -4966,12 +4966,12 @@ msgstr "Chiqish"
 msgid "Edit With..."
 msgstr "Skriptni tahrirlash..."
 
-#: kmcomposewin.cpp:2622 kmreaderwin.cpp:1949
+#: kmcomposewin.cpp:2622 kmreaderwin.cpp:1944
 #, fuzzy
 msgid "Save As..."
 msgstr "...sifatida s&aqlash"
 
-#: kmcomposewin.cpp:2624 kmmimeparttree.cpp:194 kmreaderwin.cpp:1973
+#: kmcomposewin.cpp:2624 kmmimeparttree.cpp:194 kmreaderwin.cpp:1968
 #, fuzzy
 msgid "Properties"
 msgstr "&Xossalari"
@@ -5597,7 +5597,7 @@ msgstr "Nomini oʻzgartirish"
 msgid "New"
 msgstr "Yangi"
 
-#: kmfilterdlg.cpp:648 kmmimeparttree.cpp:183 kmreaderwin.cpp:1953
+#: kmfilterdlg.cpp:648 kmmimeparttree.cpp:183 kmreaderwin.cpp:1948
 #, fuzzy
 msgid "Copy"
 msgstr "&Nusxa olish"
@@ -6038,15 +6038,15 @@ msgstr "Ustunni k&oʻrsatish:"
 msgid "Default"
 msgstr "Andoza deb belgilash"
 
-#: kmfolderdialog.cpp:461 kmheaders.cpp:215 kmheaders.cpp:281
-#: kmheaders.cpp:416 kmheaders.cpp:585 kmheaders.cpp:801
+#: kmfolderdialog.cpp:461 kmheaders.cpp:211 kmheaders.cpp:277
+#: kmheaders.cpp:412 kmheaders.cpp:581 kmheaders.cpp:797
 #: kmpopfiltercnfrmdlg.cpp:53
 msgid "Sender"
 msgstr "Joʻnatuvchi"
 
-#: kmfolderdialog.cpp:462 kmheaders.cpp:171 kmheaders.cpp:218
-#: kmheaders.cpp:278 kmheaders.cpp:283 kmheaders.cpp:418 kmheaders.cpp:587
-#: kmheaders.cpp:803 kmpopfiltercnfrmdlg.cpp:54
+#: kmfolderdialog.cpp:462 kmheaders.cpp:169 kmheaders.cpp:214
+#: kmheaders.cpp:274 kmheaders.cpp:279 kmheaders.cpp:414 kmheaders.cpp:583
+#: kmheaders.cpp:799 kmpopfiltercnfrmdlg.cpp:54
 msgid "Receiver"
 msgstr "Qabul qiluvchi"
 
@@ -6334,7 +6334,7 @@ msgid ""
 "KMail cannot start without it."
 msgstr ""
 
-#: kmfoldertree.cpp:379 kmheaders.cpp:143
+#: kmfoldertree.cpp:379 kmheaders.cpp:141
 msgid "View Columns"
 msgstr "Koʻrinadigan ustunlar"
 
@@ -6469,94 +6469,94 @@ msgstr ""
 msgid "Moving the selected folders is not possible"
 msgstr ""
 
-#: kmheaders.cpp:144
+#: kmheaders.cpp:142
 msgid "Status"
 msgstr "Holati"
 
-#: kmheaders.cpp:147 kmsearchpattern.h:235
+#: kmheaders.cpp:145 kmsearchpattern.h:235
 msgid "Important"
 msgstr "Muhim"
 
-#: kmheaders.cpp:150
+#: kmheaders.cpp:148
 msgid "Action Item"
 msgstr ""
 
-#: kmheaders.cpp:153
+#: kmheaders.cpp:151
 msgid "Attachment"
 msgstr "Ilova"
 
-#: kmheaders.cpp:156
+#: kmheaders.cpp:154
 msgid "Spam/Ham"
 msgstr "Spem/Xem"
 
-#: kmheaders.cpp:159
+#: kmheaders.cpp:157
 msgid "Watched/Ignored"
 msgstr "Nazoratda/Eʼtibor berilmagan"
 
-#: kmheaders.cpp:162
+#: kmheaders.cpp:160
 msgid "Signature"
 msgstr "Imzo"
 
-#: kmheaders.cpp:214 kmheaders.cpp:811 kmheaders.cpp:2679
+#: kmheaders.cpp:210 kmheaders.cpp:807 kmheaders.cpp:2675
 #: kmpopfiltercnfrmdlg.cpp:53 searchwindow.cpp:228
 #: templatesinsertcommand.cpp:163 templatesinsertcommand.cpp:287
 msgid "Subject"
 msgstr "Mavzu"
 
-#: kmheaders.cpp:216 kmheaders.cpp:806 kmheaders.cpp:2674
+#: kmheaders.cpp:212 kmheaders.cpp:802 kmheaders.cpp:2670
 #: kmpopfiltercnfrmdlg.cpp:54 searchwindow.cpp:228
 #: templatesinsertcommand.cpp:68 templatesinsertcommand.cpp:192
 msgid "Date"
 msgstr "Sana"
 
-#: kmheaders.cpp:808 kmheaders.cpp:2676
+#: kmheaders.cpp:804 kmheaders.cpp:2672
 msgid "Date (Order of Arrival)"
 msgstr "Sana (kelgan vaqti boʻyicha)"
 
-#: kmheaders.cpp:813 kmheaders.cpp:2681
+#: kmheaders.cpp:809 kmheaders.cpp:2677
 msgid " (Status)"
 msgstr " (Holat)"
 
-#: kmheaders.cpp:1431
+#: kmheaders.cpp:1427
 #, fuzzy, kde-format
 msgid "1 unsent"
 msgid_plural "%1 unsent"
 msgstr[0] "1 joʻnatilmagan"
 msgstr[1] "%1 joʻnatilmagan"
 
-#: kmheaders.cpp:1431
+#: kmheaders.cpp:1427
 msgid "0 unsent"
 msgstr "0 joʻnatilmagan"
 
-#: kmheaders.cpp:1433
+#: kmheaders.cpp:1429
 #, kde-format
 msgid "1 unread"
 msgid_plural "%1 unread"
 msgstr[0] "%1 oʻqilmagan"
 msgstr[1] "%1 oʻqilmagan"
 
-#: kmheaders.cpp:1433
+#: kmheaders.cpp:1429
 msgid "0 unread"
 msgstr "0 oʻqilmagan"
 
-#: kmheaders.cpp:1435
+#: kmheaders.cpp:1431
 #, fuzzy, kde-format
 msgid "1 message, %2."
 msgid_plural "%1 messages, %2."
 msgstr[0] "1 xat, %2."
 msgstr[1] "%1 xat, %2."
 
-#: kmheaders.cpp:1436
+#: kmheaders.cpp:1432
 msgid "0 messages"
 msgstr "0 xat"
 
-#: kmheaders.cpp:1438
+#: kmheaders.cpp:1434
 #, kde-format
 msgctxt "%1 = n messages, m unread."
 msgid "%1 Folder is read-only."
 msgstr "%1 Jild faqat oʻqish uchun."
 
-#: kmheaders.cpp:1630
+#: kmheaders.cpp:1626
 #, fuzzy, kde-format
 msgid ""
 "<qt>Do you really want to delete the selected message?<br />Once deleted, it "
@@ -6571,49 +6571,49 @@ msgstr[1] ""
 "<qt>Rostdan tanlangan %1 xabarni oʻchirishni istaysizmi?<br>Oʻchirilgandan "
 "keyin ularni tiklab boʻlmaydi.</qt>"
 
-#: kmheaders.cpp:1634
+#: kmheaders.cpp:1630
 msgid "Delete Messages"
 msgstr "Xatlarni oʻchirish"
 
-#: kmheaders.cpp:1634
+#: kmheaders.cpp:1630
 msgid "Delete Message"
 msgstr "Xatni oʻchirish"
 
-#: kmheaders.cpp:1660
+#: kmheaders.cpp:1656
 msgid "Messages deleted successfully."
 msgstr "Xabarlar muvaffaqiyatli oʻchirildi."
 
-#: kmheaders.cpp:1660
+#: kmheaders.cpp:1656
 msgid "Messages moved successfully"
 msgstr "Xabarlar muvaffaqiyatli koʻchirildi."
 
-#: kmheaders.cpp:1683
+#: kmheaders.cpp:1679
 msgid "Deleting messages failed."
 msgstr "Xatlarni oʻchirish muvaffaqiyatsiz tugadi."
 
-#: kmheaders.cpp:1683
+#: kmheaders.cpp:1679
 msgid "Moving messages failed."
 msgstr "Xatlarni koʻchirish muvaffaqiyatsiz tugadi."
 
-#: kmheaders.cpp:1686
+#: kmheaders.cpp:1682
 msgid "Deleting messages canceled."
 msgstr "Xatlarni oʻchirish bekor qilindi."
 
-#: kmheaders.cpp:1686
+#: kmheaders.cpp:1682
 msgid "Moving messages canceled."
 msgstr "Xatlarni koʻchirish bekor qilindi."
 
-#: kmheaders.cpp:2504 kmmainwidget.cpp:3101 kmreadermainwin.cpp:326
+#: kmheaders.cpp:2500 kmmainwidget.cpp:3101 kmreadermainwin.cpp:326
 #: searchwindow.cpp:811
 msgid "&Copy To"
 msgstr "&Nusxa olish"
 
-#: kmheaders.cpp:2508 kmheaders.cpp:2514 kmmainwidget.cpp:3098
+#: kmheaders.cpp:2504 kmheaders.cpp:2510 kmmainwidget.cpp:3098
 #: searchwindow.cpp:813
 msgid "&Move To"
 msgstr "&Koʻchirish"
 
-#: kmheaders.cpp:2848 kmheaders.cpp:2888
+#: kmheaders.cpp:2844 kmheaders.cpp:2884
 #, kde-format
 msgid ""
 "Failure modifying %1\n"
@@ -7725,11 +7725,11 @@ msgstr ""
 msgid "Later"
 msgstr "Keyinroq joʻnatish"
 
-#: kmmimeparttree.cpp:168 kmreaderwin.cpp:1941
+#: kmmimeparttree.cpp:168 kmreaderwin.cpp:1936
 msgid "Open With..."
 msgstr "...bilan ochish"
 
-#: kmmimeparttree.cpp:169 kmreaderwin.cpp:1945
+#: kmmimeparttree.cpp:169 kmreaderwin.cpp:1940
 msgctxt "to view something"
 msgid "View"
 msgstr "Koʻrish"
@@ -7738,13 +7738,13 @@ msgstr "Koʻrish"
 msgid "Save All Attachments..."
 msgstr "Hamma ilovalarni saqlash"
 
-#: kmmimeparttree.cpp:186 kmreaderwin.cpp:1963 kmreaderwin.cpp:2603
+#: kmmimeparttree.cpp:186 kmreaderwin.cpp:1958 kmreaderwin.cpp:2598
 #, fuzzy
 #| msgid "&Remove Attachment"
 msgid "Delete Attachment"
 msgstr "Ilovani &olib tashlash"
 
-#: kmmimeparttree.cpp:189 kmreaderwin.cpp:1958 kmreaderwin.cpp:2616
+#: kmmimeparttree.cpp:189 kmreaderwin.cpp:1953 kmreaderwin.cpp:2611
 #, fuzzy
 #| msgid "Attachment"
 msgid "Edit Attachment"
@@ -7952,176 +7952,176 @@ msgstr "Jildni tanlash"
 msgid "Select Size"
 msgstr "Uslubni tanlash"
 
-#: kmreaderwin.cpp:543
+#: kmreaderwin.cpp:538
 msgctxt "View->"
 msgid "&Headers"
 msgstr "&Sarlavhalar"
 
-#: kmreaderwin.cpp:545
+#: kmreaderwin.cpp:540
 msgid "Choose display style of message headers"
 msgstr ""
 
-#: kmreaderwin.cpp:551
+#: kmreaderwin.cpp:546
 msgctxt "View->headers->"
 msgid "&Fancy Headers"
 msgstr "&Chiroyli sarlavhalar"
 
-#: kmreaderwin.cpp:554
+#: kmreaderwin.cpp:549
 msgid "Show the list of headers in a fancy format"
 msgstr ""
 
-#: kmreaderwin.cpp:558
+#: kmreaderwin.cpp:553
 msgctxt "View->headers->"
 msgid "&Brief Headers"
 msgstr "&Qisqa sarlavhalar"
 
-#: kmreaderwin.cpp:561
+#: kmreaderwin.cpp:556
 msgid "Show brief list of message headers"
 msgstr ""
 
-#: kmreaderwin.cpp:565
+#: kmreaderwin.cpp:560
 msgctxt "View->headers->"
 msgid "&Standard Headers"
 msgstr "&Andoza sarlavhalar"
 
-#: kmreaderwin.cpp:568
+#: kmreaderwin.cpp:563
 msgid "Show standard list of message headers"
 msgstr ""
 
-#: kmreaderwin.cpp:572
+#: kmreaderwin.cpp:567
 msgctxt "View->headers->"
 msgid "&Long Headers"
 msgstr "&Uzun sarlavhalar"
 
-#: kmreaderwin.cpp:575
+#: kmreaderwin.cpp:570
 msgid "Show long list of message headers"
 msgstr ""
 
-#: kmreaderwin.cpp:579
+#: kmreaderwin.cpp:574
 msgctxt "View->headers->"
 msgid "&All Headers"
 msgstr "&Hamma sarlavhalar"
 
-#: kmreaderwin.cpp:582
+#: kmreaderwin.cpp:577
 msgid "Show all message headers"
 msgstr ""
 
-#: kmreaderwin.cpp:587
+#: kmreaderwin.cpp:582
 msgctxt "View->"
 msgid "&Attachments"
 msgstr "&Ilovalar"
 
-#: kmreaderwin.cpp:589
+#: kmreaderwin.cpp:584
 msgid "Choose display style of attachments"
 msgstr "Ilovalarni koʻrsatish uslubini tanlash"
 
-#: kmreaderwin.cpp:594
+#: kmreaderwin.cpp:589
 msgctxt "View->attachments->"
 msgid "&As Icons"
 msgstr "&Nishoncha sifatida"
 
-#: kmreaderwin.cpp:597
+#: kmreaderwin.cpp:592
 msgid "Show all attachments as icons. Click to see them."
 msgstr ""
 "Hamma ilovalarni nishoncha sifatida koʻrsatish. Koʻrish uchun ularni bosish "
 "kerak."
 
-#: kmreaderwin.cpp:601
+#: kmreaderwin.cpp:596
 msgctxt "View->attachments->"
 msgid "&Smart"
 msgstr "&Ixcham"
 
-#: kmreaderwin.cpp:604
+#: kmreaderwin.cpp:599
 msgid "Show attachments as suggested by sender."
 msgstr ""
 
-#: kmreaderwin.cpp:608
+#: kmreaderwin.cpp:603
 msgctxt "View->attachments->"
 msgid "&Inline"
 msgstr ""
 
-#: kmreaderwin.cpp:611
+#: kmreaderwin.cpp:606
 msgid "Show all attachments inline (if possible)"
 msgstr ""
 
-#: kmreaderwin.cpp:615
+#: kmreaderwin.cpp:610
 msgctxt "View->attachments->"
 msgid "&Hide"
 msgstr "&Bekitish"
 
-#: kmreaderwin.cpp:618
+#: kmreaderwin.cpp:613
 msgid "Do not show attachments in the message viewer"
 msgstr "Ilovalarni xabar koʻruvchida bekitish"
 
-#: kmreaderwin.cpp:623
+#: kmreaderwin.cpp:618
 msgid "&Set Encoding"
 msgstr "&Kodlash usulini tanlash"
 
-#: kmreaderwin.cpp:632
+#: kmreaderwin.cpp:627
 msgid "New Message To..."
 msgstr "Xat joʻnatish"
 
-#: kmreaderwin.cpp:635
+#: kmreaderwin.cpp:630
 msgid "Reply To..."
 msgstr "Javob berish"
 
-#: kmreaderwin.cpp:638
+#: kmreaderwin.cpp:633
 msgid "Forward To..."
 msgstr "... ga uzatish"
 
-#: kmreaderwin.cpp:641
+#: kmreaderwin.cpp:636
 msgid "Add to Address Book"
 msgstr "Manzillar daftariga qoʻshish"
 
-#: kmreaderwin.cpp:644
+#: kmreaderwin.cpp:639
 msgid "Open in Address Book"
 msgstr "Manzillar daftarida ochish"
 
-#: kmreaderwin.cpp:648
+#: kmreaderwin.cpp:643
 msgid "Select All Text"
 msgstr "Hamma matnni tanlash"
 
-#: kmreaderwin.cpp:652
+#: kmreaderwin.cpp:647
 msgid "Copy Link Address"
 msgstr "Bogʻ manzilidan nusxa olish"
 
-#: kmreaderwin.cpp:655
+#: kmreaderwin.cpp:650
 msgid "Open URL"
 msgstr "URL'ni ochish"
 
-#: kmreaderwin.cpp:658
+#: kmreaderwin.cpp:653
 msgid "Bookmark This Link"
 msgstr "Bogʻni xatchoʻplarga saqlash"
 
-#: kmreaderwin.cpp:661
+#: kmreaderwin.cpp:656
 msgid "Save Link As..."
 msgstr "Bogʻni saqlash"
 
-#: kmreaderwin.cpp:673
+#: kmreaderwin.cpp:668
 #, fuzzy
 #| msgid "Select &All Messages"
 msgid "Scroll Message Up"
 msgstr "Hamma xabarlarni &tanlash"
 
-#: kmreaderwin.cpp:679
+#: kmreaderwin.cpp:674
 #, fuzzy
 #| msgid "Select &All Messages"
 msgid "Scroll Message Down"
 msgstr "Hamma xabarlarni &tanlash"
 
-#: kmreaderwin.cpp:685
+#: kmreaderwin.cpp:680
 msgid "Scroll Message Up (More)"
 msgstr ""
 
-#: kmreaderwin.cpp:691
+#: kmreaderwin.cpp:686
 msgid "Scroll Message Down (More)"
 msgstr ""
 
-#: kmreaderwin.cpp:1310
+#: kmreaderwin.cpp:1305
 msgid "The email client for the K Desktop Environment."
 msgstr "KDE uchun elektron pochta dasturi."
 
-#: kmreaderwin.cpp:1318
+#: kmreaderwin.cpp:1313
 msgid ""
 "<h2 style='margin-top: 0px;'>Retrieving Folder Contents</h2><p>Please "
 "wait . . .</p>&nbsp;"
@@ -8129,13 +8129,13 @@ msgstr ""
 "<h2 style='margin-top: 0px;'>Jildning tarkibi olinmoqda</h2><p>Iltimos kutib "
 "turing. . .</p>&nbsp;"
 
-#: kmreaderwin.cpp:1326
+#: kmreaderwin.cpp:1321
 msgid ""
 "<h2 style='margin-top: 0px;'>Offline</h2><p>KMail is currently in offline "
 "mode. Click <a href=\"kmail:goOnline\">here</a> to go online . . .</p>&nbsp;"
 msgstr ""
 
-#: kmreaderwin.cpp:1342
+#: kmreaderwin.cpp:1337
 #, kde-format
 msgctxt ""
 "%1: KMail version; %2: help:// URL; %3: homepage URL; %4: generated list of "
@@ -8157,14 +8157,14 @@ msgid ""
 "<p style='margin-bottom: 0px'>&nbsp; &nbsp; The KMail Team</p>"
 msgstr ""
 
-#: kmreaderwin.cpp:1362
+#: kmreaderwin.cpp:1357
 #, kde-format
 msgid ""
 "<p>Some of the new features in this release of KMail include (compared to "
 "KMail %1, which is part of KDE %2):</p>\n"
 msgstr ""
 
-#: kmreaderwin.cpp:1375
+#: kmreaderwin.cpp:1370
 msgid ""
 "<p>Please take a moment to fill in the KMail configuration panel at Settings-"
 "&gt;Configure KMail.\n"
@@ -8172,36 +8172,36 @@ msgid ""
 "outgoing mail account.</p>\n"
 msgstr ""
 
-#: kmreaderwin.cpp:1387
+#: kmreaderwin.cpp:1382
 #, kde-format
 msgid ""
 "<p><span style='font-size:125%; font-weight:bold;'>Important changes</span> "
 "(compared to KMail %1):</p>\n"
 msgstr ""
 
-#: kmreaderwin.cpp:1392
+#: kmreaderwin.cpp:1387
 #, kde-format
 msgid "<li>%1</li>\n"
 msgstr ""
 
-#: kmreaderwin.cpp:1522
+#: kmreaderwin.cpp:1517
 msgid "( body part )"
 msgstr ""
 
-#: kmreaderwin.cpp:1818
+#: kmreaderwin.cpp:1813
 msgid "Could not send MDN."
 msgstr "MDN joʻnatib boʻlmadi."
 
-#: kmreaderwin.cpp:1969
+#: kmreaderwin.cpp:1964
 msgid "Decrypt With Chiasmus..."
 msgstr ""
 
-#: kmreaderwin.cpp:2135 kmreaderwin.cpp:2171 kmreaderwin.cpp:2190
+#: kmreaderwin.cpp:2130 kmreaderwin.cpp:2166 kmreaderwin.cpp:2185
 #, kde-format
 msgid "View Attachment: %1"
 msgstr "Ilovani koʻrish: %1"
 
-#: kmreaderwin.cpp:2182
+#: kmreaderwin.cpp:2177
 #, kde-format
 msgid ""
 "[KMail: Attachment contains binary data. Trying to show first character.]"
@@ -8210,33 +8210,33 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: kmreaderwin.cpp:2276
+#: kmreaderwin.cpp:2271
 #, kde-format
 msgid "&Open with '%1'"
 msgstr "'%1' bilan &ochish"
 
-#: kmreaderwin.cpp:2278
+#: kmreaderwin.cpp:2273
 msgid "&Open With..."
 msgstr "...bi&lan ochish"
 
-#: kmreaderwin.cpp:2280
+#: kmreaderwin.cpp:2275
 #, kde-format
 msgid ""
 "Open attachment '%1'?\n"
 "Note that opening an attachment may compromise your system's security."
 msgstr ""
 
-#: kmreaderwin.cpp:2285
+#: kmreaderwin.cpp:2280
 msgid "Open Attachment?"
 msgstr "Ilovani ochaymi?"
 
-#: kmreaderwin.cpp:2602
+#: kmreaderwin.cpp:2597
 msgid ""
 "Deleting an attachment might invalidate any digital signature on this "
 "message."
 msgstr ""
 
-#: kmreaderwin.cpp:2615
+#: kmreaderwin.cpp:2610
 msgid ""
 "Modifying an attachment might invalidate any digital signature on this "
 "message."
@@ -8517,56 +8517,56 @@ msgstr ""
 msgid "Mailinglist Folder Properties"
 msgstr "Jildning xossalari"
 
-#: mailinglistpropertiesdialog.cpp:70
+#: mailinglistpropertiesdialog.cpp:69
 msgid "Associated Mailing List"
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:79
+#: mailinglistpropertiesdialog.cpp:78
 msgid "&Folder holds a mailing list"
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:86
+#: mailinglistpropertiesdialog.cpp:85
 msgid "Detect Automatically"
 msgstr "Avto-aniqlash"
 
-#: mailinglistpropertiesdialog.cpp:93
+#: mailinglistpropertiesdialog.cpp:92
 #, fuzzy
 msgid "Mailing list description:"
 msgstr "Filter amal&larni qoʻllash"
 
-#: mailinglistpropertiesdialog.cpp:104
+#: mailinglistpropertiesdialog.cpp:103
 msgid "Preferred handler:"
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:111
+#: mailinglistpropertiesdialog.cpp:110
 msgid "Browser"
 msgstr "Brauzer"
 
-#: mailinglistpropertiesdialog.cpp:118
+#: mailinglistpropertiesdialog.cpp:117
 msgid "&Address type:"
 msgstr "&Manzil turi:"
 
-#: mailinglistpropertiesdialog.cpp:131
+#: mailinglistpropertiesdialog.cpp:130
 msgid "Invoke Handler"
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:150
+#: mailinglistpropertiesdialog.cpp:149
 msgid "Post to List"
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:151
+#: mailinglistpropertiesdialog.cpp:150
 msgid "Subscribe to List"
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:152
+#: mailinglistpropertiesdialog.cpp:151
 msgid "Unsubscribe From List"
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:153
+#: mailinglistpropertiesdialog.cpp:152
 msgid "List Archives"
 msgstr ""
 
-#: mailinglistpropertiesdialog.cpp:154
+#: mailinglistpropertiesdialog.cpp:153
 msgid "List Help"
 msgstr ""
 
