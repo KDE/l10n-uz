@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: kio/netaccess.cpp:105
 #, kde-format
@@ -172,14 +172,14 @@ msgstr ""
 msgid "&Paste File"
 msgid_plural "&Paste %1 Files"
 msgstr[0] "Bitta fay&lni qoʻyish"
-msgstr[1] "%1ta fay&lni qoʻyish"
+
 
 #: kio/paste.cpp:284
 #, kde-format
 msgid "&Paste URL"
 msgid_plural "&Paste %1 URLs"
 msgstr[0] ""
-msgstr[1] ""
+
 
 #: kio/paste.cpp:286
 msgid "&Paste Clipboard Contents"
@@ -201,7 +201,7 @@ msgctxt "Items in a folder"
 msgid "1 item"
 msgid_plural "%1 items"
 msgstr[0] "1 fayl"
-msgstr[1] "%1 fayl"
+
 
 #: kio/kfileitemdelegate.cpp:271 kio/kfileitemdelegate.cpp:275
 #, fuzzy
@@ -427,7 +427,7 @@ msgstr ""
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "Rostdan bu elementni oʻchirishni istaysizmi?"
-msgstr[1] "Rostdan bu %1 elementni oʻchirishni istaysizmi?"
+
 
 #: kio/jobuidelegate.cpp:131 ../kfile/kdiroperator.cpp:726
 msgid "Delete Files"
@@ -438,7 +438,7 @@ msgstr "Fayllarni oʻchirish"
 msgid "Do you really want to move this item to the trash?"
 msgid_plural "Do you really want to move these %1 items to the trash?"
 msgstr[0] "Rostdan bu elementni oʻchirishni istaysizmi?"
-msgstr[1] "Rostdan bu %1 elementni oʻchirishni istaysizmi?"
+
 
 #: kio/jobuidelegate.cpp:143 ../kfile/kdiroperator.cpp:1578
 msgid "Move to Trash"
@@ -487,7 +487,7 @@ msgstr ""
 msgid "1 day %2"
 msgid_plural "%1 days %2"
 msgstr[0] ""
-msgstr[1] ""
+
 
 #: kio/global.cpp:122
 msgid "No Items"
@@ -498,7 +498,7 @@ msgstr "Hech narsa yoʻq"
 msgid "One Item"
 msgid_plural "%1 Items"
 msgstr[0] "Bitta element"
-msgstr[1] "%1 element"
+
 
 #: kio/global.cpp:123
 msgid "No Files"
@@ -509,7 +509,7 @@ msgstr "Hech qanday fayl"
 msgid "One File"
 msgid_plural "%1 Files"
 msgstr[0] "Bitta fayl"
-msgstr[1] "%1 fayl"
+
 
 #: kio/global.cpp:124
 msgid "No Folders"
@@ -520,7 +520,7 @@ msgstr "Hech qanday jild"
 msgid "One Folder"
 msgid_plural "%1 Folders"
 msgstr[0] "Bitta jild"
-msgstr[1] "%1 jild"
+
 
 #: kio/global.cpp:126
 #, kde-format
@@ -3520,7 +3520,7 @@ msgstr "%1 xossalari"
 msgid "Properties for 1 item"
 msgid_plural "Properties for %1 Selected Items"
 msgstr[0] "%1 xossalari"
-msgstr[1] "%1 xossalari"
+
 
 #: kfile/kpropertiesdialog.cpp:768
 msgid "&General"
@@ -3582,14 +3582,14 @@ msgstr "%2'dan %1 (%3% ishlatilgan)"
 msgid "1 file"
 msgid_plural "%1 files"
 msgstr[0] "1 fayl"
-msgstr[1] "%1 fayl"
+
 
 #: kfile/kpropertiesdialog.cpp:1202 kfile/kpropertiesdialog.cpp:1218
 #, fuzzy, kde-format
 msgid "1 sub-folder"
 msgid_plural "%1 sub-folders"
 msgstr[0] "1 quyi jild"
-msgstr[1] "%1 quyi jild"
+
 
 #: kfile/kpropertiesdialog.cpp:1198
 #, kde-format
@@ -3665,7 +3665,7 @@ msgstr "Murojaat huquqlari"
 msgid "This file is a link and does not have permissions."
 msgid_plural "All files are links and do not have permissions."
 msgstr[0] "Ushbu fayl bogʻ va hech qanday huquqlarga ega emas."
-msgstr[1] "Bu fayllar bogʻ va hech qanday huquqlarga ega emas."
+
 
 #: kfile/kpropertiesdialog.cpp:1653
 msgid "Only the owner can change permissions."
@@ -3901,13 +3901,13 @@ msgstr ""
 msgid "This file uses advanced permissions"
 msgid_plural "These files use advanced permissions."
 msgstr[0] "Bu fayl koʻshimcha huquqlarga ega"
-msgstr[1] "Bu fayllar koʻshimcha huquqlarga ega"
+
 
 #: kfile/kpropertiesdialog.cpp:2316
 msgid "This folder uses advanced permissions."
 msgid_plural "These folders use advanced permissions."
 msgstr[0] "Bu jild koʻshimcha huquqlarga ega"
-msgstr[1] "Bu jildlar koʻshimcha huquqlarga ega"
+
 
 #: kfile/kpropertiesdialog.cpp:2332
 msgid "These files use advanced permissions."
@@ -5305,7 +5305,7 @@ msgstr "Kuki xabarnomasi"
 msgid "You received a cookie from"
 msgid_plural "You received %1 cookies from"
 msgstr[0] ""
-msgstr[1] ""
+
 
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:117
 msgid " <b>[Cross Domain]</b>"
@@ -5901,7 +5901,7 @@ msgstr "&Chiqindilar qutisiga"
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] "Rostdan bu elementni chiqindilar qutisiga joʻnatishni istaysizmi?"
-msgstr[1] ""
+
 "Rostdan bu %1 elementni chiqindilar qutisiga joʻnatishni istaysizmi?"
 
 #: ../kfile/kdiroperator.cpp:784
@@ -6311,12 +6311,12 @@ msgstr ""
 #~ msgid "%1 folder"
 #~ msgid_plural "%1 folders"
 #~ msgstr[0] "%1 jild"
-#~ msgstr[1] "%1 jild"
+#~ 
 
 #~ msgid "%1 file"
 #~ msgid_plural "%1 files"
 #~ msgstr[0] "%1 fayl"
-#~ msgstr[1] "%1 fayl"
+#~ 
 
 #~ msgid "%1 % of %2 "
 #~ msgstr "%2 dan %1 % "
@@ -6325,7 +6325,7 @@ msgstr ""
 #~ msgid "%2 % of 1 file"
 #~ msgid_plural "%2 % of %1 files"
 #~ msgstr[0] "Bitta fayldan %2 %"
-#~ msgstr[1] "%1ta fayldan %2 %"
+#~ 
 
 #~ msgid "%1 %"
 #~ msgstr "%1 %"
@@ -6351,12 +6351,12 @@ msgstr ""
 #~ msgid "%2 / %1 folder"
 #~ msgid_plural "%2 / %1 folders"
 #~ msgstr[0] "%2 / %1 jild"
-#~ msgstr[1] "%2 / %1 jild"
+#~ 
 
 #~ msgid "%2 / %1 file"
 #~ msgid_plural "%2 / %1 files"
 #~ msgstr[0] "%2 / %1 fayl"
-#~ msgstr[1] "%2 / %1 fayl"
+#~ 
 
 #~ msgid "Stalled"
 #~ msgstr "Toʻxtab qoldi"
@@ -6629,7 +6629,7 @@ msgstr ""
 #~ msgid "<never used>"
 #~ msgid_plural "Properties for %1 Selected Items"
 #~ msgstr[0] "Tanlangan element xossalari"
-#~ msgstr[1] "Tanlangan %1 element xossalari"
+#~ 
 
 #~ msgid "E&xecute"
 #~ msgstr "&Bajarish"
