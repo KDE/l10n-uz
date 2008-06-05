@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-31 05:42+0200\n"
+"POT-Creation-Date: 2008-06-04 22:50+0200\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -28,7 +28,6 @@ msgid "ERROR: Unknown protocol '%1'"
 msgstr "Xato: Nomaʼlum protokol '%1'"
 
 #: kio/job.cpp:131
-#| msgid "Moving"
 msgctxt "@title job"
 msgid "Moving"
 msgstr "Koʻchirilmoqda"
@@ -42,7 +41,6 @@ msgid "Destination"
 msgstr "Manzil"
 
 #: kio/job.cpp:138
-#| msgid "Copying"
 msgctxt "@title job"
 msgid "Copying"
 msgstr "Nusxa olinmoqda"
@@ -77,7 +75,6 @@ msgid "Transferring"
 msgstr ""
 
 #: kio/job.cpp:169
-#| msgid "Mounting"
 msgctxt "@title job"
 msgid "Mounting"
 msgstr "Ulanmoqda"
@@ -91,7 +88,6 @@ msgid "Mountpoint"
 msgstr "Ulash nuqtasi"
 
 #: kio/job.cpp:176
-#| msgid "Unmounting"
 msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Ajratilmoqda"
@@ -106,7 +102,6 @@ msgid "All Pictures"
 msgstr "Hamma rasmlar"
 
 #: kio/slavebase.h:255 kio/slavebase.h:275
-#| msgid "&Reset"
 msgid "&Yes"
 msgstr "&Ha"
 
@@ -146,7 +141,7 @@ msgid "The clipboard is empty"
 msgstr ""
 
 #: kio/paste.cpp:203 kio/renamedialog.cpp:392 kio/kdirlister.cpp:298
-#: kio/krun.cpp:851
+#: kio/krun.cpp:849
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -176,13 +171,7 @@ msgstr "&Xotiradan qoʻyish"
 msgid "Authorization Dialog"
 msgstr "Tasdiqlash dialogi"
 
-#: kio/kfileitemdelegate.cpp:213
-#, fuzzy
-msgctxt "Items in a folder"
-msgid "? items"
-msgstr "Hech narsa yoʻq"
-
-#: kio/kfileitemdelegate.cpp:215
+#: kio/kfileitemdelegate.cpp:219
 #, kde-format
 msgctxt "Items in a folder"
 msgid "1 item"
@@ -190,8 +179,7 @@ msgid_plural "%1 items"
 msgstr[0] ""
 msgstr[1] "%1-ta band"
 
-#: kio/kfileitemdelegate.cpp:271 kio/kfileitemdelegate.cpp:275
-#| msgid "Unknown"
+#: kio/kfileitemdelegate.cpp:275 kio/kfileitemdelegate.cpp:279
 msgctxt "@info mimetype"
 msgid "Unknown"
 msgstr "Nomaʼlum"
@@ -284,8 +272,8 @@ msgid ""
 "<qt>Could not modify the ownership of file <b>%1</b>. You have insufficient "
 "access to the file to perform the change.</qt>"
 msgstr ""
-"<qt><b>%1</b> faylning egasini oʻzgartirib boʻlmadi. Bu amalni bajarish uchun "
-"siz yetarli huquqga ega emassiz.</qt>"
+"<qt><b>%1</b> faylning egasini oʻzgartirib boʻlmadi. Bu amalni bajarish "
+"uchun siz yetarli huquqga ega emassiz.</qt>"
 
 #: kio/chmodjob.cpp:213
 msgid "&Skip File"
@@ -354,7 +342,8 @@ msgstr "SSL sertifikati uchun maxfiy soʻz"
 
 #: kio/tcpslavebase.cpp:635
 msgid "Unable to open the certificate. Try a new password?"
-msgstr "Sertifikatni ochib boʻlmadi. Boshqa maxfiy soʻzni sinab koʻrishni istaysizmi?"
+msgstr ""
+"Sertifikatni ochib boʻlmadi. Boshqa maxfiy soʻzni sinab koʻrishni istaysizmi?"
 
 #: kio/tcpslavebase.cpp:648
 msgid "The procedure to set the client certificate for the session failed."
@@ -381,7 +370,8 @@ msgid "Co&ntinue"
 msgstr "&Davom etish"
 
 #: kio/tcpslavebase.cpp:741
-msgid "Would you like to accept this certificate forever without being prompted?"
+msgid ""
+"Would you like to accept this certificate forever without being prompted?"
 msgstr ""
 
 #: kio/tcpslavebase.cpp:745
@@ -427,8 +417,6 @@ msgid "Move to Trash"
 msgstr "Chiqindilar qutisiga olib tashlash"
 
 #: kio/jobuidelegate.cpp:144
-#| msgctxt "to trash"
-#| msgid "&Trash"
 msgctxt "Verb"
 msgid "&Trash"
 msgstr "&Chiqindilar qutisiga"
@@ -935,7 +923,8 @@ msgstr "'%1'dan MIME turi haqida maʼlumotni olish qoʻllanmagan."
 #: kio/global.cpp:378
 #, kde-format
 msgid "Renaming or moving files within %1 is not supported."
-msgstr "%1 bilan faylning nomini oʻzgartirish yoki uni koʻchirish qoʻllanmagan."
+msgstr ""
+"%1 bilan faylning nomini oʻzgartirish yoki uni koʻchirish qoʻllanmagan."
 
 #: kio/global.cpp:380
 #, kde-format
@@ -989,7 +978,6 @@ msgid "Protocol %1 does not support action %2."
 msgstr "%1 protokoli %2 amalini qoʻllamaydi."
 
 #: kio/global.cpp:418
-#| msgid "(unknown)"
 msgctxt "@info url"
 msgid "(unknown)"
 msgstr "(nomaʼlum)"
@@ -1028,22 +1016,18 @@ msgstr "<li>Sana va vaqt: %1</li>"
 
 #: kio/global.cpp:438
 #, kde-format
-#| msgid "<li>Additional information: %1</li></ul>"
 msgid "<li>Additional information: %1</li>"
 msgstr "<li>Qoʻshimcha maʼlumot: %1</li>"
 
 #: kio/global.cpp:441
-#| msgid "<p><b>Possible causes</b>:</p><ul><li>"
 msgid "<b>Possible causes</b>:"
 msgstr "<b>Extimol sabablar</b>:"
 
 #: kio/global.cpp:446
-#| msgid "<p><b>Possible solutions</b>:</p><ul><li>"
 msgid "<b>Possible solutions</b>:"
 msgstr "<b>Extimol yechimlar</b>:"
 
 #: kio/global.cpp:504
-#| msgid "(unknown)"
 msgctxt "@info protocol"
 msgid "(unknown)"
 msgstr "(nomaʼlum)"
@@ -1052,7 +1036,8 @@ msgstr "(nomaʼlum)"
 msgid ""
 "Contact your appropriate computer support system, whether the system "
 "administrator, or technical support group for further assistance."
-msgstr "Yordam uchun tizim boshqaruvchisiga yoki muhandis hodimga murojaat qiling."
+msgstr ""
+"Yordam uchun tizim boshqaruvchisiga yoki muhandis hodimga murojaat qiling."
 
 #: kio/global.cpp:517
 msgid "Contact the administrator of the server for further assistance."
@@ -1071,7 +1056,8 @@ msgstr ""
 "mumkin."
 
 #: kio/global.cpp:523
-msgid "The file may be in use (and thus locked) by another user or application."
+msgid ""
+"The file may be in use (and thus locked) by another user or application."
 msgstr "Faylni boshqa foydalanuvchi yoki dastur ishlatayotgan boʻlishi mumkin."
 
 #: kio/global.cpp:525
@@ -1079,12 +1065,13 @@ msgid ""
 "Check to make sure that no other application or user is using the file or "
 "has locked the file."
 msgstr ""
-"Ishonch hosil qilish uchun faylni boshqa dastur yoki foydalanuvchi ishlatmayotganini "
-"yoki uni qulflamaganini tekshiring."
+"Ishonch hosil qilish uchun faylni boshqa dastur yoki foydalanuvchi "
+"ishlatmayotganini yoki uni qulflamaganini tekshiring."
 
 #: kio/global.cpp:527
 msgid "Although unlikely, a hardware error may have occurred."
-msgstr "Ehtimoli juda kam boʻlsa ham, asbobda xato roʻy bergan boʻlishi mumkin."
+msgstr ""
+"Ehtimoli juda kam boʻlsa ham, asbobda xato roʻy bergan boʻlishi mumkin."
 
 #: kio/global.cpp:529
 msgid "You may have encountered a bug in the program."
@@ -1155,7 +1142,9 @@ msgstr "Balki siz manzilni notoʻgʻri kiritdingiz."
 
 #: kio/global.cpp:555
 msgid "Double-check that you have entered the correct location and try again."
-msgstr "Toʻgʻri manzilni kiritganingizni yana bir bor tekshiring va yana urinib koʻring."
+msgstr ""
+"Toʻgʻri manzilni kiritganingizni yana bir bor tekshiring va yana urinib "
+"koʻring."
 
 #: kio/global.cpp:557
 msgid "Check your network connection status."
@@ -1246,8 +1235,8 @@ msgid ""
 "The protocol <strong>%1</strong> is not supported by the KDE programs "
 "currently installed on this computer."
 msgstr ""
-"<strong>%1</strong> protokoli bu kompyuterga oʻrnatilgan KDE dasturlari bilan "
-"ishlamaydi."
+"<strong>%1</strong> protokoli bu kompyuterga oʻrnatilgan KDE dasturlari "
+"bilan ishlamaydi."
 
 #: kio/global.cpp:616
 msgid "The requested protocol may not be supported."
@@ -1322,7 +1311,8 @@ msgstr "Fayl kutilmoqda"
 msgid ""
 "The request expected a file, however the folder <strong>%1</strong> was "
 "found instead."
-msgstr "Talab natijasida fayl kutilgan edi, ammo <strong>%1</strong> jildi topildi."
+msgstr ""
+"Talab natijasida fayl kutilgan edi, ammo <strong>%1</strong> jildi topildi."
 
 #: kio/global.cpp:656
 msgid "This may be an error on the server side."
@@ -1337,7 +1327,8 @@ msgstr "Jild kutilmoqda"
 msgid ""
 "The request expected a folder, however the file <strong>%1</strong> was "
 "found instead."
-msgstr "Talab natijasida jild kutilgan edi, ammo <strong>%1</strong> fayli topildi."
+msgstr ""
+"Talab natijasida jild kutilgan edi, ammo <strong>%1</strong> fayli topildi."
 
 #: kio/global.cpp:669
 msgid "File or Folder Does Not Exist"
@@ -1352,7 +1343,8 @@ msgstr "Koʻrsatilgan fayl yoki jild <strong>%1</strong> mavjud emas."
 msgid ""
 "The requested file could not be created because a file with the same name "
 "already exists."
-msgstr "Talab qilingan fayl yaratilmadi. Chunki shu nomli fayl allaqachon mavjud."
+msgstr ""
+"Talab qilingan fayl yaratilmadi. Chunki shu nomli fayl allaqachon mavjud."
 
 #: kio/global.cpp:680
 msgid "Try moving the current file out of the way first, and then try again."
@@ -1370,7 +1362,8 @@ msgstr "Yangi faylga boshqa nom berib koʻring."
 msgid ""
 "The requested folder could not be created because a folder with the same "
 "name already exists."
-msgstr "Talab qilingan jild yaratilmadi. Chunki shu nomli jild allaqachon mavjud."
+msgstr ""
+"Talab qilingan jild yaratilmadi. Chunki shu nomli jild allaqachon mavjud."
 
 #: kio/global.cpp:690
 msgid "Try moving the current folder out of the way first, and then try again."
@@ -1397,8 +1390,11 @@ msgstr ""
 
 #: kio/global.cpp:701
 #, kde-format
-msgid "The name that you typed, %1, may not exist: it may be incorrectly typed."
-msgstr "Siz kiritgan nom, %1, balki mavjud emas. U notoʻgʻri yozilgan boʻlishi mumkin."
+msgid ""
+"The name that you typed, %1, may not exist: it may be incorrectly typed."
+msgstr ""
+"Siz kiritgan nom, %1, balki mavjud emas. U notoʻgʻri yozilgan boʻlishi "
+"mumkin."
 
 #: kio/global.cpp:708
 msgid "Access Denied"
@@ -1412,8 +1408,8 @@ msgstr "Koʻrsatilgan manbaga, <strong>%1</strong>, ruxsat yoʻq."
 #: kio/global.cpp:711 kio/global.cpp:927
 msgid "You may have supplied incorrect authentication details or none at all."
 msgstr ""
-"Tasdiqlash uchun siz notoʻgʻri yoki hech qanday maʼlumotni kiritmagan boʻlishingiz "
-"mumkin."
+"Tasdiqlash uchun siz notoʻgʻri yoki hech qanday maʼlumotni kiritmagan "
+"boʻlishingiz mumkin."
 
 #: kio/global.cpp:713 kio/global.cpp:929
 msgid "Your account may not have permission to access the specified resource."
@@ -1517,13 +1513,15 @@ msgstr "Soketni yaratib boʻlmadi"
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be created."
-msgstr "Bu texnik xato. Tarmoq orqali aloqa uchun vositani (soket) yaratib boʻlmadi."
+msgstr ""
+"Bu texnik xato. Tarmoq orqali aloqa uchun vositani (soket) yaratib boʻlmadi."
 
 #: kio/global.cpp:784 kio/global.cpp:897 kio/global.cpp:908 kio/global.cpp:917
 msgid ""
 "The network connection may be incorrectly configured, or the network "
 "interface may not be enabled."
-msgstr "Tarmoq notoʻgʻri moslangan yoki tarmoq interfeysi yoqilmagan boʻlishi mumkin."
+msgstr ""
+"Tarmoq notoʻgʻri moslangan yoki tarmoq interfeysi yoqilmagan boʻlishi mumkin."
 
 #: kio/global.cpp:790
 msgid "Connection to Server Refused"
@@ -1735,8 +1733,11 @@ msgid "Could Not Login: %1"
 msgstr "%1'ga kirib boʻlmadi"
 
 #: kio/global.cpp:925
-msgid "An attempt to login to perform the requested operation was unsuccessful."
-msgstr "Talab qilingan operatsiyani bajarish uchun tizimga kirish muvaffaqiyatsiz tugadi."
+msgid ""
+"An attempt to login to perform the requested operation was unsuccessful."
+msgstr ""
+"Talab qilingan operatsiyani bajarish uchun tizimga kirish muvaffaqiyatsiz "
+"tugadi."
 
 #: kio/global.cpp:936
 msgid "Could Not Determine Resource Status"
@@ -1784,7 +1785,8 @@ msgstr "Jildni oʻchirib boʻlmadi"
 #: kio/global.cpp:964
 #, kde-format
 msgid "An attempt to remove the specified folder, <strong>%1</strong>, failed."
-msgstr "Koʻrsatilgan jildni, <strong>%1</strong>, oʻchirish muvaffaqiyatsiz tugadi."
+msgstr ""
+"Koʻrsatilgan jildni, <strong>%1</strong>, oʻchirish muvaffaqiyatsiz tugadi."
 
 #: kio/global.cpp:966
 msgid "The specified folder may not exist."
@@ -1796,7 +1798,8 @@ msgstr "Koʻrsatilgan jild balki boʻsh emas."
 
 #: kio/global.cpp:970
 msgid "Ensure that the folder exists and is empty, and try again."
-msgstr "Jild mavjudligiga va boʻshligiga ishonch hosil qiling va yana urinib koʻring."
+msgstr ""
+"Jild mavjudligiga va boʻshligiga ishonch hosil qiling va yana urinib koʻring."
 
 #: kio/global.cpp:975
 msgid "Could Not Resume File Transfer"
@@ -1825,8 +1828,8 @@ msgstr "Manbaning nomini oʻzgartirib boʻlmadi"
 #, kde-format
 msgid "An attempt to rename the specified resource <strong>%1</strong> failed."
 msgstr ""
-"Koʻrsatilgan, <strong>%1</strong>, manbaning nomini oʻzgartirish muvaffaqiyatsiz "
-"tugadi."
+"Koʻrsatilgan, <strong>%1</strong>, manbaning nomini oʻzgartirish "
+"muvaffaqiyatsiz tugadi."
 
 #: kio/global.cpp:995
 msgid "Could Not Alter Permissions of Resource"
@@ -1866,7 +1869,8 @@ msgstr "Manbani oʻchirib boʻlmadi"
 #: kio/global.cpp:1012
 #, kde-format
 msgid "An attempt to delete the specified resource <strong>%1</strong> failed."
-msgstr "Koʻrsatilgan, <strong>%1</strong>, manbani oʻchirish muvaffaqiyatsiz tugadi."
+msgstr ""
+"Koʻrsatilgan, <strong>%1</strong>, manbani oʻchirish muvaffaqiyatsiz tugadi."
 
 #: kio/global.cpp:1019
 msgid "Unexpected Program Termination"
@@ -2097,7 +2101,8 @@ msgstr "Manba va manzil fayllar bir xil"
 msgid ""
 "The operation could not be completed because the source and destination "
 "files are the same file."
-msgstr "Amalni bajarib boʻlmadi, chunki manba va manzil fayllarining nomlari bir xil."
+msgstr ""
+"Amalni bajarib boʻlmadi, chunki manba va manzil fayllarining nomlari bir xil."
 
 #: kio/global.cpp:1185
 msgid "Choose a different filename for the destination file."
@@ -2112,7 +2117,7 @@ msgstr "Bu xato uchun koʻllanma yoʻq."
 msgid "Default"
 msgstr "Andoza"
 
-#: kio/krun.cpp:152
+#: kio/krun.cpp:150
 #, kde-format
 msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
@@ -2121,55 +2126,55 @@ msgstr ""
 "<qt><b>%1</b>'ga oʻtib boʻlmadi.\n"
 "Sizda bu manzil uchun yetarli huquqlar yoʻq.</qt>"
 
-#: kio/krun.cpp:189
+#: kio/krun.cpp:187
 #, kde-format
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
 "started.</qt>"
 msgstr ""
 
-#: kio/krun.cpp:196
+#: kio/krun.cpp:194
 #, kde-format
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr "<qt>Sizga <b>%1</b>'ni ishga tushirishga ruxsat yoʻq.</qt>"
 
-#: kio/krun.cpp:221
+#: kio/krun.cpp:219
 #, fuzzy
 msgid "You are not authorized to select an application to open this file."
 msgstr "Bu faylni ochishga sizda yetarli huquqlar yoʻq."
 
-#: kio/krun.cpp:225
+#: kio/krun.cpp:223
 msgid "Open with:"
 msgstr "Dastur bilan ochish:"
 
-#: kio/krun.cpp:526
+#: kio/krun.cpp:524
 msgid "You are not authorized to execute this file."
 msgstr "Bu faylni bajarishga sizda yetarli huquqlar yoʻq."
 
-#: kio/krun.cpp:546
+#: kio/krun.cpp:544
 #, kde-format
 msgid "Launching %1"
 msgstr "%1'ni ishga tushirish"
 
-#: kio/krun.cpp:652
+#: kio/krun.cpp:650
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr ""
 
-#: kio/krun.cpp:719
+#: kio/krun.cpp:717
 msgid "You are not authorized to execute this service."
 msgstr "Bu xizmatni bajarishga sizda yetarli huquqlar yoʻq."
 
-#: kio/krun.cpp:887
+#: kio/krun.cpp:885
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
 "not exist.</qt>"
 msgstr ""
-"<qt>Koʻrsatilgan buyruqni bajarib boʻlmadi. Fayl yoki jild (<b>%1</b>) mavjud "
-"emas.</qt>"
+"<qt>Koʻrsatilgan buyruqni bajarib boʻlmadi. Fayl yoki jild (<b>%1</b>) "
+"mavjud emas.</qt>"
 
-#: kio/krun.cpp:1496
+#: kio/krun.cpp:1494
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "'%1' dasturini topib boʻlmadi."
@@ -2390,43 +2395,36 @@ msgid "Unable to create io-slave: %1"
 msgstr "KCH-sleyvni (%1) yaratib boʻlmadi"
 
 #: kio/kdirmodel.cpp:667
-#| msgid "Name"
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Nomi"
 
 #: kio/kdirmodel.cpp:669
-#| msgid "Size"
 msgctxt "@title:column"
 msgid "Size"
 msgstr "Hajmi"
 
 #: kio/kdirmodel.cpp:671
-#| msgid "Date"
 msgctxt "@title:column"
 msgid "Date"
 msgstr "Sana"
 
 #: kio/kdirmodel.cpp:673
-#| msgid "Permissions"
 msgctxt "@title:column"
 msgid "Permissions"
 msgstr "Huquqlar"
 
 #: kio/kdirmodel.cpp:675
-#| msgid "Owner"
 msgctxt "@title:column"
 msgid "Owner"
 msgstr "Egasi"
 
 #: kio/kdirmodel.cpp:677
-#| msgid "Group"
 msgctxt "@title:column"
 msgid "Group"
 msgstr "Guruh"
 
 #: kio/kdirmodel.cpp:679
-#| msgid "Type"
 msgctxt "@title:column"
 msgid "Type"
 msgstr "Turi"
@@ -2440,12 +2438,10 @@ msgid "KDE SSL Information"
 msgstr "KDE SSL haqida maʼlumot"
 
 #: kssl/ksslinfodialog.cpp:80
-#| msgid "Subject line"
 msgid "Subject"
 msgstr "Mavzu"
 
 #: kssl/ksslinfodialog.cpp:81
-#| msgid "Issuer:"
 msgid "Issuer"
 msgstr "Kim tomonidan berilgan"
 
@@ -2462,13 +2458,13 @@ msgid "SSL support is not available in this build of KDE."
 msgstr "Joriy KDE'da SSL qoʻllanmagan."
 
 #: kssl/ksslinfodialog.cpp:139
-msgid "The main part of this document is secured with SSL, but some parts are not."
+msgid ""
+"The main part of this document is secured with SSL, but some parts are not."
 msgstr ""
 "Bu hujjatning asosiy qismi SSL bilan himoyalangan, ammo baʼzi bir qismlari "
 "himoyalanmagan."
 
 #: kssl/ksslinfodialog.cpp:145
-#| msgid "Some of this document is secured with SSL, but the main part is not."
 msgid "Some of this document is secured with SSL, but the main part is not."
 msgstr ""
 "Bu hujjatning baʼzi bir qismlari SSL bilan himoyalangan, ammo asosiy qismi "
@@ -2936,8 +2932,8 @@ msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
 "password for this wallet below.</qt>"
 msgstr ""
-"<qt>KDE '<b>%1</b>' qopchiqni ochishi kerak. Iltimos ushbu qopchiq uchun maxfiy "
-"soʻzni quyida kiriting."
+"<qt>KDE '<b>%1</b>' qopchiqni ochishi kerak. Iltimos ushbu qopchiq uchun "
+"maxfiy soʻzni quyida kiriting."
 
 #: misc/kwalletd/kwalletd.cpp:391
 #, fuzzy, kde-format
@@ -2948,8 +2944,8 @@ msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
 "b>'. Please enter the password for this wallet below.</qt>"
 msgstr ""
-"<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu qopchiq "
-"uchun maxfiy soʻzni quyida kiriting."
+"<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu "
+"qopchiq uchun maxfiy soʻzni quyida kiriting."
 
 #: misc/kwalletd/kwalletd.cpp:395 ../kfile/kfilewidget.cpp:1617
 msgid "&Open"
@@ -2980,8 +2976,8 @@ msgid ""
 "to use with this wallet or click cancel to deny the application's request.</"
 "qt>"
 msgstr ""
-"<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu qopchiq "
-"uchun maxfiy soʻzni quyida kiriting."
+"<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu "
+"qopchiq uchun maxfiy soʻzni quyida kiriting."
 
 #: misc/kwalletd/kwalletd.cpp:426
 #, fuzzy, kde-format
@@ -2993,8 +2989,8 @@ msgid ""
 "choose a password for this wallet, or cancel to deny the application's "
 "request.</qt>"
 msgstr ""
-"<qt>KDE '<b>%1</b>' qopchiqni ochishi kerak. Iltimos ushbu qopchiq uchun maxfiy "
-"soʻzni quyida kiriting."
+"<qt>KDE '<b>%1</b>' qopchiqni ochishi kerak. Iltimos ushbu qopchiq uchun "
+"maxfiy soʻzni quyida kiriting."
 
 #: misc/kwalletd/kwalletd.cpp:428
 #, fuzzy, kde-format
@@ -3006,8 +3002,8 @@ msgid ""
 "'<b>%2</b>'. Please choose a password for this wallet, or cancel to deny the "
 "application's request.</qt>"
 msgstr ""
-"<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu qopchiq "
-"uchun maxfiy soʻzni quyida kiriting."
+"<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu "
+"qopchiq uchun maxfiy soʻzni quyida kiriting."
 
 #: misc/kwalletd/kwalletd.cpp:433
 msgid "C&reate"
@@ -3027,8 +3023,8 @@ msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>%"
 "2</b>'.</qt>"
 msgstr ""
-"<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu qopchiq "
-"uchun maxfiy soʻzni quyida kiriting."
+"<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu "
+"qopchiq uchun maxfiy soʻzni quyida kiriting."
 
 #: misc/kwalletd/kwalletd.cpp:595
 msgid ""
@@ -3389,8 +3385,8 @@ msgid ""
 "<qt>Select the program for the file type: <b>%1</b>. If the program is not "
 "listed, enter the name or click the browse button.</qt>"
 msgstr ""
-"<qt><b>%1</b> fayl turi uchun dasturni tanlang. Agar dastur roʻyxatda boʻlmasa, "
-"uning nomini kiriting yoki \"Tanlash\"tugmasini bosing.</qt>"
+"<qt><b>%1</b> fayl turi uchun dasturni tanlang. Agar dastur roʻyxatda "
+"boʻlmasa, uning nomini kiriting yoki \"Tanlash\"tugmasini bosing.</qt>"
 
 #: kfile/kopenwithdialog.cpp:524
 msgid "Choose Application"
@@ -3553,8 +3549,8 @@ msgid ""
 "<qt>Could not save properties. You do not have sufficient access to write to "
 "<b>%1</b>.</qt>"
 msgstr ""
-"<qt>Xossalarni saqlab boʻlmadi. Siz <b>%1</b>'ga yozish uchun yetarli huquqlarga "
-"ega emassiz.</qt>"
+"<qt>Xossalarni saqlab boʻlmadi. Siz <b>%1</b>'ga yozish uchun yetarli "
+"huquqlarga ega emassiz.</qt>"
 
 #: kfile/kpropertiesdialog.cpp:1519 kfile/kpropertiesdialog.cpp:1523
 #: kfile/kpropertiesdialog.cpp:1528
@@ -3630,7 +3626,8 @@ msgstr "Hamma foydalanuvchilar bajarishi mumkin boʻlgan amallarni koʻrsatadi."
 
 #: kfile/kpropertiesdialog.cpp:1683
 msgid "Only own&er can rename and delete folder content"
-msgstr "Jildning tarkibini faqat e&gasi oʻchirishi va nomini oʻzgartirishi mumkin"
+msgstr ""
+"Jildning tarkibini faqat e&gasi oʻchirishi va nomini oʻzgartirishi mumkin"
 
 #: kfile/kpropertiesdialog.cpp:1684
 msgid "Is &executable"
@@ -3642,9 +3639,10 @@ msgid ""
 "contained files and folders. Other users can only add new files, which "
 "requires the 'Modify Content' permission."
 msgstr ""
-"Jildning tarkibini oʻchirish va nomini oʻzgartirish huquqini uning egasiga berish "
-"uchun shu yerni belgilang. Agar 'Tarkibini koʻrishi va oʻzgartirishi mumkin' huquqi "
-"koʻrsatilgan boʻlsa, boshqa foydalanuvchilar jildga yangi fayllarni koʻshishi mumkin."
+"Jildning tarkibini oʻchirish va nomini oʻzgartirish huquqini uning egasiga "
+"berish uchun shu yerni belgilang. Agar 'Tarkibini koʻrishi va oʻzgartirishi "
+"mumkin' huquqi koʻrsatilgan boʻlsa, boshqa foydalanuvchilar jildga yangi "
+"fayllarni koʻshishi mumkin."
 
 #: kfile/kpropertiesdialog.cpp:1692
 msgid ""
@@ -3719,8 +3717,9 @@ msgid ""
 "This flag allows adding, renaming and deleting of files. Note that deleting "
 "and renaming can be limited using the Sticky flag."
 msgstr ""
-"Bu bayroq faylni qoʻshish, oʻchirish va nomini oʻzgartirishga ruxsat beradi. Oʻchirish "
-"va nomini oʻzgartirishni 'Yopishqoq' bayrogʻi bilan chegaralash mumkin."
+"Bu bayroq faylni qoʻshish, oʻchirish va nomini oʻzgartirishga ruxsat beradi. "
+"Oʻchirish va nomini oʻzgartirishni 'Yopishqoq' bayrogʻi bilan chegaralash "
+"mumkin."
 
 #: kfile/kpropertiesdialog.cpp:1934
 msgid "The Write flag allows modifying the content of the file."
@@ -3790,7 +3789,8 @@ msgid "Set GID"
 msgstr "GID'ni oʻrnatish"
 
 #: kfile/kpropertiesdialog.cpp:1992
-msgid "If this flag is set, the group of this folder will be set for all new files."
+msgid ""
+"If this flag is set, the group of this folder will be set for all new files."
 msgstr ""
 
 #: kfile/kpropertiesdialog.cpp:1995
@@ -3931,7 +3931,8 @@ msgid "Configure File Sharing..."
 msgstr "Moslash"
 
 #: kfile/kfilesharedialog.cpp:180
-msgid "Error running 'filesharelist'. Check if installed and in $PATH or /usr/sbin."
+msgid ""
+"Error running 'filesharelist'. Check if installed and in $PATH or /usr/sbin."
 msgstr ""
 "'filesharelist' dasturini ishga tushirib boʻlmadi. Iltimos 'filesharelist' "
 "dasturi toʻgʻri oʻtnatilganligini va u oʻrnatilgan direktoriya sizning $PATH "
@@ -3987,9 +3988,9 @@ msgid ""
 "You must now provide a password for the certificate request. Please choose a "
 "very secure password as this will be used to encrypt your private key."
 msgstr ""
-"Endi siz sertifikat talabi uchun maxfiy soʻzni tanlashingiz kerak. Iltimos juda "
-"xavfsiz maxfiy soʻzini tanlang, chunki u sizning shaxsiy kalitingizni kodlashda "
-"ishlatiladi."
+"Endi siz sertifikat talabi uchun maxfiy soʻzni tanlashingiz kerak. Iltimos "
+"juda xavfsiz maxfiy soʻzini tanlang, chunki u sizning shaxsiy kalitingizni "
+"kodlashda ishlatiladi."
 
 #. i18n: tag string
 #. i18n: file ./kssl/keygenwizard2.ui line 48
@@ -4117,7 +4118,6 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./kssl/certificateparty.ui line 104
 #: rc.cpp:81
-#| msgid "Can Read"
 msgid "Canada"
 msgstr "Kanada"
 
@@ -4138,7 +4138,6 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./kssl/certificateparty.ui line 151
 #: rc.cpp:90
-#| msgid "Country:"
 msgid "City:"
 msgstr "Shahar:"
 
@@ -4192,7 +4191,8 @@ msgstr ""
 #. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 29
 #: rc.cpp:111
 msgid "Yes, I wish to use the KDE wallet to store my personal information."
-msgstr "Ha, shaxsiy maʼlumotni saqlash uchun men KDE qapchugʻidan foydalanmoqchiman."
+msgstr ""
+"Ha, shaxsiy maʼlumotni saqlash uchun men KDE qapchugʻidan foydalanmoqchiman."
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 88
@@ -4601,7 +4601,6 @@ msgid "Hide in toolbar"
 msgstr "Xatchoʻplarni bekitish"
 
 #: bookmarks/konqbookmarkmenu.cc:61 bookmarks/konqbookmarkmenu.cc:78
-#| msgid "Show toolbar"
 msgid "Show in toolbar"
 msgstr "Asboblar panelida koʻrsatish"
 
@@ -4733,81 +4732,68 @@ msgid ""
 msgstr ""
 
 #: bookmarks/kbookmarkdialog.cc:22
-#| msgid "Date"
 msgctxt "@action:button"
 msgid "Update"
 msgstr "Yangilash"
 
 #: bookmarks/kbookmarkdialog.cc:23
-#| msgid "Bookmark Properties"
 msgctxt "@title:window"
 msgid "Bookmark Properties"
 msgstr "Xatchoʻpning xossalari"
 
 #: bookmarks/kbookmarkdialog.cc:48 bookmarks/kbookmarkdialog.cc:77
-#| msgid "&Add"
 msgctxt "@action:button"
 msgid "Add"
 msgstr "Qoʻshish"
 
 #: bookmarks/kbookmarkdialog.cc:49
-#| msgid "Add Bookmark"
 msgctxt "@title:window"
 msgid "Add Bookmark"
 msgstr "Xatchoʻplarga qoʻshish"
 
 #: bookmarks/kbookmarkdialog.cc:50 bookmarks/kbookmarkdialog.cc:79
 #: bookmarks/kbookmarkdialog.cc:103
-#| msgid "&New Folder..."
 msgctxt "@action:button"
 msgid "&New Folder..."
 msgstr "&Yangi jild..."
 
 #: bookmarks/kbookmarkdialog.cc:78
-#| msgid "Add Bookmark"
 msgctxt "@title:window"
 msgid "Add Bookmarks"
 msgstr "Xatchoʻplarga qoʻshish"
 
 #: bookmarks/kbookmarkdialog.cc:104 ../kfile/kdirselectdialog.cpp:223
-#| msgid "Select Folder"
 msgctxt "@title:window"
 msgid "Select Folder"
 msgstr "Jildni tanlash"
 
 #: bookmarks/kbookmarkdialog.cc:129 ../kfile/kdirselectdialog.cpp:119
-#| msgid "New Folder"
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "Yangi jild"
 
 #: bookmarks/kbookmarkdialog.cc:255
-#| msgid "Name:"
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Nomi:"
 
 #: bookmarks/kbookmarkdialog.cc:259
-#| msgid "Location:"
 msgctxt "@label:textbox"
 msgid "Location:"
 msgstr "Manzili:"
 
 #: bookmarks/kbookmarkdialog.cc:289
-#| msgid "Create New Bookmark Folder in %1"
 msgctxt "@title:window"
 msgid "Create New Bookmark Folder"
 msgstr "Yangi xatchoʻp jildini yaratish"
 
 #: bookmarks/kbookmarkdialog.cc:290
 #, kde-format
-#| msgid "Create New Bookmark Folder in %1"
 msgctxt "@title:window"
 msgid "Create New Bookmark Folder in %1"
 msgstr "Yangi xatchoʻp jildini %1'da yaratish"
 
 #: bookmarks/kbookmarkdialog.cc:293
-#| msgid "New folder:"
 msgctxt "@label:textbox"
 msgid "New folder:"
 msgstr "Yangi jild:"
@@ -4850,7 +4836,8 @@ msgstr ""
 
 #: ../kioslave/ftp/ftp.cpp:463 ../kioslave/http/http.cpp:5005
 msgid "You need to supply a username and a password to access this site."
-msgstr "Bu saytga kirish uchun foydalanuvchi va maxfiy soʻzni koʻrsatish kerak."
+msgstr ""
+"Bu saytga kirish uchun foydalanuvchi va maxfiy soʻzni koʻrsatish kerak."
 
 #: ../kioslave/ftp/ftp.cpp:465 ../kioslave/http/http.cpp:5013
 msgid "Site:"
@@ -5150,8 +5137,8 @@ msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
 msgstr ""
-"Quyida koʻrsatilgan proksi serverga kirish uchun foydalanuvchi va maxfiy soʻzni "
-"koʻrsatish kerak."
+"Quyida koʻrsatilgan proksi serverga kirish uchun foydalanuvchi va maxfiy "
+"soʻzni koʻrsatish kerak."
 
 #: ../kioslave/http/http.cpp:5030
 msgid "Proxy:"
@@ -5163,7 +5150,8 @@ msgid "Authentication needed for %1 but authentication is disabled."
 msgstr ""
 
 #: ../kioslave/http/http.cpp:5668
-msgid "Unsupported method: authentication will fail. Please submit a bug report."
+msgid ""
+"Unsupported method: authentication will fail. Please submit a bug report."
 msgstr ""
 
 #: ../kioslave/http/http_cache_cleaner.cpp:199
@@ -5340,8 +5328,6 @@ msgid "No metainfo for %1"
 msgstr "%1 uchun meta maʼlumot yoʻq"
 
 #: ../kfile/kfileplacesview.cpp:408
-#| msgctxt "to trash"
-#| msgid "&Trash"
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Chiqindilar qutisini boʻshatish"
@@ -5379,8 +5365,6 @@ msgid "Do you really want to empty the Trash? All items will be deleted."
 msgstr "Rostdan bu elementni oʻchirishni istaysizmi?"
 
 #: ../kfile/kfileplacesview.cpp:454
-#| msgctxt "to trash"
-#| msgid "&Trash"
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Chiqindilar qutisini boʻshatish"
@@ -5416,8 +5400,8 @@ msgid ""
 "if the current location is file:/home/%1 clicking this button will take you "
 "to file:/home.</qt>"
 msgstr ""
-"<qt>Yuqori jildga oʻtish.<p>Masalan, agar joriy jild file:/home/%1 boʻlsa, bu "
-"tugmani bossangiz file:/home jildiga oʻtasiz.</qt>"
+"<qt>Yuqori jildga oʻtish.<p>Masalan, agar joriy jild file:/home/%1 boʻlsa, "
+"bu tugmani bossangiz file:/home jildiga oʻtasiz.</qt>"
 
 #: ../kfile/kfilewidget.cpp:350
 msgid "Click this button to move backwards one step in the browsing history."
@@ -5444,7 +5428,6 @@ msgid "Show Bookmarks"
 msgstr "Xatchoʻplarni koʻrsatish"
 
 #: ../kfile/kfilewidget.cpp:373
-#| msgid "Operation"
 msgid "Options"
 msgstr "Moslamalar"
 
@@ -5505,8 +5488,8 @@ msgid ""
 "This is the list of files to open. More than one file can be specified by "
 "listing several files, separated by spaces."
 msgstr ""
-"Ochish uchun fayllar roʻyxati. Boʻsh joy bilan ajratilgan bir qancha fayllarning "
-"nomini koʻrsatish mumkin."
+"Ochish uchun fayllar roʻyxati. Boʻsh joy bilan ajratilgan bir qancha "
+"fayllarning nomini koʻrsatish mumkin."
 
 #: ../kfile/kfilewidget.cpp:1057
 msgid "This is the name of the file to open."
@@ -5593,7 +5576,6 @@ msgid "Home"
 msgstr "Uy"
 
 #: ../kfile/kfileplacesmodel.cpp:96
-#| msgid "Network Folders"
 msgid "Network"
 msgstr "Tarmoq"
 
@@ -5602,8 +5584,6 @@ msgid "Root"
 msgstr "Tub"
 
 #: ../kfile/kfileplacesmodel.cpp:106
-#| msgctxt "to trash"
-#| msgid "&Trash"
 msgid "Trash"
 msgstr "Chiqindilar qutisi"
 
@@ -5666,19 +5646,16 @@ msgid "You do not have permission to create that folder."
 msgstr "Bu jildni yaratishga sizga ruxsat yoʻq."
 
 #: ../kfile/kdirselectdialog.cpp:225
-#| msgid "New Folder..."
 msgctxt "@action:button"
 msgid "New Folder..."
 msgstr "Yangi jild..."
 
 #: ../kfile/kdirselectdialog.cpp:261
-#| msgid "New Folder..."
 msgctxt "@action:inmenu"
 msgid "New Folder..."
 msgstr "Yangi jild..."
 
 #: ../kfile/kdirselectdialog.cpp:268
-#| msgid "Show Hidden Folders"
 msgctxt "@option:check"
 msgid "Show Hidden Folders"
 msgstr "Yashirilgan jildlarni koʻrsatish"
@@ -5729,7 +5706,6 @@ msgid ""
 msgstr ""
 
 #: ../kfile/kfiletreeview.cpp:184
-#| msgid "Show Hidden Folders"
 msgid "Show Hidden Folders"
 msgstr "Yashirilgan jildlarni koʻrsatish"
 
@@ -5844,7 +5820,6 @@ msgid "By Date"
 msgstr "Sana boʻyicha"
 
 #: ../kfile/kdiroperator.cpp:1606
-#| msgid "Type"
 msgid "By Type"
 msgstr "Turi boʻyicha"
 
@@ -5882,23 +5857,25 @@ msgid "Click to Edit Location"
 msgstr ""
 
 #: ../kfile/kurlbutton.cpp:90
-#| msgid "Copying"
 msgid "Copy"
 msgstr "Nusxa olish"
 
 #: ../kfile/kurlbutton.cpp:94
-#| msgid "Date"
 msgid "Paste"
 msgstr "Qoʻyish"
 
 #: ../kfile/kurlbutton.cpp:101
-#| msgid "&Edit..."
 msgid "Edit"
 msgstr "Tahrirlash"
 
 #: ../kfile/kurlbutton.cpp:104
 msgid "Navigate"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "Items in a folder"
+#~ msgid "? items"
+#~ msgstr "Hech narsa yoʻq"
 
 #, fuzzy
 #~| msgid "&Reset"
@@ -6577,4 +6554,3 @@ msgstr ""
 
 #~ msgid "&Details >>"
 #~ msgstr "&Tafsilotlar >>"
-
