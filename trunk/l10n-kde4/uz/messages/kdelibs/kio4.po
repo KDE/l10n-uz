@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-18 09:52+0200\n"
+"POT-Creation-Date: 2008-06-22 02:26+0200\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -27,72 +27,72 @@ msgstr "'%1' faylini oʻqib boʻlmaydi"
 msgid "ERROR: Unknown protocol '%1'"
 msgstr "Xato: Nomaʼlum protokol '%1'"
 
-#: kio/job.cpp:131
+#: kio/job.cpp:135
 msgctxt "@title job"
 msgid "Moving"
 msgstr "Koʻchirilmoqda"
 
-#: kio/job.cpp:132 kio/job.cpp:139 kio/job.cpp:164 kio/fileundomanager.cpp:120
+#: kio/job.cpp:136 kio/job.cpp:143 kio/job.cpp:168 kio/fileundomanager.cpp:120
 msgid "Source"
 msgstr "Manba"
 
-#: kio/job.cpp:133 kio/job.cpp:140 kio/fileundomanager.cpp:121
+#: kio/job.cpp:137 kio/job.cpp:144 kio/fileundomanager.cpp:121
 msgid "Destination"
 msgstr "Manzil"
 
-#: kio/job.cpp:138
+#: kio/job.cpp:142
 msgctxt "@title job"
 msgid "Copying"
 msgstr "Nusxa olinmoqda"
 
-#: kio/job.cpp:145
+#: kio/job.cpp:149
 msgctxt "@title job"
 msgid "Creating directory"
 msgstr "Jild yaratilmoqda"
 
-#: kio/job.cpp:146 kio/fileundomanager.cpp:117
+#: kio/job.cpp:150 kio/fileundomanager.cpp:117
 msgid "Directory"
 msgstr ""
 
-#: kio/job.cpp:151
+#: kio/job.cpp:155
 msgctxt "@title job"
 msgid "Deleting"
 msgstr "Oʻchirilmoqda"
 
-#: kio/job.cpp:152 kio/job.cpp:158 kio/fileundomanager.cpp:124
+#: kio/job.cpp:156 kio/job.cpp:162 kio/fileundomanager.cpp:124
 msgid "File"
 msgstr "Fayl"
 
-#: kio/job.cpp:157
+#: kio/job.cpp:161
 #, fuzzy
 msgctxt "@title job"
 msgid "Stating"
 msgstr "Saralash"
 
-#: kio/job.cpp:163
+#: kio/job.cpp:167
 msgctxt "@title job"
 msgid "Transferring"
 msgstr ""
 
-#: kio/job.cpp:169
+#: kio/job.cpp:173
 msgctxt "@title job"
 msgid "Mounting"
 msgstr "Ulanmoqda"
 
-#: kio/job.cpp:170
+#: kio/job.cpp:174
 msgid "Device"
 msgstr "Uskuna"
 
-#: kio/job.cpp:171 kio/job.cpp:177
+#: kio/job.cpp:175 kio/job.cpp:181
 msgid "Mountpoint"
 msgstr "Ulash nuqtasi"
 
-#: kio/job.cpp:176
+#: kio/job.cpp:180
 msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Ajratilmoqda"
 
-#: kio/job.cpp:1959 kio/paste.cpp:63 kio/copyjob.cpp:1170 kio/copyjob.cpp:1699
+#: kio/job.cpp:1963 kio/paste.cpp:63 kio/copyjob.cpp:1170 kio/copyjob.cpp:1699
 #: kio/global.cpp:677
 msgid "File Already Exists"
 msgstr "Fayl allaqachon mavjud"
@@ -2916,14 +2916,19 @@ msgstr ""
 msgid "Could not find a usable proxy configuration script"
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:310 misc/kwalletd/kwalletd.cpp:398
-#: misc/kwalletd/kwalletd.cpp:434 misc/kwalletd/kwalletd.cpp:604
-#: misc/kwalletd/kwalletd.cpp:616 misc/kwalletd/kwalletd.cpp:625
-#: misc/kwalletd/kwalletd.cpp:630 misc/kwalletd/kwalletd.cpp:1135
+#: misc/kwalletd/main.cpp:38 misc/kwalletd/main.cpp:39
+#: misc/kwalletd/kwalletd.cpp:308 misc/kwalletd/kwalletd.cpp:396
+#: misc/kwalletd/kwalletd.cpp:432 misc/kwalletd/kwalletd.cpp:602
+#: misc/kwalletd/kwalletd.cpp:614 misc/kwalletd/kwalletd.cpp:623
+#: misc/kwalletd/kwalletd.cpp:628 misc/kwalletd/kwalletd.cpp:1133
 msgid "KDE Wallet Service"
 msgstr "KDE qopchiq xizmati"
 
-#: misc/kwalletd/kwalletd.cpp:391
+#: misc/kwalletd/main.cpp:40
+msgid "(C) 2002-2008 George Staikos, Michael Leupold, Thiago Maceira"
+msgstr ""
+
+#: misc/kwalletd/kwalletd.cpp:389
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
@@ -2935,7 +2940,7 @@ msgstr ""
 "<qt>KDE '<b>%1</b>' qopchiqni ochishi kerak. Iltimos ushbu qopchiq uchun "
 "maxfiy soʻzni quyida kiriting."
 
-#: misc/kwalletd/kwalletd.cpp:393
+#: misc/kwalletd/kwalletd.cpp:391
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -2947,25 +2952,25 @@ msgstr ""
 "<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu "
 "qopchiq uchun maxfiy soʻzni quyida kiriting."
 
-#: misc/kwalletd/kwalletd.cpp:397 ../kfile/kfilewidget.cpp:1619
+#: misc/kwalletd/kwalletd.cpp:395 ../kfile/kfilewidget.cpp:1619
 msgid "&Open"
 msgstr "&Ochish"
 
-#: misc/kwalletd/kwalletd.cpp:405 misc/kwalletd/kwalletd.cpp:442
+#: misc/kwalletd/kwalletd.cpp:403 misc/kwalletd/kwalletd.cpp:440
 #, kde-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
 "%2: %3)</qt>"
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:422
+#: misc/kwalletd/kwalletd.cpp:420
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
 "in a secure fashion. Please enter a password to use with this wallet or "
 "click cancel to deny the application's request."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:424
+#: misc/kwalletd/kwalletd.cpp:422
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -2979,7 +2984,7 @@ msgstr ""
 "<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu "
 "qopchiq uchun maxfiy soʻzni quyida kiriting."
 
-#: misc/kwalletd/kwalletd.cpp:428
+#: misc/kwalletd/kwalletd.cpp:426
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
@@ -2992,7 +2997,7 @@ msgstr ""
 "<qt>KDE '<b>%1</b>' qopchiqni ochishi kerak. Iltimos ushbu qopchiq uchun "
 "maxfiy soʻzni quyida kiriting."
 
-#: misc/kwalletd/kwalletd.cpp:430
+#: misc/kwalletd/kwalletd.cpp:428
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -3005,16 +3010,16 @@ msgstr ""
 "<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu "
 "qopchiq uchun maxfiy soʻzni quyida kiriting."
 
-#: misc/kwalletd/kwalletd.cpp:435
+#: misc/kwalletd/kwalletd.cpp:433
 msgid "C&reate"
 msgstr "&Yaratish"
 
-#: misc/kwalletd/kwalletd.cpp:515
+#: misc/kwalletd/kwalletd.cpp:513
 #, kde-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:517
+#: misc/kwalletd/kwalletd.cpp:515
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
@@ -3026,26 +3031,26 @@ msgstr ""
 "<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu "
 "qopchiq uchun maxfiy soʻzni quyida kiriting."
 
-#: misc/kwalletd/kwalletd.cpp:604
+#: misc/kwalletd/kwalletd.cpp:602
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:615
+#: misc/kwalletd/kwalletd.cpp:613
 #, kde-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:625
+#: misc/kwalletd/kwalletd.cpp:623
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:630
+#: misc/kwalletd/kwalletd.cpp:628
 msgid "Error reopening the wallet. Data may be lost."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:1135
+#: misc/kwalletd/kwalletd.cpp:1133
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
 "application may be misbehaving."
@@ -3140,9 +3145,10 @@ msgstr "Manzili:"
 #: kfile/kurlrequesterdialog.cpp:131 kfile/kicondialog.cpp:573
 #: kfile/kencodingfiledialog.cpp:107 kfile/kencodingfiledialog.cpp:125
 #: kfile/kencodingfiledialog.cpp:140 kfile/kencodingfiledialog.cpp:158
-#: kfile/kfiledialog.cpp:220 kfile/kfiledialog.cpp:244
-#: kfile/kfiledialog.cpp:260 kfile/kfiledialog.cpp:274
-#: kfile/kfiledialog.cpp:290 kfile/kfiledialog.cpp:328
+#: kfile/kfiledialog.cpp:398 kfile/kfiledialog.cpp:407
+#: kfile/kfiledialog.cpp:433 kfile/kfiledialog.cpp:449
+#: kfile/kfiledialog.cpp:457 kfile/kfiledialog.cpp:476
+#: kfile/kfiledialog.cpp:497 kfile/kfiledialog.cpp:545
 msgid "Open"
 msgstr "Ochish"
 
@@ -3339,10 +3345,16 @@ msgid "Encoding:"
 msgstr "Yuklanmoqda"
 
 #: kfile/kencodingfiledialog.cpp:179 kfile/kencodingfiledialog.cpp:204
-#: kfile/kfiledialog.cpp:378 kfile/kfiledialog.cpp:412
-#: kfile/kfiledialog.cpp:432
+#: kfile/kfiledialog.cpp:610 kfile/kfiledialog.cpp:632
+#: kfile/kfiledialog.cpp:669 kfile/kfiledialog.cpp:694
 msgid "Save As"
 msgstr ""
+
+#: kfile/kfiledialog.cpp:122
+#, fuzzy
+#| msgid "*|All Files"
+msgid "*|All files"
+msgstr "*|Hamma fayllar"
 
 #: kfile/kurlrequester.cpp:234
 msgid "Open file dialog"
