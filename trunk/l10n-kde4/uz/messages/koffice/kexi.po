@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-12 06:45+0200\n"
+"POT-Creation-Date: 2008-07-14 05:41+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2747,7 +2747,7 @@ msgstr "Imzolanmagan raqam"
 msgid "Yes/No Value"
 msgstr "Ha/Yoʻq"
 
-#: kexidb/field.cpp:703 plugins/importexport/csv/kexicsvimportdialog.cpp:230
+#: kexidb/field.cpp:703
 msgid "Date"
 msgstr "Sana"
 
@@ -2755,7 +2755,7 @@ msgstr "Sana"
 msgid "Date and Time"
 msgstr "Vaqt va sana"
 
-#: kexidb/field.cpp:705 plugins/importexport/csv/kexicsvimportdialog.cpp:231
+#: kexidb/field.cpp:705
 msgid "Time"
 msgstr "Vaqt"
 
@@ -2769,7 +2769,6 @@ msgstr ""
 
 #: kexidb/field.cpp:708 kexidb/field.cpp:729
 #: plugins/reportspgz/reportentityselector.cpp:31
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:228
 msgid "Text"
 msgstr "Matn"
 
@@ -2789,7 +2788,7 @@ msgstr ""
 msgid "Yes/No"
 msgstr "Ha/Yoʻq"
 
-#: kexidb/field.cpp:733 plugins/importexport/csv/kexicsvimportdialog.cpp:232
+#: kexidb/field.cpp:733
 msgid "Date/Time"
 msgstr "Vaqt/Sana"
 
@@ -3549,7 +3548,7 @@ msgid ""
 "qt>"
 msgstr ""
 
-#: kexidb/utils.cpp:1261 plugins/importexport/csv/kexicsvimportdialog.cpp:229
+#: kexidb/utils.cpp:1261
 msgid "Number"
 msgstr "Raqam"
 
@@ -5636,7 +5635,7 @@ msgid "Query Columns"
 msgstr "Soʻrov ustuni"
 
 #: plugins/queries/kexiquerydesignerguieditor.cpp:223
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1221
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1257
 msgid "Column"
 msgstr "Ustun"
 
@@ -6367,12 +6366,12 @@ msgid "Options"
 msgstr "Sarlavha:"
 
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:169
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:220
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:223
 msgid "Delimiter:"
 msgstr "Ajratuvchi:"
 
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:180
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:248
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:263
 msgid "Text quote:"
 msgstr ""
 
@@ -6411,117 +6410,107 @@ msgstr "Moslamalarni bekitish <<"
 msgid "Defaults"
 msgstr "Andozalar"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:165
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:169
+msgid "no"
+msgstr ""
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:171
+#, fuzzy
+#| msgid "file"
+msgid "false"
+msgstr "fayl"
+
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:174
 msgid "Import CSV Data File"
 msgstr "CSV maʼlumot faylini import qilish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:173
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:182
 #, fuzzy
 msgid "&Options"
 msgstr "Sarlavha:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:176
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:185
 msgid "&Import..."
 msgstr "&Import qilish..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:179
-msgid "text"
-msgstr "matn"
-
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:180
-msgid "number"
-msgstr "raqam"
-
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:181
-msgid "date"
-msgstr "sana"
-
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:182
-msgid "time"
-msgstr "vaqt"
-
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:183
-msgid "date/time"
-msgstr "sana/vaqt"
-
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:205
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:208
 #, fuzzy
 msgid "Preview of data from file:"
 msgstr "Maʼlumotlar jadvalini fayldan import qilish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:206
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:209
 msgid "Preview of data from clipboard:"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:240
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:255
 msgid "Primary key"
 msgstr "Birinchi darajali kalit"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:275
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:290
 msgid "Ignore duplicated delimiters"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:280
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:295
 msgid "First row contains column names"
 msgstr "Birinchi satrda ustun nomlari mavjud"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:323
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:338
 msgid "Open CSV Data File"
 msgstr "CSV maʼlumot faylini ochish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:377
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:392
 msgid "Loading CSV Data"
 msgstr "CSV maʼlumotlarini yuklash"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:378
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:393
 #, kde-format
 msgid "Loading CSV Data from \"%1\"..."
 msgstr "CSV maʼlumotlari \"%1\"dan yuklanmoqda..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:467
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:482
 #, kde-format
 msgid "Cannot open input file <nobr>\"%1\"</nobr>."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:559
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:574
 #, kde-format
 msgid "Start at line (1-%1):"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:560
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:575
 #, fuzzy
 msgid "Start at line:"
 msgstr "yorliq"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:960
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:972
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:975
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:988
 #, kde-format
 msgid "Column %1"
 msgstr "Ustun %1"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1247
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1283
 msgid "Column name"
 msgstr "Ustun nomi"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1355
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1391
 #, kde-format
 msgid "Format for column %1:"
 msgstr "%1 ustuni koʻrinishi:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1382
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1418
 msgid "Data set contains no rows. Do you want to import empty table?"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1388
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1424
 msgid "No project available."
 msgstr "Loyiha mavjud emas."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1393
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1429
 #, fuzzy
 msgid "No database connection available."
 msgstr "Loyiha mavjud emas."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1455
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1491
 msgid ""
 "No Primary Key (autonumber) has been defined.\n"
 "Should it be automatically defined on import (recommended)?\n"
@@ -6530,62 +6519,62 @@ msgid ""
 "on database type)."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1458
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1494
 msgctxt "Add Database Primary Key to a Table"
 msgid "Add Primary Key"
 msgstr "Birinchi darajali kalit qoʻshish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1459
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1495
 msgctxt "Do Not Add Database Primary Key to a Table"
 msgid "Do Not Add"
 msgstr "Qoʻshilmasin"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1579
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1617
 msgid "Importing CSV Data"
 msgstr "CSV maʼlumotlarini import qilish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1584
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1622
 #, kde-format
 msgid "Importing CSV Data from <nobr>\"%1\"</nobr> into \"%2\" table..."
 msgstr ""
 "CSV maʼlumotlari <nobr>\"%1\"dan</nobr> \"%2\" jadvaliga import qilinmoqda..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1632
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1670
 #, kde-format
 msgid "Data has been successfully imported to table \"%1\"."
 msgstr "Maʼlumotlar \"%1\" jadvaliga muvaffaqiyatli import qilindi."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1642
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1680
 msgctxt "Text type for column"
 msgid "Text"
 msgstr "Matn"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1644
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1682
 #, fuzzy
 msgctxt "Numeric type for column"
 msgid "Number"
 msgstr "Matn"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1646
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1684
 #, fuzzy
 msgctxt "Currency type for column"
 msgid "Currency"
 msgstr "Matn"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1715
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1753
 #, fuzzy, kde-format
 #| msgid "(columns: %1)"
 msgctxt "row count"
 msgid "(rows: %1)"
 msgstr "(ustun: %1)"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1720
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1758
 #, kde-format
 msgctxt "row count"
 msgid "(rows: more than %1)"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1721
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1759
 #, fuzzy
 msgid "Not all rows are visible on this preview"
 msgstr "Ushbu oyna uchun yordam mavjud emas."
@@ -6634,11 +6623,11 @@ msgctxt ""
 msgid "%1, %2, %3 (e.g. %4-%5-%6)"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:135
+#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:138
 msgid "Date format:"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:139
+#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:143
 msgid "Strip leading and trailing blanks off of text values"
 msgstr ""
 
@@ -7021,6 +7010,21 @@ msgstr "Jadval maydoni"
 msgctxt "Empty table row"
 msgid "Empty Row"
 msgstr "Boʻsh hator &qoʻshish"
+
+#~ msgid "text"
+#~ msgstr "matn"
+
+#~ msgid "number"
+#~ msgstr "raqam"
+
+#~ msgid "date"
+#~ msgstr "sana"
+
+#~ msgid "time"
+#~ msgstr "vaqt"
+
+#~ msgid "date/time"
+#~ msgstr "sana/vaqt"
 
 #, fuzzy
 #~ msgid "Webroot %1 does not exist! Aborting"
