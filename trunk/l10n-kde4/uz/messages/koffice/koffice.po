@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-12 06:48+0200\n"
+"POT-Creation-Date: 2008-07-15 12:10+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1067,7 +1067,8 @@ msgstr "Boʻsh joy"
 msgid "To Path"
 msgstr "Yoʻlni tahrirlash"
 
-#: flake/tools/KoPathTool.cpp:157
+#: flake/tools/KoPathTool.cpp:157 kotext/styles/KoStyleManager.cpp:63
+#: kotext/styles/KoStyleManager.cpp:64
 #, fuzzy
 msgid "Default"
 msgstr "&Andoza"
@@ -1319,7 +1320,6 @@ msgid "Resize"
 msgstr "Tiklash"
 
 #: flake/KoConnectionShapeConfigWidget.cpp:29
-#: kotext/styles/KoStyleManager.cpp:62 kotext/styles/KoStyleManager.cpp:63
 msgid "Standard"
 msgstr ""
 
@@ -1624,92 +1624,98 @@ msgstr ""
 msgid "Select the index you want to reference"
 msgstr ""
 
-#: kotext/KoTextSelectionHandler.cpp:157
+#: kotext/KoTextSelectionHandler.cpp:158
 msgid "Bold"
 msgstr "Qalin"
 
-#: kotext/KoTextSelectionHandler.cpp:166
+#: kotext/KoTextSelectionHandler.cpp:167
 #, fuzzy
 #| msgid "Italic:"
 msgid "Italic"
 msgstr "Qiya:"
 
-#: kotext/KoTextSelectionHandler.cpp:175
+#: kotext/KoTextSelectionHandler.cpp:176
 msgid "Underline"
 msgstr "Tagini chizish"
 
-#: kotext/KoTextSelectionHandler.cpp:191
+#: kotext/KoTextSelectionHandler.cpp:192
 #, fuzzy
 #| msgid "Strikeout:"
 msgid "Strike Out"
 msgstr "Ustidan chizish:"
 
-#: kotext/KoTextSelectionHandler.cpp:206
+#: kotext/KoTextSelectionHandler.cpp:207
 #, fuzzy
 msgid "Insert Break"
 msgstr "Bogʻni qoʻyish"
 
-#: kotext/KoTextSelectionHandler.cpp:255
+#: kotext/KoTextSelectionHandler.cpp:256
 #, fuzzy
 #| msgid "Change font size?"
 msgid "Increase font size"
 msgstr "Shriftning oʻlchami oʻzgartirish"
 
-#: kotext/KoTextSelectionHandler.cpp:262
+#: kotext/KoTextSelectionHandler.cpp:263
 #, fuzzy
 #| msgid "Change font size?"
 msgid "Decrease font size"
 msgstr "Shriftning oʻlchami oʻzgartirish"
 
-#: kotext/KoTextSelectionHandler.cpp:279
+#: kotext/KoTextSelectionHandler.cpp:274
+#, fuzzy
+#| msgid "Locale date format"
+msgid "Set default format"
+msgstr "Sananing lokal koʻrinishi"
+
+#: kotext/KoTextSelectionHandler.cpp:295
 #, fuzzy
 #| msgid "Vertical alignment:"
 msgid "Set Horizontal Alignment"
 msgstr "Boʻyiga tekislash:"
 
-#: kotext/KoTextSelectionHandler.cpp:292
+#: kotext/KoTextSelectionHandler.cpp:308
 #, fuzzy
 #| msgid "Vertical alignment:"
 msgid "Set Vertical Alignment"
 msgstr "Boʻyiga tekislash:"
 
-#: kotext/KoTextSelectionHandler.cpp:309
+#: kotext/KoTextSelectionHandler.cpp:325
 #, fuzzy
 msgid "Increase Indent"
 msgstr "Tekislashni oʻzgartirish"
 
-#: kotext/KoTextSelectionHandler.cpp:324
+#: kotext/KoTextSelectionHandler.cpp:340
 #, fuzzy
 msgid "Decrease Indent"
 msgstr "Tekislashni oʻzgartirish"
 
-#: kotext/KoTextSelectionHandler.cpp:356
+#: kotext/KoTextSelectionHandler.cpp:372
 #, fuzzy
 msgid "Insert"
 msgstr "Qoʻy&ish:"
 
-#: kotext/KoTextSelectionHandler.cpp:366
+#: kotext/KoTextSelectionHandler.cpp:382
 #, fuzzy
 msgid "Set Paragraph Style"
 msgstr "Oddiy paragraf matni"
 
-#: kotext/KoTextSelectionHandler.cpp:383
+#: kotext/KoTextSelectionHandler.cpp:399
 #, fuzzy
 msgid "Set Character Style"
 msgstr "Yangi uslubni yaratish"
 
-#: kotext/KoTextSelectionHandler.cpp:393
+#: kotext/KoTextSelectionHandler.cpp:409
 #, fuzzy
 msgid "Insert Linebreak"
 msgstr "Bogʻni qoʻyish"
 
-#: kotext/KoTextSelectionHandler.cpp:428
+#: kotext/KoTextSelectionHandler.cpp:444
 #, fuzzy
 #| msgid "Insert Text"
 msgid "Insert Index"
 msgstr "Matnni qoʻyish"
 
-#: kotext/KoTextSelectionHandler.cpp:462
+#: kotext/KoTextSelectionHandler.cpp:478
 #, fuzzy
 #| msgid "Bookmark"
 msgid "Add Bookmark"
@@ -4232,9 +4238,6 @@ msgstr "Matnni oʻchirish"
 
 #~ msgid "No date set"
 #~ msgstr "Sana koʻrsatilmagan"
-
-#~ msgid "Locale date format"
-#~ msgstr "Sananing lokal koʻrinishi"
 
 #~ msgid "Short locale date format"
 #~ msgstr "Sananing lokal qisqa koʻrinishi"
