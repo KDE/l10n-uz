@@ -1,0 +1,2208 @@
+# translation of akregator.po to Uzbek
+# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2005, 2006.
+# Abdurahmonov Nurali <mavnur@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: akregator\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-06-23 11:30+0200\n"
+"PO-Revision-Date: 2006-02-08 21:32+0100\n"
+"Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
+"Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/old/feedlistview.cpp:280 src/akregator_part.cpp:305
+#: src/subscriptionlistmodel.cpp:218
+#: plugins/onlinesync/ui/configurationwidget.cpp:21
+msgid "Feeds"
+msgstr "Yangiliklar tasmalari"
+
+#: src/old/feedlistview.cpp:303
+msgid ""
+"<h2>Feeds tree</h2>Here you can browse tree of feeds. You can also add feeds "
+"or feed groups (folders) using right-click menu, or reorganize them using "
+"drag and drop."
+msgstr ""
+
+#: src/frame.cpp:102
+msgid "Untitled"
+msgstr ""
+
+#: src/frame.cpp:162
+msgid "Loading..."
+msgstr "Yuklanmoqda..."
+
+#: src/frame.cpp:183
+msgid "Loading canceled"
+msgstr "Yuklash bekor qilindi"
+
+#: src/frame.cpp:197
+msgid "Loading completed"
+msgstr "Yuklash tugadi"
+
+#: src/articlelistview.cpp:193 src/subscriptionlistview.cpp:167
+#, fuzzy
+#| msgid "Comments"
+msgid "Columns"
+msgstr "Izohlar"
+
+#: src/articlelistview.cpp:308
+msgid ""
+"<h2>Article list</h2>Here you can browse articles from the currently "
+"selected feed. You can also manage articles, as marking them as persistent "
+"(\"Keep Article\") or delete them, using the right mouse button menu.To view "
+"the web page of the article, you can open the article internally in a tab or "
+"in an external browser window."
+msgstr ""
+
+#: src/articlelistview.cpp:370
+msgid ""
+"<div align=center><h3>No matches</h3>Filter does not match any articles, "
+"please change your criteria and try again.</div>"
+msgstr ""
+
+#: src/articlelistview.cpp:381
+msgid ""
+"<div align=center><h3>No feed selected</h3>This area is article list. Select "
+"a feed from the feed list and you will see its articles here.</div>"
+msgstr ""
+
+#: src/createfoldercommand.cpp:66
+msgid "Add Folder"
+msgstr "Jildni qoʻshish"
+
+#: src/createfoldercommand.cpp:67
+msgid "Folder name:"
+msgstr "Jildning nomi:"
+
+#: src/pageviewer.cpp:101 src/actionmanagerimpl.cpp:535
+msgctxt "Go back in browser history"
+msgid "Back"
+msgstr ""
+
+#: src/pageviewer.cpp:109 src/actionmanagerimpl.cpp:528
+msgctxt "Go forward in browser history"
+msgid "Forward"
+msgstr ""
+
+#: src/pageviewer.cpp:116 src/actionmanagerimpl.cpp:544
+#, fuzzy
+msgid "Reload"
+msgstr "Oʻqi&lgan"
+
+#: src/pageviewer.cpp:119 src/actionmanagerimpl.cpp:549
+msgid "Stop"
+msgstr ""
+
+#: src/pageviewer.cpp:411 src/actions.cpp:35
+msgid "Open Link in New &Tab"
+msgstr "Bogʻni &yangi tabda ochish"
+
+#: src/pageviewer.cpp:412
+msgid "<b>Open Link in New Tab</b><p>Opens current link in a new tab.</p>"
+msgstr ""
+
+#: src/pageviewer.cpp:413 src/actions.cpp:44
+msgid "Open Link in External &Browser"
+msgstr "Bogʻni &tashqi brauzerda ochish"
+
+#: src/pageviewer.cpp:445
+msgid "Open Page in External Browser"
+msgstr "Sahifani tashqi brauzerda ochish"
+
+#: src/pageviewer.cpp:453
+msgid "Add to Konqueror Bookmarks"
+msgstr "Konqueror xatchoʻplariga qoʻshish"
+
+#: src/deletesubscriptioncommand.cpp:52
+msgid ""
+"<qt>Are you sure you want to delete this folder and its feeds and subfolders?"
+"</qt>"
+msgstr ""
+
+#: src/deletesubscriptioncommand.cpp:53
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to delete folder <b>%1</b> and its feeds and "
+"subfolders?</qt>"
+msgstr ""
+
+#: src/deletesubscriptioncommand.cpp:57
+msgid "Delete Folder"
+msgstr "Jildni oʻchirish"
+
+#: src/deletesubscriptioncommand.cpp:72
+msgid "<qt>Are you sure you want to delete this feed?</qt>"
+msgstr ""
+
+#: src/deletesubscriptioncommand.cpp:74
+#, kde-format
+msgid "<qt>Are you sure you want to delete feed <b>%1</b>?</qt>"
+msgstr ""
+
+#: src/deletesubscriptioncommand.cpp:78
+msgid "Delete Feed"
+msgstr "Yangiliklar tasmasini olib tashlash"
+
+#: src/pluginmanager.cpp:92
+#, kde-format
+msgid ""
+"<p>KLibLoader could not load the plugin:<br/><i>%1</i></p><p>Error message:"
+"<br/><i>%2</i></p>"
+msgstr ""
+"<p>KLibLoader quyidagi plaginni yuklolmadi:<br/><i>%1</i></p><p>Xato xabari:"
+"<br/><i>%2</i></p>"
+
+#: src/pluginmanager.cpp:171
+msgid "Name"
+msgstr "Nomi"
+
+#: src/pluginmanager.cpp:172
+msgid "Library"
+msgstr "Kutubxona"
+
+#: src/pluginmanager.cpp:173
+msgid "Authors"
+msgstr "Mualliflar"
+
+#: src/pluginmanager.cpp:174
+msgid "Email"
+msgstr "Elektron pochta"
+
+#: src/pluginmanager.cpp:175
+msgid "Version"
+msgstr "Versiya"
+
+#: src/pluginmanager.cpp:176
+msgid "Framework Version"
+msgstr ""
+
+#: src/pluginmanager.cpp:180
+msgid "Plugin Information"
+msgstr "Plagin haqida maʼlumot"
+
+#: src/mainwidget.cpp:172
+msgid "You can view multiple articles in several open tabs."
+msgstr "Bir necha maqolani alohida tablarda koʻrishingiz mumkin."
+
+#: src/mainwidget.cpp:176
+msgid "Articles list."
+msgstr "Maqolalar roʻyxati."
+
+#: src/mainwidget.cpp:235
+msgid "Browsing area."
+msgstr ""
+
+#: src/mainwidget.cpp:239 src/mainwidget.cpp:628
+msgid "Articles"
+msgstr "Maqolalar"
+
+#: src/mainwidget.cpp:256
+msgid "About"
+msgstr ""
+
+#: src/mainwidget.cpp:394 src/main.cpp:67
+msgid "Imported Folder"
+msgstr "Import qilingan jild"
+
+#: src/mainwidget.cpp:397
+msgid "Add Imported Folder"
+msgstr "Import qilingan jildni qoʻshish"
+
+#: src/mainwidget.cpp:398
+msgid "Imported folder name:"
+msgstr "Import qilingan jildning nomi:"
+
+#: src/mainwidget.cpp:790
+msgid "Fetching Feeds..."
+msgstr "Yangiliklar tasmalari olinmoqda..."
+
+#: src/mainwidget.cpp:989
+#, kde-format
+msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
+msgstr "<qt><b>%1</b> maqolani oʻchirishni istaysizmi?</qt>"
+
+#: src/mainwidget.cpp:992
+#, fuzzy, kde-format
+msgid "<qt>Are you sure you want to delete the %1 selected articles?</qt>"
+msgstr "<qt>Tanlangan maqolani oʻchirishni istaysizmi?</qt>"
+
+#: src/mainwidget.cpp:996
+msgid "Delete Article"
+msgstr "Maqolani oʻchirish"
+
+#: src/speechclient.cpp:110
+msgid "Next Article: "
+msgstr "Keyingi maqola: "
+
+#: src/progressmanager.cpp:180
+msgid "Fetch completed"
+msgstr ""
+
+#: src/progressmanager.cpp:190
+msgid "Fetch error"
+msgstr ""
+
+#: src/progressmanager.cpp:200
+msgid "Fetch aborted"
+msgstr ""
+
+#: src/articleviewer.cpp:139
+msgid "&Increase Font Sizes"
+msgstr "Shriftni &kattalashtirish"
+
+#: src/articleviewer.cpp:145
+msgid "&Decrease Font Sizes"
+msgstr "Shriftni k&ichiklashtirish"
+
+#: src/articleviewer.cpp:150
+msgid "Copy &Link Address"
+msgstr "&Bogʻ manzilidan nusxa olish"
+
+#: src/articleviewer.cpp:154
+msgid "&Save Link As..."
+msgstr "Bogʻni &saqlash"
+
+#: src/articleviewer.cpp:158
+msgid "&Scroll Up"
+msgstr "&Yuqoriga varaqlash"
+
+#: src/articleviewer.cpp:163
+msgid "&Scroll Down"
+msgstr "&Pastga varaqlash"
+
+#: src/articleviewer.cpp:643
+#, kde-format
+msgctxt "%1: Akregator version; %2: homepage URL; --- end of comment ---"
+msgid ""
+"<h2 style='margin-top: 0px;'>Welcome to Akregator %1</h2><p>Akregator is a "
+"feed reader for the K Desktop Environment. Feed readers provide a convenient "
+"way to browse different kinds of content, including news, blogs, and other "
+"content from online sites. Instead of checking all your favorite web sites "
+"manually for updates, Akregator collects the content for you.</p><p>For more "
+"information about using Akregator, check the <a href=\"%2\">Akregator "
+"website</a>. If you do not want to see this page anymore, <a href=\"config:/"
+"disable_introduction\">click here</a>.</p><p>We hope that you will enjoy "
+"Akregator.</p>\n"
+"<p>Thank you,</p>\n"
+"<p style='margin-bottom: 0px'>&nbsp; &nbsp; The Akregator Team</p>\n"
+msgstr ""
+
+#: src/articleviewer.cpp:659 src/aboutdata.cpp:35
+msgid "Akregator"
+msgstr "Akregator"
+
+#: src/articleviewer.cpp:661
+msgid "An RSS feed reader for the K Desktop Environment."
+msgstr "KDE uchun RSS yangiliklar oʻquvchisi."
+
+#. i18n: tag string
+#. i18n: file ./src/addfeedwidgetbase.ui line 13
+#: src/addfeeddialog.cpp:65 rc.cpp:38
+msgid "Add Feed"
+msgstr "Yangiliklar tasmasini qoʻshish"
+
+#: src/addfeeddialog.cpp:97
+#, kde-format
+msgid "Downloading %1"
+msgstr "%1 yozib olinmoqda"
+
+#: src/addfeeddialog.cpp:116
+#, kde-format
+msgid "Feed not found from %1."
+msgstr "Quyidagi joyda yangiliklar tasmasi topilmadi: %1"
+
+#: src/addfeeddialog.cpp:122
+msgid "Feed found, downloading..."
+msgstr "Yangiliklar tasmasi topildi. Yozib olinmoqda..."
+
+#: src/tabwidget.cpp:111
+msgid "Close the current tab"
+msgstr "Joriy tabni yopish"
+
+#: src/articleformatter.cpp:86 src/articleformatter.cpp:128
+msgid " (no unread articles)"
+msgstr " (oʻqilmagan maqola yoʻq)"
+
+#: src/articleformatter.cpp:88 src/articleformatter.cpp:130
+#, fuzzy, kde-format
+msgid " (1 unread article)"
+msgid_plural " (%1 unread articles)"
+msgstr[0] " (1 oʻqilmagan maqola)"
+
+#: src/articleformatter.cpp:106
+#, fuzzy, kde-format
+#| msgid "<b>Description:</b> %1<br><br>"
+msgid "<b>Description:</b> %1<br /><br />"
+msgstr "<b>Taʼrif:</b> %1<br><br>"
+
+#: src/articleformatter.cpp:113
+#, kde-format
+msgid "<b>Homepage:</b> <a href=\"%1\">%2</a>"
+msgstr "<b>Veb-sahifa:</b> <a href=\"%1\">%2</a>"
+
+#: src/articleformatter.cpp:165 src/articleformatter.cpp:166
+#: src/articleformatter.cpp:355 src/articleformatter.cpp:356
+#: src/articlemodel.cpp:110
+msgid "Date"
+msgstr "Sana"
+
+#: src/articleformatter.cpp:173 src/articleformatter.cpp:174
+#: src/articleformatter.cpp:364 src/articleformatter.cpp:365
+#: src/articlemodel.cpp:112
+#, fuzzy
+msgid "Author"
+msgstr "Mualliflar"
+
+#: src/articleformatter.cpp:204 src/articleformatter.cpp:396
+msgid "Comments"
+msgstr "Izohlar"
+
+#: src/articleformatter.cpp:224 src/articleformatter.cpp:416
+msgid "Complete Story"
+msgstr "Butun maqola"
+
+#: src/akregator_part.cpp:130
+#, kde-format
+msgid "Unable to load storage backend plugin \"%1\". No feeds are archived."
+msgstr ""
+
+#: src/akregator_part.cpp:130
+msgid "Plugin error"
+msgstr "Plagin xatosi"
+
+#: src/akregator_part.cpp:316
+msgid "Akregator News"
+msgstr "Akregator yangiliklari"
+
+#: src/akregator_part.cpp:321
+msgid "Akregator Blog"
+msgstr ""
+
+#: src/akregator_part.cpp:326
+msgid "KDE Dot News"
+msgstr "KDE yangiliklari"
+
+#: src/akregator_part.cpp:331
+msgid "Planet KDE"
+msgstr "KDE olami"
+
+#: src/akregator_part.cpp:336
+msgid "KDE Apps"
+msgstr "KDE uchun dasturlar"
+
+#: src/akregator_part.cpp:341
+msgid "KDE Look"
+msgstr ""
+
+#: src/akregator_part.cpp:350
+msgid "Opening Feed List..."
+msgstr ""
+
+#: src/akregator_part.cpp:385
+#, kde-format
+msgid ""
+"<qt>The standard feed list is corrupted (invalid XML). A backup was created:"
+"<p><b>%1</b></p></qt>"
+msgstr ""
+
+#: src/akregator_part.cpp:385
+msgid "XML Parsing Error"
+msgstr ""
+
+#: src/akregator_part.cpp:400
+#, kde-format
+msgid ""
+"<qt>The standard feed list is corrupted (no valid OPML). A backup was "
+"created:<p><b>%1</b></p></qt>"
+msgstr ""
+
+#: src/akregator_part.cpp:400 src/akregator_part.cpp:529
+msgid "OPML Parsing Error"
+msgstr ""
+
+#: src/akregator_part.cpp:439
+#, kde-format
+msgid "Access denied: cannot save feed list (%1)"
+msgstr ""
+
+#: src/akregator_part.cpp:439
+msgid "Write error"
+msgstr "Yozish xatosi"
+
+#: src/akregator_part.cpp:529
+#, kde-format
+msgid "Could not import the file %1 (no valid OPML)"
+msgstr ""
+
+#: src/akregator_part.cpp:532
+#, kde-format
+msgid ""
+"The file %1 could not be read, check if it exists or if it is readable for "
+"the current user."
+msgstr ""
+
+#: src/akregator_part.cpp:532
+msgid "Read Error"
+msgstr "Oʻqish xatosi"
+
+#: src/akregator_part.cpp:546
+#, kde-format
+msgid "The file %1 already exists; do you want to overwrite it?"
+msgstr "%1 fayli allaqachon mavjud. Uni almashtirishni istaysizmi?"
+
+#: src/akregator_part.cpp:547
+msgid "Export"
+msgstr ""
+
+#: src/akregator_part.cpp:548
+msgid "Overwrite"
+msgstr "Almashtirish"
+
+#: src/akregator_part.cpp:554
+#, kde-format
+msgid "Access denied: cannot write to file %1"
+msgstr "Murojaat rad etildi. %1 fayliga yozib boʻlmadi."
+
+#: src/akregator_part.cpp:554
+msgid "Write Error"
+msgstr "Yozish xatosi"
+
+#: src/akregator_part.cpp:583 src/akregator_part.cpp:593
+msgid "OPML Outlines (*.opml, *.xml)"
+msgstr ""
+
+#: src/akregator_part.cpp:584 src/akregator_part.cpp:594
+msgid "All Files"
+msgstr "Hamma fayllar"
+
+#: src/notificationmanager.cpp:79
+#, kde-format
+msgid ""
+"Feed added:\n"
+" %1"
+msgstr ""
+"Yangiliklar tasmasi qoʻshildi:\n"
+" %1"
+
+#: src/notificationmanager.cpp:87
+#, kde-format
+msgid ""
+"Feeds added:\n"
+" %1"
+msgstr ""
+"Yangiliklar tasmalari qoʻshildi:\n"
+" %1"
+
+#: src/subscriptionlistmodel.cpp:60
+msgid "Timeout on remote server"
+msgstr ""
+
+#: src/subscriptionlistmodel.cpp:62
+msgid "Unknown host"
+msgstr ""
+
+#: src/subscriptionlistmodel.cpp:64
+#, fuzzy
+#| msgid "Feed not found from %1."
+msgid "Feed file not found on remote server"
+msgstr "Quyidagi joyda yangiliklar tasmasi topilmadi: %1"
+
+#: src/subscriptionlistmodel.cpp:66
+msgid "Could not read feed (invalid XML)"
+msgstr ""
+
+#: src/subscriptionlistmodel.cpp:68
+msgid "Could not read feed (unknown format)"
+msgstr ""
+
+#: src/subscriptionlistmodel.cpp:70
+msgid "Could not read feed (invalid feed)"
+msgstr ""
+
+#: src/subscriptionlistmodel.cpp:165
+#, kde-format
+msgid "Could not fetch feed: %1"
+msgstr ""
+
+#: src/subscriptionlistmodel.cpp:220 src/searchbar.cpp:91
+msgid "Unread"
+msgstr "Oʻqilmagan"
+
+#: src/subscriptionlistmodel.cpp:222
+msgid "Total"
+msgstr ""
+
+#: src/aboutdata.cpp:35
+#, fuzzy
+#| msgid "A KDE Feed Aggregator"
+msgid "A KDE Feed Reader"
+msgstr "KDE uchun yangiliklar tasmasini oʻquvchi"
+
+#: src/aboutdata.cpp:36
+msgid "(C) 2004, 2005 Akregator developers"
+msgstr "(C) 2004-2005, Akregator tuzuvchilari"
+
+#: src/aboutdata.cpp:40 configuration/akregator_config_advanced.cpp:53
+#: configuration/akregator_config_general.cpp:61
+#: configuration/akregator_config_browser.cpp:59
+#: configuration/akregator_config_archive.cpp:61
+#: configuration/akregator_config_appearance.cpp:70
+msgid "Frank Osterfeld"
+msgstr ""
+
+#: src/aboutdata.cpp:40
+msgid "Maintainer"
+msgstr "Taʼminlovchi"
+
+#: src/aboutdata.cpp:41
+msgid "Teemu Rytilahti"
+msgstr ""
+
+#: src/aboutdata.cpp:41 src/aboutdata.cpp:42 src/aboutdata.cpp:43
+#: src/aboutdata.cpp:44
+msgid "Developer"
+msgstr "Tuzuvchi"
+
+#: src/aboutdata.cpp:42
+msgid "Sashmit Bhaduri"
+msgstr ""
+
+#: src/aboutdata.cpp:43
+msgid "Pierre Habouzit"
+msgstr ""
+
+#: src/aboutdata.cpp:44
+msgid "Stanislav Karchebny"
+msgstr ""
+
+#: src/aboutdata.cpp:45
+msgid "Gary Cramblitt"
+msgstr ""
+
+#: src/aboutdata.cpp:45 src/aboutdata.cpp:46 src/aboutdata.cpp:47
+msgid "Contributor"
+msgstr "Hissa qoʻshuvchi"
+
+#: src/aboutdata.cpp:46
+msgid "Stephan Binner"
+msgstr ""
+
+#: src/aboutdata.cpp:47
+msgid "Christof Musik"
+msgstr ""
+
+#: src/aboutdata.cpp:48
+msgid "Anne-Marie Mahfouf"
+msgstr ""
+
+#: src/aboutdata.cpp:48
+msgid "Handbook"
+msgstr ""
+
+#: src/aboutdata.cpp:49
+msgid "Frerich Raabe"
+msgstr ""
+
+#: src/aboutdata.cpp:49
+msgid "Author of librss"
+msgstr "librss muallifi"
+
+#: src/aboutdata.cpp:50
+msgid "Eckhart Woerner"
+msgstr ""
+
+#: src/aboutdata.cpp:50
+msgid "Bug tracker management, Usability improvements"
+msgstr ""
+
+#: src/aboutdata.cpp:51
+msgid "Heinrich Wendel"
+msgstr ""
+
+#: src/aboutdata.cpp:51
+msgid "Tons of bug fixes"
+msgstr ""
+
+#: src/aboutdata.cpp:52
+msgid "Eike Hein"
+msgstr ""
+
+#: src/aboutdata.cpp:52
+msgid "'Delayed mark as read' feature"
+msgstr ""
+
+#: src/aboutdata.cpp:53
+msgid "Marcel Dierkes"
+msgstr ""
+
+#: src/aboutdata.cpp:53
+msgid "Icons"
+msgstr "Nishonchalar"
+
+#: src/aboutdata.cpp:54
+msgid "George Staikos"
+msgstr ""
+
+#: src/aboutdata.cpp:54
+msgid "Insomnia"
+msgstr ""
+
+#: src/aboutdata.cpp:55
+msgid "Philipp Droessler"
+msgstr ""
+
+#: src/aboutdata.cpp:55
+msgid "Gentoo Ebuild"
+msgstr ""
+
+#: src/subscriptionlistjobs.cpp:66
+msgid "Node or destination folder not found"
+msgstr ""
+
+#: src/subscriptionlistjobs.cpp:74
+#, kde-format
+msgid "Cannot move folder %1 to its own subfolder %2"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:76 src/actionmanagerimpl.cpp:256
+msgid "&Fetch Feed"
+msgstr "Yangiliklar tasmasini &olish"
+
+#: src/actionmanagerimpl.cpp:77 src/actionmanagerimpl.cpp:215
+msgid "&Delete Feed"
+msgstr "Yangi&liklar tasmasini olib tashlash"
+
+#: src/actionmanagerimpl.cpp:78 src/actionmanagerimpl.cpp:221
+msgid "&Edit Feed..."
+msgstr "Yangiliklar tasmasini &tahrirlash..."
+
+#: src/actionmanagerimpl.cpp:79 src/actionmanagerimpl.cpp:275
+msgid "&Mark Feed as Read"
+msgstr "Yangiliklar ta&smasini oʻqilgan deb belgilash"
+
+#: src/actionmanagerimpl.cpp:93
+msgid "&Fetch Feeds"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:94
+msgid "&Delete Folder"
+msgstr "&Jildni oʻchirish"
+
+#: src/actionmanagerimpl.cpp:95
+msgid "&Rename Folder"
+msgstr "Jildning nomini oʻ&zgartirish"
+
+#: src/actionmanagerimpl.cpp:96
+msgid "&Mark Feeds as Read"
+msgstr "Yangiliklar tasmalarini oʻqilgan deb &belgilash"
+
+#: src/actionmanagerimpl.cpp:171
+msgid "&Import Feeds..."
+msgstr "Yangiliklar tasmasini &import qilish"
+
+#: src/actionmanagerimpl.cpp:175
+msgid "&Export Feeds..."
+msgstr "Yangiliklar tasmasini &eksport qilish"
+
+#: src/actionmanagerimpl.cpp:182
+msgid "Configure &Akregator..."
+msgstr "Akregator &moslamasi"
+
+#: src/actionmanagerimpl.cpp:197
+msgid "&Open Homepage"
+msgstr "&Veb-sahifani ochish"
+
+#: src/actionmanagerimpl.cpp:203
+msgid "&Add Feed..."
+msgstr "Yangiliklar tasmasini qoʻ&shish"
+
+#: src/actionmanagerimpl.cpp:209
+msgid "Ne&w Folder..."
+msgstr "Yangi &jild"
+
+#: src/actionmanagerimpl.cpp:226
+msgid "&View Mode"
+msgstr "Koʻrish &usuli"
+
+#: src/actionmanagerimpl.cpp:231
+msgid "&Normal View"
+msgstr "&Andoza koʻrinish"
+
+#: src/actionmanagerimpl.cpp:239
+msgid "&Widescreen View"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:247
+msgid "C&ombined View"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:262
+msgid "Fe&tch All Feeds"
+msgstr "Hamma &yangiliklar tasmasini olish"
+
+#: src/actionmanagerimpl.cpp:268
+msgid "&Abort Fetches"
+msgstr "Olishni toʻ&xtatish"
+
+#: src/actionmanagerimpl.cpp:281
+msgid "Ma&rk All Feeds as Read"
+msgstr "Hamma yangili&klar tasmasini oʻqilgan deb belgilash"
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 9
+#: src/actionmanagerimpl.cpp:287 rc.cpp:137
+msgid "Show Quick Filter"
+msgstr "Qidirish panelini koʻrsatish"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 68
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 125
+#: src/actionmanagerimpl.cpp:293 rc.cpp:403 rc.cpp:418
+msgid "Open in Tab"
+msgstr "Tabda ochish"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 78
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 135
+#: src/actionmanagerimpl.cpp:299 rc.cpp:409 rc.cpp:424
+msgid "Open in External Browser"
+msgstr "Tashqi brauzerda ochish"
+
+#: src/actionmanagerimpl.cpp:304 src/actionmanagerimpl.cpp:511
+msgid "Copy Link Address"
+msgstr "Bogʻ manzilidan nusxa olish"
+
+#: src/actionmanagerimpl.cpp:308
+msgid "Pre&vious Unread Article"
+msgstr "&Oldingi oʻqilmagan maqola"
+
+#: src/actionmanagerimpl.cpp:313
+msgid "Ne&xt Unread Article"
+msgstr "Keyingi oʻqi&lmagan maqola"
+
+#: src/actionmanagerimpl.cpp:319
+#, fuzzy
+msgid "&Delete"
+msgstr "Yangi&liklar tasmasini olib tashlash"
+
+#: src/actionmanagerimpl.cpp:324
+msgid "&Mark As"
+msgstr "&Belgilash"
+
+#: src/actionmanagerimpl.cpp:338
+msgctxt "as in: mark as read"
+msgid "&Read"
+msgstr "Oʻqi&lgan"
+
+#: src/actionmanagerimpl.cpp:340
+msgid "Mark selected article as read"
+msgstr "Tanlangan maqolani oʻqilgan deb belgilash"
+
+#: src/actionmanagerimpl.cpp:346
+msgid "&New"
+msgstr "&Yangi"
+
+#: src/actionmanagerimpl.cpp:349
+msgid "Mark selected article as new"
+msgstr "Tanlangan maqolani yangi deb belgilash"
+
+#: src/actionmanagerimpl.cpp:355
+msgid "&Unread"
+msgstr "&Oʻqilmagan"
+
+#: src/actionmanagerimpl.cpp:357
+msgid "Mark selected article as unread"
+msgstr "Tanlangan maqolani oʻqilmagan deb belgilash"
+
+#: src/actionmanagerimpl.cpp:363
+msgid "&Mark as Important"
+msgstr "Muhim deb &belgilash"
+
+#: src/actionmanagerimpl.cpp:366
+msgid "Remove &Important Mark"
+msgstr "&Muhimlik belgisini olib tashlash"
+
+#: src/actionmanagerimpl.cpp:370
+msgid "Move Node Up"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:375
+msgid "Move Node Down"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:379 src/actionmanagerimpl.cpp:380
+msgid "Move Node Left"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:385
+msgid "Move Node Right"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:391
+msgid "Send &Link Address..."
+msgstr "&Bogʻ manzilini joʻnatish"
+
+#: src/actionmanagerimpl.cpp:396
+msgid "Send &File..."
+msgstr "&Fayl joʻnatish"
+
+#: src/actionmanagerimpl.cpp:416
+msgid "&Previous Article"
+msgstr "Old&ingi maqola"
+
+#: src/actionmanagerimpl.cpp:420
+msgid "&Next Article"
+msgstr "&Keyingi maqola"
+
+#: src/actionmanagerimpl.cpp:435
+msgid "&Previous Feed"
+msgstr "&Oldingi yangiliklar tasmasi"
+
+#: src/actionmanagerimpl.cpp:440
+msgid "&Next Feed"
+msgstr "&Keyingi yangiliklar tasmasi"
+
+#: src/actionmanagerimpl.cpp:445
+msgid "N&ext Unread Feed"
+msgstr "Keyingi oʻqil&magan yangiliklar tasmasi"
+
+#: src/actionmanagerimpl.cpp:450
+msgid "Prev&ious Unread Feed"
+msgstr "Oldin&gi oʻqilmagan yangiliklar tasmasi"
+
+#: src/actionmanagerimpl.cpp:455
+msgid "Go to Top of Tree"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:460
+msgid "Go to Bottom of Tree"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:465
+msgid "Go Left in Tree"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:470
+msgid "Go Right in Tree"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:475
+msgid "Go Up in Tree"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:480
+msgid "Go Down in Tree"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:495
+msgid "Select Next Tab"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:500
+msgid "Select Previous Tab"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:506
+msgid "Detach Tab"
+msgstr "Tabni ajratish"
+
+#: src/actionmanagerimpl.cpp:516
+msgid "&Close Tab"
+msgstr "Tabni &yopish"
+
+#: src/trayicon.cpp:66
+#, fuzzy
+#| msgid "Akregator - RSS Feed Reader"
+msgid "Akregator - Feed Reader"
+msgstr "Akregator - RSS yangiliklarni oʻquvchi"
+
+#: src/trayicon.cpp:136
+#, fuzzy, kde-format
+msgid "Akregator - 1 unread article"
+msgid_plural "Akregator - %1 unread articles"
+msgstr[0] "Akregator - 1 oʻqilmagan maqola"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 24
+#: src/feedpropertiesdialog.cpp:78 src/feedpropertiesdialog.cpp:113 rc.cpp:47
+msgid "Feed Properties"
+msgstr "Yangiliklar tasmasining xossalari"
+
+#: src/feedpropertiesdialog.cpp:114
+#, kde-format
+msgid "Properties of %1"
+msgstr "%1 xossalari"
+
+#: src/dummystorage/storagefactorydummyimpl.cpp:48
+#, fuzzy
+#| msgid "Archive"
+msgid "No Archive"
+msgstr "Arxivlash"
+
+#: src/articlemodel.cpp:106
+#, fuzzy
+msgid "Title"
+msgstr "&Maqola"
+
+#: src/articlemodel.cpp:108
+msgid "Feed"
+msgstr "Yangiliklar tasmasi"
+
+#. i18n: tag string
+#. i18n: file ./plugins/onlinesync/ui/configurationwidget.ui line 41
+#: src/articlemodel.cpp:114 rc.cpp:491
+msgid "Description"
+msgstr ""
+
+#: src/articlemodel.cpp:116
+#, fuzzy
+#| msgid "Comments"
+msgid "Content"
+msgstr "Izohlar"
+
+#: src/searchbar.cpp:70
+msgid "S&earch:"
+msgstr "Qid&irish:"
+
+#: src/searchbar.cpp:81
+msgid "Status:"
+msgstr "Holati:"
+
+#: src/searchbar.cpp:90
+msgid "All Articles"
+msgstr "Hamma maqolalar"
+
+#: src/searchbar.cpp:92
+msgid "New"
+msgstr "Yangi"
+
+#: src/searchbar.cpp:93
+msgid "Important"
+msgstr "Muhim"
+
+#: src/searchbar.cpp:95
+msgid "Enter space-separated terms to filter article list"
+msgstr ""
+
+#: src/searchbar.cpp:96
+msgid "Choose what kind of articles to show in article list"
+msgstr ""
+
+#: src/mainwindow.cpp:130
+msgid "Could not find the Akregator part; please check your installation."
+msgstr ""
+
+#: src/mainwindow.cpp:262
+msgid ""
+"<qt><p>Closing the main window will keep Akregator running in the system "
+"tray. Use 'Quit' from the 'File' menu to quit the application.</"
+"p><p><center><img source=\"systray_shot\" /></center></p></qt>"
+msgstr ""
+
+#: src/mainwindow.cpp:262
+msgid "Docking in System Tray"
+msgstr ""
+
+#: src/feedlist.cpp:166
+msgid "All Feeds"
+msgstr "Hamma yangiliklar tasmalari"
+
+#: configuration/akregator_config_advanced.cpp:48
+msgid "kcmakradvancedconfig"
+msgstr ""
+
+#: configuration/akregator_config_advanced.cpp:49
+msgid "Advanced Feed Reader Settings"
+msgstr ""
+
+#: configuration/akregator_config_advanced.cpp:51
+#: configuration/akregator_config_general.cpp:59
+#: configuration/akregator_config_browser.cpp:57
+#: configuration/akregator_config_archive.cpp:59
+#: configuration/akregator_config_appearance.cpp:68
+msgid "(c), 2004 - 2008 Frank Osterfeld"
+msgstr ""
+
+#: configuration/akregator_config_general.cpp:56
+msgid "kcmakrgeneralconfig"
+msgstr ""
+
+#: configuration/akregator_config_general.cpp:57
+#, fuzzy
+#| msgid "&Configure..."
+msgid "Configure Feeds"
+msgstr "&Moslash..."
+
+#: configuration/akregator_config_browser.cpp:54
+msgid "kcmakrbrowserconfig"
+msgstr ""
+
+#: configuration/akregator_config_browser.cpp:55
+msgid "Configure Feed Reader Browser"
+msgstr ""
+
+#: configuration/akregator_config_archive.cpp:56
+msgid "kcmakrarchiveconfig"
+msgstr ""
+
+#: configuration/akregator_config_archive.cpp:57
+msgid "Configure Feed Reader Archive"
+msgstr ""
+
+#: configuration/akregator_config_appearance.cpp:65
+msgid "kcmakrappearanceconfig"
+msgstr ""
+
+#: configuration/akregator_config_appearance.cpp:66
+msgid "Configure Feed Reader Appearance"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mashrab Quvatov,Nurali Abdurahmonov"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kmashrab@uni-bremen.de,mavnur@gmail.com"
+
+#. i18n: tag text
+#. i18n: file ./src/pageviewer.rc line 34
+#. i18n: tag text
+#. i18n: file ./src/akregator_shell.rc line 21
+#. i18n: tag text
+#. i18n: file ./src/akregator_part.rc line 29
+#: rc.cpp:5 rc.cpp:17 rc.cpp:128
+msgid "&Go"
+msgstr "Oʻ&tish"
+
+#. i18n: tag text
+#. i18n: file ./src/akregator_shell.rc line 4
+#. i18n: tag text
+#. i18n: file ./plugins/onlinesync/akregator_onlinesync_plugin.rc line 4
+#: rc.cpp:8 rc.cpp:512
+#, fuzzy
+msgid "&File"
+msgstr "&Maqola"
+
+#. i18n: tag text
+#. i18n: file ./src/akregator_shell.rc line 11
+#. i18n: tag text
+#. i18n: file ./src/akregator_part.rc line 16
+#: rc.cpp:11 rc.cpp:122
+msgid "&Edit"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file ./src/akregator_shell.rc line 16
+#. i18n: tag text
+#. i18n: file ./src/akregator_part.rc line 24
+#: rc.cpp:14 rc.cpp:125
+#, fuzzy
+msgid "&View"
+msgstr "Koʻrish &usuli"
+
+#. i18n: tag text
+#. i18n: file ./src/akregator_shell.rc line 26
+#: rc.cpp:20
+msgid "&Feed"
+msgstr "Yan&giliklar tasmasi"
+
+#. i18n: tag text
+#. i18n: file ./src/akregator_shell.rc line 31
+#. i18n: tag text
+#. i18n: file ./src/akregator_part.rc line 56
+#: rc.cpp:23 rc.cpp:134
+msgid "&Article"
+msgstr "&Maqola"
+
+#. i18n: tag text
+#. i18n: file ./src/akregator_shell.rc line 35
+#: rc.cpp:26
+msgid "&Settings"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file ./src/akregator_shell.rc line 48
+#: rc.cpp:29
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file ./src/akregator_shell.rc line 52
+#: rc.cpp:32
+#, fuzzy
+#| msgid "Browser"
+msgid "Browser Toolbar"
+msgstr "Brauzer"
+
+#. i18n: tag text
+#. i18n: file ./src/akregator_shell.rc line 55
+#: rc.cpp:35
+msgid "Speech Toolbar"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./src/addfeedwidgetbase.ui line 121
+#: rc.cpp:41
+msgid "Add New Source"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./src/addfeedwidgetbase.ui line 128
+#: rc.cpp:44
+msgid "Feed &URL:"
+msgstr "Yangiliklar tasmasining &manzili:"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 45
+#: rc.cpp:50
+msgid "&General"
+msgstr "&Umumiy"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 57
+#: rc.cpp:53
+msgid "U&se a custom update interval"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 91
+#: rc.cpp:56
+msgid "Update &every:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 115
+#: rc.cpp:59
+msgid "Minutes"
+msgstr "Daqiqa"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 120
+#: rc.cpp:62
+msgid "Hours"
+msgstr "Soat"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 125
+#: rc.cpp:65
+msgid "Days"
+msgstr "Kun"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 130
+#: rc.cpp:68
+msgid "Never"
+msgstr "Hech qachon"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 140
+#: rc.cpp:71
+msgid "Notify when new articles arri&ve"
+msgstr "Yangi maqola kelganda xabar &berish"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 155
+#: rc.cpp:74
+msgid "&URL:"
+msgstr "&URL:"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 165
+#: rc.cpp:77
+msgid "&Name:"
+msgstr "&Nomi:"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 183
+#: rc.cpp:80
+msgid "Display name of RSS column"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 209
+#: rc.cpp:83
+msgid "Ar&chive"
+msgstr "&Arxivlash"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 221
+#: rc.cpp:86
+msgid "&Use default settings"
+msgstr "&Andoza moslamalardan foydalanish"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 231
+#: rc.cpp:89
+msgid "Di&sable archiving"
+msgstr "Arxiv&lashni oʻchirish"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 262
+#: rc.cpp:92
+msgid "Limit archi&ve to:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 272
+#. i18n: tag string
+#. i18n: file ./configuration/settings_archive.ui line 72
+#: rc.cpp:95 rc.cpp:455
+msgid "1 article"
+msgstr "1 maqola"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 275
+#. i18n: tag string
+#. i18n: file ./configuration/settings_archive.ui line 75
+#: rc.cpp:98 rc.cpp:458
+msgid " articles"
+msgstr " maqola"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 292
+#: rc.cpp:101
+msgid "&Delete articles older than:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 302
+#. i18n: tag string
+#. i18n: file ./configuration/settings_archive.ui line 105
+#: rc.cpp:104 rc.cpp:464
+msgid "1 day"
+msgstr "1 kun"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 305
+#. i18n: tag string
+#. i18n: file ./configuration/settings_archive.ui line 108
+#: rc.cpp:107 rc.cpp:467
+msgid " days"
+msgstr " kun"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 350
+#: rc.cpp:110
+msgid "&Keep all articles"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 358
+#: rc.cpp:113
+msgid "Adva&nced"
+msgstr "Qoʻshimch&a"
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 391
+#: rc.cpp:116
+msgid "Load the &full website when reading articles"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./src/feedpropertieswidgetbase.ui line 398
+#: rc.cpp:119
+msgid "Mar&k articles as read when they arrive"
+msgstr ""
+
+#. i18n: tag text
+#. i18n: file ./src/akregator_part.rc line 43
+#: rc.cpp:131
+msgid "F&eed"
+msgstr "Yangiliklar &tasmasi"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 10
+#: rc.cpp:140
+msgid "Show Quick Filter Bar"
+msgstr "Qidirish panelini koʻrsatish"
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 14
+#: rc.cpp:143
+msgid "View Mode"
+msgstr "Koʻrish usuli"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 15
+#: rc.cpp:146
+#, fuzzy
+#| msgid "Article List"
+msgid "Article display mode."
+msgstr "Maqolalar roʻyxati"
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 19
+#: rc.cpp:149
+msgid "Sizes for first splitter"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 20
+#: rc.cpp:152
+msgid "First (usually vertical) splitter widget sizes."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 24
+#: rc.cpp:155
+msgid "Sizes for second splitter"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 25
+#: rc.cpp:158
+msgid "Second (usually horizontal) splitter widget sizes."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 57
+#: rc.cpp:161
+#, fuzzy
+#| msgid "Archive"
+msgid "Archive Mode"
+msgstr "Arxivlash"
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 61
+#: rc.cpp:164
+#, fuzzy
+#| msgid "All Articles"
+msgid "Keep All Articles"
+msgstr "Hamma maqolalar"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 62
+#: rc.cpp:167
+msgid "Save an unlimited number of articles."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 65
+#: rc.cpp:170
+msgid "Limit Number of Articles"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 66
+#: rc.cpp:173
+msgid "Limit the number of articles in a feed"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 69
+#: rc.cpp:176
+msgid "Delete Expired Articles"
+msgstr "Muddati oʻtgan maqolalarni oʻchirish"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 70
+#: rc.cpp:179
+msgid "Delete expired articles"
+msgstr "Muddati oʻtgan maqolalarni oʻchirish"
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 73
+#: rc.cpp:182
+msgid "Disable Archiving"
+msgstr "Arxivlashni oʻchirish"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 74
+#: rc.cpp:185
+#, fuzzy
+#| msgid " (no unread articles)"
+msgid "Do not save any articles"
+msgstr " (oʻqilmagan maqola yoʻq)"
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 79
+#: rc.cpp:188
+msgid "Expiry Age"
+msgstr "Muddati oʻtish vaqt"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 80
+#: rc.cpp:191
+#, fuzzy
+#| msgid "Delete expired articles"
+msgid "Default expiry age for articles in days."
+msgstr "Muddati oʻtgan maqolalarni oʻchirish"
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 84
+#: rc.cpp:194
+#, fuzzy
+#| msgid "Article List"
+msgid "Article Limit"
+msgstr "Maqolalar roʻyxati"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 85
+#: rc.cpp:197
+msgid "Number of articles to keep per feed."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 89
+#: rc.cpp:200
+#, fuzzy
+#| msgid "Delete Expired Articles"
+msgid "Do Not Expire Important Articles"
+msgstr "Muddati oʻtgan maqolalarni oʻchirish"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 90
+#: rc.cpp:203
+msgid ""
+"When this option is enabled, articles you marked as important will not be "
+"removed when limit the archive size by either age or number of the articles."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 96
+#: rc.cpp:206
+#, fuzzy
+#| msgid "&Abort Fetches"
+msgid "Concurrent Fetches"
+msgstr "Olishni toʻ&xtatish"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 97
+#: rc.cpp:209
+msgid "Number of concurrent fetches"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 101
+#: rc.cpp:212
+msgid "Use HTML Cache"
+msgstr "HTML keshidan foydalanish"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 102
+#: rc.cpp:215
+msgid ""
+"Use the KDE-wide HTML cache settings when downloading feeds, to avoid "
+"unnecessary traffic. Disable only when necessary."
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 106
+#: rc.cpp:218
+msgid ""
+"This option allows user to specify custom user-agent string instead of using "
+"the default one. This is here because some proxies may interrupt the "
+"connection because of having \"gator\" in the name."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 112
+#: rc.cpp:221
+msgid "Fetch on startup"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 113
+#: rc.cpp:224
+msgid "Fetch feedlist on startup."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 117
+#: rc.cpp:227
+#, fuzzy
+#| msgid "Ma&rk All Feeds as Read"
+msgid "Mark all feeds as read on startup"
+msgstr "Hamma yangili&klar tasmasini oʻqilgan deb belgilash"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 118
+#: rc.cpp:230
+#, fuzzy
+#| msgid "Ma&rk All Feeds as Read"
+msgid "Mark all feeds as read on startup."
+msgstr "Hamma yangili&klar tasmasini oʻqilgan deb belgilash"
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 122
+#: rc.cpp:233
+#, fuzzy
+#| msgid "&Use default settings"
+msgid "Use interval fetching"
+msgstr "&Andoza moslamalardan foydalanish"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 123
+#: rc.cpp:237
+#, no-c-format, kde-format
+msgid "Fetch all feeds every %1 minutes."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 127
+#: rc.cpp:240
+msgid "Interval for autofetching"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 128
+#: rc.cpp:243
+msgid "Interval for autofetching in minutes."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 132
+#: rc.cpp:246
+msgid "Use notifications"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 133
+#: rc.cpp:249
+msgid "Specifies if the balloon notifications are used or not."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 137
+#: rc.cpp:252
+msgid "Show tray icon"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 138
+#: rc.cpp:255
+msgid "Specifies if the tray icon is shown or not."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 144
+#: rc.cpp:258
+msgid "Show close buttons on tabs"
+msgstr "Tablarda yopish tugmasini koʻrsatish"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 145
+#: rc.cpp:261
+msgid "Show close buttons on tabs instead of icons"
+msgstr "Tablarda veb-sayt nishoncha oʻrniga yopish tugmasini koʻrsatish"
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 150
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 174
+#: rc.cpp:264 rc.cpp:437
+msgid "Use default KDE web browser"
+msgstr "Andoza veb-brauzeridan foydalanish"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 151
+#: rc.cpp:267
+msgid "Use KDE web browser when opening in external browser."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 155
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 167
+#: rc.cpp:270 rc.cpp:434
+msgid "Use this command:"
+msgstr "Quyidagi dasturni ishlatish:"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 156
+#: rc.cpp:273
+msgid "Use the specified command when opening in external browser."
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 160
+#: rc.cpp:277
+#, no-c-format
+msgid "Command to launch external browser.  URL will substitute for %u."
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 164
+#: rc.cpp:280
+msgid "What the click with left mouse button should do."
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 173
+#: rc.cpp:283
+msgid "What the click with middle mouse button should do."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ./interfaces/akregator.kcfg line 198
+#: rc.cpp:286
+#, fuzzy
+#| msgid "Archive"
+msgid "Archive Backend"
+msgstr "Arxivlash"
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 202
+#: rc.cpp:289
+msgid "Whether to delay before marking an article as read upon selecting it."
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file ./interfaces/akregator.kcfg line 206
+#: rc.cpp:292
+msgid ""
+"Configurable delay between selecting an article and it being marked as read."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 14
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 14
+#: rc.cpp:295 rc.cpp:337
+msgid "General"
+msgstr "Umumiy"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 54
+#: rc.cpp:298
+msgid "Global"
+msgstr "Umumiy"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 78
+#: rc.cpp:301
+msgid "Show tra&y icon"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 101
+#: rc.cpp:304
+#, fuzzy
+#| msgid "&Fetch Feed"
+msgid "Fetch feeds every:"
+msgstr "Yangiliklar tasmasini &olish"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 111
+#: rc.cpp:307
+msgid "Select this if you want to get notified when there are new articles."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 114
+#: rc.cpp:310
+msgid "Use &notifications for all feeds"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 121
+#: rc.cpp:313
+#, fuzzy
+#| msgid "&Use default settings"
+msgid "&Use interval fetching"
+msgstr "&Andoza moslamalardan foydalanish"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 131
+#: rc.cpp:316
+msgid "1 minute"
+msgstr "1 daqiqa"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 134
+#: rc.cpp:319
+msgid " minutes"
+msgstr " daqiqa"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 153
+#: rc.cpp:322
+#, fuzzy
+#| msgid "Status"
+msgid "Startup"
+msgstr "Holati"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 177
+#: rc.cpp:325
+#, fuzzy
+#| msgid "Fe&tch All Feeds"
+msgid "Fetch all fee&ds on startup"
+msgstr "Hamma &yangiliklar tasmasini olish"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 184
+#: rc.cpp:328
+#, fuzzy
+#| msgid "Ma&rk All Feeds as Read"
+msgid "Mark &all feeds as read on startup"
+msgstr "Hamma yangili&klar tasmasini oʻqilgan deb belgilash"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 194
+#: rc.cpp:331
+msgid "Network"
+msgstr "Tarmoq"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_general.ui line 218
+#: rc.cpp:334
+msgid "Use the &browser cache (less network traffic)"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 38
+#: rc.cpp:340
+#, fuzzy
+msgid "Article List Colors"
+msgstr "Maqolalar roʻyxati"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 98
+#: rc.cpp:343
+#, fuzzy
+msgid "New articles:"
+msgstr " maqola"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 122
+#: rc.cpp:346
+#, fuzzy
+msgid "Unread articles:"
+msgstr " (oʻqilmagan maqola yoʻq)"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 131
+#: rc.cpp:349
+msgid "Use custom colors"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 141
+#: rc.cpp:352
+#, fuzzy
+msgid "Font Size"
+msgstr "Shriftni &kattalashtirish"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 255
+#: rc.cpp:355
+msgid "Minimum font size:"
+msgstr "Shriftning eng kichik oʻlchami:"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 262
+#: rc.cpp:358
+msgid "Medium font size:"
+msgstr "Shriftning oʻrtacha oʻlchami:"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 272
+#: rc.cpp:361
+#, fuzzy
+msgid "Fonts"
+msgstr "Izohlar"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 313
+#: rc.cpp:364
+msgid "Standard font:"
+msgstr "Andoza shrift:"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 320
+#: rc.cpp:367
+msgid "Fixed font:"
+msgstr "Eni oʻzgarmaydigan shrift:"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 327
+#: rc.cpp:370
+msgid "Serif font:"
+msgstr "Serif shrift:"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 334
+#: rc.cpp:373
+msgid "Sans serif font:"
+msgstr "Sans serif shrift:"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_appearance.ui line 393
+#: rc.cpp:376
+msgid "&Underline links"
+msgstr "Bogʻlarni t&agini chizish"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_advancedbase.ui line 25
+#: rc.cpp:379
+msgid "Article List"
+msgstr "Maqolalar roʻyxati"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_advancedbase.ui line 45
+#: rc.cpp:382
+#, fuzzy
+#| msgid "Mark selected article as read"
+msgid "Mar&k selected article read after"
+msgstr "Tanlangan maqolani oʻqilgan deb belgilash"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_advancedbase.ui line 58
+#: rc.cpp:385
+msgid " sec"
+msgstr " soniya"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_advancedbase.ui line 89
+#. i18n: tag string
+#. i18n: file ./configuration/settings_archive.ui line 16
+#: rc.cpp:388 rc.cpp:440
+msgid "Archive"
+msgstr "Arxivlash"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_advancedbase.ui line 109
+#: rc.cpp:391
+#, fuzzy
+#| msgid "Archive"
+msgid "Archive backend:"
+msgstr "Arxivlash"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_advancedbase.ui line 119
+#: rc.cpp:394
+msgid "&Configure..."
+msgstr "&Moslash..."
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 16
+#: rc.cpp:397
+#, fuzzy
+#| msgid "Open in External Browser"
+msgid "ExternalBrowser"
+msgstr "Tashqi brauzerda ochish"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 28
+#: rc.cpp:400
+#, fuzzy
+#| msgid "Show close buttons on tabs"
+msgid "Show tab close button on hover"
+msgstr "Tablarda yopish tugmasini koʻrsatish"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 73
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 130
+#: rc.cpp:406 rc.cpp:421
+msgid "Open in Background Tab"
+msgstr "Orqa fon tabda ochish"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 94
+#: rc.cpp:412
+msgid "Middle mouse click:"
+msgstr "Sichqonchani oʻrta tugmasi:"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 109
+#: rc.cpp:415
+msgid "Left mouse click:"
+msgstr "Sichqonchaning chap tugmasi:"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 145
+#: rc.cpp:427
+msgid "For External Browsing"
+msgstr "Tashqi brauzer uchun"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_browser.ui line 160
+#: rc.cpp:431
+#, no-c-format
+msgid "firefox %u"
+msgstr "firefox %u"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_archive.ui line 28
+#: rc.cpp:443
+#, fuzzy
+#| msgid "Disable Archiving"
+msgid "Default Archive Settings"
+msgstr "Arxivlashni oʻchirish"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_archive.ui line 40
+#: rc.cpp:446
+msgid "Disable archiving"
+msgstr "Arxivlashni oʻchirish"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_archive.ui line 47
+#: rc.cpp:449
+#, fuzzy
+#| msgid " articles"
+msgid "Keep all articles"
+msgstr " maqola"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_archive.ui line 62
+#: rc.cpp:452
+msgid "Limit feed archive size to:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_archive.ui line 95
+#: rc.cpp:461
+#, fuzzy
+#| msgid "Delete Article"
+msgid "Delete articles older than: "
+msgstr "Maqolani oʻchirish"
+
+#. i18n: tag string
+#. i18n: file ./configuration/settings_archive.ui line 123
+#: rc.cpp:470
+#, fuzzy
+#| msgid "Delete expired articles"
+msgid "Do not expire important articles"
+msgstr "Muddati oʻtgan maqolalarni oʻchirish"
+
+#. i18n: tag string
+#. i18n: file ./plugins/onlinesync/ui/configurationdialogadd.ui line 27
+#: rc.cpp:473
+msgid "Type:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/onlinesync/ui/configurationdialogadd.ui line 52
+#: rc.cpp:476
+msgid "Login:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/onlinesync/ui/configurationdialogadd.ui line 69
+#: rc.cpp:479
+msgid "Password:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/onlinesync/ui/configurationdialogadd.ui line 87
+#: rc.cpp:482
+#, fuzzy
+msgid "File:"
+msgstr "&Maqola"
+
+#. i18n: tag string
+#. i18n: file ./plugins/onlinesync/ui/configurationwidget.ui line 18
+#: rc.cpp:485
+msgid "Online reader accounts:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/onlinesync/ui/configurationwidget.ui line 36
+#: rc.cpp:488
+msgid "Type"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/onlinesync/ui/configurationwidget.ui line 51
+#: rc.cpp:494
+#, fuzzy
+#| msgid "&Add Feed..."
+msgid "Add..."
+msgstr "Yangiliklar tasmasini qoʻ&shish"
+
+#. i18n: tag string
+#. i18n: file ./plugins/onlinesync/ui/configurationwidget.ui line 58
+#: rc.cpp:497
+#, fuzzy
+#| msgid "Loading..."
+msgid "Modify..."
+msgstr "Yuklanmoqda..."
+
+#. i18n: tag string
+#. i18n: file ./plugins/onlinesync/ui/configurationwidget.ui line 65
+#: rc.cpp:500
+msgid "Remove"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/onlinesync/ui/configurationwidget.ui line 94
+#: rc.cpp:503
+#, fuzzy
+#| msgid "Delete Feed"
+msgid "Delete feeds"
+msgstr "Yangiliklar tasmasini olib tashlash"
+
+#. i18n: tag label
+#. i18n: file ./plugins/onlinesync/onlinesyncsettings.kcfg line 9
+#: rc.cpp:506
+msgid "Bar Settings"
+msgstr ""
+
+#. i18n: tag whatsthis
+#. i18n: file ./plugins/onlinesync/onlinesyncsettings.kcfg line 10
+#: rc.cpp:509
+msgid "Bar!"
+msgstr ""
+
+#: plugins/onlinesync/ui/configurationwidget.cpp:19
+msgid "Nothing"
+msgstr ""
+
+#: plugins/onlinesync/ui/configurationwidget.cpp:20
+msgid "Categories"
+msgstr ""
+
+#: plugins/onlinesync/ui/configurationwidget.cpp:22
+msgid "Ask"
+msgstr ""
+
+#: plugins/onlinesync/ui/configurationdialog.cpp:13
+msgid "Online Reader Configuration"
+msgstr ""
+
+#: plugins/onlinesync/ui/configurationdialogadd.cpp:19
+msgid "Modify Online Reader Account"
+msgstr ""
+
+#: plugins/onlinesync/ui/configurationdialogadd.cpp:20
+msgid "Google Reader"
+msgstr ""
+
+#: plugins/onlinesync/sync/googlereader.cpp:265
+msgid "Authentication failed, synchronization aborted."
+msgstr ""
+
+#: plugins/onlinesync/sync/feedsync.cpp:137
+msgid ""
+"Some categories and feeds have been marked for removal. Do you want to "
+"delete them?"
+msgstr ""
+
+#: plugins/onlinesync/sync/feedsync.cpp:139
+msgid "Remove nothing"
+msgstr ""
+
+#: plugins/onlinesync/sync/feedsync.cpp:140
+msgid "Remove only categories"
+msgstr ""
+
+#: plugins/onlinesync/sync/feedsync.cpp:141
+msgid "Remove feeds"
+msgstr ""
+
+#: plugins/onlinesync/sync/feedsync.cpp:193
+msgid "An error occurred, synchronization aborted."
+msgstr ""
+
+#: plugins/onlinesync/akregator_config_onlinesync.cpp:49
+msgid "kcmakronlinesyncconfig"
+msgstr ""
+
+#: plugins/onlinesync/akregator_config_onlinesync.cpp:50
+msgid "Configure Online Readers"
+msgstr ""
+
+#: plugins/onlinesync/akregator_config_onlinesync.cpp:52
+msgid "(c), 2008 Didier Hoarau"
+msgstr ""
+
+#: plugins/onlinesync/akregator_config_onlinesync.cpp:54
+msgid "Didier Hoarau"
+msgstr ""
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:53
+msgid "Synchronize Feeds"
+msgstr ""
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:91
+#, kde-format
+msgid "Get from %1"
+msgstr ""
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:100
+#, kde-format
+msgid "Send to %1"
+msgstr ""
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:109
+#, fuzzy
+#| msgid "Loading..."
+msgid "Manage..."
+msgstr "Yuklanmoqda..."
+
+#: plugins/mk4storage/storagefactorymk4impl.cpp:48
+msgid "Metakit"
+msgstr ""
+
+#~ msgid "Article"
+#~ msgstr "Maqola"
+
+#~ msgid "Advanced"
+#~ msgstr "Qoʻshimcha"
+
+#, fuzzy
+#~| msgid "Feed Properties"
+#~ msgid "Feed title"
+#~ msgstr "Yangiliklar tasmasining xossalari"
+
+#, fuzzy
+#~ msgid "Arial"
+#~ msgstr "Maqola"
+
+#, fuzzy
+#~ msgid "FreeSans"
+#~ msgstr "Yangiliklar tasmalari"
+
+#, fuzzy
+#~ msgid "Impact"
+#~ msgstr "Muhim"
+
+#, fuzzy
+#~ msgid "MgOpen Cosmetica"
+#~ msgstr "&Veb-sahifani ochish"
+
+#, fuzzy
+#~ msgid "Sans Serif"
+#~ msgstr "Sans serif shrift:"
+
+#, fuzzy
+#~ msgid "Serif"
+#~ msgstr "Serif shrift:"
+
+#, fuzzy
+#~ msgid "Standard Symbols L"
+#~ msgstr "Andoza shrift:"
+
+#, fuzzy
+#~ msgid "Steve"
+#~ msgstr "Hech qachon"
+
+#~ msgid "Icon:"
+#~ msgstr "Nishoncha:"
+
+#~ msgid "&Mark Articles as Read"
+#~ msgstr "Maqolalarni oʻqilgan deb &belgilash"
+
+#, fuzzy
+#~ msgid "Disable Archive"
+#~ msgstr "Arxivlashni oʻchirish"
+
+#~ msgid "Disable"
+#~ msgstr "Oʻchirish"
+
+#~ msgid "Clear filter"
+#~ msgstr "Filterni tozalash"
