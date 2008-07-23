@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-21 02:10+0200\n"
+"POT-Creation-Date: 2008-07-23 06:21+0200\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -19,29 +19,42 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: part/ui/KPrCustomSlideShowsDialog.cpp:71
-#: part/ui/KPrCustomSlideShowsDialog.cpp:182
-#: part/ui/KPrCustomSlideShowsDialog.cpp:200
+#: part/ui/KPrCustomSlideShowsDialog.cpp:77
+#: part/ui/KPrCustomSlideShowsDialog.cpp:224
+#: part/ui/KPrCustomSlideShowsDialog.cpp:246
 #, kde-format
 msgid "Slide %1"
 msgstr "Slayd %1"
 
-#: part/ui/KPrCustomSlideShowsDialog.cpp:86
-#: part/ui/KPrCustomSlideShowsDialog.cpp:88
 #: part/ui/KPrCustomSlideShowsDialog.cpp:92
+#: part/ui/KPrCustomSlideShowsDialog.cpp:96
+#: part/ui/KPrCustomSlideShowsDialog.cpp:98
+#: part/ui/KPrCustomSlideShowsDialog.cpp:103
 #, fuzzy, kde-format
 #| msgid "Slide Show"
 msgid "New Slide Show %1"
 msgstr "Namoyish"
 
-#: part/ui/KPrCustomSlideShowsDialog.cpp:114
+#: part/ui/KPrCustomSlideShowsDialog.cpp:125
 msgid "There can't be 2 SlideShows with the same name"
 msgstr ""
 
-#: part/ui/KPrCustomSlideShowsDialog.cpp:114
+#: part/ui/KPrCustomSlideShowsDialog.cpp:125
 #, fuzzy
 msgid "Error"
 msgstr "Koʻrsatkich uslubi"
+
+#: part/ui/KPrCustomSlideShowsDialog.cpp:140
+#, fuzzy
+#| msgid "Do you want to remove the current slide?"
+msgid "Are you sure you want to delete the selected slide show?"
+msgstr "Joriy slaydni olib tashlashni istaysizmi?"
+
+#: part/ui/KPrCustomSlideShowsDialog.cpp:140
+#, fuzzy
+#| msgid "Save Configuration..."
+msgid "Confirm action"
+msgstr "Moslamalarni saqlash..."
 
 #: part/ui/KPrConfigureSlideShowDialog.cpp:42
 #, kde-format
@@ -57,47 +70,47 @@ msgstr ""
 msgid "Configure Slide Show"
 msgstr "Namoyish moslamalari"
 
-#: part/KPrView.cpp:110
+#: part/KPrView.cpp:107
 #, fuzzy
 #| msgid "Presentation"
 msgid "Start Presentation"
 msgstr "Namoyish"
 
-#: part/KPrView.cpp:113
+#: part/KPrView.cpp:110
 #, fuzzy
 #| msgid "After Current Slide"
 msgid "From Current Page"
 msgstr "Joriy slayddan keyin"
 
-#: part/KPrView.cpp:116
+#: part/KPrView.cpp:113
 #, fuzzy
 #| msgid "Start From &First Slide"
 msgid "From First Page"
 msgstr "&Birinchi slayddan boshlash"
 
-#: part/KPrView.cpp:120
+#: part/KPrView.cpp:117
 msgid "Normal"
 msgstr "Oddiy"
 
-#: part/KPrView.cpp:126
+#: part/KPrView.cpp:123
 #, fuzzy
 #| msgid "Note"
 msgid "Notes"
 msgstr "Izoh"
 
-#: part/KPrView.cpp:135
+#: part/KPrView.cpp:132
 #, fuzzy
 #| msgid "Create HTML Presentation"
 msgid "Create Appear Animation"
 msgstr "HTML namoyishni yaratish"
 
-#: part/KPrView.cpp:139
+#: part/KPrView.cpp:136
 #, fuzzy
 #| msgid "Custom Slide Show..."
 msgid "Edit Custom Slide Shows..."
 msgstr "Boshqa namoyish..."
 
-#: part/KPrView.cpp:143
+#: part/KPrView.cpp:140
 #, fuzzy
 #| msgid "&Configure Slide Show..."
 msgid "Configure Slide Show..."
@@ -284,17 +297,17 @@ msgstr ""
 msgid "Timothée Lacroix "
 msgstr ""
 
-#: part/KPrPresenterViewInterface.cpp:86
+#: part/KPrPresenterViewInterface.cpp:85
 #, fuzzy
 #| msgid "&Next Slide"
 msgid "Next Slide"
 msgstr "&Keyingi slayd"
 
-#: part/KPrPresenterViewInterface.cpp:98
+#: part/KPrPresenterViewInterface.cpp:97
 msgid "Speaker Notes"
 msgstr ""
 
-#: part/KPrPresenterViewInterface.cpp:118
+#: part/KPrPresenterViewInterface.cpp:117
 #, fuzzy, kde-format
 #| msgid "Create HTML Slideshow"
 msgid "Current Slide %1 of %2"
@@ -3262,9 +3275,6 @@ msgstr "Rasm &effekti:"
 #~ msgid "Automatically advance to the next slide after:"
 #~ msgstr "Keyingi slaydga avto-oʻtish &vaqti:"
 
-#~ msgid "Do you want to remove the current slide?"
-#~ msgstr "Joriy slaydni olib tashlashni istaysizmi?"
-
 #~ msgid "Remove Slide"
 #~ msgstr "Slaydni olib tashlash"
 
@@ -3925,9 +3935,6 @@ msgstr "Rasm &effekti:"
 
 #~ msgid "Create Main Page (Table of Contents)"
 #~ msgstr "Mundarija sahifasini yaratish"
-
-#~ msgid "Save Configuration..."
-#~ msgstr "Moslamalarni saqlash..."
 
 #~ msgid "*.kpweb|KPresenter Web-Presentation (*.kpweb)"
 #~ msgstr "*.kpweb|KPresenter veb-namoyish (*.kpweb)"
