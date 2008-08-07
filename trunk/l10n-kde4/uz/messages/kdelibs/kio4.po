@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-05 08:25+0200\n"
+"POT-Creation-Date: 2008-08-07 08:20+0200\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2470,48 +2470,11 @@ msgstr ""
 "Bu hujjatning baʼzi bir qismlari SSL bilan himoyalangan, ammo asosiy qismi "
 "himoyalanmagan."
 
-#: kssl/ksslinfodialog.cpp:205
+#: kssl/ksslinfodialog.cpp:190
 #, fuzzy, kde-format
 #| msgid "%1 bits used of a %2 bit cipher"
 msgid "%1, using %2 bits of a %3 bit key"
 msgstr "%2 bitli shifrning %1 biti ishlatilgan"
-
-#. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 43
-#: kssl/ksslinfodialog.cpp:328 rc.cpp:66
-msgid "Organization:"
-msgstr "Tashkilot:"
-
-#. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 70
-#: kssl/ksslinfodialog.cpp:335 rc.cpp:72
-msgid "Organizational unit:"
-msgstr "Boʻlim:"
-
-#: kssl/ksslinfodialog.cpp:342
-msgid "Locality:"
-msgstr "Shahar/Qishloq va tuman:"
-
-#: kssl/ksslinfodialog.cpp:349
-msgctxt "Federal State"
-msgid "State:"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 97
-#: kssl/ksslinfodialog.cpp:356 rc.cpp:78
-msgid "Country:"
-msgstr "Davlat:"
-
-#. i18n: tag string
-#. i18n: file ./kssl/certificateparty.ui line 16
-#: kssl/ksslinfodialog.cpp:363 rc.cpp:60
-msgid "Common name:"
-msgstr "Umumiy nomi:"
-
-#: kssl/ksslinfodialog.cpp:370
-msgid "Email:"
-msgstr "Elektron pochta:"
 
 #: kssl/ksslcertificate.cpp:204
 msgid "Signature Algorithm: "
@@ -4117,10 +4080,22 @@ msgid ""
 msgstr ""
 
 #. i18n: tag string
+#. i18n: file ./kssl/certificateparty.ui line 16
+#: rc.cpp:60
+msgid "Common name:"
+msgstr "Umumiy nomi:"
+
+#. i18n: tag string
 #. i18n: file ./kssl/certificateparty.ui line 23
 #: rc.cpp:63
 msgid "Acme Co."
 msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kssl/certificateparty.ui line 43
+#: rc.cpp:66
+msgid "Organization:"
+msgstr "Tashkilot:"
 
 #. i18n: tag string
 #. i18n: file ./kssl/certificateparty.ui line 50
@@ -4129,10 +4104,22 @@ msgid "Acme Sundry Products Company"
 msgstr ""
 
 #. i18n: tag string
+#. i18n: file ./kssl/certificateparty.ui line 70
+#: rc.cpp:72
+msgid "Organizational unit:"
+msgstr "Boʻlim:"
+
+#. i18n: tag string
 #. i18n: file ./kssl/certificateparty.ui line 77
 #: rc.cpp:75
 msgid "Fraud Department"
 msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./kssl/certificateparty.ui line 97
+#: rc.cpp:78
+msgid "Country:"
+msgstr "Davlat:"
 
 #. i18n: tag string
 #. i18n: file ./kssl/certificateparty.ui line 104
@@ -5357,23 +5344,23 @@ msgstr "%1 uchun meta maʼlumot yoʻq"
 msgid "No metainfo for %1"
 msgstr "%1 uchun meta maʼlumot yoʻq"
 
-#: ../kfile/kfileplacesview.cpp:422
+#: ../kfile/kfileplacesview.cpp:557
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Chiqindilar qutisini boʻshatish"
 
-#: ../kfile/kfileplacesview.cpp:428
+#: ../kfile/kfileplacesview.cpp:563
 #, fuzzy, kde-format
 #| msgid "&Edit..."
 msgid "&Edit '%1'..."
 msgstr "&Tahrirlash"
 
-#: ../kfile/kfileplacesview.cpp:431
+#: ../kfile/kfileplacesview.cpp:566
 #, kde-format
 msgid "&Hide '%1'"
 msgstr ""
 
-#: ../kfile/kfileplacesview.cpp:438
+#: ../kfile/kfileplacesview.cpp:573
 #, fuzzy
 #| msgid ""
 #| "Show\n"
@@ -5383,18 +5370,18 @@ msgstr ""
 "Elementlarni\n"
 "koʻrsatish"
 
-#: ../kfile/kfileplacesview.cpp:448
+#: ../kfile/kfileplacesview.cpp:583
 #, fuzzy, kde-format
 msgid "&Remove '%1'"
 msgstr "Elementni oʻ&chirish"
 
-#: ../kfile/kfileplacesview.cpp:464
+#: ../kfile/kfileplacesview.cpp:599
 #, fuzzy
 msgctxt "@info"
 msgid "Do you really want to empty the Trash? All items will be deleted."
 msgstr "Rostdan bu elementni oʻchirishni istaysizmi?"
 
-#: ../kfile/kfileplacesview.cpp:468
+#: ../kfile/kfileplacesview.cpp:603
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Chiqindilar qutisini boʻshatish"
@@ -5928,6 +5915,12 @@ msgstr ""
 #: ../kfile/kurlbutton.cpp:119
 msgid "Show Full Path"
 msgstr ""
+
+#~ msgid "Locality:"
+#~ msgstr "Shahar/Qishloq va tuman:"
+
+#~ msgid "Email:"
+#~ msgstr "Elektron pochta:"
 
 #, fuzzy
 #~| msgid "Access was denied while attempting to %1."
