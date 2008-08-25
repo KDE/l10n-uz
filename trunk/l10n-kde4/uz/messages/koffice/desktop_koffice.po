@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-17 06:40+0000\n"
+"POT-Creation-Date: 2008-08-25 07:19+0000\n"
 "PO-Revision-Date: 2006-10-02 23:59+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -709,7 +709,7 @@ msgid "An example of a bar chart"
 msgstr "Gistogramma namunasi"
 
 #: kchart/templates/Empty.desktop:4
-#: kspread/templates/General/Worksheet.desktop:4
+#: kspread/data/templates/General/Worksheet.desktop:4
 msgctxt "Name"
 msgid "Blank Worksheet"
 msgstr "Boʻsh elektron jadval"
@@ -1861,29 +1861,6 @@ msgctxt "GenericName"
 msgid "Image Object"
 msgstr "Rasm obʼekti"
 
-#: krita/plugins/brushes/imagepipe/kritaimagepipebrush.desktop:2
-#, fuzzy
-msgctxt "Name"
-msgid "Imagehose Brush"
-msgstr "Name=KThesaurus"
-
-#: krita/plugins/brushes/imagepipe/kritaimagepipebrush.desktop:18
-msgctxt "Comment"
-msgid "Imagehose brush"
-msgstr ""
-
-#: krita/plugins/brushes/text/kritatextbrush.desktop:2
-#, fuzzy
-msgctxt "Name"
-msgid "Text Brush"
-msgstr "Name=KThesaurus"
-
-#: krita/plugins/brushes/text/kritatextbrush.desktop:20
-#, fuzzy
-msgctxt "Comment"
-msgid "Text brush"
-msgstr "Name=KThesaurus"
-
 #: krita/plugins/filters/blur/kritablurfilter.desktop:3
 msgctxt "Name"
 msgid "Convolution Filters (Extension)"
@@ -1999,6 +1976,18 @@ msgstr ""
 msgctxt "Name"
 msgid "LensCorrection Filter"
 msgstr "Linzani toʻgʻrilash filteri"
+
+#: krita/plugins/filters/levelfilter/kritalevelfilter.desktop:2
+#, fuzzy
+msgctxt "Name"
+msgid "Levels"
+msgstr "Legal"
+
+#: krita/plugins/filters/levelfilter/kritalevelfilter.desktop:36
+#, fuzzy
+msgctxt "Comment"
+msgid "Levels"
+msgstr "PDF-fayllarni Krita bilan oʻqish vositasi"
 
 #: krita/plugins/filters/noisefilter/kritanoisefilter.desktop:2
 msgctxt "Name"
@@ -2430,13 +2419,79 @@ msgctxt "Name"
 msgid "KritaShape Shape"
 msgstr ""
 
-#: kspread/flake/spreadsheetshape.desktop:2
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Spreadsheets"
+#: kspread/data/templates/Business/.directory:2
 msgctxt "Name"
-msgid "Spreadsheet Shape"
-msgstr "Elektron jadvallar"
+msgid "Business"
+msgstr "Biznes"
+
+#: kspread/data/templates/Business/BalanceSheet.desktop:4
+msgctxt "Name"
+msgid "Balance Sheet"
+msgstr "Balans"
+
+#: kspread/data/templates/Business/ExpenseReport.desktop:4
+msgctxt "Name"
+msgid "Expense Report"
+msgstr "Xarajatlar hisoboti"
+
+#: kspread/data/templates/Business/Invoice.desktop:4
+msgctxt "Name"
+msgid "Invoice"
+msgstr ""
+
+#: kspread/data/templates/Business/PackingSlip.desktop:4
+msgctxt "Name"
+msgid "Packing Slip"
+msgstr "Qadoqlash yorligʻi"
+
+#: kspread/data/templates/Business/PriceQuotation.desktop:4
+#, fuzzy
+msgctxt "Name"
+msgid "Price Quotation"
+msgstr "Aksiyalar katirovkasi"
+
+#: kspread/data/templates/General/.directory:2
+#: kugar/kudesigner/templates/General/.directory:2
+msgctxt "Name"
+msgid "General"
+msgstr "Umumiy"
+
+#: kspread/data/templates/General/StudentIDCard.desktop:4
+msgctxt "Name"
+msgid "Student ID Card"
+msgstr "Talaba guvohnomasi"
+
+#: kspread/data/templates/HomeFamily/.directory:2
+msgctxt "Name"
+msgid "Home and Family"
+msgstr "Uy va oila"
+
+#: kspread/data/templates/HomeFamily/BMI.desktop:4
+#, fuzzy
+msgctxt "Name"
+msgid "BMI Calculator"
+msgstr "BMI kalkulyatori"
+
+#: kspread/data/templates/HomeFamily/BMI.desktop:51
+msgctxt "Comment"
+msgid "Simple Body Mass Index Calculator"
+msgstr ""
+
+#: kspread/data/templates/HomeFamily/CreditCardTracker.desktop:4
+#, fuzzy
+msgctxt "Name"
+msgid "Credit Card Tracker"
+msgstr "Kredit kartochkasi"
+
+#: kspread/data/templates/HomeFamily/MenuPlan.desktop:4
+msgctxt "Name"
+msgid "Menu Plan"
+msgstr "Taomlar roʻyxati"
+
+#: kspread/data/templates/HomeFamily/VacationChecklist.desktop:4
+msgctxt "Name"
+msgid "Vacation Checklist"
+msgstr "Dam olishga tayyorgarlik"
 
 #: kspread/functions/kspreadbitopsmodule.desktop:2
 msgctxt "Name"
@@ -2730,79 +2785,13 @@ msgctxt "Comment"
 msgid "Inserts a calendar into a cell range."
 msgstr ""
 
-#: kspread/templates/Business/.directory:2
-msgctxt "Name"
-msgid "Business"
-msgstr "Biznes"
-
-#: kspread/templates/Business/BalanceSheet.desktop:4
-msgctxt "Name"
-msgid "Balance Sheet"
-msgstr "Balans"
-
-#: kspread/templates/Business/ExpenseReport.desktop:4
-msgctxt "Name"
-msgid "Expense Report"
-msgstr "Xarajatlar hisoboti"
-
-#: kspread/templates/Business/Invoice.desktop:4
-msgctxt "Name"
-msgid "Invoice"
-msgstr ""
-
-#: kspread/templates/Business/PackingSlip.desktop:4
-msgctxt "Name"
-msgid "Packing Slip"
-msgstr "Qadoqlash yorligʻi"
-
-#: kspread/templates/Business/PriceQuotation.desktop:4
+#: kspread/shape/spreadsheetshape.desktop:2
 #, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Spreadsheets"
 msgctxt "Name"
-msgid "Price Quotation"
-msgstr "Aksiyalar katirovkasi"
-
-#: kspread/templates/General/.directory:2
-#: kugar/kudesigner/templates/General/.directory:2
-msgctxt "Name"
-msgid "General"
-msgstr "Umumiy"
-
-#: kspread/templates/General/StudentIDCard.desktop:4
-msgctxt "Name"
-msgid "Student ID Card"
-msgstr "Talaba guvohnomasi"
-
-#: kspread/templates/HomeFamily/.directory:2
-msgctxt "Name"
-msgid "Home and Family"
-msgstr "Uy va oila"
-
-#: kspread/templates/HomeFamily/BMI.desktop:4
-#, fuzzy
-msgctxt "Name"
-msgid "BMI Calculator"
-msgstr "BMI kalkulyatori"
-
-#: kspread/templates/HomeFamily/BMI.desktop:51
-msgctxt "Comment"
-msgid "Simple Body Mass Index Calculator"
-msgstr ""
-
-#: kspread/templates/HomeFamily/CreditCardTracker.desktop:4
-#, fuzzy
-msgctxt "Name"
-msgid "Credit Card Tracker"
-msgstr "Kredit kartochkasi"
-
-#: kspread/templates/HomeFamily/MenuPlan.desktop:4
-msgctxt "Name"
-msgid "Menu Plan"
-msgstr "Taomlar roʻyxati"
-
-#: kspread/templates/HomeFamily/VacationChecklist.desktop:4
-msgctxt "Name"
-msgid "Vacation Checklist"
-msgstr "Dam olishga tayyorgarlik"
+msgid "Spreadsheet Shape"
+msgstr "Elektron jadvallar"
 
 #: kugar/kudesigner/kudesigner.desktop:8
 msgctxt "Name"
@@ -3605,6 +3594,21 @@ msgid "Other Office Files"
 msgstr "Idora uchun boshqa fayllar"
 
 #, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Imagehose Brush"
+#~ msgstr "Name=KThesaurus"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Text Brush"
+#~ msgstr "Name=KThesaurus"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Text brush"
+#~ msgstr "Name=KThesaurus"
+
+#, fuzzy
 #~| msgctxt "GenericName"
 #~| msgid "Report Generator"
 #~ msgctxt "Name"
@@ -3800,16 +3804,6 @@ msgstr "Idora uchun boshqa fayllar"
 #~ msgctxt "Name"
 #~ msgid "RGB Color Model (16-bit integer)"
 #~ msgstr "RGB rang usuli (16-bit butun)"
-
-#, fuzzy
-#~ msgctxt "Name"
-#~ msgid "Levels"
-#~ msgstr "Legal"
-
-#, fuzzy
-#~ msgctxt "Comment"
-#~ msgid "Levels"
-#~ msgstr "PDF-fayllarni Krita bilan oʻqish vositasi"
 
 #, fuzzy
 #~ msgctxt "Name"

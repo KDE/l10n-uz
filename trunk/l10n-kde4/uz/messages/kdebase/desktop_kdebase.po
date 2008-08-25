@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-19 06:52+0000\n"
+"POT-Creation-Date: 2008-08-25 07:19+0000\n"
 "PO-Revision-Date: 2008-06-02 22:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1577,7 +1577,6 @@ msgid "Camera Program"
 msgstr "Fotoaparat uchun dastur"
 
 #: apps/kappfinder/apps/Multimedia/xine.desktop:80
-#: runtime/phonon/xine/xine.desktop:12
 msgctxt "Name"
 msgid "Xine"
 msgstr "Xine"
@@ -2148,7 +2147,6 @@ msgid "SCSI information"
 msgstr "SCSI uskunalar haqida maʼlumot"
 
 #: apps/kinfocenter/info/sound.desktop:13
-#: runtime/phonon/kcm/kcm_phonon.desktop:13
 msgctxt "Name"
 msgid "Sound"
 msgstr "Tovush"
@@ -3453,7 +3451,7 @@ msgctxt "Name"
 msgid "Window Manager"
 msgstr "Fayl boshqaruvi"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:8
+#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:12
 msgctxt "Comment"
 msgid ""
 "Here you can select the window manager to be run in your KDE session. Note "
@@ -3830,6 +3828,28 @@ msgstr "Matn fayllari"
 msgctxt "Comment"
 msgid "Thumbnail Handler"
 msgstr ""
+
+#: runtime/kioslave/trash/kcmtrash.desktop:1
+#: runtime/kioslave/trash/kcmtrash.desktop:16
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Trashcan"
+msgctxt "Name"
+msgid "Trash"
+msgstr "Chiqindilar qutisi"
+
+#: runtime/kioslave/trash/kcmtrash.desktop:3
+msgctxt "Comment"
+msgid "This service allows configuration of the trash."
+msgstr ""
+
+#: runtime/kioslave/trash/kcmtrash.desktop:18
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure password settings"
+msgctxt "Comment"
+msgid "Configure trash settings"
+msgstr "Maxfiy soʻz moslamalarini moslash"
 
 #: runtime/kioslave/trash/trash.protocol:25
 msgctxt "ExtraNames"
@@ -6671,6 +6691,7 @@ msgid "More Applications"
 msgstr "Boshqa dasturlar"
 
 #: runtime/menu/desktop/kde-multimedia.directory:4
+#: runtime/phonon/kcm/kcm_phonon.desktop:13
 msgctxt "Name"
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -6776,11 +6797,15 @@ msgid "Utilities"
 msgstr "Vositalar"
 
 #: runtime/nepomuk/kcm/kcm_nepomuk.desktop:11
+#: workspace/plasma/runners/xesam/plasma-runner-xesam.desktop:2
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Desktop Pager"
 msgctxt "Name"
-msgid "Nepomuk"
-msgstr "Nepomuk"
+msgid "Desktop Search"
+msgstr "Ish stolining peyjeri"
 
-#: runtime/nepomuk/kcm/kcm_nepomuk.desktop:17
+#: runtime/nepomuk/kcm/kcm_nepomuk.desktop:12
 msgctxt "Comment"
 msgid "Nepomuk/Strigi Server Configuration"
 msgstr "Nepomuk/Strigi serverini moslash"
@@ -6900,10 +6925,26 @@ msgctxt "Comment"
 msgid "Strigi file indexing has been resumed"
 msgstr ""
 
-#: runtime/phonon/kcm/kcm_phonon.desktop:88
+#: runtime/phonon/kcm/kcm_phonon.desktop:14
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Sound System Configuration"
 msgctxt "Comment"
-msgid "Sound System Configuration"
+msgid "Sound and Video Configuration"
 msgstr "Tovush tizimini moslash"
+
+#: runtime/phonon/kded-module/phononserver.desktop:8
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Sound Processor"
+msgctxt "Name"
+msgid "Sound Policy Server"
+msgstr "Tovush protsessori"
+
+#: runtime/phonon/kded-module/phononserver.desktop:9
+msgctxt "Comment"
+msgid "A server to centralize decisions and data of applications using Phonon"
+msgstr ""
 
 #: runtime/phonon/platform_kde/phonon.notifyrc:3
 msgctxt "Comment"
@@ -6930,21 +6971,6 @@ msgstr ""
 msgctxt "Name"
 msgid "KDE Multimedia Backend"
 msgstr "KDE multimedia xizmati"
-
-#: runtime/phonon/xine/kcm/kcm_phononxine.desktop:11
-msgctxt "Name"
-msgid "Phonon Xine"
-msgstr "Phonon Xine"
-
-#: runtime/phonon/xine/kcm/kcm_phononxine.desktop:28
-msgctxt "Comment"
-msgid "Xine Backend Configuration"
-msgstr "Xine tovush tizimini moslash"
-
-#: runtime/phonon/xine/xine.desktop:22
-msgctxt "Comment"
-msgid "Phonon Xine backend"
-msgstr "Xine tovush xizmati"
 
 #: runtime/pics/hicolor/index.theme:2
 msgctxt "Name"
@@ -8558,14 +8584,6 @@ msgctxt "Name"
 msgid "Command Runner"
 msgstr ""
 
-#: workspace/krunner/lock/plasma/containment/plasma-containment-saverdesktop.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop"
-msgctxt "Name"
-msgid "SaverDesktop"
-msgstr "Ish stoli"
-
 #: workspace/kscreensaver/kblank_screensaver/kblank.desktop:7
 msgctxt "Name"
 msgid "Blank Screen"
@@ -9059,7 +9077,7 @@ msgctxt "Name"
 msgid "Slide"
 msgstr "Solid"
 
-#: workspace/kwin/effects/slide.desktop:13
+#: workspace/kwin/effects/slide.desktop:15
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Let it snow on the desktop"
@@ -9980,6 +9998,11 @@ msgctxt "Name"
 msgid "Trashcan"
 msgstr "Chiqindilar qutisi"
 
+#: workspace/plasma/containments/desktop/plasma-containment-desktop.desktop:75
+msgctxt "Comment"
+msgid "Default desktop containment"
+msgstr ""
+
 #: workspace/plasma/containments/panel/plasma-containment-panel.desktop:2
 msgctxt "Name"
 msgid "Panel"
@@ -10158,11 +10181,6 @@ msgctxt "Comment"
 msgid "Theme done in the Oxygen style"
 msgstr ""
 
-#: workspace/plasma/plasma/plasma.desktop:4
-msgctxt "Name"
-msgid "Plasma"
-msgstr "Plasma"
-
 #: workspace/plasma/runners/bookmarks/plasma-runner-bookmarks.desktop:79
 #, fuzzy
 #| msgctxt "Name"
@@ -10229,14 +10247,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "Allows user to use Konqueror's Web shortcuts"
 msgstr ""
-
-#: workspace/plasma/runners/xesam/plasma-runner-xesam.desktop:2
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Desktop Pager"
-msgctxt "Name"
-msgid "Desktop Search"
-msgstr "Ish stolining peyjeri"
 
 #: workspace/plasma/runners/xesam/plasma-runner-xesam.desktop:20
 msgctxt "Comment"
@@ -10329,6 +10339,27 @@ msgctxt "Comment"
 msgid "Webpage widget using HTML and JavaScript"
 msgstr ""
 
+#: workspace/plasma/shells/desktop/plasma.desktop:4
+msgctxt "Name"
+msgid "Plasma"
+msgstr "Plasma"
+
+#: workspace/plasma/shells/mid/plasma-mid.desktop:4
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Plasma applet"
+msgctxt "Name"
+msgid "Plasma MID Shell"
+msgstr "Plasma appleti"
+
+#: workspace/plasma/shells/screensaver/containment/plasma-containment-saverdesktop.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop"
+msgctxt "Name"
+msgid "SaverDesktop"
+msgstr "Ish stoli"
+
 #: workspace/plasma/wallpapers/color/plasma-wallpaper-color.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -10336,6 +10367,23 @@ msgstr ""
 msgctxt "Name"
 msgid "Color"
 msgstr "Ranglar"
+
+#: workspace/plasma/wallpapers/image/plasma-wallpaper-image.desktop:3
+#: workspace/plasma/wallpapers/image/plasma-wallpaper-image.desktop:19
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Images"
+msgctxt "Name"
+msgid "Image"
+msgstr "Rasmlar"
+
+#: workspace/plasma/wallpapers/image/plasma-wallpaper-image.desktop:25
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Solid"
+msgctxt "Name"
+msgid "Slideshow"
+msgstr "Solid"
 
 #: workspace/solid/bluez/solid_bluez.desktop:7
 #, fuzzy
@@ -10362,12 +10410,15 @@ msgstr ""
 
 #: workspace/solid/kcm/kcm_solid.desktop:12
 msgctxt "Name"
-msgid "Solid"
-msgstr "Solid"
+msgid "Hardware"
+msgstr "Asbob-uskunalar"
 
-#: workspace/solid/kcm/kcm_solid.desktop:31
+#: workspace/solid/kcm/kcm_solid.desktop:13
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Hardware Integration Configuration"
 msgctxt "Comment"
-msgid "Hardware Integration Configuration"
+msgid "Hardware Integration Configuration with Solid"
 msgstr "Asbob-uskunalar xizmatini moslash"
 
 #: workspace/solid/networking/kded/networkstatus.desktop:2
@@ -10583,6 +10634,26 @@ msgid "Vector Sunset"
 msgstr ""
 
 #~ msgctxt "Name"
+#~ msgid "Nepomuk"
+#~ msgstr "Nepomuk"
+
+#~ msgctxt "Name"
+#~ msgid "Phonon Xine"
+#~ msgstr "Phonon Xine"
+
+#~ msgctxt "Comment"
+#~ msgid "Xine Backend Configuration"
+#~ msgstr "Xine tovush tizimini moslash"
+
+#~ msgctxt "Comment"
+#~ msgid "Phonon Xine backend"
+#~ msgstr "Xine tovush xizmati"
+
+#~ msgctxt "Name"
+#~ msgid "Solid"
+#~ msgstr "Solid"
+
+#~ msgctxt "Name"
 #~ msgid "Applet Manuals"
 #~ msgstr " Appletlar uchun qoʻllanmalar"
 
@@ -10698,10 +10769,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "KDE Components"
 #~ msgstr "KDE komponentlari"
-
-#~ msgctxt "Name"
-#~ msgid "Hardware"
-#~ msgstr "Asbob-uskunalar"
 
 #~ msgctxt "Name"
 #~ msgid "Appearance & Themes"
@@ -12274,10 +12341,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Passwords"
 #~ msgstr "Maxfiy soʻzlar"
-
-#~ msgctxt "Comment"
-#~ msgid "Configure password settings"
-#~ msgstr "Maxfiy soʻz moslamalarini moslash"
 
 #~ msgctxt "Keywords"
 #~ msgid "Passwords,kdesu,Echo characters,Remember passwords,Timeout"
