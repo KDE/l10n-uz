@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkdepim\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-25 09:09+0200\n"
+"POT-Creation-Date: 2008-09-01 09:36+0200\n"
 "PO-Revision-Date: 2006-05-11 23:17+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -82,7 +82,8 @@ msgstr ""
 msgid "SMS"
 msgstr "SMS"
 
-#: addresseeview.cpp:250
+#: addresseeview.cpp:250 ldapsearchdialog.cpp:79 ldapsearchdialog.cpp:155
+#: ldapsearchdialog.cpp:285 ldapsearchdialog.cpp:356
 msgid "Email"
 msgstr "Elektron pochta"
 
@@ -98,7 +99,7 @@ msgstr ""
 msgid "Notes"
 msgstr "Izohlar"
 
-#: addresseeview.cpp:339
+#: addresseeview.cpp:339 ldapsearchdialog.cpp:91 ldapsearchdialog.cpp:298
 msgid "Department"
 msgstr "Boʻlim"
 
@@ -180,51 +181,51 @@ msgstr "Manzilni ochish: '%1'"
 msgid "Chat with %1"
 msgstr "%1 bilan xabar almashish"
 
-#: addressesdialog.cpp:112 addressesdialog.cpp:120
+#: addressesdialog.cpp:119 addressesdialog.cpp:127
 msgid "<group>"
 msgstr "<guruh>"
 
 #. i18n: file: addresspicker.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, AddressPickerUI)
-#: addressesdialog.cpp:206 rc.cpp:3
+#: addressesdialog.cpp:213 rc.cpp:3
 msgid "Address Selection"
 msgstr ""
 
-#: addressesdialog.cpp:232 addressesdialog.cpp:691
+#: addressesdialog.cpp:239 addressesdialog.cpp:700
 msgid "To"
 msgstr "Kimga"
 
-#: addressesdialog.cpp:243 addressesdialog.cpp:713
+#: addressesdialog.cpp:250 addressesdialog.cpp:722
 msgid "CC"
 msgstr "Nusxa"
 
-#: addressesdialog.cpp:254 addressesdialog.cpp:735
+#: addressesdialog.cpp:261 addressesdialog.cpp:744
 msgid "BCC"
 msgstr ""
 
-#: addressesdialog.cpp:313 recentaddresses.cpp:175
+#: addressesdialog.cpp:320 recentaddresses.cpp:175
 msgid "Recent Addresses"
 msgstr ""
 
-#: addressesdialog.cpp:437
+#: addressesdialog.cpp:444
 msgid "Other Addresses"
 msgstr "Boshqa manzillar"
 
-#: addressesdialog.cpp:845
+#: addressesdialog.cpp:854
 msgid ""
 "There are no addresses in your list. First add some addresses from your "
 "address book, then try again."
 msgstr ""
 
-#: addressesdialog.cpp:852
+#: addressesdialog.cpp:861
 msgid "New Distribution List"
 msgstr "Yangi tarqarish roʻyxati"
 
-#: addressesdialog.cpp:853
+#: addressesdialog.cpp:862
 msgid "Please enter name:"
 msgstr "Iltimos nomini kiriting:"
 
-#: addressesdialog.cpp:866
+#: addressesdialog.cpp:875
 #, kde-format
 msgid ""
 "<qt>Distribution list with the given name <b>%1</b> already exists. Please "
@@ -233,7 +234,7 @@ msgstr ""
 "<qt><b>%1</b> nomli tarqatish roʻyxati allaqachon mavjud. Iltimos boshqa "
 "nomni tanlang.</qt>"
 
-#: addressesdialog.cpp:1000
+#: addressesdialog.cpp:1037
 msgid "Distribution Lists"
 msgstr "Tarqarish roʻyxatlari"
 
@@ -337,7 +338,7 @@ msgstr ""
 msgid "Duration"
 msgstr "Davom etishi"
 
-#: calendardiffalgo.cpp:136
+#: calendardiffalgo.cpp:136 ldapsearchdialog.cpp:94 ldapsearchdialog.cpp:299
 msgid "Description"
 msgstr "Taʼrifi"
 
@@ -431,7 +432,7 @@ msgstr ""
 
 #. i18n: file: categoryeditdialog_base.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, CategoryEditDialog_base)
-#: categoryeditdialog.cpp:46 rc.cpp:42
+#: categoryeditdialog.cpp:46 rc.cpp:45
 msgid "Edit Categories"
 msgstr "Turkumlarni tahrirlash"
 
@@ -443,7 +444,7 @@ msgstr "Turkum"
 
 #. i18n: file: categoryselectdialog_base.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, CategorySelectDialog_base)
-#: categoryselectdialog.cpp:159 rc.cpp:87
+#: categoryselectdialog.cpp:159 rc.cpp:90
 msgid "Select Categories"
 msgstr "Tanlangan turkumlar"
 
@@ -1351,6 +1352,149 @@ msgctxt "fewer widgets"
 msgid "Fewer"
 msgstr ""
 
+#: ldapsearchdialog.cpp:77 ldapsearchdialog.cpp:301
+msgid "Title"
+msgstr ""
+
+#: ldapsearchdialog.cpp:78 ldapsearchdialog.cpp:284
+#, fuzzy
+#| msgid "Name"
+msgid "Full Name"
+msgstr "Nomi"
+
+#: ldapsearchdialog.cpp:80 ldapsearchdialog.cpp:156 ldapsearchdialog.cpp:286
+#: ldapsearchdialog.cpp:358
+#, fuzzy
+#| msgid "Hide Telephone Numbers"
+msgid "Home Number"
+msgstr "Telefon raqamlarni bekitish"
+
+#: ldapsearchdialog.cpp:81 ldapsearchdialog.cpp:157 ldapsearchdialog.cpp:287
+#: ldapsearchdialog.cpp:360
+msgid "Work Number"
+msgstr ""
+
+#: ldapsearchdialog.cpp:82 ldapsearchdialog.cpp:288
+msgid "Mobile Number"
+msgstr ""
+
+#: ldapsearchdialog.cpp:83 ldapsearchdialog.cpp:289
+msgid "Fax Number"
+msgstr ""
+
+#: ldapsearchdialog.cpp:84
+msgid "Pager"
+msgstr ""
+
+#: ldapsearchdialog.cpp:85 ldapsearchdialog.cpp:292
+msgid "Street"
+msgstr ""
+
+#: ldapsearchdialog.cpp:86 ldapsearchdialog.cpp:293
+#, fuzzy
+#| msgid "Status"
+msgid "State"
+msgstr "Holati"
+
+#: ldapsearchdialog.cpp:87 ldapsearchdialog.cpp:294
+msgid "Country"
+msgstr ""
+
+#: ldapsearchdialog.cpp:88 ldapsearchdialog.cpp:297
+msgid "City"
+msgstr ""
+
+#: ldapsearchdialog.cpp:89 ldapsearchdialog.cpp:291
+#, fuzzy
+#| msgid "Duration"
+msgid "Organization"
+msgstr "Davom etishi"
+
+#: ldapsearchdialog.cpp:90 ldapsearchdialog.cpp:290
+msgid "Company"
+msgstr ""
+
+#: ldapsearchdialog.cpp:92 ldapsearchdialog.cpp:295
+msgid "Zip Code"
+msgstr ""
+
+#: ldapsearchdialog.cpp:93 ldapsearchdialog.cpp:296
+#, fuzzy
+#| msgid "Show Postal Addresses"
+msgid "Postal Address"
+msgstr "Manzilgohni koʻrsatish"
+
+#: ldapsearchdialog.cpp:95 ldapsearchdialog.cpp:300
+msgid "User ID"
+msgstr ""
+
+#: ldapsearchdialog.cpp:122 ldapsearchdialog.cpp:136
+msgid "Search for Addresses in Directory"
+msgstr ""
+
+#: ldapsearchdialog.cpp:143
+#, fuzzy
+#| msgid "Search:"
+msgid "Search for:"
+msgstr "Qidirish:"
+
+#: ldapsearchdialog.cpp:150
+msgid "in"
+msgstr ""
+
+#. i18n: file: addresspicker.ui:41
+#. i18n: ectx: property (text), widget (K3ListView, mAvailableView)
+#. i18n: file: addresspicker.ui:265
+#. i18n: ectx: property (text), widget (K3ListView, mSelectedView)
+#: ldapsearchdialog.cpp:154 ldapsearchdialog.cpp:351 rc.cpp:6 rc.cpp:33
+msgid "Name"
+msgstr "Nomi"
+
+#: ldapsearchdialog.cpp:161 ldapsearchdialog.cpp:377
+msgid "Stop"
+msgstr ""
+
+#: ldapsearchdialog.cpp:163 ldapsearchdialog.cpp:416
+#, fuzzy
+#| msgid "Search:"
+msgid "Search"
+msgstr "Qidirish:"
+
+#: ldapsearchdialog.cpp:171
+msgid "Recursive search"
+msgstr ""
+
+#: ldapsearchdialog.cpp:176
+#, fuzzy
+#| msgid "Conditions"
+msgid "Contains"
+msgstr "Shartlar"
+
+#: ldapsearchdialog.cpp:177
+#, fuzzy
+#| msgid "Start time"
+msgid "Starts With"
+msgstr "Boshlanish vaqti"
+
+#: ldapsearchdialog.cpp:190
+msgid "Unselect All"
+msgstr ""
+
+#: ldapsearchdialog.cpp:191
+#, fuzzy
+msgid "Select All"
+msgstr "Namunani tanlash"
+
+#: ldapsearchdialog.cpp:192
+msgid "Add Selected"
+msgstr ""
+
+#: ldapsearchdialog.cpp:232
+msgid ""
+"You must select a LDAP server before searching.\n"
+"You can do this from the menu Settings/Configure KAddressBook."
+msgstr ""
+
 #: maillistdrag.cpp:249
 msgid "Retrieving and storing messages..."
 msgstr ""
@@ -1371,19 +1515,11 @@ msgstr "Amalni bekor qilish"
 msgid "Aborting..."
 msgstr "Toʻxtatilmoqda..."
 
-#. i18n: file: addresspicker.ui:41
-#. i18n: ectx: property (text), widget (K3ListView, mAvailableView)
-#. i18n: file: addresspicker.ui:275
-#. i18n: ectx: property (text), widget (K3ListView, mSelectedView)
-#: rc.cpp:6 rc.cpp:36
-msgid "Name"
-msgstr "Nomi"
-
 #. i18n: file: addresspicker.ui:52
 #. i18n: ectx: property (text), widget (K3ListView, mAvailableView)
-#. i18n: file: addresspicker.ui:286
+#. i18n: file: addresspicker.ui:276
 #. i18n: ectx: property (text), widget (K3ListView, mSelectedView)
-#: rc.cpp:9 rc.cpp:39
+#: rc.cpp:9 rc.cpp:36
 msgid "Email Address"
 msgstr "Elektron pochta"
 
@@ -1411,69 +1547,75 @@ msgstr "&BCC >>"
 msgid "<< &Remove"
 msgstr "<< &Olib tashlash"
 
-#. i18n: file: addresspicker.ui:164
-#. i18n: ectx: property (text), widget (QPushButton, mSaveAs)
-#: rc.cpp:24
-msgid "Save as &Distribution List..."
-msgstr ""
-
-#. i18n: file: addresspicker.ui:177
+#. i18n: file: addresspicker.ui:167
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:27
+#: rc.cpp:24
 msgid "&Selected Addresses"
 msgstr "&Tanlangan manzillar"
 
-#. i18n: file: addresspicker.ui:202
+#. i18n: file: addresspicker.ui:192
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:30
+#: rc.cpp:27
 msgid "&Address Book"
 msgstr "Manzillar &daftari"
 
-#. i18n: file: addresspicker.ui:226
+#. i18n: file: addresspicker.ui:216
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2)
-#: rc.cpp:33
+#: rc.cpp:30
 msgid "&Filter on:"
+msgstr ""
+
+#. i18n: file: addresspicker.ui:293
+#. i18n: ectx: property (text), widget (QPushButton, mSaveAs)
+#: rc.cpp:39
+msgid "Save as &Distribution List..."
+msgstr ""
+
+#. i18n: file: addresspicker.ui:300
+#. i18n: ectx: property (text), widget (QPushButton, mLdapSearch)
+#: rc.cpp:42
+msgid "&Search Directory Service"
 msgstr ""
 
 #. i18n: file: categoryeditdialog_base.ui:25
 #. i18n: ectx: property (toolTip), widget (KLineEdit, mEdit)
-#: rc.cpp:45
+#: rc.cpp:48
 msgid "New category entry"
 msgstr ""
 
 #. i18n: file: categoryeditdialog_base.ui:28
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, mEdit)
-#: rc.cpp:48
+#: rc.cpp:51
 msgid "Type in any text you want to use as a new category or sub-category."
 msgstr ""
 
 #. i18n: file: categoryeditdialog_base.ui:43
 #. i18n: ectx: property (toolTip), widget (KPushButton, mButtonAdd)
-#: rc.cpp:51
+#: rc.cpp:54
 msgid "Add the entry to the category list"
 msgstr ""
 
 #. i18n: file: categoryeditdialog_base.ui:46
 #. i18n: ectx: property (whatsThis), widget (KPushButton, mButtonAdd)
-#: rc.cpp:54
+#: rc.cpp:57
 msgid "Click this button to insert the entry into the category list."
 msgstr ""
 
 #. i18n: file: categoryeditdialog_base.ui:49
 #. i18n: ectx: property (text), widget (KPushButton, mButtonAdd)
-#: rc.cpp:57
+#: rc.cpp:60
 msgid "A&dd"
 msgstr "Qoʻsh&ish"
 
 #. i18n: file: categoryeditdialog_base.ui:56
 #. i18n: ectx: property (toolTip), widget (KPushButton, mButtonAddSubcategory)
-#: rc.cpp:60
+#: rc.cpp:63
 msgid "Add the entry as a subcategory of the selected category"
 msgstr ""
 
 #. i18n: file: categoryeditdialog_base.ui:62
 #. i18n: ectx: property (whatsThis), widget (KPushButton, mButtonAddSubcategory)
-#: rc.cpp:63
+#: rc.cpp:66
 msgid ""
 "Click this button to insert the entry as a subcategory of the currently "
 "selected category."
@@ -1481,34 +1623,34 @@ msgstr ""
 
 #. i18n: file: categoryeditdialog_base.ui:65
 #. i18n: ectx: property (text), widget (KPushButton, mButtonAddSubcategory)
-#: rc.cpp:66
+#: rc.cpp:69
 #, fuzzy
 msgid "Add &Subcategory"
 msgstr "Turkum"
 
 #. i18n: file: categoryeditdialog_base.ui:72
 #. i18n: ectx: property (toolTip), widget (KPushButton, mButtonRemove)
-#: rc.cpp:69
+#: rc.cpp:72
 msgid "Remove the selected category"
 msgstr ""
 
 #. i18n: file: categoryeditdialog_base.ui:78
 #. i18n: ectx: property (whatsThis), widget (KPushButton, mButtonRemove)
-#: rc.cpp:72
+#: rc.cpp:75
 msgid ""
 "Click this button to remove the selected category from the category list."
 msgstr ""
 
 #. i18n: file: categoryeditdialog_base.ui:81
 #. i18n: ectx: property (text), widget (KPushButton, mButtonRemove)
-#: rc.cpp:75
+#: rc.cpp:78
 #, fuzzy
 msgid "&Remove"
 msgstr "<< &Olib tashlash"
 
 #. i18n: file: categoryeditdialog_base.ui:106
 #. i18n: ectx: property (toolTip), widget (KPIM::AutoCheckTreeWidget, mCategories)
-#: rc.cpp:78
+#: rc.cpp:81
 #, fuzzy
 #| msgid "Categories"
 msgid "Category list"
@@ -1516,7 +1658,7 @@ msgstr "Turkumlar"
 
 #. i18n: file: categoryeditdialog_base.ui:109
 #. i18n: ectx: property (whatsThis), widget (KPIM::AutoCheckTreeWidget, mCategories)
-#: rc.cpp:81
+#: rc.cpp:84
 msgid ""
 "This is a list of all the categories available. You can create as many sub-"
 "categories as you want here."
@@ -1524,35 +1666,35 @@ msgstr ""
 
 #. i18n: file: categoryeditdialog_base.ui:128
 #. i18n: ectx: property (text), widget (KPIM::AutoCheckTreeWidget, mCategories)
-#: rc.cpp:84
+#: rc.cpp:87
 #, fuzzy
 msgid "Default category"
 msgstr "%1 (Andoza)"
 
 #. i18n: file: categoryselectdialog_base.ui:32
 #. i18n: ectx: property (text), widget (KPIM::AutoCheckTreeWidget, mCategories)
-#: rc.cpp:90
+#: rc.cpp:93
 msgid "Category"
 msgstr "Turkum"
 
 #. i18n: file: categoryselectdialog_base.ui:64
 #. i18n: ectx: property (text), widget (KPushButton, mButtonClear)
-#: rc.cpp:93
+#: rc.cpp:96
 msgid "&Clear Selection"
 msgstr ""
 
 #. i18n: file: categoryselectdialog_base.ui:71
 #. i18n: ectx: property (text), widget (KPushButton, mButtonEdit)
-#: rc.cpp:96
+#: rc.cpp:99
 msgid "&Edit Categories..."
 msgstr "&Turkumlarni tahrirlash"
 
-#: rc.cpp:97
+#: rc.cpp:100
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Mashrab Quvatov"
 
-#: rc.cpp:98
+#: rc.cpp:101
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kmashrab@uni-bremen.de"
@@ -1620,9 +1762,6 @@ msgstr ""
 
 #~ msgid "All"
 #~ msgstr "Hammasi"
-
-#~ msgid "Search:"
-#~ msgstr "Qidirish:"
 
 #, fuzzy
 #~ msgid "Open"
