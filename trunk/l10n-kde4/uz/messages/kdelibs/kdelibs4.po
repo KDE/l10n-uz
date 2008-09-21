@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-19 09:27+0200\n"
+"POT-Creation-Date: 2008-09-21 09:46+0200\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -6465,7 +6465,7 @@ msgstr "%1%"
 msgid "Change Icon"
 msgstr "Nishonchani oʻzgartirish"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:114
+#: kdeui/dialogs/kshortcutseditor.cpp:113
 #: kdeui/dialogs/kshortcutseditor.cpp:581
 msgid "Shortcuts"
 msgstr "Tugmalar birikmasi"
@@ -8220,6 +8220,18 @@ msgstr "Andoza"
 msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "Avto-aniqlash"
+
+#: kdeui/actions/kaction.cpp:79
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguouity.\n"
+"No action will be triggered."
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:83
+msgid "Ambiguous shortcut detected"
+msgstr ""
 
 #: kdeui/actions/kstandardaction.cpp:104
 msgctxt "home page"
@@ -12515,6 +12527,28 @@ msgstr ""
 msgid "(C) 2005 Jeroen Wijnhout"
 msgstr ""
 
+#: kformula/FormulaCommand.cpp:32
+#, fuzzy
+#| msgid "Add Comment"
+msgid "Add Elements"
+msgstr "Izohni qoʻshish"
+
+#: kformula/FormulaCommand.cpp:61
+#, fuzzy
+#| msgid "Remove Entry"
+msgid "Remove Elements"
+msgstr "Yozuvni oʻchirish"
+
+#: kformula/FormulaCommand.cpp:91
+#, fuzzy
+#| msgid "Replace Text"
+msgid "Replace Element"
+msgstr "Matnni almashtirish"
+
+#: kformula/FormulaCommand.cpp:139
+msgid "Attribute Changed"
+msgstr ""
+
 #: kdeui/colors/kcolordialog.cpp:97
 msgctxt "palette name"
 msgid "* Recent Colors *"
@@ -13828,11 +13862,6 @@ msgstr "Menyuning bandi (%1) mavjud emas."
 #~ msgstr "Yozuvni qoʻshish"
 
 #, fuzzy
-#~| msgid "Remove Entry"
-#~ msgid "&Remove Entry"
-#~ msgstr "Yozuvni oʻchirish"
-
-#, fuzzy
 #~| msgid "Alternate"
 #~ msgid "Hibernate"
 #~ msgstr "Qoʻshimcha"
@@ -14036,9 +14065,6 @@ msgstr "Menyuning bandi (%1) mavjud emas."
 #, fuzzy
 #~ msgid "start playback"
 #~ msgstr "Almashtirishni boshlash"
-
-#~ msgid "Replace Text"
-#~ msgstr "Matnni almashtirish"
 
 #, fuzzy
 #~| msgid "F&ull Screen Mode"
