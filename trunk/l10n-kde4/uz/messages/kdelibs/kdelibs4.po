@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-30 09:38+0200\n"
+"POT-Creation-Date: 2008-10-02 09:44+0200\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -5617,19 +5617,19 @@ msgstr[0] ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:374
 #, fuzzy, kde-format
-msgid "%1 % of %2 "
+msgid "%1% of %2"
 msgstr "%1 ( %2 )"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:377
-#, kde-format
-msgid "%2 % of 1 file"
-msgid_plural "%2 % of %1 files"
-msgstr[0] ""
-
-#: kdeui/jobs/kwidgetjobtracker.cpp:379
 #, fuzzy, kde-format
-msgid "%1 %"
-msgstr "%1 %2"
+msgid "%2% of 1 file"
+msgid_plural "%2% of %1 files"
+msgstr[0] "Yangi fayl."
+
+#: kdeui/jobs/kwidgetjobtracker.cpp:379 khtml/khtml_ext.cpp:1089
+#, no-c-format, kde-format
+msgid "%1%"
+msgstr "%1%"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:392
 msgid "Stalled"
@@ -5637,8 +5637,8 @@ msgstr "Toʻxtab qoldi"
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:397
 #, kde-format
-msgid "%2/s ( %3 remaining )"
-msgid_plural "%2/s ( %3 remaining )"
+msgid "%2/s (%3 remaining)"
+msgid_plural "%2/s (%3 remaining)"
 msgstr[0] ""
 
 #: kdeui/jobs/kwidgetjobtracker.cpp:400
@@ -10278,11 +10278,6 @@ msgstr ""
 msgid "Default Font Size (100%)"
 msgstr "Shriftning andoza oʻlchami (100%)"
 
-#: khtml/khtml_ext.cpp:1089
-#, no-c-format, kde-format
-msgid "%1%"
-msgstr "%1%"
-
 #: khtml/khtml_printsettings.cpp:31
 msgid ""
 "<qt><p><strong>'Print images'</strong></p><p>If this checkbox is enabled, "
@@ -10701,42 +10696,42 @@ msgstr ""
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6914
+#: khtml/khtml_part.cpp:6913
 msgid "Security Warning"
 msgstr "Xavfsizlik ogohnomasi"
 
-#: khtml/khtml_part.cpp:6920
+#: khtml/khtml_part.cpp:6919
 #, fuzzy, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr "<qt><BR><B>%1</B>'ga<BR>ishonchsiz sahifa orqali murojaat rad etildi."
 
-#: khtml/khtml_part.cpp:6921 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6920 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "Xavfsizlik xabarnomasi"
 
-#: khtml/khtml_part.cpp:7271
+#: khtml/khtml_part.cpp:7270
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr "'%1' qapchugʻi shakil maʼlumoti va maxfiy soʻzlar uchun ishlatilmoqda."
 
-#: khtml/khtml_part.cpp:7328
+#: khtml/khtml_part.cpp:7327
 msgid "&Close Wallet"
 msgstr "&Qopchiqni yopish"
 
-#: khtml/khtml_part.cpp:7371
+#: khtml/khtml_part.cpp:7370
 msgid "JavaScript &Debugger"
 msgstr "JavaScript &debaggeri"
 
-#: khtml/khtml_part.cpp:7404
+#: khtml/khtml_part.cpp:7403
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr ""
 "Bu veb-sahifaga JavaScript yordamida yangi oynani ochishga ruxsat berilmadi."
 
-#: khtml/khtml_part.cpp:7410
+#: khtml/khtml_part.cpp:7409
 msgid "Popup Window Blocked"
 msgstr "Popap oyna toʻsilgan"
 
-#: khtml/khtml_part.cpp:7410
+#: khtml/khtml_part.cpp:7409
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 "You can click on this icon in the status bar to control this behavior\n"
@@ -10747,17 +10742,17 @@ msgstr ""
 "Holat panelidagi shu tugmani bosib toʻsishni moslash yoki toʻsilgan popap "
 "oynani koʻrsatish mumkin."
 
-#: khtml/khtml_part.cpp:7423
+#: khtml/khtml_part.cpp:7422
 #, fuzzy, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "&Toʻsilgan popap oynani koʻrsatish"
 
-#: khtml/khtml_part.cpp:7424
+#: khtml/khtml_part.cpp:7423
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "Toʻsilgan popap oyna haqida &xabar berish"
 
-#: khtml/khtml_part.cpp:7426
+#: khtml/khtml_part.cpp:7425
 msgid "&Configure JavaScript New Window Policies..."
 msgstr ""
 
@@ -12943,6 +12938,10 @@ msgstr "&Kun maslahati"
 #, fuzzy, kde-format
 msgid "No such function \"%1\""
 msgstr "Menyuning bandi (%1) mavjud emas."
+
+#, fuzzy
+#~ msgid "%1 %"
+#~ msgstr "%1 %2"
 
 #~ msgid ""
 #~ "The '%1' key combination has already been allocated to the \"%2\" "
