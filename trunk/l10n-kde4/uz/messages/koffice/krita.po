@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-06 09:49+0200\n"
+"POT-Creation-Date: 2008-10-08 10:32+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3861,7 +3861,7 @@ msgstr "Qatlamning xossalari"
 
 #. i18n: file: plugins/viewplugins/compose/wdg_compose.ui:52
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:1494 ui/kis_tool_paint.cc:121
+#: rc.cpp:1494 ui/tool/kis_tool_paint.cc:121
 #, fuzzy
 msgid "Opacity: "
 msgstr "Xiralik:"
@@ -6167,6 +6167,15 @@ msgstr "Tanlash"
 msgid "&Rotate"
 msgstr "&Burish"
 
+#: ui/tool/kis_tool_freehand.cc:275 ui/tool/kis_tool_freehand.cc:277
+msgid "Freehand tool"
+msgstr ""
+
+#: ui/tool/kis_tool_paint.cc:129
+#, fuzzy
+msgid "Mode: "
+msgstr "Usul: "
+
 #: ui/kis_image_manager.cc:56
 msgid "I&nsert Image as Layer..."
 msgstr "&Rasmni qatlam sifatida qoʻyish..."
@@ -6613,10 +6622,6 @@ msgstr "&Veb sifatida"
 msgid "As on &Monitor"
 msgstr ""
 
-#: ui/kis_tool_freehand.cc:275 ui/kis_tool_freehand.cc:277
-msgid "Freehand tool"
-msgstr ""
-
 #: ui/kis_zoom_manager.cc:82
 msgid "Show Rulers"
 msgstr "Lineykalarni koʻrsatish"
@@ -6779,11 +6784,6 @@ msgstr "Shakllar"
 #| msgid "Borders"
 msgid "Border"
 msgstr "Chegaralar"
-
-#: ui/kis_tool_paint.cc:129
-#, fuzzy
-msgid "Mode: "
-msgstr "Usul: "
 
 #: ui/kis_statusbar.cc:123
 #, kde-format
