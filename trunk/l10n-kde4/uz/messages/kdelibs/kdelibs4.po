@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-04 10:11+0100\n"
+"POT-Creation-Date: 2008-11-05 10:41+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3971,14 +3971,21 @@ msgstr ""
 msgid "Function must be called from the main thread."
 msgstr ""
 
-#: kdecore/kernel/ktoolinvocation.cpp:119
+#: kdecore/kernel/ktoolinvocation.cpp:120
+#, kde-format
+msgid ""
+"Error launching %1. Either KLauncher is not running anymore, or it failed to "
+"start the application."
+msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:123
 #, fuzzy, kde-format
 msgid ""
 "KLauncher could not be reached via D-Bus. Error when calling %1:\n"
 "%2\n"
 msgstr "DCOP orqali KLauncher'ni ishlatib boʻlmadi.\n"
 
-#: kdecore/kernel/ktoolinvocation.cpp:275
+#: kdecore/kernel/ktoolinvocation.cpp:280
 #, kde-format
 msgid ""
 "Could not launch the KDE Help Center:\n"
@@ -3989,7 +3996,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation.cpp:276
+#: kdecore/kernel/ktoolinvocation.cpp:281
 msgid "Could not Launch Help Center"
 msgstr "Yordam markazini ishga tushirib boʻlmadi"
 
@@ -6497,8 +6504,8 @@ msgstr ""
 "Uni joriy amal bilan bogʻlashni istaysizmi?"
 
 #: kdeui/dialogs/kshortcutseditor.cpp:513
-#: kdeui/dialogs/kshortcutseditor.cpp:529 kdeui/shortcuts/kglobalaccel.cpp:431
-#: kdeui/shortcuts/kglobalaccel.cpp:470
+#: kdeui/dialogs/kshortcutseditor.cpp:529 kdeui/shortcuts/kglobalaccel.cpp:420
+#: kdeui/shortcuts/kglobalaccel.cpp:459
 #: kdeui/widgets/kkeysequencewidget.cpp:174
 #: kdeui/widgets/kkeysequencewidget.cpp:256
 #: kdeui/widgets/kkeysequencewidget.cpp:633
@@ -7656,11 +7663,11 @@ msgstr "Ustunlarda qidirish"
 msgid "All Visible Columns"
 msgstr "Hamma koʻrsatilgan ustunlar"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:424
+#: kdeui/shortcuts/kglobalaccel.cpp:413
 msgid "Conflict with Global Shortcut"
 msgstr "Umumiy tugmalar birikmasi bilan muammo"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:425
+#: kdeui/shortcuts/kglobalaccel.cpp:414
 #, fuzzy, kde-format
 msgid ""
 "The '%1' key combination has already been allocated to the global action \"%2"
@@ -7670,25 +7677,25 @@ msgstr ""
 "\"%1\" tugma birikmasi allaqachon \"%2\" umumiy amal bilan bogʻlangan.\n"
 "Uni joriy amal bilan bogʻlashni istaysizmi?"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:451
+#: kdeui/shortcuts/kglobalaccel.cpp:440
 #, kde-format
 msgid "The '%1' key combination is registered by application %2 for action %3:"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:458
+#: kdeui/shortcuts/kglobalaccel.cpp:447
 #, fuzzy, kde-format
 #| msgid "Content information: %1\n"
 msgid "In context '%1' for action '%2'\n"
 msgstr "Maʼlumot: %1\n"
 
-#: kdeui/shortcuts/kglobalaccel.cpp:462
+#: kdeui/shortcuts/kglobalaccel.cpp:451
 #, kde-format
 msgid ""
 "The '%1' key combination is registered by application %2.\n"
 "%3"
 msgstr ""
 
-#: kdeui/shortcuts/kglobalaccel.cpp:468
+#: kdeui/shortcuts/kglobalaccel.cpp:457
 #, fuzzy
 #| msgid "Conflict with Global Shortcut"
 msgid "Conflict With Registered Global Shortcut"
@@ -11732,21 +11739,21 @@ msgstr ""
 msgid "Daniel Molkentin"
 msgstr ""
 
-#: nepomuk/core/resource.cpp:415
+#: nepomuk/core/resource.cpp:416
 msgid "Success"
 msgstr ""
 
-#: nepomuk/core/resource.cpp:417
+#: nepomuk/core/resource.cpp:418
 #, fuzzy
 msgid "Communication error"
 msgstr "Moslama"
 
-#: nepomuk/core/resource.cpp:419
+#: nepomuk/core/resource.cpp:420
 #, fuzzy
 msgid "Invalid type in Database"
 msgstr "Sertifikat haqiqiy emas!"
 
-#: nepomuk/core/resource.cpp:421
+#: nepomuk/core/resource.cpp:422
 #, fuzzy
 msgid "Unknown error"
 msgstr "Nomaʼlum xato"
