@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-29 06:26+0100\n"
+"POT-Creation-Date: 2008-11-05 06:26+0100\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2394,37 +2394,37 @@ msgstr "KDE uchun MIME turi tahrirchini koʻrsatish uchun shu yerni bosing."
 msgid "Unable to create io-slave: %1"
 msgstr "KCH-sleyvni (%1) yaratib boʻlmadi"
 
-#: kio/kdirmodel.cpp:775
+#: kio/kdirmodel.cpp:776
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Nomi"
 
-#: kio/kdirmodel.cpp:777
+#: kio/kdirmodel.cpp:778
 msgctxt "@title:column"
 msgid "Size"
 msgstr "Hajmi"
 
-#: kio/kdirmodel.cpp:779
+#: kio/kdirmodel.cpp:780
 msgctxt "@title:column"
 msgid "Date"
 msgstr "Sana"
 
-#: kio/kdirmodel.cpp:781
+#: kio/kdirmodel.cpp:782
 msgctxt "@title:column"
 msgid "Permissions"
 msgstr "Huquqlar"
 
-#: kio/kdirmodel.cpp:783
+#: kio/kdirmodel.cpp:784
 msgctxt "@title:column"
 msgid "Owner"
 msgstr "Egasi"
 
-#: kio/kdirmodel.cpp:785
+#: kio/kdirmodel.cpp:786
 msgctxt "@title:column"
 msgid "Group"
 msgstr "Guruh"
 
-#: kio/kdirmodel.cpp:787
+#: kio/kdirmodel.cpp:788
 msgctxt "@title:column"
 msgid "Type"
 msgstr "Turi"
@@ -3369,11 +3369,11 @@ msgstr "Uskuna:"
 msgid "Known Applications"
 msgstr "Maʼlum boʻlgan dasturlar"
 
-#: kfile/kopenwithdialog.cpp:470
+#: kfile/kopenwithdialog.cpp:480
 msgid "Open With"
 msgstr "Dastur bilan ochish"
 
-#: kfile/kopenwithdialog.cpp:475
+#: kfile/kopenwithdialog.cpp:485
 #, kde-format
 msgid ""
 "<qt>Select the program that should be used to open <b>%1</b>. If the program "
@@ -3382,16 +3382,16 @@ msgstr ""
 "<qt><b>%1</b> faylini ochish uchun dasturni tanlang. Agar dastur roʻyxatda "
 "boʻlmasa, uning nomini kiriting yoki \"Tanlash\"tugmasini bosing.</qt>"
 
-#: kfile/kopenwithdialog.cpp:481
+#: kfile/kopenwithdialog.cpp:491
 msgid "Choose the name of the program with which to open the selected files."
 msgstr "Tanlangan fayllarni ochish uchun dasturni tanlang."
 
-#: kfile/kopenwithdialog.cpp:508
+#: kfile/kopenwithdialog.cpp:518
 #, kde-format
 msgid "Choose Application for %1"
 msgstr "%1 uchun dasturni tanlang"
 
-#: kfile/kopenwithdialog.cpp:509
+#: kfile/kopenwithdialog.cpp:519
 #, kde-format
 msgid ""
 "<qt>Select the program for the file type: <b>%1</b>. If the program is not "
@@ -3400,11 +3400,11 @@ msgstr ""
 "<qt><b>%1</b> fayl turi uchun dasturni tanlang. Agar dastur roʻyxatda "
 "boʻlmasa, uning nomini kiriting yoki \"Tanlash\"tugmasini bosing.</qt>"
 
-#: kfile/kopenwithdialog.cpp:524
+#: kfile/kopenwithdialog.cpp:534
 msgid "Choose Application"
 msgstr "Dasturni tanlang"
 
-#: kfile/kopenwithdialog.cpp:525
+#: kfile/kopenwithdialog.cpp:535
 msgid ""
 "<qt>Select a program. If the program is not listed, enter the name or click "
 "the browse button.</qt>"
@@ -3412,7 +3412,7 @@ msgstr ""
 "<qt>Dasturni tanlang. Agar dastur roʻyxatda boʻlmasa, uning nomini kiriting "
 "yoki \"Tanlash\"tugmasini bosing.</qt>"
 
-#: kfile/kopenwithdialog.cpp:589
+#: kfile/kopenwithdialog.cpp:599
 msgid ""
 "Following the command, you can have several place holders which will be "
 "replaced with the actual values when the actual program is run:\n"
@@ -3428,23 +3428,28 @@ msgid ""
 "%c - the comment"
 msgstr ""
 
-#: kfile/kopenwithdialog.cpp:624
+#: kfile/kopenwithdialog.cpp:632
 msgid "Run in &terminal"
 msgstr "&Terminalda bajarish"
 
-#: kfile/kopenwithdialog.cpp:637
+#: kfile/kopenwithdialog.cpp:645
 msgid "&Do not close when command exits"
 msgstr ""
 
-#: kfile/kopenwithdialog.cpp:654
+#: kfile/kopenwithdialog.cpp:662
 msgid "&Remember application association for this type of file"
 msgstr "Shu fayl turi bilan bogʻliq dasturni &eslab qolish"
 
-#: kfile/kopenwithdialog.cpp:794
+#: kfile/kopenwithdialog.cpp:802
 #, kde-format
 msgid ""
 "Could not extract executable name from '%1', please type a valid program "
 "name."
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:840
+#, kde-format
+msgid "'%1' not found, please type a valid program name."
 msgstr ""
 
 #: kfile/kmetaprops.cpp:101
