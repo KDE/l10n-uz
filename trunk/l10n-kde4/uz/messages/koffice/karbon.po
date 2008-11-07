@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-06 09:48+0100\n"
+"POT-Creation-Date: 2008-11-07 10:11+0100\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -149,7 +149,7 @@ msgstr "Effektlar"
 msgid "File to open"
 msgstr "Ochish uchun fayl"
 
-#: common/commands/KarbonBooleanCommand.cpp:68
+#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:829
 msgid "Boolean Operation"
 msgstr "Mantiqiy operatsiya"
 
@@ -774,6 +774,7 @@ msgid ""
 msgstr ""
 
 #: plugins/whirlpinch/WhirlPinchPlugin.cpp:122
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:103
 msgid "Angle:"
 msgstr "Burchak:"
 
@@ -781,6 +782,414 @@ msgstr "Burchak:"
 #, fuzzy
 msgid "Pinch:"
 msgstr "Siqish:"
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphicShapeFactory.cpp:27
+msgid "A calligraphic shape"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphicShapeFactory.cpp:29
+msgid "Calligraphic Shape"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:61
+msgid "Profile:"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:67
+#, fuzzy
+msgid "Width:"
+msgstr "Eni:"
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:76
+#, fuzzy
+#| msgid "Delete Objects"
+msgid "&Follow selected path"
+msgstr "Obʼektlarni oʻchirish"
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:85
+msgid "Use tablet &pressure"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:89
+msgid "Thinning:"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:99
+#, fuzzy
+#| msgid "Start angle:"
+msgid "Use tablet &angle"
+msgstr "Boshlangʻich burchak:"
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:114
+#, fuzzy
+#| msgid "Orientation:"
+msgid "Fixation:"
+msgstr "Yoʻnalishi:"
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:125
+msgid "Caps:"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:136
+msgid "Mass:"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:147
+msgid "Drag:"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:157
+msgid "Save profile as..."
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:160
+msgid "Remove profile"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:213
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:214
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:238
+#, fuzzy
+#| msgid "Curve"
+msgid "Current"
+msgstr "Egri chiziq"
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:232
+msgid "Profile name"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:233
+msgid "Please insert the name by which you want to save this profile:"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:241
+msgid "Sorry, the name you entered is invalid!"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:242
+msgctxt "invalid profile name"
+msgid "Invalid name!"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:251
+msgid ""
+"A profile with that name already exists!\n"
+"Do you want to overwrite it?"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:278
+#, fuzzy
+#| msgid "Show status bar"
+msgid "Show details >>"
+msgstr "Holat panelini koʻrsatish"
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:283
+msgid "Hide details <<"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:406
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:431
+msgid "Mouse"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:419
+#, fuzzy
+#| msgid "Gradient"
+msgid "Graphics Pen"
+msgstr "Gradient"
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:406
+msgid "Calligraphy: increase width"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:411
+msgid "Calligraphy: decrease width"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:416
+msgid "Calligraphy: increase angle"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:421
+msgid "Calligraphy: decrease angle"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyToolFactory.cpp:29
+msgid "Calligraphy tool"
+msgstr ""
+
+#: plugins/tools/CalligraphyTool/KarbonCalligraphyToolFactory.cpp:31
+#, fuzzy
+#| msgid "Ellipse Tool"
+msgid "Calligraphy Tool"
+msgstr "Ellips vositasi"
+
+#: ui/KarbonPart.cpp:244
+msgid "Invalid OASIS document. No office:body tag found."
+msgstr "Buzuq OASIS hujjati. office:body tegi topilmadi."
+
+#: ui/KarbonPart.cpp:252
+msgid "Invalid OASIS document. No office:drawing tag found."
+msgstr "Buzuq OASIS hujjati. office:drawing tegi topilmadi."
+
+#: ui/KarbonPart.cpp:260
+msgid "Invalid OASIS document. No draw:page tag found."
+msgstr "Buzuq OASIS hujjati. office:page tegi topilmadi."
+
+#: ui/KarbonView.cpp:293
+#, fuzzy
+#| msgid "Toolbox"
+msgid "Tools"
+msgstr "Asboblar"
+
+#: ui/KarbonView.cpp:683
+#, fuzzy
+msgid "Group shapes"
+msgstr "Obʼektlarni guruhlash"
+
+#: ui/KarbonView.cpp:708
+#, fuzzy
+msgid "Ungroup shapes"
+msgstr "Obʼektlarni guruhlashni bekor qilish"
+
+#: ui/KarbonView.cpp:893
+#, fuzzy
+#| msgid "View &Mode"
+msgid "Outline &Mode"
+msgstr "Koʻrish &usuli"
+
+#: ui/KarbonView.cpp:897
+msgid "Show Page Margins"
+msgstr "Bet boʻsh joylarini koʻrsatish"
+
+#: ui/KarbonView.cpp:900
+msgid "Hide Page Margins"
+msgstr "Bet boʻsh joylarini bekitish"
+
+#: ui/KarbonView.cpp:913
+msgid "&Import Graphic..."
+msgstr "&Grafikani import qilish"
+
+#: ui/KarbonView.cpp:917
+msgid "D&elete"
+msgstr "Oʻ&chirish"
+
+#: ui/KarbonView.cpp:925
+#, fuzzy
+#| msgid "&Duplicate"
+msgctxt "Duplicate selection"
+msgid "&Duplicate"
+msgstr "&Nusxasini yaratish"
+
+#: ui/KarbonView.cpp:930
+msgid "Bring to &Front"
+msgstr "Eng ol&dinga"
+
+#: ui/KarbonView.cpp:935
+msgid "&Raise"
+msgstr "&Oldinga"
+
+#: ui/KarbonView.cpp:940
+#, fuzzy
+#| msgid "&Lower"
+msgctxt "Lower selected shapes"
+msgid "&Lower"
+msgstr "O&rqaga"
+
+#: ui/KarbonView.cpp:945
+msgid "Send to &Back"
+msgstr "Eng o&xirga"
+
+#: ui/KarbonView.cpp:950
+msgid "Align Left"
+msgstr "Chapga"
+
+#: ui/KarbonView.cpp:954
+msgid "Align Center (Horizontal)"
+msgstr "Markazda (eniga)"
+
+#: ui/KarbonView.cpp:958
+msgid "Align Right"
+msgstr "Oʻngga"
+
+#: ui/KarbonView.cpp:962
+msgid "Align Top"
+msgstr "Yuqoriga"
+
+#: ui/KarbonView.cpp:966
+msgid "Align Middle (Vertical)"
+msgstr "Markazda (uzinasiga)"
+
+#: ui/KarbonView.cpp:970
+#, fuzzy
+#| msgid "Align Bottom"
+msgid "Align Bottom"
+msgstr "Pastga"
+
+#: ui/KarbonView.cpp:974
+#, fuzzy
+msgid "Distribute Center (Horizontal)"
+msgstr "Tarqatish markazi (Gorizontal)"
+
+#: ui/KarbonView.cpp:978
+#, fuzzy
+msgid "Distribute Gaps (Horizontal)"
+msgstr "Markazda (eniga)"
+
+#: ui/KarbonView.cpp:982
+#, fuzzy
+msgid "Distribute Left Borders"
+msgstr "Tarqatish markazi (Gorizontal)"
+
+#: ui/KarbonView.cpp:986
+#, fuzzy
+msgid "Distribute Right Borders"
+msgstr "Tarqatish markazi (Gorizontal)"
+
+#: ui/KarbonView.cpp:990
+#, fuzzy
+msgid "Distribute Center (Vertical)"
+msgstr "Tarqatish markazi (Gorizontal)"
+
+#: ui/KarbonView.cpp:994
+#, fuzzy
+msgid "Distribute Gaps (Vertical)"
+msgstr "Markazda (eniga)"
+
+#: ui/KarbonView.cpp:998
+#, fuzzy
+msgid "Distribute Bottom Borders"
+msgstr "&Tarqatish"
+
+#: ui/KarbonView.cpp:1002
+#, fuzzy
+msgid "Distribute Top Borders"
+msgstr "&Tarqatish"
+
+#: ui/KarbonView.cpp:1006
+msgid "Show Rulers"
+msgstr "Lineykalarni koʻrsatish"
+
+#: ui/KarbonView.cpp:1008
+msgid "Hide Rulers"
+msgstr "Lineykalarni bekitish"
+
+#: ui/KarbonView.cpp:1009
+#, fuzzy
+msgid "Shows or hides rulers"
+msgstr "Lineykalarni koʻrsatish/bekitish."
+
+#: ui/KarbonView.cpp:1013
+msgid "Show Grid"
+msgstr "Toʻrni koʻrsatish"
+
+#: ui/KarbonView.cpp:1015
+msgid "Hide Grid"
+msgstr "Toʻrni bekitish"
+
+#: ui/KarbonView.cpp:1016
+#, fuzzy
+msgid "Shows or hides grid"
+msgstr "Toʻrni koʻrsatish/bekitish."
+
+#: ui/KarbonView.cpp:1020
+#, fuzzy
+#| msgid "Show Grid"
+msgid "Show Guides"
+msgstr "Toʻrni koʻrsatish"
+
+#: ui/KarbonView.cpp:1022
+#, fuzzy
+#| msgid "Hide Grid"
+msgid "Hide Guides"
+msgstr "Toʻrni bekitish"
+
+#: ui/KarbonView.cpp:1023
+#, fuzzy
+msgid "Shows or hides guides"
+msgstr "Toʻrni koʻrsatish/bekitish."
+
+#: ui/KarbonView.cpp:1027
+#, fuzzy
+msgid "Snap to Grid"
+msgstr "Toʻrga tutashtirish"
+
+#: ui/KarbonView.cpp:1029
+#, fuzzy
+msgid "Snaps to grid"
+msgstr "Toʻrga birlashtiradi."
+
+#: ui/KarbonView.cpp:1032
+msgid "&Group Objects"
+msgstr "Obʼektlarni &guruhlash"
+
+#: ui/KarbonView.cpp:1037
+msgid "&Ungroup Objects"
+msgstr "Obʼektlarni guruhlashni &bekor qilish"
+
+#: ui/KarbonView.cpp:1044
+msgid "&Close Path"
+msgstr "Yoʻlni yo&pish"
+
+#: ui/KarbonView.cpp:1050
+#, fuzzy
+msgid "Com&bine Path"
+msgstr "Yoʻlni yopish"
+
+#: ui/KarbonView.cpp:1056
+#, fuzzy
+msgid "Se&parate Path"
+msgstr "Burchakni silliqlash"
+
+#: ui/KarbonView.cpp:1062
+#, fuzzy
+#| msgid "&Close Path"
+msgid "Re&verse Path"
+msgstr "Yoʻlni yo&pish"
+
+#: ui/KarbonView.cpp:1068
+#, fuzzy
+msgid "Intersect Paths"
+msgstr "Asosiy yoʻlni oʻzgartirish"
+
+#: ui/KarbonView.cpp:1074
+#, fuzzy
+msgid "Subtract Paths"
+msgstr "Burchakni silliqlash"
+
+#: ui/KarbonView.cpp:1080
+#, fuzzy
+msgid "Unite Paths"
+msgstr "Asosiy yoʻlni oʻzgartirish"
+
+#: ui/KarbonView.cpp:1086
+msgid "Exclude Paths"
+msgstr ""
+
+#: ui/KarbonView.cpp:1093
+msgid "Configure Karbon..."
+msgstr "Karbon moslamasi..."
+
+#: ui/KarbonView.cpp:1097
+msgid "Page &Layout..."
+msgstr "Bet &moslamalari"
+
+#: ui/KarbonView.cpp:1102
+#, fuzzy
+#| msgid "Selection"
+msgid "Zoom to Selection"
+msgstr "Tanlash"
+
+#: ui/KarbonView.cpp:1106
+#, fuzzy
+#| msgid "Selection"
+msgid "Zoom to Drawing"
+msgstr "Tanlash"
+
+#: ui/KarbonZoomController.cpp:58
+#, fuzzy
+msgid "Zoom"
+msgstr "Kattalashtirish vositasi"
 
 #, fuzzy
 #~| msgid "Pattern"
@@ -884,161 +1293,6 @@ msgstr "Siqish:"
 #~ msgid "Save as path"
 #~ msgstr "Quyidagi manzil boʻyicha saqlash"
 
-#~ msgid "Invalid OASIS document. No office:body tag found."
-#~ msgstr "Buzuq OASIS hujjati. office:body tegi topilmadi."
-
-#~ msgid "Invalid OASIS document. No office:drawing tag found."
-#~ msgstr "Buzuq OASIS hujjati. office:drawing tegi topilmadi."
-
-#~ msgid "Invalid OASIS document. No draw:page tag found."
-#~ msgstr "Buzuq OASIS hujjati. office:page tegi topilmadi."
-
-#, fuzzy
-#~| msgid "Toolbox"
-#~ msgid "Tools"
-#~ msgstr "Asboblar"
-
-#, fuzzy
-#~ msgid "Group shapes"
-#~ msgstr "Obʼektlarni guruhlash"
-
-#, fuzzy
-#~ msgid "Ungroup shapes"
-#~ msgstr "Obʼektlarni guruhlashni bekor qilish"
-
-#~ msgid "Show Page Margins"
-#~ msgstr "Bet boʻsh joylarini koʻrsatish"
-
-#~ msgid "Hide Page Margins"
-#~ msgstr "Bet boʻsh joylarini bekitish"
-
-#~ msgid "&Import Graphic..."
-#~ msgstr "&Grafikani import qilish"
-
-#~ msgid "D&elete"
-#~ msgstr "Oʻ&chirish"
-
-#, fuzzy
-#~| msgid "&Duplicate"
-#~ msgctxt "Duplicate selection"
-#~ msgid "&Duplicate"
-#~ msgstr "&Nusxasini yaratish"
-
-#~ msgid "Bring to &Front"
-#~ msgstr "Eng ol&dinga"
-
-#~ msgid "&Raise"
-#~ msgstr "&Oldinga"
-
-#, fuzzy
-#~| msgid "&Lower"
-#~ msgctxt "Lower selected shapes"
-#~ msgid "&Lower"
-#~ msgstr "O&rqaga"
-
-#~ msgid "Send to &Back"
-#~ msgstr "Eng o&xirga"
-
-#~ msgid "Align Left"
-#~ msgstr "Chapga"
-
-#~ msgid "Align Center (Horizontal)"
-#~ msgstr "Markazda (eniga)"
-
-#~ msgid "Align Right"
-#~ msgstr "Oʻngga"
-
-#~ msgid "Align Top"
-#~ msgstr "Yuqoriga"
-
-#~ msgid "Align Middle (Vertical)"
-#~ msgstr "Markazda (uzinasiga)"
-
-#, fuzzy
-#~ msgid "Distribute Center (Horizontal)"
-#~ msgstr "Tarqatish markazi (Gorizontal)"
-
-#, fuzzy
-#~ msgid "Distribute Gaps (Horizontal)"
-#~ msgstr "Markazda (eniga)"
-
-#, fuzzy
-#~ msgid "Distribute Left Borders"
-#~ msgstr "Tarqatish markazi (Gorizontal)"
-
-#, fuzzy
-#~ msgid "Distribute Center (Vertical)"
-#~ msgstr "Tarqatish markazi (Gorizontal)"
-
-#, fuzzy
-#~ msgid "Distribute Gaps (Vertical)"
-#~ msgstr "Markazda (eniga)"
-
-#, fuzzy
-#~ msgid "Distribute Top Borders"
-#~ msgstr "&Tarqatish"
-
-#~ msgid "Show Rulers"
-#~ msgstr "Lineykalarni koʻrsatish"
-
-#~ msgid "Hide Rulers"
-#~ msgstr "Lineykalarni bekitish"
-
-#, fuzzy
-#~ msgid "Shows or hides rulers"
-#~ msgstr "Lineykalarni koʻrsatish/bekitish."
-
-#~ msgid "Show Grid"
-#~ msgstr "Toʻrni koʻrsatish"
-
-#~ msgid "Hide Grid"
-#~ msgstr "Toʻrni bekitish"
-
-#, fuzzy
-#~ msgid "Shows or hides grid"
-#~ msgstr "Toʻrni koʻrsatish/bekitish."
-
-#, fuzzy
-#~ msgid "Snap to Grid"
-#~ msgstr "Toʻrga tutashtirish"
-
-#~ msgid "&Group Objects"
-#~ msgstr "Obʼektlarni &guruhlash"
-
-#~ msgid "&Ungroup Objects"
-#~ msgstr "Obʼektlarni guruhlashni &bekor qilish"
-
-#~ msgid "&Close Path"
-#~ msgstr "Yoʻlni yo&pish"
-
-#, fuzzy
-#~ msgid "Com&bine Path"
-#~ msgstr "Yoʻlni yopish"
-
-#, fuzzy
-#~ msgid "Se&parate Path"
-#~ msgstr "Burchakni silliqlash"
-
-#, fuzzy
-#~| msgid "&Close Path"
-#~ msgid "Re&verse Path"
-#~ msgstr "Yoʻlni yo&pish"
-
-#, fuzzy
-#~ msgid "Unite Paths"
-#~ msgstr "Asosiy yoʻlni oʻzgartirish"
-
-#~ msgid "Configure Karbon..."
-#~ msgstr "Karbon moslamasi..."
-
-#~ msgid "Page &Layout..."
-#~ msgstr "Bet &moslamalari"
-
-#, fuzzy
-#~| msgid "Selection"
-#~ msgid "Zoom to Selection"
-#~ msgstr "Tanlash"
-
 #~ msgid "Uniform Color"
 #~ msgstr "Bir xil rang"
 
@@ -1072,10 +1326,6 @@ msgstr "Siqish:"
 
 #~ msgid "RGB"
 #~ msgstr "RGB"
-
-#, fuzzy
-#~ msgid "Width:"
-#~ msgstr "Eni:"
 
 #~ msgid "Type"
 #~ msgstr "Turi"
@@ -1317,9 +1567,6 @@ msgstr "Siqish:"
 #~ msgid "Fade:"
 #~ msgstr "Soʻnish:"
 
-#~ msgid "Orientation:"
-#~ msgstr "Yoʻnalishi:"
-
 #~ msgid "Clockwise"
 #~ msgstr "Soat koʻrsatgichi boʻyicha"
 
@@ -1514,9 +1761,6 @@ msgstr "Siqish:"
 #~ msgid "Dash Pattern"
 #~ msgstr "Namuna"
 
-#~ msgid "View &Mode"
-#~ msgstr "Koʻrish &usuli"
-
 #~ msgid "<qt><b>Zoom tool:</b><br>"
 #~ msgstr "<qt><b>Kattalashtirish vositasi:</b><br>"
 
@@ -1534,10 +1778,6 @@ msgstr "Siqish:"
 #~ "<i>+/- tugmalarini bosish</i><br>kanvasni kattalashtiradi/kichiklashtiradi"
 
 #~ msgid "Zoom Tool"
-#~ msgstr "Kattalashtirish vositasi"
-
-#, fuzzy
-#~ msgid "Zoom"
 #~ msgstr "Kattalashtirish vositasi"
 
 #~ msgid "Undo/redo limit:"
@@ -1706,14 +1946,8 @@ msgstr "Siqish:"
 #~ msgid "Width:"
 #~ msgstr "Eni:"
 
-#~ msgid "Start angle:"
-#~ msgstr "Boshlangʻich burchak:"
-
 #~ msgid "End angle:"
 #~ msgstr "Tugatish burchagi:"
-
-#~ msgid "Ellipse Tool"
-#~ msgstr "Ellips vositasi"
 
 #~ msgid "<qt><b>Gradient tool:</b><br>"
 #~ msgstr "<qt><b>Gradient vositasi:</b><br>"
