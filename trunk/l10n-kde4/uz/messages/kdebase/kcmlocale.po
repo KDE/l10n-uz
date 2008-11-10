@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlocale\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-06 09:43+0100\n"
+"POT-Creation-Date: 2008-11-10 10:09+0100\n"
 "PO-Revision-Date: 2006-12-17 12:14+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -422,101 +422,117 @@ msgstr "A4"
 msgid "US Letter"
 msgstr "US Letter"
 
-#: localetime.cpp:94
+#: localetime.cpp:95
 msgid "HH"
 msgstr "SS"
 
-#: localetime.cpp:95
+#: localetime.cpp:96
 msgid "hH"
 msgstr "sS"
 
-#: localetime.cpp:96
+#: localetime.cpp:97
 msgid "PH"
 msgstr "PS"
 
-#: localetime.cpp:97
+#: localetime.cpp:98
 msgid "pH"
 msgstr "pS"
 
-#: localetime.cpp:98
+#: localetime.cpp:99
 msgctxt "Minute"
 msgid "MM"
 msgstr "DD"
 
-#: localetime.cpp:99
+#: localetime.cpp:100
 msgid "SS"
 msgstr "ss"
 
-#: localetime.cpp:100
+#: localetime.cpp:101
 msgid "AMPM"
 msgstr "ERTALABKECHQURUN"
 
-#: localetime.cpp:110
+#: localetime.cpp:111
 msgid "YYYY"
 msgstr "YYYY"
 
-#: localetime.cpp:111
+#: localetime.cpp:112
 msgid "YY"
 msgstr "YY"
 
-#: localetime.cpp:112
+#: localetime.cpp:113
 msgid "mM"
 msgstr "oO"
 
-#: localetime.cpp:113
+#: localetime.cpp:114
 msgctxt "Month"
 msgid "MM"
 msgstr "OO"
 
-#: localetime.cpp:114
+#: localetime.cpp:115
 msgid "SHORTMONTH"
 msgstr "QISQAOY"
 
-#: localetime.cpp:115
+#: localetime.cpp:116
 msgid "MONTH"
 msgstr "OY"
 
-#: localetime.cpp:116
+#: localetime.cpp:117
 msgid "dD"
 msgstr "kK"
 
-#: localetime.cpp:117
+#: localetime.cpp:118
 msgid "DD"
 msgstr "KK"
 
-#: localetime.cpp:118
+#: localetime.cpp:119
 msgid "SHORTWEEKDAY"
 msgstr "QISQAHAFTAKUNI"
 
-#: localetime.cpp:119
+#: localetime.cpp:120
 msgid "WEEKDAY"
 msgstr "HAFTAKUNI"
 
-#: localetime.cpp:204
+#: localetime.cpp:205
 msgid "Calendar system:"
 msgstr "Kalendar tizimi:"
 
-#: localetime.cpp:216
+#: localetime.cpp:217
 msgid "Time format:"
 msgstr "Vaqtni koʻrinishi:"
 
-#: localetime.cpp:227
+#: localetime.cpp:228
 msgid "Date format:"
 msgstr "Sanani koʻrinishi:"
 
-#: localetime.cpp:236
+#: localetime.cpp:237
 msgid "Short date format:"
 msgstr "Kunni qisqa koʻrinishi:"
 
-#: localetime.cpp:245
+#: localetime.cpp:246
 msgid "First day of the week:"
 msgstr "Haftaning birinchi kuni:"
 
 #: localetime.cpp:255
+#, fuzzy
+#| msgid "First day of the week:"
+msgid "First working day of the week:"
+msgstr "Haftaning birinchi kuni:"
+
+#: localetime.cpp:264
+#, fuzzy
+#| msgid "First day of the week:"
+msgid "Last working day of the week:"
+msgstr "Haftaning birinchi kuni:"
+
+#: localetime.cpp:273
+msgid "Day of the week for religious observance:"
+msgstr ""
+
+#: localetime.cpp:283
 msgid "Use declined form of month name"
 msgstr ""
 
-#: localetime.cpp:443
+#: localetime.cpp:510
 msgctxt "some reasonable time formats for the language"
 msgid ""
 "HH:MM:SS\n"
@@ -525,7 +541,7 @@ msgstr ""
 "SS:DD:ss\n"
 "pS:DD:ss ERTALABKECHQURUN"
 
-#: localetime.cpp:451
+#: localetime.cpp:518
 msgctxt "some reasonable date formats for the language"
 msgid ""
 "WEEKDAY MONTH dD YYYY\n"
@@ -534,7 +550,7 @@ msgstr ""
 "HAFTAKUNI OY kK YYYY\n"
 "QISQAHAFTAKUNI OY kK YYYY"
 
-#: localetime.cpp:459
+#: localetime.cpp:526
 msgctxt "some reasonable short date formats for the language"
 msgid ""
 "YYYY-MM-DD\n"
@@ -545,27 +561,27 @@ msgstr ""
 "kK.oO.YYYY\n"
 "KK.OO.YYYY"
 
-#: localetime.cpp:470
+#: localetime.cpp:537
 msgctxt "Calendar System Gregorian"
 msgid "Gregorian"
 msgstr "Gregorian"
 
-#: localetime.cpp:472
+#: localetime.cpp:539
 msgctxt "Calendar System Hijri"
 msgid "Hijri"
 msgstr "Hijri"
 
-#: localetime.cpp:474
+#: localetime.cpp:541
 msgctxt "Calendar System Hebrew"
 msgid "Hebrew"
 msgstr "Yahudiycha"
 
-#: localetime.cpp:476
+#: localetime.cpp:543
 msgctxt "Calendar System Jalali"
 msgid "Jalali"
 msgstr "Jalali"
 
-#: localetime.cpp:479
+#: localetime.cpp:546
 #, fuzzy
 #| msgid ""
 #| "<p>The text in this textbox will be used to format time strings. The "
@@ -601,7 +617,7 @@ msgstr ""
 "td><td>Soniya (00-59).</td></tr><tr><td><b>ERTALABKECHQURUN</b></td><td>"
 "\"ertalab\" yoki \"kechqurun\".</td></tr></table>"
 
-#: localetime.cpp:502
+#: localetime.cpp:569
 msgid ""
 "<table><tr><td><b>YYYY</b></td><td>The year with century as a decimal number."
 "</td></tr><tr><td><b>YY</b></td><td>The year without century as a decimal "
@@ -625,7 +641,7 @@ msgstr ""
 "td></tr><tr><td><b>HAFTAKUNI</b></td><td>Hafta kuning toʻliq nomi.</td></"
 "tr></table>"
 
-#: localetime.cpp:523
+#: localetime.cpp:590
 msgid ""
 "<p>The text in this textbox will be used to format long dates. The sequences "
 "below will be replaced:</p>"
@@ -633,7 +649,7 @@ msgstr ""
 "<p>Ushbu maydondagi matn sananing koʻrinishi uchun ishlatiladi. Quyidagi "
 "qisqartmalar almashtiriladi:</p>"
 
-#: localetime.cpp:529
+#: localetime.cpp:596
 msgid ""
 "<p>The text in this textbox will be used to format short dates. For "
 "instance, this is used when listing files. The sequences below will be "
@@ -643,17 +659,54 @@ msgstr ""
 "masalan, fayllar roʻyxati uchun ishlatiladi. Quyidagi qisqartmalar "
 "almashtiriladi:</p>"
 
-#: localetime.cpp:536
+#: localetime.cpp:603
 msgid ""
 "<p>This option determines which day will be considered as the first one of "
 "the week.</p>"
 msgstr "<p>Haftaning birinchi kunini koʻrsatish.</p>"
 
-#: localetime.cpp:543
+#: localetime.cpp:608
+#, fuzzy
+#| msgid ""
+#| "<p>This option determines which day will be considered as the first one "
+#| "of the week.</p>"
+msgid ""
+"<p>This option determines which day will be considered as the first working "
+"day of the week.</p>"
+msgstr "<p>Haftaning birinchi kunini koʻrsatish.</p>"
+
+#: localetime.cpp:613
+#, fuzzy
+#| msgid ""
+#| "<p>This option determines which day will be considered as the first one "
+#| "of the week.</p>"
+msgid ""
+"<p>This option determines which day will be considered as the last working "
+"day of the week.</p>"
+msgstr "<p>Haftaning birinchi kunini koʻrsatish.</p>"
+
+#: localetime.cpp:618
+#, fuzzy
+#| msgid ""
+#| "<p>This option determines which day will be considered as the first one "
+#| "of the week.</p>"
+msgid ""
+"<p>This option determines which day will be considered as the day of the "
+"week for religious observance.</p>"
+msgstr "<p>Haftaning birinchi kunini koʻrsatish.</p>"
+
+#: localetime.cpp:625
 msgid ""
 "<p>This option determines whether possessive form of month names should be "
 "used in dates.</p>"
 msgstr ""
+
+#: localetime.cpp:635
+#, fuzzy
+#| msgid "Money:"
+msgctxt "Day name list, option for no day of religious observance"
+msgid "None"
+msgstr "Pul:"
 
 #. i18n: file: language.ui:95
 #. i18n: ectx: property (text), widget (QLabel, m_selectedCountryLabel)
