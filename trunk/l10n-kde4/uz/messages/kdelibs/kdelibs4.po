@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-18 09:53+0100\n"
+"POT-Creation-Date: 2008-11-19 10:53+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1062,7 +1062,7 @@ msgstr "T&ozalash"
 msgid "HTML Toolbar"
 msgstr "Asosiy asboblar paneli"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:28
+#. i18n: file: khtml/find/khtmlfindbar_base.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:462
 #, fuzzy
@@ -1070,19 +1070,19 @@ msgstr "Asosiy asboblar paneli"
 msgid "F&ind:"
 msgstr "Qidirish:"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:54
+#. i18n: file: khtml/find/khtmlfindbar_base.ui:75
 #. i18n: ectx: property (text), widget (QToolButton, m_next)
 #: rc.cpp:465
 msgid "&Next"
 msgstr "&Keyingi"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:64
+#. i18n: file: khtml/find/khtmlfindbar_base.ui:85
 #. i18n: ectx: property (text), widget (QToolButton, m_previous)
 #: rc.cpp:468 kdeui/dialogs/ktip.cpp:302
 msgid "&Previous"
 msgstr "O&ldingi"
 
-#. i18n: file: khtml/find/khtmlfindbar_base.ui:90
+#. i18n: file: khtml/find/khtmlfindbar_base.ui:111
 #. i18n: ectx: property (text), widget (QToolButton, m_options)
 #: rc.cpp:471
 msgid "&Options"
@@ -1946,15 +1946,15 @@ msgstr "Eski xost nomi"
 msgid "New hostname"
 msgstr "Yangi xost nomi"
 
-#: kded/kded.cpp:807
+#: kded/kded.cpp:814
 msgid "KDE Daemon"
 msgstr "KDE demoni"
 
-#: kded/kded.cpp:809
+#: kded/kded.cpp:816
 msgid "KDE Daemon - triggers Sycoca database updates when needed"
 msgstr "KDE demoni - keragida Sycoca maʼlumot bazasini yangilaydi"
 
-#: kded/kded.cpp:812
+#: kded/kded.cpp:819
 msgid "Check Sycoca database only once"
 msgstr "Sycoca maʼlumot bazasini faqat bir marta tekshirish"
 
@@ -6902,6 +6902,9 @@ msgstr "Andoza:"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:56
 #: kdeui/dialogs/kshortcuteditwidget.cpp:59
+#: kdeui/widgets/kkeysequencewidget.cpp:667
+#, fuzzy
+msgctxt "No shortcut defined"
 msgid "None"
 msgstr "Yoʻq"
 
@@ -9858,12 +9861,6 @@ msgstr ""
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "Kiritish fayli"
-
-#: kdeui/widgets/kkeysequencewidget.cpp:667
-#, fuzzy
-msgctxt "No shortcut defined"
-msgid "None"
-msgstr "Yoʻq"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:710
 msgid "The key you just pressed isn't supported by Qt."
@@ -13023,6 +13020,9 @@ msgstr "&Kun maslahati"
 #, fuzzy, kde-format
 msgid "No such function \"%1\""
 msgstr "Menyuning bandi (%1) mavjud emas."
+
+#~ msgid "None"
+#~ msgstr "Yoʻq"
 
 #, fuzzy
 #~ msgid "Unsorted"
