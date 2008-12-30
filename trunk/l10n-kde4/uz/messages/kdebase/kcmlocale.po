@@ -2,12 +2,11 @@
 # Copyright (C) 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
 #
 # Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003, 2004, 2005, 2006.
-#: localetime.cpp:206 localetime.cpp:207
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmlocale\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-29 10:13+0100\n"
+"POT-Creation-Date: 2008-12-30 09:54+0100\n"
 "PO-Revision-Date: 2006-12-17 12:14+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -493,63 +492,7 @@ msgstr "QISQAHAFTAKUNI"
 msgid "WEEKDAY"
 msgstr "HAFTAKUNI"
 
-#: localetime.cpp:209
-msgid "Calendar system:"
-msgstr "Kalendar tizimi:"
-
-#. i18n: file: localetime.ui:54
-#. i18n: ectx: property (text), widget (QLabel, m_labTimeFmt)
-#: localetime.cpp:217 rc.cpp:81
-msgid "Time format:"
-msgstr "Vaqtni koʻrinishi:"
-
-#. i18n: file: localetime.ui:68
-#. i18n: ectx: property (text), widget (QLabel, m_labDateFmt)
-#: localetime.cpp:222 rc.cpp:84
-msgid "Date format:"
-msgstr "Sanani koʻrinishi:"
-
-#. i18n: file: localetime.ui:82
-#. i18n: ectx: property (text), widget (QLabel, m_labDateFmtShort)
-#: localetime.cpp:227 rc.cpp:87
-msgid "Short date format:"
-msgstr "Kunni qisqa koʻrinishi:"
-
-#. i18n: file: localetime.ui:94
-#. i18n: ectx: property (text), widget (QCheckBox, m_chDateMonthNamePossessive)
-#: localetime.cpp:232 rc.cpp:90
-msgid "Use declined form of month name"
-msgstr ""
-
-#. i18n: file: localetime.ui:112
-#. i18n: ectx: property (text), widget (QLabel, labWeekStartDay)
-#: localetime.cpp:237 rc.cpp:93
-msgid "First day of the week:"
-msgstr "Haftaning birinchi kuni:"
-
-#. i18n: file: localetime.ui:126
-#. i18n: ectx: property (text), widget (QLabel, labWorkingWeekStartDay)
-#: localetime.cpp:242 rc.cpp:96
-#, fuzzy
-#| msgid "First day of the week:"
-msgid "First working day of the week:"
-msgstr "Haftaning birinchi kuni:"
-
-#. i18n: file: localetime.ui:140
-#. i18n: ectx: property (text), widget (QLabel, labWorkingWeekEndDay)
-#: localetime.cpp:247 rc.cpp:99
-#, fuzzy
-#| msgid "First day of the week:"
-msgid "Last working day of the week:"
-msgstr "Haftaning birinchi kuni:"
-
-#. i18n: file: localetime.ui:154
-#. i18n: ectx: property (text), widget (QLabel, labWeekDayOfPray)
-#: localetime.cpp:252 rc.cpp:102
-msgid "Day of the week for religious observance:"
-msgstr ""
-
-#: localetime.cpp:472
+#: localetime.cpp:458
 msgctxt "some reasonable time formats for the language"
 msgid ""
 "HH:MM:SS\n"
@@ -558,7 +501,7 @@ msgstr ""
 "SS:DD:ss\n"
 "pS:DD:ss ERTALABKECHQURUN"
 
-#: localetime.cpp:480
+#: localetime.cpp:466
 msgctxt "some reasonable date formats for the language"
 msgid ""
 "WEEKDAY MONTH dD YYYY\n"
@@ -567,7 +510,7 @@ msgstr ""
 "HAFTAKUNI OY kK YYYY\n"
 "QISQAHAFTAKUNI OY kK YYYY"
 
-#: localetime.cpp:488
+#: localetime.cpp:474
 msgctxt "some reasonable short date formats for the language"
 msgid ""
 "YYYY-MM-DD\n"
@@ -578,27 +521,27 @@ msgstr ""
 "kK.oO.YYYY\n"
 "KK.OO.YYYY"
 
-#: localetime.cpp:499
+#: localetime.cpp:485
 msgctxt "Calendar System Gregorian"
 msgid "Gregorian"
 msgstr "Gregorian"
 
-#: localetime.cpp:501
+#: localetime.cpp:487
 msgctxt "Calendar System Hijri"
 msgid "Hijri"
 msgstr "Hijri"
 
-#: localetime.cpp:503
+#: localetime.cpp:489
 msgctxt "Calendar System Hebrew"
 msgid "Hebrew"
 msgstr "Yahudiycha"
 
-#: localetime.cpp:505
+#: localetime.cpp:491
 msgctxt "Calendar System Jalali"
 msgid "Jalali"
 msgstr "Jalali"
 
-#: localetime.cpp:508
+#: localetime.cpp:494
 #, fuzzy
 #| msgid ""
 #| "<p>The text in this textbox will be used to format time strings. The "
@@ -634,7 +577,7 @@ msgstr ""
 "td><td>Soniya (00-59).</td></tr><tr><td><b>ERTALABKECHQURUN</b></td><td>"
 "\"ertalab\" yoki \"kechqurun\".</td></tr></table>"
 
-#: localetime.cpp:531
+#: localetime.cpp:517
 msgid ""
 "<table><tr><td><b>YYYY</b></td><td>The year with century as a decimal number."
 "</td></tr><tr><td><b>YY</b></td><td>The year without century as a decimal "
@@ -658,7 +601,7 @@ msgstr ""
 "td></tr><tr><td><b>HAFTAKUNI</b></td><td>Hafta kuning toʻliq nomi.</td></"
 "tr></table>"
 
-#: localetime.cpp:552
+#: localetime.cpp:538
 msgid ""
 "<p>The text in this textbox will be used to format long dates. The sequences "
 "below will be replaced:</p>"
@@ -666,7 +609,7 @@ msgstr ""
 "<p>Ushbu maydondagi matn sananing koʻrinishi uchun ishlatiladi. Quyidagi "
 "qisqartmalar almashtiriladi:</p>"
 
-#: localetime.cpp:558
+#: localetime.cpp:544
 msgid ""
 "<p>The text in this textbox will be used to format short dates. For "
 "instance, this is used when listing files. The sequences below will be "
@@ -676,13 +619,13 @@ msgstr ""
 "masalan, fayllar roʻyxati uchun ishlatiladi. Quyidagi qisqartmalar "
 "almashtiriladi:</p>"
 
-#: localetime.cpp:565
+#: localetime.cpp:551
 msgid ""
 "<p>This option determines which day will be considered as the first one of "
 "the week.</p>"
 msgstr "<p>Haftaning birinchi kunini koʻrsatish.</p>"
 
-#: localetime.cpp:570
+#: localetime.cpp:556
 #, fuzzy
 #| msgid ""
 #| "<p>This option determines which day will be considered as the first one "
@@ -692,7 +635,7 @@ msgid ""
 "day of the week.</p>"
 msgstr "<p>Haftaning birinchi kunini koʻrsatish.</p>"
 
-#: localetime.cpp:575
+#: localetime.cpp:561
 #, fuzzy
 #| msgid ""
 #| "<p>This option determines which day will be considered as the first one "
@@ -702,7 +645,7 @@ msgid ""
 "day of the week.</p>"
 msgstr "<p>Haftaning birinchi kunini koʻrsatish.</p>"
 
-#: localetime.cpp:580
+#: localetime.cpp:566
 #, fuzzy
 #| msgid ""
 #| "<p>This option determines which day will be considered as the first one "
@@ -712,13 +655,13 @@ msgid ""
 "week for religious observance.</p>"
 msgstr "<p>Haftaning birinchi kunini koʻrsatish.</p>"
 
-#: localetime.cpp:587
+#: localetime.cpp:573
 msgid ""
 "<p>This option determines whether possessive form of month names should be "
 "used in dates.</p>"
 msgstr ""
 
-#: localetime.cpp:597
+#: localetime.cpp:583
 #, fuzzy
 #| msgid "Money:"
 msgctxt "Day name list, option for no day of religious observance"
@@ -752,6 +695,58 @@ msgstr ""
 #| msgid "Calendar system:"
 msgid "Calendar system"
 msgstr "Kalendar tizimi:"
+
+#. i18n: file: localetime.ui:54
+#. i18n: ectx: property (text), widget (QLabel, m_labTimeFmt)
+#: rc.cpp:81
+msgid "Time format:"
+msgstr "Vaqtni koʻrinishi:"
+
+#. i18n: file: localetime.ui:68
+#. i18n: ectx: property (text), widget (QLabel, m_labDateFmt)
+#: rc.cpp:84
+msgid "Date format:"
+msgstr "Sanani koʻrinishi:"
+
+#. i18n: file: localetime.ui:82
+#. i18n: ectx: property (text), widget (QLabel, m_labDateFmtShort)
+#: rc.cpp:87
+msgid "Short date format:"
+msgstr "Kunni qisqa koʻrinishi:"
+
+#. i18n: file: localetime.ui:94
+#. i18n: ectx: property (text), widget (QCheckBox, m_chDateMonthNamePossessive)
+#: rc.cpp:90
+msgid "Use declined form of month name"
+msgstr ""
+
+#. i18n: file: localetime.ui:112
+#. i18n: ectx: property (text), widget (QLabel, labWeekStartDay)
+#: rc.cpp:93
+msgid "First day of the week:"
+msgstr "Haftaning birinchi kuni:"
+
+#. i18n: file: localetime.ui:126
+#. i18n: ectx: property (text), widget (QLabel, labWorkingWeekStartDay)
+#: rc.cpp:96
+#, fuzzy
+#| msgid "First day of the week:"
+msgid "First working day of the week:"
+msgstr "Haftaning birinchi kuni:"
+
+#. i18n: file: localetime.ui:140
+#. i18n: ectx: property (text), widget (QLabel, labWorkingWeekEndDay)
+#: rc.cpp:99
+#, fuzzy
+#| msgid "First day of the week:"
+msgid "Last working day of the week:"
+msgstr "Haftaning birinchi kuni:"
+
+#. i18n: file: localetime.ui:154
+#. i18n: ectx: property (text), widget (QLabel, labWeekDayOfPray)
+#: rc.cpp:102
+msgid "Day of the week for religious observance:"
+msgstr ""
 
 #: rc.cpp:103
 msgctxt "NAME OF TRANSLATORS"
@@ -830,6 +825,9 @@ msgstr "&Vaqt va sana"
 #: toplevel.cpp:266
 msgid "&Other"
 msgstr "&Boshqa"
+
+#~ msgid "Calendar system:"
+#~ msgstr "Kalendar tizimi:"
 
 #~ msgid "Other"
 #~ msgstr "Boshqa"
