@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontact\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-22 06:24+0100\n"
+"POT-Creation-Date: 2009-01-04 06:46+0100\n"
 "PO-Revision-Date: 2005-10-25 20:31+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -820,14 +820,14 @@ msgstr "Ertaga"
 
 #: plugins/korganizer/apptsummarywidget.cpp:227
 #: plugins/korganizer/todosummarywidget.cpp:224
-#: plugins/specialdates/sdsummarywidget.cpp:498
+#: plugins/specialdates/sdsummarywidget.cpp:474
 #, fuzzy, kde-format
 msgid "in 1 day"
 msgid_plural "in %1 days"
 msgstr[0] "1 kunda"
 
 #: plugins/korganizer/apptsummarywidget.cpp:229
-#: plugins/specialdates/sdsummarywidget.cpp:496
+#: plugins/specialdates/sdsummarywidget.cpp:472
 msgid "now"
 msgstr "darhol"
 
@@ -954,12 +954,12 @@ msgid "Pending To-dos"
 msgstr "Vazifalar"
 
 #: plugins/korganizer/todosummarywidget.cpp:202
-#: plugins/specialdates/sdsummarywidget.cpp:469
+#: plugins/specialdates/sdsummarywidget.cpp:445
 msgid "Today"
 msgstr "Bugun"
 
 #: plugins/korganizer/todosummarywidget.cpp:204
-#: plugins/specialdates/sdsummarywidget.cpp:471
+#: plugins/specialdates/sdsummarywidget.cpp:447
 msgid "Tomorrow"
 msgstr "Ertaga"
 
@@ -1341,68 +1341,59 @@ msgstr ""
 msgid "Upcoming Special Dates"
 msgstr "Maxsus kunlar"
 
-#: plugins/specialdates/sdsummarywidget.cpp:135
-msgid "Default KOrganizer resource"
-msgstr ""
-
-#: plugins/specialdates/sdsummarywidget.cpp:137
-#, fuzzy
-msgid "Active Calendar"
-msgstr "Kalendar"
-
-#: plugins/specialdates/sdsummarywidget.cpp:309
+#: plugins/specialdates/sdsummarywidget.cpp:285
 msgid "BIRTHDAY"
 msgstr ""
 
-#: plugins/specialdates/sdsummarywidget.cpp:325
+#: plugins/specialdates/sdsummarywidget.cpp:301
 msgid "ANNIVERSARY"
 msgstr ""
 
-#: plugins/specialdates/sdsummarywidget.cpp:341
+#: plugins/specialdates/sdsummarywidget.cpp:317
 msgid "HOLIDAY"
 msgstr ""
 
-#: plugins/specialdates/sdsummarywidget.cpp:359
+#: plugins/specialdates/sdsummarywidget.cpp:335
 msgid "SPECIAL OCCASION"
 msgstr ""
 
-#: plugins/specialdates/sdsummarywidget.cpp:509
+#: plugins/specialdates/sdsummarywidget.cpp:485
 msgid "Birthday"
 msgstr ""
 
-#: plugins/specialdates/sdsummarywidget.cpp:512
+#: plugins/specialdates/sdsummarywidget.cpp:488
 msgid "Anniversary"
 msgstr ""
 
-#: plugins/specialdates/sdsummarywidget.cpp:515
+#: plugins/specialdates/sdsummarywidget.cpp:491
 msgid "Holiday"
 msgstr "Dam olish"
 
-#: plugins/specialdates/sdsummarywidget.cpp:518
+#: plugins/specialdates/sdsummarywidget.cpp:494
 msgid "Special Occasion"
 msgstr ""
 
-#: plugins/specialdates/sdsummarywidget.cpp:559
+#: plugins/specialdates/sdsummarywidget.cpp:535
 #, fuzzy, kde-format
 msgid "one year"
 msgid_plural "%1 years"
 msgstr[0] "bir yil"
 
-#: plugins/specialdates/sdsummarywidget.cpp:570
+#: plugins/specialdates/sdsummarywidget.cpp:546
 #, fuzzy, kde-format
 msgid "No special dates within the next 1 day"
 msgid_plural "No special dates pending within the next %1 days"
 msgstr[0] "Kelasi bir kun ichida hech qanday maxsus kun yoʻq"
 
-#: plugins/specialdates/sdsummarywidget.cpp:612
+#: plugins/specialdates/sdsummarywidget.cpp:588
 msgid "Send &Mail"
 msgstr "Xat &joʻnatish"
 
-#: plugins/specialdates/sdsummarywidget.cpp:615
+#: plugins/specialdates/sdsummarywidget.cpp:591
 msgid "View &Contact"
 msgstr "&Aloqani koʻrish"
 
-#: plugins/specialdates/sdsummarywidget.cpp:630
+#: plugins/specialdates/sdsummarywidget.cpp:606
 #, kde-format
 msgid "Mail to:\"%1\""
 msgstr "Xat yozish: \"%1\""
@@ -1531,6 +1522,10 @@ msgstr ""
 #: plugins/newsticker/newsfeeds.h:46
 msgid "Unknown"
 msgstr "Nomaʼlum"
+
+#, fuzzy
+#~ msgid "Active Calendar"
+#~ msgstr "Kalendar"
 
 #, fuzzy
 #~| msgid "Icon Size"
