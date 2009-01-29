@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2008-06-02 22:57+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,163 +17,205 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: ui/flipscrollview.cpp:146
+#: ui/flipscrollview.cpp:138
 msgid "All Applications"
 msgstr "Hamma dasturlar"
 
-#: ui/contextmenufactory.cpp:78
+#: ui/contextmenufactory.cpp:79
 msgid "Advanced"
 msgstr "Qoʻshimcha"
 
-#: ui/contextmenufactory.cpp:121
+#: ui/contextmenufactory.cpp:122
 msgid "Remove From Favorites"
 msgstr "Sevimlidan olib tashlash"
 
-#: ui/contextmenufactory.cpp:124
+#: ui/contextmenufactory.cpp:127
 msgid "Add to Favorites"
 msgstr "Sevimliga qoʻshish"
 
-#: ui/contextmenufactory.cpp:143
+#: ui/contextmenufactory.cpp:151
 msgid "Add to Desktop"
 msgstr "Ish stoliga qoʻshish"
 
-#: ui/contextmenufactory.cpp:150
+#: ui/contextmenufactory.cpp:158
 msgid "Add to Panel"
 msgstr "Panelga qoʻshish"
 
-#: ui/contextmenufactory.cpp:172
+#: ui/contextmenufactory.cpp:181
 msgid "Eject"
 msgstr "Chiqarish"
 
-#: ui/launcher.cpp:162 simpleapplet/simpleapplet.cpp:357
+#: ui/contextmenufactory.cpp:183
+msgid "Safely Remove"
+msgstr ""
+
+#: ui/launcher.cpp:159
 msgid "Leave"
 msgstr "Chiqish"
 
-#: ui/launcher.cpp:174 core/favoritesmodel.cpp:43
+#: ui/launcher.cpp:170 core/favoritesmodel.cpp:44
 msgid "Favorites"
 msgstr "Sevimli"
 
-#: ui/launcher.cpp:192 core/recentlyusedmodel.cpp:107 core/systemmodel.cpp:90
-#: core/searchmodel.cpp:137
+#: ui/launcher.cpp:173
+msgid "Sort Alphabetically (A to Z)"
+msgstr ""
+
+#: ui/launcher.cpp:176
+msgid "Sort Alphabetically (Z to A)"
+msgstr ""
+
+#: ui/launcher.cpp:199 core/recentlyusedmodel.cpp:101 core/systemmodel.cpp:88
+#: core/searchmodel.cpp:135
 msgid "Applications"
 msgstr "Dasturlar"
 
-#: ui/launcher.cpp:205
+#: ui/launcher.cpp:211
 msgid "Recently Used"
 msgstr "Yaqinda ishlatilgan"
 
-#: ui/launcher.cpp:207
+#: ui/launcher.cpp:213
 msgid "Clear Recent Applications"
 msgstr "Yaqinda ishlatilgan dasturlarni tozalash"
 
-#: ui/launcher.cpp:208
+#: ui/launcher.cpp:214
 msgid "Clear Recent Documents"
 msgstr "Yaqinda ishlatilgan hujjatlarni tozalash"
 
-#: ui/launcher.cpp:226
+#: ui/launcher.cpp:231
 msgid "Computer"
 msgstr "Kompyuter"
 
-#: ui/launcher.cpp:572
+#: ui/launcher.cpp:489
 #, kde-format
-msgid "User&nbsp;<b>%1</b>&nbsp;on&nbsp;<b>%2</b>"
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
 msgstr ""
 
-#: ui/searchbar.cpp:68
+#: ui/launcher.cpp:491
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr ""
+
+#: ui/searchbar.cpp:72
 msgid "Search:"
 msgstr "Qidirish:"
 
-#: core/leavemodel.cpp:46
+#: core/leavemodel.cpp:49
 msgid "Logout"
 msgstr "Chiqish"
 
-#: core/leavemodel.cpp:48
+#: core/leavemodel.cpp:51
 msgid "End session"
 msgstr "Seansni tugatish"
 
-#: core/leavemodel.cpp:51 simpleapplet/simpleapplet.cpp:355
+#: core/leavemodel.cpp:53 simpleapplet/simpleapplet.cpp:392
 msgid "Lock"
 msgstr "Qulflash"
 
-#: core/leavemodel.cpp:53
+#: core/leavemodel.cpp:55
 msgid "Lock the screen"
 msgstr "Ekranni qulflash"
 
-#: core/leavemodel.cpp:56 simpleapplet/simpleapplet.cpp:353
+#: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:390
 msgid "Switch User"
 msgstr "Foydalanuvchini oʻzgartirish"
 
-#: core/leavemodel.cpp:58
+#: core/leavemodel.cpp:59
 msgid "Start a parallel session as a different user"
 msgstr "Boshqa foydalanuvchi uchun seansni boshlash"
 
 #: core/leavemodel.cpp:61
-msgid "Sleep"
-msgstr ""
-
-#: core/leavemodel.cpp:66
-msgid "Hibernate"
-msgstr ""
-
-#: core/leavemodel.cpp:71
 msgid "Shutdown"
 msgstr "Oʻchirish"
 
-#: core/leavemodel.cpp:73
+#: core/leavemodel.cpp:63
 msgid "Turn off the computer"
 msgstr "Kompyuterni toʻliq oʻchirish"
 
-#: core/leavemodel.cpp:76
+#: core/leavemodel.cpp:65
 #, fuzzy
 #| msgid "Restart"
+msgctxt "Restart the computer"
 msgid "Restart"
 msgstr "Oʻchirib-yoqish"
 
-#: core/leavemodel.cpp:78
+#: core/leavemodel.cpp:67
 msgid "Restart the computer"
 msgstr "Kompyuterni toʻliq oʻchirib qaytadan yoqish"
 
-#: core/leavemodel.cpp:93
+#: core/leavemodel.cpp:69
+#, fuzzy
+#| msgid "Session"
+msgid "Save Session"
+msgstr "Seans"
+
+#: core/leavemodel.cpp:71
+msgid "Save current session for next login"
+msgstr ""
+
+#: core/leavemodel.cpp:73
+#, fuzzy
+#| msgctxt "@item:inlistbox View:"
+#| msgid "Standard"
+msgctxt "Puts the system on standby"
+msgid "Standby"
+msgstr "Andoza"
+
+#: core/leavemodel.cpp:75 core/leavemodel.cpp:79 core/leavemodel.cpp:83
+msgid "Pause without logging out"
+msgstr ""
+
+#: core/leavemodel.cpp:77
+msgid "Suspend to Disk"
+msgstr ""
+
+#: core/leavemodel.cpp:81
+msgid "Suspend to RAM"
+msgstr ""
+
+#: core/leavemodel.cpp:103
 msgid "Session"
 msgstr "Seans"
 
-#: core/leavemodel.cpp:108
+#: core/leavemodel.cpp:125
 msgid "System"
 msgstr "Tizim"
 
-#: core/applicationmodel.cpp:323
+#: core/applicationmodel.cpp:356
 msgid "Known Applications"
 msgstr "Maʼlum boʻlgan dasturlar"
 
-#: core/models.cpp:119
+#: core/models.cpp:117
 msgid "Home Folder"
 msgstr "Uy jildi"
 
-#: core/models.cpp:122
+#: core/models.cpp:120
 msgid "Network Folders"
 msgstr "Tarmoq jildlari"
 
-#: core/recentlyusedmodel.cpp:98 core/searchmodel.cpp:223
+#: core/recentlyusedmodel.cpp:93 core/searchmodel.cpp:221
 msgid "Documents"
 msgstr "Hujjatlar"
 
-#: core/systemmodel.cpp:91
+#: core/systemmodel.cpp:89
 msgid "Places"
 msgstr "Joylar"
 
-#: core/systemmodel.cpp:92
+#: core/systemmodel.cpp:90
 msgid "Removable Storage"
 msgstr "Olinadigan uskuna"
 
-#: core/systemmodel.cpp:93
+#: core/systemmodel.cpp:91
 msgid "Storage"
 msgstr "Saqlash"
 
-#: core/searchmodel.cpp:206
+#: core/searchmodel.cpp:204
 msgid "Web Searches"
 msgstr ""
 
-#: core/searchmodel.cpp:213
+#: core/searchmodel.cpp:211
 #, kde-format
 msgid "Search web for '%1'"
 msgstr ""
@@ -186,16 +228,32 @@ msgstr ""
 msgid "Application Launcher"
 msgstr "Dasturlarni ishga tushiruvchi"
 
-#: applet/applet.cpp:102 simpleapplet/simpleapplet.cpp:209
+#: applet/applet.cpp:84
+#, fuzzy
+#| msgid "Application Launcher"
+msgid "Kickoff Application Launcher"
+msgstr "Dasturlarni ishga tushiruvchi"
+
+#: applet/applet.cpp:85
+msgid ""
+"Favorites, applications, computer places, recently used items and desktop "
+"sessions"
+msgstr ""
+
+#: applet/applet.cpp:108 simpleapplet/simpleapplet.cpp:245
 msgid "Menu Editor"
 msgstr "Menyu tahrirchi"
 
-#: applet/applet.cpp:110
+#: applet/applet.cpp:114
 msgid "Switch to Classic Menu Style"
 msgstr "Eski menyu uslubi"
 
-#: applet/applet.cpp:158
+#: applet/applet.cpp:148
 msgid "Switch tabs on hover"
+msgstr ""
+
+#: applet/applet.cpp:154
+msgid "General"
 msgstr ""
 
 #: rc.cpp:1
@@ -208,95 +266,85 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kmashrab@uni-bremen.de"
 
-#: simpleapplet/simpleapplet.cpp:215
+#: simpleapplet/simpleapplet.cpp:251
 msgid "Switch to Kickoff Menu Style"
 msgstr "Yangi menyu uslubi"
 
-#: simpleapplet/simpleapplet.cpp:259
+#: simpleapplet/simpleapplet.cpp:295
 msgctxt "@label:listbox Which category of items to view in a KMenu-like menu"
 msgid "View:"
 msgstr "Koʻrinish:"
 
-#: simpleapplet/simpleapplet.cpp:263
+#: simpleapplet/simpleapplet.cpp:299
 msgctxt "@item:inlistbox View:"
 msgid "Standard"
 msgstr "Andoza"
 
-#: simpleapplet/simpleapplet.cpp:264
+#: simpleapplet/simpleapplet.cpp:300
 msgctxt "@item:inlistbox View:"
 msgid "Favorites"
 msgstr "Sevimli"
 
-#: simpleapplet/simpleapplet.cpp:265
+#: simpleapplet/simpleapplet.cpp:301
+msgctxt "@item:inlistbox View:"
+msgid "Bookmarks"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:302
 msgctxt "@item:inlistbox View:"
 msgid "Applications"
 msgstr "Dasturlar"
 
-#: simpleapplet/simpleapplet.cpp:266
+#: simpleapplet/simpleapplet.cpp:303
 msgctxt "@item:inlistbox View:"
 msgid "Computer"
 msgstr "Kompyuter"
 
-#: simpleapplet/simpleapplet.cpp:267
+#: simpleapplet/simpleapplet.cpp:304
 msgctxt "@item:inlistbox View:"
 msgid "Recently Used"
 msgstr "Yaqinda ishlatilgan"
 
-#: simpleapplet/simpleapplet.cpp:268
+#: simpleapplet/simpleapplet.cpp:305
 msgctxt "@item:inlistbox View:"
 msgid "Leave"
 msgstr "Chiqish"
 
-#: simpleapplet/simpleapplet.cpp:271
+#: simpleapplet/simpleapplet.cpp:308
 msgctxt "@label:listbox How to present applications in a KMenu-like menu"
 msgid "Format:"
 msgstr "Format:"
 
-#: simpleapplet/simpleapplet.cpp:275
+#: simpleapplet/simpleapplet.cpp:312
 msgctxt "@item:inlistbox Format:"
 msgid "Name Only"
 msgstr "Faqat nomi"
 
-#: simpleapplet/simpleapplet.cpp:276
+#: simpleapplet/simpleapplet.cpp:313
 msgctxt "@item:inlistbox Format:"
 msgid "Description Only"
 msgstr "Faqat taʼrifi"
 
-#: simpleapplet/simpleapplet.cpp:277
+#: simpleapplet/simpleapplet.cpp:314
 msgctxt "@item:inlistbox Format:"
 msgid "Name Description"
 msgstr "Nomi Taʼrifi"
 
-#: simpleapplet/simpleapplet.cpp:278
+#: simpleapplet/simpleapplet.cpp:315
 msgctxt "@item:inlistbox Format:"
 msgid "Description (Name)"
 msgstr "Taʼrifi (Nomi)"
 
+#: simpleapplet/simpleapplet.cpp:316
 #, fuzzy
-#~| msgid "Session"
-#~ msgid "Save Session"
-#~ msgstr "Seans"
+#| msgctxt "@item:inlistbox Format:"
+#| msgid "Name Description"
+msgctxt "@item:inlistbox Format:"
+msgid "Name - Description"
+msgstr "Nomi Taʼrifi"
 
+#: simpleapplet/simpleapplet.cpp:394
 #, fuzzy
-#~| msgctxt "@item:inlistbox View:"
-#~| msgid "Standard"
-#~ msgctxt "Puts the system on standby"
-#~ msgid "Standby"
-#~ msgstr "Andoza"
-
-#, fuzzy
-#~| msgid "Application Launcher"
-#~ msgid "Kickoff Application Launcher"
-#~ msgstr "Dasturlarni ishga tushiruvchi"
-
-#, fuzzy
-#~| msgctxt "@item:inlistbox Format:"
-#~| msgid "Name Description"
-#~ msgctxt "@item:inlistbox Format:"
-#~ msgid "Name - Description"
-#~ msgstr "Nomi Taʼrifi"
-
-#, fuzzy
-#~| msgid "Leave"
-#~ msgid "Leave..."
-#~ msgstr "Chiqish"
+#| msgid "Leave"
+msgid "Leave..."
+msgstr "Chiqish"
