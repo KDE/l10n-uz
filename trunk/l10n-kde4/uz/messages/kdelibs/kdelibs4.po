@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-16 09:03+0100\n"
+"POT-Creation-Date: 2009-02-18 08:58+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -6500,7 +6500,7 @@ msgid "Reset Toolbars"
 msgstr "Asboblar panellari"
 
 #: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2947
-#: khtml/khtmlview.cpp:2980 khtml/html/html_formimpl.cpp:1782
+#: khtml/khtmlview.cpp:2980 khtml/html/html_formimpl.cpp:1779
 msgid "Reset"
 msgstr "Tiklash"
 
@@ -10849,7 +10849,7 @@ msgstr ""
 "<BR>Maʼlumotni joʻnatishni istaysizmi?"
 
 #: khtml/khtml_part.cpp:4632 khtml/khtmlview.cpp:2933 khtml/khtmlview.cpp:2975
-#: khtml/html/html_formimpl.cpp:1581 khtml/html/html_formimpl.cpp:1790
+#: khtml/html/html_formimpl.cpp:1578 khtml/html/html_formimpl.cpp:1787
 msgid "Submit"
 msgstr "Joʻnatish"
 
@@ -11344,30 +11344,34 @@ msgid "Do Not Store"
 msgstr "Saqlanmasin"
 
 #: khtml/html/html_formimpl.cpp:640
+#, fuzzy
+msgid "Do you want to store this password?"
+msgstr "Rostdan '%1'ni ishga tushirmoqchimisiz?"
+
+#: khtml/html/html_formimpl.cpp:641
+#, fuzzy, kde-format
+#| msgid "Do you want to restart search from the end?"
+msgid "Do you want to store this password for %1?"
+msgstr "Qidirishni oxirdan boshlashni istaysizmi?"
+
+#: khtml/html/html_formimpl.cpp:644
+#, fuzzy
+#| msgid ""
+#| "Konqueror has the ability to store the password in an encrypted wallet. "
+#| "When the wallet is unlocked, it can then automatically restore the login "
+#| "information next time you submit this form. Do you want to store the "
+#| "information now?"
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
 "the wallet is unlocked, it can then automatically restore the login "
-"information next time you submit this form. Do you want to store the "
-"information now?"
+"information next time you submit this form."
 msgstr ""
 "Konqueror maxfiy soʻzlarni kodlangan shaklda qopchiqda saqlash imkoniyatiga "
 "ega. Qopchiq ochilganda ushbu sahifa keyingi safar ochilganida kirish uchun "
 "maʼlumot avtomatik ravishda kiritiladi. Kirish maʼlumotini qopchiqda "
 "saqlashni istaysizmi?"
 
-#: khtml/html/html_formimpl.cpp:645
-#, kde-format
-msgid ""
-"Konqueror has the ability to store the password in an encrypted wallet. When "
-"the wallet is unlocked, it can then automatically restore the login "
-"information next time you visit %1. Do you want to store the information now?"
-msgstr ""
-"Konqueror maxfiy soʻzlarni kodlangan shaklda qopchiqda saqlash imkoniyatiga "
-"ega. Qqopchiq ochilganda %1 keyingi safar ochilganida kirish uchun maʼlumot "
-"avtomatik ravishda kiritiladi. Kirish maʼlumotini qopchiqda saqlashni "
-"istaysizmi?"
-
-#: khtml/html/html_formimpl.cpp:2582
+#: khtml/html/html_formimpl.cpp:2579
 #, fuzzy
 msgid "Key Generator"
 msgstr "Umumiy"
@@ -13067,6 +13071,17 @@ msgstr "&Kun maslahati"
 msgid "No such function \"%1\""
 msgstr "Menyuning bandi (%1) mavjud emas."
 
+#~ msgid ""
+#~ "Konqueror has the ability to store the password in an encrypted wallet. "
+#~ "When the wallet is unlocked, it can then automatically restore the login "
+#~ "information next time you visit %1. Do you want to store the information "
+#~ "now?"
+#~ msgstr ""
+#~ "Konqueror maxfiy soʻzlarni kodlangan shaklda qopchiqda saqlash "
+#~ "imkoniyatiga ega. Qqopchiq ochilganda %1 keyingi safar ochilganida kirish "
+#~ "uchun maʼlumot avtomatik ravishda kiritiladi. Kirish maʼlumotini "
+#~ "qopchiqda saqlashni istaysizmi?"
+
 #, fuzzy
 #~| msgid "Add Comment"
 #~ msgid "Add Elements"
@@ -13411,11 +13426,6 @@ msgstr "Menyuning bandi (%1) mavjud emas."
 #, fuzzy
 #~ msgid "Delete File"
 #~ msgstr "Hammasini oʻchirish"
-
-#, fuzzy
-#~ msgid "Do you really want to delete this item?"
-#~ msgid_plural "Do you really want to delete these %1 items?"
-#~ msgstr[0] "Rostdan '%1'ni ishga tushirmoqchimisiz?"
 
 #, fuzzy
 #~ msgid "Delete Files"
