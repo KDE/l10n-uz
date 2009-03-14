@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-13 10:22+0100\n"
+"POT-Creation-Date: 2009-03-14 10:51+0100\n"
 "PO-Revision-Date: 2006-12-17 13:25+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -114,6 +114,13 @@ msgstr "kun"
 msgctxt "@item:inlistbox Time units"
 msgid "weeks"
 msgstr "hafta"
+
+#: lib/filedialog.cpp:55
+#, fuzzy
+#| msgid "Failed to open file"
+msgctxt "@option:check"
+msgid "Append to existing file"
+msgstr "Faylni ochish muvaffaqiyatsiz tugadi"
 
 #: kalarmapp.cpp:305 kalarmapp.cpp:375 kalarmapp.cpp:377 kalarmapp.cpp:387
 #: kalarmapp.cpp:389 kalarmapp.cpp:404 kalarmapp.cpp:493 kalarmapp.cpp:495
@@ -3369,19 +3376,25 @@ msgctxt "@action"
 msgid "Im&port..."
 msgstr "&Tugʻilgan kunlarni import qilish..."
 
-#: resourceselector.cpp:374
+#: resourceselector.cpp:321 mainwindow.cpp:495
+#, fuzzy
+msgctxt "@action"
+msgid "E&xport..."
+msgstr "&Tugʻilgan kunlarni import qilish..."
+
+#: resourceselector.cpp:378
 #, fuzzy
 msgctxt "@action"
 msgid "Use as &Default for Active Alarms"
 msgstr "&Andoza shriftdan foydalanish"
 
-#: resourceselector.cpp:375
+#: resourceselector.cpp:379
 #, fuzzy
 msgctxt "@action"
 msgid "Use as &Default for Archived Alarms"
 msgstr "&Andoza shriftdan foydalanish"
 
-#: resourceselector.cpp:376
+#: resourceselector.cpp:380
 #, fuzzy
 msgctxt "@action"
 msgid "Use as &Default for Alarm Templates"
@@ -4381,7 +4394,7 @@ msgctxt "@info"
 msgid "Cannot defer reminder past the main alarm time (%1)"
 msgstr ""
 
-#: alarmcalendar.cpp:274 alarmcalendar.cpp:586
+#: alarmcalendar.cpp:276 alarmcalendar.cpp:588
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot open audio file:\n"
@@ -4392,7 +4405,7 @@ msgstr ""
 "Audio faylni ochib boʻlmadi:\n"
 "%1"
 
-#: alarmcalendar.cpp:289
+#: alarmcalendar.cpp:291
 #, fuzzy, kde-format
 #| msgid ""
 #| "Error loading calendar:\n"
@@ -4409,7 +4422,7 @@ msgstr ""
 "\n"
 "Iltimos faylni sozlang yoki olib tashlang."
 
-#: alarmcalendar.cpp:352
+#: alarmcalendar.cpp:354
 #, fuzzy, kde-format
 #| msgid ""
 #| "Failed to save calendar to\n"
@@ -4420,7 +4433,7 @@ msgstr ""
 "Kalendarni saqlab boʻlmadi\n"
 "'%1'"
 
-#: alarmcalendar.cpp:361
+#: alarmcalendar.cpp:363
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot open audio file:\n"
@@ -4431,19 +4444,57 @@ msgstr ""
 "Audio faylni ochib boʻlmadi:\n"
 "%1"
 
-#: alarmcalendar.cpp:555
+#: alarmcalendar.cpp:557 alarmcalendar.cpp:699
 #, fuzzy
 msgctxt "@info/plain"
 msgid "Calendar Files"
 msgstr "Kalendar faylining manzili"
 
-#: alarmcalendar.cpp:577 alarmcalendar.cpp:598
+#: alarmcalendar.cpp:579 alarmcalendar.cpp:600
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot open audio file:\n"
 #| "%1"
 msgctxt "@info"
 msgid "Could not load calendar <filename>%1</filename>."
+msgstr ""
+"Audio faylni ochib boʻlmadi:\n"
+"%1"
+
+#: alarmcalendar.cpp:700
+msgctxt "@title:window"
+msgid "Choose Export Calendar"
+msgstr ""
+
+#: alarmcalendar.cpp:722
+#, fuzzy, kde-format
+#| msgid ""
+#| "Cannot open audio file:\n"
+#| "%1"
+msgctxt "@info"
+msgid "Error loading calendar to append to:<nl/><filename>%1</filename>"
+msgstr ""
+"Audio faylni ochib boʻlmadi:\n"
+"%1"
+
+#: alarmcalendar.cpp:757
+#, fuzzy, kde-format
+#| msgid ""
+#| "Failed to save calendar to\n"
+#| "'%1'"
+msgctxt "@info"
+msgid "Failed to save new calendar to:<nl/><filename>%1</filename>"
+msgstr ""
+"Kalendarni saqlab boʻlmadi\n"
+"'%1'"
+
+#: alarmcalendar.cpp:763
+#, fuzzy, kde-format
+#| msgid ""
+#| "Cannot open audio file:\n"
+#| "%1"
+msgctxt "@info"
+msgid "Cannot upload new calendar to:<nl/><filename>%1</filename>"
 msgstr ""
 "Audio faylni ochib boʻlmadi:\n"
 "%1"
@@ -5330,19 +5381,19 @@ msgstr ""
 msgid "&File"
 msgstr "Fay&l"
 
-#. i18n: file: kalarmui.rc:28
+#. i18n: file: kalarmui.rc:29
 #. i18n: ectx: Menu (view)
 #: rc.cpp:358 rc.cpp:724
 msgid "&View"
 msgstr ""
 
-#. i18n: file: kalarmui.rc:39
+#. i18n: file: kalarmui.rc:40
 #. i18n: ectx: Menu (actions)
 #: rc.cpp:361 rc.cpp:727
 msgid "&Actions"
 msgstr "&Amallar"
 
-#. i18n: file: kalarmui.rc:53
+#. i18n: file: kalarmui.rc:55
 #. i18n: ectx: Menu (settings)
 #: rc.cpp:364 rc.cpp:730
 #, fuzzy
@@ -5586,30 +5637,30 @@ msgstr ""
 "Audio faylni ochib boʻlmadi:\n"
 "%1"
 
-#: messagewin.cpp:1572
+#: messagewin.cpp:1577
 #, fuzzy
 msgctxt "@info"
 msgid "Do you really want to acknowledge this alarm?"
 msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
 
-#: messagewin.cpp:1573
+#: messagewin.cpp:1578
 #, fuzzy
 msgctxt "@action:button"
 msgid "Acknowledge Alarm"
 msgstr "Ogohlantirishni tasdiqlash"
 
-#: messagewin.cpp:1573
+#: messagewin.cpp:1578
 #, fuzzy
 msgctxt "@action:button"
 msgid "Acknowledge"
 msgstr "&Tasdiqlash"
 
-#: messagewin.cpp:1620
+#: messagewin.cpp:1625
 msgctxt "@info"
 msgid "Unable to locate this email in <application>KMail</application>"
 msgstr ""
 
-#: messagewin.cpp:1750
+#: messagewin.cpp:1755
 msgctxt "@info"
 msgid "<para>Cannot defer alarm:</para><para>Alarm not found.</para>"
 msgstr ""
@@ -6410,19 +6461,25 @@ msgstr "&Tugʻilgan kunlarni import qilish..."
 
 #: mainwindow.cpp:491
 #, fuzzy
+msgctxt "@action"
+msgid "E&xport Selected Alarms..."
+msgstr "&Tugʻilgan kunlarni import qilish..."
+
+#: mainwindow.cpp:499
+#, fuzzy
 #| msgid "&Refresh Alarms"
 msgctxt "@action"
 msgid "&Refresh Alarms"
 msgstr "Ogohlantirishlarni &yangilash"
 
-#: mainwindow.cpp:695
+#: mainwindow.cpp:704
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Do you really want to delete the selected alarm?"
 msgid_plural "Do you really want to delete the %1 selected alarms?"
 msgstr[0] "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
 
-#: mainwindow.cpp:697
+#: mainwindow.cpp:706
 #, fuzzy
 #| msgid "Delete Alarm"
 #| msgid_plural "Delete Alarms"
@@ -6431,19 +6488,19 @@ msgid "Delete Alarm"
 msgid_plural "Delete Alarms"
 msgstr[0] "Ogohlantirishni oʻchirish"
 
-#: mainwindow.cpp:698 templatedlg.cpp:186
+#: mainwindow.cpp:707 templatedlg.cpp:186
 #, fuzzy
 msgctxt "@action:button"
 msgid "&Delete"
 msgstr "Ogohlantirishni oʻchirish"
 
-#: mainwindow.cpp:838
+#: mainwindow.cpp:858
 #, fuzzy
 msgctxt "@info"
 msgid "Import birthdays"
 msgstr "&Tugʻilgan kunlarni import qilish..."
 
-#: mainwindow.cpp:1008
+#: mainwindow.cpp:1028
 #, fuzzy, kde-format
 #| msgctxt "Undo-action: message"
 #| msgid "%1: %2"
@@ -6451,55 +6508,55 @@ msgctxt "@action Undo/Redo [action]"
 msgid "%1 %2"
 msgstr "%1: %2"
 
-#: mainwindow.cpp:1009
+#: mainwindow.cpp:1029
 #, fuzzy, kde-format
 msgctxt "@action Undo [action]: message"
 msgid "%1 %2: %3"
 msgstr "%1%2:%3"
 
-#: mainwindow.cpp:1283
+#: mainwindow.cpp:1303
 #, fuzzy
 #| msgid "Display Alarms"
 msgctxt "@item:inlistbox"
 msgid "Display Alarm"
 msgstr "Ogohlantirishlarni koʻrsatish"
 
-#: mainwindow.cpp:1285
+#: mainwindow.cpp:1305
 #, fuzzy
 #| msgid "Email Alarms"
 msgctxt "@item:inlistbox"
 msgid "Email Alarm"
 msgstr "Elektron pochta orqali ogohlantirishlar"
 
-#: mainwindow.cpp:1287
+#: mainwindow.cpp:1307
 #, fuzzy
 #| msgid "Command Alarms"
 msgctxt "@item:inlistbox"
 msgid "Command Alarm"
 msgstr "Buyruq orqali ogohlantirishlar"
 
-#: mainwindow.cpp:1289
+#: mainwindow.cpp:1309
 #, fuzzy
 #| msgid "Alarm Type"
 msgctxt "@title:window"
 msgid "Alarm Type"
 msgstr "Ogohlantirish turi"
 
-#: mainwindow.cpp:1290
+#: mainwindow.cpp:1310
 #, fuzzy
 #| msgid "Choose Alarm Font & Color"
 msgctxt "@info"
 msgid "Choose alarm type to create:"
 msgstr "Ogohlantirish shrifti va rangini tanlash"
 
-#: mainwindow.cpp:1415
+#: mainwindow.cpp:1439
 #, fuzzy
 #| msgid "Ena&ble"
 msgctxt "@action"
 msgid "Ena&ble"
 msgstr "Yoq&ish"
 
-#: mainwindow.cpp:1415
+#: mainwindow.cpp:1439
 #, fuzzy
 #| msgid "Disa&ble"
 msgctxt "@action"
