@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-02 09:58+0100\n"
+"POT-Creation-Date: 2009-03-21 11:05+0100\n"
 "PO-Revision-Date: 2006-01-22 20:49+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -24,7 +24,7 @@ msgstr "Fayl/jildlarni qidirish"
 msgid "Ready."
 msgstr "Tayyor."
 
-#: kfinddlg.cpp:114 kfinddlg.cpp:219
+#: kfinddlg.cpp:114 kfinddlg.cpp:218 kfinddlg.cpp:247
 #, fuzzy, kde-format
 msgid "one file found"
 msgid_plural "%1 files found"
@@ -337,97 +337,81 @@ msgstr ""
 msgid "Do Not Set"
 msgstr ""
 
-#: kfwin.cpp:49
+#: kfwin.cpp:31
 msgid "Read-write"
 msgstr "Oʻqish-yozish"
 
-#: kfwin.cpp:50
+#: kfwin.cpp:32
 msgid "Read-only"
 msgstr "Faqat oʻqishga"
 
-#: kfwin.cpp:51
+#: kfwin.cpp:33
 msgid "Write-only"
 msgstr "Faqat yozishga"
 
-#: kfwin.cpp:52
+#: kfwin.cpp:34
 msgid "Inaccessible"
 msgstr "Murojaat qilib boʻlmaydi"
 
-#: kfwin.cpp:116
+#: kfwin.cpp:112
 msgid "Name"
 msgstr "Nomi"
 
-#: kfwin.cpp:117
+#: kfwin.cpp:112
 msgid "In Subfolder"
 msgstr "Quyi jildda"
 
-#: kfwin.cpp:118
+#: kfwin.cpp:112
 msgid "Size"
 msgstr "Hajmi"
 
-#: kfwin.cpp:120
+#: kfwin.cpp:112
 msgid "Modified"
 msgstr "Oʻzgargan"
 
-#: kfwin.cpp:122
+#: kfwin.cpp:112
 msgid "Permissions"
 msgstr "Huquqlar"
 
-#: kfwin.cpp:125
+#: kfwin.cpp:112
 msgid "First Matching Line"
 msgstr "Birinchi mos kelgan satr"
 
-#: kfwin.cpp:194
+#: kfwin.cpp:216
+msgid "&Open containing folder(s)"
+msgstr ""
+
+#: kfwin.cpp:220
+msgid "&Delete"
+msgstr ""
+
+#: kfwin.cpp:225
+msgid "&Move to Trash"
+msgstr ""
+
+#: kfwin.cpp:287
 msgid "Save Results As"
 msgstr "Natijalarni saqlash"
 
-#: kfwin.cpp:219
+#: kfwin.cpp:288
+msgid "HTML page"
+msgstr ""
+
+#: kfwin.cpp:288
+msgid "Text file"
+msgstr ""
+
+#: kfwin.cpp:308
 msgid "Unable to save results."
 msgstr "Natijalarni saqlab boʻlmadi."
 
-#: kfwin.cpp:230 kfwin.cpp:231 kfwin.cpp:232
+#: kfwin.cpp:323
 msgid "KFind Results File"
 msgstr "KFind natijalar fayli"
 
-#: kfwin.cpp:259
+#: kfwin.cpp:346
 msgid "Results were saved to file\n"
 msgstr "Natijalar faylga saqlandi\n"
-
-#: kfwin.cpp:288
-#, fuzzy, kde-format
-msgid "Do you really want to delete the selected file?"
-msgid_plural "Do you really want to delete the %1 selected files?"
-msgstr[0] "Belgilangan faylni rostdan oʻchirishni istaysizmi?"
-
-#: kfwin.cpp:410
-msgctxt "Menu item"
-msgid "Open"
-msgstr "Ochish"
-
-#: kfwin.cpp:411
-msgid "Open Folder"
-msgstr "Jildni ochish"
-
-#: kfwin.cpp:413 kfwin.cpp:423
-msgid "Copy"
-msgstr ""
-
-#: kfwin.cpp:414 kfwin.cpp:424
-msgid "Delete"
-msgstr ""
-
-#: kfwin.cpp:416
-msgid "Open With..."
-msgstr "...bilan ochish"
-
-#: kfwin.cpp:418
-#, fuzzy
-msgid "Properties"
-msgstr "Xossa&lari"
-
-#: kfwin.cpp:422
-msgid "Selected Files"
-msgstr "Belgilangan fayllar"
 
 #: kquery.cpp:486
 msgid "Error while using locate"
@@ -534,6 +518,28 @@ msgstr "Mashrab Quvatov"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kmashrab@uni-bremen.de"
+
+#, fuzzy
+#~ msgid "Do you really want to delete the selected file?"
+#~ msgid_plural "Do you really want to delete the %1 selected files?"
+#~ msgstr[0] "Belgilangan faylni rostdan oʻchirishni istaysizmi?"
+
+#~ msgctxt "Menu item"
+#~ msgid "Open"
+#~ msgstr "Ochish"
+
+#~ msgid "Open Folder"
+#~ msgstr "Jildni ochish"
+
+#~ msgid "Open With..."
+#~ msgstr "...bilan ochish"
+
+#, fuzzy
+#~ msgid "Properties"
+#~ msgstr "Xossa&lari"
+
+#~ msgid "Selected Files"
+#~ msgstr "Belgilangan fayllar"
 
 #~ msgid "&Find"
 #~ msgstr "&Qidirish"
