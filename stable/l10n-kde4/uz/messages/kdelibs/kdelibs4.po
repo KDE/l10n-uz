@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-23 06:10+0100\n"
+"POT-Creation-Date: 2009-03-24 06:20+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3366,6 +3366,14 @@ msgstr "Iltimos tizim boshqaruvchisiga murojaat qiling."
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "Moslama fayliga (%1) yozib boʻlmaydi.\n"
 
+#: kdecore/network/klocalsocket_win.cpp:31
+#: kdecore/network/klocalsocket_win.cpp:36
+#, fuzzy
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "Operation not supported"
+msgstr "amal qoʻllanmagan"
+
 #: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
 msgctxt "1: the unknown socket address family number"
@@ -3499,6 +3507,87 @@ msgstr "\"ai_socktype\" qoʻllanmagan"
 #: kdecore/network/netsupp.cpp:902
 msgid "system error"
 msgstr "tizimning xatosi"
+
+#: kdecore/network/klocalsocket_unix.cpp:178
+#: kdecore/network/klocalsocket_unix.cpp:246
+msgid "Specified socket path is invalid"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:187
+#: kdecore/network/klocalsocket_unix.cpp:234
+#: kdecore/network/klocalsocket_unix.cpp:255
+#, fuzzy
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "The socket operation is not supported"
+msgstr "amal qoʻllanmagan"
+
+#: kdecore/network/klocalsocket_unix.cpp:200
+#, fuzzy
+#| msgctxt "Socket error code ConnectionTimedOut"
+#| msgid "connection timed out"
+msgid "Connection refused"
+msgstr "aloqada taymaut"
+
+#: kdecore/network/klocalsocket_unix.cpp:205
+#: kdecore/network/klocalsocket_unix.cpp:268
+#, fuzzy
+#| msgid "Permission denied."
+msgid "Permission denied"
+msgstr "Ruxsat yoʻq."
+
+#: kdecore/network/klocalsocket_unix.cpp:209
+#, fuzzy
+#| msgctxt "Socket error code ConnectionTimedOut"
+#| msgid "connection timed out"
+msgid "Connection timed out"
+msgstr "aloqada taymaut"
+
+#: kdecore/network/klocalsocket_unix.cpp:213
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:425
+#, fuzzy
+msgid "Unknown error"
+msgstr "Nomaʼlum xato"
+
+#: kdecore/network/klocalsocket_unix.cpp:221
+#: kdecore/network/klocalsocket_unix.cpp:301
+msgid "Could not set non-blocking mode"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:272
+#, fuzzy
+#| msgctxt "Socket error code AddressInUse"
+#| msgid "address already in use"
+msgid "Address is already in use"
+msgstr "manzil allaqachon ishlatilmoqda"
+
+#: kdecore/network/klocalsocket_unix.cpp:277
+#, fuzzy
+#| msgid "This file cannot be opened."
+msgid "Path cannot be used"
+msgstr "Bu faylni ochish iloji yoʻq."
+
+#: kdecore/network/klocalsocket_unix.cpp:281
+#, fuzzy
+#| msgid "No such file."
+msgid "No such file or directory"
+msgstr "Bunday fayl yoʻq."
+
+#: kdecore/network/klocalsocket_unix.cpp:285
+msgid "Not a directory"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:289
+#, fuzzy
+#| msgid "Read-only"
+msgid "Read-only filesystem"
+msgstr "Faqat oʻqishga"
+
+#: kdecore/network/klocalsocket_unix.cpp:354
+#: kdecore/network/klocalsocket_unix.cpp:386
+#, fuzzy
+msgid "Unknown socket error"
+msgstr "Nomaʼlum xato"
 
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
@@ -11818,11 +11907,6 @@ msgstr "Moslama"
 msgid "Invalid type in Database"
 msgstr "Sertifikat haqiqiy emas!"
 
-#: nepomuk/core/resource.cpp:425
-#, fuzzy
-msgid "Unknown error"
-msgstr "Nomaʼlum xato"
-
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:214
 msgid "Create New Tag..."
 msgstr ""
@@ -13775,11 +13859,6 @@ msgstr "Menyuning bandi (%1) mavjud emas."
 #~ msgstr "Uchrashuvlar"
 
 #, fuzzy
-#~| msgid "Permission denied."
-#~ msgid "Permissions"
-#~ msgstr "Ruxsat yoʻq."
-
-#, fuzzy
 #~| msgid "Other"
 #~ msgid "Owner"
 #~ msgstr "Boshqa"
@@ -13967,9 +14046,6 @@ msgstr "Menyuning bandi (%1) mavjud emas."
 #~ msgid "The certificate file could not be loaded. Try a different password?"
 #~ msgstr ""
 #~ "Sertifikat fayli yuklanmadi. Boshqa maxfiy soʻzni sinab koʻrmoqchimisiz?"
-
-#~ msgid "This file cannot be opened."
-#~ msgstr "Bu faylni ochish iloji yoʻq."
 
 #~ msgid "I do not know how to handle this type of file."
 #~ msgstr "Faylning bu turi bilan nima qilishni bilmayman."
@@ -15533,9 +15609,6 @@ msgstr "Menyuning bandi (%1) mavjud emas."
 #~ msgid "Resource Configuration"
 #~ msgstr "Manbani moslash"
 
-#~ msgid "Read-only"
-#~ msgstr "Faqat oʻqishga"
-
 #~ msgid "Please enter a resource name."
 #~ msgstr "Iltimos manbaning nomini kiriting."
 
@@ -15679,9 +15752,6 @@ msgstr "Menyuning bandi (%1) mavjud emas."
 
 #~ msgid "File opened."
 #~ msgstr "Fayl ochildi."
-
-#~ msgid "No such file."
-#~ msgstr "Bunday fayl yoʻq."
 
 #~ msgid "The file \"%1\" cannot be found. Create a new one?"
 #~ msgstr "Fayl (%1) topilmadi. Uni yarataymi?"
