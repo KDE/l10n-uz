@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-22 10:23+0100\n"
+"POT-Creation-Date: 2009-03-26 10:54+0100\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2373,30 +2373,30 @@ msgid " Line: %1 Col: %2 "
 msgstr " Satr: %1 Ustun: %2 "
 
 #: koproperty1/koproperty/test/main.cpp:32
-#: koproperty2/koproperty/test/main.cpp:32
+#: koproperty2/koproperty/test/main.cpp:35
 #, fuzzy
 msgid "KoProperty Test"
 msgstr "Loyiha xossalari"
 
 #: koproperty1/koproperty/test/main.cpp:33
-#: koproperty2/koproperty/test/main.cpp:33
+#: koproperty2/koproperty/test/main.cpp:36
 msgid "(C) 2005 Cedric Pasteur"
 msgstr ""
 
 #: koproperty1/koproperty/test/main.cpp:34
-#: koproperty2/koproperty/test/main.cpp:34
+#: koproperty2/koproperty/test/main.cpp:37
 msgid "Cedric Pasteur"
 msgstr ""
 
 #: koproperty1/koproperty/test/main.cpp:38
-#: koproperty2/koproperty/test/main.cpp:38
+#: koproperty2/koproperty/test/main.cpp:42
 msgid ""
 "Flat display: don't display groups\n"
 "(useful for testing)"
 msgstr ""
 
 #: koproperty1/koproperty/test/main.cpp:39
-#: koproperty2/koproperty/test/main.cpp:39
+#: koproperty2/koproperty/test/main.cpp:52
 msgid ""
 "Set all properties as read-only:\n"
 "(useful for testing read-only mode)"
@@ -2553,7 +2553,6 @@ msgid "Select Char"
 msgstr ""
 
 #: koproperty1/koproperty/editors/fontedit.cpp:62
-#: koproperty2/koproperty/editors/fontedit.cpp:65
 #, fuzzy
 #| msgid "Change..."
 msgid "Change font"
@@ -2654,15 +2653,15 @@ msgstr "Yaratish"
 
 #: koproperty1/koproperty/customproperty.cpp:55
 #: koproperty1/koproperty/customproperty.cpp:187
-#: koproperty2/koproperty/editors/rectedit.cpp:48
-#: koproperty2/koproperty/editors/sizeedit.cpp:42
+#: koproperty2/koproperty/editors/rectedit.cpp:47
+#: koproperty2/koproperty/editors/sizeedit.cpp:41
 msgid "Width"
 msgstr ""
 
 #: koproperty1/koproperty/customproperty.cpp:56
 #: koproperty1/koproperty/customproperty.cpp:188
-#: koproperty2/koproperty/editors/rectedit.cpp:50
-#: koproperty2/koproperty/editors/sizeedit.cpp:44
+#: koproperty2/koproperty/editors/rectedit.cpp:49
+#: koproperty2/koproperty/editors/sizeedit.cpp:43
 #, fuzzy
 #| msgid "To Right"
 msgid "Height"
@@ -2670,15 +2669,15 @@ msgstr "Oʻngga"
 
 #: koproperty1/koproperty/customproperty.cpp:120
 #: koproperty1/koproperty/customproperty.cpp:185
-#: koproperty2/koproperty/editors/rectedit.cpp:44
-#: koproperty2/koproperty/editors/pointedit.cpp:44
+#: koproperty2/koproperty/editors/rectedit.cpp:43
+#: koproperty2/koproperty/editors/pointedit.cpp:43
 msgid "X"
 msgstr ""
 
 #: koproperty1/koproperty/customproperty.cpp:121
 #: koproperty1/koproperty/customproperty.cpp:186
-#: koproperty2/koproperty/editors/rectedit.cpp:46
-#: koproperty2/koproperty/editors/pointedit.cpp:46
+#: koproperty2/koproperty/editors/rectedit.cpp:45
+#: koproperty2/koproperty/editors/pointedit.cpp:45
 msgid "Y"
 msgstr ""
 
@@ -2717,21 +2716,24 @@ msgid "Horz. Stretch"
 msgstr ""
 
 #: koproperty1/koproperty/customproperty.cpp:300
+#: koproperty2/koproperty/editors/sizepolicyedit.cpp:100
 #, fuzzy
 msgid "Horizontal Stretch"
 msgstr "&Eniga"
 
 #: koproperty1/koproperty/customproperty.cpp:304
+#: koproperty2/koproperty/editors/sizepolicyedit.cpp:102
 msgid "Vert. Stretch"
 msgstr ""
 
 #: koproperty1/koproperty/customproperty.cpp:304
+#: koproperty2/koproperty/editors/sizepolicyedit.cpp:102
 msgid "Vertical Stretch"
 msgstr ""
 
 #: koproperty1/koproperty/editor.cpp:146
-#: koproperty2/koproperty/EditorView.cpp:501
-#: koproperty2/koproperty/EditorView.cpp:645
+#: koproperty2/koproperty/EditorView.cpp:533
+#: koproperty2/koproperty/EditorView.cpp:677
 #, fuzzy
 #| msgid "Save changes"
 msgid "Undo changes"
@@ -2742,21 +2744,28 @@ msgstr "Oʻzgarishlarni saqlash"
 #. i18n: file: plugins/queries/kexiparameterlisteditor.ui:30
 #. i18n: ectx: property (text), widget (K3ListView)
 #: koproperty1/koproperty/editor.cpp:153
-#: koproperty2/koproperty/EditorView.cpp:652 rc.cpp:105 rc.cpp:306
+#: koproperty2/koproperty/EditorView.cpp:684 rc.cpp:105 rc.cpp:306
 #: plugins/tables/kexitabledesignerview.cpp:351
 msgid "Name"
 msgstr "Nomi"
 
 #: koproperty1/koproperty/editor.cpp:154
-#: koproperty2/koproperty/EditorView.cpp:653
+#: koproperty2/koproperty/EditorView.cpp:685
 #, fuzzy
 msgid "Value"
 msgstr "Muvaffaqiyatsizlik"
 
-#: koproperty2/koproperty/test/main.cpp:40
+#: koproperty2/koproperty/test/main.cpp:45
+msgid ""
+"Set font size to <size> (in points)\n"
+"(useful for testing whether editors keep the font settings)"
+msgstr ""
+
+#: koproperty2/koproperty/test/main.cpp:48
 msgid ""
 "Display only specified property\n"
-"(useful when we want to focus on testing a single property editor)"
+"(useful when we want to focus on testing a single\n"
+"property editor)"
 msgstr ""
 
 #: koproperty2/koproperty/editors/cursoredit.cpp:125
@@ -2867,25 +2876,63 @@ msgstr "Ya&ngi"
 msgid "Inserts image from file"
 msgstr "Rasmni fayldan qoʻyish"
 
-#: koproperty2/koproperty/editors/fontedit.cpp:66
-#, fuzzy
-#| msgid "Change..."
-msgid "Changes font"
-msgstr "Oʻzgartirish..."
-
-#: koproperty2/koproperty/editors/fontedit.cpp:106
-#, kde-format
-msgid "%1 %2"
+#: koproperty2/koproperty/editors/fontedit.cpp:64
+msgid "Click to select a font"
 msgstr ""
 
-#: koproperty2/koproperty/EditorDataModel.cpp:166
+#: koproperty2/koproperty/editors/fontedit.cpp:65
+#, fuzzy
+#| msgid "Set Font..."
+msgid "Selects font"
+msgstr "Shriftni tanlash..."
+
+#: koproperty2/koproperty/editors/fontedit.cpp:131
+#: koproperty2/koproperty/editors/fontedit.cpp:133
+msgctxt "Font sample for property editor item, typically \"Abc\""
+msgid "Abc"
+msgstr ""
+
+#: koproperty2/koproperty/editors/fontedit.cpp:138
+#, kde-format
+msgctxt "Font family and size, e.g. Arial, 2pt"
+msgid "%1, %2pt"
+msgstr ""
+
+#: koproperty2/koproperty/editors/sizepolicyedit.cpp:96
+msgid "Hor. Policy"
+msgstr ""
+
+#: koproperty2/koproperty/editors/sizepolicyedit.cpp:96
+#, fuzzy
+#| msgid "&Horizontally"
+msgid "Horizontal Policy"
+msgstr "&Eniga"
+
+#: koproperty2/koproperty/editors/sizepolicyedit.cpp:98
+#, fuzzy
+#| msgid "&Vertically"
+msgid "Vert. Policy"
+msgstr "&Boʻyiga"
+
+#: koproperty2/koproperty/editors/sizepolicyedit.cpp:98
+#, fuzzy
+#| msgid "&Vertically"
+msgid "Vertical Policy"
+msgstr "&Boʻyiga"
+
+#: koproperty2/koproperty/editors/sizepolicyedit.cpp:100
+#, fuzzy
+msgid "Hor. Stretch"
+msgstr "&Eniga"
+
+#: koproperty2/koproperty/EditorDataModel.cpp:167
 #, fuzzy
 #| msgid "Name"
 msgctxt "Property name"
 msgid "Name"
 msgstr "Nomi"
 
-#: koproperty2/koproperty/EditorDataModel.cpp:168
+#: koproperty2/koproperty/EditorDataModel.cpp:169
 #, fuzzy
 msgctxt "Property value"
 msgid "Value"
@@ -7523,6 +7570,11 @@ msgid "Empty Row"
 msgstr "Boʻsh hator &qoʻshish"
 
 #, fuzzy
+#~| msgid "Change..."
+#~ msgid "Changes font"
+#~ msgstr "Oʻzgartirish..."
+
+#, fuzzy
 #~ msgid "No action"
 #~ msgstr "Amalsiz"
 
@@ -7618,11 +7670,6 @@ msgstr "Boʻsh hator &qoʻshish"
 #~ msgctxt "Size Policy"
 #~ msgid "Vertical Size Type"
 #~ msgstr "&Boʻyiga"
-
-#, fuzzy
-#~ msgctxt "Size Policy"
-#~ msgid "Horz. Stretch"
-#~ msgstr "&Eniga"
 
 #, fuzzy
 #~ msgctxt "Size Policy"
