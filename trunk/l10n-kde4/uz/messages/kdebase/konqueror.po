@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-28 11:06+0100\n"
+"POT-Creation-Date: 2009-03-29 11:36+0200\n"
 "PO-Revision-Date: 2008-06-08 22:24+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -310,16 +310,16 @@ msgstr "Yangi tabni ochish"
 msgid "Close the current tab"
 msgstr "Joriy tabni yopish"
 
-#: src/konqtabs.cpp:332 src/konqmainwindow.cpp:3776
+#: src/konqtabs.cpp:332 src/konqmainwindow.cpp:3757
 msgid "&Reload All Tabs"
 msgstr "Hamma tablarni qaytadan &yuklash"
 
-#: src/konqtabs.cpp:355 src/konqmainwindow.cpp:2550
-#: src/konqmainwindow.cpp:3714
+#: src/konqtabs.cpp:355 src/konqmainwindow.cpp:2531
+#: src/konqmainwindow.cpp:3695
 msgid "Close &Other Tabs"
 msgstr "&Boshqa tablarni yopish"
 
-#: src/konqtabs.cpp:473 src/konqmainwindow.cpp:3687
+#: src/konqtabs.cpp:473 src/konqmainwindow.cpp:3668
 msgid "&New Tab"
 msgstr "Yangi &tab"
 
@@ -376,7 +376,7 @@ msgstr "Yoʻq"
 msgid "Ask Me Later"
 msgstr "Keyinroq soʻrang"
 
-#: src/konqmainwindow.cpp:520
+#: src/konqmainwindow.cpp:521
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -385,7 +385,7 @@ msgstr ""
 "Notoʻgri URL\n"
 "%1"
 
-#: src/konqmainwindow.cpp:525
+#: src/konqmainwindow.cpp:526
 #, kde-format
 msgid ""
 "Protocol not supported\n"
@@ -394,21 +394,21 @@ msgstr ""
 "Protokol qoʻllanmagan\n"
 "%1"
 
-#: src/konqmainwindow.cpp:558
+#: src/konqmainwindow.cpp:559
 msgctxt "@title:tab"
 msgid "Loading..."
 msgstr ""
 
-#: src/konqmainwindow.cpp:1451
+#: src/konqmainwindow.cpp:1452
 msgid "Cannot create the find part, check your installation."
 msgstr ""
 "Qidirish qismini yaratib boʻlmadi. KDE toʻgʻri oʻrnatilganligini tekshiring."
 
-#: src/konqmainwindow.cpp:1624
+#: src/konqmainwindow.cpp:1625
 msgid "Canceled."
 msgstr "Bekor qilindi."
 
-#: src/konqmainwindow.cpp:1662
+#: src/konqmainwindow.cpp:1663
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Reloading the page will discard these changes."
@@ -416,78 +416,66 @@ msgstr ""
 "Ushbu sahifada joʻnatilmagan maʼlumot mavjud.\n"
 "Uni qaytadan yuklash natijasida maʼlumot yoʻqoladi."
 
-#: src/konqmainwindow.cpp:1663 src/konqmainwindow.cpp:2375
-#: src/konqmainwindow.cpp:2393 src/konqmainwindow.cpp:2482
-#: src/konqmainwindow.cpp:2500 src/konqmainwindow.cpp:2520
-#: src/konqmainwindow.cpp:2568 src/konqmainwindow.cpp:2601
-#: src/konqmainwindow.cpp:5106 src/konqviewmanager.cpp:1333
+#: src/konqmainwindow.cpp:1664 src/konqmainwindow.cpp:2356
+#: src/konqmainwindow.cpp:2374 src/konqmainwindow.cpp:2463
+#: src/konqmainwindow.cpp:2481 src/konqmainwindow.cpp:2501
+#: src/konqmainwindow.cpp:2549 src/konqmainwindow.cpp:2582
+#: src/konqmainwindow.cpp:5087 src/konqviewmanager.cpp:1333
 msgid "Discard Changes?"
 msgstr "Oʻzgarishlardan voz kechish"
 
-#: src/konqmainwindow.cpp:1663 src/konqmainwindow.cpp:2375
-#: src/konqmainwindow.cpp:2393 src/konqmainwindow.cpp:2482
-#: src/konqmainwindow.cpp:2500 src/konqmainwindow.cpp:2520
-#: src/konqmainwindow.cpp:2568 src/konqmainwindow.cpp:2601
-#: src/konqmainwindow.cpp:5106 src/konqviewmanager.cpp:1333
+#: src/konqmainwindow.cpp:1664 src/konqmainwindow.cpp:2356
+#: src/konqmainwindow.cpp:2374 src/konqmainwindow.cpp:2463
+#: src/konqmainwindow.cpp:2481 src/konqmainwindow.cpp:2501
+#: src/konqmainwindow.cpp:2549 src/konqmainwindow.cpp:2582
+#: src/konqmainwindow.cpp:5087 src/konqviewmanager.cpp:1333
 msgid "&Discard Changes"
 msgstr "Oʻzgarish&lardan voz kechish"
 
-#: src/konqmainwindow.cpp:1728
-msgid "Your sidebar is not functional or unavailable."
-msgstr "Yon paneli toʻgʻri ishlamayapti."
-
-#: src/konqmainwindow.cpp:1728 src/konqmainwindow.cpp:1747
-msgid "Show History Sidebar"
-msgstr "Tarix yon panelini koʻrsatish"
-
-#: src/konqmainwindow.cpp:1747
-msgid "Cannot find running history plugin in your sidebar."
-msgstr "Yon panel uchun ishga tushgan tarix plaginini topib boʻlmadi."
-
-#: src/konqmainwindow.cpp:1784
+#: src/konqmainwindow.cpp:1765
 msgid "File Management"
 msgstr "Fayl boshqaruvi"
 
-#: src/konqmainwindow.cpp:1800 about/konq_aboutpage.cc:205
+#: src/konqmainwindow.cpp:1781 about/konq_aboutpage.cc:205
 msgid "Web Browsing"
 msgstr "Internetni koʻrish"
 
-#: src/konqmainwindow.cpp:2056 about/konq_aboutpage.cc:91
+#: src/konqmainwindow.cpp:2037 about/konq_aboutpage.cc:91
 msgid "Home Folder"
 msgstr "Uy jildi"
 
-#: src/konqmainwindow.cpp:2056
+#: src/konqmainwindow.cpp:2037
 #, fuzzy
 #| msgid "Home"
 msgid "Home Page"
 msgstr "Uy"
 
-#: src/konqmainwindow.cpp:2057
+#: src/konqmainwindow.cpp:2038
 #, fuzzy
 #| msgid "Navigate to your 'Home Location'"
 msgid "Navigate to your 'Home Folder'"
 msgstr "Uy manzilingizga oʻtish"
 
-#: src/konqmainwindow.cpp:2057
+#: src/konqmainwindow.cpp:2038
 #, fuzzy
 #| msgid "Navigate to your 'Home Location'"
 msgid "Navigate to your 'Home Page'"
 msgstr "Uy manzilingizga oʻtish"
 
-#: src/konqmainwindow.cpp:2058
+#: src/konqmainwindow.cpp:2039
 #, fuzzy
 #| msgid "Navigate to your 'Home Location'"
 msgid "Navigate to your local 'Home Folder'"
 msgstr "Uy manzilingizga oʻtish"
 
-#: src/konqmainwindow.cpp:2059
+#: src/konqmainwindow.cpp:2040
 msgid ""
 "<html>Navigate to your 'Home Page'<br /><br />You can configure the location "
 "where this button takes you under <b>Settings -> Configure Konqueror -> "
 "General</b>.</html>"
 msgstr ""
 
-#: src/konqmainwindow.cpp:2374 src/konqmainwindow.cpp:2392
+#: src/konqmainwindow.cpp:2355 src/konqmainwindow.cpp:2373
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Detaching the tab will discard these changes."
@@ -495,7 +483,7 @@ msgstr ""
 "Ushbu tabda joʻnatilmagan maʼlumot mavjud.\n"
 "Tabni ajratish natijasida maʼlumot yoʻqoladi."
 
-#: src/konqmainwindow.cpp:2481
+#: src/konqmainwindow.cpp:2462
 msgid ""
 "This view contains changes that have not been submitted.\n"
 "Closing the view will discard these changes."
@@ -503,7 +491,7 @@ msgstr ""
 "Ushbu koʻrinishda joʻnatilmagan maʼlumot mavjud.\n"
 "Koʻrinishni yopish natijasida maʼlumot yoʻqoladi."
 
-#: src/konqmainwindow.cpp:2499 src/konqmainwindow.cpp:2519
+#: src/konqmainwindow.cpp:2480 src/konqmainwindow.cpp:2500
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the tab will discard these changes."
@@ -511,15 +499,15 @@ msgstr ""
 "Ushbu tabda joʻnatilmagan maʼlumot mavjud.\n"
 "Tabni yopish natijasida maʼlumot yoʻqoladi."
 
-#: src/konqmainwindow.cpp:2549
+#: src/konqmainwindow.cpp:2530
 msgid "Do you really want to close all other tabs?"
 msgstr "Rostdan boshqa tablarni yopmoqchimisiz?"
 
-#: src/konqmainwindow.cpp:2550
+#: src/konqmainwindow.cpp:2531
 msgid "Close Other Tabs Confirmation"
 msgstr "Boshqa tablarni yopish"
 
-#: src/konqmainwindow.cpp:2567
+#: src/konqmainwindow.cpp:2548
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing other tabs will discard these changes."
@@ -527,7 +515,7 @@ msgstr ""
 "Ushbu tabda joʻnatilmagan maʼlumot mavjud.\n"
 "Boshqa tablarni yopish natijasida maʼlumot yoʻqoladi."
 
-#: src/konqmainwindow.cpp:2600
+#: src/konqmainwindow.cpp:2581
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Reloading all tabs will discard these changes."
@@ -535,218 +523,220 @@ msgstr ""
 "Ushbu tabda joʻnatilmagan maʼlumot mavjud.\n"
 "Hamma tablarni qaytadan yuklash natijasida maʼlumot yoʻqoladi."
 
-#: src/konqmainwindow.cpp:2644
+#: src/konqmainwindow.cpp:2625
 msgid "Enter Target"
 msgstr "Moʻljalni kiriting"
 
-#: src/konqmainwindow.cpp:2653
+#: src/konqmainwindow.cpp:2634
 #, kde-format
 msgid "<qt><b>%1</b> is not valid</qt>"
 msgstr "<qt><b>%1</b> notoʻgʻri</qt>"
 
-#: src/konqmainwindow.cpp:2668
+#: src/konqmainwindow.cpp:2649
 #, kde-format
 msgid "Copy selected files from %1 to:"
 msgstr "Tanlangan fayllardan (%1) nusxa olish:"
 
-#: src/konqmainwindow.cpp:2677
+#: src/konqmainwindow.cpp:2658
 #, kde-format
 msgid "Move selected files from %1 to:"
 msgstr "Tanlangan fayllarni (%1) koʻchirish:"
 
-#: src/konqmainwindow.cpp:2865
+#: src/konqmainwindow.cpp:2846
 #, fuzzy
 #| msgid "Empty Closed Items History"
 msgctxt "This menu entry empties the closed items history"
 msgid "Empty Closed Items History"
 msgstr "Yopilgan bandlar tarixni boʻshatish"
 
-#: src/konqmainwindow.cpp:2890
+#: src/konqmainwindow.cpp:2871
 #, fuzzy
 #| msgid "Save as.."
 msgid "Save As..."
 msgstr "...sifatida saqlash"
 
-#: src/konqmainwindow.cpp:2892
+#: src/konqmainwindow.cpp:2873
 #, fuzzy
 #| msgid "Manage.."
 msgid "Manage..."
 msgstr "Boshqarish..."
 
-#: src/konqmainwindow.cpp:3528
+#: src/konqmainwindow.cpp:3509 src/konqhistorydialog.cpp:67
 #: sidebar/trees/history_module/history_module.cpp:88
 msgid "New &Window"
 msgstr "&Yangi oyna"
 
-#: src/konqmainwindow.cpp:3533
+#: src/konqmainwindow.cpp:3514
 msgid "&Duplicate Window"
 msgstr "&Oynani nusxasini yaratish"
 
-#: src/konqmainwindow.cpp:3538
+#: src/konqmainwindow.cpp:3519
 msgid "Send &Link Address..."
 msgstr "&Bogʻ manzilini joʻnatish"
 
-#: src/konqmainwindow.cpp:3542
+#: src/konqmainwindow.cpp:3523
 msgid "S&end File..."
 msgstr "&Faylni joʻnatish"
 
-#: src/konqmainwindow.cpp:3546
+#: src/konqmainwindow.cpp:3527
 msgid "&Open Location"
 msgstr "&Manzilni koʻrish"
 
-#: src/konqmainwindow.cpp:3552
+#: src/konqmainwindow.cpp:3533
 msgid "&Open File..."
 msgstr "&Faylni ochish..."
 
-#: src/konqmainwindow.cpp:3557
+#: src/konqmainwindow.cpp:3538
 msgid "&Find File..."
 msgstr "Faylni &qidirish..."
 
-#: src/konqmainwindow.cpp:3566
+#: src/konqmainwindow.cpp:3547
 msgid "&Use index.html"
 msgstr "index.html'dan f&oydalanish"
 
-#: src/konqmainwindow.cpp:3569
+#: src/konqmainwindow.cpp:3550
 msgid "Lock to Current Location"
 msgstr "Joriy manzilga qulflash"
 
-#: src/konqmainwindow.cpp:3572
+#: src/konqmainwindow.cpp:3553
 #, fuzzy
 #| msgid "Lin&k View"
 msgctxt "This option links konqueror views"
 msgid "Lin&k View"
 msgstr "Koʻrinishni &bogʻlash"
 
-#: src/konqmainwindow.cpp:3577
+#: src/konqmainwindow.cpp:3558
 msgid "&Up"
 msgstr "&Yuqoriga"
 
-#: src/konqmainwindow.cpp:3589
+#: src/konqmainwindow.cpp:3570
 msgid "Closed Items"
 msgstr "Yopilgan bandlar"
 
-#: src/konqmainwindow.cpp:3603
+#: src/konqmainwindow.cpp:3584
 msgid "Sessions"
 msgstr "Seanslar"
 
-#: src/konqmainwindow.cpp:3630
+#: src/konqmainwindow.cpp:3611
 msgctxt "@action:inmenu Go"
 msgid "Most Often Visited"
 msgstr "Eng koʻp koʻrilgan"
 
-#: src/konqmainwindow.cpp:3634
+#: src/konqmainwindow.cpp:3615
 msgctxt "@action:inmenu Go"
 msgid "Recently Visited"
 msgstr "Yaqinda koʻrilgan"
 
-#: src/konqmainwindow.cpp:3640
+#: src/konqmainwindow.cpp:3621
+#, fuzzy
+#| msgid "Show History Sidebar"
 msgctxt "@action:inmenu Go"
-msgid "Show History in Sidebar"
+msgid "Show History"
 msgstr "Tarix yon panelini koʻrsatish"
 
-#: src/konqmainwindow.cpp:3646 src/konqmainwindow.cpp:4278
+#: src/konqmainwindow.cpp:3627 src/konqmainwindow.cpp:4259
 msgid "&Save View Profile..."
 msgstr "&Koʻrish profilini saqlash"
 
-#: src/konqmainwindow.cpp:3667
+#: src/konqmainwindow.cpp:3648
 msgid "Configure Extensions..."
 msgstr "Kengaytmalarni moslash"
 
-#: src/konqmainwindow.cpp:3671
+#: src/konqmainwindow.cpp:3652
 msgid "Configure Spell Checking..."
 msgstr "Imloni tekshirishni moslash"
 
-#: src/konqmainwindow.cpp:3677
+#: src/konqmainwindow.cpp:3658
 msgid "Split View &Left/Right"
 msgstr "&Vertikal boʻyicha boʻlish"
 
-#: src/konqmainwindow.cpp:3682
+#: src/konqmainwindow.cpp:3663
 msgid "Split View &Top/Bottom"
 msgstr "&Gorizontal boʻyicha boʻlish"
 
-#: src/konqmainwindow.cpp:3693
+#: src/konqmainwindow.cpp:3674
 msgid "&Duplicate Current Tab"
 msgstr "Tabning &nusxasini yaratish"
 
-#: src/konqmainwindow.cpp:3698
+#: src/konqmainwindow.cpp:3679
 msgid "Detach Current Tab"
 msgstr "Tabni ajratish"
 
-#: src/konqmainwindow.cpp:3703
+#: src/konqmainwindow.cpp:3684
 msgid "&Close Active View"
 msgstr "&Hamma aktiv koʻrinishlarni yopish"
 
-#: src/konqmainwindow.cpp:3708
+#: src/konqmainwindow.cpp:3689
 msgid "Close Current Tab"
 msgstr "Joriy tabni yopish"
 
-#: src/konqmainwindow.cpp:3718
+#: src/konqmainwindow.cpp:3699
 msgid "Activate Next Tab"
 msgstr "Keyingi tabni aktivlashtirish"
 
-#: src/konqmainwindow.cpp:3722
+#: src/konqmainwindow.cpp:3703
 msgid "Activate Previous Tab"
 msgstr "Oldingi tabni aktivlashtirish"
 
-#: src/konqmainwindow.cpp:3730
+#: src/konqmainwindow.cpp:3711
 #, kde-format
 msgid "Activate Tab %1"
 msgstr "%1 tabni aktivlashtirish"
 
-#: src/konqmainwindow.cpp:3735
+#: src/konqmainwindow.cpp:3716
 msgid "Move Tab Left"
 msgstr "Tabni chapga surish"
 
-#: src/konqmainwindow.cpp:3740
+#: src/konqmainwindow.cpp:3721
 msgid "Move Tab Right"
 msgstr "Tabni oʻngga surish"
 
-#: src/konqmainwindow.cpp:3748
+#: src/konqmainwindow.cpp:3729
 msgid "Dump Debug Info"
 msgstr ""
 
-#: src/konqmainwindow.cpp:3753
+#: src/konqmainwindow.cpp:3734
 msgid "C&onfigure View Profiles..."
 msgstr "Koʻrish profillarni m&oslash"
 
-#: src/konqmainwindow.cpp:3755
+#: src/konqmainwindow.cpp:3736
 msgid "Load &View Profile"
 msgstr "Koʻrish pro&filini yuklash"
 
-#: src/konqmainwindow.cpp:3771 sidebar/web_module/web_module.h:61
+#: src/konqmainwindow.cpp:3752 sidebar/web_module/web_module.h:61
 msgid "&Reload"
 msgstr "Qaytadan &yuklash"
 
-#: src/konqmainwindow.cpp:3784
+#: src/konqmainwindow.cpp:3765
 #, fuzzy
 #| msgid "&Reload"
 msgid "&Force Reload"
 msgstr "Qaytadan &yuklash"
 
-#: src/konqmainwindow.cpp:3806
+#: src/konqmainwindow.cpp:3787
 msgid "&Stop"
 msgstr "&Toʻxtatish"
 
-#: src/konqmainwindow.cpp:3819 src/konqmainwindow.cpp:3822
+#: src/konqmainwindow.cpp:3800 src/konqmainwindow.cpp:3803
 msgid "L&ocation: "
 msgstr "&Manzil: "
 
-#: src/konqmainwindow.cpp:3829
+#: src/konqmainwindow.cpp:3810
 msgid "Location Bar"
 msgstr "Manzil paneli"
 
-#: src/konqmainwindow.cpp:3835
+#: src/konqmainwindow.cpp:3816
 msgid ""
 "<html>Location Bar<br /><br />Enter a web address or search term.</html>"
 msgstr ""
 "<html>Manzil paneli<br /><br />Veb-sahifaning manzilini yoki qidirish uchun "
 "soʻzni kiriting.</html>"
 
-#: src/konqmainwindow.cpp:3839
+#: src/konqmainwindow.cpp:3820
 msgid "Clear Location Bar"
 msgstr "Manzil panelini tozalash"
 
-#: src/konqmainwindow.cpp:3843
+#: src/konqmainwindow.cpp:3824
 msgid ""
 "<html>Clear Location bar<br /><br />Clears the contents of the location bar."
 "</html>"
@@ -754,30 +744,30 @@ msgstr ""
 "<html>Manzil panelini tozalash<br /><br />Manzil panelidagi yozuvni "
 "oʻchirish.</html>"
 
-#: src/konqmainwindow.cpp:3848
+#: src/konqmainwindow.cpp:3829
 msgid "&Bookmarks"
 msgstr "&Xatchoʻplar"
 
-#: src/konqmainwindow.cpp:3859
+#: src/konqmainwindow.cpp:3840
 msgid "Bookmark This Location"
 msgstr "Bu manzilni xatchoʻplarga qoʻshish"
 
-#: src/konqmainwindow.cpp:3865
+#: src/konqmainwindow.cpp:3846
 msgid "Kon&queror Introduction"
 msgstr "Konqueror'ga &kirish"
 
-#: src/konqmainwindow.cpp:3870
+#: src/konqmainwindow.cpp:3851
 msgid "Go"
 msgstr "Oʻtish"
 
-#: src/konqmainwindow.cpp:3872
+#: src/konqmainwindow.cpp:3853
 msgid ""
 "<html>Go<br /><br />Goes to the page that has been entered into the location "
 "bar.</html>"
 msgstr ""
 "<html>Oʻtish<br /><br />Manzil panelida koʻrsatilgan sahifaga oʻtadi.</html>"
 
-#: src/konqmainwindow.cpp:3878
+#: src/konqmainwindow.cpp:3859
 #, kde-format
 msgid ""
 "<html>Enter the parent folder<br /><br />For instance, if the current "
@@ -787,23 +777,23 @@ msgstr ""
 "<html>Yuqori jildga oʻtish<br /><br />Masalan, agar joriy jild file:/home/%1 "
 "boʻlsa, shu tugmani bossangiz file:/home jildiga oʻtasiz.</html>"
 
-#: src/konqmainwindow.cpp:3881
+#: src/konqmainwindow.cpp:3862
 msgid "Enter the parent folder"
 msgstr "Yuqori jildga oʻtish"
 
-#: src/konqmainwindow.cpp:3883 src/konqmainwindow.cpp:3884
+#: src/konqmainwindow.cpp:3864 src/konqmainwindow.cpp:3865
 msgid "Move backwards one step in the browsing history"
 msgstr "Koʻrish tarixida bir qadam orqaga oʻtish"
 
-#: src/konqmainwindow.cpp:3886 src/konqmainwindow.cpp:3887
+#: src/konqmainwindow.cpp:3867 src/konqmainwindow.cpp:3868
 msgid "Move forward one step in the browsing history"
 msgstr "Koʻrish tarixida bir qadam oldinga oʻtish"
 
-#: src/konqmainwindow.cpp:3890 src/konqmainwindow.cpp:3891
+#: src/konqmainwindow.cpp:3871 src/konqmainwindow.cpp:3872
 msgid "Move backwards one step in the closed tabs history"
 msgstr "Yopilgan tablar tarixida bir qadam orqaga oʻtish"
 
-#: src/konqmainwindow.cpp:3894
+#: src/konqmainwindow.cpp:3875
 msgid ""
 "<html>Reload the currently displayed document<br /><br />This may, for "
 "example, be needed to refresh web pages that have been modified since they "
@@ -813,11 +803,11 @@ msgstr ""
 "sahifalarga yuklangandan soʻng kiritilgan oʻzgarishlarni koʻrish uchun kerak "
 "boʻlishi mumkin.</html>"
 
-#: src/konqmainwindow.cpp:3897
+#: src/konqmainwindow.cpp:3878
 msgid "Reload the currently displayed document"
 msgstr "Joriy hujjatni qayta yuklash"
 
-#: src/konqmainwindow.cpp:3899
+#: src/konqmainwindow.cpp:3880
 msgid ""
 "<html>Reload all currently displayed documents in tabs<br /><br />This may, "
 "for example, be needed to refresh web pages that have been modified since "
@@ -827,11 +817,11 @@ msgstr ""
 "veb-sahifalarga yuklangandan soʻng kiritilgan oʻzgarishlarni koʻrish uchun "
 "kerak boʻlishi mumkin.</html>"
 
-#: src/konqmainwindow.cpp:3902
+#: src/konqmainwindow.cpp:3883
 msgid "Reload all currently displayed document in tabs"
 msgstr "Hamma tablardagi hujjatlarni qaytadan yuklash"
 
-#: src/konqmainwindow.cpp:3904
+#: src/konqmainwindow.cpp:3885
 msgid ""
 "<html>Stop loading the document<br /><br />All network transfers will be "
 "stopped and Konqueror will display the content that has been received so far."
@@ -840,7 +830,7 @@ msgstr ""
 "<html>Hujjatni yuklashni toʻxtatish<br /><br />Yuklash jarayoni "
 "toʻxtatiladi, hujjatning faqat yuklangan qismi koʻrinadi.</html>"
 
-#: src/konqmainwindow.cpp:3908
+#: src/konqmainwindow.cpp:3889
 #, fuzzy
 #| msgid ""
 #| "<html>Reload the currently displayed document<br /><br />This may, for "
@@ -856,18 +846,18 @@ msgstr ""
 "sahifalarga yuklangandan soʻng kiritilgan oʻzgarishlarni koʻrish uchun kerak "
 "boʻlishi mumkin.</html>"
 
-#: src/konqmainwindow.cpp:3912
+#: src/konqmainwindow.cpp:3893
 #, fuzzy
 #| msgid "Reload all currently displayed document in tabs"
 msgid ""
 "Force a reload of the currently displayed document and any contained images"
 msgstr "Hamma tablardagi hujjatlarni qaytadan yuklash"
 
-#: src/konqmainwindow.cpp:3915
+#: src/konqmainwindow.cpp:3896
 msgid "Stop loading the document"
 msgstr "Hujjatni yuklashni toʻxtatish"
 
-#: src/konqmainwindow.cpp:3917
+#: src/konqmainwindow.cpp:3898
 msgid ""
 "<html>Cut the currently selected text or item(s) and move it to the system "
 "clipboard<br /><br />This makes it available to the <b>Paste</b> command in "
@@ -877,11 +867,11 @@ msgstr ""
 ">Bundan keyin ularni Konqueror va boshqa KDE dasturlariga <b>Qoʻyish</b> "
 "buyrugʻi bilan qoʻyish mumkin.</html>"
 
-#: src/konqmainwindow.cpp:3921
+#: src/konqmainwindow.cpp:3902
 msgid "Move the selected text or item(s) to the clipboard"
 msgstr "Belgilangan matn yoki bandlarni tizimning klipbordiga kesish"
 
-#: src/konqmainwindow.cpp:3923
+#: src/konqmainwindow.cpp:3904
 msgid ""
 "<html>Copy the currently selected text or item(s) to the system "
 "clipboard<br /><br />This makes it available to the <b>Paste</b> command in "
@@ -891,11 +881,11 @@ msgstr ""
 "><br />Bundan keyin ularni Konqueror va boshqa KDE dasturlariga <b>Qoʻyish</"
 "b> buyrugʻi bilan qoʻyish mumkin.</html>"
 
-#: src/konqmainwindow.cpp:3927
+#: src/konqmainwindow.cpp:3908
 msgid "Copy the selected text or item(s) to the clipboard"
 msgstr "Belgilangan matn yoki bandlardan tizimning klipbordiga nusxa olish"
 
-#: src/konqmainwindow.cpp:3929
+#: src/konqmainwindow.cpp:3910
 msgid ""
 "<html>Paste the previously cut or copied clipboard contents<br /><br />This "
 "also works for text copied or cut from other KDE applications.</html>"
@@ -903,11 +893,11 @@ msgstr ""
 "<html>Klipborddagi narsalarni qoʻyish<br /><br />Bu bilan boshqa KDE "
 "dasturidan kesilgan yoki nusxa olingan matnni qoʻyish mumkin.</html>"
 
-#: src/konqmainwindow.cpp:3932
+#: src/konqmainwindow.cpp:3913
 msgid "Paste the clipboard contents"
 msgstr "Klipborddagi narsalarni qoʻyish"
 
-#: src/konqmainwindow.cpp:3934
+#: src/konqmainwindow.cpp:3915
 msgid ""
 "<html>Print the currently displayed document<br /><br />You will be "
 "presented with a dialog where you can set various options, such as the "
@@ -920,105 +910,105 @@ msgstr ""
 "dialog paydo boʻladi.<br /><br />Bu dialog PDF fayliga bosib chiqarish kabi "
 "KDE'ning maxsus xizmatlaridan foydalanish imkoniyatini yaratadi.</html>"
 
-#: src/konqmainwindow.cpp:3940
+#: src/konqmainwindow.cpp:3921
 msgid "Print the current document"
 msgstr "Joriy hujjatni bosib chiqarish"
 
-#: src/konqmainwindow.cpp:3946
+#: src/konqmainwindow.cpp:3927
 msgid "If present, open index.html when entering a folder."
 msgstr ""
 "Jildga oʻtishda, agar u yerda index.html fayli mavjud boʻlsa, uni ochish."
 
-#: src/konqmainwindow.cpp:3947
+#: src/konqmainwindow.cpp:3928
 msgid ""
 "A locked view cannot change folders. Use in combination with 'link view' to "
 "explore many files from one folder"
 msgstr ""
 
-#: src/konqmainwindow.cpp:3948
+#: src/konqmainwindow.cpp:3929
 msgid ""
 "Sets the view as 'linked'. A linked view follows folder changes made in "
 "other linked views."
 msgstr ""
 
-#: src/konqmainwindow.cpp:4130
+#: src/konqmainwindow.cpp:4111
 msgid "Copy &Files..."
 msgstr "Fayllardan &nusxa olish"
 
-#: src/konqmainwindow.cpp:4134
+#: src/konqmainwindow.cpp:4115
 msgid "M&ove Files..."
 msgstr "Fayllarni &joyidan koʻchirish"
 
-#: src/konqmainwindow.cpp:4277
+#: src/konqmainwindow.cpp:4258
 #, kde-format
 msgid "&Save View Profile \"%1\"..."
 msgstr "\"%1\" koʻrish profilini &saqlash"
 
-#: src/konqmainwindow.cpp:4487
+#: src/konqmainwindow.cpp:4468
 msgid ""
 "You have requested to open more than 20 bookmarks in tabs. This might take a "
 "while. Continue?"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4489
+#: src/konqmainwindow.cpp:4470
 #, fuzzy
 #| msgid "Open Folder in Tabs"
 msgid "Open bookmarks folder in new tabs"
 msgstr "Jildni tabda ochish"
 
-#: src/konqmainwindow.cpp:4654
+#: src/konqmainwindow.cpp:4635
 msgid "Open in T&his Window"
 msgstr "&Joriy oynada ochish"
 
-#: src/konqmainwindow.cpp:4655
+#: src/konqmainwindow.cpp:4636
 msgid "Open the document in current window"
 msgstr "Hujjatni joriy oynada ochish"
 
-#: src/konqmainwindow.cpp:4661 sidebar/web_module/web_module.h:54
+#: src/konqmainwindow.cpp:4642 sidebar/web_module/web_module.h:54
 #: sidebar/web_module/web_module.h:57
 msgid "Open in New &Window"
 msgstr "&Yangi oynada ochish"
 
-#: src/konqmainwindow.cpp:4662
+#: src/konqmainwindow.cpp:4643
 msgid "Open the document in a new window"
 msgstr "Hujjatni yangi oynada ochish"
 
-#: src/konqmainwindow.cpp:4668
+#: src/konqmainwindow.cpp:4649
 msgid "Open in &New Tab"
 msgstr "&Yangi tabda ochish"
 
-#: src/konqmainwindow.cpp:4670
+#: src/konqmainwindow.cpp:4651
 msgid "Open the document in a new tab"
 msgstr "Hujjatni yangi tabda ochish"
 
-#: src/konqmainwindow.cpp:4890
+#: src/konqmainwindow.cpp:4871
 msgid "&Open With"
 msgstr "&Bilan ochish"
 
-#: src/konqmainwindow.cpp:4904
+#: src/konqmainwindow.cpp:4885
 #, kde-format
 msgid "Open with %1"
 msgstr "%1 bilan ochish"
 
-#: src/konqmainwindow.cpp:4950
+#: src/konqmainwindow.cpp:4931
 msgctxt "@action:inmenu View"
 msgid "&View Mode"
 msgstr "Koʻrish &usuli"
 
-#: src/konqmainwindow.cpp:5066
+#: src/konqmainwindow.cpp:5047
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "Ushbu oynada bir nechta tab ochilgan. Chiqishga ishonchingiz komilmi?"
 
-#: src/konqmainwindow.cpp:5068 src/konqviewmanager.cpp:1315
+#: src/konqmainwindow.cpp:5049 src/konqviewmanager.cpp:1315
 msgid "Confirmation"
 msgstr "Tasdiqlash"
 
-#: src/konqmainwindow.cpp:5070
+#: src/konqmainwindow.cpp:5051
 msgid "C&lose Current Tab"
 msgstr "J&oriy tabni yopish"
 
-#: src/konqmainwindow.cpp:5103
+#: src/konqmainwindow.cpp:5084
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1026,7 +1016,7 @@ msgstr ""
 "Ushbu tabda joʻnatilmagan maʼlumot mavjud.\n"
 "Oynani yopish natijasida maʼlumot yoʻqoladi."
 
-#: src/konqmainwindow.cpp:5104
+#: src/konqmainwindow.cpp:5085
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1034,34 +1024,34 @@ msgstr ""
 "Ushbu sahifada joʻnatilmagan maʼlumot mavjud.\n"
 "Oynani yopish natijasida maʼlumot yoʻqoladi."
 
-#: src/konqmainwindow.cpp:5145 src/konqmainwindow.cpp:5205
+#: src/konqmainwindow.cpp:5126 src/konqmainwindow.cpp:5186
 #: src/konqclosedwindowsmanager.cpp:379
 msgid "no name"
 msgstr ""
 
-#: src/konqmainwindow.cpp:5272
+#: src/konqmainwindow.cpp:5253
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr "Yon paneli toʻgʻri ishlamayapti. Yangi bandni qoʻshib boʻlmaydi."
 
-#: src/konqmainwindow.cpp:5272 src/konqmainwindow.cpp:5279
+#: src/konqmainwindow.cpp:5253 src/konqmainwindow.cpp:5260
 msgid "Web Sidebar"
 msgstr "Veb yon paneli"
 
-#: src/konqmainwindow.cpp:5277
+#: src/konqmainwindow.cpp:5258
 #, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr "Veb-kengaytmani '%1' yon paneliga qoʻshishni istaysizmi?"
 
-#: src/konqmainwindow.cpp:5279
+#: src/konqmainwindow.cpp:5260
 msgid "Add"
 msgstr "Qoʻshish"
 
-#: src/konqmainwindow.cpp:5279
+#: src/konqmainwindow.cpp:5260
 msgid "Do Not Add"
 msgstr "Qoʻshilmasin"
 
-#: src/konqmainwindow.cpp:5576
+#: src/konqmainwindow.cpp:5557
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
@@ -1110,6 +1100,55 @@ msgstr ""
 #: sidebar/trees/history_module/history_module.h:62
 msgid "Miscellaneous"
 msgstr "Har xil"
+
+#: src/konqhistorydialog.cpp:45
+msgid "History"
+msgstr "Tarix"
+
+#: src/konqhistorydialog.cpp:71
+#: sidebar/trees/history_module/history_module.cpp:92
+msgid "&Remove Entry"
+msgstr "Bandni &olib tashlash"
+
+#: src/konqhistorydialog.cpp:75
+#: sidebar/trees/history_module/history_module.cpp:96
+msgid "C&lear History"
+msgstr "Tarixni &boʻshatish"
+
+#: src/konqhistorydialog.cpp:79
+#: sidebar/trees/history_module/history_module.cpp:100
+msgid "&Preferences..."
+msgstr "&Moslash..."
+
+#: src/konqhistorydialog.cpp:86
+#: sidebar/trees/history_module/history_module.cpp:107
+msgid "By &Name"
+msgstr "&Nomi boʻyicha"
+
+#: src/konqhistorydialog.cpp:92
+#: sidebar/trees/history_module/history_module.cpp:113
+msgid "By &Date"
+msgstr "&Sana boʻyicha"
+
+#: src/konqhistorydialog.cpp:129
+#: sidebar/trees/history_module/history_module.cpp:261
+#, fuzzy
+#| msgid "Sort"
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "Saralash"
+
+#: src/konqhistorydialog.cpp:171
+#: sidebar/trees/history_module/history_module.cpp:370
+#: sidebar/trees/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr "Rostdan butun tarixni boʻshatmoqchimisiz?"
+
+#: src/konqhistorydialog.cpp:172
+#: sidebar/trees/history_module/history_module.cpp:372
+#: sidebar/trees/history_module/kcmhistory.cpp:256
+msgid "Clear History?"
+msgstr "Tarixni boʻshataymi?"
 
 #: src/konqview.cpp:1314
 msgid ""
@@ -1263,43 +1302,6 @@ msgstr "Belgilash turi"
 #: sidebar/trees/konqsidebar_tree.cpp:139
 msgid "Select type:"
 msgstr "Turini tanlang:"
-
-#: sidebar/trees/history_module/history_module.cpp:92
-msgid "&Remove Entry"
-msgstr "Bandni &olib tashlash"
-
-#: sidebar/trees/history_module/history_module.cpp:96
-msgid "C&lear History"
-msgstr "Tarixni &boʻshatish"
-
-#: sidebar/trees/history_module/history_module.cpp:100
-msgid "&Preferences..."
-msgstr "&Moslash..."
-
-#: sidebar/trees/history_module/history_module.cpp:107
-msgid "By &Name"
-msgstr "&Nomi boʻyicha"
-
-#: sidebar/trees/history_module/history_module.cpp:113
-msgid "By &Date"
-msgstr "&Sana boʻyicha"
-
-#: sidebar/trees/history_module/history_module.cpp:261
-#, fuzzy
-#| msgid "Sort"
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "Saralash"
-
-#: sidebar/trees/history_module/history_module.cpp:370
-#: sidebar/trees/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr "Rostdan butun tarixni boʻshatmoqchimisiz?"
-
-#: sidebar/trees/history_module/history_module.cpp:372
-#: sidebar/trees/history_module/kcmhistory.cpp:256
-msgid "Clear History?"
-msgstr "Tarixni boʻshataymi?"
 
 #: sidebar/trees/history_module/kcmhistory.cpp:76
 #: sidebar/trees/history_module/kcmhistory.cpp:81
@@ -2262,6 +2264,16 @@ msgstr "Batafsil eslatmalar"
 msgid "Clear History"
 msgstr "Tarixni boʻshatish"
 
+#~ msgid "Your sidebar is not functional or unavailable."
+#~ msgstr "Yon paneli toʻgʻri ishlamayapti."
+
+#~ msgid "Cannot find running history plugin in your sidebar."
+#~ msgstr "Yon panel uchun ishga tushgan tarix plaginini topib boʻlmadi."
+
+#~ msgctxt "@action:inmenu Go"
+#~ msgid "Show History in Sidebar"
+#~ msgstr "Tarix yon panelini koʻrsatish"
+
 #~ msgid "Reload"
 #~ msgstr "Qaytadan yuklash"
 
@@ -2314,9 +2326,6 @@ msgstr "Tarixni boʻshatish"
 #, fuzzy
 #~ msgid "Speech Toolbar"
 #~ msgstr "As&boblar panelida koʻrsatish"
-
-#~ msgid "History"
-#~ msgstr "Tarix"
 
 #~ msgid "Conquer your Desktop!"
 #~ msgstr "Ish stolingizni moslang!"
