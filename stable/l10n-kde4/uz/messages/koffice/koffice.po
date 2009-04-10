@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-06 06:46+0200\n"
+"POT-Creation-Date: 2009-04-10 06:30+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -717,7 +717,7 @@ msgstr "US Letter"
 msgid "US Legal"
 msgstr ""
 
-#: main/KoPageFormat.cpp:64
+#: main/KoPageFormat.cpp:64 pigment/compositeops/KoCompositeOpScreen.h:35
 msgid "Screen"
 msgstr "Ekran"
 
@@ -1565,7 +1565,7 @@ msgstr "Skript paketini oʻrnatish"
 #. i18n: file: guiutils/KoEditColorSet.ui:45
 #. i18n: ectx: property (toolTip), widget (QToolButton, add)
 #: kokross/KoScriptManagerAdd.cpp:304 kokross/KoScriptManagerAdd.cpp:307
-#: rc.cpp:433
+#: rc.cpp:433 pigment/compositeops/KoCompositeOpAdd.h:35
 #, fuzzy
 msgid "Add"
 msgstr "&Qoʻshish"
@@ -3411,6 +3411,57 @@ msgstr "elektron jadvali"
 msgid "SVG Gradient"
 msgstr ""
 
+#: pigment/compositeops/KoCompositeOpDodge.h:36
+#, fuzzy
+msgid "Dodge"
+msgstr "Toʻq koʻk"
+
+#: pigment/compositeops/KoCompositeOpMultiply.h:34
+msgid "Multiply"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOpOverlay.h:35
+#, fuzzy
+msgid "Overlay"
+msgstr "Tagiga chizilgan"
+
+#: pigment/compositeops/KoCompositeOpDivide.h:35
+msgid "Divide"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOpErase.h:39
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:217
+#, fuzzy
+msgid "Erase"
+msgstr "yolgʻon"
+
+#: pigment/compositeops/KoCompositeOpSubstract.h:35
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:282
+#, fuzzy
+msgid "Subtract"
+msgstr "Qisqacha mazmuni"
+
+#: pigment/compositeops/KoCompositeOpBurn.h:35
+#, fuzzy
+#| msgctxt "color"
+#| msgid "Brown"
+msgid "Burn"
+msgstr "Malla"
+
+#: pigment/compositeops/KoCompositeOpOver.h:35
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:43
+msgid "Normal"
+msgstr "Oddiy"
+
+#: pigment/compositeops/KoCompositeOpAlphaDarken.h:40
+msgid "Alphadarken"
+msgstr ""
+
+#: pigment/KoColorSpaceAbstract.h:45
+#, fuzzy
+msgid "Copy"
+msgstr "Tashkilot"
+
 #: pigment/tests/CCSGraph.cpp:39
 msgid "CCSGraph"
 msgstr ""
@@ -3449,23 +3500,14 @@ msgstr ""
 msgid "name of the output file"
 msgstr ""
 
-#: pigment/colorspaces/KoAlphaColorSpace.cpp:43
-msgid "Normal"
-msgstr "Oddiy"
+#: pigment/colorspaces/KoRgbU8ColorSpace.h:62
+#: pigment/colorspaces/KoRgbU8ColorSpace.cc:71
+msgid "RGB (8-bit integer/channel)"
+msgstr ""
 
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:142
 msgid "Clear"
 msgstr ""
-
-#: pigment/colorspaces/KoAlphaColorSpace.cpp:217
-#, fuzzy
-msgid "Erase"
-msgstr "yolgʻon"
-
-#: pigment/colorspaces/KoAlphaColorSpace.cpp:282
-#, fuzzy
-msgid "Subtract"
-msgstr "Qisqacha mazmuni"
 
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:350
 msgid "Alpha mask"
@@ -3480,11 +3522,23 @@ msgid "Alpha"
 msgstr ""
 
 #: pigment/colorspaces/KoRgbU16ColorSpace.cpp:29
+#: pigment/colorspaces/KoRgbU16ColorSpace.h:53
 msgid "RGB (16-bit integer/channel)"
 msgstr ""
 
-#: pigment/colorspaces/KoRgbU8ColorSpace.cc:71
-msgid "RGB (8-bit integer/channel)"
+#: pigment/colorspaces/KoAlphaColorSpace.h:125
+#: pigment/colorspaces/KoAlphaColorSpace.h:130
+#: pigment/colorspaces/KoAlphaColorSpace.h:135
+#: pigment/colorspaces/KoAlphaColorSpace.h:140
+#: pigment/colorspaces/KoAlphaColorSpace.h:145
+#: pigment/colorspaces/KoAlphaColorSpace.h:149
+#: pigment/colorspaces/KoAlphaColorSpace.h:153
+msgid "Undefined operation in the alpha colorspace"
+msgstr ""
+
+#: pigment/colorspaces/KoLabColorSpace.h:65
+#: pigment/colorspaces/KoLabColorSpace.cpp:33
+msgid "L*a*b* (16-bit integer/channel)"
 msgstr ""
 
 #: pigment/colorspaces/KoRgbU8ColorSpace.cc:81
@@ -3509,10 +3563,6 @@ msgstr "Qiymati"
 msgid "Color"
 msgstr "Rangi:"
 
-#: pigment/colorspaces/KoLabColorSpace.cpp:33
-msgid "L*a*b* (16-bit integer/channel)"
-msgstr ""
-
 #: pigment/colorspaces/KoLabColorSpace.cpp:36
 #: pigment/KoBasicHistogramProducers.cpp:418
 msgid "a*"
@@ -3524,6 +3574,7 @@ msgid "b*"
 msgstr ""
 
 #: pigment/KoBasicHistogramProducers.cpp:348
+#: pigment/KoBasicHistogramProducers.h:162
 msgid "Generic RGB Histogram"
 msgstr ""
 
@@ -3597,6 +3648,10 @@ msgstr ""
 
 #: pigment/KoIccColorSpaceEngine.cpp:109
 msgid "ICC Engine"
+msgstr ""
+
+#: pigment/KoBasicHistogramProducers.h:191
+msgid "Generic L*a*b* Histogram"
 msgstr ""
 
 #: pigment/KoColorSpaceRegistry.cpp:168
@@ -5371,10 +5426,6 @@ msgstr "Matnni oʻchirish"
 #~ msgstr "Sariq"
 
 #~ msgctxt "color"
-#~ msgid "Brown"
-#~ msgstr "Malla"
-
-#~ msgctxt "color"
 #~ msgid "DarkRed"
 #~ msgstr "Toʻq qizil"
 
@@ -5867,11 +5918,6 @@ msgstr "Matnni oʻchirish"
 
 #, fuzzy
 #~ msgctxt "color"
-#~ msgid "DodgerBlue"
-#~ msgstr "Toʻq koʻk"
-
-#, fuzzy
-#~ msgctxt "color"
 #~ msgid "OrangeRed"
 #~ msgstr "Apelsin"
 
@@ -6020,10 +6066,6 @@ msgstr "Matnni oʻchirish"
 #~| msgid "None"
 #~ msgid "done"
 #~ msgstr "Yoʻq"
-
-#, fuzzy
-#~ msgid "Copy"
-#~ msgstr "Tashkilot"
 
 #, fuzzy
 #~ msgid "Fonts"
@@ -6384,10 +6426,6 @@ msgstr "Matnni oʻchirish"
 #, fuzzy
 #~ msgid "Delimited list"
 #~ msgstr "Indekslangan roʻyxat"
-
-#, fuzzy
-#~ msgid "Overline"
-#~ msgstr "Tagiga chizilgan"
 
 #~ msgid "Append Column"
 #~ msgstr "Ustunni qoʻshish"
