@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-13 11:12+0200\n"
+"POT-Creation-Date: 2009-04-14 11:16+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -417,19 +417,19 @@ msgstr "%1 uchun juda koʻp namuna topildi."
 msgid "Template %1 failed to load."
 msgstr "%1 namunani yuklash muvaffaqiyatsiz tugadi."
 
-#: main/KoGridData.cpp:209
+#: main/KoGridData.cpp:207
 #, fuzzy
 #| msgid "Show %1"
 msgid "Show Grid"
 msgstr "%1 oynasini koʻrsatish"
 
-#: main/KoGridData.cpp:210
+#: main/KoGridData.cpp:208
 #, fuzzy
 #| msgid "Guide Lines"
 msgid "Hide Grid"
 msgstr "Yordamchi chiziqlar"
 
-#: main/KoGridData.cpp:211
+#: main/KoGridData.cpp:209
 msgid "Shows or hides grid"
 msgstr ""
 
@@ -975,7 +975,7 @@ msgstr "Faylni yaratish"
 msgid "Save as %1"
 msgstr "%1 sifatida saqlash"
 
-#: main/KoMainWindow.cpp:608 kokross/KoScriptManager.cpp:330
+#: main/KoMainWindow.cpp:608 kokross/KoScriptManager.cpp:299
 #, fuzzy
 msgid "Save"
 msgstr "Toʻlqin"
@@ -1526,50 +1526,50 @@ msgstr ""
 msgid "Do you want to save the password?"
 msgstr "Namunani rostdan olib tashlashni istaysizmi?"
 
-#: kokross/KoScriptingPart.cpp:79
+#: kokross/KoScriptingPart.cpp:81
 msgid "Execute Script File..."
 msgstr "Skript faylini ishga tushirish..."
 
-#: kokross/KoScriptingPart.cpp:83 kokross/KoScriptingDocker.cpp:109
+#: kokross/KoScriptingPart.cpp:85 kokross/KoScriptingDocker.cpp:76
 msgid "Scripts"
 msgstr "Skriptlar"
 
-#: kokross/KoScriptingPart.cpp:87
+#: kokross/KoScriptingPart.cpp:89
 #, fuzzy
 msgid "Script Manager..."
 msgstr "Skriptlar boshqaruvchisi"
 
-#: kokross/KoScriptingPart.cpp:156
+#: kokross/KoScriptingPart.cpp:158
 msgid "Execute Script File"
 msgstr "Skript faylini ishga tushirish"
 
-#: kokross/KoScriptManager.cpp:208
+#: kokross/KoScriptManager.cpp:177
 msgid "Install Script Package"
 msgstr "Skript paketini oʻrnatish"
 
-#: kokross/KoScriptManager.cpp:246
+#: kokross/KoScriptManager.cpp:215
 #, kde-format
 msgid "Could not read the package \"%1\"."
 msgstr "'%1' paketini oʻqib boʻlmadi."
 
-#: kokross/KoScriptManager.cpp:253
+#: kokross/KoScriptManager.cpp:222
 #, kde-format
 msgid "The package \"%1\" does not contain a valid install.rc file."
 msgstr ""
 
-#: kokross/KoScriptManager.cpp:260
+#: kokross/KoScriptManager.cpp:229
 #, kde-format
 msgid "Failed to parse the install.rc file at package \"%1\"."
 msgstr ""
 
-#: kokross/KoScriptManager.cpp:266
+#: kokross/KoScriptManager.cpp:235
 #, kde-format
 msgid ""
 "Failed to determinate location where the package \"%1\" should be installed "
 "to."
 msgstr ""
 
-#: kokross/KoScriptManager.cpp:276
+#: kokross/KoScriptManager.cpp:245
 #, kde-format
 msgid ""
 "A script package with the name \"%1\" already exists. Replace this package?"
@@ -1577,12 +1577,12 @@ msgstr ""
 "\"%1\" nomli skript paketi allaqachon mavjud. Ushbu paketni almashtirishni "
 "istaysizmi?"
 
-#: kokross/KoScriptManager.cpp:277
+#: kokross/KoScriptManager.cpp:246
 #, fuzzy
 msgid "Replace"
 msgstr "&Almashtirish:"
 
-#: kokross/KoScriptManager.cpp:280
+#: kokross/KoScriptManager.cpp:249
 #, kde-format
 msgid ""
 "Could not uninstall this script package. You may not have sufficient "
@@ -1591,7 +1591,7 @@ msgstr ""
 "Ushbu skript paketini tizimdan olib tashlab boʻlmadi. Sizda \"%1\" paketini "
 "olib tashlashga yetarli huquq boʻlmasligi mumkin."
 
-#: kokross/KoScriptManager.cpp:310
+#: kokross/KoScriptManager.cpp:279
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not uninstall this script package. You may not have sufficient "
@@ -1603,7 +1603,7 @@ msgstr ""
 "Ushbu skript paketini tizimdan olib tashlab boʻlmadi. Sizda \"%1\" paketini "
 "olib tashlashga yetarli huquq boʻlmasligi mumkin."
 
-#: kokross/KoScriptManager.cpp:316
+#: kokross/KoScriptManager.cpp:285
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not uninstall this script package. You may not have sufficient "
@@ -1615,36 +1615,36 @@ msgstr ""
 "Ushbu skript paketini tizimdan olib tashlab boʻlmadi. Sizda \"%1\" paketini "
 "olib tashlashga yetarli huquq boʻlmasligi mumkin."
 
-#: kokross/KoScriptManager.cpp:328 kokross/KoScriptingDocker.cpp:145
+#: kokross/KoScriptManager.cpp:297 kokross/KoScriptingDocker.cpp:111
 #, fuzzy
 #| msgid "Scripts Manager"
 msgid "Script Manager"
 msgstr "Skriptlar boshqaruvchisi"
 
-#: kokross/KoScriptManagerAdd.cpp:64
+#: kokross/KoScriptManagerAdd.cpp:52
 msgid ""
 "<qt>This wizard will guide you through the proccess of adding a new resource "
 "to your scripts.</qt>"
 msgstr ""
 
-#: kokross/KoScriptManagerAdd.cpp:69
+#: kokross/KoScriptManagerAdd.cpp:57
 #, fuzzy
 #| msgid "Scriptfile"
 msgid "Add script file"
 msgstr "Skript fayli"
 
-#: kokross/KoScriptManagerAdd.cpp:74
+#: kokross/KoScriptManagerAdd.cpp:62
 #, fuzzy
 msgid "Add collection folder"
 msgstr "Yakunlovchi soʻzni kiriting"
 
-#: kokross/KoScriptManagerAdd.cpp:77
+#: kokross/KoScriptManagerAdd.cpp:65
 #, fuzzy
 #| msgid "Install Script Package"
 msgid "Install script package file"
 msgstr "Skript paketini oʻrnatish"
 
-#: kokross/KoScriptManagerAdd.cpp:81
+#: kokross/KoScriptManagerAdd.cpp:69
 #, fuzzy
 #| msgid "Install Script Package"
 msgid "Install online script package"
@@ -1652,25 +1652,25 @@ msgstr "Skript paketini oʻrnatish"
 
 #. i18n: file: guiutils/KoEditColorSet.ui:45
 #. i18n: ectx: property (toolTip), widget (QToolButton, add)
-#: kokross/KoScriptManagerAdd.cpp:304 kokross/KoScriptManagerAdd.cpp:307
+#: kokross/KoScriptManagerAdd.cpp:272 kokross/KoScriptManagerAdd.cpp:275
 #: rc.cpp:433 pigment/compositeops/KoCompositeOpAdd.h:35
 #, fuzzy
 msgid "Add"
 msgstr "&Qoʻshish"
 
-#: kokross/KoScriptManagerAdd.cpp:311
+#: kokross/KoScriptManagerAdd.cpp:279
 #, fuzzy
 #| msgid "Scriptfile"
 msgid "Script File"
 msgstr "Skript fayli"
 
-#: kokross/KoScriptManagerAdd.cpp:314
+#: kokross/KoScriptManagerAdd.cpp:282
 #, fuzzy
 #| msgid "Scripts"
 msgid "Script"
 msgstr "Skriptlar"
 
-#: kokross/KoScriptManagerAdd.cpp:317
+#: kokross/KoScriptManagerAdd.cpp:285
 #, fuzzy
 #| msgid "Completion"
 msgid "Collection"
@@ -3980,76 +3980,72 @@ msgstr "Soniya"
 msgid "D&elete"
 msgstr "Matnni oʻchirish"
 
-#: kopageapp/KoPAView.cpp:222
-msgid "Show &Grid"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:225
+#: kopageapp/KoPAView.cpp:223
 msgid "Snap to Grid"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:230
+#: kopageapp/KoPAView.cpp:228
 msgid "Show Guides"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:232
+#: kopageapp/KoPAView.cpp:230
 #, fuzzy
 #| msgid "Guide Lines"
 msgid "Hide Guides"
 msgstr "Yordamchi chiziqlar"
 
-#: kopageapp/KoPAView.cpp:233
+#: kopageapp/KoPAView.cpp:231
 msgid "Shows or hides guides"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:237
+#: kopageapp/KoPAView.cpp:235
 msgid "Show Master Pages"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:241
+#: kopageapp/KoPAView.cpp:239
 msgid "Show Rulers"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:243
+#: kopageapp/KoPAView.cpp:241
 msgid "Show/hide the view's rulers"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:247
+#: kopageapp/KoPAView.cpp:245
 #, fuzzy
 msgid "Insert Page"
 msgstr "Matnni qoʻyish"
 
-#: kopageapp/KoPAView.cpp:249 kopageapp/KoPAView.cpp:250
+#: kopageapp/KoPAView.cpp:247 kopageapp/KoPAView.cpp:248
 msgid "Insert a new page after the current one"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:253
+#: kopageapp/KoPAView.cpp:251
 #, fuzzy
 #| msgid "Company Name"
 msgid "Copy Page"
 msgstr "Tashkilotning nomi"
 
-#: kopageapp/KoPAView.cpp:255 kopageapp/KoPAView.cpp:256
+#: kopageapp/KoPAView.cpp:253 kopageapp/KoPAView.cpp:254
 msgid "Copy the current page"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:259
+#: kopageapp/KoPAView.cpp:257
 #, fuzzy
 msgid "Delete Page"
 msgstr "Matnni oʻchirish"
 
-#: kopageapp/KoPAView.cpp:262 kopageapp/KoPAView.cpp:263
+#: kopageapp/KoPAView.cpp:260 kopageapp/KoPAView.cpp:261
 #, fuzzy
 msgid "Delete the current page"
 msgstr "Matnni oʻchirish"
 
-#: kopageapp/KoPAView.cpp:266
+#: kopageapp/KoPAView.cpp:264
 #, fuzzy
 #| msgid "Paste Text"
 msgid "Master Page..."
 msgstr "Matnni qoʻyish"
 
-#: kopageapp/KoPAView.cpp:275
+#: kopageapp/KoPAView.cpp:273
 msgid "Variable"
 msgstr "Oʻzgaruvchi"
 
