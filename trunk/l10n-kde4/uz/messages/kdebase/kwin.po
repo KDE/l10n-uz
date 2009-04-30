@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-29 11:56+0200\n"
+"POT-Creation-Date: 2009-04-30 11:41+0200\n"
 "PO-Revision-Date: 2006-12-17 12:27+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -823,21 +823,19 @@ msgstr "Bu yordamchi vositani toʻgʻridan-toʻgʻri ishga tushirish mumkin emas
 #| "terminate this application? (All unsaved data in this application will be "
 #| "lost.)</qt>"
 msgid ""
-"<p>Window with title \"<b>%2</b>\" is not responding. This window belongs to "
-"application <b>%1</b> (PID=%3, hostname=%4).</p><p>Do you wish to terminate "
-"this application? (All unsaved data in this application will be lost.)</p>"
+"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
+"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
+"the application process <em>including <b>all</b> of its child windows</em>?"
+"<br /><b>Any unsaved data will be lost!</b></p>"
 msgstr ""
 "<qt>\"<b>%2</b>\" sarlavhali oyna javob bermayapti. U <b>%1</b> dasturiga "
 "tegishli (PID=%3, xost nomi=%4).<p>Shu dasturni toʻxtatishni istaysizmi? "
 "(Dasturdagi hamma saqlanmagan maʼlumot yoʻqoladi.)</qt>"
 
-#: killer/killer.cpp:72
-msgid "Terminate"
-msgstr "Toʻxtatish"
-
-#: killer/killer.cpp:72
-msgid "Keep Running"
-msgstr "Davom etish"
+#: killer/killer.cpp:73
+#, kde-format
+msgid "&Terminate application %1"
+msgstr ""
 
 #: lib/kcommondecoration.cpp:286
 #, fuzzy, kde-format
@@ -916,6 +914,12 @@ msgstr "Andoza bezak plagini buzuq, uni yuklab boʻlmadi."
 #, kde-format
 msgid "The library %1 is not a KWin plugin."
 msgstr "%1 kutubxonasi KWin plagini emas."
+
+#~ msgid "Terminate"
+#~ msgstr "Toʻxtatish"
+
+#~ msgid "Keep Running"
+#~ msgstr "Davom etish"
 
 #, fuzzy
 #~| msgid "Desktop %1"
