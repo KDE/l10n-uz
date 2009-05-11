@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-15 23:34+0000\n"
+"POT-Creation-Date: 2009-05-10 23:18+0000\n"
 "PO-Revision-Date: 2006-10-02 23:59+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -522,10 +522,6 @@ msgstr "Comment=Rasm va diagrammalar yaratish"
 msgid "Name=KOffice Chart Component"
 msgstr "Name=KOffice diagramma komponenti"
 
-#: kchart/templates/.directory:2
-msgid "Name=Charts"
-msgstr "Name=Diagrammalar"
-
 #: kchart/templates/BarChart.desktop:4
 msgid "Name=Bar Chart"
 msgstr "Name=Gistogramma"
@@ -533,6 +529,10 @@ msgstr "Name=Gistogramma"
 #: kchart/templates/BarChart.desktop:52
 msgid "Comment=An example of a bar chart"
 msgstr "Comment=Gistogramma namunasi"
+
+#: kchart/templates/.directory:2
+msgid "Name=Charts"
+msgstr "Name=Diagrammalar"
 
 #: kchart/templates/Empty.desktop:4
 #: kspread/templates/General/Worksheet.desktop:4
@@ -559,9 +559,9 @@ msgstr "Comment=Maʼlumot bazasi serveri bilan bogʻlanish"
 msgid "Comment=Shortcut to Kexi Project on Database Server"
 msgstr "Comment=Maʼlumot bazasidagi Kexi loyihasiga bogʻlama"
 
-#: kexi/data/x-kexiproject-sqlite.desktop:7
 #: kexi/data/x-kexiproject-sqlite2.desktop:7
 #: kexi/data/x-kexiproject-sqlite3.desktop:7
+#: kexi/data/x-kexiproject-sqlite.desktop:7
 msgid "Comment=Kexi Database File-Based Project"
 msgstr "Comment=Kexi uchun fayl asosidagi maʼlumot baza loyihasi"
 
@@ -593,18 +593,6 @@ msgstr "Name=Shakl dizayneri"
 msgid "Comment=Widget Factory Base"
 msgstr ""
 
-#: kexi/kexi.desktop:2
-msgid "Name=Kexi"
-msgstr "Name=Kexi"
-
-#: kexi/kexi.desktop:12
-msgid "GenericName=Database Creator"
-msgstr "GenericName=Maʼlumot baza yaratuvchi"
-
-#: kexi/kexi.desktop:62
-msgid "Comment=Develop desktop database applications"
-msgstr "Comment=Maʼlumot bazasi asosida dasturlarni tuzish"
-
 #: kexi/kexidb/drivers/mySQL/kexidb_mysqldriver.desktop:2
 #: kexi/migration/mysql/keximigrate_mysql.desktop:2
 msgid "Name=MySQL"
@@ -623,22 +611,34 @@ msgstr ""
 msgid "Name=PostgreSQL"
 msgstr "Name=PostgreSQL"
 
-#: kexi/kexidb/drivers/sqlite/kexidb_sqlite3driver.desktop:2
-msgid "Name=SQLite3"
-msgstr "Name=SQLite3"
-
-#: kexi/kexidb/drivers/sqlite/kexidb_sqlite3driver.desktop:4
-#: kexi/kexidb/drivers/sqlite2/kexidb_sqlite2driver.desktop:4
-msgid "Comment=SQLite is default Kexi embedded SQL engine"
-msgstr ""
-
 #: kexi/kexidb/drivers/sqlite2/kexidb_sqlite2driver.desktop:2
 msgid "Name=SQLite2"
 msgstr "Name=SQLite2"
 
+#: kexi/kexidb/drivers/sqlite2/kexidb_sqlite2driver.desktop:4
+#: kexi/kexidb/drivers/sqlite/kexidb_sqlite3driver.desktop:4
+msgid "Comment=SQLite is default Kexi embedded SQL engine"
+msgstr ""
+
+#: kexi/kexidb/drivers/sqlite/kexidb_sqlite3driver.desktop:2
+msgid "Name=SQLite3"
+msgstr "Name=SQLite3"
+
 #: kexi/kexidb/kexidb_driver.desktop:4
 msgid "Comment=Kexi SQL-Driver plugin"
 msgstr "Comment=Kexi SQL-drayver plagini"
+
+#: kexi/kexi.desktop:2
+msgid "Name=Kexi"
+msgstr "Name=Kexi"
+
+#: kexi/kexi.desktop:12
+msgid "GenericName=Database Creator"
+msgstr "GenericName=Maʼlumot baza yaratuvchi"
+
+#: kexi/kexi.desktop:62
+msgid "Comment=Develop desktop database applications"
+msgstr "Comment=Maʼlumot bazasi asosida dasturlarni tuzish"
 
 #: kexi/migration/keximigration_driver.desktop:4
 msgid "Comment=Kexi Data Migration Driver"
@@ -831,22 +831,17 @@ msgstr "Name=Manbalar roʻyxati"
 msgid "Name=List of Tasks"
 msgstr "Name=Vazifalar roʻyxati"
 
-#: kplato/templates/Simple/.directory:2
-msgid "Name=Simple"
-msgstr "Name=Oddiy"
-
 #: kplato/templates/Simple/8HourDay-40HourWeek.desktop:4
 msgid "Name=8 hour day, 40 hour week"
 msgstr "Name=8 soatlik ish kuni, 40 soatlik ish haftasi"
 
+#: kplato/templates/Simple/.directory:2
+msgid "Name=Simple"
+msgstr "Name=Oddiy"
+
 #: kplato/templates/Simple/Plain.desktop:4
 msgid "Name=Plain"
 msgstr "Name=Oddiy"
-
-#: kpresenter/autoforms/Arrows/.directory:2
-#, fuzzy
-msgid "Name=Arrows"
-msgstr "Name=Yuqoriga belgisi"
 
 #: kpresenter/autoforms/Arrows/ArrowDown.desktop:4
 msgid "Name=Arrow Down"
@@ -880,14 +875,10 @@ msgstr "Name=Oʻngga/Yuqoriga belgisi"
 msgid "Name=Arrow Up"
 msgstr "Name=Yuqoriga belgisi"
 
-#: kpresenter/autoforms/Connections/.directory:2
+#: kpresenter/autoforms/Arrows/.directory:2
 #, fuzzy
-msgid "Name=Connections"
-msgstr "Name=Ulanish 09"
-
-#: kpresenter/autoforms/Connections/Connection1.desktop:4
-msgid "Name=Connection 01"
-msgstr "Name=Ulanish 01"
+msgid "Name=Arrows"
+msgstr "Name=Yuqoriga belgisi"
 
 #: kpresenter/autoforms/Connections/Connection10.desktop:4
 msgid "Name=Connection 10"
@@ -900,6 +891,10 @@ msgstr "Name=Ulanish 11"
 #: kpresenter/autoforms/Connections/Connection12.desktop:4
 msgid "Name=Connection 12"
 msgstr "Name=Ulanish 12"
+
+#: kpresenter/autoforms/Connections/Connection1.desktop:4
+msgid "Name=Connection 01"
+msgstr "Name=Ulanish 01"
 
 #: kpresenter/autoforms/Connections/Connection2.desktop:4
 msgid "Name=Connection 02"
@@ -933,6 +928,11 @@ msgstr "Name=Ulanish 08"
 msgid "Name=Connection 09"
 msgstr "Name=Ulanish 09"
 
+#: kpresenter/autoforms/Connections/.directory:2
+#, fuzzy
+msgid "Name=Connections"
+msgstr "Name=Ulanish 09"
+
 #: kpresenter/kpresenter.desktop:2 kpresenter/kpresenterpart.desktop:2
 msgid "Name=KPresenter"
 msgstr "Name=KPresenter"
@@ -946,118 +946,23 @@ msgstr "GenericName=Slayd namoyishlari"
 msgid "Name=A4"
 msgstr "Name=A4"
 
-#: kpresenter/templates/Screen/.directory:2
-msgid "Name=Screen"
-msgstr "Name=Ekran"
+#: kpresenter/templates/common_desktop/emptyLandscape.desktop:3
+#: krita/data/templates/.directory:2
+msgid "Name=Empty"
+msgstr "Name=Boʻsh"
 
-#: kpresenter/templates/Screenpresentations/.directory:2
-msgid "Name=Screen Presentations"
-msgstr "Name=Ekranda namoyishlar"
-
-#: kpresenter/templates/Screenpresentations/BlueBreezeDouble.desktop:3
-msgid "Name=Blue Breeze Double"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/BlueBreezeDouble.desktop:50
-#, fuzzy
-msgid "Comment=A peaceful presentation with a title and two text columns"
-msgstr "Comment=KDE 3 mavzulik namoyish"
-
-#: kpresenter/templates/Screenpresentations/BlueBreezePicture.desktop:3
-msgid "Name=Blue Breeze Picture"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/BlueBreezePicture.desktop:52
-#, fuzzy
-msgid "Comment=A peaceful presentation with a title and picture area"
-msgstr "Comment=KDE 3 mavzulik namoyish"
-
-#: kpresenter/templates/Screenpresentations/BlueBreezeSingle.desktop:3
-msgid "Name=Blue Breeze Single"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/BlueBreezeSingle.desktop:50
-#, fuzzy
-msgid "Comment=A peaceful presentation with a title and single large text area"
-msgstr "Comment=KDE 3 mavzulik namoyish"
-
-#: kpresenter/templates/Screenpresentations/CopperPlain.desktop:3
-#, fuzzy
-msgid "Name=Copper Plain"
-msgstr "Name=Oddiy"
-
-#: kpresenter/templates/Screenpresentations/CopperPlain.desktop:48
-#, fuzzy
-msgid "Comment=An elegant, uplifting presentation"
+#: kpresenter/templates/common_desktop/emptyLandscape.desktop:57
+msgid "Comment=Empty presentation"
 msgstr "Comment=Boʻsh namoyish"
 
-#: kpresenter/templates/Screenpresentations/GradientBlueRed.desktop:4
-msgid "Name=Gradient Blue-Red"
-msgstr ""
+#: kpresenter/templates/common_desktop/emptyPortrait.desktop:3
+msgid "Name=Empty Portrait"
+msgstr "Name=Boʻyiga boʻsh"
 
-#: kpresenter/templates/Screenpresentations/GradientBlueRed.desktop:63
+#: kpresenter/templates/common_desktop/emptyPortrait.desktop:53
 #, fuzzy
-msgid "Comment=A presentation themed for the evening sky"
-msgstr "Comment=KDE 3 mavzulik namoyish"
-
-#: kpresenter/templates/Screenpresentations/SnowyMountains.desktop:3
-msgid "Name=Snowy Mountains"
-msgstr "Name=Qorli togʻlar"
-
-#: kpresenter/templates/Screenpresentations/SnowyMountains.desktop:62
-#, fuzzy
-msgid "Comment=A cool and smooth presentation"
-msgstr "Comment=Boʻsh namoyish"
-
-#: kpresenter/templates/Screenpresentations/TotallyNewProduct.desktop:3
-msgid "Name=Totally New Product"
-msgstr "Name=Umuman yangi mahsulot"
-
-#: kpresenter/templates/Screenpresentations/TotallyNewProduct.desktop:64
-#, fuzzy
-msgid "Comment=An informal, green-swirl presentation"
-msgstr "Comment=OASIS OpenDocument namoyish"
-
-#: kpresenter/templates/Screenpresentations/classroom.desktop:3
-msgid "Name=Classroom"
-msgstr "Name=Sinf xonasi"
-
-#: kpresenter/templates/Screenpresentations/classroom.desktop:41
-msgid "Comment=Classroom by dannya"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/kde.desktop:4
-msgid "Name=KDE"
-msgstr "Name=KDE"
-
-#: kpresenter/templates/Screenpresentations/kde.desktop:8
-#, fuzzy
-msgid "Comment=A presentation with original KDE theming"
-msgstr "Comment=KDE 2 mavzulik namoyish"
-
-#: kpresenter/templates/Screenpresentations/kde2.desktop:4
-msgid "Name=KDE 2"
-msgstr "Name=KDE 2"
-
-#: kpresenter/templates/Screenpresentations/kde2.desktop:8
-msgid "Comment=A presentation with KDE 2 theming"
-msgstr "Comment=KDE 2 mavzulik namoyish"
-
-#: kpresenter/templates/Screenpresentations/kde3.desktop:4
-msgid "Name=KDE 3"
-msgstr "Name=KDE 3"
-
-#: kpresenter/templates/Screenpresentations/kde3.desktop:6
-msgid "Comment=A presentation with KDE 3 theming"
-msgstr "Comment=KDE 3 mavzulik namoyish"
-
-#: kpresenter/templates/Screenpresentations/savannah.desktop:3
-msgid "Name=Savannah"
-msgstr "Name=Savanna"
-
-#: kpresenter/templates/Screenpresentations/savannah.desktop:28
-msgid "Comment=Savannah by dannya"
-msgstr ""
+msgid "Comment=Empty presentation (portrait-oriented)"
+msgstr "Comment=Boʻsh taqdimot (portretli)"
 
 #: kpresenter/templates/common_desktop/OneColumnLandscape.desktop:3
 msgid "Name=One Column"
@@ -1115,24 +1020,6 @@ msgid ""
 "Comment=Presentation with a page title and two text columns (portrait-oriented)"
 msgstr "Comment=Boʻsh taqdimot (portretli)"
 
-#: kpresenter/templates/common_desktop/emptyLandscape.desktop:3
-#: krita/data/templates/.directory:2
-msgid "Name=Empty"
-msgstr "Name=Boʻsh"
-
-#: kpresenter/templates/common_desktop/emptyLandscape.desktop:57
-msgid "Comment=Empty presentation"
-msgstr "Comment=Boʻsh namoyish"
-
-#: kpresenter/templates/common_desktop/emptyPortrait.desktop:3
-msgid "Name=Empty Portrait"
-msgstr "Name=Boʻyiga boʻsh"
-
-#: kpresenter/templates/common_desktop/emptyPortrait.desktop:53
-#, fuzzy
-msgid "Comment=Empty presentation (portrait-oriented)"
-msgstr "Comment=Boʻsh taqdimot (portretli)"
-
 #: kpresenter/templates/legal/.directory:2
 #: kugar/kudesigner/templates/General/Legal.desktop:4
 #, fuzzy
@@ -1142,6 +1029,119 @@ msgstr "Name=Legal"
 #: kpresenter/templates/letter/.directory:2
 msgid "Name=Letter"
 msgstr "Name=Xat"
+
+#: kpresenter/templates/Screen/.directory:2
+msgid "Name=Screen"
+msgstr "Name=Ekran"
+
+#: kpresenter/templates/Screenpresentations/BlueBreezeDouble.desktop:3
+msgid "Name=Blue Breeze Double"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/BlueBreezeDouble.desktop:50
+#, fuzzy
+msgid "Comment=A peaceful presentation with a title and two text columns"
+msgstr "Comment=KDE 3 mavzulik namoyish"
+
+#: kpresenter/templates/Screenpresentations/BlueBreezePicture.desktop:3
+msgid "Name=Blue Breeze Picture"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/BlueBreezePicture.desktop:52
+#, fuzzy
+msgid "Comment=A peaceful presentation with a title and picture area"
+msgstr "Comment=KDE 3 mavzulik namoyish"
+
+#: kpresenter/templates/Screenpresentations/BlueBreezeSingle.desktop:3
+msgid "Name=Blue Breeze Single"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/BlueBreezeSingle.desktop:50
+#, fuzzy
+msgid "Comment=A peaceful presentation with a title and single large text area"
+msgstr "Comment=KDE 3 mavzulik namoyish"
+
+#: kpresenter/templates/Screenpresentations/classroom.desktop:3
+msgid "Name=Classroom"
+msgstr "Name=Sinf xonasi"
+
+#: kpresenter/templates/Screenpresentations/classroom.desktop:41
+msgid "Comment=Classroom by dannya"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/CopperPlain.desktop:3
+#, fuzzy
+msgid "Name=Copper Plain"
+msgstr "Name=Oddiy"
+
+#: kpresenter/templates/Screenpresentations/CopperPlain.desktop:48
+#, fuzzy
+msgid "Comment=An elegant, uplifting presentation"
+msgstr "Comment=Boʻsh namoyish"
+
+#: kpresenter/templates/Screenpresentations/.directory:2
+msgid "Name=Screen Presentations"
+msgstr "Name=Ekranda namoyishlar"
+
+#: kpresenter/templates/Screenpresentations/GradientBlueRed.desktop:4
+msgid "Name=Gradient Blue-Red"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/GradientBlueRed.desktop:63
+#, fuzzy
+msgid "Comment=A presentation themed for the evening sky"
+msgstr "Comment=KDE 3 mavzulik namoyish"
+
+#: kpresenter/templates/Screenpresentations/kde2.desktop:4
+msgid "Name=KDE 2"
+msgstr "Name=KDE 2"
+
+#: kpresenter/templates/Screenpresentations/kde2.desktop:8
+msgid "Comment=A presentation with KDE 2 theming"
+msgstr "Comment=KDE 2 mavzulik namoyish"
+
+#: kpresenter/templates/Screenpresentations/kde3.desktop:4
+msgid "Name=KDE 3"
+msgstr "Name=KDE 3"
+
+#: kpresenter/templates/Screenpresentations/kde3.desktop:6
+msgid "Comment=A presentation with KDE 3 theming"
+msgstr "Comment=KDE 3 mavzulik namoyish"
+
+#: kpresenter/templates/Screenpresentations/kde.desktop:4
+msgid "Name=KDE"
+msgstr "Name=KDE"
+
+#: kpresenter/templates/Screenpresentations/kde.desktop:8
+#, fuzzy
+msgid "Comment=A presentation with original KDE theming"
+msgstr "Comment=KDE 2 mavzulik namoyish"
+
+#: kpresenter/templates/Screenpresentations/savannah.desktop:3
+msgid "Name=Savannah"
+msgstr "Name=Savanna"
+
+#: kpresenter/templates/Screenpresentations/savannah.desktop:28
+msgid "Comment=Savannah by dannya"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/SnowyMountains.desktop:3
+msgid "Name=Snowy Mountains"
+msgstr "Name=Qorli togʻlar"
+
+#: kpresenter/templates/Screenpresentations/SnowyMountains.desktop:62
+#, fuzzy
+msgid "Comment=A cool and smooth presentation"
+msgstr "Comment=Boʻsh namoyish"
+
+#: kpresenter/templates/Screenpresentations/TotallyNewProduct.desktop:3
+msgid "Name=Totally New Product"
+msgstr "Name=Umuman yangi mahsulot"
+
+#: kpresenter/templates/Screenpresentations/TotallyNewProduct.desktop:64
+#, fuzzy
+msgid "Comment=An informal, green-swirl presentation"
+msgstr "Comment=OASIS OpenDocument namoyish"
 
 #: krita/colorspaces/cmyk_u16/krita_cmyk_u16_plugin.desktop:2
 msgid "Name=CMYK Color Model (16-bit integer)"
@@ -1363,6 +1363,11 @@ msgstr "Comment=Krita grafik interfeysi"
 msgid "Comment=Tool plugin for Krita"
 msgstr "Comment=Krita uchun vosita plagini"
 
+#: krita/kritacolor/krita_colorspace.desktop:4
+msgid ""
+"Comment=A module implementing a complete colorspace for use with libkritacolor"
+msgstr ""
+
 #: krita/krita.desktop:9
 msgid "Comment=Edit and paint images"
 msgstr "Comment=Rasm bilan ishlash dasturi"
@@ -1370,11 +1375,6 @@ msgstr "Comment=Rasm bilan ishlash dasturi"
 #: krita/krita.desktop:47
 msgid "GenericName=Painting and Image Editing"
 msgstr "GenericName=Rasmlar bilan ishlaydigan dastur"
-
-#: krita/kritacolor/krita_colorspace.desktop:4
-msgid ""
-"Comment=A module implementing a complete colorspace for use with libkritacolor"
-msgstr ""
 
 #: krita/kritapart.desktop:2
 msgid "Name=KOffice Painting and Image Editor Component"
@@ -1639,13 +1639,13 @@ msgstr "Name=Soya tushirish"
 msgid "Name=Filters Gallery"
 msgstr "Name=Filterlar toʻplami"
 
-#: krita/plugins/viewplugins/histogram/kritahistogram.desktop:2
-msgid "Name=Histogram Plugin"
-msgstr "Name=Gistogramma plagini"
-
 #: krita/plugins/viewplugins/histogram_docker/kritahistogramdocker.desktop:2
 msgid "Name=Histogram Docker"
 msgstr "Name=Gistogramma paneli"
+
+#: krita/plugins/viewplugins/histogram/kritahistogram.desktop:2
+msgid "Name=Histogram Plugin"
+msgstr "Name=Gistogramma plagini"
 
 #: krita/plugins/viewplugins/history_docker/kritahistorydocker.desktop:2
 #, fuzzy
@@ -1721,13 +1721,13 @@ msgstr "GenericName=Elektron jadvallar"
 msgid "Name=KOffice Spreadsheet Component"
 msgstr "Name=KOffice elektron jadvallar komponenti"
 
-#: kspread/templates/Business/.directory:2
-msgid "Name=Business"
-msgstr "Name=Biznes"
-
 #: kspread/templates/Business/BalanceSheet.desktop:4
 msgid "Name=Balance Sheet"
 msgstr "Name=Balans"
+
+#: kspread/templates/Business/.directory:2
+msgid "Name=Business"
+msgstr "Name=Biznes"
 
 #: kspread/templates/Business/ExpenseReport.desktop:4
 msgid "Name=Expense Report"
@@ -1755,10 +1755,6 @@ msgstr "Name=Umumiy"
 msgid "Name=Student ID Card"
 msgstr "Name=Talaba guvohnomasi"
 
-#: kspread/templates/HomeFamily/.directory:2
-msgid "Name=Home and Family"
-msgstr "Name=Uy va oila"
-
 #: kspread/templates/HomeFamily/BMI.desktop:4
 #, fuzzy
 msgid "Name=BMI Calculator"
@@ -1772,6 +1768,10 @@ msgstr ""
 #, fuzzy
 msgid "Name=Credit Card Tracker"
 msgstr "Name=Kredit kartochkasi"
+
+#: kspread/templates/HomeFamily/.directory:2
+msgid "Name=Home and Family"
+msgstr "Name=Uy va oila"
 
 #: kspread/templates/HomeFamily/MenuPlan.desktop:4
 msgid "Name=Menu Plan"
@@ -1833,13 +1833,13 @@ msgstr "Name=A9"
 msgid "Name=B0"
 msgstr "Name=B0"
 
-#: kugar/kudesigner/templates/General/B1.desktop:4
-msgid "Name=B1"
-msgstr "Name=B1"
-
 #: kugar/kudesigner/templates/General/B10.desktop:4
 msgid "Name=B10"
 msgstr "Name=B10"
+
+#: kugar/kudesigner/templates/General/B1.desktop:4
+msgid "Name=B1"
+msgstr "Name=B1"
 
 #: kugar/kudesigner/templates/General/B2.desktop:4
 msgid "Name=B2"
@@ -1984,13 +1984,13 @@ msgstr ""
 msgid "Name=Qt-SQL Source (power user)"
 msgstr ""
 
-#: kword/templates/CardsAndLabels/.directory:2
-msgid "Name=Cards and Labels"
-msgstr "Name=Guvohnoma va yorliqlar"
-
 #: kword/templates/CardsAndLabels/BusinessCards10.desktop:3
 msgid "Name=Business Cards 10"
 msgstr "Name=Oʻnta biznes yorliq"
+
+#: kword/templates/CardsAndLabels/.directory:2
+msgid "Name=Cards and Labels"
+msgstr "Name=Guvohnoma va yorliqlar"
 
 #: kword/templates/CardsAndLabels/LabelsL16.desktop:3
 msgid "Name=Labels L16"
@@ -2008,8 +2008,8 @@ msgstr "Name=Konvert C6 (114 × 162 mm)"
 msgid "Name=Envelope DL"
 msgstr "Name=Konvert DL (110 × 220 mm)"
 
-#: kword/templates/Wordprocessing/.directory:2
 #: kword/templates/Wordprocessing/A4.desktop:4
+#: kword/templates/Wordprocessing/.directory:2
 msgid "Name=Blank Document"
 msgstr "Name=Boʻsh hujjat"
 
@@ -2093,41 +2093,41 @@ msgstr "Comment=OASIS OpenDocument diagrammasi"
 msgid "Comment=OASIS OpenDocument Formula"
 msgstr "Comment=OASIS OpenDocument formula"
 
-#: mimetypes/kde33/vnd.oasis.opendocument.graphics-template.desktop:6
-msgid "Comment=OASIS OpenDocument Graphics Template"
-msgstr "Comment=OASIS OpenDocument grafika namunasi"
-
 #: mimetypes/kde33/vnd.oasis.opendocument.graphics.desktop:6
 msgid "Comment=OASIS OpenDocument Graphics"
 msgstr "Comment=OASIS OpenDocument grafika"
+
+#: mimetypes/kde33/vnd.oasis.opendocument.graphics-template.desktop:6
+msgid "Comment=OASIS OpenDocument Graphics Template"
+msgstr "Comment=OASIS OpenDocument grafika namunasi"
 
 #: mimetypes/kde33/vnd.oasis.opendocument.image.desktop:6
 msgid "Comment=OASIS OpenDocument Image"
 msgstr "Comment=OASIS OpenDocument rasm"
 
-#: mimetypes/kde33/vnd.oasis.opendocument.presentation-template.desktop:6
-msgid "Comment=OASIS OpenDocument Presentation Template"
-msgstr "Comment=OASIS OpenDocument namoyish namunasi"
-
 #: mimetypes/kde33/vnd.oasis.opendocument.presentation.desktop:6
 msgid "Comment=OASIS OpenDocument Presentation"
 msgstr "Comment=OASIS OpenDocument namoyish"
 
-#: mimetypes/kde33/vnd.oasis.opendocument.spreadsheet-template.desktop:6
-msgid "Comment=OASIS OpenDocument SpreadSheet Template"
-msgstr "Comment=OASIS OpenDocument elektron jadval namunasi"
+#: mimetypes/kde33/vnd.oasis.opendocument.presentation-template.desktop:6
+msgid "Comment=OASIS OpenDocument Presentation Template"
+msgstr "Comment=OASIS OpenDocument namoyish namunasi"
 
 #: mimetypes/kde33/vnd.oasis.opendocument.spreadsheet.desktop:6
 msgid "Comment=OASIS OpenDocument SpreadSheet"
 msgstr "Comment=OASIS OpenDocument elektron jadval"
 
-#: mimetypes/kde33/vnd.oasis.opendocument.text-template.desktop:6
-msgid "Comment=OASIS OpenDocument Text Template"
-msgstr "Comment=OASIS OpenDocument matn namunasi"
+#: mimetypes/kde33/vnd.oasis.opendocument.spreadsheet-template.desktop:6
+msgid "Comment=OASIS OpenDocument SpreadSheet Template"
+msgstr "Comment=OASIS OpenDocument elektron jadval namunasi"
 
 #: mimetypes/kde33/vnd.oasis.opendocument.text.desktop:6
 msgid "Comment=OASIS OpenDocument Text"
 msgstr "Comment=OASIS OpenDocument matn"
+
+#: mimetypes/kde33/vnd.oasis.opendocument.text-template.desktop:6
+msgid "Comment=OASIS OpenDocument Text Template"
+msgstr "Comment=OASIS OpenDocument matn namunasi"
 
 #: mimetypes/kde351/x-raw.desktop:6
 msgid "Comment=RAW Camera Image"
