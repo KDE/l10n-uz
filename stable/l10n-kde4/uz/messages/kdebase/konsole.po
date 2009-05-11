@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-20 06:24+0200\n"
+"POT-Creation-Date: 2009-05-11 07:03+0200\n"
 "PO-Revision-Date: 2008-06-04 01:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -326,418 +326,6 @@ msgstr "Yopishni tasdiqlash"
 msgid "Output"
 msgstr "Tarixni saqlash"
 
-#: MainWindow.cpp:223
-msgid "New &Tab"
-msgstr "&Yangi tab"
-
-#: MainWindow.cpp:229
-msgid "New &Window"
-msgstr "&Yangi oyna"
-
-#: MainWindow.cpp:234
-#, fuzzy
-#| msgid "Wor&d Connectors..."
-msgid "Remote Connection..."
-msgstr "Soʻ&zlarni bogʻlovchilar"
-
-#: MainWindow.cpp:245
-msgid "&Bookmarks"
-msgstr "&Xatchoʻplar"
-
-#: MainWindow.cpp:256
-msgid "Show Menu Bar"
-msgstr "Menyular panelini koʻrsatish"
-
-#: MainWindow.cpp:278 Part.cpp:119
-msgid "Manage Profiles..."
-msgstr "Profillarni boshqarish..."
-
-#: MainWindow.cpp:349
-msgid "You have multiple tabs in this window, are you sure you want to quit?"
-msgstr ""
-
-#: MainWindow.cpp:351 SessionController.cpp:601
-msgid "Confirm Close"
-msgstr "Yopishni tasdiqlash"
-
-#: MainWindow.cpp:353
-msgid "Close Current Tab"
-msgstr "Joriy tabni yopish"
-
-#: ManageProfilesDialog.cpp:48
-msgid "Manage Profiles"
-msgstr "Profillarni boshqarish"
-
-#: ManageProfilesDialog.cpp:200
-msgid "Show in Menu"
-msgstr "Menyuda koʻrsatish"
-
-#: ManageProfilesDialog.cpp:201
-msgid "Shortcut"
-msgstr ""
-
-#: ManageProfilesDialog.cpp:293
-msgid "New Profile"
-msgstr "Yangi profil"
-
-#: Profile.cpp:143
-#, fuzzy
-#| msgid "&Bell"
-msgid "Shell"
-msgstr "&Tovush signali"
-
-#: ProfileList.cpp:48
-msgid "No profiles available"
-msgstr ""
-
-#: RemoteConnectionDialog.cpp:39
-#, fuzzy
-#| msgid "Word Connectors"
-msgid "New Remote Connection"
-msgstr "Soʻzlarni bogʻlovchilar"
-
-#: RemoteConnectionDialog.cpp:41
-msgid "Connect"
-msgstr "Ulash"
-
-#: Session.cpp:317
-#, fuzzy
-#| msgid "Could not save history."
-msgid "Could not find binary: "
-msgstr "Tarixni saqlab boʻlmadi."
-
-#: Session.cpp:326
-msgid "Warning: "
-msgstr ""
-
-#: Session.cpp:367
-#, kde-format
-msgid ""
-"Could not find '%1', starting '%2' instead.  Please check your profile "
-"settings."
-msgstr ""
-
-#: Session.cpp:372
-msgid "Could not find an interactive shell to start."
-msgstr ""
-
-#: Session.cpp:406
-#, kde-format
-msgid "Could not start program '%1' with arguments '%2'."
-msgstr ""
-
-#: Session.cpp:516
-#, kde-format
-msgid "Silence in session '%1'"
-msgstr ""
-
-#: Session.cpp:551
-#, kde-format
-msgid "Bell in session '%1'"
-msgstr ""
-
-#: Session.cpp:562
-#, kde-format
-msgid "Activity in session '%1'"
-msgstr ""
-
-#: Session.cpp:700
-msgid "Finished"
-msgstr "Tugadi"
-
-#: Session.cpp:709
-#, kde-format
-msgid "Program '%1' exited with status %2."
-msgstr "'%1' dasturi %2 holati bilan tugadi."
-
-#: Session.cpp:711
-#, fuzzy, kde-format
-#| msgid "Session '%1' exited unexpectedly."
-msgid "Program '%1' crashed."
-msgstr "Seans \"%1\" kutilmaganda tugadi."
-
-#: Session.cpp:1028
-msgid "ZModem Progress"
-msgstr ""
-
-#: SessionController.cpp:378
-msgid "&Close Tab"
-msgstr "Tabni &yopish"
-
-#: SessionController.cpp:384
-msgid "Open Browser Here"
-msgstr "Brauzerni shu yerda ochish"
-
-#: SessionController.cpp:391
-msgid "&Copy"
-msgstr "&Nusxa olish"
-
-#: SessionController.cpp:395
-msgid "&Paste"
-msgstr "&Qoʻyish"
-
-#: SessionController.cpp:408
-msgid "Paste Selection"
-msgstr "Belgilanganni qoʻyish"
-
-#: SessionController.cpp:414
-msgid "&Rename Tab..."
-msgstr "Tabning &nomini oʻzgartirish..."
-
-#: SessionController.cpp:420
-msgid "Copy Input To..."
-msgstr ""
-
-#: SessionController.cpp:425
-#, fuzzy
-#| msgid "Clear &History"
-msgid "C&lear Display"
-msgstr "Tarixni &boʻshatish"
-
-#: SessionController.cpp:430
-#, fuzzy
-#| msgid "Clear &History"
-msgid "Clear && Reset"
-msgstr "Tarixni &boʻshatish"
-
-#: SessionController.cpp:435
-msgid "Monitor for &Activity"
-msgstr ""
-
-#: SessionController.cpp:440
-msgid "Monitor for &Silence"
-msgstr ""
-
-#: SessionController.cpp:446
-msgid "Character Encoding"
-msgstr "Kodlash usuli"
-
-#: SessionController.cpp:453
-msgid "Increase Text Size"
-msgstr "Shriftni kattalashtirish"
-
-#: SessionController.cpp:459
-msgid "Decrease Text Size"
-msgstr "Shriftni kattalashtirish"
-
-#: SessionController.cpp:465
-#, fuzzy
-#| msgid "Clear &History"
-msgid "Search Output..."
-msgstr "Tarixni &boʻshatish"
-
-#: SessionController.cpp:474
-msgid "Find Next"
-msgstr "Keyingini qidirish"
-
-#: SessionController.cpp:481
-msgid "Find Previous"
-msgstr "Oldingini qidirish"
-
-#: SessionController.cpp:487
-#, fuzzy
-msgid "Save Output..."
-msgstr "Tarixni saqlash"
-
-#: SessionController.cpp:497
-#, fuzzy
-#| msgid "Do not display scrollbar"
-msgid "Clear Scrollback"
-msgstr "Varaqlash panelini bekitish"
-
-#: SessionController.cpp:501
-#, fuzzy
-#| msgid "Clear &History"
-msgid "Clear Scrollback && Reset"
-msgstr "Tarixni &boʻshatish"
-
-#: SessionController.cpp:507
-msgid "Edit Current Profile..."
-msgstr "Joriy profilni tahrirlash..."
-
-#: SessionController.cpp:511
-msgid "Change Profile"
-msgstr "Profilni oʻzgartirish"
-
-#: SessionController.cpp:551
-msgid "Rename Tab"
-msgstr "Tabning nomini oʻzgartirish"
-
-#: SessionController.cpp:552
-msgid "Enter new tab text:"
-msgstr ""
-
-#: SessionController.cpp:595
-msgid ""
-"A program is currently running in this session.  Are you sure you want to "
-"close it?"
-msgstr ""
-
-#: SessionController.cpp:598
-#, kde-format
-msgid ""
-"The program '%1' is currently running in this session.  Are you sure you "
-"want to close it?"
-msgstr ""
-
-#: SessionController.cpp:1082
-#, fuzzy, kde-format
-msgid "Save Output From %1"
-msgstr "Tarixni saqlash"
-
-#: SessionController.cpp:1093
-#, kde-format
-msgid "%1 is an invalid URL, the output could not be saved."
-msgstr ""
-
-#: SessionController.cpp:1182
-#, kde-format
-msgid ""
-"A problem occurred when saving the output.\n"
-"%1"
-msgstr ""
-
-#: SessionManager.cpp:856
-msgid "Number"
-msgstr ""
-
-#: SessionManager.cpp:858
-msgid "Title"
-msgstr ""
-
-#: TabTitleFormatAction.cpp:34
-msgid "Program Name"
-msgstr "Dasturning nomi"
-
-#: TabTitleFormatAction.cpp:35
-msgid "Current Directory (Short)"
-msgstr ""
-
-#: TabTitleFormatAction.cpp:36
-msgid "Current Directory (Long)"
-msgstr ""
-
-#: TabTitleFormatAction.cpp:37 TabTitleFormatAction.cpp:46
-msgid "Window Title Set by Shell"
-msgstr ""
-
-#: TabTitleFormatAction.cpp:38 TabTitleFormatAction.cpp:47
-msgid "Session number"
-msgstr "Seansning raqami"
-
-#: TabTitleFormatAction.cpp:43
-msgid "User Name"
-msgstr "Foydalanuvchi"
-
-#: TabTitleFormatAction.cpp:44
-msgid "Remote Host (Short)"
-msgstr "Masofadagi xost (qisqa)"
-
-#: TabTitleFormatAction.cpp:45
-msgid "Remote Host (Long)"
-msgstr "Masofadagi xost (toʻliq)"
-
-#: TerminalDisplay.cpp:1124 TerminalDisplay.cpp:1125
-msgid "Size: XXX x XXX"
-msgstr "Oʻlcham: XXX x XXX"
-
-#: TerminalDisplay.cpp:1135
-#, kde-format
-msgid "Size: %1 x %2"
-msgstr "Oʻlcham: %1 x %2"
-
-#: TerminalDisplay.cpp:2843
-msgid ""
-"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
-"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
-msgstr ""
-
-#: ViewManager.cpp:129
-msgid "Next View"
-msgstr ""
-
-#: ViewManager.cpp:130
-msgid "Previous View"
-msgstr ""
-
-#: ViewManager.cpp:131
-msgid "Next View Container"
-msgstr ""
-
-#: ViewManager.cpp:133
-#, fuzzy
-#| msgid "&Move Session Left"
-msgid "Move View Left"
-msgstr "Seansni chapga s&urish"
-
-#: ViewManager.cpp:134
-#, fuzzy
-#| msgid "M&ove Session Right"
-msgid "Move View Right"
-msgstr "Sea&nsni oʻngga surish"
-
-#: ViewManager.cpp:144
-#, fuzzy
-#| msgid "Shrink Font"
-msgctxt "@action:inmenu"
-msgid "Split View Left/Right"
-msgstr "Shriftni kichiklashtirish"
-
-#: ViewManager.cpp:151
-#, fuzzy
-#| msgid "Shrink Font"
-msgctxt "@action:inmenu"
-msgid "Split View Top/Bottom"
-msgstr "Shriftni kichiklashtirish"
-
-#: ViewManager.cpp:156
-#, fuzzy
-#| msgid "C&lose Session"
-msgctxt "@action:inmenu Close Active View"
-msgid "Close Active"
-msgstr "Seansni &yopish"
-
-#: ViewManager.cpp:165
-#, fuzzy
-#| msgid "C&lose Session"
-msgctxt "@action:inmenu Close Other Views"
-msgid "Close Others"
-msgstr "Seansni &yopish"
-
-#: ViewManager.cpp:175
-#, fuzzy
-#| msgid "&Detach Session"
-msgid "&Detach View"
-msgstr "Seansni &ajratish"
-
-#: ViewManager.cpp:184
-msgctxt "@action:inmenu"
-msgid "Expand View"
-msgstr ""
-
-#: ViewManager.cpp:191
-#, fuzzy
-#| msgid "Shrink Font"
-msgctxt "@action:inmenu"
-msgid "Shrink View"
-msgstr "Shriftni kichiklashtirish"
-
-#: ViewManager.cpp:211
-#, fuzzy, kde-format
-#| msgid "Switch to Tab"
-msgid "Switch to Tab %1"
-msgstr "Tabga oʻtish"
-
-#: Vt102Emulation.cpp:965
-msgid ""
-"No keyboard translator available.  The information needed to convert key "
-"presses into characters to send to the terminal is missing."
-msgstr ""
-
-#: ZModemDialog.cpp:35
-msgid "&Stop"
-msgstr "&Toʻxtatish"
-
 #: main.cpp:63
 msgid "Konsole"
 msgstr "Terminal"
@@ -944,6 +532,70 @@ msgstr ""
 #: main.cpp:205
 msgid "Thanks to many others.\n"
 msgstr "Qolgan boshqalarga ham rahmat.\n"
+
+#: MainWindow.cpp:223
+msgid "New &Tab"
+msgstr "&Yangi tab"
+
+#: MainWindow.cpp:229
+msgid "New &Window"
+msgstr "&Yangi oyna"
+
+#: MainWindow.cpp:234
+#, fuzzy
+#| msgid "Wor&d Connectors..."
+msgid "Remote Connection..."
+msgstr "Soʻ&zlarni bogʻlovchilar"
+
+#: MainWindow.cpp:245
+msgid "&Bookmarks"
+msgstr "&Xatchoʻplar"
+
+#: MainWindow.cpp:256
+msgid "Show Menu Bar"
+msgstr "Menyular panelini koʻrsatish"
+
+#: MainWindow.cpp:278 Part.cpp:119
+msgid "Manage Profiles..."
+msgstr "Profillarni boshqarish..."
+
+#: MainWindow.cpp:349
+msgid "You have multiple tabs in this window, are you sure you want to quit?"
+msgstr ""
+
+#: MainWindow.cpp:351 SessionController.cpp:601
+msgid "Confirm Close"
+msgstr "Yopishni tasdiqlash"
+
+#: MainWindow.cpp:353
+msgid "Close Current Tab"
+msgstr "Joriy tabni yopish"
+
+#: ManageProfilesDialog.cpp:48
+msgid "Manage Profiles"
+msgstr "Profillarni boshqarish"
+
+#: ManageProfilesDialog.cpp:200
+msgid "Show in Menu"
+msgstr "Menyuda koʻrsatish"
+
+#: ManageProfilesDialog.cpp:201
+msgid "Shortcut"
+msgstr ""
+
+#: ManageProfilesDialog.cpp:293
+msgid "New Profile"
+msgstr "Yangi profil"
+
+#: Profile.cpp:143
+#, fuzzy
+#| msgid "&Bell"
+msgid "Shell"
+msgstr "&Tovush signali"
+
+#: ProfileList.cpp:48
+msgid "No profiles available"
+msgstr ""
 
 #. i18n: file: ColorSchemeEditor.ui:21
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1884,6 +1536,16 @@ msgstr "&Moslamalar"
 msgid "Help"
 msgstr "&Yordam"
 
+#: RemoteConnectionDialog.cpp:39
+#, fuzzy
+#| msgid "Word Connectors"
+msgid "New Remote Connection"
+msgstr "Soʻzlarni bogʻlovchilar"
+
+#: RemoteConnectionDialog.cpp:41
+msgid "Connect"
+msgstr "Ulash"
+
 #: schemas.cpp:1
 msgid "Black on Light Yellow"
 msgstr "Och sariqda qora"
@@ -1929,6 +1591,344 @@ msgstr "Solaris terminali"
 #: schemas.cpp:11
 msgid "DEC VT420 Terminal"
 msgstr "DEC VT420 terminali"
+
+#: SessionController.cpp:378
+msgid "&Close Tab"
+msgstr "Tabni &yopish"
+
+#: SessionController.cpp:384
+msgid "Open Browser Here"
+msgstr "Brauzerni shu yerda ochish"
+
+#: SessionController.cpp:391
+msgid "&Copy"
+msgstr "&Nusxa olish"
+
+#: SessionController.cpp:395
+msgid "&Paste"
+msgstr "&Qoʻyish"
+
+#: SessionController.cpp:408
+msgid "Paste Selection"
+msgstr "Belgilanganni qoʻyish"
+
+#: SessionController.cpp:414
+msgid "&Rename Tab..."
+msgstr "Tabning &nomini oʻzgartirish..."
+
+#: SessionController.cpp:420
+msgid "Copy Input To..."
+msgstr ""
+
+#: SessionController.cpp:425
+#, fuzzy
+#| msgid "Clear &History"
+msgid "C&lear Display"
+msgstr "Tarixni &boʻshatish"
+
+#: SessionController.cpp:430
+#, fuzzy
+#| msgid "Clear &History"
+msgid "Clear && Reset"
+msgstr "Tarixni &boʻshatish"
+
+#: SessionController.cpp:435
+msgid "Monitor for &Activity"
+msgstr ""
+
+#: SessionController.cpp:440
+msgid "Monitor for &Silence"
+msgstr ""
+
+#: SessionController.cpp:446
+msgid "Character Encoding"
+msgstr "Kodlash usuli"
+
+#: SessionController.cpp:453
+msgid "Increase Text Size"
+msgstr "Shriftni kattalashtirish"
+
+#: SessionController.cpp:459
+msgid "Decrease Text Size"
+msgstr "Shriftni kattalashtirish"
+
+#: SessionController.cpp:465
+#, fuzzy
+#| msgid "Clear &History"
+msgid "Search Output..."
+msgstr "Tarixni &boʻshatish"
+
+#: SessionController.cpp:474
+msgid "Find Next"
+msgstr "Keyingini qidirish"
+
+#: SessionController.cpp:481
+msgid "Find Previous"
+msgstr "Oldingini qidirish"
+
+#: SessionController.cpp:487
+#, fuzzy
+msgid "Save Output..."
+msgstr "Tarixni saqlash"
+
+#: SessionController.cpp:497
+#, fuzzy
+#| msgid "Do not display scrollbar"
+msgid "Clear Scrollback"
+msgstr "Varaqlash panelini bekitish"
+
+#: SessionController.cpp:501
+#, fuzzy
+#| msgid "Clear &History"
+msgid "Clear Scrollback && Reset"
+msgstr "Tarixni &boʻshatish"
+
+#: SessionController.cpp:507
+msgid "Edit Current Profile..."
+msgstr "Joriy profilni tahrirlash..."
+
+#: SessionController.cpp:511
+msgid "Change Profile"
+msgstr "Profilni oʻzgartirish"
+
+#: SessionController.cpp:551
+msgid "Rename Tab"
+msgstr "Tabning nomini oʻzgartirish"
+
+#: SessionController.cpp:552
+msgid "Enter new tab text:"
+msgstr ""
+
+#: SessionController.cpp:595
+msgid ""
+"A program is currently running in this session.  Are you sure you want to "
+"close it?"
+msgstr ""
+
+#: SessionController.cpp:598
+#, kde-format
+msgid ""
+"The program '%1' is currently running in this session.  Are you sure you "
+"want to close it?"
+msgstr ""
+
+#: SessionController.cpp:1082
+#, fuzzy, kde-format
+msgid "Save Output From %1"
+msgstr "Tarixni saqlash"
+
+#: SessionController.cpp:1093
+#, kde-format
+msgid "%1 is an invalid URL, the output could not be saved."
+msgstr ""
+
+#: SessionController.cpp:1182
+#, kde-format
+msgid ""
+"A problem occurred when saving the output.\n"
+"%1"
+msgstr ""
+
+#: Session.cpp:317
+#, fuzzy
+#| msgid "Could not save history."
+msgid "Could not find binary: "
+msgstr "Tarixni saqlab boʻlmadi."
+
+#: Session.cpp:326
+msgid "Warning: "
+msgstr ""
+
+#: Session.cpp:367
+#, kde-format
+msgid ""
+"Could not find '%1', starting '%2' instead.  Please check your profile "
+"settings."
+msgstr ""
+
+#: Session.cpp:372
+msgid "Could not find an interactive shell to start."
+msgstr ""
+
+#: Session.cpp:406
+#, kde-format
+msgid "Could not start program '%1' with arguments '%2'."
+msgstr ""
+
+#: Session.cpp:516
+#, kde-format
+msgid "Silence in session '%1'"
+msgstr ""
+
+#: Session.cpp:551
+#, kde-format
+msgid "Bell in session '%1'"
+msgstr ""
+
+#: Session.cpp:562
+#, kde-format
+msgid "Activity in session '%1'"
+msgstr ""
+
+#: Session.cpp:700
+msgid "Finished"
+msgstr "Tugadi"
+
+#: Session.cpp:709
+#, kde-format
+msgid "Program '%1' exited with status %2."
+msgstr "'%1' dasturi %2 holati bilan tugadi."
+
+#: Session.cpp:711
+#, fuzzy, kde-format
+#| msgid "Session '%1' exited unexpectedly."
+msgid "Program '%1' crashed."
+msgstr "Seans \"%1\" kutilmaganda tugadi."
+
+#: Session.cpp:1028
+msgid "ZModem Progress"
+msgstr ""
+
+#: SessionManager.cpp:856
+msgid "Number"
+msgstr ""
+
+#: SessionManager.cpp:858
+msgid "Title"
+msgstr ""
+
+#: TabTitleFormatAction.cpp:34
+msgid "Program Name"
+msgstr "Dasturning nomi"
+
+#: TabTitleFormatAction.cpp:35
+msgid "Current Directory (Short)"
+msgstr ""
+
+#: TabTitleFormatAction.cpp:36
+msgid "Current Directory (Long)"
+msgstr ""
+
+#: TabTitleFormatAction.cpp:37 TabTitleFormatAction.cpp:46
+msgid "Window Title Set by Shell"
+msgstr ""
+
+#: TabTitleFormatAction.cpp:38 TabTitleFormatAction.cpp:47
+msgid "Session number"
+msgstr "Seansning raqami"
+
+#: TabTitleFormatAction.cpp:43
+msgid "User Name"
+msgstr "Foydalanuvchi"
+
+#: TabTitleFormatAction.cpp:44
+msgid "Remote Host (Short)"
+msgstr "Masofadagi xost (qisqa)"
+
+#: TabTitleFormatAction.cpp:45
+msgid "Remote Host (Long)"
+msgstr "Masofadagi xost (toʻliq)"
+
+#: TerminalDisplay.cpp:1124 TerminalDisplay.cpp:1125
+msgid "Size: XXX x XXX"
+msgstr "Oʻlcham: XXX x XXX"
+
+#: TerminalDisplay.cpp:1135
+#, kde-format
+msgid "Size: %1 x %2"
+msgstr "Oʻlcham: %1 x %2"
+
+#: TerminalDisplay.cpp:2843
+msgid ""
+"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
+"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
+msgstr ""
+
+#: ViewManager.cpp:129
+msgid "Next View"
+msgstr ""
+
+#: ViewManager.cpp:130
+msgid "Previous View"
+msgstr ""
+
+#: ViewManager.cpp:131
+msgid "Next View Container"
+msgstr ""
+
+#: ViewManager.cpp:133
+#, fuzzy
+#| msgid "&Move Session Left"
+msgid "Move View Left"
+msgstr "Seansni chapga s&urish"
+
+#: ViewManager.cpp:134
+#, fuzzy
+#| msgid "M&ove Session Right"
+msgid "Move View Right"
+msgstr "Sea&nsni oʻngga surish"
+
+#: ViewManager.cpp:144
+#, fuzzy
+#| msgid "Shrink Font"
+msgctxt "@action:inmenu"
+msgid "Split View Left/Right"
+msgstr "Shriftni kichiklashtirish"
+
+#: ViewManager.cpp:151
+#, fuzzy
+#| msgid "Shrink Font"
+msgctxt "@action:inmenu"
+msgid "Split View Top/Bottom"
+msgstr "Shriftni kichiklashtirish"
+
+#: ViewManager.cpp:156
+#, fuzzy
+#| msgid "C&lose Session"
+msgctxt "@action:inmenu Close Active View"
+msgid "Close Active"
+msgstr "Seansni &yopish"
+
+#: ViewManager.cpp:165
+#, fuzzy
+#| msgid "C&lose Session"
+msgctxt "@action:inmenu Close Other Views"
+msgid "Close Others"
+msgstr "Seansni &yopish"
+
+#: ViewManager.cpp:175
+#, fuzzy
+#| msgid "&Detach Session"
+msgid "&Detach View"
+msgstr "Seansni &ajratish"
+
+#: ViewManager.cpp:184
+msgctxt "@action:inmenu"
+msgid "Expand View"
+msgstr ""
+
+#: ViewManager.cpp:191
+#, fuzzy
+#| msgid "Shrink Font"
+msgctxt "@action:inmenu"
+msgid "Shrink View"
+msgstr "Shriftni kichiklashtirish"
+
+#: ViewManager.cpp:211
+#, fuzzy, kde-format
+#| msgid "Switch to Tab"
+msgid "Switch to Tab %1"
+msgstr "Tabga oʻtish"
+
+#: Vt102Emulation.cpp:965
+msgid ""
+"No keyboard translator available.  The information needed to convert key "
+"presses into characters to send to the terminal is missing."
+msgstr ""
+
+#: ZModemDialog.cpp:35
+msgid "&Stop"
+msgstr "&Toʻxtatish"
 
 #~ msgid "New"
 #~ msgstr "Yangi"
