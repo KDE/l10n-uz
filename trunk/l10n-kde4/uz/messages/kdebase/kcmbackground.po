@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmbackground\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-22 11:28+0200\n"
+"POT-Creation-Date: 2009-07-01 12:45+0200\n"
 "PO-Revision-Date: 2006-12-17 12:05+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -87,7 +87,7 @@ msgstr "&Bajarib boʻladigan fayl:"
 msgid "&Refresh time:"
 msgstr "Yan&gilash oraligʻi:"
 
-#: bgadvanced.cpp:406 bgwallpaper.cpp:123
+#: bgadvanced.cpp:406
 msgid " min"
 msgstr " daq"
 
@@ -286,6 +286,13 @@ msgstr "Joriy moslamalarning ekrandagi koʻrinishi."
 msgid "Setup Slide Show"
 msgstr "Slayd shouni moslash"
 
+#: bgwallpaper.cpp:123
+#, fuzzy
+#| msgid " min"
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " daq"
+
 #: bgwallpaper.cpp:171
 msgid "Select Image"
 msgstr "Rasmni tanlash"
@@ -423,11 +430,11 @@ msgstr "Xotiradan foydalanish"
 #. i18n: file: bgadvanced_ui.ui:144
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_lblCache)
 #. i18n: file: bgadvanced_ui.ui:157
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, m_spinCache)
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, m_spinCache)
 #. i18n: file: bgadvanced_ui.ui:144
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_lblCache)
 #. i18n: file: bgadvanced_ui.ui:157
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, m_spinCache)
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, m_spinCache)
 #: rc.cpp:59 rc.cpp:65 rc.cpp:256 rc.cpp:262
 msgid ""
 "In this box you can enter how much memory KDE should use for caching the "
@@ -443,7 +450,7 @@ msgid "Size of background cache:"
 msgstr "Orqa fon keshning hajmi:"
 
 #. i18n: file: bgadvanced_ui.ui:160
-#. i18n: ectx: property (suffix), widget (QSpinBox, m_spinCache)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, m_spinCache)
 #: rc.cpp:68 rc.cpp:265
 msgid " k"
 msgstr " k"
