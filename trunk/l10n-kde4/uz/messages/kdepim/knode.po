@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knode\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-28 06:51+0200\n"
+"POT-Creation-Date: 2009-08-11 06:37+0200\n"
 "PO-Revision-Date: 2006-12-17 13:33+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -42,141 +42,144 @@ msgstr "Copyright (C) 1999-2005 KNode tuzuvchilari"
 msgid "Jakob Schroeter"
 msgstr ""
 
-#: articlewidget.cpp:153
+#: articlewidget.cpp:158
 msgid "F&ind in Article..."
 msgstr "Maqolada q&idirish..."
 
-#: articlewidget.cpp:155
+#: articlewidget.cpp:160
 msgid "&View Source"
 msgstr "Manbani &koʻrish"
 
-#: articlewidget.cpp:160
+#: articlewidget.cpp:165
 msgid "&Followup to Newsgroup..."
 msgstr ""
 
-#: articlewidget.cpp:165
+#: articlewidget.cpp:170
 msgid "Reply by E&mail..."
 msgstr "P&ochta orqali javob berish..."
 
-#: articlewidget.cpp:170
+#: articlewidget.cpp:175
 msgid "Forw&ard by Email..."
 msgstr "Pochta orqali u&zatish..."
 
-#: articlewidget.cpp:174
+#: articlewidget.cpp:179
 msgctxt "article"
 msgid "&Cancel Article"
 msgstr "Maqolani &bekor qilish"
 
-#: articlewidget.cpp:177
+#: articlewidget.cpp:182
 msgid "S&upersede Article"
 msgstr ""
 
-#: articlewidget.cpp:180
+#: articlewidget.cpp:185
 msgid "U&se Fixed Font"
 msgstr "Eni oʻzgarmaydigan shriftni &qoʻllash"
 
-#: articlewidget.cpp:184
+#: articlewidget.cpp:189
 msgid "Fancy Formatting"
 msgstr ""
 
-#: articlewidget.cpp:189
+#: articlewidget.cpp:194
 msgid "&Unscramble (Rot 13)"
 msgstr ""
 
-#: articlewidget.cpp:196
+#: articlewidget.cpp:201
 msgid "&Headers"
 msgstr "&Sarlavhalar"
 
-#: articlewidget.cpp:198
+#: articlewidget.cpp:203
 msgid "&Fancy Headers"
 msgstr "&Chiroyli sarlavhalar"
 
-#: articlewidget.cpp:203
+#: articlewidget.cpp:208
 msgid "&Standard Headers"
 msgstr "&Andoza sarlavhalar"
 
-#: articlewidget.cpp:208
+#: articlewidget.cpp:213
 msgid "&All Headers"
 msgstr "Ha&mma sarlavhalar"
 
-#: articlewidget.cpp:215
+#: articlewidget.cpp:220
 msgid "&Attachments"
 msgstr "&Ilovalar"
 
-#: articlewidget.cpp:217
+#: articlewidget.cpp:222
 msgid "&As Icon"
 msgstr "Nishoncha &sifatida"
 
-#: articlewidget.cpp:222
+#: articlewidget.cpp:227
 msgid "&Inline"
 msgstr ""
 
-#: articlewidget.cpp:227
+#: articlewidget.cpp:232
 msgid "&Hide"
 msgstr "&Bekitish"
 
-#: articlewidget.cpp:233
-msgid "Chars&et"
-msgstr "&Kodlash usuli"
+#: articlewidget.cpp:238
+#, fuzzy
+#| msgid "Set Charset"
+msgid "Set chars&et"
+msgstr "Kodlash usulini koʻrsatish"
 
-#: articlewidget.cpp:236 articlewidget.cpp:1411
-msgid "Automatic"
-msgstr "Avtomatik"
+#: articlewidget.cpp:241 articlewidget.cpp:1416
+msgctxt "@item default character set"
+msgid "Default"
+msgstr ""
 
-#. i18n: file: knode.kcfg:237
-#. i18n: ectx: label, entry (Charset), group (POSTNEWS)
-#: articlewidget.cpp:241 rc.cpp:195
-msgid "Charset"
-msgstr "Kodlash usuli"
+#: articlewidget.cpp:246
+#, fuzzy
+#| msgid "Set Charset"
+msgid "Set charset"
+msgstr "Kodlash usulini koʻrsatish"
 
-#: articlewidget.cpp:247
+#: articlewidget.cpp:252
 msgid "&Open URL"
 msgstr "URL'ni &ochish"
 
-#: articlewidget.cpp:251
+#: articlewidget.cpp:256
 msgid "&Copy Link Address"
 msgstr "Bogʻ manzilidan &nusxa olish"
 
-#: articlewidget.cpp:255
+#: articlewidget.cpp:260
 msgid "&Bookmark This Link"
 msgstr "Bu bogʻni &xatchoʻplarga qoʻshish"
 
-#: articlewidget.cpp:258
+#: articlewidget.cpp:263
 msgid "&Add to Address Book"
 msgstr "Manzillar daftari&ga qoʻshish"
 
-#: articlewidget.cpp:261
+#: articlewidget.cpp:266
 msgid "&Open in Address Book"
 msgstr "Manzillar daftarida &ochish"
 
-#: articlewidget.cpp:265
+#: articlewidget.cpp:270
 msgid "&Open Attachment"
 msgstr "Ilovani &ochish"
 
-#: articlewidget.cpp:269
+#: articlewidget.cpp:274
 msgid "&Save Attachment As..."
 msgstr "Ilovani &saqlash..."
 
-#: articlewidget.cpp:395
+#: articlewidget.cpp:400
 msgid "Unable to load the article."
 msgstr "Maqolani yuklab boʻlmadi."
 
-#: articlewidget.cpp:427
+#: articlewidget.cpp:432
 msgid "The article contains no data."
 msgstr "Maqolada hech qanday maʼlumot yoʻq."
 
-#: articlewidget.cpp:463
+#: articlewidget.cpp:468
 msgid "Unknown charset. Default charset is used instead."
 msgstr "Nomaʼlum kodlash usuli. Oʻrniga andoza kodlash usuli ishlatiladi."
 
-#: articlewidget.cpp:523
+#: articlewidget.cpp:528
 msgid ""
 "<br /><b>This article has the MIME type &quot;message/partial&quot;, which "
 "KNode cannot handle yet.<br />Meanwhile you can save the article as a text "
 "file and reassemble it by hand.</b>"
 msgstr ""
 
-#: articlewidget.cpp:539
+#: articlewidget.cpp:544
 msgid ""
 "<b>Note:</b> This is an HTML message. For security reasons, only the raw "
 "HTML code is shown. If you trust the sender of this message then you can "
@@ -184,73 +187,73 @@ msgid ""
 "\">by clicking here</a>."
 msgstr ""
 
-#: articlewidget.cpp:584
+#: articlewidget.cpp:589
 msgid "An error occurred."
 msgstr "Xato roʻy berdi."
 
-#: articlewidget.cpp:703
+#: articlewidget.cpp:708
 msgid "References:"
 msgstr ""
 
-#: articlewidget.cpp:786
+#: articlewidget.cpp:791
 #, kde-format
 msgid "Message was signed with unknown key 0x%1."
 msgstr "Xabar nomaʼlum kalit 0x%1 bilan imzolangan."
 
-#: articlewidget.cpp:789
+#: articlewidget.cpp:794
 msgid "The validity of the signature cannot be verified."
 msgstr ""
 
-#: articlewidget.cpp:807
+#: articlewidget.cpp:812
 #, kde-format
 msgid "Message was signed by %1 (Key ID: 0x%2)."
 msgstr "Xabar %1 (kalit ID: 0x%2) tomonidan imzolangan."
 
-#: articlewidget.cpp:811
+#: articlewidget.cpp:816
 #, kde-format
 msgid "Message was signed by %1."
 msgstr "Xabar %1 tomonidan imzolangan."
 
-#: articlewidget.cpp:821
+#: articlewidget.cpp:826
 msgid "The signature is valid, but the key's validity is unknown."
 msgstr ""
 
-#: articlewidget.cpp:825
+#: articlewidget.cpp:830
 msgid "The signature is valid and the key is marginally trusted."
 msgstr ""
 
-#: articlewidget.cpp:829
+#: articlewidget.cpp:834
 msgid "The signature is valid and the key is fully trusted."
 msgstr ""
 
-#: articlewidget.cpp:833
+#: articlewidget.cpp:838
 msgid "The signature is valid and the key is ultimately trusted."
 msgstr ""
 
-#: articlewidget.cpp:837
+#: articlewidget.cpp:842
 msgid "The signature is valid, but the key is untrusted."
 msgstr ""
 
-#: articlewidget.cpp:841
+#: articlewidget.cpp:846
 msgid "Warning: The signature is bad."
 msgstr "Diqqat: Notoʻgʻri imzo."
 
-#: articlewidget.cpp:858
+#: articlewidget.cpp:863
 msgid "End of signed message"
 msgstr ""
 
-#: articlewidget.cpp:874
+#: articlewidget.cpp:879
 msgid "unnamed"
 msgstr "nomsiz"
 
-#: articlewidget.cpp:1073
+#: articlewidget.cpp:1078
 #, fuzzy, kde-format
 msgid ""
 "An error occurred while downloading the article source:\n"
 "%1"
 msgstr "Maqola manbasini yozib olishda xato roʻy berdi:\n"
 
-#: articlewidget.cpp:1429 kncomposer.cpp:1284
+#: articlewidget.cpp:1434 kncomposer.cpp:1287
 msgid "Select Charset"
 msgstr "Kodlash usulini tanlash"
 
@@ -306,9 +309,9 @@ msgstr "Rostdan ham ushbu hisobni oʻchirishni istaysizmi?"
 
 #. i18n: file: nntpaccountlistwidget_base.ui:69
 #. i18n: ectx: property (text), widget (QPushButton, mDeleteButton)
-#: knaccountmanager.cpp:146 knarticlemanager.cpp:586 knconfigwidgets.cpp:925
-#: knconfigwidgets.cpp:1017 knconfigwidgets.cpp:1279 knfiltermanager.cpp:261
-#: knmainwidget.cpp:1588 knmainwidget.cpp:1639 rc.cpp:384
+#: knaccountmanager.cpp:146 knarticlemanager.cpp:586 knconfigwidgets.cpp:1019
+#: knfiltermanager.cpp:261 knmainwidget.cpp:1588 knmainwidget.cpp:1639
+#: rc.cpp:384
 #, fuzzy
 msgid "&Delete"
 msgstr "Oʻ&chirish"
@@ -396,7 +399,7 @@ msgstr "&Darhol"
 msgid "&Later"
 msgstr "&Keyinroq"
 
-#: knarticlefactory.cpp:385 knarticlefactory.cpp:463 kncomposer.cpp:1517
+#: knarticlefactory.cpp:385 knarticlefactory.cpp:463 kncomposer.cpp:1521
 msgid "You have no valid news accounts configured."
 msgstr ""
 
@@ -627,7 +630,7 @@ msgstr "Tozalash"
 msgid "Cleaning up. Please wait..."
 msgstr "Tozalanmoqda. Iltimos kutib turing..."
 
-#: kncollectionview.cpp:84 knconfigwidgets.cpp:1120 kngroupbrowser.cpp:94
+#: kncollectionview.cpp:84 knconfigwidgets.cpp:1122 kngroupbrowser.cpp:94
 msgid "Name"
 msgstr "Nomi"
 
@@ -639,137 +642,137 @@ msgstr "Oʻqilmagan"
 msgid "Total"
 msgstr "Jami"
 
-#: kncomposer.cpp:87
+#: kncomposer.cpp:89
 msgid "Edit Recent Addresses..."
 msgstr "Yaqinda qoʻllangan manzillarni tahrirlash..."
 
-#: kncomposer.cpp:218
+#: kncomposer.cpp:220
 msgid "&Send Now"
 msgstr "&Darhol joʻnatish"
 
-#: kncomposer.cpp:224
+#: kncomposer.cpp:226
 msgid "Send &Later"
 msgstr "&Keyinroq joʻnatish"
 
-#: kncomposer.cpp:229
+#: kncomposer.cpp:231
 msgid "Save as &Draft"
 msgstr ""
 
-#: kncomposer.cpp:234
+#: kncomposer.cpp:236
 msgid "D&elete"
 msgstr "Oʻ&chirish"
 
-#: kncomposer.cpp:251
+#: kncomposer.cpp:253
 msgid "Paste as &Quotation"
 msgstr ""
 
-#: kncomposer.cpp:263
+#: kncomposer.cpp:265
 msgid "Append &Signature"
 msgstr "&Imzoni qoʻshish"
 
-#: kncomposer.cpp:267
+#: kncomposer.cpp:269
 msgid "&Insert File..."
 msgstr "&Fayldan qoʻyish..."
 
-#: kncomposer.cpp:271
+#: kncomposer.cpp:273
 msgid "Insert File (in a &box)..."
 msgstr "Fayldan qoʻyish (quti &ichida)..."
 
-#: kncomposer.cpp:276
+#: kncomposer.cpp:278
 msgid "Attach &File..."
 msgstr "&Faylni ilova qilish..."
 
-#: kncomposer.cpp:280
+#: kncomposer.cpp:282
 msgid "Sign Article with &PGP"
 msgstr "Maqolani PGP bilan im&zolash"
 
-#: kncomposer.cpp:284 kncomposerview.cpp:229
+#: kncomposer.cpp:286 kncomposerview.cpp:229
 #, fuzzy
 msgid "&Remove"
 msgstr "Qutini o&lib tashlash"
 
-#: kncomposer.cpp:288 kncomposerview.cpp:234
+#: kncomposer.cpp:290 kncomposerview.cpp:234
 msgid "&Properties"
 msgstr "Xossa&lari"
 
-#: kncomposer.cpp:295
+#: kncomposer.cpp:297
 msgid "Send &News Article"
 msgstr ""
 
-#: kncomposer.cpp:300
+#: kncomposer.cpp:302
 msgid "Send E&mail"
 msgstr "X&at joʻnatish"
 
-#: kncomposer.cpp:305
+#: kncomposer.cpp:307
 msgid "Set &Charset"
 msgstr "&Kodlash usulini koʻrsatish"
 
-#: kncomposer.cpp:312
+#: kncomposer.cpp:314
 msgid "Set Charset"
 msgstr "Kodlash usulini koʻrsatish"
 
-#: kncomposer.cpp:318
+#: kncomposer.cpp:320
 msgid "&Word Wrap"
 msgstr ""
 
-#: kncomposer.cpp:321
+#: kncomposer.cpp:323
 msgid "&Automatic Spellchecking"
 msgstr ""
 
-#: kncomposer.cpp:334
+#: kncomposer.cpp:336
 msgid "Add &Quote Characters"
 msgstr ""
 
-#: kncomposer.cpp:338
+#: kncomposer.cpp:340
 msgid "&Remove Quote Characters"
 msgstr ""
 
-#: kncomposer.cpp:342
+#: kncomposer.cpp:344
 msgid "Add &Box"
 msgstr "Qu&tini qoʻshish"
 
-#: kncomposer.cpp:346
+#: kncomposer.cpp:348
 msgid "Re&move Box"
 msgstr "Qutini o&lib tashlash"
 
-#: kncomposer.cpp:350
+#: kncomposer.cpp:352
 #, fuzzy
 msgid "Get &Original Text (not re-wrapped)"
 msgstr "&Haqiqiy matnni olish"
 
-#: kncomposer.cpp:356
+#: kncomposer.cpp:358
 msgid "S&cramble (Rot 13)"
 msgstr ""
 
-#: kncomposer.cpp:363
+#: kncomposer.cpp:365
 msgid "Start &External Editor"
 msgstr "&Tashqi tahrirchini ishga tushirish"
 
-#: kncomposer.cpp:596 kncomposer.cpp:603 kncomposer.cpp:1240
+#: kncomposer.cpp:598 kncomposer.cpp:605 kncomposer.cpp:1244
 msgid "<posted & mailed>"
 msgstr ""
 
-#: kncomposer.cpp:599 kncomposer.cpp:1241
+#: kncomposer.cpp:601 kncomposer.cpp:1245
 msgid ""
 "<posted & mailed>\n"
 "\n"
 msgstr ""
 
-#: kncomposer.cpp:622
+#: kncomposer.cpp:624
 msgid "Please enter a subject."
 msgstr "Iltimos mavzuni kiriting."
 
-#: kncomposer.cpp:630
+#: kncomposer.cpp:632
 msgid "Please enter a newsgroup."
 msgstr "Iltimos yangiliklar guruhini kiriting."
 
-#: kncomposer.cpp:639
+#: kncomposer.cpp:641
 msgid ""
 "You are crossposting to more than 12 newsgroups.\n"
 "Please remove all newsgroups in which your article is off-topic."
 msgstr ""
 
-#: kncomposer.cpp:644
+#: kncomposer.cpp:646
 msgid ""
 "You are crossposting to more than five newsgroups.\n"
 "Please reconsider whether this is really useful\n"
@@ -777,18 +780,18 @@ msgid ""
 "Do you want to re-edit the article or send it anyway?"
 msgstr ""
 
-#: kncomposer.cpp:645 kncomposer.cpp:654 kncomposer.cpp:666 kncomposer.cpp:736
-#: kncomposer.cpp:750 kncomposer.cpp:756
+#: kncomposer.cpp:647 kncomposer.cpp:656 kncomposer.cpp:668 kncomposer.cpp:738
+#: kncomposer.cpp:752 kncomposer.cpp:758
 msgid "&Send"
 msgstr "&Joʻnatish"
 
-#: kncomposer.cpp:645 kncomposer.cpp:654 kncomposer.cpp:666 kncomposer.cpp:736
-#: kncomposer.cpp:751 kncomposer.cpp:756
+#: kncomposer.cpp:647 kncomposer.cpp:656 kncomposer.cpp:668 kncomposer.cpp:738
+#: kncomposer.cpp:753 kncomposer.cpp:758
 msgctxt "edit article"
 msgid "&Edit"
 msgstr "&Tahrirlash"
 
-#: kncomposer.cpp:650
+#: kncomposer.cpp:652
 msgid ""
 "You are crossposting to more than two newsgroups.\n"
 "Please use the \"Followup-To\" header to direct the replies to your article "
@@ -796,67 +799,67 @@ msgid ""
 "Do you want to re-edit the article or send it anyway?"
 msgstr ""
 
-#: kncomposer.cpp:660
+#: kncomposer.cpp:662
 msgid ""
 "You are directing replies to more than 12 newsgroups.\n"
 "Please remove some newsgroups from the \"Followup-To\" header."
 msgstr ""
 
-#: kncomposer.cpp:665
+#: kncomposer.cpp:667
 msgid ""
 "You are directing replies to more than five newsgroups.\n"
 "Please reconsider whether this is really useful.\n"
 "Do you want to re-edit the article or send it anyway?"
 msgstr ""
 
-#: kncomposer.cpp:672
+#: kncomposer.cpp:674
 msgid "Please enter the email address."
 msgstr "Iltimos elektron pochta manzilini kiriting."
 
-#: kncomposer.cpp:724
+#: kncomposer.cpp:726
 msgid ""
 "Your message contains characters which are not included\n"
 "in the \"us-ascii\" character set; please choose\n"
 "a suitable character set from the \"Options\" menu."
 msgstr ""
 
-#: kncomposer.cpp:729
+#: kncomposer.cpp:731
 msgid "You cannot post an empty message."
 msgstr "Boʻsh xatni joʻnatib boʻlmaydi."
 
-#: kncomposer.cpp:735
+#: kncomposer.cpp:737
 msgid ""
 "Your article seems to consist entirely of quoted text;\n"
 "do you want to re-edit the article or send it anyway?"
 msgstr ""
 
-#: kncomposer.cpp:740
+#: kncomposer.cpp:742
 msgid ""
 "You cannot post an article consisting\n"
 "entirely of quoted text."
 msgstr ""
 
-#: kncomposer.cpp:748
+#: kncomposer.cpp:750
 msgid ""
 "Your article contains lines longer than 80 characters.\n"
 "Do you want to re-edit the article or send it anyway?"
 msgstr ""
 
-#: kncomposer.cpp:755
+#: kncomposer.cpp:757
 msgid ""
 "Your signature is more than 8 lines long.\n"
 "You should shorten it to match the widely accepted limit of 4 lines.\n"
 "Do you want to re-edit the article or send it anyway?"
 msgstr ""
 
-#: kncomposer.cpp:760
+#: kncomposer.cpp:762
 msgid ""
 "Your signature exceeds the widely-accepted limit of 4 lines:\n"
 "please consider shortening your signature;\n"
 "otherwise, you will probably annoy your readers."
 msgstr ""
 
-#: kncomposer.cpp:782
+#: kncomposer.cpp:784
 msgid ""
 "You have not configured your preferred signing key yet;\n"
 "please specify it in the global identity configuration,\n"
@@ -864,165 +867,165 @@ msgid ""
 "The article will be sent unsigned."
 msgstr ""
 
-#: kncomposer.cpp:789
+#: kncomposer.cpp:791
 msgid "Send Unsigned"
 msgstr "Imzolamasdan joʻnatish"
 
-#: kncomposer.cpp:948
+#: kncomposer.cpp:951
 msgid "Do you want to save this article in the draft folder?"
 msgstr ""
 
-#: kncomposer.cpp:1075
+#: kncomposer.cpp:1079
 msgid "Insert File"
 msgstr "Fayldan qoʻyish"
 
-#: kncomposer.cpp:1153
+#: kncomposer.cpp:1157
 msgid "Attach File"
 msgstr "Faylni ilova qilish"
 
-#: kncomposer.cpp:1229
+#: kncomposer.cpp:1233
 msgid ""
 "The poster does not want a mail copy of your reply (Mail-Copies-To: "
 "nobody);\n"
 "please respect their request."
 msgstr ""
 
-#: kncomposer.cpp:1230
+#: kncomposer.cpp:1234
 msgid "&Send Copy"
 msgstr "Nusxasini &joʻnatish"
 
-#: kncomposer.cpp:1308
+#: kncomposer.cpp:1312
 msgid "This will replace all text you have written."
 msgstr "Bu siz kiritgan butun matnni almashtiradi."
 
-#: kncomposer.cpp:1322
+#: kncomposer.cpp:1326
 msgid ""
 "No editor configured.\n"
 "Please do this in the settings dialog."
 msgstr ""
 
-#: kncomposer.cpp:1372
+#: kncomposer.cpp:1376
 msgid ""
 "Unable to start external editor.\n"
 "Please check your configuration in the settings dialog."
 msgstr ""
 
-#: kncomposer.cpp:1389
+#: kncomposer.cpp:1393
 msgid "News Article"
 msgstr ""
 
-#: kncomposer.cpp:1391
+#: kncomposer.cpp:1395
 msgid "Email"
 msgstr "Elektron pochta"
 
-#: kncomposer.cpp:1393
+#: kncomposer.cpp:1397
 msgid "News Article & Email"
 msgstr ""
 
-#: kncomposer.cpp:1397
+#: kncomposer.cpp:1401
 msgid " OVR "
 msgstr " ALM "
 
-#: kncomposer.cpp:1399
+#: kncomposer.cpp:1403
 msgid " INS "
 msgstr " QOʻY "
 
-#: kncomposer.cpp:1401
+#: kncomposer.cpp:1405
 #, kde-format
 msgid " Type: %1 "
 msgstr " Turi: %1 "
 
-#: kncomposer.cpp:1402
+#: kncomposer.cpp:1406
 #, kde-format
 msgid " Charset: %1 "
 msgstr " Kodlash usuli: %1 "
 
-#: kncomposer.cpp:1404 kncomposer.cpp:1411
+#: kncomposer.cpp:1408 kncomposer.cpp:1415
 #, kde-format
 msgid " Column: %1 "
 msgstr " Ustun: %1 "
 
-#: kncomposer.cpp:1405 kncomposer.cpp:1412
+#: kncomposer.cpp:1409 kncomposer.cpp:1416
 #, kde-format
 msgid " Line: %1 "
 msgstr " Satr: %1 "
 
-#: kncomposer.cpp:1455
+#: kncomposer.cpp:1459
 msgid "No Subject"
 msgstr "Mavzusiz"
 
-#: kncomposer.cpp:1670
+#: kncomposer.cpp:1674
 msgid ""
 "ISpell could not be started.\n"
 "Please make sure you have ISpell properly configured and in your PATH."
 msgstr ""
 
-#: kncomposer.cpp:1675
+#: kncomposer.cpp:1679
 msgid "ISpell seems to have crashed."
 msgstr ""
 
-#: kncomposer.cpp:1682
+#: kncomposer.cpp:1686
 msgid "No misspellings encountered."
 msgstr "Imlo xatosi topilmadi."
 
-#: kncomposer.cpp:1745 kncomposer.cpp:1808
+#: kncomposer.cpp:1749 kncomposer.cpp:1812
 #, fuzzy
 msgid "File"
 msgstr "Filter"
 
-#: kncomposer.cpp:1746
+#: kncomposer.cpp:1750
 msgid "Type"
 msgstr "Turi"
 
-#: kncomposer.cpp:1747
+#: kncomposer.cpp:1751
 msgid "Size"
 msgstr "Hajmi"
 
-#: kncomposer.cpp:1748 kngroupbrowser.cpp:95 kngrouppropdlg.cpp:85
+#: kncomposer.cpp:1752 kngroupbrowser.cpp:95
 msgid "Description"
 msgstr "Taʼrifi"
 
-#: kncomposer.cpp:1749
+#: kncomposer.cpp:1753
 msgid "Encoding"
 msgstr "Kodlash usuli"
 
-#: kncomposer.cpp:1801
+#: kncomposer.cpp:1805
 msgid "Attachment Properties"
 msgstr "Ilovaning xossalari"
 
 #. i18n: file: nntpaccountdialog_base.ui:196
 #. i18n: ectx: property (text), widget (QLabel, mNameLabel)
-#: kncomposer.cpp:1814 kngrouppropdlg.cpp:93 rc.cpp:369
+#: kncomposer.cpp:1818 rc.cpp:369
 msgid "Name:"
 msgstr "Nomi:"
 
-#: kncomposer.cpp:1816
+#: kncomposer.cpp:1820
 msgid "Size:"
 msgstr "Hajmi:"
 
-#: kncomposer.cpp:1823
+#: kncomposer.cpp:1827
 msgid "Mime"
 msgstr ""
 
-#: kncomposer.cpp:1832
+#: kncomposer.cpp:1836
 msgid "&Mime-Type:"
 msgstr ""
 
-#: kncomposer.cpp:1839
+#: kncomposer.cpp:1843
 msgid "&Description:"
 msgstr "&Taʼrifi:"
 
-#: kncomposer.cpp:1856
+#: kncomposer.cpp:1860
 msgid "&Encoding:"
 msgstr "&Kodlash usuli:"
 
-#: kncomposer.cpp:1891
+#: kncomposer.cpp:1895
 msgid ""
 "You have set an invalid mime-type.\n"
 "Please change it."
 msgstr ""
 
-#: kncomposer.cpp:1896
+#: kncomposer.cpp:1900
 msgid ""
 "You have changed the mime-type of this non-textual attachment\n"
 "to text. This might cause an error while loading or encoding the file.\n"
@@ -1126,280 +1129,355 @@ msgstr "Xabar yaratish"
 msgid "Spelling"
 msgstr "Imlo"
 
-#: knconfigwidgets.cpp:74
+#: knconfigwidgets.cpp:75
+#, fuzzy
+#| msgid "&Name:"
+msgctxt "@label:textbox Name of the user in a message"
 msgid "&Name:"
 msgstr "Is&mi:"
 
-#: knconfigwidgets.cpp:78
+#: knconfigwidgets.cpp:79
 msgid ""
 "<qt><p>Your name as it will appear to others reading your articles.</"
 "p><p>Ex: <b>John Stuart Masterson III</b>.</p></qt>"
 msgstr ""
 
-#: knconfigwidgets.cpp:85
+#: knconfigwidgets.cpp:86
 msgid "Organi&zation:"
 msgstr "Tash&kilot:"
 
-#: knconfigwidgets.cpp:89
+#: knconfigwidgets.cpp:90
 msgid ""
 "<qt><p>The name of the organization you work for.</p><p>Ex: <b>KNode, Inc</"
 "b>.</p></qt>"
 msgstr ""
 
-#: knconfigwidgets.cpp:96
+#: knconfigwidgets.cpp:97
 msgid "Email a&ddress:"
 msgstr "Elektron p&ochta:"
 
-#: knconfigwidgets.cpp:100
+#: knconfigwidgets.cpp:101
 msgid ""
 "<qt><p>Your email address as it will appear to others reading your articles</"
 "p><p>Ex: <b>nospam@please.com</b>.</p></qt>"
 msgstr ""
 
-#: knconfigwidgets.cpp:107
+#: knconfigwidgets.cpp:108
 msgid "&Reply-to address:"
 msgstr ""
 
-#: knconfigwidgets.cpp:111
+#: knconfigwidgets.cpp:112
 msgid ""
 "<qt><p>When someone reply to your article by email, this is the address the "
 "message will be sent. If you fill in this field, please do it with a real "
 "email address.</p><p>Ex: <b>john@example.com</b>.</p></qt>"
 msgstr ""
 
-#: knconfigwidgets.cpp:119
+#: knconfigwidgets.cpp:120
 msgid "&Mail-copies-to:"
 msgstr ""
 
-#: knconfigwidgets.cpp:126
+#: knconfigwidgets.cpp:127
+#, fuzzy
+#| msgid "Chan&ge..."
+msgctxt "@action:button Change signing key"
 msgid "Chan&ge..."
 msgstr "Oʻz&gartirish..."
 
-#: knconfigwidgets.cpp:127
+#: knconfigwidgets.cpp:128
 msgid "Your OpenPGP Key"
 msgstr ""
 
-#: knconfigwidgets.cpp:128
+#: knconfigwidgets.cpp:129
 msgid "Select the OpenPGP key which should be used for signing articles."
 msgstr ""
 
-#: knconfigwidgets.cpp:130
+#: knconfigwidgets.cpp:131
 msgid "Signing ke&y:"
 msgstr "Imzolash &kaliti:"
 
-#: knconfigwidgets.cpp:134
+#: knconfigwidgets.cpp:135
 msgid ""
 "<qt><p>The OpenPGP key you choose here will be used to sign your articles.</"
 "p></qt>"
 msgstr ""
 
-#: knconfigwidgets.cpp:145
+#: knconfigwidgets.cpp:146
 msgid "&Use a signature from file"
 msgstr "Imzoni fayldan &olish"
 
-#: knconfigwidgets.cpp:149
+#: knconfigwidgets.cpp:150
 msgid "<qt><p>Mark this to let KNode read the signature from a file.</p></qt>"
 msgstr ""
 
-#: knconfigwidgets.cpp:152
+#: knconfigwidgets.cpp:153
 msgid "Signature &file:"
 msgstr "Imzo &fayli:"
 
-#: knconfigwidgets.cpp:158
+#: knconfigwidgets.cpp:159
 msgid ""
 "<qt><p>The file from which the signature will be read.</p><p>Ex: <b>/home/"
 "robt/.sig</b>.</p></qt>"
 msgstr ""
 
-#: knconfigwidgets.cpp:163
+#: knconfigwidgets.cpp:164
+#, fuzzy
+#| msgid "Choo&se..."
+msgctxt "@action:button Choose a file that contains a signature for messages"
 msgid "Choo&se..."
 msgstr "&Tanlash..."
 
-#: knconfigwidgets.cpp:167
+#: knconfigwidgets.cpp:168
+#, fuzzy
+#| msgid "&Edit File"
+msgctxt "@action:button Launch the edit of the signature file"
 msgid "&Edit File"
 msgstr "Faylni &tahrirlash"
 
-#: knconfigwidgets.cpp:172
+#: knconfigwidgets.cpp:173
 msgid "&The file is a program"
 msgstr "Bu &fayl - dastur"
 
-#: knconfigwidgets.cpp:174
+#: knconfigwidgets.cpp:175
 msgid ""
 "<qt><p>Mark this option if the signature will be generated by a program</"
 "p><p>Ex: <b>/home/robt/gensig.sh</b>.</p></qt>"
 msgstr ""
 
-#: knconfigwidgets.cpp:179
+#: knconfigwidgets.cpp:180
 msgid "Specify signature &below"
 msgstr ""
 
-#: knconfigwidgets.cpp:262
+#: knconfigwidgets.cpp:263
 msgid "Choose Signature"
 msgstr "Imzoni tanlash"
 
-#: knconfigwidgets.cpp:273
+#: knconfigwidgets.cpp:274
 msgid "You must specify a filename."
 msgstr "Fayl nomini koʻrsatishingiz kerak."
 
-#: knconfigwidgets.cpp:279
+#: knconfigwidgets.cpp:280
 msgid "You have specified a folder."
 msgstr "Siz jildni koʻrsatdingiz."
 
-#: knconfigwidgets.cpp:384
+#: knconfigwidgets.cpp:385
 #, kde-format
 msgid "Server: %1"
 msgstr "Server: %1"
 
-#: knconfigwidgets.cpp:385
+#: knconfigwidgets.cpp:386
 #, kde-format
 msgid "Port: %1"
 msgstr "Port: %1"
 
-#: knconfigwidgets.cpp:387
+#: knconfigwidgets.cpp:388
 msgid "Server: "
 msgstr "Server: "
 
-#: knconfigwidgets.cpp:388
+#: knconfigwidgets.cpp:389
 msgid "Port: "
 msgstr "Port: "
 
-#: knconfigwidgets.cpp:444 knfilterdialog.cpp:41 kngrouppropdlg.cpp:41
+#: knconfigwidgets.cpp:445 knfilterdialog.cpp:41
 #, kde-format
 msgid "Properties of %1"
 msgstr "%1 xossalari"
 
-#: knconfigwidgets.cpp:446
+#: knconfigwidgets.cpp:447
 msgid "New Account"
 msgstr "Yangi hisob"
 
-#: knconfigwidgets.cpp:453
+#: knconfigwidgets.cpp:454
 msgid "Ser&ver"
 msgstr "Ser&ver"
 
-#: knconfigwidgets.cpp:504 kngrouppropdlg.cpp:163
+#: knconfigwidgets.cpp:505
 msgid "&Identity"
 msgstr "&Shaxsiyat"
 
-#: knconfigwidgets.cpp:508 kngrouppropdlg.cpp:167
+#: knconfigwidgets.cpp:509
 msgid "&Cleanup"
 msgstr ""
 
-#: knconfigwidgets.cpp:542
+#: knconfigwidgets.cpp:543
 msgid ""
 "Please enter an arbitrary name for the account and the\n"
 "hostname of the news server."
 msgstr ""
 
-#: knconfigwidgets.cpp:656
+#: knconfigwidgets.cpp:657
 msgid "&Use custom colors"
 msgstr "&Boshqa ranglarni ishlatish"
 
-#: knconfigwidgets.cpp:661
+#: knconfigwidgets.cpp:662
+#, fuzzy
+#| msgid "Cha&nge..."
+msgctxt "@action:button Run a color selection dialog"
 msgid "Cha&nge..."
 msgstr "Oʻz&gartirish..."
 
-#: knconfigwidgets.cpp:671
+#: knconfigwidgets.cpp:672
 msgid "Use custom &fonts"
 msgstr "&Boshqa shriftlarni ishlatish"
 
-#: knconfigwidgets.cpp:676
+#: knconfigwidgets.cpp:677
+#, fuzzy
+#| msgid "Chang&e..."
+msgctxt "@action:button Run a font selection dialog"
 msgid "Chang&e..."
 msgstr "Oʻzg&artirish"
 
-#. i18n: file: nntpaccountlistwidget_base.ui:55
-#. i18n: ectx: property (text), widget (QPushButton, mAddButton)
-#. i18n: file: postnewstechnicalwidget_base.ui:134
-#. i18n: ectx: property (text), widget (QPushButton, mAddButton)
-#: knconfigwidgets.cpp:921 knconfigwidgets.cpp:1267 rc.cpp:378 rc.cpp:461
+#: knconfigwidgets.cpp:922
+#, fuzzy
+#| msgid "&Add..."
+msgctxt "@action:button Add a new message header field (open dialog)"
 msgid "&Add..."
 msgstr "Qoʻ&shish..."
 
-#: knconfigwidgets.cpp:929 knconfigwidgets.cpp:1271
+#: knconfigwidgets.cpp:926
+#, fuzzy
+msgctxt "@action:button Delete a message header field"
+msgid "&Delete"
+msgstr "Oʻ&chirish"
+
+#: knconfigwidgets.cpp:930 knconfigwidgets.cpp:1273
 msgctxt "modify something"
 msgid "&Edit..."
 msgstr "&Tahrirlash..."
 
-#: knconfigwidgets.cpp:933 knconfigwidgets.cpp:1293
+#: knconfigwidgets.cpp:934
+#, fuzzy
+#| msgid "&Up"
+msgctxt "@action:button Move an element of a list up"
 msgid "&Up"
 msgstr "&Yuqoriga"
 
-#: knconfigwidgets.cpp:937 knconfigwidgets.cpp:1297
+#: knconfigwidgets.cpp:938
+#, fuzzy
+#| msgid "Do&wn"
+msgctxt "@action:button Move an element of a list down"
 msgid "Do&wn"
 msgstr "&Pastga"
 
-#: knconfigwidgets.cpp:1017
+#: knconfigwidgets.cpp:1019
 msgid "Really delete this header?"
 msgstr "Rostdan ushbu sarlavhani olib tashlashni istaysizmi?"
 
-#: knconfigwidgets.cpp:1088
+#: knconfigwidgets.cpp:1090
 msgid "Header Properties"
 msgstr "Sarlavhaning xossalari"
 
-#: knconfigwidgets.cpp:1104
+#: knconfigwidgets.cpp:1106
+#, fuzzy
+#| msgid "H&eader:"
+msgctxt "@label:textbox Edition of a message header name"
 msgid "H&eader:"
 msgstr "Sarl&avha:"
 
-#: knconfigwidgets.cpp:1112
+#: knconfigwidgets.cpp:1114
+msgctxt ""
+"@label:textbox Edition of the displayed name in the UI of a message header"
 msgid "Displayed na&me:"
 msgstr ""
 
-#: knconfigwidgets.cpp:1127
+#: knconfigwidgets.cpp:1129
 msgid "&Large"
 msgstr "K&atta"
 
-#: knconfigwidgets.cpp:1128
+#: knconfigwidgets.cpp:1130
 msgid "&Bold"
 msgstr "Qal&in"
 
-#: knconfigwidgets.cpp:1129
+#: knconfigwidgets.cpp:1131
 msgid "&Italic"
 msgstr "Qi&ya"
 
-#: knconfigwidgets.cpp:1130
+#: knconfigwidgets.cpp:1132
 msgid "&Underlined"
 msgstr "Ostiga &chizilgan"
 
-#: knconfigwidgets.cpp:1136
+#: knconfigwidgets.cpp:1138
 msgid "Value"
 msgstr "Qiymati"
 
-#: knconfigwidgets.cpp:1143
+#: knconfigwidgets.cpp:1145
 msgid "L&arge"
 msgstr "K&atta"
 
-#: knconfigwidgets.cpp:1144
+#: knconfigwidgets.cpp:1146
 msgid "Bol&d"
 msgstr "Qal&in"
 
-#: knconfigwidgets.cpp:1145
+#: knconfigwidgets.cpp:1147
 msgid "I&talic"
 msgstr "Q&iya"
 
-#: knconfigwidgets.cpp:1146
+#: knconfigwidgets.cpp:1148
 msgid "U&nderlined"
 msgstr "Ostiga chi&zilgan"
 
-#: knconfigwidgets.cpp:1226
+#: knconfigwidgets.cpp:1228
 msgid "Default score for &ignored threads:"
 msgstr ""
 
-#: knconfigwidgets.cpp:1233
+#: knconfigwidgets.cpp:1235
 msgid "Default score for &watched threads:"
 msgstr ""
 
-#: knconfigwidgets.cpp:1259
+#: knconfigwidgets.cpp:1261
+#, fuzzy
+#| msgid "&Filters:"
+msgctxt "@title"
 msgid "&Filters:"
 msgstr "&Filterlar:"
 
-#: knconfigwidgets.cpp:1275
+#: knconfigwidgets.cpp:1269
+#, fuzzy
+#| msgid "&Add..."
+msgctxt "@action:button Add a new filter"
+msgid "&Add..."
+msgstr "Qoʻ&shish..."
+
+#: knconfigwidgets.cpp:1277
+#, fuzzy
+#| msgid "Co&py..."
+msgctxt "@action:button Copy a filter"
 msgid "Co&py..."
 msgstr "&Nusxa olish..."
 
-#: knconfigwidgets.cpp:1286
+#: knconfigwidgets.cpp:1281
+#, fuzzy
+msgctxt "@action:button Delete a filter"
+msgid "&Delete"
+msgstr "Oʻ&chirish"
+
+#: knconfigwidgets.cpp:1288
+#, fuzzy
+#| msgid "&Menu:"
+msgctxt "@title"
 msgid "&Menu:"
 msgstr "&Menyu:"
 
-#: knconfigwidgets.cpp:1301
+#: knconfigwidgets.cpp:1295
+#, fuzzy
+#| msgid "&Up"
+msgctxt "@action:button move something up in a list"
+msgid "&Up"
+msgstr "&Yuqoriga"
+
+#: knconfigwidgets.cpp:1299
+#, fuzzy
+#| msgid "Do&wn"
+msgctxt "@action:button move something down in a list"
+msgid "Do&wn"
+msgstr "&Pastga"
+
+#: knconfigwidgets.cpp:1303
+#, fuzzy
+#| msgid ""
+#| "Add\n"
+#| "&Separator"
+msgctxt "@action:button"
 msgid ""
 "Add\n"
 "&Separator"
@@ -1407,7 +1485,12 @@ msgstr ""
 "Ajratuvchini\n"
 "qoʻsh&ish"
 
-#: knconfigwidgets.cpp:1305
+#: knconfigwidgets.cpp:1307
+#, fuzzy
+#| msgid ""
+#| "&Remove\n"
+#| "Separator"
+msgctxt "@action:button"
 msgid ""
 "&Remove\n"
 "Separator"
@@ -1415,66 +1498,66 @@ msgstr ""
 "Ajratuvchini\n"
 "&olib tashlash"
 
-#: knconfigwidgets.cpp:1527
+#: knconfigwidgets.cpp:1529
 msgid "Allow 8-bit"
 msgstr ""
 
-#: knconfigwidgets.cpp:1528
+#: knconfigwidgets.cpp:1530
 msgid "7-bit (Quoted-Printable)"
 msgstr ""
 
-#: knconfigwidgets.cpp:1627
+#: knconfigwidgets.cpp:1630
 #, fuzzy
 msgid "Additional Header"
 msgstr "&Qoʻshimcha"
 
-#: knconfigwidgets.cpp:1748
+#: knconfigwidgets.cpp:1751
 msgid "&Use global cleanup configuration"
 msgstr ""
 
-#: knconfigwidgets.cpp:1753
+#: knconfigwidgets.cpp:1756
 msgid "Newsgroup Cleanup Settings"
 msgstr ""
 
-#: knconfigwidgets.cpp:1761
+#: knconfigwidgets.cpp:1764
 msgid "&Expire old articles automatically"
 msgstr ""
 
-#: knconfigwidgets.cpp:1766
+#: knconfigwidgets.cpp:1769
 msgid "&Purge groups every:"
 msgstr ""
 
-#: knconfigwidgets.cpp:1776
+#: knconfigwidgets.cpp:1779
 msgid "&Keep read articles:"
 msgstr "Oʻqil&gan maqolalarni qoldirish:"
 
-#: knconfigwidgets.cpp:1784
+#: knconfigwidgets.cpp:1787
 msgid "Keep u&nread articles:"
 msgstr "Oʻqil&magan maqolalarni qoldirish:"
 
-#: knconfigwidgets.cpp:1791
+#: knconfigwidgets.cpp:1794
 msgid "&Remove articles that are not available on the server"
 msgstr "Serverda yoʻq maqolalarni &olib tashlash"
 
-#: knconfigwidgets.cpp:1795
+#: knconfigwidgets.cpp:1798
 msgid "Preser&ve threads"
 msgstr ""
 
-#: knconfigwidgets.cpp:1840 knconfigwidgets.cpp:1845 knconfigwidgets.cpp:1850
-#: knconfigwidgets.cpp:1929
+#: knconfigwidgets.cpp:1843 knconfigwidgets.cpp:1848 knconfigwidgets.cpp:1853
+#: knconfigwidgets.cpp:1932
 msgid " day"
 msgid_plural " days"
 msgstr[0] ""
 
-#: knconfigwidgets.cpp:1867
+#: knconfigwidgets.cpp:1870
 msgid "Folders"
 msgstr "Jildlar"
 
-#: knconfigwidgets.cpp:1875
+#: knconfigwidgets.cpp:1878
 msgid "Co&mpact folders automatically"
 msgstr ""
 
-#: knconfigwidgets.cpp:1880
+#: knconfigwidgets.cpp:1883
 msgid "P&urge folders every:"
 msgstr ""
 
@@ -1890,7 +1973,7 @@ msgstr "Guruhlar yuklanmoqda..."
 msgid "Groups on %1: (%2 displayed)"
 msgstr ""
 
-#: kngroupbrowser.cpp:425 kngroupbrowser.cpp:438 kngrouppropdlg.cpp:113
+#: kngroupbrowser.cpp:425 kngroupbrowser.cpp:438
 msgid "moderated"
 msgstr ""
 
@@ -2001,65 +2084,129 @@ msgstr ""
 msgid "Do Not Fetch"
 msgstr ""
 
-#: kngrouppropdlg.cpp:48
-msgid "&General"
-msgstr "&Umumiy"
+#: kngrouppropdlg.cpp:43
+#, fuzzy, kde-format
+#| msgid "Properties of %1"
+msgctxt "@title:window %1=newsgroup name"
+msgid "Properties of %1"
+msgstr "%1 xossalari"
 
-#: kngrouppropdlg.cpp:53
+#: kngrouppropdlg.cpp:50
+#, fuzzy
+#| msgid "General"
+msgctxt "@title:tab"
+msgid "General"
+msgstr "Umumiy"
+
+#: kngrouppropdlg.cpp:55
+#, fuzzy
+#| msgid "Settings"
+msgctxt "@title:group"
 msgid "Settings"
 msgstr "Moslamalar"
 
-#: kngrouppropdlg.cpp:64
-msgid "&Nickname:"
+#: kngrouppropdlg.cpp:66
+#, fuzzy
+#| msgid "&Nickname:"
+msgctxt "@label:textbox Alternative name of a newsgroup"
+msgid "Nickname:"
 msgstr "&Taxallus:"
 
-#: kngrouppropdlg.cpp:69
-msgid "&Use different default charset:"
+#: kngrouppropdlg.cpp:71
+#, fuzzy
+#| msgid "&Use different default charset:"
+msgctxt "@label:listbox"
+msgid "Use different default charset:"
 msgstr "Boshqa &andoza kodlash usulini qoʻllash:"
 
-#: kngrouppropdlg.cpp:98
+#: kngrouppropdlg.cpp:88
+#, fuzzy
+#| msgid "Description"
+msgctxt "@title:group"
+msgid "Description"
+msgstr "Taʼrifi"
+
+#: kngrouppropdlg.cpp:96
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label name of a newsgroup"
+msgid "Name:"
+msgstr "Nomi:"
+
+#: kngrouppropdlg.cpp:101
+#, fuzzy
+#| msgid "Description:"
+msgctxt "@label description of a newsgroup"
 msgid "Description:"
 msgstr "Taʼrifi:"
 
-#: kngrouppropdlg.cpp:103
+#: kngrouppropdlg.cpp:106
+#, fuzzy
+#| msgid "Status:"
+msgctxt "@label status of posting to a newsgroup"
 msgid "Status:"
 msgstr "Holati:"
 
-#: kngrouppropdlg.cpp:107
+#: kngrouppropdlg.cpp:110
+#, fuzzy
+#| msgid "unknown"
+msgctxt "posting status"
 msgid "unknown"
 msgstr "nomaʼlum"
 
-#: kngrouppropdlg.cpp:109
+#: kngrouppropdlg.cpp:112
 msgid "posting forbidden"
 msgstr ""
 
-#: kngrouppropdlg.cpp:111
+#: kngrouppropdlg.cpp:114
 msgid "posting allowed"
 msgstr ""
 
-#: kngrouppropdlg.cpp:123
+#: kngrouppropdlg.cpp:116
+msgctxt "posting status"
+msgid "moderated"
+msgstr ""
+
+#: kngrouppropdlg.cpp:126
+#, fuzzy
+#| msgid "Statistics"
+msgctxt "@title:group"
 msgid "Statistics"
 msgstr "Statistika"
 
-#: kngrouppropdlg.cpp:131
+#: kngrouppropdlg.cpp:134
 msgid "Articles:"
 msgstr "Maqolalar:"
 
-#: kngrouppropdlg.cpp:136
+#: kngrouppropdlg.cpp:139
 msgid "Unread articles:"
 msgstr "Oʻqilmagan maqolalar:"
 
-#: kngrouppropdlg.cpp:141
+#: kngrouppropdlg.cpp:144
 msgid "New articles:"
 msgstr "Yangi maqolalar:"
 
-#: kngrouppropdlg.cpp:146
+#: kngrouppropdlg.cpp:149
 msgid "Threads with unread articles:"
 msgstr ""
 
-#: kngrouppropdlg.cpp:151
+#: kngrouppropdlg.cpp:154
 msgid "Threads with new articles:"
 msgstr ""
+
+#: kngrouppropdlg.cpp:166
+#, fuzzy
+#| msgid "&Identity"
+msgctxt "@title:tab"
+msgid "Identity"
+msgstr "&Shaxsiyat"
+
+#: kngrouppropdlg.cpp:170
+#, fuzzy
+#| msgid "Cleaning Up"
+msgctxt "@title:tab"
+msgid "Cleanup"
+msgstr "Tozalash"
 
 #: kngroupselectdialog.cpp:27
 msgid "Select Destinations"
@@ -2984,6 +3131,12 @@ msgstr "Tashqi &xat-xabar dasturidan foydalanish"
 msgid "Allow 8-bit encoding"
 msgstr ""
 
+#. i18n: file: knode.kcfg:237
+#. i18n: ectx: label, entry (Charset), group (POSTNEWS)
+#: rc.cpp:195
+msgid "Charset"
+msgstr "Kodlash usuli"
+
 #. i18n: file: knode.kcfg:241
 #. i18n: ectx: label, entry (wordWrap), group (POSTNEWS)
 #: rc.cpp:198
@@ -3302,6 +3455,14 @@ msgstr "&Server:"
 #: rc.cpp:375
 msgid "&Port:"
 msgstr "&Port:"
+
+#. i18n: file: nntpaccountlistwidget_base.ui:55
+#. i18n: ectx: property (text), widget (QPushButton, mAddButton)
+#. i18n: file: postnewstechnicalwidget_base.ui:134
+#. i18n: ectx: property (text), widget (QPushButton, mAddButton)
+#: rc.cpp:378 rc.cpp:461
+msgid "&Add..."
+msgstr "Qoʻ&shish..."
 
 #. i18n: file: nntpaccountlistwidget_base.ui:62
 #. i18n: ectx: property (text), widget (QPushButton, mEditButton)
@@ -3716,7 +3877,7 @@ msgstr ""
 msgid "&Replace"
 msgstr "&Almashtirish"
 
-#: utilities.cpp:345
+#: utilities.cpp:346
 msgid ""
 "Unable to load/save configuration.\n"
 "Wrong permissions on home folder?\n"
@@ -3726,21 +3887,30 @@ msgstr ""
 "Ehtimol sizda uy direktoriyaga kerakli huquqlar boʻlmasa kerak.\n"
 "Maʼlumotlarni yoʻqotmaslik uchun KNode dasturidan chiqishingiz lozim."
 
-#: utilities.cpp:351
+#: utilities.cpp:352
 msgid "Unable to load/save file."
 msgstr "Faylni yuklab/saqlab boʻlmadi."
 
-#: utilities.cpp:357
+#: utilities.cpp:358
 msgid "Unable to save remote file."
 msgstr "Masofadagi faylni saqlab boʻlmadi."
 
-#: utilities.cpp:363
+#: utilities.cpp:364
 msgid "Unable to create temporary file."
 msgstr "Vaqtinchalik faylni yaratib boʻlmadi."
 
 #: knode_options.h:25
 msgid "A 'news://server/group' URL"
 msgstr ""
+
+#~ msgid "Chars&et"
+#~ msgstr "&Kodlash usuli"
+
+#~ msgid "Automatic"
+#~ msgstr "Avtomatik"
+
+#~ msgid "&General"
+#~ msgstr "&Umumiy"
 
 #~ msgid "Unread Column"
 #~ msgstr "Oʻqilmagan ustuni"
