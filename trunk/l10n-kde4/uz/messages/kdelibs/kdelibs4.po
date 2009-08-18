@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-14 06:16+0200\n"
+"POT-Creation-Date: 2009-08-18 06:20+0200\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1661,7 +1661,7 @@ msgstr "Oyna"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:106
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: rc.cpp:764 kparts/browserrun.cpp:315
+#: rc.cpp:764 kparts/browserrun.cpp:311
 msgid "Execute"
 msgstr "Ishga tushirish"
 
@@ -1726,7 +1726,7 @@ msgstr "Dasturdan chiqish..."
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:194
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:791 kross/ui/view.cpp:302
+#: rc.cpp:791 kross/ui/view.cpp:301
 msgid "Run"
 msgstr "Ishga tushirish"
 
@@ -1767,7 +1767,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pbStop)
 #: rc.cpp:809 rc.cpp:957 kdeui/jobs/kstatusbarjobtracker.cpp:156
 #: kdeui/util/kstandardguiitem.cpp:281 kdeui/util/kkeyserver_x11.cpp:103
-#: kross/ui/view.cpp:309
+#: kross/ui/view.cpp:308
 msgid "Stop"
 msgstr "Toʻxtatish"
 
@@ -6428,7 +6428,7 @@ msgid "Add"
 msgstr "Qoʻshish"
 
 #: kdeui/util/kstandardguiitem.cpp:291
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:301 kross/ui/view.cpp:330
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:301 kross/ui/view.cpp:329
 msgid "Remove"
 msgstr "Olib tashlash"
 
@@ -6907,91 +6907,108 @@ msgstr "&Tafsilotlar"
 msgid "Get help..."
 msgstr "Yordam olish"
 
-#: kdeui/dialogs/kedittoolbar.cpp:55
+#: kdeui/dialogs/kedittoolbar.cpp:56
 msgid "--- separator ---"
 msgstr "--- ajratuvchi ---"
 
-#: kdeui/dialogs/kedittoolbar.cpp:481
+#: kdeui/dialogs/kedittoolbar.cpp:484
 msgid "Configure Toolbars"
 msgstr "Asboblar panellarini moslash"
 
-#: kdeui/dialogs/kedittoolbar.cpp:530
+#: kdeui/dialogs/kedittoolbar.cpp:533
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
 "default? The changes will be applied immediately."
 msgstr ""
 
-#: kdeui/dialogs/kedittoolbar.cpp:530
+#: kdeui/dialogs/kedittoolbar.cpp:533
 #, fuzzy
 msgid "Reset Toolbars"
 msgstr "Asboblar panellari"
 
-#: kdeui/dialogs/kedittoolbar.cpp:530 khtml/khtmlview.cpp:2924
+#: kdeui/dialogs/kedittoolbar.cpp:533 khtml/khtmlview.cpp:2924
 #: khtml/khtmlview.cpp:2957 khtml/html/html_formimpl.cpp:1809
 msgid "Reset"
 msgstr "Tiklash"
 
-#: kdeui/dialogs/kedittoolbar.cpp:829
+#: kdeui/dialogs/kedittoolbar.cpp:832
 msgid "&Toolbar:"
 msgstr "&Asboblar paneli:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:844
+#: kdeui/dialogs/kedittoolbar.cpp:847
 msgid "A&vailable actions:"
 msgstr "&Mavjud boʻlgan amallar:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:859 kdeui/dialogs/kedittoolbar.cpp:878
+#: kdeui/dialogs/kedittoolbar.cpp:862 kdeui/dialogs/kedittoolbar.cpp:881
 #, fuzzy
 msgid "Filter"
 msgstr "Filter:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:862
+#: kdeui/dialogs/kedittoolbar.cpp:865
 msgid "Curr&ent actions:"
 msgstr "&Joriy amallar:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:881
+#: kdeui/dialogs/kedittoolbar.cpp:884
 msgid "Change &Icon..."
 msgstr "Nishonchani oʻ&zgartirish"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1034
+#: kdeui/dialogs/kedittoolbar.cpp:894
+#, fuzzy
+#| msgid "Change &Icon..."
+msgid "Change Te&xt..."
+msgstr "Nishonchani oʻ&zgartirish"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1045
 #, fuzzy, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1%"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1055
+#: kdeui/dialogs/kedittoolbar.cpp:1066
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
-#: kdeui/dialogs/kedittoolbar.cpp:1057
+#: kdeui/dialogs/kedittoolbar.cpp:1068
 msgid "<Merge>"
 msgstr "<Birlashtirish>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1059
+#: kdeui/dialogs/kedittoolbar.cpp:1070
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<%1'ni birlashtirish>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1065
+#: kdeui/dialogs/kedittoolbar.cpp:1076
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
 "will not be able to re-add it."
 msgstr ""
 
-#: kdeui/dialogs/kedittoolbar.cpp:1066
+#: kdeui/dialogs/kedittoolbar.cpp:1077
 #, kde-format
 msgid "ActionList: %1"
 msgstr "Amallar roʻyxati: %1"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1166 kdeui/dialogs/kedittoolbar.cpp:1193
+#: kdeui/dialogs/kedittoolbar.cpp:1177 kdeui/dialogs/kedittoolbar.cpp:1207
 #, fuzzy, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1%"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1448
+#: kdeui/dialogs/kedittoolbar.cpp:1462
 msgid "Change Icon"
 msgstr "Nishonchani oʻzgartirish"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1494
+#, fuzzy
+#| msgid "Change Icon"
+msgid "Change Text"
+msgstr "Nishonchani oʻzgartirish"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1494
+#, fuzzy
+msgid "Icon Te&xt:"
+msgstr "Matnni qidirish"
 
 #: kdeui/dialogs/kshortcutseditor.cpp:566
 #: kdeui/dialogs/kshortcutseditor.cpp:582
@@ -10631,7 +10648,7 @@ msgid "a basic web browser using the KHTML library"
 msgstr ""
 
 #: khtml/khtml_run.cpp:97 khtml/khtml_part.cpp:3719 khtml/khtml_part.cpp:3929
-#: khtml/khtml_part.cpp:4315 kparts/browserrun.cpp:464
+#: khtml/khtml_part.cpp:4315 kparts/browserrun.cpp:460
 msgid "Save As"
 msgstr "Saqlash"
 
@@ -10895,14 +10912,14 @@ msgstr "Faylni almashtiraymi?"
 msgid "Overwrite"
 msgstr "Almashtirish"
 
-#: khtml/khtml_ext.cpp:991 kparts/browserrun.cpp:435
+#: khtml/khtml_ext.cpp:991 kparts/browserrun.cpp:431
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr ""
 "Yozib olish dasturi (%1) sizning $PATH muhit oʻzgaruvchingizda koʻrsatilgan "
 "direktoriyalarda topilmadi."
 
-#: khtml/khtml_ext.cpp:992 kparts/browserrun.cpp:436
+#: khtml/khtml_ext.cpp:992 kparts/browserrun.cpp:432
 #, fuzzy
 msgid ""
 "Try to reinstall it  \n"
@@ -12074,43 +12091,43 @@ msgstr "Nishonchalar"
 msgid "Interpreter:"
 msgstr "Internetdan qidirish"
 
-#: kross/ui/view.cpp:304
+#: kross/ui/view.cpp:303
 #, fuzzy
 msgid "Execute the selected script."
 msgstr "Tanlangan shriftni koʻrib chiqish"
 
-#: kross/ui/view.cpp:311
+#: kross/ui/view.cpp:310
 #, fuzzy
 msgid "Stop execution of the selected script."
 msgstr "Tanlangan shriftni koʻrib chiqish"
 
-#: kross/ui/view.cpp:316
+#: kross/ui/view.cpp:315
 #, fuzzy
 msgid "Edit..."
 msgstr "&Tahrirlash"
 
-#: kross/ui/view.cpp:318
+#: kross/ui/view.cpp:317
 msgid "Edit selected script."
 msgstr ""
 
-#: kross/ui/view.cpp:323
+#: kross/ui/view.cpp:322
 #, fuzzy
 msgid "Add..."
 msgstr "&Qoʻshish..."
 
-#: kross/ui/view.cpp:325
+#: kross/ui/view.cpp:324
 msgid "Add a new script."
 msgstr ""
 
-#: kross/ui/view.cpp:332
+#: kross/ui/view.cpp:331
 msgid "Remove selected script."
 msgstr ""
 
-#: kross/ui/view.cpp:505
+#: kross/ui/view.cpp:504
 msgid "Edit"
 msgstr "Tahrirlash"
 
-#: kross/ui/view.cpp:512
+#: kross/ui/view.cpp:511
 #, fuzzy
 #| msgid "General"
 msgctxt "@title:group Script properties"
@@ -12478,16 +12495,16 @@ msgstr ""
 msgid "Close Document"
 msgstr "Hujjatni yopish"
 
-#: kparts/browserrun.cpp:314
+#: kparts/browserrun.cpp:310
 #, fuzzy, kde-format
 msgid "Do you really want to execute '%1'?"
 msgstr "Rostdan '%1'ni ishga tushirmoqchimisiz?"
 
-#: kparts/browserrun.cpp:315
+#: kparts/browserrun.cpp:311
 msgid "Execute File?"
 msgstr "Faylni ishga tushirish"
 
-#: kparts/browserrun.cpp:333
+#: kparts/browserrun.cpp:329
 #, kde-format
 msgid ""
 "Open '%2'?\n"
@@ -12496,7 +12513,7 @@ msgstr ""
 "\"%2\"ni ochaymi?\n"
 "Turi: %1"
 
-#: kparts/browserrun.cpp:335
+#: kparts/browserrun.cpp:331
 #, kde-format
 msgid ""
 "Open '%3'?\n"
@@ -12507,18 +12524,18 @@ msgstr ""
 "Nomi: %2\n"
 "Turi: %1"
 
-#: kparts/browserrun.cpp:351
+#: kparts/browserrun.cpp:347
 #, kde-format
 msgid "&Open with '%1'"
 msgstr "\"%1\" bilan &ochish"
 
-#: kparts/browserrun.cpp:353
+#: kparts/browserrun.cpp:349
 #, fuzzy
 #| msgid "&Open With..."
 msgid "&Open with..."
 msgstr "...bilan &ochish"
 
-#: kparts/browserrun.cpp:398
+#: kparts/browserrun.cpp:394
 msgid "&Open"
 msgstr "&Ochish"
 
