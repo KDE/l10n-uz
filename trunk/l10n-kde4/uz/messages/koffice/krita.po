@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-16 06:28+0200\n"
+"POT-Creation-Date: 2009-10-17 06:59+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3246,7 +3246,7 @@ msgstr "Eni:"
 #. i18n: ectx: property (text), widget (QLabel, heightInfoLbl)
 #. i18n: file: plugins/extensions/imagesize/wdg_canvassize.ui:45
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:904 rc.cpp:2749 image/kis_painterly_overlay_colorspace.cpp:74
+#: rc.cpp:904 rc.cpp:2749
 #, fuzzy
 #| msgid "Height:"
 msgid "Height"
@@ -7670,7 +7670,7 @@ msgstr "Shakl:"
 #. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
 #. i18n: file: plugins/extensions/metadataeditor/editors/exif.ui:817
 #. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
-#: rc.cpp:3173 rc.cpp:3185 plugins/colorspaces/ctlcs/KoCtlCompositeOp.cpp:124
+#: rc.cpp:3173 rc.cpp:3185 plugins/colorspaces/ctlcs/KoCtlCompositeOp.cpp:131
 msgid "Normal"
 msgstr "Oddiy"
 
@@ -9180,11 +9180,11 @@ msgstr ""
 msgid "Cannot export images in %1.\n"
 msgstr ""
 
-#: ui/kis_clipboard.cc:206
+#: ui/kis_clipboard.cc:197
 msgid "Pasting data from simple source"
 msgstr ""
 
-#: ui/kis_clipboard.cc:206
+#: ui/kis_clipboard.cc:197
 msgid ""
 "The image data you are trying to paste has no color profile information.\n"
 "\n"
@@ -9197,11 +9197,11 @@ msgid ""
 "How do you want to interpret these data?"
 msgstr ""
 
-#: ui/kis_clipboard.cc:206
+#: ui/kis_clipboard.cc:197
 msgid "As &Web"
 msgstr "&Veb sifatida"
 
-#: ui/kis_clipboard.cc:206
+#: ui/kis_clipboard.cc:197
 msgid "As on &Monitor"
 msgstr ""
 
@@ -9307,7 +9307,7 @@ msgid ""
 msgstr ""
 
 #: ui/widgets/kis_filter_selector_widget.cc:140
-#: plugins/extensions/tonemapping/kis_tonemapping_dialog.cc:118
+#: plugins/extensions/tonemapping/kis_tonemapping_dialog.cc:129
 #, fuzzy
 msgid "No configuration option."
 msgstr "Moslash..."
@@ -9671,7 +9671,7 @@ msgstr ""
 msgid "Non-photorealistic"
 msgstr ""
 
-#: image/brushengine/kis_paintop_registry.cc:116
+#: image/brushengine/kis_paintop_registry.cc:114
 msgid "default"
 msgstr ""
 
@@ -9725,46 +9725,6 @@ msgstr "Koʻrinadigan"
 #: image/kis_base_node.cpp:82
 msgid "Locked"
 msgstr "Qulflangan"
-
-#: image/kis_painterly_overlay_colorspace.cpp:35
-#, fuzzy
-msgid "Painterly Overlay"
-msgstr "&Rassom asbob-uskunalari"
-
-#: image/kis_painterly_overlay_colorspace.cpp:53
-#, fuzzy
-msgid "Adsorbency"
-msgstr "Soʻrish"
-
-#: image/kis_painterly_overlay_colorspace.cpp:60
-#, fuzzy
-msgid "Gravity"
-msgstr "&Tortish kuchi"
-
-#: image/kis_painterly_overlay_colorspace.cpp:67
-#, fuzzy
-msgid "Mixability"
-msgstr "Aralashish"
-
-#: image/kis_painterly_overlay_colorspace.cpp:81
-#, fuzzy
-msgid "Pigment Concentration"
-msgstr "Toʻq yashil"
-
-#: image/kis_painterly_overlay_colorspace.cpp:88
-#, fuzzy
-msgid "Viscosity"
-msgstr "Aralashish"
-
-#: image/kis_painterly_overlay_colorspace.cpp:95
-#, fuzzy
-#| msgid "Value"
-msgid "Volume"
-msgstr "Qiymati"
-
-#: image/kis_painterly_overlay_colorspace.cpp:102
-msgid "Wetness"
-msgstr "Namlik"
 
 #: image/recorder/kis_macro.cc:95
 #, fuzzy
@@ -11103,7 +11063,7 @@ msgstr "Alfa niqob"
 msgid "Color Transfer"
 msgstr "Rang chegarasi"
 
-#: plugins/filters/fastcolortransfer/fastcolortransfer.cpp:57
+#: plugins/filters/fastcolortransfer/fastcolortransfer.cpp:59
 #, fuzzy
 msgid "&Color Transfer..."
 msgstr "Rang chegarasi"
@@ -11298,28 +11258,28 @@ msgstr "Qatlamni koʻchirish"
 msgid "Extensions manager..."
 msgstr ""
 
-#: plugins/extensions/extensionsmanager/ExtensionsManager.cpp:92
+#: plugins/extensions/extensionsmanager/ExtensionsManager.cpp:98
 msgid "Invalid extension, missing 'manifest.xml' or 'source.tar.bz2'"
 msgstr ""
 
-#: plugins/extensions/extensionsmanager/ExtensionsManager.cpp:97
+#: plugins/extensions/extensionsmanager/ExtensionsManager.cpp:103
 msgid "Failed to open 'manifest.xml'."
 msgstr ""
 
-#: plugins/extensions/extensionsmanager/ExtensionsManager.cpp:105
+#: plugins/extensions/extensionsmanager/ExtensionsManager.cpp:111
 #, kde-format
 msgid "Failed to parse 'manifest.xml' : %1 at line: %2"
 msgstr ""
 
-#: plugins/extensions/extensionsmanager/ExtensionsManager.cpp:114
+#: plugins/extensions/extensionsmanager/ExtensionsManager.cpp:120
 msgid "Invalid 'manifest.xml' : should contain a <manifest> tag."
 msgstr ""
 
-#: plugins/extensions/extensionsmanager/ExtensionsManager.cpp:120
+#: plugins/extensions/extensionsmanager/ExtensionsManager.cpp:126
 msgid "Missing information in 'manifest.xml'."
 msgstr ""
 
-#: plugins/extensions/extensionsmanager/ExtensionsManager.cpp:133
+#: plugins/extensions/extensionsmanager/ExtensionsManager.cpp:139
 #, fuzzy
 msgid "Continue"
 msgstr "Doimiy"
@@ -11827,7 +11787,7 @@ msgstr "Filter"
 msgid "Reinhard 02"
 msgstr ""
 
-#: plugins/extensions/tonemapping/operators/reinhard05/kis_reinhard05_operator.cc:60
+#: plugins/extensions/tonemapping/operators/reinhard05/kis_reinhard05_operator.cc:62
 msgid "Reinhard 05"
 msgstr ""
 
@@ -11849,6 +11809,38 @@ msgstr "Oʻrnini almashtirishmoq"
 #, fuzzy
 msgid "Ruler assistant editor tool"
 msgstr "Oʻrnini almashtirishmoq"
+
+#, fuzzy
+#~ msgid "Painterly Overlay"
+#~ msgstr "&Rassom asbob-uskunalari"
+
+#, fuzzy
+#~ msgid "Adsorbency"
+#~ msgstr "Soʻrish"
+
+#, fuzzy
+#~ msgid "Gravity"
+#~ msgstr "&Tortish kuchi"
+
+#, fuzzy
+#~ msgid "Mixability"
+#~ msgstr "Aralashish"
+
+#, fuzzy
+#~ msgid "Pigment Concentration"
+#~ msgstr "Toʻq yashil"
+
+#, fuzzy
+#~ msgid "Viscosity"
+#~ msgstr "Aralashish"
+
+#, fuzzy
+#~| msgid "Value"
+#~ msgid "Volume"
+#~ msgstr "Qiymati"
+
+#~ msgid "Wetness"
+#~ msgstr "Namlik"
 
 #~ msgid "Custom Brush"
 #~ msgstr "Boshqa boʻyoq"
