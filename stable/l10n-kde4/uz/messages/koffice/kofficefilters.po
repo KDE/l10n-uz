@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kofficefilters\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-11 06:24+0200\n"
+"POT-Creation-Date: 2009-10-25 01:42+0200\n"
 "PO-Revision-Date: 2006-12-17 13:44+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,34 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: kivio/imageexport/kivio_imageexportdialog.cpp:35
-#, fuzzy
-msgid "Export to Image"
-msgstr "Rasmlarni import qilish"
-
-#: kivio/imageexport/kivio_imageexport.cpp:91 kchart/svg/svgexport.cc:61
-#: kchart/genericimageexport/genericimageexport.cpp:67
-#: kformula/png/pngexport.cc:58 kformula/svg/svgexport.cc:63
-#: kformula/latex/latexexport.cc:60
-#: kformula/kformula1.3/KFormula13Import.cpp:55
-msgid "Failed to read data."
-msgstr "Maʼlumotni oʻqish muvaffaqiyatsiz tugadi."
-
-#: kivio/imageexport/kivio_imageexport.cpp:91
-#: kivio/imageexport/kivio_imageexport.cpp:102
-#: kchart/genericimageexport/genericimageexport.cpp:68
-#: kchart/genericimageexport/genericimageexport.cpp:81
-msgid "Export Error"
-msgstr "Eksport qilish xatosi"
-
-#: kivio/imageexport/kivio_imageexport.cpp:102 kchart/svg/svgexport.cc:74
-#: kchart/genericimageexport/genericimageexport.cpp:80
-#: kformula/png/pngexport.cc:65 kformula/svg/svgexport.cc:80
-#: kformula/latex/latexexport.cc:67
-#, fuzzy
-msgid "Malformed XML data."
-msgstr "Xato XML maxlumotlari."
 
 #: kword/rtf/import/rtfimport.cpp:338
 #, fuzzy
@@ -172,7 +144,7 @@ msgstr "LaTeX import filterining moslamalari"
 #. i18n: ectx: property (title), widget (QButtonGroup)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:82
 #. i18n: ectx: property (title), widget (QButtonGroup)
-#: kword/latex/import/lateximportdia.cc:67 rc.cpp:117 rc.cpp:466
+#: kword/latex/import/lateximportdia.cc:67 rc.cpp:93 rc.cpp:442
 msgid "Document Style"
 msgstr "Hujjatning uslubi"
 
@@ -180,7 +152,7 @@ msgstr "Hujjatning uslubi"
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:116
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: kword/latex/import/lateximportdia.cc:73 rc.cpp:123 rc.cpp:472
+#: kword/latex/import/lateximportdia.cc:73 rc.cpp:99 rc.cpp:448
 msgid "Latex style"
 msgstr "LaTeX uslubi"
 
@@ -188,7 +160,7 @@ msgstr "LaTeX uslubi"
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:97
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: kword/latex/import/lateximportdia.cc:76 rc.cpp:120 rc.cpp:469
+#: kword/latex/import/lateximportdia.cc:76 rc.cpp:96 rc.cpp:445
 msgid "KWord style"
 msgstr "KWord uslubi"
 
@@ -200,8 +172,8 @@ msgstr "KWord uslubi"
 #. i18n: ectx: attribute (title), widget (QWidget)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:376
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: kword/latex/import/lateximportdia.cc:89 rc.cpp:174 rc.cpp:180 rc.cpp:520
-#: rc.cpp:526
+#: kword/latex/import/lateximportdia.cc:89 rc.cpp:150 rc.cpp:156 rc.cpp:496
+#: rc.cpp:502
 msgid "Language"
 msgstr "Til"
 
@@ -219,7 +191,7 @@ msgstr "Lotin1"
 #. i18n: ectx: property (title), widget (QButtonGroup)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:133
 #. i18n: ectx: property (title), widget (QButtonGroup)
-#: kword/latex/import/lateximportdia.cc:111 rc.cpp:33 rc.cpp:126 rc.cpp:475
+#: kword/latex/import/lateximportdia.cc:111 rc.cpp:9 rc.cpp:102 rc.cpp:451
 msgid "Document Type"
 msgstr "Hujjatning turi"
 
@@ -414,7 +386,7 @@ msgstr ""
 
 #. i18n: file: kspread/csv/dialogui.ui:275
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#: kspread/csv/csvdialog.cpp:503 rc.cpp:376
+#: kspread/csv/csvdialog.cpp:503 rc.cpp:352
 msgid "None"
 msgstr "Yoʻq"
 
@@ -511,11 +483,27 @@ msgstr "PostScript 3-chi daraja"
 msgid "PNG Export Options"
 msgstr "PNG eksport moslamalari"
 
+#: kchart/svg/svgexport.cc:61
+#: kchart/genericimageexport/genericimageexport.cpp:67
+#: kformula/png/pngexport.cc:58 kformula/svg/svgexport.cc:63
+#: kformula/latex/latexexport.cc:60
+#: kformula/kformula1.3/KFormula13Import.cpp:55
+msgid "Failed to read data."
+msgstr "Maʼlumotni oʻqish muvaffaqiyatsiz tugadi."
+
 #: kchart/svg/svgexport.cc:62 kchart/svg/svgexport.cc:75
 #: kchart/svg/svgexport.cc:89 kformula/svg/svgexport.cc:64
 #: kformula/svg/svgexport.cc:81 kformula/svg/svgexport.cc:95
 msgid "SVG Export Error"
 msgstr "SVG eksport xatosi"
+
+#: kchart/svg/svgexport.cc:74
+#: kchart/genericimageexport/genericimageexport.cpp:80
+#: kformula/png/pngexport.cc:65 kformula/svg/svgexport.cc:80
+#: kformula/latex/latexexport.cc:67
+#, fuzzy
+msgid "Malformed XML data."
+msgstr "Xato XML maxlumotlari."
 
 #: kchart/svg/svgexport.cc:88
 #: kchart/genericimageexport/genericimageexport.cpp:123
@@ -524,6 +512,11 @@ msgstr "SVG eksport xatosi"
 #: kformula/svg/svgexport.cc:94 kformula/latex/latexexport.cc:74
 msgid "Failed to write file."
 msgstr "Faylga yozish muvaffaqiyatsiz tugadi."
+
+#: kchart/genericimageexport/genericimageexport.cpp:68
+#: kchart/genericimageexport/genericimageexport.cpp:81
+msgid "Export Error"
+msgstr "Eksport qilish xatosi"
 
 #: kchart/genericimageexport/genericimageexport.cpp:124
 #: kpresenter/genericimageexport/genericimageexport.cpp:135
@@ -535,60 +528,9 @@ msgstr "Eksport qilish xatosi"
 msgid "Slide Title"
 msgstr "Slaydning sarlavhasi"
 
-#. i18n: file: kivio/imageexport/kivio_imageexportwidget.ui:27
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:3
-#, fuzzy
-msgid "Page:"
-msgstr "Sahifa: "
-
-#. i18n: file: kivio/imageexport/kivio_imageexportwidget.ui:38
-#. i18n: ectx: property (text), item, widget (KComboBox)
-#: rc.cpp:6
-#, fuzzy
-msgid "Complete Page"
-msgstr "Butun sahifa"
-
-#. i18n: file: kivio/imageexport/kivio_imageexportwidget.ui:43
-#. i18n: ectx: property (text), item, widget (KComboBox)
-#: rc.cpp:9
-#, fuzzy
-msgid "Area of Objects on Page"
-msgstr "Sahifadagi obʼekt maydoni"
-
-#. i18n: file: kivio/imageexport/kivio_imageexportwidget.ui:55
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:12
-msgid "Area to export:"
-msgstr "Eksport qilish maydoni:"
-
-#. i18n: file: kivio/imageexport/kivio_imageexportwidget.ui:63
-#. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:15
-msgid "Custom size (in pixels):"
-msgstr ""
-
-#. i18n: file: kivio/imageexport/kivio_imageexportwidget.ui:108
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:18 libdialogfilter/exportsizedia.cpp:89
-msgid "Height:"
-msgstr "Uzunasi:"
-
-#. i18n: file: kivio/imageexport/kivio_imageexportwidget.ui:119
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:21 libdialogfilter/exportsizedia.cpp:84
-msgid "Width:"
-msgstr "Eni:"
-
-#. i18n: file: kivio/imageexport/kivio_imageexportwidget.ui:200
-#. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:24
-msgid "Margin:"
-msgstr ""
-
 #. i18n: file: kword/html/export/ExportDialogUI.ui:18
 #. i18n: ectx: property (caption), widget (QWidget)
-#: rc.cpp:27
+#: rc.cpp:3
 #, fuzzy
 msgid "HTML Export Dialog"
 msgstr "HTML eksporti"
@@ -603,51 +545,51 @@ msgstr "HTML eksporti"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: kspread/csv/dialogui.ui:66
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: rc.cpp:30 rc.cpp:78 rc.cpp:96 rc.cpp:262 rc.cpp:337
+#: rc.cpp:6 rc.cpp:54 rc.cpp:72 rc.cpp:238 rc.cpp:313
 msgid "E&ncoding:"
 msgstr "Ko&dlash usuli:"
 
 #. i18n: file: kword/html/export/ExportDialogUI.ui:104
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:36
+#: rc.cpp:12
 msgid "&HTML 4.01"
 msgstr "&HTML 4.01"
 
 #. i18n: file: kword/html/export/ExportDialogUI.ui:110
 #. i18n: ectx: property (toolTip), widget (QRadioButton)
-#: rc.cpp:39
+#: rc.cpp:15
 #, fuzzy
 msgid "HTML 4.01 (For older HTML user agents) "
 msgstr "HTML 4.01 (eskicha HTML qoʻllovchi dasturlar uchun) "
 
 #. i18n: file: kword/html/export/ExportDialogUI.ui:118
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:42
+#: rc.cpp:18
 msgid "&XHTML 1.0"
 msgstr "&XHTML 1.0"
 
 #. i18n: file: kword/html/export/ExportDialogUI.ui:124
 #. i18n: ectx: property (toolTip), widget (QRadioButton)
-#: rc.cpp:45
+#: rc.cpp:21
 msgid "XHTML 1.0"
 msgstr "XHTML 1.0"
 
 #. i18n: file: kword/html/export/ExportDialogUI.ui:134
 #. i18n: ectx: property (title), widget (QButtonGroup)
-#: rc.cpp:48
+#: rc.cpp:24
 #, fuzzy
 msgid "Mode"
 msgstr "Usul"
 
 #. i18n: file: kword/html/export/ExportDialogUI.ui:157
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:51
+#: rc.cpp:27
 msgid "L&ight: Convert to strict (X)HTML"
 msgstr ""
 
 #. i18n: file: kword/html/export/ExportDialogUI.ui:160
 #. i18n: ectx: property (toolTip), widget (QRadioButton)
-#: rc.cpp:54
+#: rc.cpp:30
 msgid ""
 "Convert mainly the document structure (Recommended for exporting to browsers "
 "with limited capabilities)"
@@ -655,13 +597,13 @@ msgstr ""
 
 #. i18n: file: kword/html/export/ExportDialogUI.ui:174
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:57
+#: rc.cpp:33
 msgid "&Basic: Convert to transitional (X)HTML"
 msgstr ""
 
 #. i18n: file: kword/html/export/ExportDialogUI.ui:180
 #. i18n: ectx: property (toolTip), widget (QRadioButton)
-#: rc.cpp:60
+#: rc.cpp:36
 msgid ""
 "Convert most of the document (Recommended for re-importing in KWord or for "
 "exporting to older browsers)"
@@ -669,13 +611,13 @@ msgstr ""
 
 #. i18n: file: kword/html/export/ExportDialogUI.ui:188
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:63
+#: rc.cpp:39
 msgid "&Enhanced: Convert to (X)HTML with CSS"
 msgstr ""
 
 #. i18n: file: kword/html/export/ExportDialogUI.ui:194
 #. i18n: ectx: property (toolTip), widget (QRadioButton)
-#: rc.cpp:66
+#: rc.cpp:42
 msgid ""
 "Convert as much as possible of the KWord document (Recommended for exporting "
 "to other modern word processors or to modern browsers)"
@@ -683,19 +625,19 @@ msgstr ""
 
 #. i18n: file: kword/html/export/ExportDialogUI.ui:235
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:69
+#: rc.cpp:45
 msgid "Use external CSS sheet:"
 msgstr ""
 
 #. i18n: file: kword/html/export/ExportDialogUI.ui:246
 #. i18n: ectx: property (toolTip), widget (KUrlRequester)
-#: rc.cpp:72
+#: rc.cpp:48
 msgid "Enter the location of the CSS file in this field"
 msgstr ""
 
 #. i18n: file: kword/ascii/ExportDialogUI.ui:18
 #. i18n: ectx: property (caption), widget (QWidget)
-#: rc.cpp:75
+#: rc.cpp:51
 #, fuzzy
 msgid "Plain Text Export Dialog"
 msgstr "KWord uchun oddiy matn eksport filteri"
@@ -704,7 +646,7 @@ msgstr "KWord uchun oddiy matn eksport filteri"
 #. i18n: ectx: property (title), widget (QButtonGroup)
 #. i18n: file: kspread/csv/exportdialogui.ui:75
 #. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroupEndOfLine)
-#: rc.cpp:81 rc.cpp:265
+#: rc.cpp:57 rc.cpp:241
 msgid "End of Line"
 msgstr "Satrning oxiri"
 
@@ -712,7 +654,7 @@ msgstr "Satrning oxiri"
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: kspread/csv/exportdialogui.ui:81
 #. i18n: ectx: property (text), widget (QRadioButton, radioEndOfLineLF)
-#: rc.cpp:84 rc.cpp:268
+#: rc.cpp:60 rc.cpp:244
 msgid "&UNIX style (recommended; line feed only)"
 msgstr ""
 
@@ -720,7 +662,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: kspread/csv/exportdialogui.ui:91
 #. i18n: ectx: property (text), widget (QRadioButton, radioEndOfLineCRLF)
-#: rc.cpp:87 rc.cpp:271
+#: rc.cpp:63 rc.cpp:247
 msgid "&Windows style (carriage return and line feed)"
 msgstr ""
 
@@ -728,38 +670,38 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: kspread/csv/exportdialogui.ui:101
 #. i18n: ectx: property (text), widget (QRadioButton, radioEndOfLineCR)
-#: rc.cpp:90 rc.cpp:274
+#: rc.cpp:66 rc.cpp:250
 msgid "&MacOS style (carriage return only)"
 msgstr ""
 
 #. i18n: file: kword/ascii/ImportDialogUI.ui:18
 #. i18n: ectx: property (caption), widget (QWidget)
-#: rc.cpp:93
+#: rc.cpp:69
 #, fuzzy
 msgid "Plain Text Import Dialog"
 msgstr "KWord'ning odiy matnni import qilish filteri"
 
 #. i18n: file: kword/ascii/ImportDialogUI.ui:84
 #. i18n: ectx: property (title), widget (QButtonGroup)
-#: rc.cpp:99
+#: rc.cpp:75
 msgid "End of Paragraph"
 msgstr "Paragrafning oxiri"
 
 #. i18n: file: kword/ascii/ImportDialogUI.ui:101
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:102
+#: rc.cpp:78
 msgid "&As is: At the end of line"
 msgstr ""
 
 #. i18n: file: kword/ascii/ImportDialogUI.ui:112
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:105
+#: rc.cpp:81
 msgid "&Sentence: If the end of line is the end of a sentence"
 msgstr ""
 
 #. i18n: file: kword/ascii/ImportDialogUI.ui:120
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:108
+#: rc.cpp:84
 msgid "Old &method: If the line is empty or has less than 40 characters"
 msgstr ""
 
@@ -767,7 +709,7 @@ msgstr ""
 #. i18n: ectx: property (caption), widget (QDialog)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:18
 #. i18n: ectx: property (caption), widget (QDialog)
-#: rc.cpp:111 rc.cpp:460
+#: rc.cpp:87 rc.cpp:436
 #, fuzzy
 msgid "Latex Export Filter Configuration"
 msgstr "Esksport XSLT moslamasi"
@@ -776,7 +718,7 @@ msgstr "Esksport XSLT moslamasi"
 #. i18n: ectx: attribute (title), widget (QWidget)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:45
 #. i18n: ectx: attribute (title), widget (QWidget)
-#: rc.cpp:114 rc.cpp:463
+#: rc.cpp:90 rc.cpp:439
 msgid "Document"
 msgstr "Hujjat"
 
@@ -784,7 +726,7 @@ msgstr "Hujjat"
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:148
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:129 rc.cpp:478
+#: rc.cpp:105 rc.cpp:454
 msgid "Independent document"
 msgstr "Mustaqil hujjat"
 
@@ -792,7 +734,7 @@ msgstr "Mustaqil hujjat"
 #. i18n: ectx: property (toolTip), widget (QRadioButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:154
 #. i18n: ectx: property (toolTip), widget (QRadioButton)
-#: rc.cpp:132 rc.cpp:481
+#: rc.cpp:108 rc.cpp:457
 msgid "The document will be able to be compiled alone"
 msgstr ""
 
@@ -800,7 +742,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QRadioButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:157
 #. i18n: ectx: property (whatsThis), widget (QRadioButton)
-#: rc.cpp:135 rc.cpp:484
+#: rc.cpp:111 rc.cpp:460
 msgid ""
 "The document will be generated as a full latex document since all the "
 "include will be generated before the \\begin[document} and \\end{document} "
@@ -811,7 +753,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:173
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:138 rc.cpp:487
+#: rc.cpp:114 rc.cpp:463
 #, fuzzy
 msgid "Document to include"
 msgstr "Hujjatning uslubi"
@@ -820,7 +762,7 @@ msgstr "Hujjatning uslubi"
 #. i18n: ectx: property (toolTip), widget (QRadioButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:176
 #. i18n: ectx: property (toolTip), widget (QRadioButton)
-#: rc.cpp:141 rc.cpp:490
+#: rc.cpp:117 rc.cpp:466
 msgid "Do not generate either the latex header or the document environment"
 msgstr ""
 
@@ -828,7 +770,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QRadioButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:179
 #. i18n: ectx: property (whatsThis), widget (QRadioButton)
-#: rc.cpp:144 rc.cpp:493
+#: rc.cpp:120 rc.cpp:469
 msgid ""
 "The document will be generated as a latex document which will have to be "
 "included in a main latex document. It will allow you to generate several "
@@ -839,7 +781,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:196
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:147 rc.cpp:496
+#: rc.cpp:123 rc.cpp:472
 msgid "Document class:"
 msgstr "Hujjatning sinfi:"
 
@@ -847,7 +789,7 @@ msgstr "Hujjatning sinfi:"
 #. i18n: ectx: property (text), widget (QLabel)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:212
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:150 rc.cpp:499
+#: rc.cpp:126 rc.cpp:475
 msgid "Quality:"
 msgstr "Sifati:"
 
@@ -855,7 +797,7 @@ msgstr "Sifati:"
 #. i18n: ectx: property (text), widget (QLabel)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:228
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:153 rc.cpp:502
+#: rc.cpp:129 rc.cpp:478
 msgid "Default font size:"
 msgstr "Shriftning andoza oʻlchami:"
 
@@ -863,7 +805,7 @@ msgstr "Shriftning andoza oʻlchami:"
 #. i18n: ectx: property (text), item, widget (KComboBox)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:247
 #. i18n: ectx: property (text), item, widget (KComboBox)
-#: rc.cpp:156 rc.cpp:505
+#: rc.cpp:132 rc.cpp:481
 #, fuzzy
 msgid "Final"
 msgstr "Final"
@@ -872,7 +814,7 @@ msgstr "Final"
 #. i18n: ectx: property (text), item, widget (KComboBox)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:252
 #. i18n: ectx: property (text), item, widget (KComboBox)
-#: rc.cpp:159 rc.cpp:508
+#: rc.cpp:135 rc.cpp:484
 #, fuzzy
 msgid "Draft"
 msgstr "Namuna"
@@ -881,13 +823,13 @@ msgstr "Namuna"
 #. i18n: ectx: attribute (title), widget (QWidget)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:273
 #. i18n: ectx: attribute (title), widget (QWidget)
-#: rc.cpp:162 rc.cpp:511
+#: rc.cpp:138 rc.cpp:487
 msgid "Pictures"
 msgstr "Rasmlar"
 
 #. i18n: file: kword/latex/export/latexexportdia.ui:288
 #. i18n: ectx: property (toolTip), widget (KUrlRequester)
-#: rc.cpp:165
+#: rc.cpp:141
 msgid "This directory will contains the eps pictures of your document"
 msgstr ""
 
@@ -895,7 +837,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:301
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:168 rc.cpp:514
+#: rc.cpp:144 rc.cpp:490
 msgid "Convert the pictures"
 msgstr "Rasmlarni aylantirish"
 
@@ -903,7 +845,7 @@ msgstr "Rasmlarni aylantirish"
 #. i18n: ectx: property (text), widget (QLabel)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:320
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:171 rc.cpp:517
+#: rc.cpp:147 rc.cpp:493
 msgid "Pictures directory:"
 msgstr "Rasmlar direktoriyasi:"
 
@@ -915,7 +857,7 @@ msgstr "Rasmlar direktoriyasi:"
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:344
 #. i18n: ectx: property (title), widget (QButtonGroup)
-#: rc.cpp:177 rc.cpp:259 rc.cpp:334 rc.cpp:523
+#: rc.cpp:153 rc.cpp:235 rc.cpp:310 rc.cpp:499
 msgid "Encoding"
 msgstr "Kodlash usuli"
 
@@ -923,7 +865,7 @@ msgstr "Kodlash usuli"
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:391
 #. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:183 rc.cpp:529
+#: rc.cpp:159 rc.cpp:505
 msgid "Remove"
 msgstr ""
 
@@ -931,7 +873,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:407
 #. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:186 rc.cpp:532
+#: rc.cpp:162 rc.cpp:508
 msgid "Add"
 msgstr ""
 
@@ -939,7 +881,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:443
 #. i18n: ectx: attribute (title), widget (QWidget)
-#: rc.cpp:189 rc.cpp:535
+#: rc.cpp:165 rc.cpp:511
 #, fuzzy
 msgid "Contents"
 msgstr "Izohlar"
@@ -948,7 +890,7 @@ msgstr "Izohlar"
 #. i18n: ectx: property (text), widget (QCheckBox)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:461
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:192 rc.cpp:538
+#: rc.cpp:168 rc.cpp:514
 #, fuzzy
 #| msgid "Export informations about author"
 msgid "Export information about author"
@@ -958,7 +900,7 @@ msgstr "Muallif haqida maʼlumotni eksport qilish"
 #. i18n: ectx: property (text), widget (QCheckBox)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:483
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:195 rc.cpp:541
+#: rc.cpp:171 rc.cpp:517
 msgid "Add a table of content"
 msgstr "Mundarijani qoʻshish"
 
@@ -966,7 +908,7 @@ msgstr "Mundarijani qoʻshish"
 #. i18n: ectx: property (title), widget (QButtonGroup)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:502
 #. i18n: ectx: property (title), widget (QButtonGroup)
-#: rc.cpp:198 rc.cpp:544
+#: rc.cpp:174 rc.cpp:520
 msgid "Notes"
 msgstr "Izohlar"
 
@@ -974,7 +916,7 @@ msgstr "Izohlar"
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:517
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:201 rc.cpp:547
+#: rc.cpp:177 rc.cpp:523
 msgid "Don't export"
 msgstr "Eksport qilinmasin"
 
@@ -982,7 +924,7 @@ msgstr "Eksport qilinmasin"
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:533
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:204 rc.cpp:550
+#: rc.cpp:180 rc.cpp:526
 msgid "Export notes in comments"
 msgstr ""
 
@@ -990,7 +932,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:549
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:207 rc.cpp:553
+#: rc.cpp:183 rc.cpp:529
 msgid "Export notes in margin notes"
 msgstr ""
 
@@ -998,7 +940,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:574
 #. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:210 rc.cpp:556
+#: rc.cpp:186 rc.cpp:532
 msgid "&Help"
 msgstr ""
 
@@ -1006,7 +948,7 @@ msgstr ""
 #. i18n: ectx: property (accel), widget (QPushButton)
 #. i18n: file: kspread/latex/export/latexexportdia.ui:577
 #. i18n: ectx: property (accel), widget (QPushButton)
-#: rc.cpp:213 rc.cpp:559
+#: rc.cpp:189 rc.cpp:535
 msgid "F1"
 msgstr "F1"
 
@@ -1018,7 +960,7 @@ msgstr "F1"
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: xsltfilter/import/xsltdialog.ui:160
 #. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:216 rc.cpp:562 rc.cpp:613 rc.cpp:631
+#: rc.cpp:192 rc.cpp:538 rc.cpp:589 rc.cpp:607
 msgid "&OK"
 msgstr ""
 
@@ -1030,27 +972,27 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: xsltfilter/import/xsltdialog.ui:171
 #. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:219 rc.cpp:565 rc.cpp:616 rc.cpp:634
+#: rc.cpp:195 rc.cpp:541 rc.cpp:592 rc.cpp:610
 #, fuzzy
 msgid "&Cancel"
 msgstr "Qoʻshimch&a"
 
 #. i18n: file: kword/mswrite/ImportDialogUI.ui:18
 #. i18n: ectx: property (caption), widget (QWidget)
-#: rc.cpp:222
+#: rc.cpp:198
 #, fuzzy
 msgid "MS Write Import Dialog"
 msgstr "KWord'ning MS Write import filteri"
 
 #. i18n: file: kword/mswrite/ImportDialogUI.ui:43
 #. i18n: ectx: property (title), widget (QButtonGroup)
-#: rc.cpp:225
+#: rc.cpp:201
 msgid "&Encoding"
 msgstr "&Kodlash usuli"
 
 #. i18n: file: kword/mswrite/ImportDialogUI.ui:46
 #. i18n: ectx: property (whatsThis), widget (QButtonGroup)
-#: rc.cpp:228
+#: rc.cpp:204
 msgid ""
 "Select the encoding of the Write document.<br><br>Try the Default  Encoding "
 "(CP 1252), if unsure."
@@ -1058,19 +1000,19 @@ msgstr ""
 
 #. i18n: file: kword/mswrite/ImportDialogUI.ui:76
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:231
+#: rc.cpp:207
 msgid "&Other encoding:"
 msgstr "&Boshqa kodlash usuli:"
 
 #. i18n: file: kword/mswrite/ImportDialogUI.ui:107
 #. i18n: ectx: property (text), widget (QRadioButton)
-#: rc.cpp:234
+#: rc.cpp:210
 msgid "&Default encoding (CP 1252)"
 msgstr "&Andoza kodlash usuli (CP 1252):"
 
 #. i18n: file: kword/mswrite/ImportDialogUI.ui:116
 #. i18n: ectx: property (whatsThis), widget (QRadioButton)
-#: rc.cpp:237
+#: rc.cpp:213
 msgid ""
 "Most Write documents are stored using this encoding (also known as windows-"
 "1252).<br><br>Select this if unsure."
@@ -1078,13 +1020,13 @@ msgstr ""
 
 #. i18n: file: kword/mswrite/ImportDialogUI.ui:143
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:240
+#: rc.cpp:216
 msgid "&Advanced"
 msgstr "Qoʻshimch&a"
 
 #. i18n: file: kword/mswrite/ImportDialogUI.ui:146
 #. i18n: ectx: property (whatsThis), widget (QGroupBox)
-#: rc.cpp:243
+#: rc.cpp:219
 msgid ""
 "These advanced options allow you to fine-tune the importing of formatting "
 "information. They compensate for differences between KWord and MS Write by "
@@ -1095,13 +1037,13 @@ msgstr ""
 
 #. i18n: file: kword/mswrite/ImportDialogUI.ui:171
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:246
+#: rc.cpp:222
 msgid "Compensate for &linespacing differences"
 msgstr ""
 
 #. i18n: file: kword/mswrite/ImportDialogUI.ui:177
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:250
+#: rc.cpp:226
 msgid ""
 "Try to simulate Write's linespacing by adding some spaces before each "
 "paragraph."
@@ -1109,57 +1051,57 @@ msgstr ""
 
 #. i18n: file: kword/mswrite/ImportDialogUI.ui:202
 #. i18n: ectx: property (text), widget (QCheckBox)
-#: rc.cpp:253
+#: rc.cpp:229
 msgid "Enable &image positioning"
 msgstr ""
 
 #. i18n: file: kword/mswrite/ImportDialogUI.ui:208
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
-#: rc.cpp:256
+#: rc.cpp:232
 msgid "Use paragraph indentation to position images."
 msgstr ""
 
 #. i18n: file: kspread/csv/exportdialogui.ui:131
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:277
+#: rc.cpp:253
 msgid "Sheets"
 msgstr ""
 
 #. i18n: file: kspread/csv/exportdialogui.ui:138
 #. i18n: ectx: property (text), widget (Q3ListView, m_sheetList)
-#: rc.cpp:280
+#: rc.cpp:256
 msgid "Available Sheets"
 msgstr ""
 
 #. i18n: file: kspread/csv/exportdialogui.ui:146
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4)
-#: rc.cpp:283
+#: rc.cpp:259
 #, fuzzy
 msgid "Select sheets to export:"
 msgstr "Eksport qilish maydoni:"
 
 #. i18n: file: kspread/csv/exportdialogui.ui:162
 #. i18n: ectx: property (title), widget (QGroupBox, m_delimiterLineBox)
-#: rc.cpp:286
+#: rc.cpp:262
 #, fuzzy
 msgid "Delimiter Line"
 msgstr "Ajratuvchi"
 
 #. i18n: file: kspread/csv/exportdialogui.ui:168
 #. i18n: ectx: property (text), widget (QLineEdit, m_sheetDelimiter)
-#: rc.cpp:289
+#: rc.cpp:265
 msgid "********<SHEETNAME>********"
 msgstr ""
 
 #. i18n: file: kspread/csv/exportdialogui.ui:181
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6)
-#: rc.cpp:292
+#: rc.cpp:268
 msgid "<SHEETNAME> gets replaced by the name of the next sheet."
 msgstr ""
 
 #. i18n: file: kspread/csv/exportdialogui.ui:200
 #. i18n: ectx: property (text), widget (QCheckBox, m_delimiterAboveAll)
-#: rc.cpp:295
+#: rc.cpp:271
 msgid "Print delimiter line above every sheet"
 msgstr ""
 
@@ -1167,7 +1109,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab2)
 #. i18n: file: kspread/csv/exportdialogui.ui:295
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: rc.cpp:298 rc.cpp:319
+#: rc.cpp:274 rc.cpp:295
 msgid "Cells"
 msgstr "Kataklar"
 
@@ -1175,7 +1117,7 @@ msgstr "Kataklar"
 #. i18n: ectx: property (title), widget (Q3ButtonGroup, m_delimiterBox)
 #. i18n: file: kspread/csv/dialogui.ui:141
 #. i18n: ectx: property (title), widget (Q3ButtonGroup, m_delimiterBox)
-#: rc.cpp:301 rc.cpp:343
+#: rc.cpp:277 rc.cpp:319
 msgid "Delimiter"
 msgstr "Ajratuvchi"
 
@@ -1183,7 +1125,7 @@ msgstr "Ajratuvchi"
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioComma)
 #. i18n: file: kspread/csv/dialogui.ui:153
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioComma)
-#: rc.cpp:304 rc.cpp:346
+#: rc.cpp:280 rc.cpp:322
 msgid "Comma"
 msgstr "Vergul"
 
@@ -1191,7 +1133,7 @@ msgstr "Vergul"
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioSemicolon)
 #. i18n: file: kspread/csv/dialogui.ui:163
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioSemicolon)
-#: rc.cpp:307 rc.cpp:349
+#: rc.cpp:283 rc.cpp:325
 msgid "Semicolon"
 msgstr "Nuqta vergul"
 
@@ -1199,7 +1141,7 @@ msgstr "Nuqta vergul"
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioTab)
 #. i18n: file: kspread/csv/dialogui.ui:170
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioTab)
-#: rc.cpp:310 rc.cpp:352
+#: rc.cpp:286 rc.cpp:328
 msgid "Tabulator"
 msgstr "Tab"
 
@@ -1207,19 +1149,19 @@ msgstr "Tab"
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioSpace)
 #. i18n: file: kspread/csv/dialogui.ui:177
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioSpace)
-#: rc.cpp:313 rc.cpp:355
+#: rc.cpp:289 rc.cpp:331
 msgid "Space"
 msgstr "Boʻsh joy"
 
 #. i18n: file: kspread/csv/exportdialogui.ui:260
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioOther)
-#: rc.cpp:316
+#: rc.cpp:292
 msgid "Other:"
 msgstr "Boshqa:"
 
 #. i18n: file: kspread/csv/exportdialogui.ui:310
 #. i18n: ectx: property (text), widget (QLabel, m_quotesLabel)
-#: rc.cpp:322
+#: rc.cpp:298
 msgid "Quotes:"
 msgstr "Qoʻshtirnoqlar:"
 
@@ -1227,7 +1169,7 @@ msgstr "Qoʻshtirnoqlar:"
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
 #. i18n: file: kspread/csv/dialogui.ui:265
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#: rc.cpp:325 rc.cpp:370
+#: rc.cpp:301 rc.cpp:346
 msgid "\""
 msgstr "\""
 
@@ -1235,51 +1177,51 @@ msgstr "\""
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
 #. i18n: file: kspread/csv/dialogui.ui:270
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#: rc.cpp:328 rc.cpp:373
+#: rc.cpp:304 rc.cpp:349
 msgid "'"
 msgstr "'"
 
 #. i18n: file: kspread/csv/exportdialogui.ui:372
 #. i18n: ectx: property (text), widget (QCheckBox, m_selectionOnly)
-#: rc.cpp:331
+#: rc.cpp:307
 #, fuzzy
 msgid "Export selection only"
 msgstr "Faqat tanlanganlarni eksport qilish"
 
 #. i18n: file: kspread/csv/dialogui.ui:124
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:340
+#: rc.cpp:316
 #, fuzzy
 msgid "Common"
 msgstr "Umumiy"
 
 #. i18n: file: kspread/csv/dialogui.ui:184
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioOther)
-#: rc.cpp:358
+#: rc.cpp:334
 msgid "Other"
 msgstr "Boshqa"
 
 #. i18n: file: kspread/csv/dialogui.ui:212
 #. i18n: ectx: property (text), widget (QCheckBox, m_ignoreDuplicates)
-#: rc.cpp:361
+#: rc.cpp:337
 msgid "Ignore duplicate delimiters"
 msgstr ""
 
 #. i18n: file: kspread/csv/dialogui.ui:227
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2)
-#: rc.cpp:364
+#: rc.cpp:340
 msgid "Text&quote:"
 msgstr ""
 
 #. i18n: file: kspread/csv/dialogui.ui:240
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
-#: rc.cpp:367
+#: rc.cpp:343
 msgid "&Format:"
 msgstr ""
 
 #. i18n: file: kspread/csv/dialogui.ui:316
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:379
+#: rc.cpp:355
 msgid "Ranges"
 msgstr "Chegaralar"
 
@@ -1287,37 +1229,37 @@ msgstr "Chegaralar"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: kspread/csv/dialogui.ui:390
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:382 rc.cpp:388
+#: rc.cpp:358 rc.cpp:364
 msgid "to"
 msgstr ""
 
 #. i18n: file: kspread/csv/dialogui.ui:370
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3)
-#: rc.cpp:385
+#: rc.cpp:361
 msgid "Import lines:"
 msgstr "Satrlarni import qilish:"
 
 #. i18n: file: kspread/csv/dialogui.ui:430
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
-#: rc.cpp:391
+#: rc.cpp:367
 msgid "Import columns:"
 msgstr "Ustunlarni import qilish:"
 
 #. i18n: file: kspread/csv/dialogui.ui:504
 #. i18n: ectx: property (text), widget (QPushButton, m_updateButton)
-#: rc.cpp:394
+#: rc.cpp:370
 msgid "Update"
 msgstr "Yangilash"
 
 #. i18n: file: kspread/html/exportwidget.ui:19
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:397
+#: rc.cpp:373
 msgid "En&coding:"
 msgstr "&Kodlash usuli:"
 
 #. i18n: file: kspread/html/exportwidget.ui:32
 #. i18n: ectx: property (whatsThis), widget (QComboBox, mEncodingBox)
-#: rc.cpp:400
+#: rc.cpp:376
 msgid ""
 "With this option you can define the encoding of the HTML file. The "
 "recommended encoding (UTF8) is selected as default."
@@ -1325,7 +1267,7 @@ msgstr ""
 
 #. i18n: file: kspread/html/exportwidget.ui:57
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
-#: rc.cpp:403
+#: rc.cpp:379
 #, fuzzy
 msgid "Sheet Selection"
 msgstr "Betni tanlash"
@@ -1334,25 +1276,25 @@ msgstr "Betni tanlash"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, mSelectAllButton)
 #. i18n: file: kspread/html/exportwidget.ui:82
 #. i18n: ectx: property (whatsThis), widget (QPushButton, mDeselectAllButton)
-#: rc.cpp:406 rc.cpp:412
+#: rc.cpp:382 rc.cpp:388
 msgid "Click here to select all sheets in the list."
 msgstr ""
 
 #. i18n: file: kspread/html/exportwidget.ui:75
 #. i18n: ectx: property (text), widget (QPushButton, mSelectAllButton)
-#: rc.cpp:409
+#: rc.cpp:385
 msgid "Select &All"
 msgstr "&Hammasini tanlash"
 
 #. i18n: file: kspread/html/exportwidget.ui:85
 #. i18n: ectx: property (text), widget (QPushButton, mDeselectAllButton)
-#: rc.cpp:415
+#: rc.cpp:391
 msgid "Desele&ct All"
 msgstr "Hammasini tanlashni b&ekor qilish"
 
 #. i18n: file: kspread/html/exportwidget.ui:110
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mSeparateFiles)
-#: rc.cpp:418
+#: rc.cpp:394
 msgid ""
 "This option will make the HTML export filter generate a new page for each "
 "sheet. If you disable this option, all sheets are written on one page."
@@ -1360,32 +1302,32 @@ msgstr ""
 
 #. i18n: file: kspread/html/exportwidget.ui:113
 #. i18n: ectx: property (text), widget (QCheckBox, mSeparateFiles)
-#: rc.cpp:421
+#: rc.cpp:397
 msgid "Use &separate files for each table"
 msgstr ""
 
 #. i18n: file: kspread/html/exportwidget.ui:123
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup4)
-#: rc.cpp:424
+#: rc.cpp:400
 msgid "Style"
 msgstr "Uslub"
 
 #. i18n: file: kspread/html/exportwidget.ui:129
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, mDefaultButton)
-#: rc.cpp:427
+#: rc.cpp:403
 msgid ""
 "Select this option to use the default fonts and colors for the HTML page."
 msgstr ""
 
 #. i18n: file: kspread/html/exportwidget.ui:132
 #. i18n: ectx: property (text), widget (QRadioButton, mDefaultButton)
-#: rc.cpp:430
+#: rc.cpp:406
 msgid "Use &default style"
 msgstr "&Andoza uslubni qoʻllash"
 
 #. i18n: file: kspread/html/exportwidget.ui:142
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, mCustomButton)
-#: rc.cpp:433
+#: rc.cpp:409
 msgid ""
 "Select this option to specify a separate stylesheet for the HTML page. You "
 "can select or type on in the field below."
@@ -1393,14 +1335,14 @@ msgstr ""
 
 #. i18n: file: kspread/html/exportwidget.ui:145
 #. i18n: ectx: property (text), widget (QRadioButton, mCustomButton)
-#: rc.cpp:436
+#: rc.cpp:412
 #, fuzzy
 msgid "Use &external stylesheet:"
 msgstr "&Andoza uslubni qoʻllash"
 
 #. i18n: file: kspread/html/exportwidget.ui:155
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, mCustomURL)
-#: rc.cpp:439
+#: rc.cpp:415
 msgid ""
 "In this field you can enter an URL for your stylesheet. It is possible to "
 "point to a stylesheet on disk, or to somewhere on the Internet."
@@ -1408,19 +1350,19 @@ msgstr ""
 
 #. i18n: file: kspread/html/exportwidget.ui:165
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:442
+#: rc.cpp:418
 msgid "Layout"
 msgstr ""
 
 #. i18n: file: kspread/html/exportwidget.ui:171
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mUseBorders)
-#: rc.cpp:445
+#: rc.cpp:421
 msgid "Use this option to enable or disable borders around the cells."
 msgstr ""
 
 #. i18n: file: kspread/html/exportwidget.ui:174
 #. i18n: ectx: property (text), widget (QCheckBox, mUseBorders)
-#: rc.cpp:448
+#: rc.cpp:424
 #, fuzzy
 msgid "Use &borders"
 msgstr "&Chegaralardan foydalanish"
@@ -1429,7 +1371,7 @@ msgstr "&Chegaralardan foydalanish"
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_2)
 #. i18n: file: kspread/html/exportwidget.ui:208
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, mPixelsBetweenCells)
-#: rc.cpp:451 rc.cpp:457
+#: rc.cpp:427 rc.cpp:433
 msgid ""
 "Use this option to define how many pixels there should be between the cells. "
 "This effect is better visible if you check <b>Use borders</b> too."
@@ -1437,13 +1379,13 @@ msgstr ""
 
 #. i18n: file: kspread/html/exportwidget.ui:189
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:454
+#: rc.cpp:430
 msgid "Pi&xels between cells:"
 msgstr ""
 
 #. i18n: file: karbon/png/PngExportOptionsWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:568
+#: rc.cpp:544
 msgid "Size in Pixels"
 msgstr ""
 
@@ -1451,7 +1393,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: karbon/png/PngExportOptionsWidget.ui:60
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:571 rc.cpp:580
+#: rc.cpp:547 rc.cpp:556
 msgid "Image width:"
 msgstr ""
 
@@ -1459,7 +1401,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: karbon/png/PngExportOptionsWidget.ui:70
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:574 rc.cpp:583
+#: rc.cpp:550 rc.cpp:559
 #, fuzzy
 #| msgid "Height:"
 msgid "Image height:"
@@ -1467,38 +1409,38 @@ msgstr "Uzunasi:"
 
 #. i18n: file: karbon/png/PngExportOptionsWidget.ui:51
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:577
+#: rc.cpp:553
 msgid "Size in Units"
 msgstr ""
 
 #. i18n: file: karbon/png/PngExportOptionsWidget.ui:80
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:586
+#: rc.cpp:562
 msgid "Resolution:"
 msgstr ""
 
 #. i18n: file: karbon/png/PngExportOptionsWidget.ui:90
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:589
+#: rc.cpp:565
 msgid "Unit:"
 msgstr ""
 
 #. i18n: file: karbon/png/PngExportOptionsWidget.ui:106
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:592
+#: rc.cpp:568
 msgid "Background Color"
 msgstr ""
 
 #. i18n: file: karbon/png/PngExportOptionsWidget.ui:115
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:595
+#: rc.cpp:571
 #, fuzzy
 msgid "Color"
 msgstr "ranglar boʻshligʻi"
 
 #. i18n: file: karbon/png/PngExportOptionsWidget.ui:125
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:598
+#: rc.cpp:574
 msgid "Opacity"
 msgstr ""
 
@@ -1506,7 +1448,7 @@ msgstr ""
 #. i18n: ectx: property (caption), widget (QDialog)
 #. i18n: file: xsltfilter/import/xsltdialog.ui:16
 #. i18n: ectx: property (caption), widget (QDialog)
-#: rc.cpp:601 rc.cpp:619 xsltfilter/export/xsltexportdia.cc:61
+#: rc.cpp:577 rc.cpp:595 xsltfilter/export/xsltexportdia.cc:61
 msgid "Export XSLT Configuration"
 msgstr "Esksport XSLT moslamasi"
 
@@ -1514,7 +1456,7 @@ msgstr "Esksport XSLT moslamasi"
 #. i18n: ectx: property (title), widget (QGroupBox)
 #. i18n: file: xsltfilter/import/xsltdialog.ui:36
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:604 rc.cpp:622
+#: rc.cpp:580 rc.cpp:598
 #, fuzzy
 msgid "Common xslt Files"
 msgstr "Umumiy xslt fayllar"
@@ -1523,7 +1465,7 @@ msgstr "Umumiy xslt fayllar"
 #. i18n: ectx: property (title), widget (QGroupBox)
 #. i18n: file: xsltfilter/import/xsltdialog.ui:72
 #. i18n: ectx: property (title), widget (QGroupBox)
-#: rc.cpp:607 rc.cpp:625
+#: rc.cpp:583 rc.cpp:601
 #, fuzzy
 msgid "Personal xslt Files"
 msgstr "Shaxsiy xslt fayllar"
@@ -1532,7 +1474,7 @@ msgstr "Shaxsiy xslt fayllar"
 #. i18n: ectx: property (text), widget (QPushButton)
 #. i18n: file: xsltfilter/import/xsltdialog.ui:119
 #. i18n: ectx: property (text), widget (QPushButton)
-#: rc.cpp:610 rc.cpp:628
+#: rc.cpp:586 rc.cpp:604
 msgid "Choose..."
 msgstr "Tanlash"
 
@@ -1544,6 +1486,14 @@ msgstr "Filtr moslamalarini eksport qilish"
 #: libdialogfilter/exportsizedia.cpp:78 kformula/png/pngexportdia.cc:189
 msgid "Keep ratio"
 msgstr ""
+
+#: libdialogfilter/exportsizedia.cpp:84
+msgid "Width:"
+msgstr "Eni:"
+
+#: libdialogfilter/exportsizedia.cpp:89
+msgid "Height:"
+msgstr "Uzunasi:"
 
 #: libdialogfilter/exportsizedia.cpp:100
 msgid "Width (%):"
@@ -1604,6 +1554,25 @@ msgstr "Mathml import xatosi"
 #, fuzzy
 msgid "KFormula1.3 Import Filter"
 msgstr "AbiWord import filteri"
+
+#, fuzzy
+#~ msgid "Export to Image"
+#~ msgstr "Rasmlarni import qilish"
+
+#, fuzzy
+#~ msgid "Page:"
+#~ msgstr "Sahifa: "
+
+#, fuzzy
+#~ msgid "Complete Page"
+#~ msgstr "Butun sahifa"
+
+#, fuzzy
+#~ msgid "Area of Objects on Page"
+#~ msgstr "Sahifadagi obʼekt maydoni"
+
+#~ msgid "Area to export:"
+#~ msgstr "Eksport qilish maydoni:"
 
 #, fuzzy
 #~ msgid "PDF Import Options"
