@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-12 06:32+0200\n"
+"POT-Creation-Date: 2009-11-10 06:08+0100\n"
 "PO-Revision-Date: 2008-06-04 01:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -226,7 +226,7 @@ msgstr ""
 msgid "Copy Email Address"
 msgstr "Elektron pochtadan nusxa olish"
 
-#: HistorySizeDialog.cpp:51 SessionController.cpp:523
+#: HistorySizeDialog.cpp:51 SessionController.cpp:528
 #, fuzzy
 msgid "Scrollback Options"
 msgstr "Tab &parametrlari"
@@ -586,7 +586,7 @@ msgstr "Profillarni boshqarish..."
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:365 SessionController.cpp:628
+#: MainWindow.cpp:365 SessionController.cpp:633
 msgid "Confirm Close"
 msgstr "Yopishni tasdiqlash"
 
@@ -1660,137 +1660,141 @@ msgstr "Solaris terminali"
 msgid "DEC VT420 Terminal"
 msgstr "DEC VT420 terminali"
 
-#: SessionController.cpp:391
+#: SessionController.cpp:278
+msgid "Konsole does not know how to open the bookmark: "
+msgstr ""
+
+#: SessionController.cpp:396
 msgid "&Close Tab"
 msgstr "Tabni &yopish"
 
-#: SessionController.cpp:397
+#: SessionController.cpp:402
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:404
+#: SessionController.cpp:409
 msgid "&Copy"
 msgstr "&Nusxa olish"
 
-#: SessionController.cpp:408
+#: SessionController.cpp:413
 msgid "&Paste"
 msgstr "&Qoʻyish"
 
-#: SessionController.cpp:421
+#: SessionController.cpp:426
 msgid "Paste Selection"
 msgstr "Belgilanganni qoʻyish"
 
-#: SessionController.cpp:427
+#: SessionController.cpp:432
 msgid "&Rename Tab..."
 msgstr "Tabning &nomini oʻzgartirish..."
 
-#: SessionController.cpp:434
+#: SessionController.cpp:439
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:441
+#: SessionController.cpp:446
 #, fuzzy
 #| msgid "Select &Tab Color..."
 msgid "&Select Tabs..."
 msgstr "Tabning &rangini tanlash"
 
-#: SessionController.cpp:448
+#: SessionController.cpp:453
 #, fuzzy
 #| msgid "N&one"
 msgid "&None"
 msgstr "&Yoʻq"
 
-#: SessionController.cpp:455
+#: SessionController.cpp:460
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear && Reset"
 msgstr "Tarixni &boʻshatish"
 
-#: SessionController.cpp:460
+#: SessionController.cpp:465
 msgid "&ZModem Upload..."
 msgstr "ZModem yo&zib qoʻyish"
 
-#: SessionController.cpp:466
+#: SessionController.cpp:471
 msgid "Monitor for &Activity"
 msgstr ""
 
-#: SessionController.cpp:471
+#: SessionController.cpp:476
 msgid "Monitor for &Silence"
 msgstr ""
 
-#: SessionController.cpp:477
+#: SessionController.cpp:482
 msgid "Character Encoding"
 msgstr "Kodlash usuli"
 
-#: SessionController.cpp:484
+#: SessionController.cpp:489
 msgid "Increase Text Size"
 msgstr "Shriftni kattalashtirish"
 
-#: SessionController.cpp:490
+#: SessionController.cpp:495
 msgid "Decrease Text Size"
 msgstr "Shriftni kattalashtirish"
 
-#: SessionController.cpp:496
+#: SessionController.cpp:501
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Search Output..."
 msgstr "Tarixni &boʻshatish"
 
-#: SessionController.cpp:505
+#: SessionController.cpp:510
 msgid "Find Next"
 msgstr "Keyingini qidirish"
 
-#: SessionController.cpp:512
+#: SessionController.cpp:517
 msgid "Find Previous"
 msgstr "Oldingini qidirish"
 
-#: SessionController.cpp:518
+#: SessionController.cpp:523
 #, fuzzy
 msgid "Save Output..."
 msgstr "Tarixni saqlash"
 
-#: SessionController.cpp:528
+#: SessionController.cpp:533
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear Scrollback && Reset"
 msgstr "Tarixni &boʻshatish"
 
-#: SessionController.cpp:534
+#: SessionController.cpp:539
 msgid "Edit Current Profile..."
 msgstr "Joriy profilni tahrirlash..."
 
-#: SessionController.cpp:538
+#: SessionController.cpp:543
 msgid "Change Profile"
 msgstr "Profilni oʻzgartirish"
 
-#: SessionController.cpp:578
+#: SessionController.cpp:583
 msgid "Rename Tab"
 msgstr "Tabning nomini oʻzgartirish"
 
-#: SessionController.cpp:579
+#: SessionController.cpp:584
 msgid "Enter new tab text:"
 msgstr ""
 
-#: SessionController.cpp:622
+#: SessionController.cpp:627
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr ""
 
-#: SessionController.cpp:625
+#: SessionController.cpp:630
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr ""
 
-#: SessionController.cpp:1177
+#: SessionController.cpp:1182
 #, fuzzy
 #| msgid "&ZModem Upload..."
 msgid "Save ZModem Download to..."
 msgstr "ZModem yo&zib qoʻyish"
 
-#: SessionController.cpp:1186
+#: SessionController.cpp:1191
 #, fuzzy
 #| msgid ""
 #| "<p>A ZModem file transfer attempt has been detected, but no suitable "
@@ -1805,11 +1809,11 @@ msgstr ""
 "topilmadi.\n"
 "<p>\"rzsz\" yoki \"lrzsz\" dasturini oʻrnatishingiz kerak.\n"
 
-#: SessionController.cpp:1198
+#: SessionController.cpp:1203
 msgid "<p>The current session already has a ZModem file transfer in progress."
 msgstr "<p>Joriy seansda ZModem fayl uzatishi allaqachon davom etayapti."
 
-#: SessionController.cpp:1207
+#: SessionController.cpp:1212
 #, fuzzy
 #| msgid ""
 #| "<p>No suitable ZModem software was found on the system.\n"
@@ -1821,23 +1825,23 @@ msgstr ""
 "<p>Tizimda kerak boʻlgan ZModem dasturi topilmadi.\n"
 "<p>\"rzsz\" yoki \"lrzsz\" dasturini oʻrnatishingiz kerak.\n"
 
-#: SessionController.cpp:1213
+#: SessionController.cpp:1218
 #, fuzzy
 #| msgid "Select Files to Upload"
 msgid "Select Files for ZModem Upload"
 msgstr "Yozib qoʻyish uchun fayllarni tanlang"
 
-#: SessionController.cpp:1285
+#: SessionController.cpp:1290
 #, fuzzy, kde-format
 msgid "Save Output From %1"
 msgstr "Tarixni saqlash"
 
-#: SessionController.cpp:1296
+#: SessionController.cpp:1301
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1385
+#: SessionController.cpp:1390
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
