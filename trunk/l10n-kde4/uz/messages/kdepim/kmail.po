@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-08 06:03+0100\n"
+"POT-Creation-Date: 2009-11-12 06:16+0100\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -926,7 +926,7 @@ msgstr ""
 msgid "New or changed: %1"
 msgstr "Yangi yoki oʻzgargan: %1"
 
-#: objecttreeparser.cpp:1900 kmcommands.cpp:3192 kmcomposewin.cpp:4334
+#: objecttreeparser.cpp:1900 kmcommands.cpp:3192 kmcomposewin.cpp:4320
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please "
 "report this bug."
@@ -935,18 +935,18 @@ msgstr ""
 #: objecttreeparser.cpp:1906 messagecomposer.cpp:591 messagecomposer.cpp:599
 #: messagecomposer.cpp:613 kmcommands.cpp:3194 kmcommands.cpp:3199
 #: kmcommands.cpp:3208 kmcommands.cpp:3217 kmcommands.cpp:3238
-#: kmcommands.cpp:3249 kmcommands.cpp:3289 kmcomposewin.cpp:4336
-#: kmcomposewin.cpp:4341 kmcomposewin.cpp:4350
+#: kmcommands.cpp:3249 kmcommands.cpp:3289 kmcomposewin.cpp:4322
+#: kmcomposewin.cpp:4327 kmcomposewin.cpp:4336
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: objecttreeparser.cpp:1912 kmcommands.cpp:3205 kmcomposewin.cpp:4347
+#: objecttreeparser.cpp:1912 kmcommands.cpp:3205 kmcomposewin.cpp:4333
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" "
 "function did not return a string list. Please report this bug."
 msgstr ""
 
-#: objecttreeparser.cpp:1920 kmcommands.cpp:3214 kmcomposewin.cpp:4356
+#: objecttreeparser.cpp:1920 kmcommands.cpp:3214 kmcomposewin.cpp:4342
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in "
 "the Chiasmus configuration."
@@ -1450,7 +1450,7 @@ msgid ""
 "loss, editing the attachment will be aborted."
 msgstr ""
 
-#: editorwatcher.cpp:162 kmcomposewin.cpp:3051
+#: editorwatcher.cpp:162 kmcomposewin.cpp:3037
 #, fuzzy
 #| msgid "Name of the attachment:"
 msgid "Unable to edit attachment"
@@ -1795,7 +1795,7 @@ msgid ""
 "not be able to access it afterwards."
 msgstr ""
 
-#: folderdialogacltab.cpp:631 configuredialog.cpp:488 kmcomposewin.cpp:2705
+#: folderdialogacltab.cpp:631 configuredialog.cpp:488 kmcomposewin.cpp:2691
 #, fuzzy
 msgid "Remove"
 msgstr "&Olib tashlash"
@@ -2496,7 +2496,7 @@ msgstr "Hajmi"
 msgid "Save &As..."
 msgstr "...sifatida s&aqlash"
 
-#: kmmimeparttree.cpp:173 kmreaderwin.cpp:2025 kmcomposewin.cpp:2698
+#: kmmimeparttree.cpp:173 kmreaderwin.cpp:2025 kmcomposewin.cpp:2684
 msgctxt "to open"
 msgid "Open"
 msgstr "Ochish"
@@ -2531,7 +2531,7 @@ msgstr "Ilovani &olib tashlash"
 msgid "Edit Attachment"
 msgstr "Ilova"
 
-#: kmmimeparttree.cpp:203 kmreaderwin.cpp:2073 kmcomposewin.cpp:2708
+#: kmmimeparttree.cpp:203 kmreaderwin.cpp:2073 kmcomposewin.cpp:2694
 #, fuzzy
 msgid "Properties"
 msgstr "&Xossalari"
@@ -6511,7 +6511,7 @@ msgctxt "@label:textbox Name of the folder."
 msgid "&Name:"
 msgstr "&Nomi:"
 
-#: kmfolderdialog.cpp:369 kmfolderdialog.cpp:690 kmcomposewin.cpp:3291
+#: kmfolderdialog.cpp:369 kmfolderdialog.cpp:690 kmcomposewin.cpp:3277
 #: kmfilterdlg.cpp:769 managesievescriptsdialog.cpp:393
 msgid "unnamed"
 msgstr "nomsiz"
@@ -7440,12 +7440,12 @@ msgid ""
 "all available addresses."
 msgstr ""
 
-#: redirectdialog.cpp:87 kmcomposewin.cpp:3801
+#: redirectdialog.cpp:87 kmcomposewin.cpp:3787
 msgid "&Send Now"
 msgstr "&Darhol joʻnatish"
 
 #: redirectdialog.cpp:88 kmcomposewin.cpp:1101 kmcomposewin.cpp:1110
-#: kmcomposewin.cpp:3802
+#: kmcomposewin.cpp:3788
 msgid "Send &Later"
 msgstr "&Keyinroq joʻnatish"
 
@@ -8092,7 +8092,7 @@ msgstr "Umumiy parametrlar"
 
 #. i18n: file: kmcomposerui.rc:66
 #. i18n: ectx: Menu (attach)
-#: rc.cpp:68 rc.cpp:1433 kmcomposewin.cpp:2299
+#: rc.cpp:68 rc.cpp:1433 kmcomposewin.cpp:2285
 msgid "&Attach"
 msgstr "&Ilova"
 
@@ -10900,7 +10900,7 @@ msgstr "Ustunni k&oʻrsatish:"
 
 #. i18n: file: kmail.kcfg.cmake:338
 #. i18n: ectx: label, entry (UseFixedFont), group (Composer)
-#: rc.cpp:1638 kmreaderwin.cpp:664 kmcomposewin.cpp:1215
+#: rc.cpp:1638 kmreaderwin.cpp:664 kmcomposewin.cpp:1214
 msgid "Use Fi&xed Font"
 msgstr "Eni oʻzgarmaydigan &shriftni qoʻllash"
 
@@ -12043,7 +12043,7 @@ msgstr ""
 msgid "Add as &Attachment"
 msgstr "Ilova sifatida qoʻshish"
 
-#: kmcomposereditor.cpp:186 kmcomposewin.cpp:3148
+#: kmcomposereditor.cpp:186 kmcomposewin.cpp:3134
 msgid "Name of the attachment:"
 msgstr "Ilova nomi:"
 
@@ -12263,7 +12263,7 @@ msgstr ""
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr "KMail hozir oflayn holatida. Qanday davom etmoqchisiz?"
 
-#: kmkernel.cpp:1228 kmcomposewin.cpp:3480
+#: kmkernel.cpp:1228 kmcomposewin.cpp:3466
 msgid "Online/Offline"
 msgstr "Onlayn/oflayn"
 
@@ -12645,7 +12645,7 @@ msgstr "MDN joʻnatib boʻlmadi."
 msgid "Scroll To"
 msgstr ""
 
-#: kmreaderwin.cpp:2045 kmcomposewin.cpp:2706
+#: kmreaderwin.cpp:2045 kmcomposewin.cpp:2692
 #, fuzzy
 msgid "Save As..."
 msgstr "...sifatida s&aqlash"
@@ -12679,7 +12679,7 @@ msgid ""
 "message."
 msgstr ""
 
-#: kmreaderwin.cpp:2799 kmcomposewin.cpp:2702 vacation.cpp:662
+#: kmreaderwin.cpp:2799 kmcomposewin.cpp:2688 vacation.cpp:662
 #, fuzzy
 msgid "Edit"
 msgstr "Chiqish"
@@ -13005,332 +13005,332 @@ msgstr "Yang asosiy &oyna"
 msgid "Select &Recipients..."
 msgstr "Qabul qiluvchi&larni tanlash"
 
-#: kmcomposewin.cpp:1185
+#: kmcomposewin.cpp:1184
 msgid "Save &Distribution List..."
 msgstr ""
 
-#: kmcomposewin.cpp:1207
+#: kmcomposewin.cpp:1206
 msgid "Paste as Attac&hment"
 msgstr "&Ilova sifatida qoʻyish"
 
-#: kmcomposewin.cpp:1211
+#: kmcomposewin.cpp:1210
 msgid "Cl&ean Spaces"
 msgstr "Boʻsh joylarni oʻchi&rish"
 
-#: kmcomposewin.cpp:1222
+#: kmcomposewin.cpp:1221
 #, fuzzy
 #| msgid "&Urgent"
 msgctxt "@action:inmenu Mark the email as urgent."
 msgid "&Urgent"
 msgstr "&Zarur"
 
-#: kmcomposewin.cpp:1224
+#: kmcomposewin.cpp:1223
 msgid "&Request Disposition Notification"
 msgstr ""
 
-#: kmcomposewin.cpp:1228
+#: kmcomposewin.cpp:1227
 msgid "Se&t Encoding"
 msgstr "&Kodlash usulini tanlash"
 
-#: kmcomposewin.cpp:1231
+#: kmcomposewin.cpp:1230
 msgid "&Wordwrap"
 msgstr ""
 
-#: kmcomposewin.cpp:1236
+#: kmcomposewin.cpp:1235
 msgid "&Snippets"
 msgstr ""
 
-#: kmcomposewin.cpp:1243
+#: kmcomposewin.cpp:1242
 msgid "&Automatic Spellchecking"
 msgstr "&Imloni avto-tekshirish"
 
-#: kmcomposewin.cpp:1257
+#: kmcomposewin.cpp:1256
 msgid "Auto-Detect"
 msgstr "Avto-aniqlash"
 
-#: kmcomposewin.cpp:1265
+#: kmcomposewin.cpp:1264
 msgid "Formatting (HTML)"
 msgstr "Formatlash (HTML)"
 
-#: kmcomposewin.cpp:1266
+#: kmcomposewin.cpp:1265
 #, fuzzy
 #| msgid "Use HTML"
 msgid "HTML"
 msgstr "HTML'dan foydalanish"
 
-#: kmcomposewin.cpp:1270
+#: kmcomposewin.cpp:1269
 msgid "&All Fields"
 msgstr "Hamma &maydonlar"
 
-#: kmcomposewin.cpp:1273
+#: kmcomposewin.cpp:1272
 msgid "&Identity"
 msgstr "&Shaxsiyat"
 
-#: kmcomposewin.cpp:1276
+#: kmcomposewin.cpp:1275
 msgid "&Dictionary"
 msgstr "&Lugʻat"
 
-#: kmcomposewin.cpp:1279
+#: kmcomposewin.cpp:1278
 msgid "&Sent-Mail Folder"
 msgstr "Joʻnatilgan j&ildi"
 
-#: kmcomposewin.cpp:1282
+#: kmcomposewin.cpp:1281
 msgid "&Mail Transport"
 msgstr ""
 
-#: kmcomposewin.cpp:1285
+#: kmcomposewin.cpp:1284
 msgid "&From"
 msgstr "&Kimdan"
 
-#: kmcomposewin.cpp:1288
+#: kmcomposewin.cpp:1287
 msgid "&Reply To"
 msgstr ""
 
-#: kmcomposewin.cpp:1292
+#: kmcomposewin.cpp:1291
 #, fuzzy
 #| msgid "S&ubject"
 msgctxt "@action:inmenu Show the subject in the composer window."
 msgid "S&ubject"
 msgstr "&Mavzu"
 
-#: kmcomposewin.cpp:1297
+#: kmcomposewin.cpp:1296
 msgid "Append S&ignature"
 msgstr "&Imzo qoʻyish"
 
-#: kmcomposewin.cpp:1300
+#: kmcomposewin.cpp:1299
 #, fuzzy
 #| msgid "Append S&ignature"
 msgid "Pr&epend Signature"
 msgstr "&Imzo qoʻyish"
 
-#: kmcomposewin.cpp:1303
+#: kmcomposewin.cpp:1302
 msgid "Insert Signature At C&ursor Position"
 msgstr ""
 
-#: kmcomposewin.cpp:1306
+#: kmcomposewin.cpp:1305
 msgid "Attach &Public Key..."
 msgstr ""
 
-#: kmcomposewin.cpp:1309
+#: kmcomposewin.cpp:1308
 msgid "Attach &My Public Key"
 msgstr ""
 
-#: kmcomposewin.cpp:1312 kmcomposewin.cpp:1992
+#: kmcomposewin.cpp:1311 kmcomposewin.cpp:1978
 msgid "&Attach File..."
 msgstr "Faylni &ilova qilish"
 
-#: kmcomposewin.cpp:1313
+#: kmcomposewin.cpp:1312
 #, fuzzy
 #| msgid "&Attach"
 msgid "Attach"
 msgstr "&Ilova"
 
-#: kmcomposewin.cpp:1316
+#: kmcomposewin.cpp:1315
 msgid "&Remove Attachment"
 msgstr "Ilovani &olib tashlash"
 
-#: kmcomposewin.cpp:1319
+#: kmcomposewin.cpp:1318
 msgid "&Save Attachment As..."
 msgstr "Ilovani &saqlash"
 
-#: kmcomposewin.cpp:1322
+#: kmcomposewin.cpp:1321
 msgid "Attachment Pr&operties"
 msgstr "Ilovaning &xossalari"
 
-#: kmcomposewin.cpp:1332
+#: kmcomposewin.cpp:1331
 msgid "&Spellchecker..."
 msgstr "&Imloni tekshirish"
 
-#: kmcomposewin.cpp:1333
+#: kmcomposewin.cpp:1332
 msgid "Spellchecker"
 msgstr "Imloni tekshirish"
 
-#: kmcomposewin.cpp:1338 kmcomposewin.cpp:1340
+#: kmcomposewin.cpp:1337 kmcomposewin.cpp:1339
 msgid "Encrypt Message with Chiasmus..."
 msgstr ""
 
-#: kmcomposewin.cpp:1348
+#: kmcomposewin.cpp:1347
 msgid "&Encrypt Message"
 msgstr ""
 
-#: kmcomposewin.cpp:1349
+#: kmcomposewin.cpp:1348
 msgid "Encrypt"
 msgstr ""
 
-#: kmcomposewin.cpp:1351
+#: kmcomposewin.cpp:1350
 msgid "&Sign Message"
 msgstr "Im&zo qoʻyish"
 
-#: kmcomposewin.cpp:1352
+#: kmcomposewin.cpp:1351
 msgid "Sign"
 msgstr "Imzo"
 
-#: kmcomposewin.cpp:1399
+#: kmcomposewin.cpp:1398
 msgid "&Cryptographic Message Format"
 msgstr ""
 
-#: kmcomposewin.cpp:1407
+#: kmcomposewin.cpp:1406
 msgid "Reset Font Settings"
 msgstr "Shrift moslamalarini tiklash"
 
-#: kmcomposewin.cpp:1408
+#: kmcomposewin.cpp:1407
 #, fuzzy
 msgid "Reset Font"
 msgstr "Jildni tanlash"
 
-#: kmcomposewin.cpp:1430
+#: kmcomposewin.cpp:1429
 #, fuzzy
 msgid "Configure KMail..."
 msgstr "KMail moslama&si"
 
-#: kmcomposewin.cpp:1453
+#: kmcomposewin.cpp:1439
 #, fuzzy, kde-format
 msgid " Spellcheck: %1 "
 msgstr "Imloni tekshirish"
 
-#: kmcomposewin.cpp:1454 kmcomposewin.cpp:4275
+#: kmcomposewin.cpp:1440 kmcomposewin.cpp:4261
 #, kde-format
 msgid " Column: %1 "
 msgstr " Ustun: %1 "
 
-#: kmcomposewin.cpp:1456 kmcomposewin.cpp:4273
+#: kmcomposewin.cpp:1442 kmcomposewin.cpp:4259
 #, fuzzy, kde-format
 #| msgid " Line: %1 "
 msgctxt "Shows the linenumber of the cursor position."
 msgid " Line: %1 "
 msgstr " Satr: %1 "
 
-#: kmcomposewin.cpp:1913
+#: kmcomposewin.cpp:1899
 #, fuzzy
 msgid "Re&save as Template"
 msgstr "&Almashtirish"
 
-#: kmcomposewin.cpp:1914
+#: kmcomposewin.cpp:1900
 msgid "&Save as Draft"
 msgstr ""
 
-#: kmcomposewin.cpp:1916
+#: kmcomposewin.cpp:1902
 msgid ""
 "Resave this message in the Templates folder. It can then be used at a later "
 "time."
 msgstr ""
 
-#: kmcomposewin.cpp:1918
+#: kmcomposewin.cpp:1904
 msgid ""
 "Save this message in the Drafts folder. It can then be edited and sent at a "
 "later time."
 msgstr ""
 
-#: kmcomposewin.cpp:1922
+#: kmcomposewin.cpp:1908
 msgid "Do you want to save the message for later or discard it?"
 msgstr ""
 
-#: kmcomposewin.cpp:1923
+#: kmcomposewin.cpp:1909
 msgid "Close Composer"
 msgstr "Xabar yaratuvchini yopish"
 
-#: kmcomposewin.cpp:1988
+#: kmcomposewin.cpp:1974
 msgid ""
 "The message you have composed seems to refer to an attached file but you "
 "have not attached anything.\n"
 "Do you want to attach a file to your message?"
 msgstr ""
 
-#: kmcomposewin.cpp:1991
+#: kmcomposewin.cpp:1977
 msgid "File Attachment Reminder"
 msgstr ""
 
-#: kmcomposewin.cpp:1993 kmcomposewin.cpp:3822
+#: kmcomposewin.cpp:1979 kmcomposewin.cpp:3808
 msgid "&Send as Is"
 msgstr "&Shunday joʻnatish"
 
-#: kmcomposewin.cpp:2079
+#: kmcomposewin.cpp:2065
 #, kde-format
 msgid ""
 "<qt><p>KMail could not recognize the location of the attachment (%1);</"
 "p><p>you have to specify the full path if you wish to attach a file.</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:2088
+#: kmcomposewin.cpp:2074
 #, kde-format
 msgid ""
 "<qt><p>Your administrator has disallowed attaching files bigger than %1 MB.</"
 "p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:2298
+#: kmcomposewin.cpp:2284
 msgid "Attach File"
 msgstr "Faylni ilova qilish"
 
-#: kmcomposewin.cpp:2618
+#: kmcomposewin.cpp:2604
 #, kde-format
 msgid ""
 "<qt><p>An error occurred while trying to export the key from the backend:</"
 "p><p><b>%1</b></p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:2622
+#: kmcomposewin.cpp:2608
 msgid "Key Export Failed"
 msgstr ""
 
-#: kmcomposewin.cpp:2650
+#: kmcomposewin.cpp:2636
 msgid "Exporting key..."
 msgstr ""
 
-#: kmcomposewin.cpp:2662
+#: kmcomposewin.cpp:2648
 #, kde-format
 msgid "OpenPGP key 0x%1"
 msgstr "OpenPGP kaliti 0x%1"
 
-#: kmcomposewin.cpp:2678
+#: kmcomposewin.cpp:2664
 msgid "Attach Public OpenPGP Key"
 msgstr ""
 
-#: kmcomposewin.cpp:2678
+#: kmcomposewin.cpp:2664
 msgid "Select the public key which should be attached."
 msgstr ""
 
-#: kmcomposewin.cpp:2700
+#: kmcomposewin.cpp:2686
 msgctxt "to view"
 msgid "View"
 msgstr "Koʻrish"
 
-#: kmcomposewin.cpp:2703
+#: kmcomposewin.cpp:2689
 #, fuzzy
 #| msgid "Edit Script..."
 msgid "Edit With..."
 msgstr "Skriptni tahrirlash..."
 
-#: kmcomposewin.cpp:2711
+#: kmcomposewin.cpp:2697
 msgid "Add Attachment..."
 msgstr "Ilova qoʻshish"
 
-#: kmcomposewin.cpp:2782 kmcomposewin.cpp:2789
+#: kmcomposewin.cpp:2768 kmcomposewin.cpp:2775
 msgid "KMail could not compress the file."
 msgstr ""
 
-#: kmcomposewin.cpp:2796
+#: kmcomposewin.cpp:2782
 msgid ""
 "The compressed file is larger than the original. Do you want to keep the "
 "original one?"
 msgstr ""
 
-#: kmcomposewin.cpp:2799
+#: kmcomposewin.cpp:2785
 #, fuzzy
 #| msgid "Keep"
 msgctxt "Do not compress"
 msgid "Keep"
 msgstr "Qoldirish"
 
-#: kmcomposewin.cpp:2800
+#: kmcomposewin.cpp:2786
 msgid "Compress"
 msgstr "Qisish"
 
-#: kmcomposewin.cpp:2861 kmcomposewin.cpp:2869
+#: kmcomposewin.cpp:2847 kmcomposewin.cpp:2855
 msgid "KMail could not uncompress the file."
 msgstr ""
 
-#: kmcomposewin.cpp:3048
+#: kmcomposewin.cpp:3034
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -13338,17 +13338,17 @@ msgid ""
 "Because of this, editing this attachment is not possible."
 msgstr ""
 
-#: kmcomposewin.cpp:3086
+#: kmcomposewin.cpp:3072
 msgid "Save Attachment As"
 msgstr "Ilovani saqlash"
 
-#: kmcomposewin.cpp:3147
+#: kmcomposewin.cpp:3133
 #, fuzzy
 #| msgid "Paste as Attac&hment"
 msgid "Insert clipboard text as attachment"
 msgstr "&Ilova sifatida qoʻyish"
 
-#: kmcomposewin.cpp:3319
+#: kmcomposewin.cpp:3305
 msgid ""
 "<qt><p>You have requested that messages be encrypted to yourself, but the "
 "currently selected identity does not define an (OpenPGP or S/MIME) "
@@ -13356,204 +13356,204 @@ msgid ""
 "identity configuration.</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:3326
+#: kmcomposewin.cpp:3312
 msgid "Undefined Encryption Key"
 msgstr ""
 
-#: kmcomposewin.cpp:3376
+#: kmcomposewin.cpp:3362
 msgid ""
 "<qt><p>In order to be able to sign this message you first have to define the "
 "(OpenPGP or S/MIME) signing key to use.</p><p>Please select the key to use "
 "in the identity configuration.</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:3383
+#: kmcomposewin.cpp:3369
 msgid "Undefined Signing Key"
 msgstr ""
 
-#: kmcomposewin.cpp:3478
+#: kmcomposewin.cpp:3464
 #, fuzzy
 msgid ""
 "KMail is currently in offline mode. Your messages will be kept in the outbox "
 "until you go online."
 msgstr "KMail hozir oflayn holatida. Qanday davom etmoqchisiz?"
 
-#: kmcomposewin.cpp:3495
+#: kmcomposewin.cpp:3481
 msgid ""
 "You must enter your email address in the From: field. You should also set "
 "your email address for all identities, so that you do not have to enter it "
 "for each message."
 msgstr ""
 
-#: kmcomposewin.cpp:3504
+#: kmcomposewin.cpp:3490
 msgid ""
 "You must specify at least one receiver,either in the To: field or as CC or "
 "as BCC."
 msgstr ""
 
-#: kmcomposewin.cpp:3510
+#: kmcomposewin.cpp:3496
 #, fuzzy
 msgid "To: field is empty. Send message anyway?"
 msgstr "Siz mavzuni aniqlamadingiz. Bunga qaramasdan xabarni joʻnataymi?"
 
-#: kmcomposewin.cpp:3512
+#: kmcomposewin.cpp:3498
 #, fuzzy
 msgid "No To: specified"
 msgstr "Mavzu aniqlanmagan"
 
-#: kmcomposewin.cpp:3536
+#: kmcomposewin.cpp:3522
 msgid "You did not specify a subject. Send message anyway?"
 msgstr "Siz mavzuni aniqlamadingiz. Bunga qaramasdan xabarni joʻnataymi?"
 
-#: kmcomposewin.cpp:3538
+#: kmcomposewin.cpp:3524
 msgid "No Subject Specified"
 msgstr "Mavzu aniqlanmagan"
 
-#: kmcomposewin.cpp:3539
+#: kmcomposewin.cpp:3525
 msgid "S&end as Is"
 msgstr ""
 
-#: kmcomposewin.cpp:3540
+#: kmcomposewin.cpp:3526
 msgid "&Specify the Subject"
 msgstr "&Mavzuni koʻrsatish"
 
-#: kmcomposewin.cpp:3581
+#: kmcomposewin.cpp:3567
 msgid "&Keep markup, do not sign/encrypt"
 msgstr ""
 
-#: kmcomposewin.cpp:3582
+#: kmcomposewin.cpp:3568
 msgid "&Keep markup, do not encrypt"
 msgstr ""
 
-#: kmcomposewin.cpp:3583
+#: kmcomposewin.cpp:3569
 msgid "&Keep markup, do not sign"
 msgstr ""
 
-#: kmcomposewin.cpp:3585
+#: kmcomposewin.cpp:3571
 msgid "Sign/Encrypt (delete markup)"
 msgstr ""
 
-#: kmcomposewin.cpp:3586
+#: kmcomposewin.cpp:3572
 msgid "Encrypt (delete markup)"
 msgstr ""
 
-#: kmcomposewin.cpp:3587
+#: kmcomposewin.cpp:3573
 #, fuzzy
 msgid "Sign (delete markup)"
 msgstr "Jildni oʻch&irish"
 
-#: kmcomposewin.cpp:3589
+#: kmcomposewin.cpp:3575
 msgid ""
 "<qt><p>Inline signing/encrypting of HTML messages is not possible;</p><p>do "
 "you want to delete your markup?</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:3591
+#: kmcomposewin.cpp:3577
 msgid "Sign/Encrypt Message?"
 msgstr ""
 
-#: kmcomposewin.cpp:3642
+#: kmcomposewin.cpp:3628
 #, kde-format
 msgid ""
 "The custom drafts or templates folder for identify \"%1\" does not exist "
 "(anymore); therefore, the default drafts or templates folder will be used."
 msgstr ""
 
-#: kmcomposewin.cpp:3799
+#: kmcomposewin.cpp:3785
 msgid "About to send email..."
 msgstr "Xabar joʻnatilish arafasida..."
 
-#: kmcomposewin.cpp:3800
+#: kmcomposewin.cpp:3786
 msgid "Send Confirmation"
 msgstr "Joʻnatishni tasdiqlash"
 
-#: kmcomposewin.cpp:3820
+#: kmcomposewin.cpp:3806
 #, kde-format
 msgid ""
 "You are trying to send the mail to more than %1 recipients. Send message "
 "anyway?"
 msgstr ""
 
-#: kmcomposewin.cpp:3821
+#: kmcomposewin.cpp:3807
 #, fuzzy
 msgid "Too many recipients"
 msgstr "<qabul qiluvchilar>"
 
-#: kmcomposewin.cpp:3823
+#: kmcomposewin.cpp:3809
 #, fuzzy
 #| msgid "Additional Recipients"
 msgid "&Edit Recipients"
 msgstr "Qoʻshimcha qabul qiluvchilar"
 
-#: kmcomposewin.cpp:3913
+#: kmcomposewin.cpp:3899
 msgid ""
 "Turning HTML mode off will cause the text to lose the formatting. Are you "
 "sure?"
 msgstr ""
 
-#: kmcomposewin.cpp:3915
+#: kmcomposewin.cpp:3901
 msgid "Lose the formatting?"
 msgstr ""
 
-#: kmcomposewin.cpp:3915
+#: kmcomposewin.cpp:3901
 #, fuzzy
 #| msgid "Login Information"
 msgid "Lose Formatting"
 msgstr "Foydalanuvchi maʼlumotlari"
 
-#: kmcomposewin.cpp:3969
+#: kmcomposewin.cpp:3955
 #, fuzzy
 msgid "Spellcheck: on"
 msgstr "Imloni tekshirish"
 
-#: kmcomposewin.cpp:3971
+#: kmcomposewin.cpp:3957
 #, fuzzy
 msgid "Spellcheck: off"
 msgstr "Imloni tekshirish"
 
-#: kmcomposewin.cpp:4321
+#: kmcomposewin.cpp:4307
 msgid ""
 "Please configure a Crypto Backend to use for Chiasmus encryption first.\n"
 "You can do this in the Crypto Backends tab of the configure dialog's "
 "Security page."
 msgstr ""
 
-#: kmcomposewin.cpp:4325
+#: kmcomposewin.cpp:4311
 msgid ""
 "It looks as though libkleopatra was compiled without Chiasmus support. You "
 "might want to recompile libkleopatra with --enable-chiasmus."
 msgstr ""
 
-#: kmcomposewin.cpp:4328
+#: kmcomposewin.cpp:4314
 msgid "No Chiasmus Backend Configured"
 msgstr ""
 
-#: kmcomposewin.cpp:4359
+#: kmcomposewin.cpp:4345
 msgid "No Chiasmus Keys Found"
 msgstr ""
 
-#: kmcomposewin.cpp:4364
+#: kmcomposewin.cpp:4350
 msgid "Chiasmus Encryption Key Selection"
 msgstr ""
 
-#: kmcomposewin.cpp:4444
+#: kmcomposewin.cpp:4430
 #, fuzzy
 #| msgid "Message was signed by %1."
 msgid "Message will be signed"
 msgstr "Xabar %1 tomonidan imzolangan."
 
-#: kmcomposewin.cpp:4445
+#: kmcomposewin.cpp:4431
 #, fuzzy
 #| msgid "Message was signed by %1."
 msgid "Message will not be signed"
 msgstr "Xabar %1 tomonidan imzolangan."
 
-#: kmcomposewin.cpp:4447
+#: kmcomposewin.cpp:4433
 #, fuzzy
 msgid "Message will be encrypted"
 msgstr "Tanlangan xabarlarni oʻqilmagan deb belgilash"
 
-#: kmcomposewin.cpp:4448
+#: kmcomposewin.cpp:4434
 #, fuzzy
 msgid "Message will not be encrypted"
 msgstr "Tanlangan xabarlarni oʻqilmagan deb belgilash"
