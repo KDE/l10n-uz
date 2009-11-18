@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-17 05:55+0100\n"
+"POT-Creation-Date: 2009-11-18 06:33+0100\n"
 "PO-Revision-Date: 2008-06-08 22:24+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1119,14 +1119,14 @@ msgstr "Lokal fayl"
 msgid "Miscellaneous"
 msgstr "Har xil"
 
-#: src/konqhistorydialog.cpp:43
+#: src/konqhistorydialog.cpp:44
 #, fuzzy
 #| msgid "History"
 msgctxt "@title:window"
 msgid "History"
 msgstr "Tarix"
 
-#: src/konqhistorydialog.cpp:58 src/konqhistoryview.cpp:127
+#: src/konqhistorydialog.cpp:60 src/konqhistoryview.cpp:136
 #, fuzzy
 #| msgid "Sort"
 msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
@@ -1212,37 +1212,43 @@ msgstr "%1/s"
 msgid "Stalled"
 msgstr "Toʻxtab qoldi"
 
-#: src/konqhistoryview.cpp:64
+#: src/konqhistoryview.cpp:65
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:235
+msgid "Open in New Tab"
+msgstr "Yangi tabda ochish"
+
+#: src/konqhistoryview.cpp:70
 msgid "&Remove Entry"
 msgstr "Bandni &olib tashlash"
 
-#: src/konqhistoryview.cpp:70
+#: src/konqhistoryview.cpp:77
 msgid "C&lear History"
 msgstr "Tarixni &boʻshatish"
 
-#: src/konqhistoryview.cpp:74
+#: src/konqhistoryview.cpp:82
 msgid "&Preferences..."
 msgstr "&Moslash..."
 
-#: src/konqhistoryview.cpp:81
+#: src/konqhistoryview.cpp:89
 msgid "By &Name"
 msgstr "&Nomi boʻyicha"
 
-#: src/konqhistoryview.cpp:87
+#: src/konqhistoryview.cpp:95
 msgid "By &Date"
 msgstr "&Sana boʻyicha"
 
-#: src/konqhistoryview.cpp:97
+#: src/konqhistoryview.cpp:105
 #, fuzzy
 #| msgid "Clear History"
 msgid "Search in history"
 msgstr "Tarixni boʻshatish"
 
-#: src/konqhistoryview.cpp:155 sidebar/history_module/kcmhistory.cpp:251
+#: src/konqhistoryview.cpp:164 sidebar/history_module/kcmhistory.cpp:251
 msgid "Do you really want to clear the entire history?"
 msgstr "Rostdan butun tarixni boʻshatmoqchimisiz?"
 
-#: src/konqhistoryview.cpp:156 sidebar/history_module/kcmhistory.cpp:253
+#: src/konqhistoryview.cpp:165 sidebar/history_module/kcmhistory.cpp:253
 msgid "Clear History?"
 msgstr "Tarixni boʻshataymi?"
 
@@ -1323,14 +1329,14 @@ msgstr "Koʻrish uchun manzil"
 msgid "SideBar Test Plugin"
 msgstr "Veb yon paneli uchun plagin"
 
-#: sidebar/history_module/history_module.cpp:106
+#: sidebar/history_module/history_module.cpp:126
 #, fuzzy
 #| msgid "Web Sidebar"
 msgctxt "@action:inmenu Add"
 msgid "History Sidebar Module"
 msgstr "Veb yon paneli"
 
-#: sidebar/history_module/history_module.cpp:129
+#: sidebar/history_module/history_module.cpp:149
 #, fuzzy
 #| msgid "History"
 msgctxt "@title:tab"
@@ -1411,11 +1417,6 @@ msgstr "Xossalari"
 msgid "Open in New Window"
 msgstr "Yangi oynada ochish"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
-#: sidebar/trees/konq_sidebartree.cpp:235
-msgid "Open in New Tab"
-msgstr "Yangi tabda ochish"
-
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:98
 msgid "Open Folder in Tabs"
 msgstr "Jildni tabda ochish"
@@ -1455,15 +1456,15 @@ msgstr "Xatchoʻpni oʻchirish"
 msgid "Bookmark Properties"
 msgstr "Xatchoʻpning xossalari"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:559
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
 msgid "&Update"
 msgstr "Ya&ngilash"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:567
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
 msgid "Name:"
 msgstr "Nomi:"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:575
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
 msgid "Location:"
 msgstr "Manzil:"
 
