@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-26 06:11+0100\n"
+"POT-Creation-Date: 2009-11-27 06:02+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -390,15 +390,36 @@ msgstr "Faks (uy)"
 msgid "Install"
 msgstr "Oʻrnatish"
 
+#. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:261
+#. i18n: ectx: property (text), widget (QPushButton, updateButton)
+#: rc.cpp:176 knewstuff/knewstuff2/ui/kdxsbutton.cpp:138
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:192
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:220
+msgid "Update"
+msgstr "Yangilash"
+
+#. i18n: file: knewstuff/knewstuff3/ui/entrydetailsdialog.ui:271
+#. i18n: ectx: property (text), widget (QPushButton, uninstallButton)
+#: rc.cpp:179 knewstuff/knewstuff2/ui/kdxsbutton.cpp:66
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:133
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:534
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:66
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:186
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:72
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:216
+#, fuzzy
+msgid "Uninstall"
+msgstr "Oʻrnatish"
+
 #. i18n: file: dnssd/kcm_kdnssd.kcfg:9
 #. i18n: ectx: label, entry, group (browsing)
-#: rc.cpp:176
+#: rc.cpp:182
 msgid "Additional domains for browsing"
 msgstr ""
 
 #. i18n: file: dnssd/kcm_kdnssd.kcfg:10
 #. i18n: ectx: whatsthis, entry, group (browsing)
-#: rc.cpp:179
+#: rc.cpp:185
 msgid "List of 'wide-area' (non link-local) domains that should be browsed."
 msgstr ""
 
@@ -406,25 +427,25 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelPassword)
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:106
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: rc.cpp:182 rc.cpp:302
+#: rc.cpp:188 rc.cpp:308
 msgid "Password:"
 msgstr "Maxfiy soʻz:"
 
 #. i18n: file: kdeui/dialogs/knewpassworddialog.ui:54
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:185 kde3support/kdeui/k3passworddialog.cpp:389
+#: rc.cpp:191 kde3support/kdeui/k3passworddialog.cpp:389
 msgid "&Verify:"
 msgstr "&Tekshirish:"
 
 #. i18n: file: kdeui/dialogs/knewpassworddialog.ui:82
 #. i18n: ectx: property (text), widget (QLabel, labelStrengthMeter)
-#: rc.cpp:188 kde3support/kdeui/k3passworddialog.cpp:410
+#: rc.cpp:194 kde3support/kdeui/k3passworddialog.cpp:410
 msgid "Password strength meter:"
 msgstr "Maxfiy soʻz ishonchligi:"
 
 #. i18n: file: kdeui/dialogs/knewpassworddialog.ui:104
 #. i18n: ectx: property (text), widget (KTitleWidget, labelMatch)
-#: rc.cpp:191 kdeui/dialogs/knewpassworddialog.cpp:177
+#: rc.cpp:197 kdeui/dialogs/knewpassworddialog.cpp:177
 #: kde3support/kdeui/k3passworddialog.cpp:432
 #: kde3support/kdeui/k3passworddialog.cpp:625
 msgid "Passwords do not match"
@@ -432,45 +453,45 @@ msgstr "Maxfiy soʻzlar mos kelmaydi"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, KCupsOptionsJobWidget)
-#: rc.cpp:194
+#: rc.cpp:200
 msgid "Job"
 msgstr "Vazifa"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, jobControlGroupBox)
-#: rc.cpp:197
+#: rc.cpp:203
 msgid "Job Control"
 msgstr "Vazifani boshqarish"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, jobHoldLabel)
-#: rc.cpp:200
+#: rc.cpp:206
 #, fuzzy
 msgid "Scheduled printing:"
 msgstr "Imzolash uchun kalitlar:"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:38
 #. i18n: ectx: property (text), widget (QLabel, jobBillingLabel)
-#: rc.cpp:203
+#: rc.cpp:209
 #, fuzzy
 msgid "Billing information:"
 msgstr "Maʼlumot"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:48
 #. i18n: ectx: property (text), widget (QLabel, jobPriorityLabel)
-#: rc.cpp:206
+#: rc.cpp:212
 msgid "Job priority:"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:94
 #. i18n: ectx: property (title), widget (QGroupBox, jobOptionsGroupBox)
-#: rc.cpp:209
+#: rc.cpp:215
 msgid "Job Options"
 msgstr "Vazifa moslamalari"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:117
 #. i18n: ectx: property (text), widget (QTableWidget, jobOptionsTable)
-#: rc.cpp:212
+#: rc.cpp:218
 msgid "Option"
 msgstr "Moslama"
 
@@ -478,20 +499,20 @@ msgstr "Moslama"
 #. i18n: ectx: property (text), widget (QTableWidget, jobOptionsTable)
 #. i18n: file: khtml/htmlpageinfo.ui:246
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
-#: rc.cpp:215 rc.cpp:588 khtml/ecma/debugger/localvariabledock.cpp:52
+#: rc.cpp:221 rc.cpp:594 khtml/ecma/debugger/localvariabledock.cpp:52
 #: khtml/java/kjavaappletviewer.cpp:139
 msgid "Value"
 msgstr "Qiymat"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, KCupsOptionsPagesWidget)
-#: rc.cpp:218
+#: rc.cpp:224
 msgid "Pages"
 msgstr "Bet"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:19
 #. i18n: ectx: property (title), widget (KButtonGroup, pagesPerSheetButtonGroup)
-#: rc.cpp:221
+#: rc.cpp:227
 msgid "Pages Per Sheet"
 msgstr ""
 
@@ -499,7 +520,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, oneUpRadioButton)
 #. i18n: file: kjsembed/examples/calc/calc.ui:138
 #. i18n: ectx: property (text), widget (QPushButton, one)
-#: rc.cpp:224 rc.cpp:892
+#: rc.cpp:230 rc.cpp:898
 msgid "1"
 msgstr ""
 
@@ -507,7 +528,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, sixUpRadioButton)
 #. i18n: file: kjsembed/examples/calc/calc.ui:117
 #. i18n: ectx: property (text), widget (QPushButton, six)
-#: rc.cpp:227 rc.cpp:883
+#: rc.cpp:233 rc.cpp:889
 msgid "6"
 msgstr ""
 
@@ -515,7 +536,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, twoUpRadioButton)
 #. i18n: file: kjsembed/examples/calc/calc.ui:89
 #. i18n: ectx: property (text), widget (QPushButton, two)
-#: rc.cpp:230 rc.cpp:871
+#: rc.cpp:236 rc.cpp:877
 msgid "2"
 msgstr ""
 
@@ -523,7 +544,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, nineUpRadioButton)
 #. i18n: file: kjsembed/examples/calc/calc.ui:131
 #. i18n: ectx: property (text), widget (QPushButton, nine)
-#: rc.cpp:233 rc.cpp:889
+#: rc.cpp:239 rc.cpp:895
 msgid "9"
 msgstr ""
 
@@ -531,25 +552,25 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, fourUpRadioButton)
 #. i18n: file: kjsembed/examples/calc/calc.ui:82
 #. i18n: ectx: property (text), widget (QPushButton, four)
-#: rc.cpp:236 rc.cpp:868
+#: rc.cpp:242 rc.cpp:874
 msgid "4"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:63
 #. i18n: ectx: property (text), widget (QRadioButton, sixteenUpRadioButton)
-#: rc.cpp:239
+#: rc.cpp:245
 msgid "16"
 msgstr "16"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:89
 #. i18n: ectx: property (title), widget (QGroupBox, bannerPagesGroupBox)
-#: rc.cpp:242
+#: rc.cpp:248
 msgid "Banner Pages"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:95
 #. i18n: ectx: property (text), widget (QLabel, startBannerLabel)
-#: rc.cpp:245
+#: rc.cpp:251
 #, fuzzy
 msgctxt "Banner page at start"
 msgid "Start"
@@ -557,7 +578,7 @@ msgstr "&Boshlash"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:105
 #. i18n: ectx: property (text), widget (QLabel, endBannerLabel)
-#: rc.cpp:248
+#: rc.cpp:254
 #, fuzzy
 msgctxt "Banner page at end"
 msgid "End"
@@ -565,34 +586,34 @@ msgstr "Oxirga"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:131
 #. i18n: ectx: property (title), widget (QGroupBox, pageLabelGroupBox)
-#: rc.cpp:251
+#: rc.cpp:257
 #, fuzzy
 msgid "Page Label"
 msgstr "Hujjat yuklandi."
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:156
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:254
+#: rc.cpp:260
 #, fuzzy
 msgid "Page Border"
 msgstr "Chegara"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:181
 #. i18n: ectx: property (title), widget (QGroupBox, mirrorPagesGroupBox)
-#: rc.cpp:257
+#: rc.cpp:263
 #, fuzzy
 msgid "Mirror Pages"
 msgstr "&Birinchi bet"
 
 #. i18n: file: kdeui/dialogs/kcupsoptionspageswidget.ui:187
 #. i18n: ectx: property (text), widget (QCheckBox, mirrorPagesCheckBox)
-#: rc.cpp:260
+#: rc.cpp:266
 msgid "Mirror pages along vertical axis"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:16
 #. i18n: ectx: property (whatsThis), widget (KTreeWidgetSearchLineWidget, searchFilter)
-#: rc.cpp:263
+#: rc.cpp:269
 msgid ""
 "Search interactively for shortcut names (e.g. Copy) or combination of keys "
 "(e.g. Ctrl+C) by typing them here."
@@ -600,7 +621,7 @@ msgstr ""
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:23
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, list)
-#: rc.cpp:266
+#: rc.cpp:272
 msgid ""
 "Here you can see a list of key bindings, i.e. associations between actions "
 "(e.g. 'Copy') shown in the left column and keys or combination of keys (e.g. "
@@ -612,92 +633,92 @@ msgstr ""
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:33
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:269
+#: rc.cpp:275
 msgid "Action"
 msgstr "Amal"
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:38
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:272
+#: rc.cpp:278
 msgid "Shortcut"
 msgstr "Tugmalar birikmasi"
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:43
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:275
+#: rc.cpp:281
 msgid "Alternate"
 msgstr "Qoʻshimcha"
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:48
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:278
+#: rc.cpp:284
 msgid "Global"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:53
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:281
+#: rc.cpp:287
 #, fuzzy
 msgid "Global Alternate"
 msgstr "Qoʻshimcha"
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:58
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:284
+#: rc.cpp:290
 msgid "Mouse Button Gesture"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kshortcutsdialog.ui:63
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: rc.cpp:287
+#: rc.cpp:293
 msgid "Mouse Shape Gesture"
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:31
 #. i18n: ectx: property (text), widget (QLabel, prompt)
-#: rc.cpp:290
+#: rc.cpp:296
 msgid "Supply a username and password below."
 msgstr ""
 
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:73
 #. i18n: ectx: property (text), widget (QLabel, userNameLabel)
-#: rc.cpp:293
+#: rc.cpp:299
 msgid "Username:"
 msgstr "Foydalanuvchi:"
 
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:86
 #. i18n: ectx: property (text), widget (QCheckBox, anonymousCheckBox)
-#: rc.cpp:296
+#: rc.cpp:302
 msgid "Anonymous"
 msgstr "Anonim"
 
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:93
 #. i18n: ectx: property (text), widget (QLabel, domainLabel)
-#: rc.cpp:299
+#: rc.cpp:305
 msgid "Domain:"
 msgstr "Domen:"
 
 #. i18n: file: kdeui/dialogs/kpassworddialog.ui:123
 #. i18n: ectx: property (text), widget (QCheckBox, keepCheckBox)
-#: rc.cpp:305
+#: rc.cpp:311
 msgid "Remember password"
 msgstr "Maxfiy soʻzni eslab qolish"
 
 #. i18n: file: kdeui/sonnet/configui.ui:32
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:308 kdeui/findreplace/kfinddialog.cpp:123
+#: rc.cpp:314 kdeui/findreplace/kfinddialog.cpp:123
 msgid "Options"
 msgstr "Parametrlar"
 
 #. i18n: file: kdeui/sonnet/configui.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, m_bgSpellCB)
-#: rc.cpp:311
+#: rc.cpp:317
 msgid "Enable &background spellchecking"
 msgstr "&Avto-tekshirishni yoqish"
 
 #. i18n: file: kdeui/sonnet/configui.ui:45
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkerEnabledByDefaultCB)
-#: rc.cpp:314
+#: rc.cpp:320
 #, fuzzy
 #| msgid "As-you-type spell checking enabled."
 msgid "&Automatic spell checking enabled by default"
@@ -705,19 +726,19 @@ msgstr "Imloni avto-tekshirish yoqildi."
 
 #. i18n: file: kdeui/sonnet/configui.ui:52
 #. i18n: ectx: property (text), widget (QCheckBox, m_skipUpperCB)
-#: rc.cpp:317
+#: rc.cpp:323
 msgid "Skip all &uppercase words"
 msgstr "&Katta harflar bilan yozilgan soʻzlarga eʼtibor berilmasin"
 
 #. i18n: file: kdeui/sonnet/configui.ui:59
 #. i18n: ectx: property (text), widget (QCheckBox, m_skipRunTogetherCB)
-#: rc.cpp:320
+#: rc.cpp:326
 msgid "S&kip run-together words"
 msgstr "&Birga yozilgan soʻzlarga eʼtibor berilmasin"
 
 #. i18n: file: kdeui/sonnet/configui.ui:69
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:323
+#: rc.cpp:329
 msgid "Default language:"
 msgstr "Andoza til:"
 
@@ -729,7 +750,7 @@ msgstr "Andoza til:"
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:49
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_unknownWord)
-#: rc.cpp:326 rc.cpp:338 rc.cpp:955 rc.cpp:967
+#: rc.cpp:332 rc.cpp:344 rc.cpp:961 rc.cpp:973
 msgid ""
 "<qt><p>This word was considered to be an \"unknown word\" because it does "
 "not match any entry in the dictionary currently in use. It may also be a "
@@ -761,7 +782,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:36
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:332 rc.cpp:961
+#: rc.cpp:338 rc.cpp:967
 msgid "Unknown word:"
 msgstr "Nomaʼlum soʻz:"
 
@@ -769,7 +790,7 @@ msgstr "Nomaʼlum soʻz:"
 #. i18n: ectx: property (toolTip), widget (QLabel, m_unknownWord)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:43
 #. i18n: ectx: property (toolTip), widget (QLabel, m_unknownWord)
-#: rc.cpp:335 rc.cpp:964
+#: rc.cpp:341 rc.cpp:970
 msgid "Unknown word"
 msgstr "Nomaʼlum soʻz"
 
@@ -777,7 +798,7 @@ msgstr "Nomaʼlum soʻz"
 #. i18n: ectx: property (text), widget (QLabel, m_unknownWord)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:52
 #. i18n: ectx: property (text), widget (QLabel, m_unknownWord)
-#: rc.cpp:344 rc.cpp:973
+#: rc.cpp:350 rc.cpp:979
 msgid "<b>misspelled</b>"
 msgstr "<b>notoʻgʻri yozilgan</b>"
 
@@ -789,7 +810,7 @@ msgstr "<b>notoʻgʻri yozilgan</b>"
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel5)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:233
 #. i18n: ectx: property (whatsThis), widget (KComboBox, m_language)
-#: rc.cpp:347 rc.cpp:405 rc.cpp:976 rc.cpp:1071
+#: rc.cpp:353 rc.cpp:411 rc.cpp:982 rc.cpp:1077
 msgid ""
 "<qt>\n"
 "<p>Select the language of the document you are proofing here.</p>\n"
@@ -803,7 +824,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:64
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: rc.cpp:352 rc.cpp:981
+#: rc.cpp:358 rc.cpp:987
 msgid "&Language:"
 msgstr "&Til:"
 
@@ -811,7 +832,7 @@ msgstr "&Til:"
 #. i18n: ectx: property (toolTip), widget (QLabel, m_contextLabel)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:74
 #. i18n: ectx: property (toolTip), widget (QLabel, m_contextLabel)
-#: rc.cpp:355 rc.cpp:984
+#: rc.cpp:361 rc.cpp:990
 msgid "Text excerpt showing the unknown word in its context."
 msgstr "Nomaʼlum soʻzni koʻrsatuvchi matndan parcha."
 
@@ -819,7 +840,7 @@ msgstr "Nomaʼlum soʻzni koʻrsatuvchi matndan parcha."
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_contextLabel)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:79
 #. i18n: ectx: property (whatsThis), widget (QLabel, m_contextLabel)
-#: rc.cpp:358 rc.cpp:987
+#: rc.cpp:364 rc.cpp:993
 msgid ""
 "<qt>\n"
 "<p>Here you can see a text excerpt showing the unknown word in its context. "
@@ -838,7 +859,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, m_contextLabel)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:85
 #. i18n: ectx: property (text), widget (QLabel, m_contextLabel)
-#: rc.cpp:363 rc.cpp:992
+#: rc.cpp:369 rc.cpp:998
 msgid "... the <b>misspelled</b> word shown in context ..."
 msgstr "...matndagi <b>notoʻgʻri yozilgan</b> soʻz..."
 
@@ -846,7 +867,7 @@ msgstr "...matndagi <b>notoʻgʻri yozilgan</b> soʻz..."
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_addBtn)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:98
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_addBtn)
-#: rc.cpp:366 rc.cpp:995
+#: rc.cpp:372 rc.cpp:1001
 #, fuzzy
 #| msgid ""
 #| "<qt>\n"
@@ -880,7 +901,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_addBtn)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:101
 #. i18n: ectx: property (text), widget (QPushButton, m_addBtn)
-#: rc.cpp:372 rc.cpp:1001
+#: rc.cpp:378 rc.cpp:1007
 msgid "<< Add to Dictionary"
 msgstr "<< Lugʻatga qoʻshish"
 
@@ -888,7 +909,7 @@ msgstr "<< Lugʻatga qoʻshish"
 #. i18n: ectx: property (toolTip), widget (QListView, m_suggestions)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:136
 #. i18n: ectx: property (toolTip), widget (Q3ListView, m_suggestions)
-#: rc.cpp:375 rc.cpp:1012
+#: rc.cpp:381 rc.cpp:1018
 msgid "Suggestion List"
 msgstr "Taklif qilingan soʻzlar roʻyxati"
 
@@ -896,7 +917,7 @@ msgstr "Taklif qilingan soʻzlar roʻyxati"
 #. i18n: ectx: property (whatsThis), widget (QListView, m_suggestions)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:142
 #. i18n: ectx: property (whatsThis), widget (Q3ListView, m_suggestions)
-#: rc.cpp:378 rc.cpp:1015
+#: rc.cpp:384 rc.cpp:1021
 msgid ""
 "<qt>\n"
 "<p>If the unknown word is misspelled, you should check if the correction for "
@@ -921,7 +942,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QListView, m_suggestions)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:149
 #. i18n: ectx: property (text), widget (Q3ListView, m_suggestions)
-#: rc.cpp:384 rc.cpp:1021
+#: rc.cpp:390 rc.cpp:1027
 msgid "Suggested Words"
 msgstr "Taklif qilingan soʻzlar"
 
@@ -933,7 +954,7 @@ msgstr "Taklif qilingan soʻzlar"
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:214
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_replacement)
-#: rc.cpp:387 rc.cpp:396 rc.cpp:1032 rc.cpp:1059
+#: rc.cpp:393 rc.cpp:402 rc.cpp:1038 rc.cpp:1065
 msgid ""
 "<qt>\n"
 "<p>If the unknown word is misspelled, you should type the correction for "
@@ -955,7 +976,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:175
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:393 rc.cpp:1038
+#: rc.cpp:399 rc.cpp:1044
 msgid "Replace &with:"
 msgstr "Shu &bilan almashtirish:"
 
@@ -963,7 +984,7 @@ msgstr "Shu &bilan almashtirish:"
 #. i18n: ectx: property (toolTip), widget (KComboBox, m_language)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:228
 #. i18n: ectx: property (toolTip), widget (KComboBox, m_language)
-#: rc.cpp:402 rc.cpp:1068
+#: rc.cpp:408 rc.cpp:1074
 msgid "Language Selection"
 msgstr "Tilni tanlash"
 
@@ -971,7 +992,7 @@ msgstr "Tilni tanlash"
 #. i18n: ectx: property (text), widget (QPushButton, m_suggestBtn)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:221
 #. i18n: ectx: property (text), widget (QPushButton, m_suggestBtn)
-#: rc.cpp:410 rc.cpp:1065
+#: rc.cpp:416 rc.cpp:1071
 msgid "S&uggest"
 msgstr "Tak&lif qilish"
 
@@ -979,7 +1000,7 @@ msgstr "Tak&lif qilish"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_replaceBtn)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:159
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_replaceBtn)
-#: rc.cpp:413 rc.cpp:1024
+#: rc.cpp:419 rc.cpp:1030
 msgid ""
 "<qt>\n"
 "<p>Click here to replace this occurrence of the unknown text with the text "
@@ -995,7 +1016,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceBtn)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:162
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceBtn)
-#: rc.cpp:418 rc.cpp:1029 kdeui/findreplace/kfinddialog.cpp:198
+#: rc.cpp:424 rc.cpp:1035 kdeui/findreplace/kfinddialog.cpp:198
 msgid "&Replace"
 msgstr "&Almashtirish"
 
@@ -1003,7 +1024,7 @@ msgstr "&Almashtirish"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_replaceAllBtn)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:126
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_replaceAllBtn)
-#: rc.cpp:421 rc.cpp:1004
+#: rc.cpp:427 rc.cpp:1010
 msgid ""
 "<qt>\n"
 "<p>Click here to replace all occurrences of the unknown text with the text "
@@ -1019,7 +1040,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceAllBtn)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:129
 #. i18n: ectx: property (text), widget (QPushButton, m_replaceAllBtn)
-#: rc.cpp:426 rc.cpp:1009
+#: rc.cpp:432 rc.cpp:1015
 msgid "R&eplace All"
 msgstr "Ha&mmasini almashtirish"
 
@@ -1027,7 +1048,7 @@ msgstr "Ha&mmasini almashtirish"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_skipBtn)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:188
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_skipBtn)
-#: rc.cpp:429 rc.cpp:1041
+#: rc.cpp:435 rc.cpp:1047
 msgid ""
 "<qt>\n"
 "<p>Click here to let this occurrence of the unknown word remain as is.</p>\n"
@@ -1047,7 +1068,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:191
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
-#: rc.cpp:435 rc.cpp:1047
+#: rc.cpp:441 rc.cpp:1053
 msgid "&Ignore"
 msgstr "Eʼ&tibor berilmasin"
 
@@ -1057,7 +1078,7 @@ msgstr "Eʼ&tibor berilmasin"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_autoCorrect)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:201
 #. i18n: ectx: property (whatsThis), widget (QPushButton, m_skipAllBtn)
-#: rc.cpp:438 rc.cpp:447 rc.cpp:1050
+#: rc.cpp:444 rc.cpp:453 rc.cpp:1056
 msgid ""
 "<qt>\n"
 "<p>Click here to let all occurrences of the unknown word remain as they are."
@@ -1078,13 +1099,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_skipAllBtn)
 #. i18n: file: kde3support/kdeui/k3spellui.ui:204
 #. i18n: ectx: property (text), widget (QPushButton, m_skipAllBtn)
-#: rc.cpp:444 rc.cpp:1056
+#: rc.cpp:450 rc.cpp:1062
 msgid "I&gnore All"
 msgstr "Hammasiga &eʼtibor berilmasin"
 
 #. i18n: file: kdeui/sonnet/sonnetui.ui:254
 #. i18n: ectx: property (text), widget (QPushButton, m_autoCorrect)
-#: rc.cpp:453
+#: rc.cpp:459
 msgid "Autocorrect"
 msgstr "Avto-toʻgʻrilash"
 
@@ -1092,13 +1113,13 @@ msgstr "Avto-toʻgʻrilash"
 #. i18n: ectx: Menu (file)
 #. i18n: file: khtml/khtml_browser.rc:4
 #. i18n: ectx: Menu (file)
-#: rc.cpp:456 rc.cpp:603
+#: rc.cpp:462 rc.cpp:609
 msgid "&File"
 msgstr "&Fayl"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:34
 #. i18n: ectx: Menu (game)
-#: rc.cpp:459
+#: rc.cpp:465
 msgid "&Game"
 msgstr "&Oʻyin"
 
@@ -1108,13 +1129,13 @@ msgstr "&Oʻyin"
 #. i18n: ectx: Menu (edit)
 #. i18n: file: khtml/khtml_browser.rc:11
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:462 rc.cpp:561 rc.cpp:606
+#: rc.cpp:468 rc.cpp:567 rc.cpp:612
 msgid "&Edit"
 msgstr "&Tahrirlash"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:84
 #. i18n: ectx: Menu (move)
-#: rc.cpp:465
+#: rc.cpp:471
 msgctxt "@title:menu Game move"
 msgid "&Move"
 msgstr "Koʻchi&rish"
@@ -1123,61 +1144,61 @@ msgstr "Koʻchi&rish"
 #. i18n: ectx: Menu (view)
 #. i18n: file: khtml/khtml_browser.rc:20
 #. i18n: ectx: Menu (view)
-#: rc.cpp:468 rc.cpp:609
+#: rc.cpp:474 rc.cpp:615
 msgid "&View"
 msgstr "&Koʻrinish"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:117
 #. i18n: ectx: Menu (go)
-#: rc.cpp:471
+#: rc.cpp:477
 msgid "&Go"
 msgstr "Oʻ&tish"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:138
 #. i18n: ectx: Menu (bookmarks)
-#: rc.cpp:474
+#: rc.cpp:480
 msgid "&Bookmarks"
 msgstr "&Xatchoʻplar"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:144
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:477
+#: rc.cpp:483
 msgid "&Tools"
 msgstr "&Vositalar"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:148
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:480 khtml/ecma/debugger/debugwindow.cpp:240
+#: rc.cpp:486 khtml/ecma/debugger/debugwindow.cpp:240
 msgid "&Settings"
 msgstr "Mos&lamalar"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:177
 #. i18n: ectx: Menu (help)
-#: rc.cpp:483 kdeui/widgets/khelpmenu.cpp:148
+#: rc.cpp:489 kdeui/widgets/khelpmenu.cpp:148
 msgid "&Help"
 msgstr "&Yordam"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:194
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:486
+#: rc.cpp:492
 msgid "Main Toolbar"
 msgstr "Asosiy asboblar paneli"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: rc.cpp:489 kdeui/dialogs/kshortcutseditor.cpp:642
+#: rc.cpp:495 kdeui/dialogs/kshortcutseditor.cpp:642
 msgid "Main:"
 msgstr "Asosiy:"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:52
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: rc.cpp:492 kdeui/dialogs/kshortcutseditor.cpp:643
+#: rc.cpp:498 kdeui/dialogs/kshortcutseditor.cpp:643
 msgid "Alternate:"
 msgstr "Qoʻshimcha:"
 
 #. i18n: file: khtml/test_regression_gui.ui:13
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
-#: rc.cpp:495
+#: rc.cpp:501
 msgid "KHTML Regression Testing Utility"
 msgstr ""
 
@@ -1185,13 +1206,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
 #. i18n: file: kjsembed/examples/calc/calc.ui:75
 #. i18n: ectx: property (text), widget (QPushButton, zero)
-#: rc.cpp:498 rc.cpp:865
+#: rc.cpp:504 rc.cpp:871
 msgid "0"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:56
 #. i18n: ectx: attribute (title), widget (QWidget, firstTab)
-#: rc.cpp:501
+#: rc.cpp:507
 msgid "Regression testing output"
 msgstr ""
 
@@ -1199,13 +1220,13 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, pauseContinueButton)
 #. i18n: file: khtml/test_regression_gui.ui:114
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pauseContinueButton)
-#: rc.cpp:504 rc.cpp:507
+#: rc.cpp:510 rc.cpp:513
 msgid "Pause/Continue regression testing process"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:120
 #. i18n: ectx: property (text), widget (QPushButton, pauseContinueButton)
-#: rc.cpp:510 khtml/test_regression_gui_window.cpp:571
+#: rc.cpp:516 khtml/test_regression_gui_window.cpp:571
 #: khtml/rendering/media_controls.cpp:50
 msgid "Pause"
 msgstr "Vaqtincha toʻxtatish"
@@ -1214,7 +1235,7 @@ msgstr "Vaqtincha toʻxtatish"
 #. i18n: ectx: property (toolTip), widget (QPushButton, saveLogButton)
 #. i18n: file: khtml/test_regression_gui.ui:147
 #. i18n: ectx: property (whatsThis), widget (QPushButton, saveLogButton)
-#: rc.cpp:513 rc.cpp:516
+#: rc.cpp:519 rc.cpp:522
 msgid ""
 "You may select a file where the log content is stored, before the regression "
 "testing is started."
@@ -1222,101 +1243,101 @@ msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:150
 #. i18n: ectx: property (text), widget (QPushButton, saveLogButton)
-#: rc.cpp:519
+#: rc.cpp:525
 #, fuzzy
 msgid "Output to File..."
 msgstr "Natija fayli"
 
 #. i18n: file: khtml/test_regression_gui.ui:162
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
-#: rc.cpp:522
+#: rc.cpp:528
 msgid "Regression Testing Status"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:182
 #. i18n: ectx: attribute (title), widget (QWidget, secondTab)
-#: rc.cpp:525
+#: rc.cpp:531
 msgid "View HTML Output"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:203
 #. i18n: ectx: property (title), widget (QMenu, menuSettings)
-#: rc.cpp:528
+#: rc.cpp:534
 msgid "Settings"
 msgstr "Moslamalar"
 
 #. i18n: file: khtml/test_regression_gui.ui:212
 #. i18n: ectx: property (title), widget (QMenu, menuMain)
-#: rc.cpp:531
+#: rc.cpp:537
 #, fuzzy
 msgid "Tests"
 msgstr "Sinov"
 
 #. i18n: file: khtml/test_regression_gui.ui:238
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:534
+#: rc.cpp:540
 msgid "Only Run JS Tests"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:246
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:537
+#: rc.cpp:543
 msgid "Only Run HTML Tests"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:254
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:540
+#: rc.cpp:546
 msgid "Do Not Suppress Debug Output"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:262
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:543 khtml/test_regression.cpp:630
+#: rc.cpp:549 khtml/test_regression.cpp:630
 msgid "Do not use Xvfb"
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:267
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:546
+#: rc.cpp:552
 #, fuzzy
 msgid "Run Tests..."
 msgstr "Roʻyxatning nomini oʻzgartirish"
 
 #. i18n: file: khtml/test_regression_gui.ui:272
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:549
+#: rc.cpp:555
 #, fuzzy
 msgid "Run Single Test..."
 msgstr "Roʻyxatning nomini oʻzgartirish"
 
 #. i18n: file: khtml/test_regression_gui.ui:277
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:552
+#: rc.cpp:558
 msgid "Specify tests Directory..."
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:282
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:555
+#: rc.cpp:561
 msgid "Specify khtml Directory..."
 msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:287
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:558
+#: rc.cpp:564
 msgid "Specify Output Directory..."
 msgstr ""
 
 #. i18n: file: khtml/htmlpageinfo.ui:21
 #. i18n: ectx: property (windowTitle), widget (QDialog, KHTMLInfoDlg)
-#: rc.cpp:564
+#: rc.cpp:570
 msgid "Document Information"
 msgstr "Hujjat haqida maʼlumot"
 
 #. i18n: file: khtml/htmlpageinfo.ui:45
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:567
+#: rc.cpp:573
 #, fuzzy
 #| msgid "General"
 msgctxt "@title:group Document information"
@@ -1325,49 +1346,49 @@ msgstr "Umumiy"
 
 #. i18n: file: khtml/htmlpageinfo.ui:92
 #. i18n: ectx: property (text), widget (QLabel, urlLabel)
-#: rc.cpp:570
+#: rc.cpp:576
 msgid "URL:"
 msgstr "URL:"
 
 #. i18n: file: khtml/htmlpageinfo.ui:144
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: rc.cpp:573
+#: rc.cpp:579
 msgid "Title:"
 msgstr "Sarlavha:"
 
 #. i18n: file: khtml/htmlpageinfo.ui:160
 #. i18n: ectx: property (text), widget (QLabel, _lmLabel)
-#: rc.cpp:576
+#: rc.cpp:582
 msgid "Last modified:"
 msgstr "Oxirgi oʻzgartirish:"
 
 #. i18n: file: khtml/htmlpageinfo.ui:176
 #. i18n: ectx: property (text), widget (QLabel, _eLabel)
-#: rc.cpp:579
+#: rc.cpp:585
 msgid "Document encoding:"
 msgstr "Hujjatning kodlash usuli:"
 
 #. i18n: file: khtml/htmlpageinfo.ui:204
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:582
+#: rc.cpp:588
 msgid "HTTP Headers"
 msgstr "HTTP sarlavhalari"
 
 #. i18n: file: khtml/htmlpageinfo.ui:241
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
-#: rc.cpp:585
+#: rc.cpp:591
 msgid "Property"
 msgstr "Xossasi"
 
 #. i18n: file: khtml/kjserrordlgbase.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, KJSErrorDlgBase)
-#: rc.cpp:591
+#: rc.cpp:597
 msgid "JavaScript Errors"
 msgstr "JavaScript xatosi"
 
 #. i18n: file: khtml/kjserrordlgbase.ui:17
 #. i18n: ectx: property (whatsThis), widget (QDialog, KJSErrorDlgBase)
-#: rc.cpp:594
+#: rc.cpp:600
 msgid ""
 "This dialog provides you with notification and details of scripting errors "
 "that occur on web pages.  In many cases it is due to an error in the web "
@@ -1380,28 +1401,28 @@ msgstr ""
 
 #. i18n: file: khtml/kjserrordlgbase.ui:29
 #. i18n: ectx: property (text), widget (QPushButton, _close)
-#: rc.cpp:597 kdeui/util/kstandardguiitem.cpp:184
+#: rc.cpp:603 kdeui/util/kstandardguiitem.cpp:184
 #: kdeui/actions/kstandardaction_p.h:49
 msgid "&Close"
 msgstr "Yo&pish"
 
 #. i18n: file: khtml/kjserrordlgbase.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, _clear)
-#: rc.cpp:600 kdeui/util/kstandardguiitem.cpp:171
+#: rc.cpp:606 kdeui/util/kstandardguiitem.cpp:171
 #: kdeui/actions/kstandardaction_p.h:61
 msgid "C&lear"
 msgstr "T&ozalash"
 
 #. i18n: file: khtml/khtml_browser.rc:35
 #. i18n: ectx: ToolBar (htmlToolBar)
-#: rc.cpp:612
+#: rc.cpp:618
 #, fuzzy
 msgid "HTML Toolbar"
 msgstr "Asosiy asboblar paneli"
 
 #. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:615
+#: rc.cpp:621
 #, fuzzy
 #| msgid "Find:"
 msgid "F&ind:"
@@ -1409,19 +1430,19 @@ msgstr "Qidirish:"
 
 #. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:75
 #. i18n: ectx: property (text), widget (QToolButton, m_next)
-#: rc.cpp:618
+#: rc.cpp:624
 msgid "&Next"
 msgstr "&Keyingi"
 
 #. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:85
 #. i18n: ectx: property (text), widget (QToolButton, m_previous)
-#: rc.cpp:621 kdeui/dialogs/ktip.cpp:305
+#: rc.cpp:627 kdeui/dialogs/ktip.cpp:305
 msgid "&Previous"
 msgstr "O&ldingi"
 
 #. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:111
 #. i18n: ectx: property (text), widget (QToolButton, m_options)
-#: rc.cpp:624
+#: rc.cpp:630
 #, fuzzy
 #| msgid "Options"
 msgid "Opt&ions"
@@ -1429,14 +1450,14 @@ msgstr "Parametrlar"
 
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:39
 #. i18n: ectx: property (text), widget (QLabel, m_label)
-#: rc.cpp:627 khtml/ui/passwordbar/storepassbar.cpp:59
+#: rc.cpp:633 khtml/ui/passwordbar/storepassbar.cpp:59
 #, fuzzy
 msgid "Do you want to store this password?"
 msgstr "Rostdan '%1'ni ishga tushirmoqchimisiz?"
 
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:62
 #. i18n: ectx: property (text), widget (QToolButton, m_store)
-#: rc.cpp:630
+#: rc.cpp:636
 #, fuzzy
 #| msgid "Store"
 msgid "&Store"
@@ -1444,7 +1465,7 @@ msgstr "Saqlash"
 
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:72
 #. i18n: ectx: property (text), widget (QToolButton, m_neverForThisSite)
-#: rc.cpp:633
+#: rc.cpp:639
 #, fuzzy
 #| msgid "Ne&ver for This Site"
 msgid "Ne&ver store for this site"
@@ -1452,7 +1473,7 @@ msgstr "&Bu sayt uchun hech qachon"
 
 #. i18n: file: khtml/ui/passwordbar/storepassbar_base.ui:82
 #. i18n: ectx: property (text), widget (QToolButton, m_doNotStore)
-#: rc.cpp:636
+#: rc.cpp:642
 #, fuzzy
 #| msgid "Do not show this message again"
 msgid "Do &not store this time"
@@ -1460,20 +1481,20 @@ msgstr "Bu xabar boshqa koʻrsatilmasin"
 
 #. i18n: file: kross/test/testguiform.ui:44
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:639 kross/ui/view.cpp:209
+#: rc.cpp:645 kross/ui/view.cpp:209
 msgid "File:"
 msgstr "Fayl:"
 
 #. i18n: file: kross/test/testguiform.ui:79
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
-#: rc.cpp:642
+#: rc.cpp:648
 #, fuzzy
 msgid "..."
 msgstr "Ochish..."
 
 #. i18n: file: kross/test/testguiform.ui:99
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:645
+#: rc.cpp:651
 msgid "GroupBox 1"
 msgstr ""
 
@@ -1481,13 +1502,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
 #. i18n: file: kross/test/testguiform.ui:142
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_2)
-#: rc.cpp:648 rc.cpp:651
+#: rc.cpp:654 rc.cpp:657
 msgid "CheckBox"
 msgstr ""
 
 #. i18n: file: kross/test/testguiform.ui:162
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:654
+#: rc.cpp:660
 msgid "Other GroupBox"
 msgstr ""
 
@@ -1495,63 +1516,63 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton)
 #. i18n: file: kross/test/testguiform.ui:205
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
-#: rc.cpp:657 rc.cpp:660
+#: rc.cpp:663 rc.cpp:666
 msgid "RadioButton"
 msgstr ""
 
 #. i18n: file: kross/test/testguiform.ui:232
 #. i18n: ectx: property (text), item, widget (QRadioButton, radioButton_2)
-#: rc.cpp:663
+#: rc.cpp:669
 #, fuzzy
 msgid "action1"
 msgstr "Amal"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:16
 #. i18n: ectx: property (text), widget (QCheckBox, Sound_check)
-#: rc.cpp:666
+#: rc.cpp:672
 msgid "Play a &sound"
 msgstr ""
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:42
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, Sound_select)
-#: rc.cpp:669
+#: rc.cpp:675
 #, fuzzy
 msgid "Select the sound to play"
 msgstr "Joriy kunni tanlash"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:49
 #. i18n: ectx: property (text), widget (QCheckBox, Popup_check)
-#: rc.cpp:672
+#: rc.cpp:678
 msgid "Show a message in a &popup"
 msgstr ""
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:56
 #. i18n: ectx: property (text), widget (QCheckBox, Logfile_check)
-#: rc.cpp:675
+#: rc.cpp:681
 msgid "Log to a file"
 msgstr "Faylga yozish"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:76
 #. i18n: ectx: property (text), widget (QCheckBox, Taskbar_check)
-#: rc.cpp:678
+#: rc.cpp:684
 msgid "Mark &taskbar entry"
 msgstr ""
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:83
 #. i18n: ectx: property (text), widget (QCheckBox, Execute_check)
-#: rc.cpp:681
+#: rc.cpp:687
 msgid "Run &command"
 msgstr "Buyruqni &bajarish"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:99
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, Execute_select)
-#: rc.cpp:684
+#: rc.cpp:690
 msgid "Select the command to run"
 msgstr "Bajarish uchun buyruqni tanlash"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:106
 #. i18n: ectx: property (text), widget (QCheckBox, KTTS_check)
-#: rc.cpp:687
+#: rc.cpp:693
 #, fuzzy
 msgid "Sp&eech"
 msgstr "Q&idirish:"
@@ -1560,7 +1581,7 @@ msgstr "Q&idirish:"
 #. i18n: ectx: property (whatsThis), widget (KComboBox, KTTS_combo)
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:141
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, KTTS_select)
-#: rc.cpp:691 rc.cpp:704
+#: rc.cpp:697 rc.cpp:710
 #, no-c-format
 msgid ""
 "<qt>Specifies how KTTS should speak the event when received.  If you select "
@@ -1572,47 +1593,47 @@ msgstr ""
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:123
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: rc.cpp:694
+#: rc.cpp:700
 #, fuzzy
 msgid "Speak Event Message"
 msgstr "artsmessage"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:128
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: rc.cpp:697
+#: rc.cpp:703
 #, fuzzy
 msgid "Speak Event Name"
 msgstr "Iltimos &nomini kiriting:"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:133
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: rc.cpp:700
+#: rc.cpp:706
 #, fuzzy
 msgid "Speak Custom Text"
 msgstr "Iltimos &nomini kiriting:"
 
 #. i18n: file: kutils/kdeglobals.kcfg:9
 #. i18n: ectx: label, entry, group (DesktopIcons)
-#: rc.cpp:707
+#: rc.cpp:713
 msgid "Distance between desktop icons"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:10
 #. i18n: ectx: whatsthis, entry, group (DesktopIcons)
-#: rc.cpp:710
+#: rc.cpp:716
 msgid "The distance between icons specified in pixels."
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:23
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:713
+#: rc.cpp:719
 #, fuzzy
 msgid "Widget style to use"
 msgstr "Provayder roʻyxati"
 
 #. i18n: file: kutils/kdeglobals.kcfg:24
 #. i18n: ectx: whatsthis, entry, group (General)
-#: rc.cpp:716
+#: rc.cpp:722
 msgid ""
 "The name of the widget style, for example \"keramik\" or \"plastik\". "
 "Without quotes."
@@ -1620,13 +1641,13 @@ msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:30
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:719
+#: rc.cpp:725
 msgid "Use the PC speaker"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:31
 #. i18n: ectx: whatsthis, entry, group (General)
-#: rc.cpp:722
+#: rc.cpp:728
 msgid ""
 "Whether the ordinary PC speaker should be used instead of KDE's own "
 "notifications system."
@@ -1634,14 +1655,14 @@ msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:35
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:725
+#: rc.cpp:731
 #, fuzzy
 msgid "What terminal application to use"
 msgstr "Dasturlarga yangilash uchun xabar yuborilmasin"
 
 #. i18n: file: kutils/kdeglobals.kcfg:37
 #. i18n: ectx: whatsthis, entry, group (General)
-#: rc.cpp:728
+#: rc.cpp:734
 msgid ""
 "Whenever a terminal application is launched this terminal emulator program "
 "will be used.\n"
@@ -1649,13 +1670,13 @@ msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:41
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:732
+#: rc.cpp:738
 msgid "Fixed width font"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:43
 #. i18n: ectx: whatsthis, entry, group (General)
-#: rc.cpp:735
+#: rc.cpp:741
 msgid ""
 "This font is used when a fixed font is needed. A fixed font has a constant "
 "width.\n"
@@ -1663,50 +1684,50 @@ msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:46
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:739
+#: rc.cpp:745
 #, fuzzy
 msgid "System wide font"
 msgstr "Tizim menyusi"
 
 #. i18n: file: kutils/kdeglobals.kcfg:49
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:742
+#: rc.cpp:748
 msgid "Font for menus"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:50
 #. i18n: ectx: whatsthis, entry, group (General)
-#: rc.cpp:745
+#: rc.cpp:751
 msgid "What font to use for menus in applications."
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:53
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:748
+#: rc.cpp:754
 msgid "Color for links"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:54
 #. i18n: ectx: whatsthis, entry, group (General)
-#: rc.cpp:751
+#: rc.cpp:757
 msgid "What color links should be that have not yet been clicked on"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:57
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:754
+#: rc.cpp:760
 msgid "Color for visited links"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:60
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:757
+#: rc.cpp:763
 msgid "Font for the taskbar"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:61
 #. i18n: ectx: whatsthis, entry, group (General)
-#: rc.cpp:760
+#: rc.cpp:766
 msgid ""
 "What font to use for the panel at the bottom of the screen, where the "
 "currently running applications are."
@@ -1714,67 +1735,67 @@ msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:64
 #. i18n: ectx: label, entry, group (General)
-#: rc.cpp:763
+#: rc.cpp:769
 msgid "Fonts for toolbars"
 msgstr "Asboblar panellari uchun shrift"
 
 #. i18n: file: kutils/kdeglobals.kcfg:73
 #. i18n: ectx: label, entry (Desktop Screenshot), group (Global Shortcuts)
-#: rc.cpp:766
+#: rc.cpp:772
 msgid "Shortcut for taking screenshot"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:78
 #. i18n: ectx: label, entry (Enable/Disable Clipboard Actions), group (Global Shortcuts)
-#: rc.cpp:769
+#: rc.cpp:775
 msgid "Shortcut for toggling Clipboard Actions on and off"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:83
 #. i18n: ectx: label, entry (Halt without Confirmation), group (Global Shortcuts)
-#: rc.cpp:772
+#: rc.cpp:778
 msgid "Shortcut for shutting down the computer without confirmation"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:380
 #. i18n: ectx: label, entry (Sort directories first), group (KFileDialog Settings)
-#: rc.cpp:775
+#: rc.cpp:781
 msgid "Show directories first"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:381
 #. i18n: ectx: whatsthis, entry (Sort directories first), group (KFileDialog Settings)
-#: rc.cpp:778
+#: rc.cpp:784
 msgid "Whether directories should be placed at the top when displaying files"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:389
 #. i18n: ectx: label, entry (Recent URLs), group (KFileDialog Settings)
-#: rc.cpp:781
+#: rc.cpp:787
 msgid "The URLs recently visited"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:390
 #. i18n: ectx: whatsthis, entry (Recent URLs), group (KFileDialog Settings)
-#: rc.cpp:784
+#: rc.cpp:790
 msgid "Used for auto-completion in file dialogs, for example"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:394
 #. i18n: ectx: label, entry (Show Preview), group (KFileDialog Settings)
-#: rc.cpp:787
+#: rc.cpp:793
 msgid "Show file preview in file dialog"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:399
 #. i18n: ectx: label, entry (Show hidden files), group (KFileDialog Settings)
-#: rc.cpp:790
+#: rc.cpp:796
 msgid "Show hidden files"
 msgstr "Yashirilgan fayllarni koʻrsatish"
 
 #. i18n: file: kutils/kdeglobals.kcfg:400
 #. i18n: ectx: whatsthis, entry (Show hidden files), group (KFileDialog Settings)
-#: rc.cpp:793
+#: rc.cpp:799
 msgid ""
 "Whether files starting with a dot (convention for hidden files) should be "
 "shown"
@@ -1782,121 +1803,121 @@ msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:405
 #. i18n: ectx: label, entry (Show Speedbar), group (KFileDialog Settings)
-#: rc.cpp:796
+#: rc.cpp:802
 #, fuzzy
 msgid "Show speedbar"
 msgstr "&Menyular panelini koʻrsatish"
 
 #. i18n: file: kutils/kdeglobals.kcfg:406
 #. i18n: ectx: whatsthis, entry (Show Speedbar), group (KFileDialog Settings)
-#: rc.cpp:799
+#: rc.cpp:805
 msgid ""
 "Whether the shortcut icons to the left in the file dialog should be shown"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:425
 #. i18n: ectx: label, entry, group (Locale)
-#: rc.cpp:802
+#: rc.cpp:808
 #, fuzzy
 msgid "What country"
 msgstr "Davlat"
 
 #. i18n: file: kutils/kdeglobals.kcfg:426
 #. i18n: ectx: whatsthis, entry, group (Locale)
-#: rc.cpp:805
+#: rc.cpp:811
 msgid ""
 "Used to determine how to display numbers, currency and time/date, for example"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:430
 #. i18n: ectx: label, entry, group (Locale)
-#: rc.cpp:808
+#: rc.cpp:814
 msgid "What language to use to display text"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:433
 #. i18n: ectx: label, entry, group (Locale)
-#: rc.cpp:811
+#: rc.cpp:817
 msgid "Character used for indicating positive numbers"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:434
 #. i18n: ectx: whatsthis, entry, group (Locale)
-#: rc.cpp:814
+#: rc.cpp:820
 msgid "Most countries have no character for this"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:439
 #. i18n: ectx: label, entry, group (Paths)
-#: rc.cpp:817
+#: rc.cpp:823
 msgid "Path to the autostart directory"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:440
 #. i18n: ectx: whatsthis, entry, group (Paths)
-#: rc.cpp:820
+#: rc.cpp:826
 msgid "Path to the directory containing executables to be run on session login"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:487
 #. i18n: ectx: label, entry, group (Socks)
-#: rc.cpp:823
+#: rc.cpp:829
 msgid "Enable SOCKS support"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:488
 #. i18n: ectx: whatsthis, entry, group (Socks)
-#: rc.cpp:826
+#: rc.cpp:832
 msgid "Whether SOCKS version 4 and 5 should be enabled in KDE's sub systems"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:492
 #. i18n: ectx: label, entry, group (Socks)
-#: rc.cpp:829
+#: rc.cpp:835
 msgid "Path to custom SOCKS library"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:498
 #. i18n: ectx: label, entry, group (Toolbar style)
-#: rc.cpp:832
+#: rc.cpp:838
 msgid "Highlight toolbar buttons on mouse over"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:502
 #. i18n: ectx: label, entry, group (Toolbar style)
-#: rc.cpp:835
+#: rc.cpp:841
 msgid "Show text on toolbar icons "
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:503
 #. i18n: ectx: whatsthis, entry, group (Toolbar style)
-#: rc.cpp:838
+#: rc.cpp:844
 msgid "Whether text should be shown in addition to icons on toolbar icons"
 msgstr ""
 
 #. i18n: file: kutils/kdeglobals.kcfg:524
 #. i18n: ectx: label, entry (EchoMode), group (Passwords)
-#: rc.cpp:841
+#: rc.cpp:847
 #, fuzzy
 msgid "Password echo type"
 msgstr "Maxfiy soʻz boʻsh"
 
 #. i18n: file: kutils/kdeglobals.kcfg:534
 #. i18n: ectx: label, entry (Dialog Size), group (KKeyDialog Settings)
-#: rc.cpp:844
+#: rc.cpp:850
 #, fuzzy
 msgid "The size of the dialog"
 msgstr "Kun maslahati"
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, calc)
-#: rc.cpp:847
+#: rc.cpp:853
 msgid "JS Calculator"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:40
 #. i18n: ectx: property (text), widget (QPushButton, plus)
-#: rc.cpp:850
+#: rc.cpp:856
 #, fuzzy
 #| msgid "+"
 msgctxt "addition"
@@ -1905,51 +1926,51 @@ msgstr "+"
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:47
 #. i18n: ectx: property (text), widget (QPushButton, all_clear)
-#: rc.cpp:853
+#: rc.cpp:859
 msgid "AC"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:54
 #. i18n: ectx: property (text), widget (QPushButton, minus)
-#: rc.cpp:856
+#: rc.cpp:862
 msgctxt "subtraction"
 msgid "-"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:61
 #. i18n: ectx: property (text), widget (QPushButton, equals)
-#: rc.cpp:859
+#: rc.cpp:865
 msgctxt "evaluation"
 msgid "="
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:68
 #. i18n: ectx: property (text), widget (QPushButton, clear)
-#: rc.cpp:862
+#: rc.cpp:868
 msgid "CL"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:96
 #. i18n: ectx: property (text), widget (QPushButton, five)
-#: rc.cpp:874
+#: rc.cpp:880
 msgid "5"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:103
 #. i18n: ectx: property (text), widget (QPushButton, three)
-#: rc.cpp:877
+#: rc.cpp:883
 msgid "3"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:110
 #. i18n: ectx: property (text), widget (QPushButton, seven)
-#: rc.cpp:880
+#: rc.cpp:886
 msgid "7"
 msgstr ""
 
 #. i18n: file: kjsembed/examples/calc/calc.ui:124
 #. i18n: ectx: property (text), widget (QPushButton, eight)
-#: rc.cpp:886
+#: rc.cpp:892
 msgid "8"
 msgstr ""
 
@@ -1957,54 +1978,54 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, jsConsole)
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:13
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, KJSConsole)
-#: rc.cpp:895 rc.cpp:898
+#: rc.cpp:901 rc.cpp:904
 #, fuzzy
 msgid "MainWindow"
 msgstr "Oyna"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:106
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: rc.cpp:901 kparts/browserrun.cpp:312
+#: rc.cpp:907 kparts/browserrun.cpp:312
 msgid "Execute"
 msgstr "Ishga tushirish"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:125
 #. i18n: ectx: property (title), widget (QMenu, menuFile)
-#: rc.cpp:904
+#: rc.cpp:910
 msgid "File"
 msgstr "Fayl"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:164
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:907
+#: rc.cpp:913
 #, fuzzy
 msgid "Open Script"
 msgstr "S&kript"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:167
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:910
+#: rc.cpp:916
 #, fuzzy
 msgid "Open a script..."
 msgstr "...bilan &ochish"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:170
 #. i18n: ectx: property (shortcut), widget (QStatusBar, statusBar)
-#: rc.cpp:913
+#: rc.cpp:919
 #, fuzzy
 msgid "Ctrl+O"
 msgstr "Ctrl"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:175
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:916
+#: rc.cpp:922
 #, fuzzy
 msgid "Close Script"
 msgstr "S&kript"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:178
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:919
+#: rc.cpp:925
 #, fuzzy
 msgid "Close script..."
 msgstr "Xavfsizlik"
@@ -2017,50 +2038,50 @@ msgstr "Xavfsizlik"
 #. i18n: ectx: property (text), widget (QPushButton, pbQuit)
 #. i18n: file: threadweaver/Examples/QProcessJob/MainWindowUi.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonQuit)
-#: rc.cpp:922 rc.cpp:1097 rc.cpp:1115 rc.cpp:1118
+#: rc.cpp:928 rc.cpp:1103 rc.cpp:1121 rc.cpp:1124
 msgid "Quit"
 msgstr "Chiqish"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:186
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:925
+#: rc.cpp:931
 msgid "Quit application..."
 msgstr "Dasturdan chiqish..."
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:194
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:928 kross/ui/view.cpp:301
+#: rc.cpp:934 kross/ui/view.cpp:301
 msgid "Run"
 msgstr "Ishga tushirish"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:197
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:931
+#: rc.cpp:937
 msgid "Run script..."
 msgstr ""
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:205
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:934
+#: rc.cpp:940
 #, fuzzy
 msgid "Run To..."
 msgstr "Oʻ&tish..."
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:208
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:937
+#: rc.cpp:943
 msgid "Run to breakpoint..."
 msgstr ""
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:216
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:940
+#: rc.cpp:946
 msgid "Step"
 msgstr "Qadam"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:219
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:943
+#: rc.cpp:949
 msgid "Step to next line..."
 msgstr ""
 
@@ -2068,7 +2089,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:87
 #. i18n: ectx: property (text), widget (QPushButton, pbStop)
-#: rc.cpp:946 rc.cpp:1094 kdeui/jobs/kstatusbarjobtracker.cpp:160
+#: rc.cpp:952 rc.cpp:1100 kdeui/jobs/kstatusbarjobtracker.cpp:160
 #: kdeui/util/kstandardguiitem.cpp:281 kdeui/util/kkeyserver_x11.cpp:103
 #: kross/ui/view.cpp:308
 msgid "Stop"
@@ -2076,26 +2097,26 @@ msgstr "Toʻxtatish"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:230
 #. i18n: ectx: property (statusTip), widget (QStatusBar, statusBar)
-#: rc.cpp:949
+#: rc.cpp:955
 #, fuzzy
 msgid "Step execution..."
 msgstr "Tanlanganni qoʻyish"
 
 #. i18n: file: kjsembed/examples/docviewer/docviewer.ui:30
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:952
+#: rc.cpp:958
 msgid "<h1>KJSEmbed Documentation Viewer</h1>"
 msgstr ""
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, JobsBase)
-#: rc.cpp:1076
+#: rc.cpp:1082
 msgid "ThreadWeaver Jobs Examples"
 msgstr ""
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:16
 #. i18n: ectx: property (toolTip), widget (QWidget, JobsBase)
-#: rc.cpp:1079
+#: rc.cpp:1085
 msgid ""
 "The program executes 100 jobs in 4 threads. Each job waits for a random "
 "number of milliseconds between 1 and 1000."
@@ -2103,7 +2124,7 @@ msgstr ""
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:36
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbLog)
-#: rc.cpp:1082
+#: rc.cpp:1088
 msgid ""
 "Check to see logging information about thread activity. Watch the console "
 "output to see the log information."
@@ -2111,64 +2132,64 @@ msgstr ""
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:39
 #. i18n: ectx: property (text), widget (QCheckBox, cbLog)
-#: rc.cpp:1085
+#: rc.cpp:1091
 msgid "Log thread activity"
 msgstr ""
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:59
 #. i18n: ectx: property (toolTip), widget (ThreadWeaver::WeaverThreadGrid, threadGrid)
-#: rc.cpp:1088
+#: rc.cpp:1094
 msgid "Displays Thread Activity"
 msgstr ""
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:77
 #. i18n: ectx: property (text), widget (QPushButton, pbStart)
-#: rc.cpp:1091
+#: rc.cpp:1097
 #, fuzzy
 msgid "Start"
 msgstr "&Boshlash"
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:182
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1100
+#: rc.cpp:1106
 msgid "GUI based example for the Weaver Thread Manager"
 msgstr ""
 
 #. i18n: file: threadweaver/Examples/Jobs/JobsBase.ui:205
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:1103
+#: rc.cpp:1109
 msgid "Remaining number of jobs:"
 msgstr ""
 
 #. i18n: file: threadweaver/Examples/SMIV/SMIVBase.ui:29
 #. i18n: ectx: property (text), widget (QPushButton, pbSelectFiles)
-#: rc.cpp:1106
+#: rc.cpp:1112
 #, fuzzy
 msgid "Select Files..."
 msgstr "Komponentlarni tanlash"
 
 #. i18n: file: threadweaver/Examples/SMIV/SMIVBase.ui:39
 #. i18n: ectx: property (text), widget (QPushButton, pbCancel)
-#: rc.cpp:1109
+#: rc.cpp:1115
 msgid "Cancel"
 msgstr "Bekor qilish"
 
 #. i18n: file: threadweaver/Examples/SMIV/SMIVBase.ui:49
 #. i18n: ectx: property (text), widget (QPushButton, pbSuspend)
-#: rc.cpp:1112
+#: rc.cpp:1118
 #, fuzzy
 msgid "Suspend"
 msgstr "Tovush"
 
 #. i18n: file: threadweaver/Examples/QProcessJob/MainWindowUi.ui:43
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonStart)
-#: rc.cpp:1121
+#: rc.cpp:1127
 msgid "What time is it? Click to update."
 msgstr ""
 
 #. i18n: file: threadweaver/Examples/QProcessJob/MainWindowUi.ui:50
 #. i18n: ectx: property (text), widget (QLabel, labelTime)
-#: rc.cpp:1124
+#: rc.cpp:1130
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
 "white-space: pre-wrap; font-family:Sans Serif; font-weight:400; font-style:"
@@ -4159,11 +4180,11 @@ msgctxt "@item Calendar system"
 msgid "Invalid Calendar Type"
 msgstr "xato bayroqlar"
 
-#: kdecore/date/kcalendarsystem.cpp:898 kdecore/localization/klocale.cpp:2225
+#: kdecore/date/kcalendarsystem.cpp:898 kdecore/localization/klocale.cpp:2226
 msgid "Today"
 msgstr "Bugun"
 
-#: kdecore/date/kcalendarsystem.cpp:900 kdecore/localization/klocale.cpp:2228
+#: kdecore/date/kcalendarsystem.cpp:900 kdecore/localization/klocale.cpp:2229
 msgid "Yesterday"
 msgstr "Kecha"
 
@@ -4599,13 +4620,13 @@ msgid "Tkyriakē"
 msgstr ""
 
 #: kdecore/date/kdatetime.cpp:1500 kdecore/date/kdatetime.cpp:1510
-#: kdecore/date/kdatetime.cpp:2872 kdecore/localization/klocale.cpp:2010
-#: kdecore/localization/klocale.cpp:2169
+#: kdecore/date/kdatetime.cpp:2872 kdecore/localization/klocale.cpp:2011
+#: kdecore/localization/klocale.cpp:2170
 msgid "am"
 msgstr "ertalab"
 
-#: kdecore/date/kdatetime.cpp:2880 kdecore/localization/klocale.cpp:2004
-#: kdecore/localization/klocale.cpp:2167
+#: kdecore/date/kdatetime.cpp:2880 kdecore/localization/klocale.cpp:2005
+#: kdecore/localization/klocale.cpp:2168
 msgid "pm"
 msgstr "kechqurun"
 
@@ -6282,7 +6303,7 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "Taycha"
 
-#: kdecore/localization/klocale.cpp:1025
+#: kdecore/localization/klocale.cpp:1026
 #, fuzzy
 #| msgctxt "@item Text character set"
 #| msgid "Arabic"
@@ -6290,12 +6311,12 @@ msgctxt "digit set"
 msgid "Arabic-Indic"
 msgstr "Arabcha"
 
-#: kdecore/localization/klocale.cpp:1028
+#: kdecore/localization/klocale.cpp:1029
 msgctxt "digit set"
 msgid "Eastern Arabic-Indic"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1031
+#: kdecore/localization/klocale.cpp:1032
 #, fuzzy
 #| msgctxt "KCharselect unicode block name"
 #| msgid "Devanagari"
@@ -6303,7 +6324,7 @@ msgctxt "digit set"
 msgid "Devenagari"
 msgstr "Devanagari"
 
-#: kdecore/localization/klocale.cpp:1034
+#: kdecore/localization/klocale.cpp:1035
 #, fuzzy
 #| msgctxt "@item Text character set"
 #| msgid "Arabic"
@@ -6311,215 +6332,215 @@ msgctxt "digit set"
 msgid "Arabic"
 msgstr "Arabcha"
 
-#: kdecore/localization/klocale.cpp:1040
+#: kdecore/localization/klocale.cpp:1041
 #, fuzzy, kde-format
 msgctxt "name of digit set with digit string, e.g. 'Arabic (0123456789)'"
 msgid "%1 (%2)"
 msgstr "%1 ( %2 )"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1453
+#: kdecore/localization/klocale.cpp:1454
 #, fuzzy, kde-format
 msgctxt "size in bytes"
 msgid "%1 B"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1458
+#: kdecore/localization/klocale.cpp:1459
 #, fuzzy, kde-format
 msgctxt "size in 1000 bytes"
 msgid "%1 kB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1460
+#: kdecore/localization/klocale.cpp:1461
 #, fuzzy, kde-format
 msgctxt "size in 10^6 bytes"
 msgid "%1 MB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1462
+#: kdecore/localization/klocale.cpp:1463
 #, fuzzy, kde-format
 msgctxt "size in 10^9 bytes"
 msgid "%1 GB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1464
+#: kdecore/localization/klocale.cpp:1465
 #, fuzzy, kde-format
 msgctxt "size in 10^12 bytes"
 msgid "%1 TB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1466
+#: kdecore/localization/klocale.cpp:1467
 #, fuzzy, kde-format
 msgctxt "size in 10^15 bytes"
 msgid "%1 PB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1468
+#: kdecore/localization/klocale.cpp:1469
 #, fuzzy, kde-format
 msgctxt "size in 10^18 bytes"
 msgid "%1 EB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1470
+#: kdecore/localization/klocale.cpp:1471
 #, fuzzy, kde-format
 msgctxt "size in 10^21 bytes"
 msgid "%1 ZB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1472
+#: kdecore/localization/klocale.cpp:1473
 #, fuzzy, kde-format
 msgctxt "size in 10^24 bytes"
 msgid "%1 YB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1477
+#: kdecore/localization/klocale.cpp:1478
 #, fuzzy, kde-format
 msgctxt "memory size in 1024 bytes"
 msgid "%1 KB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1479
+#: kdecore/localization/klocale.cpp:1480
 #, fuzzy, kde-format
 msgctxt "memory size in 2^20 bytes"
 msgid "%1 MB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1481
+#: kdecore/localization/klocale.cpp:1482
 #, fuzzy, kde-format
 msgctxt "memory size in 2^30 bytes"
 msgid "%1 GB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1483
+#: kdecore/localization/klocale.cpp:1484
 #, fuzzy, kde-format
 msgctxt "memory size in 2^40 bytes"
 msgid "%1 TB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1485
+#: kdecore/localization/klocale.cpp:1486
 #, fuzzy, kde-format
 msgctxt "memory size in 2^40 bytes"
 msgid "%1 PB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1487
+#: kdecore/localization/klocale.cpp:1488
 #, fuzzy, kde-format
 msgctxt "memory size in 2^50 bytes"
 msgid "%1 EB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1489
+#: kdecore/localization/klocale.cpp:1490
 #, fuzzy, kde-format
 msgctxt "memory size in 2^60 bytes"
 msgid "%1 ZB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1491
+#: kdecore/localization/klocale.cpp:1492
 #, fuzzy, kde-format
 msgctxt "memory size in 2^70 bytes"
 msgid "%1 YB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1497
+#: kdecore/localization/klocale.cpp:1498
 #, fuzzy, kde-format
 msgctxt "size in 1024 bytes"
 msgid "%1 KiB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1499
+#: kdecore/localization/klocale.cpp:1500
 #, fuzzy, kde-format
 msgctxt "size in 2^20 bytes"
 msgid "%1 MiB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1501
+#: kdecore/localization/klocale.cpp:1502
 #, fuzzy, kde-format
 msgctxt "size in 2^30 bytes"
 msgid "%1 GiB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1503
+#: kdecore/localization/klocale.cpp:1504
 #, fuzzy, kde-format
 msgctxt "size in 2^40 bytes"
 msgid "%1 TiB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1505
+#: kdecore/localization/klocale.cpp:1506
 #, fuzzy, kde-format
 msgctxt "size in 2^40 bytes"
 msgid "%1 PiB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1507
+#: kdecore/localization/klocale.cpp:1508
 #, fuzzy, kde-format
 msgctxt "size in 2^50 bytes"
 msgid "%1 EiB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1509
+#: kdecore/localization/klocale.cpp:1510
 #, fuzzy, kde-format
 msgctxt "size in 2^60 bytes"
 msgid "%1 ZiB"
 msgstr "%1 %2"
 
 #. i18n: Dumb message, avoid any markup or scripting.
-#: kdecore/localization/klocale.cpp:1511
+#: kdecore/localization/klocale.cpp:1512
 #, fuzzy, kde-format
 msgctxt "size in 2^70 bytes"
 msgid "%1 YiB"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale.cpp:1602
+#: kdecore/localization/klocale.cpp:1603
 #, fuzzy, kde-format
 #| msgid "Today"
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 days"
 msgid "%1 days"
 msgstr "Bugun"
 
-#: kdecore/localization/klocale.cpp:1604
+#: kdecore/localization/klocale.cpp:1605
 #, kde-format
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 hours"
 msgid "%1 hours"
 msgstr ""
 
-#: kdecore/localization/klocale.cpp:1606
+#: kdecore/localization/klocale.cpp:1607
 #, fuzzy, kde-format
 #| msgid "%1 minutes"
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 minutes"
 msgid "%1 minutes"
 msgstr "%1 daqiqa"
 
-#: kdecore/localization/klocale.cpp:1608
+#: kdecore/localization/klocale.cpp:1609
 #, fuzzy, kde-format
 #| msgid "%1 seconds"
 msgctxt "@item:intext %1 is a real number, e.g. 1.23 seconds"
 msgid "%1 seconds"
 msgstr "%1 soniya"
 
-#: kdecore/localization/klocale.cpp:1610
+#: kdecore/localization/klocale.cpp:1611
 #, fuzzy, kde-format
 #| msgid "%1 seconds"
 msgctxt "@item:intext"
@@ -6527,7 +6548,7 @@ msgid "%1 millisecond"
 msgid_plural "%1 milliseconds"
 msgstr[0] "%1 soniya"
 
-#: kdecore/localization/klocale.cpp:1617
+#: kdecore/localization/klocale.cpp:1618
 #, fuzzy, kde-format
 #| msgid "Today"
 msgctxt "@item:intext"
@@ -6535,14 +6556,14 @@ msgid "1 day"
 msgid_plural "%1 days"
 msgstr[0] "Bugun"
 
-#: kdecore/localization/klocale.cpp:1619
+#: kdecore/localization/klocale.cpp:1620
 #, kde-format
 msgctxt "@item:intext"
 msgid "1 hour"
 msgid_plural "%1 hours"
 msgstr[0] ""
 
-#: kdecore/localization/klocale.cpp:1621
+#: kdecore/localization/klocale.cpp:1622
 #, fuzzy, kde-format
 #| msgid "%1 minutes"
 msgctxt "@item:intext"
@@ -6550,7 +6571,7 @@ msgid "1 minute"
 msgid_plural "%1 minutes"
 msgstr[0] "%1 daqiqa"
 
-#: kdecore/localization/klocale.cpp:1623
+#: kdecore/localization/klocale.cpp:1624
 #, fuzzy, kde-format
 #| msgid "%1 seconds"
 msgctxt "@item:intext"
@@ -6558,7 +6579,7 @@ msgid "1 second"
 msgid_plural "%1 seconds"
 msgstr[0] "%1 soniya"
 
-#: kdecore/localization/klocale.cpp:1646
+#: kdecore/localization/klocale.cpp:1647
 #, fuzzy, kde-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
@@ -6569,7 +6590,7 @@ msgctxt ""
 msgid "%1 and %2"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale.cpp:1650
+#: kdecore/localization/klocale.cpp:1651
 #, fuzzy, kde-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
@@ -6580,7 +6601,7 @@ msgctxt ""
 msgid "%1 and %2"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale.cpp:1654
+#: kdecore/localization/klocale.cpp:1655
 #, fuzzy, kde-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
@@ -6591,13 +6612,13 @@ msgctxt ""
 msgid "%1 and %2"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale.cpp:2244
+#: kdecore/localization/klocale.cpp:2245
 #, kde-format
 msgctxt "concatenation of dates and time"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale.cpp:2286
+#: kdecore/localization/klocale.cpp:2287
 #, fuzzy, kde-format
 msgctxt "concatenation of date/time and time zone"
 msgid "%1 %2"
@@ -7405,17 +7426,6 @@ msgstr ""
 msgid "Rate this entry"
 msgstr ""
 
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:66
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:133
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:534
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:66
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:186
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:72
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:216
-#, fuzzy
-msgid "Uninstall"
-msgstr "Oʻrnatish"
-
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:68
 msgid "Comments"
 msgstr "Izohlar"
@@ -7452,12 +7462,6 @@ msgstr ""
 #, fuzzy
 msgid "Report bad entry"
 msgstr "(boʻsh yozuv)"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:138
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:192
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:220
-msgid "Update"
-msgstr "Yangilash"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:158
 msgid "Send Mail"
@@ -7748,7 +7752,7 @@ msgctxt "A link to the description of this Get Hot New Stuff item"
 msgid "Visit homepage..."
 msgstr "Veb-sahifa"
 
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:96
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:107
 #: knewstuff/knewstuff3/ui/itemsmodel.cpp:141
 #, fuzzy
 msgid "Loading preview..."
