@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-08 06:47+0100\n"
+"POT-Creation-Date: 2009-12-10 06:24+0100\n"
 "PO-Revision-Date: 2006-12-17 13:47+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2842,14 +2842,14 @@ msgstr "Koʻrib chiqish"
 
 #. i18n: file: dialogs/DataFormatWidget.ui:66
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_8)
-#: rc.cpp:118 ui/CellToolBase_p.cpp:826
+#: rc.cpp:118 ui/CellToolBase_p.cpp:834
 #, fuzzy
 msgid "Time Format"
 msgstr "Vaqtning koʻrinishi"
 
 #. i18n: file: dialogs/DataFormatWidget.ui:73
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_7)
-#: rc.cpp:121 ui/CellToolBase_p.cpp:831
+#: rc.cpp:121 ui/CellToolBase_p.cpp:839
 #, fuzzy
 msgid "Date Format"
 msgstr "Sananing koʻrinishi"
@@ -15868,7 +15868,7 @@ msgid "Remove Comment"
 msgstr "Izohni olib tashlash"
 
 #: commands/CommentCommand.cpp:66 dialogs/CommentDialog.cpp:82
-#: part/View.cpp:1863
+#: part/View.cpp:1864
 msgid "Add Comment"
 msgstr "Izohni qoʻshish"
 
@@ -15992,7 +15992,7 @@ msgstr "Qatorni sozlash"
 
 #: commands/RowColumnManipulators.cpp:646
 #: commands/RowColumnManipulators.cpp:659 commands/Undo.cpp:285
-#: ui/CellToolBase.cpp:449 ui/CellToolBase_p.cpp:1296
+#: ui/CellToolBase.cpp:449 ui/CellToolBase_p.cpp:1304
 msgid "Insert Columns"
 msgstr "Ustunlar qoʻshish"
 
@@ -16003,7 +16003,7 @@ msgstr "Ustunlarni olib tashlash"
 
 #: commands/RowColumnManipulators.cpp:713
 #: commands/RowColumnManipulators.cpp:726 commands/Undo.cpp:399
-#: ui/CellToolBase.cpp:487 ui/CellToolBase_p.cpp:1308
+#: ui/CellToolBase.cpp:487 ui/CellToolBase_p.cpp:1316
 msgid "Insert Rows"
 msgstr "Satrlarni qoʻyish"
 
@@ -16012,7 +16012,7 @@ msgstr "Satrlarni qoʻyish"
 msgid "Remove Rows"
 msgstr "Satrlarni olib tashlash"
 
-#: commands/SheetCommands.cpp:38 part/View.cpp:2133
+#: commands/SheetCommands.cpp:38 part/View.cpp:2134
 msgid "Rename Sheet"
 msgstr "Varaqning nomini oʻzgartirish"
 
@@ -16045,8 +16045,8 @@ msgstr "Varaqni qoʻshish"
 msgid "Duplicate Sheet"
 msgstr "Varaqni qaytadan hisoblash"
 
-#: commands/SheetCommands.cpp:183 part/View.cpp:311 part/View.cpp:2096
-#: part/View.cpp:2100 part/View.cpp:2419
+#: commands/SheetCommands.cpp:183 part/View.cpp:311 part/View.cpp:2097
+#: part/View.cpp:2101 part/View.cpp:2420
 msgid "Remove Sheet"
 msgstr "Varaqni olib tashlash"
 
@@ -17296,8 +17296,8 @@ msgstr "Yaqinda ochilgan fayl:"
 msgid "No Entries"
 msgstr "Boʻsh"
 
-#: dialogs/LinkDialog.cpp:154 part/View.cpp:380 part/View.cpp:1086
-#: part/View.cpp:1657
+#: dialogs/LinkDialog.cpp:154 part/View.cpp:380 part/View.cpp:1087
+#: part/View.cpp:1658
 msgid "Cell"
 msgstr "Katak"
 
@@ -18220,7 +18220,7 @@ msgstr ""
 msgid "Sheet"
 msgstr "Varaq"
 
-#: part/View.cpp:300 part/View.cpp:2414
+#: part/View.cpp:300 part/View.cpp:2415
 msgid "Insert Sheet"
 msgstr "Varaq qoʻshish"
 
@@ -18234,7 +18234,7 @@ msgstr "Yangi varaq qoʻshish."
 msgid "Duplicate the selected sheet"
 msgstr "Aktiv varaqni bekitish."
 
-#: part/View.cpp:312 part/View.cpp:2415 part/View.cpp:2420
+#: part/View.cpp:312 part/View.cpp:2416 part/View.cpp:2421
 #, fuzzy
 msgid "Remove the active sheet"
 msgstr "Aktiv varaqni olib tashlash."
@@ -18270,7 +18270,7 @@ msgstr ""
 msgid "Specify the layout of the spreadsheet for a printout"
 msgstr ""
 
-#: part/View.cpp:336 part/View.cpp:2053
+#: part/View.cpp:336 part/View.cpp:2054
 msgid "Reset Print Range"
 msgstr ""
 
@@ -18339,7 +18339,7 @@ msgstr "Hujjatdan namuna &yaratish..."
 msgid "Anchor"
 msgstr "Andorra"
 
-#: part/View.cpp:381 part/View.cpp:1086
+#: part/View.cpp:381 part/View.cpp:1087
 #, fuzzy
 #| msgid "page"
 msgid "Page"
@@ -18508,74 +18508,74 @@ msgstr "Hisoblash usuli"
 msgid "Calculate using the countA"
 msgstr "Hisoblash usuli"
 
-#: part/View.cpp:752 part/dialogs/PreferenceDialog.cpp:375
+#: part/View.cpp:753 part/dialogs/PreferenceDialog.cpp:375
 #, fuzzy
 msgid "Tools"
 msgstr "Togo"
 
-#: part/View.cpp:1241 ui/CellToolBase.cpp:1728
+#: part/View.cpp:1242 ui/CellToolBase.cpp:1728
 #, fuzzy
 msgid "Change Text Color"
 msgstr "Matnni oʻzgartirish"
 
-#: part/View.cpp:1251 ui/CellToolBase.cpp:2015
+#: part/View.cpp:1252 ui/CellToolBase.cpp:2015
 #, fuzzy
 msgid "Change Background Color"
 msgstr "Orqa fon rangi"
 
-#: part/View.cpp:1275 part/View.cpp:1285 part/View.cpp:1298 part/View.cpp:1313
-#: part/View.cpp:1323 part/View.cpp:1336 ui/CellToolBase.cpp:1798
+#: part/View.cpp:1276 part/View.cpp:1286 part/View.cpp:1299 part/View.cpp:1314
+#: part/View.cpp:1324 part/View.cpp:1337 ui/CellToolBase.cpp:1798
 #: ui/CellToolBase.cpp:1811 ui/CellToolBase.cpp:1824 ui/CellToolBase.cpp:1834
 #: ui/CellToolBase.cpp:1844 ui/CellToolBase.cpp:1859 ui/CellToolBase.cpp:1874
-#: ui/CellToolBase_p.cpp:841
+#: ui/CellToolBase_p.cpp:849
 #, fuzzy
 msgid "Change Border"
 msgstr "Chegara rangini oʻzgartirish"
 
-#: part/View.cpp:1572 part/View.cpp:1593 part/View.cpp:2127
+#: part/View.cpp:1573 part/View.cpp:1594 part/View.cpp:2128
 #, fuzzy
 msgid "You cannot change a protected sheet."
 msgstr "Yagona varaqni olib tashlab boʻlmaydi."
 
-#: part/View.cpp:1615
+#: part/View.cpp:1616
 #, fuzzy
 msgid "You cannot hide the last visible sheet."
 msgstr "Yagona varaqni olib tashlab boʻlmaydi."
 
-#: part/View.cpp:1669 part/View.cpp:1726
+#: part/View.cpp:1670 part/View.cpp:1727
 msgid "Enter a password."
 msgstr ""
 
-#: part/View.cpp:1670
+#: part/View.cpp:1671
 msgid "Protect Document"
 msgstr "Hujjatni himoyalash"
 
-#: part/View.cpp:1688 part/View.cpp:1745
+#: part/View.cpp:1689 part/View.cpp:1746
 #, fuzzy
 msgid "Enter the password."
 msgstr "Maydon nomini kiriting:"
 
-#: part/View.cpp:1689
+#: part/View.cpp:1690
 msgid "Unprotect Document"
 msgstr "Hujjatni himoyalashni bekor qilish"
 
-#: part/View.cpp:1704 part/View.cpp:1763
+#: part/View.cpp:1705 part/View.cpp:1764
 msgid "Password is incorrect."
 msgstr "Maxfiy soʻz notoʻgʻri."
 
-#: part/View.cpp:1727
+#: part/View.cpp:1728
 msgid "Protect Sheet"
 msgstr "Varaqni himoyalash"
 
-#: part/View.cpp:1746
+#: part/View.cpp:1747
 msgid "Unprotect Sheet"
 msgstr "Varaqni himoyalashni bekor qilish"
 
-#: part/View.cpp:2096
+#: part/View.cpp:2097
 msgid "You cannot delete the only sheet."
 msgstr "Yagona varaqni olib tashlab boʻlmaydi."
 
-#: part/View.cpp:2099
+#: part/View.cpp:2100
 msgid ""
 "You are about to remove the active sheet.\n"
 "Do you want to continue?"
@@ -18583,49 +18583,49 @@ msgstr ""
 "Aktiv varaqni olib tashlamoqchisiz.\n"
 "Davom etishni istaysizmi?"
 
-#: part/View.cpp:2100
+#: part/View.cpp:2101
 #, fuzzy
 msgid "&Delete"
 msgstr "Satrlarni olib tashlash"
 
-#: part/View.cpp:2133 ui/CellToolBase.cpp:1575
+#: part/View.cpp:2134 ui/CellToolBase.cpp:1575
 msgid "Enter name:"
 msgstr "Nomini kiriting:"
 
-#: part/View.cpp:2139
+#: part/View.cpp:2140
 msgid "Sheet name cannot be empty."
 msgstr "Varaqning nomi boʻsh boʻlishi mumkin emas."
 
-#: part/View.cpp:2139 part/View.cpp:2148
+#: part/View.cpp:2140 part/View.cpp:2149
 msgid "Change Sheet Name"
 msgstr "Varaqning nomini oʻzgartirish"
 
-#: part/View.cpp:2148
+#: part/View.cpp:2149
 msgid "This name is already used."
 msgstr "Bu nom allaqachon mavjud."
 
-#: part/View.cpp:2304
+#: part/View.cpp:2305
 msgid "Sum: "
 msgstr "Yigʻindi: "
 
-#: part/View.cpp:2307
+#: part/View.cpp:2308
 msgid "Average: "
 msgstr "Oʻrtacha: "
 
-#: part/View.cpp:2310
+#: part/View.cpp:2311
 msgid "Min: "
 msgstr "Min: "
 
-#: part/View.cpp:2313
+#: part/View.cpp:2314
 msgid "Max: "
 msgstr "Maks: "
 
-#: part/View.cpp:2316
+#: part/View.cpp:2317
 #, fuzzy
 msgid "Count: "
 msgstr "Soni: "
 
-#: part/View.cpp:2319
+#: part/View.cpp:2320
 #, fuzzy
 msgid "CountA: "
 msgstr "CountA: "
@@ -19191,13 +19191,13 @@ msgstr "Satr va ustunni sozlash"
 msgid "Adjusts row/column size so that the contents will fit"
 msgstr ""
 
-#: ui/CellToolBase.cpp:526 ui/CellToolBase.cpp:532 ui/CellToolBase_p.cpp:1288
+#: ui/CellToolBase.cpp:526 ui/CellToolBase.cpp:532 ui/CellToolBase_p.cpp:1296
 #, fuzzy
 #| msgid "Cells:"
 msgid "Cells..."
 msgstr "Kataklar:"
 
-#: ui/CellToolBase.cpp:527 ui/CellToolBase_p.cpp:1284
+#: ui/CellToolBase.cpp:527 ui/CellToolBase_p.cpp:1292
 msgid "Insert Cells..."
 msgstr "Kataklarni qoʻyish"
 
@@ -19683,7 +19683,7 @@ msgstr ""
 msgid "First letter uppercase"
 msgstr "Birinchi harfni bosh harfga &almashtirish"
 
-#: ui/CellToolBase.cpp:2334 ui/CellToolBase_p.cpp:468
+#: ui/CellToolBase.cpp:2334 ui/CellToolBase_p.cpp:476
 #, fuzzy
 msgid "Clear Text"
 msgstr "Matnni oʻzgartirish"
@@ -19708,45 +19708,45 @@ msgstr ""
 msgid "Replace"
 msgstr "Sentyabr"
 
-#: ui/CellToolBase_p.cpp:809
+#: ui/CellToolBase_p.cpp:817
 #, fuzzy
 msgid "Number Format"
 msgstr "Raqam"
 
-#: ui/CellToolBase_p.cpp:815
+#: ui/CellToolBase_p.cpp:823
 #, fuzzy
 msgid "Currency Format"
 msgstr "Pulning koʻrinishi: %1"
 
-#: ui/CellToolBase_p.cpp:821
+#: ui/CellToolBase_p.cpp:829
 #, fuzzy
 msgid "Percentage Format"
 msgstr "Foiz"
 
-#: ui/CellToolBase_p.cpp:836
+#: ui/CellToolBase_p.cpp:844
 #, fuzzy
 msgid "Scientific Format"
 msgstr "Ilmiy"
 
-#: ui/CellToolBase_p.cpp:1292
+#: ui/CellToolBase_p.cpp:1300
 #, fuzzy
 msgid "Adjust Column"
 msgstr "Ustunni sozlash"
 
-#: ui/CellToolBase_p.cpp:1300
+#: ui/CellToolBase_p.cpp:1308
 msgid "Delete Columns"
 msgstr "Ustunlarni olib tashlash"
 
-#: ui/CellToolBase_p.cpp:1304
+#: ui/CellToolBase_p.cpp:1312
 #, fuzzy
 msgid "Adjust Row"
 msgstr "Qatorni sozlash"
 
-#: ui/CellToolBase_p.cpp:1312
+#: ui/CellToolBase_p.cpp:1320
 msgid "Delete Rows"
 msgstr "Satrlarni olib tashlash"
 
-#: ui/CellToolBase_p.cpp:1316
+#: ui/CellToolBase_p.cpp:1324
 msgid "Selection List..."
 msgstr "Tanlanganning roʻyxati"
 
