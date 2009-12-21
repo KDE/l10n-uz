@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-19 05:47+0100\n"
+"POT-Creation-Date: 2009-12-21 06:22+0100\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2623,6 +2623,13 @@ msgstr ""
 msgctxt "The certificate is trusted"
 msgid "Yes"
 msgstr "&Tiklash"
+
+#: kssl/ksslinfodialog.cpp:223
+#, fuzzy, kde-format
+#| msgid "%1 / %2"
+msgctxt "%1 is the effective data of the certificate, %2 is the expiry date"
+msgid "%1 to %2"
+msgstr "%1 / %2"
 
 #: kssl/ksslcertificate.cpp:204
 msgid "Signature Algorithm: "
@@ -6738,9 +6745,6 @@ msgstr ""
 #~ msgctxt "Resume"
 #~ msgid "Res."
 #~ msgstr "Davom etish"
-
-#~ msgid "%1 / %2"
-#~ msgstr "%1 / %2"
 
 #~ msgid "%1/s"
 #~ msgstr "%1/s"
