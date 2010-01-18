@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-17 06:05+0100\n"
+"POT-Creation-Date: 2010-01-18 06:39+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3203,6 +3203,7 @@ msgstr "Kanal"
 #. i18n: file: plugins/paintops/libpaintop/wdgcoloroptions.ui:134
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:856 rc.cpp:1260
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:108
 msgid "Value"
 msgstr "Qiymati"
 
@@ -3397,11 +3398,11 @@ msgid "Proportional"
 msgstr "Uskuna:"
 
 #. i18n: file: plugins/paintops/spray/wdgshapeoptions.ui:217
-#. i18n: ectx: property (text), widget (QCheckBox, jitterShape)
+#. i18n: ectx: property (text), widget (QCheckBox, randomSizeCHBox)
 #. i18n: file: plugins/paintops/experiment/wdgshapeoptions.ui:214
 #. i18n: ectx: property (text), widget (QCheckBox, jitterShape)
 #. i18n: file: plugins/paintops/spray/wdgshapeoptions.ui:217
-#. i18n: ectx: property (text), widget (QCheckBox, jitterShape)
+#. i18n: ectx: property (text), widget (QCheckBox, randomSizeCHBox)
 #. i18n: file: plugins/paintops/experiment/wdgshapeoptions.ui:214
 #. i18n: ectx: property (text), widget (QCheckBox, jitterShape)
 #: rc.cpp:943 rc.cpp:1211
@@ -9573,6 +9574,12 @@ msgstr "%1%"
 msgid "Composite Mode"
 msgstr "Qa&erni rasmga olish:"
 
+#: image/metadata/kis_meta_data_value.cc:424
+#: image/metadata/kis_meta_data_value.cc:463
+#, fuzzy
+msgid "Invalid value."
+msgstr "Rasmning oʻlchami"
+
 #: image/metadata/kis_meta_data_filter_p.cc:53
 msgid "Anonymizer"
 msgstr ""
@@ -11308,6 +11315,7 @@ msgid "Drop size"
 msgstr "Tomchining oʻlchami"
 
 #: plugins/filters/raindropsfilter/kis_raindrops_filter.cpp:403
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:68
 msgid "Number"
 msgstr "Soni"
 
@@ -11386,7 +11394,7 @@ msgstr "Yorugʻlik / kontrast"
 msgid "&Brightness/Contrast curve..."
 msgstr "Yorugʻlik / kontrast"
 
-#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:439
+#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:446
 #, fuzzy
 msgid "&Color Adjustment curves..."
 msgstr "&Ranglarni moslash..."
@@ -11578,7 +11586,7 @@ msgid "&Bumpmap..."
 msgstr ""
 
 #: plugins/formats/exr/exr_converter.cc:259
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:175
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:182
 #, fuzzy
 msgid "HDR Layer"
 msgstr "Qatlam"
@@ -12141,6 +12149,70 @@ msgctxt "rotate the layer 90 degrees to the left"
 msgid "Left 90°"
 msgstr "Chap:"
 
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:141
+#, fuzzy
+#| msgid "Lines"
+msgid "List"
+msgstr "Chiziqlar"
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:59
+#, fuzzy
+msgid "Invalid"
+msgstr "Piksel eni"
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:65
+#, fuzzy
+msgid "Date"
+msgstr "Soat koʻrsatgichi boʻyicha burish"
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:70
+#, fuzzy
+msgid "String"
+msgstr "Namuna"
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:72
+#, fuzzy, kde-format
+#| msgid "&Percent:"
+msgid "Variant (%1)"
+msgstr "&Foiz:"
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:76
+msgid "Ordered array"
+msgstr ""
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:78
+msgid "Unordered array"
+msgstr ""
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:80
+#, fuzzy
+msgid "Alternative array"
+msgstr "Burish"
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:82
+msgid "Language array"
+msgstr ""
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:84
+msgid "Structure"
+msgstr ""
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:86
+#, fuzzy
+#| msgid "Rotating"
+msgid "Rational"
+msgstr "Burish"
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:104
+msgid "Key"
+msgstr ""
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:106
+#, fuzzy
+#| msgid "&Type"
+msgid "Type"
+msgstr "&Turi"
+
 #: plugins/extensions/metadataeditor/metadataeditor.cc:63
 #, fuzzy
 msgid "&Edit metadata..."
@@ -12195,18 +12267,18 @@ msgstr "So&yalar"
 msgid "HDR Layer from bracketing"
 msgstr ""
 
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:172
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:366
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:179
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:373
 msgid "HDR colorspace RGBAF32 not found, please check your installation."
 msgstr ""
 
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:172
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:179
 #, fuzzy
 #| msgid "Layer Error"
 msgid "Layer Creation Error"
 msgstr "Qatlam xatosi."
 
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:366
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:373
 msgid "Compute Camera Response Error"
 msgstr ""
 
