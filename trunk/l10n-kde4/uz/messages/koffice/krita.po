@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-03 06:58+0100\n"
+"POT-Creation-Date: 2010-02-04 06:49+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3518,7 +3518,7 @@ msgstr "Shakl:"
 #. i18n: file: plugins/paintops/gridbrush/wdgshapeoptions.ui:36
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
 #: rc.cpp:956 rc.cpp:1242 rc.cpp:1566
-#: plugins/tools/defaulttools/kis_tool_ellipse.cc:57
+#: plugins/tools/defaulttools/kis_tool_ellipse.cc:66
 msgid "Ellipse"
 msgstr "Ellips"
 
@@ -8874,13 +8874,13 @@ msgstr "Qatlamning xossalari"
 msgid "Import Image"
 msgstr "Rasmni import qilish"
 
-#: ui/kis_doc2.cc:451
+#: ui/kis_doc2.cc:452
 msgid ""
 "The KOffice LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: ui/kis_doc2.cc:452
+#: ui/kis_doc2.cc:453
 #, fuzzy
 #| msgid "Layer Error"
 msgid "Installation Error"
@@ -8964,7 +8964,7 @@ msgstr "Filterni yana qoʻllash"
 msgid "New Transformation Mask"
 msgstr "Boshqa shaklga almashtirish"
 
-#: ui/flake/kis_shape_controller.cpp:295
+#: ui/flake/kis_shape_controller.cpp:303
 #, kde-format
 msgid "Flake shapes %1"
 msgstr ""
@@ -10191,6 +10191,12 @@ msgstr "Oʻrnini almashtirishmoq"
 #| msgid "Angle:"
 msgid "Angle: "
 msgstr "Burchak:"
+
+#: plugins/tools/defaulttools/kis_tool_ellipse.cc:54
+#, fuzzy
+#| msgid "Ellipse Tool"
+msgid "Ellipse tool"
+msgstr "Ellips vositasi"
 
 #: plugins/tools/defaulttools/kis_tool_colorpicker.h:89
 msgid "Select a color from the image or current layer"
@@ -11838,12 +11844,6 @@ msgstr "Geometriya moslamalari"
 
 #: plugins/formats/tiff/kis_dlg_options_tiff.cpp:36
 msgid "TIFF Export Options"
-msgstr ""
-
-#: plugins/formats/openexr/kis_openexr_export.cpp:103
-msgid ""
-"The image is using an unsupported color space. Please convert to 16-bit "
-"floating point RGB/Alpha before saving in the OpenEXR format."
 msgstr ""
 
 #: plugins/generators/solid/colorgenerator.cpp:66
@@ -14309,9 +14309,6 @@ msgstr "Oʻrnini almashtirishmoq"
 
 #~ msgid "&Fill"
 #~ msgstr "Toʻ&ldirish"
-
-#~ msgid "Ellipse Tool"
-#~ msgstr "Ellips vositasi"
 
 #~ msgid "T&ext"
 #~ msgstr "&Matn"
