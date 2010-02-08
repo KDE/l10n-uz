@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-07 07:45+0100\n"
+"POT-Creation-Date: 2010-02-08 07:06+0100\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1687,9 +1687,9 @@ msgstr[0] "Jildga nusxa olish"
 
 #: kmmainwidget.cpp:3275
 #, fuzzy, kde-format
-msgctxt "Copy Message"
-msgid "Copy %1 Messages"
-msgstr "Xabarni ochish"
+msgid "Copy Message"
+msgid_plural "Copy %1 Messages"
+msgstr[0] "Xabarni ochish"
 
 #: kmmainwidget.cpp:3280
 #, fuzzy, kde-format
@@ -5073,7 +5073,7 @@ msgstr ""
 #: rc.cpp:46 rc.cpp:933
 #, fuzzy
 #| msgid "Remove Identity"
-msgid "Define if account use default identity"
+msgid "Define whether the account uses the default identity"
 msgstr "Shaxsiyatni olib tashlash"
 
 #. i18n: file: imapresource.kcfg:55
@@ -5111,8 +5111,10 @@ msgstr ""
 #. i18n: file: imapresource.kcfg:77
 #. i18n: ectx: label, entry (SieveAlternateUrl), group (siever)
 #: rc.cpp:64 rc.cpp:951
-msgid "Define alternate url"
-msgstr ""
+#, fuzzy
+#| msgid "&Alternate URL:"
+msgid "Define alternate URL"
+msgstr "&Qoʻshimcha URL:"
 
 #. i18n: file: imapresource.kcfg:80
 #. i18n: ectx: label, entry (SieveVacationFilename), group (siever)
@@ -9350,20 +9352,20 @@ msgstr "Xatni &serverdan oʻchirish"
 msgid "Edit..."
 msgstr "Tahrirlash"
 
-#: folderrequester.cpp:78
+#: folderrequester.cpp:80
 msgid "Select Folder"
 msgstr "Jildni tanlash"
 
-#: folderrequester.cpp:106
+#: folderrequester.cpp:108
 msgid "Local Folders"
 msgstr "Lokal jildlar"
 
-#: folderrequester.cpp:118
+#: folderrequester.cpp:120
 #, kde-format
 msgid "Unknown folder '%1'"
 msgstr "'%1' noaniq jild"
 
-#: folderrequester.cpp:120
+#: folderrequester.cpp:122
 #, fuzzy
 msgid "Please select a folder"
 msgstr "Iltimos amalni tanlang."
@@ -11524,9 +11526,6 @@ msgstr "Tovush faylini tanlash"
 #~ msgctxt "@action:button"
 #~ msgid "Compact Folder"
 #~ msgstr "Jildga nusxa olish"
-
-#~ msgid "&Alternate URL:"
-#~ msgstr "&Qoʻshimcha URL:"
 
 #, fuzzy
 #~| msgid ""
