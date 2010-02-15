@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-13 06:56+0100\n"
+"POT-Creation-Date: 2010-02-15 06:50+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8875,7 +8875,7 @@ msgstr "Oldin fon rangi"
 msgid "Reset Foreground and Background Color"
 msgstr "Oldin fon rangi"
 
-#: ui/tool/kis_tool.cc:395
+#: ui/tool/kis_tool.cc:404
 #, fuzzy
 msgid "No options"
 msgstr "Alfa moslamalari"
@@ -10213,6 +10213,7 @@ msgstr "Gradient chizish"
 
 #: plugins/tools/defaulttools/kis_tool_measure.cc:51
 #: plugins/tools/tool_curves/kis_tool_moutline.cc:276
+#: plugins/tools/selectiontools/kis_tool_select_magnetic.cc:100
 #, fuzzy
 msgid "Distance: "
 msgstr "Oʻrnini almashtirishmoq"
@@ -10541,6 +10542,11 @@ msgstr ""
 msgid "Outline Selection"
 msgstr "Tanlanganni bekitish"
 
+#: plugins/tools/selectiontools/kis_tool_select_magnetic.cc:95
+#, fuzzy
+msgid "Magnetic Selection"
+msgstr "Tanlanganni bekitish"
+
 #: plugins/tools/selectiontools/kis_tool_select_path.cc:100
 #: plugins/tools/selectiontools/kis_tool_select_path.cc:151
 #, fuzzy
@@ -10587,6 +10593,11 @@ msgstr "Toʻgʻri burchak maydonni tanlash"
 #, fuzzy
 msgid "Select a polygonal region"
 msgstr "Ellips maydonni tanlash"
+
+#: plugins/tools/selectiontools/kis_tool_select_magnetic.h:87
+#, fuzzy
+msgid "Magnetic selection tool"
+msgstr "Tanlanganni bekitish"
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:129
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:146
@@ -14409,10 +14420,6 @@ msgstr "Oʻrnini almashtirishmoq"
 
 #~ msgid "Select Similar"
 #~ msgstr "Oʻxshashni tanlash"
-
-#, fuzzy
-#~ msgid "Magnetic Outline Selection Tool"
-#~ msgstr "Tanlanganni bekitish"
 
 #, fuzzy
 #~ msgid "Eraser Select Tool"
