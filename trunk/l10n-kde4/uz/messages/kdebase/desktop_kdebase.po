@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-17 06:45+0000\n"
+"POT-Creation-Date: 2010-02-19 06:15+0000\n"
 "PO-Revision-Date: 2008-06-02 22:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2333,11 +2333,6 @@ msgctxt "Name"
 msgid "Change Password"
 msgstr "Maxfiy soʻzni oʻzgartirish"
 
-#: apps/kfind/findpart.desktop:5 apps/kfind/kfindpart.desktop:3
-msgctxt "Name"
-msgid "Find Part"
-msgstr ""
-
 #: apps/kfind/kfind.desktop:7
 msgctxt "Name"
 msgid "Find Files/Folders"
@@ -2711,16 +2706,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "Configure the way Konqueror reports itself"
 msgstr ""
-
-#: apps/konqueror/settings/konq/desktoppath.desktop:14
-msgctxt "Name"
-msgid "Paths"
-msgstr "Yoʻllar"
-
-#: apps/konqueror/settings/konq/desktoppath.desktop:104
-msgctxt "Comment"
-msgid "Change the location important files are stored"
-msgstr "Muhim fayllarning joylashgan joyini oʻzgartirish"
 
 #: apps/konqueror/settings/konq/fileappearance.desktop:11
 #: apps/konqueror/settings/konqhtml/khtml_appearance.desktop:13
@@ -3294,7 +3279,7 @@ msgctxt "Name"
 msgid "Open Collaboration Services provider"
 msgstr ""
 
-#: runtime/attica/kcm/kcm_attica.desktop:24
+#: runtime/attica/kcm/kcm_attica.desktop:25
 msgctxt "Comment"
 msgid "Manage Open Collaboration Services providers"
 msgstr ""
@@ -8530,7 +8515,7 @@ msgctxt "Name"
 msgid "Nepomuk Search Module"
 msgstr "Nepomuk xizmati"
 
-#: runtime/nepomuk/kioslaves/search/kdedmodule/nepomuksearchmodule.desktop:46
+#: runtime/nepomuk/kioslaves/search/kdedmodule/nepomuksearchmodule.desktop:47
 msgctxt "Comment"
 msgid ""
 "Helper module for KIO to ensure automatic updates of nepomuksearch listings."
@@ -8601,7 +8586,7 @@ msgctxt "Name"
 msgid "Nepomuk Removable Storage Service"
 msgstr "Nepomuk Strigi xizmati"
 
-#: runtime/nepomuk/services/removablestorage/nepomukremovablestorageservice.desktop:54
+#: runtime/nepomuk/services/removablestorage/nepomukremovablestorageservice.desktop:55
 msgctxt "Comment"
 msgid ""
 "The Nepomuk removable storage service, providing access to Nepomuk metadata "
@@ -8632,37 +8617,37 @@ msgctxt "Name"
 msgid "Failed to start Nepomuk"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:198
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:199
 msgctxt "Comment"
 msgid "The Nepomuk Semantic Desktop system could not be started"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:244
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:246
 msgctxt "Name"
 msgid "Converting Nepomuk data"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:315
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:317
 msgctxt "Comment"
 msgid "All Nepomuk data is converted to a new storage backend"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:387
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:389
 msgctxt "Name"
 msgid "Converting Nepomuk data failed"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:458
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:460
 msgctxt "Comment"
 msgid "Converting Nepomuk data to a new backend failed"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:530
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:532
 msgctxt "Name"
 msgid "Converting Nepomuk data done"
 msgstr ""
 
-#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:601
+#: runtime/nepomuk/services/storage/nepomukstorage.notifyrc:603
 msgctxt "Comment"
 msgid "Successfully converted Nepomuk data to new backend"
 msgstr ""
@@ -9077,6 +9062,16 @@ msgctxt "Description"
 msgid "System policies prevent you from saving the date/time settings."
 msgstr ""
 
+#: workspace/kcontrol/desktoppaths/desktoppath.desktop:14
+msgctxt "Name"
+msgid "Paths"
+msgstr "Yoʻllar"
+
+#: workspace/kcontrol/desktoppaths/desktoppath.desktop:104
+msgctxt "Comment"
+msgid "Change the location important files are stored"
+msgstr "Muhim fayllarning joylashgan joyini oʻzgartirish"
+
 #: workspace/kcontrol/fonts/fonts.desktop:14
 #: workspace/kcontrol/kfontinst/kio/fonts.desktop:5
 msgctxt "Name"
@@ -9407,7 +9402,7 @@ msgid ""
 msgstr ""
 
 #: workspace/kcontrol/workspaceoptions/workspaceoptions.desktop:13
-#: workspace/plasma/desktop/shell/data/plasma-desktop.notifyrc:52
+#: workspace/plasma/desktop/shell/data/plasma-desktop.notifyrc:53
 msgctxt "Name"
 msgid "Workspace"
 msgstr ""
@@ -10422,15 +10417,22 @@ msgctxt "Comment"
 msgid "Configure Input Actions settings"
 msgstr "Maxfiy soʻz moslamalarini moslash"
 
-#: workspace/kinfocenter/info/devices.desktop:14
+#: workspace/kinfocenter/devinfo/kcm_devinfo.desktop:10
+#: workspace/plasma/generic/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Medium Information"
 msgctxt "Name"
-msgid "Devices"
-msgstr "Uskunalar"
+msgid "Device Information"
+msgstr "Saqlash uskuna haqida maʼlumot"
 
-#: workspace/kinfocenter/info/devices.desktop:104
+#: workspace/kinfocenter/devinfo/kcm_devinfo.desktop:29
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Medium Information"
 msgctxt "Comment"
-msgid "Attached devices information"
-msgstr "Ulangan uskunalar haqida maʼlumot"
+msgid "Device Information"
+msgstr "Saqlash uskuna haqida maʼlumot"
 
 #: workspace/kinfocenter/info/dma.desktop:14
 msgctxt "Name"
@@ -10532,17 +10534,6 @@ msgctxt "Comment"
 msgid "Memory information"
 msgstr "Xotira haqida maʼlumot"
 
-#: workspace/kinfocenter/nics/nic.desktop:11
-msgctxt "Name"
-msgid "Network Interfaces"
-msgstr "Tarmoq interfeyslari"
-
-#: workspace/kinfocenter/nics/nic.desktop:100
-#: workspace/plasma/generic/dataengines/network/plasma-dataengine-network.desktop:74
-msgctxt "Comment"
-msgid "Network interface information"
-msgstr "Tarmoq interfeyslari haqida maʼlumot"
-
 #: workspace/kinfocenter/opengl/opengl.desktop:11
 msgctxt "Name"
 msgid "OpenGL"
@@ -10552,16 +10543,6 @@ msgstr "OpenGL"
 msgctxt "Comment"
 msgid "OpenGL information"
 msgstr "OpenGL haqida maʼlumot"
-
-#: workspace/kinfocenter/partition/kcm_partition.desktop:11
-msgctxt "Name"
-msgid "Partitions"
-msgstr "Diskning qismlari"
-
-#: workspace/kinfocenter/partition/kcm_partition.desktop:101
-msgctxt "Comment"
-msgid "Partition information"
-msgstr "Diskning qismlari haqida maʼlumot"
 
 #: workspace/kinfocenter/pci/kcm_pci.desktop:11
 msgctxt "Name"
@@ -10582,16 +10563,6 @@ msgstr "Samba'ning holati"
 msgctxt "Comment"
 msgid "Samba status monitor"
 msgstr "Samba'ning holatini nazorat qiluvchi vosita"
-
-#: workspace/kinfocenter/solidproc/kcmsolidproc.desktop:10
-msgctxt "Name"
-msgid "Processor Information"
-msgstr "Protsessor haqida maʼlumot"
-
-#: workspace/kinfocenter/solidproc/kcmsolidproc.desktop:91
-msgctxt "Comment"
-msgid "Processor Information"
-msgstr "Protsessor haqida maʼlumot"
 
 #: workspace/kinfocenter/usbview/kcmusb.desktop:11
 msgctxt "Name"
@@ -12405,7 +12376,7 @@ msgctxt "Name"
 msgid "Window List"
 msgstr "Oynalar roʻyxati"
 
-#: workspace/plasma/desktop/applets/windowlist/plasma-applet-windowlist.desktop:52
+#: workspace/plasma/desktop/applets/windowlist/plasma-applet-windowlist.desktop:53
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A menu that lists all open windows"
@@ -12421,7 +12392,7 @@ msgctxt "Name|plasma containment"
 msgid "Desktop"
 msgstr "Ish stoli"
 
-#: workspace/plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:63
+#: workspace/plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:64
 msgctxt "Comment"
 msgid "Default desktop containment"
 msgstr ""
@@ -12446,7 +12417,7 @@ msgctxt "Name"
 msgid "Plasma Desktop Shell"
 msgstr "Ish stolining peyjeri"
 
-#: workspace/plasma/desktop/runners/plasma-desktop/plasma-runner-plasma-desktop.desktop:51
+#: workspace/plasma/desktop/runners/plasma-desktop/plasma-runner-plasma-desktop.desktop:52
 msgctxt "Comment"
 msgid "Interact with the Plasma desktop shell"
 msgstr ""
@@ -12464,7 +12435,7 @@ msgctxt "Comment"
 msgid "Plasma Desktop Shell"
 msgstr "Ish stolining peyjeri"
 
-#: workspace/plasma/desktop/shell/data/plasma-desktop.notifyrc:106
+#: workspace/plasma/desktop/shell/data/plasma-desktop.notifyrc:107
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Remote Places"
@@ -12472,7 +12443,7 @@ msgctxt "Name"
 msgid "New widget published"
 msgstr "Masofadagi joylar"
 
-#: workspace/plasma/desktop/shell/data/plasma-desktop.notifyrc:153
+#: workspace/plasma/desktop/shell/data/plasma-desktop.notifyrc:155
 msgctxt "Comment"
 msgid "A new widget has become available on the network."
 msgstr ""
@@ -12602,7 +12573,7 @@ msgctxt "Name"
 msgid "Panel Spacer"
 msgstr "Panellar"
 
-#: workspace/plasma/generic/applets/panelspacer/plasma-applet-panelspacer-internal.desktop:56
+#: workspace/plasma/generic/applets/panelspacer/plasma-applet-panelspacer-internal.desktop:57
 msgctxt "Comment"
 msgid "Reserve empty spaces within the panel."
 msgstr ""
@@ -12626,7 +12597,7 @@ msgctxt "Name"
 msgid "CPU Monitor"
 msgstr "Tizimni nazorat qilish"
 
-#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_cpu.desktop:16
+#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_cpu.desktop:17
 msgctxt "Comment"
 msgid "A CPU usage monitor"
 msgstr ""
@@ -12636,7 +12607,7 @@ msgctxt "Name"
 msgid "Hard Disk Status"
 msgstr ""
 
-#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_hdd.desktop:16
+#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_hdd.desktop:17
 msgctxt "Comment"
 msgid "A hard disk usage monitor"
 msgstr ""
@@ -12649,7 +12620,7 @@ msgctxt "Name"
 msgid "Hardware Info"
 msgstr "Asbob-uskunalar"
 
-#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_hwinfo.desktop:16
+#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_hwinfo.desktop:17
 msgctxt "Comment"
 msgid "Show hardware info"
 msgstr ""
@@ -12662,7 +12633,7 @@ msgctxt "Name"
 msgid "Network Monitor"
 msgstr "Tarmoq vositasi"
 
-#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_net.desktop:19
+#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_net.desktop:20
 #, fuzzy
 msgctxt "Comment"
 msgid "A network usage monitor"
@@ -12676,7 +12647,7 @@ msgctxt "Name"
 msgid "Memory Status"
 msgstr "Samba'ning holati"
 
-#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_ram.desktop:16
+#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_ram.desktop:17
 #, fuzzy
 msgctxt "Comment"
 msgid "A RAM usage monitor"
@@ -12687,7 +12658,7 @@ msgctxt "Name"
 msgid "Hardware Temperature"
 msgstr ""
 
-#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_temperature.desktop:16
+#: workspace/plasma/generic/applets/system-monitor/plasma-applet-sm_temperature.desktop:17
 msgctxt "Comment"
 msgid "A system temperature monitor"
 msgstr ""
@@ -12717,7 +12688,7 @@ msgctxt "Name"
 msgid "KDED Status Notifier watcher"
 msgstr "KDE xabarnoma xizmati"
 
-#: workspace/plasma/generic/applets/systemtray/statusnotifierwatcher/statusnotifierwatcher.desktop:50
+#: workspace/plasma/generic/applets/systemtray/statusnotifierwatcher/statusnotifierwatcher.desktop:51
 msgctxt "Comment"
 msgid ""
 "Keep track of applications that want to use the D-Bus based status notifier "
@@ -12750,7 +12721,7 @@ msgctxt "Name"
 msgid "Standard Menu"
 msgstr ""
 
-#: workspace/plasma/generic/containmentactions/contextmenu/plasma-containmentactions-contextmenu.desktop:52
+#: workspace/plasma/generic/containmentactions/contextmenu/plasma-containmentactions-contextmenu.desktop:53
 msgctxt "Comment"
 msgid "The menu that normally shows on right-click"
 msgstr ""
@@ -12768,7 +12739,7 @@ msgctxt "Name"
 msgid "Paste"
 msgstr "Pose"
 
-#: workspace/plasma/generic/containmentactions/paste/plasma-containmentactions-paste.desktop:57
+#: workspace/plasma/generic/containmentactions/paste/plasma-containmentactions-paste.desktop:58
 msgctxt "Comment"
 msgid "Creates a widget from the contents of the clipboard"
 msgstr ""
@@ -12778,7 +12749,7 @@ msgctxt "Name"
 msgid "Switch Activity"
 msgstr ""
 
-#: workspace/plasma/generic/containmentactions/switchactivity/plasma-containmentactions-switchactivity.desktop:55
+#: workspace/plasma/generic/containmentactions/switchactivity/plasma-containmentactions-switchactivity.desktop:56
 msgctxt "Comment"
 msgid "Switch to another activity"
 msgstr ""
@@ -12791,7 +12762,7 @@ msgctxt "Name"
 msgid "Switch Desktop"
 msgstr "Ish stoli"
 
-#: workspace/plasma/generic/containmentactions/switchdesktop/plasma-containmentactions-switchdesktop.desktop:57
+#: workspace/plasma/generic/containmentactions/switchdesktop/plasma-containmentactions-switchdesktop.desktop:58
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Preview, manage and switch to multiple virtual desktops"
@@ -13020,6 +12991,11 @@ msgctxt "Name"
 msgid "Networking"
 msgstr "Tarmoq"
 
+#: workspace/plasma/generic/dataengines/network/plasma-dataengine-network.desktop:74
+msgctxt "Comment"
+msgid "Network interface information"
+msgstr "Tarmoq interfeyslari haqida maʼlumot"
+
 #: workspace/plasma/generic/dataengines/notifications/plasma-dataengine-notifications.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -13085,14 +13061,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "RSS News Data Engine"
 msgstr "Qidirish vositasi"
-
-#: workspace/plasma/generic/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Medium Information"
-msgctxt "Name"
-msgid "Device Information"
-msgstr "Saqlash uskuna haqida maʼlumot"
 
 #: workspace/plasma/generic/dataengines/soliddevice/plasma-dataengine-soliddevice.desktop:73
 #, fuzzy
@@ -14679,6 +14647,34 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Devices"
+#~ msgstr "Uskunalar"
+
+#~ msgctxt "Comment"
+#~ msgid "Attached devices information"
+#~ msgstr "Ulangan uskunalar haqida maʼlumot"
+
+#~ msgctxt "Name"
+#~ msgid "Network Interfaces"
+#~ msgstr "Tarmoq interfeyslari"
+
+#~ msgctxt "Name"
+#~ msgid "Partitions"
+#~ msgstr "Diskning qismlari"
+
+#~ msgctxt "Comment"
+#~ msgid "Partition information"
+#~ msgstr "Diskning qismlari haqida maʼlumot"
+
+#~ msgctxt "Name"
+#~ msgid "Processor Information"
+#~ msgstr "Protsessor haqida maʼlumot"
+
+#~ msgctxt "Comment"
+#~ msgid "Processor Information"
+#~ msgstr "Protsessor haqida maʼlumot"
 
 #, fuzzy
 #~ msgctxt "Name"
