@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-22 06:58+0100\n"
+"POT-Creation-Date: 2010-02-23 07:04+0100\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -99,7 +99,7 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Ajratilmoqda"
 
-#: kio/job.cpp:2053 kio/paste.cpp:64 kio/copyjob.cpp:1248 kio/copyjob.cpp:1799
+#: kio/job.cpp:2053 kio/paste.cpp:64 kio/copyjob.cpp:1320 kio/copyjob.cpp:1885
 #: kio/global.cpp:664
 msgid "File Already Exists"
 msgstr "Fayl allaqachon mavjud"
@@ -147,7 +147,7 @@ msgstr ""
 msgid "The clipboard is empty"
 msgstr ""
 
-#: kio/paste.cpp:228 kio/renamedialog.cpp:404 kio/kdirlister.cpp:329
+#: kio/paste.cpp:228 kio/renamedialog.cpp:396 kio/kdirlister.cpp:329
 #: kio/krun.cpp:1093
 #, kde-format
 msgid ""
@@ -195,57 +195,56 @@ msgstr "Nomaʼlum"
 msgid "Unknown Error"
 msgstr "Nomaʼlum xato"
 
-#: kio/renamedialog.cpp:102
+#: kio/renamedialog.cpp:103
+msgid "Appl&y to All"
+msgstr ""
+
+#: kio/renamedialog.cpp:104
+msgid ""
+"When this is checked the button pressed will be applied to all subsequent "
+"folder conflicts for the remainder of the current job.\n"
+"Unless you press Skip you will still be prompted in case of a conflict with "
+"an existing file in the directory."
+msgstr ""
+
+#: kio/renamedialog.cpp:105
+msgid ""
+"When this is checked the button pressed will be applied to all subsequent "
+"conflicts for the remainder of the current job."
+msgstr ""
+
+#: kio/renamedialog.cpp:110
 msgid "&Rename"
 msgstr "&Nomini oʻzgartirish"
 
-#: kio/renamedialog.cpp:104
+#: kio/renamedialog.cpp:112
 msgid "Suggest New &Name"
 msgstr "Boshqa nomni &taklif qilish"
 
-#: kio/renamedialog.cpp:110
+#: kio/renamedialog.cpp:118
 msgid "&Skip"
 msgstr "Oʻ&tkazib yuborish"
 
-#: kio/renamedialog.cpp:111
+#: kio/renamedialog.cpp:119
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
 
-#: kio/renamedialog.cpp:112
+#: kio/renamedialog.cpp:120
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
 
-#: kio/renamedialog.cpp:115
-msgid "&Auto Skip"
-msgstr "&Avto-oʻtkazib yuborish"
-
-#: kio/renamedialog.cpp:116
-msgid ""
-"Do not copy or move any folder that already exists in the destination "
-"folder.\n"
-"You will be prompted again in case of a conflict with an existing file "
-"though."
-msgstr ""
-
-#: kio/renamedialog.cpp:117
-msgid ""
-"Do not copy or move any file that already exists in the destination folder.\n"
-"You will be prompted again in case of a conflict with an existing directory "
-"though."
-msgstr ""
-
-#: kio/renamedialog.cpp:122
+#: kio/renamedialog.cpp:125
 #, fuzzy
 #| msgid "Write"
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
 msgstr "Yozish"
 
-#: kio/renamedialog.cpp:122
+#: kio/renamedialog.cpp:125
 msgid "&Overwrite"
 msgstr "&Almashtirish"
 
-#: kio/renamedialog.cpp:124
+#: kio/renamedialog.cpp:127
 msgid ""
 "Files and folders will be copied into the existing directory, alongside its "
 "existing contents.\n"
@@ -253,78 +252,53 @@ msgid ""
 "the directory."
 msgstr ""
 
-#: kio/renamedialog.cpp:128
-#, fuzzy
-#| msgid "O&verwrite All"
-msgctxt "Write files into any existing directory"
-msgid "&Write Into All"
-msgstr "Hammasini a&lmashtirish"
-
-#: kio/renamedialog.cpp:128
-#, fuzzy
-#| msgid "O&verwrite All"
-msgid "&Overwrite All"
-msgstr "Hammasini a&lmashtirish"
-
-#: kio/renamedialog.cpp:130
-msgid ""
-"Files and folders will be copied into any existing directory, alongside its "
-"existing contents.\n"
-"You will be prompted again in case of a conflict with an existing file in a "
-"directory, but not in case of another existing directory."
-msgstr ""
-
-#: kio/renamedialog.cpp:136
+#: kio/renamedialog.cpp:132
 msgid "&Resume"
 msgstr "&Davom etish"
 
 #: kio/renamedialog.cpp:141
-msgid "R&esume All"
-msgstr "&Hammasini davom etish"
-
-#: kio/renamedialog.cpp:151
 #, kde-format
 msgid ""
 "This action would overwrite '%1' with itself.\n"
 "Please enter a new file name:"
 msgstr ""
 
-#: kio/renamedialog.cpp:153
+#: kio/renamedialog.cpp:143
 msgid "C&ontinue"
 msgstr "&Davom etish"
 
-#: kio/renamedialog.cpp:198 kio/renamedialog.cpp:280
+#: kio/renamedialog.cpp:188 kio/renamedialog.cpp:270
 #, kde-format
 msgid "An older item named '%1' already exists."
 msgstr "\"%1\" nomli eski element allaqachon mavjud."
 
-#: kio/renamedialog.cpp:200 kio/renamedialog.cpp:282
+#: kio/renamedialog.cpp:190 kio/renamedialog.cpp:272
 #, kde-format
 msgid "A similar file named '%1' already exists."
 msgstr "\"%1\" nomli oʻxshash fayl allaqachon mavjud."
 
-#: kio/renamedialog.cpp:202 kio/renamedialog.cpp:284
+#: kio/renamedialog.cpp:192 kio/renamedialog.cpp:274
 #, kde-format
 msgid "A newer item named '%1' already exists."
 msgstr "\"%1\" nomli yangi element allaqachon mavjud."
 
-#: kio/renamedialog.cpp:215 kio/renamedialog.cpp:252
+#: kio/renamedialog.cpp:205 kio/renamedialog.cpp:242
 #, fuzzy, kde-format
 #| msgid "%1 (%2)"
 msgid "size %1 (%2)"
 msgstr "%1 (%2)"
 
-#: kio/renamedialog.cpp:224 kio/renamedialog.cpp:260
+#: kio/renamedialog.cpp:214 kio/renamedialog.cpp:250
 #, kde-format
 msgid "created on %1"
 msgstr "%1 da yaratilgan"
 
-#: kio/renamedialog.cpp:231 kio/renamedialog.cpp:267
+#: kio/renamedialog.cpp:221 kio/renamedialog.cpp:257
 #, kde-format
 msgid "modified on %1"
 msgstr "%1 da oʻzgargan"
 
-#: kio/renamedialog.cpp:240
+#: kio/renamedialog.cpp:230
 #, kde-format
 msgid "The source file is '%1'"
 msgstr "Manba faylning nomi \"%1\""
@@ -469,27 +443,27 @@ msgstr ""
 "SSL sertifikati talabga binoan qabul qilinmadi. Buni KDE boshqaruv markazida "
 "oʻchirishingiz mumkin."
 
-#: kio/jobuidelegate.cpp:132 ../kfile/kdiroperator.cpp:816
+#: kio/jobuidelegate.cpp:137 ../kfile/kdiroperator.cpp:808
 #, fuzzy, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "Rostdan bu elementni oʻchirishni istaysizmi?"
 
-#: kio/jobuidelegate.cpp:134 ../kfile/kdiroperator.cpp:818
+#: kio/jobuidelegate.cpp:139 ../kfile/kdiroperator.cpp:810
 msgid "Delete Files"
 msgstr "Fayllarni oʻchirish"
 
-#: kio/jobuidelegate.cpp:144
+#: kio/jobuidelegate.cpp:149
 #, fuzzy, kde-format
 msgid "Do you really want to move this item to the trash?"
 msgid_plural "Do you really want to move these %1 items to the trash?"
 msgstr[0] "Rostdan bu elementni oʻchirishni istaysizmi?"
 
-#: kio/jobuidelegate.cpp:146 ../kfile/kdiroperator.cpp:1871
+#: kio/jobuidelegate.cpp:151 ../kfile/kdiroperator.cpp:1874
 msgid "Move to Trash"
 msgstr "Chiqindilar qutisiga olib tashlash"
 
-#: kio/jobuidelegate.cpp:147
+#: kio/jobuidelegate.cpp:152
 msgctxt "Verb"
 msgid "&Trash"
 msgstr "&Chiqindilar qutisiga"
@@ -506,49 +480,49 @@ msgstr "Oʻtkazib yuborish"
 msgid "AutoSkip"
 msgstr "Avto-oʻtkazib yuborish"
 
-#: kio/copyjob.cpp:954 kio/global.cpp:674
+#: kio/copyjob.cpp:1008 kio/global.cpp:674
 msgid "Folder Already Exists"
 msgstr "Jild allaqachon mavjud"
 
-#: kio/copyjob.cpp:1248 kio/copyjob.cpp:1799
+#: kio/copyjob.cpp:1320 kio/copyjob.cpp:1885
 msgid "Already Exists as Folder"
 msgstr "Jild sifatida allaqachon mavjud"
 
-#: kio/kfileitemactions.cpp:401
+#: kio/kfileitemactions.cpp:402
 #, fuzzy
 #| msgid "Actions"
 msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "Amallar"
 
-#: kio/kfileitemactions.cpp:489
+#: kio/kfileitemactions.cpp:507
 #, fuzzy
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "Dastur bilan ochish"
 
-#: kio/kfileitemactions.cpp:506
+#: kio/kfileitemactions.cpp:524
 #, fuzzy
 #| msgid "Others"
 msgctxt "@action:inmenu Open With"
 msgid "&Other..."
 msgstr "Boshqalar"
 
-#: kio/kfileitemactions.cpp:508 kio/kfileitemactions.cpp:520
+#: kio/kfileitemactions.cpp:526 kio/kfileitemactions.cpp:538
 #, fuzzy
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "Dastur bilan ochish"
 
-#: kio/kfileitemactions.cpp:548
+#: kio/kfileitemactions.cpp:566
 #, fuzzy, kde-format
 #| msgid "Open with:"
 msgid "Open &with %1"
 msgstr "Dastur bilan ochish:"
 
-#: kio/kfileitemactions.cpp:550
+#: kio/kfileitemactions.cpp:568
 #, fuzzy, kde-format
 #| msgid "%1 B"
 msgctxt "@item:inmenu Open With, %1 is application name"
@@ -4584,7 +4558,7 @@ msgstr "Jildni xatchoʻp tahrirchida ochish"
 msgid "Delete Folder"
 msgstr "Jildni oʻchirish"
 
-#: bookmarks/kbookmarkmenu.cc:281 ../kfile/kdiroperator.cpp:1976
+#: bookmarks/kbookmarkmenu.cc:281 ../kfile/kdiroperator.cpp:1983
 msgid "Properties"
 msgstr "Xossalari"
 
@@ -5702,12 +5676,12 @@ msgstr ""
 "Quyidagi manzilda yangi jildni yaratish:\n"
 "%1"
 
-#: ../kfile/kdirselectdialog.cpp:156 ../kfile/kdiroperator.cpp:770
+#: ../kfile/kdirselectdialog.cpp:156 ../kfile/kdiroperator.cpp:762
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr "%1 nomli fayl yoki jild allaqachon mavjud."
 
-#: ../kfile/kdirselectdialog.cpp:160 ../kfile/kdiroperator.cpp:772
+#: ../kfile/kdirselectdialog.cpp:160 ../kfile/kdiroperator.cpp:764
 msgid "You do not have permission to create that folder."
 msgstr "Bu jildni yaratishga sizga ruxsat yoʻq."
 
@@ -5813,15 +5787,15 @@ msgstr ""
 msgid "Show Hidden Folders"
 msgstr "Yashirilgan jildlarni koʻrsatish"
 
-#: ../kfile/kdiroperator.cpp:787
+#: ../kfile/kdiroperator.cpp:779
 msgid "You did not select a file to delete."
 msgstr "Oʻchirish uchun faylni tanlamadingiz."
 
-#: ../kfile/kdiroperator.cpp:788
+#: ../kfile/kdiroperator.cpp:780
 msgid "Nothing to Delete"
 msgstr "Oʻchirish uchun hech narsa yoʻq"
 
-#: ../kfile/kdiroperator.cpp:809
+#: ../kfile/kdiroperator.cpp:801
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete\n"
@@ -5830,19 +5804,19 @@ msgstr ""
 "<qt>Quyidagini rostdan oʻchirishni istaysizmi?\n"
 "<br>\"<b>%1</b>\"</qt>"
 
-#: ../kfile/kdiroperator.cpp:811
+#: ../kfile/kdiroperator.cpp:803
 msgid "Delete File"
 msgstr "Faylni oʻchirish"
 
-#: ../kfile/kdiroperator.cpp:849
+#: ../kfile/kdiroperator.cpp:841
 msgid "You did not select a file to trash."
 msgstr "Chiqindilar qutisiga joʻnatish uchun fayl tanlanmagan."
 
-#: ../kfile/kdiroperator.cpp:850
+#: ../kfile/kdiroperator.cpp:842
 msgid "Nothing to Trash"
 msgstr "Chiqindilar qutisiga joʻnatish uchun hech narsa yoʻq"
 
-#: ../kfile/kdiroperator.cpp:867
+#: ../kfile/kdiroperator.cpp:859
 #, kde-format
 msgid ""
 "<qt>Do you really want to trash\n"
@@ -5851,132 +5825,136 @@ msgstr ""
 "<qt>Quyidagini rostdan chiqindilar qutisiga joʻnatishni istaysizmi?\n"
 "<b>'%1'</b></qt>"
 
-#: ../kfile/kdiroperator.cpp:869
+#: ../kfile/kdiroperator.cpp:861
 msgid "Trash File"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:870 ../kfile/kdiroperator.cpp:877
+#: ../kfile/kdiroperator.cpp:862 ../kfile/kdiroperator.cpp:869
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "&Chiqindilar qutisiga"
 
-#: ../kfile/kdiroperator.cpp:874
+#: ../kfile/kdiroperator.cpp:866
 #, fuzzy, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] "Rostdan bu elementni chiqindilar qutisiga joʻnatishni istaysizmi?"
 
-#: ../kfile/kdiroperator.cpp:876
+#: ../kfile/kdiroperator.cpp:868
 msgid "Trash Files"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1068 ../kfile/kdiroperator.cpp:1194
+#: ../kfile/kdiroperator.cpp:1060 ../kfile/kdiroperator.cpp:1197
 msgid "The specified folder does not exist or was not readable."
 msgstr "Koʻrsatilgan jild mavjud emas yoki uni oʻqib boʻlmaydi."
 
-#: ../kfile/kdiroperator.cpp:1849
+#: ../kfile/kdiroperator.cpp:1852
 msgid "Menu"
 msgstr "Menyu"
 
-#: ../kfile/kdiroperator.cpp:1853
+#: ../kfile/kdiroperator.cpp:1856
 msgid "Parent Folder"
 msgstr "Yuqori jild"
 
-#: ../kfile/kdiroperator.cpp:1860
+#: ../kfile/kdiroperator.cpp:1863
 msgid "Home Folder"
 msgstr "Uy jildi"
 
-#: ../kfile/kdiroperator.cpp:1863
+#: ../kfile/kdiroperator.cpp:1866
 msgid "Reload"
 msgstr "Qaytadan yuklash"
 
-#: ../kfile/kdiroperator.cpp:1866
+#: ../kfile/kdiroperator.cpp:1869
 msgid "New Folder..."
 msgstr "Yangi jild"
 
-#: ../kfile/kdiroperator.cpp:1877
+#: ../kfile/kdiroperator.cpp:1880
 msgid "Delete"
 msgstr "Oʻchirish"
 
-#: ../kfile/kdiroperator.cpp:1884
+#: ../kfile/kdiroperator.cpp:1887
 msgid "Sorting"
 msgstr "Saralash"
 
-#: ../kfile/kdiroperator.cpp:1887
+#: ../kfile/kdiroperator.cpp:1890
 msgid "By Name"
 msgstr "Nomi boʻyicha"
 
-#: ../kfile/kdiroperator.cpp:1891
+#: ../kfile/kdiroperator.cpp:1894
 msgid "By Size"
 msgstr "Hajmi boʻyicha"
 
-#: ../kfile/kdiroperator.cpp:1895
+#: ../kfile/kdiroperator.cpp:1898
 msgid "By Date"
 msgstr "Sana boʻyicha"
 
-#: ../kfile/kdiroperator.cpp:1899
+#: ../kfile/kdiroperator.cpp:1902
 msgid "By Type"
 msgstr "Turi boʻyicha"
 
-#: ../kfile/kdiroperator.cpp:1903
+#: ../kfile/kdiroperator.cpp:1906
 msgid "Descending"
 msgstr "Kamayish boʻyicha"
 
-#: ../kfile/kdiroperator.cpp:1913
+#: ../kfile/kdiroperator.cpp:1910
+msgid "Folders First"
+msgstr "Oldin jildlar"
+
+#: ../kfile/kdiroperator.cpp:1920
 msgid "Icon Position"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1916
+#: ../kfile/kdiroperator.cpp:1923
 msgid "Next to File Name"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1920
+#: ../kfile/kdiroperator.cpp:1927
 #, fuzzy
 #| msgid "Local Filename"
 msgid "Above File Name"
 msgstr "Lokal faylning nomi"
 
-#: ../kfile/kdiroperator.cpp:1931
+#: ../kfile/kdiroperator.cpp:1938
 msgid "Short View"
 msgstr "Qisqa koʻrinish"
 
-#: ../kfile/kdiroperator.cpp:1936
+#: ../kfile/kdiroperator.cpp:1943
 msgid "Detailed View"
 msgstr "Batafsil koʻrinish"
 
-#: ../kfile/kdiroperator.cpp:1941
+#: ../kfile/kdiroperator.cpp:1948
 #, fuzzy
 #| msgid "Detailed View"
 msgid "Tree View"
 msgstr "Batafsil koʻrinish"
 
-#: ../kfile/kdiroperator.cpp:1946
+#: ../kfile/kdiroperator.cpp:1953
 #, fuzzy
 #| msgid "Detailed View"
 msgid "Detailed Tree View"
 msgstr "Batafsil koʻrinish"
 
-#: ../kfile/kdiroperator.cpp:1957
+#: ../kfile/kdiroperator.cpp:1964
 msgid "Show Hidden Files"
 msgstr "Yashirilgan fayllarni koʻrsatish"
 
-#: ../kfile/kdiroperator.cpp:1961
+#: ../kfile/kdiroperator.cpp:1968
 #, fuzzy
 #| msgid "Show Preview"
 msgid "Show Aside Preview"
 msgstr "Koʻrib chiqishni koʻrsatish"
 
-#: ../kfile/kdiroperator.cpp:1967
+#: ../kfile/kdiroperator.cpp:1974
 msgid "Show Preview"
 msgstr "Koʻrib chiqishni koʻrsatish"
 
-#: ../kfile/kdiroperator.cpp:1971
+#: ../kfile/kdiroperator.cpp:1978
 #, fuzzy
 #| msgid "Open file dialog"
 msgid "Open File Manager"
 msgstr "Faylni tanlash oynasini ochish"
 
-#: ../kfile/kdiroperator.cpp:1983
+#: ../kfile/kdiroperator.cpp:1990
 #, fuzzy
 msgid "&View"
 msgstr "&Koʻrib chiqish"
@@ -6080,6 +6058,23 @@ msgid ""
 "Basic links can only point to local files or directories.\n"
 "Please use \"Link to Location\" for remote URLs."
 msgstr ""
+
+#~ msgid "&Auto Skip"
+#~ msgstr "&Avto-oʻtkazib yuborish"
+
+#, fuzzy
+#~| msgid "O&verwrite All"
+#~ msgctxt "Write files into any existing directory"
+#~ msgid "&Write Into All"
+#~ msgstr "Hammasini a&lmashtirish"
+
+#, fuzzy
+#~| msgid "O&verwrite All"
+#~ msgid "&Overwrite All"
+#~ msgstr "Hammasini a&lmashtirish"
+
+#~ msgid "R&esume All"
+#~ msgstr "&Hammasini davom etish"
 
 #~ msgid "Sends a short bug report to submit@bugs.kde.org"
 #~ msgstr "submit@bugs.kde.org'ga xato haqida qisqagina xabar joʻnatadi"
@@ -6458,9 +6453,6 @@ msgstr ""
 
 #~ msgid "Reverse"
 #~ msgstr "Teskari tartibda"
-
-#~ msgid "Folders First"
-#~ msgstr "Oldin jildlar"
 
 #~ msgid "Separate Folders"
 #~ msgstr "Jildlarni ajratish"
