@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-28 14:14+0100\n"
+"POT-Creation-Date: 2010-03-04 22:30+0100\n"
 "PO-Revision-Date: 2006-12-17 13:24+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -85,7 +85,7 @@ msgstr "Manzilgoh"
 msgid "Parcel Address"
 msgstr ""
 
-#: printing/detailledstyle.cpp:135 modelcolumnmanager.cpp:85
+#: printing/detailledstyle.cpp:135 modelcolumnmanager.cpp:93
 msgid "Home Address"
 msgstr "Uy manzilgoh"
 
@@ -1334,24 +1334,36 @@ msgstr ""
 msgid "Search"
 msgstr "Qidirish:"
 
-#: modelcolumnmanager.cpp:89
+#: modelcolumnmanager.cpp:81
+#, fuzzy
+#| msgid "Family names:"
+msgid "Family Name"
+msgstr "Otasini ismi:"
+
+#: modelcolumnmanager.cpp:85
+#, fuzzy
+#| msgid "Given name:"
+msgid "Given Name"
+msgstr "Ismi:"
+
+#: modelcolumnmanager.cpp:97
 #, fuzzy
 #| msgid "Business fields"
 msgid "Business Address"
 msgstr "Ish maydonlari"
 
-#: modelcolumnmanager.cpp:93
+#: modelcolumnmanager.cpp:101
 #, fuzzy
 msgid "Phone Numbers"
 msgstr "Telefon raqamni tahrirlash"
 
-#: modelcolumnmanager.cpp:97
+#: modelcolumnmanager.cpp:105
 #, fuzzy
 #| msgid "Preferred address"
 msgid "Preferred EMail"
 msgstr "Eng afzal manzilgoh"
 
-#: modelcolumnmanager.cpp:101
+#: modelcolumnmanager.cpp:109
 #, fuzzy
 #| msgid "Email"
 msgid "All EMails"
@@ -2352,14 +2364,8 @@ msgstr ""
 #~ msgid "Honorific prefixes:"
 #~ msgstr "Faxriy prefiks:"
 
-#~ msgid "Given name:"
-#~ msgstr "Ismi:"
-
 #~ msgid "Additional names:"
 #~ msgstr "Qoʻshimcha ismlar:"
-
-#~ msgid "Family names:"
-#~ msgstr "Otasini ismi:"
 
 #~ msgid "Honorific suffixes:"
 #~ msgstr "Faxriy sufiks:"
