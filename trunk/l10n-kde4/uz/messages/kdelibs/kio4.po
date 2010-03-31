@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-29 04:25+0200\n"
+"POT-Creation-Date: 2010-03-31 04:27+0200\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -921,8 +921,8 @@ msgstr "Fayl yoki jild mavjud emas"
 msgid "The specified file or folder <strong>%1</strong> does not exist."
 msgstr "Koʻrsatilgan fayl yoki jild <strong>%1</strong> mavjud emas."
 
-#: kio/global.cpp:664 kio/job.cpp:2093 kio/paste.cpp:64 kio/copyjob.cpp:1325
-#: kio/copyjob.cpp:1890
+#: kio/global.cpp:664 kio/job.cpp:2093 kio/paste.cpp:64 kio/copyjob.cpp:1326
+#: kio/copyjob.cpp:1897
 msgid "File Already Exists"
 msgstr "Fayl allaqachon mavjud"
 
@@ -945,7 +945,7 @@ msgstr "Faylni oʻchirib yana urinib koʻring."
 msgid "Choose an alternate filename for the new file."
 msgstr "Yangi faylga boshqa nom berib koʻring."
 
-#: kio/global.cpp:674 kio/copyjob.cpp:1013
+#: kio/global.cpp:674 kio/copyjob.cpp:1014
 msgid "Folder Already Exists"
 msgstr "Jild allaqachon mavjud"
 
@@ -1812,7 +1812,7 @@ msgstr "%1 da oʻzgargan"
 msgid "The source file is '%1'"
 msgstr "Manba faylning nomi \"%1\""
 
-#: kio/renamedialog.cpp:396 kio/paste.cpp:228 kio/krun.cpp:1093
+#: kio/renamedialog.cpp:396 kio/paste.cpp:228 kio/krun.cpp:1095
 #: kio/kdirlister.cpp:329
 #, kde-format
 msgid ""
@@ -2169,27 +2169,38 @@ msgstr ""
 msgid "Data format:"
 msgstr ""
 
-#: kio/jobuidelegate.cpp:137 ../kfile/kdiroperator.cpp:808
+#: kio/jobuidelegate.cpp:149 ../kfile/kdiroperator.cpp:808
 #, fuzzy, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "Rostdan bu elementni oʻchirishni istaysizmi?"
 
-#: kio/jobuidelegate.cpp:139 ../kfile/kdiroperator.cpp:810
+#: kio/jobuidelegate.cpp:151 ../kfile/kdiroperator.cpp:810
 msgid "Delete Files"
 msgstr "Fayllarni oʻchirish"
 
-#: kio/jobuidelegate.cpp:149
+#: kio/jobuidelegate.cpp:159
+#, fuzzy
+msgctxt "@info"
+msgid "Do you really want to empty the trash? All items will be deleted."
+msgstr "Rostdan bu elementni oʻchirishni istaysizmi?"
+
+#: kio/jobuidelegate.cpp:161 ../kfile/kfileplacesview.cpp:624
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "Chiqindilar qutisini boʻshatish"
+
+#: kio/jobuidelegate.cpp:170
 #, fuzzy, kde-format
 msgid "Do you really want to move this item to the trash?"
 msgid_plural "Do you really want to move these %1 items to the trash?"
 msgstr[0] "Rostdan bu elementni oʻchirishni istaysizmi?"
 
-#: kio/jobuidelegate.cpp:151 ../kfile/kdiroperator.cpp:1874
+#: kio/jobuidelegate.cpp:172 ../kfile/kdiroperator.cpp:1874
 msgid "Move to Trash"
 msgstr "Chiqindilar qutisiga olib tashlash"
 
-#: kio/jobuidelegate.cpp:152
+#: kio/jobuidelegate.cpp:173
 msgctxt "Verb"
 msgid "&Trash"
 msgstr "&Chiqindilar qutisiga"
@@ -2353,37 +2364,37 @@ msgstr "Bu faylni bajarishga sizda yetarli huquqlar yoʻq."
 msgid "Launching %1"
 msgstr "%1'ni ishga tushirish"
 
-#: kio/krun.cpp:659
+#: kio/krun.cpp:661
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr ""
 
-#: kio/krun.cpp:853
+#: kio/krun.cpp:855
 msgid "You are not authorized to execute this service."
 msgstr "Bu xizmatni bajarishga sizda yetarli huquqlar yoʻq."
 
-#: kio/krun.cpp:865
+#: kio/krun.cpp:867
 #, fuzzy
 #| msgid "Examining"
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr "Tekshirilmoqda"
 
-#: kio/krun.cpp:879
+#: kio/krun.cpp:881
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr ""
 
-#: kio/krun.cpp:893
+#: kio/krun.cpp:895
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 
-#: kio/krun.cpp:926
+#: kio/krun.cpp:928
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 
-#: kio/krun.cpp:1126
+#: kio/krun.cpp:1128
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -2392,7 +2403,7 @@ msgstr ""
 "<qt>Koʻrsatilgan buyruqni bajarib boʻlmadi. Fayl yoki jild (<b>%1</b>) "
 "mavjud emas.</qt>"
 
-#: kio/krun.cpp:1704
+#: kio/krun.cpp:1706
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "'%1' dasturini topib boʻlmadi."
@@ -2413,7 +2424,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: kio/copyjob.cpp:1325 kio/copyjob.cpp:1890
+#: kio/copyjob.cpp:1326 kio/copyjob.cpp:1897
 msgid "Already Exists as Folder"
 msgstr "Jild sifatida allaqachon mavjud"
 
@@ -6103,11 +6114,6 @@ msgstr "Elementni oʻ&chirish"
 msgctxt "@info"
 msgid "Do you really want to empty the Trash? All items will be deleted."
 msgstr "Rostdan bu elementni oʻchirishni istaysizmi?"
-
-#: ../kfile/kfileplacesview.cpp:624
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "Chiqindilar qutisini boʻshatish"
 
 #: ../kfile/kfileplaceeditdialog.cpp:85
 #, fuzzy
