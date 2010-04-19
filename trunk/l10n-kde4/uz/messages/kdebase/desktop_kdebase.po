@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-18 03:05+0000\n"
+"POT-Creation-Date: 2010-04-19 02:58+0000\n"
 "PO-Revision-Date: 2008-06-02 22:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1541,7 +1541,7 @@ msgctxt "Name"
 msgid "Manage Notifications"
 msgstr "Xabarnomalar"
 
-#: runtime/kcontrol/knotify/kcmnotify.desktop:15
+#: runtime/kcontrol/knotify/kcmnotify.desktop:16
 msgctxt "Comment"
 msgid "System Notification Configuration"
 msgstr "Tizimning xabarnomalarini moslash"
@@ -6292,7 +6292,6 @@ msgid "More Applications"
 msgstr "Boshqa dasturlar"
 
 #: runtime/menu/desktop/kde-multimedia.directory:4
-#: runtime/phonon/kcm/kcm_phonon.desktop:13
 #: workspace/plasma/netbook/containments/sal/services/plasma-sal-multimedia.desktop:2
 msgctxt "Name"
 msgid "Multimedia"
@@ -6311,7 +6310,6 @@ msgstr "Fan va Matematika"
 
 #: runtime/menu/desktop/kde-system.directory:4
 #: workspace/plasma/netbook/containments/sal/services/plasma-sal-system.desktop:2
-#: workspace/systemsettings/categories/settings-system.desktop:8
 msgctxt "Name"
 msgid "System"
 msgstr "Tizim"
@@ -6340,7 +6338,6 @@ msgid "Accessibility"
 msgstr "Qulayliklar"
 
 #: runtime/menu/desktop/kde-utilities-desktop.directory:4
-#: workspace/systemsettings/categories/settings-desktop.desktop:8
 msgctxt "Name"
 msgid "Desktop"
 msgstr "Ish stoli"
@@ -6624,6 +6621,14 @@ msgctxt "Comment"
 msgid "File indexing has been resumed by the search service."
 msgstr ""
 
+#: runtime/phonon/kcm/kcm_phonon.desktop:13
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Phonon Xine"
+msgctxt "Name"
+msgid "Phonon"
+msgstr "Phonon Xine"
+
 #: runtime/phonon/kcm/kcm_phonon.desktop:103
 #, fuzzy
 #| msgctxt "Comment"
@@ -6774,6 +6779,7 @@ msgid "Automatically releases drives when their eject button is pushed"
 msgstr ""
 
 #: runtime/solid-device-automounter/kcm/device_automounter_kcm.desktop:11
+#: workspace/systemsettings/categories/settings-removable-devices.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "USB Devices"
@@ -6947,12 +6953,12 @@ msgctxt "Comment"
 msgid "Color settings"
 msgstr "Ranglarning moslamalari"
 
-#: workspace/kcontrol/dateandtime/clock.desktop:14
+#: workspace/kcontrol/dateandtime/clock.desktop:15
 msgctxt "Name"
 msgid "Date & Time"
 msgstr "Sana va vaqt"
 
-#: workspace/kcontrol/dateandtime/clock.desktop:104
+#: workspace/kcontrol/dateandtime/clock.desktop:105
 msgctxt "Comment"
 msgid "Date and time settings"
 msgstr "Sana va vaqtning moslamalari"
@@ -6999,13 +7005,12 @@ msgctxt "Comment"
 msgid "Font settings"
 msgstr "Shriftlarni moslash"
 
-#: workspace/kcontrol/hardware/display/display.desktop:11
-#: workspace/systemsettings/categories/settings-display.desktop:8
+#: workspace/kcontrol/hardware/display/display.desktop:12
 msgctxt "Name"
 msgid "Display"
 msgstr "Displey"
 
-#: workspace/kcontrol/hardware/display/display.desktop:99
+#: workspace/kcontrol/hardware/display/display.desktop:100
 #: workspace/systemsettings/categories/settings-display.desktop:96
 msgctxt "Comment"
 msgid "Display Settings"
@@ -7085,9 +7090,12 @@ msgid "XPlanet by Hari Nair"
 msgstr "XPlanet (Xari Neyr tomonidan)"
 
 #: workspace/kcontrol/kdm/kdm.desktop:16
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Printer"
 msgctxt "Name"
-msgid "Login Manager"
-msgstr "Kirish boshqaruvchisi"
+msgid "Login Screen"
+msgstr "Printer"
 
 #: workspace/kcontrol/kdm/kdm.desktop:105
 msgctxt "Comment"
@@ -8351,7 +8359,7 @@ msgctxt "Name"
 msgid "Custom Shortcuts"
 msgstr "Veb-qisqartmalari"
 
-#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:95
+#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:15
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure password settings"
@@ -8748,8 +8756,11 @@ msgid "ScreenSaver"
 msgstr "Ekran saqlovchisi"
 
 #: workspace/ksmserver/kcm/kcmsmserver.desktop:13
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Session Manager"
 msgctxt "Name"
-msgid "Session Manager"
+msgid "Session Management"
 msgstr "Seans boshqaruvchisi"
 
 #: workspace/ksmserver/kcm/kcmsmserver.desktop:100
@@ -9781,9 +9792,12 @@ msgid "Configure desktop effects"
 msgstr "Ish stoli effektlarini moslash"
 
 #: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Decorations"
 msgctxt "Name"
-msgid "Windows"
-msgstr "Oynalar"
+msgid "Window Decorations"
+msgstr "Oynaning bezaklari"
 
 #: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:94
 msgctxt "Comment"
@@ -9791,9 +9805,12 @@ msgid "Configure the look and feel of window titles"
 msgstr "Oyna sarlavhasining tashqi koʻrinishini moslash"
 
 #: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Virtual Desktops"
 msgctxt "Name"
-msgid "Multiple Desktops"
-msgstr "Bir nechta ish stollari"
+msgid "Virtual Desktops"
+msgstr "Virtual ish stollari"
 
 #: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:99
 msgctxt "Comment"
@@ -9811,7 +9828,6 @@ msgid "Configure keyboard and mouse settings"
 msgstr "Sichqoncha va tugmatagni moslash"
 
 #: workspace/kwin/kcmkwin/kwinoptions/kwinadvanced.desktop:11
-#: workspace/systemsettings/categories/settings-advanced.desktop:8
 msgctxt "Name"
 msgid "Advanced"
 msgstr "Qoʻshimcha"
@@ -9853,9 +9869,12 @@ msgid "Configure the window behavior"
 msgstr "Oynaning xususiyatlarini moslash"
 
 #: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Close"
 msgctxt "Name"
-msgid "Window-Specific"
-msgstr "Oynaga oid"
+msgid "Window Rules"
+msgstr "Oynani yopish"
 
 #: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:90
 msgctxt "Comment"
@@ -9879,12 +9898,9 @@ msgid "Configure active screen edges"
 msgstr "Veb-kesh moslamalarini moslash"
 
 #: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:13
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Delete Window"
 msgctxt "Name"
-msgid "Navigate Through Windows"
-msgstr "Oynani oʻchirish"
+msgid "Task Switcher"
+msgstr ""
 
 #: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:66
 #, fuzzy
@@ -12131,7 +12147,7 @@ msgctxt "Name"
 msgid "Solid Backend"
 msgstr "Solid"
 
-#: workspace/solid/kcm/kcm_solid.desktop:94
+#: workspace/solid/kcm/kcm_solid.desktop:14
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Hardware Integration Configuration"
@@ -12649,11 +12665,6 @@ msgctxt "Name"
 msgid "System Settings"
 msgstr "Tizim moslamalari"
 
-#: workspace/systemsettings/categories/settings-about-me.desktop:8
-msgctxt "Name"
-msgid "About Me"
-msgstr "Foydalanuvchi haqida"
-
 #: workspace/systemsettings/categories/settings-account-details.desktop:8
 #, fuzzy
 #| msgctxt "Name"
@@ -12661,14 +12672,6 @@ msgstr "Foydalanuvchi haqida"
 msgctxt "Name"
 msgid "Account Details"
 msgstr "Tafsilotlar"
-
-#: workspace/systemsettings/categories/settings-advanced-user-settings.desktop:8
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Screen Saver Settings"
-msgctxt "Name"
-msgid "Advanced User Settings"
-msgstr "Ekran saqlovchisining moslamalari"
 
 #: workspace/systemsettings/categories/settings-application-and-system-notifications.desktop:8
 #, fuzzy
@@ -12694,15 +12697,34 @@ msgctxt "Name"
 msgid "Application Appearance"
 msgstr "Dasturlarni ishga tushiruvchi"
 
+#: workspace/systemsettings/categories/settings-audio-and-video.desktop:9
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Audio and Video IDE"
+msgctxt "Name"
+msgid "Audio and Video"
+msgstr "Audio va video IDE"
+
 #: workspace/systemsettings/categories/settings-bluetooth.desktop:8
 msgctxt "Name"
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: workspace/systemsettings/categories/settings-computer-administration.desktop:9
+#: workspace/systemsettings/categories/settings-desktop-appearance.desktop:9
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Desktop Pager"
 msgctxt "Name"
-msgid "Computer Administration"
-msgstr "Tizimni boshqarish"
+msgid "Desktop Appearance"
+msgstr "Ish stolining peyjeri"
+
+#: workspace/systemsettings/categories/settings-display.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Management"
+msgctxt "Name"
+msgid "Display and Monitor"
+msgstr "Fayl boshqaruvi"
 
 #: workspace/systemsettings/categories/settings-general.desktop:9
 #, fuzzy
@@ -12717,11 +12739,6 @@ msgctxt "Name"
 msgid "Hardware"
 msgstr "Asbob-uskunalar"
 
-#: workspace/systemsettings/categories/settings-keyboard-and-mouse.desktop:8
-msgctxt "Name"
-msgid "Keyboard & Mouse"
-msgstr "Tugmatag va sichqoncha"
-
 #: workspace/systemsettings/categories/settings-locale.desktop:8
 #, fuzzy
 #| msgctxt "GenericName"
@@ -12729,11 +12746,6 @@ msgstr "Tugmatag va sichqoncha"
 msgctxt "Name"
 msgid "Locale"
 msgstr "Mantiqiy oʻyin"
-
-#: workspace/systemsettings/categories/settings-look-and-feel.desktop:9
-msgctxt "Name"
-msgid "Look & Feel"
-msgstr ""
 
 #: workspace/systemsettings/categories/settings-lost-and-found.desktop:9
 #, fuzzy
@@ -12743,20 +12755,42 @@ msgctxt "Name"
 msgid "Lost and Found"
 msgstr "Nomaʼlum"
 
-#: workspace/systemsettings/categories/settings-network-and-connectivity.desktop:9
+#: workspace/systemsettings/categories/settings-main-input-devices.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
 msgctxt "Name"
-msgid "Network & Connectivity"
-msgstr ""
+msgid "Main Input Devices"
+msgstr "Uskunalar"
+
+#: workspace/systemsettings/categories/settings-network-and-connectivity.desktop:8
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Network Tool"
+msgctxt "Name"
+msgid "Network and Connectivity"
+msgstr "Tarmoq vositasi"
 
 #: workspace/systemsettings/categories/settings-network-settings.desktop:8
 msgctxt "Name"
 msgid "Network Settings"
 msgstr "Tarmoqning moslamalari"
 
-#: workspace/systemsettings/categories/settings-personal.desktop:8
+#: workspace/systemsettings/categories/settings-other-input-devices.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
 msgctxt "Name"
-msgid "Personal"
-msgstr "Shaxsiy"
+msgid "Other Input Devices"
+msgstr "Uskunalar"
+
+#: workspace/systemsettings/categories/settings-permissions.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Partitions"
+msgctxt "Name"
+msgid "Permissions"
+msgstr "Diskning qismlari"
 
 #: workspace/systemsettings/categories/settings-personal-information.desktop:8
 #, fuzzy
@@ -12766,10 +12800,13 @@ msgctxt "Name"
 msgid "Personal Information"
 msgstr "Protsessor haqida maʼlumot"
 
-#: workspace/systemsettings/categories/settings-regional-and-language.desktop:8
+#: workspace/systemsettings/categories/settings-security.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Metacity"
 msgctxt "Name"
-msgid "Regional & Language"
-msgstr "Davlat va til"
+msgid "Security"
+msgstr "Metacity"
 
 #: workspace/systemsettings/categories/settings-sharing.desktop:8
 msgctxt "Name"
@@ -12783,6 +12820,24 @@ msgstr "Boʻlishish"
 msgctxt "Name"
 msgid "Shortcuts and Gestures"
 msgstr "Sichqonchaning moslamalari"
+
+#: workspace/systemsettings/categories/settings-startup-and-shutdown.desktop:8
+msgctxt "Name"
+msgid "Startup and Shutdown"
+msgstr ""
+
+#: workspace/systemsettings/categories/settings-system-administration.desktop:9
+msgctxt "Name"
+msgid "System Administration"
+msgstr "Tizimni boshqarish"
+
+#: workspace/systemsettings/categories/settings-workspace-appearance-and-behavior.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Workspace Appearance and Behavior"
+msgstr "Dasturlarni ishga tushiruvchi"
 
 #: workspace/systemsettings/categories/systemsettingscategory.desktop:4
 msgctxt "Name"
@@ -12910,6 +12965,56 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Login Manager"
+#~ msgstr "Kirish boshqaruvchisi"
+
+#~ msgctxt "Name"
+#~ msgid "Windows"
+#~ msgstr "Oynalar"
+
+#~ msgctxt "Name"
+#~ msgid "Multiple Desktops"
+#~ msgstr "Bir nechta ish stollari"
+
+#~ msgctxt "Name"
+#~ msgid "Window-Specific"
+#~ msgstr "Oynaga oid"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Delete Window"
+#~ msgctxt "Name"
+#~ msgid "Navigate Through Windows"
+#~ msgstr "Oynani oʻchirish"
+
+#~ msgctxt "Name"
+#~ msgid "About Me"
+#~ msgstr "Foydalanuvchi haqida"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Screen Saver Settings"
+#~ msgctxt "Name"
+#~ msgid "Advanced User Settings"
+#~ msgstr "Ekran saqlovchisining moslamalari"
+
+#~ msgctxt "Name"
+#~ msgid "Computer Administration"
+#~ msgstr "Tizimni boshqarish"
+
+#~ msgctxt "Name"
+#~ msgid "Keyboard & Mouse"
+#~ msgstr "Tugmatag va sichqoncha"
+
+#~ msgctxt "Name"
+#~ msgid "Personal"
+#~ msgstr "Shaxsiy"
+
+#~ msgctxt "Name"
+#~ msgid "Regional & Language"
+#~ msgstr "Davlat va til"
 
 #~ msgctxt "Name"
 #~ msgid "System Notifications"
@@ -13808,10 +13913,6 @@ msgstr ""
 #~ msgid "Broadcast 2000"
 #~ msgstr "Broadcast 2000"
 
-#~ msgctxt "GenericName"
-#~ msgid "Audio and Video IDE"
-#~ msgstr "Audio va video IDE"
-
 #~ msgctxt "Name"
 #~ msgid "DJPlay"
 #~ msgstr "DJPlay"
@@ -14444,10 +14545,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Attached devices information"
 #~ msgstr "Ulangan uskunalar haqida maʼlumot"
-
-#~ msgctxt "Name"
-#~ msgid "Partitions"
-#~ msgstr "Diskning qismlari"
 
 #~ msgctxt "Comment"
 #~ msgid "Partition information"
@@ -15294,10 +15391,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Sound & Multimedia"
 #~ msgstr "Tovush va multimedia"
-
-#~ msgctxt "Name"
-#~ msgid "System Administration"
-#~ msgstr "Tizimni boshqarish"
 
 #~ msgctxt "Name"
 #~ msgid "Settings-Modules"
