@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-20 05:04+0200\n"
+"POT-Creation-Date: 2010-04-22 00:31+0200\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2570,29 +2570,83 @@ msgstr "Nomaʼlum xato"
 msgid "Changing annotations"
 msgstr "&Xabar berishni moslash"
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:201
-msgid "Create New Tag..."
+#: nepomuk/core/ui/kedittagsdialog.cpp:48
+#, fuzzy
+#| msgid "Change Icon"
+msgctxt "@title:window"
+msgid "Change Tags"
+msgstr "Nishonchani oʻzgartirish"
+
+#: nepomuk/core/ui/kedittagsdialog.cpp:49
+#, fuzzy
+#| msgid "Pages"
+msgctxt "@title:window"
+msgid "Add Tags"
+msgstr "Bet"
+
+#: nepomuk/core/ui/kedittagsdialog.cpp:58
+msgctxt "@label:textbox"
+msgid "Configure which tags should be applied."
 msgstr ""
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:207
-#, fuzzy
-msgid "New Tag"
-msgstr "Yangi oʻyin"
+#: nepomuk/core/ui/kedittagsdialog.cpp:71
+msgctxt "@label"
+msgid "Create new tag:"
+msgstr ""
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:207
+#: nepomuk/core/ui/kedittagsdialog.cpp:93
 #, fuzzy
-msgid "Please insert the name of the new tag:"
-msgstr "Iltimos yangi manbaning turini tanlang:"
+#| msgid "Delete"
+msgctxt "@info"
+msgid "Delete tag"
+msgstr "Oʻchirish"
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:216
+#: nepomuk/core/ui/kedittagsdialog.cpp:205
 #, kde-format
-msgid "The tag %1 already exists"
+msgctxt "@info"
+msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
 msgstr ""
 
-#: nepomuk/core/ui/kmetadatatagwidget.cpp:216
+#: nepomuk/core/ui/kedittagsdialog.cpp:207
 #, fuzzy
-msgid "Tag Exists"
-msgstr "Sinov"
+#| msgid "Delete"
+msgctxt "@title"
+msgid "Delete tag"
+msgstr "Oʻchirish"
+
+#: nepomuk/core/ui/kedittagsdialog.cpp:208
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "Oʻchirish"
+
+#: nepomuk/core/ui/kedittagsdialog.cpp:209
+#, fuzzy
+#| msgid "Cancel"
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#: nepomuk/core/ui/tagwidget.cpp:60
+#, fuzzy
+#| msgid "Show all options"
+msgctxt "@label"
+msgid "Show all tags..."
+msgstr "Hamma parametrlarni koʻrsatish"
+
+#: nepomuk/core/ui/tagwidget.cpp:102
+#, fuzzy
+msgctxt "@label"
+msgid "Add Tags..."
+msgstr "&Qoʻshish..."
+
+#: nepomuk/core/ui/tagwidget.cpp:102
+#, fuzzy
+#| msgid "Change &Icon..."
+msgctxt "@label"
+msgid "Change..."
+msgstr "Nishonchani oʻ&zgartirish"
 
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
@@ -7180,7 +7234,7 @@ msgstr[0] "&Fayllarni joʻnatish"
 msgid "Key Generator"
 msgstr "Umumiy"
 
-#: khtml/html/html_objectimpl.cpp:604
+#: khtml/html/html_objectimpl.cpp:605
 #, kde-format
 msgid ""
 "No plugin found for '%1'.\n"
@@ -7189,15 +7243,15 @@ msgstr ""
 "\"%1\" uchun plagin topilmadi.\n"
 "Uni \"%2\"dan yozib olishni istaysizmi?"
 
-#: khtml/html/html_objectimpl.cpp:605
+#: khtml/html/html_objectimpl.cpp:606
 msgid "Missing Plugin"
 msgstr "Plagin yetishmayapti"
 
-#: khtml/html/html_objectimpl.cpp:605
+#: khtml/html/html_objectimpl.cpp:606
 msgid "Download"
 msgstr "Yozib olish"
 
-#: khtml/html/html_objectimpl.cpp:605
+#: khtml/html/html_objectimpl.cpp:606
 msgid "Do Not Download"
 msgstr "Yozib olinmasin"
 
@@ -10769,7 +10823,7 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "Avto-aniqlash"
 
-#: kdeui/windowmanagement/kwindowsystem_x11.cpp:854
+#: kdeui/windowmanagement/kwindowsystem_x11.cpp:858
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:177
 #: kdeui/windowmanagement/kwindowsystem_win.cpp:587
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:564
@@ -13705,9 +13759,16 @@ msgid "Tip of the &Day"
 msgstr "&Kun maslahati"
 
 #, fuzzy
-#~| msgid "Change &Icon..."
-#~ msgid "Change..."
-#~ msgstr "Nishonchani oʻ&zgartirish"
+#~ msgid "New Tag"
+#~ msgstr "Yangi oʻyin"
+
+#, fuzzy
+#~ msgid "Please insert the name of the new tag:"
+#~ msgstr "Iltimos yangi manbaning turini tanlang:"
+
+#, fuzzy
+#~ msgid "Tag Exists"
+#~ msgstr "Sinov"
 
 #, fuzzy
 #~| msgid "Homepage"
