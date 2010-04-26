@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-24 04:51+0200\n"
+"POT-Creation-Date: 2010-04-26 04:36+0200\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -6308,7 +6308,7 @@ msgid "Submit"
 msgstr "Joʻnatish"
 
 #: khtml/khtmlview.cpp:2968 khtml/khtmlview.cpp:3001
-#: khtml/html/html_formimpl.cpp:1810 kdeui/dialogs/kedittoolbar.cpp:533
+#: khtml/html/html_formimpl.cpp:1810 kdeui/dialogs/kedittoolbar.cpp:601
 msgid "Reset"
 msgstr "Tiklash"
 
@@ -9553,103 +9553,107 @@ msgstr "&Tafsilotlar"
 msgid "Get help..."
 msgstr "Yordam olish"
 
-#: kdeui/dialogs/kedittoolbar.cpp:56
+#: kdeui/dialogs/kedittoolbar.cpp:58
 msgid "--- separator ---"
 msgstr "--- ajratuvchi ---"
 
-#: kdeui/dialogs/kedittoolbar.cpp:484
-msgid "Configure Toolbars"
-msgstr "Asboblar panellarini moslash"
-
-#: kdeui/dialogs/kedittoolbar.cpp:533
-msgid ""
-"Do you really want to reset all toolbars of this application to their "
-"default? The changes will be applied immediately."
-msgstr ""
-
-#: kdeui/dialogs/kedittoolbar.cpp:533
-#, fuzzy
-msgid "Reset Toolbars"
-msgstr "Asboblar panellari"
-
-#: kdeui/dialogs/kedittoolbar.cpp:831
-msgid "&Toolbar:"
-msgstr "&Asboblar paneli:"
-
-#: kdeui/dialogs/kedittoolbar.cpp:846
-msgid "A&vailable actions:"
-msgstr "&Mavjud boʻlgan amallar:"
-
-#: kdeui/dialogs/kedittoolbar.cpp:861 kdeui/dialogs/kedittoolbar.cpp:880
-#, fuzzy
-msgid "Filter"
-msgstr "Filter:"
-
-#: kdeui/dialogs/kedittoolbar.cpp:864
-msgid "Curr&ent actions:"
-msgstr "&Joriy amallar:"
-
-#: kdeui/dialogs/kedittoolbar.cpp:883
-msgid "Change &Icon..."
-msgstr "Nishonchani oʻ&zgartirish"
-
-#: kdeui/dialogs/kedittoolbar.cpp:893
-#, fuzzy
-#| msgid "Change &Icon..."
-msgid "Change Te&xt..."
-msgstr "Nishonchani oʻ&zgartirish"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1044
-#, fuzzy, kde-format
-msgctxt "@item:intable Action name in toolbar editor"
-msgid "%1"
-msgstr "%1%"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1065
-msgid ""
-"This element will be replaced with all the elements of an embedded component."
-msgstr ""
-
-#: kdeui/dialogs/kedittoolbar.cpp:1067
-msgid "<Merge>"
-msgstr "<Birlashtirish>"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1069
-#, kde-format
-msgid "<Merge %1>"
-msgstr "<%1'ni birlashtirish>"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1075
-msgid ""
-"This is a dynamic list of actions. You can move it, but if you remove it you "
-"will not be able to re-add it."
-msgstr ""
-
-#: kdeui/dialogs/kedittoolbar.cpp:1076
-#, kde-format
-msgid "ActionList: %1"
-msgstr "Amallar roʻyxati: %1"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1176 kdeui/dialogs/kedittoolbar.cpp:1206
-#, fuzzy, kde-format
-msgctxt "@label Action tooltip in toolbar editor, below the action list"
-msgid "%1"
-msgstr "%1%"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1461
-msgid "Change Icon"
-msgstr "Nishonchani oʻzgartirish"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1493
+#: kdeui/dialogs/kedittoolbar.cpp:287
 #, fuzzy
 #| msgid "Change Icon"
 msgid "Change Text"
 msgstr "Nishonchani oʻzgartirish"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1493
+#: kdeui/dialogs/kedittoolbar.cpp:299
 #, fuzzy
-msgid "Icon Te&xt:"
+msgid "Icon te&xt:"
 msgstr "Matnni qidirish"
+
+#: kdeui/dialogs/kedittoolbar.cpp:304
+msgid "&Hide text when toolbar shows text alongside icons"
+msgstr ""
+
+#: kdeui/dialogs/kedittoolbar.cpp:552
+msgid "Configure Toolbars"
+msgstr "Asboblar panellarini moslash"
+
+#: kdeui/dialogs/kedittoolbar.cpp:601
+msgid ""
+"Do you really want to reset all toolbars of this application to their "
+"default? The changes will be applied immediately."
+msgstr ""
+
+#: kdeui/dialogs/kedittoolbar.cpp:601
+#, fuzzy
+msgid "Reset Toolbars"
+msgstr "Asboblar panellari"
+
+#: kdeui/dialogs/kedittoolbar.cpp:899
+msgid "&Toolbar:"
+msgstr "&Asboblar paneli:"
+
+#: kdeui/dialogs/kedittoolbar.cpp:914
+msgid "A&vailable actions:"
+msgstr "&Mavjud boʻlgan amallar:"
+
+#: kdeui/dialogs/kedittoolbar.cpp:929 kdeui/dialogs/kedittoolbar.cpp:948
+#, fuzzy
+msgid "Filter"
+msgstr "Filter:"
+
+#: kdeui/dialogs/kedittoolbar.cpp:932
+msgid "Curr&ent actions:"
+msgstr "&Joriy amallar:"
+
+#: kdeui/dialogs/kedittoolbar.cpp:951
+msgid "Change &Icon..."
+msgstr "Nishonchani oʻ&zgartirish"
+
+#: kdeui/dialogs/kedittoolbar.cpp:961
+#, fuzzy
+#| msgid "Change &Icon..."
+msgid "Change Te&xt..."
+msgstr "Nishonchani oʻ&zgartirish"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1112
+#, fuzzy, kde-format
+msgctxt "@item:intable Action name in toolbar editor"
+msgid "%1"
+msgstr "%1%"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1133
+msgid ""
+"This element will be replaced with all the elements of an embedded component."
+msgstr ""
+
+#: kdeui/dialogs/kedittoolbar.cpp:1135
+msgid "<Merge>"
+msgstr "<Birlashtirish>"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1137
+#, kde-format
+msgid "<Merge %1>"
+msgstr "<%1'ni birlashtirish>"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1143
+msgid ""
+"This is a dynamic list of actions. You can move it, but if you remove it you "
+"will not be able to re-add it."
+msgstr ""
+
+#: kdeui/dialogs/kedittoolbar.cpp:1144
+#, kde-format
+msgid "ActionList: %1"
+msgstr "Amallar roʻyxati: %1"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1245 kdeui/dialogs/kedittoolbar.cpp:1275
+#, fuzzy, kde-format
+msgctxt "@label Action tooltip in toolbar editor, below the action list"
+msgid "%1"
+msgstr "%1%"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1530
+msgid "Change Icon"
+msgstr "Nishonchani oʻzgartirish"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:59
 msgid "Default:"
@@ -12759,24 +12763,24 @@ msgid "Minimize"
 msgstr "Yigʻish"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:215
-#: kdeui/notifications/kstatusnotifieritem.cpp:355
-#: kdeui/notifications/kstatusnotifieritem.cpp:781
+#: kdeui/notifications/kstatusnotifieritem.cpp:389
+#: kdeui/notifications/kstatusnotifieritem.cpp:815
 msgid "&Minimize"
 msgstr "Y&igʻish"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:219
-#: kdeui/notifications/kstatusnotifieritem.cpp:779
+#: kdeui/notifications/kstatusnotifieritem.cpp:813
 msgid "&Restore"
 msgstr "Q&ayta tiklash"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:239
-#: kdeui/notifications/kstatusnotifieritem.cpp:789
+#: kdeui/notifications/kstatusnotifieritem.cpp:823
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt><b>%1</b>'dan chiqishga ishonchingiz komilmi?</qt>"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:242
-#: kdeui/notifications/kstatusnotifieritem.cpp:792
+#: kdeui/notifications/kstatusnotifieritem.cpp:826
 msgid "Confirm Quit From System Tray"
 msgstr ""
 
