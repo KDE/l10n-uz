@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-26 04:42+0200\n"
+"POT-Creation-Date: 2010-04-27 05:19+0200\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -9619,17 +9619,24 @@ msgstr ""
 msgid "Add as &Inline Image"
 msgstr ""
 
-#: kmcomposereditor.cpp:172 kmcomposereditor.cpp:221
+#: kmcomposereditor.cpp:172
 #, fuzzy
 #| msgid "Add as Attachment"
 msgid "Add as &Attachment"
 msgstr "Ilova sifatida qoʻshish"
 
-#: kmcomposereditor.cpp:220
+#: kmcomposereditor.cpp:230
 #, fuzzy
-#| msgid "Add as Text"
-msgid "Add as &Text"
-msgstr "Matn sifatida qoʻshish"
+msgid "Add URL into Message &Text"
+msgid_plural "Add URLs into Message &Text"
+msgstr[0] "Xabarlar joʻnatilmoqda"
+
+#: kmcomposereditor.cpp:231
+#, fuzzy
+#| msgid "Add as Attachment"
+msgid "Add File as &Attachment"
+msgid_plural "Add Files as &Attachment"
+msgstr[0] "Ilova sifatida qoʻshish"
 
 #: vacationdialog.cpp:65
 msgid "Configure vacation notifications to be sent:"
@@ -9740,6 +9747,11 @@ msgstr ""
 #, kde-format
 msgid "Folder Shortcut %1"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Add as Text"
+#~ msgid "Add as &Text"
+#~ msgstr "Matn sifatida qoʻshish"
 
 #, fuzzy
 #~ msgid "%1 message processed"
@@ -9917,10 +9929,6 @@ msgstr ""
 #~| msgid "Open in Address Book"
 #~ msgid "Open Address Book"
 #~ msgstr "Manzillar daftarida ochish"
-
-#, fuzzy
-#~ msgid "Quoted Message Text"
-#~ msgstr "Xabarlar joʻnatilmoqda"
 
 #, fuzzy
 #~ msgid "Message Text as Is"
