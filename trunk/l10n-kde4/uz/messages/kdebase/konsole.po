@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-02 04:37+0200\n"
+"POT-Creation-Date: 2010-05-03 04:52+0200\n"
 "PO-Revision-Date: 2008-06-04 01:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -234,7 +234,7 @@ msgstr ""
 msgid "Copy Email Address"
 msgstr "Elektron pochtadan nusxa olish"
 
-#: HistorySizeDialog.cpp:51 SessionController.cpp:527
+#: HistorySizeDialog.cpp:51 SessionController.cpp:501
 #, fuzzy
 msgid "Scrollback Options"
 msgstr "Tab &parametrlari"
@@ -568,41 +568,51 @@ msgstr ""
 msgid "Thanks to many others.\n"
 msgstr "Qolgan boshqalarga ham rahmat.\n"
 
-#: MainWindow.cpp:235
+#. i18n: file: ../desktop/konsoleui.rc:45
+#. i18n: ectx: Menu (new-tab)
+#: MainWindow.cpp:233 rc.cpp:882
 msgid "New &Tab"
 msgstr "&Yangi tab"
 
-#: MainWindow.cpp:241
+#: MainWindow.cpp:238
+#, fuzzy
+#| msgid "Delete Profile"
+msgid "&Default Profile"
+msgstr "Profilni oʻchirish"
+
+#: MainWindow.cpp:244
 msgid "New &Window"
 msgstr "&Yangi oyna"
 
-#: MainWindow.cpp:246
+#: MainWindow.cpp:249
 #, fuzzy
 #| msgid "Wor&d Connectors..."
 msgid "Remote Connection..."
 msgstr "Soʻ&zlarni bogʻlovchilar"
 
-#: MainWindow.cpp:257
+#: MainWindow.cpp:260
 msgid "&Bookmarks"
 msgstr "&Xatchoʻplar"
 
-#: MainWindow.cpp:268
+#: MainWindow.cpp:271
 msgid "Show Menu Bar"
 msgstr "Menyular panelini koʻrsatish"
 
-#: MainWindow.cpp:290 Part.cpp:116
-msgid "Manage Profiles..."
+#: MainWindow.cpp:293 Part.cpp:116
+#, fuzzy
+#| msgid "Manage Profiles..."
+msgid "Configure Profiles..."
 msgstr "Profillarni boshqarish..."
 
-#: MainWindow.cpp:363
+#: MainWindow.cpp:376
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:365 SessionController.cpp:633
+#: MainWindow.cpp:378 SessionController.cpp:608
 msgid "Confirm Close"
 msgstr "Yopishni tasdiqlash"
 
-#: MainWindow.cpp:367
+#: MainWindow.cpp:380
 msgid "Close Current Tab"
 msgstr "Joriy tabni yopish"
 
@@ -1534,19 +1544,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kmashrab@uni-bremen.de"
 
-#. i18n: file: ../desktop/sessionui.rc:14
+#. i18n: file: ../desktop/sessionui.rc:15
 #. i18n: ectx: Menu (edit-copy-input-to)
 #: rc.cpp:849
 msgid "Copy Input To"
 msgstr ""
 
-#. i18n: file: ../desktop/sessionui.rc:47
+#. i18n: file: ../desktop/sessionui.rc:43
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:852
 msgid "Debug"
 msgstr ""
 
-#. i18n: file: ../desktop/sessionui.rc:65
+#. i18n: file: ../desktop/sessionui.rc:62
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/partui.rc:25
 #. i18n: ectx: Menu (change-profile)
@@ -1570,7 +1580,7 @@ msgstr "Varaqlash panelini bekitish"
 msgid "File"
 msgstr "&Fayl"
 
-#. i18n: file: ../desktop/konsoleui.rc:15
+#. i18n: file: ../desktop/konsoleui.rc:14
 #. i18n: ectx: Menu (edit)
 #: rc.cpp:867
 #, fuzzy
@@ -1578,41 +1588,33 @@ msgstr "&Fayl"
 msgid "Edit"
 msgstr "&Tahrirlash"
 
-#. i18n: file: ../desktop/konsoleui.rc:18
-#. i18n: ectx: Menu (history)
-#: rc.cpp:870
-#, fuzzy
-#| msgid "Do not display scrollbar"
-msgid "Scrollback"
-msgstr "Varaqlash panelini bekitish"
-
-#. i18n: file: ../desktop/konsoleui.rc:21
+#. i18n: file: ../desktop/konsoleui.rc:17
 #. i18n: ectx: Menu (view)
-#: rc.cpp:873
+#: rc.cpp:870
 #, fuzzy
 #| msgid "&View"
 msgid "View"
 msgstr "&Koʻrinish"
 
-#. i18n: file: ../desktop/konsoleui.rc:22
+#. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:876
+#: rc.cpp:873
 #, fuzzy
 #| msgid "Split &View"
 msgid "Split View"
 msgstr "Koʻr&inishni boʻlish"
 
-#. i18n: file: ../desktop/konsoleui.rc:40
+#. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:879
+#: rc.cpp:876
 #, fuzzy
 #| msgid "&Settings"
 msgid "Settings"
 msgstr "&Moslamalar"
 
-#. i18n: file: ../desktop/konsoleui.rc:47
+#. i18n: file: ../desktop/konsoleui.rc:42
 #. i18n: ectx: Menu (help)
-#: rc.cpp:882
+#: rc.cpp:879
 #, fuzzy
 #| msgid "&Help"
 msgid "Help"
@@ -1686,129 +1688,109 @@ msgstr "Tabni &yopish"
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:408
-msgid "&Copy"
-msgstr "&Nusxa olish"
-
-#: SessionController.cpp:412
-msgid "&Paste"
-msgstr "&Qoʻyish"
-
-#: SessionController.cpp:425
+#: SessionController.cpp:416
 msgid "Paste Selection"
 msgstr "Belgilanganni qoʻyish"
 
-#: SessionController.cpp:431
+#: SessionController.cpp:422
 msgid "&Rename Tab..."
 msgstr "Tabning &nomini oʻzgartirish..."
 
-#: SessionController.cpp:438
+#: SessionController.cpp:429
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:445
+#: SessionController.cpp:436
 #, fuzzy
 #| msgid "Select &Tab Color..."
 msgid "&Select Tabs..."
 msgstr "Tabning &rangini tanlash"
 
-#: SessionController.cpp:452
+#: SessionController.cpp:443
 #, fuzzy
 #| msgid "N&one"
 msgid "&None"
 msgstr "&Yoʻq"
 
-#: SessionController.cpp:459
+#: SessionController.cpp:450
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear and Reset"
 msgstr "Tarixni &boʻshatish"
 
-#: SessionController.cpp:464
+#: SessionController.cpp:455
 msgid "&ZModem Upload..."
 msgstr "ZModem yo&zib qoʻyish"
 
-#: SessionController.cpp:470
+#: SessionController.cpp:461
 msgid "Monitor for &Activity"
 msgstr ""
 
-#: SessionController.cpp:475
+#: SessionController.cpp:466
 msgid "Monitor for &Silence"
 msgstr ""
 
-#: SessionController.cpp:481
+#: SessionController.cpp:472
 msgid "Character Encoding"
 msgstr "Kodlash usuli"
 
-#: SessionController.cpp:488
-msgid "Increase Text Size"
+#: SessionController.cpp:479
+msgid "Enlarge Font"
 msgstr "Shriftni kattalashtirish"
 
-#: SessionController.cpp:494
-msgid "Decrease Text Size"
-msgstr "Shriftni kattalashtirish"
-
-#: SessionController.cpp:500
+#: SessionController.cpp:482
 #, fuzzy
-#| msgid "Clear &History"
-msgid "Search Output..."
-msgstr "Tarixni &boʻshatish"
+#| msgid "&Shrink Font"
+msgid "Shrink Font"
+msgstr "Shriftni &kichiklashtirish"
 
-#: SessionController.cpp:509
-msgid "Find Next"
-msgstr "Keyingini qidirish"
-
-#: SessionController.cpp:516
-msgid "Find Previous"
-msgstr "Oldingini qidirish"
-
-#: SessionController.cpp:522
+#: SessionController.cpp:498
 #, fuzzy
-msgid "Save Output..."
+msgid "Save Output As..."
 msgstr "Tarixni saqlash"
 
-#: SessionController.cpp:532
+#: SessionController.cpp:506
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear Scrollback and Reset"
 msgstr "Tarixni &boʻshatish"
 
-#: SessionController.cpp:538
+#: SessionController.cpp:513
 msgid "Edit Current Profile..."
 msgstr "Joriy profilni tahrirlash..."
 
-#: SessionController.cpp:542
+#: SessionController.cpp:517
 msgid "Change Profile"
 msgstr "Profilni oʻzgartirish"
 
-#: SessionController.cpp:583
+#: SessionController.cpp:558
 msgid "Rename Tab"
 msgstr "Tabning nomini oʻzgartirish"
 
-#: SessionController.cpp:584
+#: SessionController.cpp:559
 msgid "Enter new tab text:"
 msgstr ""
 
-#: SessionController.cpp:627
+#: SessionController.cpp:602
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr ""
 
-#: SessionController.cpp:630
+#: SessionController.cpp:605
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr ""
 
-#: SessionController.cpp:1188
+#: SessionController.cpp:1163
 #, fuzzy
 #| msgid "&ZModem Upload..."
 msgid "Save ZModem Download to..."
 msgstr "ZModem yo&zib qoʻyish"
 
-#: SessionController.cpp:1197
+#: SessionController.cpp:1172
 #, fuzzy
 #| msgid ""
 #| "<p>A ZModem file transfer attempt has been detected, but no suitable "
@@ -1823,7 +1805,7 @@ msgstr ""
 "topilmadi.\n"
 "<p>\"rzsz\" yoki \"lrzsz\" dasturini oʻrnatishingiz kerak.\n"
 
-#: SessionController.cpp:1209
+#: SessionController.cpp:1184
 #, fuzzy
 #| msgid ""
 #| "<p>The current session already has a ZModem file transfer in progress."
@@ -1831,7 +1813,7 @@ msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>Joriy seansda ZModem fayl uzatishi allaqachon davom etayapti."
 
-#: SessionController.cpp:1218
+#: SessionController.cpp:1193
 #, fuzzy
 #| msgid ""
 #| "<p>No suitable ZModem software was found on the system.\n"
@@ -1843,23 +1825,23 @@ msgstr ""
 "<p>Tizimda kerak boʻlgan ZModem dasturi topilmadi.\n"
 "<p>\"rzsz\" yoki \"lrzsz\" dasturini oʻrnatishingiz kerak.\n"
 
-#: SessionController.cpp:1224
+#: SessionController.cpp:1199
 #, fuzzy
 #| msgid "Select Files to Upload"
 msgid "Select Files for ZModem Upload"
 msgstr "Yozib qoʻyish uchun fayllarni tanlang"
 
-#: SessionController.cpp:1296
+#: SessionController.cpp:1271
 #, fuzzy, kde-format
 msgid "Save Output From %1"
 msgstr "Tarixni saqlash"
 
-#: SessionController.cpp:1307
+#: SessionController.cpp:1282
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1396
+#: SessionController.cpp:1371
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2093,6 +2075,34 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "&Toʻxtatish"
+
+#, fuzzy
+#~| msgid "Do not display scrollbar"
+#~ msgid "Scrollback"
+#~ msgstr "Varaqlash panelini bekitish"
+
+#~ msgid "&Copy"
+#~ msgstr "&Nusxa olish"
+
+#~ msgid "&Paste"
+#~ msgstr "&Qoʻyish"
+
+#~ msgid "Increase Text Size"
+#~ msgstr "Shriftni kattalashtirish"
+
+#~ msgid "Decrease Text Size"
+#~ msgstr "Shriftni kattalashtirish"
+
+#, fuzzy
+#~| msgid "Clear &History"
+#~ msgid "Search Output..."
+#~ msgstr "Tarixni &boʻshatish"
+
+#~ msgid "Find Next"
+#~ msgstr "Keyingini qidirish"
+
+#~ msgid "Find Previous"
+#~ msgstr "Oldingini qidirish"
 
 #~ msgid "Open Browser Here"
 #~ msgstr "Brauzerni shu yerda ochish"
@@ -2410,9 +2420,6 @@ msgstr "&Toʻxtatish"
 #~ msgid "&Enlarge Font"
 #~ msgstr "&Shriftni kattalashtirish"
 
-#~ msgid "&Shrink Font"
-#~ msgstr "Shriftni &kichiklashtirish"
-
 #, fuzzy
 #~ msgid "Default"
 #~ msgstr "Terminal andozasi"
@@ -2495,9 +2502,6 @@ msgstr "&Toʻxtatish"
 
 #~ msgid "Switch to Session %1"
 #~ msgstr "%1 seansga oʻtish"
-
-#~ msgid "Enlarge Font"
-#~ msgstr "Shriftni kattalashtirish"
 
 #, fuzzy
 #~ msgid "Close sessions"
