@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-10 02:53+0000\n"
+"POT-Creation-Date: 2010-05-11 04:13+0000\n"
 "PO-Revision-Date: 2008-06-02 22:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2060,6 +2060,29 @@ msgctxt "GenericName"
 msgid "Network Folder Wizard"
 msgstr "Tarmoq jildi boʻyicha yordamchi"
 
+#: runtime/knotify/hardwarenotifications.notifyrc:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Notifications"
+msgctxt "Name"
+msgid "Hardware notifications"
+msgstr "Xabarnomalar"
+
+#: runtime/knotify/hardwarenotifications.notifyrc:4
+msgctxt "Comment"
+msgid "Notifications triggered by solid"
+msgstr ""
+
+#: runtime/knotify/hardwarenotifications.notifyrc:8
+msgctxt "Name"
+msgid "Mount or unmount error"
+msgstr ""
+
+#: runtime/knotify/hardwarenotifications.notifyrc:9
+msgctxt "Comment"
+msgid "There has been a problem mounting or unmounting a device"
+msgstr ""
+
 #: runtime/knotify/kde.notifyrc:3
 #, fuzzy
 #| msgctxt "Name"
@@ -2130,6 +2153,7 @@ msgid "Something special happened in the program"
 msgstr ""
 
 #: runtime/knotify/kde.notifyrc:986
+#: workspace/freespacenotifier/freespacenotifier.notifyrc:22
 #: workspace/powerdevil/powerdevil.notifyrc:101
 msgctxt "Name"
 msgid "Warning"
@@ -7172,6 +7196,46 @@ msgctxt "Comment"
 msgid "Provides a user interface for hardware events"
 msgstr ""
 
+#: workspace/freespacenotifier/freespacenotifier.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "New MO Device"
+msgctxt "Name"
+msgid "Free Space Notifier"
+msgstr "Yangi MO uskunasi"
+
+#: workspace/freespacenotifier/freespacenotifier.desktop:10
+msgctxt "Comment"
+msgid "Warns when running out of space on your home folder"
+msgstr ""
+
+#: workspace/freespacenotifier/freespacenotifier.notifyrc:3
+#, fuzzy
+msgctxt "Comment"
+msgid "KDE Free Space Notifier Daemon"
+msgstr "Saqlash uskunalar uchun demon"
+
+#: workspace/freespacenotifier/freespacenotifier.notifyrc:11
+msgctxt "Name"
+msgid "Low Disk Space"
+msgstr ""
+
+#: workspace/freespacenotifier/freespacenotifier.notifyrc:33
+#: workspace/powerdevil/powerdevil.notifyrc:184
+msgctxt "Comment"
+msgid "Used for warning notifications"
+msgstr ""
+
+#: workspace/freespacenotifier/freespacenotifier.notifyrc:46
+msgctxt "Name"
+msgid "Running low on disk space"
+msgstr ""
+
+#: workspace/freespacenotifier/freespacenotifier.notifyrc:54
+msgctxt "Comment"
+msgid "You are running low on disk space"
+msgstr ""
+
 #: workspace/kcontrol/access/kaccess.desktop:3
 msgctxt "Name"
 msgid "KDE Accessibility Tool"
@@ -7459,17 +7523,33 @@ msgctxt "Comment"
 msgid "Configure the login manager (KDM)"
 msgstr "Tizimga kirish boshqaruvchisini (KDM) moslash"
 
-#: workspace/kcontrol/keyboard/kcm_keyboard.desktop:16
-#: workspace/kcontrol/keyboard/keyboard.desktop:18
+#: workspace/kcontrol/keyboard/kcm_keyboard.desktop:18
 msgctxt "Name"
 msgid "Keyboard"
 msgstr "Tugmatag"
 
-#: workspace/kcontrol/keyboard/kcm_keyboard.desktop:105
-#: workspace/kcontrol/keyboard/keyboard.desktop:107
+#: workspace/kcontrol/keyboard/kcm_keyboard.desktop:30
 msgctxt "Comment"
 msgid "Keyboard settings"
 msgstr "Tugmatagning moslamalari"
+
+#: workspace/kcontrol/keyboard/keyboard.desktop:12
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Keyboard Layout"
+msgctxt "Name"
+msgid "Keyboard Daemon"
+msgstr "Tugmalar tartibi"
+
+#: workspace/kcontrol/keyboard/plasma_applet_keyboard.desktop:2
+msgctxt "Name"
+msgid "Keyboard Layout"
+msgstr "Tugmalar tartibi"
+
+#: workspace/kcontrol/keyboard/plasma_applet_keyboard.desktop:10
+msgctxt "Comment"
+msgid "Applet to display and switch layouts"
+msgstr ""
 
 #: workspace/kcontrol/keys/keys.desktop:15
 #, fuzzy
@@ -7579,22 +7659,6 @@ msgstr "Mavzu boshqaruvchisi"
 msgctxt "Comment"
 msgid "Manage global KDE visual themes"
 msgstr ""
-
-#: workspace/kcontrol/kxkb/keyboard_layout.desktop:17
-msgctxt "Name"
-msgid "Keyboard Layout"
-msgstr "Tugmalar tartibi"
-
-#: workspace/kcontrol/kxkb/keyboard_layout.desktop:106
-msgctxt "Comment"
-msgid "Keyboard Layout"
-msgstr "Tugmalar tartibi"
-
-#: workspace/kcontrol/kxkb/kxkb.desktop:11
-#: workspace/kcontrol/kxkb/plasma-applet-kxkb.desktop:2
-msgctxt "Name"
-msgid "Keyboard Map Tool"
-msgstr "Tugmalar tartibi uchun vosita"
 
 #: workspace/kcontrol/launch/kcmlaunch.desktop:14
 msgctxt "Name"
@@ -10998,7 +11062,7 @@ msgctxt "Name|plasma containment"
 msgid "Desktop Dashboard"
 msgstr "Xboard"
 
-#: workspace/plasma/desktop/containments/desktop/plasma-containment-desktopdashboard.desktop:9
+#: workspace/plasma/desktop/containments/desktop/plasma-containment-desktopdashboard.desktop:11
 #: workspace/plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:65
 msgctxt "Comment"
 msgid "Default desktop containment"
@@ -11446,6 +11510,19 @@ msgstr ""
 msgctxt "Comment"
 msgid "Calendar data engine"
 msgstr "Kalendar boshqaruvchisi"
+
+#: workspace/plasma/generic/dataengines/devicenotifications/plasma-dataengine-devicenotifications.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Notifications"
+msgctxt "Name"
+msgid "Device Notifications"
+msgstr "Xabarnomalar"
+
+#: workspace/plasma/generic/dataengines/devicenotifications/plasma-dataengine-devicenotifications.desktop:3
+msgctxt "Comment"
+msgid "Passive device notifications for the user."
+msgstr ""
 
 #: workspace/plasma/generic/dataengines/dict/plasma-dataengine-dict.desktop:2
 #, fuzzy
@@ -12191,7 +12268,7 @@ msgctxt "Name"
 msgid "Newspaper Activity"
 msgstr ""
 
-#: workspace/plasma/netbook/containments/newspaper/plasma-containment-newspaper.desktop:57
+#: workspace/plasma/netbook/containments/newspaper/plasma-containment-newspaper.desktop:5
 msgctxt "Comment"
 msgid "An activity that puts widgets on two columns"
 msgstr ""
@@ -12402,11 +12479,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "Power Management"
 msgstr "Bosib chiqarishni boshqarish vositasi"
-
-#: workspace/powerdevil/powerdevil.notifyrc:184
-msgctxt "Comment"
-msgid "Used for warning notifications"
-msgstr ""
 
 #: workspace/powerdevil/powerdevil.notifyrc:336
 msgctxt "Comment"
@@ -13370,6 +13442,14 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#~ msgctxt "Comment"
+#~ msgid "Keyboard Layout"
+#~ msgstr "Tugmalar tartibi"
+
+#~ msgctxt "Name"
+#~ msgid "Keyboard Map Tool"
+#~ msgstr "Tugmalar tartibi uchun vosita"
 
 #, fuzzy
 #~| msgctxt "Comment"
@@ -16656,11 +16736,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "KDED Media Manager"
 #~ msgstr "KDED saqlash uskunalarni boshqaruvchi"
-
-#, fuzzy
-#~ msgctxt "Name"
-#~ msgid "Media Notifier Daemon"
-#~ msgstr "Saqlash uskunalar uchun demon"
 
 #~ msgctxt "Name"
 #~ msgid "Mount"
