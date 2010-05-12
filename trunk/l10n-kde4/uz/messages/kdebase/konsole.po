@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-06 04:54+0200\n"
+"POT-Creation-Date: 2010-05-12 04:54+0200\n"
 "PO-Revision-Date: 2008-06-04 01:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -598,7 +598,7 @@ msgstr "Profillarni boshqarish..."
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:378 SessionController.cpp:597
+#: MainWindow.cpp:378 SessionController.cpp:601
 msgid "Confirm Close"
 msgstr "Yopishni tasdiqlash"
 
@@ -1540,15 +1540,15 @@ msgstr "kmashrab@uni-bremen.de"
 msgid "Copy Input To"
 msgstr ""
 
-#. i18n: file: ../desktop/sessionui.rc:37
+#. i18n: file: ../desktop/sessionui.rc:38
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:852
 msgid "Debug"
 msgstr ""
 
-#. i18n: file: ../desktop/sessionui.rc:56
+#. i18n: file: ../desktop/sessionui.rc:57
 #. i18n: ectx: Menu (change-profile)
-#. i18n: file: ../desktop/partui.rc:25
+#. i18n: file: ../desktop/partui.rc:26
 #. i18n: ectx: Menu (change-profile)
 #: rc.cpp:855 rc.cpp:861
 msgid "&Change Profile"
@@ -1753,44 +1753,50 @@ msgstr "Profillarni boshqarish..."
 msgid "Clear Scrollback"
 msgstr "Varaqlash panelini bekitish"
 
-#: SessionController.cpp:502
+#: SessionController.cpp:500
+#, fuzzy
+#| msgid "Clear &History"
+msgid "Clear Scrollback and Reset"
+msgstr "Tarixni &boʻshatish"
+
+#: SessionController.cpp:506
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Current Profile..."
 msgstr "Profillarni boshqarish..."
 
-#: SessionController.cpp:505
+#: SessionController.cpp:509
 msgid "Change Profile"
 msgstr "Profilni oʻzgartirish"
 
-#: SessionController.cpp:547
+#: SessionController.cpp:551
 msgid "Rename Tab"
 msgstr "Tabning nomini oʻzgartirish"
 
-#: SessionController.cpp:548
+#: SessionController.cpp:552
 msgid "Enter new tab text:"
 msgstr ""
 
-#: SessionController.cpp:591
+#: SessionController.cpp:595
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr ""
 
-#: SessionController.cpp:594
+#: SessionController.cpp:598
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr ""
 
-#: SessionController.cpp:1139
+#: SessionController.cpp:1151
 #, fuzzy
 #| msgid "&ZModem Upload..."
 msgid "Save ZModem Download to..."
 msgstr "ZModem yo&zib qoʻyish"
 
-#: SessionController.cpp:1148
+#: SessionController.cpp:1160
 #, fuzzy
 #| msgid ""
 #| "<p>A ZModem file transfer attempt has been detected, but no suitable "
@@ -1805,7 +1811,7 @@ msgstr ""
 "topilmadi.\n"
 "<p>\"rzsz\" yoki \"lrzsz\" dasturini oʻrnatishingiz kerak.\n"
 
-#: SessionController.cpp:1160
+#: SessionController.cpp:1172
 #, fuzzy
 #| msgid ""
 #| "<p>The current session already has a ZModem file transfer in progress."
@@ -1813,7 +1819,7 @@ msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>Joriy seansda ZModem fayl uzatishi allaqachon davom etayapti."
 
-#: SessionController.cpp:1169
+#: SessionController.cpp:1181
 #, fuzzy
 #| msgid ""
 #| "<p>No suitable ZModem software was found on the system.\n"
@@ -1825,23 +1831,23 @@ msgstr ""
 "<p>Tizimda kerak boʻlgan ZModem dasturi topilmadi.\n"
 "<p>\"rzsz\" yoki \"lrzsz\" dasturini oʻrnatishingiz kerak.\n"
 
-#: SessionController.cpp:1175
+#: SessionController.cpp:1187
 #, fuzzy
 #| msgid "Select Files to Upload"
 msgid "Select Files for ZModem Upload"
 msgstr "Yozib qoʻyish uchun fayllarni tanlang"
 
-#: SessionController.cpp:1247
+#: SessionController.cpp:1259
 #, fuzzy, kde-format
 msgid "Save Output From %1"
 msgstr "Tarixni saqlash"
 
-#: SessionController.cpp:1258
+#: SessionController.cpp:1270
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1347
+#: SessionController.cpp:1359
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2091,11 +2097,6 @@ msgstr "&Toʻxtatish"
 
 #~ msgid "Character Encoding"
 #~ msgstr "Kodlash usuli"
-
-#, fuzzy
-#~| msgid "Clear &History"
-#~ msgid "Clear Scrollback and Reset"
-#~ msgstr "Tarixni &boʻshatish"
 
 #~ msgid "Edit Current Profile..."
 #~ msgstr "Joriy profilni tahrirlash..."
