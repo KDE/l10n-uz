@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-17 04:49+0200\n"
+"POT-Creation-Date: 2010-06-19 05:06+0200\n"
 "PO-Revision-Date: 2006-12-17 13:47+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2711,7 +2711,7 @@ msgstr "Yil"
 #. i18n: file: kspread.rc:41
 #. i18n: ectx: Menu (Delete)
 #: rc.cpp:22 commands/DeleteCommand.cpp:36 commands/Undo.cpp:1292
-#: part/View.cpp:511
+#: part/View.cpp:512
 #, fuzzy
 msgid "Delete"
 msgstr "Satrlarni olib tashlash"
@@ -3396,7 +3396,7 @@ msgstr "Andoza uzunasi (%1)"
 
 #. i18n: file: dialogs/PositionWidget.ui:232
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:317 dialogs/Resize2Dialog.cpp:73
+#: rc.cpp:317 dialogs/Resize2Dialog.cpp:74
 msgid "Height:"
 msgstr "Uzunasi:"
 
@@ -3425,7 +3425,7 @@ msgstr "Andoza enlik (%1)"
 
 #. i18n: file: dialogs/PositionWidget.ui:295
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:330 dialogs/Resize2Dialog.cpp:131
+#: rc.cpp:330 dialogs/Resize2Dialog.cpp:132
 msgid "Width:"
 msgstr "Eni:"
 
@@ -3578,7 +3578,7 @@ msgstr "Izoh"
 
 #. i18n: file: dialogs/SpecialPasteWidget.ui:84
 #. i18n: ectx: property (text), widget (QRadioButton, resultButton)
-#: rc.cpp:402 dialogs/DatabaseDialog.cpp:341 dialogs/SubtotalDialog.cpp:102
+#: rc.cpp:402 dialogs/DatabaseDialog.cpp:343 dialogs/SubtotalDialog.cpp:102
 msgid "Result"
 msgstr "Natija"
 
@@ -3654,7 +3654,7 @@ msgstr ""
 
 #. i18n: file: dialogs/SubtotalWidget.ui:81
 #. i18n: ectx: property (text), widget (QListWidget, m_columnList)
-#: rc.cpp:441 dialogs/DatabaseDialog.cpp:199 ui/CellToolBase.cpp:458
+#: rc.cpp:441 dialogs/DatabaseDialog.cpp:201 ui/CellToolBase.cpp:458
 #: ui/CellToolBase.cpp:464
 msgid "Columns"
 msgstr "Ustunlar"
@@ -4346,7 +4346,7 @@ msgstr "Bogʻliqlik"
 msgid "Cut"
 msgstr "Soni: "
 
-#: Sheet.cpp:3136
+#: Sheet.cpp:3146
 msgid "Invalid document. Sheet name is empty."
 msgstr "Xato hujjat. Varaqning nomi koʻrsatilmagan."
 
@@ -5067,7 +5067,7 @@ msgstr ""
 
 #. i18n: file: functions/database.xml:5
 #: xml_doc.cpp:218 chart/ChartDatabaseSelectorFactory.cpp:40
-#: dialogs/DatabaseDialog.cpp:137 ui/CellToolBase.cpp:670
+#: dialogs/DatabaseDialog.cpp:139 ui/CellToolBase.cpp:670
 msgid "Database"
 msgstr "Maʼlumot bazasi"
 
@@ -8771,7 +8771,7 @@ msgstr ""
 
 #. i18n: file: functions/financial.xml:907
 #. i18n: file: functions/financial.xml:950
-#: xml_doc.cpp:1817 xml_doc.cpp:1840 part/View.cpp:408
+#: xml_doc.cpp:1817 xml_doc.cpp:1840 part/View.cpp:409
 #, fuzzy
 #| msgid "List"
 msgid "Last"
@@ -12016,7 +12016,7 @@ msgstr "&Satr"
 
 #. i18n: file: functions/reference.xml:121
 #. i18n: file: functions/reference.xml:243
-#: xml_doc.cpp:3292 xml_doc.cpp:3366 dialogs/DatabaseDialog.cpp:189
+#: xml_doc.cpp:3292 xml_doc.cpp:3366 dialogs/DatabaseDialog.cpp:191
 msgid "Column"
 msgstr "Ustun"
 
@@ -16035,7 +16035,7 @@ msgid "Change Border Color"
 msgstr "Chegara rangini oʻzgartirish"
 
 #: commands/CommentCommand.cpp:62 ui/CellToolBase.cpp:568
-#: ui/CellToolBase.cpp:2391
+#: ui/CellToolBase.cpp:2392
 msgid "Remove Comment"
 msgstr "Izohni olib tashlash"
 
@@ -16123,7 +16123,7 @@ msgstr "Satr yoki ustunlarni birlashtirish qoʻllanilmaydi."
 msgid "Add Named Area"
 msgstr "Maydonni tahrirlash"
 
-#: commands/NamedAreaCommand.cpp:54 dialogs/NamedAreaDialog.cpp:184
+#: commands/NamedAreaCommand.cpp:54 dialogs/NamedAreaDialog.cpp:186
 #, fuzzy
 #| msgid "Remove Area"
 msgid "Remove Named Area"
@@ -16138,11 +16138,11 @@ msgstr "Aniqlikni oshirish"
 msgid "Decrease Precision"
 msgstr "Aniqlikni kamaytirish"
 
-#: commands/RowColumnManipulators.cpp:47 dialogs/Resize2Dialog.cpp:116
+#: commands/RowColumnManipulators.cpp:47 dialogs/Resize2Dialog.cpp:117
 msgid "Resize Column"
 msgstr "Ustunning oʻlchamini oʻzgartirish"
 
-#: commands/RowColumnManipulators.cpp:75 dialogs/Resize2Dialog.cpp:58
+#: commands/RowColumnManipulators.cpp:75 dialogs/Resize2Dialog.cpp:59
 msgid "Resize Row"
 msgstr "Satrning oʻlchamini oʻzgartirish"
 
@@ -16163,7 +16163,7 @@ msgstr "Qatorni sozlash"
 
 #: commands/RowColumnManipulators.cpp:540
 #: commands/RowColumnManipulators.cpp:559 commands/Undo.cpp:278
-#: ui/CellToolBase.cpp:459 ui/CellToolBase_p.cpp:1305
+#: ui/CellToolBase.cpp:459 ui/CellToolBase_p.cpp:1351
 msgid "Insert Columns"
 msgstr "Ustunlar qoʻshish"
 
@@ -16174,7 +16174,7 @@ msgstr "Ustunlarni olib tashlash"
 
 #: commands/RowColumnManipulators.cpp:663
 #: commands/RowColumnManipulators.cpp:682 commands/Undo.cpp:392
-#: ui/CellToolBase.cpp:497 ui/CellToolBase_p.cpp:1317
+#: ui/CellToolBase.cpp:497 ui/CellToolBase_p.cpp:1363
 msgid "Insert Rows"
 msgstr "Satrlarni qoʻyish"
 
@@ -16183,7 +16183,7 @@ msgstr "Satrlarni qoʻyish"
 msgid "Remove Rows"
 msgstr "Satrlarni olib tashlash"
 
-#: commands/SheetCommands.cpp:38 part/View.cpp:1849
+#: commands/SheetCommands.cpp:38 part/View.cpp:1857
 msgid "Rename Sheet"
 msgstr "Varaqning nomini oʻzgartirish"
 
@@ -16192,7 +16192,7 @@ msgstr "Varaqning nomini oʻzgartirish"
 msgid "Hide Sheet %1"
 msgstr "%1 varaqni bekitish"
 
-#: commands/SheetCommands.cpp:60 part/View.cpp:323
+#: commands/SheetCommands.cpp:60 part/View.cpp:324
 msgid "Hide Sheet"
 msgstr "Varaqni bekitish"
 
@@ -16210,14 +16210,14 @@ msgstr "Varaqni koʻrsatish"
 msgid "Add Sheet"
 msgstr "Varaqni qoʻshish"
 
-#: commands/SheetCommands.cpp:139 part/View.cpp:302
+#: commands/SheetCommands.cpp:139 part/View.cpp:303
 #, fuzzy
 #| msgid "Recalculate Sheet"
 msgid "Duplicate Sheet"
 msgstr "Varaqni qaytadan hisoblash"
 
-#: commands/SheetCommands.cpp:177 part/View.cpp:308 part/View.cpp:1821
-#: part/View.cpp:1825 part/View.cpp:2111
+#: commands/SheetCommands.cpp:177 part/View.cpp:309 part/View.cpp:1829
+#: part/View.cpp:1833 part/View.cpp:2122
 msgid "Remove Sheet"
 msgstr "Varaqni olib tashlash"
 
@@ -16277,8 +16277,8 @@ msgstr ""
 msgid "Change Format"
 msgstr "Formatni oʻzgartirish"
 
-#: commands/Undo.cpp:1045 dialogs/AngleDialog.cpp:46
-#: dialogs/AngleDialog.cpp:78
+#: commands/Undo.cpp:1045 dialogs/AngleDialog.cpp:48
+#: dialogs/AngleDialog.cpp:80
 msgid "Change Angle"
 msgstr "Burchakni oʻzgartirish"
 
@@ -16325,8 +16325,8 @@ msgstr ""
 msgid "Style of Cell"
 msgstr "Katakning uslubi"
 
-#: commands/Undo.cpp:2606 dialogs/DatabaseDialog.cpp:74
-#: dialogs/DatabaseDialog.cpp:559
+#: commands/Undo.cpp:2606 dialogs/DatabaseDialog.cpp:76
+#: dialogs/DatabaseDialog.cpp:561
 msgid "Insert Data From Database"
 msgstr "Maʼlumot bazasidan maʼlumot qoʻyish"
 
@@ -16371,13 +16371,13 @@ msgid ""
 msgstr ""
 
 #: dialogs/AddNamedAreaDialog.cpp:91 dialogs/AddNamedAreaDialog.cpp:97
-#: dialogs/NamedAreaDialog.cpp:298
+#: dialogs/NamedAreaDialog.cpp:300
 #, fuzzy
 #| msgid "Remove Area"
 msgid "Replace Named Area"
 msgstr "Maydonni olib tashlash"
 
-#: dialogs/AngleDialog.cpp:60
+#: dialogs/AngleDialog.cpp:62
 msgid "Angle:"
 msgstr "Burchak:"
 
@@ -16504,28 +16504,28 @@ msgid "&Function:"
 msgstr "&Funksiya:"
 
 #: dialogs/ConsolidateDialog.cpp:90 dialogs/SubtotalDialog.cpp:263
-#: part/View.cpp:468 part/dialogs/PreferenceDialog.cpp:329
+#: part/View.cpp:469 part/dialogs/PreferenceDialog.cpp:329
 msgid "Sum"
 msgstr "Yigʻindi"
 
 #: dialogs/ConsolidateDialog.cpp:91 dialogs/SubtotalDialog.cpp:255
-#: part/View.cpp:489 part/dialogs/PreferenceDialog.cpp:332
+#: part/View.cpp:490 part/dialogs/PreferenceDialog.cpp:332
 msgid "Average"
 msgstr "Oʻrtacha"
 
 #: dialogs/ConsolidateDialog.cpp:92 dialogs/SubtotalDialog.cpp:256
-#: part/View.cpp:496 part/dialogs/PreferenceDialog.cpp:333
+#: part/View.cpp:497 part/dialogs/PreferenceDialog.cpp:333
 #, fuzzy
 msgid "Count"
 msgstr "Soni: "
 
 #: dialogs/ConsolidateDialog.cpp:93 dialogs/SubtotalDialog.cpp:258
-#: part/View.cpp:482 part/dialogs/PreferenceDialog.cpp:331
+#: part/View.cpp:483 part/dialogs/PreferenceDialog.cpp:331
 msgid "Max"
 msgstr "Maks"
 
 #: dialogs/ConsolidateDialog.cpp:94 dialogs/SubtotalDialog.cpp:259
-#: part/View.cpp:475 part/dialogs/PreferenceDialog.cpp:330
+#: part/View.cpp:476 part/dialogs/PreferenceDialog.cpp:330
 msgid "Min"
 msgstr "Min"
 
@@ -16571,7 +16571,7 @@ msgstr "&Nusxa olish"
 msgid "&Add"
 msgstr "&Qoʻshish"
 
-#: dialogs/ConsolidateDialog.cpp:124 dialogs/NamedAreaDialog.cpp:64
+#: dialogs/ConsolidateDialog.cpp:124 dialogs/NamedAreaDialog.cpp:66
 #, fuzzy
 msgid "&Remove"
 msgstr "Bogʻni &olib tashlash"
@@ -16615,38 +16615,38 @@ msgid ""
 " is malformed"
 msgstr ""
 
-#: dialogs/CSVDialog.cpp:62 dialogs/CSVDialog.cpp:172
+#: dialogs/CSVDialog.cpp:64 dialogs/CSVDialog.cpp:174
 #, fuzzy
 msgid "Inserting From Clipboard"
 msgstr "&Xotiradan..."
 
-#: dialogs/CSVDialog.cpp:65
+#: dialogs/CSVDialog.cpp:67
 msgid "There is no data in the clipboard."
 msgstr ""
 
-#: dialogs/CSVDialog.cpp:69
+#: dialogs/CSVDialog.cpp:71
 msgid "There is no usable data in the clipboard."
 msgstr ""
 
-#: dialogs/CSVDialog.cpp:73 dialogs/CSVDialog.cpp:174
+#: dialogs/CSVDialog.cpp:75 dialogs/CSVDialog.cpp:176
 #, fuzzy
 msgid "Inserting Text File"
 msgstr "Katakni qoʻyish"
 
-#: dialogs/CSVDialog.cpp:83 dialogs/CSVDialog.cpp:176
+#: dialogs/CSVDialog.cpp:85 dialogs/CSVDialog.cpp:178
 #, fuzzy
 msgid "Text to Columns"
 msgstr "Ustunlar qoʻshish"
 
-#: dialogs/CSVDialog.cpp:110
+#: dialogs/CSVDialog.cpp:112
 msgid "Cannot open input file."
 msgstr ""
 
-#: dialogs/DatabaseDialog.cpp:82
+#: dialogs/DatabaseDialog.cpp:84
 msgid "Type:"
 msgstr "Turi:"
 
-#: dialogs/DatabaseDialog.cpp:87
+#: dialogs/DatabaseDialog.cpp:89
 msgid ""
 "User name:\n"
 "(if necessary)"
@@ -16654,11 +16654,11 @@ msgstr ""
 "Foydalanuvchi:\n"
 "(kerak boʻlsa)"
 
-#: dialogs/DatabaseDialog.cpp:92
+#: dialogs/DatabaseDialog.cpp:94
 msgid "Host:"
 msgstr "Xost:"
 
-#: dialogs/DatabaseDialog.cpp:106
+#: dialogs/DatabaseDialog.cpp:108
 msgid ""
 "Port:\n"
 "(if necessary)"
@@ -16666,11 +16666,11 @@ msgstr ""
 "Port:\n"
 "(kerak boʻlsa)"
 
-#: dialogs/DatabaseDialog.cpp:118
+#: dialogs/DatabaseDialog.cpp:120
 msgid "Database name: "
 msgstr "Maʼlumot bazasining nomi: "
 
-#: dialogs/DatabaseDialog.cpp:125
+#: dialogs/DatabaseDialog.cpp:127
 msgid ""
 "Password:\n"
 "(if necessary)"
@@ -16678,184 +16678,184 @@ msgstr ""
 "Maxfiy soʻz:\n"
 "(kerak boʻlsa)"
 
-#: dialogs/DatabaseDialog.cpp:167
+#: dialogs/DatabaseDialog.cpp:169
 msgid "Select tables:"
 msgstr "Jadvallarni tanlang:"
 
-#: dialogs/DatabaseDialog.cpp:175
+#: dialogs/DatabaseDialog.cpp:177
 #, fuzzy
 msgid "Tables"
 msgstr "&Qiymatlar"
 
-#: dialogs/DatabaseDialog.cpp:184
+#: dialogs/DatabaseDialog.cpp:186
 msgid "Select columns:"
 msgstr "Ustunlarni tanlang:"
 
-#: dialogs/DatabaseDialog.cpp:189
+#: dialogs/DatabaseDialog.cpp:191
 #, fuzzy
 #| msgid "Tala"
 msgid "Table"
 msgstr "Tala"
 
-#: dialogs/DatabaseDialog.cpp:208
+#: dialogs/DatabaseDialog.cpp:210
 msgid "Match all of the following (AND)"
 msgstr ""
 
-#: dialogs/DatabaseDialog.cpp:213
+#: dialogs/DatabaseDialog.cpp:215
 msgid "Match any of the following (OR)"
 msgstr ""
 
-#: dialogs/DatabaseDialog.cpp:220 dialogs/DatabaseDialog.cpp:239
-#: dialogs/DatabaseDialog.cpp:255
+#: dialogs/DatabaseDialog.cpp:222 dialogs/DatabaseDialog.cpp:241
+#: dialogs/DatabaseDialog.cpp:257
 msgid "equals"
 msgstr "teng"
 
-#: dialogs/DatabaseDialog.cpp:221 dialogs/DatabaseDialog.cpp:240
-#: dialogs/DatabaseDialog.cpp:256
+#: dialogs/DatabaseDialog.cpp:223 dialogs/DatabaseDialog.cpp:242
+#: dialogs/DatabaseDialog.cpp:258
 msgid "not equal"
 msgstr "teng emas"
 
-#: dialogs/DatabaseDialog.cpp:222 dialogs/DatabaseDialog.cpp:241
-#: dialogs/DatabaseDialog.cpp:257
+#: dialogs/DatabaseDialog.cpp:224 dialogs/DatabaseDialog.cpp:243
+#: dialogs/DatabaseDialog.cpp:259
 msgid "in"
 msgstr "da"
 
-#: dialogs/DatabaseDialog.cpp:223 dialogs/DatabaseDialog.cpp:242
-#: dialogs/DatabaseDialog.cpp:258
+#: dialogs/DatabaseDialog.cpp:225 dialogs/DatabaseDialog.cpp:244
+#: dialogs/DatabaseDialog.cpp:260
 msgid "not in"
 msgstr "da emas"
 
-#: dialogs/DatabaseDialog.cpp:224 dialogs/DatabaseDialog.cpp:243
-#: dialogs/DatabaseDialog.cpp:259
+#: dialogs/DatabaseDialog.cpp:226 dialogs/DatabaseDialog.cpp:245
+#: dialogs/DatabaseDialog.cpp:261
 #, fuzzy
 msgid "like"
 msgstr "Beliz"
 
-#: dialogs/DatabaseDialog.cpp:225 dialogs/DatabaseDialog.cpp:244
-#: dialogs/DatabaseDialog.cpp:260
+#: dialogs/DatabaseDialog.cpp:227 dialogs/DatabaseDialog.cpp:246
+#: dialogs/DatabaseDialog.cpp:262
 msgid "greater"
 msgstr "koʻproq"
 
-#: dialogs/DatabaseDialog.cpp:226 dialogs/DatabaseDialog.cpp:245
-#: dialogs/DatabaseDialog.cpp:261
+#: dialogs/DatabaseDialog.cpp:228 dialogs/DatabaseDialog.cpp:247
+#: dialogs/DatabaseDialog.cpp:263
 msgid "lesser"
 msgstr "kamroq"
 
-#: dialogs/DatabaseDialog.cpp:227
+#: dialogs/DatabaseDialog.cpp:229
 msgid "greater or equal"
 msgstr "koʻp yoki teng"
 
-#: dialogs/DatabaseDialog.cpp:228
+#: dialogs/DatabaseDialog.cpp:230
 msgid "less or equal"
 msgstr "kam yoki teng"
 
-#: dialogs/DatabaseDialog.cpp:268 dialogs/DatabaseDialog.cpp:280
+#: dialogs/DatabaseDialog.cpp:270 dialogs/DatabaseDialog.cpp:282
 #, fuzzy
 msgid "Sorted by"
 msgstr "Saralash"
 
-#: dialogs/DatabaseDialog.cpp:275 dialogs/DatabaseDialog.cpp:287
+#: dialogs/DatabaseDialog.cpp:277 dialogs/DatabaseDialog.cpp:289
 #: dialogs/SortDialog.cpp:124 dialogs/SortDialog.cpp:143
 #: dialogs/SortDialog.cpp:163
 msgid "Ascending"
 msgstr "Koʻpayish boʻyicha"
 
-#: dialogs/DatabaseDialog.cpp:276 dialogs/DatabaseDialog.cpp:288
+#: dialogs/DatabaseDialog.cpp:278 dialogs/DatabaseDialog.cpp:290
 #: dialogs/SortDialog.cpp:125 dialogs/SortDialog.cpp:144
 #: dialogs/SortDialog.cpp:164
 msgid "Descending"
 msgstr "Kamayish boʻyicha"
 
-#: dialogs/DatabaseDialog.cpp:297
+#: dialogs/DatabaseDialog.cpp:299
 #, fuzzy
 msgid "Distinct"
 msgstr "Boʻlish"
 
-#: dialogs/DatabaseDialog.cpp:302
+#: dialogs/DatabaseDialog.cpp:304
 msgid "Query Options"
 msgstr "Soʻrov moslamalari"
 
-#: dialogs/DatabaseDialog.cpp:311
+#: dialogs/DatabaseDialog.cpp:313
 msgid "SQL query:"
 msgstr "SQL soʻrovi:"
 
-#: dialogs/DatabaseDialog.cpp:323
+#: dialogs/DatabaseDialog.cpp:325
 #, fuzzy
 msgid "Insert in region"
 msgstr "Funksiyani qoʻyish"
 
-#: dialogs/DatabaseDialog.cpp:333
+#: dialogs/DatabaseDialog.cpp:335
 #, fuzzy
 msgid "Starting in cell"
 msgstr "Boshlash satri:"
 
-#: dialogs/DatabaseDialog.cpp:464 dialogs/DatabaseDialog.cpp:484
+#: dialogs/DatabaseDialog.cpp:466 dialogs/DatabaseDialog.cpp:486
 msgid "You cannot specify a table here."
 msgstr "Bu yerda jadvalni koʻrsatish mumkin emas."
 
-#: dialogs/DatabaseDialog.cpp:471
+#: dialogs/DatabaseDialog.cpp:473
 msgid "You have to specify a valid region."
 msgstr "Mavjud maydonni koʻrsatish kerak."
 
-#: dialogs/DatabaseDialog.cpp:491
+#: dialogs/DatabaseDialog.cpp:493
 msgid "You have to specify a valid cell."
 msgstr "Mavjud katakni koʻrsatish kerak."
 
-#: dialogs/DatabaseDialog.cpp:523
+#: dialogs/DatabaseDialog.cpp:525
 msgid "You are not allowed to change data in the database."
 msgstr "Maʼlumotlar bazasiga oʻzgartirish kiritish mumkin emas."
 
-#: dialogs/DatabaseDialog.cpp:529
+#: dialogs/DatabaseDialog.cpp:531
 msgid "Executing query failed."
 msgstr "Soʻrovni amalga oshirish muvaffaqiyatsiz tugadi."
 
-#: dialogs/DatabaseDialog.cpp:535
+#: dialogs/DatabaseDialog.cpp:537
 msgid "You did not get any results with this query."
 msgstr "Ushbu soʻrov hech qanday natija qaytarmadi."
 
-#: dialogs/DatabaseDialog.cpp:616
+#: dialogs/DatabaseDialog.cpp:618
 msgid "The port must be a number"
 msgstr "Portning qiymati raqam boʻlishi lozim"
 
-#: dialogs/DatabaseDialog.cpp:622
+#: dialogs/DatabaseDialog.cpp:624
 msgid "Connecting to database..."
 msgstr "Maʼlumot bazasi bilan aloqa oʻrnatilmoqda..."
 
-#: dialogs/DatabaseDialog.cpp:624
+#: dialogs/DatabaseDialog.cpp:626
 msgid "Connected. Retrieving table information..."
 msgstr "Aloqa oʻrnatildi. Jadval maʼlumotlari olinmoqda..."
 
-#: dialogs/DatabaseDialog.cpp:628
+#: dialogs/DatabaseDialog.cpp:630
 msgid "This database contains no tables"
 msgstr "Maʼlumotlar bazasida jadvallar mavjud emas"
 
-#: dialogs/DatabaseDialog.cpp:663
+#: dialogs/DatabaseDialog.cpp:665
 msgid "Driver could not be loaded"
 msgstr "Drayverni yuklab boʻlmaydi"
 
-#: dialogs/DatabaseDialog.cpp:674
+#: dialogs/DatabaseDialog.cpp:676
 msgid "Retrieving meta data of tables..."
 msgstr ""
 
-#: dialogs/DatabaseDialog.cpp:687
+#: dialogs/DatabaseDialog.cpp:689
 msgid "You have to select at least one table."
 msgstr "Kamida bitta jadvalni tanlash lozim."
 
-#: dialogs/DatabaseDialog.cpp:723
+#: dialogs/DatabaseDialog.cpp:725
 msgid "You have to select at least one column."
 msgstr "Kamida bitta ustunni tanlash lozim."
 
-#: dialogs/DatabaseDialog.cpp:735 dialogs/DatabaseDialog.cpp:736
+#: dialogs/DatabaseDialog.cpp:737 dialogs/DatabaseDialog.cpp:738
 #: dialogs/SortDialog.cpp:139 dialogs/SortDialog.cpp:158
 #: dialogs/SortDialog.cpp:438 dialogs/SortDialog.cpp:440
-#: dialogs/SortDialog.cpp:450 dialogs/SortDialog.cpp:452 part/View.cpp:461
+#: dialogs/SortDialog.cpp:450 dialogs/SortDialog.cpp:452 part/View.cpp:462
 #: part/dialogs/PreferenceDialog.cpp:327 part/dialogs/PreferenceDialog.cpp:335
 #: part/dialogs/PreferenceDialog.cpp:470 ui/CellToolBase.cpp:330
 msgid "None"
 msgstr "Yoʻq"
 
-#: dialogs/DatabaseDialog.cpp:846 dialogs/DatabaseDialog.cpp:858
-#: dialogs/DatabaseDialog.cpp:870
+#: dialogs/DatabaseDialog.cpp:848 dialogs/DatabaseDialog.cpp:860
+#: dialogs/DatabaseDialog.cpp:872
 #, no-c-format
 msgid ""
 "'*' or '?' are not valid wildcards in SQL. The proper replacements are '%' "
@@ -17109,7 +17109,7 @@ msgstr "Nomi:"
 msgid "Inherit style:"
 msgstr "Varaqning uslubi"
 
-#: dialogs/LayoutDialog.cpp:235 ui/CellToolBase.cpp:1622
+#: dialogs/LayoutDialog.cpp:235 ui/CellToolBase.cpp:1623
 msgid "A style with this name already exists."
 msgstr "Ushbu nomli uslub allaqachon mavjud."
 
@@ -17409,7 +17409,7 @@ msgstr "Orqa fon rangi:"
 msgid "No Color"
 msgstr "Rangsiz"
 
-#: dialogs/LinkDialog.cpp:74 ui/CellToolBase.cpp:2424
+#: dialogs/LinkDialog.cpp:74 ui/CellToolBase.cpp:2425
 msgid "Insert Link"
 msgstr "Bogʻni qoʻyish"
 
@@ -17471,8 +17471,8 @@ msgstr "Yaqinda ochilgan fayl:"
 msgid "No Entries"
 msgstr "Boʻsh"
 
-#: dialogs/LinkDialog.cpp:152 part/View.cpp:377 part/View.cpp:1059
-#: part/View.cpp:1501
+#: dialogs/LinkDialog.cpp:152 part/View.cpp:378 part/View.cpp:1060
+#: part/View.cpp:1526
 msgid "Cell"
 msgstr "Katak"
 
@@ -17524,7 +17524,7 @@ msgstr "Yozuvlar:"
 msgid "Add"
 msgstr "&Qoʻshish"
 
-#: dialogs/ListDialog.cpp:93 ui/CellToolBase.cpp:1154
+#: dialogs/ListDialog.cpp:93 ui/CellToolBase.cpp:1136
 #, fuzzy
 msgid "Cancel"
 msgstr "Fransiya"
@@ -17563,57 +17563,57 @@ msgstr ""
 "Aktiv varaqni olib tashlamoqchisiz.\n"
 "Davom etishni istaysizmi?"
 
-#: dialogs/NamedAreaDialog.cpp:63
+#: dialogs/NamedAreaDialog.cpp:65
 #, fuzzy
 #| msgid "&Sheet"
 msgid "&Select"
 msgstr "&Varaq"
 
-#: dialogs/NamedAreaDialog.cpp:65
+#: dialogs/NamedAreaDialog.cpp:67
 msgid "&Edit..."
 msgstr "&Tahrirlash..."
 
-#: dialogs/NamedAreaDialog.cpp:66 dialogs/StyleManagerDialog.cpp:49
+#: dialogs/NamedAreaDialog.cpp:68 dialogs/StyleManagerDialog.cpp:49
 msgid "&New..."
 msgstr "Ya&ngi..."
 
-#: dialogs/NamedAreaDialog.cpp:67 ui/CellToolBase.cpp:720
+#: dialogs/NamedAreaDialog.cpp:69 ui/CellToolBase.cpp:720
 #, fuzzy
 #| msgid "Remove Area"
 msgid "Named Areas"
 msgstr "Maydonni olib tashlash"
 
-#: dialogs/NamedAreaDialog.cpp:83 dialogs/NamedAreaDialog.cpp:115
+#: dialogs/NamedAreaDialog.cpp:85 dialogs/NamedAreaDialog.cpp:117
 #, kde-format
 msgid "Area: %1"
 msgstr ""
 
-#: dialogs/NamedAreaDialog.cpp:145
+#: dialogs/NamedAreaDialog.cpp:147
 #, fuzzy
 #| msgid "Remove Area"
 msgid "New Named Area"
 msgstr "Maydonni olib tashlash"
 
-#: dialogs/NamedAreaDialog.cpp:171
+#: dialogs/NamedAreaDialog.cpp:173
 #, fuzzy
 #| msgid "Edit Area"
 msgid "Edit Named Area"
 msgstr "Maydonni tahrirlash"
 
-#: dialogs/NamedAreaDialog.cpp:183
+#: dialogs/NamedAreaDialog.cpp:185
 #, fuzzy
 msgid "Do you really want to remove this named area?"
 msgstr "Rostdan ham ushbu roʻyxatni olib tashlashni istaysizmi?"
 
-#: dialogs/NamedAreaDialog.cpp:229
+#: dialogs/NamedAreaDialog.cpp:231
 msgid "Cells:"
 msgstr "Kataklar:"
 
-#: dialogs/NamedAreaDialog.cpp:236
+#: dialogs/NamedAreaDialog.cpp:238
 msgid "Sheet:"
 msgstr "Varaq:"
 
-#: dialogs/NamedAreaDialog.cpp:243
+#: dialogs/NamedAreaDialog.cpp:245
 msgid "Area name:"
 msgstr "Maydonning nomi:"
 
@@ -17874,7 +17874,7 @@ msgstr "Umumiy natija"
 msgid "Column '%1' "
 msgstr "Ustun '%1' "
 
-#: dialogs/SubtotalDialog.cpp:257 part/View.cpp:503
+#: dialogs/SubtotalDialog.cpp:257 part/View.cpp:504
 #: part/dialogs/PreferenceDialog.cpp:334
 #, fuzzy
 msgid "CountA"
@@ -18196,35 +18196,18 @@ msgstr ""
 msgid "Implemented, reviewed and tested various functions"
 msgstr ""
 
-#: part/Canvas.cpp:1007
+#: part/Canvas.cpp:873
 msgid "Comment:"
 msgstr "Izoh:"
 
-#: part/CellTool.cpp:138 part/commands/DefinePrintRangeCommand.cpp:38
+#: part/CellTool.cpp:100 part/commands/DefinePrintRangeCommand.cpp:38
 msgid "Define Print Range"
 msgstr ""
 
-#: part/CellTool.cpp:141
+#: part/CellTool.cpp:103
 #, fuzzy
 msgid "Define the print range in the current sheet"
 msgstr "Joriy katak tarkibini olib tashlash."
-
-#: part/CellTool.cpp:576
-#, kde-format
-msgid "Link <i>%1</i> activated"
-msgstr ""
-
-#: part/CellTool.cpp:599 ui/HyperlinkStrategy.cpp:98
-#, kde-format
-msgid ""
-"This link points to the program or script '%1'.\n"
-"Malicious programs can harm your computer. Are you sure that you want to run "
-"this program?"
-msgstr ""
-
-#: part/CellTool.cpp:604 ui/HyperlinkStrategy.cpp:104
-msgid "Open Link?"
-msgstr "Bogʻni ochishni istaysizmi?"
 
 #: part/CellToolFactory.cpp:32
 #, fuzzy
@@ -18276,10 +18259,10 @@ msgstr "Uslublarni yuklab boʻlmadi."
 msgid "Invalid document. No map tag."
 msgstr "Xato hujjat. Varaqning nomi koʻrsatilmagan."
 
-#: part/Headers.cpp:287 part/Headers.cpp:911 ui/CellToolBase.cpp:2129
-#: ui/CellToolBase.cpp:2156 ui/CellToolBase.cpp:2170 ui/CellToolBase.cpp:2191
-#: ui/CellToolBase.cpp:2231 ui/CellToolBase.cpp:2258 ui/CellToolBase.cpp:2272
-#: ui/CellToolBase.cpp:2293
+#: part/Headers.cpp:287 part/Headers.cpp:911 ui/CellToolBase.cpp:2130
+#: ui/CellToolBase.cpp:2157 ui/CellToolBase.cpp:2171 ui/CellToolBase.cpp:2192
+#: ui/CellToolBase.cpp:2232 ui/CellToolBase.cpp:2259 ui/CellToolBase.cpp:2273
+#: ui/CellToolBase.cpp:2294
 #, fuzzy
 msgid "Area is too large."
 msgstr "Maydon juda katta."
@@ -18321,342 +18304,342 @@ msgstr "Bosib chiqarish uchun '%1' varagʻi topilmadi"
 msgid "Nothing to print for sheet(s) %1."
 msgstr "Bosib chiqarish uchun '%1' varagʻida hech narsa yoʻq."
 
-#: part/View.cpp:291 part/dialogs/SheetPropertiesDialog.cpp:35
+#: part/View.cpp:292 part/dialogs/SheetPropertiesDialog.cpp:35
 msgid "Sheet Properties"
 msgstr "Varaq xossalari"
 
-#: part/View.cpp:294
+#: part/View.cpp:295
 msgid "Modify current sheet's properties"
 msgstr ""
 
-#: part/View.cpp:296 part/View.cpp:307 part/dialogs/PageLayoutDialog.cpp:145
+#: part/View.cpp:297 part/View.cpp:308 part/dialogs/PageLayoutDialog.cpp:145
 msgid "Sheet"
 msgstr "Varaq"
 
-#: part/View.cpp:297 part/View.cpp:2106
+#: part/View.cpp:298 part/View.cpp:2117
 msgid "Insert Sheet"
 msgstr "Varaq qoʻshish"
 
-#: part/View.cpp:298
+#: part/View.cpp:299
 #, fuzzy
 msgid "Insert a new sheet"
 msgstr "Yangi varaq qoʻshish."
 
-#: part/View.cpp:303
+#: part/View.cpp:304
 #, fuzzy
 msgid "Duplicate the selected sheet"
 msgstr "Aktiv varaqni bekitish."
 
-#: part/View.cpp:309 part/View.cpp:2107 part/View.cpp:2112
+#: part/View.cpp:310 part/View.cpp:2118 part/View.cpp:2123
 #, fuzzy
 msgid "Remove the active sheet"
 msgstr "Aktiv varaqni olib tashlash."
 
-#: part/View.cpp:313
+#: part/View.cpp:314
 msgid "Rename Sheet..."
 msgstr "Varaqning nomini oʻzgartirish..."
 
-#: part/View.cpp:316
+#: part/View.cpp:317
 #, fuzzy
 msgid "Rename the active sheet"
 msgstr "Aktiv varaqning nomini oʻzgartirish."
 
-#: part/View.cpp:318
+#: part/View.cpp:319
 msgid "Show Sheet..."
 msgstr "Varaqni koʻrsatish..."
 
-#: part/View.cpp:321
+#: part/View.cpp:322
 #, fuzzy
 msgid "Show a hidden sheet"
 msgstr "Bekitilgan varaqni koʻrsatish."
 
-#: part/View.cpp:326
+#: part/View.cpp:327
 #, fuzzy
 msgid "Hide the active sheet"
 msgstr "Aktiv varaqni bekitish."
 
-#: part/View.cpp:328
+#: part/View.cpp:329
 msgid "Page Layout..."
 msgstr ""
 
-#: part/View.cpp:331
+#: part/View.cpp:332
 msgid "Specify the layout of the spreadsheet for a printout"
 msgstr ""
 
-#: part/View.cpp:333 part/View.cpp:1812
+#: part/View.cpp:334 part/View.cpp:1820
 msgid "Reset Print Range"
 msgstr ""
 
-#: part/View.cpp:336
+#: part/View.cpp:337
 #, fuzzy
 msgid "Reset the print range in the current sheet"
 msgstr "Joriy katak tarkibini olib tashlash."
 
-#: part/View.cpp:338
+#: part/View.cpp:339
 #, fuzzy
 #| msgid "&Page borders:"
 msgid "Page Borders"
 msgstr "&Betning chegaralari:"
 
-#: part/View.cpp:339
+#: part/View.cpp:340
 msgid "Show on the spreadsheet where the page borders will be"
 msgstr ""
 
-#: part/View.cpp:343
+#: part/View.cpp:344
 msgid "Recalculate Sheet"
 msgstr "Varaqni qaytadan hisoblash"
 
-#: part/View.cpp:345 part/View.cpp:353
+#: part/View.cpp:346 part/View.cpp:354
 #, fuzzy
 #| msgid "Recalculate Sheet"
 msgid "Recalculate"
 msgstr "Varaqni qaytadan hisoblash"
 
-#: part/View.cpp:349
+#: part/View.cpp:350
 msgid "Recalculate the value of every cell in the current worksheet"
 msgstr ""
 
-#: part/View.cpp:351
+#: part/View.cpp:352
 msgid "Recalculate Document"
 msgstr "Hujjatni qaytadan hisoblash"
 
-#: part/View.cpp:357
+#: part/View.cpp:358
 msgid "Recalculate the value of every cell in all worksheets"
 msgstr ""
 
-#: part/View.cpp:359
+#: part/View.cpp:360
 msgid "Protect &Sheet..."
 msgstr "&Varaqni himoyalash..."
 
-#: part/View.cpp:361
+#: part/View.cpp:362
 #, fuzzy
 msgid "Protect the sheet from being modified"
 msgstr "Varaqni oʻzgarishlardan himoyalash."
 
-#: part/View.cpp:365
+#: part/View.cpp:366
 msgid "Protect &Document..."
 msgstr "Huj&jatni himoyalash..."
 
-#: part/View.cpp:367
+#: part/View.cpp:368
 #, fuzzy
 msgid "Protect the document from being modified"
 msgstr "Hujjatni oʻzgarishlardan himoyalash."
 
-#: part/View.cpp:372
+#: part/View.cpp:373
 msgid "&Create Template From Document..."
 msgstr "Hujjatdan namuna &yaratish..."
 
-#: part/View.cpp:376
+#: part/View.cpp:377
 #, fuzzy
 #| msgid "Andorra"
 msgid "Anchor"
 msgstr "Andorra"
 
-#: part/View.cpp:378 part/View.cpp:1059
+#: part/View.cpp:379 part/View.cpp:1060
 #, fuzzy
 #| msgid "page"
 msgid "Page"
 msgstr "bet"
 
-#: part/View.cpp:380
+#: part/View.cpp:381
 msgid "Switch shape anchoring"
 msgstr ""
 
-#: part/View.cpp:387
+#: part/View.cpp:388
 msgid "Next Sheet"
 msgstr "Keyingi varaq"
 
-#: part/View.cpp:388
+#: part/View.cpp:389
 #, fuzzy
 #| msgid "Text"
 msgid "Next"
 msgstr "Matn"
 
-#: part/View.cpp:389
+#: part/View.cpp:390
 #, fuzzy
 msgid "Move to the next sheet"
 msgstr "Keyingi varaqqa oʻtish."
 
-#: part/View.cpp:394
+#: part/View.cpp:395
 msgid "Previous Sheet"
 msgstr "Oldingi varaq"
 
-#: part/View.cpp:395
+#: part/View.cpp:396
 #, fuzzy
 #| msgid "Previous Sheet"
 msgid "Previous"
 msgstr "Oldingi varaq"
 
-#: part/View.cpp:396
+#: part/View.cpp:397
 #, fuzzy
 msgid "Move to the previous sheet"
 msgstr "Oldingi varaqqa oʻtish."
 
-#: part/View.cpp:401
-msgid "First Sheet"
-msgstr "Birinchi varaq"
-
 #: part/View.cpp:402
-#, fuzzy
-msgid "First"
+msgid "First Sheet"
 msgstr "Birinchi varaq"
 
 #: part/View.cpp:403
 #, fuzzy
+msgid "First"
+msgstr "Birinchi varaq"
+
+#: part/View.cpp:404
+#, fuzzy
 msgid "Move to the first sheet"
 msgstr "Birinchi varaqqa oʻtish."
 
-#: part/View.cpp:407
+#: part/View.cpp:408
 msgid "Last Sheet"
 msgstr "Oxirgi varaq"
 
-#: part/View.cpp:409
+#: part/View.cpp:410
 #, fuzzy
 msgid "Move to the last sheet"
 msgstr "Oxirgi varaqqa oʻtish."
 
-#: part/View.cpp:415
+#: part/View.cpp:416
 #, fuzzy
 msgid "Column Header"
 msgstr "Ustunlarni &raqam sifatida koʻrsatish"
 
-#: part/View.cpp:416
+#: part/View.cpp:417
 #, fuzzy
 msgid "Show the column header"
 msgstr "&Satr nomini koʻrsatish"
 
-#: part/View.cpp:421
+#: part/View.cpp:422
 #, fuzzy
 msgid "Row Header"
 msgstr "koʻproq"
 
-#: part/View.cpp:422
+#: part/View.cpp:423
 #, fuzzy
 #| msgid "Show &row header"
 msgid "Show the row header"
 msgstr "&Satr nomini koʻrsatish"
 
-#: part/View.cpp:427
+#: part/View.cpp:428
 #, fuzzy
 #| msgid "Show &horizontal scrollbar"
 msgid "Horizontal Scrollbar"
 msgstr "&Gorizontal varaqlash panelini koʻrsatish"
 
-#: part/View.cpp:428
+#: part/View.cpp:429
 #, fuzzy
 #| msgid "Show &horizontal scrollbar"
 msgid "Show the horizontal scrollbar"
 msgstr "&Gorizontal varaqlash panelini koʻrsatish"
 
-#: part/View.cpp:433
+#: part/View.cpp:434
 #, fuzzy
 #| msgid "Show &vertical scrollbar"
 msgid "Vertical Scrollbar"
 msgstr "&Vertikal varaqlash panelini koʻrsatish"
 
-#: part/View.cpp:434
+#: part/View.cpp:435
 #, fuzzy
 #| msgid "Show &vertical scrollbar"
 msgid "Show the vertical scrollbar"
 msgstr "&Vertikal varaqlash panelini koʻrsatish"
 
-#: part/View.cpp:439
+#: part/View.cpp:440
 #, fuzzy
 #| msgid "Show Status Bar"
 msgid "Status Bar"
 msgstr "Holat panelini koʻrsatish"
 
-#: part/View.cpp:440
+#: part/View.cpp:441
 #, fuzzy
 msgid "Show the status bar"
 msgstr "Holat panelini koʻrsatish."
 
-#: part/View.cpp:445
+#: part/View.cpp:446
 #, fuzzy
 msgid "Tab Bar"
 msgstr "Holat panelini koʻrsatish"
 
-#: part/View.cpp:446
+#: part/View.cpp:447
 #, fuzzy
 msgid "Show the tab bar"
 msgstr "Tab panelini koʻrsatish."
 
-#: part/View.cpp:452
+#: part/View.cpp:453
 #, fuzzy
 msgid "Set various KSpread options"
 msgstr "KSpread dasturining har xil moslamalarini oʻzgartirish."
 
-#: part/View.cpp:465
+#: part/View.cpp:466
 #, fuzzy
 msgid "No calculation"
 msgstr "&Avtomatik qayta hisoblash"
 
-#: part/View.cpp:472
+#: part/View.cpp:473
 #, fuzzy
 msgid "Calculate using sum"
 msgstr "Hisoblash usuli"
 
-#: part/View.cpp:479
+#: part/View.cpp:480
 #, fuzzy
 msgid "Calculate using minimum"
 msgstr "Hisoblash usuli"
 
-#: part/View.cpp:486
+#: part/View.cpp:487
 #, fuzzy
 msgid "Calculate using maximum"
 msgstr "Hisoblash usuli"
 
-#: part/View.cpp:493
+#: part/View.cpp:494
 #, fuzzy
 msgid "Calculate using average"
 msgstr "Hisoblash usuli"
 
-#: part/View.cpp:500
+#: part/View.cpp:501
 #, fuzzy
 msgid "Calculate using the count"
 msgstr "Hisoblash usuli"
 
-#: part/View.cpp:507
+#: part/View.cpp:508
 #, fuzzy
 msgid "Calculate using the countA"
 msgstr "Hisoblash usuli"
 
-#: part/View.cpp:747 part/dialogs/PreferenceDialog.cpp:373
+#: part/View.cpp:746 part/dialogs/PreferenceDialog.cpp:373
 #, fuzzy
 msgid "Tools"
 msgstr "Togo"
 
-#: part/View.cpp:1421 part/View.cpp:1440 part/View.cpp:1843
+#: part/View.cpp:1446 part/View.cpp:1465 part/View.cpp:1851
 #, fuzzy
 msgid "You cannot change a protected sheet."
 msgstr "Yagona varaqni olib tashlab boʻlmaydi."
 
-#: part/View.cpp:1460
+#: part/View.cpp:1485
 #, fuzzy
 msgid "You cannot hide the last visible sheet."
 msgstr "Yagona varaqni olib tashlab boʻlmaydi."
 
-#: part/View.cpp:1513
+#: part/View.cpp:1538
 msgid "Protect Document"
 msgstr "Hujjatni himoyalash"
 
-#: part/View.cpp:1516
+#: part/View.cpp:1541
 msgid "Unprotect Document"
 msgstr "Hujjatni himoyalashni bekor qilish"
 
-#: part/View.cpp:1535
+#: part/View.cpp:1560
 msgid "Protect Sheet"
 msgstr "Varaqni himoyalash"
 
-#: part/View.cpp:1538
+#: part/View.cpp:1563
 msgid "Unprotect Sheet"
 msgstr "Varaqni himoyalashni bekor qilish"
 
-#: part/View.cpp:1821
+#: part/View.cpp:1829
 msgid "You cannot delete the only sheet."
 msgstr "Yagona varaqni olib tashlab boʻlmaydi."
 
-#: part/View.cpp:1824
+#: part/View.cpp:1832
 msgid ""
 "You are about to remove the active sheet.\n"
 "Do you want to continue?"
@@ -18664,49 +18647,49 @@ msgstr ""
 "Aktiv varaqni olib tashlamoqchisiz.\n"
 "Davom etishni istaysizmi?"
 
-#: part/View.cpp:1825
+#: part/View.cpp:1833
 #, fuzzy
 msgid "&Delete"
 msgstr "Satrlarni olib tashlash"
 
-#: part/View.cpp:1849 ui/CellToolBase.cpp:1609
+#: part/View.cpp:1857 ui/CellToolBase.cpp:1610
 msgid "Enter name:"
 msgstr "Nomini kiriting:"
 
-#: part/View.cpp:1854
+#: part/View.cpp:1862
 msgid "Sheet name cannot be empty."
 msgstr "Varaqning nomi boʻsh boʻlishi mumkin emas."
 
-#: part/View.cpp:1854 part/View.cpp:1860
+#: part/View.cpp:1862 part/View.cpp:1868
 msgid "Change Sheet Name"
 msgstr "Varaqning nomini oʻzgartirish"
 
-#: part/View.cpp:1860
+#: part/View.cpp:1868
 msgid "This name is already used."
 msgstr "Bu nom allaqachon mavjud."
 
-#: part/View.cpp:2013
+#: part/View.cpp:2018
 msgid "Sum: "
 msgstr "Yigʻindi: "
 
-#: part/View.cpp:2016
+#: part/View.cpp:2021
 msgid "Average: "
 msgstr "Oʻrtacha: "
 
-#: part/View.cpp:2019
+#: part/View.cpp:2024
 msgid "Min: "
 msgstr "Min: "
 
-#: part/View.cpp:2022
+#: part/View.cpp:2027
 msgid "Max: "
 msgstr "Maks: "
 
-#: part/View.cpp:2025
+#: part/View.cpp:2030
 #, fuzzy
 msgid "Count: "
 msgstr "Soni: "
 
-#: part/View.cpp:2028
+#: part/View.cpp:2033
 #, fuzzy
 msgid "CountA: "
 msgstr "CountA: "
@@ -19006,7 +18989,7 @@ msgstr "Yangi chegara rangini tanlash."
 msgid "Border Color"
 msgstr "Chegara rangi"
 
-#: ui/CellToolBase.cpp:350 ui/CellToolBase.cpp:1930
+#: ui/CellToolBase.cpp:350 ui/CellToolBase.cpp:1931
 #, fuzzy
 msgid "Wrap Text"
 msgstr "Matn"
@@ -19020,7 +19003,7 @@ msgstr "Matn"
 msgid "Make the cell text wrap onto multiple lines"
 msgstr ""
 
-#: ui/CellToolBase.cpp:356 ui/CellToolBase.cpp:1942
+#: ui/CellToolBase.cpp:356 ui/CellToolBase.cpp:1943
 #, fuzzy
 msgid "Vertical Text"
 msgstr "Metikal"
@@ -19279,7 +19262,7 @@ msgstr ""
 msgid "Cells..."
 msgstr "Kataklar:"
 
-#: ui/CellToolBase.cpp:537 ui/CellToolBase_p.cpp:1293
+#: ui/CellToolBase.cpp:537 ui/CellToolBase_p.cpp:1339
 msgid "Insert Cells..."
 msgstr "Kataklarni qoʻyish"
 
@@ -19598,7 +19581,7 @@ msgstr "Formula tanlash"
 msgid "Insert a function"
 msgstr "Funksiyani qoʻyish"
 
-#: ui/CellToolBase.cpp:736 ui/CellToolBase.cpp:2818
+#: ui/CellToolBase.cpp:736 ui/CellToolBase.cpp:2819
 msgid "Others..."
 msgstr "Boshqalar..."
 
@@ -19726,170 +19709,170 @@ msgstr "koʻproq"
 msgid "Set a manual page break before the row"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1143
+#: ui/CellToolBase.cpp:1125
 #, fuzzy
 #| msgctxt "Spreadsheet formula"
 #| msgid " Formula "
 msgid "Formula"
 msgstr " Formula "
 
-#: ui/CellToolBase.cpp:1148
+#: ui/CellToolBase.cpp:1130
 #, fuzzy
 #| msgid "April"
 msgid "Apply"
 msgstr "Aprel"
 
-#: ui/CellToolBase.cpp:1149
+#: ui/CellToolBase.cpp:1131
 #, fuzzy
 msgid "Apply changes"
 msgstr "Uslubni qoʻllash"
 
-#: ui/CellToolBase.cpp:1155
+#: ui/CellToolBase.cpp:1137
 msgid "Discard changes"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1608
+#: ui/CellToolBase.cpp:1609
 msgid "Create Style From Cell"
 msgstr "Uslubni katakdan yaratish"
 
-#: ui/CellToolBase.cpp:1617
+#: ui/CellToolBase.cpp:1618
 msgid "The style name cannot be empty."
 msgstr "Uslubning nomi boʻsh boʻlishi mumkin emas."
 
-#: ui/CellToolBase.cpp:1643 ui/CellToolBase.cpp:1657 ui/CellToolBase.cpp:1671
-#: ui/CellToolBase.cpp:1686 ui/CellToolBase.cpp:1700 ui/CellToolBase.cpp:1718
-#: ui/CellToolBase.cpp:1739 ui/CellToolBase.cpp:1752
+#: ui/CellToolBase.cpp:1644 ui/CellToolBase.cpp:1658 ui/CellToolBase.cpp:1672
+#: ui/CellToolBase.cpp:1687 ui/CellToolBase.cpp:1701 ui/CellToolBase.cpp:1719
+#: ui/CellToolBase.cpp:1740 ui/CellToolBase.cpp:1753
 #, fuzzy
 msgid "Change Font"
 msgstr "Formatni oʻzgartirish"
 
-#: ui/CellToolBase.cpp:1762
+#: ui/CellToolBase.cpp:1763
 #, fuzzy
 msgid "Change Text Color"
 msgstr "Matnni oʻzgartirish"
 
-#: ui/CellToolBase.cpp:1772 ui/CellToolBase.cpp:1782 ui/CellToolBase.cpp:1792
+#: ui/CellToolBase.cpp:1773 ui/CellToolBase.cpp:1783 ui/CellToolBase.cpp:1793
 msgid "Change Horizontal Alignment"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1802 ui/CellToolBase.cpp:1812 ui/CellToolBase.cpp:1822
+#: ui/CellToolBase.cpp:1803 ui/CellToolBase.cpp:1813 ui/CellToolBase.cpp:1823
 msgid "Change Vertical Alignment"
 msgstr ""
 
-#: ui/CellToolBase.cpp:1832 ui/CellToolBase.cpp:1845 ui/CellToolBase.cpp:1858
-#: ui/CellToolBase.cpp:1868 ui/CellToolBase.cpp:1878 ui/CellToolBase.cpp:1893
-#: ui/CellToolBase.cpp:1908 ui/CellToolBase_p.cpp:850
+#: ui/CellToolBase.cpp:1833 ui/CellToolBase.cpp:1846 ui/CellToolBase.cpp:1859
+#: ui/CellToolBase.cpp:1869 ui/CellToolBase.cpp:1879 ui/CellToolBase.cpp:1894
+#: ui/CellToolBase.cpp:1909 ui/CellToolBase_p.cpp:856
 #, fuzzy
 msgid "Change Border"
 msgstr "Chegara rangini oʻzgartirish"
 
-#: ui/CellToolBase.cpp:1979
+#: ui/CellToolBase.cpp:1980
 #, fuzzy
 msgid "Format Percent"
 msgstr "Foiz"
 
-#: ui/CellToolBase.cpp:1989
+#: ui/CellToolBase.cpp:1990
 msgid "Format Money"
 msgstr "Pulni koʻrinishi"
 
-#: ui/CellToolBase.cpp:2019
+#: ui/CellToolBase.cpp:2020
 msgid "Switch to uppercase"
 msgstr ""
 
-#: ui/CellToolBase.cpp:2029
+#: ui/CellToolBase.cpp:2030
 msgid "Switch to lowercase"
 msgstr ""
 
-#: ui/CellToolBase.cpp:2039
+#: ui/CellToolBase.cpp:2040
 #, fuzzy
 msgid "First letter uppercase"
 msgstr "Birinchi harfni bosh harfga &almashtirish"
 
-#: ui/CellToolBase.cpp:2049
+#: ui/CellToolBase.cpp:2050
 #, fuzzy
 msgid "Change Background Color"
 msgstr "Orqa fon rangi"
 
-#: ui/CellToolBase.cpp:2368 ui/CellToolBase_p.cpp:477
+#: ui/CellToolBase.cpp:2369 ui/CellToolBase_p.cpp:482
 #, fuzzy
 msgid "Clear Text"
 msgstr "Matnni oʻzgartirish"
 
-#: ui/CellToolBase.cpp:2428
+#: ui/CellToolBase.cpp:2429
 msgid "Edit Link"
 msgstr "Bogʻni tahrirlash"
 
-#: ui/CellToolBase.cpp:2482 ui/CellToolBase.cpp:2493 ui/CellToolBase.cpp:2515
-#: ui/CellToolBase.cpp:2793
+#: ui/CellToolBase.cpp:2483 ui/CellToolBase.cpp:2494 ui/CellToolBase.cpp:2516
+#: ui/CellToolBase.cpp:2794
 msgid "You must select multiple cells."
 msgstr ""
 
-#: ui/CellToolBase.cpp:2719
+#: ui/CellToolBase.cpp:2720
 msgid ""
 "No database drivers available.  To use this feature you need to install the "
 "necessary Qt 3 database drivers."
 msgstr ""
 
-#: ui/CellToolBase.cpp:3213
+#: ui/CellToolBase.cpp:3214
 #, fuzzy
 msgid "Replace"
 msgstr "Sentyabr"
 
-#: ui/CellToolBase_p.cpp:818
+#: ui/CellToolBase_p.cpp:824
 #, fuzzy
 msgid "Number Format"
 msgstr "Raqam"
 
-#: ui/CellToolBase_p.cpp:824
+#: ui/CellToolBase_p.cpp:830
 #, fuzzy
 msgid "Currency Format"
 msgstr "Pulning koʻrinishi: %1"
 
-#: ui/CellToolBase_p.cpp:830
+#: ui/CellToolBase_p.cpp:836
 #, fuzzy
 msgid "Percentage Format"
 msgstr "Foiz"
 
-#: ui/CellToolBase_p.cpp:835
+#: ui/CellToolBase_p.cpp:841
 #, fuzzy
 msgid "Time Format"
 msgstr "Vaqtning koʻrinishi"
 
-#: ui/CellToolBase_p.cpp:840
+#: ui/CellToolBase_p.cpp:846
 #, fuzzy
 msgid "Date Format"
 msgstr "Sananing koʻrinishi"
 
-#: ui/CellToolBase_p.cpp:845
+#: ui/CellToolBase_p.cpp:851
 #, fuzzy
 msgid "Scientific Format"
 msgstr "Ilmiy"
 
-#: ui/CellToolBase_p.cpp:1297
+#: ui/CellToolBase_p.cpp:1343
 #, fuzzy
 #| msgid "Insert Cells..."
 msgid "Delete Cells..."
 msgstr "Kataklarni qoʻyish"
 
-#: ui/CellToolBase_p.cpp:1301
+#: ui/CellToolBase_p.cpp:1347
 #, fuzzy
 msgid "Adjust Column"
 msgstr "Ustunni sozlash"
 
-#: ui/CellToolBase_p.cpp:1309
+#: ui/CellToolBase_p.cpp:1355
 msgid "Delete Columns"
 msgstr "Ustunlarni olib tashlash"
 
-#: ui/CellToolBase_p.cpp:1313
+#: ui/CellToolBase_p.cpp:1359
 #, fuzzy
 msgid "Adjust Row"
 msgstr "Qatorni sozlash"
 
-#: ui/CellToolBase_p.cpp:1321
+#: ui/CellToolBase_p.cpp:1367
 msgid "Delete Rows"
 msgstr "Satrlarni olib tashlash"
 
-#: ui/CellToolBase_p.cpp:1325
+#: ui/CellToolBase_p.cpp:1371
 msgid "Selection List..."
 msgstr "Tanlanganning roʻyxati"
 
@@ -19904,12 +19887,12 @@ msgstr "Ma&xsus belgi..."
 msgid "Insert the selected character in the text"
 msgstr "Tanlangan kataklarni birlashtirishni bekor qilish."
 
-#: ui/Editors.cpp:1768
+#: ui/Editors.cpp:1778
 #, fuzzy
 msgid "Select Single Cell"
 msgstr "Tanlangan varaqlar"
 
-#: ui/Editors.cpp:1770
+#: ui/Editors.cpp:1780
 #, fuzzy
 msgid "Select Multiple Cells"
 msgstr "Jadvallarni tanlang:"
@@ -19918,6 +19901,18 @@ msgstr "Jadvallarni tanlang:"
 #, kde-format
 msgid "Link %1 activated"
 msgstr ""
+
+#: ui/HyperlinkStrategy.cpp:98
+#, kde-format
+msgid ""
+"This link points to the program or script '%1'.\n"
+"Malicious programs can harm your computer. Are you sure that you want to run "
+"this program?"
+msgstr ""
+
+#: ui/HyperlinkStrategy.cpp:104
+msgid "Open Link?"
+msgstr "Bogʻni ochishni istaysizmi?"
 
 #: ui/MapViewModel.cpp:204
 #, fuzzy, kde-format
