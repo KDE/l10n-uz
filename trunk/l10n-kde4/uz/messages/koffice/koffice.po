@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-19 05:06+0200\n"
+"POT-Creation-Date: 2010-06-23 05:04+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1859,7 +1859,6 @@ msgid "Copy"
 msgstr "Tashkilot"
 
 #: pigment/compositeops/KoCompositeOpOver.h:61
-#: koreport/plugins/chart/KoReportItemChart.cpp:111
 msgid "Normal"
 msgstr "Oddiy"
 
@@ -2109,10 +2108,9 @@ msgid "Height"
 msgstr "&Uzunasi:"
 
 #: koreport/common/krsectiondata.cpp:108
-#: koreport/plugins/label/KoReportItemLabel.cpp:97
-#: koreport/plugins/chart/KoReportItemChart.cpp:133
-#: koreport/plugins/field/KoReportItemField.cpp:95
-#: koreport/plugins/text/KoReportItemText.cpp:122
+#: koreport/items/label/KoReportItemLabel.cpp:97
+#: koreport/items/field/KoReportItemField.cpp:95
+#: koreport/items/text/KoReportItemText.cpp:122
 #, fuzzy
 msgid "Background Color"
 msgstr "Soniya"
@@ -2136,30 +2134,30 @@ msgid "Object Name"
 msgstr "Obʼekt"
 
 #: koreport/common/KoReportItemLine.cpp:67
-#: koreport/plugins/label/KoReportItemLabel.cpp:104
-#: koreport/plugins/field/KoReportItemField.cpp:103
-#: koreport/plugins/text/KoReportItemText.cpp:125
-#: koreport/plugins/check/KoReportItemCheck.cpp:81
+#: koreport/items/label/KoReportItemLabel.cpp:104
+#: koreport/items/field/KoReportItemField.cpp:103
+#: koreport/items/text/KoReportItemText.cpp:125
+#: koreport/items/check/KoReportItemCheck.cpp:81
 #, fuzzy
 #| msgid "Line width:"
 msgid "Line Weight"
 msgstr "Chiziqning eni:"
 
 #: koreport/common/KoReportItemLine.cpp:68
-#: koreport/plugins/label/KoReportItemLabel.cpp:105
-#: koreport/plugins/field/KoReportItemField.cpp:104
-#: koreport/plugins/text/KoReportItemText.cpp:126
-#: koreport/plugins/check/KoReportItemCheck.cpp:82
+#: koreport/items/label/KoReportItemLabel.cpp:105
+#: koreport/items/field/KoReportItemField.cpp:104
+#: koreport/items/text/KoReportItemText.cpp:126
+#: koreport/items/check/KoReportItemCheck.cpp:82
 #, fuzzy
 #| msgid "More Line Colors..."
 msgid "Line Color"
 msgstr "Koʻproq chiziq ranglari"
 
 #: koreport/common/KoReportItemLine.cpp:69
-#: koreport/plugins/label/KoReportItemLabel.cpp:106
-#: koreport/plugins/field/KoReportItemField.cpp:105
-#: koreport/plugins/text/KoReportItemText.cpp:127
-#: koreport/plugins/check/KoReportItemCheck.cpp:83
+#: koreport/items/label/KoReportItemLabel.cpp:106
+#: koreport/items/field/KoReportItemField.cpp:105
+#: koreport/items/text/KoReportItemText.cpp:127
+#: koreport/items/check/KoReportItemCheck.cpp:83
 #, fuzzy
 #| msgid "St&yle"
 msgid "Line Style"
@@ -2354,7 +2352,6 @@ msgid "Delete"
 msgstr "Matnni oʻchirish"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:1178
-#: koreport/plugins/chart/KoReportItemChart.cpp:104
 #, fuzzy
 msgid "Line"
 msgstr "Atirgul"
@@ -2372,308 +2369,152 @@ msgid ""
 "properties to be seen."
 msgstr ""
 
-#: koreport/plugins/barcode/KoReportBarcodePlugin.cpp:34
-#, fuzzy
-#| msgid "Date Format"
-msgid "Barcode"
-msgstr "Sanani koʻrinishi"
-
-#: koreport/plugins/barcode/KoReportItemBarcode.cpp:108
-#: koreport/plugins/image/KoReportItemImage.cpp:110
-#: koreport/plugins/field/KoReportItemField.cpp:79
-#: koreport/plugins/text/KoReportItemText.cpp:108
-#: koreport/plugins/check/KoReportItemCheck.cpp:76
-msgid "Control Source"
-msgstr ""
-
-#: koreport/plugins/barcode/KoReportItemBarcode.cpp:111
-#: koreport/plugins/label/KoReportItemLabel.cpp:86
-#: koreport/plugins/field/KoReportItemField.cpp:84
-#: koreport/plugins/text/KoReportItemText.cpp:111
-#, fuzzy
-#| msgid "Left:"
-msgid "Left"
-msgstr "Chap:"
-
-#: koreport/plugins/barcode/KoReportItemBarcode.cpp:111
-#: koreport/plugins/label/KoReportItemLabel.cpp:86
-#: koreport/plugins/label/KoReportItemLabel.cpp:92
-#: koreport/plugins/field/KoReportItemField.cpp:84
-#: koreport/plugins/field/KoReportItemField.cpp:90
-#: koreport/plugins/text/KoReportItemText.cpp:111
-#: koreport/plugins/text/KoReportItemText.cpp:117
-#, fuzzy
-#| msgid "C&enter"
-msgid "Center"
-msgstr "&Markaz"
-
-#: koreport/plugins/barcode/KoReportItemBarcode.cpp:111
-#: koreport/plugins/label/KoReportItemLabel.cpp:86
-#: koreport/plugins/field/KoReportItemField.cpp:84
-#: koreport/plugins/text/KoReportItemText.cpp:111
-#, fuzzy
-msgid "Right"
-msgstr "&Oʻng"
-
-#: koreport/plugins/barcode/KoReportItemBarcode.cpp:112
-#: koreport/plugins/label/KoReportItemLabel.cpp:87
-#: koreport/plugins/field/KoReportItemField.cpp:85
-#: koreport/plugins/text/KoReportItemText.cpp:112
-#, fuzzy
-#| msgid "Vertical alignment:"
-msgid "Horizontal Alignment"
-msgstr "Boʻyiga tekislash:"
-
-#: koreport/plugins/barcode/KoReportItemBarcode.cpp:118
-#, fuzzy
-#| msgid "Date Format"
-msgid "Barcode Format"
-msgstr "Sanani koʻrinishi"
-
-#: koreport/plugins/barcode/KoReportItemBarcode.cpp:120
-msgid "Max Length"
-msgstr ""
-
-#: koreport/plugins/barcode/KoReportItemBarcode.cpp:120
-msgid "Maximum Barcode Length"
-msgstr ""
-
-#: koreport/plugins/label/KoReportItemLabel.cpp:82
+#: koreport/items/label/KoReportItemLabel.cpp:82
 #, fuzzy
 #| msgid "Completion"
 msgid "Caption"
 msgstr "Toʻldirish"
 
-#: koreport/plugins/label/KoReportItemLabel.cpp:92
-#: koreport/plugins/field/KoReportItemField.cpp:90
-#: koreport/plugins/text/KoReportItemText.cpp:117
+#: koreport/items/label/KoReportItemLabel.cpp:86
+#: koreport/items/field/KoReportItemField.cpp:84
+#: koreport/items/text/KoReportItemText.cpp:111
+#, fuzzy
+#| msgid "Left:"
+msgid "Left"
+msgstr "Chap:"
+
+#: koreport/items/label/KoReportItemLabel.cpp:86
+#: koreport/items/label/KoReportItemLabel.cpp:92
+#: koreport/items/field/KoReportItemField.cpp:84
+#: koreport/items/field/KoReportItemField.cpp:90
+#: koreport/items/text/KoReportItemText.cpp:111
+#: koreport/items/text/KoReportItemText.cpp:117
+#, fuzzy
+#| msgid "C&enter"
+msgid "Center"
+msgstr "&Markaz"
+
+#: koreport/items/label/KoReportItemLabel.cpp:86
+#: koreport/items/field/KoReportItemField.cpp:84
+#: koreport/items/text/KoReportItemText.cpp:111
+#, fuzzy
+msgid "Right"
+msgstr "&Oʻng"
+
+#: koreport/items/label/KoReportItemLabel.cpp:87
+#: koreport/items/field/KoReportItemField.cpp:85
+#: koreport/items/text/KoReportItemText.cpp:112
+#, fuzzy
+#| msgid "Vertical alignment:"
+msgid "Horizontal Alignment"
+msgstr "Boʻyiga tekislash:"
+
+#: koreport/items/label/KoReportItemLabel.cpp:92
+#: koreport/items/field/KoReportItemField.cpp:90
+#: koreport/items/text/KoReportItemText.cpp:117
 #, fuzzy
 msgid "Top"
 msgstr "Yuq&ori:"
 
-#: koreport/plugins/label/KoReportItemLabel.cpp:92
-#: koreport/plugins/field/KoReportItemField.cpp:90
-#: koreport/plugins/text/KoReportItemText.cpp:117
+#: koreport/items/label/KoReportItemLabel.cpp:92
+#: koreport/items/field/KoReportItemField.cpp:90
+#: koreport/items/text/KoReportItemText.cpp:117
 #, fuzzy
 #| msgid "Align Auto"
 msgid "Bottom"
 msgstr "Avtomatik tekislash"
 
-#: koreport/plugins/label/KoReportItemLabel.cpp:93
-#: koreport/plugins/field/KoReportItemField.cpp:91
-#: koreport/plugins/text/KoReportItemText.cpp:118
+#: koreport/items/label/KoReportItemLabel.cpp:93
+#: koreport/items/field/KoReportItemField.cpp:91
+#: koreport/items/text/KoReportItemText.cpp:118
 #, fuzzy
 #| msgid "Vertical alignment:"
 msgid "Vertical Alignment"
 msgstr "Boʻyiga tekislash:"
 
-#: koreport/plugins/label/KoReportItemLabel.cpp:95
-#: koreport/plugins/chart/KoReportItemChart.cpp:101
-#: koreport/plugins/field/KoReportItemField.cpp:93
-#: koreport/plugins/text/KoReportItemText.cpp:120
+#: koreport/items/label/KoReportItemLabel.cpp:95
+#: koreport/items/field/KoReportItemField.cpp:93
+#: koreport/items/text/KoReportItemText.cpp:120
 #, fuzzy
 msgid "Font"
 msgstr "Shrift:"
 
-#: koreport/plugins/label/KoReportItemLabel.cpp:98
-#: koreport/plugins/field/KoReportItemField.cpp:96
-#: koreport/plugins/text/KoReportItemText.cpp:123
-#: koreport/plugins/check/KoReportItemCheck.cpp:79
+#: koreport/items/label/KoReportItemLabel.cpp:98
+#: koreport/items/field/KoReportItemField.cpp:96
+#: koreport/items/text/KoReportItemText.cpp:123
+#: koreport/items/check/KoReportItemCheck.cpp:79
 #, fuzzy
 msgid "Foreground Color"
 msgstr "Soniya"
 
-#: koreport/plugins/label/KoReportItemLabel.cpp:99
-#: koreport/plugins/field/KoReportItemField.cpp:98
-#: koreport/plugins/text/KoReportItemText.cpp:128
+#: koreport/items/label/KoReportItemLabel.cpp:99
+#: koreport/items/field/KoReportItemField.cpp:98
+#: koreport/items/text/KoReportItemText.cpp:128
 #: widgets/KoColorPopupAction.cpp:85 widgets/KoUniColorChooser.cpp:418
 msgid "Opacity"
 msgstr ""
 
-#: koreport/plugins/label/KoReportLabelPlugin.cpp:33
+#: koreport/items/label/KoReportLabelPlugin.cpp:33
 #, fuzzy
 msgid "Label"
 msgstr "Qizil"
 
-#: koreport/plugins/shape/KoReportShapePlugin.cpp:34
-#: kopageapp/KoPADocumentModel.cpp:178
-#, fuzzy
-msgid "Shape"
-msgstr "Toʻlqin"
-
-#: koreport/plugins/chart/KoReportChartPlugin.cpp:34
-#, fuzzy
-msgid "Chart"
-msgstr "diagramma"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:97
-msgid "Data Source"
-msgstr ""
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:101
-#, fuzzy
-#| msgid "Select Font"
-msgid "Field Font"
-msgstr "Shriftni tanlash"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:104
-msgid "Bar"
-msgstr ""
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:104
-#, fuzzy
-#| msgid "Time"
-msgid "Pie"
-msgstr "Vaqt"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:104
-#, fuzzy
-msgid "Ring"
-msgstr "&Oʻng"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:104
-#, fuzzy
-#| msgid "Color:"
-msgid "Polar"
-msgstr "Rangi:"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:106
-#, fuzzy
-msgid "Chart Type"
-msgstr "Sana"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:111
-#, fuzzy
-#| msgid "Space"
-msgid "Stacked"
-msgstr "Boʻsh joy"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:111
-#, fuzzy
-#| msgid "Recent file:"
-msgid "Percent"
-msgstr "Yaqinda ochilgan fayllar:"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:111
-#, fuzzy
-#| msgid "Rows:"
-msgid "Rows"
-msgstr "Satrlar:"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:115
-msgid "Chart Sub Type"
-msgstr ""
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:120
-#: kotext/styles/KoStyleManager.cpp:80 kotext/styles/KoStyleManager.cpp:82
-#, fuzzy
-msgid "Default"
-msgstr "&Andoza"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:120
-#, fuzzy
-msgid "Rainbow"
-msgstr "Sian"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:120
-msgid "Subdued"
-msgstr ""
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:121
-#, fuzzy
-#| msgid "Bookmark name:"
-msgid "Color Scheme"
-msgstr "Xatchoʻpning nomi:"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:124
-msgctxt "Three dimensions"
-msgid "3D"
-msgstr ""
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:125
-#, fuzzy
-msgid "Antialiased"
-msgstr "Sarlavha"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:127
-msgid "X Axis Title"
-msgstr ""
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:128
-msgid "Y Axis Title"
-msgstr ""
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:130
-#, fuzzy
-#| msgid "Display le&vels:"
-msgid "Display Legend"
-msgstr "Dara&jalarni koʻrsatish:"
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:135
-msgid "Link Master"
-msgstr ""
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:136
-msgid "Fields from master data source"
-msgstr ""
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:137
-msgid "Link Child"
-msgstr ""
-
-#: koreport/plugins/chart/KoReportItemChart.cpp:138
-msgid "Fields from child data source"
-msgstr ""
-
-#: koreport/plugins/image/KoReportImagePlugin.cpp:32
+#: koreport/items/image/KoReportImagePlugin.cpp:32
 #, fuzzy
 msgid "Image"
 msgstr "Betga moslash"
 
-#: koreport/plugins/image/KoReportItemImage.cpp:114
+#: koreport/items/image/KoReportItemImage.cpp:110
+#: koreport/items/field/KoReportItemField.cpp:79
+#: koreport/items/text/KoReportItemText.cpp:108
+#: koreport/items/check/KoReportItemCheck.cpp:76
+msgid "Control Source"
+msgstr ""
+
+#: koreport/items/image/KoReportItemImage.cpp:114
 msgid "Clip"
 msgstr ""
 
-#: koreport/plugins/image/KoReportItemImage.cpp:114
+#: koreport/items/image/KoReportItemImage.cpp:114
 #, fuzzy
 #| msgid "Street:"
 msgid "Stretch"
 msgstr "Koʻcha:"
 
-#: koreport/plugins/image/KoReportItemImage.cpp:115
+#: koreport/items/image/KoReportItemImage.cpp:115
 #, fuzzy
 msgid "Resize Mode"
 msgstr "Tiklash"
 
-#: koreport/plugins/image/KoReportItemImage.cpp:117
+#: koreport/items/image/KoReportItemImage.cpp:117
 msgid "Static Image"
 msgstr ""
 
-#: koreport/plugins/field/KoReportFieldPlugin.cpp:32
+#: koreport/items/field/KoReportFieldPlugin.cpp:32
 #, fuzzy
 #| msgid "Field"
 msgid "Field"
 msgstr "Maydon"
 
-#: koreport/plugins/field/KoReportItemField.cpp:109
+#: koreport/items/field/KoReportItemField.cpp:109
 msgid "Track Total"
 msgstr ""
 
-#: koreport/plugins/field/KoReportItemField.cpp:110
+#: koreport/items/field/KoReportItemField.cpp:110
 msgid "Track Builtin Format"
 msgstr ""
 
-#: koreport/plugins/field/KoReportItemField.cpp:111
+#: koreport/items/field/KoReportItemField.cpp:111
 msgid "Use Sub Total"
 msgstr ""
 
-#: koreport/plugins/field/KoReportItemField.cpp:112
+#: koreport/items/field/KoReportItemField.cpp:112
 #, fuzzy
 #| msgid "Date Format"
 msgid "Track Total Format"
 msgstr "Sanani koʻrinishi"
 
-#: koreport/plugins/text/KoReportTextPlugin.cpp:32
+#: koreport/items/text/KoReportTextPlugin.cpp:32
 #: widgets/KoCsvImportDialog.cpp:216 widgets/KoCsvImportDialog.cpp:568
 #: kotext/KoTextEditor.cpp:105 kotext/KoTextEditor.cpp:161
 #: kotext/KoTextEditor.cpp:319
@@ -2681,25 +2522,25 @@ msgstr "Sanani koʻrinishi"
 msgid "Text"
 msgstr "Matnni qoʻshish"
 
-#: koreport/plugins/check/KoReportCheckPlugin.cpp:32
+#: koreport/items/check/KoReportCheckPlugin.cpp:32
 msgid "Check"
 msgstr ""
 
-#: koreport/plugins/check/KoReportItemCheck.cpp:73
+#: koreport/items/check/KoReportItemCheck.cpp:73
 #, fuzzy
 #| msgid "Colors"
 msgid "Cross"
 msgstr "Ranglar"
 
-#: koreport/plugins/check/KoReportItemCheck.cpp:73
+#: koreport/items/check/KoReportItemCheck.cpp:73
 msgid "Tick"
 msgstr ""
 
-#: koreport/plugins/check/KoReportItemCheck.cpp:73
+#: koreport/items/check/KoReportItemCheck.cpp:73
 msgid "Dot"
 msgstr ""
 
-#: koreport/plugins/check/KoReportItemCheck.cpp:74
+#: koreport/items/check/KoReportItemCheck.cpp:74
 #, fuzzy
 #| msgid "St&yle"
 msgid "Style"
@@ -3130,6 +2971,11 @@ msgstr "Qizil"
 #| msgid "Group:"
 msgid "Group"
 msgstr "Guruh:"
+
+#: kopageapp/KoPADocumentModel.cpp:178
+#, fuzzy
+msgid "Shape"
+msgstr "Toʻlqin"
 
 #: kopageapp/KoPADocumentModel.cpp:291
 #, fuzzy
@@ -3658,6 +3504,11 @@ msgstr "Masofadagi manzil uchun direktoriya usuli qoʻllanilmaydi."
 #: odf/KoStore.cpp:183
 msgid "KOffice Storage"
 msgstr "KOffice ombori"
+
+#: kotext/styles/KoStyleManager.cpp:80 kotext/styles/KoStyleManager.cpp:82
+#, fuzzy
+msgid "Default"
+msgstr "&Andoza"
 
 #: kotext/InsertTextLocator.cpp:29
 msgid "Index Reference"
@@ -4953,6 +4804,76 @@ msgstr "Soniya"
 #: rc.cpp:593
 msgid "Display shapes of master"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Date Format"
+#~ msgid "Barcode"
+#~ msgstr "Sanani koʻrinishi"
+
+#, fuzzy
+#~| msgid "Date Format"
+#~ msgid "Barcode Format"
+#~ msgstr "Sanani koʻrinishi"
+
+#, fuzzy
+#~ msgid "Chart"
+#~ msgstr "diagramma"
+
+#, fuzzy
+#~| msgid "Select Font"
+#~ msgid "Field Font"
+#~ msgstr "Shriftni tanlash"
+
+#, fuzzy
+#~| msgid "Time"
+#~ msgid "Pie"
+#~ msgstr "Vaqt"
+
+#, fuzzy
+#~ msgid "Ring"
+#~ msgstr "&Oʻng"
+
+#, fuzzy
+#~| msgid "Color:"
+#~ msgid "Polar"
+#~ msgstr "Rangi:"
+
+#, fuzzy
+#~ msgid "Chart Type"
+#~ msgstr "Sana"
+
+#, fuzzy
+#~| msgid "Space"
+#~ msgid "Stacked"
+#~ msgstr "Boʻsh joy"
+
+#, fuzzy
+#~| msgid "Recent file:"
+#~ msgid "Percent"
+#~ msgstr "Yaqinda ochilgan fayllar:"
+
+#, fuzzy
+#~| msgid "Rows:"
+#~ msgid "Rows"
+#~ msgstr "Satrlar:"
+
+#, fuzzy
+#~ msgid "Rainbow"
+#~ msgstr "Sian"
+
+#, fuzzy
+#~| msgid "Bookmark name:"
+#~ msgid "Color Scheme"
+#~ msgstr "Xatchoʻpning nomi:"
+
+#, fuzzy
+#~ msgid "Antialiased"
+#~ msgstr "Sarlavha"
+
+#, fuzzy
+#~| msgid "Display le&vels:"
+#~ msgid "Display Legend"
+#~ msgstr "Dara&jalarni koʻrsatish:"
 
 #, fuzzy
 #~ msgid "Form"
