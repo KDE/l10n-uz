@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-25 05:07+0200\n"
+"POT-Creation-Date: 2010-08-26 05:55+0200\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2934,7 +2934,25 @@ msgstr[0] ""
 msgid "Search Plugins"
 msgstr "Ustunlarda qidirish"
 
-#: kutils/kcmultidialog.cpp:163 kdeui/dialogs/kconfigdialog.cpp:69
+#: kutils/kcmultidialog.cpp:59
+#, fuzzy
+#| msgid ""
+#| "The document \"%1\" has been modified.\n"
+#| "Do you want to save your changes or discard them?"
+msgid ""
+"The settings of the current module have changed.\n"
+"Do you want to apply the changes or discard them?"
+msgstr ""
+"'%1' hujjatiga oʻzgarish kiritildi.\n"
+"Uni saqlashni istaysizmi?"
+
+#: kutils/kcmultidialog.cpp:61
+#, fuzzy
+#| msgid "Apply settings"
+msgid "Apply Settings"
+msgstr "Moslamalarni qoʻllash"
+
+#: kutils/kcmultidialog.cpp:217 kdeui/dialogs/kconfigdialog.cpp:69
 msgid "Configure"
 msgstr "Moslash"
 
@@ -4315,11 +4333,11 @@ msgstr ""
 "\n"
 "Argumentlar:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1589
+#: kdecore/kernel/kcmdlineargs.cpp:1587
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr ""
 
-#: kdecore/kernel/kcmdlineargs.cpp:1590
+#: kdecore/kernel/kcmdlineargs.cpp:1588
 msgid "KDE-tempfile"
 msgstr ""
 
@@ -8810,7 +8828,7 @@ msgstr ""
 msgid "Internally added if launched from Finder"
 msgstr ""
 
-#: kdeui/kernel/kapplication.cpp:829
+#: kdeui/kernel/kapplication.cpp:827
 #, fuzzy, kde-format
 msgid "The style '%1' was not found"
 msgstr "Uslub %1 topilmadi.\n"
@@ -18139,9 +18157,6 @@ msgstr "&Kun maslahati"
 #~ "Agar <b>Qoʻllash</b> bosilsa, moslamalar\n"
 #~ "dasturga uzatiladi ammo muloqat oynasi yopilmaydi.\n"
 #~ "Bundan turli moslamalarni sinab koʻrish uchun foydalaning."
-
-#~ msgid "Apply settings"
-#~ msgstr "Moslamalarni qoʻllash"
 
 #~ msgctxt "min toolbar"
 #~ msgid "Flat"
