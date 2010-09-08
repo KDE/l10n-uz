@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-31 01:23+0200\n"
+"POT-Creation-Date: 2010-09-08 01:43+0200\n"
 "PO-Revision-Date: 2007-01-01 23:26+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2927,7 +2927,7 @@ msgid "Export Contacts on change"
 msgstr "Aloqalarni eksport qilish"
 
 #: protocols/gadu/gaduaccount.cpp:387 protocols/winpopup/wpaccount.cpp:187
-#: protocols/skype/skypeaccount.cpp:968 libkopete/kopeteaccount.cpp:440
+#: protocols/skype/skypeaccount.cpp:968 libkopete/kopeteaccount.cpp:446
 #, fuzzy
 msgid "Properties"
 msgstr "Xossa&lar"
@@ -5352,7 +5352,7 @@ msgstr ""
 msgid "Jabber Resource Selector"
 msgstr ""
 
-#: protocols/jabber/jabbertransport.cpp:136 libkopete/kopeteaccount.cpp:434
+#: protocols/jabber/jabbertransport.cpp:136 libkopete/kopeteaccount.cpp:440
 #, kde-format
 msgid "%2 <%1>"
 msgstr "%2 <%1>"
@@ -5799,7 +5799,7 @@ msgstr "Vaqt zonasi"
 #. i18n: ectx: property (text), widget (QLineEdit, mResource)
 #: protocols/oscar/liboscar/userdetails.cpp:600
 #: protocols/irc/ui/irceditaccountwidget.cpp:280 kopete/main.cpp:32
-#: kopete/kopetewindow.cpp:1057 rc.cpp:3249
+#: kopete/kopetewindow.cpp:1067 rc.cpp:3249
 msgid "Kopete"
 msgstr "Kopete"
 
@@ -8511,7 +8511,7 @@ msgid "Status Title"
 msgstr "Holati"
 
 #: kopete/contactlist/contactlistlayoutmanager.cpp:61
-#: kopete/kopetewindow.cpp:1296 libkopete/kopeteglobal.cpp:159
+#: kopete/kopetewindow.cpp:1306 libkopete/kopeteglobal.cpp:159
 msgid "Status Message"
 msgstr ""
 
@@ -8746,7 +8746,7 @@ msgid "Make Meta Contact"
 msgstr "Meta aloqa"
 
 #: kopete/contactlist/kopetecontactlistview.cpp:959
-#: kopete/kopetewindow.cpp:1331
+#: kopete/kopetewindow.cpp:1341
 msgid "Add Contact"
 msgstr "Aloqani qoʻshish"
 
@@ -10232,7 +10232,7 @@ msgstr ""
 msgid "Docking in System Tray"
 msgstr ""
 
-#: kopete/kopetewindow.cpp:1052
+#: kopete/kopetewindow.cpp:1062
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
@@ -10244,18 +10244,18 @@ msgctxt ""
 "Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</i>)"
 "</nobr><br />"
 msgid ""
-"<nobr><img src=\"kopete-account-icon:%3:%4\" /> <b>%1:</b> %2 (<i>%5</i>)</"
-"nobr><br />"
+"<nobr><img src=\"%3\" width=\"16\" height=\"16\" /> <b>%1:</b> %2 (<i>%4</i>)"
+"</nobr><br />"
 msgstr ""
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)<br/>"
 
-#: kopete/kopetewindow.cpp:1283
+#: kopete/kopetewindow.cpp:1293
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted status title"
 msgid "<b>Status&nbsp;Title:</b>&nbsp;%1"
 msgstr "<br><b>Joyida&nbsp;yoʻq&nbsp;xabari:</b>&nbsp;%1"
 
-#: kopete/kopetewindow.cpp:1286 libkopete/kopetecontact.cpp:657
+#: kopete/kopetewindow.cpp:1296 libkopete/kopetecontact.cpp:657
 #, fuzzy, kde-format
 msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
@@ -10752,195 +10752,195 @@ msgstr "Imloni avto-tekshirish"
 msgid "Off"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:128
-#: libkopete/avdevice/videodevice.cpp:3014
+#: libkopete/avdevice/videodevice.cpp:127
+#: libkopete/avdevice/videodevice.cpp:3013
 #, fuzzy
 #| msgid "Brightness:"
 msgid "Brightness"
 msgstr "Yorugʻlik:"
 
-#: libkopete/avdevice/videodevice.cpp:131
-#: libkopete/avdevice/videodevice.cpp:3017
+#: libkopete/avdevice/videodevice.cpp:130
+#: libkopete/avdevice/videodevice.cpp:3016
 msgid "Hue"
 msgstr ""
 
 #. i18n: file: protocols/wlm/ui/wlmchatsessioninkpopup.ui:57
 #. i18n: ectx: property (text), widget (QPushButton, color_btn)
-#: libkopete/avdevice/videodevice.cpp:134 rc.cpp:872
+#: libkopete/avdevice/videodevice.cpp:133 rc.cpp:872
 #, fuzzy
 #| msgid "Colors"
 msgid "Color"
 msgstr "Ranglar"
 
-#: libkopete/avdevice/videodevice.cpp:137
-#: libkopete/avdevice/videodevice.cpp:3015
+#: libkopete/avdevice/videodevice.cpp:136
+#: libkopete/avdevice/videodevice.cpp:3014
 #, fuzzy
 #| msgid "Contrast:"
 msgid "Contrast"
 msgstr "Kontrast:"
 
-#: libkopete/avdevice/videodevice.cpp:140
+#: libkopete/avdevice/videodevice.cpp:139
 #, fuzzy
 #| msgid "Server messages:"
 msgid "Whiteness"
 msgstr "Server xabari:"
 
-#: libkopete/avdevice/videodevice.cpp:155
+#: libkopete/avdevice/videodevice.cpp:154
 #, fuzzy
 #| msgid "Au&tomatic brightness/contrast adjustment"
 msgid "Automatic Brightness/Contrast Correction"
 msgstr "Yorugʻlik/kontrastni a&vto-moslash"
 
-#: libkopete/avdevice/videodevice.cpp:158
+#: libkopete/avdevice/videodevice.cpp:157
 #, fuzzy
 #| msgid "Automatic color correction"
 msgid "Automatic Color Correction"
 msgstr "Rangni avto-toʻgʻrilash"
 
-#: libkopete/avdevice/videodevice.cpp:163
-#: libkopete/avdevice/videodevice.cpp:3034
+#: libkopete/avdevice/videodevice.cpp:162
+#: libkopete/avdevice/videodevice.cpp:3033
 msgid "Vertical Flip"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:169
-#: libkopete/avdevice/videodevice.cpp:3033
+#: libkopete/avdevice/videodevice.cpp:168
+#: libkopete/avdevice/videodevice.cpp:3032
 msgid "Horizontal Flip"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3016
+#: libkopete/avdevice/videodevice.cpp:3015
 #, fuzzy
 #| msgid "Registration"
 msgid "Saturation"
 msgstr "Roʻyxatdan oʻtish"
 
-#: libkopete/avdevice/videodevice.cpp:3018
+#: libkopete/avdevice/videodevice.cpp:3017
 #, fuzzy
 #| msgid "Value"
 msgid "Volume"
 msgstr "Qiymati"
 
-#: libkopete/avdevice/videodevice.cpp:3019
+#: libkopete/avdevice/videodevice.cpp:3018
 #, fuzzy
 msgid "Balance"
 msgstr "Kanal"
 
-#: libkopete/avdevice/videodevice.cpp:3020
+#: libkopete/avdevice/videodevice.cpp:3019
 #, fuzzy
 #| msgid "&Basic"
 msgid "Bass"
 msgstr "&Oddiy"
 
-#: libkopete/avdevice/videodevice.cpp:3021
+#: libkopete/avdevice/videodevice.cpp:3020
 msgid "Treble"
 msgstr ""
 
 #. i18n: file: protocols/jabber/googletalk/googletalkcalldialog.ui:63
 #. i18n: ectx: property (text), widget (QPushButton, muteButton)
-#: libkopete/avdevice/videodevice.cpp:3022 rc.cpp:2849
+#: libkopete/avdevice/videodevice.cpp:3021 rc.cpp:2849
 msgid "Mute"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3023
+#: libkopete/avdevice/videodevice.cpp:3022
 msgid "Loudness"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3024
+#: libkopete/avdevice/videodevice.cpp:3023
 #, fuzzy
 #| msgid "Top Level"
 msgid "Black Level"
 msgstr "Eng yuqori daraja"
 
-#: libkopete/avdevice/videodevice.cpp:3025
+#: libkopete/avdevice/videodevice.cpp:3024
 msgid "Automatic White Balance"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3026
+#: libkopete/avdevice/videodevice.cpp:3025
 msgid "Do White Balance"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3027
+#: libkopete/avdevice/videodevice.cpp:3026
 msgid "Red Balance"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3028
+#: libkopete/avdevice/videodevice.cpp:3027
 msgid "Blue Balance"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3029
+#: libkopete/avdevice/videodevice.cpp:3028
 #, fuzzy
 #| msgid "Games"
 msgid "Gamma"
 msgstr "Oʻyinlar"
 
-#: libkopete/avdevice/videodevice.cpp:3030
+#: libkopete/avdevice/videodevice.cpp:3029
 #, fuzzy
 msgid "Exposure"
 msgstr "&port:"
 
-#: libkopete/avdevice/videodevice.cpp:3031
+#: libkopete/avdevice/videodevice.cpp:3030
 #, fuzzy
 #| msgid "Automatic Spell Checking"
 msgid "Automatic Gain"
 msgstr "Imloni avto-tekshirish"
 
-#: libkopete/avdevice/videodevice.cpp:3032
+#: libkopete/avdevice/videodevice.cpp:3031
 #, fuzzy
 #| msgid "German"
 msgid "Gain"
 msgstr "Olmoncha"
 
-#: libkopete/avdevice/videodevice.cpp:3035
+#: libkopete/avdevice/videodevice.cpp:3034
 #, fuzzy
 #| msgid "Align &Center"
 msgid "Horizontal Center"
 msgstr "&Markazda"
 
-#: libkopete/avdevice/videodevice.cpp:3036
+#: libkopete/avdevice/videodevice.cpp:3035
 msgid "Vertical Center"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3038
+#: libkopete/avdevice/videodevice.cpp:3037
 msgid "Power Line Frequency"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3039
+#: libkopete/avdevice/videodevice.cpp:3038
 msgid "Automatic Hue"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3040
+#: libkopete/avdevice/videodevice.cpp:3039
 msgid "White Balance Temperature"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3041
+#: libkopete/avdevice/videodevice.cpp:3040
 msgid "Sharpness"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3042
+#: libkopete/avdevice/videodevice.cpp:3041
 #, fuzzy
 #| msgid "Nic&k Completion"
 msgid "Backlight Compensation"
 msgstr "Taxal&lusni avto-toʻldirish"
 
-#: libkopete/avdevice/videodevice.cpp:3045
+#: libkopete/avdevice/videodevice.cpp:3044
 msgid "Chroma AGC"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3046
+#: libkopete/avdevice/videodevice.cpp:3045
 msgid "Color Killer"
 msgstr ""
 
-#: libkopete/avdevice/videodevice.cpp:3049
+#: libkopete/avdevice/videodevice.cpp:3048
 #, fuzzy
 #| msgid "Effects"
 msgid "Color Effects"
 msgstr "Effektlar"
 
-#: libkopete/avdevice/videodevice.cpp:3052
+#: libkopete/avdevice/videodevice.cpp:3051
 #, fuzzy
 msgid "Rotate"
 msgstr "Viloyat:"
 
-#: libkopete/avdevice/videodevice.cpp:3053
+#: libkopete/avdevice/videodevice.cpp:3052
 #, fuzzy
 #| msgid "Background color:"
 msgid "Background color"
@@ -11387,16 +11387,16 @@ msgid ""
 "will not function."
 msgstr ""
 
-#: libkopete/kopeteaccount.cpp:172
+#: libkopete/kopeteaccount.cpp:171
 msgid "You have been disconnected"
 msgstr "Aloqa uzildi"
 
-#: libkopete/kopeteaccount.cpp:172
+#: libkopete/kopeteaccount.cpp:171
 #, kde-format
 msgid "You have connected from another client or computer to the account '%1'"
 msgstr ""
 
-#: libkopete/kopeteaccount.cpp:172
+#: libkopete/kopeteaccount.cpp:171
 msgid ""
 "Most proprietary Instant Messaging services do not allow you to connect from "
 "more than one location. Check that nobody is using your account without your "
@@ -11404,18 +11404,18 @@ msgid ""
 "locations at the same time, use the Jabber protocol."
 msgstr ""
 
-#: libkopete/kopeteaccount.cpp:300 libkopete/kopeteaccount.cpp:374
+#: libkopete/kopeteaccount.cpp:306 libkopete/kopeteaccount.cpp:380
 #, kde-format
 msgid ""
 "You are not allowed to add yourself to the contact list. The addition of \"%1"
 "\" to account \"%2\" will not take place."
 msgstr ""
 
-#: libkopete/kopeteaccount.cpp:300 libkopete/kopeteaccount.cpp:374
+#: libkopete/kopeteaccount.cpp:306 libkopete/kopeteaccount.cpp:380
 msgid "Error Creating Contact"
 msgstr "Aloqa yaratishda xato"
 
-#: libkopete/kopeteaccount.cpp:609
+#: libkopete/kopeteaccount.cpp:615
 msgid "Edit Account"
 msgstr "Hisobni tahrirlash"
 
