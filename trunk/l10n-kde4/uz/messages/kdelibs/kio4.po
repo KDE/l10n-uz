@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-07 02:32+0200\n"
+"POT-Creation-Date: 2010-09-08 06:57+0200\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1818,7 +1818,7 @@ msgstr "\"%1\" nomli oʻxshash fayl allaqachon mavjud."
 msgid "A newer item named '%1' already exists."
 msgstr "\"%1\" nomli yangi element allaqachon mavjud."
 
-#: kio/renamedialog.cpp:387 kio/paste.cpp:228 kio/krun.cpp:1094
+#: kio/renamedialog.cpp:387 kio/paste.cpp:228 kio/krun.cpp:1122
 #: kio/kdirlister.cpp:329
 #, kde-format
 msgid ""
@@ -2362,46 +2362,46 @@ msgstr "Bu faylni ochishga sizda yetarli huquqlar yoʻq."
 msgid "Open with:"
 msgstr "Dastur bilan ochish:"
 
-#: kio/krun.cpp:529
+#: kio/krun.cpp:577
 msgid "You are not authorized to execute this file."
 msgstr "Bu faylni bajarishga sizda yetarli huquqlar yoʻq."
 
-#: kio/krun.cpp:552
+#: kio/krun.cpp:600
 #, kde-format
 msgid "Launching %1"
 msgstr "%1'ni ishga tushirish"
 
-#: kio/krun.cpp:660
+#: kio/krun.cpp:708
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr ""
 
-#: kio/krun.cpp:854
+#: kio/krun.cpp:882
 msgid "You are not authorized to execute this service."
 msgstr "Bu xizmatni bajarishga sizda yetarli huquqlar yoʻq."
 
-#: kio/krun.cpp:866
+#: kio/krun.cpp:894
 #, fuzzy
 #| msgid "Examining"
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr "Tekshirilmoqda"
 
-#: kio/krun.cpp:880
+#: kio/krun.cpp:908
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr ""
 
-#: kio/krun.cpp:894
+#: kio/krun.cpp:922
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 
-#: kio/krun.cpp:927
+#: kio/krun.cpp:955
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 
-#: kio/krun.cpp:1127
+#: kio/krun.cpp:1155
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -2410,7 +2410,7 @@ msgstr ""
 "<qt>Koʻrsatilgan buyruqni bajarib boʻlmadi. Fayl yoki jild (<b>%1</b>) "
 "mavjud emas.</qt>"
 
-#: kio/krun.cpp:1704
+#: kio/krun.cpp:1732
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "'%1' dasturini topib boʻlmadi."
@@ -3413,7 +3413,7 @@ msgstr "Ulangan:"
 msgid "Device usage:"
 msgstr "Uskuna:"
 
-#: kfile/kpropertiesdialog.cpp:1206
+#: kfile/kpropertiesdialog.cpp:1206 kfile/kpropertiesdialog.cpp:2941
 #, fuzzy, kde-format
 #| msgctxt "Available space out of total partition size (percent used)"
 #| msgid "%1 out of %2 (%3% used)"
@@ -3789,12 +3789,6 @@ msgstr "Ulash nuqtasi:"
 #: kfile/kpropertiesdialog.cpp:2819
 msgid "Unmounted Icon"
 msgstr "\"Ajratilgan\" nishonchasi"
-
-#: kfile/kpropertiesdialog.cpp:2941
-#, kde-format
-msgctxt "Available space out of total partition size (percent used)"
-msgid "%1 out of %2 (%3% used)"
-msgstr "%2'dan %1 (%3% ishlatilgan)"
 
 #: kfile/kpropertiesdialog.cpp:3040
 msgid "&Application"
@@ -6482,6 +6476,10 @@ msgstr ""
 #: ../kfile/kfiletreeview.cpp:187
 msgid "Show Hidden Folders"
 msgstr "Yashirilgan jildlarni koʻrsatish"
+
+#~ msgctxt "Available space out of total partition size (percent used)"
+#~ msgid "%1 out of %2 (%3% used)"
+#~ msgstr "%2'dan %1 (%3% ishlatilgan)"
 
 #, fuzzy
 #~| msgid "Folders"
