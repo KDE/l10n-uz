@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-18 06:05+0200\n"
+"POT-Creation-Date: 2010-09-19 06:07+0200\n"
 "PO-Revision-Date: 2006-12-17 12:02+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -460,11 +460,11 @@ msgstr "Hujjatni yopish"
 msgid "Save As"
 msgstr "...sifatida s&aqlash"
 
-#: app/katedocmanager.cpp:504 app/katemainwindow.cpp:482
+#: app/katedocmanager.cpp:504 app/katemainwindow.cpp:435
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr ""
 
-#: app/katedocmanager.cpp:505 app/katemainwindow.cpp:483
+#: app/katedocmanager.cpp:505 app/katemainwindow.cpp:436
 msgid "Closing Aborted"
 msgstr "Yopish toʻxtatildi"
 
@@ -480,19 +480,19 @@ msgstr "Oxirgi seansning fayllari qaytadan ochilmoqda..."
 msgid "Errors/Warnings while opening documents"
 msgstr ""
 
-#: app/kateappcommands.cpp:76
+#: app/kateappcommands.cpp:78
 #, fuzzy
 #| msgid "Documents Modified on Disk"
 msgid "All documents written to disk"
 msgstr "Hujjat diskda oʻzgardi"
 
-#: app/kateappcommands.cpp:79
+#: app/kateappcommands.cpp:81
 #, fuzzy
 #| msgid "Documents Modified on Disk"
 msgid "Document written to disk"
 msgstr "Hujjat diskda oʻzgardi"
 
-#: app/kateappcommands.cpp:144
+#: app/kateappcommands.cpp:150
 msgid ""
 "<p><b>w/wa &mdash; write document(s) to disk</b></p><p>Usage: <tt><b>w[a]</"
 "b></tt></p><p>Writes the current document(s) to disk. It can be called in "
@@ -501,7 +501,7 @@ msgid ""
 "associated with the document, a file dialog will be shown.</p>"
 msgstr ""
 
-#: app/kateappcommands.cpp:155
+#: app/kateappcommands.cpp:161
 msgid ""
 "<p><b>q/qa/wq/wqa &mdash; [write and] quit</b></p><p>Usage: <tt><b>[w]q[a]</"
 "b></tt></p><p>Quits the application. If <tt>w</tt> is prepended, it also "
@@ -515,7 +515,7 @@ msgid ""
 "disk, a file dialog will be shown.</p>"
 msgstr ""
 
-#: app/kateappcommands.cpp:170
+#: app/kateappcommands.cpp:176
 msgid ""
 "<p><b>x/xa &mdash; write and quit</b></p><p>Usage: <tt><b>x[a]</b></tt></"
 "p><p>Saves document(s) and quits (e<b>x</b>its). This command can be called "
@@ -527,7 +527,7 @@ msgid ""
 "command only writes the document if it is modified.</p>"
 msgstr ""
 
-#: app/kateappcommands.cpp:184
+#: app/kateappcommands.cpp:190
 msgid ""
 "<p><b>bp/bn &mdash; switch to previous/next document</b></p><p>Usage: "
 "<tt><b>bp/bn</b></tt></p><p>Goes to <b>p</b>revious or <b>n</b>ext document "
@@ -538,7 +538,7 @@ msgid ""
 "end up at the first and vice versa.</p>"
 msgstr ""
 
-#: app/kateappcommands.cpp:197
+#: app/kateappcommands.cpp:203
 msgid ""
 "<p><b>[v]new &mdash; split view and create new document</b></p><p>Usage: "
 "<tt><b>[v]new</b></tt></p><p>Splits the current view and opens a new "
@@ -548,7 +548,7 @@ msgid ""
 "document.<br /></p>"
 msgstr ""
 
-#: app/kateappcommands.cpp:207
+#: app/kateappcommands.cpp:213
 msgid ""
 "<p><b>e[dit] &mdash; reload current document</b></p><p>Usage: <tt><b>e[dit]</"
 "b></tt></p><p>Starts <b>e</b>diting the current document again. This is "
@@ -943,15 +943,15 @@ msgstr ""
 msgid "Document to open"
 msgstr "Ochish uchun hujjat"
 
-#: app/kateconfigdialog.cpp:59
+#: app/kateconfigdialog.cpp:58
 msgid "Configure"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:70
+#: app/kateconfigdialog.cpp:69
 msgid "Application"
 msgstr "Dastur"
 
-#: app/kateconfigdialog.cpp:72
+#: app/kateconfigdialog.cpp:71
 #, fuzzy
 msgid "Application Options"
 msgstr "Dastur"
@@ -1041,33 +1041,25 @@ msgstr "&Oxirgi ishlatilgan seansni yuklash"
 msgid "&Manually choose a session"
 msgstr "&Seansni koʻlbola tanlash"
 
-#: app/kateconfigdialog.cpp:199
-msgid "Document List"
-msgstr "Hujjatlar roʻyxati"
-
-#: app/kateconfigdialog.cpp:200
-msgid "Document List Settings"
-msgstr "Hujjat roʻyxatining moslamasi"
-
-#: app/kateconfigdialog.cpp:211
+#: app/kateconfigdialog.cpp:203
 msgid "Plugins"
 msgstr "Plaginlar"
 
-#: app/kateconfigdialog.cpp:212
+#: app/kateconfigdialog.cpp:204
 msgid "Plugin Manager"
 msgstr "Plagin boshqaruvchisi"
 
-#: app/kateconfigdialog.cpp:225
+#: app/kateconfigdialog.cpp:217
 #, fuzzy
 msgid "Editor Component"
 msgstr "Tahrirchi komponentini tanlash"
 
-#: app/kateconfigdialog.cpp:227
+#: app/kateconfigdialog.cpp:219
 #, fuzzy
 msgid "Editor Component Options"
 msgstr "Tahrirchi komponentini tanlash"
 
-#: app/kateconfigdialog.cpp:412
+#: app/kateconfigdialog.cpp:399
 #, fuzzy
 #| msgid " day(s)"
 msgctxt "The suffix of 'Delete unused meta-information after'"
@@ -1075,125 +1067,21 @@ msgid " day"
 msgid_plural " days"
 msgstr[0] " kun"
 
-#: app/kateconfigplugindialogpage.cpp:69
+#: app/kateconfigplugindialogpage.cpp:71
 msgid "Name"
 msgstr "Nomi"
 
-#: app/kateconfigplugindialogpage.cpp:69
+#: app/kateconfigplugindialogpage.cpp:71
 msgid "Comment"
 msgstr "Izoh"
 
-#: app/kateconfigplugindialogpage.cpp:71
+#: app/kateconfigplugindialogpage.cpp:73
 msgid ""
 "Here you can see all available Kate plugins. Those with a check mark are "
 "loaded, and will be loaded again the next time Kate is started."
 msgstr ""
 "Bu yerda, hamma mavjud boʻlgan plaginlarini koʻrishingiz mumkin. Belgilangan "
 "plaginlar yuklangan. Kate ishga tushganda ular yuklanadi."
-
-#: app/katefilelist.cpp:55 plugins/filetree/katefiletree.cpp:51
-#, fuzzy
-#| msgid "Clos&e All"
-msgid "Close"
-msgstr "Hammasini yo&pish"
-
-#: app/katefilelist.cpp:58 app/katemainwindow.cpp:327
-#: plugins/filetree/katefiletree.cpp:53
-msgid "Close the current document."
-msgstr "Joriy hujjatni yopish."
-
-#: app/katefilelist.cpp:61 app/katemainwindow.cpp:330
-#, fuzzy
-msgid "Close Other"
-msgstr "Joriy tabni yopish"
-
-#: app/katefilelist.cpp:63 app/katemainwindow.cpp:332
-#, fuzzy
-msgid "Close other open documents."
-msgstr "Hamma ochiq hujjatlarni yopish."
-
-#: app/katefilelist.cpp:66
-#, fuzzy
-#| msgid "&Save Selected"
-msgid "Close Selected"
-msgstr "Tanlanganni s&aqlash"
-
-#: app/katefilelist.cpp:68
-#, fuzzy
-msgid "Close selected open documents."
-msgstr "Hamma ochiq hujjatlarni yopish."
-
-#: app/katefilelist.cpp:71
-#, fuzzy
-#| msgid "&Save Selected"
-msgid "Save Selected"
-msgstr "Tanlanganni s&aqlash"
-
-#: app/katefilelist.cpp:73
-#, fuzzy
-msgid "Save selected open documents."
-msgstr "Hamma ochiq hujjatlarni yopish."
-
-#: app/katefilelist.cpp:75
-msgid "Sort &By"
-msgstr "&Saralash"
-
-#: app/katefilelist.cpp:78 app/katefilelist.cpp:307
-#: plugins/filetree/katefiletree.cpp:76
-#: plugins/filetree/katefiletreeconfigpage.cpp:74
-msgid "Opening Order"
-msgstr "Ochish tartibi"
-
-#: app/katefilelist.cpp:78 app/katefilelist.cpp:308
-#: plugins/filetree/katefiletree.cpp:67
-#: plugins/filetree/katefiletreeconfigpage.cpp:75
-msgid "Document Name"
-msgstr "Hujjatning nomi"
-
-#: app/katefilelist.cpp:78
-msgid "URL"
-msgstr "URL"
-
-#: app/katefilelist.cpp:78 app/katefilelist.cpp:310
-msgid "Custom"
-msgstr ""
-
-#: app/katefilelist.cpp:281 plugins/filetree/katefiletreeconfigpage.cpp:48
-msgid "Background Shading"
-msgstr ""
-
-#: app/katefilelist.cpp:288 plugins/filetree/katefiletreeconfigpage.cpp:55
-msgid "&Viewed documents' shade:"
-msgstr ""
-
-#: app/katefilelist.cpp:294 plugins/filetree/katefiletreeconfigpage.cpp:61
-msgid "&Modified documents' shade:"
-msgstr ""
-
-#: app/katefilelist.cpp:302 plugins/filetree/katefiletreeconfigpage.cpp:69
-msgid "&Sort by:"
-msgstr "&Saralash:"
-
-#: app/katefilelist.cpp:309 plugins/filetree/katefiletreeconfigpage.cpp:76
-msgid "Url"
-msgstr ""
-
-#: app/katefilelist.cpp:315 plugins/filetree/katefiletreeconfigpage.cpp:93
-msgid ""
-"When background shading is enabled, documents that have been viewed or "
-"edited within the current session will have a shaded background. The most "
-"recent documents have the strongest shade."
-msgstr ""
-
-#: app/katefilelist.cpp:319 plugins/filetree/katefiletreeconfigpage.cpp:97
-msgid "Set the color for shading viewed documents."
-msgstr ""
-
-#: app/katefilelist.cpp:321 plugins/filetree/katefiletreeconfigpage.cpp:99
-msgid ""
-"Set the color for modified documents. This color is blended into the color "
-"for viewed files. The most recently edited documents get most of this color."
-msgstr ""
 
 #: app/katemwmodonhddialog.cpp:65
 msgid "Documents Modified on Disk"
@@ -1298,33 +1186,29 @@ msgstr ""
 msgid "Diff Output"
 msgstr ""
 
-#: app/katemainwindow.cpp:239
+#: app/katemainwindow.cpp:229
 msgid "Use this command to show or hide the view's statusbar"
 msgstr ""
 "Koʻrinishning holat panelini koʻrsatish yoki bekitish uchun shu buyruqdan "
 "foydalaning"
 
-#: app/katemainwindow.cpp:241
+#: app/katemainwindow.cpp:231
 msgid "Sho&w Path"
 msgstr "Yoʻlni &koʻrsatish"
 
-#: app/katemainwindow.cpp:244
+#: app/katemainwindow.cpp:234
 msgid "Show the complete document path in the window caption"
 msgstr "Hujjatning toʻliq yoʻlini oynaning sarlavhasida koʻrsatish"
 
-#: app/katemainwindow.cpp:259 app/katesavemodifieddialog.cpp:202
-msgid "Documents"
-msgstr "Hujjatlar"
-
-#: app/katemainwindow.cpp:301
+#: app/katemainwindow.cpp:254
 msgid "Create a new document"
 msgstr "Yangi hujjatni yaratish"
 
-#: app/katemainwindow.cpp:303
+#: app/katemainwindow.cpp:256
 msgid "Open an existing document for editing"
 msgstr "Tahrirlash uchun mavjud hujjatni ochish"
 
-#: app/katemainwindow.cpp:307
+#: app/katemainwindow.cpp:260
 msgid ""
 "This lists files which you have opened recently, and allows you to easily "
 "open them again."
@@ -1332,62 +1216,76 @@ msgstr ""
 "Yaqinda ochilgan fayllarning roʻyxatini koʻrsatadi va ularni osongina ochish "
 "uchun imkoniyat yaratadi."
 
-#: app/katemainwindow.cpp:311
+#: app/katemainwindow.cpp:264
 msgid "Save A&ll"
 msgstr "Ha&mmasini saqlash"
 
-#: app/katemainwindow.cpp:314
+#: app/katemainwindow.cpp:267
 msgid "Save all open, modified documents to disk."
 msgstr "Hamma ochiq, oʻzgartirilgan hujjatlarni saqlash."
 
-#: app/katemainwindow.cpp:317
+#: app/katemainwindow.cpp:270
 msgid "&Reload All"
 msgstr ""
 
-#: app/katemainwindow.cpp:319
+#: app/katemainwindow.cpp:272
 #, fuzzy
 #| msgid "Close all open documents."
 msgid "Reload all open documents."
 msgstr "Hamma ochiq hujjatlarni yopish."
 
-#: app/katemainwindow.cpp:322
+#: app/katemainwindow.cpp:275
 #, fuzzy
 msgid "Close Orphaned"
 msgstr "Joriy tabni yopish"
 
-#: app/katemainwindow.cpp:324
+#: app/katemainwindow.cpp:277
 msgid ""
 "Close all documents in the file list that could not be reopened, because "
 "they are not accessible anymore."
 msgstr ""
 
-#: app/katemainwindow.cpp:335
+#: app/katemainwindow.cpp:280 plugins/filetree/katefiletree.cpp:53
+msgid "Close the current document."
+msgstr "Joriy hujjatni yopish."
+
+#: app/katemainwindow.cpp:283
+#, fuzzy
+msgid "Close Other"
+msgstr "Joriy tabni yopish"
+
+#: app/katemainwindow.cpp:285
+#, fuzzy
+msgid "Close other open documents."
+msgstr "Hamma ochiq hujjatlarni yopish."
+
+#: app/katemainwindow.cpp:288
 msgid "Clos&e All"
 msgstr "Hammasini yo&pish"
 
-#: app/katemainwindow.cpp:337
+#: app/katemainwindow.cpp:290
 msgid "Close all open documents."
 msgstr "Hamma ochiq hujjatlarni yopish."
 
-#: app/katemainwindow.cpp:342
+#: app/katemainwindow.cpp:295
 msgid "Close this window"
 msgstr "Shu oynani yopish"
 
-#: app/katemainwindow.cpp:346
+#: app/katemainwindow.cpp:299
 #, fuzzy
 msgid "&New Window"
 msgstr "&Oyna"
 
-#: app/katemainwindow.cpp:348
+#: app/katemainwindow.cpp:301
 msgid "Create a new Kate view (a new window with the same document list)."
 msgstr ""
 "Yangi Kate koʻrinishini (huddi shu hujjatlar bilan yangi oyna) yaratish."
 
-#: app/katemainwindow.cpp:354
+#: app/katemainwindow.cpp:307
 msgid "Open W&ith"
 msgstr "...bilan &ochish"
 
-#: app/katemainwindow.cpp:356
+#: app/katemainwindow.cpp:309
 msgid ""
 "Open the current document using another application registered for its file "
 "type, or an application of your choice."
@@ -1395,104 +1293,104 @@ msgstr ""
 "Joriy hujjatni ushbu fayl turi uchun qayd qilingan boshqa dastur yoki siz "
 "istagan dastur bilan ochish."
 
-#: app/katemainwindow.cpp:361
+#: app/katemainwindow.cpp:314
 msgid "Configure the application's keyboard shortcut assignments."
 msgstr "Dasturning tugmalar birikmasini moslash."
 
-#: app/katemainwindow.cpp:364
+#: app/katemainwindow.cpp:317
 msgid "Configure which items should appear in the toolbar(s)."
 msgstr "Asboblar panel(lar)ida qaysi element koʻrinishini moslash."
 
-#: app/katemainwindow.cpp:367
+#: app/katemainwindow.cpp:320
 msgid ""
 "Configure various aspects of this application and the editing component."
 msgstr "Dasturning xar hil parametrlarini va tahrirlash komponentini moslash."
 
-#: app/katemainwindow.cpp:371
+#: app/katemainwindow.cpp:324
 msgid "This shows useful tips on the use of this application."
 msgstr "Dasturni ishlatish haqida foydali maslahatlarni koʻrsatish."
 
-#: app/katemainwindow.cpp:376
+#: app/katemainwindow.cpp:329
 msgid "&Plugins Handbook"
 msgstr ""
 
-#: app/katemainwindow.cpp:378
+#: app/katemainwindow.cpp:331
 msgid "This shows help files for various available plugins."
 msgstr "Mavjud boʻlgan plaginlar uchun yordam fayllarini koʻrsatish."
 
-#: app/katemainwindow.cpp:382
+#: app/katemainwindow.cpp:335
 #, fuzzy
 msgid "&About Editor Component"
 msgstr "Tahrirchi komponentini tanlash"
 
-#: app/katemainwindow.cpp:397
+#: app/katemainwindow.cpp:350
 msgctxt "Menu entry Session->New"
 msgid "&New"
 msgstr "&Yangi"
 
-#: app/katemainwindow.cpp:402
+#: app/katemainwindow.cpp:355
 #, fuzzy
 #| msgid "Open Session"
 msgid "&Open Session"
 msgstr "Seansni ochish"
 
-#: app/katemainwindow.cpp:407
+#: app/katemainwindow.cpp:360
 #, fuzzy
 #| msgid "&Save session"
 msgid "&Save Session"
 msgstr "Sea&nsni saqlash"
 
-#: app/katemainwindow.cpp:411
+#: app/katemainwindow.cpp:364
 #, fuzzy
 #| msgid "Save Session?"
 msgid "Save Session &As..."
 msgstr "Seansni saqlashni istaysizmi?"
 
-#: app/katemainwindow.cpp:415
+#: app/katemainwindow.cpp:368
 #, fuzzy
 #| msgid "Save &As..."
 msgid "Save Session as &Default..."
 msgstr "...sifatida s&aqlash"
 
-#: app/katemainwindow.cpp:419
+#: app/katemainwindow.cpp:372
 #, fuzzy
 #| msgid "Manage Sessions"
 msgid "&Manage Sessions..."
 msgstr "Seanslarni boshqarish"
 
-#: app/katemainwindow.cpp:424
+#: app/katemainwindow.cpp:377
 #, fuzzy
 #| msgid "Open Session"
 msgid "&Quick Open Session"
 msgstr "Seansni ochish"
 
-#: app/katemainwindow.cpp:431
+#: app/katemainwindow.cpp:384
 msgid "This will close all open documents. Are you sure you want to continue?"
 msgstr ""
 
-#: app/katemainwindow.cpp:432
+#: app/katemainwindow.cpp:385
 #, fuzzy
 #| msgid "Close all open documents."
 msgid "Close all documents"
 msgstr "Hamma ochiq hujjatlarni yopish."
 
-#: app/katemainwindow.cpp:662
+#: app/katemainwindow.cpp:608
 #, kde-format
 msgctxt "'document name [*]', [*] means modified"
 msgid "%1 [*]"
 msgstr ""
 
-#: app/katemainwindow.cpp:828
+#: app/katemainwindow.cpp:777
 msgid "&Other..."
 msgstr "&Boshqa..."
 
-#: app/katemainwindow.cpp:854
+#: app/katemainwindow.cpp:803
 #, fuzzy, kde-format
 #| msgid "Application '%1' not found!"
 msgid "Application '%1' not found."
 msgstr "Dastur '%1' topilmadi."
 
-#: app/katemainwindow.cpp:854
+#: app/katemainwindow.cpp:803
 #, fuzzy
 msgid "Application not found"
 msgstr "Dastur topilmadi!"
@@ -1535,6 +1433,11 @@ msgstr "Manzil"
 #: app/katesavemodifieddialog.cpp:196
 msgid "Projects"
 msgstr "Loyihalar"
+
+#: app/katesavemodifieddialog.cpp:202
+#: plugins/filetree/katefiletreeplugin.cpp:159
+msgid "Documents"
+msgstr "Hujjatlar"
 
 #: app/katesavemodifieddialog.cpp:218
 msgid "Se&lect All"
@@ -1679,7 +1582,6 @@ msgid " BLOCK "
 msgstr ""
 
 #: plugins/filetree/katefiletreeplugin.cpp:48
-#: plugins/filetree/katefiletreeplugin.cpp:159
 #, fuzzy
 #| msgid "Document Name"
 msgid "Document Tree"
@@ -1692,6 +1594,12 @@ msgstr ""
 #: plugins/filetree/katefiletreeplugin.cpp:202
 msgid "&Show Active"
 msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:51
+#, fuzzy
+#| msgid "Clos&e All"
+msgid "Close"
+msgstr "Hammasini yo&pish"
 
 #: plugins/filetree/katefiletree.cpp:57
 msgid "Tree Mode"
@@ -1708,6 +1616,11 @@ msgstr ""
 #: plugins/filetree/katefiletree.cpp:62
 msgid "Set view style to List Mode"
 msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:67
+#: plugins/filetree/katefiletreeconfigpage.cpp:75
+msgid "Document Name"
+msgstr "Hujjatning nomi"
 
 #: plugins/filetree/katefiletree.cpp:68
 #, fuzzy
@@ -1727,6 +1640,11 @@ msgstr "Hujjatlar roʻyxati"
 msgid "Sort by Document Path"
 msgstr "Hamma hujja&tlarni koʻrsatish >>"
 
+#: plugins/filetree/katefiletree.cpp:76
+#: plugins/filetree/katefiletreeconfigpage.cpp:74
+msgid "Opening Order"
+msgstr "Ochish tartibi"
+
 #: plugins/filetree/katefiletree.cpp:77
 #, fuzzy
 #| msgid "Opening Order"
@@ -1741,6 +1659,26 @@ msgstr ""
 #, fuzzy
 msgid "Sort By"
 msgstr "&Saralash"
+
+#: plugins/filetree/katefiletreeconfigpage.cpp:48
+msgid "Background Shading"
+msgstr ""
+
+#: plugins/filetree/katefiletreeconfigpage.cpp:55
+msgid "&Viewed documents' shade:"
+msgstr ""
+
+#: plugins/filetree/katefiletreeconfigpage.cpp:61
+msgid "&Modified documents' shade:"
+msgstr ""
+
+#: plugins/filetree/katefiletreeconfigpage.cpp:69
+msgid "&Sort by:"
+msgstr "&Saralash:"
+
+#: plugins/filetree/katefiletreeconfigpage.cpp:76
+msgid "Url"
+msgstr ""
 
 #: plugins/filetree/katefiletreeconfigpage.cpp:82
 #, fuzzy
@@ -1757,6 +1695,23 @@ msgstr "Oldingi koʻrinish"
 #| msgid "Split Ve&rtical"
 msgid "List View"
 msgstr "&Boʻyiga boʻlish"
+
+#: plugins/filetree/katefiletreeconfigpage.cpp:93
+msgid ""
+"When background shading is enabled, documents that have been viewed or "
+"edited within the current session will have a shaded background. The most "
+"recent documents have the strongest shade."
+msgstr ""
+
+#: plugins/filetree/katefiletreeconfigpage.cpp:97
+msgid "Set the color for shading viewed documents."
+msgstr ""
+
+#: plugins/filetree/katefiletreeconfigpage.cpp:99
+msgid ""
+"Set the color for modified documents. This color is blended into the color "
+"for viewed files. The most recently edited documents get most of this color."
+msgstr ""
 
 #: plugins/gdbplugin/plugin_kategdb.cpp:55
 #, fuzzy
@@ -1896,6 +1851,36 @@ msgstr ""
 #: plugins/gdbplugin/configview.cpp:85
 msgid "Keep the focus on the command line"
 msgstr ""
+
+#~ msgid "Document List"
+#~ msgstr "Hujjatlar roʻyxati"
+
+#~ msgid "Document List Settings"
+#~ msgstr "Hujjat roʻyxatining moslamasi"
+
+#, fuzzy
+#~| msgid "&Save Selected"
+#~ msgid "Close Selected"
+#~ msgstr "Tanlanganni s&aqlash"
+
+#, fuzzy
+#~ msgid "Close selected open documents."
+#~ msgstr "Hamma ochiq hujjatlarni yopish."
+
+#, fuzzy
+#~| msgid "&Save Selected"
+#~ msgid "Save Selected"
+#~ msgstr "Tanlanganni s&aqlash"
+
+#, fuzzy
+#~ msgid "Save selected open documents."
+#~ msgstr "Hamma ochiq hujjatlarni yopish."
+
+#~ msgid "Sort &By"
+#~ msgstr "&Saralash"
+
+#~ msgid "URL"
+#~ msgstr "URL"
 
 #, fuzzy
 #~ msgid "Tabify Plugin"
