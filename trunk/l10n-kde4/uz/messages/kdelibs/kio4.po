@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-30 06:15+0200\n"
+"POT-Creation-Date: 2010-11-02 07:17+0100\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3021,7 +3021,7 @@ msgstr ""
 msgid "P&review"
 msgstr "&Koʻrib chiqish"
 
-#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:308
+#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:406
 #, fuzzy
 #| msgid "Comment"
 msgctxt "@label"
@@ -3889,60 +3889,59 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr "%1 uchun qoʻshimcha parametrlar"
 
-#: kfile/kfilemetadatawidget.cpp:541
+#: kfile/kfilemetadataprovider.cpp:407
 #, fuzzy
-#| msgid "Size:"
 msgctxt "@label"
-msgid "Size:"
-msgstr "Hajmi:"
-
-#: kfile/kfilemetadatawidget.cpp:558
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size:"
-msgstr "Hajmi:"
-
-#: kfile/kfilemetadatawidget.cpp:642
-#, fuzzy
-#| msgid "Type:"
-msgctxt "@label file type"
-msgid "Type:"
-msgstr "Turi:"
-
-#: kfile/kfilemetadatawidget.cpp:644
-#, fuzzy
-#| msgid "Modified:"
-msgctxt "@label"
-msgid "Modified:"
+msgid "Modified"
 msgstr "Oʻzgargan:"
 
-#: kfile/kfilemetadatawidget.cpp:645
+#: kfile/kfilemetadataprovider.cpp:408
 #, fuzzy
-#| msgid "Owner:"
+#| msgid "Owner"
 msgctxt "@label"
-msgid "Owner:"
-msgstr "Egasi:"
+msgid "Owner"
+msgstr "Egasi"
 
-#: kfile/kfilemetadatawidget.cpp:646
+#: kfile/kfilemetadataprovider.cpp:409
 #, fuzzy
-#| msgid "Permissions:"
+#| msgid "Permissions"
 msgctxt "@label"
-msgid "Permissions:"
-msgstr "Huquqlar:"
+msgid "Permissions"
+msgstr "Huquqlar"
 
-#: kfile/kfilemetadataprovider.cpp:304
+#: kfile/kfilemetadataprovider.cpp:410
 #, fuzzy
 msgctxt "@label"
 msgid "Rating"
 msgstr "Saralash"
 
-#: kfile/kfilemetadataprovider.cpp:306
+#: kfile/kfilemetadataprovider.cpp:411
+#, fuzzy
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "Hajmi"
+
+#: kfile/kfilemetadataprovider.cpp:412
 #, fuzzy
 #| msgid "Trash"
 msgctxt "@label"
 msgid "Tags"
 msgstr "Chiqindilar qutisi"
+
+#: kfile/kfilemetadataprovider.cpp:413
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "Hajmi:"
+
+#: kfile/kfilemetadataprovider.cpp:414
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "Turi"
 
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
@@ -4062,40 +4061,6 @@ msgstr "Izoh"
 msgctxt "@title:window"
 msgid "Add Comment"
 msgstr "Izoh"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:171
-#, fuzzy
-#| msgid "Type"
-msgctxt "@item::inlistbox"
-msgid "Type"
-msgstr "Turi"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:172
-#, fuzzy
-#| msgid "Size"
-msgctxt "@item::inlistbox"
-msgid "Size"
-msgstr "Hajmi"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:173
-#, fuzzy
-msgctxt "@item::inlistbox"
-msgid "Modified"
-msgstr "Oʻzgargan:"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:174
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@item::inlistbox"
-msgid "Owner"
-msgstr "Egasi"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:175
-#, fuzzy
-#| msgid "Permissions"
-msgctxt "@item::inlistbox"
-msgid "Permissions"
-msgstr "Huquqlar"
 
 #: misc/ksendbugmail/main.cpp:43
 msgid "Error connecting to server."
@@ -6730,31 +6695,67 @@ msgstr ""
 msgid "Show Hidden Folders"
 msgstr "Yashirilgan jildlarni koʻrsatish"
 
-#~ msgid "Unmounted Icon"
-#~ msgstr "\"Ajratilgan\" nishonchasi"
+#, fuzzy
+#~| msgid "Size:"
+#~ msgctxt "@label"
+#~ msgid "Size:"
+#~ msgstr "Hajmi:"
+
+#, fuzzy
+#~| msgid "Type:"
+#~ msgctxt "@label file type"
+#~ msgid "Type:"
+#~ msgstr "Turi:"
+
+#, fuzzy
+#~| msgid "Modified:"
+#~ msgctxt "@label"
+#~ msgid "Modified:"
+#~ msgstr "Oʻzgargan:"
+
+#, fuzzy
+#~| msgid "Owner:"
+#~ msgctxt "@label"
+#~ msgid "Owner:"
+#~ msgstr "Egasi:"
+
+#, fuzzy
+#~| msgid "Permissions:"
+#~ msgctxt "@label"
+#~ msgid "Permissions:"
+#~ msgstr "Huquqlar:"
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Type"
+#~ msgstr "Turi"
 
 #, fuzzy
 #~| msgid "Size"
-#~ msgctxt "@label"
+#~ msgctxt "@item::inlistbox"
 #~ msgid "Size"
 #~ msgstr "Hajmi"
 
 #, fuzzy
-#~ msgctxt "@label"
+#~ msgctxt "@item::inlistbox"
 #~ msgid "Modified"
 #~ msgstr "Oʻzgargan:"
 
 #, fuzzy
 #~| msgid "Owner"
-#~ msgctxt "@label"
+#~ msgctxt "@item::inlistbox"
 #~ msgid "Owner"
 #~ msgstr "Egasi"
 
 #, fuzzy
 #~| msgid "Permissions"
-#~ msgctxt "@label"
+#~ msgctxt "@item::inlistbox"
 #~ msgid "Permissions"
 #~ msgstr "Huquqlar"
+
+#~ msgid "Unmounted Icon"
+#~ msgstr "\"Ajratilgan\" nishonchasi"
 
 #~ msgctxt "Available space out of total partition size (percent used)"
 #~ msgid "%1 out of %2 (%3% used)"
