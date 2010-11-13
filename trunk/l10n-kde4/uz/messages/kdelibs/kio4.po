@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-12 06:36+0100\n"
+"POT-Creation-Date: 2010-11-13 12:16+0100\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2168,10 +2168,6 @@ msgstr ""
 msgid "Undo File Copy Confirmation"
 msgstr "Tizimning moslamasi yangilanmoqda"
 
-#: kio/accessmanagerreply_p.cpp:69
-msgid "Blocked request."
-msgstr ""
-
 #: kio/pastedialog.cpp:55
 msgid "Data format:"
 msgstr ""
@@ -2568,6 +2564,16 @@ msgstr "Guruh"
 msgctxt "@title:column"
 msgid "Type"
 msgstr "Turi"
+
+#: kio/accessmanager.cpp:154
+msgid "Blocked request."
+msgstr ""
+
+#: kio/accessmanager.cpp:192
+#, fuzzy
+#| msgid "Unknown Error"
+msgid "Unknown HTTP verb."
+msgstr "Nomaʼlum xato"
 
 #: httpfilter/httpfilter.cc:179
 msgid "Receiving corrupt data."
@@ -6862,11 +6868,6 @@ msgstr "Yashirilgan jildlarni koʻrsatish"
 
 #~ msgid "size %1"
 #~ msgstr "hajmi %1"
-
-#, fuzzy
-#~| msgid "Unknown Error"
-#~ msgid "Unknown Error."
-#~ msgstr "Nomaʼlum xato"
 
 #, fuzzy
 #~| msgid "No Items"
