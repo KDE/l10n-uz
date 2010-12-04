@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-29 02:23+0100\n"
+"POT-Creation-Date: 2010-12-04 10:35+0100\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,21 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: kexiutils/identifier.cpp:92
-#, kde-format
-msgid "Value of \"%1\" column must be an identifier."
-msgstr ""
-
-#: kexiutils/identifier.cpp:93
-#, kde-format
-msgid "\"%1\" is not a valid identifier."
-msgstr ""
-
-#: kexiutils/validator.cpp:104
-#, kde-format
-msgid "\"%1\" value has to be entered."
-msgstr ""
 
 #: plugins/forms/widgets/kexidbautofield.cpp:576
 #, kde-format
@@ -1110,7 +1095,7 @@ msgid "Copy"
 msgstr "Nusxa olinmoqda"
 
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:68
-#: widget/KexiProjectListView.cpp:202 widget/KexiProjectNavigator.cpp:167
+#: widget/KexiProjectNavigator.cpp:167 widget/KexiProjectListView.cpp:202
 #, fuzzy
 msgid "Export"
 msgstr "&Eksport qilish"
@@ -1754,6 +1739,75 @@ msgstr "\"%1\" hisoboti dizayni oʻzgartirildi."
 msgid "Query \"%1\" already exists."
 msgstr "\"%1\" soʻrovi allaqachon mavjud."
 
+#: kexiutils/identifier.cpp:92
+#, kde-format
+msgid "Value of \"%1\" column must be an identifier."
+msgstr ""
+
+#: kexiutils/identifier.cpp:93
+#, kde-format
+msgid "\"%1\" is not a valid identifier."
+msgstr ""
+
+#: kexiutils/validator.cpp:104
+#, kde-format
+msgid "\"%1\" value has to be entered."
+msgstr ""
+
+#: widget/relations/KexiRelationsScrollArea.cpp:131
+msgid "&Hide Selected Table/Query"
+msgstr ""
+
+#: widget/relations/KexiRelationsScrollArea.cpp:133
+#, fuzzy
+msgid "&Remove Selected Relationship"
+msgstr "Tanlangan nishonchani &olib tashlash"
+
+#: widget/relations/KexiRelationsScrollArea.cpp:135
+msgid "&Open Selected Table/Query"
+msgstr ""
+
+#: widget/relations/KexiRelationsView.cpp:88
+#, fuzzy
+#| msgid "Table"
+msgid "Table:"
+msgstr "Jadval"
+
+#: widget/relations/KexiRelationsView.cpp:95
+#, fuzzy
+msgctxt "Insert table/query into relations view"
+msgid "&Insert"
+msgstr "Qoʻyish"
+
+#: widget/relations/KexiRelationsView.cpp:111
+msgid "&Hide Table"
+msgstr "Jadvalni &bekitish"
+
+#: widget/relations/KexiRelationsView.cpp:123
+#, fuzzy
+#| msgid "&Add File"
+msgid "&Append Field"
+msgstr "F&ayl qoʻshish"
+
+#: widget/relations/KexiRelationsView.cpp:128
+#, fuzzy
+#| msgid "&Add File"
+msgid "&Append Fields"
+msgstr "F&ayl qoʻshish"
+
+#: widget/relations/KexiRelationsView.cpp:133
+msgid "&Open Table"
+msgstr "Jadvalni &ochish"
+
+#: widget/relations/KexiRelationsView.cpp:138
+#, fuzzy
+msgid "&Design Table"
+msgstr "Jadvalni &ochish"
+
+#: widget/relations/KexiRelationsView.cpp:401
+msgid "Relationship"
+msgstr ""
+
 #: widget/tableview/kexiblobtableedit.cpp:90
 #, fuzzy
 msgid "Click to show available actions for this cell"
@@ -1861,60 +1915,6 @@ msgstr "Qatorni oʻzgartirib boʻlmadi."
 #, fuzzy
 msgid "Row deleting failed."
 msgstr "Qatorni olib tashlab boʻlmadi."
-
-#: widget/relations/KexiRelationsScrollArea.cpp:131
-msgid "&Hide Selected Table/Query"
-msgstr ""
-
-#: widget/relations/KexiRelationsScrollArea.cpp:133
-#, fuzzy
-msgid "&Remove Selected Relationship"
-msgstr "Tanlangan nishonchani &olib tashlash"
-
-#: widget/relations/KexiRelationsScrollArea.cpp:135
-msgid "&Open Selected Table/Query"
-msgstr ""
-
-#: widget/relations/KexiRelationsView.cpp:88
-#, fuzzy
-#| msgid "Table"
-msgid "Table:"
-msgstr "Jadval"
-
-#: widget/relations/KexiRelationsView.cpp:95
-#, fuzzy
-msgctxt "Insert table/query into relations view"
-msgid "&Insert"
-msgstr "Qoʻyish"
-
-#: widget/relations/KexiRelationsView.cpp:111
-msgid "&Hide Table"
-msgstr "Jadvalni &bekitish"
-
-#: widget/relations/KexiRelationsView.cpp:123
-#, fuzzy
-#| msgid "&Add File"
-msgid "&Append Field"
-msgstr "F&ayl qoʻshish"
-
-#: widget/relations/KexiRelationsView.cpp:128
-#, fuzzy
-#| msgid "&Add File"
-msgid "&Append Fields"
-msgstr "F&ayl qoʻshish"
-
-#: widget/relations/KexiRelationsView.cpp:133
-msgid "&Open Table"
-msgstr "Jadvalni &ochish"
-
-#: widget/relations/KexiRelationsView.cpp:138
-#, fuzzy
-msgid "&Design Table"
-msgstr "Jadvalni &ochish"
-
-#: widget/relations/KexiRelationsView.cpp:401
-msgid "Relationship"
-msgstr ""
 
 #: widget/utils/kexidatetimeformatter.cpp:303
 msgid "pm"
@@ -2063,6 +2063,199 @@ msgctxt "Object name : Object type"
 msgid "%1 : %2"
 msgstr ""
 
+#: widget/kexiscrollview.cpp:362
+msgid "Outer Area"
+msgstr "Tashqi maydon"
+
+#: widget/kexiscrollview.cpp:363
+msgid ""
+"Outer\n"
+"Area"
+msgstr ""
+"Tashqi\n"
+"maydon"
+
+#: widget/KexiProjectNavigator.cpp:72 widget/KexiProjectListView.cpp:87
+#: main/KexiMainWindow.cpp:977
+#, fuzzy
+msgid "Project Navigator"
+msgstr "Loyiha navigatori"
+
+#: widget/KexiProjectNavigator.cpp:108 widget/KexiProjectListView.cpp:130
+#: widget/kexidbconnectionwidget.cpp:400 main/startup/KexiStartup.cpp:172
+#: main/startup/KexiProjectSelector.cpp:242
+msgid "&Open"
+msgstr "&Ochish"
+
+#: widget/KexiProjectNavigator.cpp:109 widget/KexiProjectListView.cpp:131
+#, fuzzy
+msgid "Open object"
+msgstr "Obʼektni ochish"
+
+#: widget/KexiProjectNavigator.cpp:109 widget/KexiProjectListView.cpp:131
+#, fuzzy
+#| msgid "Opens object selected in the list"
+msgid "Opens object selected in the list."
+msgstr "Roʻyxatdan tanlangan obʼektni ochish"
+
+#: widget/KexiProjectNavigator.cpp:127 widget/KexiProjectListView.cpp:150
+#: main/KexiMainWindow.cpp:892
+#, fuzzy
+msgid "&Delete"
+msgstr "Satrni &olib tashlash"
+
+#: widget/KexiProjectNavigator.cpp:128 widget/KexiProjectListView.cpp:151
+#, fuzzy
+#| msgid "Delete Object"
+msgid "Delete object"
+msgstr "Obʼektni olib tashlash"
+
+#: widget/KexiProjectNavigator.cpp:128 widget/KexiProjectListView.cpp:151
+#, fuzzy
+#| msgid "Opens object selected in the list"
+msgid "Deletes the object selected in the list."
+msgstr "Roʻyxatdan tanlangan obʼektni ochish"
+
+#: widget/KexiProjectNavigator.cpp:131 widget/KexiProjectListView.cpp:154
+msgid "&Rename"
+msgstr "&Nomini oʻzgartirish"
+
+#: widget/KexiProjectNavigator.cpp:132 widget/KexiProjectListView.cpp:155
+#, fuzzy
+#| msgid "Create object"
+msgid "Rename object"
+msgstr "Obʼekt yaratish"
+
+#: widget/KexiProjectNavigator.cpp:132 widget/KexiProjectListView.cpp:155
+#, fuzzy
+#| msgid "Opens object selected in the list"
+msgid "Renames the object selected in the list."
+msgstr "Roʻyxatdan tanlangan obʼektni ochish"
+
+#: widget/KexiProjectNavigator.cpp:140 widget/KexiProjectListView.cpp:163
+msgid "&Design"
+msgstr "&Dizayn"
+
+#: widget/KexiProjectNavigator.cpp:141 widget/KexiProjectListView.cpp:164
+#, fuzzy
+msgid "Design object"
+msgstr "Obʼektni olib tashlash"
+
+#: widget/KexiProjectNavigator.cpp:141 widget/KexiProjectListView.cpp:164
+#, fuzzy
+msgid "Starts designing of the object selected in the list."
+msgstr "Roʻyxatdan tanlangan obʼektni ochish"
+
+#: widget/KexiProjectNavigator.cpp:149 widget/KexiProjectListView.cpp:172
+msgid "Open in &Text View"
+msgstr "&Matn koʻrinishida ochish"
+
+#: widget/KexiProjectNavigator.cpp:150 widget/KexiProjectListView.cpp:173
+#, fuzzy
+msgid "Open object in text view"
+msgstr "Obʼektni matn koʻrinishida ochish"
+
+#: widget/KexiProjectNavigator.cpp:150 widget/KexiProjectListView.cpp:173
+#, fuzzy
+msgid "Opens selected object in the list in text view."
+msgstr "Roʻyxatdan tanlangan obʼektni matn koʻrinishida ochish"
+
+#: widget/KexiProjectNavigator.cpp:161 widget/KexiProjectListView.cpp:196
+#: formeditor/kexiactionselectiondialog.cpp:267
+#, fuzzy
+msgid "Execute"
+msgstr "Skriptni ishga tushirish"
+
+#: widget/KexiProjectNavigator.cpp:169 widget/KexiProjectListView.cpp:204
+#, fuzzy
+#| msgid "To clipboard:"
+msgctxt "Export->To Clipboard as Data... "
+msgid "To &Clipboard..."
+msgstr "Xotiraga olish:"
+
+#: widget/KexiProjectNavigator.cpp:170 widget/KexiProjectListView.cpp:205
+#, fuzzy
+#| msgid "Exporting data from table:"
+msgid "Export data to clipboard"
+msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
+
+#: widget/KexiProjectNavigator.cpp:171 widget/KexiProjectListView.cpp:206
+#, fuzzy
+msgid "Exports data from the currently selected table or query to clipboard."
+msgstr "Pastga yangi boʻsh qator qoʻshish"
+
+#: widget/KexiProjectNavigator.cpp:176 widget/KexiProjectListView.cpp:211
+#, fuzzy
+msgctxt "Export->To File As Data &Table... "
+msgid "To &File As Data Table..."
+msgstr "Maʼlumotlar &jadvali..."
+
+#: widget/KexiProjectNavigator.cpp:177 widget/KexiProjectListView.cpp:212
+#, fuzzy
+#| msgid "Exporting data from table:"
+msgid "Export data to a file"
+msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
+
+#: widget/KexiProjectNavigator.cpp:178 widget/KexiProjectListView.cpp:213
+#, fuzzy
+msgid "Exports data from the currently selected table or query to a file."
+msgstr "Pastga yangi boʻsh qator qoʻshish"
+
+#: widget/KexiProjectNavigator.cpp:182 widget/KexiProjectListView.cpp:217
+#, fuzzy
+msgid "&Print..."
+msgstr "&Shrift..."
+
+#: widget/KexiProjectNavigator.cpp:183 widget/KexiProjectListView.cpp:218
+#, fuzzy
+msgid "Print data"
+msgstr "Bosib chiqarish"
+
+#: widget/KexiProjectNavigator.cpp:184 widget/KexiProjectListView.cpp:219
+msgid "Prints data from the currently selected table or query."
+msgstr ""
+
+#: widget/KexiProjectNavigator.cpp:187 widget/KexiProjectListView.cpp:222
+#, fuzzy
+msgid "Page Setup..."
+msgstr "Sahifa moslamasi..."
+
+#: widget/KexiProjectNavigator.cpp:188 widget/KexiProjectListView.cpp:223
+msgid "Page setup for data"
+msgstr ""
+
+#: widget/KexiProjectNavigator.cpp:189 widget/KexiProjectListView.cpp:224
+#: main/KexiMainWindow.cpp:820
+msgid "Shows page setup for printing the active table or query."
+msgstr ""
+
+#: widget/KexiProjectNavigator.cpp:344 widget/KexiProjectListView.cpp:482
+#, kde-format
+msgid "&Create Object: %1..."
+msgstr "Obʼekt &yaratish: %1..."
+
+#: widget/KexiProjectNavigator.cpp:356 widget/KexiProjectListView.cpp:494
+msgid "&Create Object..."
+msgstr "Obʼekt &yaratish..."
+
+#: widget/kexidatasourcecombobox.cpp:129
+msgid "Define Query..."
+msgstr ""
+
+#: widget/KexiProjectListView.cpp:299 widget/KexiProjectModel.cpp:98
+#, fuzzy
+msgid "Errors encountered during loading plugins:"
+msgstr "\"%1\" plaginini yuklashda xato roʻy berdi"
+
+#: widget/kexifieldlistview.cpp:60
+#, fuzzy
+msgid "Field Name"
+msgstr "Maydon turi"
+
+#: widget/kexifieldlistview.cpp:100
+msgid "* (All Columns)"
+msgstr ""
+
 #: widget/kexicharencodingcombobox.cpp:66
 #, kde-format
 msgctxt "Text encoding: Default"
@@ -2092,27 +2285,6 @@ msgstr "Ha"
 msgctxt "Boolean False - No"
 msgid "No"
 msgstr "Yoʻq"
-
-#: widget/kexiscrollview.cpp:362
-msgid "Outer Area"
-msgstr "Tashqi maydon"
-
-#: widget/kexiscrollview.cpp:363
-msgid ""
-"Outer\n"
-"Area"
-msgstr ""
-"Tashqi\n"
-"maydon"
-
-#: widget/kexifieldlistview.cpp:60
-#, fuzzy
-msgid "Field Name"
-msgstr "Maydon turi"
-
-#: widget/kexifieldlistview.cpp:100
-msgid "* (All Columns)"
-msgstr ""
 
 #: widget/kexidbconnectionwidget.cpp:81
 msgid "Load database list from the server"
@@ -2183,21 +2355,11 @@ msgstr "Maʼlumot bazasini ochish"
 msgid "Connect to a Database Server"
 msgstr "Maʼlumot bazasi serveriga ulanish"
 
-#: widget/kexidbconnectionwidget.cpp:400 widget/KexiProjectListView.cpp:130
-#: widget/KexiProjectNavigator.cpp:108 main/startup/KexiStartup.cpp:172
-#: main/startup/KexiProjectSelector.cpp:242
-msgid "&Open"
-msgstr "&Ochish"
-
 #: widget/kexidbconnectionwidget.cpp:400
 #: main/startup/KexiProjectSelector.cpp:243
 #, fuzzy
 msgid "Open Database Connection"
 msgstr "Maʼlumot bazasini ochish"
-
-#: widget/kexidatasourcecombobox.cpp:129
-msgid "Define Query..."
-msgstr ""
 
 #: widget/pixmapcollection.cpp:150
 msgid "Load KDE Icon by Name"
@@ -2270,167 +2432,39 @@ msgstr ""
 msgid "Edit Collection..."
 msgstr "Toʻplamni tahrirlash..."
 
-#: widget/KexiProjectListView.cpp:87 widget/KexiProjectNavigator.cpp:72
-#: main/KexiMainWindow.cpp:977
-#, fuzzy
-msgid "Project Navigator"
-msgstr "Loyiha navigatori"
-
-#: widget/KexiProjectListView.cpp:131 widget/KexiProjectNavigator.cpp:109
-#, fuzzy
-msgid "Open object"
-msgstr "Obʼektni ochish"
-
-#: widget/KexiProjectListView.cpp:131 widget/KexiProjectNavigator.cpp:109
-#, fuzzy
-#| msgid "Opens object selected in the list"
-msgid "Opens object selected in the list."
-msgstr "Roʻyxatdan tanlangan obʼektni ochish"
-
-#: widget/KexiProjectListView.cpp:150 widget/KexiProjectNavigator.cpp:127
-#: main/KexiMainWindow.cpp:892
-#, fuzzy
-msgid "&Delete"
-msgstr "Satrni &olib tashlash"
-
-#: widget/KexiProjectListView.cpp:151 widget/KexiProjectNavigator.cpp:128
-#, fuzzy
-#| msgid "Delete Object"
-msgid "Delete object"
-msgstr "Obʼektni olib tashlash"
-
-#: widget/KexiProjectListView.cpp:151 widget/KexiProjectNavigator.cpp:128
-#, fuzzy
-#| msgid "Opens object selected in the list"
-msgid "Deletes the object selected in the list."
-msgstr "Roʻyxatdan tanlangan obʼektni ochish"
-
-#: widget/KexiProjectListView.cpp:154 widget/KexiProjectNavigator.cpp:131
-msgid "&Rename"
-msgstr "&Nomini oʻzgartirish"
-
-#: widget/KexiProjectListView.cpp:155 widget/KexiProjectNavigator.cpp:132
-#, fuzzy
-#| msgid "Create object"
-msgid "Rename object"
-msgstr "Obʼekt yaratish"
-
-#: widget/KexiProjectListView.cpp:155 widget/KexiProjectNavigator.cpp:132
-#, fuzzy
-#| msgid "Opens object selected in the list"
-msgid "Renames the object selected in the list."
-msgstr "Roʻyxatdan tanlangan obʼektni ochish"
-
-#: widget/KexiProjectListView.cpp:163 widget/KexiProjectNavigator.cpp:140
-msgid "&Design"
-msgstr "&Dizayn"
-
-#: widget/KexiProjectListView.cpp:164 widget/KexiProjectNavigator.cpp:141
-#, fuzzy
-msgid "Design object"
-msgstr "Obʼektni olib tashlash"
-
-#: widget/KexiProjectListView.cpp:164 widget/KexiProjectNavigator.cpp:141
-#, fuzzy
-msgid "Starts designing of the object selected in the list."
-msgstr "Roʻyxatdan tanlangan obʼektni ochish"
-
-#: widget/KexiProjectListView.cpp:172 widget/KexiProjectNavigator.cpp:149
-msgid "Open in &Text View"
-msgstr "&Matn koʻrinishida ochish"
-
-#: widget/KexiProjectListView.cpp:173 widget/KexiProjectNavigator.cpp:150
-#, fuzzy
-msgid "Open object in text view"
-msgstr "Obʼektni matn koʻrinishida ochish"
-
-#: widget/KexiProjectListView.cpp:173 widget/KexiProjectNavigator.cpp:150
-#, fuzzy
-msgid "Opens selected object in the list in text view."
-msgstr "Roʻyxatdan tanlangan obʼektni matn koʻrinishida ochish"
-
-#: widget/KexiProjectListView.cpp:196 widget/KexiProjectNavigator.cpp:161
-#: formeditor/kexiactionselectiondialog.cpp:267
-#, fuzzy
-msgid "Execute"
-msgstr "Skriptni ishga tushirish"
-
-#: widget/KexiProjectListView.cpp:204 widget/KexiProjectNavigator.cpp:169
-#, fuzzy
-#| msgid "To clipboard:"
-msgctxt "Export->To Clipboard as Data... "
-msgid "To &Clipboard..."
-msgstr "Xotiraga olish:"
-
-#: widget/KexiProjectListView.cpp:205 widget/KexiProjectNavigator.cpp:170
-#, fuzzy
-#| msgid "Exporting data from table:"
-msgid "Export data to clipboard"
-msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
-
-#: widget/KexiProjectListView.cpp:206 widget/KexiProjectNavigator.cpp:171
-#, fuzzy
-msgid "Exports data from the currently selected table or query to clipboard."
-msgstr "Pastga yangi boʻsh qator qoʻshish"
-
-#: widget/KexiProjectListView.cpp:211 widget/KexiProjectNavigator.cpp:176
-#, fuzzy
-msgctxt "Export->To File As Data &Table... "
-msgid "To &File As Data Table..."
-msgstr "Maʼlumotlar &jadvali..."
-
-#: widget/KexiProjectListView.cpp:212 widget/KexiProjectNavigator.cpp:177
-#, fuzzy
-#| msgid "Exporting data from table:"
-msgid "Export data to a file"
-msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
-
-#: widget/KexiProjectListView.cpp:213 widget/KexiProjectNavigator.cpp:178
-#, fuzzy
-msgid "Exports data from the currently selected table or query to a file."
-msgstr "Pastga yangi boʻsh qator qoʻshish"
-
-#: widget/KexiProjectListView.cpp:217 widget/KexiProjectNavigator.cpp:182
-#, fuzzy
-msgid "&Print..."
-msgstr "&Shrift..."
-
-#: widget/KexiProjectListView.cpp:218 widget/KexiProjectNavigator.cpp:183
-#, fuzzy
-msgid "Print data"
-msgstr "Bosib chiqarish"
-
-#: widget/KexiProjectListView.cpp:219 widget/KexiProjectNavigator.cpp:184
-msgid "Prints data from the currently selected table or query."
+#: webforms/main.cpp:53
+msgid "Web Forms Daemon"
 msgstr ""
 
-#: widget/KexiProjectListView.cpp:222 widget/KexiProjectNavigator.cpp:187
-#, fuzzy
-msgid "Page Setup..."
-msgstr "Sahifa moslamasi..."
-
-#: widget/KexiProjectListView.cpp:223 widget/KexiProjectNavigator.cpp:188
-msgid "Page setup for data"
+#: webforms/main.cpp:54
+msgid "Exports Kexi Forms to standard HTML pages"
 msgstr ""
 
-#: widget/KexiProjectListView.cpp:224 widget/KexiProjectNavigator.cpp:189
-#: main/KexiMainWindow.cpp:820
-msgid "Shows page setup for printing the active table or query."
+#: webforms/main.cpp:56
+msgid "(C) Copyright 2008, Lorenzo Villani"
 msgstr ""
 
-#: widget/KexiProjectListView.cpp:299 widget/KexiProjectModel.cpp:98
+#: webforms/main.cpp:59
 #, fuzzy
-msgid "Errors encountered during loading plugins:"
-msgstr "\"%1\" plaginini yuklashda xato roʻy berdi"
+#| msgid "Report"
+msgid "Listen port"
+msgstr "Hisobot"
 
-#: widget/KexiProjectListView.cpp:482 widget/KexiProjectNavigator.cpp:344
-#, kde-format
-msgid "&Create Object: %1..."
-msgstr "Obʼekt &yaratish: %1..."
+#: webforms/main.cpp:60
+msgid "Web Root (used also as template root directory)"
+msgstr ""
 
-#: widget/KexiProjectListView.cpp:494 widget/KexiProjectNavigator.cpp:356
-msgid "&Create Object..."
-msgstr "Obʼekt &yaratish..."
+#: webforms/main.cpp:61
+#, fuzzy
+#| msgid "Select source database filename."
+msgid "Path to SSL certificate file (PEM encoded)"
+msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
+
+#: webforms/main.cpp:62
+#, fuzzy
+#| msgid "Select source database filename."
+msgid "Path to Kexi database file"
+msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
 
 #: main/printing/kexisimpleprintpreviewwindow.cpp:167
 #, kde-format
@@ -3060,43 +3094,6 @@ msgstr "Iltimos nomini kiriting."
 msgid "Please enter the caption."
 msgstr "Iltimos sarlavhani kiriting."
 
-#: main/kexifinddialog.cpp:176
-#, fuzzy
-#| msgid "Available fields:"
-msgid "(All fields)"
-msgstr "Mavjud maydonlar:"
-
-#: main/kexifinddialog.cpp:177
-#, fuzzy
-msgid "(Current field)"
-msgstr "Matn"
-
-#: main/kexifinddialog.cpp:229 core/kexiproject.cpp:1028
-#, fuzzy
-msgid "Replace"
-msgstr "&Almashtirish"
-
-#: main/kexifinddialog.cpp:231
-#, fuzzy, kde-format
-msgid "Replace in \"%1\""
-msgstr "&Almashtirish"
-
-#. i18n: file: main/kexifinddialog.ui:13
-#. i18n: ectx: property (windowTitle), widget (QDialog, KexiFindDialog)
-#: main/kexifinddialog.cpp:234 rc.cpp:165
-msgid "Find"
-msgstr ""
-
-#: main/kexifinddialog.cpp:236
-#, kde-format
-msgid "Find in \"%1\""
-msgstr ""
-
-#: main/kexifinddialog.cpp:259
-#, fuzzy
-msgid "The search item was not found"
-msgstr "obʼekt topilmadi"
-
 #: main/KexiMainWindow_p.h:137
 msgid "Task-based tabbed toolbar groups commands for application using tabs."
 msgstr ""
@@ -3147,6 +3144,43 @@ msgstr "%1 dasturini ishga tushirib boʻlmadi."
 #, fuzzy, kde-format
 msgid "Command \"%1\" failed."
 msgstr "\"%1\" buyrugʻini bajarib boʻlmadi."
+
+#: main/kexifinddialog.cpp:176
+#, fuzzy
+#| msgid "Available fields:"
+msgid "(All fields)"
+msgstr "Mavjud maydonlar:"
+
+#: main/kexifinddialog.cpp:177
+#, fuzzy
+msgid "(Current field)"
+msgstr "Matn"
+
+#: main/kexifinddialog.cpp:229 core/kexiproject.cpp:1028
+#, fuzzy
+msgid "Replace"
+msgstr "&Almashtirish"
+
+#: main/kexifinddialog.cpp:231
+#, fuzzy, kde-format
+msgid "Replace in \"%1\""
+msgstr "&Almashtirish"
+
+#. i18n: file: main/kexifinddialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, KexiFindDialog)
+#: main/kexifinddialog.cpp:234 rc.cpp:165
+msgid "Find"
+msgstr ""
+
+#: main/kexifinddialog.cpp:236
+#, kde-format
+msgid "Find in \"%1\""
+msgstr ""
+
+#: main/kexifinddialog.cpp:259
+#, fuzzy
+msgid "The search item was not found"
+msgstr "obʼekt topilmadi"
 
 #: main/kexinewstuff.cpp:62
 msgid "Choose Directory Where to Install Example Database"
@@ -3975,40 +4009,6 @@ msgstr "Bosib chiqarishdan oldin oʻzgarishlarni saqlashni istaysizmi?"
 msgid "Do you want to save changes before showing page setup?"
 msgstr "Bosib chiqarishdan oldin oʻzgarishlarni saqlashni istaysizmi?"
 
-#: webforms/main.cpp:53
-msgid "Web Forms Daemon"
-msgstr ""
-
-#: webforms/main.cpp:54
-msgid "Exports Kexi Forms to standard HTML pages"
-msgstr ""
-
-#: webforms/main.cpp:56
-msgid "(C) Copyright 2008, Lorenzo Villani"
-msgstr ""
-
-#: webforms/main.cpp:59
-#, fuzzy
-#| msgid "Report"
-msgid "Listen port"
-msgstr "Hisobot"
-
-#: webforms/main.cpp:60
-msgid "Web Root (used also as template root directory)"
-msgstr ""
-
-#: webforms/main.cpp:61
-#, fuzzy
-#| msgid "Select source database filename."
-msgid "Path to SSL certificate file (PEM encoded)"
-msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
-
-#: webforms/main.cpp:62
-#, fuzzy
-#| msgid "Select source database filename."
-msgid "Path to Kexi database file"
-msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
-
 #: core/kexi.cpp:122
 #, fuzzy
 msgid "&No View"
@@ -4061,16 +4061,16 @@ msgstr ""
 msgid "\"%1\" function is not available for version %2 of %3 application."
 msgstr ""
 
-#: core/kexiinternalpart.cpp:53 core/kexipartmanager.cpp:137
-#, kde-format
-msgid ""
-"Incompatible plugin \"%1\" version: found version %2, expected version %3."
-msgstr ""
+#: core/KoContextHelp.cpp:518 core/KoContextHelp.cpp:550
+#: core/KoContextHelp.cpp:560 core/KoContextHelp.cpp:579
+#: core/KoContextHelp.cpp:591 core/kexicontexthelp.cpp:34
+#, fuzzy
+msgid "Context Help"
+msgstr "Kontekstli yordam"
 
-#: core/kexiinternalpart.cpp:68
-#, kde-format
-msgid "Could not load \"%1\" plugin."
-msgstr "\"%1\" plaginini yuklab boʻlmadi."
+#: core/KoContextHelp.cpp:560 core/KoContextHelp.cpp:591
+msgid "Here will be shown help according to your actions"
+msgstr ""
 
 #: core/KexiWindow.cpp:612
 #, fuzzy
@@ -4145,12 +4145,6 @@ msgstr "Satr:"
 #| msgid "&Design"
 msgid "Design"
 msgstr "&Dizayn"
-
-#: core/kexiprojectdata.cpp:190
-#, fuzzy, kde-format
-msgctxt "database connection"
-msgid "(connection %1)"
-msgstr "(ulanish %1)"
 
 #: core/kexicmdlineargs.h:32
 #, fuzzy
@@ -4388,20 +4382,6 @@ msgid ""
 "project on a server to open."
 msgstr ""
 
-#: core/kexiguimsghandler.cpp:123 core/kexitextmsghandler.cpp:52
-msgid "Unknown error"
-msgstr "Nomaʼlum xato"
-
-#: core/kexiguimsghandler.cpp:149
-#, fuzzy
-msgid "Warning"
-msgstr "bosib chiqarilmoqda"
-
-#: core/kexiguimsghandler.cpp:154
-#, fuzzy
-msgid "Do not show this message again"
-msgstr "Ushbu oyna boshqa koʻrsatilmasin"
-
 #: core/KexiStandardAction.cpp:47
 msgid "&Ascending"
 msgstr "&Koʻpayish boʻyicha"
@@ -4429,13 +4409,6 @@ msgid ""
 "Sorts data in descending (from Z to A and from 9 to 0). Data from selected "
 "column is used for sorting."
 msgstr ""
-
-#: core/kexicontexthelp.cpp:34 core/KoContextHelp.cpp:518
-#: core/KoContextHelp.cpp:550 core/KoContextHelp.cpp:560
-#: core/KoContextHelp.cpp:579 core/KoContextHelp.cpp:591
-#, fuzzy
-msgid "Context Help"
-msgstr "Kontekstli yordam"
 
 #: core/kexiproject.cpp:198
 #, kde-format
@@ -4515,10 +4488,30 @@ msgid ""
 "opened as read only."
 msgstr ""
 
+#: core/kexiguimsghandler.cpp:123 core/kexitextmsghandler.cpp:52
+msgid "Unknown error"
+msgstr "Nomaʼlum xato"
+
+#: core/kexiguimsghandler.cpp:149
+#, fuzzy
+msgid "Warning"
+msgstr "bosib chiqarilmoqda"
+
+#: core/kexiguimsghandler.cpp:154
+#, fuzzy
+msgid "Do not show this message again"
+msgstr "Ushbu oyna boshqa koʻrsatilmasin"
+
 #: core/kexipartmanager.cpp:66
 #, kde-format
 msgid ""
 "No \"%1\" service type installed. Check your Kexi installation. Aborting."
+msgstr ""
+
+#: core/kexipartmanager.cpp:137 core/kexiinternalpart.cpp:53
+#, kde-format
+msgid ""
+"Incompatible plugin \"%1\" version: found version %2, expected version %3."
 msgstr ""
 
 #: core/kexipartmanager.cpp:150
@@ -4800,9 +4793,16 @@ msgstr "Obʼekt"
 msgid "Object"
 msgstr "Obʼekt"
 
-#: core/KoContextHelp.cpp:560 core/KoContextHelp.cpp:591
-msgid "Here will be shown help according to your actions"
-msgstr ""
+#: core/kexiprojectdata.cpp:190
+#, fuzzy, kde-format
+msgctxt "database connection"
+msgid "(connection %1)"
+msgstr "(ulanish %1)"
+
+#: core/kexiinternalpart.cpp:68
+#, kde-format
+msgid "Could not load \"%1\" plugin."
+msgstr "\"%1\" plaginini yuklab boʻlmadi."
 
 #: migration/mdb/src/keximdb/mdbmigrate.cpp:48
 msgid "Source Database Has Non-Unicode Encoding"
@@ -4874,6 +4874,10 @@ msgstr ""
 msgid "No appropriate migration driver found."
 msgstr ""
 
+#: migration/keximigratetest.cpp:37
+msgid "Kexi Migrate Test"
+msgstr ""
+
 #: migration/keximigrate.cpp:77 migration/keximigrate.cpp:127
 #: migration/keximigrate.cpp:233 migration/keximigrate.cpp:303
 #, kde-format
@@ -4925,10 +4929,6 @@ msgstr "Maydon turi"
 msgid ""
 "The data type for %1 could not be determined. Please select one of the "
 "following data types"
-msgstr ""
-
-#: migration/keximigratetest.cpp:37
-msgid "Kexi Migrate Test"
 msgstr ""
 
 #: migration/importoptionsdlg.cpp:45
@@ -7489,6 +7489,24 @@ msgstr ""
 msgid "Layout Spacing"
 msgstr ""
 
+#: formeditor/WidgetTreeWidget.cpp:104
+#, fuzzy
+#| msgid "Last Page"
+msgctxt "Tab widget's page"
+msgid "Tab Page"
+msgstr "Oxirgi bet"
+
+#: formeditor/WidgetTreeWidget.cpp:269
+msgid "Widget name"
+msgstr ""
+
+#: formeditor/WidgetTreeWidget.cpp:269
+#, fuzzy
+#| msgid "Type"
+msgctxt "Widget's type"
+msgid "Type"
+msgstr "Turi"
+
 #: formeditor/richtextdialog.cpp:44
 msgid "Edit Rich Text"
 msgstr ""
@@ -7725,24 +7743,6 @@ msgstr "Amal turi:"
 #, kde-format
 msgid "&Select action to be executed after clicking \"%1\" button:"
 msgstr ""
-
-#: formeditor/WidgetTreeWidget.cpp:104
-#, fuzzy
-#| msgid "Last Page"
-msgctxt "Tab widget's page"
-msgid "Tab Page"
-msgstr "Oxirgi bet"
-
-#: formeditor/WidgetTreeWidget.cpp:269
-msgid "Widget name"
-msgstr ""
-
-#: formeditor/WidgetTreeWidget.cpp:269
-#, fuzzy
-#| msgid "Type"
-msgctxt "Widget's type"
-msgid "Type"
-msgstr "Turi"
 
 #: formeditor/editlistviewdialog.cpp:51
 #, fuzzy
