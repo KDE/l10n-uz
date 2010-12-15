@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-14 03:07+0100\n"
+"POT-Creation-Date: 2010-12-15 02:52+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1914,7 +1914,7 @@ msgstr "Yoʻnalish:"
 #. i18n: ectx: property (text), widget (QRadioButton, lastUsedColorsAlignVertical)
 #. i18n: file: plugins/extensions/dockers/colorselectorng/wdg_color_selector_settings.ui:741
 #. i18n: ectx: property (text), widget (QRadioButton, commonColorsAlignVertical)
-#: rc.cpp:389 rc.cpp:425
+#: rc.cpp:389 rc.cpp:425 ui/tool/kis_tool_paint.cc:259
 #, fuzzy
 msgid "Vertical"
 msgstr "Uskuna:"
@@ -11115,15 +11115,6 @@ msgstr "&Kanal:"
 msgid "Minimize Channel"
 msgstr "&Kanal:"
 
-#: plugins/filters/colorsfilters/colorsfilters.cpp:90
-msgid "&Auto Contrast"
-msgstr "A&vto-kontrast"
-
-#: plugins/filters/colorsfilters/colorsfilters.cpp:243
-#, fuzzy
-msgid "&Desaturate"
-msgstr "&Toʻyintirish"
-
 #: plugins/filters/colorsfilters/colorsfilters.h:52
 msgid "Auto Contrast"
 msgstr "Avto-kontrast"
@@ -11148,7 +11139,16 @@ msgstr "Yorugʻlik / kontrast"
 msgid "&HSV Adjustment..."
 msgstr "Ranglarni moslash"
 
-#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:381
+#: plugins/filters/colorsfilters/colorsfilters.cpp:90
+msgid "&Auto Contrast"
+msgstr "A&vto-kontrast"
+
+#: plugins/filters/colorsfilters/colorsfilters.cpp:244
+#, fuzzy
+msgid "&Desaturate"
+msgstr "&Toʻyintirish"
+
+#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:380
 #, fuzzy
 msgid "&Color Adjustment curves..."
 msgstr "&Ranglarni moslash..."
@@ -13870,16 +13870,6 @@ msgstr "Nuqta boʻyogʻi"
 msgid "Decrease Brush Size"
 msgstr "Boʻyoqning oʻlchami"
 
-#: ui/tool/kis_tool_paint.cc:257
-#, fuzzy
-msgid "Mirror: "
-msgstr "Rasmni kesish"
-
-#: ui/tool/kis_tool_paint.cc:259
-#, fuzzy
-msgid "Verical"
-msgstr "Uskuna:"
-
 #: ui/tool/kis_tool_polyline_base.cpp:37
 #, fuzzy
 msgid "&Finish"
@@ -13888,6 +13878,11 @@ msgstr "&Siniq chiziq"
 #: ui/tool/kis_tool_select_base.cpp:45
 msgid "Selection"
 msgstr "Tanlash"
+
+#: ui/tool/kis_tool_paint.cc:257
+#, fuzzy
+msgid "Mirror: "
+msgstr "Rasmni kesish"
 
 #: ui/widgets/kis_channelflags_widget.cpp:39
 msgid ""
@@ -13933,6 +13928,10 @@ msgstr ""
 #, fuzzy
 msgid "No configuration options."
 msgstr "Moslash..."
+
+#, fuzzy
+#~ msgid "Verical"
+#~ msgstr "Uskuna:"
 
 #, fuzzy
 #~ msgid "Scale:"
