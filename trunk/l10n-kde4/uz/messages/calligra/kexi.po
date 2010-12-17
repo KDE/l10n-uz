@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-15 02:52+0100\n"
+"POT-Creation-Date: 2010-12-17 02:52+0100\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -5220,28 +5220,33 @@ msgstr "&Mavjud loyihani ochish"
 msgid "Open &Recent Project"
 msgstr "&Yaqinda ochilgan loyihani ochish"
 
-#: main/startup/KexiStartupFileWidget.cpp:261
+#: main/startup/KexiStartup_p.cpp:75
+#, kde-format
+msgid "Saving \"%1\" project file to a new \"%2\" database format..."
+msgstr ""
+
+#: main/startup/KexiStartupFileWidget.cpp:260
 #, fuzzy, kde-format
 #| msgid "All Supported Files"
 msgid "All Supported Files (%1)"
 msgstr "Barcha qoʻllaniladigan fayllar"
 
-#: main/startup/KexiStartupFileWidget.cpp:368
-#: main/startup/KexiStartupFileWidget.cpp:410
+#: main/startup/KexiStartupFileWidget.cpp:367
+#: main/startup/KexiStartupFileWidget.cpp:409
 msgid "Enter a filename."
 msgstr "Faylning nomini kiriting."
 
-#: main/startup/KexiStartupFileWidget.cpp:405
+#: main/startup/KexiStartupFileWidget.cpp:404
 #, kde-format
 msgid "The file \"%1\" does not exist."
 msgstr "\"%1\" fayli mavjud emas."
 
-#: main/startup/KexiStartupFileWidget.cpp:413
+#: main/startup/KexiStartupFileWidget.cpp:412
 #, kde-format
 msgid "The file \"%1\" is not readable."
 msgstr "\"%1\" faylini oʻqib boʻlmaydi."
 
-#: main/startup/KexiStartupFileWidget.cpp:432
+#: main/startup/KexiStartupFileWidget.cpp:431
 #, kde-format
 msgid ""
 "The file \"%1\" already exists.\n"
@@ -5250,14 +5255,9 @@ msgstr ""
 "\"%1\" fayli allaqachon mavjud.\n"
 "Uni almashtirishni istaysizmi?"
 
-#: main/startup/KexiStartupFileWidget.cpp:434
+#: main/startup/KexiStartupFileWidget.cpp:433
 msgid "Overwrite"
 msgstr "Almashtirish"
-
-#: main/startup/KexiStartup_p.cpp:75
-#, kde-format
-msgid "Saving \"%1\" project file to a new \"%2\" database format..."
-msgstr ""
 
 #: migration/AlterSchemaWidget.cpp:42 migration/AlterSchemaWidget.cpp:92
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:948
