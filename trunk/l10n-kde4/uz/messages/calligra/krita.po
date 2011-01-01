@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-29 03:05+0100\n"
+"POT-Creation-Date: 2011-01-01 02:56+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -10266,16 +10266,6 @@ msgstr "Ochish uchun fayl(lar) yoki URL(lar)"
 msgid "Ellipse assistant"
 msgstr "Oʻrnini almashtirishmoq"
 
-#: plugins/assistants/RulerAssistant/PerspectiveAssistant.cc:35
-#, fuzzy
-msgid "Perspective assistant"
-msgstr "Boshqa shaklga almashtirish"
-
-#: plugins/assistants/RulerAssistant/PerspectiveAssistant.cc:234
-#, fuzzy
-msgid "Perspective"
-msgstr "Boshqa shaklga almashtirish"
-
 #: plugins/assistants/RulerAssistant/SplineAssistant.cc:35
 #, fuzzy
 msgid "Spline assistant"
@@ -10285,15 +10275,6 @@ msgstr "Oʻrnini almashtirishmoq"
 #, fuzzy
 msgid "Spline"
 msgstr "Sinus"
-
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:396
-msgid "Errors were encountered. Not all assistants were successfully loaded."
-msgstr ""
-
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.h:79
-#, fuzzy
-msgid "Ruler assistant editor tool"
-msgstr "Oʻrnini almashtirishmoq"
 
 #: plugins/assistants/RulerAssistant/RulerAssistant.cc:32
 #, fuzzy
@@ -10305,6 +10286,26 @@ msgstr "Oʻrnini almashtirishmoq"
 #| msgid "Regular"
 msgid "Ruler"
 msgstr "Oddiy"
+
+#: plugins/assistants/RulerAssistant/PerspectiveAssistant.cc:34
+#, fuzzy
+msgid "Perspective assistant"
+msgstr "Boshqa shaklga almashtirish"
+
+#: plugins/assistants/RulerAssistant/PerspectiveAssistant.cc:295
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:46
+#, fuzzy
+msgid "Perspective"
+msgstr "Boshqa shaklga almashtirish"
+
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:417
+msgid "Errors were encountered. Not all assistants were successfully loaded."
+msgstr ""
+
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.h:82
+#, fuzzy
+msgid "Ruler assistant editor tool"
+msgstr "Oʻrnini almashtirishmoq"
 
 #: plugins/colorspaces/ctlcs/KoCtlCompositeOp.cpp:135
 #, fuzzy
@@ -11794,34 +11795,6 @@ msgstr "Boʻyoqning oʻlchami"
 msgid "Color options"
 msgstr "Alfa moslamalari"
 
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:28
-#: plugins/paintops/libpaintop/kis_curve_option.cpp:31
-#, fuzzy
-msgid "0.0"
-msgstr "100"
-
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:29
-#: plugins/paintops/libpaintop/kis_curve_option.cpp:32
-#, fuzzy
-msgid "1.0"
-msgstr "100"
-
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:95
-#, fuzzy
-msgid "Scale: "
-msgstr "Toʻrtburcha&k"
-
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:104
-#, fuzzy
-#| msgid "Rotating"
-msgid "Rotation: "
-msgstr "Burish"
-
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:110
-#, fuzzy
-msgid "Spacing: "
-msgstr "Boʻsh joy:"
-
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:36
 msgid "Fuzzy"
 msgstr ""
@@ -11844,6 +11817,34 @@ msgstr ""
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:45
 msgid "Y-Tilt"
 msgstr ""
+
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:95
+#, fuzzy
+msgid "Scale: "
+msgstr "Toʻrtburcha&k"
+
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:104
+#, fuzzy
+#| msgid "Rotating"
+msgid "Rotation: "
+msgstr "Burish"
+
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:110
+#, fuzzy
+msgid "Spacing: "
+msgstr "Boʻsh joy:"
+
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:28
+#: plugins/paintops/libpaintop/kis_curve_option.cpp:31
+#, fuzzy
+msgid "0.0"
+msgstr "100"
+
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:29
+#: plugins/paintops/libpaintop/kis_curve_option.cpp:32
+#, fuzzy
+msgid "1.0"
+msgstr "100"
 
 #: plugins/paintops/libpaintop/kis_pressure_darken_option.cpp:27
 #, fuzzy
@@ -12017,6 +12018,16 @@ msgstr ""
 #| msgid "°"
 msgid "30°"
 msgstr "°"
+
+#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:77
+#, fuzzy
+msgid "Far"
+msgstr "Teri"
+
+#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:78
+#, fuzzy
+msgid "Near"
+msgstr "Yangi rasm"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:81
 msgid ""
@@ -14040,17 +14051,6 @@ msgstr "Oldin fon rangi"
 msgid "No options"
 msgstr "Alfa moslamalari"
 
-#: ui/tool/kis_tool_freehand.cc:89
-#, fuzzy
-msgid "Increase Brush Size"
-msgstr "Nuqta boʻyogʻi"
-
-#: ui/tool/kis_tool_freehand.cc:94
-#, fuzzy
-#| msgid "Brush size"
-msgid "Decrease Brush Size"
-msgstr "Boʻyoqning oʻlchami"
-
 #: ui/tool/kis_tool_polyline_base.cpp:37
 #, fuzzy
 msgid "&Finish"
@@ -14064,6 +14064,17 @@ msgstr "Tanlash"
 #, fuzzy
 msgid "Mirror: "
 msgstr "Rasmni kesish"
+
+#: ui/tool/kis_tool_freehand.cc:90
+#, fuzzy
+msgid "Increase Brush Size"
+msgstr "Nuqta boʻyogʻi"
+
+#: ui/tool/kis_tool_freehand.cc:95
+#, fuzzy
+#| msgid "Brush size"
+msgid "Decrease Brush Size"
+msgstr "Boʻyoqning oʻlchami"
 
 #: ui/widgets/kis_channelflags_widget.cpp:39
 msgid ""
@@ -14756,10 +14767,6 @@ msgstr "%1%"
 #, fuzzy
 #~ msgid "Polyline tool"
 #~ msgstr "Koʻpburchak vositasi"
-
-#, fuzzy
-#~ msgid "Feather"
-#~ msgstr "Teri"
 
 #, fuzzy
 #~ msgid "&Scale Selection..."
