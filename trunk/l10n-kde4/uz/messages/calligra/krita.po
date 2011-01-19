@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-17 03:04+0100\n"
+"POT-Creation-Date: 2011-01-19 03:04+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -12621,11 +12621,6 @@ msgstr ""
 msgid "Assistant Magnetism"
 msgstr "Qizgʻish-qoʻngʻir"
 
-#: plugins/tools/defaulttools/kis_tool_brush.h:79
-#, fuzzy
-msgid "Paint with brushes"
-msgstr "Filtrli choʻtka"
-
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:174
 msgid "Cannot pick a color as no layer is active."
 msgstr ""
@@ -12646,10 +12641,6 @@ msgstr ""
 #, fuzzy
 msgid "Palette"
 msgstr "Palitra"
-
-#: plugins/tools/defaulttools/kis_tool_colorpicker.h:96
-msgid "Select a color from the image or current layer"
-msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_ellipse.h:55
 msgid "Draw an ellipse"
@@ -12684,10 +12675,6 @@ msgstr "Butun tanlanganni toʻldirish"
 msgid ""
 "When checked do not look at the current layer colors, but just fill all of "
 "the selected area"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_fill.h:91
-msgid "Fill a contiguous area of color with a color, or fill a selection."
 msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_gradient.cc:327
@@ -12767,11 +12754,6 @@ msgstr ""
 msgid "Preview opacity:"
 msgstr "Koʻrib chiqish: "
 
-#: plugins/tools/defaulttools/kis_tool_gradient.h:123
-#, fuzzy
-msgid "Draw a gradient."
-msgstr "Gradient chizish"
-
 #: plugins/tools/defaulttools/kis_tool_line.cc:170
 #, fuzzy
 #| msgid "Line"
@@ -12805,22 +12787,43 @@ msgstr "Burchak:"
 msgid "Measure the distance between two points"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_move.h:92
-#, fuzzy
-msgid "Move a layer"
-msgstr "Qatlamni koʻchirish"
-
-#: plugins/tools/defaulttools/kis_tool_pan.h:74
-msgid "Move and rotate your canvas"
-msgstr ""
-
 #: plugins/tools/defaulttools/kis_tool_path.h:75
 #, fuzzy
 msgid "Draw a path."
 msgstr "Gradient chizish"
 
+#: plugins/tools/defaulttools/kis_tool_brush.h:79
+#, fuzzy
+msgid "Paint with brushes (B)"
+msgstr "Filtrli choʻtka"
+
+#: plugins/tools/defaulttools/kis_tool_colorpicker.h:96
+#, fuzzy
+msgid "Select a color from the image or current layer (P)"
+msgstr "Oʻxshash ranglarni tanlash"
+
+#: plugins/tools/defaulttools/kis_tool_fill.h:91
+msgid "Fill a contiguous area of color with a color, or fill a selection. (F)"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_gradient.h:123
+#, fuzzy
+msgid "Draw a gradient. (G)"
+msgstr "Gradient chizish"
+
+#: plugins/tools/defaulttools/kis_tool_move.h:92
+#, fuzzy
+msgid "Move a layer (SHIFT+V)"
+msgstr "Qatlamni koʻchirish"
+
+#: plugins/tools/defaulttools/kis_tool_pan.h:74
+msgid "Move and rotate your canvas  (ALT+V)"
+msgstr ""
+
 #: plugins/tools/defaulttools/kis_tool_rectangle.h:61
-msgid "Draw a rectangle"
+#, fuzzy
+#| msgid "Draw a rectangle"
+msgid "Draw a rectangle (R)"
 msgstr "Toʻgʻri burchak chizish"
 
 #: plugins/tools/selectiontools/kis_tool_select_brush.cc:64
@@ -12834,11 +12837,6 @@ msgstr "Choʻtka tanlash"
 #| msgid "Brush size"
 msgid "Brush size:"
 msgstr "Boʻyoqning oʻlchami"
-
-#: plugins/tools/selectiontools/kis_tool_select_brush.h:74
-#, fuzzy
-msgid "Select by brush"
-msgstr "Choʻtkani tanlash"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:92
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:116
@@ -12861,10 +12859,6 @@ msgstr "Oʻxshash ranglarni tanlash"
 msgid "Elliptical Selection"
 msgstr "Ellips maydonni tanlash"
 
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:69
-msgid "Select an elliptical area"
-msgstr "Ellips maydonni tanlash"
-
 #: plugins/tools/selectiontools/kis_tool_select_magnetic.cc:134
 #, fuzzy
 msgid "Magnetic Selection"
@@ -12877,11 +12871,6 @@ msgstr "Tanlanganni bekitish"
 #| msgid "Selection"
 msgid "Path Selection"
 msgstr "Tanlash"
-
-#: plugins/tools/selectiontools/kis_tool_select_magnetic.h:126
-#, fuzzy
-msgid "Magnetic selection tool"
-msgstr "Tanlanganni bekitish"
 
 #: plugins/tools/selectiontools/kis_tool_select_outline.cc:117
 #: plugins/tools/selectiontools/kis_tool_select_outline.cc:196
@@ -12919,15 +12908,33 @@ msgstr "Ellips maydonni tanlash"
 msgid "Rectangular Selection"
 msgstr "Toʻgʻri burchak maydonni tanlash"
 
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:67
-msgid "Select a rectangular area"
-msgstr "Toʻgʻri burchak maydonni tanlash"
-
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:122
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:141
 #, fuzzy
 msgid "Similar Selection"
 msgstr "Tanlanganni koʻrsatish"
+
+#: plugins/tools/selectiontools/kis_tool_select_brush.h:74
+#, fuzzy
+msgid "Select by brush (SHIFT+B)"
+msgstr "Choʻtkani tanlash"
+
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:69
+#, fuzzy
+#| msgid "Select an elliptical area"
+msgid "Select an elliptical area (J)"
+msgstr "Ellips maydonni tanlash"
+
+#: plugins/tools/selectiontools/kis_tool_select_magnetic.h:126
+#, fuzzy
+msgid "Magnetic selection tool (SHIFT+E)"
+msgstr "Tanlanganni bekitish"
+
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:67
+#, fuzzy
+#| msgid "Select a rectangular area"
+msgid "Select a rectangular area (SHIFT+R)"
+msgstr "Toʻgʻri burchak maydonni tanlash"
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.h:62
 msgid "Select similar colors"
