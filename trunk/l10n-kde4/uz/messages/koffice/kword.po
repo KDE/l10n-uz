@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-26 03:29+0100\n"
+"POT-Creation-Date: 2011-01-27 03:25+0100\n"
 "PO-Revision-Date: 2006-12-17 13:48+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -30,7 +30,7 @@ msgstr "kmashrab@uni-bremen.de,mavnur@gmail.com"
 
 #. i18n: file: part/dialogs/KWCreateBookmark.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, CreateBookmark)
-#: rc.cpp:5
+#: rc.cpp:5 part/dialogs/KWCreateBookmarkDialog.cpp:48
 msgid "Create New Bookmark"
 msgstr "Yangi xatchoʻpni yaratish"
 
@@ -315,7 +315,8 @@ msgstr ""
 
 #. i18n: file: part/dialogs/KWInsertPageDialog.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:135
+#: rc.cpp:135 part/commands/KWPageInsertCommand.cpp:72
+#: part/dialogs/KWInsertPageDialog.cpp:32
 msgid "Insert Page"
 msgstr "Betni qoʻyish"
 
@@ -386,13 +387,13 @@ msgstr "Betning oʻlchami va boʻsh joylar"
 
 #. i18n: file: part/dialogs/KWStartupWidget.ui:51
 #. i18n: ectx: attribute (title), widget (QWidget, columnsTab)
-#: rc.cpp:166
+#: rc.cpp:166 part/dialogs/KWPageSettingsDialog.cpp:41
 msgid "Columns"
 msgstr "Ustunlar"
 
 #. i18n: file: part/dialogs/KWStartupWidget.ui:102
 #. i18n: ectx: property (text), widget (QPushButton, createButton)
-#: rc.cpp:169
+#: rc.cpp:169 part/KWView.cpp:323
 msgid "Create"
 msgstr "Yaratish"
 
@@ -645,7 +646,7 @@ msgstr "Avto-toʻgʻrilash"
 
 #. i18n: file: part/kword.rc:130
 #. i18n: ectx: Menu (Changes)
-#: rc.cpp:288
+#: rc.cpp:288 part/KWAboutData.h:43 part/KWAboutData.h:44
 #, fuzzy
 #| msgid "Change Link"
 msgid "Change Tracking"
@@ -731,575 +732,986 @@ msgstr "Imloni tekshirish natijasi"
 msgid "Change Variable To"
 msgstr "Oʻzgaruvchini oʻzgartirish"
 
-#~ msgid "Invalid document. No mimetype specified."
-#~ msgstr "Hujjat haqiqiy emas. Hech qanday MIME-turi koʻrsatilmagan."
+#: part/KWDLoader.cpp:75
+msgid "Invalid document. No mimetype specified."
+msgstr "Hujjat haqiqiy emas. Hech qanday MIME-turi koʻrsatilmagan."
 
-#~ msgid ""
-#~ "Invalid document. Expected mimetype application/x-kword or application/"
-#~ "vnd.kde.kword, got %1"
-#~ msgstr ""
-#~ "Notoʻgʻri hujjat turi. MIME-turi application/x-kword yoki application/vnd."
-#~ "kde.kword kutilgan edi, oʻrniga %1 olindi."
+#: part/KWDLoader.cpp:79
+#, kde-format
+msgid ""
+"Invalid document. Expected mimetype application/x-kword or application/vnd."
+"kde.kword, got %1"
+msgstr ""
+"Notoʻgʻri hujjat turi. MIME-turi application/x-kword yoki application/vnd."
+"kde.kword kutilgan edi, oʻrniga %1 olindi."
 
-#~ msgid "Invalid document. Paper size: %1x%2"
-#~ msgstr "Hujjat haqiqiy emas. Betning oʻlchami: %1x%2"
+#: part/KWDLoader.cpp:105
+#, kde-format
+msgid "Invalid document. Paper size: %1x%2"
+msgstr "Hujjat haqiqiy emas. Betning oʻlchami: %1x%2"
 
+#: part/KWDLoader.cpp:691
 #, fuzzy
-#~| msgid "Unable to create database object"
-#~ msgid "Unable to locate footnote text"
-#~ msgstr "Maʼlumot baza obʼektini yaratib boʻlmadi"
+#| msgid "Unable to create database object"
+msgid "Unable to locate footnote text"
+msgstr "Maʼlumot baza obʼektini yaratib boʻlmadi"
 
+#: part/KWDLoader.cpp:711
 #, fuzzy
-#~| msgid "Unable to create database object"
-#~ msgid "Unable to locate note-text"
-#~ msgstr "Maʼlumot baza obʼektini yaratib boʻlmadi"
+#| msgid "Unable to create database object"
+msgid "Unable to locate note-text"
+msgstr "Maʼlumot baza obʼektini yaratib boʻlmadi"
 
+#: part/KWDocument.cpp:438
 #, fuzzy
-#~| msgid "Copy%1-%2"
-#~ msgid "Copy"
-#~ msgstr "Nusxa%1-%2"
+#| msgid "Copy%1-%2"
+msgid "Copy"
+msgstr "Nusxa%1-%2"
 
+#: part/KWDocument.cpp:521
 #, fuzzy
-#~| msgctxt "Style name"
-#~| msgid "Head 1"
-#~ msgid "Head 1"
-#~ msgstr "Sarlavha 1"
+#| msgctxt "Style name"
+#| msgid "Head 1"
+msgid "Head 1"
+msgstr "Sarlavha 1"
 
+#: part/KWDocument.cpp:528
 #, fuzzy
-#~| msgctxt "Style name"
-#~| msgid "Head 2"
-#~ msgid "Head 2"
-#~ msgstr "Sarlavha 2"
+#| msgctxt "Style name"
+#| msgid "Head 2"
+msgid "Head 2"
+msgstr "Sarlavha 2"
 
+#: part/KWDocument.cpp:535
 #, fuzzy
-#~| msgctxt "Style name"
-#~| msgid "Head 3"
-#~ msgid "Head 3"
-#~ msgstr "Sarlavha 3"
+#| msgctxt "Style name"
+#| msgid "Head 3"
+msgid "Head 3"
+msgstr "Sarlavha 3"
 
+#: part/KWDocument.cpp:542
 #, fuzzy
-#~ msgid "Bullet List"
-#~ msgstr "Koʻkish"
+msgid "Bullet List"
+msgstr "Koʻkish"
 
-#~ msgid "Invalid OASIS OpenDocument file. No office:body tag found."
-#~ msgstr "OASIS OpenDocument fayli haqiqiy emas. office:body tegi topilmadi."
+#: part/KWDocument.cpp:850
+msgid "Can not find needed text component, KWord will quit now"
+msgstr ""
 
-#~ msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
-#~ msgstr "OASIS OpenDocument fayli haqiqiy emas. office:body tegi topilmadi."
+#: part/KWDocument.cpp:851
+msgid "Installation Error"
+msgstr ""
 
-#~ msgid ""
-#~ "This is not a word processing document, but %1. Please try opening it "
-#~ "with the appropriate application."
-#~ msgstr ""
-#~ "Bu KWord hujjati emas, lekin %1. Uni mos dastur bilan ochib koʻring."
+#: part/KWOdfLoader.cpp:85
+msgid "Invalid OASIS OpenDocument file. No office:body tag found."
+msgstr "OASIS OpenDocument fayli haqiqiy emas. office:body tegi topilmadi."
 
+#: part/KWOdfLoader.cpp:97
+msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
+msgstr "OASIS OpenDocument fayli haqiqiy emas. office:body tegi topilmadi."
+
+#: part/KWOdfLoader.cpp:99
+#, kde-format
+msgid ""
+"This is not a word processing document, but %1. Please try opening it with "
+"the appropriate application."
+msgstr "Bu KWord hujjati emas, lekin %1. Uni mos dastur bilan ochib koʻring."
+
+#: part/KWStatusBar.cpp:39
+msgid "Modified"
+msgstr ""
+
+#: part/KWStatusBar.cpp:40
 #, fuzzy
-#~| msgid "Save Failed"
-#~ msgid "Saved"
-#~ msgstr "Saqlash muvaffaqiyatsiz tugadi"
+#| msgid "Save Failed"
+msgid "Saved"
+msgstr "Saqlash muvaffaqiyatsiz tugadi"
+
+#: part/KWStatusBar.cpp:41
+#, fuzzy, kde-format
+#| msgid "Page %1"
+msgid "Page: %1/%2"
+msgstr "Bet %1"
+
+#: part/KWStatusBar.cpp:63
+msgid "Page: current/total"
+msgstr ""
+
+#: part/KWStatusBar.cpp:80
+msgid "State: saved/modified"
+msgstr ""
 
+#: part/KWStatusBar.cpp:94
+msgid "Mouseposition: X:Y"
+msgstr ""
+
+#: part/KWStatusBar.cpp:107
+msgid "Zoom Controller"
+msgstr ""
+
+#: part/commands/KWChangePageStyleCommand.cpp:25
 #, fuzzy
-#~| msgid "Page %1"
-#~ msgid "Page: %1/%2"
-#~ msgstr "Bet %1"
+#| msgid "Framestyle:"
+msgid "Set Page Style"
+msgstr "Freymning uslubi:"
 
+#: part/commands/KWClipFrameCommand.cpp:41
 #, fuzzy
-#~| msgid "F&rame/Frameset Properties"
-#~ msgid "Frame/Frameset Properties"
-#~ msgstr "&Freym/Freymlar toʻplamining xossalari"
+msgid "Clip Frame"
+msgstr "Freymni bogʻlash"
 
+#: part/commands/KWCreateOutlineCommand.cpp:30
 #, fuzzy
-#~ msgid "Alter frameset properties"
-#~ msgstr "Freymning xossalarini oʻzgartirish."
+msgid "Create custom outline"
+msgstr "Jadvalni yaratish."
 
+#: part/commands/KWFrameCreateCommand.cpp:29
 #, fuzzy
-#~ msgid "Page Break"
-#~ msgstr "Chegarani oʻzgartirish"
+#| msgid "Create Text Frame"
+msgid "Create Frame"
+msgstr "Matn freymini yaratish"
+
+#: part/commands/KWFrameDeleteCommand.cpp:29
+msgid "Delete Frame"
+msgstr "Freymni oʻchirish"
 
+#: part/commands/KWNewPageStyleCommand.cpp:27
 #, fuzzy
-#~ msgid "Enable Document Headers"
-#~ msgstr "Hujjatni tashqi hujjat qilish"
+#| msgid "Insert Page"
+msgid "Insert Page Style"
+msgstr "Betni qoʻyish"
 
+#: part/commands/KWPageRemoveCommand.cpp:32
 #, fuzzy
-#~ msgid "Disable Document Headers"
-#~ msgstr "Hujjatni tashqi hujjat qilish"
+#| msgid "Remove entry"
+msgid "Remove Page"
+msgstr "Yozuvni olib tashlash"
 
+#: part/commands/KWPageStylePropertiesCommand.cpp:36
 #, fuzzy
-#~ msgid "Shows and hides header display"
-#~ msgstr "Lineykalarni koʻrsatish yoki bekitish."
+#| msgid "Frame Properties"
+msgid "Page Properties"
+msgstr "Freymning xossalari"
 
+#: part/dialogs/KWFrameConnectSelector.cpp:48
 #, fuzzy
-#~ msgid "Enable Document Footers"
-#~ msgstr "Hujjatni ichki hujjat qilish"
+#| msgid "Fra&mes"
+msgid "frameset"
+msgstr "&Freymlar"
 
+#: part/dialogs/KWFrameConnectSelector.cpp:75
+msgid "No framesets in document"
+msgstr ""
+
+#: part/dialogs/KWFrameDialog.cpp:41 part/dialogs/KWShapeConfigFactory.cpp:94
 #, fuzzy
-#~ msgid "Disable Document Footers"
-#~ msgstr "Hujjatni tashqi hujjat qilish"
+msgid "Options"
+msgstr "Interfeys moslamalari"
+
+#: part/dialogs/KWFrameDialog.cpp:43 part/dialogs/KWShapeConfigFactory.cpp:76
+msgid "Text Run Around"
+msgstr "Atrofidagi matn"
+
+#: part/dialogs/KWFrameDialog.cpp:50 part/dialogs/KWShapeConfigFactory.cpp:40
+msgid "Connect Text Frames"
+msgstr "Matn freymlarini bogʻlash"
 
+#: part/dialogs/KWFrameDialog.cpp:57 part/dialogs/KWShapeConfigFactory.cpp:58
+msgid "Geometry"
+msgstr "Geometriya"
+
+#: part/dialogs/KWFrameDialog.cpp:73
 #, fuzzy
-#~ msgid "Shows and hides footer display"
-#~ msgstr "Lineykalarni koʻrsatish yoki bekitish."
+#| msgid "Frame Style Manager"
+msgid "Frame changes"
+msgstr "Freym uslubi boshqaruvchisi"
 
+#: part/dialogs/KWPageSettingsDialog.cpp:97
 #, fuzzy
-#~ msgid "Snap to Grid"
-#~ msgstr "Toʻrni koʻrsatish"
+#| msgid "Frame Properties"
+msgid "Change Page Properties"
+msgstr "Freymning xossalari"
 
-#~ msgid "Raise Frame"
-#~ msgstr "Freym oldinga"
+#: part/dialogs/KWSelectBookmarkDialog.cpp:79
+msgid "Rename Bookmark"
+msgstr "Xatchoʻpning nomini oʻzgartirish"
 
-#, fuzzy
-#~ msgid ""
-#~ "Raise the currently selected frame so that it appears above all the other "
-#~ "frames"
-#~ msgstr "Tanlangan freymdagi rasmni alohida faylga saqlash."
+#: part/dialogs/KWSelectBookmarkDialog.cpp:80
+msgid "Please provide a new name for the bookmark"
+msgstr ""
 
-#~ msgid "Lower Frame"
-#~ msgstr "Freym orqaga"
+#: part/dialogs/KWSelectBookmarkDialog.cpp:89
+#, fuzzy, kde-format
+#| msgid ""
+#| "A frameset with the name '%1' already exists. Please enter another name."
+msgid "A bookmark with the name \"%1\" already exists."
+msgstr ""
+"'%1' nomli freymlar toʻplami allaqachon mavjud. Iltimos boshqa nomni tanlang."
 
-#, fuzzy
-#~ msgid ""
-#~ "Lower the currently selected frame so that it disappears under any frame "
-#~ "that overlaps it"
-#~ msgstr "Tanlangan freymdagi rasmni alohida faylga saqlash."
+#: part/dialogs/KWSelectBookmarkDialog.cpp:121
+msgid "Select Bookmark"
+msgstr "Xatchoʻpni tanlash"
 
-#~ msgid "Bring to Front"
-#~ msgstr "Eng oldinga"
+#: part/dialogs/KWStatistics.cpp:269
+#, kde-format
+msgid "approximately %1"
+msgstr "taxminan %1"
 
-#~ msgid "Send to Back"
-#~ msgstr "Eng oxirga"
+#: part/dialogs/KWStatisticsDialog.cpp:29
+#: part/dockers/KWStatisticsDocker.cpp:36 part/KWView.cpp:391
+msgid "Statistics"
+msgstr "Statistika"
 
-#, fuzzy
-#~| msgid "&Variable"
-#~ msgid "Variable"
-#~ msgstr "Oʻ&zgaruvchi"
+#: part/dockers/KWRdfDocker.cpp:50
+msgid "RDF"
+msgstr ""
 
+#: part/frames/KWTextFrameSet.cpp:90
 #, fuzzy
-#~| msgid "&Bookmark..."
-#~ msgid "Bookmark..."
-#~ msgstr "&Xatchoʻp"
+#| msgid "&Page Mode"
+msgid "Odd Pages Header"
+msgstr "&Bet usuli"
 
-#, fuzzy
-#~| msgid "Select &Bookmark..."
-#~ msgid "Select Bookmark..."
-#~ msgstr "Xatchoʻpni &tanlash"
+#: part/frames/KWTextFrameSet.cpp:93
+msgid "Even Pages Header"
+msgstr ""
+
+#: part/frames/KWTextFrameSet.cpp:96
+msgid "Odd Pages Footer"
+msgstr ""
 
+#: part/frames/KWTextFrameSet.cpp:99
+msgid "Even Pages Footer"
+msgstr ""
+
+#: part/frames/KWTextFrameSet.cpp:102
 #, fuzzy
-#~| msgid "Insert Picture"
-#~ msgid "Insert Picture..."
-#~ msgstr "Rasmni qoʻyish"
+#| msgid "Plain text"
+msgid "Main text"
+msgstr "Matn"
+
+#: part/i18n/stylenames.cpp:21
+msgctxt "Style name"
+msgid "Standard"
+msgstr "Andoza"
+
+#: part/i18n/stylenames.cpp:22
+msgctxt "Style name"
+msgid "Head 1"
+msgstr "Sarlavha 1"
 
+#: part/i18n/stylenames.cpp:23
+msgctxt "Style name"
+msgid "Head 2"
+msgstr "Sarlavha 2"
+
+#: part/i18n/stylenames.cpp:24
+msgctxt "Style name"
+msgid "Head 3"
+msgstr "Sarlavha 3"
+
+#: part/i18n/stylenames.cpp:25
 #, fuzzy
-#~ msgid "Insert a picture into document"
-#~ msgstr "Rasmni qoʻyish"
+msgctxt "Style name"
+msgid "Enumerated List"
+msgstr "Hujjat sarlavhasi"
 
+#: part/i18n/stylenames.cpp:26
 #, fuzzy
-#~| msgid "Frame &Borders"
-#~ msgid "Text Area Borders"
-#~ msgstr "Freymning che&garalari"
+msgctxt "Style name"
+msgid "Alphabetical List"
+msgstr "Qora"
 
+#: part/i18n/stylenames.cpp:27
 #, fuzzy
-#~ msgid "Turns the border display of the text areas on and off"
-#~ msgstr "Chegaralarni koʻrsatishni oʻchirish va yoqish."
+msgctxt "Style name"
+msgid "Bullet List"
+msgstr "Koʻkish"
 
+#: part/i18n/stylenames.cpp:28
 #, fuzzy
-#~| msgid "Page &Layout..."
-#~ msgid "Page Layout..."
-#~ msgstr "Bet &moslamalari"
+msgctxt "Style name"
+msgid "Contents Title"
+msgstr "Hujjat sarlavhasi"
 
+#: part/i18n/stylenames.cpp:29
 #, fuzzy
-#~ msgid "Change properties of entire page"
-#~ msgstr "Betning xossalarini moslash."
+msgctxt "Style name"
+msgid "Contents Head 1"
+msgstr "Sarlavha 1"
 
+#: part/i18n/stylenames.cpp:30
 #, fuzzy
-#~| msgid "Import Styles..."
-#~ msgid "Semantic Stylesheets..."
-#~ msgstr "Uslublarni import qilish"
+msgctxt "Style name"
+msgid "Contents Head 2"
+msgstr "Sarlavha 2"
 
+#: part/i18n/stylenames.cpp:31
 #, fuzzy
-#~ msgid "Make inline"
-#~ msgstr "Freymning uslubi:"
+msgctxt "Style name"
+msgid "Contents Head 3"
+msgstr "Sarlavha 3"
 
+#: part/i18n/stylenames.cpp:32
+msgctxt "Style name"
+msgid "Document Title"
+msgstr "Hujjat sarlavhasi"
+
+#: part/i18n/stylenames.cpp:33
 #, fuzzy
-#~ msgid "Convert current frame to an inline frame"
-#~ msgstr "Formulani yangi freymga qoʻyish."
+msgctxt "Style name"
+msgid "Header"
+msgstr "Sarlavha 4"
 
+#: part/i18n/stylenames.cpp:34
 #, fuzzy
-#~| msgid "Preview"
-#~ msgid "Previous Page"
-#~ msgstr "Koʻrib chiqish"
+msgctxt "Style name"
+msgid "Footer"
+msgstr "Satr"
 
+#: part/i18n/stylenames.cpp:37
 #, fuzzy
-#~| msgid "Insert Page"
-#~ msgid "Next Page"
-#~ msgstr "Betni qoʻyish"
+msgctxt "Style name"
+msgid "Plain"
+msgstr "Qora"
 
-#~ msgid "Statistics"
-#~ msgstr "Statistika"
+#: part/i18n/stylenames.cpp:38
+msgctxt "Style name"
+msgid "Borders 1"
+msgstr "Chegaralar 1"
 
-#~ msgid "Sentence, word and letter counts for this document"
-#~ msgstr "Ushbu hujjat uchun soʻz va harflarning soni"
+#: part/i18n/stylenames.cpp:39
+msgctxt "Style name"
+msgid "Borders 2"
+msgstr "Chegaralar 2"
 
-#~ msgid "Show Rulers"
-#~ msgstr "Lineykalarni koʻrsatish"
+#: part/i18n/stylenames.cpp:40
+msgctxt "Style name"
+msgid "Borders 3"
+msgstr "Chegaralar 3"
 
-#, fuzzy
-#~ msgid "Shows or hides rulers"
-#~ msgstr "Lineykalarni koʻrsatish yoki bekitish."
+#: part/i18n/stylenames.cpp:41
+msgctxt "Style name"
+msgid "Row"
+msgstr "Satr"
 
-#~ msgid "Page..."
-#~ msgstr "Bet"
+#: part/i18n/stylenames.cpp:42
+msgctxt "Style name"
+msgid "Column"
+msgstr "Ustun"
 
-#~ msgid "Delete Page"
-#~ msgstr "Betni oʻchirish"
+#: part/i18n/stylenames.cpp:43
+msgctxt "Style name"
+msgid "Light Gray"
+msgstr "Och kul"
 
-#, fuzzy
-#~| msgid "&Formatting Characters"
-#~ msgid "Formatting Characters"
-#~ msgstr "Formatlash &belgilari"
+#: part/i18n/stylenames.cpp:44
+msgctxt "Style name"
+msgid "Dark Gray"
+msgstr "Toʻq kul"
 
-#, fuzzy
-#~ msgid "Toggle the display of non-printing characters"
-#~ msgstr "Bosib chiqarilmaydigan belgilarni koʻrsatish usuliga oʻtish."
+#: part/i18n/stylenames.cpp:45
+msgctxt "Style name"
+msgid "Black"
+msgstr "Qora"
 
-#~ msgid "Select All Frames"
-#~ msgstr "Hamma freymlarni tanlash"
+#: part/i18n/stylenames.cpp:46
+msgctxt "Style name"
+msgid "Light Blue"
+msgstr "Och koʻk"
 
-#, fuzzy
-#~ msgid "Delete"
-#~ msgstr "Satrni oʻchirish"
+#: part/i18n/stylenames.cpp:47
+msgctxt "Style name"
+msgid "Dark Blue"
+msgstr "Toʻq koʻk"
 
-#~ msgid "Create Linked Copy"
-#~ msgstr "Bogʻlangan nusxani yaratish"
+#: part/i18n/stylenames.cpp:48
+msgctxt "Style name"
+msgid "Red"
+msgstr "Qizil"
 
-#, fuzzy
-#~ msgid "Create Custom Outline"
-#~ msgstr "Jadvalni yaratish."
+#: part/i18n/stylenames.cpp:49
+msgctxt "Style name"
+msgid "Yellow"
+msgstr "Sariq"
 
-#, fuzzy
-#~| msgid "Create Text Frame"
-#~ msgid "Create Frame-clip"
-#~ msgstr "Matn freymini yaratish"
+#: part/i18n/stylenames.cpp:50
+msgctxt "Style name"
+msgid "Colorful"
+msgstr "Rangli"
 
-#, fuzzy
-#~| msgid "Remove record"
-#~ msgid "Remove Frame-clip"
-#~ msgstr "Yozuvni olib tashlash"
+#: part/i18n/stylenames.cpp:51
+msgctxt "Style name"
+msgid "Bluish"
+msgstr "Koʻkish"
 
-#, fuzzy
-#~| msgid "Show &status bar"
-#~ msgid "Show Status Bar"
-#~ msgstr "&Holat panelini koʻrsatish"
+#: part/i18n/stylenames.cpp:54
+msgctxt "Style name"
+msgid "Simple 1"
+msgstr "Oddiy 1"
 
-#, fuzzy
-#~| msgid "Show &status bar"
-#~ msgid "Hide Status Bar"
-#~ msgstr "&Holat panelini koʻrsatish"
+#: part/i18n/stylenames.cpp:55
+msgctxt "Style name"
+msgid "Simple 2"
+msgstr "Oddiy 2"
 
-#, fuzzy
-#~| msgid "Show &status bar"
-#~ msgid "Shows or hides the status bar"
-#~ msgstr "&Holat panelini koʻrsatish"
+#: part/i18n/stylenames.cpp:56
+msgctxt "Style name"
+msgid "Simple 3"
+msgstr "Oddiy 3"
 
-#, fuzzy
-#~ msgid "Create outlines"
-#~ msgstr "Jadvalni yaratish."
+#: part/i18n/stylenames.cpp:57
+msgctxt "Style name"
+msgid "Header 1"
+msgstr "Sarlavha 1"
 
-#, fuzzy
-#~| msgid "Framestyle:"
-#~ msgid "Set Page Style"
-#~ msgstr "Freymning uslubi:"
+#: part/i18n/stylenames.cpp:58
+msgctxt "Style name"
+msgid "Header 2"
+msgstr "Sarlavha 2"
 
-#, fuzzy
-#~ msgid "Clip Frame"
-#~ msgstr "Freymni bogʻlash"
+#: part/i18n/stylenames.cpp:59
+msgctxt "Style name"
+msgid "Header 3"
+msgstr "Sarlavha 3"
 
-#, fuzzy
-#~ msgid "Create custom outline"
-#~ msgstr "Jadvalni yaratish."
+#: part/i18n/stylenames.cpp:60
+msgctxt "Style name"
+msgid "Header 4"
+msgstr "Sarlavha 4"
 
-#, fuzzy
-#~| msgid "Create Text Frame"
-#~ msgid "Create Frame"
-#~ msgstr "Matn freymini yaratish"
+#: part/i18n/stylenames.cpp:63
+msgctxt "Style name"
+msgid "Columns 1"
+msgstr "Ustunlar 1"
+
+#: part/i18n/stylenames.cpp:64
+msgctxt "Style name"
+msgid "Columns 2"
+msgstr "Ustunlar 2"
+
+#: part/i18n/stylenames.cpp:65
+msgctxt "Style name"
+msgid "Grid 1"
+msgstr "Toʻr 1"
+
+#: part/i18n/stylenames.cpp:66
+msgctxt "Style name"
+msgid "Grid 2"
+msgstr "Toʻr 2"
+
+#: part/i18n/stylenames.cpp:67
+msgctxt "Style name"
+msgid "Grid 3"
+msgstr "Toʻr 3"
+
+#: part/i18n/stylenames.cpp:68
+msgctxt "Style name"
+msgid "Gray Heading"
+msgstr "Kul sarlavha"
+
+#: part/i18n/stylenames.cpp:69
+msgctxt "Style name"
+msgid "Blue Heading"
+msgstr "Koʻk sarlavha"
+
+#: part/i18n/stylenames.cpp:70
+msgctxt "Style name"
+msgid "Blue Traditional"
+msgstr "Anʼanaviy koʻk"
+
+#: part/i18n/stylenames.cpp:71
+msgctxt "Style name"
+msgid "Gray Traditional"
+msgstr "Anʼanaviy kul"
+
+#: part/i18n/stylenames.cpp:72
+msgctxt "Style name"
+msgid "Blue Top and Bottom"
+msgstr "Tepasi va pasti koʻk"
+
+#: part/i18n/stylenames.cpp:73
+msgctxt "Style name"
+msgid "Gray Top and Bottom"
+msgstr "Tepasi va pasti kul"
+
+#: part/main.cpp:31
+msgid "File to open"
+msgstr "Ochish uchun fayl"
+
+#: part/KWAboutData.h:27
+msgid "KOffice Word Processor"
+msgstr "KOffice matn protsessori"
 
-#~ msgid "Delete Frame"
-#~ msgstr "Freymni oʻchirish"
+#: part/KWAboutData.h:37
+msgid "KWord"
+msgstr "KWord"
 
+#: part/KWAboutData.h:39
 #, fuzzy
-#~| msgid "Insert Page"
-#~ msgid "Insert Page Style"
-#~ msgstr "Betni qoʻyish"
+#| msgid "(c) 1998-2006, The KWord Team"
+msgid "(c) 1998-2011, The KWord Team"
+msgstr "(C) 1998-2006, KWord jamoasi"
 
+#: part/KWAboutData.h:41
+msgid "Thomas Zander"
+msgstr ""
+
+#: part/KWAboutData.h:42
+msgid "Girish Ramakrishnan"
+msgstr ""
+
+#: part/KWAboutData.h:42
+msgid "ODF Support"
+msgstr ""
+
+#: part/KWAboutData.h:43
+msgid "Pierre Stirnweiss"
+msgstr ""
+
+#: part/KWAboutData.h:44
+msgid "Ganesh Paramasivam"
+msgstr ""
+
+#: part/KWAboutData.h:45
+msgid "David Faure"
+msgstr ""
+
+#: part/KWAboutData.h:46
+msgid "Laurent Montel"
+msgstr ""
+
+#: part/KWAboutData.h:47
+msgid "Sven Lüppken"
+msgstr ""
+
+#: part/KWAboutData.h:48
+msgid "Frank Dekervel"
+msgstr ""
+
+#: part/KWAboutData.h:49
+msgid "Krister Wicksell Eriksson"
+msgstr ""
+
+#: part/KWAboutData.h:50
+msgid "Dag Andersen"
+msgstr ""
+
+#: part/KWAboutData.h:51
+msgid "Nash Hoogwater"
+msgstr ""
+
+#: part/KWAboutData.h:52
+msgid "Ulrich Kuettler"
+msgstr ""
+
+#: part/KWAboutData.h:52
+msgid "KFormula"
+msgstr "KFormula"
+
+#: part/KWAboutData.h:54
+msgid "Shaheed Haque"
+msgstr ""
+
+#: part/KWAboutData.h:55
+msgid "Werner Trobin"
+msgstr ""
+
+#: part/KWAboutData.h:56
+msgid "Nicolas Goutte"
+msgstr ""
+
+#: part/KWAboutData.h:57
+msgid "Ariya Hidayat"
+msgstr ""
+
+#: part/KWAboutData.h:58
+msgid "Clarence Dang"
+msgstr ""
+
+#: part/KWAboutData.h:59
+msgid "Robert Jacolin"
+msgstr ""
+
+#: part/KWAboutData.h:60
+msgid "Enno Bartels"
+msgstr ""
+
+#: part/KWAboutData.h:61
+msgid "Ewald Snel"
+msgstr ""
+
+#: part/KWAboutData.h:62
+msgid "Tomasz Grobelny"
+msgstr ""
+
+#: part/KWAboutData.h:63
+msgid "Michael Johnson"
+msgstr ""
+
+#: part/KWView.cpp:249
 #, fuzzy
-#~| msgid "Remove entry"
-#~ msgid "Remove Page"
-#~ msgstr "Yozuvni olib tashlash"
+#| msgid "F&rame/Frameset Properties"
+msgid "Frame/Frameset Properties"
+msgstr "&Freym/Freymlar toʻplamining xossalari"
 
+#: part/KWView.cpp:251
 #, fuzzy
-#~| msgid "Frame Properties"
-#~ msgid "Page Properties"
-#~ msgstr "Freymning xossalari"
+msgid "Alter frameset properties"
+msgstr "Freymning xossalarini oʻzgartirish."
 
+#: part/KWView.cpp:259
 #, fuzzy
-#~| msgid "Fra&mes"
-#~ msgid "frameset"
-#~ msgstr "&Freymlar"
+msgid "Page Break"
+msgstr "Chegarani oʻzgartirish"
 
-#~ msgid "Text Run Around"
-#~ msgstr "Atrofidagi matn"
+#: part/KWView.cpp:260
+msgid "Force the remainder of the text into the next page"
+msgstr ""
 
-#~ msgid "Connect Text Frames"
-#~ msgstr "Matn freymlarini bogʻlash"
+#: part/KWView.cpp:261
+msgid "All text after this point will be moved into the next page."
+msgstr ""
 
-#~ msgid "Geometry"
-#~ msgstr "Geometriya"
+#: part/KWView.cpp:263
+#, fuzzy
+msgid "Enable Document Headers"
+msgstr "Hujjatni tashqi hujjat qilish"
 
+#: part/KWView.cpp:265
 #, fuzzy
-#~| msgid "Frame Style Manager"
-#~ msgid "Frame changes"
-#~ msgstr "Freym uslubi boshqaruvchisi"
+msgid "Disable Document Headers"
+msgstr "Hujjatni tashqi hujjat qilish"
 
+#: part/KWView.cpp:266
 #, fuzzy
-#~| msgid "Frame Properties"
-#~ msgid "Change Page Properties"
-#~ msgstr "Freymning xossalari"
+msgid "Shows and hides header display"
+msgstr "Lineykalarni koʻrsatish yoki bekitish."
 
-#~ msgid "Rename Bookmark"
-#~ msgstr "Xatchoʻpning nomini oʻzgartirish"
+#: part/KWView.cpp:267
+msgid ""
+"Selecting this option toggles the display of headers in KWord.<br/><br/"
+">Headers are special frames at the top of each page which can contain page "
+"numbers or other information."
+msgstr ""
 
+#: part/KWView.cpp:272
 #, fuzzy
-#~| msgid ""
-#~| "A frameset with the name '%1' already exists. Please enter another name."
-#~ msgid "A bookmark with the name \"%1\" already exists."
-#~ msgstr ""
-#~ "'%1' nomli freymlar toʻplami allaqachon mavjud. Iltimos boshqa nomni "
-#~ "tanlang."
+msgid "Enable Document Footers"
+msgstr "Hujjatni ichki hujjat qilish"
 
-#~ msgid "Select Bookmark"
-#~ msgstr "Xatchoʻpni tanlash"
+#: part/KWView.cpp:274
+#, fuzzy
+msgid "Disable Document Footers"
+msgstr "Hujjatni tashqi hujjat qilish"
+
+#: part/KWView.cpp:275
+#, fuzzy
+msgid "Shows and hides footer display"
+msgstr "Lineykalarni koʻrsatish yoki bekitish."
 
-#~ msgid "approximately %1"
-#~ msgstr "taxminan %1"
+#: part/KWView.cpp:276
+msgid ""
+"Selecting this option toggles the display of footers in KWord. <br/><br/"
+">Footers are special frames at the bottom of each page which can contain "
+"page numbers or other information."
+msgstr ""
 
+#: part/KWView.cpp:281
 #, fuzzy
-#~| msgid "Plain text"
-#~ msgid "Main text"
-#~ msgstr "Matn"
+msgid "Snap to Grid"
+msgstr "Toʻrni koʻrsatish"
 
-#~ msgctxt "Style name"
-#~ msgid "Standard"
-#~ msgstr "Andoza"
+#: part/KWView.cpp:286
+msgid "Raise Frame"
+msgstr "Freym oldinga"
 
-#~ msgctxt "Style name"
-#~ msgid "Head 1"
-#~ msgstr "Sarlavha 1"
+#: part/KWView.cpp:289
+#, fuzzy
+msgid ""
+"Raise the currently selected frame so that it appears above all the other "
+"frames"
+msgstr "Tanlangan freymdagi rasmni alohida faylga saqlash."
 
-#~ msgctxt "Style name"
-#~ msgid "Head 2"
-#~ msgstr "Sarlavha 2"
+#: part/KWView.cpp:291
+msgid ""
+"Raise the currently selected frame so that it appears above all the other "
+"frames. This is only useful if frames overlap each other. If multiple frames "
+"are selected they are all raised in turn."
+msgstr ""
 
-#~ msgctxt "Style name"
-#~ msgid "Head 3"
-#~ msgstr "Sarlavha 3"
+#: part/KWView.cpp:296
+msgid "Lower Frame"
+msgstr "Freym orqaga"
 
+#: part/KWView.cpp:299
 #, fuzzy
-#~ msgctxt "Style name"
-#~ msgid "Enumerated List"
-#~ msgstr "Hujjat sarlavhasi"
+msgid ""
+"Lower the currently selected frame so that it disappears under any frame "
+"that overlaps it"
+msgstr "Tanlangan freymdagi rasmni alohida faylga saqlash."
 
+#: part/KWView.cpp:301
 #, fuzzy
-#~ msgctxt "Style name"
-#~ msgid "Alphabetical List"
-#~ msgstr "Qora"
+msgid ""
+"Lower the currently selected frame so that it disappears under any frame "
+"that overlaps it. If multiple frames are selected they are all lowered in "
+"turn."
+msgstr "Tanlangan freymdagi rasmni alohida faylga saqlash."
 
-#, fuzzy
-#~ msgctxt "Style name"
-#~ msgid "Bullet List"
-#~ msgstr "Koʻkish"
+#: part/KWView.cpp:305
+msgid "Bring to Front"
+msgstr "Eng oldinga"
 
-#, fuzzy
-#~ msgctxt "Style name"
-#~ msgid "Contents Title"
-#~ msgstr "Hujjat sarlavhasi"
+#: part/KWView.cpp:309
+msgid "Send to Back"
+msgstr "Eng oxirga"
 
+#: part/KWView.cpp:313
 #, fuzzy
-#~ msgctxt "Style name"
-#~ msgid "Contents Head 1"
-#~ msgstr "Sarlavha 1"
+#| msgid "&Variable"
+msgid "Variable"
+msgstr "Oʻ&zgaruvchi"
 
+#: part/KWView.cpp:331
 #, fuzzy
-#~ msgctxt "Style name"
-#~ msgid "Contents Head 2"
-#~ msgstr "Sarlavha 2"
+#| msgid "&Bookmark..."
+msgid "Bookmark..."
+msgstr "&Xatchoʻp"
 
+#: part/KWView.cpp:336
 #, fuzzy
-#~ msgctxt "Style name"
-#~ msgid "Contents Head 3"
-#~ msgstr "Sarlavha 3"
+#| msgid "Select &Bookmark..."
+msgid "Select Bookmark..."
+msgstr "Xatchoʻpni &tanlash"
 
-#~ msgctxt "Style name"
-#~ msgid "Document Title"
-#~ msgstr "Hujjat sarlavhasi"
+#: part/KWView.cpp:342
+#, fuzzy
+#| msgid "Insert Picture"
+msgid "Insert Picture..."
+msgstr "Rasmni qoʻyish"
 
+#: part/KWView.cpp:343
 #, fuzzy
-#~ msgctxt "Style name"
-#~ msgid "Header"
-#~ msgstr "Sarlavha 4"
+msgid "Insert a picture into document"
+msgstr "Rasmni qoʻyish"
 
+#: part/KWView.cpp:347
 #, fuzzy
-#~ msgctxt "Style name"
-#~ msgid "Footer"
-#~ msgstr "Satr"
+#| msgid "Frame &Borders"
+msgid "Text Area Borders"
+msgstr "Freymning che&garalari"
 
+#: part/KWView.cpp:348
 #, fuzzy
-#~ msgctxt "Style name"
-#~ msgid "Plain"
-#~ msgstr "Qora"
+msgid "Turns the border display of the text areas on and off"
+msgstr "Chegaralarni koʻrsatishni oʻchirish va yoqish."
 
-#~ msgctxt "Style name"
-#~ msgid "Borders 1"
-#~ msgstr "Chegaralar 1"
+#: part/KWView.cpp:353
+msgid ""
+"Turns the border display on and off.<br/><br/>The borders are never printed. "
+"This option is useful to see how the document will appear on the printed "
+"page."
+msgstr ""
 
-#~ msgctxt "Style name"
-#~ msgid "Borders 2"
-#~ msgstr "Chegaralar 2"
+#: part/KWView.cpp:355
+#, fuzzy
+#| msgid "Page &Layout..."
+msgid "Page Layout..."
+msgstr "Bet &moslamalari"
 
-#~ msgctxt "Style name"
-#~ msgid "Borders 3"
-#~ msgstr "Chegaralar 3"
+#: part/KWView.cpp:357
+#, fuzzy
+msgid "Change properties of entire page"
+msgstr "Betning xossalarini moslash."
 
-#~ msgctxt "Style name"
-#~ msgid "Row"
-#~ msgstr "Satr"
+#: part/KWView.cpp:358
+msgid ""
+"Change properties of the entire page.<p>Currently you can change paper size, "
+"paper orientation, header and footer sizes, and column settings.</p>"
+msgstr ""
 
-#~ msgctxt "Style name"
-#~ msgid "Column"
-#~ msgstr "Ustun"
+#: part/KWView.cpp:362
+#, fuzzy
+#| msgid "Import Styles..."
+msgid "Semantic Stylesheets..."
+msgstr "Uslublarni import qilish"
 
-#~ msgctxt "Style name"
-#~ msgid "Light Gray"
-#~ msgstr "Och kul"
+#: part/KWView.cpp:364
+#, fuzzy
+#| msgid "Import Styles..."
+msgid "Modify and add semantic stylesheets"
+msgstr "Uslublarni import qilish"
 
-#~ msgctxt "Style name"
-#~ msgid "Dark Gray"
-#~ msgstr "Toʻq kul"
+#: part/KWView.cpp:365
+msgid ""
+"Stylesheets are used to format contact, event, and location information "
+"which is stored in Rdf"
+msgstr ""
 
-#~ msgctxt "Style name"
-#~ msgid "Black"
-#~ msgstr "Qora"
+#: part/KWView.cpp:369
+#, fuzzy
+msgid "Make inline"
+msgstr "Freymning uslubi:"
 
-#~ msgctxt "Style name"
-#~ msgid "Light Blue"
-#~ msgstr "Och koʻk"
+#: part/KWView.cpp:370
+#, fuzzy
+msgid "Convert current frame to an inline frame"
+msgstr "Formulani yangi freymga qoʻyish."
 
-#~ msgctxt "Style name"
-#~ msgid "Dark Blue"
-#~ msgstr "Toʻq koʻk"
+#: part/KWView.cpp:371
+msgid ""
+"Convert the current frame to an inline frame.<br><br>Place the inline frame "
+"within the text at the point nearest to the frames current position."
+msgstr ""
 
-#~ msgctxt "Style name"
-#~ msgid "Red"
-#~ msgstr "Qizil"
+#: part/KWView.cpp:375
+#, fuzzy
+#| msgid "Preview"
+msgid "Previous Page"
+msgstr "Koʻrib chiqish"
 
-#~ msgctxt "Style name"
-#~ msgid "Yellow"
-#~ msgstr "Sariq"
+#: part/KWView.cpp:379
+#, fuzzy
+#| msgid "Insert Page"
+msgid "Next Page"
+msgstr "Betni qoʻyish"
 
-#~ msgctxt "Style name"
-#~ msgid "Colorful"
-#~ msgstr "Rangli"
+#: part/KWView.cpp:393
+msgid "Sentence, word and letter counts for this document"
+msgstr "Ushbu hujjat uchun soʻz va harflarning soni"
 
-#~ msgctxt "Style name"
-#~ msgid "Bluish"
-#~ msgstr "Koʻkish"
+#: part/KWView.cpp:394
+msgid ""
+"Information on the number of letters, words, syllables and sentences for "
+"this document.<p>Evaluates readability using the Flesch reading score.</p>"
+msgstr ""
 
-#~ msgctxt "Style name"
-#~ msgid "Simple 1"
-#~ msgstr "Oddiy 1"
+#: part/KWView.cpp:397
+msgid "Show Rulers"
+msgstr "Lineykalarni koʻrsatish"
 
-#~ msgctxt "Style name"
-#~ msgid "Simple 2"
-#~ msgstr "Oddiy 2"
+#: part/KWView.cpp:399
+#, fuzzy
+msgid "Shows or hides rulers"
+msgstr "Lineykalarni koʻrsatish yoki bekitish."
 
-#~ msgctxt "Style name"
-#~ msgid "Simple 3"
-#~ msgstr "Oddiy 3"
+#: part/KWView.cpp:400
+msgid ""
+"The rulers are the white measuring spaces top and left of the document. The "
+"rulers show the position and width of pages and of frames and can be used to "
+"position tabulators among others.<p>Uncheck this to disable the rulers from "
+"being displayed.</p>"
+msgstr ""
 
-#~ msgctxt "Style name"
-#~ msgid "Header 1"
-#~ msgstr "Sarlavha 1"
+#: part/KWView.cpp:408
+msgid "Page..."
+msgstr "Bet"
 
-#~ msgctxt "Style name"
-#~ msgid "Header 2"
-#~ msgstr "Sarlavha 2"
+#: part/KWView.cpp:412
+msgid "Delete Page"
+msgstr "Betni oʻchirish"
 
-#~ msgctxt "Style name"
-#~ msgid "Header 3"
-#~ msgstr "Sarlavha 3"
+#: part/KWView.cpp:419
+#, fuzzy
+#| msgid "&Formatting Characters"
+msgid "Formatting Characters"
+msgstr "Formatlash &belgilari"
 
-#~ msgctxt "Style name"
-#~ msgid "Header 4"
-#~ msgstr "Sarlavha 4"
+#: part/KWView.cpp:423
+#, fuzzy
+msgid "Toggle the display of non-printing characters"
+msgstr "Bosib chiqarilmaydigan belgilarni koʻrsatish usuliga oʻtish."
 
-#~ msgctxt "Style name"
-#~ msgid "Columns 1"
-#~ msgstr "Ustunlar 1"
+#: part/KWView.cpp:424
+msgid ""
+"Toggle the display of non-printing characters.<br/><br/>When this is "
+"enabled, KWord shows you tabs, spaces, carriage returns and other non-"
+"printing characters."
+msgstr ""
 
-#~ msgctxt "Style name"
-#~ msgid "Columns 2"
-#~ msgstr "Ustunlar 2"
+#: part/KWView.cpp:427
+msgid "Select All Frames"
+msgstr "Hamma freymlarni tanlash"
 
-#~ msgctxt "Style name"
-#~ msgid "Grid 1"
-#~ msgstr "Toʻr 1"
+#: part/KWView.cpp:432
+#, fuzzy
+msgid "Delete"
+msgstr "Satrni oʻchirish"
 
-#~ msgctxt "Style name"
-#~ msgid "Grid 2"
-#~ msgstr "Toʻr 2"
+#: part/KWView.cpp:445 part/KWView.cpp:1243
+msgid "Create Linked Copy"
+msgstr "Bogʻlangan nusxani yaratish"
 
-#~ msgctxt "Style name"
-#~ msgid "Grid 3"
-#~ msgstr "Toʻr 3"
+#: part/KWView.cpp:447
+msgid "Create a copy of the current frame, always showing the same contents"
+msgstr ""
 
-#~ msgctxt "Style name"
-#~ msgid "Gray Heading"
-#~ msgstr "Kul sarlavha"
+#: part/KWView.cpp:448
+msgid ""
+"Create a copy of the current frame, that remains linked to it. This means "
+"they always show the same contents: modifying the contents in such a frame "
+"will update all its linked copies."
+msgstr ""
 
-#~ msgctxt "Style name"
-#~ msgid "Blue Heading"
-#~ msgstr "Koʻk sarlavha"
+#: part/KWView.cpp:451
+#, fuzzy
+msgid "Create Custom Outline"
+msgstr "Jadvalni yaratish."
 
-#~ msgctxt "Style name"
-#~ msgid "Blue Traditional"
-#~ msgstr "Anʼanaviy koʻk"
+#: part/KWView.cpp:453
+msgid "Create a custom vector outline that text will run around"
+msgstr ""
 
-#~ msgctxt "Style name"
-#~ msgid "Gray Traditional"
-#~ msgstr "Anʼanaviy kul"
+#: part/KWView.cpp:454
+msgid ""
+"Text normally runs around the content of a shape, when you want a custom "
+"outline that is independent of the content you can create one and alter it "
+"with the vector tools"
+msgstr ""
 
-#~ msgctxt "Style name"
-#~ msgid "Blue Top and Bottom"
-#~ msgstr "Tepasi va pasti koʻk"
+#: part/KWView.cpp:457
+#, fuzzy
+#| msgid "Create Text Frame"
+msgid "Create Frame-clip"
+msgstr "Matn freymini yaratish"
 
-#~ msgctxt "Style name"
-#~ msgid "Gray Top and Bottom"
-#~ msgstr "Tepasi va pasti kul"
+#: part/KWView.cpp:461
+#, fuzzy
+#| msgid "Remove record"
+msgid "Remove Frame-clip"
+msgstr "Yozuvni olib tashlash"
 
-#~ msgid "File to open"
-#~ msgstr "Ochish uchun fayl"
+#: part/KWView.cpp:465
+msgid "Add Text on Shape"
+msgstr ""
 
-#~ msgid "KOffice Word Processor"
-#~ msgstr "KOffice matn protsessori"
+#: part/KWView.cpp:469
+#, fuzzy
+#| msgid "Show &status bar"
+msgid "Show Status Bar"
+msgstr "&Holat panelini koʻrsatish"
 
-#~ msgid "KWord"
-#~ msgstr "KWord"
+#: part/KWView.cpp:470
+#, fuzzy
+#| msgid "Show &status bar"
+msgid "Hide Status Bar"
+msgstr "&Holat panelini koʻrsatish"
 
+#: part/KWView.cpp:471
 #, fuzzy
-#~| msgid "(c) 1998-2006, The KWord Team"
-#~ msgid "(c) 1998-2011, The KWord Team"
-#~ msgstr "(C) 1998-2006, KWord jamoasi"
+#| msgid "Show &status bar"
+msgid "Shows or hides the status bar"
+msgstr "&Holat panelini koʻrsatish"
 
-#~ msgid "KFormula"
-#~ msgstr "KFormula"
+#: part/KWView.cpp:1182
+msgid "Please select at least one non-locked shape and try again"
+msgstr ""
+
+#: part/KWView.cpp:1322
+#, fuzzy
+msgid "Create outlines"
+msgstr "Jadvalni yaratish."
 
 #, fuzzy
 #~| msgid "New..."
@@ -1692,10 +2104,6 @@ msgstr "Oʻzgaruvchini oʻzgartirish"
 #~ msgstr "Xossa&lari"
 
 #, fuzzy
-#~ msgid "Functions"
-#~ msgstr "Interfeys moslamalari"
-
-#, fuzzy
 #~| msgid "&Variable"
 #~ msgid "Variables"
 #~ msgstr "Oʻ&zgaruvchi"
@@ -1737,11 +2145,6 @@ msgstr "Oʻzgaruvchini oʻzgartirish"
 #~| msgid "Lon&gest side"
 #~ msgid "Single sided"
 #~ msgstr "&Eng uzun tomoni"
-
-#, fuzzy
-#~| msgid "&Page Mode"
-#~ msgid "Page edge:"
-#~ msgstr "&Bet usuli"
 
 #, fuzzy
 #~| msgid "Document"
