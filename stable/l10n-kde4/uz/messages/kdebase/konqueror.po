@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-26 02:55+0100\n"
+"POT-Creation-Date: 2011-02-02 12:17+0100\n"
 "PO-Revision-Date: 2008-06-08 22:24+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -16,6 +16,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:4972
+#: src/konqmainwindow.cpp:5032
+msgid "no name"
+msgstr ""
+
+#: src/konqextensionmanager.cpp:54
+msgid "Configure"
+msgstr "Moslash"
+
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
+msgstr "Kengaytmalar"
 
 #: src/konqfactory.cpp:90
 #, kde-format
@@ -296,6 +310,168 @@ msgstr "Tuzuvchi (AdBlock filteri)"
 #: src/konqfactory.cpp:272
 msgid "Eduardo Robles Elvira"
 msgstr ""
+
+#: src/konqframestatusbar.cpp:109
+msgid ""
+"Checking this box on at least two views sets those views as 'linked'. Then, "
+"when you change directories in one view, the other views linked with it will "
+"automatically update to show the current directory. This is especially "
+"useful with different types of views, such as a directory tree with an icon "
+"view or detailed view, and possibly a terminal emulator window."
+msgstr ""
+
+#: src/konqframestatusbar.cpp:156
+msgid "Close View"
+msgstr "Koʻrinishni yopish"
+
+#: src/konqframestatusbar.cpp:236
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/konqframestatusbar.cpp:238
+msgid "Stalled"
+msgstr "Toʻxtab qoldi"
+
+#: src/konqguiclients.cpp:66
+#, fuzzy, kde-format
+#| msgid "Preview in %1"
+msgid "Preview &in %1"
+msgstr "%1 bilan koʻrish"
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "%1"
+
+#: src/konqhistorydialog.cpp:45
+#, fuzzy
+#| msgid "History"
+msgctxt "@title:window"
+msgid "History"
+msgstr "Tarix"
+
+#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
+#, fuzzy
+#| msgid "Sort"
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "Saralash"
+
+#: src/konqhistorymodel.cpp:137
+#, kde-format
+msgid ""
+"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
+"3<br />Number of times visited: %4</qt>"
+msgstr ""
+"<qt><center><b>%1</b></center><hr />Oxirgi marta koʻrilgan: %2<br />Birinchi "
+"marta koʻrilgan: %3<br />Necha marta koʻrilgan: %4</qt>"
+
+#: src/konqhistorymodel.cpp:233
+#, fuzzy
+#| msgid "Local file"
+msgid "Local"
+msgstr "Lokal fayl"
+
+#: src/konqhistorymodel.cpp:236
+msgid "Miscellaneous"
+msgstr "Har xil"
+
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4499
+#: sidebar/web_module/web_module.cpp:61
+msgid "Open in New &Window"
+msgstr "&Yangi oynada ochish"
+
+#: src/konqhistoryview.cpp:67
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:232
+msgid "Open in New Tab"
+msgstr "Yangi tabda ochish"
+
+#: src/konqhistoryview.cpp:71
+#, fuzzy
+#| msgid "Copy Link Address"
+msgid "&Copy Link Address"
+msgstr "Bogʻ manzilidan nusxa olish"
+
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr "Bandni &olib tashlash"
+
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr "Tarixni &boʻshatish"
+
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
+msgstr "&Moslash..."
+
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr "&Nomi boʻyicha"
+
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr "&Sana boʻyicha"
+
+#: src/konqhistoryview.cpp:111
+#, fuzzy
+#| msgid "Clear History"
+msgid "Search in history"
+msgstr "Tarixni boʻshatish"
+
+#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr "Rostdan butun tarixni boʻshatmoqchimisiz?"
+
+#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
+msgid "Clear History?"
+msgstr "Tarixni boʻshataymi?"
+
+#: src/konqmain.cpp:96
+#, fuzzy
+#| msgid "Start without a default window"
+msgid "Start without a default window, when called without URLs"
+msgstr "Andoza oynasiz boshlash"
+
+#: src/konqmain.cpp:98
+msgid ""
+"Preload for later use. This mode does not support URLs on the command line"
+msgstr ""
+
+#: src/konqmain.cpp:100
+msgid "Profile to open"
+msgstr "Ochish uchun profil"
+
+#: src/konqmain.cpp:102
+msgid "List available profiles"
+msgstr "Mavjud boʻlgan profillarni koʻrsatish"
+
+#: src/konqmain.cpp:104
+#, fuzzy
+#| msgid "List available profiles"
+msgid "List available sessions"
+msgstr "Mavjud boʻlgan profillarni koʻrsatish"
+
+#: src/konqmain.cpp:106
+#, fuzzy
+#| msgid "Location to open"
+msgid "Session to open"
+msgstr "Koʻrish uchun manzil"
+
+#: src/konqmain.cpp:108
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+msgstr "Bu URL uchun MIME turi (m-n text/html yoki inode/directory)"
+
+#: src/konqmain.cpp:110
+msgid ""
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
+msgstr ""
+
+#: src/konqmain.cpp:112
+msgid "Location to open"
+msgstr "Koʻrish uchun manzil"
 
 #: src/konqmainwindow.cpp:557
 msgctxt "@title:tab"
@@ -878,11 +1054,6 @@ msgstr "&Joriy oynada ochish"
 msgid "Open the document in current window"
 msgstr "Hujjatni joriy oynada ochish"
 
-#: src/konqmainwindow.cpp:4499 src/konqhistoryview.cpp:62
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr "&Yangi oynada ochish"
-
 #: src/konqmainwindow.cpp:4500
 msgid "Open the document in a new window"
 msgstr "Hujjatni yangi oynada ochish"
@@ -938,11 +1109,6 @@ msgstr ""
 "Ushbu sahifada joʻnatilmagan maʼlumot mavjud.\n"
 "Oynani yopish natijasida maʼlumot yoʻqoladi."
 
-#: src/konqmainwindow.cpp:4972 src/konqmainwindow.cpp:5032
-#: src/konqclosedwindowsmanager.cpp:418
-msgid "no name"
-msgstr ""
-
 #: src/konqmainwindow.cpp:5099
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
@@ -974,46 +1140,17 @@ msgstr ""
 "Moshlash xatosi roʻy berganga oʻxshaydi. Konqueror %1 faylini ochishga "
 "moslangan, ammo u bunday fayl turlari bilan ishlayolmaydi."
 
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
-msgid "Und&o: Closed Tab"
-msgstr "&Bekor qilish: Tabni yopish"
+#: src/konqprofiledlg.cpp:111
+msgid "Profile Management"
+msgstr "Profil boshqaruvi"
 
-#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
-#: src/konqundomanager.cpp:162
-msgid "Und&o: Closed Window"
-msgstr "&Bekor qilish: Oynani yopish"
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "Profilni nomini oʻ&zgartirish"
 
-#: src/konqundomanager.cpp:122
-msgid "Und&o"
-msgstr ""
-
-#: src/konqhistorymodel.cpp:137
-#, kde-format
-msgid ""
-"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: %"
-"3<br />Number of times visited: %4</qt>"
-msgstr ""
-"<qt><center><b>%1</b></center><hr />Oxirgi marta koʻrilgan: %2<br />Birinchi "
-"marta koʻrilgan: %3<br />Necha marta koʻrilgan: %4</qt>"
-
-#: src/konqhistorymodel.cpp:233
-#, fuzzy
-#| msgid "Local file"
-msgid "Local"
-msgstr "Lokal fayl"
-
-#: src/konqhistorymodel.cpp:236
-msgid "Miscellaneous"
-msgstr "Har xil"
-
-#: src/konqextensionmanager.cpp:54
-msgid "Configure"
-msgstr "Moslash"
-
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
-msgstr "Kengaytmalar"
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "Profilni oʻchi&rish"
 
 #: src/konqsessiondlg.cpp:77
 msgid "Manage Sessions"
@@ -1042,52 +1179,6 @@ msgstr ""
 #: src/konqsessiondlg.cpp:248
 msgid "Session exists. Overwrite?"
 msgstr "Seans allaqachon mavjud. Uni almashtirishni istaysizmi?"
-
-#: src/konqviewmanager.cpp:1404
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"Ushbu oynada bir nechta tab ochilgan.\n"
-"Koʻrish profilini yuklash ularni yopadi."
-
-#: src/konqviewmanager.cpp:1407
-msgid "Load View Profile"
-msgstr "Koʻrish profilini yuklash"
-
-#: src/konqviewmanager.cpp:1419
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"Ushbu tabda joʻnatilmagan maʼlumot mavjud.\n"
-"Profilni yuklash natijasida maʼlumot yoʻqoladi."
-
-#: src/konqguiclients.cpp:66
-#, fuzzy, kde-format
-#| msgid "Preview in %1"
-msgid "Preview &in %1"
-msgstr "%1 bilan koʻrish"
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "%1"
-
-#: src/konqview.cpp:1199
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-
-#: src/konqview.cpp:1201
-msgid "Warning"
-msgstr "Ogohnoma"
-
-#: src/konqview.cpp:1201
-msgid "Resend"
-msgstr "Qaytadan joʻnatish"
 
 #: src/konqsessionmanager.cpp:330
 #, fuzzy
@@ -1121,126 +1212,6 @@ msgstr "Yoʻq"
 #| msgid "Ask me later"
 msgid "Ask Me Later"
 msgstr "Keyinroq soʻrang"
-
-#: src/konqframestatusbar.cpp:109
-msgid ""
-"Checking this box on at least two views sets those views as 'linked'. Then, "
-"when you change directories in one view, the other views linked with it will "
-"automatically update to show the current directory. This is especially "
-"useful with different types of views, such as a directory tree with an icon "
-"view or detailed view, and possibly a terminal emulator window."
-msgstr ""
-
-#: src/konqframestatusbar.cpp:156
-msgid "Close View"
-msgstr "Koʻrinishni yopish"
-
-#: src/konqframestatusbar.cpp:236
-#, kde-format
-msgid "%1/s"
-msgstr "%1/s"
-
-#: src/konqframestatusbar.cpp:238
-msgid "Stalled"
-msgstr "Toʻxtab qoldi"
-
-#: src/konqmain.cpp:96
-#, fuzzy
-#| msgid "Start without a default window"
-msgid "Start without a default window, when called without URLs"
-msgstr "Andoza oynasiz boshlash"
-
-#: src/konqmain.cpp:98
-msgid ""
-"Preload for later use. This mode does not support URLs on the command line"
-msgstr ""
-
-#: src/konqmain.cpp:100
-msgid "Profile to open"
-msgstr "Ochish uchun profil"
-
-#: src/konqmain.cpp:102
-msgid "List available profiles"
-msgstr "Mavjud boʻlgan profillarni koʻrsatish"
-
-#: src/konqmain.cpp:104
-#, fuzzy
-#| msgid "List available profiles"
-msgid "List available sessions"
-msgstr "Mavjud boʻlgan profillarni koʻrsatish"
-
-#: src/konqmain.cpp:106
-#, fuzzy
-#| msgid "Location to open"
-msgid "Session to open"
-msgstr "Koʻrish uchun manzil"
-
-#: src/konqmain.cpp:108
-msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr "Bu URL uchun MIME turi (m-n text/html yoki inode/directory)"
-
-#: src/konqmain.cpp:110
-msgid ""
-"For URLs that point to files, opens the directory and selects the file, "
-"instead of opening the actual file"
-msgstr ""
-
-#: src/konqmain.cpp:112
-msgid "Location to open"
-msgstr "Koʻrish uchun manzil"
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "Yangi tabda ochish"
-
-#: src/konqhistoryview.cpp:71
-#, fuzzy
-#| msgid "Copy Link Address"
-msgid "&Copy Link Address"
-msgstr "Bogʻ manzilidan nusxa olish"
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr "Bandni &olib tashlash"
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr "Tarixni &boʻshatish"
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr "&Moslash..."
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr "&Nomi boʻyicha"
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr "&Sana boʻyicha"
-
-#: src/konqhistoryview.cpp:111
-#, fuzzy
-#| msgid "Clear History"
-msgid "Search in history"
-msgstr "Tarixni boʻshatish"
-
-#: src/konqhistoryview.cpp:143 src/konqhistorydialog.cpp:61
-#, fuzzy
-#| msgid "Sort"
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "Saralash"
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr "Rostdan butun tarixni boʻshatmoqchimisiz?"
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-msgid "Clear History?"
-msgstr "Tarixni boʻshataymi?"
 
 #: src/konqtabs.cpp:66
 msgid ""
@@ -1279,190 +1250,53 @@ msgstr "Tabni &ajratish"
 msgid "&Close Tab"
 msgstr "Tabni &yopish"
 
-#: src/konqhistorydialog.cpp:45
-#, fuzzy
-#| msgid "History"
-msgctxt "@title:window"
-msgid "History"
-msgstr "Tarix"
+#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
+msgid "Und&o: Closed Tab"
+msgstr "&Bekor qilish: Tabni yopish"
 
-#: src/konqprofiledlg.cpp:111
-msgid "Profile Management"
-msgstr "Profil boshqaruvi"
+#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
+#: src/konqundomanager.cpp:162
+msgid "Und&o: Closed Window"
+msgstr "&Bekor qilish: Oynani yopish"
 
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "Profilni nomini oʻ&zgartirish"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "Profilni oʻchi&rish"
-
-#: sidebar/web_module/web_module.cpp:57
-msgid "&Open Link"
-msgstr "&Bogʻni ochish"
-
-#: sidebar/web_module/web_module.cpp:73
-msgid "Set &Automatic Reload"
-msgstr "Avto-ya&ngilashni yoqish"
-
-#: sidebar/web_module/web_module.cpp:137
-msgid "Set Refresh Timeout (0 disables)"
+#: src/konqundomanager.cpp:122
+msgid "Und&o"
 msgstr ""
 
-#: sidebar/web_module/web_module.cpp:145
-msgid " min"
-msgstr " daqiqa"
-
-#: sidebar/web_module/web_module.cpp:148
-msgid " sec"
-msgstr " soniya"
-
-#: sidebar/web_module/web_module.cpp:280
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "Web Sidebar Module"
-msgstr "Veb yon paneli"
-
-#: sidebar/web_module/web_module.cpp:300
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "Nomi:"
-
-#: sidebar/web_module/web_module.cpp:300
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#, fuzzy
-#| msgid "Show URL"
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr "URL'ni koʻrsatish"
-
-#: sidebar/web_module/web_module.cpp:301
-msgctxt "@title:window"
-msgid "Add web sidebar module"
-msgstr ""
-
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
-#, kde-format
-msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr ""
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:88
-msgid "Add Bookmark"
-msgstr "Xatchoʻplarga qoʻshish"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
-msgid "&Create New Folder"
-msgstr "&Yangi jildni yaratish"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
-#: sidebar/trees/konq_sidebartree.cpp:207
-msgid "Delete Folder"
-msgstr "Jildni oʻchirish"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
-msgid "Delete Bookmark"
-msgstr "Xatchoʻpni oʻchirish"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
-#: sidebar/trees/konq_sidebartree.cpp:224
-msgid "Properties"
-msgstr "Xossalari"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
-#: sidebar/trees/konq_sidebartree.cpp:228
-msgid "Open in New Window"
-msgstr "Yangi oynada ochish"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
-msgid "Open Folder in Tabs"
-msgstr "Jildni tabda ochish"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
-#: sidebar/trees/konq_sidebartree.cpp:236
-msgid "Copy Link Address"
-msgstr "Bogʻ manzilidan nusxa olish"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
-#, kde-format
+#: src/konqview.cpp:1199
 msgid ""
-"Are you sure you wish to remove the bookmark folder\n"
-"\"%1\"?"
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
 msgstr ""
-"Xatchoʻp jildini '%1'\n"
-"oʻchirishga ishonchingiz komilmi?"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
-#, kde-format
+#: src/konqview.cpp:1201
+msgid "Warning"
+msgstr "Ogohnoma"
+
+#: src/konqview.cpp:1201
+msgid "Resend"
+msgstr "Qaytadan joʻnatish"
+
+#: src/konqviewmanager.cpp:1404
 msgid ""
-"Are you sure you wish to remove the bookmark\n"
-"\"%1\"?"
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
 msgstr ""
-"Xatchoʻpni '%1'\n"
-"oʻchirishga ishonchingiz komilmi?"
+"Ushbu oynada bir nechta tab ochilgan.\n"
+"Koʻrish profilini yuklash ularni yopadi."
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
-msgid "Bookmark Folder Deletion"
-msgstr "Xatchoʻp jildini oʻchirish"
+#: src/konqviewmanager.cpp:1407
+msgid "Load View Profile"
+msgstr "Koʻrish profilini yuklash"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
-msgid "Bookmark Deletion"
-msgstr "Xatchoʻpni oʻchirish"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
-msgid "Bookmark Properties"
-msgstr "Xatchoʻpning xossalari"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
-msgid "&Update"
-msgstr "Ya&ngilash"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
-msgid "Name:"
-msgstr "Nomi:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
-msgid "Location:"
-msgstr "Manzil:"
-
-#: sidebar/trees/konq_sidebartree.cpp:203
-msgid "&Create New Folder..."
-msgstr "&Yangi jildni yaratish"
-
-#: sidebar/trees/konq_sidebartree.cpp:211
-#, fuzzy
-#| msgid "&Move to Trash"
-msgid "Move to Trash"
-msgstr "&Chiqindilar qutisiga olib tashlash"
-
-#: sidebar/trees/konq_sidebartree.cpp:215
-msgid "Rename"
-msgstr "Nomini oʻzgartirish"
-
-#: sidebar/trees/konq_sidebartree.cpp:220
-msgid "Delete Link"
-msgstr "Bogʻni oʻchirish"
-
-#: sidebar/trees/konq_sidebartree.cpp:951
-msgid "New Folder"
-msgstr "Yangi jild"
-
-#: sidebar/trees/konq_sidebartree.cpp:955
-msgid "Create New Folder"
-msgstr "Yangi jildni yaratish"
-
-#: sidebar/trees/konq_sidebartree.cpp:956
-msgid "Enter folder name:"
-msgstr "Jildning nomini kiriting:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
+#: src/konqviewmanager.cpp:1419
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
 msgstr ""
+"Ushbu tabda joʻnatilmagan maʼlumot mavjud.\n"
+"Profilni yuklash natijasida maʼlumot yoʻqoladi."
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
@@ -1621,6 +1455,172 @@ msgstr "Olib tashlash"
 #| msgid "Web Sidebar"
 msgid "Web module"
 msgstr "Veb yon paneli"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
+msgid "&Create New Folder"
+msgstr "&Yangi jildni yaratish"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
+#: sidebar/trees/konq_sidebartree.cpp:207
+msgid "Delete Folder"
+msgstr "Jildni oʻchirish"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
+msgid "Delete Bookmark"
+msgstr "Xatchoʻpni oʻchirish"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
+#: sidebar/trees/konq_sidebartree.cpp:224
+msgid "Properties"
+msgstr "Xossalari"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
+#: sidebar/trees/konq_sidebartree.cpp:228
+msgid "Open in New Window"
+msgstr "Yangi oynada ochish"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
+msgid "Open Folder in Tabs"
+msgstr "Jildni tabda ochish"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
+#: sidebar/trees/konq_sidebartree.cpp:236
+msgid "Copy Link Address"
+msgstr "Bogʻ manzilidan nusxa olish"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark folder\n"
+"\"%1\"?"
+msgstr ""
+"Xatchoʻp jildini '%1'\n"
+"oʻchirishga ishonchingiz komilmi?"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark\n"
+"\"%1\"?"
+msgstr ""
+"Xatchoʻpni '%1'\n"
+"oʻchirishga ishonchingiz komilmi?"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
+msgid "Bookmark Folder Deletion"
+msgstr "Xatchoʻp jildini oʻchirish"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
+msgid "Bookmark Deletion"
+msgstr "Xatchoʻpni oʻchirish"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
+msgid "Bookmark Properties"
+msgstr "Xatchoʻpning xossalari"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
+msgid "&Update"
+msgstr "Ya&ngilash"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
+msgid "Name:"
+msgstr "Nomi:"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
+msgid "Location:"
+msgstr "Manzil:"
+
+#: sidebar/trees/bookmark_module/bookmark_module.h:88
+msgid "Add Bookmark"
+msgstr "Xatchoʻplarga qoʻshish"
+
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
+#, kde-format
+msgid "Cannot find parent item %1 in the tree. Internal error."
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:203
+msgid "&Create New Folder..."
+msgstr "&Yangi jildni yaratish"
+
+#: sidebar/trees/konq_sidebartree.cpp:211
+#, fuzzy
+#| msgid "&Move to Trash"
+msgid "Move to Trash"
+msgstr "&Chiqindilar qutisiga olib tashlash"
+
+#: sidebar/trees/konq_sidebartree.cpp:215
+msgid "Rename"
+msgstr "Nomini oʻzgartirish"
+
+#: sidebar/trees/konq_sidebartree.cpp:220
+msgid "Delete Link"
+msgstr "Bogʻni oʻchirish"
+
+#: sidebar/trees/konq_sidebartree.cpp:951
+msgid "New Folder"
+msgstr "Yangi jild"
+
+#: sidebar/trees/konq_sidebartree.cpp:955
+msgid "Create New Folder"
+msgstr "Yangi jildni yaratish"
+
+#: sidebar/trees/konq_sidebartree.cpp:956
+msgid "Enter folder name:"
+msgstr "Jildning nomini kiriting:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "Nomi:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+#, fuzzy
+#| msgid "Show URL"
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr "URL'ni koʻrsatish"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:57
+msgid "&Open Link"
+msgstr "&Bogʻni ochish"
+
+#: sidebar/web_module/web_module.cpp:73
+msgid "Set &Automatic Reload"
+msgstr "Avto-ya&ngilashni yoqish"
+
+#: sidebar/web_module/web_module.cpp:137
+msgid "Set Refresh Timeout (0 disables)"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:145
+msgid " min"
+msgstr " daqiqa"
+
+#: sidebar/web_module/web_module.cpp:148
+msgid " sec"
+msgstr " soniya"
+
+#: sidebar/web_module/web_module.cpp:280
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@action:inmenu Add"
+msgid "Web Sidebar Module"
+msgstr "Veb yon paneli"
+
+#: sidebar/web_module/web_module.cpp:301
+msgctxt "@title:window"
+msgid "Add web sidebar module"
+msgstr ""
 
 #: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
 #: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
