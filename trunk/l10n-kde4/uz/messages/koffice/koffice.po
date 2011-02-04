@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 03:38+0100\n"
+"POT-Creation-Date: 2011-02-04 02:57+0100\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -95,10 +95,6 @@ msgstr "Tabulyasiyani oʻzgartirish"
 msgid "Convert to Path"
 msgstr "Yunonchaga aylantirish"
 
-#: flake/commands/KoPathBreakAtPointCommand.cpp:38
-msgid "Break Subpath at Points"
-msgstr ""
-
 #: flake/commands/KoPathCombineCommand.cpp:58
 #, fuzzy
 msgid "Combine paths"
@@ -112,6 +108,18 @@ msgstr "Eksport qilishni tasdiqlash"
 #: flake/commands/KoPathFillRuleCommand.cpp:44
 msgid "Set Fill Rule"
 msgstr ""
+
+#: flake/commands/KoShapeGroupCommand.cpp:93
+#, fuzzy
+#| msgid "Current Section"
+msgid "Group Shapes"
+msgstr "Joriy boʻlim"
+
+#: flake/commands/KoShapeGroupCommand.cpp:95
+#, fuzzy
+#| msgid "Add Group"
+msgid "Add Shapes to Group"
+msgstr "Guruhni qoʻshish"
 
 #: flake/commands/KoPathPointMergeCommand.cpp:152
 #, fuzzy
@@ -199,18 +207,6 @@ msgstr "Matnni oʻchirish"
 msgid "Distribute Shapes"
 msgstr "Namunani yaratish"
 
-#: flake/commands/KoShapeGroupCommand.cpp:93
-#, fuzzy
-#| msgid "Current Section"
-msgid "Group Shapes"
-msgstr "Joriy boʻlim"
-
-#: flake/commands/KoShapeGroupCommand.cpp:95
-#, fuzzy
-#| msgid "Add Group"
-msgid "Add Shapes to Group"
-msgstr "Guruhni qoʻshish"
-
 #: flake/commands/KoShapeKeepAspectRatioCommand.cpp:40
 msgid "Keep Aspect Ratio"
 msgstr ""
@@ -274,6 +270,10 @@ msgstr "Chiziqning enini oʻzgartirish"
 msgid "Remove Subpath"
 msgstr "Guruhni olib tashlash"
 
+#: flake/commands/KoPathBreakAtPointCommand.cpp:38
+msgid "Break Subpath at Points"
+msgstr ""
+
 #: flake/tools/KoCreatePathTool.cpp:369 flake/tools/KoPathTool.cpp:181
 msgid "Snapping"
 msgstr ""
@@ -301,12 +301,6 @@ msgstr "Hujjatni yaratish"
 #, fuzzy
 msgid "Pan"
 msgstr "Sian"
-
-#: flake/tools/KoPathSegmentChangeStrategy.cpp:145
-#, fuzzy
-#| msgid "Change Alignment"
-msgid "Change Segment"
-msgstr "Tekislashni oʻzgartirish"
 
 #: flake/tools/KoPathTool.cpp:87
 #, fuzzy
@@ -407,6 +401,12 @@ msgstr "Umumiy tahrirlash vaqti:"
 #: widgets/KoZoomController.cpp:38 widgets/KoZoomInput.cpp:52
 msgid "Zoom"
 msgstr ""
+
+#: flake/tools/KoPathSegmentChangeStrategy.cpp:145
+#, fuzzy
+#| msgid "Change Alignment"
+msgid "Change Segment"
+msgstr "Tekislashni oʻzgartirish"
 
 #: kokross/KoScriptManager.cpp:177
 msgid "Install Script Package"
@@ -727,11 +727,6 @@ msgstr "Tashkilot"
 msgid "Paste"
 msgstr "Sana"
 
-#: kopageapp/KoPAPageThumbnailModel.cpp:69
-#, fuzzy, kde-format
-msgid "Page %1"
-msgstr "Sana:"
-
 #: kopageapp/KoPAPastePage.cpp:132
 #, fuzzy
 #| msgid "Paste Text"
@@ -1009,6 +1004,11 @@ msgstr "Umumiy tahrirlash vaqti:"
 msgid "Change background image"
 msgstr "Soniya"
 
+#: kopageapp/KoPAPageThumbnailModel.cpp:69
+#, fuzzy, kde-format
+msgid "Page %1"
+msgstr "Sana:"
+
 #: kotext/InsertTextLocator.cpp:29
 msgid "Index Reference"
 msgstr ""
@@ -1055,23 +1055,6 @@ msgstr[0] "Matnni almashtirish"
 #| msgid "Re&place 1/2... with %1..."
 msgid "Replace %1 with %2?"
 msgstr "&1/2...ni %1 belgiga almashtirish"
-
-#: kotext/KoText.cpp:29
-msgctxt "Underline Style"
-msgid "None"
-msgstr "Yoʻq"
-
-#: kotext/KoText.cpp:30
-#, fuzzy
-msgctxt "Underline Style"
-msgid "Single"
-msgstr "Bitta"
-
-#: kotext/KoText.cpp:31
-#, fuzzy
-msgctxt "Underline Style"
-msgid "Double"
-msgstr "Ikkita"
 
 #: kotext/KoTextEditor.cpp:105 kotext/KoTextEditor.cpp:161
 #: kotext/KoTextEditor.cpp:319 widgets/KoCsvImportDialog.cpp:216
@@ -1221,6 +1204,23 @@ msgstr "Chegaralarni oʻzgartirish"
 #, fuzzy
 msgid "Format"
 msgstr "Sanani koʻrinishi"
+
+#: kotext/KoText.cpp:47
+msgctxt "Underline Style"
+msgid "None"
+msgstr "Yoʻq"
+
+#: kotext/KoText.cpp:48
+#, fuzzy
+msgctxt "Underline Style"
+msgid "Single"
+msgstr "Bitta"
+
+#: kotext/KoText.cpp:49
+#, fuzzy
+msgctxt "Underline Style"
+msgid "Double"
+msgstr "Ikkita"
 
 #: main/KoApplication.cpp:77
 msgid "Only print and exit"
@@ -1561,7 +1561,7 @@ msgstr "diagramma"
 msgid "a drawing"
 msgstr "chizma"
 
-#: main/KoDocument.cpp:2504
+#: main/KoDocument.cpp:2499
 #, fuzzy
 msgid "Embedding Object"
 msgstr "Belgilangan obʼektlar soni"
@@ -2807,10 +2807,6 @@ msgstr ""
 msgid "b*"
 msgstr ""
 
-#: pigment/KoBasicHistogramProducers.h:231
-msgid "Generic L*a*b* Histogram"
-msgstr ""
-
 #: pigment/KoColorModelStandardIds.cpp:25
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:261
 #: pigment/colorspaces/KoLabColorSpace.cpp:44
@@ -2971,10 +2967,6 @@ msgstr ""
 msgid "Simple Color Conversion Engine"
 msgstr ""
 
-#: pigment/compositeops/KoCompositeOpAlphaDarken.h:42
-msgid "Alpha darken"
-msgstr ""
-
 #: pigment/compositeops/KoCompositeOpBurn.h:36
 #, fuzzy
 #| msgctxt "color"
@@ -3024,8 +3016,16 @@ msgstr "Ekran"
 msgid "Soft light"
 msgstr "Qator:"
 
+#: pigment/compositeops/KoCompositeOpAlphaDarken.h:42
+msgid "Alpha darken"
+msgstr ""
+
 #: pigment/resources/KoStopGradient.cpp:421
 msgid "SVG Gradient"
+msgstr ""
+
+#: pigment/KoBasicHistogramProducers.h:231
+msgid "Generic L*a*b* Histogram"
 msgstr ""
 
 #: widgets/KoColorPopupAction.cpp:85 widgets/KoUniColorChooser.cpp:418
