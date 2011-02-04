@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 12:20+0100\n"
+"POT-Creation-Date: 2011-02-04 10:24+0100\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -376,7 +376,7 @@ msgstr "Yuklanmoqda"
 #: kfile/kfiledialog.cpp:514 kfile/kfiledialog.cpp:538
 #: kfile/kfiledialog.cpp:548 kfile/kfiledialog.cpp:574
 #: kfile/kfiledialog.cpp:606 kfile/kfiledialog.cpp:661
-#: kfile/kicondialog.cpp:693 kfile/kurlrequesterdialog.cpp:129
+#: kfile/kurlrequesterdialog.cpp:129 kfile/kicondialog.cpp:693
 msgid "Open"
 msgstr "Ochish"
 
@@ -531,88 +531,6 @@ msgid ""
 "An error occurred while trying to unshare folder '%1'. Make sure that the "
 "Perl script 'fileshareset' is set suid root."
 msgstr ""
-
-#: kfile/kicondialog.cpp:336 kfile/kicondialog.cpp:348
-msgid "Select Icon"
-msgstr "Nishonchani tanlash"
-
-#: kfile/kicondialog.cpp:369
-msgid "Icon Source"
-msgstr "Nishonchalar manbasi"
-
-#: kfile/kicondialog.cpp:378
-msgid "S&ystem icons:"
-msgstr "&Tizimning nishonchalari:"
-
-#: kfile/kicondialog.cpp:385
-msgid "O&ther icons:"
-msgstr "&Boshqa nishonchalar:"
-
-#. i18n: file: kfile/kpropertiesdesktopbase.ui:121
-#. i18n: ectx: property (text), widget (QPushButton, browseButton)
-#: kfile/kicondialog.cpp:388 rc.cpp:134
-msgid "&Browse..."
-msgstr "&Tanlash"
-
-#: kfile/kicondialog.cpp:399
-msgid "&Search:"
-msgstr "Q&idirish:"
-
-#: kfile/kicondialog.cpp:406
-msgid "Search interactively for icon names (e.g. folder)."
-msgstr ""
-
-#: kfile/kicondialog.cpp:437
-msgid "Actions"
-msgstr "Amallar"
-
-#: kfile/kicondialog.cpp:438
-msgid "Animations"
-msgstr "Animatsiya"
-
-#: kfile/kicondialog.cpp:439
-msgid "Applications"
-msgstr "Dasturlar"
-
-#: kfile/kicondialog.cpp:440
-msgid "Categories"
-msgstr "Turkumlar"
-
-#: kfile/kicondialog.cpp:441
-msgid "Devices"
-msgstr "Uskunalar"
-
-#: kfile/kicondialog.cpp:442
-msgid "Emblems"
-msgstr ""
-
-#: kfile/kicondialog.cpp:443
-msgid "Emotes"
-msgstr ""
-
-#: kfile/kicondialog.cpp:444
-msgid "Filesystems"
-msgstr "Fayl tizimlari"
-
-#: kfile/kicondialog.cpp:445
-msgid "International"
-msgstr "Xalqaro"
-
-#: kfile/kicondialog.cpp:446
-msgid "Mimetypes"
-msgstr "MIME turlari"
-
-#: kfile/kicondialog.cpp:447
-msgid "Places"
-msgstr "Joylar"
-
-#: kfile/kicondialog.cpp:448
-msgid "Status"
-msgstr "Holat"
-
-#: kfile/kicondialog.cpp:691
-msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
-msgstr "*.png *.xpm *.svg *.svgz|Nishoncha fayllari (*.png *.xpm *.svg *.svgz)"
 
 #: kfile/kmetaprops.cpp:57
 #, fuzzy
@@ -1522,15 +1440,164 @@ msgstr "%1 uchun qoʻshimcha parametrlar"
 msgid "Open file dialog"
 msgstr "Faylni tanlash oynasini ochish"
 
-#: kio/accessmanager.cpp:162
-msgid "Blocked request."
+#: kfile/kicondialog.cpp:336 kfile/kicondialog.cpp:348
+msgid "Select Icon"
+msgstr "Nishonchani tanlash"
+
+#: kfile/kicondialog.cpp:369
+msgid "Icon Source"
+msgstr "Nishonchalar manbasi"
+
+#: kfile/kicondialog.cpp:378
+msgid "S&ystem icons:"
+msgstr "&Tizimning nishonchalari:"
+
+#: kfile/kicondialog.cpp:385
+msgid "O&ther icons:"
+msgstr "&Boshqa nishonchalar:"
+
+#. i18n: file: kfile/kpropertiesdesktopbase.ui:121
+#. i18n: ectx: property (text), widget (QPushButton, browseButton)
+#: kfile/kicondialog.cpp:388 rc.cpp:134
+msgid "&Browse..."
+msgstr "&Tanlash"
+
+#: kfile/kicondialog.cpp:399
+msgid "&Search:"
+msgstr "Q&idirish:"
+
+#: kfile/kicondialog.cpp:406
+msgid "Search interactively for icon names (e.g. folder)."
 msgstr ""
 
-#: kio/accessmanager.cpp:203
+#: kfile/kicondialog.cpp:437
+msgid "Actions"
+msgstr "Amallar"
+
+#: kfile/kicondialog.cpp:438
+msgid "Animations"
+msgstr "Animatsiya"
+
+#: kfile/kicondialog.cpp:439
+msgid "Applications"
+msgstr "Dasturlar"
+
+#: kfile/kicondialog.cpp:440
+msgid "Categories"
+msgstr "Turkumlar"
+
+#: kfile/kicondialog.cpp:441
+msgid "Devices"
+msgstr "Uskunalar"
+
+#: kfile/kicondialog.cpp:442
+msgid "Emblems"
+msgstr ""
+
+#: kfile/kicondialog.cpp:443
+msgid "Emotes"
+msgstr ""
+
+#: kfile/kicondialog.cpp:444
+msgid "Filesystems"
+msgstr "Fayl tizimlari"
+
+#: kfile/kicondialog.cpp:445
+msgid "International"
+msgstr "Xalqaro"
+
+#: kfile/kicondialog.cpp:446
+msgid "Mimetypes"
+msgstr "MIME turlari"
+
+#: kfile/kicondialog.cpp:447
+msgid "Places"
+msgstr "Joylar"
+
+#: kfile/kicondialog.cpp:448
+msgid "Status"
+msgstr "Holat"
+
+#: kfile/kicondialog.cpp:691
+msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
+msgstr "*.png *.xpm *.svg *.svgz|Nishoncha fayllari (*.png *.xpm *.svg *.svgz)"
+
+#: kio/job.cpp:156
+msgctxt "@title job"
+msgid "Moving"
+msgstr "Koʻchirilmoqda"
+
+#: kio/job.cpp:157 kio/job.cpp:164 kio/job.cpp:189 kio/fileundomanager.cpp:120
 #, fuzzy
-#| msgid "Unknown Error"
-msgid "Unknown HTTP verb."
-msgstr "Nomaʼlum xato"
+#| msgid "Source"
+msgctxt "The source of a file operation"
+msgid "Source"
+msgstr "Manba"
+
+#: kio/job.cpp:158 kio/job.cpp:165 kio/fileundomanager.cpp:121
+#, fuzzy
+#| msgid "Destination"
+msgctxt "The destination of a file operation"
+msgid "Destination"
+msgstr "Manzil"
+
+#: kio/job.cpp:163
+msgctxt "@title job"
+msgid "Copying"
+msgstr "Nusxa olinmoqda"
+
+#: kio/job.cpp:170
+msgctxt "@title job"
+msgid "Creating directory"
+msgstr "Jild yaratilmoqda"
+
+#: kio/job.cpp:171 kio/fileundomanager.cpp:117
+msgid "Directory"
+msgstr ""
+
+#: kio/job.cpp:176
+msgctxt "@title job"
+msgid "Deleting"
+msgstr "Oʻchirilmoqda"
+
+#: kio/job.cpp:177 kio/job.cpp:183 kio/fileundomanager.cpp:124
+msgid "File"
+msgstr "Fayl"
+
+#: kio/job.cpp:182
+#, fuzzy
+#| msgid "Examining"
+msgctxt "@title job"
+msgid "Examining"
+msgstr "Tekshirilmoqda"
+
+#: kio/job.cpp:188
+msgctxt "@title job"
+msgid "Transferring"
+msgstr ""
+
+#: kio/job.cpp:194
+msgctxt "@title job"
+msgid "Mounting"
+msgstr "Ulanmoqda"
+
+#: kio/job.cpp:195
+msgid "Device"
+msgstr "Uskuna"
+
+#: kio/job.cpp:196 kio/job.cpp:202
+msgid "Mountpoint"
+msgstr "Ulash nuqtasi"
+
+#: kio/job.cpp:201
+msgctxt "@title job"
+msgid "Unmounting"
+msgstr "Ajratilmoqda"
+
+#: kio/job.cpp:2110 kio/copyjob.cpp:1337 kio/copyjob.cpp:1908
+#: kio/global.cpp:666 kio/paste.cpp:64
+msgid "File Already Exists"
+msgstr "Fayl allaqachon mavjud"
 
 #: kio/chmodjob.cpp:214
 #, kde-format
@@ -1554,11 +1621,6 @@ msgstr "KCH-sleyvni (%1) yaratib boʻlmadi"
 msgid "Folder Already Exists"
 msgstr "Jild allaqachon mavjud"
 
-#: kio/copyjob.cpp:1337 kio/copyjob.cpp:1908 kio/global.cpp:666
-#: kio/job.cpp:2110 kio/paste.cpp:64
-msgid "File Already Exists"
-msgstr "Fayl allaqachon mavjud"
-
 #: kio/copyjob.cpp:1337 kio/copyjob.cpp:1908
 msgid "Already Exists as Folder"
 msgstr "Jild sifatida allaqachon mavjud"
@@ -1568,38 +1630,16 @@ msgstr "Jild sifatida allaqachon mavjud"
 msgid "Creating directory"
 msgstr "Jild yaratish"
 
-#: kio/fileundomanager.cpp:117 kio/job.cpp:171
-msgid "Directory"
-msgstr ""
-
 #: kio/fileundomanager.cpp:119
 #, fuzzy
 #| msgid "Moving"
 msgid "Moving"
 msgstr "Koʻchirilmoqda"
 
-#: kio/fileundomanager.cpp:120 kio/job.cpp:157 kio/job.cpp:164 kio/job.cpp:189
-#, fuzzy
-#| msgid "Source"
-msgctxt "The source of a file operation"
-msgid "Source"
-msgstr "Manba"
-
-#: kio/fileundomanager.cpp:121 kio/job.cpp:158 kio/job.cpp:165
-#, fuzzy
-#| msgid "Destination"
-msgctxt "The destination of a file operation"
-msgid "Destination"
-msgstr "Manzil"
-
 #: kio/fileundomanager.cpp:123
 #, fuzzy
 msgid "Deleting"
 msgstr " (Oʻchirilmoqda)"
-
-#: kio/fileundomanager.cpp:124 kio/job.cpp:177 kio/job.cpp:183
-msgid "File"
-msgstr "Fayl"
 
 #: kio/fileundomanager.cpp:284
 msgid "Und&o"
@@ -3316,56 +3356,6 @@ msgstr "Manzil faylining nomini oʻzgartiring."
 msgid "Undocumented Error"
 msgstr "Bu xato uchun koʻllanma yoʻq."
 
-#: kio/job.cpp:156
-msgctxt "@title job"
-msgid "Moving"
-msgstr "Koʻchirilmoqda"
-
-#: kio/job.cpp:163
-msgctxt "@title job"
-msgid "Copying"
-msgstr "Nusxa olinmoqda"
-
-#: kio/job.cpp:170
-msgctxt "@title job"
-msgid "Creating directory"
-msgstr "Jild yaratilmoqda"
-
-#: kio/job.cpp:176
-msgctxt "@title job"
-msgid "Deleting"
-msgstr "Oʻchirilmoqda"
-
-#: kio/job.cpp:182
-#, fuzzy
-#| msgid "Examining"
-msgctxt "@title job"
-msgid "Examining"
-msgstr "Tekshirilmoqda"
-
-#: kio/job.cpp:188
-msgctxt "@title job"
-msgid "Transferring"
-msgstr ""
-
-#: kio/job.cpp:194
-msgctxt "@title job"
-msgid "Mounting"
-msgstr "Ulanmoqda"
-
-#: kio/job.cpp:195
-msgid "Device"
-msgstr "Uskuna"
-
-#: kio/job.cpp:196 kio/job.cpp:202
-msgid "Mountpoint"
-msgstr "Ulash nuqtasi"
-
-#: kio/job.cpp:201
-msgctxt "@title job"
-msgid "Unmounting"
-msgstr "Ajratilmoqda"
-
 #: kio/jobuidelegate.cpp:149 ../kfile/kdiroperator.cpp:812
 #, fuzzy, kde-format
 msgid "Do you really want to delete this item?"
@@ -3726,6 +3716,16 @@ msgstr ""
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "'%1' dasturini topib boʻlmadi."
+
+#: kio/accessmanager.cpp:162
+msgid "Blocked request."
+msgstr ""
+
+#: kio/accessmanager.cpp:203
+#, fuzzy
+#| msgid "Unknown Error"
+msgid "Unknown HTTP verb."
+msgstr "Nomaʼlum xato"
 
 #: kio/kscan.cpp:50
 msgid "Acquire Image"
@@ -5458,6 +5458,174 @@ msgstr "Kirish OK"
 msgid "Could not login to %1."
 msgstr "%1'ga kirib boʻlmadi."
 
+#: ../kioslave/http/http_cache_cleaner.cpp:728
+#: ../kioslave/http/http_cache_cleaner.cpp:729
+msgid "KDE HTTP cache maintenance tool"
+msgstr ""
+
+#: ../kioslave/http/http_cache_cleaner.cpp:732
+msgid "Empty the cache"
+msgstr "Keshni boʻshatish"
+
+#: ../kioslave/http/http_cache_cleaner.cpp:733
+#, fuzzy
+#| msgid "Display SSL &Information"
+msgid "Display information about cache file"
+msgstr "SSL &maʼlumotini koʻrsatish"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:64
+msgid "Cookie Alert"
+msgstr "Kuki xabarnomasi"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:97
+#, kde-format
+msgid "You received a cookie from"
+msgid_plural "You received %1 cookies from"
+msgstr[0] ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:115
+msgid " <b>[Cross Domain]</b>"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:118
+msgid "Do you want to accept or reject?"
+msgstr "Qabul qilish yoki rad etishni istaysizmi?"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:126
+msgid "Apply Choice To"
+msgstr "Tanlovni qoʻllash"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
+msgid "&Only this cookie"
+msgstr "&Faqat shu kuki"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
+msgid "&Only these cookies"
+msgstr "&Faqat shu kukilar"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:132
+msgid ""
+"Select this option to accept/reject only this cookie. You will be prompted "
+"if another cookie is received. <em>(see WebBrowsing/Cookies in the System "
+"Settings)</em>."
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:136
+msgid "All cookies from this do&main"
+msgstr "Shu do&mendan hamma kuki"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:139
+msgid ""
+"Select this option to accept/reject all cookies from this site. Choosing "
+"this option will add a new policy for the site this cookie originated from. "
+"This policy will be permanent until you manually change it from the System "
+"Settings <em>(see WebBrowsing/Cookies in the System Settings)</em>."
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:145
+msgid "All &cookies"
+msgstr "&Hamma kukilar"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:148
+msgid ""
+"Select this option to accept/reject all cookies from anywhere. Choosing this "
+"option will change the global cookie policy set in the System Settings for "
+"all cookies <em>(see WebBrowsing/Cookies in the System Settings)</em>."
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:162
+msgid "&Accept"
+msgstr "&Qabul qilish"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:163
+msgid "&Reject"
+msgstr "Rad &etish"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:165
+msgid "See or modify the cookie information"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:200
+msgid "Cookie Details"
+msgstr "Tafsilotlar:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:213
+msgid "Value:"
+msgstr "Qiymati:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:220
+msgid "Expires:"
+msgstr "Tugaydi:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:227
+msgid "Path:"
+msgstr "Yoʻl:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:234
+msgid "Domain:"
+msgstr "Domen:"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:241
+msgid "Exposure:"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:250
+msgctxt "Next cookie"
+msgid "&Next >>"
+msgstr "&Keyingi >>"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:255
+msgid "Show details of the next cookie"
+msgstr "Keyingi kukining tafsilotlarini koʻrsatish"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:282
+msgid "Not specified"
+msgstr "Aniqlanmagan"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:291
+msgid "End of Session"
+msgstr "Seans yakuni"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:296
+msgid "Secure servers only"
+msgstr "Faqat xavfsiz serverlar"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:298
+msgid "Secure servers, page scripts"
+msgstr "Faqat xavfsiz serverlar, sahifa skriptlari"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:303
+msgid "Servers"
+msgstr "Serverlar"
+
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:305
+msgid "Servers, page scripts"
+msgstr "Serverlar, sahifa skriptlari"
+
+#: ../kioslave/http/kcookiejar/main.cpp:33
+msgid "HTTP Cookie Daemon"
+msgstr "HTTP kuki demoni"
+
+#: ../kioslave/http/kcookiejar/main.cpp:37
+msgid "HTTP cookie daemon"
+msgstr "HTTP kuki demoni"
+
+#: ../kioslave/http/kcookiejar/main.cpp:40
+msgid "Shut down cookie jar"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/main.cpp:41
+msgid "Remove cookies for domain"
+msgstr ""
+
+#: ../kioslave/http/kcookiejar/main.cpp:42
+msgid "Remove all cookies"
+msgstr "Hamma kukilarni oʻchirish"
+
+#: ../kioslave/http/kcookiejar/main.cpp:43
+msgid "Reload configuration file"
+msgstr "Moslama faylini qaytadan yuklash"
+
 #: ../kioslave/http/http.cpp:582
 msgid "No host specified."
 msgstr "Xost koʻrsatilmagan."
@@ -5705,174 +5873,6 @@ msgstr "%1 %2'dan aniqlanmoqda..."
 #, kde-format
 msgid "Retrieving from %1..."
 msgstr "%1'dan aniqlanmoqda..."
-
-#: ../kioslave/http/http_cache_cleaner.cpp:728
-#: ../kioslave/http/http_cache_cleaner.cpp:729
-msgid "KDE HTTP cache maintenance tool"
-msgstr ""
-
-#: ../kioslave/http/http_cache_cleaner.cpp:732
-msgid "Empty the cache"
-msgstr "Keshni boʻshatish"
-
-#: ../kioslave/http/http_cache_cleaner.cpp:733
-#, fuzzy
-#| msgid "Display SSL &Information"
-msgid "Display information about cache file"
-msgstr "SSL &maʼlumotini koʻrsatish"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:64
-msgid "Cookie Alert"
-msgstr "Kuki xabarnomasi"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:97
-#, kde-format
-msgid "You received a cookie from"
-msgid_plural "You received %1 cookies from"
-msgstr[0] ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:115
-msgid " <b>[Cross Domain]</b>"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:118
-msgid "Do you want to accept or reject?"
-msgstr "Qabul qilish yoki rad etishni istaysizmi?"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:126
-msgid "Apply Choice To"
-msgstr "Tanlovni qoʻllash"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
-msgid "&Only this cookie"
-msgstr "&Faqat shu kuki"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
-msgid "&Only these cookies"
-msgstr "&Faqat shu kukilar"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:132
-msgid ""
-"Select this option to accept/reject only this cookie. You will be prompted "
-"if another cookie is received. <em>(see WebBrowsing/Cookies in the System "
-"Settings)</em>."
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:136
-msgid "All cookies from this do&main"
-msgstr "Shu do&mendan hamma kuki"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:139
-msgid ""
-"Select this option to accept/reject all cookies from this site. Choosing "
-"this option will add a new policy for the site this cookie originated from. "
-"This policy will be permanent until you manually change it from the System "
-"Settings <em>(see WebBrowsing/Cookies in the System Settings)</em>."
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:145
-msgid "All &cookies"
-msgstr "&Hamma kukilar"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:148
-msgid ""
-"Select this option to accept/reject all cookies from anywhere. Choosing this "
-"option will change the global cookie policy set in the System Settings for "
-"all cookies <em>(see WebBrowsing/Cookies in the System Settings)</em>."
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:162
-msgid "&Accept"
-msgstr "&Qabul qilish"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:163
-msgid "&Reject"
-msgstr "Rad &etish"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:165
-msgid "See or modify the cookie information"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:200
-msgid "Cookie Details"
-msgstr "Tafsilotlar:"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:213
-msgid "Value:"
-msgstr "Qiymati:"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:220
-msgid "Expires:"
-msgstr "Tugaydi:"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:227
-msgid "Path:"
-msgstr "Yoʻl:"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:234
-msgid "Domain:"
-msgstr "Domen:"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:241
-msgid "Exposure:"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:250
-msgctxt "Next cookie"
-msgid "&Next >>"
-msgstr "&Keyingi >>"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:255
-msgid "Show details of the next cookie"
-msgstr "Keyingi kukining tafsilotlarini koʻrsatish"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:282
-msgid "Not specified"
-msgstr "Aniqlanmagan"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:291
-msgid "End of Session"
-msgstr "Seans yakuni"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:296
-msgid "Secure servers only"
-msgstr "Faqat xavfsiz serverlar"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:298
-msgid "Secure servers, page scripts"
-msgstr "Faqat xavfsiz serverlar, sahifa skriptlari"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:303
-msgid "Servers"
-msgstr "Serverlar"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:305
-msgid "Servers, page scripts"
-msgstr "Serverlar, sahifa skriptlari"
-
-#: ../kioslave/http/kcookiejar/main.cpp:33
-msgid "HTTP Cookie Daemon"
-msgstr "HTTP kuki demoni"
-
-#: ../kioslave/http/kcookiejar/main.cpp:37
-msgid "HTTP cookie daemon"
-msgstr "HTTP kuki demoni"
-
-#: ../kioslave/http/kcookiejar/main.cpp:40
-msgid "Shut down cookie jar"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/main.cpp:41
-msgid "Remove cookies for domain"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/main.cpp:42
-msgid "Remove all cookies"
-msgstr "Hamma kukilarni oʻchirish"
-
-#: ../kioslave/http/kcookiejar/main.cpp:43
-msgid "Reload configuration file"
-msgstr "Moslama faylini qaytadan yuklash"
 
 #: ../kioslave/metainfo/metainfo.cpp:39
 #, fuzzy
@@ -6261,45 +6261,6 @@ msgstr ""
 msgid "An error occurred while accessing '%1'"
 msgstr ""
 
-#: ../kfile/kfileplacesview.cpp:575
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "Chiqindilar qutisini boʻshatish"
-
-#: ../kfile/kfileplacesview.cpp:582
-#, fuzzy, kde-format
-#| msgid "&Edit Entry..."
-msgid "&Edit Entry '%1'..."
-msgstr "Elementni &tahrirlash"
-
-#: ../kfile/kfileplacesview.cpp:604
-#, fuzzy, kde-format
-#| msgid "&Add Entry..."
-msgid "&Hide Entry '%1'"
-msgstr "&Elementni qoʻshish"
-
-#: ../kfile/kfileplacesview.cpp:613
-#, fuzzy
-#| msgid ""
-#| "Show\n"
-#| "Entries"
-msgid "&Show All Entries"
-msgstr ""
-"Elementlarni\n"
-"koʻrsatish"
-
-#: ../kfile/kfileplacesview.cpp:624
-#, fuzzy, kde-format
-#| msgid "&Remove Entry"
-msgid "&Remove Entry '%1'"
-msgstr "Elementni oʻ&chirish"
-
-#: ../kfile/kfileplacesview.cpp:634
-#, fuzzy
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr "Rostdan bu elementni oʻchirishni istaysizmi?"
-
 #: ../kfile/kfiletreeview.cpp:187
 msgid "Show Hidden Folders"
 msgstr "Yashirilgan jildlarni koʻrsatish"
@@ -6646,6 +6607,45 @@ msgid ""
 msgstr ""
 "Quyidagi manzilda yangi jildni yaratish:\n"
 "%1"
+
+#: ../kfile/kfileplacesview.cpp:575
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "Chiqindilar qutisini boʻshatish"
+
+#: ../kfile/kfileplacesview.cpp:582
+#, fuzzy, kde-format
+#| msgid "&Edit Entry..."
+msgid "&Edit Entry '%1'..."
+msgstr "Elementni &tahrirlash"
+
+#: ../kfile/kfileplacesview.cpp:604
+#, fuzzy, kde-format
+#| msgid "&Add Entry..."
+msgid "&Hide Entry '%1'"
+msgstr "&Elementni qoʻshish"
+
+#: ../kfile/kfileplacesview.cpp:613
+#, fuzzy
+#| msgid ""
+#| "Show\n"
+#| "Entries"
+msgid "&Show All Entries"
+msgstr ""
+"Elementlarni\n"
+"koʻrsatish"
+
+#: ../kfile/kfileplacesview.cpp:624
+#, fuzzy, kde-format
+#| msgid "&Remove Entry"
+msgid "&Remove Entry '%1'"
+msgstr "Elementni oʻ&chirish"
+
+#: ../kfile/kfileplacesview.cpp:634
+#, fuzzy
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr "Rostdan bu elementni oʻchirishni istaysizmi?"
 
 #: ../kfile/kurlnavigator.cpp:427
 msgid "Copy"
