@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-07 02:23+0100\n"
+"POT-Creation-Date: 2011-02-15 03:29+0100\n"
 "PO-Revision-Date: 2006-12-17 12:02+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -645,57 +645,6 @@ msgstr ""
 "Bu yerda, hamma mavjud boʻlgan plaginlarini koʻrishingiz mumkin. Belgilangan "
 "plaginlar yuklangan. Kate ishga tushganda ular yuklanadi."
 
-#: app/katedocmanager.cpp:358
-#, kde-format
-msgid ""
-"The supposedly temporary file %1 has been modified. Do you want to delete it "
-"anyway?"
-msgstr ""
-
-#: app/katedocmanager.cpp:360
-#, fuzzy
-msgid "Delete File?"
-msgstr "Oʻchirilgan"
-
-#: app/katedocmanager.cpp:469
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
-#| "save your changes or discard them?"
-msgid ""
-"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
-"save your changes or discard them?</p>"
-msgstr "<p>'%1' hujjatiga oʻzarish kiritildi.<p>Uni saqlashni istaysizmi?"
-
-#: app/katedocmanager.cpp:471
-msgid "Close Document"
-msgstr "Hujjatni yopish"
-
-#: app/katedocmanager.cpp:478
-#, fuzzy
-msgid "Save As"
-msgstr "...sifatida s&aqlash"
-
-#: app/katedocmanager.cpp:504 app/katemainwindow.cpp:436
-msgid "New file opened while trying to close Kate, closing aborted."
-msgstr ""
-
-#: app/katedocmanager.cpp:505 app/katemainwindow.cpp:437
-msgid "Closing Aborted"
-msgstr "Yopish toʻxtatildi"
-
-#: app/katedocmanager.cpp:578
-msgid "Starting Up"
-msgstr "Ishga tushmoqda"
-
-#: app/katedocmanager.cpp:579
-msgid "Reopening files from the last session..."
-msgstr "Oxirgi seansning fayllari qaytadan ochilmoqda..."
-
-#: app/katedocmanager.cpp:785
-msgid "Errors/Warnings while opening documents"
-msgstr ""
-
 #: app/katemain.cpp:81
 msgid "Kate"
 msgstr "Kate"
@@ -1034,7 +983,7 @@ msgid ""
 "they are not accessible anymore."
 msgstr ""
 
-#: app/katemainwindow.cpp:285 plugins/filetree/katefiletree.cpp:53
+#: app/katemainwindow.cpp:285 plugins/filetree/katefiletree.cpp:52
 msgid "Close the current document."
 msgstr "Joriy hujjatni yopish."
 
@@ -1156,6 +1105,14 @@ msgstr ""
 #| msgid "Close all open documents."
 msgid "Close all documents"
 msgstr "Hamma ochiq hujjatlarni yopish."
+
+#: app/katemainwindow.cpp:436 app/katedocmanager.cpp:538
+msgid "New file opened while trying to close Kate, closing aborted."
+msgstr ""
+
+#: app/katemainwindow.cpp:437 app/katedocmanager.cpp:539
+msgid "Closing Aborted"
+msgstr "Yopish toʻxtatildi"
 
 #: app/katemainwindow.cpp:609
 #, kde-format
@@ -1565,70 +1522,48 @@ msgstr " QOʻY "
 msgid " BLOCK "
 msgstr ""
 
-#: plugins/filetree/katefiletree.cpp:51
-#, fuzzy
-#| msgid "Clos&e All"
-msgid "Close"
-msgstr "Hammasini yo&pish"
-
-#: plugins/filetree/katefiletree.cpp:57
-msgid "Tree Mode"
+#: app/katedocmanager.cpp:359
+#, kde-format
+msgid ""
+"The supposedly temporary file %1 has been modified. Do you want to delete it "
+"anyway?"
 msgstr ""
 
-#: plugins/filetree/katefiletree.cpp:58
-msgid "Set view style to Tree Mode"
+#: app/katedocmanager.cpp:361
+#, fuzzy
+msgid "Delete File?"
+msgstr "Oʻchirilgan"
+
+#: app/katedocmanager.cpp:503
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
+#| "save your changes or discard them?"
+msgid ""
+"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
+"save your changes or discard them?</p>"
+msgstr "<p>'%1' hujjatiga oʻzarish kiritildi.<p>Uni saqlashni istaysizmi?"
+
+#: app/katedocmanager.cpp:505
+msgid "Close Document"
+msgstr "Hujjatni yopish"
+
+#: app/katedocmanager.cpp:512
+#, fuzzy
+msgid "Save As"
+msgstr "...sifatida s&aqlash"
+
+#: app/katedocmanager.cpp:612
+msgid "Starting Up"
+msgstr "Ishga tushmoqda"
+
+#: app/katedocmanager.cpp:613
+msgid "Reopening files from the last session..."
+msgstr "Oxirgi seansning fayllari qaytadan ochilmoqda..."
+
+#: app/katedocmanager.cpp:819
+msgid "Errors/Warnings while opening documents"
 msgstr ""
-
-#: plugins/filetree/katefiletree.cpp:61
-msgid "List Mode"
-msgstr ""
-
-#: plugins/filetree/katefiletree.cpp:62
-msgid "Set view style to List Mode"
-msgstr ""
-
-#: plugins/filetree/katefiletree.cpp:67
-#: plugins/filetree/katefiletreeconfigpage.cpp:87
-msgid "Document Name"
-msgstr "Hujjatning nomi"
-
-#: plugins/filetree/katefiletree.cpp:68
-#, fuzzy
-#| msgid "Document Name"
-msgid "Sort by Document Name"
-msgstr "Hujjatning nomi"
-
-#: plugins/filetree/katefiletree.cpp:72
-#, fuzzy
-#| msgid "Document List"
-msgid "Document Path"
-msgstr "Hujjatlar roʻyxati"
-
-#: plugins/filetree/katefiletree.cpp:73
-#, fuzzy
-#| msgid "&Show All Documents >>"
-msgid "Sort by Document Path"
-msgstr "Hamma hujja&tlarni koʻrsatish >>"
-
-#: plugins/filetree/katefiletree.cpp:76
-#: plugins/filetree/katefiletreeconfigpage.cpp:86
-msgid "Opening Order"
-msgstr "Ochish tartibi"
-
-#: plugins/filetree/katefiletree.cpp:77
-#, fuzzy
-#| msgid "Opening Order"
-msgid "Sort by Opening Order"
-msgstr "Ochish tartibi"
-
-#: plugins/filetree/katefiletree.cpp:197
-msgid "View Mode"
-msgstr ""
-
-#: plugins/filetree/katefiletree.cpp:201
-#, fuzzy
-msgid "Sort By"
-msgstr "&Saralash"
 
 #: plugins/filetree/katefiletreeconfigpage.cpp:60
 msgid "Background Shading"
@@ -1645,6 +1580,16 @@ msgstr ""
 #: plugins/filetree/katefiletreeconfigpage.cpp:81
 msgid "&Sort by:"
 msgstr "&Saralash:"
+
+#: plugins/filetree/katefiletreeconfigpage.cpp:86
+#: plugins/filetree/katefiletree.cpp:75
+msgid "Opening Order"
+msgstr "Ochish tartibi"
+
+#: plugins/filetree/katefiletreeconfigpage.cpp:87
+#: plugins/filetree/katefiletree.cpp:66
+msgid "Document Name"
+msgstr "Hujjatning nomi"
 
 #: plugins/filetree/katefiletreeconfigpage.cpp:88
 msgid "Url"
@@ -1714,6 +1659,61 @@ msgstr "Oldingi koʻrinish"
 #: plugins/filetree/katefiletreeplugin.cpp:195
 msgid "&Show Active"
 msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:50
+#, fuzzy
+#| msgid "Clos&e All"
+msgid "Close"
+msgstr "Hammasini yo&pish"
+
+#: plugins/filetree/katefiletree.cpp:56
+msgid "Tree Mode"
+msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:57
+msgid "Set view style to Tree Mode"
+msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:60
+msgid "List Mode"
+msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:61
+msgid "Set view style to List Mode"
+msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:67
+#, fuzzy
+#| msgid "Document Name"
+msgid "Sort by Document Name"
+msgstr "Hujjatning nomi"
+
+#: plugins/filetree/katefiletree.cpp:71
+#, fuzzy
+#| msgid "Document List"
+msgid "Document Path"
+msgstr "Hujjatlar roʻyxati"
+
+#: plugins/filetree/katefiletree.cpp:72
+#, fuzzy
+#| msgid "&Show All Documents >>"
+msgid "Sort by Document Path"
+msgstr "Hamma hujja&tlarni koʻrsatish >>"
+
+#: plugins/filetree/katefiletree.cpp:76
+#, fuzzy
+#| msgid "Opening Order"
+msgid "Sort by Opening Order"
+msgstr "Ochish tartibi"
+
+#: plugins/filetree/katefiletree.cpp:183
+msgid "View Mode"
+msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:187
+#, fuzzy
+msgid "Sort By"
+msgstr "&Saralash"
 
 #, fuzzy
 #~| msgid "&Document"
