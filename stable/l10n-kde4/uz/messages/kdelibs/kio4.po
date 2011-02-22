@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-15 13:45+0100\n"
+"POT-Creation-Date: 2011-02-22 13:37+0100\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1594,8 +1594,8 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "Ajratilmoqda"
 
-#: kio/job.cpp:2110 kio/copyjob.cpp:1337 kio/copyjob.cpp:1908
-#: kio/global.cpp:666 kio/paste.cpp:64
+#: kio/job.cpp:2110 kio/global.cpp:666 kio/copyjob.cpp:1349
+#: kio/copyjob.cpp:1920 kio/paste.cpp:64
 msgid "File Already Exists"
 msgstr "Fayl allaqachon mavjud"
 
@@ -1616,14 +1616,6 @@ msgstr "&Faylni oʻtkazib yuborish"
 #, kde-format
 msgid "Unable to create io-slave: %1"
 msgstr "KCH-sleyvni (%1) yaratib boʻlmadi"
-
-#: kio/copyjob.cpp:1025 kio/global.cpp:676
-msgid "Folder Already Exists"
-msgstr "Jild allaqachon mavjud"
-
-#: kio/copyjob.cpp:1337 kio/copyjob.cpp:1908
-msgid "Already Exists as Folder"
-msgstr "Jild sifatida allaqachon mavjud"
 
 #: kio/fileundomanager.cpp:116
 #, fuzzy
@@ -2601,6 +2593,10 @@ msgstr "Faylni oʻchirib yana urinib koʻring."
 msgid "Choose an alternate filename for the new file."
 msgstr "Yangi faylga boshqa nom berib koʻring."
 
+#: kio/global.cpp:676 kio/copyjob.cpp:1030
+msgid "Folder Already Exists"
+msgstr "Jild allaqachon mavjud"
+
 #: kio/global.cpp:677
 msgid ""
 "The requested folder could not be created because a folder with the same "
@@ -3453,6 +3449,10 @@ msgstr "Chiqarish"
 #: kio/kdesktopfileactions.cpp:221
 msgid "Unmount"
 msgstr "Ajratish"
+
+#: kio/copyjob.cpp:1349 kio/copyjob.cpp:1920
+msgid "Already Exists as Folder"
+msgstr "Jild sifatida allaqachon mavjud"
 
 #: kio/kdirmodel.cpp:992
 msgctxt "@title:column"
