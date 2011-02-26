@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-25 03:09+0100\n"
+"POT-Creation-Date: 2011-02-26 03:12+0100\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -587,7 +587,7 @@ msgstr "Yuklangan"
 msgid "Reparent shapes"
 msgstr "Matnni oʻchirish"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:95 main/KoMainWindow.cpp:1696
+#: kopageapp/KoPADocumentStructureDocker.cpp:95 main/KoMainWindow.cpp:1707
 msgid "Document"
 msgstr "Hujjat"
 
@@ -2385,7 +2385,7 @@ msgstr ""
 "Uni almashtirishni istaysizmi?"
 
 #: main/KoMainWindow.cpp:924 main/KoMainWindow.cpp:1341
-#: main/KoMainWindow.cpp:1736
+#: main/KoMainWindow.cpp:1747
 #, fuzzy
 msgid "Warning"
 msgstr "chizma"
@@ -2394,22 +2394,36 @@ msgstr "chizma"
 msgid "Write PDF"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1628
+#: main/KoMainWindow.cpp:1368 main/KoUndoStackAction.cpp:36
+#: main/KoUndoStackAction.cpp:52
+#, fuzzy
+#| msgid "Undo: %1"
+msgid "Undo"
+msgstr "Bekor qilish: %1"
+
+#: main/KoMainWindow.cpp:1369 main/KoUndoStackAction.cpp:44
+#: main/KoUndoStackAction.cpp:52
+#, fuzzy
+#| msgid "Red"
+msgid "Redo"
+msgstr "Qizil"
+
+#: main/KoMainWindow.cpp:1639
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr "%1 asboblar panelini koʻrsatish"
 
-#: main/KoMainWindow.cpp:1630
+#: main/KoMainWindow.cpp:1641
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr "%1 asboblar panelini bekitish"
 
-#: main/KoMainWindow.cpp:1704
+#: main/KoMainWindow.cpp:1715
 #, kde-format
 msgid "Document - %1"
 msgstr "Hujjat - %1"
 
-#: main/KoMainWindow.cpp:1734
+#: main/KoMainWindow.cpp:1745
 #, fuzzy
 #| msgid ""
 #| "You will lose all your changes!\n"
@@ -2648,7 +2662,7 @@ msgstr ""
 msgid "Date: %1"
 msgstr "Sana:"
 
-#: main/KoView.cpp:443
+#: main/KoView.cpp:444
 #, fuzzy
 msgid "&New View"
 msgstr "Koʻrinishni &olib tashlash"
@@ -7115,16 +7129,6 @@ msgstr ""
 #~ msgctxt "color"
 #~ msgid "Navy"
 #~ msgstr "Kul"
-
-#, fuzzy
-#~| msgid "Undo: %1"
-#~ msgid "Undo"
-#~ msgstr "Bekor qilish: %1"
-
-#, fuzzy
-#~| msgid "Red"
-#~ msgid "Redo"
-#~ msgstr "Qizil"
 
 #, fuzzy
 #~ msgid "Number"
