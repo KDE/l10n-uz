@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-24 04:02+0100\n"
+"POT-Creation-Date: 2011-02-28 03:46+0100\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -396,67 +396,6 @@ msgstr "*|Hamma fayllar"
 msgid "All Supported Files"
 msgstr "Hamma qoʻllangan fayllar"
 
-#: kfile/kfilemetadataprovider.cpp:413 kfile/knfotranslator.cpp:40
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@label"
-msgid "Comment"
-msgstr "Izoh"
-
-#: kfile/kfilemetadataprovider.cpp:414
-#, fuzzy
-msgctxt "@label"
-msgid "Modified"
-msgstr "Oʻzgargan:"
-
-#: kfile/kfilemetadataprovider.cpp:415
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@label"
-msgid "Owner"
-msgstr "Egasi"
-
-#: kfile/kfilemetadataprovider.cpp:416
-#, fuzzy
-#| msgid "Permissions"
-msgctxt "@label"
-msgid "Permissions"
-msgstr "Huquqlar"
-
-#: kfile/kfilemetadataprovider.cpp:417
-#, fuzzy
-msgctxt "@label"
-msgid "Rating"
-msgstr "Saralash"
-
-#: kfile/kfilemetadataprovider.cpp:418
-#, fuzzy
-#| msgid "Size"
-msgctxt "@label"
-msgid "Size"
-msgstr "Hajmi"
-
-#: kfile/kfilemetadataprovider.cpp:419
-#, fuzzy
-#| msgid "Trash"
-msgctxt "@label"
-msgid "Tags"
-msgstr "Chiqindilar qutisi"
-
-#: kfile/kfilemetadataprovider.cpp:420
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size"
-msgstr "Hajmi:"
-
-#: kfile/kfilemetadataprovider.cpp:421
-#, fuzzy
-#| msgid "Type"
-msgctxt "@label"
-msgid "Type"
-msgstr "Turi"
-
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
 msgstr "<Xato>"
@@ -637,6 +576,13 @@ msgstr "&Davom etish"
 msgctxt "@title:tab"
 msgid "Information"
 msgstr "Maʼlumot"
+
+#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:443
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@label"
+msgid "Comment"
+msgstr "Izoh"
 
 #: kfile/knfotranslator.cpp:41
 #, fuzzy
@@ -1521,6 +1467,86 @@ msgstr ""
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "%1 uchun qoʻshimcha parametrlar"
+
+#: kfile/kfilemetadataprovider.cpp:444
+#, fuzzy
+msgctxt "@label"
+msgid "Modified"
+msgstr "Oʻzgargan:"
+
+#: kfile/kfilemetadataprovider.cpp:445
+#, fuzzy
+#| msgid "Owner"
+msgctxt "@label"
+msgid "Owner"
+msgstr "Egasi"
+
+#: kfile/kfilemetadataprovider.cpp:446
+#, fuzzy
+#| msgid "Permissions"
+msgctxt "@label"
+msgid "Permissions"
+msgstr "Huquqlar"
+
+#: kfile/kfilemetadataprovider.cpp:447
+#, fuzzy
+msgctxt "@label"
+msgid "Rating"
+msgstr "Saralash"
+
+#: kfile/kfilemetadataprovider.cpp:448
+#, fuzzy
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "Hajmi"
+
+#: kfile/kfilemetadataprovider.cpp:449
+#, fuzzy
+#| msgid "Trash"
+msgctxt "@label"
+msgid "Tags"
+msgstr "Chiqindilar qutisi"
+
+#: kfile/kfilemetadataprovider.cpp:450
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "Hajmi:"
+
+#: kfile/kfilemetadataprovider.cpp:451
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "Turi"
+
+#: kfile/kfilemetadatareader.cpp:157
+msgid "KFileMetaDataReader"
+msgstr ""
+
+#: kfile/kfilemetadatareader.cpp:159
+msgid "KFileMetaDataReader can be used to read metadata from a file"
+msgstr ""
+
+#: kfile/kfilemetadatareader.cpp:161
+msgid "(C) 2011, Peter Penz"
+msgstr ""
+
+#: kfile/kfilemetadatareader.cpp:162
+msgid "Peter Penz"
+msgstr ""
+
+#: kfile/kfilemetadatareader.cpp:162
+#, fuzzy
+#| msgid "Current location"
+msgid "Current maintainer"
+msgstr "Joriy manzil"
+
+#: kfile/kfilemetadatareader.cpp:167
+msgid "List of URLs where the meta-data should be read from"
+msgstr ""
 
 #: kio/accessmanager.cpp:170
 msgid "Blocked request."
@@ -7211,9 +7237,6 @@ msgstr ""
 
 #~ msgid "Case Insensitive"
 #~ msgstr "Katta-kichik harf farqlanmasin"
-
-#~ msgid "Current location"
-#~ msgstr "Joriy manzil"
 
 #~ msgid "Netscape Bookmarks"
 #~ msgstr "Netscape xatchoʻplari"
