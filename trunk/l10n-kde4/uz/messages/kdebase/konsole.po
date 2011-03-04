@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-03 03:32+0100\n"
+"POT-Creation-Date: 2011-03-04 03:30+0100\n"
 "PO-Revision-Date: 2008-06-04 01:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -271,76 +271,74 @@ msgstr "Joriy profilni tahrirlash..."
 msgid "lines"
 msgstr ""
 
-#: IncrementalSearchBar.cpp:53
+#: IncrementalSearchBar.cpp:52
 #, fuzzy
 #| msgid "C&lose Session"
 msgid "Close the search bar"
 msgstr "Seansni &yopish"
 
-#: IncrementalSearchBar.cpp:58
+#: IncrementalSearchBar.cpp:57
 msgid "Find:"
 msgstr "Qidirish:"
 
-#: IncrementalSearchBar.cpp:63
+#: IncrementalSearchBar.cpp:62
 msgid "Enter the text to search for here"
 msgstr ""
 
-#: IncrementalSearchBar.cpp:82
+#: IncrementalSearchBar.cpp:81
 #, fuzzy
 #| msgid "Next"
 msgctxt "@action:button Go to the next phrase"
 msgid "Next"
 msgstr "Keyingi"
 
-#: IncrementalSearchBar.cpp:86
+#: IncrementalSearchBar.cpp:84
 msgid "Find the next match for the current search phrase"
 msgstr ""
 
-#: IncrementalSearchBar.cpp:91
+#: IncrementalSearchBar.cpp:89
 #, fuzzy
 #| msgid "Previous"
 msgctxt "@action:button Go to the previous phrase"
 msgid "Previous"
 msgstr "Oldingi"
 
-#: IncrementalSearchBar.cpp:95
+#: IncrementalSearchBar.cpp:92
 msgid "Find the previous match for the current search phrase"
 msgstr ""
 
-#: IncrementalSearchBar.cpp:100
-msgid "Highlight all"
-msgstr ""
+#: IncrementalSearchBar.cpp:97
+#, fuzzy
+msgctxt "@action:button Display options menu"
+msgid "Options"
+msgstr "Tab &parametrlari"
 
 #: IncrementalSearchBar.cpp:102
-msgid "Sets whether matching text should be highlighted"
+msgid "Display the options menu"
 msgstr ""
 
-#: IncrementalSearchBar.cpp:110
-msgid "Match case"
-msgstr ""
+#: IncrementalSearchBar.cpp:115
+#, fuzzy
+#| msgid "C&lose Session"
+msgid "Case sensitive"
+msgstr "Seansni &yopish"
 
-#: IncrementalSearchBar.cpp:112
+#: IncrementalSearchBar.cpp:117
 msgid "Sets whether the search is case sensitive"
 msgstr ""
 
-#: IncrementalSearchBar.cpp:118
+#: IncrementalSearchBar.cpp:121
 #, fuzzy
 #| msgid "As &regular expression"
 msgid "Match regular expression"
 msgstr "&Doimiy ifoda sifatida"
 
-#: IncrementalSearchBar.cpp:120
-msgid ""
-"Sets whether the search phrase is interpreted as normal text or as a regular "
-"expression"
+#: IncrementalSearchBar.cpp:126
+msgid "Highlight all matches"
 msgstr ""
 
-#: IncrementalSearchBar.cpp:246
-msgid "Search reached bottom, continued from top."
-msgstr ""
-
-#: IncrementalSearchBar.cpp:251
-msgid "Search reached top, continued from bottom."
+#: IncrementalSearchBar.cpp:128
+msgid "Sets whether matching text should be highlighted"
 msgstr ""
 
 #: KeyBindingEditor.cpp:49
@@ -1826,13 +1824,13 @@ msgid ""
 "want to close it?"
 msgstr ""
 
-#: SessionController.cpp:1157
+#: SessionController.cpp:1159
 #, fuzzy
 #| msgid "&ZModem Upload..."
 msgid "Save ZModem Download to..."
 msgstr "ZModem yo&zib qoʻyish"
 
-#: SessionController.cpp:1166
+#: SessionController.cpp:1168
 #, fuzzy
 #| msgid ""
 #| "<p>A ZModem file transfer attempt has been detected, but no suitable "
@@ -1847,7 +1845,7 @@ msgstr ""
 "topilmadi.\n"
 "<p>\"rzsz\" yoki \"lrzsz\" dasturini oʻrnatishingiz kerak.\n"
 
-#: SessionController.cpp:1178
+#: SessionController.cpp:1180
 #, fuzzy
 #| msgid ""
 #| "<p>The current session already has a ZModem file transfer in progress."
@@ -1855,7 +1853,7 @@ msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>Joriy seansda ZModem fayl uzatishi allaqachon davom etayapti."
 
-#: SessionController.cpp:1187
+#: SessionController.cpp:1189
 #, fuzzy
 #| msgid ""
 #| "<p>No suitable ZModem software was found on the system.\n"
@@ -1867,23 +1865,23 @@ msgstr ""
 "<p>Tizimda kerak boʻlgan ZModem dasturi topilmadi.\n"
 "<p>\"rzsz\" yoki \"lrzsz\" dasturini oʻrnatishingiz kerak.\n"
 
-#: SessionController.cpp:1193
+#: SessionController.cpp:1195
 #, fuzzy
 #| msgid "Select Files to Upload"
 msgid "Select Files for ZModem Upload"
 msgstr "Yozib qoʻyish uchun fayllarni tanlang"
 
-#: SessionController.cpp:1265
+#: SessionController.cpp:1267
 #, fuzzy, kde-format
 msgid "Save Output From %1"
 msgstr "Tarixni saqlash"
 
-#: SessionController.cpp:1276
+#: SessionController.cpp:1278
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1365
+#: SessionController.cpp:1367
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2342,10 +2340,6 @@ msgstr "&Toʻxtatish"
 #, fuzzy
 #~ msgid "Hide Menu Bar"
 #~ msgstr "&Menyular panelini bekitish"
-
-#, fuzzy
-#~ msgid "Options"
-#~ msgstr "Tab &parametrlari"
 
 #~ msgid "Printer &friendly mode (black text, no background)"
 #~ msgstr "&Printer uchun qulay usul (kora matn, orqa fonsiz)"
