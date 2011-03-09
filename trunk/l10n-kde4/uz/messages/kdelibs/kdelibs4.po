@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-27 03:39+0100\n"
+"POT-Creation-Date: 2011-03-09 03:41+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1212,7 +1212,7 @@ msgstr ""
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:106
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: rc.cpp:655 kparts/browserrun.cpp:329
+#: rc.cpp:655 kparts/browserrun.cpp:336
 msgid "Execute"
 msgstr "Ishga tushirish"
 
@@ -10587,14 +10587,14 @@ msgstr "\"%1\" nomli fayl allaqachon mavjud. Uni almashtirishni istaysizmi?"
 msgid "Overwrite"
 msgstr "Almashtirish"
 
-#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:390
+#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:397
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr ""
 "Yozib olish dasturi (%1) sizning $PATH muhit oʻzgaruvchingizda koʻrsatilgan "
 "direktoriyalarda topilmadi."
 
-#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:391
+#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:398
 #, fuzzy
 msgid ""
 "Try to reinstall it  \n"
@@ -10697,7 +10697,7 @@ msgid "Print header"
 msgstr "Sarlavhani bosib chiqarish"
 
 #: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3710 khtml/khtml_part.cpp:3939
-#: khtml/khtml_part.cpp:4361 kparts/browserrun.cpp:419
+#: khtml/khtml_part.cpp:4361 kparts/browserrun.cpp:426
 msgid "Save As"
 msgstr "Saqlash"
 
@@ -13047,15 +13047,6 @@ msgctxt "@info:whatsthis"
 msgid "This is the file name suggested by the server"
 msgstr ""
 
-#: kparts/browserrun.cpp:328
-#, fuzzy, kde-format
-msgid "Do you really want to execute '%1'?"
-msgstr "Rostdan '%1'ni ishga tushirmoqchimisiz?"
-
-#: kparts/browserrun.cpp:329
-msgid "Execute File?"
-msgstr "Faylni ishga tushirish"
-
 #: kparts/part.cpp:817
 msgid "Untitled"
 msgstr "Sarlavhasiz"
@@ -13072,6 +13063,15 @@ msgstr ""
 #: kparts/part.cpp:825
 msgid "Close Document"
 msgstr "Hujjatni yopish"
+
+#: kparts/browserrun.cpp:335
+#, fuzzy, kde-format
+msgid "Do you really want to execute '%1'?"
+msgstr "Rostdan '%1'ni ishga tushirmoqchimisiz?"
+
+#: kparts/browserrun.cpp:336
+msgid "Execute File?"
+msgstr "Faylni ishga tushirish"
 
 #: kpty/kptydevice.cpp:322
 #, fuzzy
