@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-06 03:36+0100\n"
+"POT-Creation-Date: 2011-03-26 03:41+0100\n"
 "PO-Revision-Date: 2007-02-11 00:24+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -222,7 +222,7 @@ msgid "Soften & Sharpen"
 msgstr "Yumshatish va oʻtkirlash"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:123
-#: mainWindow/kpMainWindow_File.cpp:651
+#: mainWindow/kpMainWindow_File.cpp:639
 msgid "Document Properties"
 msgstr ""
 
@@ -1103,7 +1103,7 @@ msgstr ""
 #: mainWindow/kpMainWindow_Colors.cpp:347
 #: mainWindow/kpMainWindow_Colors.cpp:360
 #: mainWindow/kpMainWindow_Colors.cpp:369
-#: mainWindow/kpMainWindow_File.cpp:1013 mainWindow/kpMainWindow_File.cpp:1023
+#: mainWindow/kpMainWindow_File.cpp:1001 mainWindow/kpMainWindow_File.cpp:1011
 #, fuzzy
 msgid "&Reload"
 msgstr "&Qaytadan yuklash"
@@ -1139,112 +1139,6 @@ msgstr ""
 #| msgid "Invert Colors"
 msgid "Save Color Palette As"
 msgstr "Teskari ranglar"
-
-#: mainWindow/kpMainWindow_File.cpp:100
-msgid "E&xport..."
-msgstr "&Eksport qilish"
-
-#: mainWindow/kpMainWindow_File.cpp:105
-#, fuzzy
-msgid "Scan..."
-msgstr "Tanlash"
-
-#: mainWindow/kpMainWindow_File.cpp:110
-msgid "Properties"
-msgstr ""
-
-#: mainWindow/kpMainWindow_File.cpp:116
-msgid "Reloa&d"
-msgstr "&Qaytadan yuklash"
-
-#: mainWindow/kpMainWindow_File.cpp:128
-msgid "Set as Wa&llpaper (Centered)"
-msgstr "Ish stoliga qoʻyish (&markazda)"
-
-#: mainWindow/kpMainWindow_File.cpp:131
-msgid "Set as Wallpaper (&Tiled)"
-msgstr "Ish stoliga qoʻyish (&kafel)"
-
-#: mainWindow/kpMainWindow_File.cpp:459
-msgid "Open Image"
-msgstr "Rasmni ochish"
-
-#: mainWindow/kpMainWindow_File.cpp:532
-msgid "Scanning support is not installed."
-msgstr ""
-
-#: mainWindow/kpMainWindow_File.cpp:533
-msgid "No Scanning Support"
-msgstr ""
-
-#: mainWindow/kpMainWindow_File.cpp:894
-msgid "Save Image As"
-msgstr "Rasmni saqlash"
-
-#: mainWindow/kpMainWindow_File.cpp:943
-#, fuzzy
-msgid "Export"
-msgstr "&Eksport qilish"
-
-#: mainWindow/kpMainWindow_File.cpp:1008
-#, kde-format
-msgid ""
-"The document \"%1\" has been modified.\n"
-"Reloading will lose all changes since you last saved it.\n"
-"Are you sure?"
-msgstr ""
-
-#: mainWindow/kpMainWindow_File.cpp:1018
-#, kde-format
-msgid ""
-"The document \"%1\" has been modified.\n"
-"Reloading will lose all changes.\n"
-"Are you sure?"
-msgstr ""
-
-#: mainWindow/kpMainWindow_File.cpp:1260
-#, fuzzy
-#| msgid "Entire Image"
-msgid "Print Image"
-msgstr "Butun rasm"
-
-#: mainWindow/kpMainWindow_File.cpp:1345
-msgid ""
-"You must save this image before sending it.\n"
-"Do you want to save it?"
-msgstr ""
-"Rasmni joʻnatishdan oldin uni saqlash kerak.\n"
-"Uni saqlashni istaysizmi?"
-
-#: mainWindow/kpMainWindow_File.cpp:1388
-msgid ""
-"Before this image can be set as the wallpaper, you must save it as a local "
-"file.\n"
-"Do you want to save it?"
-msgstr ""
-"Rasmni ish stoliga qoʻyishdan oldin uni saqlash kerak.\n"
-"Uni saqlashni istaysizmi?"
-
-#: mainWindow/kpMainWindow_File.cpp:1394
-msgid ""
-"Before this image can be set as the wallpaper, you must save it.\n"
-"Do you want to save it?"
-msgstr ""
-"Rasmni ish stoliga qoʻyishdan oldin uni saqlash kerak.\n"
-"Uni saqlashni istaysizmi?"
-
-#: mainWindow/kpMainWindow_File.cpp:1468
-msgid "Could not change wallpaper."
-msgstr "Rasmni ish stoliga qoʻyib boʻlmadi."
-
-#: mainWindow/kpMainWindow_File.cpp:1503
-#, kde-format
-msgid ""
-"The document \"%1\" has been modified.\n"
-"Do you want to save it?"
-msgstr ""
-"'%1' hujjatiga oʻzgarishlar kiritildi.\n"
-"Uni saqlashni istaysizmi?"
 
 #: mainWindow/kpMainWindow_Help.cpp:62
 msgid "Acquiring &Screenshots"
@@ -1535,6 +1429,83 @@ msgid ""
 "This can reduce system responsiveness and cause other application resource "
 "problems.</p><p>Are you sure want to resize the image?</p></qt>"
 msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:98
+msgid "E&xport..."
+msgstr "&Eksport qilish"
+
+#: mainWindow/kpMainWindow_File.cpp:103
+#, fuzzy
+msgid "Scan..."
+msgstr "Tanlash"
+
+#: mainWindow/kpMainWindow_File.cpp:108
+msgid "Properties"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:114
+msgid "Reloa&d"
+msgstr "&Qaytadan yuklash"
+
+#: mainWindow/kpMainWindow_File.cpp:447
+msgid "Open Image"
+msgstr "Rasmni ochish"
+
+#: mainWindow/kpMainWindow_File.cpp:520
+msgid "Scanning support is not installed."
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:521
+msgid "No Scanning Support"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:882
+msgid "Save Image As"
+msgstr "Rasmni saqlash"
+
+#: mainWindow/kpMainWindow_File.cpp:931
+#, fuzzy
+msgid "Export"
+msgstr "&Eksport qilish"
+
+#: mainWindow/kpMainWindow_File.cpp:996
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Reloading will lose all changes since you last saved it.\n"
+"Are you sure?"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:1006
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Reloading will lose all changes.\n"
+"Are you sure?"
+msgstr ""
+
+#: mainWindow/kpMainWindow_File.cpp:1248
+#, fuzzy
+#| msgid "Entire Image"
+msgid "Print Image"
+msgstr "Butun rasm"
+
+#: mainWindow/kpMainWindow_File.cpp:1337
+msgid ""
+"You must save this image before sending it.\n"
+"Do you want to save it?"
+msgstr ""
+"Rasmni joʻnatishdan oldin uni saqlash kerak.\n"
+"Uni saqlashni istaysizmi?"
+
+#: mainWindow/kpMainWindow_File.cpp:1378
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"'%1' hujjatiga oʻzgarishlar kiritildi.\n"
+"Uni saqlashni istaysizmi?"
 
 #: tools/flow/kpToolBrush.cpp:35
 msgid "Brush"
@@ -2283,6 +2254,30 @@ msgstr ""
 #: rc.cpp:23
 msgid "&Edit"
 msgstr ""
+
+#~ msgid "Set as Wa&llpaper (Centered)"
+#~ msgstr "Ish stoliga qoʻyish (&markazda)"
+
+#~ msgid "Set as Wallpaper (&Tiled)"
+#~ msgstr "Ish stoliga qoʻyish (&kafel)"
+
+#~ msgid ""
+#~ "Before this image can be set as the wallpaper, you must save it as a "
+#~ "local file.\n"
+#~ "Do you want to save it?"
+#~ msgstr ""
+#~ "Rasmni ish stoliga qoʻyishdan oldin uni saqlash kerak.\n"
+#~ "Uni saqlashni istaysizmi?"
+
+#~ msgid ""
+#~ "Before this image can be set as the wallpaper, you must save it.\n"
+#~ "Do you want to save it?"
+#~ msgstr ""
+#~ "Rasmni ish stoliga qoʻyishdan oldin uni saqlash kerak.\n"
+#~ "Uni saqlashni istaysizmi?"
+
+#~ msgid "Could not change wallpaper."
+#~ msgstr "Rasmni ish stoliga qoʻyib boʻlmadi."
 
 #~ msgid "..."
 #~ msgstr "Tanlash"
