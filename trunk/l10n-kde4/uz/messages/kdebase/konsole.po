@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-04 03:34+0200\n"
+"POT-Creation-Date: 2011-04-05 03:54+0200\n"
 "PO-Revision-Date: 2008-06-04 01:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -577,39 +577,39 @@ msgstr ""
 msgid "Thanks to many others.\n"
 msgstr "Qolgan boshqalarga ham rahmat.\n"
 
-#: MainWindow.cpp:241
+#: MainWindow.cpp:252
 #, fuzzy
 #| msgid "New &Tab"
 msgid "&New Tab"
 msgstr "&Yangi tab"
 
-#: MainWindow.cpp:250
+#: MainWindow.cpp:261
 msgid "New &Window"
 msgstr "&Yangi oyna"
 
-#: MainWindow.cpp:261
+#: MainWindow.cpp:272
 msgid "&Bookmarks"
 msgstr "&Xatchoʻplar"
 
-#: MainWindow.cpp:288 Part.cpp:101
+#: MainWindow.cpp:299 Part.cpp:101
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Profiles..."
 msgstr "Profillarni boshqarish..."
 
-#: MainWindow.cpp:294
+#: MainWindow.cpp:305
 msgid "Activate Menu"
 msgstr "Menyuni aktivlashtirish"
 
-#: MainWindow.cpp:391
+#: MainWindow.cpp:402
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:393 SessionController.cpp:612
+#: MainWindow.cpp:404 SessionController.cpp:612
 msgid "Confirm Close"
 msgstr "Yopishni tasdiqlash"
 
-#: MainWindow.cpp:395
+#: MainWindow.cpp:406
 msgid "Close Current Tab"
 msgstr "Joriy tabni yopish"
 
@@ -1519,57 +1519,9 @@ msgstr ""
 msgid "Set as Default"
 msgstr "Andoza sifatida saqlash"
 
-#. i18n: file: ../desktop/konsoleui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:421
-#, fuzzy
-#| msgid "&File"
-msgid "File"
-msgstr "&Fayl"
-
-#. i18n: file: ../desktop/konsoleui.rc:14
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:424
-#, fuzzy
-#| msgid "&Edit"
-msgid "Edit"
-msgstr "&Tahrirlash"
-
-#. i18n: file: ../desktop/konsoleui.rc:17
-#. i18n: ectx: Menu (view)
-#: rc.cpp:427
-#, fuzzy
-#| msgid "&View"
-msgid "View"
-msgstr "&Koʻrinish"
-
-#. i18n: file: ../desktop/konsoleui.rc:18
-#. i18n: ectx: Menu (view-split)
-#: rc.cpp:430
-#, fuzzy
-#| msgid "Split &View"
-msgid "Split View"
-msgstr "Koʻr&inishni boʻlish"
-
-#. i18n: file: ../desktop/konsoleui.rc:33
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:433
-#, fuzzy
-#| msgid "&Settings"
-msgid "Settings"
-msgstr "&Moslamalar"
-
-#. i18n: file: ../desktop/konsoleui.rc:42
-#. i18n: ectx: Menu (help)
-#: rc.cpp:436
-#, fuzzy
-#| msgid "&Help"
-msgid "Help"
-msgstr "&Yordam"
-
 #. i18n: file: ../desktop/partui.rc:7
 #. i18n: ectx: Menu (history)
-#: rc.cpp:439
+#: rc.cpp:421
 #, fuzzy
 #| msgid "Do not display scrollbar"
 msgid "S&crollback"
@@ -1577,11 +1529,59 @@ msgstr "Varaqlash panelini bekitish"
 
 #. i18n: file: ../desktop/partui.rc:26
 #. i18n: ectx: Menu (change-profile)
-#. i18n: file: ../desktop/sessionui.rc:57
+#. i18n: file: ../desktop/sessionui.rc:60
 #. i18n: ectx: Menu (change-profile)
-#: rc.cpp:442 rc.cpp:451
+#: rc.cpp:424 rc.cpp:451
 msgid "&Change Profile"
 msgstr "&Profilni oʻzgartirish"
+
+#. i18n: file: ../desktop/konsoleui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:427
+#, fuzzy
+#| msgid "&File"
+msgid "File"
+msgstr "&Fayl"
+
+#. i18n: file: ../desktop/konsoleui.rc:14
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:430
+#, fuzzy
+#| msgid "&Edit"
+msgid "Edit"
+msgstr "&Tahrirlash"
+
+#. i18n: file: ../desktop/konsoleui.rc:17
+#. i18n: ectx: Menu (view)
+#: rc.cpp:433
+#, fuzzy
+#| msgid "&View"
+msgid "View"
+msgstr "&Koʻrinish"
+
+#. i18n: file: ../desktop/konsoleui.rc:18
+#. i18n: ectx: Menu (view-split)
+#: rc.cpp:436
+#, fuzzy
+#| msgid "Split &View"
+msgid "Split View"
+msgstr "Koʻr&inishni boʻlish"
+
+#. i18n: file: ../desktop/konsoleui.rc:33
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:439
+#, fuzzy
+#| msgid "&Settings"
+msgid "Settings"
+msgstr "&Moslamalar"
+
+#. i18n: file: ../desktop/konsoleui.rc:44
+#. i18n: ectx: Menu (help)
+#: rc.cpp:442
+#, fuzzy
+#| msgid "&Help"
+msgid "Help"
+msgstr "&Yordam"
 
 #. i18n: file: ../desktop/sessionui.rc:15
 #. i18n: ectx: Menu (edit-copy-input-to)
@@ -1589,7 +1589,7 @@ msgstr "&Profilni oʻzgartirish"
 msgid "Copy Input To"
 msgstr ""
 
-#. i18n: file: ../desktop/sessionui.rc:38
+#. i18n: file: ../desktop/sessionui.rc:41
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:448
 msgid "Debug"
