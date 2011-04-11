@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-04 03:15+0200\n"
+"POT-Creation-Date: 2011-04-11 03:30+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1087,7 +1087,7 @@ msgstr "Yangi qatlam yaratish"
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonCancel)
 #. i18n: file: ui/forms/wdgfilterdialog.ui:70
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonCancel)
-#: rc.cpp:81 rc.cpp:1361 rc.cpp:3643 ui/kis_view2.cpp:399
+#: rc.cpp:81 rc.cpp:1361 rc.cpp:3643 ui/kis_view2.cpp:398
 #, fuzzy
 msgid "Cancel"
 msgstr "Kanal"
@@ -9484,7 +9484,7 @@ msgstr "&Rasm"
 #. i18n: file: plugins/extensions/tonemapping/tonemapping.rc:4
 #. i18n: ectx: Menu (Layer)
 #: rc.cpp:4086 rc.cpp:4140 rc.cpp:4170 rc.cpp:4209
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:295
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:308
 msgid "&Layer"
 msgstr "&Qatlam"
 
@@ -10076,11 +10076,11 @@ msgstr "Umumiy"
 msgid "Soft brush"
 msgstr "Filter boʻyogʻi"
 
-#: image/kis_base_node.cpp:130 ui/kis_node_model.cpp:310
+#: image/kis_base_node.cpp:130 ui/kis_node_model.cpp:312
 msgid "Visible"
 msgstr "Koʻrinadigan"
 
-#: image/kis_base_node.cpp:131 ui/kis_node_model.cpp:311
+#: image/kis_base_node.cpp:131 ui/kis_node_model.cpp:313
 msgid "Locked"
 msgstr "Qulflangan"
 
@@ -10195,7 +10195,7 @@ msgid "Composite Mode"
 msgstr "Qa&erni rasmga olish:"
 
 #: image/kis_paint_layer.cc:154 image/kis_paint_layer.cc:161
-#: ui/kis_node_model.cpp:319
+#: ui/kis_node_model.cpp:321
 #, fuzzy
 #| msgid "Locked"
 msgid "Alpha Locked"
@@ -10296,7 +10296,7 @@ msgstr "Toʻldirish"
 msgid "Path"
 msgstr "&Rasm chizish"
 
-#: image/kis_selection_mask.cpp:104 ui/kis_node_model.cpp:312
+#: image/kis_selection_mask.cpp:104 ui/kis_node_model.cpp:314
 #, fuzzy
 msgid "Active"
 msgstr "Qatlamni koʻchirish"
@@ -10600,102 +10600,102 @@ msgstr "Palitralar"
 msgid "Layers"
 msgstr "Qatlamlar"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:102
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:101
 msgid "Minimal View"
 msgstr ""
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:104
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:103
 msgid "Detailed View"
 msgstr ""
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:106
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:105
 msgid "Thumbnail View"
 msgstr ""
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:117
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:116
 #, fuzzy
 msgid "View mode"
 msgstr "Yangi qatlam"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:137
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:153
 #, fuzzy
 #| msgid "&Layer"
 msgid "&Paint Layer"
 msgstr "&Qatlam"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:138
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:296
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:154
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:309
 #, fuzzy
 #| msgid "New &Group Layer..."
 msgid "&Group Layer"
 msgstr "Yangi qatlamlar &guruhi..."
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:139
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:297
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:155
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:310
 #, fuzzy
 #| msgid "Move Layer"
 msgid "&Clone Layer"
 msgstr "Qatlamni koʻchirish"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:140
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:298
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:156
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:311
 #, fuzzy
 msgid "&Shape Layer"
 msgstr "Yangi qatlam"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:141
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:299
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:157
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:312
 #, fuzzy
 #| msgid "&Filters Gallery"
 msgid "&Filter Layer..."
 msgstr "Filterlar &toʻplami"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:142
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:300
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:158
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:313
 #, fuzzy
 #| msgid "&Group Layer..."
 msgid "&Generated Layer..."
 msgstr "Qatlamlar &guruhi..."
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:144
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:302
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:160
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:315
 #, fuzzy
 msgid "&Transparency Mask"
 msgstr "Shaffof"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:145
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:161
 #, fuzzy
 #| msgid "Filters"
 msgid "&Filter Mask..."
 msgstr "Filterlar"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:147
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:163
 #, fuzzy
 msgid "&Transformation Mask..."
 msgstr "Boshqa shaklga almashtirish"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:149
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:305
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:165
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:318
 #, fuzzy
 msgid "&Local Selection"
 msgstr "Tanlanganni bekitish"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:288
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:301
 #, fuzzy
 msgid "&Properties..."
 msgstr "Qatlamning xossalari"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:290
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:303
 msgid "&Remove Layer"
 msgstr "Qatlamni &olib tashlash"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:291
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:304
 #, fuzzy
 #| msgid "Duplicate"
 msgid "&Duplicate Layer or Mask"
 msgstr "Nusxasini yaratish"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:303
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:316
 #, fuzzy
 msgid "&Effect Mask..."
 msgstr "Tanlash boʻyogʻi"
@@ -13783,62 +13783,62 @@ msgid ""
 "down."
 msgstr ""
 
-#: ui/kis_view2.cpp:207
+#: ui/kis_view2.cpp:206
 msgid "Total Refresh"
 msgstr ""
 
-#: ui/kis_view2.cpp:212
+#: ui/kis_view2.cpp:211
 #, fuzzy
 #| msgid "&Rotate Image..."
 msgid "&Create Template From Image..."
 msgstr "Rasmni &burish..."
 
-#: ui/kis_view2.cpp:216
+#: ui/kis_view2.cpp:215
 msgid "Load Tutorial"
 msgstr ""
 
-#: ui/kis_view2.cpp:265
+#: ui/kis_view2.cpp:264
 #, fuzzy
 msgid "Mirror Image"
 msgstr "Rasmni kesish"
 
-#: ui/kis_view2.cpp:272
+#: ui/kis_view2.cpp:271
 msgid "Rotate Canvas Right"
 msgstr ""
 
-#: ui/kis_view2.cpp:277
+#: ui/kis_view2.cpp:276
 #, fuzzy
 #| msgid "Rotate Image"
 msgid "Rotate Canvas Left"
 msgstr "Rasmni burish"
 
-#: ui/kis_view2.cpp:282
+#: ui/kis_view2.cpp:281
 #, fuzzy
 msgid "Reset Canvas Transformations"
 msgstr "Boshqa shaklga almashtirish"
 
-#: ui/kis_view2.cpp:393
+#: ui/kis_view2.cpp:392
 msgid "Insert as New Layer"
 msgstr "Yangi qatlam sifatida qoʻyish"
 
-#: ui/kis_view2.cpp:394
+#: ui/kis_view2.cpp:393
 msgid "Insert as New Layers"
 msgstr "Yangi qatlamlar sifatida qoʻyish"
 
-#: ui/kis_view2.cpp:396
+#: ui/kis_view2.cpp:395
 msgid "Open in New Document"
 msgstr "Yangi hujjatda ochish"
 
-#: ui/kis_view2.cpp:397
+#: ui/kis_view2.cpp:396
 msgid "Open in New Documents"
 msgstr "Yangi hujjatlarda ochish"
 
-#: ui/kis_view2.cpp:607
+#: ui/kis_view2.cpp:606
 #, fuzzy
 msgid "Edit Palette..."
 msgstr "Palitrani tahrirlash..."
 
-#: ui/kis_view2.cpp:727 ui/kis_view2.cpp:730
+#: ui/kis_view2.cpp:721 ui/kis_view2.cpp:724
 #, fuzzy
 msgid "Edit Palette"
 msgstr "Palitrani tahrirlash..."
@@ -14021,12 +14021,12 @@ msgstr "Qatlamni koʻchirish"
 msgid "Effect Mask Properties"
 msgstr "Rasmning xossalari"
 
-#: ui/kis_node_manager.cpp:95
+#: ui/kis_node_manager.cpp:147
 #, fuzzy
 msgid "Mirror Horizontally"
 msgstr "Ufq 1"
 
-#: ui/kis_node_manager.cpp:99
+#: ui/kis_node_manager.cpp:151
 #, fuzzy
 msgid "Mirror Vertically"
 msgstr "Uskuna:"
@@ -14045,20 +14045,20 @@ msgstr "Lineykalarni koʻrsatish"
 msgid "Hide Painting Assistants"
 msgstr ""
 
-#: ui/kis_doc2.cc:455
+#: ui/kis_doc2.cc:449
 msgid ""
 "The Calligra LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: ui/kis_doc2.cc:466
+#: ui/kis_doc2.cc:460
 #, kde-format
 msgid ""
 "Krita needs at least Qt 4.6.3 to work correctly. Your Qt version is %1. If "
 "you have a graphics tablet it will not work correctly!"
 msgstr ""
 
-#: ui/kis_doc2.cc:483
+#: ui/kis_doc2.cc:477
 #, fuzzy
 #| msgid "Layer Error"
 msgid "Installation error"
