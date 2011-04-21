@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 03:06+0100\n"
+"POT-Creation-Date: 2011-04-21 03:46+0200\n"
 "PO-Revision-Date: 2005-10-19 21:17+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -485,42 +485,58 @@ msgid ""
 "permissions problem - you should consult the manual on how to fix this."
 msgstr ""
 
-#. i18n: file: xcursor/themepage.ui:31
+#. i18n: file: xcursor/themepage.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:68
 msgid "Select the cursor theme you want to use (hover preview to test cursor):"
 msgstr "Kursor mavzusini tanlang:"
 
-#. i18n: file: xcursor/themepage.ui:38
-#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#. i18n: file: xcursor/themepage.ui:56
+#. i18n: ectx: property (toolTip), widget (KPushButton, installKnsButton)
 #: rc.cpp:71
+msgid "Get new color schemes from the Internet"
+msgstr ""
+
+#. i18n: file: xcursor/themepage.ui:59
+#. i18n: ectx: property (text), widget (KPushButton, installKnsButton)
+#: rc.cpp:74
+#, fuzzy
+#| msgid "Install New Theme..."
+msgid "Get New Theme..."
+msgstr "Yangi mavzuni oʻrnatish"
+
+#. i18n: file: xcursor/themepage.ui:66
+#. i18n: ectx: property (text), widget (KPushButton, installButton)
+#: rc.cpp:77
+#, fuzzy
+#| msgid "Install New Theme..."
+msgid "Install From File..."
+msgstr "Yangi mavzuni oʻrnatish"
+
+#. i18n: file: xcursor/themepage.ui:73
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: rc.cpp:80
 msgid "Remove Theme"
 msgstr "Mavzuni olib tashlash"
-
-#. i18n: file: xcursor/themepage.ui:45
-#. i18n: ectx: property (text), widget (KPushButton, installButton)
-#: rc.cpp:74
-msgid "Install New Theme..."
-msgstr "Yangi mavzuni oʻrnatish"
 
 #: core/themepage.cpp:54
 msgid "Select the cursor theme you want to use:"
 msgstr "Kursor mavzusini tanlang:"
 
-#: core/themepage.cpp:59 xcursor/thememodel.cpp:67
+#: core/themepage.cpp:59 xcursor/thememodel.cpp:75
 msgid "Name"
 msgstr "Nomi"
 
-#: core/themepage.cpp:59 xcursor/thememodel.cpp:70
+#: core/themepage.cpp:59 xcursor/thememodel.cpp:78
 msgid "Description"
 msgstr "Taʼrifi"
 
-#: core/themepage.cpp:100 xcursor/themepage.cpp:196
+#: core/themepage.cpp:100 xcursor/themepage.cpp:201
 msgid "You have to restart KDE for these changes to take effect."
 msgstr ""
 "Oʻzgarishlar kuchga kirishi uchun KDE'ni qaytadan ishga tushirishingiz kerak."
 
-#: core/themepage.cpp:101 xcursor/themepage.cpp:197
+#: core/themepage.cpp:101 xcursor/themepage.cpp:202
 msgid "Cursor Settings Changed"
 msgstr "Kursor moslamalari oʻzgardi"
 
@@ -564,16 +580,16 @@ msgstr ""
 msgid "The default cursor theme in KDE 2 and 3"
 msgstr ""
 
-#: xcursor/themepage.cpp:284
+#: xcursor/themepage.cpp:298
 msgid "Drag or Type Theme URL"
 msgstr ""
 
-#: xcursor/themepage.cpp:295
+#: xcursor/themepage.cpp:309
 #, kde-format
 msgid "Unable to find the cursor theme archive %1."
 msgstr "Kursor mavzusining %1 arxivi topilmadi."
 
-#: xcursor/themepage.cpp:298
+#: xcursor/themepage.cpp:312
 #, kde-format
 msgid ""
 "Unable to download the cursor theme archive; please check that the address %"
@@ -582,18 +598,18 @@ msgstr ""
 "Kursor mavzusining arxivini yozib olib boʻlmadi. Iltimos %1 manzili "
 "toʻgʻriligini tekshiring."
 
-#: xcursor/themepage.cpp:307
+#: xcursor/themepage.cpp:321
 #, kde-format
 msgid "The file %1 does not appear to be a valid cursor theme archive."
 msgstr "%1 fayli haqiqiy kursor mavzusining arxiviga oʻxshamaydi."
 
-#: xcursor/themepage.cpp:322
+#: xcursor/themepage.cpp:336
 msgid ""
 "<qt>You cannot delete the theme you are currently using.<br />You have to "
 "switch to another theme first.</qt>"
 msgstr ""
 
-#: xcursor/themepage.cpp:328
+#: xcursor/themepage.cpp:342
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Are you sure you want to remove the <strong>%1</strong> cursor theme?"
@@ -605,18 +621,18 @@ msgstr ""
 "<qt><strong>%1</strong> mavzusini olib tashlashga ishonchingiz komilmi?"
 "<br>Bu mavzuga tegishli hamma fayllar oʻchiriladi.</qt>"
 
-#: xcursor/themepage.cpp:334
+#: xcursor/themepage.cpp:348
 msgid "Confirmation"
 msgstr "Tasdiqlash"
 
-#: xcursor/themepage.cpp:391
+#: xcursor/themepage.cpp:405
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
 "replace it with this one?"
 msgstr "%1 mavzusi allaqachon mavjud. Uni almashtirishni istaysizmi?"
 
-#: xcursor/themepage.cpp:395
+#: xcursor/themepage.cpp:409
 msgid "Overwrite Theme?"
 msgstr "Mavzuni almashtirish"
 
