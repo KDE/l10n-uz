@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-19 07:04+0200\n"
+"POT-Creation-Date: 2011-04-28 04:17+0200\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:19
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3 ../../ui/widgets/KarbonGradientEditWidget.cpp:174
+#: rc.cpp:3
 msgid "Repeat:"
 msgstr "Qaytarish:"
 
@@ -138,52 +138,6 @@ msgstr ""
 #| msgid "Object Properties"
 msgid "Effect Properties"
 msgstr "Obʼektning xossalari"
-
-#: KarbonGradientTool.cpp:207
-msgid "Drag to move gradient position."
-msgstr ""
-
-#: KarbonGradientTool.cpp:216
-msgid "Drag to move color stop. Double click to remove color stop."
-msgstr ""
-
-#: KarbonGradientTool.cpp:218
-msgid "Drag to move color stop."
-msgstr ""
-
-#: KarbonGradientTool.cpp:225
-msgid "Drag to move gradient position. Double click to insert color stop."
-msgstr ""
-
-#: KarbonGradientTool.cpp:503
-msgid "Edit Gradient"
-msgstr "Gradientni tahrirlash"
-
-#: KarbonGradientTool.cpp:504
-msgid "Predefined Gradients"
-msgstr "Oldindan aniqlangan gradientlar"
-
-#: KarbonGradientToolFactory.cpp:31
-#, fuzzy
-#| msgid "Gradient Tool"
-msgid "Gradient Editing Tool"
-msgstr "Gradient vositasi"
-
-#: KarbonPatternTool.cpp:285
-#, fuzzy
-#| msgid "Pattern Tool"
-msgid "Pattern Options"
-msgstr "Namuna moslamasi"
-
-#: KarbonPatternTool.cpp:286
-msgid "Patterns"
-msgstr "Namunalar"
-
-#: KarbonPatternToolFactory.cpp:31
-#, fuzzy
-#| msgid "Pattern Tool"
-msgid "Pattern Editing Tool"
-msgstr "Namuna moslamasi"
 
 #: KarbonPencilTool.cpp:321
 #, fuzzy
@@ -484,77 +438,87 @@ msgstr "Pastga"
 msgid "Bottom Right"
 msgstr ""
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:167
-msgid "Type:"
-msgstr "Turi:"
+#~ msgid "Edit Gradient"
+#~ msgstr "Gradientni tahrirlash"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:169
+#~ msgid "Predefined Gradients"
+#~ msgstr "Oldindan aniqlangan gradientlar"
+
 #, fuzzy
-#| msgid "Linear"
-msgctxt "Linear gradient type"
-msgid "Linear"
-msgstr "Chiziqli"
+#~| msgid "Gradient Tool"
+#~ msgid "Gradient Editing Tool"
+#~ msgstr "Gradient vositasi"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:170
 #, fuzzy
-#| msgid "Radial"
-msgctxt "Radial gradient type"
-msgid "Radial"
-msgstr "Radial"
+#~| msgid "Pattern Tool"
+#~ msgid "Pattern Options"
+#~ msgstr "Namuna moslamasi"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:171
+#~ msgid "Patterns"
+#~ msgstr "Namunalar"
+
 #, fuzzy
-#| msgid "Conical"
-msgctxt "Conical gradient type"
-msgid "Conical"
-msgstr "Konussimon"
+#~| msgid "Pattern Tool"
+#~ msgid "Pattern Editing Tool"
+#~ msgstr "Namuna moslamasi"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:176
+#~ msgid "Type:"
+#~ msgstr "Turi:"
+
 #, fuzzy
-#| msgid "None"
-msgctxt "No gradient spread"
-msgid "None"
-msgstr "Yoʻq"
+#~| msgid "Linear"
+#~ msgctxt "Linear gradient type"
+#~ msgid "Linear"
+#~ msgstr "Chiziqli"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:177
-msgid "Reflect"
-msgstr "Aks etishi"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:178
-msgid "Repeat"
-msgstr "Qaytarish"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:181
-msgid "Target:"
-msgstr "Moʻljal:"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:183
-msgid "Stroke"
-msgstr "Chizish"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:184
-msgid "Fill"
-msgstr "Toʻldirish"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:192
-msgid "Overall opacity:"
-msgstr "Umumiy xiralik:"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:197
 #, fuzzy
-#| msgid "Stroke: Color"
-msgid "Stop color:"
-msgstr "Chizish: Rang"
+#~| msgid "Radial"
+#~ msgctxt "Radial gradient type"
+#~ msgid "Radial"
+#~ msgstr "Radial"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:201
 #, fuzzy
-#| msgid "Stroke: Color"
-msgid "Stop color."
-msgstr "Chizish: Rang"
+#~| msgid "Conical"
+#~ msgctxt "Conical gradient type"
+#~ msgid "Conical"
+#~ msgstr "Konussimon"
 
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:204
-msgid "&Add to Predefined Gradients"
-msgstr "Oldindan &aniqlangan gradientlarga qoʻshish"
+#, fuzzy
+#~| msgid "None"
+#~ msgctxt "No gradient spread"
+#~ msgid "None"
+#~ msgstr "Yoʻq"
+
+#~ msgid "Reflect"
+#~ msgstr "Aks etishi"
+
+#~ msgid "Repeat"
+#~ msgstr "Qaytarish"
+
+#~ msgid "Target:"
+#~ msgstr "Moʻljal:"
+
+#~ msgid "Stroke"
+#~ msgstr "Chizish"
+
+#~ msgid "Fill"
+#~ msgstr "Toʻldirish"
+
+#~ msgid "Overall opacity:"
+#~ msgstr "Umumiy xiralik:"
+
+#, fuzzy
+#~| msgid "Stroke: Color"
+#~ msgid "Stop color:"
+#~ msgstr "Chizish: Rang"
+
+#, fuzzy
+#~| msgid "Stroke: Color"
+#~ msgid "Stop color."
+#~ msgstr "Chizish: Rang"
+
+#~ msgid "&Add to Predefined Gradients"
+#~ msgstr "Oldindan &aniqlangan gradientlarga qoʻshish"
 
 #, fuzzy
 #~| msgid "Gradient Tool"
