@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-29 03:34+0200\n"
+"POT-Creation-Date: 2011-04-30 03:27+0200\n"
 "PO-Revision-Date: 2006-12-17 13:48+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1053,6 +1053,46 @@ msgstr "&Holat panelini koʻrsatish"
 msgid "Please select at least one non-locked shape and try again"
 msgstr ""
 
+#: part/KWDocument.cpp:582
+#, fuzzy
+#| msgid "Copy%1-%2"
+msgid "Copy"
+msgstr "Nusxa%1-%2"
+
+#: part/KWDocument.cpp:627
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Head 1"
+msgid "Head 1"
+msgstr "Sarlavha 1"
+
+#: part/KWDocument.cpp:634
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Head 2"
+msgid "Head 2"
+msgstr "Sarlavha 2"
+
+#: part/KWDocument.cpp:641
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Head 3"
+msgid "Head 3"
+msgstr "Sarlavha 3"
+
+#: part/KWDocument.cpp:648
+#, fuzzy
+msgid "Bullet List"
+msgstr "Koʻkish"
+
+#: part/KWDocument.cpp:997
+msgid "Can not find needed text component, Words will quit now"
+msgstr ""
+
+#: part/KWDocument.cpp:998
+msgid "Installation Error"
+msgstr ""
+
 #: part/KWStatusBar.cpp:39
 msgid "Modified"
 msgstr ""
@@ -1439,34 +1479,6 @@ msgstr "Tepasi va pasti kul"
 msgid "Tools"
 msgstr ""
 
-#: part/KWord.cpp:58
-msgid "Odd Pages Header"
-msgstr ""
-
-#: part/KWord.cpp:60
-msgid "Even Pages Header"
-msgstr ""
-
-#: part/KWord.cpp:62
-msgid "Odd Pages Footer"
-msgstr ""
-
-#: part/KWord.cpp:64
-msgid "Even Pages Footer"
-msgstr ""
-
-#: part/KWord.cpp:66
-#, fuzzy
-#| msgid "Plain text"
-msgid "Main text"
-msgstr "Matn"
-
-#: part/KWord.cpp:68
-#, fuzzy
-#| msgid "Insert Page"
-msgid "Other text"
-msgstr "Betni qoʻyish"
-
 #: part/KWAboutData.h:27
 #, fuzzy
 #| msgid "KOffice Word Processor"
@@ -1642,6 +1654,34 @@ msgstr ""
 msgid "Michael Johnson"
 msgstr ""
 
+#: part/KWord.cpp:58
+msgid "Odd Pages Header"
+msgstr ""
+
+#: part/KWord.cpp:60
+msgid "Even Pages Header"
+msgstr ""
+
+#: part/KWord.cpp:62
+msgid "Odd Pages Footer"
+msgstr ""
+
+#: part/KWord.cpp:64
+msgid "Even Pages Footer"
+msgstr ""
+
+#: part/KWord.cpp:66
+#, fuzzy
+#| msgid "Plain text"
+msgid "Main text"
+msgstr "Matn"
+
+#: part/KWord.cpp:68
+#, fuzzy
+#| msgid "Insert Page"
+msgid "Other text"
+msgstr "Betni qoʻyish"
+
 #: part/KWDLoader.cpp:74
 msgid "Invalid document. No mimetype specified."
 msgstr "Hujjat haqiqiy emas. Hech qanday MIME-turi koʻrsatilmagan."
@@ -1671,46 +1711,6 @@ msgstr "Maʼlumot baza obʼektini yaratib boʻlmadi"
 #| msgid "Unable to create database object"
 msgid "Unable to locate note-text"
 msgstr "Maʼlumot baza obʼektini yaratib boʻlmadi"
-
-#: part/KWDocument.cpp:586
-#, fuzzy
-#| msgid "Copy%1-%2"
-msgid "Copy"
-msgstr "Nusxa%1-%2"
-
-#: part/KWDocument.cpp:631
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Head 1"
-msgid "Head 1"
-msgstr "Sarlavha 1"
-
-#: part/KWDocument.cpp:638
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Head 2"
-msgid "Head 2"
-msgstr "Sarlavha 2"
-
-#: part/KWDocument.cpp:645
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Head 3"
-msgid "Head 3"
-msgstr "Sarlavha 3"
-
-#: part/KWDocument.cpp:652
-#, fuzzy
-msgid "Bullet List"
-msgstr "Koʻkish"
-
-#: part/KWDocument.cpp:1001
-msgid "Can not find needed text component, Words will quit now"
-msgstr ""
-
-#: part/KWDocument.cpp:1002
-msgid "Installation Error"
-msgstr ""
 
 #: part/KWOdfLoader.cpp:86
 msgid "Invalid OASIS OpenDocument file. No office:body tag found."
