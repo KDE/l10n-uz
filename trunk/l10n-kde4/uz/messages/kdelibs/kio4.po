@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-04 04:04+0200\n"
+"POT-Creation-Date: 2011-05-05 04:04+0200\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3235,7 +3235,7 @@ msgstr ""
 msgid "The server was too busy responding to other requests to respond."
 msgstr "Server boshqa talablarga javob berish bilan juda band edi."
 
-#: kio/global.cpp:1094 kio/slavebase.cpp:1300
+#: kio/global.cpp:1094 kio/slavebase.cpp:1302
 msgid "Unknown Error"
 msgstr "Nomaʼlum xato"
 
@@ -4473,9 +4473,75 @@ msgstr ""
 msgid "The certificate is invalid."
 msgstr "Sertifikat haqiqiy emas."
 
-#: kssl/ksslinfodialog.cpp:73 kssl/ksslkeygen.cpp:125
+#: kssl/ksslkeygen.cpp:83
+msgid "KDE Certificate Request"
+msgstr "KDE sertifikat talabi"
+
+#: kssl/ksslkeygen.cpp:90
+msgid "KDE Certificate Request - Password"
+msgstr "KDE sertifikat talabi - Maxfiy soʻz"
+
+#: kssl/ksslkeygen.cpp:125
+msgid "Unsupported key size."
+msgstr "Kalitning hajmi qoʻllanmagan."
+
+#: kssl/ksslkeygen.cpp:125 kssl/ksslinfodialog.cpp:73
 msgid "KDE SSL Information"
 msgstr "KDE SSL haqida maʼlumot"
+
+#: kssl/ksslkeygen.cpp:131
+msgid "KDE"
+msgstr "KDE"
+
+#: kssl/ksslkeygen.cpp:132
+msgid "Please wait while the encryption keys are generated..."
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:145
+msgid "Do you wish to store the passphrase in your wallet file?"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:145
+msgid "Store"
+msgstr "Saqlash"
+
+#: kssl/ksslkeygen.cpp:145
+msgid "Do Not Store"
+msgstr "Saqlanmasin"
+
+#: kssl/ksslkeygen.cpp:261
+msgid "2048 (High Grade)"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:262
+msgid "1024 (Medium Grade)"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:263
+msgid "768  (Low Grade)"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:264
+msgid "512  (Low Grade)"
+msgstr ""
+
+#: kssl/ksslkeygen.cpp:266
+msgid "No SSL support."
+msgstr "SSL qoʻllanmagan."
+
+#: kssl/ksslpemcallback.cpp:37
+msgid "Certificate password"
+msgstr "Sertifikat uchun maxfiy soʻz"
+
+#: kssl/ksslutils.cpp:78
+msgid "GMT"
+msgstr "GMT"
+
+#: kssl/sslui.cpp:52
+msgid ""
+"The remote host did not send any SSL certificates.\n"
+"Aborting because the identity of the host cannot be established."
+msgstr ""
 
 #: kssl/ksslinfodialog.cpp:81
 #, fuzzy
@@ -4549,72 +4615,6 @@ msgstr ""
 msgctxt "The certificate is trusted"
 msgid "Yes"
 msgstr "&Tiklash"
-
-#: kssl/ksslkeygen.cpp:83
-msgid "KDE Certificate Request"
-msgstr "KDE sertifikat talabi"
-
-#: kssl/ksslkeygen.cpp:90
-msgid "KDE Certificate Request - Password"
-msgstr "KDE sertifikat talabi - Maxfiy soʻz"
-
-#: kssl/ksslkeygen.cpp:125
-msgid "Unsupported key size."
-msgstr "Kalitning hajmi qoʻllanmagan."
-
-#: kssl/ksslkeygen.cpp:131
-msgid "KDE"
-msgstr "KDE"
-
-#: kssl/ksslkeygen.cpp:132
-msgid "Please wait while the encryption keys are generated..."
-msgstr ""
-
-#: kssl/ksslkeygen.cpp:145
-msgid "Do you wish to store the passphrase in your wallet file?"
-msgstr ""
-
-#: kssl/ksslkeygen.cpp:145
-msgid "Store"
-msgstr "Saqlash"
-
-#: kssl/ksslkeygen.cpp:145
-msgid "Do Not Store"
-msgstr "Saqlanmasin"
-
-#: kssl/ksslkeygen.cpp:261
-msgid "2048 (High Grade)"
-msgstr ""
-
-#: kssl/ksslkeygen.cpp:262
-msgid "1024 (Medium Grade)"
-msgstr ""
-
-#: kssl/ksslkeygen.cpp:263
-msgid "768  (Low Grade)"
-msgstr ""
-
-#: kssl/ksslkeygen.cpp:264
-msgid "512  (Low Grade)"
-msgstr ""
-
-#: kssl/ksslkeygen.cpp:266
-msgid "No SSL support."
-msgstr "SSL qoʻllanmagan."
-
-#: kssl/ksslpemcallback.cpp:37
-msgid "Certificate password"
-msgstr "Sertifikat uchun maxfiy soʻz"
-
-#: kssl/ksslutils.cpp:78
-msgid "GMT"
-msgstr "GMT"
-
-#: kssl/sslui.cpp:52
-msgid ""
-"The remote host did not send any SSL certificates.\n"
-"Aborting because the identity of the host cannot be established."
-msgstr ""
 
 #: misc/kmailservice.cpp:30
 msgid "KMailService"
