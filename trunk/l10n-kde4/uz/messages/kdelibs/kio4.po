@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-10 04:25+0200\n"
+"POT-Creation-Date: 2011-05-12 04:26+0200\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1585,7 +1585,7 @@ msgid "Folder Already Exists"
 msgstr "Jild allaqachon mavjud"
 
 #: kio/copyjob.cpp:1349 kio/copyjob.cpp:1921 kio/global.cpp:669
-#: kio/job.cpp:2208 kio/paste.cpp:116
+#: kio/job.cpp:2204 kio/paste.cpp:116
 msgid "File Already Exists"
 msgstr "Fayl allaqachon mavjud"
 
@@ -3810,30 +3810,6 @@ msgstr "Oʻtkazib yuborish"
 msgid "AutoSkip"
 msgstr "Avto-oʻtkazib yuborish"
 
-#: kio/slave.cpp:442
-#, kde-format
-msgid "Unknown protocol '%1'."
-msgstr "Nomaʼlum protokol '%1'."
-
-#: kio/slave.cpp:451
-#, kde-format
-msgid "Can not find io-slave for protocol '%1'."
-msgstr "%1 protokoli uchun KCH-sleyv topilmadi."
-
-#: kio/slave.cpp:470
-#, fuzzy, kde-format
-msgid "Cannot talk to klauncher: %1"
-msgstr "Klauncher bilan bogʻlanib boʻlmadi"
-
-#: kio/slave.cpp:478
-#, kde-format
-msgid ""
-"Unable to create io-slave:\n"
-"klauncher said: %1"
-msgstr ""
-"io-slave yaratib boʻlmadi.\n"
-"Klauncher'dan olingan xabar: %1"
-
 #: kio/slaveinterface.cpp:416 kio/tcpslavebase.cpp:840 kssl/sslui.cpp:81
 msgid "&Details"
 msgstr "&Tafsilotlar"
@@ -4109,6 +4085,30 @@ msgstr "\"%1\" nomli eski element allaqachon mavjud."
 #| msgid "&Rename"
 msgid "Rename:"
 msgstr "&Nomini oʻzgartirish"
+
+#: kio/slave.cpp:442
+#, kde-format
+msgid "Unknown protocol '%1'."
+msgstr "Nomaʼlum protokol '%1'."
+
+#: kio/slave.cpp:451
+#, kde-format
+msgid "Can not find io-slave for protocol '%1'."
+msgstr "%1 protokoli uchun KCH-sleyv topilmadi."
+
+#: kio/slave.cpp:470
+#, fuzzy, kde-format
+msgid "Cannot talk to klauncher: %1"
+msgstr "Klauncher bilan bogʻlanib boʻlmadi"
+
+#: kio/slave.cpp:478
+#, kde-format
+msgid ""
+"Unable to create io-slave:\n"
+"klauncher said: %1"
+msgstr ""
+"io-slave yaratib boʻlmadi.\n"
+"Klauncher'dan olingan xabar: %1"
 
 #: kssl/kcm/displaycertdialog.cpp:54 kssl/ksslinfodialog.cpp:225
 #, fuzzy, kde-format
@@ -5221,7 +5221,7 @@ msgstr "Dan haqiqiy:"
 
 #. i18n: file: kssl/kcm/displaycert.ui:78
 #. i18n: ectx: property (text), widget (QLabel, serialNumberLabel)
-#: rc.cpp:253
+#: rc.cpp:252
 #, fuzzy
 #| msgid "Serial number:"
 msgid "Serial number"
@@ -5229,7 +5229,7 @@ msgstr "Seriya raqami:"
 
 #. i18n: file: kssl/kcm/displaycert.ui:92
 #. i18n: ectx: property (text), widget (QLabel, md5DigestLabel)
-#: rc.cpp:257
+#: rc.cpp:255
 #, fuzzy
 #| msgid "MD5 digest:"
 msgid "MD5 digest"
@@ -5237,7 +5237,7 @@ msgstr "MD5 dayjest:"
 
 #. i18n: file: kssl/kcm/displaycert.ui:106
 #. i18n: ectx: property (text), widget (QLabel, sha1DigestLabel)
-#: rc.cpp:261
+#: rc.cpp:258
 #, fuzzy
 #| msgid "MD5 digest:"
 msgid "SHA1 digest"
@@ -5245,7 +5245,7 @@ msgstr "MD5 dayjest:"
 
 #. i18n: file: kssl/keygenwizard.ui:35
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: rc.cpp:264
+#: rc.cpp:261
 msgid ""
 "You have indicated that you wish to obtain or purchase a secure certificate. "
 "This wizard is intended to guide you through the procedure. You may cancel "
@@ -5254,7 +5254,7 @@ msgstr ""
 
 #. i18n: file: kssl/keygenwizard2.ui:35
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4)
-#: rc.cpp:267
+#: rc.cpp:264
 msgid ""
 "You must now provide a password for the certificate request. Please choose a "
 "very secure password as this will be used to encrypt your private key."
@@ -5265,25 +5265,25 @@ msgstr ""
 
 #. i18n: file: kssl/keygenwizard2.ui:48
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6)
-#: rc.cpp:270
+#: rc.cpp:267
 msgid "&Repeat password:"
 msgstr "&Maxfiy soʻzni qaytaring:"
 
 #. i18n: file: kssl/keygenwizard2.ui:58
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5)
-#: rc.cpp:273
+#: rc.cpp:270
 msgid "&Choose password:"
 msgstr "Maxfiy soʻzni &tanlang:"
 
 #. i18n: file: kssl/sslinfo.ui:16
 #. i18n: ectx: property (text), widget (QLabel, encryptionIndicator)
-#: rc.cpp:276
+#: rc.cpp:273
 msgid "[padlock]"
 msgstr ""
 
 #. i18n: file: kssl/sslinfo.ui:30
 #. i18n: ectx: property (text), widget (QLabel, addressTag)
-#: rc.cpp:280
+#: rc.cpp:276
 #, fuzzy
 #| msgid "IP address:"
 msgctxt "Web page address"
@@ -5292,7 +5292,7 @@ msgstr "IP raqami:"
 
 #. i18n: file: kssl/sslinfo.ui:47
 #. i18n: ectx: property (text), widget (QLabel, ipTag)
-#: rc.cpp:284
+#: rc.cpp:279
 #, fuzzy
 #| msgid "IP address:"
 msgid "IP address:"
@@ -5300,7 +5300,7 @@ msgstr "IP raqami:"
 
 #. i18n: file: kssl/sslinfo.ui:64
 #. i18n: ectx: property (text), widget (QLabel, encryptionTag)
-#: rc.cpp:288
+#: rc.cpp:282
 #, fuzzy
 #| msgid "Description:"
 msgid "Encryption:"
@@ -5308,13 +5308,13 @@ msgstr "Taʼrifi:"
 
 #. i18n: file: kssl/sslinfo.ui:81
 #. i18n: ectx: property (text), widget (QLabel, detailsTag)
-#: rc.cpp:292
+#: rc.cpp:285
 msgid "Details:"
 msgstr "Tafsilotlar:"
 
 #. i18n: file: kssl/sslinfo.ui:98
 #. i18n: ectx: property (text), widget (QLabel, sslVersionTag)
-#: rc.cpp:296
+#: rc.cpp:288
 #, fuzzy
 #| msgid "SSL version:"
 msgid "SSL version:"
@@ -5322,7 +5322,7 @@ msgstr "SSL versiyasi:"
 
 #. i18n: file: kssl/sslinfo.ui:115
 #. i18n: ectx: property (text), widget (QLabel, certSelectorTag)
-#: rc.cpp:300
+#: rc.cpp:291
 #, fuzzy
 #| msgid "Certificate"
 msgid "Certificate chain:"
@@ -5330,7 +5330,7 @@ msgstr "Sertifikat"
 
 #. i18n: file: kssl/sslinfo.ui:144
 #. i18n: ectx: property (text), widget (QLabel, trustedTag)
-#: rc.cpp:303
+#: rc.cpp:294
 #, fuzzy
 #| msgid "Created:"
 msgid "Trusted:"
@@ -5338,7 +5338,7 @@ msgstr "Yaratilgan:"
 
 #. i18n: file: kssl/sslinfo.ui:161
 #. i18n: ectx: property (text), widget (QLabel, validityPeriodTag)
-#: rc.cpp:307
+#: rc.cpp:297
 #, fuzzy
 #| msgid "Valid from:"
 msgid "Validity period:"
@@ -5346,7 +5346,7 @@ msgstr "Dan haqiqiy:"
 
 #. i18n: file: kssl/sslinfo.ui:178
 #. i18n: ectx: property (text), widget (QLabel, serialTag)
-#: rc.cpp:311
+#: rc.cpp:300
 #, fuzzy
 #| msgid "Serial number:"
 msgid "Serial number:"
@@ -5354,7 +5354,7 @@ msgstr "Seriya raqami:"
 
 #. i18n: file: kssl/sslinfo.ui:195
 #. i18n: ectx: property (text), widget (QLabel, digestTag)
-#: rc.cpp:315
+#: rc.cpp:303
 #, fuzzy
 #| msgid "MD5 digest:"
 msgid "MD5 digest:"
@@ -5362,7 +5362,7 @@ msgstr "MD5 dayjest:"
 
 #. i18n: file: kssl/sslinfo.ui:211
 #. i18n: ectx: property (text), widget (QLabel, sha1DigestTag)
-#: rc.cpp:318
+#: rc.cpp:306
 #, fuzzy
 #| msgid "MD5 digest:"
 msgid "SHA1 digest:"
