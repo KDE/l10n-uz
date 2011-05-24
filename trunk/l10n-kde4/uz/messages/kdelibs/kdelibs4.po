@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-22 04:12+0200\n"
+"POT-Creation-Date: 2011-05-24 04:18+0200\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -7186,6 +7186,65 @@ msgctxt "@item Font name [foundry]"
 msgid "%1 [%2]"
 msgstr "%1 - [%2]"
 
+#. i18n: A shorter version of the alphabet test phrase translated in
+#. another message. It is displayed in the dropdown list of font previews
+#. (the font selection combo box), so keep it under the length equivalent
+#. to 60 or so proportional Latin characters.
+#: kdeui/fonts/kfontcombobox.cpp:49
+#, fuzzy
+msgctxt "short"
+msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
+msgstr "Oq choynakga oq qapqoq koʻk choynakga koʻk qapqoq"
+
+#. i18n: Integer which indicates the script you used in the sample text
+#. for font previews in your language. For the possible values, see
+#. http://doc.trolltech.com/qfontdatabase.html#WritingSystem-enum
+#. If the sample text contains several scripts, their IDs can be given
+#. as a comma-separated list (e.g. for Japanese it is "1,27").
+#: kdeui/fonts/kfontcombobox.cpp:120
+#, fuzzy
+msgctxt "Numeric IDs of scripts for font previews"
+msgid "1"
+msgstr "%1%"
+
+#: kdeui/fonts/kfontdialog.cpp:75
+msgid "Select Font"
+msgstr "Shriftni tanlash"
+
+#: kdeui/fonts/kfontrequester.cpp:110
+msgid "Choose..."
+msgstr "Tanlash"
+
+#: kdeui/fonts/kfontrequester.cpp:215
+msgid "Click to select a font"
+msgstr "Shriftni tanlash uchun sichqoncha bilan bosing"
+
+#: kdeui/fonts/kfontrequester.cpp:222
+msgid "Preview of the selected font"
+msgstr "Tanlangan shriftni koʻrib chiqish"
+
+#: kdeui/fonts/kfontrequester.cpp:223
+msgid ""
+"This is a preview of the selected font. You can change it by clicking the "
+"\"Choose...\" button."
+msgstr ""
+"Tanlangan shriftni koʻrib chiqish. Uni \"Tanlash\" tugmasi yordamida "
+"oʻzgartirishingiz mumkin."
+
+#: kdeui/fonts/kfontrequester.cpp:228
+#, kde-format
+msgid "Preview of the \"%1\" font"
+msgstr "\"%1\" shriftini koʻrib chiqish"
+
+#: kdeui/fonts/kfontrequester.cpp:229
+#, kde-format
+msgid ""
+"This is a preview of the \"%1\" font. You can change it by clicking the "
+"\"Choose...\" button."
+msgstr ""
+"\"%1\" shriftini koʻrib chiqish. Uni \"Tanlash\" tugmasi yordamida "
+"oʻzgartirishingiz mumkin."
+
 #: kdeui/fonts/kfontchooser.cpp:162
 #, fuzzy
 msgctxt "@info:whatsthis"
@@ -7349,65 +7408,6 @@ msgstr "Asl shrift"
 msgctxt "@item Font style"
 msgid "%1"
 msgstr "%1%"
-
-#. i18n: A shorter version of the alphabet test phrase translated in
-#. another message. It is displayed in the dropdown list of font previews
-#. (the font selection combo box), so keep it under the length equivalent
-#. to 60 or so proportional Latin characters.
-#: kdeui/fonts/kfontcombobox.cpp:49
-#, fuzzy
-msgctxt "short"
-msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
-msgstr "Oq choynakga oq qapqoq koʻk choynakga koʻk qapqoq"
-
-#. i18n: Integer which indicates the script you used in the sample text
-#. for font previews in your language. For the possible values, see
-#. http://doc.trolltech.com/qfontdatabase.html#WritingSystem-enum
-#. If the sample text contains several scripts, their IDs can be given
-#. as a comma-separated list (e.g. for Japanese it is "1,27").
-#: kdeui/fonts/kfontcombobox.cpp:120
-#, fuzzy
-msgctxt "Numeric IDs of scripts for font previews"
-msgid "1"
-msgstr "%1%"
-
-#: kdeui/fonts/kfontdialog.cpp:75
-msgid "Select Font"
-msgstr "Shriftni tanlash"
-
-#: kdeui/fonts/kfontrequester.cpp:110
-msgid "Choose..."
-msgstr "Tanlash"
-
-#: kdeui/fonts/kfontrequester.cpp:215
-msgid "Click to select a font"
-msgstr "Shriftni tanlash uchun sichqoncha bilan bosing"
-
-#: kdeui/fonts/kfontrequester.cpp:222
-msgid "Preview of the selected font"
-msgstr "Tanlangan shriftni koʻrib chiqish"
-
-#: kdeui/fonts/kfontrequester.cpp:223
-msgid ""
-"This is a preview of the selected font. You can change it by clicking the "
-"\"Choose...\" button."
-msgstr ""
-"Tanlangan shriftni koʻrib chiqish. Uni \"Tanlash\" tugmasi yordamida "
-"oʻzgartirishingiz mumkin."
-
-#: kdeui/fonts/kfontrequester.cpp:228
-#, kde-format
-msgid "Preview of the \"%1\" font"
-msgstr "\"%1\" shriftini koʻrib chiqish"
-
-#: kdeui/fonts/kfontrequester.cpp:229
-#, kde-format
-msgid ""
-"This is a preview of the \"%1\" font. You can change it by clicking the "
-"\"Choose...\" button."
-msgstr ""
-"\"%1\" shriftini koʻrib chiqish. Uni \"Tanlash\" tugmasi yordamida "
-"oʻzgartirishingiz mumkin."
 
 #: kdeui/itemviews/kfilterproxysearchline.cpp:73
 #: nepomuk/utils/searchwidget.cpp:128
