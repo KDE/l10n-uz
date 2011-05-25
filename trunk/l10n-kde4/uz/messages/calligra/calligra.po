@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-23 03:35+0200\n"
+"POT-Creation-Date: 2011-05-25 03:31+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -885,7 +885,7 @@ msgstr ""
 msgid "Change page layout"
 msgstr "Tabulyasiyani oʻzgartirish"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:95 main/KoMainWindow.cpp:1720
+#: kopageapp/KoPADocumentStructureDocker.cpp:95 main/KoMainWindow.cpp:1719
 msgid "Document"
 msgstr "Hujjat"
 
@@ -1506,56 +1506,6 @@ msgstr[0] "Matnni almashtirish"
 msgid "Replace %1 with %2?"
 msgstr "&1/2...ni %1 belgiga almashtirish"
 
-#. i18n: file: widgets/KoCsvImportDialog.ui:147
-#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
-#: kotext/KoTextEditor_p.h:83 kotext/KoTextEditor_p.h:120 rc.cpp:439
-#, fuzzy
-msgid "Format"
-msgstr "Sanani koʻrinishi"
-
-#: kotext/commands/DeleteTableColumnCommand.cpp:40
-#: kotext/KoTextEditor.cpp:1057
-#, fuzzy
-msgid "Delete Column"
-msgstr "Matnni oʻchirish"
-
-#: kotext/commands/DeleteTableRowCommand.cpp:40 kotext/KoTextEditor.cpp:1072
-#, fuzzy
-msgid "Delete Row"
-msgstr "Matnni oʻchirish"
-
-#: kotext/commands/InsertTableColumnCommand.cpp:42
-#: kotext/KoTextEditor.cpp:1043
-#, fuzzy
-#| msgid "Insert Column"
-msgid "Insert Column Right"
-msgstr "Ustunni qoʻyish"
-
-#: kotext/commands/InsertTableColumnCommand.cpp:44
-#: kotext/KoTextEditor.cpp:1029
-#, fuzzy
-#| msgid "Insert Column"
-msgid "Insert Column Left"
-msgstr "Ustunni qoʻyish"
-
-#: kotext/commands/InsertTableRowCommand.cpp:42
-#, fuzzy
-#| msgid "Insert Row"
-msgid "Insert Row Below"
-msgstr "Satrni qoʻyish"
-
-#: kotext/commands/InsertTableRowCommand.cpp:44 kotext/KoTextEditor.cpp:1001
-#: kotext/KoTextEditor.cpp:1015
-#, fuzzy
-#| msgid "Insert Row"
-msgid "Insert Row Above"
-msgstr "Satrni qoʻyish"
-
-#: kotext/styles/KoStyleManager.cpp:87
-#, fuzzy
-msgid "Default"
-msgstr "&Andoza"
-
 #: kotext/KoTextEditor.cpp:461 kotext/KoTextEditor.cpp:467
 msgid "Bold"
 msgstr "Qalin"
@@ -1680,6 +1630,38 @@ msgstr "Bogʻni qoʻyish"
 msgid "Insert Table"
 msgstr "Matnni qoʻyish"
 
+#: kotext/KoTextEditor.cpp:1001 kotext/KoTextEditor.cpp:1015
+#: kotext/commands/InsertTableRowCommand.cpp:44
+#, fuzzy
+#| msgid "Insert Row"
+msgid "Insert Row Above"
+msgstr "Satrni qoʻyish"
+
+#: kotext/KoTextEditor.cpp:1029
+#: kotext/commands/InsertTableColumnCommand.cpp:44
+#, fuzzy
+#| msgid "Insert Column"
+msgid "Insert Column Left"
+msgstr "Ustunni qoʻyish"
+
+#: kotext/KoTextEditor.cpp:1043
+#: kotext/commands/InsertTableColumnCommand.cpp:42
+#, fuzzy
+#| msgid "Insert Column"
+msgid "Insert Column Right"
+msgstr "Ustunni qoʻyish"
+
+#: kotext/KoTextEditor.cpp:1057
+#: kotext/commands/DeleteTableColumnCommand.cpp:40
+#, fuzzy
+msgid "Delete Column"
+msgstr "Matnni oʻchirish"
+
+#: kotext/KoTextEditor.cpp:1072 kotext/commands/DeleteTableRowCommand.cpp:40
+#, fuzzy
+msgid "Delete Row"
+msgstr "Matnni oʻchirish"
+
 #: kotext/KoTextEditor.cpp:1081
 #, fuzzy
 msgid "Merge Cells"
@@ -1701,6 +1683,24 @@ msgstr "Mundarijaga kiritish"
 #| msgid "Change Borders"
 msgid "Line Break"
 msgstr "Chegaralarni oʻzgartirish"
+
+#. i18n: file: widgets/KoCsvImportDialog.ui:147
+#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
+#: kotext/KoTextEditor_p.h:83 kotext/KoTextEditor_p.h:120 rc.cpp:439
+#, fuzzy
+msgid "Format"
+msgstr "Sanani koʻrinishi"
+
+#: kotext/commands/InsertTableRowCommand.cpp:42
+#, fuzzy
+#| msgid "Insert Row"
+msgid "Insert Row Below"
+msgstr "Satrni qoʻyish"
+
+#: kotext/styles/KoStyleManager.cpp:87
+#, fuzzy
+msgid "Default"
+msgstr "&Andoza"
 
 #: kotext/KoText.cpp:29
 msgctxt "Underline Style"
@@ -2420,7 +2420,7 @@ msgstr ""
 "Uni almashtirishni istaysizmi?"
 
 #: main/KoMainWindow.cpp:924 main/KoMainWindow.cpp:1354
-#: main/KoMainWindow.cpp:1760
+#: main/KoMainWindow.cpp:1759
 #, fuzzy
 msgid "Warning"
 msgstr "chizma"
@@ -2445,22 +2445,22 @@ msgstr "Bekor qilish: %1"
 msgid "Redo"
 msgstr "Qizil"
 
-#: main/KoMainWindow.cpp:1652
+#: main/KoMainWindow.cpp:1651
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr "%1 asboblar panelini koʻrsatish"
 
-#: main/KoMainWindow.cpp:1654
+#: main/KoMainWindow.cpp:1653
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr "%1 asboblar panelini bekitish"
 
-#: main/KoMainWindow.cpp:1728
+#: main/KoMainWindow.cpp:1727
 #, kde-format
 msgid "Document - %1"
 msgstr "Hujjat - %1"
 
-#: main/KoMainWindow.cpp:1758
+#: main/KoMainWindow.cpp:1757
 #, fuzzy
 #| msgid ""
 #| "You will lose all your changes!\n"
@@ -3033,19 +3033,19 @@ msgstr ""
 msgid "Search hit top, continuing from bottom."
 msgstr ""
 
-#: main/KoFindText.cpp:100
+#: main/KoFindText.cpp:101
 msgid "Case Sensitive"
 msgstr ""
 
-#: main/KoFindText.cpp:100
+#: main/KoFindText.cpp:101
 msgid "Match cases when searching"
 msgstr ""
 
-#: main/KoFindText.cpp:101
+#: main/KoFindText.cpp:102
 msgid "Whole Words Only"
 msgstr ""
 
-#: main/KoFindText.cpp:101
+#: main/KoFindText.cpp:102
 msgid "Match only whole words"
 msgstr ""
 
@@ -3459,7 +3459,7 @@ msgstr "Qisqacha mazmuni"
 
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:193
 #: pigment/compositeops/KoCompositeOpMultiply.h:35
-#: pigment/compositeops/KoCompositeOps.h:102
+#: pigment/compositeops/KoCompositeOps.h:103
 msgid "Multiply"
 msgstr ""
 
@@ -3484,7 +3484,7 @@ msgid "L*a*b* (16-bit integer/channel, unmanaged)"
 msgstr ""
 
 #: pigment/colorspaces/KoLabColorSpace.cpp:42
-#: pigment/compositeops/KoCompositeOps.h:166 widgets/KoUniColorChooser.cpp:201
+#: pigment/compositeops/KoCompositeOps.h:164 widgets/KoUniColorChooser.cpp:201
 #, fuzzy
 msgid "Lightness"
 msgstr "Och kulrang"
@@ -3539,7 +3539,7 @@ msgid "Alpha darken"
 msgstr ""
 
 #: pigment/compositeops/KoCompositeOpDivide.h:36
-#: pigment/compositeops/KoCompositeOps.h:103
+#: pigment/compositeops/KoCompositeOps.h:104
 msgid "Divide"
 msgstr ""
 
@@ -3557,11 +3557,6 @@ msgstr "yolgʻon"
 #, fuzzy
 msgid "Hard light"
 msgstr "&Uzunasi:"
-
-#: pigment/compositeops/KoCompositeOpInversedSubtract.h:37
-#, fuzzy
-msgid "Inversed Subtract"
-msgstr "Qisqacha mazmuni"
 
 #: pigment/compositeops/KoCompositeOpOver.h:61
 msgid "Normal"
@@ -3599,6 +3594,11 @@ msgstr "Tashkilotning nomi"
 #: pigment/compositeops/KoCompositeOpDissolve.h:61
 msgid "Dissolve"
 msgstr ""
+
+#: pigment/compositeops/KoCompositeOpInversedSubtract.h:37
+#, fuzzy
+msgid "Inverse Subtract"
+msgstr "Qisqacha mazmuni"
 
 #: pigment/compositeops/KoCompositeOps.h:77
 #, fuzzy
@@ -3704,209 +3704,208 @@ msgstr ""
 msgid "Addition"
 msgstr "Kasrni qoʻshish"
 
-#: pigment/compositeops/KoCompositeOps.h:105
+#: pigment/compositeops/KoCompositeOps.h:102
+#, fuzzy
+msgid "Inversed-Subtract"
+msgstr "Qisqacha mazmuni"
+
+#: pigment/compositeops/KoCompositeOps.h:106
 msgid "Arcus Tangent"
 msgstr ""
 
-#: pigment/compositeops/KoCompositeOps.h:106
+#: pigment/compositeops/KoCompositeOps.h:107
 msgid "Difference"
 msgstr ""
 
-#: pigment/compositeops/KoCompositeOps.h:107
+#: pigment/compositeops/KoCompositeOps.h:108
 #, fuzzy
 #| msgid "Exceptions"
 msgid "Exclusion"
 msgstr "Qoidadan tashqari holat"
 
-#: pigment/compositeops/KoCompositeOps.h:108
+#: pigment/compositeops/KoCompositeOps.h:109
 msgid "Equivalence"
 msgstr ""
 
-#: pigment/compositeops/KoCompositeOps.h:109
+#: pigment/compositeops/KoCompositeOps.h:110
 #, fuzzy
 msgid "Additive-Substractive"
 msgstr "Qisqacha mazmuni"
 
-#: pigment/compositeops/KoCompositeOps.h:114
-#, fuzzy
-#| msgid "Company Name"
-msgid "Copy Alpha"
-msgstr "Tashkilotning nomi"
-
-#: pigment/compositeops/KoCompositeOps.h:139
+#: pigment/compositeops/KoCompositeOps.h:137
 #, fuzzy
 #| msgid "Company Name"
 msgid "Copy Red"
 msgstr "Tashkilotning nomi"
 
-#: pigment/compositeops/KoCompositeOps.h:140
+#: pigment/compositeops/KoCompositeOps.h:138
 #, fuzzy
 #| msgid "Green"
 msgid "Copy Green"
 msgstr "Yashil"
 
-#: pigment/compositeops/KoCompositeOps.h:141
+#: pigment/compositeops/KoCompositeOps.h:139
 #, fuzzy
 #| msgid "Company Name"
 msgid "Copy Blue"
 msgstr "Tashkilotning nomi"
 
-#: pigment/compositeops/KoCompositeOps.h:143 pigment/KoCompositeOp.cpp:27
+#: pigment/compositeops/KoCompositeOps.h:141 pigment/KoCompositeOp.cpp:27
 #, fuzzy
 #| msgid "Color:"
 msgid "Color"
 msgstr "Rangi:"
 
-#: pigment/compositeops/KoCompositeOps.h:144 widgets/KoUniColorChooser.cpp:116
+#: pigment/compositeops/KoCompositeOps.h:142 widgets/KoUniColorChooser.cpp:116
 #, fuzzy
 msgid "Hue"
 msgstr "Rang tusi"
 
-#: pigment/compositeops/KoCompositeOps.h:145 widgets/KoUniColorChooser.cpp:125
+#: pigment/compositeops/KoCompositeOps.h:143 widgets/KoUniColorChooser.cpp:125
 #, fuzzy
 msgid "Saturation"
 msgstr "Toʻyintirish"
 
-#: pigment/compositeops/KoCompositeOps.h:146
+#: pigment/compositeops/KoCompositeOps.h:144
 #, fuzzy
 msgid "Increase Saturation"
 msgstr "Toʻyintirish"
 
-#: pigment/compositeops/KoCompositeOps.h:147
+#: pigment/compositeops/KoCompositeOps.h:145
 #, fuzzy
 msgid "Decrease Saturation"
 msgstr "Toʻyintirish"
 
-#: pigment/compositeops/KoCompositeOps.h:148
+#: pigment/compositeops/KoCompositeOps.h:146
 msgid "Luminosity"
 msgstr ""
 
-#: pigment/compositeops/KoCompositeOps.h:149
+#: pigment/compositeops/KoCompositeOps.h:147
 #, fuzzy
 #| msgid "Change font size?"
 msgid "Increase Luminosity"
 msgstr "Shriftning oʻlchami oʻzgartirish"
 
-#: pigment/compositeops/KoCompositeOps.h:150
+#: pigment/compositeops/KoCompositeOps.h:148
 #, fuzzy
 #| msgid "Change font size?"
 msgid "Decrease Luminosity"
 msgstr "Shriftning oʻlchami oʻzgartirish"
 
-#: pigment/compositeops/KoCompositeOps.h:152
+#: pigment/compositeops/KoCompositeOps.h:150
 #, fuzzy
 #| msgid "Color:"
 msgid "Color HSI"
 msgstr "Rangi:"
 
-#: pigment/compositeops/KoCompositeOps.h:153
+#: pigment/compositeops/KoCompositeOps.h:151
 #, fuzzy
 msgid "Hue HSI"
 msgstr "Rang tusi"
 
-#: pigment/compositeops/KoCompositeOps.h:154
+#: pigment/compositeops/KoCompositeOps.h:152
 #, fuzzy
 msgid "Saturation HSI"
 msgstr "Toʻyintirish"
 
-#: pigment/compositeops/KoCompositeOps.h:155
+#: pigment/compositeops/KoCompositeOps.h:153
 #, fuzzy
 msgid "Increase Saturation HSI"
 msgstr "Toʻyintirish"
 
-#: pigment/compositeops/KoCompositeOps.h:156
+#: pigment/compositeops/KoCompositeOps.h:154
 #, fuzzy
 msgid "Decrease Saturation HSI"
 msgstr "Toʻyintirish"
 
-#: pigment/compositeops/KoCompositeOps.h:157
+#: pigment/compositeops/KoCompositeOps.h:155
 #, fuzzy
 #| msgid "Internet"
 msgid "Intensity"
 msgstr "Internet"
 
-#: pigment/compositeops/KoCompositeOps.h:158
+#: pigment/compositeops/KoCompositeOps.h:156
 #, fuzzy
 msgid "Increase Intensity"
 msgstr "Tekislashni oʻzgartirish"
 
-#: pigment/compositeops/KoCompositeOps.h:159
+#: pigment/compositeops/KoCompositeOps.h:157
 #, fuzzy
 msgid "Decrease Intensity"
 msgstr "Tekislashni oʻzgartirish"
 
-#: pigment/compositeops/KoCompositeOps.h:161
+#: pigment/compositeops/KoCompositeOps.h:159
 #, fuzzy
 #| msgid "Color:"
 msgid "Color HSL"
 msgstr "Rangi:"
 
-#: pigment/compositeops/KoCompositeOps.h:162
+#: pigment/compositeops/KoCompositeOps.h:160
 #, fuzzy
 msgid "Hue HSL"
 msgstr "Rang tusi"
 
-#: pigment/compositeops/KoCompositeOps.h:163
+#: pigment/compositeops/KoCompositeOps.h:161
 #, fuzzy
 msgid "Saturation HSL"
 msgstr "Toʻyintirish"
 
-#: pigment/compositeops/KoCompositeOps.h:164
+#: pigment/compositeops/KoCompositeOps.h:162
 #, fuzzy
 msgid "Increase Saturation HSL"
 msgstr "Toʻyintirish"
 
-#: pigment/compositeops/KoCompositeOps.h:165
+#: pigment/compositeops/KoCompositeOps.h:163
 #, fuzzy
 msgid "Decrease Saturation HSL"
 msgstr "Toʻyintirish"
 
-#: pigment/compositeops/KoCompositeOps.h:167
+#: pigment/compositeops/KoCompositeOps.h:165
 #, fuzzy
 msgid "Increase Lightness"
 msgstr "Tekislashni oʻzgartirish"
 
-#: pigment/compositeops/KoCompositeOps.h:168
+#: pigment/compositeops/KoCompositeOps.h:166
 #, fuzzy
 msgid "Decrease Lightness"
 msgstr "Tekislashni oʻzgartirish"
 
-#: pigment/compositeops/KoCompositeOps.h:170
+#: pigment/compositeops/KoCompositeOps.h:168
 #, fuzzy
 #| msgid "Color:"
 msgid "Color HSV"
 msgstr "Rangi:"
 
-#: pigment/compositeops/KoCompositeOps.h:171
+#: pigment/compositeops/KoCompositeOps.h:169
 #, fuzzy
 msgid "Hue HSV"
 msgstr "Rang tusi"
 
-#: pigment/compositeops/KoCompositeOps.h:172
+#: pigment/compositeops/KoCompositeOps.h:170
 #, fuzzy
 msgid "Saturation HSV"
 msgstr "Toʻyintirish"
 
-#: pigment/compositeops/KoCompositeOps.h:173
+#: pigment/compositeops/KoCompositeOps.h:171
 #, fuzzy
 msgid "Increase Saturation HSV"
 msgstr "Toʻyintirish"
 
-#: pigment/compositeops/KoCompositeOps.h:174
+#: pigment/compositeops/KoCompositeOps.h:172
 #, fuzzy
 msgid "Decrease Saturation HSV"
 msgstr "Toʻyintirish"
 
-#: pigment/compositeops/KoCompositeOps.h:175
+#: pigment/compositeops/KoCompositeOps.h:173
 msgid "Value"
 msgstr "Qiymati"
 
-#: pigment/compositeops/KoCompositeOps.h:176
+#: pigment/compositeops/KoCompositeOps.h:174
 #, fuzzy
 msgid "Increase Value"
 msgstr "Tekislashni oʻzgartirish"
 
-#: pigment/compositeops/KoCompositeOps.h:177
+#: pigment/compositeops/KoCompositeOps.h:175
 #, fuzzy
 msgid "Decrease Value"
 msgstr "Tekislashni oʻzgartirish"
@@ -5498,6 +5497,11 @@ msgstr "&Soyaning rangi:"
 #: rc.cpp:598
 msgid "Blur radius:"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Company Name"
+#~ msgid "Copy Alpha"
+#~ msgstr "Tashkilotning nomi"
 
 #, fuzzy
 #~ msgid "Light"
