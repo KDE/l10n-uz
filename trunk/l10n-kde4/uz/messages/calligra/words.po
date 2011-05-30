@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-29 03:39+0200\n"
+"POT-Creation-Date: 2011-05-30 03:36+0200\n"
 "PO-Revision-Date: 2006-12-17 13:48+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -773,35 +773,61 @@ msgstr ""
 msgid "Installation Error"
 msgstr ""
 
-#: part/KWStatusBar.cpp:39
+#: part/KWStatusBar.cpp:42
 msgid "Modified"
 msgstr ""
 
-#: part/KWStatusBar.cpp:40
+#: part/KWStatusBar.cpp:43
 #, fuzzy
 #| msgid "Save Failed"
 msgid "Saved"
 msgstr "Saqlash muvaffaqiyatsiz tugadi"
 
-#: part/KWStatusBar.cpp:41
+#: part/KWStatusBar.cpp:44
 #, fuzzy, kde-format
 #| msgid "Page %1"
-msgid "Page: %1/%2"
+msgid "Page %1/%2"
 msgstr "Bet %1"
 
-#: part/KWStatusBar.cpp:61
-msgid "Page: current/total"
-msgstr ""
+#: part/KWStatusBar.cpp:45
+#, fuzzy, kde-format
+#| msgid "Lines:"
+msgid "Line %1"
+msgstr "Chiziqlar:"
+
+#: part/KWStatusBar.cpp:64
+#, fuzzy
+#| msgid "Page number:"
+msgid "Page Number"
+msgstr "Betning soni:"
 
 #: part/KWStatusBar.cpp:76
-msgid "State: saved/modified"
+#, fuzzy
+#| msgid "Number"
+msgid "Line Number"
+msgstr "Son"
+
+#: part/KWStatusBar.cpp:89
+#, fuzzy
+#| msgid "Framestyle:"
+msgid "Page Style"
+msgstr "Freymning uslubi:"
+
+#: part/KWStatusBar.cpp:103
+#, fuzzy
+#| msgid "Protect Size"
+msgid "Page Size"
+msgstr "Oʻlchamini himoyalash"
+
+#: part/KWStatusBar.cpp:119
+msgid "Saved/Modified"
 msgstr ""
 
-#: part/KWStatusBar.cpp:88
-msgid "Mouseposition: X:Y"
+#: part/KWStatusBar.cpp:131
+msgid "Mouse Cursor X:Y"
 msgstr ""
 
-#: part/KWStatusBar.cpp:102
+#: part/KWStatusBar.cpp:145
 msgid "Zoom Controller"
 msgstr ""
 
@@ -2162,9 +2188,6 @@ msgstr "Ochish uchun fayl"
 #~ msgid "URL:"
 #~ msgstr "URL:"
 
-#~ msgid "Page number:"
-#~ msgstr "Betning soni:"
-
 #~ msgid "No Value"
 #~ msgstr "Qiymati yoʻq"
 
@@ -2753,9 +2776,6 @@ msgstr "Ochish uchun fayl"
 #~ msgid "Make Frameset Inline"
 #~ msgstr "Asosiy matn freym toʻplami"
 
-#~ msgid "Protect Size"
-#~ msgstr "Oʻlchamini himoyalash"
-
 #~ msgid "Resize Frame"
 #~ msgstr "Freymning oʻlchamini oʻzgartirish"
 
@@ -3309,9 +3329,6 @@ msgstr "Ochish uchun fayl"
 
 #~ msgid "Text Color..."
 #~ msgstr "Matnning rangi"
-
-#~ msgid "Number"
-#~ msgstr "Son"
 
 #~ msgid "Framest&yle"
 #~ msgstr "Frey&mning uslubi"
