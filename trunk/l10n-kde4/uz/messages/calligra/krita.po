@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-07 03:52+0200\n"
+"POT-Creation-Date: 2011-06-08 03:37+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -11004,14 +11004,14 @@ msgstr "Palitrani oʻzgartirish"
 
 #: plugins/extensions/modify_selection/dlg_border_selection.cc:31
 #: plugins/extensions/modify_selection/modify_selection.cc:160
-#: ui/kis_selection_manager.cc:1197
+#: ui/kis_selection_manager.cc:1195
 #, fuzzy
 msgid "Border Selection"
 msgstr "Tanlanganni bekitish"
 
 #: plugins/extensions/modify_selection/dlg_feather_selection.cc:32
 #: plugins/extensions/modify_selection/modify_selection.cc:183
-#: ui/kis_selection_manager.cc:1415
+#: ui/kis_selection_manager.cc:1413
 #, fuzzy
 #| msgid "Selection"
 msgid "Feather Selection"
@@ -11019,14 +11019,14 @@ msgstr "Tanlash"
 
 #: plugins/extensions/modify_selection/dlg_grow_selection.cc:30
 #: plugins/extensions/modify_selection/modify_selection.cc:112
-#: ui/kis_selection_manager.cc:735
+#: ui/kis_selection_manager.cc:733
 #, fuzzy
 msgid "Grow Selection"
 msgstr "Hech narsa tanlanmagan"
 
 #: plugins/extensions/modify_selection/dlg_shrink_selection.cc:30
 #: plugins/extensions/modify_selection/modify_selection.cc:135
-#: ui/kis_selection_manager.cc:848
+#: ui/kis_selection_manager.cc:846
 #, fuzzy
 msgid "Shrink Selection"
 msgstr "Tanlanganni bekitish"
@@ -11487,7 +11487,7 @@ msgstr ""
 msgid "Emboss with Variable Depth"
 msgstr ""
 
-#: plugins/filters/example/example.h:45 ui/kis_selection_manager.cc:667
+#: plugins/filters/example/example.h:45 ui/kis_selection_manager.cc:665
 #, fuzzy
 msgid "Invert"
 msgstr "Teskari qilish"
@@ -14339,15 +14339,15 @@ msgstr "Tanlangandan yangi qatlamga nusxa olish"
 msgid "Cut Selection to New Layer"
 msgstr "Tanlangani yangi qatlamga koʻchirish"
 
-#: ui/kis_selection_manager.cc:174 ui/kis_selection_manager.cc:629
+#: ui/kis_selection_manager.cc:174 ui/kis_selection_manager.cc:627
 msgid "Fill with Foreground Color"
 msgstr "Oldin fon rangi bilan toʻldirish"
 
-#: ui/kis_selection_manager.cc:179 ui/kis_selection_manager.cc:634
+#: ui/kis_selection_manager.cc:179 ui/kis_selection_manager.cc:632
 msgid "Fill with Background Color"
 msgstr "Orqa fon rangi bilan toʻldirish"
 
-#: ui/kis_selection_manager.cc:184 ui/kis_selection_manager.cc:639
+#: ui/kis_selection_manager.cc:184 ui/kis_selection_manager.cc:637
 #, fuzzy
 msgid "Fill with Pattern"
 msgstr "Namuna bilan toʻldirish"
@@ -14356,41 +14356,37 @@ msgstr "Namuna bilan toʻldirish"
 msgid "Display Selection"
 msgstr "Tanlanganni koʻrsatish"
 
-#: ui/kis_selection_manager.cc:193
-msgid "Hide Selection"
-msgstr "Tanlanganni bekitish"
-
-#: ui/kis_selection_manager.cc:196
+#: ui/kis_selection_manager.cc:195
 #, fuzzy
 msgid "Smooth..."
 msgstr "Xiralashtirish..."
 
-#: ui/kis_selection_manager.cc:200
+#: ui/kis_selection_manager.cc:199
 #, fuzzy
 #| msgid "Resize Image to Size of Current Layer"
 msgid "Size Canvas to Size of Selection"
 msgstr "Rasm oʻlchamini qatlam oʻlchamiga tenglashtirish"
 
-#: ui/kis_selection_manager.cc:387
+#: ui/kis_selection_manager.cc:386
 #, fuzzy
 msgid "Cut"
 msgstr "Boshqa"
 
-#: ui/kis_selection_manager.cc:458
+#: ui/kis_selection_manager.cc:456
 msgid "(pasted)"
 msgstr ""
 
-#: ui/kis_selection_manager.cc:520
+#: ui/kis_selection_manager.cc:518
 #, fuzzy
 msgid "Select All"
 msgstr "&Hammasini tanlash"
 
-#: ui/kis_selection_manager.cc:571
+#: ui/kis_selection_manager.cc:569
 #, fuzzy
 msgid "Clear"
 msgstr "Ayiqlar"
 
-#: ui/kis_selection_manager.cc:1556
+#: ui/kis_selection_manager.cc:1554
 #, fuzzy
 #| msgid "Resize Image to Size of Current Layer"
 msgid "Resize Image to Size of Selection"
@@ -14537,23 +14533,23 @@ msgstr "Ranglar boʻshligʻi"
 msgid "Custom Gradient..."
 msgstr "Boshqa gradient..."
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:199
+#: ui/widgets/kis_paintop_presets_popup.cpp:205
 #, fuzzy
 #| msgid "Pressure:"
 msgid "Overwrite Preset"
 msgstr "Bosim:"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:203
+#: ui/widgets/kis_paintop_presets_popup.cpp:209
 #, fuzzy
 msgid "Save to Presets"
 msgstr "Palitraga qoʻshish:"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:242
+#: ui/widgets/kis_paintop_presets_popup.cpp:248
 #, fuzzy
 msgid "Attach to Toolbar"
 msgstr "Yulduz vositasi"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:242
+#: ui/widgets/kis_paintop_presets_popup.cpp:248
 msgid "Detach from Toolbar"
 msgstr ""
 
@@ -14564,6 +14560,9 @@ msgstr ""
 #: ui/widgets/kis_paintop_presets_chooser_popup.cpp:52
 msgid "Details"
 msgstr ""
+
+#~ msgid "Hide Selection"
+#~ msgstr "Tanlanganni bekitish"
 
 #, fuzzy
 #~ msgid "Form"

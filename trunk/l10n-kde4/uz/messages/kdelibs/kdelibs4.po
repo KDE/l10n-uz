@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-06 04:17+0200\n"
+"POT-Creation-Date: 2011-06-08 04:16+0200\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3288,39 +3288,6 @@ msgstr ""
 "href=\"http://www.uni-bremen.de/~kmashrab/to-uzbek-linux.html\">\"Linuks "
 "oʻzbekcha gapiradi\"</a> loyihasining veb-saytiga qarang.</p>"
 
-#: kdecore/kernel/ktoolinvocation.cpp:79
-msgid "Function must be called from the main thread."
-msgstr ""
-
-#: kdecore/kernel/ktoolinvocation.cpp:120
-#, kde-format
-msgid ""
-"Error launching %1. Either KLauncher is not running anymore, or it failed to "
-"start the application."
-msgstr ""
-
-#: kdecore/kernel/ktoolinvocation.cpp:123
-#, fuzzy, kde-format
-msgid ""
-"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
-"%2\n"
-msgstr "DCOP orqali KLauncher'ni ishlatib boʻlmadi.\n"
-
-#: kdecore/kernel/ktoolinvocation.cpp:302
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
-"\n"
-"%1"
-msgstr ""
-"Yordam markazini ishga tushirib boʻlmadi:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation.cpp:303
-msgid "Could not Launch Help Center"
-msgstr "Yordam markazini ishga tushirib boʻlmadi"
-
 #: kdecore/kernel/ktoolinvocation_x11.cpp:281
 #, kde-format
 msgid ""
@@ -3679,6 +3646,39 @@ msgstr ""
 #: kdecore/kernel/kcmdlineargs.cpp:1597
 msgid "KDE-tempfile"
 msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:79
+msgid "Function must be called from the main thread."
+msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:120
+#, kde-format
+msgid ""
+"Error launching %1. Either KLauncher is not running anymore, or it failed to "
+"start the application."
+msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:123
+#, fuzzy, kde-format
+msgid ""
+"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
+"%2\n"
+msgstr "DCOP orqali KLauncher'ni ishlatib boʻlmadi.\n"
+
+#: kdecore/kernel/ktoolinvocation.cpp:302
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
+"\n"
+"%1"
+msgstr ""
+"Yordam markazini ishga tushirib boʻlmadi:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation.cpp:303
+msgid "Could not Launch Help Center"
+msgstr "Yordam markazini ishga tushirib boʻlmadi"
 
 #: kdecore/localization/kcharsets.cpp:155
 #: kdecore/localization/kencodingdetector.cpp:1149
@@ -11521,9 +11521,38 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "S&kript"
 
-#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2161
+#: khtml/ecma/kjs_html.cpp:2161 khtml/ecma/kjs_window.cpp:1650
 msgid "Confirmation: JavaScript Popup"
 msgstr "Tasdiqlash: JavaScript Popup"
+
+#: khtml/ecma/kjs_html.cpp:2163
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"Bu sayt JavaScript orqali brauzerning yangi oynasini ochadigan shakilni "
+"joʻnatmoqchi.\n"
+"Shakilni joʻnatishga ruxsat berasizmi?"
+
+#: khtml/ecma/kjs_html.cpp:2166
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>Bu sayt JavaScript orqali brauzerning yangi oynasida <p>%1</p> "
+"sahifasini ochadigan shakilni joʻnatmoqchi.<br />Shakilni joʻnatishga ruxsat "
+"berasizmi?</qt>"
+
+#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1658
+msgid "Allow"
+msgstr "Ruxsat berish"
+
+#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1658
+msgid "Do Not Allow"
+msgstr "Ruxsat berilmasin"
 
 #: khtml/ecma/kjs_window.cpp:1653
 msgid ""
@@ -11542,14 +11571,6 @@ msgid ""
 msgstr ""
 "<qt>Bu sayt JavaScript yordamida brauzerning yangi oynasida quyidagini "
 "ochishga urinayapti<p>%1</p><br />Siz ruxsat berasizmi?</qt>"
-
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
-msgid "Allow"
-msgstr "Ruxsat berish"
-
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
-msgid "Do Not Allow"
-msgstr "Ruxsat berilmasin"
 
 #: khtml/ecma/kjs_window.cpp:1971
 msgid "Close window?"
@@ -11588,27 +11609,6 @@ msgstr "Qoʻyish"
 #: khtml/ecma/kjs_window.cpp:2883
 msgid "Disallow"
 msgstr "Ruxsat berilmasin"
-
-#: khtml/ecma/kjs_html.cpp:2163
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"Bu sayt JavaScript orqali brauzerning yangi oynasini ochadigan shakilni "
-"joʻnatmoqchi.\n"
-"Shakilni joʻnatishga ruxsat berasizmi?"
-
-#: khtml/ecma/kjs_html.cpp:2166
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>Bu sayt JavaScript orqali brauzerning yangi oynasida <p>%1</p> "
-"sahifasini ochadigan shakilni joʻnatmoqchi.<br />Shakilni joʻnatishga ruxsat "
-"berasizmi?</qt>"
 
 #: khtml/ecma/debugger/consoledock.cpp:220
 #, fuzzy
@@ -13472,6 +13472,18 @@ msgstr ""
 msgid "Apply Settings"
 msgstr "Moslamalarni qoʻllash"
 
+#: kutils/kprintpreview.cpp:123
+#, fuzzy
+msgid "Could not load print preview part"
+msgstr ""
+"Kutubxonani (%1) ochib boʻlmadi.\n"
+"%2"
+
+#: kutils/kprintpreview.cpp:140
+#, fuzzy
+msgid "Print Preview"
+msgstr "&Koʻrib chiqish"
+
 #: kutils/kpluginselector.cpp:136
 msgid ""
 "Automatic changes have been performed due to plugin dependencies. Click here "
@@ -13525,24 +13537,12 @@ msgstr[0] ""
 msgid "Search Plugins"
 msgstr "Ustunlarda qidirish"
 
-#: kutils/kpluginselector.cpp:767 kutils/kpluginselector.cpp:796
+#: kutils/kpluginselector.cpp:768 kutils/kpluginselector.cpp:797
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgctxt "Used only for plugins"
 msgid "About %1"
 msgstr "%1 haqida"
-
-#: kutils/kprintpreview.cpp:123
-#, fuzzy
-msgid "Could not load print preview part"
-msgstr ""
-"Kutubxonani (%1) ochib boʻlmadi.\n"
-"%2"
-
-#: kutils/kprintpreview.cpp:140
-#, fuzzy
-msgid "Print Preview"
-msgstr "&Koʻrib chiqish"
 
 #: kutils/ksettings/componentsdialog.cpp:53
 msgid "Select Components"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-04 03:39+0200\n"
+"POT-Creation-Date: 2011-06-08 03:37+0200\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -543,7 +543,7 @@ msgstr "Namoyish moslamalari"
 #: part/ui/KPrCustomSlideShowsDialog.cpp:239
 #: part/ui/KPrCustomSlideShowsDialog.cpp:257
 #: part/ui/KPrHtmlExportDialog.cpp:119
-#: part/KPrSlidesSorterDocumentModel.cpp:66
+#: part/KPrSlidesSorterDocumentModel.cpp:96
 #, kde-format
 msgid "Slide %1"
 msgstr "Slayd %1"
@@ -625,35 +625,65 @@ msgstr "Moslamalarni saqlash..."
 msgid "Are you sure you want to remove \"%1\"?"
 msgstr "Joriy slaydni olib tashlashni istaysizmi?"
 
-#: part/KPrSlidesSorterDocumentModel.cpp:59
+#: part/KPrSelectionToggle.cpp:133
+#, fuzzy
+#| msgid "&Deselect All"
+msgctxt "@info:tooltip"
+msgid "Deselect Item"
+msgstr "Hammasini tanlashni &bekor qilish"
+
+#: part/KPrSelectionToggle.cpp:134
+#, fuzzy
+#| msgid "Select"
+msgctxt "@info:tooltip"
+msgid "Select Item"
+msgstr "Tanlash"
+
+#: part/KPrSlidesSorterDocumentModel.cpp:89
 msgid "Unknown"
 msgstr ""
 
-#: part/KPrViewModeSlidesSorter.cpp:130
+#: part/KPrSlidesSorterDocumentModel.cpp:257
+#, fuzzy
+#| msgid "Move Slide"
+msgid "&Move Here"
+msgstr "Slaydni koʻchirish"
+
+#: part/KPrSlidesSorterDocumentModel.cpp:261
+#, fuzzy
+#| msgid "Copy Slide"
+msgid "&Copy Here"
+msgstr "Slayddan nusxa olish"
+
+#: part/KPrSlidesSorterDocumentModel.cpp:265
+msgid "C&ancel"
+msgstr ""
+
+#: part/KPrViewModeSlidesSorter.cpp:410
 #, fuzzy
 #| msgid "Slideshow"
 msgid "Add a new slide"
 msgstr "Namoyish"
 
-#: part/KPrViewModeSlidesSorter.cpp:131
+#: part/KPrViewModeSlidesSorter.cpp:411
 #, fuzzy
-#| msgid "Before Current Slide"
-msgid "Delete current Slide"
-msgstr "Joriy slayddan oldin"
+#| msgid "Selected slides:"
+msgid "Delete selected slides"
+msgstr "Tanlangan slaydlar:"
 
-#: part/KPrViewModeSlidesSorter.cpp:133
+#: part/KPrViewModeSlidesSorter.cpp:413
 #, fuzzy
 #| msgid "&Custom"
 msgid "Cut"
 msgstr "&Boshqa"
 
-#: part/KPrViewModeSlidesSorter.cpp:134
+#: part/KPrViewModeSlidesSorter.cpp:414
 #, fuzzy
 #| msgid "Co&py"
 msgid "Copy"
 msgstr "&Nusxa olish"
 
-#: part/KPrViewModeSlidesSorter.cpp:135
+#: part/KPrViewModeSlidesSorter.cpp:415
 #, fuzzy
 #| msgid "Path"
 msgid "Paste"
@@ -2429,6 +2459,11 @@ msgstr "Imloni tekshirish natijasi"
 msgid "Presentation"
 msgstr "Namoyish"
 
+#, fuzzy
+#~| msgid "Before Current Slide"
+#~ msgid "Delete current Slide"
+#~ msgstr "Joriy slayddan oldin"
+
 #~ msgid "KPresenter"
 #~ msgstr "KPresenter"
 
@@ -3279,9 +3314,6 @@ msgstr "Namoyish"
 #~ msgid "Existing slides:"
 #~ msgstr "Mavjud slaydlar:"
 
-#~ msgid "Selected slides:"
-#~ msgstr "Tanlangan slaydlar:"
-
 #, fuzzy
 #~ msgid "Custom Slide Show name is already used."
 #~ msgstr "Boshqa namoyish..."
@@ -3295,9 +3327,6 @@ msgstr "Namoyish"
 
 #~ msgid "Set New Options"
 #~ msgstr "Yangi moslamalarni koʻrsatish"
-
-#~ msgid "Move Slide"
-#~ msgstr "Slaydni koʻchirish"
 
 #~ msgid "Insert File"
 #~ msgstr "Faylni qoʻyish"
@@ -3824,9 +3853,6 @@ msgstr "Namoyish"
 
 #~ msgid "P&icture..."
 #~ msgstr "R&asm..."
-
-#~ msgid "Select"
-#~ msgstr "Tanlash"
 
 #~ msgid "&Rotate"
 #~ msgstr "&Burish"
