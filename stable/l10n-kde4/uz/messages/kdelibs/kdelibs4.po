@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-06 14:19+0200\n"
+"POT-Creation-Date: 2011-06-08 14:08+0200\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3577,39 +3577,6 @@ msgstr ""
 msgid "KDE-tempfile"
 msgstr ""
 
-#: kdecore/kernel/ktoolinvocation.cpp:79
-msgid "Function must be called from the main thread."
-msgstr ""
-
-#: kdecore/kernel/ktoolinvocation.cpp:120
-#, kde-format
-msgid ""
-"Error launching %1. Either KLauncher is not running anymore, or it failed to "
-"start the application."
-msgstr ""
-
-#: kdecore/kernel/ktoolinvocation.cpp:123
-#, fuzzy, kde-format
-msgid ""
-"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
-"%2\n"
-msgstr "DCOP orqali KLauncher'ni ishlatib boʻlmadi.\n"
-
-#: kdecore/kernel/ktoolinvocation.cpp:302
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
-"\n"
-"%1"
-msgstr ""
-"Yordam markazini ishga tushirib boʻlmadi:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation.cpp:303
-msgid "Could not Launch Help Center"
-msgstr "Yordam markazini ishga tushirib boʻlmadi"
-
 #: kdecore/kernel/ktoolinvocation_x11.cpp:280
 #, kde-format
 msgid ""
@@ -3661,6 +3628,39 @@ msgstr ""
 #, fuzzy
 msgid "Could not launch Terminal Client"
 msgstr "Xat-xabar klientini ishga tushirib boʻlmadi"
+
+#: kdecore/kernel/ktoolinvocation.cpp:79
+msgid "Function must be called from the main thread."
+msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:120
+#, kde-format
+msgid ""
+"Error launching %1. Either KLauncher is not running anymore, or it failed to "
+"start the application."
+msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:123
+#, fuzzy, kde-format
+msgid ""
+"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
+"%2\n"
+msgstr "DCOP orqali KLauncher'ni ishlatib boʻlmadi.\n"
+
+#: kdecore/kernel/ktoolinvocation.cpp:302
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
+"\n"
+"%1"
+msgstr ""
+"Yordam markazini ishga tushirib boʻlmadi:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation.cpp:303
+msgid "Could not Launch Help Center"
+msgstr "Yordam markazini ishga tushirib boʻlmadi"
 
 #: kdecore/localization/kencodingdetector.cpp:1145
 #: kdecore/localization/kencodingdetector.cpp:1247
@@ -7526,6 +7526,11 @@ msgstr[0] "Yangi fayl."
 msgid "Click this to collapse the dialog, to hide details"
 msgstr ""
 
+#: kdeui/kernel/kapplication.cpp:830
+#, fuzzy, kde-format
+msgid "The style '%1' was not found"
+msgstr "Uslub %1 topilmadi.\n"
+
 #: kdeui/kernel/kuniqueapplication.cpp:88
 msgid "Do not run in the background."
 msgstr ""
@@ -7533,11 +7538,6 @@ msgstr ""
 #: kdeui/kernel/kuniqueapplication.cpp:90
 msgid "Internally added if launched from Finder"
 msgstr ""
-
-#: kdeui/kernel/kapplication.cpp:830
-#, fuzzy, kde-format
-msgid "The style '%1' was not found"
-msgstr "Uslub %1 topilmadi.\n"
 
 #: kdeui/notifications/knotificationrestrictions.cpp:181
 #, fuzzy
@@ -13363,7 +13363,7 @@ msgstr[0] ""
 msgid "Search Plugins"
 msgstr "Ustunlarda qidirish"
 
-#: kutils/kpluginselector.cpp:767 kutils/kpluginselector.cpp:796
+#: kutils/kpluginselector.cpp:768 kutils/kpluginselector.cpp:797
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgctxt "Used only for plugins"
