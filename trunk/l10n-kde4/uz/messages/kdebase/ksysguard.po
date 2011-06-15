@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-14 04:25+0200\n"
+"POT-Creation-Date: 2011-06-15 04:00+0200\n"
 "PO-Revision-Date: 2006-12-17 12:27+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1430,77 +1430,6 @@ msgstr "Ish varagʻining ustunlar sonini kiriting."
 msgid "Enter the title of the worksheet here."
 msgstr "Ish varagʻining sarlavhasini kiriting."
 
-#: WorkSheet.cpp:88
-#, kde-format
-msgid "Cannot open the file %1."
-msgstr "%1 faylini ochib boʻlmadi."
-
-#: WorkSheet.cpp:96
-#, kde-format
-msgid "The file %1 does not contain valid XML."
-msgstr "%1 fayli toʻgʻri XML-fayli emas."
-
-#: WorkSheet.cpp:103
-#, kde-format
-msgid ""
-"The file %1 does not contain a valid worksheet definition, which must have a "
-"document type 'KSysGuardWorkSheet'."
-msgstr ""
-"%1 faylida ish varagʻi notoʻgʻri aniqlangan. Hujjatning turi "
-"'KSysGuardWorkSheet' boʻlishi kerak."
-
-#: WorkSheet.cpp:127
-#, kde-format
-msgid "The file %1 has an invalid worksheet size."
-msgstr "%1 faylida ish varagʻining oʻlchami notoʻgʻri koʻrsatilgan."
-
-#: WorkSheet.cpp:228
-#, kde-format
-msgid "Cannot save file %1"
-msgstr "%1 faylini saqlab boʻlmadi."
-
-#: WorkSheet.cpp:274
-msgid "The clipboard does not contain a valid display description."
-msgstr ""
-
-#: WorkSheet.cpp:375
-msgid "Select Display Type"
-msgstr "Displeyning turini tanlang"
-
-#: WorkSheet.cpp:376
-msgid "&Line graph"
-msgstr ""
-
-#: WorkSheet.cpp:377
-msgid "&Digital display"
-msgstr ""
-
-#: WorkSheet.cpp:378
-#, fuzzy
-msgid "&Bar graph"
-msgstr "&Diagramma"
-
-#: WorkSheet.cpp:379
-#, fuzzy
-msgid "Log to a &file"
-msgstr "Log fayli"
-
-#: WorkSheet.cpp:528
-#, fuzzy
-#| msgid "&Remove Display"
-msgid "Remove this display?"
-msgstr "&Displeyni olib tashlash"
-
-#: WorkSheet.cpp:529
-#, fuzzy
-#| msgid "&Remove Display"
-msgid "Remove Display"
-msgstr "&Displeyni olib tashlash"
-
-#: WorkSheet.cpp:570
-msgid "Dummy"
-msgstr ""
-
 #: ksysguard.cpp:74
 #, fuzzy
 msgid "KDE System Monitor"
@@ -1717,6 +1646,77 @@ msgstr ""
 #, fuzzy
 msgid "Upload custom System Monitor tab"
 msgstr "Tizim yuklanganligi"
+
+#: WorkSheet.cpp:89
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr "%1 faylini ochib boʻlmadi."
+
+#: WorkSheet.cpp:97
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr "%1 fayli toʻgʻri XML-fayli emas."
+
+#: WorkSheet.cpp:104
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+"%1 faylida ish varagʻi notoʻgʻri aniqlangan. Hujjatning turi "
+"'KSysGuardWorkSheet' boʻlishi kerak."
+
+#: WorkSheet.cpp:128
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr "%1 faylida ish varagʻining oʻlchami notoʻgʻri koʻrsatilgan."
+
+#: WorkSheet.cpp:229
+#, kde-format
+msgid "Cannot save file %1"
+msgstr "%1 faylini saqlab boʻlmadi."
+
+#: WorkSheet.cpp:275
+msgid "The clipboard does not contain a valid display description."
+msgstr ""
+
+#: WorkSheet.cpp:376
+msgid "Select Display Type"
+msgstr "Displeyning turini tanlang"
+
+#: WorkSheet.cpp:377
+msgid "&Line graph"
+msgstr ""
+
+#: WorkSheet.cpp:378
+msgid "&Digital display"
+msgstr ""
+
+#: WorkSheet.cpp:379
+#, fuzzy
+msgid "&Bar graph"
+msgstr "&Diagramma"
+
+#: WorkSheet.cpp:380
+#, fuzzy
+msgid "Log to a &file"
+msgstr "Log fayli"
+
+#: WorkSheet.cpp:529
+#, fuzzy
+#| msgid "&Remove Display"
+msgid "Remove this display?"
+msgstr "&Displeyni olib tashlash"
+
+#: WorkSheet.cpp:530
+#, fuzzy
+#| msgid "&Remove Display"
+msgid "Remove Display"
+msgstr "&Displeyni olib tashlash"
+
+#: WorkSheet.cpp:571
+msgid "Dummy"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
