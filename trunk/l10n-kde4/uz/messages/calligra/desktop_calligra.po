@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-17 03:04+0000\n"
+"POT-Creation-Date: 2011-06-19 03:07+0000\n"
 "PO-Revision-Date: 2006-10-02 23:59+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -63,13 +63,10 @@ msgctxt "Name"
 msgid "Web Shape"
 msgstr "Diagramma"
 
-#: doc/koffice.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "KOffice Info"
+#: doc/calligra.desktop:3
 msgctxt "Name"
-msgid "KOffice"
-msgstr "KOffice maʼlumot"
+msgid "Calligra"
+msgstr ""
 
 #: filters/flow/imageexport/flow_image_export.desktop:3
 #, fuzzy
@@ -80,8 +77,11 @@ msgid "Flow Image Export Filter"
 msgstr "Kivio rasm eksport filteri"
 
 #: filters/generic_wrapper/generic_filter.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Generic KOffice Filter"
 msgctxt "Name"
-msgid "Generic KOffice Filter"
+msgid "Generic Calligra Filter"
 msgstr "KOffice umumiy filteri"
 
 #: filters/karbon/ai/karbon_ai_import.desktop:3
@@ -289,12 +289,6 @@ msgctxt "Name"
 msgid "KPresenter Old File Format Filter"
 msgstr "KPresenter BMP eksport filteri"
 
-#: filters/kpresenter/kword/kodp2odt.desktop:3
-#: filters/kpresenter/kword/kprkword.desktop:3
-msgctxt "Name"
-msgid "KPresenter KWord Filter"
-msgstr "KPresenter uchun KWord filteri"
-
 #: filters/kpresenter/magicpoint/kpresenter_magicpoint_import.desktop:4
 msgctxt "Name"
 msgid "Magicpoint Import Filter for KPresenter"
@@ -335,6 +329,15 @@ msgstr "KPresenter MS PowerPoint import filteri"
 msgctxt "Name"
 msgid "KPresenter SVG Export Filter"
 msgstr "KPresenter SVG eksport filteri"
+
+#: filters/kpresenter/words/kodp2odt.desktop:3
+#: filters/kpresenter/words/kprwords.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KPresenter KWord Filter"
+msgctxt "Name"
+msgid "KPresenter Words Filter"
+msgstr "KPresenter uchun KWord filteri"
 
 #: filters/tables/applixspread/kspread_applixspread_import.desktop:3
 msgctxt "Name"
@@ -420,75 +423,108 @@ msgctxt "Name"
 msgid "MS Excel 2007 Import Filter for KSpread"
 msgstr "KSpread uchun Excel eksport filteri"
 
-#: filters/words/abiword/kword_abiword_export.desktop:3
+#: filters/words/abiword/words_abiword_export.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord AbiWord Export Filter"
 msgctxt "Name"
-msgid "KWord AbiWord Export Filter"
+msgid "Words AbiWord Export Filter"
 msgstr "KWord AbiWord eksport filteri"
 
-#: filters/words/abiword/kword_abiword_import.desktop:3
+#: filters/words/abiword/words_abiword_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord AbiWord Import Filter"
 msgctxt "Name"
-msgid "KWord AbiWord Import Filter"
+msgid "Words AbiWord Import Filter"
 msgstr "KWord AbiWord import filteri"
 
-#: filters/words/amipro/kword_amipro_export.desktop:3
+#: filters/words/amipro/words_amipro_export.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord AmiPro Export Filter"
 msgctxt "Name"
-msgid "KWord AmiPro Export Filter"
+msgid "Words AmiPro Export Filter"
 msgstr "KWord AmiPro eksport filteri"
 
-#: filters/words/amipro/kword_amipro_import.desktop:3
+#: filters/words/amipro/words_amipro_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord AmiPro Import Filter"
 msgctxt "Name"
-msgid "KWord AmiPro Import Filter"
+msgid "Words AmiPro Import Filter"
 msgstr "KWord AmiPro import filteri"
 
-#: filters/words/applixword/kword_applixword_import.desktop:3
+#: filters/words/applixword/words_applixword_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord Applixword Import Filter"
 msgctxt "Name"
-msgid "KWord Applixword Import Filter"
+msgid "Words Applixword Import Filter"
 msgstr "KWord Applixword import filteri"
 
-#: filters/words/ascii/kword_ascii_export.desktop:3
+#: filters/words/ascii/words_ascii_export.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord Ascii Export Filter"
 msgctxt "Name"
-msgid "KWord Ascii Export Filter"
+msgid "Words Ascii Export Filter"
 msgstr "KWord Ascii eksport filteri"
 
-#: filters/words/ascii/kword_ascii_import.desktop:3
+#: filters/words/ascii/words_ascii_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord ASCII Import Filter"
 msgctxt "Name"
-msgid "KWord ASCII Import Filter"
+msgid "Words ASCII Import Filter"
 msgstr "KWord ASCII import filteri"
 
-#: filters/words/dcm/kword_dcm_import.desktop:3
+#: filters/words/dcm/words_dcm_import.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "KWord MS Word Import Filter"
 msgctxt "Name"
-msgid "KWord DICOM Structured Report Import Filter"
+msgid "Words DICOM Structured Report Import Filter"
 msgstr "KWord MS Word import filteri"
 
-#: filters/words/docbook/kword_docbook_export.desktop:3
+#: filters/words/docbook/words_docbook_export.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord SGML DocBook Export Filter"
 msgctxt "Name"
-msgid "KWord SGML DocBook Export Filter"
+msgid "Words SGML DocBook Export Filter"
 msgstr "KWord SGML DocBook eksport filteri"
 
-#: filters/words/docx/kword_docx_import.desktop:3
+#: filters/words/docx/words_docx_import.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "CSV Import Filter for KSpread"
 msgctxt "Name"
-msgid "MS Word 2007 Import Filter for KWord"
+msgid "MS Word 2007 Import Filter for Words"
 msgstr "KSpread uchun CSV import filteri"
 
-#: filters/words/hancomword/kword_hancomword_import.desktop:3
+#: filters/words/hancomword/words_hancomword_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord HancomWord Import Filter"
 msgctxt "Name"
-msgid "KWord HancomWord Import Filter"
+msgid "Words HancomWord Import Filter"
 msgstr "KWord HancomWord import filteri"
 
-#: filters/words/html/export/kword_html_export.desktop:3
+#: filters/words/html/export/words_html_export.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord HTML Export Filter"
 msgctxt "Name"
-msgid "KWord HTML Export Filter"
+msgid "Words HTML Export Filter"
 msgstr "KWord HTML eksport filteri"
 
-#: filters/words/html/import/kword_html_import.desktop:3
+#: filters/words/html/import/words_html_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord HTML Import Filter"
 msgctxt "Name"
-msgid "KWord HTML Import Filter"
+msgid "Words HTML Import Filter"
 msgstr "KWord HTML import filteri"
 
 #: filters/words/html-odf/html-odf_export.desktop:3
@@ -496,22 +532,31 @@ msgstr "KWord HTML import filteri"
 #| msgctxt "Name"
 #| msgid "KWord HTML Export Filter"
 msgctxt "Name"
-msgid "KWord HTML-ODF Export Filter"
+msgid "Words HTML-ODF Export Filter"
 msgstr "KWord HTML eksport filteri"
 
 #: filters/words/kword1.3/import/kword_kword1dot3_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord's KWord 1.3 Import Filter"
 msgctxt "Name"
-msgid "KWord's KWord 1.3 Import Filter"
+msgid "Words's Words 1.3 Import Filter"
 msgstr "KWord uchun KWord 1.3 import filteri"
 
-#: filters/words/latex/export/kword_latex_export.desktop:8
+#: filters/words/latex/export/words_latex_export.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord LATEX Export Filter"
 msgctxt "Name"
-msgid "KWord LATEX Export Filter"
+msgid "Words LATEX Export Filter"
 msgstr "KWord LaTeX eksport filteri"
 
-#: filters/words/latex/import/kword_latex_import.desktop:8
+#: filters/words/latex/import/words_latex_import.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord Latex Import Filter"
 msgctxt "Name"
-msgid "KWord Latex Import Filter"
+msgid "Words Latex Import Filter"
 msgstr "KWord LaTeX import filteri"
 
 #: filters/words/msword-odf/words_msword-odf_import.desktop:3
@@ -522,79 +567,124 @@ msgctxt "Name"
 msgid "Words MS Word-ODF Import Filter"
 msgstr "KWord MS Word import filteri"
 
-#: filters/words/mswrite/kword_mswrite_export.desktop:3
+#: filters/words/mswrite/words_mswrite_export.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord Microsoft Write Export Filter"
 msgctxt "Name"
-msgid "KWord Microsoft Write Export Filter"
+msgid "Words Microsoft Write Export Filter"
 msgstr "KWord Microsoft Write eksport filteri"
 
-#: filters/words/mswrite/kword_mswrite_import.desktop:3
+#: filters/words/mswrite/words_mswrite_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord Microsoft Write Import Filter"
 msgctxt "Name"
-msgid "KWord Microsoft Write Import Filter"
+msgid "Words Microsoft Write Import Filter"
 msgstr "KWord Microsoft Write import filteri"
 
-#: filters/words/oowriter/kword_oowriter_export.desktop:3
+#: filters/words/oowriter/words_oowriter_export.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "OpenOffice.org Writer Export Filter for KWord"
 msgctxt "Name"
-msgid "OpenOffice.org Writer Export Filter for KWord"
+msgid "OpenOffice.org Writer Export Filter for Words"
 msgstr "KWord uchun OpenOffice.org Writer eksport filteri"
 
-#: filters/words/oowriter/kword_oowriter_import.desktop:3
+#: filters/words/oowriter/words_oowriter_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "OpenOffice.org Writer Import Filter for KWord"
 msgctxt "Name"
-msgid "OpenOffice.org Writer Import Filter for KWord"
+msgid "OpenOffice.org Writer Import Filter for Words"
 msgstr "KWord uchun OpenOffice.org Writer import filteri"
 
-#: filters/words/palmdoc/kword_palmdoc_export.desktop:3
+#: filters/words/palmdoc/words_palmdoc_export.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord Palm Doc Export Filter"
 msgctxt "Name"
-msgid "KWord Palm Doc Export Filter"
+msgid "Words Palm Doc Export Filter"
 msgstr "KWord Palm Doc eksport filteri"
 
-#: filters/words/palmdoc/kword_palmdoc_import.desktop:3
+#: filters/words/palmdoc/words_palmdoc_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord Palm Doc Import Filter"
 msgctxt "Name"
-msgid "KWord Palm Doc Import Filter"
+msgid "Words Palm Doc Import Filter"
 msgstr "KWord Palm Doc import filteri"
 
-#: filters/words/rtf/export/kword_rtf_export.desktop:3
+#: filters/words/rtf/export/words_rtf_export.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord RTF Export Filter"
 msgctxt "Name"
-msgid "KWord RTF Export Filter"
+msgid "Words RTF Export Filter"
 msgstr "KWord RTF eksport filteri"
 
-#: filters/words/rtf/import/kword_rtf_import.desktop:3
+#: filters/words/rtf/import/words_rtf_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord RTF Import Filter"
 msgctxt "Name"
-msgid "KWord RTF Import Filter"
+msgid "Words RTF Import Filter"
 msgstr "KWord RTF import filteri"
 
-#: filters/words/starwriter/kword_starwriter_import.desktop:3
+#: filters/words/starwriter/words_starwriter_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord StarWriter 5.x Import Filter"
 msgctxt "Name"
-msgid "KWord StarWriter 5.x Import Filter"
+msgid "Words StarWriter 5.x Import Filter"
 msgstr "KWord StarWriter 5.x import filteri"
 
-#: filters/words/wml/kword_wml_export.desktop:3
+#: filters/words/wml/words_wml_export.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord WML Export Filter"
 msgctxt "Name"
-msgid "KWord WML Export Filter"
+msgid "Words WML Export Filter"
 msgstr "KWord WML eksport filteri"
 
-#: filters/words/wml/kword_wml_import.desktop:3
+#: filters/words/wml/words_wml_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord WML Import Filter"
 msgctxt "Name"
-msgid "KWord WML Import Filter"
+msgid "Words WML Import Filter"
 msgstr "KWord WML import filteri"
 
-#: filters/words/wordperfect/export/kword_wp_export.desktop:3
+#: filters/words/wordperfect/export/words_wp_export.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord WordPerfect Export Filter"
 msgctxt "Name"
-msgid "KWord WordPerfect Export Filter"
+msgid "Words WordPerfect Export Filter"
 msgstr "KWord WordPerfect eksport filteri"
 
-#: filters/words/wordperfect/import/kword_wp_import.desktop:3
+#: filters/words/wordperfect/import/words_wp_import.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord WordPerfect Import Filter"
 msgctxt "Name"
-msgid "KWord WordPerfect Import Filter"
+msgid "Words WordPerfect Import Filter"
 msgstr "KWord WordPerfect import filteri"
 
 #: filters/xsltfilter/export/xslt_export.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KOffice XSLT Export Filter"
 msgctxt "Name"
-msgid "KOffice XSLT Export Filter"
+msgid "Calligra XSLT Export Filter"
 msgstr "KOffice XSLT eksport filteri"
 
 #: filters/xsltfilter/import/xslt_import.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KOffice XSLT Import Filter"
 msgctxt "Name"
-msgid "KOffice XSLT Import Filter"
+msgid "Calligra XSLT Import Filter"
 msgstr "KOffice XSLT import filteri"
 
 #: flow/flow_dock.desktop:4
@@ -617,8 +707,11 @@ msgid "Flowchart & Diagram Editing"
 msgstr "Sxema va diagrammalarni tahrirlash"
 
 #: flow/part/flowpart.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KOffice Flowchart & Diagram Editing Component"
 msgctxt "Name"
-msgid "KOffice Flowchart & Diagram Editing Component"
+msgid "Calligra Flowchart & Diagram Editing Component"
 msgstr "KOffice sxema va diagrammalarni tahrirlash komponenti"
 
 #: flow/part/flowpart.desktop:58
@@ -7867,8 +7960,11 @@ msgid "Core functionality module for Karbon"
 msgstr ""
 
 #: karbon/data/karbonpart.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KOffice Scalable Graphics Component"
 msgctxt "Name"
-msgid "KOffice Scalable Graphics Component"
+msgid "Calligra Scalable Graphics Component"
 msgstr "KOffice vektor rasmlar komponenti"
 
 #: karbon/plugins/dockers/karbondockersplugin.desktop:2
@@ -7916,9 +8012,12 @@ msgid "Create graphics and charts"
 msgstr "Rasm va diagrammalar yaratish"
 
 #: kchart/kchartpart.desktop:2 plugins/chartshape/kchartpart.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KOffice Project Management Component"
 msgctxt "Name"
-msgid "KOffice Chart Component"
-msgstr "KOffice diagramma komponenti"
+msgid "Calligra Chart Component"
+msgstr "KOffice loyiha boshqaruv komponenti"
 
 #: kchart/kchartpart.desktop:63 plugins/chartshape/kchartpart.desktop:63
 msgctxt "GenericName"
@@ -8248,13 +8347,19 @@ msgid "Formula Editor"
 msgstr "Formula tahrirchi"
 
 #: kformula/kformulapart.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KOffice Project Management Component"
 msgctxt "Name"
-msgid "KOffice Formula Component"
-msgstr "KOffice formula komponenti"
+msgid "Calligra Formula Component"
+msgstr "KOffice loyiha boshqaruv komponenti"
 
 #: kounavail/kounavail.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Unavailable KOffice Document"
 msgctxt "Name"
-msgid "Unavailable KOffice Document"
+msgid "Unavailable Calligra Document"
 msgstr "Mavjud boʻlmagan KOffice hujjati"
 
 #: kplato/libs/kernel/kplato_schedulerplugin.desktop:2
@@ -8319,7 +8424,7 @@ msgstr ""
 #: kplato/plugins/scripting/krossmodulekplato.desktop:2
 #: krita/plugins/extensions/scripting/kritascripting.desktop:2
 #: tables/plugins/scripting/krossmodulekspread.desktop:2
-#: words/plugins/scripting/krossmodulekword.desktop:2
+#: words/plugins/scripting/krossmodulewords.desktop:2
 msgctxt "Name"
 msgid "Scripting plugin"
 msgstr "Skriptlash plagini"
@@ -8327,7 +8432,7 @@ msgstr "Skriptlash plagini"
 #: kplato/plugins/scripting/krossmodulekplato.desktop:48
 #: krita/plugins/extensions/scripting/kritascripting.desktop:48
 #: tables/plugins/scripting/krossmodulekspread.desktop:48
-#: words/plugins/scripting/krossmodulekword.desktop:48
+#: words/plugins/scripting/krossmodulewords.desktop:48
 msgctxt "Comment"
 msgid "Allow execution of scripts"
 msgstr "Skriptlarni ishga tushirishga ruxsat berish"
@@ -8985,8 +9090,11 @@ msgid "Edit and paint images"
 msgstr "Rasm bilan ishlash dasturi"
 
 #: krita/kritapart.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KOffice Painting and Image Editor Component"
 msgctxt "Name"
-msgid "KOffice Painting and Image Editor Component"
+msgid "Calligra Painting and Image Editor Component"
 msgstr "KOffice rasm bilan ishlash komponenti"
 
 #: krita/kritapart.desktop:51
@@ -10031,9 +10139,10 @@ msgid "Definition of a text object"
 msgstr ""
 
 #: libs/kotext/texteditingplugin.desktop:2
+#, fuzzy
 msgctxt "Name"
-msgid "Text Editing plugin for the KOffice text tool"
-msgstr ""
+msgid "Text Editing plugin for the Calligra text tool"
+msgstr "Krita uchun chizish plagini"
 
 #: libs/kotext/texteditingplugin.desktop:29
 msgctxt "Comment"
@@ -10051,23 +10160,26 @@ msgctxt "Comment"
 msgid "A plugin that contains text variables"
 msgstr ""
 
-#: libs/main/kodocinfopropspage.desktop:3
-msgctxt "Name"
-msgid "KOffice Document Info Properties Page"
-msgstr "KOffice hujjati haqida maʼlumot"
-
-#: libs/main/kofficedocker.desktop:2
+#: libs/main/calligradocker.desktop:2
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "KOffice Plugin"
 msgctxt "Name"
-msgid "KOffice Docker Plugin"
+msgid "Calligra Docker Plugin"
 msgstr "KOffice plagini"
 
-#: libs/main/kofficedocker.desktop:38
+#: libs/main/calligradocker.desktop:38
 msgctxt "Comment"
 msgid "A plugin that contains a so called 'dockwidget'"
 msgstr ""
+
+#: libs/main/kodocinfopropspage.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KOffice Document Info Properties Page"
+msgctxt "Name"
+msgid "Calligra Document Info Properties Page"
+msgstr "KOffice hujjati haqida maʼlumot"
 
 #: libs/pigment/pigment.desktop:4
 msgctxt "Comment"
@@ -10096,13 +10208,13 @@ msgctxt "Name"
 msgid "Chart Shape"
 msgstr "Diagramma"
 
-#: plugins/colorengines/lcms2/colorspaces/gray_u8/kofficegrayaplugin.desktop:2
+#: plugins/colorengines/lcms2/colorspaces/gray_u8/calligragrayaplugin.desktop:2
 #, fuzzy
 msgctxt "Name"
 msgid "Grayscale Color Model with Alpha"
 msgstr "Kul rang usuli"
 
-#: plugins/colorengines/lcms2/colorspaces/gray_u8/kofficegrayaplugin.desktop:38
+#: plugins/colorengines/lcms2/colorspaces/gray_u8/calligragrayaplugin.desktop:38
 #: plugins/colorengines/lcms2/colorspaces/gray_u8_no_alpha/kritagrayplugin.desktop:51
 msgctxt "Comment"
 msgid "Color model for 8-bit grayscale images"
@@ -10133,12 +10245,12 @@ msgctxt "Name"
 msgid "Default Flake Tools"
 msgstr "Andoza vositalar"
 
-#: plugins/dockers/kofficedockers.desktop:2
+#: plugins/dockers/calligradockers.desktop:2
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "KOffice Plugin"
 msgctxt "Name"
-msgid "KOffice Dockers plugin"
+msgid "Calligra Dockers plugin"
 msgstr "KOffice plagini"
 
 #: plugins/musicshape/musicshape.desktop:2
@@ -10218,12 +10330,12 @@ msgctxt "Comment"
 msgid "KoReport Shape PLugin"
 msgstr "Kanallarni ajratish uchun plagin"
 
-#: plugins/simpletextedit/kofficesimpletextedit.desktop:2
+#: plugins/simpletextedit/calligrasimpletextedit.desktop:2
 msgctxt "Name"
 msgid "Simple Text Edit"
 msgstr ""
 
-#: plugins/simpletextedit/kofficesimpletextedit.desktop:36
+#: plugins/simpletextedit/calligrasimpletextedit.desktop:36
 msgctxt "Comment"
 msgid "Simpler Text Edit docker"
 msgstr ""
@@ -10299,26 +10411,35 @@ msgctxt "Name"
 msgid "Calligra Deferred Loading Plugin"
 msgstr ""
 
-#: servicetypes/kofficepart.desktop:5
+#: servicetypes/calligrapart.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KOffice Project Management Component"
 msgctxt "Comment"
-msgid "KOffice Component"
-msgstr "KOffice komponenti"
+msgid "Calligra Component"
+msgstr "KOffice loyiha boshqaruv komponenti"
 
 #: servicetypes/kofilter.desktop:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Color Filters"
 msgctxt "Comment"
-msgid "KOffice Filter"
-msgstr "KOffice filteri"
+msgid "Calligra Filter"
+msgstr "Rang filterlari"
 
 #: servicetypes/kofilterwrapper.desktop:4
 #, fuzzy
 msgctxt "Comment"
-msgid "KOffice Filter Wrapper"
+msgid "Calligra Filter Wrapper"
 msgstr "KOffice filteri"
 
 #: servicetypes/koplugin.desktop:4
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Migration Plugin"
 msgctxt "Comment"
-msgid "KOffice Plugin"
-msgstr "KOffice plagini"
+msgid "Calligra Plugin"
+msgstr "Migratsiya plagini"
 
 #: tables/data/templates/Business/BalanceSheet.desktop:4
 msgctxt "Name"
@@ -10653,9 +10774,12 @@ msgid "A document was saved"
 msgstr ""
 
 #: tables/tablespart.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KOffice Project Management Component"
 msgctxt "Name"
-msgid "KOffice Spreadsheet Component"
-msgstr "KOffice elektron jadvallar komponenti"
+msgid "Calligra Spreadsheet Component"
+msgstr "KOffice loyiha boshqaruv komponenti"
 
 #: tables/tables_plugin.desktop:4
 msgctxt "Comment"
@@ -10699,8 +10823,11 @@ msgid "Text Document..."
 msgstr "Matn hujjati"
 
 #: templates/TextDocument.desktop:58
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "New KWord document:"
 msgctxt "Comment"
-msgid "New KWord document:"
+msgid "New Words document:"
 msgstr "Yangi KWord hujjati:"
 
 #: tools/kthesaurus/KThesaurus.desktop:2
@@ -10752,15 +10879,18 @@ msgstr "Matn hujjatlari"
 #: tools/quickprint/kpresenter_konqi.desktop:7
 #: tools/quickprint/krita_konqi.desktop:7
 #: tools/quickprint/kspread_konqi.desktop:7
-#: tools/quickprint/kword_konqi.desktop:7
+#: tools/quickprint/words_konqi.desktop:7
 msgctxt "Name"
 msgid "Print..."
 msgstr "Bosib chiqarish"
 
-#: tools/thumbnail/kofficethumbnail.desktop:3
+#: tools/thumbnail/calligrathumbnail.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Color Filters"
 msgctxt "Name"
-msgid "KOffice Files"
-msgstr "KOffice fayllari"
+msgid "Calligra Files"
+msgstr "Rang filterlari"
 
 #: tools/thumbnail/otherofficethumbnail.desktop:3
 msgctxt "Name"
@@ -10856,6 +10986,55 @@ msgctxt "Comment"
 msgid ""
 "Creates a blank document with wide margins for professional looking documents"
 msgstr "Mukammal koʻrinadigan boʻsh hujjatni yaratish"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "KOffice Info"
+#~ msgctxt "Name"
+#~ msgid "KOffice"
+#~ msgstr "KOffice maʼlumot"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Chart Component"
+#~ msgstr "KOffice diagramma komponenti"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Formula Component"
+#~ msgstr "KOffice formula komponenti"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "KOffice Plugin"
+#~ msgctxt "Name"
+#~ msgid "KOffice Docker Plugin"
+#~ msgstr "KOffice plagini"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "KOffice Plugin"
+#~ msgctxt "Name"
+#~ msgid "KOffice Dockers plugin"
+#~ msgstr "KOffice plagini"
+
+#~ msgctxt "Comment"
+#~ msgid "KOffice Component"
+#~ msgstr "KOffice komponenti"
+
+#~ msgctxt "Comment"
+#~ msgid "KOffice Filter"
+#~ msgstr "KOffice filteri"
+
+#~ msgctxt "Comment"
+#~ msgid "KOffice Plugin"
+#~ msgstr "KOffice plagini"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Spreadsheet Component"
+#~ msgstr "KOffice elektron jadvallar komponenti"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Files"
+#~ msgstr "KOffice fayllari"
 
 #, fuzzy
 #~| msgctxt "Name"
