@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-20 03:43+0200\n"
+"POT-Creation-Date: 2011-06-22 03:41+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -6774,8 +6774,8 @@ msgstr "Bosim"
 #. i18n: file: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:57
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:2515 rc.cpp:3106
-#: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:56
 #: plugins/filters/imageenhancement/kis_wavelet_noise_reduction.cpp:53
+#: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:56
 #: plugins/paintops/libpaintop/kis_pressure_sharpness_option_widget.cpp:37
 msgid "Threshold"
 msgstr "Chegara"
@@ -10052,21 +10052,6 @@ msgstr "Toʻrtburcha&k"
 msgid "default"
 msgstr ""
 
-#: image/commands/kis_change_filter_command.h:40
-#, fuzzy
-msgid "Change Filter"
-msgstr "Filter"
-
-#: image/commands/kis_change_generator_command.h:40
-#, fuzzy
-#| msgid "General"
-msgid "Change Generator"
-msgstr "Umumiy"
-
-#: image/commands/kis_deselect_global_selection_command.cpp:30
-msgid "Deselect"
-msgstr "Tanlashni bekor qilish"
-
 #: image/commands/kis_image_layer_add_command.cpp:27
 #: image/commands/kis_image_layer_add_command.cpp:35
 msgid "Add Layer"
@@ -10117,6 +10102,21 @@ msgstr "Qa&erni rasmga olish:"
 #| msgid "Copy Opacity"
 msgid "Node Opacity"
 msgstr "Xiralikdan nusxa olish"
+
+#: image/commands/kis_change_filter_command.h:40
+#, fuzzy
+msgid "Change Filter"
+msgstr "Filter"
+
+#: image/commands/kis_change_generator_command.h:40
+#, fuzzy
+#| msgid "General"
+msgid "Change Generator"
+msgstr "Umumiy"
+
+#: image/commands/kis_deselect_global_selection_command.cpp:30
+msgid "Deselect"
+msgstr "Tanlashni bekor qilish"
 
 #: image/commands/kis_reselect_global_selection_command.cpp:30
 #, fuzzy
@@ -10301,16 +10301,16 @@ msgstr "Qulflangan"
 msgid "Alpha Channel Disabled"
 msgstr ""
 
+#: image/kis_transformation_mask.cpp:112
+#, fuzzy
+msgid "Transformation Mask Settings"
+msgstr "Boshqa shaklga almashtirish"
+
 #: image/kis_transform_visitor.h:158
 #, fuzzy
 #| msgid "Rotate CW"
 msgid "Rotate Node"
 msgstr "Soat koʻrsatgichi boʻyicha burish"
-
-#: image/kis_transformation_mask.cpp:112
-#, fuzzy
-msgid "Transformation Mask Settings"
-msgstr "Boshqa shaklga almashtirish"
 
 #: image/metadata/kis_meta_data_merge_strategy_p.cc:50
 #, fuzzy
@@ -10779,16 +10779,16 @@ msgstr "Tanlanganni bekitish"
 msgid "&Transformation Mask..."
 msgstr "Boshqa shaklga almashtirish"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:336
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:348
 #, fuzzy
 msgid "&Properties..."
 msgstr "Qatlamning xossalari"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:338
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:350
 msgid "&Remove Layer"
 msgstr "Qatlamni &olib tashlash"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:339
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:351
 #, fuzzy
 #| msgid "Duplicate"
 msgid "&Duplicate Layer or Mask"
@@ -10856,17 +10856,17 @@ msgid "Advanced Color Selector"
 msgstr "Tanlanganni koʻrsatish"
 
 #: plugins/extensions/dropshadow/dlg_dropshadow.cc:42
-#: plugins/extensions/dropshadow/kis_dropshadow.cc:130
 #: plugins/extensions/dropshadow/kis_dropshadow_plugin.cc:83
+#: plugins/extensions/dropshadow/kis_dropshadow.cc:130
 msgid "Drop Shadow"
 msgstr "Soya tushirish"
 
-#: plugins/extensions/dropshadow/kis_dropshadow.cc:93
-msgid "Add Drop Shadow"
-msgstr ""
-
 #: plugins/extensions/dropshadow/kis_dropshadow_plugin.cc:60
 msgid "Add Drop Shadow..."
+msgstr ""
+
+#: plugins/extensions/dropshadow/kis_dropshadow.cc:93
+msgid "Add Drop Shadow"
 msgstr ""
 
 #: plugins/extensions/extensionsmanager/ExtensionsManager.cpp:107
@@ -11219,12 +11219,6 @@ msgstr "&Yangi qatlam..."
 msgid "Shear Layer"
 msgstr "Yangi qatlam"
 
-#: plugins/extensions/tonemapping/kis_tonemapping_dialog.cc:120
-#: ui/widgets/kis_filter_selector_widget.cc:142
-#, fuzzy
-msgid "No configuration option."
-msgstr "Moslash..."
-
 #: plugins/extensions/tonemapping/operators/ashikhmin02/kis_ashikhmin02_operator.cc:66
 msgid "Ashikhmin 02"
 msgstr ""
@@ -11250,6 +11244,12 @@ msgstr "Filter"
 #: plugins/extensions/tonemapping/tonemapping.cc:53
 msgid "Tonemapping..."
 msgstr ""
+
+#: plugins/extensions/tonemapping/kis_tonemapping_dialog.cc:120
+#: ui/widgets/kis_filter_selector_widget.cc:142
+#, fuzzy
+msgid "No configuration option."
+msgstr "Moslash..."
 
 #: plugins/extensions/imagesplit/imagesplit.cpp:60
 #, fuzzy
@@ -11522,6 +11522,11 @@ msgstr ""
 msgid "Wavelet Noise Reducer"
 msgstr "Tanlanganni bekitish"
 
+#: plugins/filters/imageenhancement/kis_wavelet_noise_reduction.cpp:38
+#, fuzzy
+msgid "&Wavelet Noise Reducer..."
+msgstr "Tanlanganni bekitish"
+
 #: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:41
 #, fuzzy
 msgid "&Gaussian Noise Reduction..."
@@ -11531,11 +11536,6 @@ msgstr "Tanlanganni bekitish"
 #, fuzzy
 msgid "Window size"
 msgstr "Tomchining oʻlchami"
-
-#: plugins/filters/imageenhancement/kis_wavelet_noise_reduction.cpp:38
-#, fuzzy
-msgid "&Wavelet Noise Reducer..."
-msgstr "Tanlanganni bekitish"
 
 #: plugins/filters/levelfilter/kis_level_filter.cpp:49
 #, fuzzy
@@ -11682,14 +11682,14 @@ msgstr ""
 msgid "Sobel"
 msgstr "Tosh"
 
-#: plugins/filters/unsharp/kis_unsharp_filter.cpp:43
-#, fuzzy
-msgid "&Unsharp Mask..."
-msgstr "Alfa niqob"
-
 #: plugins/filters/unsharp/kis_unsharp_filter.h:41
 #, fuzzy
 msgid "Unsharp Mask"
+msgstr "Alfa niqob"
+
+#: plugins/filters/unsharp/kis_unsharp_filter.cpp:43
+#, fuzzy
+msgid "&Unsharp Mask..."
 msgstr "Alfa niqob"
 
 #: plugins/filters/wavefilter/wavefilter.cpp:106
@@ -13047,36 +13047,6 @@ msgstr "Filtrli choʻtka"
 msgid "MultiBrush"
 msgstr "Boʻyoq"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:80
-#, fuzzy
-#| msgid "Style:"
-msgid "Tilt"
-msgstr "Uslubi:"
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:82
-#, fuzzy
-#| msgid "Pressure"
-msgid "Tangential Pressure"
-msgstr "Bosim"
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:83
-#, fuzzy
-msgid "Varying End-Points"
-msgstr "Alfa moslamalari"
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:219
-#, fuzzy
-#| msgid "Line"
-msgctxt "a straight drawn line"
-msgid "Line"
-msgstr "Chiziq"
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:303
-msgid ""
-"Alt+Drag will move the origin of the currently displayed line around, Shift"
-"+Drag will force you to draw straight lines"
-msgstr ""
-
 #: plugins/tools/defaulttools/kis_tool_line.h:83
 msgid "Draw a straight line with the current brush"
 msgstr ""
@@ -13119,6 +13089,36 @@ msgstr "Burchak"
 #| msgid "Brush size"
 msgid "Brush count"
 msgstr "Boʻyoqning oʻlchami"
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:80
+#, fuzzy
+#| msgid "Style:"
+msgid "Tilt"
+msgstr "Uslubi:"
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:82
+#, fuzzy
+#| msgid "Pressure"
+msgid "Tangential Pressure"
+msgstr "Bosim"
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:83
+#, fuzzy
+msgid "Varying End-Points"
+msgstr "Alfa moslamalari"
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:219
+#, fuzzy
+#| msgid "Line"
+msgctxt "a straight drawn line"
+msgid "Line"
+msgstr "Chiziq"
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:303
+msgid ""
+"Alt+Drag will move the origin of the currently displayed line around, Shift"
+"+Drag will force you to draw straight lines"
+msgstr ""
 
 #: plugins/tools/selectiontools/kis_tool_select_brush.h:74
 #, fuzzy
@@ -13163,11 +13163,6 @@ msgstr "Tanlash usuli:"
 #, fuzzy
 msgid "Select a polygonal region"
 msgstr "Ellips maydonni tanlash"
-
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:68
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:83
-msgid "Rectangular Selection"
-msgstr "Toʻgʻri burchak maydonni tanlash"
 
 #: plugins/tools/selectiontools/kis_tool_select_rectangular.h:67
 #, fuzzy
@@ -13233,6 +13228,11 @@ msgstr "Tanlanganni bekitish"
 #, fuzzy
 msgid "Polygonal Selection"
 msgstr "Hech narsa tanlanmagan"
+
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:68
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:83
+msgid "Rectangular Selection"
+msgstr "Toʻgʻri burchak maydonni tanlash"
 
 #: plugins/tools/tool_crop/kis_tool_crop.h:148
 #, fuzzy
@@ -13403,21 +13403,6 @@ msgstr ""
 msgid "Star"
 msgstr "Yulduz"
 
-#: plugins/tools/tool_transform2/tool_transform_commands.cc:24
-#, fuzzy
-msgid "Apply transformation"
-msgstr "Moslash..."
-
-#: plugins/tools/tool_transform2/tool_transform_commands.cc:55
-#, fuzzy
-msgid "Transform"
-msgstr "Boshqa shaklga almashtirish"
-
-#: plugins/tools/tool_transform2/kis_tool_transform.h:435
-#, fuzzy
-msgid "Transform a layer or a selection"
-msgstr "Tanlanganni chizish"
-
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:2106
 #, fuzzy
 msgid "Apply Transformation"
@@ -13444,6 +13429,21 @@ msgstr "Oʻng:"
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:2896
 msgid "Unlock Points"
 msgstr ""
+
+#: plugins/tools/tool_transform2/kis_tool_transform.h:435
+#, fuzzy
+msgid "Transform a layer or a selection"
+msgstr "Tanlanganni chizish"
+
+#: plugins/tools/tool_transform2/tool_transform_commands.cc:24
+#, fuzzy
+msgid "Apply transformation"
+msgstr "Moslash..."
+
+#: plugins/tools/tool_transform2/tool_transform_commands.cc:55
+#, fuzzy
+msgid "Transform"
+msgstr "Boshqa shaklga almashtirish"
 
 #: ui/kis_filter_handler.cc:110
 #, kde-format
@@ -13532,6 +13532,10 @@ msgstr "Rasmning xossalari"
 msgid "New Transformation Mask"
 msgstr "Boshqa shaklga almashtirish"
 
+#: ui/dialogs/kis_dlg_layer_properties.cc:62
+msgid "Layer Properties"
+msgstr "Qatlamning xossalari"
+
 #: ui/dialogs/kis_dlg_preferences.cc:191
 #, fuzzy
 msgid "Monitor profile: "
@@ -13591,10 +13595,6 @@ msgstr ""
 #: ui/kis_clipboard.cc:154
 msgid "Krita"
 msgstr "Krita"
-
-#: ui/dialogs/kis_dlg_layer_properties.cc:62
-msgid "Layer Properties"
-msgstr "Qatlamning xossalari"
 
 #: ui/flake/kis_shape_controller.cpp:229
 #, kde-format
@@ -13914,6 +13914,25 @@ msgstr "&Veb sifatida"
 msgid "As on &Monitor"
 msgstr ""
 
+#: ui/kis_doc2.cc:440
+msgid ""
+"The Calligra LittleCMS color management plugin is not installed. Krita will "
+"quit now."
+msgstr ""
+
+#: ui/kis_doc2.cc:451
+#, kde-format
+msgid ""
+"Krita needs at least Qt 4.6.3 to work correctly. Your Qt version is %1. If "
+"you have a graphics tablet it will not work correctly!"
+msgstr ""
+
+#: ui/kis_doc2.cc:468
+#, fuzzy
+#| msgid "Layer Error"
+msgid "Installation error"
+msgstr "Qatlam xatosi."
+
 #: ui/kis_control_frame.cpp:79 ui/kis_control_frame.cpp:80
 #, fuzzy
 msgid "Fill Patterns"
@@ -13969,25 +13988,6 @@ msgid ""
 "The current image is too big to create a pattern. The pattern will be scaled "
 "down."
 msgstr ""
-
-#: ui/kis_doc2.cc:440
-msgid ""
-"The Calligra LittleCMS color management plugin is not installed. Krita will "
-"quit now."
-msgstr ""
-
-#: ui/kis_doc2.cc:451
-#, kde-format
-msgid ""
-"Krita needs at least Qt 4.6.3 to work correctly. Your Qt version is %1. If "
-"you have a graphics tablet it will not work correctly!"
-msgstr ""
-
-#: ui/kis_doc2.cc:468
-#, fuzzy
-#| msgid "Layer Error"
-msgid "Installation error"
-msgstr "Qatlam xatosi."
 
 #: ui/kis_view2.cpp:260
 msgid "Save Incremental &Version"
