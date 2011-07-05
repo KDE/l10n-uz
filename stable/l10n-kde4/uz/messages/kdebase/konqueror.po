@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-20 04:05+0200\n"
+"POT-Creation-Date: 2011-07-05 04:21+0200\n"
 "PO-Revision-Date: 2008-06-08 22:24+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -16,6 +16,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/konqextensionmanager.cpp:54
+#, fuzzy
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Moslash"
+
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
+msgstr "Kengaytmalar"
 
 #: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5010
 #: src/konqmainwindow.cpp:5070
@@ -324,31 +336,6 @@ msgstr "%1/s"
 msgid "Stalled"
 msgstr "Toʻxtab qoldi"
 
-#: src/konqguiclients.cpp:66
-#, fuzzy, kde-format
-#| msgid "Preview in %1"
-msgid "Preview &in %1"
-msgstr "%1 bilan koʻrish"
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "%1"
-
-#: src/konqhistorydialog.cpp:45
-#, fuzzy
-#| msgid "History"
-msgctxt "@title:window"
-msgid "History"
-msgstr "Tarix"
-
-#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
-#, fuzzy
-#| msgid "Sort"
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "Saralash"
-
 #: src/konqhistorymodel.cpp:137
 #, kde-format
 msgid ""
@@ -368,54 +355,66 @@ msgstr "Lokal fayl"
 msgid "Miscellaneous"
 msgstr "Har xil"
 
-#: src/konqmain.cpp:96
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4537
+#: sidebar/web_module/web_module.cpp:61
+msgid "Open in New &Window"
+msgstr "&Yangi oynada ochish"
+
+#: src/konqhistoryview.cpp:67
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:232
+msgid "Open in New Tab"
+msgstr "Yangi tabda ochish"
+
+#: src/konqhistoryview.cpp:71
 #, fuzzy
-#| msgid "Start without a default window"
-msgid "Start without a default window, when called without URLs"
-msgstr "Andoza oynasiz boshlash"
+#| msgid "Copy Link Address"
+msgid "&Copy Link Address"
+msgstr "Bogʻ manzilidan nusxa olish"
 
-#: src/konqmain.cpp:98
-msgid ""
-"Preload for later use. This mode does not support URLs on the command line"
-msgstr ""
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr "Bandni &olib tashlash"
 
-#: src/konqmain.cpp:100
-msgid "Profile to open"
-msgstr "Ochish uchun profil"
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr "Tarixni &boʻshatish"
 
-#: src/konqmain.cpp:102
-msgid "List available profiles"
-msgstr "Mavjud boʻlgan profillarni koʻrsatish"
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
+msgstr "&Moslash..."
 
-#: src/konqmain.cpp:104
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr "&Nomi boʻyicha"
+
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr "&Sana boʻyicha"
+
+#: src/konqhistoryview.cpp:111
 #, fuzzy
-#| msgid "List available profiles"
-msgid "List available sessions"
-msgstr "Mavjud boʻlgan profillarni koʻrsatish"
+#| msgid "Clear History"
+msgid "Search in history"
+msgstr "Tarixni boʻshatish"
 
-#: src/konqmain.cpp:106
+#: src/konqhistoryview.cpp:143 src/konqhistorydialog.cpp:61
 #, fuzzy
-#| msgid "Location to open"
-msgid "Session to open"
-msgstr "Koʻrish uchun manzil"
+#| msgid "Sort"
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "Saralash"
 
-#: src/konqmain.cpp:108
-msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr "Bu URL uchun MIME turi (m-n text/html yoki inode/directory)"
+#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr "Rostdan butun tarixni boʻshatmoqchimisiz?"
 
-#: src/konqmain.cpp:109
-msgid "Part to use (e.g. khtml or kwebkitpart)"
-msgstr ""
-
-#: src/konqmain.cpp:111
-msgid ""
-"For URLs that point to files, opens the directory and selects the file, "
-"instead of opening the actual file"
-msgstr ""
-
-#: src/konqmain.cpp:113
-msgid "Location to open"
-msgstr "Koʻrish uchun manzil"
+#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
+#, fuzzy
+#| msgid "Clear History?"
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "Tarixni boʻshataymi?"
 
 #: src/konqtabs.cpp:66
 msgid ""
@@ -480,87 +479,6 @@ msgstr "&Bekor qilish: Oynani yopish"
 msgid "Und&o"
 msgstr ""
 
-#: src/konqextensionmanager.cpp:54
-#, fuzzy
-#| msgid "Configure"
-msgctxt "@title:window"
-msgid "Configure"
-msgstr "Moslash"
-
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
-msgstr "Kengaytmalar"
-
-#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4537
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr "&Yangi oynada ochish"
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "Yangi tabda ochish"
-
-#: src/konqhistoryview.cpp:71
-#, fuzzy
-#| msgid "Copy Link Address"
-msgid "&Copy Link Address"
-msgstr "Bogʻ manzilidan nusxa olish"
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr "Bandni &olib tashlash"
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr "Tarixni &boʻshatish"
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr "&Moslash..."
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr "&Nomi boʻyicha"
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr "&Sana boʻyicha"
-
-#: src/konqhistoryview.cpp:111
-#, fuzzy
-#| msgid "Clear History"
-msgid "Search in history"
-msgstr "Tarixni boʻshatish"
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr "Rostdan butun tarixni boʻshatmoqchimisiz?"
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-#, fuzzy
-#| msgid "Clear History?"
-msgctxt "@title:window"
-msgid "Clear History?"
-msgstr "Tarixni boʻshataymi?"
-
-#: src/konqprofiledlg.cpp:111
-#, fuzzy
-#| msgid "Profile Management"
-msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "Profil boshqaruvi"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "Profilni nomini oʻ&zgartirish"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "Profilni oʻchi&rish"
-
 #: src/konqsessiondlg.cpp:77
 #, fuzzy
 #| msgid "Manage Sessions"
@@ -599,101 +517,72 @@ msgctxt "@title:window"
 msgid "Session exists. Overwrite?"
 msgstr "Seans allaqachon mavjud. Uni almashtirishni istaysizmi?"
 
-#: src/konqsessionmanager.cpp:330
-#, fuzzy
-#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr ""
-"Konqueror xato bilan ishini tugatgan. Oxirgi seansni tiklashni istaysizmi?"
+#: src/konqguiclients.cpp:66
+#, fuzzy, kde-format
+#| msgid "Preview in %1"
+msgid "Preview &in %1"
+msgstr "%1 bilan koʻrish"
 
-#: src/konqsessionmanager.cpp:332
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "%1"
+
+#: src/konqhistorydialog.cpp:45
 #, fuzzy
-#| msgid "Restore session?"
+#| msgid "History"
 msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "Oxirgi seansni tiklash"
+msgid "History"
+msgstr "Tarix"
 
-#: src/konqsessionmanager.cpp:333
+#: src/konqmain.cpp:96
 #, fuzzy
-#| msgid "Restore session"
-msgid "Restore Session"
-msgstr "Ha"
+#| msgid "Start without a default window"
+msgid "Start without a default window, when called without URLs"
+msgstr "Andoza oynasiz boshlash"
 
-#: src/konqsessionmanager.cpp:334
-#, fuzzy
-#| msgid "Do not restore"
-msgid "Do Not Restore"
-msgstr "Yoʻq"
-
-#: src/konqsessionmanager.cpp:335
-#, fuzzy
-#| msgid "Ask me later"
-msgid "Ask Me Later"
-msgstr "Keyinroq soʻrang"
-
-#: src/konqviewmanager.cpp:1411
+#: src/konqmain.cpp:98
 msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"Ushbu oynada bir nechta tab ochilgan.\n"
-"Koʻrish profilini yuklash ularni yopadi."
-
-#: src/konqviewmanager.cpp:1413 src/konqmainwindow.cpp:4937
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Tasdiqlash"
-
-#: src/konqviewmanager.cpp:1414
-msgid "Load View Profile"
-msgstr "Koʻrish profilini yuklash"
-
-#: src/konqviewmanager.cpp:1426
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"Ushbu tabda joʻnatilmagan maʼlumot mavjud.\n"
-"Profilni yuklash natijasida maʼlumot yoʻqoladi."
-
-#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1615
-#: src/konqmainwindow.cpp:2342 src/konqmainwindow.cpp:2420
-#: src/konqmainwindow.cpp:2450 src/konqmainwindow.cpp:2492
-#: src/konqmainwindow.cpp:2514 src/konqmainwindow.cpp:4972
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "Oʻzgarishlardan voz kechish"
-
-#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1615
-#: src/konqmainwindow.cpp:2342 src/konqmainwindow.cpp:2420
-#: src/konqmainwindow.cpp:2450 src/konqmainwindow.cpp:2492
-#: src/konqmainwindow.cpp:2515 src/konqmainwindow.cpp:4972
-msgid "&Discard Changes"
-msgstr "Oʻzgarish&lardan voz kechish"
-
-#: src/konqview.cpp:1203
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
+"Preload for later use. This mode does not support URLs on the command line"
 msgstr ""
 
-#: src/konqview.cpp:1205
-#, fuzzy
-#| msgid "Warning"
-msgctxt "@title:window"
-msgid "Warning"
-msgstr "Ogohnoma"
+#: src/konqmain.cpp:100
+msgid "Profile to open"
+msgstr "Ochish uchun profil"
 
-#: src/konqview.cpp:1205
-msgid "Resend"
-msgstr "Qaytadan joʻnatish"
+#: src/konqmain.cpp:102
+msgid "List available profiles"
+msgstr "Mavjud boʻlgan profillarni koʻrsatish"
+
+#: src/konqmain.cpp:104
+#, fuzzy
+#| msgid "List available profiles"
+msgid "List available sessions"
+msgstr "Mavjud boʻlgan profillarni koʻrsatish"
+
+#: src/konqmain.cpp:106
+#, fuzzy
+#| msgid "Location to open"
+msgid "Session to open"
+msgstr "Koʻrish uchun manzil"
+
+#: src/konqmain.cpp:108
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+msgstr "Bu URL uchun MIME turi (m-n text/html yoki inode/directory)"
+
+#: src/konqmain.cpp:109
+msgid "Part to use (e.g. khtml or kwebkitpart)"
+msgstr ""
+
+#: src/konqmain.cpp:111
+msgid ""
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
+msgstr ""
+
+#: src/konqmain.cpp:113
+msgid "Location to open"
+msgstr "Koʻrish uchun manzil"
 
 #: src/konqmainwindow.cpp:574
 msgctxt "@title:tab"
@@ -711,6 +600,23 @@ msgid ""
 msgstr ""
 "Ushbu sahifada joʻnatilmagan maʼlumot mavjud.\n"
 "Uni qaytadan yuklash natijasida maʼlumot yoʻqoladi."
+
+#: src/konqmainwindow.cpp:1615 src/konqmainwindow.cpp:2342
+#: src/konqmainwindow.cpp:2420 src/konqmainwindow.cpp:2450
+#: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2514
+#: src/konqmainwindow.cpp:4972 src/konqviewmanager.cpp:1427
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "Oʻzgarishlardan voz kechish"
+
+#: src/konqmainwindow.cpp:1615 src/konqmainwindow.cpp:2342
+#: src/konqmainwindow.cpp:2420 src/konqmainwindow.cpp:2450
+#: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2515
+#: src/konqmainwindow.cpp:4972 src/konqviewmanager.cpp:1427
+msgid "&Discard Changes"
+msgstr "Oʻzgarish&lardan voz kechish"
 
 #: src/konqmainwindow.cpp:1725
 msgid "File Management"
@@ -1287,6 +1193,13 @@ msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "Ushbu oynada bir nechta tab ochilgan. Chiqishga ishonchingiz komilmi?"
 
+#: src/konqmainwindow.cpp:4937 src/konqviewmanager.cpp:1413
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Tasdiqlash"
+
 #: src/konqmainwindow.cpp:4939
 msgid "C&lose Current Tab"
 msgstr "J&oriy tabni yopish"
@@ -1340,6 +1253,93 @@ msgid ""
 msgstr ""
 "Moshlash xatosi roʻy berganga oʻxshaydi. Konqueror %1 faylini ochishga "
 "moslangan, ammo u bunday fayl turlari bilan ishlayolmaydi."
+
+#: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "Profile Management"
+msgctxt "@title:window"
+msgid "Profile Management"
+msgstr "Profil boshqaruvi"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "Profilni nomini oʻ&zgartirish"
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "Profilni oʻchi&rish"
+
+#: src/konqsessionmanager.cpp:330
+#, fuzzy
+#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr ""
+"Konqueror xato bilan ishini tugatgan. Oxirgi seansni tiklashni istaysizmi?"
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore session?"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "Oxirgi seansni tiklash"
+
+#: src/konqsessionmanager.cpp:333
+#, fuzzy
+#| msgid "Restore session"
+msgid "Restore Session"
+msgstr "Ha"
+
+#: src/konqsessionmanager.cpp:334
+#, fuzzy
+#| msgid "Do not restore"
+msgid "Do Not Restore"
+msgstr "Yoʻq"
+
+#: src/konqsessionmanager.cpp:335
+#, fuzzy
+#| msgid "Ask me later"
+msgid "Ask Me Later"
+msgstr "Keyinroq soʻrang"
+
+#: src/konqviewmanager.cpp:1411
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"Ushbu oynada bir nechta tab ochilgan.\n"
+"Koʻrish profilini yuklash ularni yopadi."
+
+#: src/konqviewmanager.cpp:1414
+msgid "Load View Profile"
+msgstr "Koʻrish profilini yuklash"
+
+#: src/konqviewmanager.cpp:1426
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"Ushbu tabda joʻnatilmagan maʼlumot mavjud.\n"
+"Profilni yuklash natijasida maʼlumot yoʻqoladi."
+
+#: src/konqview.cpp:1203
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+
+#: src/konqview.cpp:1205
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "Ogohnoma"
+
+#: src/konqview.cpp:1205
+msgid "Resend"
+msgstr "Qaytadan joʻnatish"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy

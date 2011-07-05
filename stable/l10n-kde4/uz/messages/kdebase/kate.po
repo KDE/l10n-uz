@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-06 04:01+0200\n"
+"POT-Creation-Date: 2011-07-05 04:20+0200\n"
 "PO-Revision-Date: 2006-12-17 12:02+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -621,7 +621,7 @@ msgstr "Tahrirchi komponentini tanlash"
 msgid "Editor Component Options"
 msgstr "Tahrirchi komponentini tanlash"
 
-#: app/kateconfigdialog.cpp:402
+#: app/kateconfigdialog.cpp:408
 #, fuzzy
 #| msgid " day(s)"
 msgctxt "The suffix of 'Delete unused meta-information after'"
@@ -644,6 +644,69 @@ msgid ""
 msgstr ""
 "Bu yerda, hamma mavjud boʻlgan plaginlarini koʻrishingiz mumkin. Belgilangan "
 "plaginlar yuklangan. Kate ishga tushganda ular yuklanadi."
+
+#: app/katedocmanager.cpp:69
+#, fuzzy
+#| msgid ""
+#| "A KDE text-editor component could not be found;\n"
+#| "please check your KDE installation."
+msgid ""
+"A KDE text-editor component could not be found.\n"
+"Please check your KDE installation."
+msgstr ""
+"KDE matn taxrirchi komponenti topilmadi.\n"
+"Iltimos KDE toʻgʻri oʻrnatilganligini tekshiring."
+
+#: app/katedocmanager.cpp:369
+#, kde-format
+msgid ""
+"The supposedly temporary file %1 has been modified. Do you want to delete it "
+"anyway?"
+msgstr ""
+
+#: app/katedocmanager.cpp:371
+#, fuzzy
+msgid "Delete File?"
+msgstr "Oʻchirilgan"
+
+#: app/katedocmanager.cpp:513
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
+#| "save your changes or discard them?"
+msgid ""
+"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
+"save your changes or discard them?</p>"
+msgstr "<p>'%1' hujjatiga oʻzarish kiritildi.<p>Uni saqlashni istaysizmi?"
+
+#: app/katedocmanager.cpp:515
+msgid "Close Document"
+msgstr "Hujjatni yopish"
+
+#: app/katedocmanager.cpp:522
+#, fuzzy
+msgid "Save As"
+msgstr "...sifatida s&aqlash"
+
+#: app/katedocmanager.cpp:548 app/katemainwindow.cpp:436
+msgid "New file opened while trying to close Kate, closing aborted."
+msgstr ""
+
+#: app/katedocmanager.cpp:549 app/katemainwindow.cpp:437
+msgid "Closing Aborted"
+msgstr "Yopish toʻxtatildi"
+
+#: app/katedocmanager.cpp:622
+msgid "Starting Up"
+msgstr "Ishga tushmoqda"
+
+#: app/katedocmanager.cpp:623
+msgid "Reopening files from the last session..."
+msgstr "Oxirgi seansning fayllari qaytadan ochilmoqda..."
+
+#: app/katedocmanager.cpp:829
+msgid "Errors/Warnings while opening documents"
+msgstr ""
 
 #: app/katemain.cpp:81
 msgid "Kate"
@@ -1106,81 +1169,73 @@ msgstr ""
 msgid "Close all documents"
 msgstr "Hamma ochiq hujjatlarni yopish."
 
-#: app/katemainwindow.cpp:436 app/katedocmanager.cpp:545
-msgid "New file opened while trying to close Kate, closing aborted."
-msgstr ""
-
-#: app/katemainwindow.cpp:437 app/katedocmanager.cpp:546
-msgid "Closing Aborted"
-msgstr "Yopish toʻxtatildi"
-
 #: app/katemainwindow.cpp:609
 #, kde-format
 msgctxt "'document name [*]', [*] means modified"
 msgid "%1 [*]"
 msgstr ""
 
-#: app/katemainwindow.cpp:801
+#: app/katemainwindow.cpp:796
 msgid "&Other..."
 msgstr "&Boshqa..."
 
-#: app/katemainwindow.cpp:827
+#: app/katemainwindow.cpp:822
 #, fuzzy, kde-format
 #| msgid "Application '%1' not found!"
 msgid "Application '%1' not found."
 msgstr "Dastur '%1' topilmadi."
 
-#: app/katemainwindow.cpp:827
+#: app/katemainwindow.cpp:822
 #, fuzzy
 msgid "Application not found"
 msgstr "Dastur topilmadi!"
 
-#: app/katemdi.cpp:121
+#: app/katemdi.cpp:120
 msgid "Tool &Views"
 msgstr ""
 
-#: app/katemdi.cpp:123
+#: app/katemdi.cpp:122
 msgid "Show Side&bars"
 msgstr "Yon &panellarni koʻrsatish"
 
-#: app/katemdi.cpp:166
+#: app/katemdi.cpp:161
 #, kde-format
 msgid "Show %1"
 msgstr ""
 
-#: app/katemdi.cpp:458
+#: app/katemdi.cpp:453
 msgid "Behavior"
 msgstr "Xususiyatlar"
 
-#: app/katemdi.cpp:461
+#: app/katemdi.cpp:456
 msgid "Make Non-Persistent"
 msgstr ""
 
-#: app/katemdi.cpp:461
+#: app/katemdi.cpp:456
 msgid "Make Persistent"
 msgstr ""
 
-#: app/katemdi.cpp:463
+#: app/katemdi.cpp:458
 msgid "Move To"
 msgstr "Koʻchirish"
 
-#: app/katemdi.cpp:466
+#: app/katemdi.cpp:461
 msgid "Left Sidebar"
 msgstr "Chap yon paneli"
 
-#: app/katemdi.cpp:469
+#: app/katemdi.cpp:464
 msgid "Right Sidebar"
 msgstr "Oʻng yon paneli"
 
-#: app/katemdi.cpp:472
+#: app/katemdi.cpp:467
 msgid "Top Sidebar"
 msgstr "Yuqori yon paneli"
 
-#: app/katemdi.cpp:475
+#: app/katemdi.cpp:470
 msgid "Bottom Sidebar"
 msgstr "Past yon paneli"
 
-#: app/katemdi.cpp:781
+#: app/katemdi.cpp:776
 msgid ""
 "<qt>You are about to hide the sidebars. With hidden sidebars it is not "
 "possible to directly access the tool views with the mouse anymore, so if you "
@@ -1292,6 +1347,53 @@ msgstr ""
 msgid "Diff Output"
 msgstr ""
 
+#: app/katesavemodifieddialog.cpp:91
+#, kde-format
+msgid "Save As (%1)"
+msgstr "Saqlash (%1)"
+
+#: app/katesavemodifieddialog.cpp:163
+msgid "Save Documents"
+msgstr "Hujjatlarni saqlash"
+
+#: app/katesavemodifieddialog.cpp:169
+msgid "&Save Selected"
+msgstr "Tanlanganni s&aqlash"
+
+#: app/katesavemodifieddialog.cpp:177
+#, fuzzy
+#| msgid "Do Not Save"
+msgid "Do &Not Close"
+msgstr "Saqlanmasin"
+
+#: app/katesavemodifieddialog.cpp:184
+msgid ""
+"<qt>The following documents have been modified. Do you want to save them "
+"before closing?</qt>"
+msgstr ""
+"<qt>Quyidagi hujjatlarga oʻzarish kiritildi. Ularni yopishdan oldin "
+"saqlashni istaysizmi?</qt>"
+
+#: app/katesavemodifieddialog.cpp:187
+#: plugins/filetree/katefiletreeplugin.cpp:159
+msgid "Documents"
+msgstr "Hujjatlar"
+
+#: app/katesavemodifieddialog.cpp:187
+msgid "Location"
+msgstr "Manzil"
+
+#: app/katesavemodifieddialog.cpp:196
+msgid "Se&lect All"
+msgstr "&Hammasini tanlash"
+
+#: app/katesavemodifieddialog.cpp:247
+msgid ""
+"Data you requested to be saved could not be written. Please choose how you "
+"want to proceed."
+msgstr ""
+"Talab qilingan maʼlumotni saqlab boʻlmadi. Qanday davom etishni tanlang."
+
 #: app/katesession.cpp:269
 msgid ""
 "Internal error: there is more than one instance open for a given session."
@@ -1400,6 +1502,88 @@ msgstr ""
 msgid "Session Renaming"
 msgstr "Seansning nomi:"
 
+#: app/kateviewmanager.cpp:127
+msgid "Split Ve&rtical"
+msgstr "&Boʻyiga boʻlish"
+
+#: app/kateviewmanager.cpp:131
+msgid "Split the currently active view vertically into two views."
+msgstr "Joriy aktiv koʻrinishni boʻyiga ikkita koʻrinishga boʻlish."
+
+#: app/kateviewmanager.cpp:135
+msgid "Split &Horizontal"
+msgstr "&Eniga boʻlish"
+
+#: app/kateviewmanager.cpp:139
+msgid "Split the currently active view horizontally into two views."
+msgstr "Joriy aktiv koʻrinishni eniga ikkita koʻrinishga boʻlish."
+
+#: app/kateviewmanager.cpp:143
+msgid "Cl&ose Current View"
+msgstr "Joriy &koʻrinishni yopish"
+
+#: app/kateviewmanager.cpp:147
+msgid "Close the currently active splitted view"
+msgstr "Joriy aktiv boʻlingan koʻrinishni yopish."
+
+#: app/kateviewmanager.cpp:150
+#, fuzzy
+#| msgid "Next View"
+msgid "Next Split View"
+msgstr "Keyingi koʻrinish"
+
+#: app/kateviewmanager.cpp:154
+msgid "Make the next split view the active one."
+msgstr "Keyingi boʻlingan koʻrinishni aktiv qilish."
+
+#: app/kateviewmanager.cpp:157
+#, fuzzy
+#| msgid "Previous View"
+msgid "Previous Split View"
+msgstr "Oldingi koʻrinish"
+
+#: app/kateviewmanager.cpp:161
+msgid "Make the previous split view the active one."
+msgstr "Oldingi boʻlingan koʻrinishni aktiv qilish."
+
+#: app/kateviewmanager.cpp:164
+msgid "Move Splitter Right"
+msgstr ""
+
+#: app/kateviewmanager.cpp:167
+msgid "Move the splitter of the current view to the right"
+msgstr ""
+
+#: app/kateviewmanager.cpp:170
+msgid "Move Splitter Left"
+msgstr ""
+
+#: app/kateviewmanager.cpp:173
+msgid "Move the splitter of the current view to the left"
+msgstr ""
+
+#: app/kateviewmanager.cpp:176
+msgid "Move Splitter Up"
+msgstr ""
+
+#: app/kateviewmanager.cpp:179
+msgid "Move the splitter of the current view up"
+msgstr ""
+
+#: app/kateviewmanager.cpp:182
+msgid "Move Splitter Down"
+msgstr ""
+
+#: app/kateviewmanager.cpp:185
+#, fuzzy
+#| msgid "Make the next split view the active one."
+msgid "Move the splitter of the current view down"
+msgstr "Keyingi boʻlingan koʻrinishni aktiv qilish."
+
+#: app/kateviewmanager.cpp:214
+msgid "Open File"
+msgstr "Faylni ochish"
+
 #: app/kateviewspace.cpp:256 app/kateviewspace.cpp:361
 #, kde-format
 msgid " Line: %1 Col: %2 "
@@ -1419,189 +1603,70 @@ msgstr " QOʻY "
 msgid " BLOCK "
 msgstr ""
 
-#: app/kateviewmanager.cpp:120
-msgid "Split Ve&rtical"
-msgstr "&Boʻyiga boʻlish"
-
-#: app/kateviewmanager.cpp:124
-msgid "Split the currently active view vertically into two views."
-msgstr "Joriy aktiv koʻrinishni boʻyiga ikkita koʻrinishga boʻlish."
-
-#: app/kateviewmanager.cpp:128
-msgid "Split &Horizontal"
-msgstr "&Eniga boʻlish"
-
-#: app/kateviewmanager.cpp:132
-msgid "Split the currently active view horizontally into two views."
-msgstr "Joriy aktiv koʻrinishni eniga ikkita koʻrinishga boʻlish."
-
-#: app/kateviewmanager.cpp:136
-msgid "Cl&ose Current View"
-msgstr "Joriy &koʻrinishni yopish"
-
-#: app/kateviewmanager.cpp:140
-msgid "Close the currently active splitted view"
-msgstr "Joriy aktiv boʻlingan koʻrinishni yopish."
-
-#: app/kateviewmanager.cpp:143
+#: plugins/filetree/katefiletree.cpp:50
 #, fuzzy
-#| msgid "Next View"
-msgid "Next Split View"
-msgstr "Keyingi koʻrinish"
+#| msgid "Clos&e All"
+msgid "Close"
+msgstr "Hammasini yo&pish"
 
-#: app/kateviewmanager.cpp:147
-msgid "Make the next split view the active one."
-msgstr "Keyingi boʻlingan koʻrinishni aktiv qilish."
+#: plugins/filetree/katefiletree.cpp:56
+msgid "Tree Mode"
+msgstr ""
 
-#: app/kateviewmanager.cpp:150
+#: plugins/filetree/katefiletree.cpp:57
+msgid "Set view style to Tree Mode"
+msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:60
+msgid "List Mode"
+msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:61
+msgid "Set view style to List Mode"
+msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:66
+#: plugins/filetree/katefiletreeconfigpage.cpp:87
+msgid "Document Name"
+msgstr "Hujjatning nomi"
+
+#: plugins/filetree/katefiletree.cpp:67
 #, fuzzy
-#| msgid "Previous View"
-msgid "Previous Split View"
-msgstr "Oldingi koʻrinish"
+#| msgid "Document Name"
+msgid "Sort by Document Name"
+msgstr "Hujjatning nomi"
 
-#: app/kateviewmanager.cpp:154
-msgid "Make the previous split view the active one."
-msgstr "Oldingi boʻlingan koʻrinishni aktiv qilish."
-
-#: app/kateviewmanager.cpp:157
-msgid "Move Splitter Right"
-msgstr ""
-
-#: app/kateviewmanager.cpp:160
-msgid "Move the splitter of the current view to the right"
-msgstr ""
-
-#: app/kateviewmanager.cpp:163
-msgid "Move Splitter Left"
-msgstr ""
-
-#: app/kateviewmanager.cpp:166
-msgid "Move the splitter of the current view to the left"
-msgstr ""
-
-#: app/kateviewmanager.cpp:169
-msgid "Move Splitter Up"
-msgstr ""
-
-#: app/kateviewmanager.cpp:172
-msgid "Move the splitter of the current view up"
-msgstr ""
-
-#: app/kateviewmanager.cpp:175
-msgid "Move Splitter Down"
-msgstr ""
-
-#: app/kateviewmanager.cpp:178
+#: plugins/filetree/katefiletree.cpp:71
 #, fuzzy
-#| msgid "Make the next split view the active one."
-msgid "Move the splitter of the current view down"
-msgstr "Keyingi boʻlingan koʻrinishni aktiv qilish."
+#| msgid "Document List"
+msgid "Document Path"
+msgstr "Hujjatlar roʻyxati"
 
-#: app/kateviewmanager.cpp:207
-msgid "Open File"
-msgstr "Faylni ochish"
-
-#: app/katedocmanager.cpp:69
+#: plugins/filetree/katefiletree.cpp:72
 #, fuzzy
-#| msgid ""
-#| "A KDE text-editor component could not be found;\n"
-#| "please check your KDE installation."
-msgid ""
-"A KDE text-editor component could not be found.\n"
-"Please check your KDE installation."
-msgstr ""
-"KDE matn taxrirchi komponenti topilmadi.\n"
-"Iltimos KDE toʻgʻri oʻrnatilganligini tekshiring."
+#| msgid "&Show All Documents >>"
+msgid "Sort by Document Path"
+msgstr "Hamma hujja&tlarni koʻrsatish >>"
 
-#: app/katedocmanager.cpp:366
-#, kde-format
-msgid ""
-"The supposedly temporary file %1 has been modified. Do you want to delete it "
-"anyway?"
-msgstr ""
+#: plugins/filetree/katefiletree.cpp:75
+#: plugins/filetree/katefiletreeconfigpage.cpp:86
+msgid "Opening Order"
+msgstr "Ochish tartibi"
 
-#: app/katedocmanager.cpp:368
+#: plugins/filetree/katefiletree.cpp:76
 #, fuzzy
-msgid "Delete File?"
-msgstr "Oʻchirilgan"
+#| msgid "Opening Order"
+msgid "Sort by Opening Order"
+msgstr "Ochish tartibi"
 
-#: app/katedocmanager.cpp:510
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
-#| "save your changes or discard them?"
-msgid ""
-"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
-"save your changes or discard them?</p>"
-msgstr "<p>'%1' hujjatiga oʻzarish kiritildi.<p>Uni saqlashni istaysizmi?"
+#: plugins/filetree/katefiletree.cpp:183
+msgid "View Mode"
+msgstr ""
 
-#: app/katedocmanager.cpp:512
-msgid "Close Document"
-msgstr "Hujjatni yopish"
-
-#: app/katedocmanager.cpp:519
+#: plugins/filetree/katefiletree.cpp:187
 #, fuzzy
-msgid "Save As"
-msgstr "...sifatida s&aqlash"
-
-#: app/katedocmanager.cpp:619
-msgid "Starting Up"
-msgstr "Ishga tushmoqda"
-
-#: app/katedocmanager.cpp:620
-msgid "Reopening files from the last session..."
-msgstr "Oxirgi seansning fayllari qaytadan ochilmoqda..."
-
-#: app/katedocmanager.cpp:826
-msgid "Errors/Warnings while opening documents"
-msgstr ""
-
-#: app/katesavemodifieddialog.cpp:91
-#, kde-format
-msgid "Save As (%1)"
-msgstr "Saqlash (%1)"
-
-#: app/katesavemodifieddialog.cpp:163
-msgid "Save Documents"
-msgstr "Hujjatlarni saqlash"
-
-#: app/katesavemodifieddialog.cpp:169
-msgid "&Save Selected"
-msgstr "Tanlanganni s&aqlash"
-
-#: app/katesavemodifieddialog.cpp:177
-#, fuzzy
-#| msgid "Do Not Save"
-msgid "Do &Not Close"
-msgstr "Saqlanmasin"
-
-#: app/katesavemodifieddialog.cpp:184
-msgid ""
-"<qt>The following documents have been modified. Do you want to save them "
-"before closing?</qt>"
-msgstr ""
-"<qt>Quyidagi hujjatlarga oʻzarish kiritildi. Ularni yopishdan oldin "
-"saqlashni istaysizmi?</qt>"
-
-#: app/katesavemodifieddialog.cpp:187
-#: plugins/filetree/katefiletreeplugin.cpp:155
-msgid "Documents"
-msgstr "Hujjatlar"
-
-#: app/katesavemodifieddialog.cpp:187
-msgid "Location"
-msgstr "Manzil"
-
-#: app/katesavemodifieddialog.cpp:196
-msgid "Se&lect All"
-msgstr "&Hammasini tanlash"
-
-#: app/katesavemodifieddialog.cpp:247
-msgid ""
-"Data you requested to be saved could not be written. Please choose how you "
-"want to proceed."
-msgstr ""
-"Talab qilingan maʼlumotni saqlab boʻlmadi. Qanday davom etishni tanlang."
+msgid "Sort By"
+msgstr "&Saralash"
 
 #: plugins/filetree/katefiletreeconfigpage.cpp:60
 msgid "Background Shading"
@@ -1619,16 +1684,6 @@ msgstr ""
 msgid "&Sort by:"
 msgstr "&Saralash:"
 
-#: plugins/filetree/katefiletreeconfigpage.cpp:86
-#: plugins/filetree/katefiletree.cpp:75
-msgid "Opening Order"
-msgstr "Ochish tartibi"
-
-#: plugins/filetree/katefiletreeconfigpage.cpp:87
-#: plugins/filetree/katefiletree.cpp:66
-msgid "Document Name"
-msgstr "Hujjatning nomi"
-
 #: plugins/filetree/katefiletreeconfigpage.cpp:88
 msgid "Url"
 msgstr ""
@@ -1639,7 +1694,7 @@ msgid "&View Mode:"
 msgstr "&Yangi"
 
 #: plugins/filetree/katefiletreeconfigpage.cpp:99
-#: plugins/filetree/katefiletreeplugin.cpp:84
+#: plugins/filetree/katefiletreeplugin.cpp:88
 #, fuzzy
 msgid "Tree View"
 msgstr "Oldingi koʻrinish"
@@ -1689,69 +1744,14 @@ msgstr "Hujjatning nomi"
 msgid "Show open documents in a tree"
 msgstr ""
 
-#: plugins/filetree/katefiletreeplugin.cpp:92
+#: plugins/filetree/katefiletreeplugin.cpp:96
 #, fuzzy
 msgid "Configure Tree View"
 msgstr "Oldingi koʻrinish"
 
-#: plugins/filetree/katefiletreeplugin.cpp:195
+#: plugins/filetree/katefiletreeplugin.cpp:202
 msgid "&Show Active"
 msgstr ""
-
-#: plugins/filetree/katefiletree.cpp:50
-#, fuzzy
-#| msgid "Clos&e All"
-msgid "Close"
-msgstr "Hammasini yo&pish"
-
-#: plugins/filetree/katefiletree.cpp:56
-msgid "Tree Mode"
-msgstr ""
-
-#: plugins/filetree/katefiletree.cpp:57
-msgid "Set view style to Tree Mode"
-msgstr ""
-
-#: plugins/filetree/katefiletree.cpp:60
-msgid "List Mode"
-msgstr ""
-
-#: plugins/filetree/katefiletree.cpp:61
-msgid "Set view style to List Mode"
-msgstr ""
-
-#: plugins/filetree/katefiletree.cpp:67
-#, fuzzy
-#| msgid "Document Name"
-msgid "Sort by Document Name"
-msgstr "Hujjatning nomi"
-
-#: plugins/filetree/katefiletree.cpp:71
-#, fuzzy
-#| msgid "Document List"
-msgid "Document Path"
-msgstr "Hujjatlar roʻyxati"
-
-#: plugins/filetree/katefiletree.cpp:72
-#, fuzzy
-#| msgid "&Show All Documents >>"
-msgid "Sort by Document Path"
-msgstr "Hamma hujja&tlarni koʻrsatish >>"
-
-#: plugins/filetree/katefiletree.cpp:76
-#, fuzzy
-#| msgid "Opening Order"
-msgid "Sort by Opening Order"
-msgstr "Ochish tartibi"
-
-#: plugins/filetree/katefiletree.cpp:183
-msgid "View Mode"
-msgstr ""
-
-#: plugins/filetree/katefiletree.cpp:187
-#, fuzzy
-msgid "Sort By"
-msgstr "&Saralash"
 
 #~ msgid "Title"
 #~ msgstr "Sarlavha"
