@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-22 03:41+0200\n"
+"POT-Creation-Date: 2011-07-06 03:51+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -932,7 +932,7 @@ msgstr "Tanlangan satrni olib tashlashni istaysizmi?"
 msgid "&Delete Connection"
 msgstr "Ulanishni &tekshirish"
 
-#: formeditor/container.cpp:1485 formeditor/commands.cpp:328
+#: formeditor/container.cpp:1485
 msgid "Move multiple widgets"
 msgstr ""
 
@@ -1989,56 +1989,6 @@ msgctxt "default indent value"
 msgid "default"
 msgstr "Andoza: %1"
 
-#: formeditor/richtextdialog.cpp:44
-msgid "Edit Rich Text"
-msgstr ""
-
-#: formeditor/richtextdialog.cpp:66
-msgid "Bold"
-msgstr ""
-
-#: formeditor/richtextdialog.cpp:68
-msgid "Italic"
-msgstr ""
-
-#: formeditor/richtextdialog.cpp:70
-#, fuzzy
-msgid "Underline"
-msgstr "chiziq"
-
-#: formeditor/richtextdialog.cpp:74
-#, fuzzy
-#| msgid "Description"
-msgid "Superscript"
-msgstr "Taʼrifi"
-
-#: formeditor/richtextdialog.cpp:76
-#, fuzzy
-#| msgid "Description"
-msgid "Subscript"
-msgstr "Taʼrifi"
-
-#: formeditor/richtextdialog.cpp:81
-msgid "Left Align"
-msgstr ""
-
-#: formeditor/richtextdialog.cpp:84
-#, fuzzy
-#| msgid "Create"
-msgid "Centered"
-msgstr "Yaratish"
-
-#: formeditor/richtextdialog.cpp:87
-#, fuzzy
-#| msgid "To Right"
-msgid "Right Align"
-msgstr "Oʻngga"
-
-#: formeditor/richtextdialog.cpp:90
-#, fuzzy
-msgid "Justified"
-msgstr "(koʻsatilmagan)"
-
 #: formeditor/tabstopdialog.cpp:48
 #, fuzzy
 msgid "Edit Tab Order"
@@ -2228,157 +2178,6 @@ msgstr "Amal turi:"
 #, kde-format
 msgid "&Select action to be executed after clicking \"%1\" button:"
 msgstr ""
-
-#: formeditor/commands.cpp:156
-#, fuzzy, kde-format
-msgid "Change \"%1\" property for multiple widgets"
-msgstr "Eski birinchi darajali kalit olib tashlandi."
-
-#: formeditor/commands.cpp:159
-#, fuzzy, kde-format
-msgid "Change \"%1\" property for widget \"%2\""
-msgstr "Eski birinchi darajali kalit olib tashlandi."
-
-#: formeditor/commands.cpp:422
-msgid "Align Widgets to Grid"
-msgstr ""
-
-#: formeditor/commands.cpp:425
-msgid "Align Widgets to Left"
-msgstr ""
-
-#: formeditor/commands.cpp:428
-msgid "Align Widgets to Right"
-msgstr ""
-
-#: formeditor/commands.cpp:431
-msgid "Align Widgets to Top"
-msgstr ""
-
-#: formeditor/commands.cpp:434
-msgid "Align Widgets to Bottom"
-msgstr ""
-
-#: formeditor/commands.cpp:585
-msgid "Resize Widgets to Grid"
-msgstr ""
-
-#: formeditor/commands.cpp:588
-#, fuzzy
-msgid "Resize Widgets to Fit Contents"
-msgstr "Jadval tarkibini tozalash"
-
-#: formeditor/commands.cpp:591
-msgid "Resize Widgets to Narrowest"
-msgstr ""
-
-#: formeditor/commands.cpp:594
-msgid "Resize Widgets to Widest"
-msgstr ""
-
-#: formeditor/commands.cpp:597
-msgid "Resize Widgets to Shortest"
-msgstr ""
-
-#: formeditor/commands.cpp:600
-msgid "Resize Widgets to Tallest"
-msgstr ""
-
-#: formeditor/commands.cpp:815
-#, kde-format
-msgid "Change layout of widget \"%1\""
-msgstr ""
-
-#: formeditor/commands.cpp:921
-#, fuzzy, kde-format
-msgid "Insert widget \"%1\""
-msgstr "Xato jadval nomi \"%1\""
-
-#: formeditor/commands.cpp:924
-#, fuzzy
-msgid "Insert widget"
-msgstr "Qoʻyish"
-
-#: formeditor/commands.cpp:965
-#, kde-format
-msgid ""
-"Could not insert widget of type \"%1\". A problem with widget's creation "
-"encountered."
-msgstr ""
-
-#: formeditor/commands.cpp:1153
-#, fuzzy
-#| msgid "&Horizontally"
-msgid "Group Widgets Horizontally"
-msgstr "&Eniga"
-
-#: formeditor/commands.cpp:1156
-#, fuzzy
-#| msgid "&Vertically"
-msgid "Group Widgets Vertically"
-msgstr "&Boʻyiga"
-
-#: formeditor/commands.cpp:1159
-msgid "Group Widgets in a Grid"
-msgstr ""
-
-#: formeditor/commands.cpp:1162
-#, fuzzy
-msgid "Group Widgets Horizontally in a Splitter"
-msgstr "&Eniga"
-
-#: formeditor/commands.cpp:1165
-#, fuzzy
-msgid "Group Widgets Vertically in a Splitter"
-msgstr "&Eniga"
-
-#: formeditor/commands.cpp:1168
-msgid "Group Widgets By Rows"
-msgstr ""
-
-#: formeditor/commands.cpp:1171
-msgid "Group Widgets Vertically By Columns"
-msgstr ""
-
-#: formeditor/commands.cpp:1174
-#, fuzzy
-msgid "Group widgets"
-msgstr "Amalsiz"
-
-#: formeditor/commands.cpp:1304
-#, kde-format
-msgid "Break Layout: \"%1\""
-msgstr ""
-
-#: formeditor/commands.cpp:1386
-#, fuzzy
-#| msgid "Date"
-msgid "Paste"
-msgstr "Sana"
-
-#: formeditor/commands.cpp:1713
-#, fuzzy
-#| msgid "Delete Row"
-msgid "Delete widget"
-msgstr "Satrni olib tashlash"
-
-#: formeditor/commands.cpp:1844
-msgid "Duplicate widget"
-msgstr ""
-
-#: formeditor/commands.cpp:1893
-msgid "Cut"
-msgstr ""
-
-#: formeditor/commands.cpp:2180
-#, fuzzy
-msgid "Add Page"
-msgstr "Qoʻshish moslamalari"
-
-#: formeditor/commands.cpp:2304
-#, fuzzy
-msgid "Remove Page"
-msgstr "Elementni olib tashlash"
 
 #. i18n: file: main/startup/KexiConnSelector.ui:78
 #. i18n: ectx: property (text), widget (Q3ListView, list)
@@ -2838,6 +2637,262 @@ msgstr ""
 #: formeditor/form.cpp:3208
 msgid "Layout Spacing"
 msgstr ""
+
+#: formeditor/commands.cpp:156
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Change \"%1\" property for multiple widgets"
+msgstr "Eski birinchi darajali kalit olib tashlandi."
+
+#: formeditor/commands.cpp:159
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Change \"%1\" property for widget \"%2\""
+msgstr "Eski birinchi darajali kalit olib tashlandi."
+
+#: formeditor/commands.cpp:328
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move multiple widgets"
+msgstr "Amalsiz"
+
+#: formeditor/commands.cpp:422
+msgctxt "(qtundo-format)"
+msgid "Align Widgets to Grid"
+msgstr ""
+
+#: formeditor/commands.cpp:425
+#, fuzzy
+#| msgid "To Left"
+msgctxt "(qtundo-format)"
+msgid "Align Widgets to Left"
+msgstr "Chapga"
+
+#: formeditor/commands.cpp:428
+#, fuzzy
+#| msgid "To Right"
+msgctxt "(qtundo-format)"
+msgid "Align Widgets to Right"
+msgstr "Oʻngga"
+
+#: formeditor/commands.cpp:431
+msgctxt "(qtundo-format)"
+msgid "Align Widgets to Top"
+msgstr ""
+
+#: formeditor/commands.cpp:434
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Align Widgets to Bottom"
+msgstr "Amalsiz"
+
+#: formeditor/commands.cpp:585
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Resize Widgets to Grid"
+msgstr "Jadval tarkibini tozalash"
+
+#: formeditor/commands.cpp:588
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Resize Widgets to Fit Contents"
+msgstr "Jadval tarkibini tozalash"
+
+#: formeditor/commands.cpp:591
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Resize Widgets to Narrowest"
+msgstr "Jadval tarkibini tozalash"
+
+#: formeditor/commands.cpp:594
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Resize Widgets to Widest"
+msgstr "Jadval tarkibini tozalash"
+
+#: formeditor/commands.cpp:597
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Resize Widgets to Shortest"
+msgstr "Jadval tarkibini tozalash"
+
+#: formeditor/commands.cpp:600
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Resize Widgets to Tallest"
+msgstr "Jadval tarkibini tozalash"
+
+#: formeditor/commands.cpp:815
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Change layout of widget \"%1\""
+msgstr "Eski birinchi darajali kalit olib tashlandi."
+
+#: formeditor/commands.cpp:921
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Insert widget \"%1\""
+msgstr "Xato jadval nomi \"%1\""
+
+#: formeditor/commands.cpp:924
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert widget"
+msgstr "Qoʻyish"
+
+#: formeditor/commands.cpp:965
+#, kde-format
+msgid ""
+"Could not insert widget of type \"%1\". A problem with widget's creation "
+"encountered."
+msgstr ""
+
+#: formeditor/commands.cpp:1153
+#, fuzzy
+#| msgid "&Horizontally"
+msgctxt "(qtundo-format)"
+msgid "Group Widgets Horizontally"
+msgstr "&Eniga"
+
+#: formeditor/commands.cpp:1156
+#, fuzzy
+#| msgid "&Vertically"
+msgctxt "(qtundo-format)"
+msgid "Group Widgets Vertically"
+msgstr "&Boʻyiga"
+
+#: formeditor/commands.cpp:1159
+#, fuzzy
+#| msgid "&Horizontally"
+msgctxt "(qtundo-format)"
+msgid "Group Widgets in a Grid"
+msgstr "&Eniga"
+
+#: formeditor/commands.cpp:1162
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Group Widgets Horizontally in a Splitter"
+msgstr "&Eniga"
+
+#: formeditor/commands.cpp:1165
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Group Widgets Vertically in a Splitter"
+msgstr "&Eniga"
+
+#: formeditor/commands.cpp:1168
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Group Widgets By Rows"
+msgstr "Amalsiz"
+
+#: formeditor/commands.cpp:1171
+#, fuzzy
+#| msgid "&Vertically"
+msgctxt "(qtundo-format)"
+msgid "Group Widgets Vertically By Columns"
+msgstr "&Boʻyiga"
+
+#: formeditor/commands.cpp:1174
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Group widgets"
+msgstr "Amalsiz"
+
+#: formeditor/commands.cpp:1304
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Break Layout: \"%1\""
+msgstr ""
+
+#: formeditor/commands.cpp:1386
+#, fuzzy
+#| msgid "Date"
+msgctxt "(qtundo-format)"
+msgid "Paste"
+msgstr "Sana"
+
+#: formeditor/commands.cpp:1713
+#, fuzzy
+#| msgid "Delete Row"
+msgctxt "(qtundo-format)"
+msgid "Delete widget"
+msgstr "Satrni olib tashlash"
+
+#: formeditor/commands.cpp:1844
+#, fuzzy
+#| msgid "Delete Row"
+msgctxt "(qtundo-format)"
+msgid "Duplicate widget"
+msgstr "Satrni olib tashlash"
+
+#: formeditor/commands.cpp:1893
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Cut"
+msgstr "Matn"
+
+#: formeditor/commands.cpp:2180
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Page"
+msgstr "Qoʻshish moslamalari"
+
+#: formeditor/commands.cpp:2304
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove Page"
+msgstr "Elementni olib tashlash"
+
+#: formeditor/richtextdialog.cpp:44
+msgid "Edit Rich Text"
+msgstr ""
+
+#: formeditor/richtextdialog.cpp:66
+msgid "Bold"
+msgstr ""
+
+#: formeditor/richtextdialog.cpp:68
+msgid "Italic"
+msgstr ""
+
+#: formeditor/richtextdialog.cpp:70
+#, fuzzy
+msgid "Underline"
+msgstr "chiziq"
+
+#: formeditor/richtextdialog.cpp:74
+#, fuzzy
+#| msgid "Description"
+msgid "Superscript"
+msgstr "Taʼrifi"
+
+#: formeditor/richtextdialog.cpp:76
+#, fuzzy
+#| msgid "Description"
+msgid "Subscript"
+msgstr "Taʼrifi"
+
+#: formeditor/richtextdialog.cpp:81
+msgid "Left Align"
+msgstr ""
+
+#: formeditor/richtextdialog.cpp:84
+#, fuzzy
+#| msgid "Create"
+msgid "Centered"
+msgstr "Yaratish"
+
+#: formeditor/richtextdialog.cpp:87
+#, fuzzy
+#| msgid "To Right"
+msgid "Right Align"
+msgstr "Oʻngga"
+
+#: formeditor/richtextdialog.cpp:90
+#, fuzzy
+msgid "Justified"
+msgstr "(koʻsatilmagan)"
 
 #: kexidb/connectiondata.cpp:97
 msgid "file"
@@ -4053,101 +4108,6 @@ msgstr "Maʼlumot bazasini ochish"
 msgid "Select a project on <b>%1</b> database server to open:"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:146
-msgid "Create Project"
-msgstr "Loyihani yaratish"
-
-#: main/startup/KexiStartupDialog.cpp:148
-msgid "Open Existing Project"
-msgstr "Mavjud loyihani ochish"
-
-#: main/startup/KexiStartupDialog.cpp:152
-msgid "Choose Project"
-msgstr "Loyihani tanlash"
-
-#: main/startup/KexiStartupDialog.cpp:313
-msgid "&Create Project"
-msgstr "&Loyihani yaratish"
-
-#: main/startup/KexiStartupDialog.cpp:340
-#, fuzzy
-msgid "Do not show me this dialog again"
-msgstr "Ushbu oyna boshqa koʻrsatilmasin"
-
-#: main/startup/KexiStartupDialog.cpp:352
-msgid "Click \"OK\" button to proceed."
-msgstr "Davom etish uchun \"OK\" tugmasini bosing."
-
-#: main/startup/KexiStartupDialog.cpp:355
-#, fuzzy
-#| msgid "Blank Database"
-msgctxt "Keep this text narrow: split to multiple rows if needed"
-msgid "Blank Database"
-msgstr "Boʻsh maʼlumot bazasi"
-
-#: main/startup/KexiStartupDialog.cpp:356
-msgid "New Blank Database Project"
-msgstr "Yangi boʻsh maʼlumot baza loyihasi"
-
-#: main/startup/KexiStartupDialog.cpp:361
-msgid "Kexi will create a new blank database project."
-msgstr "Kexi yangi boʻsh maʼlumot baza loyihasini yaratadi."
-
-#: main/startup/KexiStartupDialog.cpp:375
-#, fuzzy
-#| msgid "Create Project"
-msgctxt "Keep this text narrow: split to multiple rows if needed"
-msgid ""
-"Create From\n"
-"Template"
-msgstr "Loyihani yaratish"
-
-#: main/startup/KexiStartupDialog.cpp:376
-#, fuzzy
-#| msgid "New Blank Database Project"
-msgid "New Database Project From Template"
-msgstr "Yangi boʻsh maʼlumot baza loyihasi"
-
-#: main/startup/KexiStartupDialog.cpp:381
-msgid ""
-"Kexi will create a new database project using selected template.\n"
-"Select template and click \"OK\" button to proceed."
-msgstr ""
-
-#: main/startup/KexiStartupDialog.cpp:426
-#, fuzzy
-#| msgid ""
-#| "Import Existing\n"
-#| "Database"
-msgctxt "Keep this text narrow: split to multiple rows if needed"
-msgid ""
-"Import Existing\n"
-"Database"
-msgstr ""
-"Mavjud maʼlumot bazasini\n"
-"import qilish"
-
-#: main/startup/KexiStartupDialog.cpp:428
-msgid "Import Existing Database as New Database Project"
-msgstr ""
-"Mavjud maʼlumot bazasini yangi maʼlumot baza loyihasi sifatida import qilish"
-
-#: main/startup/KexiStartupDialog.cpp:433
-#, fuzzy
-msgid ""
-"Kexi will import the structure and data of an existing database as a new "
-"database project."
-msgstr ""
-"Mavjud maʼlumot bazasini yangi maʼlumot baza loyihasi sifatida import qilish"
-
-#: main/startup/KexiStartupDialog.cpp:598
-msgid "Open &Existing Project"
-msgstr "&Mavjud loyihani ochish"
-
-#: main/startup/KexiStartupDialog.cpp:709
-msgid "Open &Recent Project"
-msgstr "&Yaqinda ochilgan loyihani ochish"
-
 #: main/startup/KexiStartupFileWidget.cpp:260
 #, fuzzy, kde-format
 #| msgid "All Supported Files"
@@ -4424,6 +4384,94 @@ msgid ""
 "Do you want to remove database connection \"%1\" from the list of available "
 "connections?"
 msgstr ""
+
+#: main/startup/KexiStartupDialog.cpp:146
+msgid "Create Project"
+msgstr "Loyihani yaratish"
+
+#: main/startup/KexiStartupDialog.cpp:148
+msgid "Open Existing Project"
+msgstr "Mavjud loyihani ochish"
+
+#: main/startup/KexiStartupDialog.cpp:152
+msgid "Choose Project"
+msgstr "Loyihani tanlash"
+
+#: main/startup/KexiStartupDialog.cpp:313
+msgid "&Create Project"
+msgstr "&Loyihani yaratish"
+
+#: main/startup/KexiStartupDialog.cpp:340
+#, fuzzy
+msgid "Do not show me this dialog again"
+msgstr "Ushbu oyna boshqa koʻrsatilmasin"
+
+#: main/startup/KexiStartupDialog.cpp:352
+msgid "Click \"OK\" button to proceed."
+msgstr "Davom etish uchun \"OK\" tugmasini bosing."
+
+#: main/startup/KexiStartupDialog.cpp:355
+#, fuzzy
+#| msgid "Blank Database"
+msgid "Blank Database"
+msgstr "Boʻsh maʼlumot bazasi"
+
+#: main/startup/KexiStartupDialog.cpp:356
+msgid "New Blank Database Project"
+msgstr "Yangi boʻsh maʼlumot baza loyihasi"
+
+#: main/startup/KexiStartupDialog.cpp:361
+msgid "Kexi will create a new blank database project."
+msgstr "Kexi yangi boʻsh maʼlumot baza loyihasini yaratadi."
+
+#: main/startup/KexiStartupDialog.cpp:375
+#, fuzzy
+#| msgid "Create Project"
+msgid "Create From Template"
+msgstr "Loyihani yaratish"
+
+#: main/startup/KexiStartupDialog.cpp:376
+#, fuzzy
+#| msgid "New Blank Database Project"
+msgid "New Database Project From Template"
+msgstr "Yangi boʻsh maʼlumot baza loyihasi"
+
+#: main/startup/KexiStartupDialog.cpp:381
+msgid ""
+"Kexi will create a new database project using selected template.\n"
+"Select template and click \"OK\" button to proceed."
+msgstr ""
+
+#: main/startup/KexiStartupDialog.cpp:426
+#, fuzzy
+#| msgid ""
+#| "Import Existing\n"
+#| "Database"
+msgid "Import Existing Database"
+msgstr ""
+"Mavjud maʼlumot bazasini\n"
+"import qilish"
+
+#: main/startup/KexiStartupDialog.cpp:428
+msgid "Import Existing Database as New Database Project"
+msgstr ""
+"Mavjud maʼlumot bazasini yangi maʼlumot baza loyihasi sifatida import qilish"
+
+#: main/startup/KexiStartupDialog.cpp:433
+#, fuzzy
+msgid ""
+"Kexi will import the structure and data of an existing database as a new "
+"database project."
+msgstr ""
+"Mavjud maʼlumot bazasini yangi maʼlumot baza loyihasi sifatida import qilish"
+
+#: main/startup/KexiStartupDialog.cpp:598
+msgid "Open &Existing Project"
+msgstr "&Mavjud loyihani ochish"
+
+#: main/startup/KexiStartupDialog.cpp:709
+msgid "Open &Recent Project"
+msgstr "&Yaqinda ochilgan loyihani ochish"
 
 #: main/KexiMainWindow_p.h:137
 msgid "Task-based tabbed toolbar groups commands for application using tabs."
