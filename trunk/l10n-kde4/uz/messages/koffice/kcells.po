@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-17 04:24+0200\n"
+"POT-Creation-Date: 2011-07-19 04:48+0200\n"
 "PO-Revision-Date: 2006-12-17 13:47+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -4504,7 +4504,7 @@ msgstr "Yil"
 
 #. i18n: file: kcells.rc:41
 #. i18n: ectx: Menu (Delete)
-#: rc.cpp:730 commands/KCDeleteCommand.cpp:35 part/KCView.cpp:500
+#: rc.cpp:730 commands/KCDeleteCommand.cpp:35 part/KCView.cpp:498
 #, fuzzy
 msgid "Delete"
 msgstr "Satrlarni olib tashlash"
@@ -8947,7 +8947,7 @@ msgstr ""
 
 #. i18n: file: functions/financial.xml:907
 #. i18n: file: functions/financial.xml:950
-#: xml_doc.cpp:1817 xml_doc.cpp:1840 part/KCView.cpp:397
+#: xml_doc.cpp:1817 xml_doc.cpp:1840 part/KCView.cpp:395
 #, fuzzy
 #| msgid "List"
 msgid "Last"
@@ -16402,7 +16402,7 @@ msgstr "Satrlarni qoʻyish"
 msgid "Remove Rows"
 msgstr "Satrlarni olib tashlash"
 
-#: commands/SheetCommands.cpp:36 part/KCView.cpp:1738
+#: commands/SheetCommands.cpp:36 part/KCView.cpp:1736
 msgid "Rename Sheet"
 msgstr "Varaqning nomini oʻzgartirish"
 
@@ -16411,7 +16411,7 @@ msgstr "Varaqning nomini oʻzgartirish"
 msgid "Hide Sheet %1"
 msgstr "%1 varaqni bekitish"
 
-#: commands/SheetCommands.cpp:58 part/KCView.cpp:312
+#: commands/SheetCommands.cpp:58 part/KCView.cpp:310
 msgid "Hide Sheet"
 msgstr "Varaqni bekitish"
 
@@ -16429,14 +16429,14 @@ msgstr "Varaqni koʻrsatish"
 msgid "Add Sheet"
 msgstr "Varaqni qoʻshish"
 
-#: commands/SheetCommands.cpp:137 part/KCView.cpp:291
+#: commands/SheetCommands.cpp:137 part/KCView.cpp:289
 #, fuzzy
 #| msgid "Recalculate Sheet"
 msgid "Duplicate Sheet"
 msgstr "Varaqni qaytadan hisoblash"
 
-#: commands/SheetCommands.cpp:175 part/KCView.cpp:297 part/KCView.cpp:1710
-#: part/KCView.cpp:1714 part/KCView.cpp:1934
+#: commands/SheetCommands.cpp:175 part/KCView.cpp:295 part/KCView.cpp:1708
+#: part/KCView.cpp:1712 part/KCView.cpp:1932
 msgid "Remove Sheet"
 msgstr "Varaqni olib tashlash"
 
@@ -16624,28 +16624,28 @@ msgid "Consolidate"
 msgstr "Mugʻiliston"
 
 #: dialogs/ConsolidateDialog.cpp:102 dialogs/SubtotalDialog.cpp:282
-#: part/KCView.cpp:457 part/dialogs/PreferenceDialog.cpp:324
+#: part/KCView.cpp:455 part/dialogs/PreferenceDialog.cpp:324
 msgid "Sum"
 msgstr "Yigʻindi"
 
 #: dialogs/ConsolidateDialog.cpp:103 dialogs/SubtotalDialog.cpp:274
-#: part/KCView.cpp:478 part/dialogs/PreferenceDialog.cpp:327
+#: part/KCView.cpp:476 part/dialogs/PreferenceDialog.cpp:327
 msgid "Average"
 msgstr "Oʻrtacha"
 
 #: dialogs/ConsolidateDialog.cpp:104 dialogs/SubtotalDialog.cpp:275
-#: part/KCView.cpp:485 part/dialogs/PreferenceDialog.cpp:328
+#: part/KCView.cpp:483 part/dialogs/PreferenceDialog.cpp:328
 #, fuzzy
 msgid "Count"
 msgstr "Soni: "
 
 #: dialogs/ConsolidateDialog.cpp:105 dialogs/SubtotalDialog.cpp:277
-#: part/KCView.cpp:471 part/dialogs/PreferenceDialog.cpp:326
+#: part/KCView.cpp:469 part/dialogs/PreferenceDialog.cpp:326
 msgid "Max"
 msgstr "Maks"
 
 #: dialogs/ConsolidateDialog.cpp:106 dialogs/SubtotalDialog.cpp:278
-#: part/KCView.cpp:464 part/dialogs/PreferenceDialog.cpp:325
+#: part/KCView.cpp:462 part/dialogs/PreferenceDialog.cpp:325
 msgid "Min"
 msgstr "Min"
 
@@ -16952,7 +16952,7 @@ msgid "You have to select at least one column."
 msgstr "Kamida bitta ustunni tanlash lozim."
 
 #: dialogs/DatabaseDialog.cpp:735 dialogs/DatabaseDialog.cpp:736
-#: part/KCView.cpp:450 part/dialogs/PreferenceDialog.cpp:322
+#: part/KCView.cpp:448 part/dialogs/PreferenceDialog.cpp:322
 #: part/dialogs/PreferenceDialog.cpp:330 part/dialogs/PreferenceDialog.cpp:458
 #: ui/CellToolBase.cpp:337
 msgid "None"
@@ -17537,8 +17537,8 @@ msgstr "Yaqinda ochilgan fayl:"
 msgid "No Entries"
 msgstr "Boʻsh"
 
-#: dialogs/LinkDialog.cpp:151 part/KCView.cpp:366 part/KCView.cpp:1021
-#: part/KCView.cpp:1451
+#: dialogs/LinkDialog.cpp:151 part/KCView.cpp:364 part/KCView.cpp:1019
+#: part/KCView.cpp:1449
 msgid "Cell"
 msgstr "Katak"
 
@@ -17903,7 +17903,7 @@ msgstr "Umumiy natija"
 msgid "Column '%1' "
 msgstr "Ustun '%1' "
 
-#: dialogs/SubtotalDialog.cpp:276 part/KCView.cpp:492
+#: dialogs/SubtotalDialog.cpp:276 part/KCView.cpp:490
 #: part/dialogs/PreferenceDialog.cpp:329
 #, fuzzy
 msgid "CountA"
@@ -18312,347 +18312,347 @@ msgstr "Bosib chiqarish uchun '%1' varagʻi topilmadi"
 msgid "Nothing to print for sheet(s) %1."
 msgstr "Bosib chiqarish uchun '%1' varagʻida hech narsa yoʻq."
 
-#: part/KCView.cpp:280
+#: part/KCView.cpp:278
 #, fuzzy
 #| msgid "Sheet Properties"
 msgid "Sheet Properties..."
 msgstr "Varaq xossalari"
 
-#: part/KCView.cpp:283
+#: part/KCView.cpp:281
 msgid "Modify current sheet's properties"
 msgstr ""
 
-#: part/KCView.cpp:285 part/KCView.cpp:296
+#: part/KCView.cpp:283 part/KCView.cpp:294
 #: part/dialogs/PageLayoutDialog.cpp:143
 msgid "Sheet"
 msgstr "Varaq"
 
-#: part/KCView.cpp:286 part/KCView.cpp:1929
+#: part/KCView.cpp:284 part/KCView.cpp:1927
 msgid "Insert Sheet"
 msgstr "Varaq qoʻshish"
 
-#: part/KCView.cpp:287
+#: part/KCView.cpp:285
 #, fuzzy
 msgid "Insert a new sheet"
 msgstr "Yangi varaq qoʻshish."
 
-#: part/KCView.cpp:292
+#: part/KCView.cpp:290
 #, fuzzy
 msgid "Duplicate the selected sheet"
 msgstr "Aktiv varaqni bekitish."
 
-#: part/KCView.cpp:298 part/KCView.cpp:1930 part/KCView.cpp:1935
+#: part/KCView.cpp:296 part/KCView.cpp:1928 part/KCView.cpp:1933
 #, fuzzy
 msgid "Remove the active sheet"
 msgstr "Aktiv varaqni olib tashlash."
 
-#: part/KCView.cpp:302
+#: part/KCView.cpp:300
 msgid "Rename Sheet..."
 msgstr "Varaqning nomini oʻzgartirish..."
 
-#: part/KCView.cpp:305
+#: part/KCView.cpp:303
 #, fuzzy
 msgid "Rename the active sheet"
 msgstr "Aktiv varaqning nomini oʻzgartirish."
 
-#: part/KCView.cpp:307
+#: part/KCView.cpp:305
 msgid "Show Sheet..."
 msgstr "Varaqni koʻrsatish..."
 
-#: part/KCView.cpp:310
+#: part/KCView.cpp:308
 #, fuzzy
 msgid "Show a hidden sheet"
 msgstr "Bekitilgan varaqni koʻrsatish."
 
-#: part/KCView.cpp:315
+#: part/KCView.cpp:313
 #, fuzzy
 msgid "Hide the active sheet"
 msgstr "Aktiv varaqni bekitish."
 
-#: part/KCView.cpp:317
+#: part/KCView.cpp:315
 msgid "Page Layout..."
 msgstr ""
 
-#: part/KCView.cpp:320
+#: part/KCView.cpp:318
 msgid "Specify the layout of the spreadsheet for a printout"
 msgstr ""
 
-#: part/KCView.cpp:322 part/KCView.cpp:1701
+#: part/KCView.cpp:320 part/KCView.cpp:1699
 msgid "Reset Print Range"
 msgstr ""
 
-#: part/KCView.cpp:325
+#: part/KCView.cpp:323
 #, fuzzy
 msgid "Reset the print range in the current sheet"
 msgstr "Joriy katak tarkibini olib tashlash."
 
-#: part/KCView.cpp:327
+#: part/KCView.cpp:325
 #, fuzzy
 #| msgid "&Page borders:"
 msgid "Page Borders"
 msgstr "&Betning chegaralari:"
 
-#: part/KCView.cpp:328
+#: part/KCView.cpp:326
 msgid "Show on the spreadsheet where the page borders will be"
 msgstr ""
 
-#: part/KCView.cpp:332
+#: part/KCView.cpp:330
 msgid "Recalculate Sheet"
 msgstr "Varaqni qaytadan hisoblash"
 
-#: part/KCView.cpp:334 part/KCView.cpp:342
+#: part/KCView.cpp:332 part/KCView.cpp:340
 #, fuzzy
 #| msgid "Recalculate Sheet"
 msgid "Recalculate"
 msgstr "Varaqni qaytadan hisoblash"
 
-#: part/KCView.cpp:338
+#: part/KCView.cpp:336
 msgid "Recalculate the value of every cell in the current worksheet"
 msgstr ""
 
-#: part/KCView.cpp:340
+#: part/KCView.cpp:338
 msgid "Recalculate Document"
 msgstr "Hujjatni qaytadan hisoblash"
 
-#: part/KCView.cpp:346
+#: part/KCView.cpp:344
 msgid "Recalculate the value of every cell in all worksheets"
 msgstr ""
 
-#: part/KCView.cpp:348
+#: part/KCView.cpp:346
 #, fuzzy
 #| msgid "Protect &Sheet..."
 msgid "Protect Sheet..."
 msgstr "&Varaqni himoyalash..."
 
-#: part/KCView.cpp:350
+#: part/KCView.cpp:348
 #, fuzzy
 msgid "Protect the sheet from being modified"
 msgstr "Varaqni oʻzgarishlardan himoyalash."
 
-#: part/KCView.cpp:354
+#: part/KCView.cpp:352
 msgid "Protect &Document..."
 msgstr "Huj&jatni himoyalash..."
 
-#: part/KCView.cpp:356
+#: part/KCView.cpp:354
 #, fuzzy
 msgid "Protect the document from being modified"
 msgstr "Hujjatni oʻzgarishlardan himoyalash."
 
-#: part/KCView.cpp:361
+#: part/KCView.cpp:359
 msgid "&Create Template From Document..."
 msgstr "Hujjatdan namuna &yaratish..."
 
-#: part/KCView.cpp:365
+#: part/KCView.cpp:363
 #, fuzzy
 #| msgid "Andorra"
 msgid "Anchor"
 msgstr "Andorra"
 
-#: part/KCView.cpp:367 part/KCView.cpp:1021
+#: part/KCView.cpp:365 part/KCView.cpp:1019
 #, fuzzy
 #| msgid "page"
 msgid "Page"
 msgstr "bet"
 
-#: part/KCView.cpp:369
+#: part/KCView.cpp:367
 msgid "Switch shape anchoring"
 msgstr ""
 
-#: part/KCView.cpp:376
+#: part/KCView.cpp:374
 msgid "Next Sheet"
 msgstr "Keyingi varaq"
 
-#: part/KCView.cpp:377
+#: part/KCView.cpp:375
 #, fuzzy
 #| msgid "Text"
 msgid "Next"
 msgstr "Matn"
 
-#: part/KCView.cpp:378
+#: part/KCView.cpp:376
 #, fuzzy
 msgid "Move to the next sheet"
 msgstr "Keyingi varaqqa oʻtish."
 
-#: part/KCView.cpp:383
+#: part/KCView.cpp:381
 msgid "Previous Sheet"
 msgstr "Oldingi varaq"
 
-#: part/KCView.cpp:384
+#: part/KCView.cpp:382
 #, fuzzy
 #| msgid "Previous Sheet"
 msgid "Previous"
 msgstr "Oldingi varaq"
 
-#: part/KCView.cpp:385
+#: part/KCView.cpp:383
 #, fuzzy
 msgid "Move to the previous sheet"
 msgstr "Oldingi varaqqa oʻtish."
 
-#: part/KCView.cpp:390
+#: part/KCView.cpp:388
 msgid "First Sheet"
 msgstr "Birinchi varaq"
 
-#: part/KCView.cpp:391
+#: part/KCView.cpp:389
 #, fuzzy
 msgid "First"
 msgstr "Birinchi varaq"
 
-#: part/KCView.cpp:392
+#: part/KCView.cpp:390
 #, fuzzy
 msgid "Move to the first sheet"
 msgstr "Birinchi varaqqa oʻtish."
 
-#: part/KCView.cpp:396
+#: part/KCView.cpp:394
 msgid "Last Sheet"
 msgstr "Oxirgi varaq"
 
-#: part/KCView.cpp:398
+#: part/KCView.cpp:396
 #, fuzzy
 msgid "Move to the last sheet"
 msgstr "Oxirgi varaqqa oʻtish."
 
-#: part/KCView.cpp:404
+#: part/KCView.cpp:402
 #, fuzzy
 msgid "Column Header"
 msgstr "Ustunlarni &raqam sifatida koʻrsatish"
 
-#: part/KCView.cpp:405
+#: part/KCView.cpp:403
 #, fuzzy
 msgid "Show the column header"
 msgstr "&Satr nomini koʻrsatish"
 
-#: part/KCView.cpp:410
+#: part/KCView.cpp:408
 #, fuzzy
 msgid "Row Header"
 msgstr "koʻproq"
 
-#: part/KCView.cpp:411
+#: part/KCView.cpp:409
 #, fuzzy
 #| msgid "Show &row header"
 msgid "Show the row header"
 msgstr "&Satr nomini koʻrsatish"
 
-#: part/KCView.cpp:416
+#: part/KCView.cpp:414
 #, fuzzy
 #| msgid "Show &horizontal scrollbar"
 msgid "Horizontal Scrollbar"
 msgstr "&Gorizontal varaqlash panelini koʻrsatish"
 
-#: part/KCView.cpp:417
+#: part/KCView.cpp:415
 #, fuzzy
 #| msgid "Show &horizontal scrollbar"
 msgid "Show the horizontal scrollbar"
 msgstr "&Gorizontal varaqlash panelini koʻrsatish"
 
-#: part/KCView.cpp:422
+#: part/KCView.cpp:420
 #, fuzzy
 #| msgid "Show &vertical scrollbar"
 msgid "Vertical Scrollbar"
 msgstr "&Vertikal varaqlash panelini koʻrsatish"
 
-#: part/KCView.cpp:423
+#: part/KCView.cpp:421
 #, fuzzy
 #| msgid "Show &vertical scrollbar"
 msgid "Show the vertical scrollbar"
 msgstr "&Vertikal varaqlash panelini koʻrsatish"
 
-#: part/KCView.cpp:428
+#: part/KCView.cpp:426
 #, fuzzy
 #| msgid "Show Status Bar"
 msgid "Status Bar"
 msgstr "Holat panelini koʻrsatish"
 
-#: part/KCView.cpp:429
+#: part/KCView.cpp:427
 #, fuzzy
 msgid "Show the status bar"
 msgstr "Holat panelini koʻrsatish."
 
-#: part/KCView.cpp:434
+#: part/KCView.cpp:432
 #, fuzzy
 msgid "Tab Bar"
 msgstr "Holat panelini koʻrsatish"
 
-#: part/KCView.cpp:435
+#: part/KCView.cpp:433
 #, fuzzy
 msgid "Show the tab bar"
 msgstr "Tab panelini koʻrsatish."
 
-#: part/KCView.cpp:441
+#: part/KCView.cpp:439
 #, fuzzy
 msgid "Set various KCells options"
 msgstr "KSpread dasturining har xil moslamalarini oʻzgartirish."
 
-#: part/KCView.cpp:454
+#: part/KCView.cpp:452
 #, fuzzy
 msgid "No calculation"
 msgstr "&Avtomatik qayta hisoblash"
 
-#: part/KCView.cpp:461
+#: part/KCView.cpp:459
 #, fuzzy
 msgid "Calculate using sum"
 msgstr "Hisoblash usuli"
 
-#: part/KCView.cpp:468
+#: part/KCView.cpp:466
 #, fuzzy
 msgid "Calculate using minimum"
 msgstr "Hisoblash usuli"
 
-#: part/KCView.cpp:475
+#: part/KCView.cpp:473
 #, fuzzy
 msgid "Calculate using maximum"
 msgstr "Hisoblash usuli"
 
-#: part/KCView.cpp:482
+#: part/KCView.cpp:480
 #, fuzzy
 msgid "Calculate using average"
 msgstr "Hisoblash usuli"
 
-#: part/KCView.cpp:489
+#: part/KCView.cpp:487
 #, fuzzy
 msgid "Calculate using the count"
 msgstr "Hisoblash usuli"
 
-#: part/KCView.cpp:496
+#: part/KCView.cpp:494
 #, fuzzy
 msgid "Calculate using the countA"
 msgstr "Hisoblash usuli"
 
-#: part/KCView.cpp:717 part/dialogs/PreferenceDialog.cpp:368
+#: part/KCView.cpp:715 part/dialogs/PreferenceDialog.cpp:368
 #, fuzzy
 msgid "Tools"
 msgstr "Togo"
 
-#: part/KCView.cpp:1368 part/KCView.cpp:1387 part/KCView.cpp:1732
+#: part/KCView.cpp:1366 part/KCView.cpp:1385 part/KCView.cpp:1730
 #, fuzzy
 msgid "You cannot change a protected sheet."
 msgstr "Yagona varaqni olib tashlab boʻlmaydi."
 
-#: part/KCView.cpp:1407
+#: part/KCView.cpp:1405
 #, fuzzy
 msgid "You cannot hide the last visible sheet."
 msgstr "Yagona varaqni olib tashlab boʻlmaydi."
 
-#: part/KCView.cpp:1463
+#: part/KCView.cpp:1461
 msgid "Protect Document"
 msgstr "Hujjatni himoyalash"
 
-#: part/KCView.cpp:1466
+#: part/KCView.cpp:1464
 msgid "Unprotect Document"
 msgstr "Hujjatni himoyalashni bekor qilish"
 
-#: part/KCView.cpp:1486
+#: part/KCView.cpp:1484
 msgid "Protect Sheet"
 msgstr "Varaqni himoyalash"
 
-#: part/KCView.cpp:1489
+#: part/KCView.cpp:1487
 msgid "Unprotect Sheet"
 msgstr "Varaqni himoyalashni bekor qilish"
 
-#: part/KCView.cpp:1710
+#: part/KCView.cpp:1708
 msgid "You cannot delete the only sheet."
 msgstr "Yagona varaqni olib tashlab boʻlmaydi."
 
-#: part/KCView.cpp:1713
+#: part/KCView.cpp:1711
 msgid ""
 "You are about to remove the active sheet.\n"
 "Do you want to continue?"
@@ -18660,49 +18660,49 @@ msgstr ""
 "Aktiv varaqni olib tashlamoqchisiz.\n"
 "Davom etishni istaysizmi?"
 
-#: part/KCView.cpp:1714
+#: part/KCView.cpp:1712
 #, fuzzy
 msgid "&Delete"
 msgstr "Satrlarni olib tashlash"
 
-#: part/KCView.cpp:1738 ui/CellToolBase.cpp:1599
+#: part/KCView.cpp:1736 ui/CellToolBase.cpp:1599
 msgid "Enter name:"
 msgstr "Nomini kiriting:"
 
-#: part/KCView.cpp:1743
+#: part/KCView.cpp:1741
 msgid "Sheet name cannot be empty."
 msgstr "Varaqning nomi boʻsh boʻlishi mumkin emas."
 
-#: part/KCView.cpp:1743 part/KCView.cpp:1749
+#: part/KCView.cpp:1741 part/KCView.cpp:1747
 msgid "Change Sheet Name"
 msgstr "Varaqning nomini oʻzgartirish"
 
-#: part/KCView.cpp:1749
+#: part/KCView.cpp:1747
 msgid "This name is already used."
 msgstr "Bu nom allaqachon mavjud."
 
-#: part/KCView.cpp:1842
+#: part/KCView.cpp:1840
 msgid "Sum: "
 msgstr "Yigʻindi: "
 
-#: part/KCView.cpp:1845
+#: part/KCView.cpp:1843
 msgid "Average: "
 msgstr "Oʻrtacha: "
 
-#: part/KCView.cpp:1848
+#: part/KCView.cpp:1846
 msgid "Min: "
 msgstr "Min: "
 
-#: part/KCView.cpp:1851
+#: part/KCView.cpp:1849
 msgid "Max: "
 msgstr "Maks: "
 
-#: part/KCView.cpp:1854
+#: part/KCView.cpp:1852
 #, fuzzy
 msgid "Count: "
 msgstr "Soni: "
 
-#: part/KCView.cpp:1857
+#: part/KCView.cpp:1855
 #, fuzzy
 msgid "CountA: "
 msgstr "CountA: "
