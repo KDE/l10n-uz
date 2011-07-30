@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-29 03:41+0200\n"
+"POT-Creation-Date: 2011-07-30 03:40+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -70,7 +70,7 @@ msgctxt "(qtundo-format)"
 msgid "Paste Shapes"
 msgstr "Namunani yaratish"
 
-#: flake/KoToolBase.cpp:197 main/KoToolDocker.cpp:198
+#: flake/KoToolBase.cpp:198 main/KoToolDocker.cpp:198
 #, fuzzy
 msgid "Tool Options"
 msgstr "Toʻldirish moslamalari"
@@ -1595,6 +1595,51 @@ msgstr[0] "Matnni almashtirish"
 msgid "Replace %1 with %2?"
 msgstr "&1/2...ni %1 belgiga almashtirish"
 
+#: kotext/commands/DeleteTableColumnCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete Column"
+msgstr "Matnni oʻchirish"
+
+#: kotext/commands/DeleteTableRowCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete Row"
+msgstr "Matnni oʻchirish"
+
+#: kotext/commands/InsertTableColumnCommand.cpp:42
+#, fuzzy
+#| msgid "Insert Column"
+msgctxt "(qtundo-format)"
+msgid "Insert Column Right"
+msgstr "Ustunni qoʻyish"
+
+#: kotext/commands/InsertTableColumnCommand.cpp:44
+#, fuzzy
+#| msgid "Insert Column"
+msgctxt "(qtundo-format)"
+msgid "Insert Column Left"
+msgstr "Ustunni qoʻyish"
+
+#: kotext/commands/InsertTableRowCommand.cpp:42
+#, fuzzy
+#| msgid "Insert Row"
+msgctxt "(qtundo-format)"
+msgid "Insert Row Below"
+msgstr "Satrni qoʻyish"
+
+#: kotext/commands/InsertTableRowCommand.cpp:44
+#, fuzzy
+#| msgid "Insert Row"
+msgctxt "(qtundo-format)"
+msgid "Insert Row Above"
+msgstr "Satrni qoʻyish"
+
+#: kotext/styles/KoStyleManager.cpp:88
+#, fuzzy
+msgid "Default"
+msgstr "&Andoza"
+
 #: kotext/KoTextEditor.cpp:113
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -1774,51 +1819,6 @@ msgstr "Mundarijaga kiritish"
 #| msgid "Change Borders"
 msgid "Line Break"
 msgstr "Chegaralarni oʻzgartirish"
-
-#: kotext/commands/DeleteTableColumnCommand.cpp:40
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete Column"
-msgstr "Matnni oʻchirish"
-
-#: kotext/commands/DeleteTableRowCommand.cpp:40
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete Row"
-msgstr "Matnni oʻchirish"
-
-#: kotext/commands/InsertTableColumnCommand.cpp:42
-#, fuzzy
-#| msgid "Insert Column"
-msgctxt "(qtundo-format)"
-msgid "Insert Column Right"
-msgstr "Ustunni qoʻyish"
-
-#: kotext/commands/InsertTableColumnCommand.cpp:44
-#, fuzzy
-#| msgid "Insert Column"
-msgctxt "(qtundo-format)"
-msgid "Insert Column Left"
-msgstr "Ustunni qoʻyish"
-
-#: kotext/commands/InsertTableRowCommand.cpp:42
-#, fuzzy
-#| msgid "Insert Row"
-msgctxt "(qtundo-format)"
-msgid "Insert Row Below"
-msgstr "Satrni qoʻyish"
-
-#: kotext/commands/InsertTableRowCommand.cpp:44
-#, fuzzy
-#| msgid "Insert Row"
-msgctxt "(qtundo-format)"
-msgid "Insert Row Above"
-msgstr "Satrni qoʻyish"
-
-#: kotext/styles/KoStyleManager.cpp:88
-#, fuzzy
-msgid "Default"
-msgstr "&Andoza"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:147
 #. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
