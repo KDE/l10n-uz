@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-12 03:26+0200\n"
+"POT-Creation-Date: 2011-08-13 02:54+0200\n"
 "PO-Revision-Date: 2006-12-17 12:02+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1453,6 +1453,12 @@ msgstr "Keyingi boʻlingan koʻrinishni aktiv qilish."
 msgid "Open File"
 msgstr "Faylni ochish"
 
+#: app/kateapp.cpp:226 app/kateapp.cpp:352
+#, kde-format
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr "'%1' faylini ochib boʻlmadi. U oddiy fayl emas, u jild."
+
 #: app/katemainwindow.cpp:225
 msgid "Use this command to show or hide the view's statusbar"
 msgstr ""
@@ -1635,26 +1641,20 @@ msgstr ""
 msgid "Close all documents"
 msgstr "Hamma ochiq hujjatlarni yopish."
 
-#: app/katemainwindow.cpp:704
+#: app/katemainwindow.cpp:721
 msgid "&Other..."
 msgstr "&Boshqa..."
 
-#: app/katemainwindow.cpp:730
+#: app/katemainwindow.cpp:747
 #, fuzzy, kde-format
 #| msgid "Application '%1' not found!"
 msgid "Application '%1' not found."
 msgstr "Dastur '%1' topilmadi."
 
-#: app/katemainwindow.cpp:730
+#: app/katemainwindow.cpp:747
 #, fuzzy
 msgid "Application not found"
 msgstr "Dastur topilmadi!"
-
-#: app/kateapp.cpp:226 app/kateapp.cpp:352
-#, kde-format
-msgid ""
-"The file '%1' could not be opened: it is not a normal file, it is a folder."
-msgstr "'%1' faylini ochib boʻlmadi. U oddiy fayl emas, u jild."
 
 #: plugins/filetree/katefiletree.cpp:50
 #, fuzzy
