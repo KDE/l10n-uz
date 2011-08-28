@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-13 03:45+0200\n"
+"POT-Creation-Date: 2011-08-28 04:18+0200\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -160,12 +160,6 @@ msgstr "Effektlar"
 msgid "View"
 msgstr ""
 
-#: common/ArtworkDocument.cpp:283
-#, fuzzy
-#| msgid "Insert Image"
-msgid "Master Page"
-msgstr "Rasmni qoʻyish"
-
 #: common/commands/ArtworkBooleanCommand.cpp:68 ui/ArtworkView.cpp:698
 msgid "Boolean Operation"
 msgstr "Mantiqiy operatsiya"
@@ -179,6 +173,12 @@ msgstr "Qatlamni koʻtarish"
 #: common/commands/ArtworkLayerReorderCommand.cpp:48
 msgid "Lower Layer"
 msgstr "Qatlamni tushirish"
+
+#: common/ArtworkDocument.cpp:283
+#, fuzzy
+#| msgid "Insert Image"
+msgid "Master Page"
+msgstr "Rasmni qoʻyish"
 
 #: main.cpp:41
 msgid "File to open"
@@ -645,6 +645,237 @@ msgstr ""
 msgid "Insert graphics"
 msgstr "Sinus qoʻyish"
 
+#: ui/ArtworkConfigureDialog.cpp:54
+#, fuzzy
+msgid "Configure"
+msgstr "Karbon moslamasi..."
+
+#: ui/ArtworkConfigureDialog.cpp:59 ui/ArtworkConfigureDialog.cpp:60
+#: ui/ArtworkConfigureDialog.cpp:120
+msgid "Interface"
+msgstr "Interfeys"
+
+#: ui/ArtworkConfigureDialog.cpp:64 ui/ArtworkConfigureDialog.cpp:65
+msgid "Misc"
+msgstr "Xar hil"
+
+#: ui/ArtworkConfigureDialog.cpp:69 ui/ArtworkConfigureDialog.cpp:70
+msgid "Grid"
+msgstr "Toʻr"
+
+#: ui/ArtworkConfigureDialog.cpp:76
+#, fuzzy
+#| msgid "Document"
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr "Hujjat"
+
+#: ui/ArtworkConfigureDialog.cpp:77
+msgid "Document Settings"
+msgstr "Hujjat moslamalari"
+
+#: ui/ArtworkConfigureDialog.cpp:135
+msgid "Show status bar"
+msgstr "Holat panelini koʻrsatish"
+
+#: ui/ArtworkConfigureDialog.cpp:142
+msgid "Number of recent files:"
+msgstr "Yaqinda ochilgan fayllarning soni:"
+
+#: ui/ArtworkConfigureDialog.cpp:148
+msgid "Palette font size:"
+msgstr "Asbob oynasidagi shriftning oʻlchami:"
+
+#: ui/ArtworkConfigureDialog.cpp:151
+msgid "Canvas color:"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:33
+msgid "Original"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:34
+#, fuzzy
+msgid "Tiled"
+msgstr "Toʻldirish"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:35
+msgid "Stretched"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:37
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Left"
+msgid "Top Left"
+msgstr "Chap"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:38
+msgid "Top"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:39
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Right"
+msgid "Top Right"
+msgstr "Oʻng"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:40
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Left"
+msgid "Left"
+msgstr "Chap"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:41
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Center"
+msgid "Center"
+msgstr "Markaz"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:42
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Right"
+msgid "Right"
+msgstr "Oʻng"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:43
+msgid "Bottom Left"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:44
+#, fuzzy
+#| msgid "Align Bottom"
+msgid "Bottom"
+msgstr "Pastga"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:45
+msgid "Bottom Right"
+msgstr ""
+
+#: ui/ArtworkLayerDocker.cpp:80
+#, fuzzy
+#| msgid "Layers"
+msgid "Layer view"
+msgstr "Qatlamlar"
+
+#: ui/ArtworkLayerDocker.cpp:91
+#, fuzzy
+#| msgid "New layer"
+msgid "Add a new layer"
+msgstr "Yangi qatlam"
+
+#: ui/ArtworkLayerDocker.cpp:97
+#, fuzzy
+#| msgid "Delete Objects"
+msgid "Delete selected objects"
+msgstr "Obʼektlarni oʻchirish"
+
+#: ui/ArtworkLayerDocker.cpp:103
+#, fuzzy
+#| msgid "Delete Objects"
+msgid "Raise selected objects"
+msgstr "Obʼektlarni oʻchirish"
+
+#: ui/ArtworkLayerDocker.cpp:109
+#, fuzzy
+#| msgid "Delete Objects"
+msgid "Lower selected objects"
+msgstr "Obʼektlarni oʻchirish"
+
+#: ui/ArtworkLayerDocker.cpp:118
+msgid "Minimal View"
+msgstr ""
+
+#: ui/ArtworkLayerDocker.cpp:120
+msgid "Detailed View"
+msgstr ""
+
+#: ui/ArtworkLayerDocker.cpp:122
+msgid "Thumbnail View"
+msgstr ""
+
+#: ui/ArtworkLayerDocker.cpp:132
+msgid "View mode"
+msgstr ""
+
+#: ui/ArtworkLayerDocker.cpp:272
+msgid "New Layer"
+msgstr "Yangi qatlam"
+
+#: ui/ArtworkLayerDocker.cpp:273
+msgid "Enter the name of the new layer:"
+msgstr "Yangi qatlam nomini kiriting:"
+
+#: ui/ArtworkLayerDocker.cpp:274
+msgid "New layer"
+msgstr "Yangi qatlam"
+
+#: ui/ArtworkLayerDocker.cpp:280
+#, fuzzy
+msgid "Create Layer"
+msgstr "Qatlam nomini oʻzgartirish"
+
+#: ui/ArtworkLayerDocker.cpp:304
+msgid "Delete Layer"
+msgstr "Qatlamni oʻchirish"
+
+#: ui/ArtworkLayerDocker.cpp:306
+msgid "Could not delete all layers. At least one layer is required."
+msgstr ""
+
+#: ui/ArtworkLayerDocker.cpp:306
+msgid "Error deleting layers"
+msgstr ""
+
+#: ui/ArtworkLayerModel.cpp:172
+#, fuzzy
+#| msgid "Layers"
+msgid "Layer"
+msgstr "Qatlamlar"
+
+#: ui/ArtworkLayerModel.cpp:174
+#, fuzzy
+#| msgid "group"
+msgctxt "A group of shapes"
+msgid "Group"
+msgstr "guruh"
+
+#: ui/ArtworkLayerModel.cpp:176
+#, fuzzy
+#| msgid "Shear"
+msgid "Shape"
+msgstr "Egish"
+
+#: ui/ArtworkLayerModel.cpp:266
+msgctxt "Visibility state of the shape"
+msgid "Visible"
+msgstr ""
+
+#: ui/ArtworkLayerModel.cpp:267
+msgctxt "Lock state of the shape"
+msgid "Locked"
+msgstr ""
+
+#: ui/ArtworkLayerModel.cpp:268
+msgctxt "The z-index of the shape"
+msgid "zIndex"
+msgstr ""
+
+#: ui/ArtworkLayerModel.cpp:269
+#, fuzzy
+#| msgid "Opacity"
+msgctxt "The opacity of the shape"
+msgid "Opacity"
+msgstr "Xiralik"
+
+#: ui/ArtworkLayerModel.cpp:465 ui/ArtworkLayerModel.cpp:485
+msgid "Reparent shapes"
+msgstr ""
+
 #: ui/ArtworkPart.cpp:213
 msgid "Invalid OASIS document. No office:body tag found."
 msgstr "Buzuq OASIS hujjati. office:body tegi topilmadi."
@@ -656,6 +887,45 @@ msgstr "Buzuq OASIS hujjati. office:drawing tegi topilmadi."
 #: ui/ArtworkPart.cpp:227
 msgid "Invalid OASIS document. No draw:page tag found."
 msgstr "Buzuq OASIS hujjati. office:page tegi topilmadi."
+
+#: ui/ArtworkSmallStylePreview.cpp:56
+msgid "Press to apply fill to selection"
+msgstr ""
+
+#: ui/ArtworkSmallStylePreview.cpp:103
+#, fuzzy
+#| msgid "None"
+msgctxt "The style has no fill"
+msgid "None"
+msgstr "Yoʻq"
+
+#: ui/ArtworkSmallStylePreview.cpp:121
+msgid "Press to apply stroke to selection"
+msgstr ""
+
+#: ui/ArtworkSmallStylePreview.cpp:166
+msgctxt "The style has a custom stroking"
+msgid "Custom"
+msgstr ""
+
+#: ui/ArtworkSmallStylePreview.cpp:172
+#, fuzzy
+#| msgid "None"
+msgctxt "The style has no stroking"
+msgid "None"
+msgstr "Yoʻq"
+
+#: ui/ArtworkSmallStylePreview.cpp:192
+#, fuzzy
+#| msgid "Stroke"
+msgid "Stroke:"
+msgstr "Chizish"
+
+#: ui/ArtworkSmallStylePreview.cpp:197
+#, fuzzy
+#| msgid "Fill"
+msgid "Fill:"
+msgstr "Toʻldirish"
 
 #: ui/ArtworkView.cpp:289
 #, fuzzy
@@ -845,276 +1115,6 @@ msgstr "Tanlash"
 #, fuzzy
 msgid "Zoom"
 msgstr "Kattalashtirish vositasi"
-
-#: ui/ArtworkConfigureDialog.cpp:54
-#, fuzzy
-msgid "Configure"
-msgstr "Karbon moslamasi..."
-
-#: ui/ArtworkConfigureDialog.cpp:59 ui/ArtworkConfigureDialog.cpp:60
-#: ui/ArtworkConfigureDialog.cpp:120
-msgid "Interface"
-msgstr "Interfeys"
-
-#: ui/ArtworkConfigureDialog.cpp:64 ui/ArtworkConfigureDialog.cpp:65
-msgid "Misc"
-msgstr "Xar hil"
-
-#: ui/ArtworkConfigureDialog.cpp:69 ui/ArtworkConfigureDialog.cpp:70
-msgid "Grid"
-msgstr "Toʻr"
-
-#: ui/ArtworkConfigureDialog.cpp:76
-#, fuzzy
-#| msgid "Document"
-msgctxt "@title:tab Document settings page"
-msgid "Document"
-msgstr "Hujjat"
-
-#: ui/ArtworkConfigureDialog.cpp:77
-msgid "Document Settings"
-msgstr "Hujjat moslamalari"
-
-#: ui/ArtworkConfigureDialog.cpp:135
-msgid "Show status bar"
-msgstr "Holat panelini koʻrsatish"
-
-#: ui/ArtworkConfigureDialog.cpp:142
-msgid "Number of recent files:"
-msgstr "Yaqinda ochilgan fayllarning soni:"
-
-#: ui/ArtworkConfigureDialog.cpp:148
-msgid "Palette font size:"
-msgstr "Asbob oynasidagi shriftning oʻlchami:"
-
-#: ui/ArtworkConfigureDialog.cpp:151
-msgid "Canvas color:"
-msgstr ""
-
-#: ui/ArtworkLayerDocker.cpp:80
-#, fuzzy
-#| msgid "Layers"
-msgid "Layer view"
-msgstr "Qatlamlar"
-
-#: ui/ArtworkLayerDocker.cpp:91
-#, fuzzy
-#| msgid "New layer"
-msgid "Add a new layer"
-msgstr "Yangi qatlam"
-
-#: ui/ArtworkLayerDocker.cpp:97
-#, fuzzy
-#| msgid "Delete Objects"
-msgid "Delete selected objects"
-msgstr "Obʼektlarni oʻchirish"
-
-#: ui/ArtworkLayerDocker.cpp:103
-#, fuzzy
-#| msgid "Delete Objects"
-msgid "Raise selected objects"
-msgstr "Obʼektlarni oʻchirish"
-
-#: ui/ArtworkLayerDocker.cpp:109
-#, fuzzy
-#| msgid "Delete Objects"
-msgid "Lower selected objects"
-msgstr "Obʼektlarni oʻchirish"
-
-#: ui/ArtworkLayerDocker.cpp:118
-msgid "Minimal View"
-msgstr ""
-
-#: ui/ArtworkLayerDocker.cpp:120
-msgid "Detailed View"
-msgstr ""
-
-#: ui/ArtworkLayerDocker.cpp:122
-msgid "Thumbnail View"
-msgstr ""
-
-#: ui/ArtworkLayerDocker.cpp:132
-msgid "View mode"
-msgstr ""
-
-#: ui/ArtworkLayerDocker.cpp:272
-msgid "New Layer"
-msgstr "Yangi qatlam"
-
-#: ui/ArtworkLayerDocker.cpp:273
-msgid "Enter the name of the new layer:"
-msgstr "Yangi qatlam nomini kiriting:"
-
-#: ui/ArtworkLayerDocker.cpp:274
-msgid "New layer"
-msgstr "Yangi qatlam"
-
-#: ui/ArtworkLayerDocker.cpp:280
-#, fuzzy
-msgid "Create Layer"
-msgstr "Qatlam nomini oʻzgartirish"
-
-#: ui/ArtworkLayerDocker.cpp:304
-msgid "Delete Layer"
-msgstr "Qatlamni oʻchirish"
-
-#: ui/ArtworkLayerDocker.cpp:306
-msgid "Could not delete all layers. At least one layer is required."
-msgstr ""
-
-#: ui/ArtworkLayerDocker.cpp:306
-msgid "Error deleting layers"
-msgstr ""
-
-#: ui/ArtworkLayerModel.cpp:172
-#, fuzzy
-#| msgid "Layers"
-msgid "Layer"
-msgstr "Qatlamlar"
-
-#: ui/ArtworkLayerModel.cpp:174
-#, fuzzy
-#| msgid "group"
-msgctxt "A group of shapes"
-msgid "Group"
-msgstr "guruh"
-
-#: ui/ArtworkLayerModel.cpp:176
-#, fuzzy
-#| msgid "Shear"
-msgid "Shape"
-msgstr "Egish"
-
-#: ui/ArtworkLayerModel.cpp:266
-msgctxt "Visibility state of the shape"
-msgid "Visible"
-msgstr ""
-
-#: ui/ArtworkLayerModel.cpp:267
-msgctxt "Lock state of the shape"
-msgid "Locked"
-msgstr ""
-
-#: ui/ArtworkLayerModel.cpp:268
-msgctxt "The z-index of the shape"
-msgid "zIndex"
-msgstr ""
-
-#: ui/ArtworkLayerModel.cpp:269
-#, fuzzy
-#| msgid "Opacity"
-msgctxt "The opacity of the shape"
-msgid "Opacity"
-msgstr "Xiralik"
-
-#: ui/ArtworkLayerModel.cpp:465 ui/ArtworkLayerModel.cpp:485
-msgid "Reparent shapes"
-msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:33
-msgid "Original"
-msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:34
-#, fuzzy
-msgid "Tiled"
-msgstr "Toʻldirish"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:35
-msgid "Stretched"
-msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:37
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Left"
-msgid "Top Left"
-msgstr "Chap"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:38
-msgid "Top"
-msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:39
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Right"
-msgid "Top Right"
-msgstr "Oʻng"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:40
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Left"
-msgid "Left"
-msgstr "Chap"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:41
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Center"
-msgid "Center"
-msgstr "Markaz"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:42
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Right"
-msgid "Right"
-msgstr "Oʻng"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:43
-msgid "Bottom Left"
-msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:44
-#, fuzzy
-#| msgid "Align Bottom"
-msgid "Bottom"
-msgstr "Pastga"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:45
-msgid "Bottom Right"
-msgstr ""
-
-#: ui/ArtworkSmallStylePreview.cpp:56
-msgid "Press to apply fill to selection"
-msgstr ""
-
-#: ui/ArtworkSmallStylePreview.cpp:103
-#, fuzzy
-#| msgid "None"
-msgctxt "The style has no fill"
-msgid "None"
-msgstr "Yoʻq"
-
-#: ui/ArtworkSmallStylePreview.cpp:121
-msgid "Press to apply stroke to selection"
-msgstr ""
-
-#: ui/ArtworkSmallStylePreview.cpp:166
-msgctxt "The style has a custom stroking"
-msgid "Custom"
-msgstr ""
-
-#: ui/ArtworkSmallStylePreview.cpp:172
-#, fuzzy
-#| msgid "None"
-msgctxt "The style has no stroking"
-msgid "None"
-msgstr "Yoʻq"
-
-#: ui/ArtworkSmallStylePreview.cpp:192
-#, fuzzy
-#| msgid "Stroke"
-msgid "Stroke:"
-msgstr "Chizish"
-
-#: ui/ArtworkSmallStylePreview.cpp:197
-#, fuzzy
-#| msgid "Fill"
-msgid "Fill:"
-msgstr "Toʻldirish"
 
 #~ msgid "Type:"
 #~ msgstr "Turi:"
