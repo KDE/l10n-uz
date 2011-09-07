@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-06 02:29+0200\n"
+"POT-Creation-Date: 2011-09-07 02:17+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2211,7 +2211,7 @@ msgstr ""
 msgid "Margin"
 msgstr "Minimum"
 
-#: formeditor/form.cpp:455
+#: formeditor/form.cpp:455 plugins/forms/kexidbfactorybase.cpp:66
 msgid "Read Only"
 msgstr ""
 
@@ -3391,7 +3391,7 @@ msgstr ""
 msgid "Number"
 msgstr "Raqam"
 
-#: kexidb/utils.cpp:1251 plugins/forms/kexidbfactory.cpp:346
+#: kexidb/utils.cpp:1251 plugins/forms/kexidbfactory.cpp:345
 #: widget/utils/kexicontextmenuutils.cpp:293
 msgid "Image"
 msgstr "Rasm"
@@ -6089,34 +6089,60 @@ msgctxt "Unbound Image Box"
 msgid "(unbound)"
 msgstr ""
 
-#: plugins/forms/widgets/mapbrowser/MapBrowserFactory.cpp:41
+#: plugins/forms/widgets/mapbrowser/MapBrowserFactory.cpp:40
 msgid "Map Browser"
 msgstr ""
 
-#: plugins/forms/widgets/mapbrowser/MapBrowserFactory.cpp:43
+#: plugins/forms/widgets/mapbrowser/MapBrowserFactory.cpp:42
 msgctxt ""
 "This string will be used to name widgets of this class. It must _not_ "
 "contain white spaces and non latin1 characters."
 msgid "mapBrowser"
 msgstr ""
 
-#: plugins/forms/widgets/mapbrowser/MapBrowserFactory.cpp:44
+#: plugins/forms/widgets/mapbrowser/MapBrowserFactory.cpp:43
 msgid "Displays an interactive map."
 msgstr ""
 
-#: plugins/forms/widgets/webbrowser/WebBrowserFactory.cpp:41
+#: plugins/forms/widgets/webbrowser/WebBrowserFactory.cpp:39
 msgid "Web Browser"
 msgstr ""
 
-#: plugins/forms/widgets/webbrowser/WebBrowserFactory.cpp:43
+#: plugins/forms/widgets/webbrowser/WebBrowserFactory.cpp:41
 msgctxt ""
 "This string will be used to name widgets of this class. It must _not_ "
 "contain white spaces and non latin1 characters."
 msgid "webBrowser"
 msgstr ""
 
-#: plugins/forms/widgets/webbrowser/WebBrowserFactory.cpp:44
+#: plugins/forms/widgets/webbrowser/WebBrowserFactory.cpp:42
 msgid "Web widget with browsing features."
+msgstr ""
+
+#: plugins/forms/widgets/webbrowser/WebBrowserFactory.cpp:46
+#, fuzzy
+#| msgid "Zoom Out"
+msgid "Zoom Factor"
+msgstr "Kichiklashtirish"
+
+#: plugins/forms/widgets/webbrowser/WebBrowserFactory.cpp:47
+msgid "Url"
+msgstr ""
+
+#: plugins/forms/widgets/webbrowser/WebBrowserWidget.cpp:43
+msgid "Back"
+msgstr ""
+
+#: plugins/forms/widgets/webbrowser/WebBrowserWidget.cpp:44
+msgid "Forward"
+msgstr ""
+
+#: plugins/forms/widgets/webbrowser/WebBrowserWidget.cpp:45
+msgid "Reload"
+msgstr ""
+
+#: plugins/forms/widgets/webbrowser/WebBrowserWidget.cpp:46
+msgid "Stop"
 msgstr ""
 
 #: plugins/forms/kexiformpart.cpp:85
@@ -6262,7 +6288,7 @@ msgstr "\"%1\" shakli uchun dizayn oʻzgartirildi."
 msgid "Form \"%1\" already exists."
 msgstr "\"%1\" shakli allaqachon mavjud."
 
-#: plugins/forms/kexiformpart.cpp:489 plugins/forms/kexidbfactory.cpp:312
+#: plugins/forms/kexiformpart.cpp:489 plugins/forms/kexidbfactorybase.cpp:61
 msgid "Data Source"
 msgstr "Maʼlumot manbasi"
 
@@ -6270,13 +6296,69 @@ msgstr "Maʼlumot manbasi"
 msgid "Widgets"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:84 plugins/forms/kexiformview.cpp:252
+#: plugins/forms/kexiformview.cpp:252 plugins/forms/kexidbfactory.cpp:84
 #, fuzzy
 msgctxt ""
 "Widget name. This string will be used to name widgets of this class. It must "
 "_not_ contain white spaces and non latin1 characters."
 msgid "form"
 msgstr "hisobot"
+
+#: plugins/forms/kexiformview.cpp:1250
+msgid "Insert AutoField widget"
+msgstr ""
+
+#: plugins/forms/kexiformview.cpp:1250
+#, kde-format
+msgid "Insert %1 AutoField widgets"
+msgstr ""
+
+#: plugins/forms/kexiformmanager.cpp:164
+msgid "Connect Signals/Slots"
+msgstr ""
+
+#: plugins/forms/kexiformmanager.cpp:174
+#, fuzzy
+msgid "Pointer"
+msgstr "Bosib chiqarish"
+
+#: plugins/forms/kexiformmanager.cpp:182
+#, fuzzy
+#| msgid "To Grid"
+msgid "Snap to Grid"
+msgstr "Toʻrga"
+
+#: plugins/forms/kexiformmanager.cpp:190
+msgid "Style"
+msgstr ""
+
+#: plugins/forms/kexiformmanager.cpp:210
+#, fuzzy
+msgid "Set the current view style."
+msgstr "Joriy loyihani yopish"
+
+#: plugins/forms/kexiformmanager.cpp:219
+msgid "Show Form UI Code"
+msgstr ""
+
+#: plugins/forms/kexiformmanager.cpp:404
+#, kde-format
+msgid "Set Form's Data Source to \"%1\""
+msgstr ""
+
+#: plugins/forms/kexiformmanager.cpp:484
+#, fuzzy
+msgid "Form's UI Code"
+msgstr "Tanlangan maʼlumotlar manbasiga oʻtish"
+
+#: plugins/forms/kexiformmanager.cpp:488
+#, fuzzy
+msgid "Current"
+msgstr "Matn"
+
+#: plugins/forms/kexiformmanager.cpp:495
+msgid "Original"
+msgstr ""
 
 #: plugins/forms/kexidbfactory.cpp:85
 msgid "A data-aware form widget"
@@ -6364,37 +6446,37 @@ msgstr "tugma"
 msgid "A button for executing actions"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:313
+#: plugins/forms/kexidbfactory.cpp:312
 msgid "Form Name"
 msgstr "Shakl nomi"
 
-#: plugins/forms/kexidbfactory.cpp:314
+#: plugins/forms/kexidbfactory.cpp:313
 msgid "On Click"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:315
+#: plugins/forms/kexidbfactory.cpp:314
 msgid "On Click Option"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:316
+#: plugins/forms/kexidbfactory.cpp:315
 #, fuzzy
 msgid "Auto Tab Order"
 msgstr "Avto-yorliq"
 
-#: plugins/forms/kexidbfactory.cpp:317
+#: plugins/forms/kexidbfactory.cpp:316
 msgid "Shadow Enabled"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:318
+#: plugins/forms/kexidbfactory.cpp:317
 msgctxt "On: button"
 msgid "On"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:320
+#: plugins/forms/kexidbfactory.cpp:319
 msgid "Editor Type"
 msgstr "Tahrirchi turi"
 
-#: plugins/forms/kexidbfactory.cpp:322
+#: plugins/forms/kexidbfactory.cpp:321
 #, fuzzy
 #| msgctxt "AutoField editor's type"
 #| msgid "Auto"
@@ -6402,84 +6484,79 @@ msgctxt "AutoField editor's type"
 msgid "Auto"
 msgstr "Avto"
 
-#: plugins/forms/kexidbfactory.cpp:330
+#: plugins/forms/kexidbfactory.cpp:329
 msgctxt "AutoField editor's type"
 msgid "Multiline Text"
 msgstr "Koʻp satrli matn"
 
-#: plugins/forms/kexidbfactory.cpp:331
+#: plugins/forms/kexidbfactory.cpp:330
 #, fuzzy
 msgctxt "AutoField editor's type"
 msgid "Drop-Down List"
 msgstr "Avto"
 
-#: plugins/forms/kexidbfactory.cpp:332
+#: plugins/forms/kexidbfactory.cpp:331
 msgctxt "AutoField editor's type"
 msgid "Image"
 msgstr "Rasm"
 
-#: plugins/forms/kexidbfactory.cpp:335
+#: plugins/forms/kexidbfactory.cpp:334
 msgid "Auto Label"
 msgstr "Avto-yorliq"
 
-#: plugins/forms/kexidbfactory.cpp:336
+#: plugins/forms/kexidbfactory.cpp:335
 msgid "Label Text Color"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:338
+#: plugins/forms/kexidbfactory.cpp:337
 msgctxt "(a property name, keep the text narrow!)"
 msgid ""
 "Label Background\n"
 "Color"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:340
+#: plugins/forms/kexidbfactory.cpp:339
 msgid "Label Position"
 msgstr "Yorliq joylashishi"
 
-#: plugins/forms/kexidbfactory.cpp:341
+#: plugins/forms/kexidbfactory.cpp:340
 msgctxt "Label Position"
 msgid "Left"
 msgstr "Chapda"
 
-#: plugins/forms/kexidbfactory.cpp:342
+#: plugins/forms/kexidbfactory.cpp:341
 msgctxt "Label Position"
 msgid "Top"
 msgstr "Yuqorida"
 
-#: plugins/forms/kexidbfactory.cpp:343
+#: plugins/forms/kexidbfactory.cpp:342
 #, fuzzy
 msgctxt "Label Position"
 msgid "No Label"
 msgstr "Chapda"
 
-#: plugins/forms/kexidbfactory.cpp:345
+#: plugins/forms/kexidbfactory.cpp:344
 msgid "Size"
 msgstr "Oʻlchami"
 
-#: plugins/forms/kexidbfactory.cpp:347
+#: plugins/forms/kexidbfactory.cpp:346
 #, fuzzy
 msgid "Scaled Contents"
 msgstr "Jadval tarkibini tozalash"
 
-#: plugins/forms/kexidbfactory.cpp:348
+#: plugins/forms/kexidbfactory.cpp:347
 #, fuzzy
 #| msgid "Sorting"
 msgctxt "Smoothing when contents are scaled"
 msgid "Smoothing"
 msgstr "Saralash"
 
-#: plugins/forms/kexidbfactory.cpp:349
+#: plugins/forms/kexidbfactory.cpp:348
 msgctxt "Keep Aspect Ratio (short)"
 msgid "Keep Ratio"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:356
-#, fuzzy
-msgid "Frame Color"
-msgstr "Freym"
-
-#: plugins/forms/kexidbfactory.cpp:359
+#: plugins/forms/kexidbfactory.cpp:357
 #, fuzzy
 msgctxt ""
 "Drop-Down Button for Image Box Visible (a property name, keep the text "
@@ -6489,93 +6566,42 @@ msgid ""
 "Button Visible"
 msgstr "Avto"
 
-#: plugins/forms/kexidbfactory.cpp:362
+#: plugins/forms/kexidbfactory.cpp:360
 #, fuzzy
 msgctxt "Tristate checkbox, default"
 msgid "Default"
 msgstr "Andoza: %1"
 
-#: plugins/forms/kexidbfactory.cpp:363
+#: plugins/forms/kexidbfactory.cpp:361
 #, fuzzy
 msgctxt "Tristate checkbox, yes"
 msgid "Yes"
 msgstr "Ha"
 
-#: plugins/forms/kexidbfactory.cpp:364
+#: plugins/forms/kexidbfactory.cpp:362
 #, fuzzy
 msgctxt "Tristate checkbox, no"
 msgid "No"
 msgstr "Yoʻq"
 
-#: plugins/forms/kexidbfactory.cpp:367
+#: plugins/forms/kexidbfactory.cpp:365
 #, fuzzy
 msgctxt "Editable combobox"
 msgid "Editable"
 msgstr "hisobot"
 
-#: plugins/forms/kexidbfactory.cpp:452
+#: plugins/forms/kexidbfactory.cpp:450
 msgid "&Image"
 msgstr "&Rasm"
 
-#: plugins/forms/kexidbfactory.cpp:474
+#: plugins/forms/kexidbfactory.cpp:472
 msgid "&Assign Action..."
 msgstr ""
 
-#: plugins/forms/kexiformview.cpp:1250
-msgid "Insert AutoField widget"
-msgstr ""
-
-#: plugins/forms/kexiformview.cpp:1250
-#, kde-format
-msgid "Insert %1 AutoField widgets"
-msgstr ""
-
-#: plugins/forms/kexiformmanager.cpp:164
-msgid "Connect Signals/Slots"
-msgstr ""
-
-#: plugins/forms/kexiformmanager.cpp:174
+#: plugins/forms/kexidbfactorybase.cpp:64
 #, fuzzy
-msgid "Pointer"
-msgstr "Bosib chiqarish"
-
-#: plugins/forms/kexiformmanager.cpp:182
-#, fuzzy
-#| msgid "To Grid"
-msgid "Snap to Grid"
-msgstr "Toʻrga"
-
-#: plugins/forms/kexiformmanager.cpp:190
-msgid "Style"
-msgstr ""
-
-#: plugins/forms/kexiformmanager.cpp:210
-#, fuzzy
-msgid "Set the current view style."
-msgstr "Joriy loyihani yopish"
-
-#: plugins/forms/kexiformmanager.cpp:219
-msgid "Show Form UI Code"
-msgstr ""
-
-#: plugins/forms/kexiformmanager.cpp:404
-#, kde-format
-msgid "Set Form's Data Source to \"%1\""
-msgstr ""
-
-#: plugins/forms/kexiformmanager.cpp:484
-#, fuzzy
-msgid "Form's UI Code"
-msgstr "Tanlangan maʼlumotlar manbasiga oʻtish"
-
-#: plugins/forms/kexiformmanager.cpp:488
-#, fuzzy
-msgid "Current"
-msgstr "Matn"
-
-#: plugins/forms/kexiformmanager.cpp:495
-msgid "Original"
-msgstr ""
+msgid "Frame Color"
+msgstr "Freym"
 
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:65
 #, fuzzy
