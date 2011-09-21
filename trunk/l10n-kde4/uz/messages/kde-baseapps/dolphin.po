@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-19 03:32+0200\n"
+"POT-Creation-Date: 2011-09-21 03:19+0200\n"
 "PO-Revision-Date: 2008-05-31 09:43+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -531,19 +531,91 @@ msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr ""
 
-#: kitemviews/kfileitemlistview.cpp:442
+#: kitemviews/kfileitemlistview.cpp:435
 msgctxt "@item:intable"
 msgid "items"
 msgstr ""
 
-#: kitemviews/kfileitemlistwidget.cpp:673
+#: kitemviews/kfileitemlistwidget.cpp:652
 #, kde-format
 msgctxt "@item:intable"
 msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] ""
 
-#: kitemviews/kfileitemmodel.cpp:822
+#: kitemviews/kfileitemmodel.cpp:220
+#, fuzzy
+#| msgctxt "@action:inmenu Sort By"
+#| msgid "Name"
+msgctxt "@item:intable"
+msgid "Name"
+msgstr "Nomi"
+
+#: kitemviews/kfileitemmodel.cpp:221
+#, fuzzy
+#| msgctxt "@option:check Additional Information"
+#| msgid "Size"
+msgctxt "@item:intable"
+msgid "Size"
+msgstr "Hajmi"
+
+#: kitemviews/kfileitemmodel.cpp:222
+#, fuzzy
+#| msgctxt "@option:check Additional Information"
+#| msgid "Date"
+msgctxt "@item:intable"
+msgid "Date"
+msgstr "Sana"
+
+#: kitemviews/kfileitemmodel.cpp:223
+#, fuzzy
+#| msgctxt "@option:check Additional Information"
+#| msgid "Permissions"
+msgctxt "@item:intable"
+msgid "Permissions"
+msgstr "Huquqlar"
+
+#: kitemviews/kfileitemmodel.cpp:224
+#, fuzzy
+#| msgctxt "@option:check Additional Information"
+#| msgid "Owner"
+msgctxt "@item:intable"
+msgid "Owner"
+msgstr "Egasi"
+
+#: kitemviews/kfileitemmodel.cpp:225
+#, fuzzy
+#| msgctxt "@option:check Additional Information"
+#| msgid "Group"
+msgctxt "@item:intable"
+msgid "Group"
+msgstr "Guruh"
+
+#: kitemviews/kfileitemmodel.cpp:226
+#, fuzzy
+#| msgctxt "@option:check Additional Information"
+#| msgid "Type"
+msgctxt "@item:intable"
+msgid "Type"
+msgstr "Turi"
+
+#: kitemviews/kfileitemmodel.cpp:227
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Documentation"
+msgctxt "@item:intable"
+msgid "Destination"
+msgstr "Qoʻllanmalar"
+
+#: kitemviews/kfileitemmodel.cpp:228
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Paste"
+msgctxt "@item:intable"
+msgid "Path"
+msgstr "Qoʻyish"
+
+#: kitemviews/kfileitemmodel.cpp:846
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -1712,55 +1784,55 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "Qoʻshimcha maʼlumot"
 
-#: views/dolphinview.cpp:498
+#: views/dolphinview.cpp:496
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr ""
 
-#: views/dolphinview.cpp:499
+#: views/dolphinview.cpp:497
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected (%2)"
 msgstr ""
 
-#: views/dolphinview.cpp:503
+#: views/dolphinview.cpp:501
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
 msgid_plural "%1 Folders selected"
 msgstr[0] ""
 
-#: views/dolphinview.cpp:504
+#: views/dolphinview.cpp:502
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
 msgid_plural "%1 Files selected"
 msgstr[0] ""
 
-#: views/dolphinview.cpp:506
+#: views/dolphinview.cpp:504
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr ""
 
-#: views/dolphinview.cpp:509
+#: views/dolphinview.cpp:507
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr ""
 
-#: views/dolphinview.cpp:1043
+#: views/dolphinview.cpp:1041
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr ""
 
-#: views/dolphinview.cpp:1095
+#: views/dolphinview.cpp:1093
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr ""
 
-#: views/dolphinview.cpp:1097
+#: views/dolphinview.cpp:1095
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
