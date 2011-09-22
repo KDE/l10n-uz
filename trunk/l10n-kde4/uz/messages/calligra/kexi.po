@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-21 02:18+0200\n"
+"POT-Creation-Date: 2011-09-22 02:20+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -7671,84 +7671,23 @@ msgctxt "Object class \"objectName\", e.g. Text editor \"text\""
 msgid "%1 \"%2\""
 msgstr ""
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:944
-#, fuzzy, kde-format
-#| msgid "Error: %1"
-msgctxt "Question"
-msgid "Error: %1?"
-msgstr "Xato: %1"
-
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:960
-#: widget/dataviewcommon/kexitableviewdata.cpp:598
-#, fuzzy
-msgid "The column's constraint is declared as NOT NULL."
-msgstr "Ustunlar tarkibi BOʻSH EMAS deb belgilangan."
-
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:979
-#: widget/dataviewcommon/kexitableviewdata.cpp:609
-#, fuzzy
-msgid "The column's constraint is declared as NOT EMPTY."
-msgstr "Ustunlar tarkibi BOʻSH EMAS deb belgilangan."
-
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:994
-#, fuzzy
-msgid "The column's constraint is declared as NOT EMPTY and NOT NULL."
-msgstr "Ustunlar tarkibi BOʻSH EMAS deb belgilangan."
-
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1201
-#, fuzzy
-#| msgid "Do you want to delete selected row?"
-msgid "Do you want to delete selected record?"
-msgstr "Tanlangan satrni olib tashlashni istaysizmi?"
-
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1202
-#, fuzzy
-#| msgid "&Delete Row"
-msgid "&Delete Record"
-msgstr "Satrni &olib tashlash"
-
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1323
-#, kde-format
-msgid "Do you want to clear the contents of table %1?"
-msgstr "\"%1\" jadval tarkibini tozalashni istaysizmi?"
-
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1324
-#, fuzzy
-msgid "&Clear Contents"
-msgstr "Jadval tarkibini tozalash"
-
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1742
-#, fuzzy, kde-format
-msgid "Record: %1"
-msgstr "Yozuv qoʻshish"
-
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1861
-#, fuzzy
-msgctxt "Correct Changes"
-msgid "Correct"
-msgstr "Matn"
-
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1863
-#, fuzzy
-msgid "Correct changes"
-msgstr "Obʼekt oʻzgarishlarini saqlash"
-
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1864
-#, fuzzy
-msgid "Discard Changes"
-msgstr "Oʻzgarishlarni saqlash"
-
-#: widget/dataviewcommon/kexidataprovider.cpp:227
-#: widget/dataviewcommon/kexidataprovider.cpp:251
-#: widget/dataviewcommon/kexidataprovider.cpp:276
-msgid "NAME"
-msgstr "NOMI"
-
 #: widget/dataviewcommon/kexitableviewdata.cpp:596
 #: widget/dataviewcommon/kexitableviewdata.cpp:607
 #, kde-format
 msgid "\"%1\" column requires a value to be entered."
 msgstr ""
+
+#: widget/dataviewcommon/kexitableviewdata.cpp:598
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:960
+#, fuzzy
+msgid "The column's constraint is declared as NOT NULL."
+msgstr "Ustunlar tarkibi BOʻSH EMAS deb belgilangan."
+
+#: widget/dataviewcommon/kexitableviewdata.cpp:609
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:979
+#, fuzzy
+msgid "The column's constraint is declared as NOT EMPTY."
+msgstr "Ustunlar tarkibi BOʻSH EMAS deb belgilangan."
 
 #: widget/dataviewcommon/kexitableviewdata.cpp:620
 #, fuzzy
@@ -7764,6 +7703,67 @@ msgstr "Qatorni oʻzgartirib boʻlmadi."
 #, fuzzy
 msgid "Record deleting failed."
 msgstr "Qatorni olib tashlab boʻlmadi."
+
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:944
+#, fuzzy, kde-format
+#| msgid "Error: %1"
+msgctxt "Question"
+msgid "Error: %1?"
+msgstr "Xato: %1"
+
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:994
+#, fuzzy
+msgid "The column's constraint is declared as NOT EMPTY and NOT NULL."
+msgstr "Ustunlar tarkibi BOʻSH EMAS deb belgilangan."
+
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1198
+#, fuzzy
+#| msgid "Do you want to delete selected row?"
+msgid "Do you want to delete selected record?"
+msgstr "Tanlangan satrni olib tashlashni istaysizmi?"
+
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1199
+#, fuzzy
+#| msgid "&Delete Row"
+msgid "&Delete Record"
+msgstr "Satrni &olib tashlash"
+
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1320
+#, kde-format
+msgid "Do you want to clear the contents of table %1?"
+msgstr "\"%1\" jadval tarkibini tozalashni istaysizmi?"
+
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1321
+#, fuzzy
+msgid "&Clear Contents"
+msgstr "Jadval tarkibini tozalash"
+
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1739
+#, fuzzy, kde-format
+msgid "Record: %1"
+msgstr "Yozuv qoʻshish"
+
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1858
+#, fuzzy
+msgctxt "Correct Changes"
+msgid "Correct"
+msgstr "Matn"
+
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1860
+#, fuzzy
+msgid "Correct changes"
+msgstr "Obʼekt oʻzgarishlarini saqlash"
+
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1861
+#, fuzzy
+msgid "Discard Changes"
+msgstr "Oʻzgarishlarni saqlash"
+
+#: widget/dataviewcommon/kexidataprovider.cpp:229
+#: widget/dataviewcommon/kexidataprovider.cpp:253
+#: widget/dataviewcommon/kexidataprovider.cpp:278
+msgid "NAME"
+msgstr "NOMI"
 
 #: widget/kexicharencodingcombobox.cpp:66
 #, kde-format
@@ -7830,24 +7830,6 @@ msgstr "Maʼlumot bazasini ochish"
 #: widget/kexidbconnectionwidget.cpp:384
 msgid "Connect to a Database Server"
 msgstr "Maʼlumot bazasi serveriga ulanish"
-
-#: widget/kexiqueryparameters.cpp:40
-#, fuzzy
-msgctxt "Enter Query Parameter Value"
-msgid "Enter Parameter Value"
-msgstr "Soʻrov moslamasi"
-
-#: widget/kexiqueryparameters.cpp:61
-#, fuzzy
-msgctxt "Boolean True - Yes"
-msgid "Yes"
-msgstr "Ha"
-
-#: widget/kexiqueryparameters.cpp:61
-#, fuzzy
-msgctxt "Boolean False - No"
-msgid "No"
-msgstr "Yoʻq"
 
 #: widget/kexiscrollview.cpp:362
 msgid "Outer Area"
@@ -8353,6 +8335,24 @@ msgstr "Obʼektni matn koʻrinishida ochish"
 #, fuzzy
 msgid "Starts designing of the object in the list in text view."
 msgstr "Roʻyxatdan tanlangan obʼektni ochish"
+
+#: widget/kexiqueryparameters.cpp:40
+#, fuzzy
+msgctxt "Enter Query Parameter Value"
+msgid "Enter Parameter Value"
+msgstr "Soʻrov moslamasi"
+
+#: widget/kexiqueryparameters.cpp:61
+#, fuzzy
+msgctxt "Boolean True - Yes"
+msgid "Yes"
+msgstr "Ha"
+
+#: widget/kexiqueryparameters.cpp:61
+#, fuzzy
+msgctxt "Boolean False - No"
+msgid "No"
+msgstr "Yoʻq"
 
 #: mobile/KexiMobileMainWindow.cpp:77
 #, fuzzy
