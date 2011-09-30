@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-24 02:17+0200\n"
+"POT-Creation-Date: 2011-09-30 02:25+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -64,7 +64,9 @@ msgstr "Kontekstli yordam"
 msgid "Unknown error"
 msgstr "Nomaʼlum xato"
 
-#: core/kexiguimsghandler.cpp:149
+#: core/kexiguimsghandler.cpp:149 plugins/reports/kexireportview.cpp:171
+#: plugins/reports/kexireportview.cpp:199
+#: plugins/reports/kexireportview.cpp:225
 #, fuzzy
 msgid "Warning"
 msgstr "bosib chiqarilmoqda"
@@ -457,70 +459,70 @@ msgstr "\"%1\" plaginini yuklashda xato roʻy berdi"
 msgid "No plugin for class \"%1\""
 msgstr ""
 
-#: core/kexiproject.cpp:198
+#: core/kexiproject.cpp:215
 #, kde-format
 msgid "Could not open project \"%1\"."
 msgstr "\"%1\" loyihasini ochib boʻlmadi."
 
-#: core/kexiproject.cpp:222
+#: core/kexiproject.cpp:239
 #, kde-format
 msgid ""
 "Database project %1 does not appear to have been created using Kexi and "
 "cannot be opened.<br><br>It is an SQLite file created using other tools.</qt>"
 msgstr ""
 
-#: core/kexiproject.cpp:245
+#: core/kexiproject.cpp:262
 #, kde-format
 msgid "Could not create project \"%1\"."
 msgstr "\"%1\" loyihasini yaratib boʻlmadi."
 
-#: core/kexiproject.cpp:288 core/kexiproject.cpp:353
+#: core/kexiproject.cpp:305 core/kexiproject.cpp:370
 #, fuzzy
 msgid "Project major version"
 msgstr "Loyihaning asl versiyasi"
 
-#: core/kexiproject.cpp:290 core/kexiproject.cpp:355
+#: core/kexiproject.cpp:307 core/kexiproject.cpp:372
 #, fuzzy
 msgid "Project minor version"
 msgstr "Loyihaning ikkinchi darajali versiyasi"
 
-#: core/kexiproject.cpp:292
+#: core/kexiproject.cpp:309
 msgid "Project caption"
 msgstr "Loyiha sarlavhasi"
 
-#: core/kexiproject.cpp:294
+#: core/kexiproject.cpp:311
 msgid "Project description"
 msgstr "Loyiha taʼrifi"
 
-#: core/kexiproject.cpp:801
+#: core/kexiproject.cpp:821
 #, fuzzy, kde-format
 msgid "Opening object \"%1\" failed."
 msgstr "\"%1\" obʼektini ochib boʻlmadi."
 
-#: core/kexiproject.cpp:820
+#: core/kexiproject.cpp:840
 msgid "This project is opened as read only."
 msgstr ""
 
-#: core/kexiproject.cpp:877 main/KexiMainWindow.cpp:4565
+#: core/kexiproject.cpp:897 main/KexiMainWindow.cpp:4565
 #, fuzzy
 msgid "Could not set empty name for this object."
 msgstr "Ushbu loyiha uchun boʻsh nom oʻrnatib boʻlmadi."
 
-#: core/kexiproject.cpp:881
+#: core/kexiproject.cpp:901
 #, kde-format
 msgid "Could not use this name. Object with name \"%1\" already exists."
 msgstr "Ushbu nomni qoʻllab boʻlmaydi. \"%1\" nomli obʼekt allaqachon mavjud."
 
-#: core/kexiproject.cpp:888
+#: core/kexiproject.cpp:908
 #, fuzzy, kde-format
 msgid "Could not rename object \"%1\"."
 msgstr "\"%1\" obʼektini qayta nomlab boʻlmadi."
 
-#: core/kexiproject.cpp:1012
+#: core/kexiproject.cpp:1032
 msgid "Warning: entire project's data will be removed."
 msgstr "Diqqat: loyihaning barcha maʼlumotlari oʻchirib tashlanadi."
 
-#: core/kexiproject.cpp:1026
+#: core/kexiproject.cpp:1046
 #, kde-format
 msgid ""
 "The project %1 already exists.\n"
@@ -529,17 +531,17 @@ msgstr ""
 "\"%1\" loyihasi allaqachon mavjud.\n"
 "Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
 
-#: core/kexiproject.cpp:1029 main/kexifinddialog.cpp:229
+#: core/kexiproject.cpp:1049 main/kexifinddialog.cpp:229
 #, fuzzy
 msgid "Replace"
 msgstr "&Almashtirish"
 
-#: core/kexiproject.cpp:1053
+#: core/kexiproject.cpp:1073
 #, fuzzy, kde-format
 msgid "Do you want to drop the project \"%1\"?"
 msgstr "\"%1\" loyihasini ochib boʻlmadi."
 
-#: core/kexiproject.cpp:1063
+#: core/kexiproject.cpp:1083
 msgid ""
 "Could not drop this project. Database connection for this project has been "
 "opened as read only."
@@ -879,30 +881,6 @@ msgstr "Maʼlumot"
 #| msgid "&Design"
 msgid "Design"
 msgstr "&Dizayn"
-
-#: formeditor/WidgetTreeWidget.cpp:96 formeditor/commands.cpp:2219
-#: main/printing/kexisimpleprintingengine.cpp:326
-#, kde-format
-msgid "Page %1"
-msgstr "Bet %1"
-
-#: formeditor/WidgetTreeWidget.cpp:104
-#, fuzzy
-#| msgid "Last Page"
-msgctxt "Tab widget's page"
-msgid "Tab Page"
-msgstr "Oxirgi bet"
-
-#: formeditor/WidgetTreeWidget.cpp:273
-msgid "Widget name"
-msgstr ""
-
-#: formeditor/WidgetTreeWidget.cpp:273
-#, fuzzy
-#| msgid "Type"
-msgctxt "Widget's type"
-msgid "Type"
-msgstr "Turi"
 
 #: formeditor/connectiondialog.cpp:55
 #, fuzzy
@@ -2671,6 +2649,12 @@ msgctxt "(qtundo-format)"
 msgid "Add Page"
 msgstr "Qoʻshish moslamalari"
 
+#: formeditor/commands.cpp:2219 formeditor/WidgetTreeWidget.cpp:96
+#: main/printing/kexisimpleprintingengine.cpp:326
+#, kde-format
+msgid "Page %1"
+msgstr "Bet %1"
+
 #: formeditor/commands.cpp:2305
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -2834,6 +2818,8 @@ msgid "Open in Data View"
 msgstr "&Matn koʻrinishida ochish"
 
 #: formeditor/kexiactionselectiondialog.cpp:269
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:159
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:125
 #: widget/navigator/KexiProjectListView.cpp:196
 #: widget/navigator/KexiProjectNavigator.cpp:167
 #, fuzzy
@@ -2841,6 +2827,7 @@ msgid "Execute"
 msgstr "Skriptni ishga tushirish"
 
 #: formeditor/kexiactionselectiondialog.cpp:275
+#: plugins/reports/kexireportview.cpp:76
 #, fuzzy
 msgid "Print"
 msgstr "Bosib chiqarish"
@@ -2933,6 +2920,24 @@ msgstr "Amal turi:"
 #, kde-format
 msgid "&Select action to be executed after clicking \"%1\" button:"
 msgstr ""
+
+#: formeditor/WidgetTreeWidget.cpp:104
+#, fuzzy
+#| msgid "Last Page"
+msgctxt "Tab widget's page"
+msgid "Tab Page"
+msgstr "Oxirgi bet"
+
+#: formeditor/WidgetTreeWidget.cpp:273
+msgid "Widget name"
+msgstr ""
+
+#: formeditor/WidgetTreeWidget.cpp:273
+#, fuzzy
+#| msgid "Type"
+msgctxt "Widget's type"
+msgid "Type"
+msgstr "Turi"
 
 #: kexidb/connectiondata.cpp:97
 msgid "file"
@@ -3047,25 +3052,6 @@ msgstr ""
 
 #: kexidb/driver_p.cpp:77
 msgid "KexiDB driver version"
-msgstr ""
-
-#: kexidb/drivermanager.cpp:171
-msgid "Could not find any database drivers."
-msgstr "Hecha qanday maʼlumot baza drayveri topilmadi."
-
-#: kexidb/drivermanager.cpp:181 kexidb/drivermanager.cpp:200
-#, kde-format
-msgid "Could not find database driver \"%1\"."
-msgstr "Maʼlumotlar baza drayveri \"%1\" topilmadi."
-
-#: kexidb/drivermanager.cpp:231
-#, kde-format
-msgid "Could not load database driver \"%1\"."
-msgstr "Maʼlumotlar baza drayverini \"%1\" yuklab boʻlmadi."
-
-#: kexidb/drivermanager.cpp:374
-#, kde-format
-msgid "No such driver service: \"%1\"."
 msgstr ""
 
 #: kexidb/drivers/mySQL/mysqlconnection.cpp:139 kexidb/connection.cpp:466
@@ -3813,6 +3799,25 @@ msgstr "Ha/Yoʻq"
 msgid "Date/Time"
 msgstr "Vaqt/Sana"
 
+#: kexidb/drivermanager.cpp:171
+msgid "Could not find any database drivers."
+msgstr "Hecha qanday maʼlumot baza drayveri topilmadi."
+
+#: kexidb/drivermanager.cpp:181 kexidb/drivermanager.cpp:200
+#, kde-format
+msgid "Could not find database driver \"%1\"."
+msgstr "Maʼlumotlar baza drayveri \"%1\" topilmadi."
+
+#: kexidb/drivermanager.cpp:231
+#, kde-format
+msgid "Could not load database driver \"%1\"."
+msgstr "Maʼlumotlar baza drayverini \"%1\" yuklab boʻlmadi."
+
+#: kexidb/drivermanager.cpp:374
+#, kde-format
+msgid "No such driver service: \"%1\"."
+msgstr ""
+
 #: kexiutils/identifier.cpp:92
 #, kde-format
 msgid "Value of \"%1\" column must be an identifier."
@@ -4095,6 +4100,9 @@ msgstr ""
 
 #: main/startup/KexiStartupFileWidget.cpp:433
 #: main/startup/KexiStartupFileHandler.cpp:489
+#: plugins/reports/kexireportview.cpp:171
+#: plugins/reports/kexireportview.cpp:199
+#: plugins/reports/kexireportview.cpp:225
 msgid "Overwrite"
 msgstr "Almashtirish"
 
@@ -4104,6 +4112,7 @@ msgid "Saving \"%1\" project file to a new \"%2\" database format..."
 msgstr ""
 
 #: main/startup/KexiConnSelector.cpp:78
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:123
 #, fuzzy
 msgid "File"
 msgstr "fayl"
@@ -4195,40 +4204,6 @@ msgstr "Maʼlumot bazasini ochish"
 #, kde-format
 msgid "Select a project on <b>%1</b> database server to open:"
 msgstr ""
-
-#: main/startup/KexiRecentProjectsModel.cpp:66
-msgid "Opened less than minute ago"
-msgstr ""
-
-#: main/startup/KexiRecentProjectsModel.cpp:68
-#, kde-format
-msgid "Opened 1 minute ago"
-msgid_plural "Opened %1 minutes ago"
-msgstr[0] ""
-
-#: main/startup/KexiRecentProjectsModel.cpp:70
-#, kde-format
-msgid "Opened 1 hour ago"
-msgid_plural "Opened %1 hours ago"
-msgstr[0] ""
-
-#: main/startup/KexiRecentProjectsModel.cpp:74
-#, kde-format
-msgid "Opened yesterday"
-msgid_plural "Opened %1 days ago"
-msgstr[0] ""
-
-#: main/startup/KexiRecentProjectsModel.cpp:76
-#, kde-format
-msgid "Opened over a month ago"
-msgid_plural "Opened %1 months ago"
-msgstr[0] ""
-
-#: main/startup/KexiRecentProjectsModel.cpp:77
-#, kde-format
-msgid "Opened one year ago"
-msgid_plural "Opened %1 years ago"
-msgstr[0] ""
 
 #: main/startup/KexiStartup.cpp:145
 msgid "Opening database"
@@ -4419,84 +4394,6 @@ msgid ""
 "Failed saving connection data to\n"
 "\"%1\" file."
 msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
-
-#: main/startup/KexiStartupDialog.cpp:146
-#: main/startup/KexiStartupDialog.cpp:313
-msgid "Create Project"
-msgstr "Loyihani yaratish"
-
-#: main/startup/KexiStartupDialog.cpp:148
-#: main/startup/KexiStartupDialog.cpp:598
-msgid "Open Existing Project"
-msgstr "Mavjud loyihani ochish"
-
-#: main/startup/KexiStartupDialog.cpp:152
-msgid "Choose Project"
-msgstr "Loyihani tanlash"
-
-#: main/startup/KexiStartupDialog.cpp:340
-#, fuzzy
-msgid "Do not show me this dialog again"
-msgstr "Ushbu oyna boshqa koʻrsatilmasin"
-
-#: main/startup/KexiStartupDialog.cpp:352
-msgid "Click \"OK\" button to proceed."
-msgstr "Davom etish uchun \"OK\" tugmasini bosing."
-
-#: main/startup/KexiStartupDialog.cpp:355
-#, fuzzy
-#| msgid "Blank Database"
-msgid "Blank Database"
-msgstr "Boʻsh maʼlumot bazasi"
-
-#: main/startup/KexiStartupDialog.cpp:356
-msgid "New Blank Database Project"
-msgstr "Yangi boʻsh maʼlumot baza loyihasi"
-
-#: main/startup/KexiStartupDialog.cpp:361
-msgid "Kexi will create a new blank database project."
-msgstr "Kexi yangi boʻsh maʼlumot baza loyihasini yaratadi."
-
-#: main/startup/KexiStartupDialog.cpp:375
-#, fuzzy
-#| msgid "Create Project"
-msgid "Create From Template"
-msgstr "Loyihani yaratish"
-
-#: main/startup/KexiStartupDialog.cpp:376
-#, fuzzy
-#| msgid "New Blank Database Project"
-msgid "New Database Project From Template"
-msgstr "Yangi boʻsh maʼlumot baza loyihasi"
-
-#: main/startup/KexiStartupDialog.cpp:381
-msgid ""
-"Kexi will create a new database project using selected template.\n"
-"Select template and click \"OK\" button to proceed."
-msgstr ""
-
-#: main/startup/KexiStartupDialog.cpp:426
-#, fuzzy
-#| msgid ""
-#| "Import Existing\n"
-#| "Database"
-msgid "Import Existing Database"
-msgstr ""
-"Mavjud maʼlumot bazasini\n"
-"import qilish"
-
-#: main/startup/KexiStartupDialog.cpp:428
-msgid "Import Existing Database as New Database Project"
-msgstr ""
-"Mavjud maʼlumot bazasini yangi maʼlumot baza loyihasi sifatida import qilish"
-
-#: main/startup/KexiStartupDialog.cpp:433
-#, fuzzy
-msgid ""
-"Kexi will import the structure and data of an existing database as a new "
-"database project."
-msgstr ""
-"Mavjud maʼlumot bazasini yangi maʼlumot baza loyihasi sifatida import qilish"
 
 #: main/startup/KexiStartupFileHandler.cpp:488
 #, fuzzy
@@ -4719,6 +4616,144 @@ msgstr "Yaqinda ochilgan loyihani ochish"
 #: main/startup/KexiRecentProjectsAssistant.cpp:63
 msgid "Select one of the recently used projects to open."
 msgstr ""
+
+#: main/startup/KexiRecentProjectsModel.cpp:66
+msgid "Opened less than minute ago"
+msgstr ""
+
+#: main/startup/KexiRecentProjectsModel.cpp:68
+#, kde-format
+msgid "Opened 1 minute ago"
+msgid_plural "Opened %1 minutes ago"
+msgstr[0] ""
+
+#: main/startup/KexiRecentProjectsModel.cpp:70
+#, kde-format
+msgid "Opened 1 hour ago"
+msgid_plural "Opened %1 hours ago"
+msgstr[0] ""
+
+#: main/startup/KexiRecentProjectsModel.cpp:74
+#, kde-format
+msgid "Opened yesterday"
+msgid_plural "Opened %1 days ago"
+msgstr[0] ""
+
+#: main/startup/KexiRecentProjectsModel.cpp:76
+#, kde-format
+msgid "Opened over a month ago"
+msgid_plural "Opened %1 months ago"
+msgstr[0] ""
+
+#: main/startup/KexiRecentProjectsModel.cpp:77
+#, kde-format
+msgid "Opened one year ago"
+msgid_plural "Opened %1 years ago"
+msgstr[0] ""
+
+#: main/startup/KexiRecentProjectsModel.cpp:110
+#, fuzzy
+#| msgid "Local server"
+msgid "on local server"
+msgstr "Lokal server"
+
+#: main/startup/KexiRecentProjectsModel.cpp:113
+#, fuzzy, kde-format
+#| msgid "Local server"
+msgid "on \"%1\" server"
+msgstr "Lokal server"
+
+#: main/startup/KexiRecentProjectsModel.cpp:121
+#, fuzzy, kde-format
+#| msgid "New database"
+msgctxt "File database <file>"
+msgid "File database %1"
+msgstr "Yangi maʼlumot bazasi"
+
+#: main/startup/KexiRecentProjectsModel.cpp:126
+#, fuzzy, kde-format
+#| msgid "New database"
+msgctxt "<type> database"
+msgid "%1 database"
+msgstr "Yangi maʼlumot bazasi"
+
+#: main/startup/KexiStartupDialog.cpp:146
+#: main/startup/KexiStartupDialog.cpp:313
+msgid "Create Project"
+msgstr "Loyihani yaratish"
+
+#: main/startup/KexiStartupDialog.cpp:148
+#: main/startup/KexiStartupDialog.cpp:598
+msgid "Open Existing Project"
+msgstr "Mavjud loyihani ochish"
+
+#: main/startup/KexiStartupDialog.cpp:152
+msgid "Choose Project"
+msgstr "Loyihani tanlash"
+
+#: main/startup/KexiStartupDialog.cpp:340
+#, fuzzy
+msgid "Do not show me this dialog again"
+msgstr "Ushbu oyna boshqa koʻrsatilmasin"
+
+#: main/startup/KexiStartupDialog.cpp:352
+msgid "Click \"OK\" button to proceed."
+msgstr "Davom etish uchun \"OK\" tugmasini bosing."
+
+#: main/startup/KexiStartupDialog.cpp:355
+#, fuzzy
+#| msgid "Blank Database"
+msgid "Blank Database"
+msgstr "Boʻsh maʼlumot bazasi"
+
+#: main/startup/KexiStartupDialog.cpp:356
+msgid "New Blank Database Project"
+msgstr "Yangi boʻsh maʼlumot baza loyihasi"
+
+#: main/startup/KexiStartupDialog.cpp:361
+msgid "Kexi will create a new blank database project."
+msgstr "Kexi yangi boʻsh maʼlumot baza loyihasini yaratadi."
+
+#: main/startup/KexiStartupDialog.cpp:375
+#, fuzzy
+#| msgid "Create Project"
+msgid "Create From Template"
+msgstr "Loyihani yaratish"
+
+#: main/startup/KexiStartupDialog.cpp:376
+#, fuzzy
+#| msgid "New Blank Database Project"
+msgid "New Database Project From Template"
+msgstr "Yangi boʻsh maʼlumot baza loyihasi"
+
+#: main/startup/KexiStartupDialog.cpp:381
+msgid ""
+"Kexi will create a new database project using selected template.\n"
+"Select template and click \"OK\" button to proceed."
+msgstr ""
+
+#: main/startup/KexiStartupDialog.cpp:426
+#, fuzzy
+#| msgid ""
+#| "Import Existing\n"
+#| "Database"
+msgid "Import Existing Database"
+msgstr ""
+"Mavjud maʼlumot bazasini\n"
+"import qilish"
+
+#: main/startup/KexiStartupDialog.cpp:428
+msgid "Import Existing Database as New Database Project"
+msgstr ""
+"Mavjud maʼlumot bazasini yangi maʼlumot baza loyihasi sifatida import qilish"
+
+#: main/startup/KexiStartupDialog.cpp:433
+#, fuzzy
+msgid ""
+"Kexi will import the structure and data of an existing database as a new "
+"database project."
+msgstr ""
+"Mavjud maʼlumot bazasini yangi maʼlumot baza loyihasi sifatida import qilish"
 
 #: main/KexiMainWindow_p.h:867
 msgid "Task-based tabbed toolbar groups commands for application using tabs."
@@ -5531,7 +5566,7 @@ msgstr ""
 msgid "Do you want to save changes?"
 msgstr "Oʻzgarishlarni saqlashni istaysizmi?"
 
-#: main/KexiMainWindow.cpp:4262 mobile/KexiMobileMainWindow.cpp:139
+#: main/KexiMainWindow.cpp:4262
 #, kde-format
 msgctxt "opening is not allowed in \"data view/design view/text view\" mode"
 msgid "opening is not allowed in \"%1\" mode"
@@ -5789,6 +5824,49 @@ msgstr ""
 msgid "Unable to create table [%1]"
 msgstr "\"%1\" maʼlumotlar bazasini yaratib boʻlmadi."
 
+#: migration/keximigrate.cpp:78 migration/keximigrate.cpp:128
+#: migration/keximigrate.cpp:234 migration/keximigrate.cpp:304
+#, kde-format
+msgid "Could not create database \"%1\"."
+msgstr "\"%1\" maʼlumotlar bazasini yaratib boʻlmadi."
+
+#: migration/keximigrate.cpp:151
+#, fuzzy, kde-format
+msgid "Could not get a list of table names for data source \"%1\"."
+msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
+
+#: migration/keximigrate.cpp:161
+#, fuzzy, kde-format
+msgid "No tables to import found in data source \"%1\"."
+msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
+
+#: migration/keximigrate.cpp:205
+#, fuzzy, kde-format
+msgid ""
+"Could not import project from data source \"%1\". Error reading table \"%2\"."
+msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
+
+#: migration/keximigrate.cpp:332
+#, fuzzy, kde-format
+msgid "Could not import project from data source \"%1\"."
+msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
+
+#: migration/keximigrate.cpp:408
+#, fuzzy, kde-format
+msgid "Could not import data from data source \"%1\"."
+msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
+
+#: migration/keximigrate.cpp:488
+msgid "Field Type"
+msgstr "Maydon turi"
+
+#: migration/keximigrate.cpp:489
+#, kde-format
+msgid ""
+"The data type for %1 could not be determined. Please select one of the "
+"following data types"
+msgstr ""
+
 #: migration/importwizard.cpp:68
 msgid "Import Database"
 msgstr "Maʼlumotlar bazasini import qilish"
@@ -5963,49 +6041,6 @@ msgid ""
 "name."
 msgstr ""
 
-#: migration/keximigrate.cpp:78 migration/keximigrate.cpp:128
-#: migration/keximigrate.cpp:234 migration/keximigrate.cpp:304
-#, kde-format
-msgid "Could not create database \"%1\"."
-msgstr "\"%1\" maʼlumotlar bazasini yaratib boʻlmadi."
-
-#: migration/keximigrate.cpp:151
-#, fuzzy, kde-format
-msgid "Could not get a list of table names for data source \"%1\"."
-msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
-
-#: migration/keximigrate.cpp:161
-#, fuzzy, kde-format
-msgid "No tables to import found in data source \"%1\"."
-msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
-
-#: migration/keximigrate.cpp:205
-#, fuzzy, kde-format
-msgid ""
-"Could not import project from data source \"%1\". Error reading table \"%2\"."
-msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
-
-#: migration/keximigrate.cpp:332
-#, fuzzy, kde-format
-msgid "Could not import project from data source \"%1\"."
-msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
-
-#: migration/keximigrate.cpp:408
-#, fuzzy, kde-format
-msgid "Could not import data from data source \"%1\"."
-msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
-
-#: migration/keximigrate.cpp:488
-msgid "Field Type"
-msgstr "Maydon turi"
-
-#: migration/keximigrate.cpp:489
-#, kde-format
-msgid ""
-"The data type for %1 could not be determined. Please select one of the "
-"following data types"
-msgstr ""
-
 #: plugins/forms/widgets/kexidbautofield.cpp:576
 #, kde-format
 msgctxt "Unbound Auto Field"
@@ -6029,62 +6064,6 @@ msgstr ""
 #: plugins/forms/widgets/kexidbimagebox.cpp:708
 msgctxt "Unbound Image Box"
 msgid "(unbound)"
-msgstr ""
-
-#: plugins/forms/widgets/mapbrowser/MapBrowserFactory.cpp:40
-msgid "Map Browser"
-msgstr ""
-
-#: plugins/forms/widgets/mapbrowser/MapBrowserFactory.cpp:42
-msgctxt ""
-"This string will be used to name widgets of this class. It must _not_ "
-"contain white spaces and non latin1 characters."
-msgid "mapBrowser"
-msgstr ""
-
-#: plugins/forms/widgets/mapbrowser/MapBrowserFactory.cpp:43
-msgid "Displays an interactive map."
-msgstr ""
-
-#: plugins/forms/widgets/webbrowser/WebBrowserWidget.cpp:43
-msgid "Back"
-msgstr ""
-
-#: plugins/forms/widgets/webbrowser/WebBrowserWidget.cpp:44
-msgid "Forward"
-msgstr ""
-
-#: plugins/forms/widgets/webbrowser/WebBrowserWidget.cpp:45
-msgid "Reload"
-msgstr ""
-
-#: plugins/forms/widgets/webbrowser/WebBrowserWidget.cpp:46
-msgid "Stop"
-msgstr ""
-
-#: plugins/forms/widgets/webbrowser/WebBrowserFactory.cpp:39
-msgid "Web Browser"
-msgstr ""
-
-#: plugins/forms/widgets/webbrowser/WebBrowserFactory.cpp:41
-msgctxt ""
-"This string will be used to name widgets of this class. It must _not_ "
-"contain white spaces and non latin1 characters."
-msgid "webBrowser"
-msgstr ""
-
-#: plugins/forms/widgets/webbrowser/WebBrowserFactory.cpp:42
-msgid "Web widget with browsing features."
-msgstr ""
-
-#: plugins/forms/widgets/webbrowser/WebBrowserFactory.cpp:46
-#, fuzzy
-#| msgid "Zoom Out"
-msgid "Zoom Factor"
-msgstr "Kichiklashtirish"
-
-#: plugins/forms/widgets/webbrowser/WebBrowserFactory.cpp:47
-msgid "Url"
 msgstr ""
 
 #: plugins/forms/kexiformview.cpp:252 plugins/forms/kexidbfactory.cpp:84
@@ -6409,6 +6388,7 @@ msgid "&Assign Action..."
 msgstr ""
 
 #: plugins/forms/kexidbfactorybase.cpp:61 plugins/forms/kexiformpart.cpp:489
+#: plugins/reports/kexireportpart.cpp:160
 msgid "Data Source"
 msgstr "Maʼlumot manbasi"
 
@@ -7242,6 +7222,394 @@ msgstr "Soʻrov ustuni"
 msgid "Alias"
 msgstr "Taxallus"
 
+#: plugins/reports/kexireportdesignview.cpp:50
+#, fuzzy
+#| msgid "Edit Collection..."
+msgid "Edit Sections"
+msgstr "Toʻplamni tahrirlash..."
+
+#: plugins/reports/kexireportdesignview.cpp:53
+msgid "Raise"
+msgstr ""
+
+#: plugins/reports/kexireportdesignview.cpp:55
+msgid "Lower"
+msgstr ""
+
+#: plugins/reports/kexireportpart.cpp:52
+#: plugins/autoforms/KexiAutoFormPart.cpp:32
+msgctxt ""
+"Translate this word using only lowercase alphanumeric characters (a..z, "
+"0..9). Use '_' character instead of spaces. First character should be a..z "
+"character. If you cannot use latin characters in your language, use english "
+"word."
+msgid "report"
+msgstr "hisobot"
+
+#: plugins/reports/kexireportpart.cpp:53
+#, fuzzy
+#| msgid "Create a new project"
+msgctxt "tooltip"
+msgid "Create new report"
+msgstr "Yangi loyihani yaratish"
+
+#: plugins/reports/kexireportpart.cpp:54
+#, fuzzy
+#| msgid "Create a new project"
+msgctxt "what's this"
+msgid "Creates new report."
+msgstr "Yangi loyihani yaratish"
+
+#: plugins/reports/kexireportview.cpp:67
+#, fuzzy
+#| msgid "Page:"
+msgid "Page"
+msgstr "Bet:"
+
+#: plugins/reports/kexireportview.cpp:78
+#, fuzzy
+#| msgid "Report"
+msgid "Print Report"
+msgstr "Hisobot"
+
+#: plugins/reports/kexireportview.cpp:79
+#, fuzzy
+msgid "Prints the current report."
+msgstr "Joriy loyihani yopish"
+
+#: plugins/reports/kexireportview.cpp:84
+#, fuzzy
+msgid "Export: "
+msgstr "&Eksport qilish"
+
+#: plugins/reports/kexireportview.cpp:88
+#, fuzzy
+msgid "Save to Words"
+msgstr "Satrni &olib tashlash"
+
+#: plugins/reports/kexireportview.cpp:91 plugins/reports/kexireportview.cpp:92
+msgid "Save the report to a Words document"
+msgstr ""
+
+#: plugins/reports/kexireportview.cpp:99
+msgid "Save to KSpread"
+msgstr ""
+
+#: plugins/reports/kexireportview.cpp:102
+msgid "Save the report to a KSpread document"
+msgstr ""
+
+#: plugins/reports/kexireportview.cpp:103
+#, fuzzy
+msgid "Saves the current report to a KSpread document."
+msgstr "Joriy loyihani yopish"
+
+#: plugins/reports/kexireportview.cpp:110
+#, fuzzy
+#| msgid "Exporting data from table:"
+msgid "Export as Web Page"
+msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
+
+#: plugins/reports/kexireportview.cpp:113
+#, fuzzy
+#| msgid "Exporting data from table:"
+msgid "Export the report as web page"
+msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
+
+#: plugins/reports/kexireportview.cpp:114
+#, fuzzy
+#| msgid "Exporting data from table:"
+msgid "Exports the report to a web page file."
+msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
+
+#: plugins/reports/kexireportview.cpp:164
+#: plugins/reports/kexireportview.cpp:192
+#, fuzzy
+msgid "Save Report to.."
+msgstr "Hisobot"
+
+#: plugins/reports/kexireportview.cpp:166
+#: plugins/reports/kexireportview.cpp:194
+msgid "Report not exported.The URL was invalid"
+msgstr ""
+
+#: plugins/reports/kexireportview.cpp:166
+#: plugins/reports/kexireportview.cpp:194
+#, fuzzy
+msgid "Not Saved"
+msgstr "Satrni &olib tashlash"
+
+#: plugins/reports/kexireportview.cpp:171
+#: plugins/reports/kexireportview.cpp:199
+#: plugins/reports/kexireportview.cpp:224
+#, fuzzy, kde-format
+#| msgid ""
+#| "The file \"%1\" already exists.\n"
+#| "Do you want to overwrite it?"
+msgid ""
+"The file %1 exists.\n"
+"Do you wish to overwrite it?"
+msgstr ""
+"\"%1\" fayli allaqachon mavjud.\n"
+"Uni almashtirishni istaysizmi?"
+
+#: plugins/reports/kexireportview.cpp:177
+#, kde-format
+msgid "Failed to open %1 in KSpread"
+msgstr ""
+
+#: plugins/reports/kexireportview.cpp:177
+#, fuzzy
+msgid "Opening in KSpread failed"
+msgstr "\"%1\" obʼektini ochib boʻlmadi."
+
+#: plugins/reports/kexireportview.cpp:205
+#, kde-format
+msgid "Failed to save %1 to Words"
+msgstr ""
+
+#: plugins/reports/kexireportview.cpp:205
+#, fuzzy
+msgid "Saving to Words failed"
+msgstr "\"%1\" obʼektini saqlab boʻlmadi."
+
+#: plugins/reports/kexireportview.cpp:217
+#, fuzzy
+#| msgid "Exporting data from table:"
+msgid "Export Report as Web Page"
+msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
+
+#: plugins/reports/kexireportview.cpp:219
+msgid "Report not exported, no file selected for writing to"
+msgstr ""
+
+#: plugins/reports/kexireportview.cpp:219
+#, fuzzy
+msgid "Not Exported"
+msgstr "&Eksport qilish"
+
+#: plugins/reports/kexireportview.cpp:232
+msgid ""
+"Would you like to export using a Cascading Style Sheet which will give "
+"output closer to the original, or export using a Table which outputs a much "
+"simpler format."
+msgstr ""
+
+#: plugins/reports/kexireportview.cpp:233
+#, fuzzy
+msgid "Export Style"
+msgstr "&Eksport qilish"
+
+#: plugins/reports/kexireportview.cpp:244
+#, fuzzy, kde-format
+#| msgid "Exporting data from table:"
+msgid "Exporting report to %1 failed"
+msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
+
+#: plugins/reports/kexireportview.cpp:244
+#, fuzzy
+msgid "Exporting failed"
+msgstr "\"%1\" obʼektini saqlab boʻlmadi."
+
+#: plugins/reports/kexireportview.cpp:246
+#, fuzzy, kde-format
+#| msgid "Report"
+msgid "Report exported to %1"
+msgstr "Hisobot"
+
+#: plugins/reports/kexireportview.cpp:246
+#, fuzzy
+#| msgid "Exporting"
+msgid "Exporting Succeeded"
+msgstr "Eksport qilinmoqda"
+
+#: plugins/reports/kexireportview.cpp:316
+msgid "Report schema appears to be invalid or corrupt"
+msgstr ""
+
+#: plugins/reports/kexireportview.cpp:316
+#, fuzzy
+msgid "Opening failed"
+msgstr "\"%1\" obʼektini saqlab boʻlmadi."
+
+#: plugins/reports/kexisourceselector.cpp:52
+#, fuzzy
+#| msgid "Data"
+msgid "Set Data"
+msgstr "Maʼlumot"
+
+#: plugins/reports/kexisourceselector.cpp:56
+#, fuzzy
+#| msgid "Create"
+msgid "Internal"
+msgstr "Yaratish"
+
+#: plugins/reports/kexisourceselector.cpp:57
+#, fuzzy
+#| msgid "Open External File"
+msgid "External"
+msgstr "Tashqi faylni ochish"
+
+#: plugins/reports/kexisourceselector.cpp:63
+#, fuzzy
+msgid "Source Type:"
+msgstr "Maʼlumot manbasi"
+
+#: plugins/reports/kexisourceselector.cpp:71
+#, fuzzy
+#| msgid "Create"
+msgid "Internal Source:"
+msgstr "Yaratish"
+
+#: plugins/reports/kexisourceselector.cpp:76
+#, fuzzy
+#| msgid "Open External File"
+msgid "External Source:"
+msgstr "Tashqi faylni ochish"
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:125
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:126
+#, fuzzy
+msgid "File actions"
+msgstr "Sarlavha:"
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:127
+#, fuzzy
+#| msgid "&New..."
+msgid "New"
+msgstr "Ya&ngi"
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:131
+#, fuzzy
+#| msgid "&Open"
+msgid "Open..."
+msgstr "&Ochish"
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:135
+#, fuzzy
+#| msgid "Save &As..."
+msgid "Save As..."
+msgstr "...sifatida s&aqlash"
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:141
+#, fuzzy
+msgid "Edit"
+msgstr "&Tahrirlash..."
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:143
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:144
+#, fuzzy
+#| msgid "Edit Collection..."
+msgid "Edit actions"
+msgstr "Toʻplamni tahrirlash..."
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:150
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:234
+msgid "Configure Editor..."
+msgstr ""
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:152
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:153
+msgid "Configure the scripting editor"
+msgstr ""
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:161
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:162
+#, fuzzy
+#| msgid "Execute Script"
+msgid "Execute the scripting code"
+msgstr "Skriptni ishga tushirish"
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:273
+#, fuzzy
+#| msgid "&Horizontally"
+msgid "Script Type"
+msgstr "&Eniga"
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:274
+msgid "The type of script"
+msgstr ""
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:288
+msgid "Interpreter"
+msgstr ""
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:289
+msgid "The used scripting interpreter."
+msgstr ""
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:353
+#, kde-format
+msgid "Execution of the script \"%1\" started."
+msgstr ""
+
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:368
+#, c-format, kde-format
+msgid "Successfully executed. Time elapsed: %1ms"
+msgstr ""
+
+#: plugins/scripting/kexiscripting/kexiscripteditor.cpp:73
+msgid ""
+"This note will appear for a user in the script's source code as a comment. "
+"Keep every row not longer than 60 characters and use '\n"
+".'"
+msgstr ""
+
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:81
+#, fuzzy
+#| msgid "Description"
+msgctxt ""
+"Translate this word using only lowercase alphanumeric characters (a..z, "
+"0..9). Use '_' character instead of spaces. First character should be a..z "
+"character. If you cannot use latin characters in your language, use english "
+"word."
+msgid "script"
+msgstr "Taʼrifi"
+
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:82
+#, fuzzy
+#| msgid "Create a new project"
+msgctxt "tooltip"
+msgid "Create new script"
+msgstr "Yangi loyihani yaratish"
+
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:83
+#, fuzzy
+#| msgid "Create a new project"
+msgctxt "what's this"
+msgid "Creates new script."
+msgstr "Yangi loyihani yaratish"
+
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:124
+#, kde-format
+msgid ""
+"Do you want to execute the script \"%1\"?\n"
+"\n"
+"Scripts obtained from unknown sources can contain dangerous code."
+msgstr ""
+
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:125
+#, fuzzy
+#| msgid "Execute Script"
+msgid "Execute Script?"
+msgstr "Skriptni ishga tushirish"
+
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:256
+#, fuzzy
+#| msgid "Description"
+msgid "Scripts"
+msgstr "Taʼrifi"
+
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:284
+#, fuzzy, kde-format
+msgid "Design of script \"%1\" has been modified."
+msgstr "\"%1\" hisoboti dizayni oʻzgartirildi."
+
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:286
+#, fuzzy, kde-format
+msgid "Script \"%1\" already exists."
+msgstr "\"%1\" shakli allaqachon mavjud."
+
 #: plugins/tables/kexitabledesignercommands.cpp:77
 #, kde-format
 msgid "Change \"%1\" property for table field from \"%2\" to \"%3\""
@@ -7603,15 +7971,6 @@ msgstr "Boʻsh hator &qoʻshish"
 msgid "Do you want to save the design now?"
 msgstr "Dizaynni saqlashni istaysizmi?"
 
-#: plugins/autoforms/KexiAutoFormPart.cpp:32
-msgctxt ""
-"Translate this word using only lowercase alphanumeric characters (a..z, "
-"0..9). Use '_' character instead of spaces. First character should be a..z "
-"character. If you cannot use latin characters in your language, use english "
-"word."
-msgid "report"
-msgstr "hisobot"
-
 #: plugins/autoforms/KexiAutoFormPart.cpp:33
 #, fuzzy
 #| msgid "Create a new project"
@@ -7631,39 +7990,24 @@ msgstr "Yangi obʼekt yaratish"
 msgid "Record"
 msgstr "Yozuv qoʻshish"
 
-#: webforms/main.cpp:53
-msgid "Web Forms Daemon"
+#: shapes/relationdesign/kexirelationdesigntool.cpp:95
+#: widget/kexidbconnectionwidget.cpp:373
+msgid "Open Database"
+msgstr "Maʼlumot bazasini ochish"
+
+#: shapes/relationdesign/kexirelationdesigntoolfactory.cpp:26
+msgid "Relation design tool"
 msgstr ""
 
-#: webforms/main.cpp:54
-msgid "Exports Kexi Forms to standard HTML pages"
-msgstr ""
-
-#: webforms/main.cpp:56
-msgid "(C) Copyright 2008, Lorenzo Villani"
-msgstr ""
-
-#: webforms/main.cpp:59
+#: shapes/relationdesign/kexirelationdesignfactory.cpp:27
 #, fuzzy
-#| msgid "Report"
-msgid "Listen port"
-msgstr "Hisobot"
+#| msgid "&Design"
+msgid "Kexi Relation Design"
+msgstr "&Dizayn"
 
-#: webforms/main.cpp:60
-msgid "Web Root (used also as template root directory)"
+#: shapes/relationdesign/kexirelationdesignfactory.cpp:28
+msgid "A kexi relation design shape"
 msgstr ""
-
-#: webforms/main.cpp:61
-#, fuzzy
-#| msgid "Select source database filename."
-msgid "Path to SSL certificate file (PEM encoded)"
-msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
-
-#: webforms/main.cpp:62
-#, fuzzy
-#| msgid "Select source database filename."
-msgid "Path to Kexi database file"
-msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
 
 #: widget/KexiObjectInfoLabel.cpp:106
 #, kde-format
@@ -7822,10 +8166,6 @@ msgstr "Parametrlar"
 #: widget/kexidbconnectionwidget.cpp:256
 msgid "Details"
 msgstr "Tafsilotlar"
-
-#: widget/kexidbconnectionwidget.cpp:373 mobile/KexiMobileMainWindow.cpp:77
-msgid "Open Database"
-msgstr "Maʼlumot bazasini ochish"
 
 #: widget/kexidbconnectionwidget.cpp:384
 msgid "Connect to a Database Server"
@@ -8354,11 +8694,6 @@ msgctxt "Boolean False - No"
 msgid "No"
 msgstr "Yoʻq"
 
-#: mobile/KexiMobileMainWindow.cpp:77
-#, fuzzy
-msgid "Database Files (*.kexi)"
-msgstr "Maʼlumotlar baza serveri"
-
 #. i18n: file: main/kexifinddialog.ui:19
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: rc.cpp:8
@@ -8783,6 +9118,30 @@ msgid "Projects stored in a file"
 msgstr ""
 
 #, fuzzy
+#~| msgid "Zoom Out"
+#~ msgid "Zoom Factor"
+#~ msgstr "Kichiklashtirish"
+
+#, fuzzy
+#~| msgid "Report"
+#~ msgid "Listen port"
+#~ msgstr "Hisobot"
+
+#, fuzzy
+#~| msgid "Select source database filename."
+#~ msgid "Path to SSL certificate file (PEM encoded)"
+#~ msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
+
+#, fuzzy
+#~| msgid "Select source database filename."
+#~ msgid "Path to Kexi database file"
+#~ msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
+
+#, fuzzy
+#~ msgid "Database Files (*.kexi)"
+#~ msgstr "Maʼlumotlar baza serveri"
+
+#, fuzzy
 #~ msgid "Select Project's Caption"
 #~ msgstr "Loyiha manzilini tanlang"
 
@@ -8810,9 +9169,6 @@ msgstr ""
 #~| msgid "&Project"
 #~ msgid "Project"
 #~ msgstr "&Loyiha"
-
-#~ msgid "&New..."
-#~ msgstr "Ya&ngi"
 
 #, fuzzy
 #~ msgid "Open Recent"
@@ -8858,9 +9214,6 @@ msgstr ""
 #~ msgid "Delete Object"
 #~ msgstr "Obʼektni olib tashlash"
 
-#~ msgid "Execute Script"
-#~ msgstr "Skriptni ishga tushirish"
-
 #, fuzzy
 #~| msgid "Table"
 #~ msgid "Tab %1"
@@ -8898,10 +9251,6 @@ msgstr ""
 #~ msgstr "Amalsiz"
 
 #, fuzzy
-#~ msgid "&Edit"
-#~ msgstr "&Tahrirlash..."
-
-#, fuzzy
 #~ msgid "Group Section Editor"
 #~ msgstr "Loyiha navigatori"
 
@@ -8914,25 +9263,7 @@ msgstr ""
 #~ msgstr "Saralash"
 
 #, fuzzy
-#~| msgid "Page:"
-#~ msgid "Page"
-#~ msgstr "Bet:"
-
-#, fuzzy
-#~| msgid "Report"
-#~ msgid "Print Report"
-#~ msgstr "Hisobot"
-
-#, fuzzy
-#~ msgid "Prints the current report."
-#~ msgstr "Joriy loyihani yopish"
-
-#, fuzzy
 #~ msgid "Opens the current report in KWord."
-#~ msgstr "Joriy loyihani yopish"
-
-#, fuzzy
-#~ msgid "Opens the current report in KSpread."
 #~ msgstr "Joriy loyihani yopish"
 
 #, fuzzy
@@ -8940,69 +9271,8 @@ msgstr ""
 #~ msgstr "&Eksport qilish"
 
 #, fuzzy
-#~| msgid "Exporting data from table:"
-#~ msgid "Exports the report to a HTML file."
-#~ msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
-
-#, fuzzy
-#~ msgid "Save Report to.."
-#~ msgstr "Hisobot"
-
-#, fuzzy
-#~| msgid ""
-#~| "The file \"%1\" already exists.\n"
-#~| "Do you want to overwrite it?"
-#~ msgid ""
-#~ "The file %1 exists.\n"
-#~ "Do you wish to overwrite it?"
-#~ msgstr ""
-#~ "\"%1\" fayli allaqachon mavjud.\n"
-#~ "Uni almashtirishni istaysizmi?"
-
-#, fuzzy
-#~ msgid "Opening in KSpread failed"
-#~ msgstr "\"%1\" obʼektini ochib boʻlmadi."
-
-#, fuzzy
-#~ msgid "Export Style"
-#~ msgstr "&Eksport qilish"
-
-#, fuzzy
-#~| msgid "Exporting data from table:"
-#~ msgid "Exporting report to %1 failed"
-#~ msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
-
-#, fuzzy
-#~ msgid "Saving failed"
-#~ msgstr "\"%1\" obʼektini saqlab boʻlmadi."
-
-#, fuzzy
-#~| msgid "Report"
-#~ msgid "Report saved to %1"
-#~ msgstr "Hisobot"
-
-#, fuzzy
 #~ msgid "Saved OK"
 #~ msgstr "Satrni &olib tashlash"
-
-#, fuzzy
-#~ msgid "Opening failed"
-#~ msgstr "\"%1\" obʼektini saqlab boʻlmadi."
-
-#, fuzzy
-#~| msgid "Data"
-#~ msgid "Set Data"
-#~ msgstr "Maʼlumot"
-
-#, fuzzy
-#~| msgid "Create"
-#~ msgid "Internal"
-#~ msgstr "Yaratish"
-
-#, fuzzy
-#~| msgid "Open External File"
-#~ msgid "External"
-#~ msgstr "Tashqi faylni ochish"
 
 #~ msgid "Label"
 #~ msgstr "Yorliq"
@@ -9090,25 +9360,8 @@ msgstr ""
 #~ msgid "Bottom"
 #~ msgstr "Pastga"
 
-#, fuzzy
-#~| msgid "Edit Collection..."
-#~ msgid "Edit Sections"
-#~ msgstr "Toʻplamni tahrirlash..."
-
 #~ msgid "Report"
 #~ msgstr "Hisobot"
-
-#, fuzzy
-#~| msgid "Create a new project"
-#~ msgctxt "tooltip"
-#~ msgid "Create new report"
-#~ msgstr "Yangi loyihani yaratish"
-
-#, fuzzy
-#~| msgid "Create a new project"
-#~ msgctxt "what's this"
-#~ msgid "Creates new report."
-#~ msgstr "Yangi loyihani yaratish"
 
 #, fuzzy
 #~| msgid "Report"
@@ -9565,10 +9818,6 @@ msgstr ""
 #~ msgid "Page:"
 #~ msgstr "Bet:"
 
-#, fuzzy
-#~ msgid "Design of report \"%1\" has been modified."
-#~ msgstr "\"%1\" hisoboti dizayni oʻzgartirildi."
-
 #~ msgid "Report \"%1\" already exists."
 #~ msgstr "\"%1\" hisoboti allaqachon mavjud."
 
@@ -9743,7 +9992,3 @@ msgstr ""
 #, fuzzy
 #~ msgid "Design of macro \"%1\" has been modified."
 #~ msgstr "\"%1\" hisoboti dizayni oʻzgartirildi."
-
-#, fuzzy
-#~ msgid "Macro \"%1\" already exists."
-#~ msgstr "\"%1\" shakli allaqachon mavjud."
