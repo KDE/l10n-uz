@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-02 02:35+0200\n"
+"POT-Creation-Date: 2011-10-03 02:36+0200\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -176,7 +176,7 @@ msgctxt "(qtundo-format)"
 msgid "Lower Layer"
 msgstr "Qatlamni tushirish"
 
-#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:879
+#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:881
 #, fuzzy
 #| msgid "Boolean Operation"
 msgctxt "(qtundo-format)"
@@ -940,12 +940,6 @@ msgstr "Chizish: Rang"
 msgid "&Add to Predefined Gradients"
 msgstr "Oldindan &aniqlangan gradientlarga qoʻshish"
 
-#: ui/widgets/KarbonPaletteBarWidget.cpp:46
-#, fuzzy
-#| msgid "Select Nodes"
-msgid "Select palette"
-msgstr "Tugunlarni tanlash"
-
 #: ui/widgets/KarbonConfigInterfacePage.cpp:71
 #, fuzzy
 #| msgid "Show status bar"
@@ -963,6 +957,12 @@ msgstr "Asbob oynasidagi shriftning oʻlchami:"
 #: ui/widgets/KarbonConfigInterfacePage.cpp:88
 msgid "Canvas color:"
 msgstr ""
+
+#: ui/widgets/KarbonPaletteBarWidget.cpp:58
+#, fuzzy
+#| msgid "Select Nodes"
+msgid "Select palette"
+msgstr "Tugunlarni tanlash"
 
 #: ui/KarbonAboutData.h:26
 msgid "A Vector Graphics Drawing Application."
@@ -1033,7 +1033,7 @@ msgstr ""
 msgid "Helpful patches and advice"
 msgstr ""
 
-#: ui/KarbonDocumentMergeCommand.cpp:59 ui/KarbonView.cpp:549
+#: ui/KarbonDocumentMergeCommand.cpp:59 ui/KarbonView.cpp:551
 #, fuzzy
 #| msgid "Insert Sinus"
 msgctxt "(qtundo-format)"
@@ -1052,239 +1052,239 @@ msgstr "Buzuq OASIS hujjati. office:drawing tegi topilmadi."
 msgid "Invalid OASIS document. No draw:page tag found."
 msgstr "Buzuq OASIS hujjati. office:page tegi topilmadi."
 
-#: ui/KarbonView.cpp:478
+#: ui/KarbonView.cpp:480
 #, fuzzy
 #| msgid "Choose Pattern to Add"
 msgid "Choose Graphic to Add"
 msgstr "Qoʻshish uchun namunani tanlang"
 
-#: ui/KarbonView.cpp:520
+#: ui/KarbonView.cpp:522
 msgid "Could not load image."
 msgstr ""
 
-#: ui/KarbonView.cpp:520 ui/KarbonView.cpp:525 ui/KarbonView.cpp:532
+#: ui/KarbonView.cpp:522 ui/KarbonView.cpp:527 ui/KarbonView.cpp:534
 #, fuzzy
 #| msgid "&Import Graphic..."
 msgid "Import graphic"
 msgstr "&Grafikani import qilish"
 
-#: ui/KarbonView.cpp:525 ui/KarbonView.cpp:532
+#: ui/KarbonView.cpp:527 ui/KarbonView.cpp:534
 msgid "Could not create image shape."
 msgstr ""
-
-#: ui/KarbonView.cpp:776
-#, fuzzy
-#| msgid "H&orizontal:"
-msgctxt "(qtundo-format)"
-msgid "Mirror Horizontally"
-msgstr "E&niga:"
 
 #: ui/KarbonView.cpp:778
 #, fuzzy
 #| msgid "H&orizontal:"
 msgctxt "(qtundo-format)"
-msgid "Mirror Vertically"
+msgid "Mirror Horizontally"
 msgstr "E&niga:"
 
 #: ui/KarbonView.cpp:780
 #, fuzzy
 #| msgid "H&orizontal:"
 msgctxt "(qtundo-format)"
+msgid "Mirror Vertically"
+msgstr "E&niga:"
+
+#: ui/KarbonView.cpp:782
+#, fuzzy
+#| msgid "H&orizontal:"
+msgctxt "(qtundo-format)"
 msgid "Mirror Horizontally and Vertically"
 msgstr "E&niga:"
 
-#: ui/KarbonView.cpp:990
+#: ui/KarbonView.cpp:992
 #, fuzzy
 #| msgid "View &Mode"
 msgid "Outline &Mode"
 msgstr "Koʻrish &usuli"
 
-#: ui/KarbonView.cpp:994
+#: ui/KarbonView.cpp:996
 msgid "Show Page Margins"
 msgstr "Bet boʻsh joylarini koʻrsatish"
 
-#: ui/KarbonView.cpp:997
+#: ui/KarbonView.cpp:999
 msgid "Hide Page Margins"
 msgstr "Bet boʻsh joylarini bekitish"
 
-#: ui/KarbonView.cpp:1013
+#: ui/KarbonView.cpp:1015
 msgid "&Import Graphic..."
 msgstr "&Grafikani import qilish"
 
-#: ui/KarbonView.cpp:1017
+#: ui/KarbonView.cpp:1019
 msgid "D&elete"
 msgstr "Oʻ&chirish"
 
-#: ui/KarbonView.cpp:1023
+#: ui/KarbonView.cpp:1025
 #, fuzzy
 #| msgid "Hide Grid"
 msgid "Edit Guides"
 msgstr "Toʻrni bekitish"
 
-#: ui/KarbonView.cpp:1029
+#: ui/KarbonView.cpp:1031
 #, fuzzy
 #| msgid "&Duplicate"
 msgctxt "Duplicate selection"
 msgid "&Duplicate"
 msgstr "&Nusxasini yaratish"
 
-#: ui/KarbonView.cpp:1034
+#: ui/KarbonView.cpp:1036
 #, fuzzy
 msgid "Distribute Center (Horizontal)"
 msgstr "Tarqatish markazi (Gorizontal)"
 
-#: ui/KarbonView.cpp:1038
+#: ui/KarbonView.cpp:1040
 #, fuzzy
 msgid "Distribute Gaps (Horizontal)"
 msgstr "Markazda (eniga)"
 
-#: ui/KarbonView.cpp:1042
+#: ui/KarbonView.cpp:1044
 #, fuzzy
 msgid "Distribute Left Borders"
 msgstr "Tarqatish markazi (Gorizontal)"
 
-#: ui/KarbonView.cpp:1046
+#: ui/KarbonView.cpp:1048
 #, fuzzy
 msgid "Distribute Right Borders"
 msgstr "Tarqatish markazi (Gorizontal)"
 
-#: ui/KarbonView.cpp:1050
+#: ui/KarbonView.cpp:1052
 #, fuzzy
 msgid "Distribute Center (Vertical)"
 msgstr "Tarqatish markazi (Gorizontal)"
 
-#: ui/KarbonView.cpp:1054
+#: ui/KarbonView.cpp:1056
 #, fuzzy
 msgid "Distribute Gaps (Vertical)"
 msgstr "Markazda (eniga)"
 
-#: ui/KarbonView.cpp:1058
+#: ui/KarbonView.cpp:1060
 #, fuzzy
 msgid "Distribute Bottom Borders"
 msgstr "&Tarqatish"
 
-#: ui/KarbonView.cpp:1062
+#: ui/KarbonView.cpp:1064
 #, fuzzy
 msgid "Distribute Top Borders"
 msgstr "&Tarqatish"
 
-#: ui/KarbonView.cpp:1066
+#: ui/KarbonView.cpp:1068
 msgid "Show Rulers"
 msgstr "Lineykalarni koʻrsatish"
 
-#: ui/KarbonView.cpp:1068
+#: ui/KarbonView.cpp:1070
 msgid "Hide Rulers"
 msgstr "Lineykalarni bekitish"
 
-#: ui/KarbonView.cpp:1069
+#: ui/KarbonView.cpp:1071
 #, fuzzy
 msgid "Shows or hides rulers"
 msgstr "Lineykalarni koʻrsatish/bekitish."
 
-#: ui/KarbonView.cpp:1080
+#: ui/KarbonView.cpp:1082
 msgid "Show Color Palette"
 msgstr ""
 
-#: ui/KarbonView.cpp:1082
+#: ui/KarbonView.cpp:1084
 msgid "Hide Color Palette"
 msgstr ""
 
-#: ui/KarbonView.cpp:1083
+#: ui/KarbonView.cpp:1085
 #, fuzzy
 msgid "Show or hide color palette"
 msgstr "Lineykalarni koʻrsatish/bekitish."
 
-#: ui/KarbonView.cpp:1087
+#: ui/KarbonView.cpp:1089
 #, fuzzy
 msgid "Snap to Grid"
 msgstr "Toʻrga tutashtirish"
 
-#: ui/KarbonView.cpp:1089
+#: ui/KarbonView.cpp:1091
 #, fuzzy
 msgid "Snaps to grid"
 msgstr "Toʻrga birlashtiradi."
 
-#: ui/KarbonView.cpp:1101
+#: ui/KarbonView.cpp:1103
 #, fuzzy
 #| msgid "&Object"
 msgid "&Clip Object"
 msgstr "&Obʼekt"
 
-#: ui/KarbonView.cpp:1105
+#: ui/KarbonView.cpp:1107
 #, fuzzy
 #| msgid "&Ungroup Objects"
 msgid "&Unclip Objects"
 msgstr "Obʼektlarni guruhlashni &bekor qilish"
 
-#: ui/KarbonView.cpp:1109
+#: ui/KarbonView.cpp:1111
 msgid "Mirror Vertically"
 msgstr ""
 
-#: ui/KarbonView.cpp:1113
+#: ui/KarbonView.cpp:1115
 #, fuzzy
 #| msgid "H&orizontal:"
 msgid "Mirror Horizontally"
 msgstr "E&niga:"
 
-#: ui/KarbonView.cpp:1120
+#: ui/KarbonView.cpp:1122
 msgid "&Close Path"
 msgstr "Yoʻlni yo&pish"
 
-#: ui/KarbonView.cpp:1126
+#: ui/KarbonView.cpp:1128
 #, fuzzy
 msgid "Com&bine Path"
 msgstr "Yoʻlni yopish"
 
-#: ui/KarbonView.cpp:1132
+#: ui/KarbonView.cpp:1134
 #, fuzzy
 msgid "Se&parate Path"
 msgstr "Burchakni silliqlash"
 
-#: ui/KarbonView.cpp:1138
+#: ui/KarbonView.cpp:1140
 #, fuzzy
 #| msgid "&Close Path"
 msgid "Re&verse Path"
 msgstr "Yoʻlni yo&pish"
 
-#: ui/KarbonView.cpp:1144
+#: ui/KarbonView.cpp:1146
 #, fuzzy
 msgid "Intersect Paths"
 msgstr "Asosiy yoʻlni oʻzgartirish"
 
-#: ui/KarbonView.cpp:1150
+#: ui/KarbonView.cpp:1152
 #, fuzzy
 msgid "Subtract Paths"
 msgstr "Burchakni silliqlash"
 
-#: ui/KarbonView.cpp:1156
+#: ui/KarbonView.cpp:1158
 #, fuzzy
 msgid "Unite Paths"
 msgstr "Asosiy yoʻlni oʻzgartirish"
 
-#: ui/KarbonView.cpp:1162
+#: ui/KarbonView.cpp:1164
 msgid "Exclude Paths"
 msgstr ""
 
-#: ui/KarbonView.cpp:1168
+#: ui/KarbonView.cpp:1170
 #, fuzzy
 msgid "Snap Path to Grid"
 msgstr "Toʻrga tutashtirish"
 
-#: ui/KarbonView.cpp:1175
+#: ui/KarbonView.cpp:1177
 msgid "Configure Karbon..."
 msgstr "Karbon moslamasi..."
 
-#: ui/KarbonView.cpp:1179
+#: ui/KarbonView.cpp:1181
 msgid "Page &Layout..."
 msgstr "Bet &moslamalari"
 
-#: ui/KarbonView.cpp:1184
+#: ui/KarbonView.cpp:1186
 #, fuzzy
 #| msgid "Selection"
 msgid "Zoom to Selection"
 msgstr "Tanlash"
 
-#: ui/KarbonView.cpp:1188
+#: ui/KarbonView.cpp:1190
 #, fuzzy
 #| msgid "Selection"
 msgid "Zoom to Drawing"
