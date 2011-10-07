@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-06 02:38+0200\n"
+"POT-Creation-Date: 2011-10-07 02:24+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -125,7 +125,7 @@ msgstr ""
 "Dizayn oʻzgartirildi. Boshqa koʻrinishga oʻtishdan oldin uni saqlashingiz "
 "lozim."
 
-#: core/KexiWindow.cpp:703 main/KexiMainWindow.cpp:3592
+#: core/KexiWindow.cpp:703 main/KexiMainWindow.cpp:3611
 #, kde-format
 msgid "Switching to other view failed (%1)."
 msgstr ""
@@ -497,7 +497,7 @@ msgstr "\"%1\" obʼektini ochib boʻlmadi."
 msgid "This project is opened as read only."
 msgstr ""
 
-#: core/kexiproject.cpp:897 main/KexiMainWindow.cpp:4528
+#: core/kexiproject.cpp:897 main/KexiMainWindow.cpp:4547
 #, fuzzy
 msgid "Could not set empty name for this object."
 msgstr "Ushbu loyiha uchun boʻsh nom oʻrnatib boʻlmadi."
@@ -872,7 +872,7 @@ msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 msgid "Show:"
 msgstr "Satr:"
 
-#: core/KexiView.cpp:606 main/KexiMainWindow_p.h:951
+#: core/KexiView.cpp:606 main/KexiMainWindow_p.h:956
 msgid "Data"
 msgstr "Maʼlumot"
 
@@ -4140,7 +4140,7 @@ msgid ""
 "based on the title. You can change the database name too."
 msgstr ""
 
-#: main/startup/KexiNewProjectAssistant.cpp:359 main/KexiMainWindow_p.h:948
+#: main/startup/KexiNewProjectAssistant.cpp:359 main/KexiMainWindow_p.h:953
 msgid "Create"
 msgstr "Yaratish"
 
@@ -4535,95 +4535,6 @@ msgstr ""
 msgid "Overwrite"
 msgstr "Almashtirish"
 
-#: main/KexiMainWindow_p.h:867
-msgid "Task-based tabbed toolbar groups commands for application using tabs."
-msgstr ""
-
-#: main/KexiMainWindow_p.h:904
-msgid "Shows bug reporting tool for Kexi application."
-msgstr ""
-
-#: main/KexiMainWindow_p.h:906
-msgid "Activates \"What's This\" tool."
-msgstr ""
-
-#: main/KexiMainWindow_p.h:908 migration/importwizard.cpp:967
-#: migration/importwizard.cpp:974 migration/importwizard.cpp:976
-#: migration/importwizard.cpp:978 migration/importwizard.cpp:980
-#: migration/importwizard.cpp:982
-msgid "Help"
-msgstr ""
-
-#: main/KexiMainWindow_p.h:909
-msgid "Shows Kexi Handbook."
-msgstr ""
-
-#: main/KexiMainWindow_p.h:911
-#, fuzzy
-#| msgid "Could not start Kexi application this way."
-msgid "Shows information about Kexi application."
-msgstr "Kexi dasturini ushbu yoʻl bilan ishga tushirib boʻlmaydi."
-
-#: main/KexiMainWindow_p.h:913
-msgid "Shows information about K Desktop Environment."
-msgstr ""
-
-#: main/KexiMainWindow_p.h:918
-#, fuzzy
-msgid "Show Help menu"
-msgstr "Sahifa moslamasi..."
-
-#: main/KexiMainWindow_p.h:919
-#, fuzzy
-msgid "Shows Help menu"
-msgstr "Sahifa moslamasi..."
-
-#: main/KexiMainWindow_p.h:930
-msgctxt "Help shortcut"
-msgid "Alt+H"
-msgstr ""
-
-#: main/KexiMainWindow_p.h:937
-msgid "Search"
-msgstr ""
-
-#: main/KexiMainWindow_p.h:944
-#, fuzzy
-msgctxt "File menu"
-msgid "&File"
-msgstr "fayl"
-
-#: main/KexiMainWindow_p.h:966
-msgid "External Data"
-msgstr ""
-
-#: main/KexiMainWindow_p.h:994
-#, fuzzy
-msgid "Tools"
-msgstr "Jami"
-
-#: main/KexiMainWindow_p.h:999
-#, fuzzy
-#| msgid "&Design"
-msgid "Form Design"
-msgstr "&Dizayn"
-
-#: main/KexiMainWindow_p.h:1002
-#, fuzzy
-#| msgid "&Design"
-msgid "Report Design"
-msgstr "&Dizayn"
-
-#: main/KexiMainWindow_p.h:1664
-#, kde-format
-msgid "Could not start %1 application."
-msgstr "%1 dasturini ishga tushirib boʻlmadi."
-
-#: main/KexiMainWindow_p.h:1665
-#, fuzzy, kde-format
-msgid "Command \"%1\" failed."
-msgstr "\"%1\" buyrugʻini bajarib boʻlmadi."
-
 #: main/KexiMainWindow.cpp:181
 #, fuzzy
 #| msgid "&Clear"
@@ -4740,7 +4651,7 @@ msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 msgid "Save &As..."
 msgstr "...sifatida s&aqlash"
 
-#: main/KexiMainWindow.cpp:697 main/KexiMainWindow.cpp:3384
+#: main/KexiMainWindow.cpp:697 main/KexiMainWindow.cpp:3403
 #, fuzzy
 msgid "Save object as"
 msgstr "Obʼektni quyidagicha saqlash"
@@ -5028,353 +4939,391 @@ msgstr "Pastga yangi boʻsh qator qoʻshish"
 msgid "Inserts one empty row above currently selected table row."
 msgstr "Pastga yangi boʻsh qator qoʻshish"
 
-#: main/KexiMainWindow.cpp:990 widget/navigator/KexiProjectListView.cpp:87
-#: widget/navigator/KexiProjectNavigator.cpp:72
+#: main/KexiMainWindow.cpp:990
 #, fuzzy
-msgid "Project Navigator"
+msgid "Switch to Project Navigator"
 msgstr "Loyiha navigatori"
 
 #: main/KexiMainWindow.cpp:992
 #, fuzzy
-msgid "Go to project navigator panel"
+msgid "Switch to Project Navigator panel"
 msgstr "Loyiha navigatori"
 
 #: main/KexiMainWindow.cpp:993
 #, fuzzy
-msgid "Goes to project navigator panel."
+msgid "Switches to Project Navigator panel."
 msgstr "Loyiha navigatori"
 
 #: main/KexiMainWindow.cpp:1000
-msgid "Main Area"
-msgstr ""
+#, fuzzy
+msgid "Switch to Main Area"
+msgstr "Keyingi oynaga oʻtish."
 
 #: main/KexiMainWindow.cpp:1002
-msgid "Go to main area"
-msgstr ""
+#, fuzzy
+msgid "Switch to main area"
+msgstr "Keyingi oynaga oʻtish."
 
 #: main/KexiMainWindow.cpp:1003
-msgid "Goes to main area."
-msgstr ""
-
-#: main/KexiMainWindow.cpp:1009 main/KexiMainWindow.cpp:2252
 #, fuzzy
-msgid "Property Editor"
+msgid "Switches to main area."
+msgstr "Keyingi oynaga oʻtish."
+
+#: main/KexiMainWindow.cpp:1009
+#, fuzzy
+msgid "Switch to Property Editor"
 msgstr "Loyiha navigatori"
 
 #: main/KexiMainWindow.cpp:1011
-msgid "Go to property editor panel"
-msgstr ""
+#, fuzzy
+msgid "Switch to Property Editor panel"
+msgstr "Loyiha navigatori"
 
 #: main/KexiMainWindow.cpp:1012
-msgid "Goes to property editor panel."
-msgstr ""
+#, fuzzy
+msgid "Switches to Property Editor panel."
+msgstr "Loyiha navigatori"
 
 #: main/KexiMainWindow.cpp:1019
+#, fuzzy
+msgid "Switch to Global Search"
+msgstr "Keyingi oynaga oʻtish."
+
+#: main/KexiMainWindow.cpp:1021
+msgid "Switch to Global Search box"
+msgstr ""
+
+#: main/KexiMainWindow.cpp:1022
+#, fuzzy
+msgid "Switches to Global Search box."
+msgstr "Keyingi oynaga oʻtish."
+
+#: main/KexiMainWindow.cpp:1025
 #, fuzzy
 msgid "&Save Record"
 msgstr "Satrni &olib tashlash"
 
-#: main/KexiMainWindow.cpp:1021
+#: main/KexiMainWindow.cpp:1027
 #, fuzzy
 msgid "Save changes made to the current record"
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: main/KexiMainWindow.cpp:1022
+#: main/KexiMainWindow.cpp:1028
 #, fuzzy
 msgid "Saves changes made to the current record."
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: main/KexiMainWindow.cpp:1025
+#: main/KexiMainWindow.cpp:1031
 #, fuzzy
 msgid "&Cancel Record Changes"
 msgstr "Oʻzgarishlarni saqlash"
 
-#: main/KexiMainWindow.cpp:1028
+#: main/KexiMainWindow.cpp:1034
 #, fuzzy
 msgid "Cancel changes made to the current record"
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: main/KexiMainWindow.cpp:1030
+#: main/KexiMainWindow.cpp:1036
 #, fuzzy
 msgid "Cancels changes made to the current record."
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: main/KexiMainWindow.cpp:1034
+#: main/KexiMainWindow.cpp:1040
 #, fuzzy
 msgid "&Execute"
 msgstr "Skriptni ishga tushirish"
 
-#: main/KexiMainWindow.cpp:1039
+#: main/KexiMainWindow.cpp:1045
 msgid "&Filter"
 msgstr "&Filtr"
 
-#: main/KexiMainWindow.cpp:1065
+#: main/KexiMainWindow.cpp:1071
 msgid "&Font..."
 msgstr "&Shrift..."
 
-#: main/KexiMainWindow.cpp:1067
+#: main/KexiMainWindow.cpp:1073
 msgid "Change font for selected object"
 msgstr "Tanlangan obʼekt shriftini oʻzgartirish"
 
-#: main/KexiMainWindow.cpp:1068
+#: main/KexiMainWindow.cpp:1074
 #, fuzzy
 msgid "Changes font for selected object."
 msgstr "Tanlangan obʼekt shriftini oʻzgartirish"
 
-#: main/KexiMainWindow.cpp:1092
+#: main/KexiMainWindow.cpp:1098
 msgid "&Next Window"
 msgstr "&Keyingi oyna"
 
-#: main/KexiMainWindow.cpp:1100
+#: main/KexiMainWindow.cpp:1106
 msgid "Next window"
 msgstr "Keyingi oyna"
 
-#: main/KexiMainWindow.cpp:1101
+#: main/KexiMainWindow.cpp:1107
 msgid "Switches to the next window."
 msgstr "Keyingi oynaga oʻtish."
 
-#: main/KexiMainWindow.cpp:1106
+#: main/KexiMainWindow.cpp:1112
 msgid "&Previous Window"
 msgstr "&Oldingi oyna"
 
-#: main/KexiMainWindow.cpp:1114
+#: main/KexiMainWindow.cpp:1120
 msgid "Previous window"
 msgstr "Oldingi oyna"
 
-#: main/KexiMainWindow.cpp:1115
+#: main/KexiMainWindow.cpp:1121
 msgid "Switches to the previous window."
 msgstr "Oldingi oynaga oʻtish."
 
-#: main/KexiMainWindow.cpp:1135
+#: main/KexiMainWindow.cpp:1141
 msgid "Lets you configure shortcut keys."
 msgstr "Tugmalar birikmasini oʻzgartirish imkonini beradi."
 
-#: main/KexiMainWindow.cpp:1175
+#: main/KexiMainWindow.cpp:1181
 #, fuzzy
 msgid "Settings..."
 msgstr "Saralash"
 
-#: main/KexiMainWindow.cpp:1176
+#: main/KexiMainWindow.cpp:1182
 #, fuzzy
 msgid "Kexi settings"
 msgstr "Saralash"
 
-#: main/KexiMainWindow.cpp:1177
+#: main/KexiMainWindow.cpp:1183
 msgid "Lets you to view and change Kexi settings."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1186
+#: main/KexiMainWindow.cpp:1192
 msgid "This shows useful tips on the use of this application."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1189 main/KexiMainWindow.cpp:4686
+#: main/KexiMainWindow.cpp:1195 main/KexiMainWindow.cpp:4705
 msgid "Important Information"
 msgstr "Muhim maʼlumot"
 
-#: main/KexiMainWindow.cpp:1196
+#: main/KexiMainWindow.cpp:1202
 msgid "Give Feedback..."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1575
+#: main/KexiMainWindow.cpp:1212
+#, fuzzy
+msgid "Show Help Menu"
+msgstr "Sahifa moslamasi..."
+
+#: main/KexiMainWindow.cpp:1214
+#, fuzzy
+msgid "Show Help menu"
+msgstr "Sahifa moslamasi..."
+
+#: main/KexiMainWindow.cpp:1215
+#, fuzzy
+msgid "Shows Help menu."
+msgstr "Sahifa moslamasi..."
+
+#: main/KexiMainWindow.cpp:1591
 msgid "reason:"
 msgstr "sabab:"
 
-#: main/KexiMainWindow.cpp:1612
+#: main/KexiMainWindow.cpp:1628
 #, kde-format
 msgid ""
 "Database project %1 does not appear to have been created using Kexi.<p>Do "
 "you want to import it as a new Kexi project?"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1615
+#: main/KexiMainWindow.cpp:1631
 msgctxt "Import Database"
 msgid "&Import..."
 msgstr "&Import qilish..."
 
-#: main/KexiMainWindow.cpp:1651
+#: main/KexiMainWindow.cpp:1667
 #, fuzzy
 #| msgid "Select Project's Location"
 msgid "Select New Project's Location"
 msgstr "Loyiha manzilini tanlang"
 
-#: main/KexiMainWindow.cpp:1725
+#: main/KexiMainWindow.cpp:1741
 #, fuzzy, kde-format
 msgid "cannot create object - unknown object type \"%1\""
 msgstr "nomaʼlum obʼekt turi \"%1\""
 
-#: main/KexiMainWindow.cpp:1727
+#: main/KexiMainWindow.cpp:1743
 #, kde-format
 msgid "unknown object type \"%1\""
 msgstr "nomaʼlum obʼekt turi \"%1\""
 
-#: main/KexiMainWindow.cpp:1735
+#: main/KexiMainWindow.cpp:1751
 #, fuzzy, kde-format
 msgid "cannot create object of type \"%1\""
 msgstr "nomaʼlum obʼekt turi \"%1\""
 
-#: main/KexiMainWindow.cpp:1747
+#: main/KexiMainWindow.cpp:1763
 #, fuzzy
 msgctxt "\"executing object\" action"
 msgid "executing"
 msgstr "Skriptni ishga tushirish"
 
-#: main/KexiMainWindow.cpp:1750
+#: main/KexiMainWindow.cpp:1766
 msgid "making print preview for"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1752
+#: main/KexiMainWindow.cpp:1768
 msgid "printing"
 msgstr "bosib chiqarilmoqda"
 
-#: main/KexiMainWindow.cpp:1755
+#: main/KexiMainWindow.cpp:1771
 msgid "opening"
 msgstr "ochilmoqda"
 
-#: main/KexiMainWindow.cpp:1759
+#: main/KexiMainWindow.cpp:1775
 msgid "table not found"
 msgstr "jadval topilmadi"
 
-#: main/KexiMainWindow.cpp:1761
+#: main/KexiMainWindow.cpp:1777
 #, fuzzy
 msgid "query not found"
 msgstr "Jadval topilmadi"
 
-#: main/KexiMainWindow.cpp:1763
+#: main/KexiMainWindow.cpp:1779
 #, fuzzy
 msgid "macro not found"
 msgstr "Jadval topilmadi"
 
-#: main/KexiMainWindow.cpp:1765
+#: main/KexiMainWindow.cpp:1781
 #, fuzzy
 msgid "script not found"
 msgstr "obʼekt topilmadi"
 
-#: main/KexiMainWindow.cpp:1767
+#: main/KexiMainWindow.cpp:1783
 msgid "object not found"
 msgstr "obʼekt topilmadi"
 
-#: main/KexiMainWindow.cpp:1775
+#: main/KexiMainWindow.cpp:1791
 #, fuzzy
 msgid "cannot execute object"
 msgstr "obʼektni ochib boʻlmadi"
 
-#: main/KexiMainWindow.cpp:1784
+#: main/KexiMainWindow.cpp:1800
 msgid "cannot print object"
 msgstr "obʼektni bosib chiqarib boʻlmadi"
 
-#: main/KexiMainWindow.cpp:1792
+#: main/KexiMainWindow.cpp:1808
 #, fuzzy
 msgid "cannot make print preview of object"
 msgstr "obʼektni bosib chiqarib boʻlmadi"
 
-#: main/KexiMainWindow.cpp:1814
+#: main/KexiMainWindow.cpp:1830
 msgid "cannot open object"
 msgstr "obʼektni ochib boʻlmadi"
 
-#: main/KexiMainWindow.cpp:1828
+#: main/KexiMainWindow.cpp:1844
 msgid ""
 "You have requested selected objects to be automatically opened or processed "
 "on startup. Several objects cannot be opened or processed."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:2280
+#: main/KexiMainWindow.cpp:2271
+#, fuzzy
+msgid "Property Editor"
+msgstr "Loyiha navigatori"
+
+#: main/KexiMainWindow.cpp:2299
 #: widget/properties/KexiPropertyEditorView.cpp:46
 #: widget/utils/kexicontextmenuutils.cpp:97
 #, fuzzy
 msgid "Properties"
 msgstr "Loyiha xossalari"
 
-#: main/KexiMainWindow.cpp:3461
+#: main/KexiMainWindow.cpp:3480
 msgid "From File..."
 msgstr "Fayldan"
 
-#: main/KexiMainWindow.cpp:3466
+#: main/KexiMainWindow.cpp:3485
 msgid "From Server..."
 msgstr "Serverdan"
 
-#: main/KexiMainWindow.cpp:3578
+#: main/KexiMainWindow.cpp:3597
 #, kde-format
 msgid "Selected view is not supported for \"%1\" object."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3580
+#: main/KexiMainWindow.cpp:3599
 #, kde-format
 msgid "Selected view (%1) is not supported by this object type (%2)."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3677
+#: main/KexiMainWindow.cpp:3696
 #, fuzzy
 msgid "Save Object As"
 msgstr "Obʼektni quyidagicha saqlash"
 
-#: main/KexiMainWindow.cpp:3698
+#: main/KexiMainWindow.cpp:3717
 msgid "Do you want to replace it?"
 msgstr "Uni almashtirishni istaysizmi?"
 
 #. i18n: file: main/kexifinddialog.ui:103
 #. i18n: ectx: property (text), widget (KPushButton, m_btnReplace)
-#: main/KexiMainWindow.cpp:3700 migration/importwizard.cpp:808
+#: main/KexiMainWindow.cpp:3719 migration/importwizard.cpp:808
 #: widget/utils/kexicontextmenuutils.cpp:233 rc.cpp:11
 msgid "&Replace"
 msgstr "&Almashtirish"
 
-#: main/KexiMainWindow.cpp:3701
+#: main/KexiMainWindow.cpp:3720
 msgid "&Choose Other Name..."
 msgstr "Boshqa nom &tanlash..."
 
-#: main/KexiMainWindow.cpp:3718
+#: main/KexiMainWindow.cpp:3737
 msgid "Please choose other name."
 msgstr "Iltimos boshqa nom tanlang."
 
-#: main/KexiMainWindow.cpp:3741
+#: main/KexiMainWindow.cpp:3760
 #, fuzzy, kde-format
 msgid "Saving \"%1\" object failed."
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3758
+#: main/KexiMainWindow.cpp:3777
 #, fuzzy, kde-format
 msgid "Saving new \"%1\" object failed."
 msgstr "Yangi \"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3810 main/KexiMainWindow.cpp:5145
+#: main/KexiMainWindow.cpp:3829 main/KexiMainWindow.cpp:5164
 msgid "Save changes"
 msgstr "Oʻzgarishlarni saqlash"
 
-#: main/KexiMainWindow.cpp:3812 main/KexiMainWindow.cpp:5147
+#: main/KexiMainWindow.cpp:3831 main/KexiMainWindow.cpp:5166
 #, kde-format
 msgid ""
 "Pressing this button will save all recent changes made in \"%1\" object."
 msgstr ""
 "Ushbu tugmani bosish \"%1\" obʼektidagi oxirgi oʻzgarishlarni saqlaydi."
 
-#: main/KexiMainWindow.cpp:3816
+#: main/KexiMainWindow.cpp:3835
 #, fuzzy, kde-format
 msgid ""
 "Pressing this button will discard all recent changes made in \"%1\" object."
 msgstr ""
 "Ushbu tugmani bosish \"%1\" obʼektidagi oxirgi oʻzgarishlarni saqlaydi."
 
-#: main/KexiMainWindow.cpp:3838
+#: main/KexiMainWindow.cpp:3857
 msgid "Do you want to save changes?"
 msgstr "Oʻzgarishlarni saqlashni istaysizmi?"
 
-#: main/KexiMainWindow.cpp:4225
+#: main/KexiMainWindow.cpp:4244
 #, kde-format
 msgctxt "opening is not allowed in \"data view/design view/text view\" mode"
 msgid "opening is not allowed in \"%1\" mode"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:4275
+#: main/KexiMainWindow.cpp:4294
 #, kde-format
 msgid "Tab for \"%1\" (%2)."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:4279
+#: main/KexiMainWindow.cpp:4298
 #, fuzzy, kde-format
 msgid "Tab for \"%1\"."
 msgstr "Jadval maydoni"
 
-#: main/KexiMainWindow.cpp:4456
+#: main/KexiMainWindow.cpp:4475
 #, kde-format
 msgid ""
 "Do you want to permanently delete:\n"
@@ -5382,48 +5331,48 @@ msgid ""
 "If you click \"Delete\", you will not be able to undo the deletion."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:4460
+#: main/KexiMainWindow.cpp:4479
 #, fuzzy
 msgid "Delete"
 msgstr "Satrni olib tashlash"
 
-#: main/KexiMainWindow.cpp:4514
+#: main/KexiMainWindow.cpp:4533
 msgid "Could not remove object."
 msgstr "Obʼektni olib tashlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:4536
+#: main/KexiMainWindow.cpp:4555
 #, fuzzy, kde-format
 msgid "Renaming object \"%1\" failed."
 msgstr "\"%1\" obʼektini nomini oʻzgartirib boʻlmadi."
 
-#: main/KexiMainWindow.cpp:4745
+#: main/KexiMainWindow.cpp:4764
 #, fuzzy, kde-format
 msgid "Could not start project \"%1\" in Final Mode."
 msgstr "\"%1\" loyihasini yaratib boʻlmadi."
 
-#: main/KexiMainWindow.cpp:4749
+#: main/KexiMainWindow.cpp:4768
 #, fuzzy
 msgid "No Final Mode data found."
 msgstr "Maydon topilmadi"
 
-#: main/KexiMainWindow.cpp:4756
+#: main/KexiMainWindow.cpp:4775
 msgid "Error reading Final Mode data."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:4785
+#: main/KexiMainWindow.cpp:4804
 msgid "Specified plugin does not exist."
 msgstr "Koʻrsatilgan plagin mavjud emas."
 
-#: main/KexiMainWindow.cpp:4794
+#: main/KexiMainWindow.cpp:4813
 msgid "Specified object could not be opened."
 msgstr "Koʻrsatilgan obʼektni ochib boʻlmadi."
 
-#: main/KexiMainWindow.cpp:4881
+#: main/KexiMainWindow.cpp:4900
 #, fuzzy, kde-format
 msgid "Compacting database file <nobr>\"%1\"</nobr> is not supported."
 msgstr "<p><nobr>\"%1\"</nobr> faylini oʻqib boʻlmaydi.</p>"
 
-#: main/KexiMainWindow.cpp:4893
+#: main/KexiMainWindow.cpp:4912
 msgid ""
 "The current project has to be closed before compacting the database. It will "
 "be open again after compacting.\n"
@@ -5431,26 +5380,100 @@ msgid ""
 "Do you want to continue?"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:5151
+#: main/KexiMainWindow.cpp:5170
 #, fuzzy, kde-format
 msgid ""
 "Pressing this button will ignore all unsaved changes made in \"%1\" object."
 msgstr ""
 "Ushbu tugmani bosish \"%1\" obʼektidagi oxirgi oʻzgarishlarni saqlaydi."
 
-#: main/KexiMainWindow.cpp:5156
+#: main/KexiMainWindow.cpp:5175
 msgid "Do you want to save changes before printing?"
 msgstr "Bosib chiqarishdan oldin oʻzgarishlarni saqlashni istaysizmi?"
 
-#: main/KexiMainWindow.cpp:5158
+#: main/KexiMainWindow.cpp:5177
 #, fuzzy
 msgid "Do you want to save changes before making print preview?"
 msgstr "Bosib chiqarishdan oldin oʻzgarishlarni saqlashni istaysizmi?"
 
-#: main/KexiMainWindow.cpp:5160
+#: main/KexiMainWindow.cpp:5179
 #, fuzzy
 msgid "Do you want to save changes before showing page setup?"
 msgstr "Bosib chiqarishdan oldin oʻzgarishlarni saqlashni istaysizmi?"
+
+#: main/KexiMainWindow_p.h:876
+msgid "Task-based tabbed toolbar groups commands for application using tabs."
+msgstr ""
+
+#: main/KexiMainWindow_p.h:913
+msgid "Shows bug reporting tool for Kexi application."
+msgstr ""
+
+#: main/KexiMainWindow_p.h:915
+msgid "Activates \"What's This\" tool."
+msgstr ""
+
+#: main/KexiMainWindow_p.h:917 migration/importwizard.cpp:967
+#: migration/importwizard.cpp:974 migration/importwizard.cpp:976
+#: migration/importwizard.cpp:978 migration/importwizard.cpp:980
+#: migration/importwizard.cpp:982
+msgid "Help"
+msgstr ""
+
+#: main/KexiMainWindow_p.h:918
+msgid "Shows Kexi Handbook."
+msgstr ""
+
+#: main/KexiMainWindow_p.h:920
+#, fuzzy
+#| msgid "Could not start Kexi application this way."
+msgid "Shows information about Kexi application."
+msgstr "Kexi dasturini ushbu yoʻl bilan ishga tushirib boʻlmaydi."
+
+#: main/KexiMainWindow_p.h:922
+msgid "Shows information about K Desktop Environment."
+msgstr ""
+
+#: main/KexiMainWindow_p.h:949
+#, fuzzy
+msgctxt "File menu"
+msgid "&File"
+msgstr "fayl"
+
+#: main/KexiMainWindow_p.h:971
+msgid "External Data"
+msgstr ""
+
+#: main/KexiMainWindow_p.h:999
+#, fuzzy
+msgid "Tools"
+msgstr "Jami"
+
+#: main/KexiMainWindow_p.h:1004
+#, fuzzy
+#| msgid "&Design"
+msgid "Form Design"
+msgstr "&Dizayn"
+
+#: main/KexiMainWindow_p.h:1007
+#, fuzzy
+#| msgid "&Design"
+msgid "Report Design"
+msgstr "&Dizayn"
+
+#: main/KexiMainWindow_p.h:1669
+#, kde-format
+msgid "Could not start %1 application."
+msgstr "%1 dasturini ishga tushirib boʻlmadi."
+
+#: main/KexiMainWindow_p.h:1670
+#, fuzzy, kde-format
+msgid "Command \"%1\" failed."
+msgstr "\"%1\" buyrugʻini bajarib boʻlmadi."
+
+#: main/KexiSearchLineEdit.cpp:56
+msgid "Search"
+msgstr ""
 
 #: migration/importoptionsdlg.cpp:45
 msgid "Advanced Import Options"
@@ -8291,6 +8314,12 @@ msgstr "Maydon turi"
 #: widget/fields/KexiFieldListModelItem.cpp:43
 msgid "* (All Columns)"
 msgstr ""
+
+#: widget/navigator/KexiProjectListView.cpp:87
+#: widget/navigator/KexiProjectNavigator.cpp:72
+#, fuzzy
+msgid "Project Navigator"
+msgstr "Loyiha navigatori"
 
 #: widget/navigator/KexiProjectListView.cpp:131
 #: widget/navigator/KexiProjectNavigator.cpp:111
