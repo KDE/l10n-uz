@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-08 02:21+0200\n"
+"POT-Creation-Date: 2011-10-09 02:54+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -7075,6 +7075,41 @@ msgctxt "what's this"
 msgid "Creates new report."
 msgstr "Yangi loyihani yaratish"
 
+#: plugins/reports/kexisourceselector.cpp:52
+#, fuzzy
+#| msgid "Data"
+msgid "Set Data"
+msgstr "Maʼlumot"
+
+#: plugins/reports/kexisourceselector.cpp:56
+#, fuzzy
+#| msgid "Create"
+msgid "Internal"
+msgstr "Yaratish"
+
+#: plugins/reports/kexisourceselector.cpp:57
+#, fuzzy
+#| msgid "Open External File"
+msgid "External"
+msgstr "Tashqi faylni ochish"
+
+#: plugins/reports/kexisourceselector.cpp:63
+#, fuzzy
+msgid "Source Type:"
+msgstr "Maʼlumot manbasi"
+
+#: plugins/reports/kexisourceselector.cpp:71
+#, fuzzy
+#| msgid "Create"
+msgid "Internal Source:"
+msgstr "Yaratish"
+
+#: plugins/reports/kexisourceselector.cpp:76
+#, fuzzy
+#| msgid "Open External File"
+msgid "External Source:"
+msgstr "Tashqi faylni ochish"
+
 #: plugins/reports/kexireportview.cpp:67
 #, fuzzy
 #| msgid "Page:"
@@ -7238,49 +7273,14 @@ msgstr "Hisobot"
 msgid "Exporting Succeeded"
 msgstr "Eksport qilinmoqda"
 
-#: plugins/reports/kexireportview.cpp:316
+#: plugins/reports/kexireportview.cpp:319
 msgid "Report schema appears to be invalid or corrupt"
 msgstr ""
 
-#: plugins/reports/kexireportview.cpp:316
+#: plugins/reports/kexireportview.cpp:319
 #, fuzzy
 msgid "Opening failed"
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
-
-#: plugins/reports/kexisourceselector.cpp:52
-#, fuzzy
-#| msgid "Data"
-msgid "Set Data"
-msgstr "Maʼlumot"
-
-#: plugins/reports/kexisourceselector.cpp:56
-#, fuzzy
-#| msgid "Create"
-msgid "Internal"
-msgstr "Yaratish"
-
-#: plugins/reports/kexisourceselector.cpp:57
-#, fuzzy
-#| msgid "Open External File"
-msgid "External"
-msgstr "Tashqi faylni ochish"
-
-#: plugins/reports/kexisourceselector.cpp:63
-#, fuzzy
-msgid "Source Type:"
-msgstr "Maʼlumot manbasi"
-
-#: plugins/reports/kexisourceselector.cpp:71
-#, fuzzy
-#| msgid "Create"
-msgid "Internal Source:"
-msgstr "Yaratish"
-
-#: plugins/reports/kexisourceselector.cpp:76
-#, fuzzy
-#| msgid "Open External File"
-msgid "External Source:"
-msgstr "Tashqi faylni ochish"
 
 #: plugins/scripting/kexiscripting/kexiscripteditor.cpp:73
 msgid ""
@@ -7815,6 +7815,11 @@ msgstr "Yozuv qoʻshish"
 msgid "Relation design tool"
 msgstr ""
 
+#: shapes/relationdesign/kexirelationdesigntool.cpp:100
+#: widget/kexidbconnectionwidget.cpp:373
+msgid "Open Database"
+msgstr "Maʼlumot bazasini ochish"
+
 #: shapes/relationdesign/kexirelationdesignfactory.cpp:27
 #, fuzzy
 #| msgid "&Design"
@@ -7824,11 +7829,6 @@ msgstr "&Dizayn"
 #: shapes/relationdesign/kexirelationdesignfactory.cpp:28
 msgid "A kexi relation design shape"
 msgstr ""
-
-#: shapes/relationdesign/kexirelationdesigntool.cpp:100
-#: widget/kexidbconnectionwidget.cpp:373
-msgid "Open Database"
-msgstr "Maʼlumot bazasini ochish"
 
 #: widget/KexiObjectInfoLabel.cpp:106
 #, kde-format
