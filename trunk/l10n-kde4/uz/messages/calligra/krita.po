@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-14 02:30+0200\n"
+"POT-Creation-Date: 2011-10-17 02:35+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -4919,7 +4919,7 @@ msgstr "Aylana"
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #: rc.cpp:1542 rc.cpp:2480 rc.cpp:2549 rc.cpp:2810 rc.cpp:3094
 #: image/recorder/kis_recorded_shape_paint_action.cpp:56
-#: plugins/tools/defaulttools/kis_tool_rectangle.cc:80
+#: plugins/tools/defaulttools/kis_tool_rectangle.cc:81
 msgid "Rectangle"
 msgstr "Toʻgʻri burchak"
 
@@ -10661,6 +10661,11 @@ msgstr "Rasmning oʻlchami"
 msgid "Soft brush"
 msgstr "Filter boʻyogʻi"
 
+#: image/kis_base_mask_generator.h:33
+#, fuzzy
+msgid "Gaussian brush"
+msgstr "Chegara..."
+
 #: image/kis_base_node.cpp:131 ui/kis_node_model.cpp:341
 msgid "Visible"
 msgstr "Koʻrinadigan"
@@ -11865,11 +11870,6 @@ msgstr "&Kanal:"
 msgid "Minimize Channel"
 msgstr "&Kanal:"
 
-#: plugins/filters/colors/kis_color_to_alpha.cpp:40
-#, fuzzy
-msgid "&Color to Alpha..."
-msgstr "Rangni palitraga qoʻshish"
-
 #: plugins/filters/colors/kis_minmax_filters.cpp:70
 #, fuzzy
 msgid "M&aximize Channel"
@@ -11879,6 +11879,11 @@ msgstr "&Kanal:"
 #, fuzzy
 msgid "M&inimize Channel"
 msgstr "&Kanal:"
+
+#: plugins/filters/colors/kis_color_to_alpha.cpp:40
+#, fuzzy
+msgid "&Color to Alpha..."
+msgstr "Rangni palitraga qoʻshish"
 
 #: plugins/filters/colorsfilters/colorsfilters.h:51
 msgid "Auto Contrast"
@@ -13722,11 +13727,6 @@ msgstr "Tanlanganni bekitish"
 msgid "Polygonal Selection"
 msgstr "Hech narsa tanlanmagan"
 
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:68
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:83
-msgid "Rectangular Selection"
-msgstr "Toʻgʻri burchak maydonni tanlash"
-
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:120
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:139
 #, fuzzy
@@ -13736,6 +13736,11 @@ msgstr "Tanlanganni koʻrsatish"
 #: plugins/tools/selectiontools/kis_tool_select_similar.h:62
 msgid "Select similar colors"
 msgstr "Oʻxshash ranglarni tanlash"
+
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:68
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:84
+msgid "Rectangular Selection"
+msgstr "Toʻgʻri burchak maydonni tanlash"
 
 #: plugins/tools/tool_crop/kis_tool_crop.h:148
 #, fuzzy
@@ -15822,10 +15827,6 @@ msgstr "Ochish uchun fayl(lar) yoki URL(lar)"
 #~| msgid "Curved"
 #~ msgid "Curve"
 #~ msgstr "Egri chiziqli"
-
-#, fuzzy
-#~ msgid "Gaussian"
-#~ msgstr "Chegara..."
 
 #, fuzzy
 #~ msgid "soft brush"
