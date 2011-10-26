@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-25 04:01+0200\n"
+"POT-Creation-Date: 2011-10-26 04:18+0200\n"
 "PO-Revision-Date: 2008-06-04 01:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -313,18 +313,19 @@ msgstr ""
 msgid "Copy Email Address"
 msgstr "Elektron pochtadan nusxa olish"
 
-#: HistorySizeDialog.cpp:51
+#: HistorySizeDialog.cpp:49
 #, fuzzy
-msgid "Scrollback Options"
-msgstr "Tab &parametrlari"
+#| msgid "Do not display scrollbar"
+msgid "Adjust Scrollback"
+msgstr "Varaqlash panelini bekitish"
 
-#: HistorySizeDialog.cpp:62
+#: HistorySizeDialog.cpp:60
 #, fuzzy
 #| msgid "Do not display scrollbar"
 msgid "No scrollback"
 msgstr "Varaqlash panelini bekitish"
 
-#: HistorySizeDialog.cpp:63
+#: HistorySizeDialog.cpp:61
 #, fuzzy
 #| msgid "Do not display scrollbar"
 msgid "Fixed size scrollback: "
@@ -332,22 +333,22 @@ msgstr "Varaqlash panelini bekitish"
 
 #. i18n: file: EditProfileDialog.ui:757
 #. i18n: ectx: property (text), widget (QRadioButton, unlimitedScrollbackButton)
-#: HistorySizeDialog.cpp:64 rc.cpp:236
+#: HistorySizeDialog.cpp:62 rc.cpp:236
 #, fuzzy
 #| msgctxt "Unlimited (number of lines)"
 #| msgid "Unlimited"
 msgid "Unlimited scrollback"
 msgstr "Cheksiz"
 
-#: HistorySizeDialog.cpp:88
+#: HistorySizeDialog.cpp:86
 msgid "lines"
 msgstr ""
 
-#: HistorySizeDialog.cpp:95
-#, fuzzy
-#| msgid "Edit Current Profile..."
-msgid "Save to current profile"
-msgstr "Joriy profilni tahrirlash..."
+#: HistorySizeDialog.cpp:93
+msgid ""
+"<span style=\"color:gray;\"><center><bold>The adjustment is only temporary.</"
+"bold></center></span>"
+msgstr ""
 
 #: IncrementalSearchBar.cpp:52
 #, fuzzy
@@ -699,7 +700,7 @@ msgstr "Menyuni aktivlashtirish"
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:422 SessionController.cpp:638 SessionController.cpp:664
+#: MainWindow.cpp:422 SessionController.cpp:639 SessionController.cpp:665
 msgid "Confirm Close"
 msgstr "Yopishni tasdiqlash"
 
@@ -1702,31 +1703,9 @@ msgstr ""
 msgid "&Set as Default"
 msgstr "Andoza sifatida saqlash"
 
-#. i18n: file: ../desktop/sessionui.rc:17
-#. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:458
-msgid "Copy Input To"
-msgstr ""
-
-#. i18n: file: ../desktop/sessionui.rc:44
-#. i18n: ectx: Menu (debug)
-#: rc.cpp:461
-msgid "Debug"
-msgstr ""
-
-#. i18n: file: ../desktop/sessionui.rc:63
-#. i18n: ectx: Menu (switch-profile)
-#. i18n: file: ../desktop/partui.rc:23
-#. i18n: ectx: Menu (switch-profile)
-#: rc.cpp:464 rc.cpp:488
-#, fuzzy
-#| msgid "Edit Profile"
-msgid "&Switch Profile"
-msgstr "Profilni tahrirlash"
-
 #. i18n: file: ../desktop/konsoleui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:467
+#: rc.cpp:458
 #, fuzzy
 #| msgid "&File"
 msgid "File"
@@ -1734,7 +1713,7 @@ msgstr "&Fayl"
 
 #. i18n: file: ../desktop/konsoleui.rc:14
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:470
+#: rc.cpp:461
 #, fuzzy
 #| msgid "&Edit"
 msgid "Edit"
@@ -1742,7 +1721,7 @@ msgstr "&Tahrirlash"
 
 #. i18n: file: ../desktop/konsoleui.rc:17
 #. i18n: ectx: Menu (view)
-#: rc.cpp:473
+#: rc.cpp:464
 #, fuzzy
 #| msgid "&View"
 msgid "View"
@@ -1750,7 +1729,7 @@ msgstr "&Koʻrinish"
 
 #. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:476
+#: rc.cpp:467
 #, fuzzy
 #| msgid "Split &View"
 msgid "Split View"
@@ -1758,7 +1737,7 @@ msgstr "Koʻr&inishni boʻlish"
 
 #. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:479
+#: rc.cpp:470
 #, fuzzy
 #| msgid "&Settings"
 msgid "Settings"
@@ -1766,7 +1745,7 @@ msgstr "&Moslamalar"
 
 #. i18n: file: ../desktop/konsoleui.rc:44
 #. i18n: ectx: Menu (help)
-#: rc.cpp:482
+#: rc.cpp:473
 #, fuzzy
 #| msgid "&Help"
 msgid "Help"
@@ -1774,11 +1753,33 @@ msgstr "&Yordam"
 
 #. i18n: file: ../desktop/partui.rc:7
 #. i18n: ectx: Menu (history)
-#: rc.cpp:485
+#: rc.cpp:476
 #, fuzzy
 #| msgid "Do not display scrollbar"
 msgid "S&crollback"
 msgstr "Varaqlash panelini bekitish"
+
+#. i18n: file: ../desktop/partui.rc:23
+#. i18n: ectx: Menu (switch-profile)
+#. i18n: file: ../desktop/sessionui.rc:63
+#. i18n: ectx: Menu (switch-profile)
+#: rc.cpp:479 rc.cpp:488
+#, fuzzy
+#| msgid "Edit Profile"
+msgid "&Switch Profile"
+msgstr "Profilni tahrirlash"
+
+#. i18n: file: ../desktop/sessionui.rc:17
+#. i18n: ectx: Menu (edit-copy-input-to)
+#: rc.cpp:482
+msgid "Copy Input To"
+msgstr ""
+
+#. i18n: file: ../desktop/sessionui.rc:44
+#. i18n: ectx: Menu (debug)
+#: rc.cpp:485
+msgid "Debug"
+msgstr ""
 
 #: RenameTabsDialog.cpp:32
 msgid "Rename Tab"
@@ -1915,66 +1916,66 @@ msgstr "Tarixni saqlash"
 #: SessionController.cpp:532
 #, fuzzy
 #| msgid "Manage Profiles..."
-msgid "Configure Scrollback..."
+msgid "Adjust Scrollback..."
 msgstr "Profillarni boshqarish..."
 
-#: SessionController.cpp:536
+#: SessionController.cpp:537
 #, fuzzy
 #| msgid "Do not display scrollbar"
 msgid "Clear Scrollback"
 msgstr "Varaqlash panelini bekitish"
 
-#: SessionController.cpp:540
+#: SessionController.cpp:541
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear Scrollback and Reset"
 msgstr "Tarixni &boʻshatish"
 
-#: SessionController.cpp:546
+#: SessionController.cpp:547
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Current Profile..."
 msgstr "Profillarni boshqarish..."
 
-#: SessionController.cpp:549
+#: SessionController.cpp:550
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "Profilni tahrirlash"
 
-#: SessionController.cpp:632
+#: SessionController.cpp:633
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr ""
 
-#: SessionController.cpp:635
+#: SessionController.cpp:636
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr ""
 
-#: SessionController.cpp:658
+#: SessionController.cpp:659
 msgid ""
 "A program in this session would not die.  Are you sure you want to kill it "
 "by force?"
 msgstr ""
 
-#: SessionController.cpp:661
+#: SessionController.cpp:662
 #, kde-format
 msgid ""
 "The program '%1' is in this session would not die.  Are you sure you want to "
 "kill it by force?"
 msgstr ""
 
-#: SessionController.cpp:1258
+#: SessionController.cpp:1240
 #, fuzzy
 #| msgid "&ZModem Upload..."
 msgid "Save ZModem Download to..."
 msgstr "ZModem yo&zib qoʻyish"
 
-#: SessionController.cpp:1267
+#: SessionController.cpp:1249
 #, fuzzy
 #| msgid ""
 #| "<p>A ZModem file transfer attempt has been detected, but no suitable "
@@ -1989,7 +1990,7 @@ msgstr ""
 "topilmadi.\n"
 "<p>\"rzsz\" yoki \"lrzsz\" dasturini oʻrnatishingiz kerak.\n"
 
-#: SessionController.cpp:1279
+#: SessionController.cpp:1261
 #, fuzzy
 #| msgid ""
 #| "<p>The current session already has a ZModem file transfer in progress."
@@ -1997,7 +1998,7 @@ msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>Joriy seansda ZModem fayl uzatishi allaqachon davom etayapti."
 
-#: SessionController.cpp:1288
+#: SessionController.cpp:1270
 #, fuzzy
 #| msgid ""
 #| "<p>No suitable ZModem software was found on the system.\n"
@@ -2009,23 +2010,23 @@ msgstr ""
 "<p>Tizimda kerak boʻlgan ZModem dasturi topilmadi.\n"
 "<p>\"rzsz\" yoki \"lrzsz\" dasturini oʻrnatishingiz kerak.\n"
 
-#: SessionController.cpp:1294
+#: SessionController.cpp:1276
 #, fuzzy
 #| msgid "Select Files to Upload"
 msgid "Select Files for ZModem Upload"
 msgstr "Yozib qoʻyish uchun fayllarni tanlang"
 
-#: SessionController.cpp:1366
+#: SessionController.cpp:1348
 #, fuzzy, kde-format
 msgid "Save Output From %1"
 msgstr "Tarixni saqlash"
 
-#: SessionController.cpp:1377
+#: SessionController.cpp:1359
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1455
+#: SessionController.cpp:1437
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2300,6 +2301,15 @@ msgid "&Stop"
 msgstr "&Toʻxtatish"
 
 #, fuzzy
+#~ msgid "Scrollback Options"
+#~ msgstr "Tab &parametrlari"
+
+#, fuzzy
+#~| msgid "Edit Current Profile..."
+#~ msgid "Save to current profile"
+#~ msgstr "Joriy profilni tahrirlash..."
+
+#, fuzzy
 #~| msgid "Manage Profiles..."
 #~ msgid "Configure Profiles..."
 #~ msgstr "Profillarni boshqarish..."
@@ -2375,11 +2385,6 @@ msgstr "&Toʻxtatish"
 #~| msgid "&Detach Session"
 #~ msgid "&Detach View"
 #~ msgstr "Seansni &ajratish"
-
-#, fuzzy
-#~| msgid "Do not display scrollbar"
-#~ msgid "Scrollback"
-#~ msgstr "Varaqlash panelini bekitish"
 
 #~ msgid "&Copy"
 #~ msgstr "&Nusxa olish"
