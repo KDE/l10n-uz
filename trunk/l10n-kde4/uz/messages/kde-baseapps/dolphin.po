@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-25 03:57+0200\n"
+"POT-Creation-Date: 2011-10-30 02:59+0100\n"
 "PO-Revision-Date: 2008-05-31 09:43+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -35,12 +35,12 @@ msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] ""
 
-#: kitemviews/kfileitemlistview.cpp:480
+#: kitemviews/kfileitemlistview.cpp:472
 msgctxt "@item:intable"
 msgid "items"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:208
+#: kitemviews/kfileitemmodel.cpp:209
 #, fuzzy
 #| msgctxt "@action:inmenu Sort By"
 #| msgid "Name"
@@ -48,7 +48,7 @@ msgctxt "@item:intable"
 msgid "Name"
 msgstr "Nomi"
 
-#: kitemviews/kfileitemmodel.cpp:209
+#: kitemviews/kfileitemmodel.cpp:210
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Size"
@@ -56,7 +56,7 @@ msgctxt "@item:intable"
 msgid "Size"
 msgstr "Hajmi"
 
-#: kitemviews/kfileitemmodel.cpp:210
+#: kitemviews/kfileitemmodel.cpp:211
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Date"
@@ -64,7 +64,7 @@ msgctxt "@item:intable"
 msgid "Date"
 msgstr "Sana"
 
-#: kitemviews/kfileitemmodel.cpp:211
+#: kitemviews/kfileitemmodel.cpp:212
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Permissions"
@@ -72,7 +72,7 @@ msgctxt "@item:intable"
 msgid "Permissions"
 msgstr "Huquqlar"
 
-#: kitemviews/kfileitemmodel.cpp:212
+#: kitemviews/kfileitemmodel.cpp:213
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Owner"
@@ -80,7 +80,7 @@ msgctxt "@item:intable"
 msgid "Owner"
 msgstr "Egasi"
 
-#: kitemviews/kfileitemmodel.cpp:213
+#: kitemviews/kfileitemmodel.cpp:214
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Group"
@@ -88,7 +88,7 @@ msgctxt "@item:intable"
 msgid "Group"
 msgstr "Guruh"
 
-#: kitemviews/kfileitemmodel.cpp:214
+#: kitemviews/kfileitemmodel.cpp:215
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Type"
@@ -96,7 +96,7 @@ msgctxt "@item:intable"
 msgid "Type"
 msgstr "Turi"
 
-#: kitemviews/kfileitemmodel.cpp:215
+#: kitemviews/kfileitemmodel.cpp:216
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -104,7 +104,7 @@ msgctxt "@item:intable"
 msgid "Destination"
 msgstr "Qoʻllanmalar"
 
-#: kitemviews/kfileitemmodel.cpp:216
+#: kitemviews/kfileitemmodel.cpp:217
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -112,7 +112,7 @@ msgctxt "@item:intable"
 msgid "Path"
 msgstr "Qoʻyish"
 
-#: kitemviews/kfileitemmodel.cpp:897
+#: kitemviews/kfileitemmodel.cpp:886
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -120,18 +120,168 @@ msgctxt "@item:intable"
 msgid "No destination"
 msgstr "Qoʻllanmalar"
 
-#: kitemviews/kfileitemmodel.cpp:1194
-msgctxt "@title:group"
-msgid "Numerics"
+#: kitemviews/kfileitemmodel.cpp:1180
+msgctxt "@title:group Groups that start with a digit"
+msgid "0 - 9"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1209
+#: kitemviews/kfileitemmodel.cpp:1197
 #, fuzzy
 #| msgctxt "@title:group Name"
 #| msgid "Others"
 msgctxt "@title:group"
 msgid "Others"
 msgstr "Boshqa"
+
+#: kitemviews/kfileitemmodel.cpp:1229
+msgctxt "@title:group Size"
+msgid "Folders"
+msgstr "Jildlar"
+
+#: kitemviews/kfileitemmodel.cpp:1231
+msgctxt "@title:group Size"
+msgid "Small"
+msgstr "Kichik"
+
+#: kitemviews/kfileitemmodel.cpp:1233
+msgctxt "@title:group Size"
+msgid "Medium"
+msgstr "Oʻrtacha"
+
+#: kitemviews/kfileitemmodel.cpp:1235
+msgctxt "@title:group Size"
+msgid "Big"
+msgstr "Katta"
+
+#: kitemviews/kfileitemmodel.cpp:1295
+msgctxt "@title:group Date"
+msgid "Today"
+msgstr "Bugun"
+
+#: kitemviews/kfileitemmodel.cpp:1296
+msgctxt "@title:group Date"
+msgid "Yesterday"
+msgstr "Kecha"
+
+#: kitemviews/kfileitemmodel.cpp:1297
+#, c-format
+msgctxt "@title:group The week day name: %A"
+msgid "%A"
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:1301
+msgctxt "@title:group Date"
+msgid "Last Week"
+msgstr "Bir hafta avval"
+
+#: kitemviews/kfileitemmodel.cpp:1304
+msgctxt "@title:group Date"
+msgid "Two Weeks Ago"
+msgstr "Ikki hafta avval"
+
+#: kitemviews/kfileitemmodel.cpp:1307
+msgctxt "@title:group Date"
+msgid "Three Weeks Ago"
+msgstr "Uch hafta avval"
+
+#: kitemviews/kfileitemmodel.cpp:1311
+msgctxt "@title:group Date"
+msgid "Earlier this Month"
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:1320
+#, fuzzy
+#| msgctxt "@title:group Date"
+#| msgid "Yesterday"
+msgctxt ""
+"@title:group Date: %B is full month name in current locale, and %Y is full "
+"year number"
+msgid "Yesterday (%B, %Y)"
+msgstr "Kecha"
+
+#: kitemviews/kfileitemmodel.cpp:1322
+#, fuzzy
+#| msgctxt "@title:group Date"
+#| msgid "Yesterday"
+msgctxt ""
+"@title:group The week day name: %A, %B is full month name in current locale, "
+"and %Y is full year number"
+msgid "%A (%B, %Y)"
+msgstr "Kecha"
+
+#: kitemviews/kfileitemmodel.cpp:1324
+#, fuzzy
+#| msgctxt "@title:group Date"
+#| msgid "Last Week"
+msgctxt ""
+"@title:group Date: %B is full month name in current locale, and %Y is full "
+"year number"
+msgid "Last Week (%B, %Y)"
+msgstr "Bir hafta avval"
+
+#: kitemviews/kfileitemmodel.cpp:1326
+#, fuzzy
+#| msgctxt "@title:group Date"
+#| msgid "Two Weeks Ago"
+msgctxt ""
+"@title:group Date: %B is full month name in current locale, and %Y is full "
+"year number"
+msgid "Two Weeks Ago (%B, %Y)"
+msgstr "Ikki hafta avval"
+
+#: kitemviews/kfileitemmodel.cpp:1328
+#, fuzzy
+#| msgctxt "@title:group Date"
+#| msgid "Three Weeks Ago"
+msgctxt ""
+"@title:group Date: %B is full month name in current locale, and %Y is full "
+"year number"
+msgid "Three Weeks Ago (%B, %Y)"
+msgstr "Uch hafta avval"
+
+#: kitemviews/kfileitemmodel.cpp:1330
+msgctxt ""
+"@title:group Date: %B is full month name in current locale, and %Y is full "
+"year number"
+msgid "Earlier on %B, %Y"
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:1333
+msgctxt ""
+"@title:group The month and year: %B is full month name in current locale, "
+"and %Y is full year number"
+msgid "%B, %Y"
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:1371 kitemviews/kfileitemmodel.cpp:1384
+#: kitemviews/kfileitemmodel.cpp:1397
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Read, "
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:1374 kitemviews/kfileitemmodel.cpp:1387
+#: kitemviews/kfileitemmodel.cpp:1400
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Write, "
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:1377 kitemviews/kfileitemmodel.cpp:1390
+#: kitemviews/kfileitemmodel.cpp:1403
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Execute, "
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:1379 kitemviews/kfileitemmodel.cpp:1392
+#: kitemviews/kfileitemmodel.cpp:1405
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Forbidden"
+msgstr ""
+
+#: kitemviews/kfileitemmodel.cpp:1407
+#, kde-format
+msgctxt "@title:group Files and folders by permissions"
+msgid "User: %1 | Group: %2 | Others: %3"
+msgstr ""
 
 #: main.cpp:35
 msgctxt "@title"
@@ -2390,78 +2540,6 @@ msgstr ""
 #~ msgctxt "@title::column"
 #~ msgid "Path"
 #~ msgstr "Qoʻyish"
-
-#~ msgctxt "@title:group Size"
-#~ msgid "Folders"
-#~ msgstr "Jildlar"
-
-#~ msgctxt "@title:group Size"
-#~ msgid "Small"
-#~ msgstr "Kichik"
-
-#~ msgctxt "@title:group Size"
-#~ msgid "Medium"
-#~ msgstr "Oʻrtacha"
-
-#~ msgctxt "@title:group Size"
-#~ msgid "Big"
-#~ msgstr "Katta"
-
-#~ msgctxt "@title:group Date"
-#~ msgid "Today"
-#~ msgstr "Bugun"
-
-#~ msgctxt "@title:group Date"
-#~ msgid "Yesterday"
-#~ msgstr "Kecha"
-
-#~ msgctxt "@title:group Date"
-#~ msgid "Last Week"
-#~ msgstr "Bir hafta avval"
-
-#~ msgctxt "@title:group Date"
-#~ msgid "Two Weeks Ago"
-#~ msgstr "Ikki hafta avval"
-
-#~ msgctxt "@title:group Date"
-#~ msgid "Three Weeks Ago"
-#~ msgstr "Uch hafta avval"
-
-#, fuzzy
-#~| msgctxt "@title:group Date"
-#~| msgid "Yesterday"
-#~ msgctxt ""
-#~ "@title:group Date: %B is full month name in current locale, and %Y is "
-#~ "full year number"
-#~ msgid "Yesterday (%B, %Y)"
-#~ msgstr "Kecha"
-
-#, fuzzy
-#~| msgctxt "@title:group Date"
-#~| msgid "Last Week"
-#~ msgctxt ""
-#~ "@title:group Date: %B is full month name in current locale, and %Y is "
-#~ "full year number"
-#~ msgid "Last Week (%B, %Y)"
-#~ msgstr "Bir hafta avval"
-
-#, fuzzy
-#~| msgctxt "@title:group Date"
-#~| msgid "Two Weeks Ago"
-#~ msgctxt ""
-#~ "@title:group Date: %B is full month name in current locale, and %Y is "
-#~ "full year number"
-#~ msgid "Two Weeks Ago (%B, %Y)"
-#~ msgstr "Ikki hafta avval"
-
-#, fuzzy
-#~| msgctxt "@title:group Date"
-#~| msgid "Three Weeks Ago"
-#~ msgctxt ""
-#~ "@title:group Date: %B is full month name in current locale, and %Y is "
-#~ "full year number"
-#~ msgid "Three Weeks Ago (%B, %Y)"
-#~ msgstr "Uch hafta avval"
 
 #, fuzzy
 #~| msgctxt "@action:intoolbar"

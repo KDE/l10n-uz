@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-19 02:58+0200\n"
+"POT-Creation-Date: 2011-10-30 02:02+0100\n"
 "PO-Revision-Date: 2006-12-17 13:48+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -867,20 +867,38 @@ msgstr "Imloni tekshirish natijasi"
 msgid "Change Variable To"
 msgstr "Oʻzgaruvchini oʻzgartirish"
 
-#: part/KWOdfLoader.cpp:88
-msgid "Invalid OASIS OpenDocument file. No office:body tag found."
-msgstr "OASIS OpenDocument fayli haqiqiy emas. office:body tegi topilmadi."
+#: part/KWDLoader.cpp:74
+msgid "Invalid document. No mimetype specified."
+msgstr "Hujjat haqiqiy emas. Hech qanday MIME-turi koʻrsatilmagan."
 
-#: part/KWOdfLoader.cpp:100
-msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
-msgstr "OASIS OpenDocument fayli haqiqiy emas. office:body tegi topilmadi."
-
-#: part/KWOdfLoader.cpp:102
-#, kde-format
+#: part/KWDLoader.cpp:78
+#, fuzzy, kde-format
+#| msgid ""
+#| "Invalid document. Expected mimetype application/x-kword or application/"
+#| "vnd.kde.kword, got %1"
 msgid ""
-"This is not a word processing document, but %1. Please try opening it with "
-"the appropriate application."
-msgstr "Bu KWord hujjati emas, lekin %1. Uni mos dastur bilan ochib koʻring."
+"Invalid document. Expected mimetype application/x-words or application/vnd."
+"kde.words, got %1"
+msgstr ""
+"Notoʻgʻri hujjat turi. MIME-turi application/x-kword yoki application/vnd."
+"kde.kword kutilgan edi, oʻrniga %1 olindi."
+
+#: part/KWDLoader.cpp:104
+#, kde-format
+msgid "Invalid document. Paper size: %1x%2"
+msgstr "Hujjat haqiqiy emas. Betning oʻlchami: %1x%2"
+
+#: part/KWDLoader.cpp:689
+#, fuzzy
+#| msgid "Unable to create database object"
+msgid "Unable to locate footnote text"
+msgstr "Maʼlumot baza obʼektini yaratib boʻlmadi"
+
+#: part/KWDLoader.cpp:715
+#, fuzzy
+#| msgid "Unable to create database object"
+msgid "Unable to locate note-text"
+msgstr "Maʼlumot baza obʼektini yaratib boʻlmadi"
 
 #: part/KWStatusBar.cpp:48
 msgid "Modified"
@@ -950,6 +968,21 @@ msgstr ""
 #: part/KWGui.cpp:73
 msgid "Tools"
 msgstr ""
+
+#: part/KWOdfLoader.cpp:88
+msgid "Invalid OASIS OpenDocument file. No office:body tag found."
+msgstr "OASIS OpenDocument fayli haqiqiy emas. office:body tegi topilmadi."
+
+#: part/KWOdfLoader.cpp:100
+msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
+msgstr "OASIS OpenDocument fayli haqiqiy emas. office:body tegi topilmadi."
+
+#: part/KWOdfLoader.cpp:102
+#, kde-format
+msgid ""
+"This is not a word processing document, but %1. Please try opening it with "
+"the appropriate application."
+msgstr "Bu KWord hujjati emas, lekin %1. Uni mos dastur bilan ochib koʻring."
 
 #: part/commands/KWFrameDeleteCommand.cpp:29
 #, fuzzy
@@ -1416,6 +1449,74 @@ msgstr "Tepasi va pasti kul"
 msgid "File to open"
 msgstr "Ochish uchun fayl"
 
+#: part/Words.cpp:58
+msgid "Odd Pages Header"
+msgstr ""
+
+#: part/Words.cpp:60
+msgid "Even Pages Header"
+msgstr ""
+
+#: part/Words.cpp:62
+msgid "Odd Pages Footer"
+msgstr ""
+
+#: part/Words.cpp:64
+msgid "Even Pages Footer"
+msgstr ""
+
+#: part/Words.cpp:66
+#, fuzzy
+#| msgid "Plain text"
+msgid "Main text"
+msgstr "Matn"
+
+#: part/Words.cpp:68
+#, fuzzy
+#| msgid "Insert Page"
+msgid "Other text"
+msgstr "Betni qoʻyish"
+
+#: part/KWDocument.cpp:488
+#, fuzzy
+#| msgid "Copy%1-%2"
+msgid "Copy"
+msgstr "Nusxa%1-%2"
+
+#: part/KWDocument.cpp:533
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Head 1"
+msgid "Head 1"
+msgstr "Sarlavha 1"
+
+#: part/KWDocument.cpp:540
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Head 2"
+msgid "Head 2"
+msgstr "Sarlavha 2"
+
+#: part/KWDocument.cpp:547
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Head 3"
+msgid "Head 3"
+msgstr "Sarlavha 3"
+
+#: part/KWDocument.cpp:554
+#, fuzzy
+msgid "Bullet List"
+msgstr "Koʻkish"
+
+#: part/KWDocument.cpp:779
+msgid "Can not find needed text component, Words will quit now"
+msgstr ""
+
+#: part/KWDocument.cpp:780
+msgid "Installation Error"
+msgstr ""
+
 #: part/KWView.cpp:252
 #, fuzzy
 #| msgid "Frame Properties"
@@ -1767,112 +1868,11 @@ msgctxt "(qtundo-format)"
 msgid "Create Linked Copy"
 msgstr "Bogʻlangan nusxani yaratish"
 
-#: part/KWView.cpp:1369
+#: part/KWView.cpp:1370
 #, fuzzy
 #| msgid "Insert Page"
 msgid "Insert Image Options"
 msgstr "Betni qoʻyish"
-
-#: part/Words.cpp:58
-msgid "Odd Pages Header"
-msgstr ""
-
-#: part/Words.cpp:60
-msgid "Even Pages Header"
-msgstr ""
-
-#: part/Words.cpp:62
-msgid "Odd Pages Footer"
-msgstr ""
-
-#: part/Words.cpp:64
-msgid "Even Pages Footer"
-msgstr ""
-
-#: part/Words.cpp:66
-#, fuzzy
-#| msgid "Plain text"
-msgid "Main text"
-msgstr "Matn"
-
-#: part/Words.cpp:68
-#, fuzzy
-#| msgid "Insert Page"
-msgid "Other text"
-msgstr "Betni qoʻyish"
-
-#: part/KWDLoader.cpp:74
-msgid "Invalid document. No mimetype specified."
-msgstr "Hujjat haqiqiy emas. Hech qanday MIME-turi koʻrsatilmagan."
-
-#: part/KWDLoader.cpp:78
-#, fuzzy, kde-format
-#| msgid ""
-#| "Invalid document. Expected mimetype application/x-kword or application/"
-#| "vnd.kde.kword, got %1"
-msgid ""
-"Invalid document. Expected mimetype application/x-words or application/vnd."
-"kde.words, got %1"
-msgstr ""
-"Notoʻgʻri hujjat turi. MIME-turi application/x-kword yoki application/vnd."
-"kde.kword kutilgan edi, oʻrniga %1 olindi."
-
-#: part/KWDLoader.cpp:104
-#, kde-format
-msgid "Invalid document. Paper size: %1x%2"
-msgstr "Hujjat haqiqiy emas. Betning oʻlchami: %1x%2"
-
-#: part/KWDLoader.cpp:691
-#, fuzzy
-#| msgid "Unable to create database object"
-msgid "Unable to locate footnote text"
-msgstr "Maʼlumot baza obʼektini yaratib boʻlmadi"
-
-#: part/KWDLoader.cpp:717
-#, fuzzy
-#| msgid "Unable to create database object"
-msgid "Unable to locate note-text"
-msgstr "Maʼlumot baza obʼektini yaratib boʻlmadi"
-
-#: part/KWDocument.cpp:488
-#, fuzzy
-#| msgid "Copy%1-%2"
-msgid "Copy"
-msgstr "Nusxa%1-%2"
-
-#: part/KWDocument.cpp:533
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Head 1"
-msgid "Head 1"
-msgstr "Sarlavha 1"
-
-#: part/KWDocument.cpp:540
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Head 2"
-msgid "Head 2"
-msgstr "Sarlavha 2"
-
-#: part/KWDocument.cpp:547
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Head 3"
-msgid "Head 3"
-msgstr "Sarlavha 3"
-
-#: part/KWDocument.cpp:554
-#, fuzzy
-msgid "Bullet List"
-msgstr "Koʻkish"
-
-#: part/KWDocument.cpp:779
-msgid "Can not find needed text component, Words will quit now"
-msgstr ""
-
-#: part/KWDocument.cpp:780
-msgid "Installation Error"
-msgstr ""
 
 #: part/KWAboutData.h:27
 #, fuzzy
