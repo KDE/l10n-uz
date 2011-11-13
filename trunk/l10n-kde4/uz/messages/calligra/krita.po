@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-11 02:40+0100\n"
+"POT-Creation-Date: 2011-11-13 02:53+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -4150,7 +4150,7 @@ msgstr ""
 
 #. i18n: file: plugins/extensions/rotateimage/wdg_rotateimage.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgRotateImage)
-#: rc.cpp:1260 image/kis_image.cc:547
+#: rc.cpp:1260 image/kis_image.cc:545
 #: plugins/extensions/rotateimage/dlg_rotateimage.cc:31
 #: plugins/extensions/rotateimage/rotateimage.cc:117
 msgid "Rotate Image"
@@ -4369,7 +4369,7 @@ msgstr ""
 
 #. i18n: file: plugins/extensions/shearimage/wdg_shearimage.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgShearImage)
-#: rc.cpp:1356 image/kis_image.cc:589
+#: rc.cpp:1356 image/kis_image.cc:587
 #: plugins/extensions/shearimage/dlg_shearimage.cc:32
 #: plugins/extensions/shearimage/shearimage.cc:90
 #, fuzzy
@@ -10685,46 +10685,46 @@ msgstr "orqa fon"
 msgid "Layer %1"
 msgstr "Qatlam %1"
 
-#: image/kis_image.cc:422
+#: image/kis_image.cc:420
 #, fuzzy
 msgid "Crop Image"
 msgstr "Rasmni kesish"
 
-#: image/kis_image.cc:422
+#: image/kis_image.cc:420
 msgid "Resize Image"
 msgstr "Rasmning oʻlchamini oʻzgartirish"
 
-#: image/kis_image.cc:454
+#: image/kis_image.cc:452
 #, fuzzy
 msgid "Crop Node"
 msgstr "Shrift vositasi"
 
-#: image/kis_image.cc:609
+#: image/kis_image.cc:607
 #, fuzzy
 #| msgid "Convert Image Type"
 msgid "Convert Image Color Space"
 msgstr "Rasmning turini oʻzgartirish"
 
-#: image/kis_image.cc:626
+#: image/kis_image.cc:624
 #, fuzzy
 #| msgid "Apply Profile"
 msgid "Assign Profile"
 msgstr "Profilni qoʻllash"
 
-#: image/kis_image.cc:647
+#: image/kis_image.cc:645
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: image/kis_image.cc:821 ui/kis_layer_manager.cc:740
+#: image/kis_image.cc:819 ui/kis_layer_manager.cc:740
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Silliqlangan rasm"
 
-#: image/kis_image.cc:879
+#: image/kis_image.cc:877
 msgid "Merge with Layer Below"
 msgstr "Pastgi qatlam bilan birlashtirish"
 
-#: image/kis_image.cc:904
+#: image/kis_image.cc:902
 #, fuzzy
 msgid "Flatten Layer"
 msgstr "Silliqlangan rasm"
@@ -12252,8 +12252,14 @@ msgstr "Koʻchi&rish"
 msgid "TIFF Export Options"
 msgstr ""
 
-#: plugins/formats/jp2/jp2_converter.cc:342
-#: plugins/formats/jp2/jp2_converter.cc:353
+#: plugins/formats/jp2/jp2_export.cc:71
+#, fuzzy
+#| msgid "Geometry Options"
+msgid "JPEG 2000 Export Options"
+msgstr "Geometriya moslamalari"
+
+#: plugins/formats/jp2/jp2_converter.cc:340
+#: plugins/formats/jp2/jp2_converter.cc:351
 #: plugins/formats/jpeg/kis_jpeg_converter.cc:101
 #: plugins/formats/ppm/kis_ppm_export.cpp:176
 #: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:65
@@ -12262,19 +12268,13 @@ msgstr ""
 msgid "Cannot export images in %1.\n"
 msgstr ""
 
-#: plugins/formats/jp2/jp2_export.cc:71
-#, fuzzy
-#| msgid "Geometry Options"
-msgid "JPEG 2000 Export Options"
-msgstr "Geometriya moslamalari"
-
 #: plugins/formats/jpeg/kis_jpeg_export.cc:69
 #, fuzzy
 #| msgid "Geometry Options"
 msgid "JPEG Export Options"
 msgstr "Geometriya moslamalari"
 
-#: plugins/formats/odg/kis_odg_import.cc:146
+#: plugins/formats/odg/kis_odg_import.cc:145
 #, fuzzy
 #| msgid "&Object Layer"
 msgid "Vector Layer"
@@ -12289,7 +12289,7 @@ msgstr ""
 msgid "PDF Import Options"
 msgstr ""
 
-#: plugins/formats/pdf/kis_pdf_import.cpp:141
+#: plugins/formats/pdf/kis_pdf_import.cpp:140
 #, fuzzy, kde-format
 #| msgid "Image %1"
 msgid "Page %1"
@@ -14502,25 +14502,6 @@ msgstr "Namunalar"
 msgid "Custom Pattern"
 msgstr "Noananaviy namuna"
 
-#: ui/kis_doc2.cc:432
-msgid ""
-"The Calligra LittleCMS color management plugin is not installed. Krita will "
-"quit now."
-msgstr ""
-
-#: ui/kis_doc2.cc:443
-#, kde-format
-msgid ""
-"Krita needs at least Qt 4.6.3 to work correctly. Your Qt version is %1. If "
-"you have a graphics tablet it will not work correctly!"
-msgstr ""
-
-#: ui/kis_doc2.cc:456
-#, fuzzy
-#| msgid "Layer Error"
-msgid "Installation error"
-msgstr "Qatlam xatosi."
-
 #: ui/kis_custom_palette.cc:122
 #, fuzzy
 msgid "Add New Palette"
@@ -14971,6 +14952,25 @@ msgstr "Hech narsa tanlanmagan"
 #: ui/kis_statusbar.cc:148
 msgid "No profile"
 msgstr "Profil yoʻq"
+
+#: ui/kis_doc2.cc:430
+msgid ""
+"The Calligra LittleCMS color management plugin is not installed. Krita will "
+"quit now."
+msgstr ""
+
+#: ui/kis_doc2.cc:441
+#, kde-format
+msgid ""
+"Krita needs at least Qt 4.6.3 to work correctly. Your Qt version is %1. If "
+"you have a graphics tablet it will not work correctly!"
+msgstr ""
+
+#: ui/kis_doc2.cc:454
+#, fuzzy
+#| msgid "Layer Error"
+msgid "Installation error"
+msgstr "Qatlam xatosi."
 
 #: ui/kis_zoom_manager.cc:89
 msgid "Show Rulers"
