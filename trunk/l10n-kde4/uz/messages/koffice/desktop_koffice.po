@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-18 04:21+0000\n"
+"POT-Creation-Date: 2011-12-19 09:44+0000\n"
 "PO-Revision-Date: 2006-10-02 23:59+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -22,12 +22,12 @@ msgctxt "Name"
 msgid "Artwork"
 msgstr ""
 
-#: artwork/data/artwork.desktop:18 artwork/data/artworkpart.desktop:64
+#: artwork/data/artwork.desktop:19 artwork/data/artworkpart.desktop:64
 msgctxt "GenericName"
 msgid "Scalable Graphics"
 msgstr "Vektor grafikasi"
 
-#: artwork/data/artwork.desktop:82
+#: artwork/data/artwork.desktop:83
 msgctxt "Comment"
 msgid "Create scalable vector drawings"
 msgstr ""
@@ -343,6 +343,14 @@ msgctxt "Name"
 msgid "KWord HancomWord Import Filter"
 msgstr "KWord HancomWord import filteri"
 
+#: filters/kword/html-odf/html-odf_export.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWord HTML Export Filter"
+msgctxt "Name"
+msgid "KWord HTML-ODF Export Filter"
+msgstr "KWord HTML eksport filteri"
+
 #: filters/kword/html/export/kword_html_export.desktop:3
 msgctxt "Name"
 msgid "KWord HTML Export Filter"
@@ -352,14 +360,6 @@ msgstr "KWord HTML eksport filteri"
 msgctxt "Name"
 msgid "KWord HTML Import Filter"
 msgstr "KWord HTML import filteri"
-
-#: filters/kword/html-odf/html-odf_export.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "KWord HTML Export Filter"
-msgctxt "Name"
-msgid "KWord HTML-ODF Export Filter"
-msgstr "KWord HTML eksport filteri"
 
 #: filters/kword/kword1.3/import/kword_kword1dot3_import.desktop:3
 msgctxt "Name"
@@ -455,6 +455,12 @@ msgctxt "Name"
 msgid "KOffice XSLT Import Filter"
 msgstr "KOffice XSLT import filteri"
 
+#: kcells/data/templates/Business/.directory:2
+#: showcase/templates/odf/business.desktop:3
+msgctxt "Name"
+msgid "Business"
+msgstr "Biznes"
+
 #: kcells/data/templates/Business/BalanceSheet.desktop:4
 #, fuzzy
 #| msgctxt "Name"
@@ -462,12 +468,6 @@ msgstr "KOffice XSLT import filteri"
 msgctxt "Name"
 msgid "Balance KCSheet"
 msgstr "Balans"
-
-#: kcells/data/templates/Business/.directory:2
-#: showcase/templates/odf/business.desktop:3
-msgctxt "Name"
-msgid "Business"
-msgstr "Biznes"
 
 #: kcells/data/templates/Business/ExpenseReport.desktop:4
 msgctxt "Name"
@@ -505,6 +505,11 @@ msgctxt "Name"
 msgid "Blank Worksheet"
 msgstr "Boʻsh elektron jadval"
 
+#: kcells/data/templates/HomeFamily/.directory:2
+msgctxt "Name"
+msgid "Home and Family"
+msgstr "Uy va oila"
+
 #: kcells/data/templates/HomeFamily/BMI.desktop:4
 #, fuzzy
 msgctxt "Name"
@@ -521,11 +526,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Credit Card Tracker"
 msgstr "Kredit kartochkasi"
-
-#: kcells/data/templates/HomeFamily/.directory:2
-msgctxt "Name"
-msgid "Home and Family"
-msgstr "Uy va oila"
 
 #: kcells/data/templates/HomeFamily/MenuPlan.desktop:4
 msgctxt "Name"
@@ -779,11 +779,6 @@ msgctxt "Comment"
 msgid "A document was saved"
 msgstr ""
 
-#: kcells/kcellspart.desktop:2
-msgctxt "Name"
-msgid "KOffice Spreadsheet Component"
-msgstr "KOffice elektron jadvallar komponenti"
-
 #: kcells/kcells_plugin.desktop:4
 #, fuzzy
 #| msgctxt "Comment"
@@ -791,6 +786,11 @@ msgstr "KOffice elektron jadvallar komponenti"
 msgctxt "Comment"
 msgid "Plugin for KCells"
 msgstr "Krita uchun vosita plagini"
+
+#: kcells/kcellspart.desktop:2
+msgctxt "Name"
+msgid "KOffice Spreadsheet Component"
+msgstr "KOffice elektron jadvallar komponenti"
 
 #: kcells/plugins/calendar/kcells_plugin_tool_calendar.desktop:2
 #, fuzzy
@@ -896,15 +896,15 @@ msgctxt "GenericName"
 msgid "Text Documents"
 msgstr "Matn hujjatlari"
 
-#: kword/templates/CardsAndLabels/BusinessCards10.desktop:3
-msgctxt "Name"
-msgid "Business Cards 10"
-msgstr "Oʻnta biznes yorliq"
-
 #: kword/templates/CardsAndLabels/.directory:2
 msgctxt "Name"
 msgid "Cards and Labels"
 msgstr "Guvohnoma va yorliqlar"
+
+#: kword/templates/CardsAndLabels/BusinessCards10.desktop:3
+msgctxt "Name"
+msgid "Business Cards 10"
+msgstr "Oʻnta biznes yorliq"
 
 #: kword/templates/CardsAndLabels/LabelsL16.desktop:3
 msgctxt "Name"
@@ -925,6 +925,14 @@ msgstr "Konvert C6 (114 × 162 mm)"
 msgctxt "Name"
 msgid "Envelope DL"
 msgstr "Konvert DL (110 × 220 mm)"
+
+#: kword/templates/Wordprocessing/.directory:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Blank Document"
+msgctxt "Name"
+msgid "Blank Documents"
+msgstr "Boʻsh hujjat"
 
 #: kword/templates/Wordprocessing/A4.desktop:4
 msgctxt "Name"
@@ -947,14 +955,6 @@ msgstr "Rangli hujjat"
 msgctxt "Comment"
 msgid "A two-column template with stylishly colored headers and footers"
 msgstr ""
-
-#: kword/templates/Wordprocessing/.directory:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Blank Document"
-msgctxt "Name"
-msgid "Blank Documents"
-msgstr "Boʻsh hujjat"
 
 #: kword/templates/Wordprocessing/FaxA4.desktop:4
 #: kword/templates/Wordprocessing/FaxLetter.desktop:4
@@ -1029,17 +1029,6 @@ msgctxt "Comment"
 msgid "Definition of a flake filter effect"
 msgstr ""
 
-#: libs/flake/flakeborder.desktop:2
-#, fuzzy
-msgctxt "Name"
-msgid "Shape border definition"
-msgstr "Andoza chizish amallari"
-
-#: libs/flake/flakeborder.desktop:40
-msgctxt "Comment"
-msgid "Definition of a flake shape border"
-msgstr ""
-
 #: libs/flake/flake.desktop:2
 #, fuzzy
 msgctxt "Name"
@@ -1049,6 +1038,17 @@ msgstr "KOffice plagini"
 #: libs/flake/flake.desktop:46
 msgctxt "Comment"
 msgid "A plugin that contains a set of a shape and a tool"
+msgstr ""
+
+#: libs/flake/flakeborder.desktop:2
+#, fuzzy
+msgctxt "Name"
+msgid "Shape border definition"
+msgstr "Andoza chizish amallari"
+
+#: libs/flake/flakeborder.desktop:40
+msgctxt "Comment"
+msgid "Definition of a flake shape border"
 msgstr ""
 
 #: libs/flake/flakeshape.desktop:2
@@ -1166,6 +1166,18 @@ msgctxt "Name"
 msgid "Artistic Text Shape"
 msgstr ""
 
+#: plugins/colorengines/lcms/colorspaces/gray_u8/templates/.directory:2
+#: plugins/colorengines/lcms2/colorspaces/gray_u8/templates/.directory:2
+msgctxt "Name"
+msgid "Grayscale"
+msgstr "Oq-qora"
+
+#: plugins/colorengines/lcms/kolcmsengine.desktop:2
+#: plugins/colorengines/lcms2/kolcmsengine.desktop:2
+msgctxt "Name"
+msgid "LCMS Color Management Engine for Pigment"
+msgstr ""
+
 #: plugins/colorengines/lcms2/colorspaces/gray_u8/kofficegrayaplugin.desktop:2
 #, fuzzy
 msgctxt "Name"
@@ -1182,18 +1194,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Grayscale Color Model"
 msgstr "Kul rang usuli"
-
-#: plugins/colorengines/lcms2/colorspaces/gray_u8/templates/.directory:2
-#: plugins/colorengines/lcms/colorspaces/gray_u8/templates/.directory:2
-msgctxt "Name"
-msgid "Grayscale"
-msgstr "Oq-qora"
-
-#: plugins/colorengines/lcms2/kolcmsengine.desktop:2
-#: plugins/colorengines/lcms/kolcmsengine.desktop:2
-msgctxt "Name"
-msgid "LCMS Color Management Engine for Pigment"
-msgstr ""
 
 #: plugins/defaultTools/defaulttools.desktop:2
 #, fuzzy
@@ -1417,42 +1417,144 @@ msgctxt "Name"
 msgid "A4"
 msgstr "A4"
 
-#: showcase/templates/common_desktop/emptyLandscape.desktop:3
+#: showcase/templates/Screen/.directory:2
 msgctxt "Name"
-msgid "Empty"
-msgstr "Boʻsh"
+msgid "Screen"
+msgstr "Ekran"
 
-#: showcase/templates/common_desktop/emptyLandscape.desktop:62
+#: showcase/templates/Screenpresentations/.directory:2
+msgctxt "Name"
+msgid "Screen Presentations"
+msgstr "Ekranda namoyishlar"
+
+#: showcase/templates/Screenpresentations/BlueBreezeDouble.desktop:3
+msgctxt "Name"
+msgid "Blue Breeze Double"
+msgstr ""
+
+#: showcase/templates/Screenpresentations/BlueBreezeDouble.desktop:57
+#, fuzzy
 msgctxt "Comment"
-msgid "Empty presentation"
+msgid "A peaceful presentation with a title and two text columns"
+msgstr "KDE 3 mavzulik namoyish"
+
+#: showcase/templates/Screenpresentations/BlueBreezePicture.desktop:3
+msgctxt "Name"
+msgid "Blue Breeze Picture"
+msgstr ""
+
+#: showcase/templates/Screenpresentations/BlueBreezePicture.desktop:58
+#, fuzzy
+msgctxt "Comment"
+msgid "A peaceful presentation with a title and picture area"
+msgstr "KDE 3 mavzulik namoyish"
+
+#: showcase/templates/Screenpresentations/BlueBreezeSingle.desktop:3
+msgctxt "Name"
+msgid "Blue Breeze Single"
+msgstr ""
+
+#: showcase/templates/Screenpresentations/BlueBreezeSingle.desktop:57
+#, fuzzy
+msgctxt "Comment"
+msgid "A peaceful presentation with a title and single large text area"
+msgstr "KDE 3 mavzulik namoyish"
+
+#: showcase/templates/Screenpresentations/CopperPlain.desktop:3
+#, fuzzy
+msgctxt "Name"
+msgid "Copper Plain"
+msgstr "Oddiy"
+
+#: showcase/templates/Screenpresentations/CopperPlain.desktop:57
+#, fuzzy
+msgctxt "Comment"
+msgid "An elegant, uplifting presentation"
 msgstr "Boʻsh namoyish"
 
-#: showcase/templates/common_desktop/emptyLandscapeWide.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Empty"
+#: showcase/templates/Screenpresentations/GradientBlueRed.desktop:4
 msgctxt "Name"
-msgid "Empty 16:10"
-msgstr "Boʻsh"
+msgid "Gradient Blue-Red"
+msgstr ""
 
-#: showcase/templates/common_desktop/emptyLandscapeWide.desktop:41
+#: showcase/templates/Screenpresentations/GradientBlueRed.desktop:61
 #, fuzzy
-#| msgctxt "Comment"
-#| msgid "Empty presentation"
 msgctxt "Comment"
-msgid "Empty presentation 10:16"
+msgid "A presentation themed for the evening sky"
+msgstr "KDE 3 mavzulik namoyish"
+
+#: showcase/templates/Screenpresentations/SnowyMountains.desktop:3
+msgctxt "Name"
+msgid "Snowy Mountains"
+msgstr "Qorli togʻlar"
+
+#: showcase/templates/Screenpresentations/SnowyMountains.desktop:60
+#, fuzzy
+msgctxt "Comment"
+msgid "A cool and smooth presentation"
 msgstr "Boʻsh namoyish"
 
-#: showcase/templates/common_desktop/emptyPortrait.desktop:3
+#: showcase/templates/Screenpresentations/TotallyNewProduct.desktop:3
 msgctxt "Name"
-msgid "Empty Portrait"
-msgstr "Boʻyiga boʻsh"
+msgid "Totally New Product"
+msgstr "Umuman yangi mahsulot"
 
-#: showcase/templates/common_desktop/emptyPortrait.desktop:56
+#: showcase/templates/Screenpresentations/TotallyNewProduct.desktop:60
 #, fuzzy
 msgctxt "Comment"
-msgid "Empty presentation (portrait-oriented)"
-msgstr "Boʻsh taqdimot (portretli)"
+msgid "An informal, green-swirl presentation"
+msgstr "OASIS OpenDocument namoyish"
+
+#: showcase/templates/Screenpresentations/classroom.desktop:3
+msgctxt "Name"
+msgid "Classroom"
+msgstr "Sinf xonasi"
+
+#: showcase/templates/Screenpresentations/classroom.desktop:52
+msgctxt "Comment"
+msgid "Classroom by dannya"
+msgstr ""
+
+#: showcase/templates/Screenpresentations/kde.desktop:4
+msgctxt "Name"
+msgid "KDE"
+msgstr "KDE"
+
+#: showcase/templates/Screenpresentations/kde.desktop:68
+#, fuzzy
+msgctxt "Comment"
+msgid "A presentation with original KDE theming"
+msgstr "KDE 2 mavzulik namoyish"
+
+#: showcase/templates/Screenpresentations/kde2.desktop:4
+msgctxt "Name"
+msgid "KDE 2"
+msgstr "KDE 2"
+
+#: showcase/templates/Screenpresentations/kde2.desktop:67
+msgctxt "Comment"
+msgid "A presentation with KDE 2 theming"
+msgstr "KDE 2 mavzulik namoyish"
+
+#: showcase/templates/Screenpresentations/kde3.desktop:4
+msgctxt "Name"
+msgid "KDE 3"
+msgstr "KDE 3"
+
+#: showcase/templates/Screenpresentations/kde3.desktop:59
+msgctxt "Comment"
+msgid "A presentation with KDE 3 theming"
+msgstr "KDE 3 mavzulik namoyish"
+
+#: showcase/templates/Screenpresentations/savannah.desktop:3
+msgctxt "Name"
+msgid "Savannah"
+msgstr "Savanna"
+
+#: showcase/templates/Screenpresentations/savannah.desktop:53
+msgctxt "Comment"
+msgid "Savannah by dannya"
+msgstr ""
 
 #: showcase/templates/common_desktop/OneColumnLandscape.desktop:3
 msgctxt "Name"
@@ -1520,6 +1622,43 @@ msgctxt "Comment"
 msgid "Presentation with a page title and two text columns (portrait-oriented)"
 msgstr "Boʻsh taqdimot (portretli)"
 
+#: showcase/templates/common_desktop/emptyLandscape.desktop:3
+msgctxt "Name"
+msgid "Empty"
+msgstr "Boʻsh"
+
+#: showcase/templates/common_desktop/emptyLandscape.desktop:62
+msgctxt "Comment"
+msgid "Empty presentation"
+msgstr "Boʻsh namoyish"
+
+#: showcase/templates/common_desktop/emptyLandscapeWide.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Empty"
+msgctxt "Name"
+msgid "Empty 16:10"
+msgstr "Boʻsh"
+
+#: showcase/templates/common_desktop/emptyLandscapeWide.desktop:41
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Empty presentation"
+msgctxt "Comment"
+msgid "Empty presentation 10:16"
+msgstr "Boʻsh namoyish"
+
+#: showcase/templates/common_desktop/emptyPortrait.desktop:3
+msgctxt "Name"
+msgid "Empty Portrait"
+msgstr "Boʻyiga boʻsh"
+
+#: showcase/templates/common_desktop/emptyPortrait.desktop:56
+#, fuzzy
+msgctxt "Comment"
+msgid "Empty presentation (portrait-oriented)"
+msgstr "Boʻsh taqdimot (portretli)"
+
 #: showcase/templates/legal/.directory:2
 #, fuzzy
 msgctxt "Name"
@@ -1530,6 +1669,14 @@ msgstr "Legal"
 msgctxt "Name"
 msgid "Letter"
 msgstr "Xat"
+
+#: showcase/templates/odf/.directory:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Fax Template"
+msgctxt "Name"
+msgid "Templates"
+msgstr "Faks namunasi"
 
 #: showcase/templates/odf/blue_orange_vector.desktop:3
 msgctxt "Name"
@@ -1568,14 +1715,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "Curious Penguin"
 msgstr ""
-
-#: showcase/templates/odf/.directory:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Fax Template"
-msgctxt "Name"
-msgid "Templates"
-msgstr "Faks namunasi"
 
 #: showcase/templates/odf/flood_light.desktop:3
 msgctxt "Name"
@@ -1692,145 +1831,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "Strange Far Hills"
 msgstr ""
-
-#: showcase/templates/Screen/.directory:2
-msgctxt "Name"
-msgid "Screen"
-msgstr "Ekran"
-
-#: showcase/templates/Screenpresentations/BlueBreezeDouble.desktop:3
-msgctxt "Name"
-msgid "Blue Breeze Double"
-msgstr ""
-
-#: showcase/templates/Screenpresentations/BlueBreezeDouble.desktop:57
-#, fuzzy
-msgctxt "Comment"
-msgid "A peaceful presentation with a title and two text columns"
-msgstr "KDE 3 mavzulik namoyish"
-
-#: showcase/templates/Screenpresentations/BlueBreezePicture.desktop:3
-msgctxt "Name"
-msgid "Blue Breeze Picture"
-msgstr ""
-
-#: showcase/templates/Screenpresentations/BlueBreezePicture.desktop:58
-#, fuzzy
-msgctxt "Comment"
-msgid "A peaceful presentation with a title and picture area"
-msgstr "KDE 3 mavzulik namoyish"
-
-#: showcase/templates/Screenpresentations/BlueBreezeSingle.desktop:3
-msgctxt "Name"
-msgid "Blue Breeze Single"
-msgstr ""
-
-#: showcase/templates/Screenpresentations/BlueBreezeSingle.desktop:57
-#, fuzzy
-msgctxt "Comment"
-msgid "A peaceful presentation with a title and single large text area"
-msgstr "KDE 3 mavzulik namoyish"
-
-#: showcase/templates/Screenpresentations/classroom.desktop:3
-msgctxt "Name"
-msgid "Classroom"
-msgstr "Sinf xonasi"
-
-#: showcase/templates/Screenpresentations/classroom.desktop:52
-msgctxt "Comment"
-msgid "Classroom by dannya"
-msgstr ""
-
-#: showcase/templates/Screenpresentations/CopperPlain.desktop:3
-#, fuzzy
-msgctxt "Name"
-msgid "Copper Plain"
-msgstr "Oddiy"
-
-#: showcase/templates/Screenpresentations/CopperPlain.desktop:57
-#, fuzzy
-msgctxt "Comment"
-msgid "An elegant, uplifting presentation"
-msgstr "Boʻsh namoyish"
-
-#: showcase/templates/Screenpresentations/.directory:2
-msgctxt "Name"
-msgid "Screen Presentations"
-msgstr "Ekranda namoyishlar"
-
-#: showcase/templates/Screenpresentations/GradientBlueRed.desktop:4
-msgctxt "Name"
-msgid "Gradient Blue-Red"
-msgstr ""
-
-#: showcase/templates/Screenpresentations/GradientBlueRed.desktop:61
-#, fuzzy
-msgctxt "Comment"
-msgid "A presentation themed for the evening sky"
-msgstr "KDE 3 mavzulik namoyish"
-
-#: showcase/templates/Screenpresentations/kde2.desktop:4
-msgctxt "Name"
-msgid "KDE 2"
-msgstr "KDE 2"
-
-#: showcase/templates/Screenpresentations/kde2.desktop:67
-msgctxt "Comment"
-msgid "A presentation with KDE 2 theming"
-msgstr "KDE 2 mavzulik namoyish"
-
-#: showcase/templates/Screenpresentations/kde3.desktop:4
-msgctxt "Name"
-msgid "KDE 3"
-msgstr "KDE 3"
-
-#: showcase/templates/Screenpresentations/kde3.desktop:59
-msgctxt "Comment"
-msgid "A presentation with KDE 3 theming"
-msgstr "KDE 3 mavzulik namoyish"
-
-#: showcase/templates/Screenpresentations/kde.desktop:4
-msgctxt "Name"
-msgid "KDE"
-msgstr "KDE"
-
-#: showcase/templates/Screenpresentations/kde.desktop:68
-#, fuzzy
-msgctxt "Comment"
-msgid "A presentation with original KDE theming"
-msgstr "KDE 2 mavzulik namoyish"
-
-#: showcase/templates/Screenpresentations/savannah.desktop:3
-msgctxt "Name"
-msgid "Savannah"
-msgstr "Savanna"
-
-#: showcase/templates/Screenpresentations/savannah.desktop:53
-msgctxt "Comment"
-msgid "Savannah by dannya"
-msgstr ""
-
-#: showcase/templates/Screenpresentations/SnowyMountains.desktop:3
-msgctxt "Name"
-msgid "Snowy Mountains"
-msgstr "Qorli togʻlar"
-
-#: showcase/templates/Screenpresentations/SnowyMountains.desktop:60
-#, fuzzy
-msgctxt "Comment"
-msgid "A cool and smooth presentation"
-msgstr "Boʻsh namoyish"
-
-#: showcase/templates/Screenpresentations/TotallyNewProduct.desktop:3
-msgctxt "Name"
-msgid "Totally New Product"
-msgstr "Umuman yangi mahsulot"
-
-#: showcase/templates/Screenpresentations/TotallyNewProduct.desktop:60
-#, fuzzy
-msgctxt "Comment"
-msgid "An informal, green-swirl presentation"
-msgstr "OASIS OpenDocument namoyish"
 
 #: tools/kthesaurus/KThesaurus.desktop:2
 msgctxt "Name"
