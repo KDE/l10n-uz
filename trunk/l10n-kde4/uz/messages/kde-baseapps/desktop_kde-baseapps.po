@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-19 09:44+0000\n"
+"POT-Creation-Date: 2011-12-20 08:27+0000\n"
 "PO-Revision-Date: 2008-06-02 22:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -189,7 +189,7 @@ msgstr ""
 "maxfiy soʻz,elektron pochta,foydalanuvchi,haqiqiy ismi,nishoncha,tashkilot, "
 "echo mode"
 
-#: kdepasswd/kcm/kcm_useraccount.desktop:121
+#: kdepasswd/kcm/kcm_useraccount.desktop:122
 msgctxt "Comment"
 msgid "User information such as password, name and email"
 msgstr ""
@@ -454,10 +454,10 @@ msgid "Enables the use of bookmarklets"
 msgstr ""
 
 #: konq-plugins/quickprint/text-ada-print.desktop:7
-#: konq-plugins/quickprint/text-c++-print.desktop:7
 #: konq-plugins/quickprint/text-c++h-print.desktop:7
-#: konq-plugins/quickprint/text-c-print.desktop:7
 #: konq-plugins/quickprint/text-ch-print.desktop:7
+#: konq-plugins/quickprint/text-c-print.desktop:7
+#: konq-plugins/quickprint/text-c++-print.desktop:7
 #: konq-plugins/quickprint/text-css-print.desktop:7
 #: konq-plugins/quickprint/text-diff-print.desktop:7
 #: konq-plugins/quickprint/text-html-print.desktop:7
@@ -553,6 +553,11 @@ msgctxt "Name"
 msgid "Web Archives"
 msgstr "Veb-saytlar"
 
+#: konqueror/about/konq_aboutpage.desktop:3
+msgctxt "Name"
+msgid "About-Page for Konqueror"
+msgstr "Konqueror haqida sahifa"
+
 #: konqueror/Home.desktop:7
 msgctxt "Name"
 msgid "Home"
@@ -562,11 +567,6 @@ msgstr "Uy"
 msgctxt "GenericName"
 msgid "Personal Files"
 msgstr "Shaxsiy fayllar"
-
-#: konqueror/about/konq_aboutpage.desktop:3
-msgctxt "Name"
-msgid "About-Page for Konqueror"
-msgstr "Konqueror haqida sahifa"
 
 #: konqueror/kfmclient.desktop:10 konqueror/kfmclient_dir.desktop:10
 #: konqueror/kfmclient_html.desktop:9 konqueror/kfmclient_war.desktop:9
@@ -987,8 +987,8 @@ msgid "User Agent,Browser,Internet,WWW,Network,agent,bindings,server,login"
 msgstr "User Agent,WWW,agent,bindings,Brauzer,Internet,Tarmoq,server"
 
 #: konqueror/settings/konq/fileappearance.desktop:11
-#: konqueror/settings/konq/webappearance.desktop:12
 #: konqueror/settings/konqhtml/khtml_appearance.desktop:13
+#: konqueror/settings/konq/webappearance.desktop:12
 msgctxt "Name"
 msgid "Appearance"
 msgstr "Tashqi koʻrinish"
@@ -1042,20 +1042,6 @@ msgstr ""
 "konqueror,fayl boshqaruvchisi,kfm,eslatmalar,fayl eslatmalari,alohida oyna,"
 "spawn windows,xususiyatlar,xotiradan foydalanish,Uy URL,tarmoq amallari,"
 "chiqindilar qutisi,oʻchirish,tasdiqlash"
-
-#: konqueror/settings/konq/webbehavior.desktop:199
-#, fuzzy
-#| msgctxt "Keywords"
-#| msgid ""
-#| "konqueror,filemanager,kfm,tips,file tips,separate window,spawn windows,"
-#| "behavior,behaviour,memory usage,Home URL,"
-msgctxt "X-KDE-Keywords"
-msgid ""
-"konqueror,filemanager,kfm,tips,file tips,separate window,spawn windows,"
-"behavior,behaviour,memory usage,Home URL,"
-msgstr ""
-"konqueror,fayl boshqaruvchisi,kfm,eslatmalar,fayl eslatmalari,alohida oyna,"
-"spawn windows,xususiyatlar,xotiradan foydalanish,Uy URL"
 
 #: konqueror/settings/konqhtml/css/kcmcss.desktop:12
 msgctxt "Name"
@@ -1170,6 +1156,20 @@ msgstr "Java va JavaScript xususiyatlarini moslash"
 msgctxt "X-KDE-Keywords"
 msgid "konqueror,kfm,browser,html,web,www,java,javascript"
 msgstr "konqueror,kfm,brauzer,html,veb,www,java,javascript"
+
+#: konqueror/settings/konq/webbehavior.desktop:199
+#, fuzzy
+#| msgctxt "Keywords"
+#| msgid ""
+#| "konqueror,filemanager,kfm,tips,file tips,separate window,spawn windows,"
+#| "behavior,behaviour,memory usage,Home URL,"
+msgctxt "X-KDE-Keywords"
+msgid ""
+"konqueror,filemanager,kfm,tips,file tips,separate window,spawn windows,"
+"behavior,behaviour,memory usage,Home URL,"
+msgstr ""
+"konqueror,fayl boshqaruvchisi,kfm,eslatmalar,fayl eslatmalari,alohida oyna,"
+"spawn windows,xususiyatlar,xotiradan foydalanish,Uy URL"
 
 #: konqueror/settings/performance/kcmkonqyperformance.desktop:12
 msgctxt "Name"
@@ -1327,15 +1327,15 @@ msgctxt "Name"
 msgid "KDE Official FTP"
 msgstr "Rasmiy KDE FTP"
 
-#: konqueror/sidebar/trees/init/remote/web/.directory:2
-msgctxt "Name"
-msgid "Web Sites"
-msgstr "Veb-saytlar"
-
 #: konqueror/sidebar/trees/init/remote/web/apps_web.desktop:4
 msgctxt "Name"
 msgid "KDE Applications"
 msgstr "KDE dasturlar"
+
+#: konqueror/sidebar/trees/init/remote/web/.directory:2
+msgctxt "Name"
+msgid "Web Sites"
+msgstr "Veb-saytlar"
 
 #: konqueror/sidebar/trees/init/remote/web/dot_web.desktop:4
 msgctxt "Name"
@@ -1372,6 +1372,34 @@ msgctxt "Name"
 msgid "Web SideBar Module"
 msgstr "Veb yon paneli moduli"
 
+#: lib/konq/directory_bookmarkbar.desktop:3
+msgctxt "Name"
+msgid "Bookmark Toolbar"
+msgstr "Xatchoʻp paneli"
+
+#: lib/konq/favicons/favicons.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Icons"
+msgctxt "Name"
+msgid "Favicons"
+msgstr "Nishonchalar"
+
+#: lib/konq/favicons/favicons.desktop:79
+msgctxt "Comment"
+msgid "Stores website icons"
+msgstr ""
+
+#: lib/konq/konqdndpopupmenuplugin.desktop:4
+msgctxt "Comment"
+msgid "Drag-and-drop plugin for the Konqueror Popup Menu."
+msgstr ""
+
+#: lib/konq/konqpopupmenuplugin.desktop:4
+msgctxt "Comment"
+msgid "Plugin for the Konqueror Popup Menu"
+msgstr ""
+
 #: lib/konq/Templates/CDROM-Device.desktop:10
 #: lib/konq/Templates/CDWRITER-Device.desktop:10
 #: lib/konq/Templates/DVDROM-Device.desktop:10
@@ -1407,16 +1435,6 @@ msgstr "HTML-fayli..."
 msgctxt "Comment"
 msgid "Enter HTML filename:"
 msgstr "HTML-faylning nomini kiriting:"
-
-#: lib/konq/Templates/TextFile.desktop:2
-msgctxt "Name"
-msgid "Text File..."
-msgstr "Matn fayli..."
-
-#: lib/konq/Templates/TextFile.desktop:92
-msgctxt "Comment"
-msgid "Enter text filename:"
-msgstr "Matn faylining nomini kiriting:"
 
 #: lib/konq/Templates/linkCAMERA.desktop:2
 msgctxt "Name"
@@ -1541,33 +1559,15 @@ msgctxt "Comment"
 msgid "New ZIP Device"
 msgstr "Yangi ZIP uskunasi"
 
-#: lib/konq/directory_bookmarkbar.desktop:3
+#: lib/konq/Templates/TextFile.desktop:2
 msgctxt "Name"
-msgid "Bookmark Toolbar"
-msgstr "Xatchoʻp paneli"
+msgid "Text File..."
+msgstr "Matn fayli..."
 
-#: lib/konq/favicons/favicons.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Icons"
-msgctxt "Name"
-msgid "Favicons"
-msgstr "Nishonchalar"
-
-#: lib/konq/favicons/favicons.desktop:79
+#: lib/konq/Templates/TextFile.desktop:92
 msgctxt "Comment"
-msgid "Stores website icons"
-msgstr ""
-
-#: lib/konq/konqdndpopupmenuplugin.desktop:4
-msgctxt "Comment"
-msgid "Drag-and-drop plugin for the Konqueror Popup Menu."
-msgstr ""
-
-#: lib/konq/konqpopupmenuplugin.desktop:4
-msgctxt "Comment"
-msgid "Plugin for the Konqueror Popup Menu"
-msgstr ""
+msgid "Enter text filename:"
+msgstr "Matn faylining nomini kiriting:"
 
 #: nsplugins/khtml_plugins.desktop:14
 msgctxt "Name"

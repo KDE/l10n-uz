@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-14 02:40+0100\n"
+"POT-Creation-Date: 2011-12-20 03:38+0100\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -282,16 +282,6 @@ msgstr ""
 msgid "Could not load \"%1\" plugin."
 msgstr "\"%1\" plaginini yuklab boʻlmadi."
 
-#: core/kexipartinfo.cpp:110
-#, fuzzy, kde-format
-msgid "Create new object of type \"%1\""
-msgstr "nomaʼlum obʼekt turi \"%1\""
-
-#: core/kexipartinfo.cpp:112
-#, fuzzy, kde-format
-msgid "Creates new object of type \"%1\""
-msgstr "nomaʼlum obʼekt turi \"%1\""
-
 #: core/kexicmdlineargs.h:32
 #, fuzzy
 msgid "Options related to entire projects:"
@@ -552,99 +542,21 @@ msgstr "\"%1\" plaginini yuklashda xato roʻy berdi"
 msgid "No plugin for class \"%1\""
 msgstr ""
 
-#: core/kexiproject.cpp:215
-#, kde-format
-msgid "Could not open project \"%1\"."
-msgstr "\"%1\" loyihasini ochib boʻlmadi."
-
-#: core/kexiproject.cpp:239
-#, kde-format
-msgid ""
-"Database project %1 does not appear to have been created using Kexi and "
-"cannot be opened.<br><br>It is an SQLite file created using other tools.</qt>"
-msgstr ""
-
-#: core/kexiproject.cpp:262
-#, kde-format
-msgid "Could not create project \"%1\"."
-msgstr "\"%1\" loyihasini yaratib boʻlmadi."
-
-#: core/kexiproject.cpp:305 core/kexiproject.cpp:370
-#, fuzzy
-msgid "Project major version"
-msgstr "Loyihaning asl versiyasi"
-
-#: core/kexiproject.cpp:307 core/kexiproject.cpp:372
-#, fuzzy
-msgid "Project minor version"
-msgstr "Loyihaning ikkinchi darajali versiyasi"
-
-#: core/kexiproject.cpp:309
-msgid "Project caption"
-msgstr "Loyiha sarlavhasi"
-
-#: core/kexiproject.cpp:311
-msgid "Project description"
-msgstr "Loyiha taʼrifi"
-
-#: core/kexiproject.cpp:821
-#, fuzzy, kde-format
-msgid "Opening object \"%1\" failed."
-msgstr "\"%1\" obʼektini ochib boʻlmadi."
-
-#: core/kexiproject.cpp:840
-msgid "This project is opened as read only."
-msgstr ""
-
-#: core/kexiproject.cpp:897 main/KexiMainWindow.cpp:3558
-#, fuzzy
-msgid "Could not set empty name for this object."
-msgstr "Ushbu loyiha uchun boʻsh nom oʻrnatib boʻlmadi."
-
-#: core/kexiproject.cpp:901
-#, kde-format
-msgid "Could not use this name. Object with name \"%1\" already exists."
-msgstr "Ushbu nomni qoʻllab boʻlmaydi. \"%1\" nomli obʼekt allaqachon mavjud."
-
-#: core/kexiproject.cpp:908
-#, fuzzy, kde-format
-msgid "Could not rename object \"%1\"."
-msgstr "\"%1\" obʼektini qayta nomlab boʻlmadi."
-
-#: core/kexiproject.cpp:1032
-msgid "Warning: entire project's data will be removed."
-msgstr "Diqqat: loyihaning barcha maʼlumotlari oʻchirib tashlanadi."
-
-#: core/kexiproject.cpp:1046
-#, kde-format
-msgid ""
-"The project %1 already exists.\n"
-"Do you want to replace it with a new, blank one?"
-msgstr ""
-"\"%1\" loyihasi allaqachon mavjud.\n"
-"Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
-
-#: core/kexiproject.cpp:1049 main/kexifinddialog.cpp:229
-#, fuzzy
-msgid "Replace"
-msgstr "&Almashtirish"
-
-#: core/kexiproject.cpp:1073
-#, fuzzy, kde-format
-msgid "Do you want to drop the project \"%1\"?"
-msgstr "\"%1\" loyihasini ochib boʻlmadi."
-
-#: core/kexiproject.cpp:1083
-msgid ""
-"Could not drop this project. Database connection for this project has been "
-"opened as read only."
-msgstr ""
-
 #: core/kexiprojectdata.cpp:192
 #, fuzzy, kde-format
 msgctxt "database connection"
 msgid "(connection %1)"
 msgstr "(ulanish %1)"
+
+#: core/kexipartinfo.cpp:110
+#, fuzzy, kde-format
+msgid "Create new object of type \"%1\""
+msgstr "nomaʼlum obʼekt turi \"%1\""
+
+#: core/kexipartinfo.cpp:112
+#, fuzzy, kde-format
+msgid "Creates new object of type \"%1\""
+msgstr "nomaʼlum obʼekt turi \"%1\""
 
 #: core/KexiView.cpp:66
 #, fuzzy
@@ -872,6 +784,94 @@ msgstr ""
 #: core/kexi.cpp:310
 #, kde-format
 msgid "\"%1\" function is not available for version %2 of %3 application."
+msgstr ""
+
+#: core/kexiproject.cpp:215
+#, kde-format
+msgid "Could not open project \"%1\"."
+msgstr "\"%1\" loyihasini ochib boʻlmadi."
+
+#: core/kexiproject.cpp:239
+#, kde-format
+msgid ""
+"Database project %1 does not appear to have been created using Kexi and "
+"cannot be opened.<br><br>It is an SQLite file created using other tools.</qt>"
+msgstr ""
+
+#: core/kexiproject.cpp:262
+#, kde-format
+msgid "Could not create project \"%1\"."
+msgstr "\"%1\" loyihasini yaratib boʻlmadi."
+
+#: core/kexiproject.cpp:305 core/kexiproject.cpp:370
+#, fuzzy
+msgid "Project major version"
+msgstr "Loyihaning asl versiyasi"
+
+#: core/kexiproject.cpp:307 core/kexiproject.cpp:372
+#, fuzzy
+msgid "Project minor version"
+msgstr "Loyihaning ikkinchi darajali versiyasi"
+
+#: core/kexiproject.cpp:309
+msgid "Project caption"
+msgstr "Loyiha sarlavhasi"
+
+#: core/kexiproject.cpp:311
+msgid "Project description"
+msgstr "Loyiha taʼrifi"
+
+#: core/kexiproject.cpp:821
+#, fuzzy, kde-format
+msgid "Opening object \"%1\" failed."
+msgstr "\"%1\" obʼektini ochib boʻlmadi."
+
+#: core/kexiproject.cpp:840
+msgid "This project is opened as read only."
+msgstr ""
+
+#: core/kexiproject.cpp:897 main/KexiMainWindow.cpp:3558
+#, fuzzy
+msgid "Could not set empty name for this object."
+msgstr "Ushbu loyiha uchun boʻsh nom oʻrnatib boʻlmadi."
+
+#: core/kexiproject.cpp:901
+#, kde-format
+msgid "Could not use this name. Object with name \"%1\" already exists."
+msgstr "Ushbu nomni qoʻllab boʻlmaydi. \"%1\" nomli obʼekt allaqachon mavjud."
+
+#: core/kexiproject.cpp:908
+#, fuzzy, kde-format
+msgid "Could not rename object \"%1\"."
+msgstr "\"%1\" obʼektini qayta nomlab boʻlmadi."
+
+#: core/kexiproject.cpp:1032
+msgid "Warning: entire project's data will be removed."
+msgstr "Diqqat: loyihaning barcha maʼlumotlari oʻchirib tashlanadi."
+
+#: core/kexiproject.cpp:1046
+#, kde-format
+msgid ""
+"The project %1 already exists.\n"
+"Do you want to replace it with a new, blank one?"
+msgstr ""
+"\"%1\" loyihasi allaqachon mavjud.\n"
+"Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
+
+#: core/kexiproject.cpp:1049 main/kexifinddialog.cpp:229
+#, fuzzy
+msgid "Replace"
+msgstr "&Almashtirish"
+
+#: core/kexiproject.cpp:1073
+#, fuzzy, kde-format
+msgid "Do you want to drop the project \"%1\"?"
+msgstr "\"%1\" loyihasini ochib boʻlmadi."
+
+#: core/kexiproject.cpp:1083
+msgid ""
+"Could not drop this project. Database connection for this project has been "
+"opened as read only."
 msgstr ""
 
 #: formeditor/connectiondialog.cpp:55
@@ -3080,34 +3080,34 @@ msgstr "\"%1\" obʼektini ochib boʻlmadi."
 msgid "The database has been compacted. Current size decreased by %1% to %2."
 msgstr ""
 
-#: kexidb/drivers/sqlite/sqliteconnection.cpp:212
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:234
 #, fuzzy, kde-format
 msgid "Do you want to open file \"%1\" as read-only?"
 msgstr "Buni matn usulida ochishni istaysizmi?"
 
-#: kexidb/drivers/sqlite/sqliteconnection.cpp:215
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:237
 msgid "The file is probably already open on this or another computer."
 msgstr ""
 
-#: kexidb/drivers/sqlite/sqliteconnection.cpp:216
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:238
 msgid "Could not gain exclusive access for writing the file."
 msgstr ""
 
-#: kexidb/drivers/sqlite/sqliteconnection.cpp:218
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:240
 msgid "Open As Read-Only"
 msgstr ""
 
-#: kexidb/drivers/sqlite/sqliteconnection.cpp:257
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:279
 #, fuzzy
 msgid "Could not close busy database."
 msgstr "\"%1\" maʼlumotlar bazasini yaratib boʻlmadi."
 
-#: kexidb/drivers/sqlite/sqliteconnection.cpp:270
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:301
 #, kde-format
 msgid "Could not remove file \"%1\"."
 msgstr "\"%1\" faylini olib tashlab boʻlmadi."
 
-#: kexidb/drivers/sqlite/sqliteconnection.cpp:272
+#: kexidb/drivers/sqlite/sqliteconnection.cpp:303
 #: main/startup/KexiStartup.cpp:758 main/startup/KexiStartup.cpp:790
 msgid ""
 "Check the file's permissions and whether it is already opened and locked by "
@@ -3328,12 +3328,6 @@ msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
 #, kde-format
 msgid "Enter password for %1: "
 msgstr ""
-
-#: kexidb/queryschema.cpp:263
-#, fuzzy
-msgctxt "short for 'expression' word, e.g. 'expr' (only latin letters, please)"
-msgid "expr"
-msgstr "&Eksport qilish"
 
 #: kexidb/cursor.cpp:145
 msgid "No query statement or schema defined."
@@ -3808,6 +3802,12 @@ msgstr ""
 #, fuzzy
 msgid "Record deletion on the server failed."
 msgstr "Qatorni olib tashlab boʻlmadi."
+
+#: kexidb/queryschema.cpp:263
+#, fuzzy
+msgctxt "short for 'expression' word, e.g. 'expr' (only latin letters, please)"
+msgid "expr"
+msgstr "&Eksport qilish"
 
 #: kexiutils/identifier.cpp:92
 #, kde-format
@@ -5560,7 +5560,7 @@ msgid ""
 "Kexi database."
 msgstr ""
 
-#: migration/importwizard.cpp:190 migration/importtablewizard.cpp:131
+#: migration/importwizard.cpp:190 migration/importtablewizard.cpp:137
 msgid ""
 "Click \"Next\" button to continue or \"Cancel\" button to exit this wizard."
 msgstr ""
@@ -5571,11 +5571,11 @@ msgstr ""
 msgid "Welcome to the Database Importing Wizard"
 msgstr "Maʼlumotlar bazasi import qilish yordamchisiga marhamat"
 
-#: migration/importwizard.cpp:222 migration/importtablewizard.cpp:165
+#: migration/importwizard.cpp:222 migration/importtablewizard.cpp:171
 msgid "Select Location for Source Database"
 msgstr "Manba maʼlumotlar bazasining manzilini koʻrsating"
 
-#: migration/importwizard.cpp:234 migration/importtablewizard.cpp:175
+#: migration/importwizard.cpp:234 migration/importtablewizard.cpp:181
 msgid "Select Source Database"
 msgstr "Manba maʼlumotlar bazasini tanlang"
 
@@ -5625,11 +5625,11 @@ msgstr ""
 msgid "Select Type of Import"
 msgstr "Import qilish usulini tanlang"
 
-#: migration/importwizard.cpp:383 migration/importtablewizard.cpp:223
+#: migration/importwizard.cpp:383 migration/importtablewizard.cpp:229
 msgid "Advanced Options"
 msgstr "Qoʻshimcha moslamalar"
 
-#: migration/importwizard.cpp:395 migration/importtablewizard.cpp:232
+#: migration/importwizard.cpp:395 migration/importtablewizard.cpp:238
 msgid "Importing"
 msgstr "Import qilinmoqda"
 
@@ -5638,7 +5638,7 @@ msgid "Open imported project"
 msgstr "Import qilingan loyihani ochish"
 
 #: migration/importwizard.cpp:419 migration/importwizard.cpp:829
-#: migration/importtablewizard.cpp:265
+#: migration/importtablewizard.cpp:271
 msgid "Success"
 msgstr "Muvaffaqiyat"
 
@@ -5658,7 +5658,7 @@ msgstr ""
 msgid "Please click 'Back' button and correct these errors."
 msgstr "Iltimos \"Orqaga\" tugmasini bosib xatolarni tuzating."
 
-#: migration/importwizard.cpp:491 migration/importtablewizard.cpp:310
+#: migration/importwizard.cpp:491 migration/importtablewizard.cpp:316
 msgid "Select source database you wish to import:"
 msgstr "Import qilmoqchi boʻlgan manba maʼlumotlar bazasini tanlang:"
 
@@ -5670,7 +5670,7 @@ msgid ""
 "Depending on size of the database this may take some time."
 msgstr ""
 
-#: migration/importwizard.cpp:708 migration/importtablewizard.cpp:447
+#: migration/importwizard.cpp:708 migration/importtablewizard.cpp:455
 msgid "No appropriate migration driver found."
 msgstr ""
 
@@ -5746,7 +5746,7 @@ msgid ""
 "name."
 msgstr ""
 
-#: migration/AlterSchemaWidget.cpp:45 migration/AlterSchemaWidget.cpp:102
+#: migration/AlterSchemaWidget.cpp:49 migration/AlterSchemaWidget.cpp:111
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:931
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:944
 #, kde-format
@@ -5757,59 +5757,61 @@ msgstr "Ustun %1"
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #. i18n: file: widget/KexiProjectSelector.ui:96
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: migration/AlterSchemaWidget.cpp:46
+#: migration/AlterSchemaWidget.cpp:50
 #: plugins/tables/kexitabledesignerview.cpp:356 rc.cpp:92 rc.cpp:120
 msgid "Type"
 msgstr "Turi"
 
-#: migration/AlterSchemaWidget.cpp:47
+#: migration/AlterSchemaWidget.cpp:51
 #: plugins/tables/kexitabledesignerview.cpp:193
 #: plugins/tables/kexitabledesignerview.cpp:430
 msgid "Primary Key"
 msgstr "Birinchi darajali kalit"
 
-#: migration/AlterSchemaWidget.cpp:48
+#: migration/AlterSchemaWidget.cpp:52
 #, fuzzy
 #| msgid "Table field"
 msgid "Table Name"
 msgstr "Jadval maydoni"
 
-#: migration/importtablewizard.cpp:96
-msgid "Object name exists"
-msgstr ""
+#: migration/importtablewizard.cpp:102
+#, fuzzy
+#| msgid "Project Name"
+msgid "Object Name Exists"
+msgstr "Loyiha nomi"
 
-#: migration/importtablewizard.cpp:96
+#: migration/importtablewizard.cpp:102
 #, fuzzy
 msgid ""
 "An object with this name already exists, please change the table name to "
-"continue"
+"continue."
 msgstr ""
 "\"%1\" loyihasi allaqachon mavjud.\n"
 "Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
 
-#: migration/importtablewizard.cpp:128
+#: migration/importtablewizard.cpp:134
 msgid ""
 "Table importing wizard allows you to import a table from an existing "
 "database into the current Kexi database."
 msgstr ""
 
-#: migration/importtablewizard.cpp:134
+#: migration/importtablewizard.cpp:140
 #, fuzzy
 #| msgid "Welcome to the Database Importing Wizard"
 msgid "Welcome to the Table Importing Wizard"
 msgstr "Maʼlumotlar bazasi import qilish yordamchisiga marhamat"
 
-#: migration/importtablewizard.cpp:190
+#: migration/importtablewizard.cpp:196
 #, fuzzy
 #| msgid "Select Type of Import"
 msgid "Select the Table to Import"
 msgstr "Import qilish usulini tanlang"
 
-#: migration/importtablewizard.cpp:248
+#: migration/importtablewizard.cpp:254
 msgid "Alter the Detected Design"
 msgstr ""
 
-#: migration/importtablewizard.cpp:395
+#: migration/importtablewizard.cpp:403
 msgid ""
 "All required information has now been gathered. Click \"Next\" button to "
 "start importing.\n"
@@ -5820,16 +5822,16 @@ msgid ""
 "\n"
 msgstr ""
 
-#: migration/importtablewizard.cpp:536
+#: migration/importtablewizard.cpp:544
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:1388
 msgid "No project available."
 msgstr "Loyiha mavjud emas."
 
-#: migration/importtablewizard.cpp:547
+#: migration/importtablewizard.cpp:555
 msgid "No table was selected to import."
 msgstr ""
 
-#: migration/importtablewizard.cpp:559
+#: migration/importtablewizard.cpp:567
 #, fuzzy, kde-format
 #| msgid "Could not create database \"%1\"."
 msgid "Unable to create table [%1]"
