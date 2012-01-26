@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-25 02:39+0100\n"
+"POT-Creation-Date: 2012-01-26 02:39+0100\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1975,7 +1975,14 @@ msgctxt "(qtundo-format)"
 msgid "Paste"
 msgstr "Sana"
 
-#: kotext/styles/KoStyleManager.cpp:97 kotext/styles/KoStyleManager.cpp:102
+#: kotext/commands/ChangeStylesMacroCommand.cpp:35
+#, fuzzy
+#| msgid "Change Char Style"
+msgctxt "(qtundo-format)"
+msgid "Change Styles"
+msgstr "Belgi uslubini oʻzgartirish"
+
+#: kotext/styles/KoStyleManager.cpp:100 kotext/styles/KoStyleManager.cpp:105
 #, fuzzy
 msgid "Default"
 msgstr "&Andoza"
@@ -8406,9 +8413,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Change Char to Symbol"
-#~ msgstr "Belgi uslubini oʻzgartirish"
-
-#~ msgid "Change Char Style"
 #~ msgstr "Belgi uslubini oʻzgartirish"
 
 #, fuzzy
