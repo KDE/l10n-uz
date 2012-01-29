@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-28 04:18+0100\n"
+"POT-Creation-Date: 2012-01-29 03:03+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -5069,7 +5069,7 @@ msgid "Connection timed out"
 msgstr "aloqada taymaut"
 
 #: kdecore/network/klocalsocket_unix.cpp:213
-#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:538
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:539
 #, fuzzy
 msgid "Unknown error"
 msgstr "Nomaʼlum xato"
@@ -5616,8 +5616,8 @@ msgstr "&Holat panelini koʻrsatish"
 #: kdeui/actions/kstandardaction.cpp:542
 #, fuzzy
 msgid ""
-"Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
-"bottom of the window used for status information."
+"Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
+"window used for status information.</p>"
 msgstr ""
 "Holat panelini koʻrsatish<p>Oynaning pastida joylashgan holat maʼlumotini "
 "koʻrsatuvchi panelni koʻrsatish."
@@ -7338,18 +7338,12 @@ msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr "Bu yerda foydalanish uchun shriftning uslubini tanlashingiz mumkin."
 
-#: kdeui/fonts/kfontchooser.cpp:295 kdeui/fonts/kfontchooser.cpp:623
-#: kdeui/fonts/kfontchooser.cpp:640
-msgctxt "@item font"
-msgid "Regular"
-msgstr "Oddiy"
-
-#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:644
+#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:639
 msgctxt "@item font"
 msgid "Italic"
 msgstr "Qiya"
 
-#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:645
+#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:640
 msgctxt "@item font"
 msgid "Oblique"
 msgstr "Yarim qiya"
@@ -7410,7 +7404,7 @@ msgstr "Asl shrift"
 #. noun-adjective congruence wrt. gender of the family name).
 #. The message provides the dynamic context 'family', which is
 #. the family name to which the style string corresponds.
-#: kdeui/fonts/kfontchooser.cpp:630
+#: kdeui/fonts/kfontchooser.cpp:625
 #, fuzzy, kde-format
 msgctxt "@item Font style"
 msgid "%1"
@@ -9821,76 +9815,6 @@ msgstr "&Yuqoriga"
 msgid "Move &Down"
 msgstr "&Pastga"
 
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
-#, fuzzy
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
-msgstr "%1%"
-
-#: kdeui/widgets/klineedit.cpp:296
-#, fuzzy
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "Tugmalar birikmasini oʻchirish"
-
-#: kdeui/widgets/klineedit.cpp:1216
-#, fuzzy
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "Matnni tugatish"
-
-#: kdeui/widgets/klineedit.cpp:1223
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "Yoʻq"
-
-#: kdeui/widgets/klineedit.cpp:1224
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "Qoʻlbola"
-
-#: kdeui/widgets/klineedit.cpp:1225
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "Avtomatik"
-
-#: kdeui/widgets/klineedit.cpp:1226
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "Pastga tushar roʻyxat"
-
-#: kdeui/widgets/klineedit.cpp:1227
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "Qisqa avtomatik"
-
-#: kdeui/widgets/klineedit.cpp:1228
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "Pastga tushar roʻyxat"
-
-#: kdeui/widgets/klineedit.cpp:1259
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "Andoza"
-
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
 msgstr "Tarixni &boʻshatish"
@@ -10018,6 +9942,22 @@ msgstr "Ishonchsiz"
 #, fuzzy
 msgid "without name"
 msgstr "Yangi xost nomi"
+
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/ktextedit.cpp:79 kdeui/widgets/klineedit.cpp:87
+#, fuzzy
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "%1%"
 
 #: kdeui/widgets/ktextedit.cpp:527
 #, fuzzy
@@ -10273,6 +10213,60 @@ msgstr "S&kript"
 #, fuzzy
 msgid "&Copy Full Text"
 msgstr "&Matndan nusxa olish"
+
+#: kdeui/widgets/klineedit.cpp:296
+#, fuzzy
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "Tugmalar birikmasini oʻchirish"
+
+#: kdeui/widgets/klineedit.cpp:1213
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "Matnni tugatish"
+
+#: kdeui/widgets/klineedit.cpp:1220
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "Yoʻq"
+
+#: kdeui/widgets/klineedit.cpp:1221
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "Qoʻlbola"
+
+#: kdeui/widgets/klineedit.cpp:1222
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "Avtomatik"
+
+#: kdeui/widgets/klineedit.cpp:1223
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "Pastga tushar roʻyxat"
+
+#: kdeui/widgets/klineedit.cpp:1224
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "Qisqa avtomatik"
+
+#: kdeui/widgets/klineedit.cpp:1225
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "Pastga tushar roʻyxat"
+
+#: kdeui/widgets/klineedit.cpp:1256
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "Andoza"
 
 #: kdeui/widgets/ktimezonewidget.cpp:66
 #, fuzzy
@@ -13527,16 +13521,16 @@ msgstr "Komponentlarni tanlash"
 msgid "Enable component"
 msgstr "Ichiga oʻrnatib boʻladigan HTML komponent"
 
-#: nepomuk/core/resource.cpp:532
+#: nepomuk/core/resource.cpp:533
 msgid "Success"
 msgstr ""
 
-#: nepomuk/core/resource.cpp:534
+#: nepomuk/core/resource.cpp:535
 #, fuzzy
 msgid "Communication error"
 msgstr "Moslama"
 
-#: nepomuk/core/resource.cpp:536
+#: nepomuk/core/resource.cpp:537
 #, fuzzy
 msgid "Invalid type in Database"
 msgstr "Sertifikat haqiqiy emas!"
@@ -14360,6 +14354,10 @@ msgstr "ertalab"
 #: kdecore/date/kdatetime.cpp:2991
 msgid "pm"
 msgstr "kechqurun"
+
+#~ msgctxt "@item font"
+#~ msgid "Regular"
+#~ msgstr "Oddiy"
 
 #~ msgid "What's &This"
 #~ msgstr "&Bu nima"
