@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-28 04:12+0100\n"
+"POT-Creation-Date: 2012-01-30 05:14+0100\n"
 "PO-Revision-Date: 2008-06-08 22:24+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -584,50 +584,6 @@ msgstr "&Bekor qilish: Oynani yopish"
 msgid "Und&o"
 msgstr ""
 
-#: src/konqviewmanager.cpp:1407
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"Ushbu oynada bir nechta tab ochilgan.\n"
-"Koʻrish profilini yuklash ularni yopadi."
-
-#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:4985
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Tasdiqlash"
-
-#: src/konqviewmanager.cpp:1410
-msgid "Load View Profile"
-msgstr "Koʻrish profilini yuklash"
-
-#: src/konqviewmanager.cpp:1422
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"Ushbu tabda joʻnatilmagan maʼlumot mavjud.\n"
-"Profilni yuklash natijasida maʼlumot yoʻqoladi."
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1633
-#: src/konqmainwindow.cpp:2360 src/konqmainwindow.cpp:2440
-#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:2512
-#: src/konqmainwindow.cpp:2534 src/konqmainwindow.cpp:5020
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "Oʻzgarishlardan voz kechish"
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1633
-#: src/konqmainwindow.cpp:2360 src/konqmainwindow.cpp:2440
-#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:2512
-#: src/konqmainwindow.cpp:2535 src/konqmainwindow.cpp:5020
-msgid "&Discard Changes"
-msgstr "Oʻzgarish&lardan voz kechish"
-
 #: src/konqview.cpp:1203
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
@@ -662,6 +618,23 @@ msgid ""
 msgstr ""
 "Ushbu sahifada joʻnatilmagan maʼlumot mavjud.\n"
 "Uni qaytadan yuklash natijasida maʼlumot yoʻqoladi."
+
+#: src/konqmainwindow.cpp:1633 src/konqmainwindow.cpp:2360
+#: src/konqmainwindow.cpp:2440 src/konqmainwindow.cpp:2470
+#: src/konqmainwindow.cpp:2512 src/konqmainwindow.cpp:2534
+#: src/konqmainwindow.cpp:5020 src/konqviewmanager.cpp:1423
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "Oʻzgarishlardan voz kechish"
+
+#: src/konqmainwindow.cpp:1633 src/konqmainwindow.cpp:2360
+#: src/konqmainwindow.cpp:2440 src/konqmainwindow.cpp:2470
+#: src/konqmainwindow.cpp:2512 src/konqmainwindow.cpp:2535
+#: src/konqmainwindow.cpp:5020 src/konqviewmanager.cpp:1423
+msgid "&Discard Changes"
+msgstr "Oʻzgarish&lardan voz kechish"
 
 #: src/konqmainwindow.cpp:1743
 msgid "File Management"
@@ -1251,6 +1224,13 @@ msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "Ushbu oynada bir nechta tab ochilgan. Chiqishga ishonchingiz komilmi?"
 
+#: src/konqmainwindow.cpp:4985 src/konqviewmanager.cpp:1409
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Tasdiqlash"
+
 #: src/konqmainwindow.cpp:4987
 msgid "C&lose Current Tab"
 msgstr "J&oriy tabni yopish"
@@ -1341,6 +1321,26 @@ msgstr "Tabni &ajratish"
 #: src/konqtabs.cpp:491
 msgid "&Close Tab"
 msgstr "Tabni &yopish"
+
+#: src/konqviewmanager.cpp:1407
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"Ushbu oynada bir nechta tab ochilgan.\n"
+"Koʻrish profilini yuklash ularni yopadi."
+
+#: src/konqviewmanager.cpp:1410
+msgid "Load View Profile"
+msgstr "Koʻrish profilini yuklash"
+
+#: src/konqviewmanager.cpp:1422
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"Ushbu tabda joʻnatilmagan maʼlumot mavjud.\n"
+"Profilni yuklash natijasida maʼlumot yoʻqoladi."
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
