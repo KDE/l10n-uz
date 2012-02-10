@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-09 04:19+0100\n"
+"POT-Creation-Date: 2012-02-10 04:25+0100\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -24,13 +24,13 @@ msgstr ""
 msgid "Notification"
 msgstr "Yangi xabarga ogohlantirish"
 
-#: addressvalidationjob.cpp:77
+#: addressvalidationjob.cpp:79
 #, kde-format
 msgid "Distribution list %2 is empty, it cannot be used."
 msgid_plural "Distribution lists %2 are empty, they cannot be used."
 msgstr[0] ""
 
-#: addressvalidationjob.cpp:80 addressvalidationjob.cpp:89
+#: addressvalidationjob.cpp:82 addressvalidationjob.cpp:91
 #: identitydialog.cpp:607
 msgid "Invalid Email Address"
 msgstr "Xato elektron pochta manzili"
@@ -400,7 +400,7 @@ msgstr "<qt><b>%1</b> nomli shaxsiyatni rostdan oʻchirishni istaysizmi?</qt>"
 msgid "Remove Identity"
 msgstr "Shaxsiyatni olib tashlash"
 
-#: identitypage.cpp:231 simplestringlisteditor.cpp:88
+#: identitypage.cpp:231 simplestringlisteditor.cpp:89
 #, fuzzy
 msgid "&Remove"
 msgstr "&Olib tashlash"
@@ -1217,7 +1217,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, mModifyButton)
 #. i18n: file: ui/accountspagereceivingtab.ui:46
 #. i18n: ectx: property (text), widget (KPushButton, mModifyAccountButton)
-#: configuredialog.cpp:2794 simplestringlisteditor.cpp:100 rc.cpp:427
+#: configuredialog.cpp:2794 simplestringlisteditor.cpp:101 rc.cpp:427
 #: rc.cpp:889
 msgid "&Modify..."
 msgstr "Oʻzgar&tirish"
@@ -4020,24 +4020,6 @@ msgid ""
 "addresses by hand."
 msgstr ""
 
-#: simplestringlisteditor.cpp:58
-msgid "New entry:"
-msgstr "Yangi yozuv:"
-
-#. i18n: file: ui/identitypage.ui:27
-#. i18n: ectx: property (text), widget (QPushButton, mButtonAdd)
-#: simplestringlisteditor.cpp:77 rc.cpp:421
-msgid "&Add..."
-msgstr "&Qoʻshish..."
-
-#: simplestringlisteditor.cpp:207
-msgid "New Value"
-msgstr "Yangi qiymat"
-
-#: simplestringlisteditor.cpp:230
-msgid "Change Value"
-msgstr "Qiymatni oʻzgartirish"
-
 #: tagactionmanager.cpp:95
 #, fuzzy, kde-format
 msgid "Message Tag %1"
@@ -4183,6 +4165,198 @@ msgstr ""
 msgctxt "Document/application separator in titlebar"
 msgid " – "
 msgstr ""
+
+#: simplestringlisteditor.cpp:58
+msgid "New entry:"
+msgstr "Yangi yozuv:"
+
+#. i18n: file: ui/identitypage.ui:27
+#. i18n: ectx: property (text), widget (QPushButton, mButtonAdd)
+#: simplestringlisteditor.cpp:78 rc.cpp:421
+msgid "&Add..."
+msgstr "&Qoʻshish..."
+
+#: simplestringlisteditor.cpp:210
+msgid "New Value"
+msgstr "Yangi qiymat"
+
+#: simplestringlisteditor.cpp:236
+msgid "Change Value"
+msgstr "Qiymatni oʻzgartirish"
+
+#: newidentitydialog.cpp:46
+msgid "New Identity"
+msgstr "Yangi shaxsiyat"
+
+#: newidentitydialog.cpp:61
+msgid "&New identity:"
+msgstr "Yangi &shaxsiyat:"
+
+#: newidentitydialog.cpp:71
+msgid "&With empty fields"
+msgstr "&Boʻsh maydonlar bilan"
+
+#: newidentitydialog.cpp:77
+msgid "&Use System Settings values"
+msgstr ""
+
+#: newidentitydialog.cpp:82
+msgid "&Duplicate existing identity"
+msgstr "&Mavjud shaxsiyatning nusxasi"
+
+#: newidentitydialog.cpp:93
+msgid "&Existing identities:"
+msgstr "Mavjud &shaxsiyatlar:"
+
+#: snippetwidget.cpp:74
+msgid "Text Snippets"
+msgstr ""
+
+#: tagselectdialog.cpp:43
+#, fuzzy
+msgid "Select Tags"
+msgstr "Jildni tanlash"
+
+#: messageactions.cpp:71
+msgctxt "Message->"
+msgid "&Reply"
+msgstr "&Javob berish"
+
+#: messageactions.cpp:83
+msgid "Reply to A&uthor..."
+msgstr "Muallifga j&avob berish"
+
+#: messageactions.cpp:104
+msgid "Reply Without &Quote..."
+msgstr ""
+
+#: messageactions.cpp:111
+msgid "Filter on Mailing-&List..."
+msgstr ""
+
+#: messageactions.cpp:115
+msgid "Create To-do/Reminder..."
+msgstr ""
+
+#: messageactions.cpp:116
+msgid "Create To-do"
+msgstr ""
+
+#: messageactions.cpp:117
+msgid "Allows you to create a calendar to-do or reminder from this message"
+msgstr ""
+
+#: messageactions.cpp:118
+msgid ""
+"This option starts the KOrganizer to-do editor with initial values taken "
+"from the currently selected message. Then you can edit the to-do to your "
+"liking before saving it to your calendar."
+msgstr ""
+
+#: messageactions.cpp:125
+msgid "Mar&k Message"
+msgstr "Xabarni &belgilash"
+
+#: messageactions.cpp:146
+msgid "&Edit Message"
+msgstr "Xabarni &tahrirlash"
+
+#: messageactions.cpp:152 messageactions.cpp:613
+#, fuzzy
+#| msgid "Add..."
+msgid "Add Note..."
+msgstr "Qoʻshish..."
+
+#: messageactions.cpp:164
+#, fuzzy
+#| msgctxt "Message->Forward->"
+#| msgid "As &Attachment..."
+msgctxt "@action:inmenu Message->Forward->"
+msgid "As &Attachment..."
+msgstr "&Ilova sifatida"
+
+#: messageactions.cpp:172
+#, fuzzy
+#| msgid "&Insert File..."
+msgctxt "@action:inmenu Message->Forward->"
+msgid "&Inline..."
+msgstr "&Fayldan qoʻyish"
+
+#: messageactions.cpp:180
+msgctxt "Message->Forward->"
+msgid "&Redirect..."
+msgstr ""
+
+#: messageactions.cpp:189
+msgctxt "Message->"
+msgid "Mailing-&List"
+msgstr ""
+
+#: messageactions.cpp:350
+msgid "Filter on Mailing-List..."
+msgstr ""
+
+#: messageactions.cpp:377
+#, fuzzy
+#| msgid "OpenPGP Message - Bad Signature"
+msgid "Open Message in List Archive"
+msgstr "OpenPGP xabarini ochish - Xato imzo"
+
+#: messageactions.cpp:379
+#, fuzzy
+#| msgid "New Message"
+msgid "Post New Message"
+msgstr "Yangi xabar"
+
+#: messageactions.cpp:381
+#, fuzzy
+msgid "Go to Archive"
+msgstr "Onlaynda ishlash"
+
+#: messageactions.cpp:383
+msgid "Request Help"
+msgstr ""
+
+#: messageactions.cpp:385
+#, fuzzy
+#| msgid "Contacts"
+msgctxt "Contact the owner of the mailing list"
+msgid "Contact Owner"
+msgstr "Aloqalar"
+
+#: messageactions.cpp:389
+msgid "Unsubscribe from List"
+msgstr ""
+
+#: messageactions.cpp:398
+#, kde-format
+msgid "Filter on Mailing-List %1..."
+msgstr ""
+
+#: messageactions.cpp:562
+#, fuzzy
+#| msgid "Email"
+msgid "email"
+msgstr "Elektron pochta"
+
+#: messageactions.cpp:565
+msgid "web"
+msgstr ""
+
+#: messageactions.cpp:568
+#, fuzzy, kde-format
+#| msgid "Mail"
+msgctxt ""
+"%1 is a 'Contact Owner' or similar action. %2 is a protocol normally web or "
+"email though could be irc/ftp or other url variant"
+msgid "%1 (%2)"
+msgstr "Xat"
+
+#: messageactions.cpp:615
+#, fuzzy
+#| msgid "Edit Script..."
+msgid "Edit Note..."
+msgstr "Skriptni tahrirlash..."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -6020,180 +6194,6 @@ msgstr "Tafsilot&li yangi xabar ogohlantirishi"
 #| msgid "Other Actio&ns"
 msgid "Other Actio&ns..."
 msgstr "&Boshqa amallar"
-
-#: newidentitydialog.cpp:46
-msgid "New Identity"
-msgstr "Yangi shaxsiyat"
-
-#: newidentitydialog.cpp:61
-msgid "&New identity:"
-msgstr "Yangi &shaxsiyat:"
-
-#: newidentitydialog.cpp:71
-msgid "&With empty fields"
-msgstr "&Boʻsh maydonlar bilan"
-
-#: newidentitydialog.cpp:77
-msgid "&Use System Settings values"
-msgstr ""
-
-#: newidentitydialog.cpp:82
-msgid "&Duplicate existing identity"
-msgstr "&Mavjud shaxsiyatning nusxasi"
-
-#: newidentitydialog.cpp:93
-msgid "&Existing identities:"
-msgstr "Mavjud &shaxsiyatlar:"
-
-#: snippetwidget.cpp:74
-msgid "Text Snippets"
-msgstr ""
-
-#: tagselectdialog.cpp:43
-#, fuzzy
-msgid "Select Tags"
-msgstr "Jildni tanlash"
-
-#: messageactions.cpp:71
-msgctxt "Message->"
-msgid "&Reply"
-msgstr "&Javob berish"
-
-#: messageactions.cpp:83
-msgid "Reply to A&uthor..."
-msgstr "Muallifga j&avob berish"
-
-#: messageactions.cpp:104
-msgid "Reply Without &Quote..."
-msgstr ""
-
-#: messageactions.cpp:111
-msgid "Filter on Mailing-&List..."
-msgstr ""
-
-#: messageactions.cpp:115
-msgid "Create To-do/Reminder..."
-msgstr ""
-
-#: messageactions.cpp:116
-msgid "Create To-do"
-msgstr ""
-
-#: messageactions.cpp:117
-msgid "Allows you to create a calendar to-do or reminder from this message"
-msgstr ""
-
-#: messageactions.cpp:118
-msgid ""
-"This option starts the KOrganizer to-do editor with initial values taken "
-"from the currently selected message. Then you can edit the to-do to your "
-"liking before saving it to your calendar."
-msgstr ""
-
-#: messageactions.cpp:125
-msgid "Mar&k Message"
-msgstr "Xabarni &belgilash"
-
-#: messageactions.cpp:146
-msgid "&Edit Message"
-msgstr "Xabarni &tahrirlash"
-
-#: messageactions.cpp:152 messageactions.cpp:613
-#, fuzzy
-#| msgid "Add..."
-msgid "Add Note..."
-msgstr "Qoʻshish..."
-
-#: messageactions.cpp:164
-#, fuzzy
-#| msgctxt "Message->Forward->"
-#| msgid "As &Attachment..."
-msgctxt "@action:inmenu Message->Forward->"
-msgid "As &Attachment..."
-msgstr "&Ilova sifatida"
-
-#: messageactions.cpp:172
-#, fuzzy
-#| msgid "&Insert File..."
-msgctxt "@action:inmenu Message->Forward->"
-msgid "&Inline..."
-msgstr "&Fayldan qoʻyish"
-
-#: messageactions.cpp:180
-msgctxt "Message->Forward->"
-msgid "&Redirect..."
-msgstr ""
-
-#: messageactions.cpp:189
-msgctxt "Message->"
-msgid "Mailing-&List"
-msgstr ""
-
-#: messageactions.cpp:350
-msgid "Filter on Mailing-List..."
-msgstr ""
-
-#: messageactions.cpp:377
-#, fuzzy
-#| msgid "OpenPGP Message - Bad Signature"
-msgid "Open Message in List Archive"
-msgstr "OpenPGP xabarini ochish - Xato imzo"
-
-#: messageactions.cpp:379
-#, fuzzy
-#| msgid "New Message"
-msgid "Post New Message"
-msgstr "Yangi xabar"
-
-#: messageactions.cpp:381
-#, fuzzy
-msgid "Go to Archive"
-msgstr "Onlaynda ishlash"
-
-#: messageactions.cpp:383
-msgid "Request Help"
-msgstr ""
-
-#: messageactions.cpp:385
-#, fuzzy
-#| msgid "Contacts"
-msgctxt "Contact the owner of the mailing list"
-msgid "Contact Owner"
-msgstr "Aloqalar"
-
-#: messageactions.cpp:389
-msgid "Unsubscribe from List"
-msgstr ""
-
-#: messageactions.cpp:398
-#, kde-format
-msgid "Filter on Mailing-List %1..."
-msgstr ""
-
-#: messageactions.cpp:562
-#, fuzzy
-#| msgid "Email"
-msgid "email"
-msgstr "Elektron pochta"
-
-#: messageactions.cpp:565
-msgid "web"
-msgstr ""
-
-#: messageactions.cpp:568
-#, fuzzy, kde-format
-#| msgid "Mail"
-msgctxt ""
-"%1 is a 'Contact Owner' or similar action. %2 is a protocol normally web or "
-"email though could be irc/ftp or other url variant"
-msgid "%1 (%2)"
-msgstr "Xat"
-
-#: messageactions.cpp:615
-#, fuzzy
-#| msgid "Edit Script..."
-msgid "Edit Note..."
-msgstr "Skriptni tahrirlash..."
 
 #. i18n: file: tips:2
 #. i18n: ectx: @info:tipoftheday
