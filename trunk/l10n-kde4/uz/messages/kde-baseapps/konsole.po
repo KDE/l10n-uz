@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-17 03:53+0100\n"
+"POT-Creation-Date: 2012-02-18 04:41+0100\n"
 "PO-Revision-Date: 2008-06-04 01:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: Application.cpp:407
+#: Application.cpp:405
 msgid "Toggle Background Window"
 msgstr ""
 
@@ -1765,27 +1765,9 @@ msgstr ""
 msgid "Put New Tab After Current Tab"
 msgstr ""
 
-#. i18n: file: ../desktop/partui.rc:7
-#. i18n: ectx: Menu (history)
-#: rc.cpp:491
-#, fuzzy
-#| msgid "Do not display scrollbar"
-msgid "S&crollback"
-msgstr "Varaqlash panelini bekitish"
-
-#. i18n: file: ../desktop/partui.rc:23
-#. i18n: ectx: Menu (switch-profile)
-#. i18n: file: ../desktop/sessionui.rc:60
-#. i18n: ectx: Menu (switch-profile)
-#: rc.cpp:494 rc.cpp:518
-#, fuzzy
-#| msgid "Edit Profile"
-msgid "&Switch Profile"
-msgstr "Profilni tahrirlash"
-
 #. i18n: file: ../desktop/konsoleui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:497
+#: rc.cpp:491
 #, fuzzy
 #| msgid "&File"
 msgid "File"
@@ -1793,7 +1775,7 @@ msgstr "&Fayl"
 
 #. i18n: file: ../desktop/konsoleui.rc:15
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:500
+#: rc.cpp:494
 #, fuzzy
 #| msgid "&Edit"
 msgid "Edit"
@@ -1801,7 +1783,7 @@ msgstr "&Tahrirlash"
 
 #. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view)
-#: rc.cpp:503
+#: rc.cpp:497
 #, fuzzy
 #| msgid "&View"
 msgid "View"
@@ -1809,31 +1791,39 @@ msgstr "&Koʻrinish"
 
 #. i18n: file: ../desktop/konsoleui.rc:19
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:506
+#: rc.cpp:500
 #, fuzzy
 #| msgid "Split &View"
 msgid "Split View"
 msgstr "Koʻr&inishni boʻlish"
 
-#. i18n: file: ../desktop/konsoleui.rc:34
+#. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:509
+#: rc.cpp:503
 #, fuzzy
 #| msgid "&Settings"
 msgid "Settings"
 msgstr "&Moslamalar"
 
-#. i18n: file: ../desktop/konsoleui.rc:46
+#. i18n: file: ../desktop/konsoleui.rc:44
 #. i18n: ectx: Menu (help)
-#: rc.cpp:512
+#: rc.cpp:506
 #, fuzzy
 #| msgid "&Help"
 msgid "Help"
 msgstr "&Yordam"
 
+#. i18n: file: ../desktop/partui.rc:7
+#. i18n: ectx: Menu (history)
+#: rc.cpp:509
+#, fuzzy
+#| msgid "Do not display scrollbar"
+msgid "S&crollback"
+msgstr "Varaqlash panelini bekitish"
+
 #. i18n: file: ../desktop/sessionui.rc:17
 #. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:515
+#: rc.cpp:512
 msgid "Copy Input To"
 msgstr ""
 
@@ -2371,6 +2361,11 @@ msgstr ""
 #: ZModemDialog.cpp:36
 msgid "&Stop"
 msgstr "&Toʻxtatish"
+
+#, fuzzy
+#~| msgid "Edit Profile"
+#~ msgid "&Switch Profile"
+#~ msgstr "Profilni tahrirlash"
 
 #, fuzzy
 #~| msgid "&Tab Bar"
