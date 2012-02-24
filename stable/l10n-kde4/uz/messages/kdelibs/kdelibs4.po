@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-23 11:32+0100\n"
+"POT-Creation-Date: 2012-02-24 11:23+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -11992,9 +11992,20 @@ msgstr ""
 "\"%1\"da \"kdemain\" funksiyasi topilmadi.\n"
 "%2"
 
+#: kinit/klauncher_main.cpp:62
+#, fuzzy
+msgid ""
+"klauncher: This program is not supposed to be started manually.\n"
+"klauncher: It is started automatically by kdeinit4.\n"
+msgstr ""
+"klauncher: Bu dasturni koʻlbola ishga tushirish mumkin emas.\n"
+"klauncher: Bu dastur kdeinit yordamida avtomatik ravishda ishga "
+"tushiriladi.\n"
+
 #: kinit/klauncher.cpp:564
-#, kde-format
-msgid "KDEInit could not launch '%1'."
+#, fuzzy, kde-format
+#| msgid "KDEInit could not launch '%1'."
+msgid "KDEInit could not launch '%1'"
 msgstr "KDEInit '%1'ni ishga tushirolmadi."
 
 #: kinit/klauncher.cpp:745 kinit/klauncher.cpp:774 kinit/klauncher.cpp:789
@@ -12026,16 +12037,6 @@ msgstr "Nomaʼlum protokol \"%1\".\n"
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "\"%1\"ni yuklashda xato.\n"
-
-#: kinit/klauncher_main.cpp:62
-#, fuzzy
-msgid ""
-"klauncher: This program is not supposed to be started manually.\n"
-"klauncher: It is started automatically by kdeinit4.\n"
-msgstr ""
-"klauncher: Bu dasturni koʻlbola ishga tushirish mumkin emas.\n"
-"klauncher: Bu dastur kdeinit yordamida avtomatik ravishda ishga "
-"tushiriladi.\n"
 
 #: kjs/object.cpp:554
 msgid "Evaluation error"
