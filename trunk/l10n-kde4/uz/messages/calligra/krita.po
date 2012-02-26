@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-25 02:50+0100\n"
+"POT-Creation-Date: 2012-02-26 02:30+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -4385,7 +4385,7 @@ msgstr ""
 
 #. i18n: file: plugins/extensions/shearimage/wdg_shearimage.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgShearImage)
-#: rc.cpp:1371 image/kis_image.cc:667
+#: rc.cpp:1371 image/kis_image.cc:658
 #: plugins/extensions/shearimage/dlg_shearimage.cc:32
 #: plugins/extensions/shearimage/shearimage.cc:90
 #, fuzzy
@@ -10520,13 +10520,6 @@ msgctxt "(qtundo-format)"
 msgid "Change Generator"
 msgstr "Umumiy"
 
-#: image/commands/kis_deselect_global_selection_command.cpp:30
-#, fuzzy
-#| msgid "Deselect"
-msgctxt "(qtundo-format)"
-msgid "Deselect"
-msgstr "Tanlashni bekor qilish"
-
 #: image/commands/kis_image_layer_add_command.cpp:27
 #: image/commands/kis_image_layer_add_command.cpp:35
 #, fuzzy
@@ -10583,12 +10576,6 @@ msgctxt "(qtundo-format)"
 msgid "Node Opacity"
 msgstr "Xiralikdan nusxa olish"
 
-#: image/commands/kis_reselect_global_selection_command.cpp:30
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Reselect"
-msgstr "Qaytada&n tanlash"
-
 #: image/commands/kis_image_layer_move_command.cpp:39
 #: image/commands/kis_image_layer_move_command.cpp:51
 #, fuzzy
@@ -10603,6 +10590,19 @@ msgstr "Qatlamni koʻchirish"
 msgctxt "(qtundo-format)"
 msgid "Remove Layer"
 msgstr "Qatlamni olib tashlash"
+
+#: image/commands/kis_deselect_global_selection_command.cpp:30
+#, fuzzy
+#| msgid "Deselect"
+msgctxt "(qtundo-format)"
+msgid "Deselect"
+msgstr "Tanlashni bekor qilish"
+
+#: image/commands/kis_reselect_global_selection_command.cpp:30
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reselect"
+msgstr "Qaytada&n tanlash"
 
 #: image/commands_new/kis_image_resize_command.cpp:28
 #, fuzzy
@@ -10719,54 +10719,54 @@ msgstr ""
 msgid "Mitchell"
 msgstr ""
 
-#: image/kis_image.cc:277
+#: image/kis_image.cc:268
 msgid "background"
 msgstr "orqa fon"
 
-#: image/kis_image.cc:280
+#: image/kis_image.cc:271
 #, kde-format
 msgid "Layer %1"
 msgstr "Qatlam %1"
 
-#: image/kis_image.cc:436
+#: image/kis_image.cc:427
 #, fuzzy
 msgid "Crop Image"
 msgstr "Rasmni kesish"
 
-#: image/kis_image.cc:436
+#: image/kis_image.cc:427
 msgid "Resize Image"
 msgstr "Rasmning oʻlchamini oʻzgartirish"
 
-#: image/kis_image.cc:468
+#: image/kis_image.cc:459
 #, fuzzy
 msgid "Crop Node"
 msgstr "Shrift vositasi"
 
-#: image/kis_image.cc:661
+#: image/kis_image.cc:652
 #, fuzzy
 msgid "Shear layer"
 msgstr "Yangi qatlam"
 
-#: image/kis_image.cc:677
+#: image/kis_image.cc:668
 #, fuzzy
 #| msgid "Convert Image Type"
 msgid "Convert Image Color Space"
 msgstr "Rasmning turini oʻzgartirish"
 
-#: image/kis_image.cc:708
+#: image/kis_image.cc:699
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: image/kis_image.cc:882 ui/kis_layer_manager.cc:704
+#: image/kis_image.cc:873 ui/kis_layer_manager.cc:698
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Silliqlangan rasm"
 
-#: image/kis_image.cc:960
+#: image/kis_image.cc:951
 msgid "Merge with Layer Below"
 msgstr "Pastgi qatlam bilan birlashtirish"
 
-#: image/kis_image.cc:985
+#: image/kis_image.cc:976
 #, fuzzy
 msgid "Flatten Layer"
 msgstr "Silliqlangan rasm"
@@ -10796,7 +10796,7 @@ msgstr "Qulflangan"
 msgid "Alpha Channel Disabled"
 msgstr ""
 
-#: image/kis_selection_mask.cpp:110 ui/kis_node_model.cpp:368
+#: image/kis_selection_mask.cpp:101 ui/kis_node_model.cpp:368
 #, fuzzy
 msgid "Active"
 msgstr "Qatlamni koʻchirish"
@@ -11703,7 +11703,7 @@ msgid "Rotate Layer 90° to the Left"
 msgstr "Qatlamni burish"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:151
-#: ui/kis_layer_manager.cc:660
+#: ui/kis_layer_manager.cc:654
 msgid "Rotate Layer"
 msgstr "Qatlamni burish"
 
@@ -11761,7 +11761,7 @@ msgid "Separate Image"
 msgstr "Rasmning nomini oʻzgartirish"
 
 #: plugins/extensions/separate_channels/kis_channel_separator.cc:242
-#: ui/kis_layer_manager.cc:798
+#: ui/kis_layer_manager.cc:793
 msgid "Export Layer"
 msgstr "Qatlamni eksport qilish"
 
@@ -14498,7 +14498,7 @@ msgstr "&Silliqlangan rasm"
 msgid "&Flatten Layer"
 msgstr "Filterlar &toʻplami"
 
-#: ui/kis_layer_manager.cc:149 ui/kis_layer_manager.cc:770
+#: ui/kis_layer_manager.cc:149 ui/kis_layer_manager.cc:765
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "Rasterize Layer"
@@ -14528,43 +14528,43 @@ msgstr "Qatlamning xossalari"
 
 #: ui/kis_layer_manager.cc:303 ui/kis_layer_manager.cc:317
 #: ui/kis_layer_manager.cc:358 ui/kis_layer_manager.cc:389
-#: ui/kis_layer_manager.cc:518
+#: ui/kis_layer_manager.cc:512
 msgid "Could not add layer to image."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
 #: ui/kis_layer_manager.cc:303 ui/kis_layer_manager.cc:317
 #: ui/kis_layer_manager.cc:358 ui/kis_layer_manager.cc:389
-#: ui/kis_layer_manager.cc:518
+#: ui/kis_layer_manager.cc:512
 msgid "Layer Error"
 msgstr "Qatlam xatosi."
 
-#: ui/kis_layer_manager.cc:419
+#: ui/kis_layer_manager.cc:413
 #, fuzzy
 #| msgid "Filters"
 msgid "New Filter Layer"
 msgstr "Filterlar"
 
-#: ui/kis_layer_manager.cc:580 ui/kis_layer_manager.cc:590
+#: ui/kis_layer_manager.cc:574 ui/kis_layer_manager.cc:584
 #, fuzzy
 msgid "Mirror Layer X"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_layer_manager.cc:607 ui/kis_layer_manager.cc:617
-#: ui/kis_mask_manager.cc:316
+#: ui/kis_layer_manager.cc:601 ui/kis_layer_manager.cc:611
+#: ui/kis_mask_manager.cc:309
 #, fuzzy
 msgid "Mirror Layer Y"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_layer_manager.cc:639
+#: ui/kis_layer_manager.cc:633
 #, fuzzy
 msgid "Scale Layer"
 msgstr "Yangi qatlam"
 
-#: ui/kis_layer_manager.cc:703
+#: ui/kis_layer_manager.cc:697
 msgid "The image contains hidden layers that will be lost."
 msgstr "Rasmda yashirin qatlamlar mavjud. Ular yoʻqoladi."
 
-#: ui/kis_layer_manager.cc:705
+#: ui/kis_layer_manager.cc:699
 #, fuzzy
 msgid "&Flatten Image"
 msgstr "&Silliqlangan rasm"
@@ -14579,51 +14579,51 @@ msgstr "Hech narsa tanlanmagan"
 msgid "Create Layer from Mask"
 msgstr "Yangi qatlam yaratish"
 
-#: ui/kis_mask_manager.cc:142
+#: ui/kis_mask_manager.cc:138
 #, fuzzy
 #| msgid "Selection"
 msgid "Selection "
 msgstr "Tanlash"
 
-#: ui/kis_mask_manager.cc:156
+#: ui/kis_mask_manager.cc:154
 #, fuzzy
 msgid "Transparency Mask"
 msgstr "Shaffof"
 
-#: ui/kis_mask_manager.cc:169
+#: ui/kis_mask_manager.cc:167
 #, fuzzy
 #| msgid "Filters"
 msgid "New filter mask"
 msgstr "Filterlar"
 
-#: ui/kis_mask_manager.cc:181
+#: ui/kis_mask_manager.cc:179
 #, fuzzy
 #| msgid "Filters"
 msgid "New Filter Mask"
 msgstr "Filterlar"
 
-#: ui/kis_mask_manager.cc:203
+#: ui/kis_mask_manager.cc:201
 #, fuzzy
 msgid "Mask to Selection"
 msgstr "Hech narsa tanlanmagan"
 
-#: ui/kis_mask_manager.cc:243
+#: ui/kis_mask_manager.cc:241
 #, fuzzy
 msgid "Layer from Mask"
 msgstr "Yangi qatlam yaratish"
 
-#: ui/kis_mask_manager.cc:267
+#: ui/kis_mask_manager.cc:256
 #, fuzzy
 #| msgid "Duplicate of '%1'"
 msgid "Duplication of "
 msgstr "'%1'ning nusxasi"
 
-#: ui/kis_mask_manager.cc:294
+#: ui/kis_mask_manager.cc:287
 #, fuzzy
 msgid "Mirror Mask X"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_mask_manager.cc:341
+#: ui/kis_mask_manager.cc:334
 #, fuzzy
 #| msgid "Image Properties"
 msgid "Effect Mask Properties"
@@ -14816,15 +14816,15 @@ msgstr "Tanlangandan yangi qatlamga nusxa olish"
 msgid "Cut Selection to New Layer"
 msgstr "Tanlangani yangi qatlamga koʻchirish"
 
-#: ui/kis_selection_manager.cc:176 ui/kis_selection_manager.cc:588
+#: ui/kis_selection_manager.cc:176 ui/kis_selection_manager.cc:584
 msgid "Fill with Foreground Color"
 msgstr "Oldin fon rangi bilan toʻldirish"
 
-#: ui/kis_selection_manager.cc:181 ui/kis_selection_manager.cc:593
+#: ui/kis_selection_manager.cc:181 ui/kis_selection_manager.cc:589
 msgid "Fill with Background Color"
 msgstr "Orqa fon rangi bilan toʻldirish"
 
-#: ui/kis_selection_manager.cc:186 ui/kis_selection_manager.cc:598
+#: ui/kis_selection_manager.cc:186 ui/kis_selection_manager.cc:594
 #, fuzzy
 msgid "Fill with Pattern"
 msgstr "Namuna bilan toʻldirish"
@@ -14844,21 +14844,21 @@ msgstr "Xiralashtirish..."
 msgid "Size Canvas to Size of Selection"
 msgstr "Rasm oʻlchamini qatlam oʻlchamiga tenglashtirish"
 
-#: ui/kis_selection_manager.cc:367
+#: ui/kis_selection_manager.cc:363
 #, fuzzy
 msgid "Cut"
 msgstr "Boshqa"
 
-#: ui/kis_selection_manager.cc:441
+#: ui/kis_selection_manager.cc:437
 msgid "(pasted)"
 msgstr ""
 
-#: ui/kis_selection_manager.cc:476
+#: ui/kis_selection_manager.cc:472
 #, fuzzy
 msgid "Pasted"
 msgstr "Palitralar"
 
-#: ui/kis_selection_manager.cc:500
+#: ui/kis_selection_manager.cc:496
 #, fuzzy
 msgid "Select All"
 msgstr "&Hammasini tanlash"
