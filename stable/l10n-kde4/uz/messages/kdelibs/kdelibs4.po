@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-24 11:23+0100\n"
+"POT-Creation-Date: 2012-02-28 17:39+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8146,12 +8146,6 @@ msgstr ""
 msgid "Conflict With Registered Global Shortcut"
 msgstr "Umumiy tugmalar birikmasi bilan muammo"
 
-#: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Resource Configuration"
-msgid "Spell Checking Configuration"
-msgstr "Manbani moslash"
-
 #: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:224
 #: kdeui/sonnet/dialog.cpp:445
 msgctxt "@title:window"
@@ -8184,6 +8178,12 @@ msgstr "Imloni tekshiruvchi"
 #, fuzzy
 msgid "Spell check complete."
 msgstr "Imloni tekshiruvchi"
+
+#: kdeui/sonnet/configdialog.cpp:51
+#, fuzzy
+#| msgid "Resource Configuration"
+msgid "Spell Checking Configuration"
+msgstr "Manbani moslash"
 
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
@@ -10009,6 +10009,36 @@ msgstr "Ishonchsiz"
 msgid "without name"
 msgstr "Yangi xost nomi"
 
+#: kdeui/widgets/ktextedit.cpp:527
+#, fuzzy
+msgid "Speak Text"
+msgstr "Iltimos &nomini kiriting:"
+
+#: kdeui/widgets/ktextedit.cpp:542
+msgid "Starting Jovie Text-to-Speech Service Failed"
+msgstr ""
+
+#: kdeui/widgets/ktextedit.cpp:631
+#, fuzzy, kde-format
+#| msgid "Suggestion List"
+msgid "No suggestions for %1"
+msgstr "Taklif qilingan soʻzlar roʻyxati"
+
+#: kdeui/widgets/ktextedit.cpp:642
+msgid "Ignore"
+msgstr "Eʼtibor berilmasin"
+
+#: kdeui/widgets/ktextedit.cpp:643
+#, fuzzy
+#| msgid "<< Add to Dictionary"
+msgid "Add to Dictionary"
+msgstr "<< Lugʻatga qoʻshish"
+
+#: kdeui/widgets/ktextedit.cpp:788
+#, fuzzy
+msgid "Nothing to spell check."
+msgstr "Hech qanday provayder tanlanmagan."
+
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "Rasm amallari"
@@ -10233,36 +10263,6 @@ msgstr "S&kript"
 #, fuzzy
 msgid "&Copy Full Text"
 msgstr "&Matndan nusxa olish"
-
-#: kdeui/widgets/ktextedit.cpp:527
-#, fuzzy
-msgid "Speak Text"
-msgstr "Iltimos &nomini kiriting:"
-
-#: kdeui/widgets/ktextedit.cpp:542
-msgid "Starting Jovie Text-to-Speech Service Failed"
-msgstr ""
-
-#: kdeui/widgets/ktextedit.cpp:631
-#, fuzzy, kde-format
-#| msgid "Suggestion List"
-msgid "No suggestions for %1"
-msgstr "Taklif qilingan soʻzlar roʻyxati"
-
-#: kdeui/widgets/ktextedit.cpp:642
-msgid "Ignore"
-msgstr "Eʼtibor berilmasin"
-
-#: kdeui/widgets/ktextedit.cpp:643
-#, fuzzy
-#| msgid "<< Add to Dictionary"
-msgid "Add to Dictionary"
-msgstr "<< Lugʻatga qoʻshish"
-
-#: kdeui/widgets/ktextedit.cpp:788
-#, fuzzy
-msgid "Nothing to spell check."
-msgstr "Hech qanday provayder tanlanmagan."
 
 #: kdeui/widgets/ktimecombobox.cpp:259
 msgctxt "@info"
