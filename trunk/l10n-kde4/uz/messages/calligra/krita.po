@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-27 02:57+0100\n"
+"POT-Creation-Date: 2012-03-01 02:40+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1312,7 +1312,7 @@ msgstr "Yangi qatlam yaratish"
 
 #. i18n: file: plugins/extensions/bracketing2hdr/wdgbracketing2hdr.ui:162
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonCancel)
-#: rc.cpp:80 ui/kis_view2.cpp:499
+#: rc.cpp:80 ui/kis_view2.cpp:500
 #, fuzzy
 msgid "Cancel"
 msgstr "Kanal"
@@ -10757,7 +10757,7 @@ msgstr "Rasmning turini oʻzgartirish"
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: image/kis_image.cc:873 ui/kis_layer_manager.cc:698
+#: image/kis_image.cc:873 ui/kis_layer_manager.cc:721
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Silliqlangan rasm"
@@ -11325,7 +11325,7 @@ msgid "&Duplicate Layer or Mask"
 msgstr "Nusxasini yaratish"
 
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:391
-#: ui/kis_layer_manager.cc:140
+#: ui/kis_layer_manager.cc:141
 msgid "&Merge with Layer Below"
 msgstr "&Pastgi qatlam bilan birlashtirish"
 
@@ -11709,7 +11709,7 @@ msgid "Rotate Layer 90° to the Left"
 msgstr "Qatlamni burish"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:151
-#: ui/kis_layer_manager.cc:654
+#: ui/kis_layer_manager.cc:677
 msgid "Rotate Layer"
 msgstr "Qatlamni burish"
 
@@ -11767,7 +11767,7 @@ msgid "Separate Image"
 msgstr "Rasmning nomini oʻzgartirish"
 
 #: plugins/extensions/separate_channels/kis_channel_separator.cc:242
-#: ui/kis_layer_manager.cc:793
+#: ui/kis_layer_manager.cc:816
 msgid "Export Layer"
 msgstr "Qatlamni eksport qilish"
 
@@ -12265,7 +12265,6 @@ msgstr "Geometriya moslamalari"
 #: plugins/formats/jp2/jp2_converter.cc:342
 #: plugins/formats/jp2/jp2_converter.cc:353
 #: plugins/formats/jpeg/kis_jpeg_converter.cc:96
-#: plugins/formats/ppm/kis_ppm_export.cpp:193
 #: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:65
 #: ui/kis_png_converter.cpp:80
 #, kde-format
@@ -12311,7 +12310,7 @@ msgstr "Rasm %1"
 msgid "PNG Export Options"
 msgstr "Geometriya moslamalari"
 
-#: plugins/formats/ppm/kis_ppm_export.cpp:152
+#: plugins/formats/ppm/kis_ppm_export.cpp:154
 #, fuzzy
 #| msgid "Geometry Options"
 msgid "PPM Export Options"
@@ -14031,6 +14030,10 @@ msgstr "Ushbu filtr uchun moslamalar mavjud emas"
 msgid "Image Properties"
 msgstr "Rasmning xossalari"
 
+#: ui/dialogs/kis_dlg_layer_properties.cc:78
+msgid "Layer Properties"
+msgstr "Qatlamning xossalari"
+
 #: ui/dialogs/kis_dlg_preferences.cc:91
 #, fuzzy
 msgid "Small Circle"
@@ -14069,18 +14072,7 @@ msgstr "Rang moslamalari"
 msgid "Tablet"
 msgstr "Yoqish"
 
-#: ui/dialogs/kis_dlg_preferences.cc:612
-#, fuzzy
-#| msgid "Color Settings"
-msgid "Canvas-only settings"
-msgstr "Rang moslamalari"
-
-#: ui/dialogs/kis_dlg_preferences.cc:613
-#, fuzzy
-msgid "Canvas-only"
-msgstr "Rangi:"
-
-#: ui/dialogs/kis_dlg_preferences.cc:704
+#: ui/dialogs/kis_dlg_preferences.cc:705
 msgid ""
 "You are trying to enable OpenGL\n"
 "\n"
@@ -14090,14 +14082,10 @@ msgid ""
 "Are you sure you want to enable OpenGL?\n"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:707 ui/kis_aboutdata.h:31
+#: ui/dialogs/kis_dlg_preferences.cc:708 ui/kis_aboutdata.h:31
 #: ui/kis_clipboard.cc:155
 msgid "Krita"
 msgstr "Krita"
-
-#: ui/dialogs/kis_dlg_layer_properties.cc:78
-msgid "Layer Properties"
-msgstr "Qatlamning xossalari"
 
 #: ui/flake/kis_shape_controller.cpp:169
 #, fuzzy, kde-format
@@ -14493,69 +14481,74 @@ msgstr "Qatlamning xossalari"
 msgid "Import Image"
 msgstr "Rasmni import qilish"
 
-#: ui/kis_layer_manager.cc:135
+#: ui/kis_layer_manager.cc:136
 #, fuzzy
 msgid "&Flatten image"
 msgstr "&Silliqlangan rasm"
 
-#: ui/kis_layer_manager.cc:145
+#: ui/kis_layer_manager.cc:146
 #, fuzzy
 #| msgid "&Filters Gallery"
 msgid "&Flatten Layer"
 msgstr "Filterlar &toʻplami"
 
-#: ui/kis_layer_manager.cc:149 ui/kis_layer_manager.cc:765
+#: ui/kis_layer_manager.cc:150 ui/kis_layer_manager.cc:788
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "Rasterize Layer"
 msgstr "Qatlamni burish"
 
-#: ui/kis_layer_manager.cc:153
+#: ui/kis_layer_manager.cc:154
 msgid "Save Layer as Image..."
 msgstr "Qatlamni rasm sifatida saqlash..."
 
-#: ui/kis_layer_manager.cc:157
+#: ui/kis_layer_manager.cc:158
 #, fuzzy
 #| msgid "Resize Image to Size of Current Layer"
 msgid "Size Canvas to Size of Current Layer"
 msgstr "Rasm oʻlchamini qatlam oʻlchamiga tenglashtirish"
 
-#: ui/kis_layer_manager.cc:223
+#: ui/kis_layer_manager.cc:224
 #, fuzzy
 #| msgid "Layer Properties"
 msgid "Filter Layer Properties"
 msgstr "Qatlamning xossalari"
 
-#: ui/kis_layer_manager.cc:252
+#: ui/kis_layer_manager.cc:253
 #, fuzzy
 #| msgid "Layer Properties"
 msgid "Generator Layer Properties"
 msgstr "Qatlamning xossalari"
 
-#: ui/kis_layer_manager.cc:303 ui/kis_layer_manager.cc:317
-#: ui/kis_layer_manager.cc:358 ui/kis_layer_manager.cc:389
-#: ui/kis_layer_manager.cc:512
+#: ui/kis_layer_manager.cc:304 ui/kis_layer_manager.cc:318
+#: ui/kis_layer_manager.cc:359 ui/kis_layer_manager.cc:390
+#: ui/kis_layer_manager.cc:513
 msgid "Could not add layer to image."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: ui/kis_layer_manager.cc:303 ui/kis_layer_manager.cc:317
-#: ui/kis_layer_manager.cc:358 ui/kis_layer_manager.cc:389
-#: ui/kis_layer_manager.cc:512
+#: ui/kis_layer_manager.cc:304 ui/kis_layer_manager.cc:318
+#: ui/kis_layer_manager.cc:359 ui/kis_layer_manager.cc:390
+#: ui/kis_layer_manager.cc:513
 msgid "Layer Error"
 msgstr "Qatlam xatosi."
 
-#: ui/kis_layer_manager.cc:413
+#: ui/kis_layer_manager.cc:414
 #, fuzzy
 #| msgid "Filters"
 msgid "New Filter Layer"
 msgstr "Filterlar"
 
-#: ui/kis_layer_manager.cc:574 ui/kis_layer_manager.cc:584
+#: ui/kis_layer_manager.cc:573 ui/kis_layer_manager.cc:583
 #, fuzzy
 msgid "Mirror Layer X"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_layer_manager.cc:601 ui/kis_layer_manager.cc:611
+#: ui/kis_layer_manager.cc:595 ui/kis_mask_manager.cc:287
+#, fuzzy
+msgid "Mirror Mask X"
+msgstr "Qatlamni koʻchirish"
+
+#: ui/kis_layer_manager.cc:611 ui/kis_layer_manager.cc:621
 #: ui/kis_mask_manager.cc:309
 #, fuzzy
 msgid "Mirror Layer Y"
@@ -14563,14 +14556,19 @@ msgstr "Qatlamni koʻchirish"
 
 #: ui/kis_layer_manager.cc:633
 #, fuzzy
+msgid "Mirror Mask Y"
+msgstr "Qatlamni koʻchirish"
+
+#: ui/kis_layer_manager.cc:656
+#, fuzzy
 msgid "Scale Layer"
 msgstr "Yangi qatlam"
 
-#: ui/kis_layer_manager.cc:697
+#: ui/kis_layer_manager.cc:720
 msgid "The image contains hidden layers that will be lost."
 msgstr "Rasmda yashirin qatlamlar mavjud. Ular yoʻqoladi."
 
-#: ui/kis_layer_manager.cc:699
+#: ui/kis_layer_manager.cc:722
 #, fuzzy
 msgid "&Flatten Image"
 msgstr "&Silliqlangan rasm"
@@ -14623,11 +14621,6 @@ msgstr "Yangi qatlam yaratish"
 #| msgid "Duplicate of '%1'"
 msgid "Duplication of "
 msgstr "'%1'ning nusxasi"
-
-#: ui/kis_mask_manager.cc:287
-#, fuzzy
-msgid "Mirror Mask X"
-msgstr "Qatlamni koʻchirish"
 
 #: ui/kis_mask_manager.cc:334
 #, fuzzy
@@ -14822,15 +14815,15 @@ msgstr "Tanlangandan yangi qatlamga nusxa olish"
 msgid "Cut Selection to New Layer"
 msgstr "Tanlangani yangi qatlamga koʻchirish"
 
-#: ui/kis_selection_manager.cc:176 ui/kis_selection_manager.cc:584
+#: ui/kis_selection_manager.cc:176 ui/kis_selection_manager.cc:588
 msgid "Fill with Foreground Color"
 msgstr "Oldin fon rangi bilan toʻldirish"
 
-#: ui/kis_selection_manager.cc:181 ui/kis_selection_manager.cc:589
+#: ui/kis_selection_manager.cc:181 ui/kis_selection_manager.cc:593
 msgid "Fill with Background Color"
 msgstr "Orqa fon rangi bilan toʻldirish"
 
-#: ui/kis_selection_manager.cc:186 ui/kis_selection_manager.cc:594
+#: ui/kis_selection_manager.cc:186 ui/kis_selection_manager.cc:598
 #, fuzzy
 msgid "Fill with Pattern"
 msgstr "Namuna bilan toʻldirish"
@@ -14850,21 +14843,21 @@ msgstr "Xiralashtirish..."
 msgid "Size Canvas to Size of Selection"
 msgstr "Rasm oʻlchamini qatlam oʻlchamiga tenglashtirish"
 
-#: ui/kis_selection_manager.cc:363
+#: ui/kis_selection_manager.cc:367
 #, fuzzy
 msgid "Cut"
 msgstr "Boshqa"
 
-#: ui/kis_selection_manager.cc:437
+#: ui/kis_selection_manager.cc:441
 msgid "(pasted)"
 msgstr ""
 
-#: ui/kis_selection_manager.cc:472
+#: ui/kis_selection_manager.cc:476
 #, fuzzy
 msgid "Pasted"
 msgstr "Palitralar"
 
-#: ui/kis_selection_manager.cc:496
+#: ui/kis_selection_manager.cc:500
 #, fuzzy
 msgid "Select All"
 msgstr "&Hammasini tanlash"
@@ -14960,46 +14953,34 @@ msgstr ""
 msgid "Shows or hides the status bar"
 msgstr ""
 
-#: ui/kis_view2.cpp:323
-msgid "Show Canvas Only"
-msgstr ""
-
-#: ui/kis_view2.cpp:324
-msgid "Return to Window"
-msgstr ""
-
-#: ui/kis_view2.cpp:325
-msgid "Shows just the canvas or the whole window"
-msgstr ""
-
-#: ui/kis_view2.cpp:452
+#: ui/kis_view2.cpp:453
 #, fuzzy
 #| msgid "&Layer"
 msgid "Pasted Layer"
 msgstr "&Qatlam"
 
-#: ui/kis_view2.cpp:490
+#: ui/kis_view2.cpp:491
 msgid "Insert as New Layer"
 msgstr "Yangi qatlam sifatida qoʻyish"
 
-#: ui/kis_view2.cpp:491
+#: ui/kis_view2.cpp:492
 msgid "Insert as New Layers"
 msgstr "Yangi qatlamlar sifatida qoʻyish"
 
-#: ui/kis_view2.cpp:493
+#: ui/kis_view2.cpp:494
 msgid "Open in New Document"
 msgstr "Yangi hujjatda ochish"
 
-#: ui/kis_view2.cpp:494
+#: ui/kis_view2.cpp:495
 msgid "Open in New Documents"
 msgstr "Yangi hujjatlarda ochish"
 
-#: ui/kis_view2.cpp:710
+#: ui/kis_view2.cpp:711
 #, fuzzy
 msgid "Edit Palette..."
 msgstr "Palitrani tahrirlash..."
 
-#: ui/kis_view2.cpp:838 ui/kis_view2.cpp:841
+#: ui/kis_view2.cpp:839 ui/kis_view2.cpp:842
 #, fuzzy
 msgid "Edit Palette"
 msgstr "Palitrani tahrirlash..."
@@ -15191,6 +15172,15 @@ msgstr "Ranglar boʻshligʻi"
 #: main.cc:50
 msgid "File(s) or URL(s) to open"
 msgstr "Ochish uchun fayl(lar) yoki URL(lar)"
+
+#, fuzzy
+#~| msgid "Color Settings"
+#~ msgid "Canvas-only settings"
+#~ msgstr "Rang moslamalari"
+
+#, fuzzy
+#~ msgid "Canvas-only"
+#~ msgstr "Rangi:"
 
 #, fuzzy
 #~| msgid "Apply Profile"
