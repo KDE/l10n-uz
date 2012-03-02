@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-01 02:40+0100\n"
+"POT-Creation-Date: 2012-03-02 03:04+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -4795,7 +4795,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:1503 rc.cpp:3203
 #: plugins/filters/roundcorners/kis_round_corners_filter.cpp:131
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:240
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:245
 msgid "Radius"
 msgstr "Radius"
 
@@ -6389,7 +6389,7 @@ msgstr ""
 
 #. i18n: file: plugins/paintops/complexop/wdgbrushcurves.ui:177
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
-#: rc.cpp:2339 ui/tool/kis_tool_polyline_base.cpp:41
+#: rc.cpp:2339
 #, fuzzy
 msgid "&Cancel"
 msgstr "&Kanal:"
@@ -8554,8 +8554,8 @@ msgstr ""
 
 #. i18n: file: plugins/tools/tool_transform2/wdg_tool_transform.ui:1062
 #. i18n: ectx: property (text), widget (QPushButton, lockUnlockPointsButton)
-#: rc.cpp:3439 plugins/tools/tool_transform2/kis_tool_transform.cc:2502
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2893
+#: rc.cpp:3439 plugins/tools/tool_transform2/kis_tool_transform.cc:2511
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2913
 msgid "Lock Points"
 msgstr ""
 
@@ -10503,7 +10503,7 @@ msgctxt "Category of brush engines"
 msgid "Stable"
 msgstr "Toʻrtburcha&k"
 
-#: image/brushengine/kis_paintop_registry.cc:135
+#: image/brushengine/kis_paintop_registry.cc:134
 msgid "default"
 msgstr ""
 
@@ -12652,7 +12652,7 @@ msgid "Darken"
 msgstr "Qorayish"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:31
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:198
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:203
 #: ui/kis_paintop_box.cc:202
 #, fuzzy
 msgid "Mirror"
@@ -12669,13 +12669,13 @@ msgid "Mirrored"
 msgstr "Rasmni kesish"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:35
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:218
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:223
 #, fuzzy
 msgid "Horizontally"
 msgstr "Ufq 1"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:37
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:220
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:225
 #, fuzzy
 msgid "Vertically"
 msgstr "Uskuna:"
@@ -13398,39 +13398,9 @@ msgstr "Qizgʻish-qoʻngʻir"
 msgid "Paint with brushes"
 msgstr "Filtrli choʻtka"
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:179
-msgid "Cannot pick a color as no layer is active."
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:183
-msgid "Cannot pick a color as the active layer is not visible."
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:229
-#: ui/kis_custom_palette.cc:113 ui/kis_custom_palette.cc:152
-#, fuzzy, kde-format
-msgid "Cannot write to palette file %1. Maybe it is read-only."
-msgstr ""
-"%1 paoitra faylig yozib boʻlmadi. Fayl faqat oʻqish uchun boʻlishi mumkin."
-
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:229
-#: ui/kis_custom_palette.cc:113 ui/kis_custom_palette.cc:152
-#, fuzzy
-msgid "Palette"
-msgstr "Palitra"
-
-#: plugins/tools/defaulttools/kis_tool_colorpicker.h:96
-#, fuzzy
-msgid "Select a color from the image or current layer"
-msgstr "Oʻxshash ranglarni tanlash"
-
 #: plugins/tools/defaulttools/kis_tool_ellipse.h:55
 msgid "Draw an ellipse"
 msgstr "Ellips chizish"
-
-#: plugins/tools/defaulttools/kis_tool_fill.h:91
-msgid "Fill a contiguous area of color with a color, or fill a selection."
-msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_gradient.h:123
 #, fuzzy
@@ -13442,7 +13412,7 @@ msgid "Draw a straight line with the current brush"
 msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_measure.cc:51
-#: plugins/tools/tool_curves/kis_tool_moutline.cc:276
+#: plugins/tools/tool_curves/kis_tool_moutline.cc:277
 #, fuzzy
 msgid "Distance: "
 msgstr "Oʻrnini almashtirishmoq"
@@ -13457,41 +13427,10 @@ msgstr "Burchak:"
 msgid "Measure the distance between two points"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_move.h:88
-#, fuzzy
-#| msgid "Move Layer"
-msgid "Move a layer"
-msgstr "Qatlamni koʻchirish"
-
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:191
-#, fuzzy
-#| msgid "Axes"
-msgid "Axis point"
-msgstr "Oʻqlar"
-
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:197
-msgid "Symmetry"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:199
-#, fuzzy
-msgid "Translate"
-msgstr "Burchak"
-
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:205
-#, fuzzy
-#| msgid "Brush size"
-msgid "Brush count"
-msgstr "Boʻyoqning oʻlchami"
-
 #: plugins/tools/defaulttools/kis_tool_multihand.h:90
 #, fuzzy
 msgid "Paint with multibrushes"
 msgstr "Filtrli choʻtka"
-
-#: plugins/tools/defaulttools/kis_tool_pan.h:74
-msgid "Move and rotate your canvas"
-msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_path.h:75
 #, fuzzy
@@ -13520,7 +13459,7 @@ msgid ""
 msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_fill.cc:232
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:140
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:147
 #, fuzzy
 msgid "Limit to current layer"
 msgstr "Joriy qatlamni oʻchirish"
@@ -13642,32 +13581,65 @@ msgid ""
 "+Drag will force you to draw straight lines"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_brush.cc:64
-#: plugins/tools/selectiontools/kis_tool_select_brush.cc:197
-#, fuzzy
-msgid "Brush Selection"
-msgstr "Choʻtka tanlash"
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:179
+msgid "Cannot pick a color as no layer is active."
+msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_brush.cc:67
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:183
+msgid "Cannot pick a color as the active layer is not visible."
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:229
+#: ui/kis_custom_palette.cc:113 ui/kis_custom_palette.cc:152
+#, fuzzy, kde-format
+msgid "Cannot write to palette file %1. Maybe it is read-only."
+msgstr ""
+"%1 paoitra faylig yozib boʻlmadi. Fayl faqat oʻqish uchun boʻlishi mumkin."
+
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:229
+#: ui/kis_custom_palette.cc:113 ui/kis_custom_palette.cc:152
+#, fuzzy
+msgid "Palette"
+msgstr "Palitra"
+
+#: plugins/tools/defaulttools/kis_tool_colorpicker.h:95
+#, fuzzy
+msgid "Select a color from the image or current layer"
+msgstr "Oʻxshash ranglarni tanlash"
+
+#: plugins/tools/defaulttools/kis_tool_move.h:87
+#, fuzzy
+#| msgid "Move Layer"
+msgid "Move a layer"
+msgstr "Qatlamni koʻchirish"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:196
+#, fuzzy
+#| msgid "Axes"
+msgid "Axis point"
+msgstr "Oʻqlar"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:202
+msgid "Symmetry"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:204
+#, fuzzy
+msgid "Translate"
+msgstr "Burchak"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:210
 #, fuzzy
 #| msgid "Brush size"
-msgid "Brush size:"
+msgid "Brush count"
 msgstr "Boʻyoqning oʻlchami"
 
-#: plugins/tools/selectiontools/kis_tool_select_brush.h:74
-#, fuzzy
-msgid "Select by brush"
-msgstr "Choʻtkani tanlash"
+#: plugins/tools/defaulttools/kis_tool_pan.h:71
+msgid "Move and rotate your canvas"
+msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:93
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:117
-#, fuzzy
-msgid "Contiguous Area Selection"
-msgstr "Tanlanganni koʻrsatish"
-
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:128
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:148
-msgid "Fuzziness: "
+#: plugins/tools/defaulttools/kis_tool_fill.h:89
+msgid "Fill a contiguous area of color with a color, or fill a selection."
 msgstr ""
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.h:62
@@ -13675,88 +13647,111 @@ msgstr ""
 msgid "Select a contiguous area of colors"
 msgstr "Oʻxshash ranglarni tanlash"
 
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:63
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:76
-msgid "Elliptical Selection"
-msgstr "Ellips maydonni tanlash"
-
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:69
-#, fuzzy
-#| msgid "Select an elliptical area"
-msgid "Select an elliptical area"
-msgstr "Ellips maydonni tanlash"
-
-#: plugins/tools/selectiontools/kis_tool_select_magnetic.cc:134
-#, fuzzy
-msgid "Magnetic Selection"
-msgstr "Tanlanganni bekitish"
-
-#: plugins/tools/selectiontools/kis_tool_select_magnetic.cc:476
-#: plugins/tools/selectiontools/kis_tool_select_path.cc:132
-#: plugins/tools/selectiontools/kis_tool_select_path.cc:184
-#, fuzzy
-#| msgid "Selection"
-msgid "Path Selection"
-msgstr "Tanlash"
-
 #: plugins/tools/selectiontools/kis_tool_select_magnetic.h:126
 #, fuzzy
 msgid "Magnetic selection tool"
 msgstr "Tanlanganni bekitish"
 
-#: plugins/tools/selectiontools/kis_tool_select_outline.cc:121
-#: plugins/tools/selectiontools/kis_tool_select_outline.cc:202
+#: plugins/tools/selectiontools/kis_tool_select_brush.cc:52
+#: plugins/tools/selectiontools/kis_tool_select_brush.cc:194
 #, fuzzy
-msgid "Outline Selection"
+msgid "Brush Selection"
+msgstr "Choʻtka tanlash"
+
+#: plugins/tools/selectiontools/kis_tool_select_brush.cc:69
+#, fuzzy
+#| msgid "Brush size"
+msgid "Brush size:"
+msgstr "Boʻyoqning oʻlchami"
+
+#: plugins/tools/selectiontools/kis_tool_select_brush.h:73
+#, fuzzy
+msgid "Select by brush"
+msgstr "Choʻtkani tanlash"
+
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:55
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:99
+#, fuzzy
+msgid "Contiguous Area Selection"
+msgstr "Tanlanganni koʻrsatish"
+
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:135
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:131
+msgid "Fuzziness: "
+msgstr ""
+
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:37
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:64
+msgid "Elliptical Selection"
+msgstr "Ellips maydonni tanlash"
+
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:52
+#, fuzzy
+#| msgid "Select an elliptical area"
+msgid "Select an elliptical area"
+msgstr "Ellips maydonni tanlash"
+
+#: plugins/tools/selectiontools/kis_tool_select_magnetic.cc:92
+#, fuzzy
+msgid "Magnetic Selection"
 msgstr "Tanlanganni bekitish"
 
-#: plugins/tools/selectiontools/kis_tool_select_outline.h:66
+#: plugins/tools/selectiontools/kis_tool_select_magnetic.cc:478
+#: plugins/tools/selectiontools/kis_tool_select_path.cc:38
+#: plugins/tools/selectiontools/kis_tool_select_path.cc:94
+#, fuzzy
+#| msgid "Selection"
+msgid "Path Selection"
+msgstr "Tanlash"
+
+#: plugins/tools/selectiontools/kis_tool_select_outline.h:64
 #, fuzzy
 msgid "Select an area by its outline"
 msgstr "Tanlash usuli:"
 
-#: plugins/tools/selectiontools/kis_tool_select_path.cc:147
-#, fuzzy
-msgid "Tool Options"
-msgstr "Alfa moslamalari"
-
-#: plugins/tools/selectiontools/kis_tool_select_path.h:74
+#: plugins/tools/selectiontools/kis_tool_select_path.h:90
 msgid "Select an area of the image with path."
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:72
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:83
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:40
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:68
 #, fuzzy
 msgid "Polygonal Selection"
 msgstr "Hech narsa tanlanmagan"
 
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.h:70
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.h:54
 #, fuzzy
 msgid "Select a polygonal region"
 msgstr "Ellips maydonni tanlash"
 
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:69
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:85
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:40
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:72
 msgid "Rectangular Selection"
 msgstr "Toʻgʻri burchak maydonni tanlash"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:124
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:143
-#, fuzzy
-msgid "Similar Selection"
-msgstr "Tanlanganni koʻrsatish"
-
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:67
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:53
 #, fuzzy
 #| msgid "Select a rectangular area"
 msgid "Select a rectangular area"
 msgstr "Toʻgʻri burchak maydonni tanlash"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.h:62
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:73
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:108
+#, fuzzy
+msgid "Similar Selection"
+msgstr "Tanlanganni koʻrsatish"
+
+#: plugins/tools/selectiontools/kis_tool_select_similar.h:46
 msgid "Select similar colors"
 msgstr "Oʻxshash ranglarni tanlash"
 
-#: plugins/tools/tool_crop/kis_tool_crop.h:148
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:58
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:121
+#, fuzzy
+msgid "Outline Selection"
+msgstr "Tanlanganni bekitish"
+
+#: plugins/tools/tool_crop/kis_tool_crop.h:147
 #, fuzzy
 msgid "Crop the image to an area"
 msgstr "Rasmni kesish"
@@ -13814,39 +13809,39 @@ msgstr ""
 msgid "Example tool for the curves framework"
 msgstr ""
 
+#: plugins/tools/tool_curves/kis_tool_moutline.h:93
+#: plugins/tools/tool_curves/kis_tool_moutline.cc:303
+msgid ""
+"Magnetic Selection: move around an edge to select it. Hit Ctrl to enter/quit "
+"manual mode, and double click to finish."
+msgstr ""
+
 #: plugins/tools/tool_curves/kis_tool_moutline.cc:71
 #, fuzzy
 msgid "Magnetic Outline Selection"
 msgstr "Tanlanganni bekitish"
 
-#: plugins/tools/tool_curves/kis_tool_moutline.cc:105
+#: plugins/tools/tool_curves/kis_tool_moutline.cc:106
 msgid "Automatic Mode"
 msgstr ""
 
-#: plugins/tools/tool_curves/kis_tool_moutline.cc:108
+#: plugins/tools/tool_curves/kis_tool_moutline.cc:109
 msgid "Manual Mode"
 msgstr ""
 
-#: plugins/tools/tool_curves/kis_tool_moutline.cc:275
+#: plugins/tools/tool_curves/kis_tool_moutline.cc:276
 msgid "Automatic mode"
 msgstr ""
 
-#: plugins/tools/tool_curves/kis_tool_moutline.cc:277
+#: plugins/tools/tool_curves/kis_tool_moutline.cc:278
 #, fuzzy
 msgid "To Selection"
 msgstr "Hech narsa tanlanmagan"
 
-#: plugins/tools/tool_curves/kis_tool_moutline.cc:297
+#: plugins/tools/tool_curves/kis_tool_moutline.cc:298
 #, fuzzy
 msgid "&Magnetic Outline Selection"
 msgstr "Tanlanganni bekitish"
-
-#: plugins/tools/tool_curves/kis_tool_moutline.cc:302
-#: plugins/tools/tool_curves/kis_tool_moutline.h:93
-msgid ""
-"Magnetic Selection: move around an edge to select it. Hit Ctrl to enter/quit "
-"manual mode, and double click to finish."
-msgstr ""
 
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:46
 msgctxt "(qtundo-format)"
@@ -13884,11 +13879,11 @@ msgstr "Oʻrnini almashtirishmoq"
 msgid "Paint with brushes using dynamic movements"
 msgstr "Filtrli choʻtka"
 
-#: plugins/tools/tool_grid/kis_tool_grid.h:67
+#: plugins/tools/tool_grid/kis_tool_grid.h:66
 msgid "Edit the grid"
 msgstr ""
 
-#: plugins/tools/tool_perspectivegrid/kis_tool_perspectivegrid.h:94
+#: plugins/tools/tool_perspectivegrid/kis_tool_perspectivegrid.h:91
 #, fuzzy
 msgid "Edit the perspective grid"
 msgstr "Boshqa shaklga almashtirish"
@@ -13897,14 +13892,14 @@ msgstr "Boshqa shaklga almashtirish"
 msgid "Draw a polygon. Shift-mouseclick ends the polygon."
 msgstr ""
 
-#: plugins/tools/tool_polyline/kis_tool_polyline.h:51
-msgid "Draw a polyline. Shift-mouseclick ends the polyline."
-msgstr ""
-
-#: plugins/tools/tool_polyline/kis_tool_polyline.cc:57
+#: plugins/tools/tool_polyline/kis_tool_polyline.cc:63
 #, fuzzy
 msgid "Polyline"
 msgstr "Siniq chiziq"
+
+#: plugins/tools/tool_polyline/kis_tool_polyline.h:52
+msgid "Draw a polyline. Shift-mouseclick ends the polyline."
+msgstr ""
 
 #: plugins/tools/tool_star/kis_tool_star.h:74
 msgid "Draw a star with the current brush"
@@ -13920,49 +13915,49 @@ msgstr "Yulduz"
 msgid "Text tool"
 msgstr "Matn vositasi"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.h:435
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2142
 #, fuzzy
-msgid "Transform a layer or a selection"
-msgstr "Tanlanganni chizish"
+msgid "Apply Transformation"
+msgstr "Moslash..."
 
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2145
 #: plugins/tools/tool_transform2/tool_transform_commands.cc:25
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2099
 #, fuzzy
 msgid "Apply transformation"
 msgstr "Moslash..."
+
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2368
+#, fuzzy
+#| msgid "Vine"
+msgid "Affine"
+msgstr "Sharob"
+
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2369
+#, fuzzy
+msgid "Similitude"
+msgstr "Filter"
+
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2370
+#, fuzzy
+#| msgid "Right:"
+msgid "Rigid"
+msgstr "Oʻng:"
+
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2513
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2908
+msgid "Unlock Points"
+msgstr ""
+
+#: plugins/tools/tool_transform2/kis_tool_transform.h:434
+#, fuzzy
+msgid "Transform a layer or a selection"
+msgstr "Tanlanganni chizish"
 
 #: plugins/tools/tool_transform2/tool_transform_commands.cc:56
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Transform"
 msgstr "Boshqa shaklga almashtirish"
-
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2096
-#, fuzzy
-msgid "Apply Transformation"
-msgstr "Moslash..."
-
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2356
-#, fuzzy
-#| msgid "Vine"
-msgid "Affine"
-msgstr "Sharob"
-
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2357
-#, fuzzy
-msgid "Similitude"
-msgstr "Filter"
-
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2358
-#, fuzzy
-#| msgid "Right:"
-msgid "Rigid"
-msgstr "Oʻng:"
-
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2504
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2889
-msgid "Unlock Points"
-msgstr ""
 
 #: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:595
 #: ui/dialogs/kis_dlg_preferences.cc:596
@@ -15019,55 +15014,46 @@ msgid ""
 "<i>./0</i> represents the first child of the current layer"
 msgstr ""
 
-#: ui/tool/kis_tool_polyline_base.cpp:38
-#, fuzzy
-msgid "&Finish"
-msgstr "&Siniq chiziq"
-
-#: ui/tool/kis_tool_select_base.cpp:45
-msgid "Selection"
-msgstr "Tanlash"
-
-#: ui/tool/kis_tool.cc:110
+#: ui/tool/kis_tool.cc:111
 #, fuzzy
 #| msgid "Foreground Color"
 msgid "Swap Foreground and Background Color"
 msgstr "Oldin fon rangi"
 
-#: ui/tool/kis_tool.cc:115
+#: ui/tool/kis_tool.cc:117
 #, fuzzy
 #| msgid "Foreground Color"
 msgid "Reset Foreground and Background Color"
 msgstr "Oldin fon rangi"
 
-#: ui/tool/kis_tool.cc:564
+#: ui/tool/kis_tool.cc:584
 #, fuzzy
 msgid "Clear"
 msgstr "Ayiqlar"
 
-#: ui/tool/kis_tool.cc:592
+#: ui/tool/kis_tool.cc:612
 #, fuzzy
 msgid "No options"
 msgstr "Alfa moslamalari"
 
-#: ui/tool/kis_tool_paint.cc:88
-msgid "Make Brush color lighter"
-msgstr ""
-
-#: ui/tool/kis_tool_paint.cc:94
-msgid "Make Brush color darker"
-msgstr ""
-
-#: ui/tool/kis_tool_freehand.cc:85
+#: ui/tool/kis_tool_freehand.cc:90
 #, fuzzy
 msgid "Increase Brush Size"
 msgstr "Nuqta boʻyogʻi"
 
-#: ui/tool/kis_tool_freehand.cc:90
+#: ui/tool/kis_tool_freehand.cc:96
 #, fuzzy
 #| msgid "Brush size"
 msgid "Decrease Brush Size"
 msgstr "Boʻyoqning oʻlchami"
+
+#: ui/tool/kis_tool_paint.cc:92
+msgid "Make Brush color lighter"
+msgstr ""
+
+#: ui/tool/kis_tool_paint.cc:98
+msgid "Make Brush color darker"
+msgstr ""
 
 #: ui/widgets/kis_channelflags_widget.cpp:39
 msgid ""
@@ -15172,6 +15158,17 @@ msgstr "Ranglar boʻshligʻi"
 #: main.cc:50
 msgid "File(s) or URL(s) to open"
 msgstr "Ochish uchun fayl(lar) yoki URL(lar)"
+
+#, fuzzy
+#~ msgid "Tool Options"
+#~ msgstr "Alfa moslamalari"
+
+#, fuzzy
+#~ msgid "&Finish"
+#~ msgstr "&Siniq chiziq"
+
+#~ msgid "Selection"
+#~ msgstr "Tanlash"
 
 #, fuzzy
 #~| msgid "Color Settings"
