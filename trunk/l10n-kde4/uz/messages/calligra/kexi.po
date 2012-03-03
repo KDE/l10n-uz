@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-29 03:10+0100\n"
+"POT-Creation-Date: 2012-03-03 02:51+0100\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3074,11 +3074,6 @@ msgstr ""
 msgid "Unknown error."
 msgstr "Nomaʼlum xato."
 
-#: kexidb/drivers/sqlite/sqliteadmin.cpp:42
-#, fuzzy, kde-format
-msgid "Could not compact database \"%1\"."
-msgstr "\"%1\" maʼlumotlar bazasini yaratib boʻlmadi."
-
 #: kexidb/drivers/sqlite/sqliteconnection.cpp:234
 #, fuzzy, kde-format
 msgid "Do you want to open file \"%1\" as read-only?"
@@ -3113,17 +3108,22 @@ msgid ""
 "another application."
 msgstr ""
 
-#: kexidb/drivers/sqlite/sqlitevacuum.cpp:82
+#: kexidb/drivers/sqlite/sqliteadmin.cpp:42
+#, fuzzy, kde-format
+msgid "Could not compact database \"%1\"."
+msgstr "\"%1\" maʼlumotlar bazasini yaratib boʻlmadi."
+
+#: kexidb/drivers/sqlite/sqlitevacuum.cpp:125
 #, fuzzy
 msgid "Compacting database"
 msgstr "Maʼlumot bazasi ochilmoqda"
 
-#: kexidb/drivers/sqlite/sqlitevacuum.cpp:83
+#: kexidb/drivers/sqlite/sqlitevacuum.cpp:126
 #, fuzzy, kde-format
 msgid "Compacting database \"%1\"..."
 msgstr "\"%1\" obʼektini ochib boʻlmadi."
 
-#: kexidb/drivers/sqlite/sqlitevacuum.cpp:102
+#: kexidb/drivers/sqlite/sqlitevacuum.cpp:199
 #, kde-format
 msgid "The database has been compacted. Current size decreased by %1% to %2."
 msgstr ""
