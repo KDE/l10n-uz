@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-23 04:49+0100\n"
+"POT-Creation-Date: 2012-03-06 06:36+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8140,12 +8140,6 @@ msgstr ""
 msgid "Conflict With Registered Global Shortcut"
 msgstr "Umumiy tugmalar birikmasi bilan muammo"
 
-#: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Resource Configuration"
-msgid "Spell Checking Configuration"
-msgstr "Manbani moslash"
-
 #: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:224
 #: kdeui/sonnet/dialog.cpp:445
 msgctxt "@title:window"
@@ -8178,6 +8172,12 @@ msgstr "Imloni tekshiruvchi"
 #, fuzzy
 msgid "Spell check complete."
 msgstr "Imloni tekshiruvchi"
+
+#: kdeui/sonnet/configdialog.cpp:51
+#, fuzzy
+#| msgid "Resource Configuration"
+msgid "Spell Checking Configuration"
+msgstr "Manbani moslash"
 
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
@@ -9752,51 +9752,110 @@ msgstr ""
 msgid "Separator, Space"
 msgstr "Almashtirishni boshlash"
 
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/ktextedit.cpp:79 kdeui/widgets/klineedit.cpp:87
+#: kdeui/widgets/ktoolbar.cpp:292
 #, fuzzy
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
+#| msgid "Show help"
+msgctxt "@title:menu"
+msgid "Show Text"
+msgstr "Yordamni koʻrsatish"
+
+#: kdeui/widgets/ktoolbar.cpp:295
+#, fuzzy
+#| msgid "Toolbar Menu"
+msgctxt "@title:menu"
+msgid "Toolbar Settings"
+msgstr "Asboblar panelining menyusi"
+
+#: kdeui/widgets/ktoolbar.cpp:297
+msgid "Orientation"
+msgstr "Joylashishi"
+
+#: kdeui/widgets/ktoolbar.cpp:299
+msgctxt "toolbar position string"
+msgid "Top"
+msgstr "Yuqorida"
+
+#: kdeui/widgets/ktoolbar.cpp:301
+msgctxt "toolbar position string"
+msgid "Left"
+msgstr "Chapda"
+
+#: kdeui/widgets/ktoolbar.cpp:302
+msgctxt "toolbar position string"
+msgid "Right"
+msgstr "Oʻngda"
+
+#: kdeui/widgets/ktoolbar.cpp:303
+msgctxt "toolbar position string"
+msgid "Bottom"
+msgstr "Pastda"
+
+#: kdeui/widgets/ktoolbar.cpp:311
+msgid "Text Position"
+msgstr "Matnning joylashishi"
+
+#: kdeui/widgets/ktoolbar.cpp:313
+msgid "Icons Only"
+msgstr "Faqat nishonchalar"
+
+#: kdeui/widgets/ktoolbar.cpp:314
+msgid "Text Only"
+msgstr "Faqat matn"
+
+#: kdeui/widgets/ktoolbar.cpp:315
+msgid "Text Alongside Icons"
+msgstr "Matn nishonchalar yonida"
+
+#: kdeui/widgets/ktoolbar.cpp:316
+msgid "Text Under Icons"
+msgstr "Matn nishonchalar pastida"
+
+#: kdeui/widgets/ktoolbar.cpp:324
+msgid "Icon Size"
+msgstr "Nishonchaning oʻlchami"
+
+#: kdeui/widgets/ktoolbar.cpp:326
+#, fuzzy
+msgctxt "@item:inmenu Icon size"
+msgid "Default"
+msgstr "Andoza"
+
+#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
+#, kde-format
+msgid "Small (%1x%2)"
+msgstr "Kichik (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
+#, kde-format
+msgid "Medium (%1x%2)"
+msgstr "Oʻrta (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
+#, kde-format
+msgid "Large (%1x%2)"
+msgstr "Katta (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
+#, kde-format
+msgid "Huge (%1x%2)"
+msgstr "Juda katta (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:389
+#, fuzzy
+msgid "Lock Toolbar Positions"
+msgstr "Asboblar panellari"
+
+#: kdeui/widgets/ktoolbar.cpp:1321
+#, fuzzy, kde-format
+msgctxt "@action:intoolbar Text label of toolbar button"
+msgid "%1"
 msgstr "%1%"
 
-#: kdeui/widgets/ktextedit.cpp:527
-#, fuzzy
-msgid "Speak Text"
-msgstr "Iltimos &nomini kiriting:"
-
-#: kdeui/widgets/ktextedit.cpp:542
-msgid "Starting Jovie Text-to-Speech Service Failed"
-msgstr ""
-
-#: kdeui/widgets/ktextedit.cpp:631
+#: kdeui/widgets/ktoolbar.cpp:1322
 #, fuzzy, kde-format
-#| msgid "Suggestion List"
-msgid "No suggestions for %1"
-msgstr "Taklif qilingan soʻzlar roʻyxati"
-
-#: kdeui/widgets/ktextedit.cpp:642
-msgid "Ignore"
-msgstr "Eʼtibor berilmasin"
-
-#: kdeui/widgets/ktextedit.cpp:643
-#, fuzzy
-#| msgid "<< Add to Dictionary"
-msgid "Add to Dictionary"
-msgstr "<< Lugʻatga qoʻshish"
-
-#: kdeui/widgets/ktextedit.cpp:788
-#, fuzzy
-msgid "Nothing to spell check."
-msgstr "Hech qanday provayder tanlanmagan."
+msgctxt "@info:tooltip Tooltip of toolbar button"
+msgid "%1"
+msgstr "%1%"
 
 #: kdeui/widgets/kdatepicker.cpp:174
 #, kde-format
@@ -9989,6 +10048,22 @@ msgstr ""
 msgid "You are not allowed to save the configuration"
 msgstr "Yangi moslama faylini yaratib boʻlmadi."
 
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
+#, fuzzy
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "%1%"
+
 #: kdeui/widgets/klineedit.cpp:296
 #, fuzzy
 msgctxt "@action:button Clear current text in the line edit"
@@ -10054,6 +10129,36 @@ msgstr "Soat koʻrsatgichi &boʻyicha burish"
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:205
 msgid "Rotate &Counterclockwise"
 msgstr "Soat &koʻrsatgichiga qarshi burish"
+
+#: kdeui/widgets/ktextedit.cpp:527
+#, fuzzy
+msgid "Speak Text"
+msgstr "Iltimos &nomini kiriting:"
+
+#: kdeui/widgets/ktextedit.cpp:542
+msgid "Starting Jovie Text-to-Speech Service Failed"
+msgstr ""
+
+#: kdeui/widgets/ktextedit.cpp:631
+#, fuzzy, kde-format
+#| msgid "Suggestion List"
+msgid "No suggestions for %1"
+msgstr "Taklif qilingan soʻzlar roʻyxati"
+
+#: kdeui/widgets/ktextedit.cpp:642
+msgid "Ignore"
+msgstr "Eʼtibor berilmasin"
+
+#: kdeui/widgets/ktextedit.cpp:643
+#, fuzzy
+#| msgid "<< Add to Dictionary"
+msgid "Add to Dictionary"
+msgstr "<< Lugʻatga qoʻshish"
+
+#: kdeui/widgets/ktextedit.cpp:788
+#, fuzzy
+msgid "Nothing to spell check."
+msgstr "Hech qanday provayder tanlanmagan."
 
 #: kdeui/widgets/krichtextwidget.cpp:232
 #, fuzzy
@@ -10267,111 +10372,6 @@ msgstr "S&kript"
 #, fuzzy
 msgid "&Copy Full Text"
 msgstr "&Matndan nusxa olish"
-
-#: kdeui/widgets/ktoolbar.cpp:292
-#, fuzzy
-#| msgid "Show help"
-msgctxt "@title:menu"
-msgid "Show Text"
-msgstr "Yordamni koʻrsatish"
-
-#: kdeui/widgets/ktoolbar.cpp:295
-#, fuzzy
-#| msgid "Toolbar Menu"
-msgctxt "@title:menu"
-msgid "Toolbar Settings"
-msgstr "Asboblar panelining menyusi"
-
-#: kdeui/widgets/ktoolbar.cpp:297
-msgid "Orientation"
-msgstr "Joylashishi"
-
-#: kdeui/widgets/ktoolbar.cpp:299
-msgctxt "toolbar position string"
-msgid "Top"
-msgstr "Yuqorida"
-
-#: kdeui/widgets/ktoolbar.cpp:301
-msgctxt "toolbar position string"
-msgid "Left"
-msgstr "Chapda"
-
-#: kdeui/widgets/ktoolbar.cpp:302
-msgctxt "toolbar position string"
-msgid "Right"
-msgstr "Oʻngda"
-
-#: kdeui/widgets/ktoolbar.cpp:303
-msgctxt "toolbar position string"
-msgid "Bottom"
-msgstr "Pastda"
-
-#: kdeui/widgets/ktoolbar.cpp:311
-msgid "Text Position"
-msgstr "Matnning joylashishi"
-
-#: kdeui/widgets/ktoolbar.cpp:313
-msgid "Icons Only"
-msgstr "Faqat nishonchalar"
-
-#: kdeui/widgets/ktoolbar.cpp:314
-msgid "Text Only"
-msgstr "Faqat matn"
-
-#: kdeui/widgets/ktoolbar.cpp:315
-msgid "Text Alongside Icons"
-msgstr "Matn nishonchalar yonida"
-
-#: kdeui/widgets/ktoolbar.cpp:316
-msgid "Text Under Icons"
-msgstr "Matn nishonchalar pastida"
-
-#: kdeui/widgets/ktoolbar.cpp:324
-msgid "Icon Size"
-msgstr "Nishonchaning oʻlchami"
-
-#: kdeui/widgets/ktoolbar.cpp:326
-#, fuzzy
-msgctxt "@item:inmenu Icon size"
-msgid "Default"
-msgstr "Andoza"
-
-#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
-#, kde-format
-msgid "Small (%1x%2)"
-msgstr "Kichik (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
-#, kde-format
-msgid "Medium (%1x%2)"
-msgstr "Oʻrta (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
-#, kde-format
-msgid "Large (%1x%2)"
-msgstr "Katta (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
-#, kde-format
-msgid "Huge (%1x%2)"
-msgstr "Juda katta (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:389
-#, fuzzy
-msgid "Lock Toolbar Positions"
-msgstr "Asboblar panellari"
-
-#: kdeui/widgets/ktoolbar.cpp:1319
-#, fuzzy, kde-format
-msgctxt "@action:intoolbar Text label of toolbar button"
-msgid "%1"
-msgstr "%1%"
-
-#: kdeui/widgets/ktoolbar.cpp:1320
-#, fuzzy, kde-format
-msgctxt "@info:tooltip Tooltip of toolbar button"
-msgid "%1"
-msgstr "%1%"
 
 #: kdeui/widgets/ktimezonewidget.cpp:66
 #, fuzzy
@@ -11986,9 +11986,20 @@ msgstr ""
 "\"%1\"da \"kdemain\" funksiyasi topilmadi.\n"
 "%2"
 
+#: kinit/klauncher_main.cpp:62
+#, fuzzy
+msgid ""
+"klauncher: This program is not supposed to be started manually.\n"
+"klauncher: It is started automatically by kdeinit4.\n"
+msgstr ""
+"klauncher: Bu dasturni koʻlbola ishga tushirish mumkin emas.\n"
+"klauncher: Bu dastur kdeinit yordamida avtomatik ravishda ishga "
+"tushiriladi.\n"
+
 #: kinit/klauncher.cpp:564
-#, kde-format
-msgid "KDEInit could not launch '%1'."
+#, fuzzy, kde-format
+#| msgid "KDEInit could not launch '%1'."
+msgid "KDEInit could not launch '%1'"
 msgstr "KDEInit '%1'ni ishga tushirolmadi."
 
 #: kinit/klauncher.cpp:745 kinit/klauncher.cpp:774 kinit/klauncher.cpp:789
@@ -12020,16 +12031,6 @@ msgstr "Nomaʼlum protokol \"%1\".\n"
 #, kde-format
 msgid "Error loading '%1'.\n"
 msgstr "\"%1\"ni yuklashda xato.\n"
-
-#: kinit/klauncher_main.cpp:62
-#, fuzzy
-msgid ""
-"klauncher: This program is not supposed to be started manually.\n"
-"klauncher: It is started automatically by kdeinit4.\n"
-msgstr ""
-"klauncher: Bu dasturni koʻlbola ishga tushirish mumkin emas.\n"
-"klauncher: Bu dastur kdeinit yordamida avtomatik ravishda ishga "
-"tushiriladi.\n"
 
 #: kjs/object.cpp:554
 msgid "Evaluation error"
