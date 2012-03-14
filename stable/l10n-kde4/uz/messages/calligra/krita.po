@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-13 18:18+0100\n"
+"POT-Creation-Date: 2012-03-14 10:52+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -14901,6 +14901,181 @@ msgstr "Hech narsa tanlanmagan"
 msgid "No profile"
 msgstr "Profil yoʻq"
 
+#: ui/kis_zoom_manager.cc:89
+msgid "Show Rulers"
+msgstr "Lineykalarni koʻrsatish"
+
+#: ui/kis_zoom_manager.cc:91
+msgid ""
+"The rulers show the horizontal and vertical positions of the mouse on the "
+"image and can be used to position your mouse at the right place on the "
+"canvas. <p>Uncheck this to hide the rulers."
+msgstr ""
+
+#: ui/kis_zoom_manager.cc:95
+#, fuzzy
+msgid "Reset zoom"
+msgstr "Qaytada&n tanlash"
+
+#: ui/kisexiv2/kis_iptc_io.h:36
+msgid "Iptc"
+msgstr ""
+
+#: ui/recorder/kis_node_query_path_editor.cc:85
+msgid ""
+"<b>/</b> represents the root of the image, or a separator<br/>\n"
+"<b>a number</b> represents a layer<br/>\n"
+"<b>.</b> represents the current layer<br/>\n"
+"<b>..</b> represents the parent layer<br/>\n"
+"\n"
+"<b>Examples:</b><br/>\n"
+"<i>/0</i> represents the bottom layer of the image<br/>\n"
+"<i>../1</i> represents the second layer from the bottom of the parent of the "
+"current layer<br/>\n"
+"<i>./0</i> represents the first child of the current layer"
+msgstr ""
+
+#: ui/tool/kis_tool.cc:111
+#, fuzzy
+#| msgid "Foreground Color"
+msgid "Swap Foreground and Background Color"
+msgstr "Oldin fon rangi"
+
+#: ui/tool/kis_tool.cc:117
+#, fuzzy
+#| msgid "Foreground Color"
+msgid "Reset Foreground and Background Color"
+msgstr "Oldin fon rangi"
+
+#: ui/tool/kis_tool.cc:584
+#, fuzzy
+msgid "Clear"
+msgstr "Ayiqlar"
+
+#: ui/tool/kis_tool.cc:612
+#, fuzzy
+msgid "No options"
+msgstr "Alfa moslamalari"
+
+#: ui/tool/kis_tool_freehand.cc:90
+#, fuzzy
+msgid "Increase Brush Size"
+msgstr "Nuqta boʻyogʻi"
+
+#: ui/tool/kis_tool_freehand.cc:96
+#, fuzzy
+#| msgid "Brush size"
+msgid "Decrease Brush Size"
+msgstr "Boʻyoqning oʻlchami"
+
+#: ui/tool/kis_tool_paint.cc:92
+msgid "Make Brush color lighter"
+msgstr ""
+
+#: ui/tool/kis_tool_paint.cc:98
+msgid "Make Brush color darker"
+msgstr ""
+
+#: ui/widgets/kis_channelflags_widget.cpp:39
+msgid ""
+"Check the active channels in this layer. Only these channels will be "
+"affected by any operation."
+msgstr ""
+
+#: ui/widgets/kis_gradient_chooser.cc:75
+msgid "Custom Gradient..."
+msgstr "Boshqa gradient..."
+
+#: ui/widgets/kis_gradient_slider_widget.cc:48
+msgid "Split Segment"
+msgstr ""
+
+#: ui/widgets/kis_gradient_slider_widget.cc:49
+#, fuzzy
+msgid "Duplicate Segment"
+msgstr "Nusxasini yaratish"
+
+#: ui/widgets/kis_gradient_slider_widget.cc:50
+msgid "Mirror Segment"
+msgstr ""
+
+#: ui/widgets/kis_gradient_slider_widget.cc:52
+#, fuzzy
+msgid "Remove Segment"
+msgstr "Tanlangan rangni olib tashlash"
+
+#: ui/widgets/kis_meta_data_merge_strategy_chooser_widget.cc:73
+msgid "Choose meta data merge strategy"
+msgstr ""
+
+#: ui/widgets/kis_multipliers_double_slider_spinbox.cpp:60
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgid "x%1"
+msgstr "%1%"
+
+#: ui/widgets/kis_paintop_presets_popup.cpp:202
+#, fuzzy
+#| msgid "Pressure:"
+msgid "Overwrite Preset"
+msgstr "Bosim:"
+
+#: ui/widgets/kis_paintop_presets_popup.cpp:206
+#, fuzzy
+msgid "Save to Presets"
+msgstr "Palitraga qoʻshish:"
+
+#: ui/widgets/kis_paintop_presets_popup.cpp:225
+#, fuzzy
+msgid "Attach to Toolbar"
+msgstr "Yulduz vositasi"
+
+#: ui/widgets/kis_paintop_presets_popup.cpp:225
+msgid "Detach from Toolbar"
+msgstr ""
+
+#: ui/widgets/kis_wdg_generator.cpp:150 ui/widgets/kis_wdg_generator.cpp:164
+#, fuzzy
+msgid "No configuration options."
+msgstr "Moslash..."
+
+#: ui/widgets/kis_workspace_chooser.cpp:83
+#, fuzzy
+#| msgid "Slate"
+msgid "Save"
+msgstr "Shifer"
+
+#: ui/widgets/kis_workspace_chooser.cpp:87
+#, fuzzy
+#| msgid "Layer name:"
+msgid "Insert name"
+msgstr "Qatlamning nomi:"
+
+#: ui/widgets/kis_workspace_chooser.cpp:118
+#, fuzzy
+msgid "Workspace"
+msgstr "Ranglar boʻshligʻi"
+
+#: ui/widgets/kis_workspace_chooser.cpp:129
+#, fuzzy, kde-format
+msgid "Workspace %1"
+msgstr "Ranglar boʻshligʻi"
+
+#: ui/widgets/kis_color_space_selector.cc:62
+#, fuzzy
+msgid "Open Color Profile"
+msgstr "Profil yoʻq"
+
+#: ui/widgets/kis_color_space_selector.cc:65
+msgid "Download Color Profile"
+msgstr ""
+
+#: ui/widgets/kis_color_space_selector.cc:70
+#, fuzzy
+#| msgid "Layer Properties"
+msgid "Share Color Profile"
+msgstr "Qatlamning xossalari"
+
 #: ui/kis_view2.cpp:265
 msgid "Save Incremental &Version"
 msgstr ""
@@ -14988,181 +15163,6 @@ msgstr "Palitrani tahrirlash..."
 #, fuzzy
 msgid "Edit Palette"
 msgstr "Palitrani tahrirlash..."
-
-#: ui/kis_zoom_manager.cc:89
-msgid "Show Rulers"
-msgstr "Lineykalarni koʻrsatish"
-
-#: ui/kis_zoom_manager.cc:91
-msgid ""
-"The rulers show the horizontal and vertical positions of the mouse on the "
-"image and can be used to position your mouse at the right place on the "
-"canvas. <p>Uncheck this to hide the rulers."
-msgstr ""
-
-#: ui/kis_zoom_manager.cc:95
-#, fuzzy
-msgid "Reset zoom"
-msgstr "Qaytada&n tanlash"
-
-#: ui/kisexiv2/kis_iptc_io.h:36
-msgid "Iptc"
-msgstr ""
-
-#: ui/recorder/kis_node_query_path_editor.cc:85
-msgid ""
-"<b>/</b> represents the root of the image, or a separator<br/>\n"
-"<b>a number</b> represents a layer<br/>\n"
-"<b>.</b> represents the current layer<br/>\n"
-"<b>..</b> represents the parent layer<br/>\n"
-"\n"
-"<b>Examples:</b><br/>\n"
-"<i>/0</i> represents the bottom layer of the image<br/>\n"
-"<i>../1</i> represents the second layer from the bottom of the parent of the "
-"current layer<br/>\n"
-"<i>./0</i> represents the first child of the current layer"
-msgstr ""
-
-#: ui/tool/kis_tool.cc:111
-#, fuzzy
-#| msgid "Foreground Color"
-msgid "Swap Foreground and Background Color"
-msgstr "Oldin fon rangi"
-
-#: ui/tool/kis_tool.cc:117
-#, fuzzy
-#| msgid "Foreground Color"
-msgid "Reset Foreground and Background Color"
-msgstr "Oldin fon rangi"
-
-#: ui/tool/kis_tool.cc:584
-#, fuzzy
-msgid "Clear"
-msgstr "Ayiqlar"
-
-#: ui/tool/kis_tool.cc:612
-#, fuzzy
-msgid "No options"
-msgstr "Alfa moslamalari"
-
-#: ui/tool/kis_tool_freehand.cc:90
-#, fuzzy
-msgid "Increase Brush Size"
-msgstr "Nuqta boʻyogʻi"
-
-#: ui/tool/kis_tool_freehand.cc:96
-#, fuzzy
-#| msgid "Brush size"
-msgid "Decrease Brush Size"
-msgstr "Boʻyoqning oʻlchami"
-
-#: ui/tool/kis_tool_paint.cc:92
-msgid "Make Brush color lighter"
-msgstr ""
-
-#: ui/tool/kis_tool_paint.cc:98
-msgid "Make Brush color darker"
-msgstr ""
-
-#: ui/widgets/kis_channelflags_widget.cpp:39
-msgid ""
-"Check the active channels in this layer. Only these channels will be "
-"affected by any operation."
-msgstr ""
-
-#: ui/widgets/kis_color_space_selector.cc:62
-#, fuzzy
-msgid "Open Color Profile"
-msgstr "Profil yoʻq"
-
-#: ui/widgets/kis_color_space_selector.cc:65
-msgid "Download Color Profile"
-msgstr ""
-
-#: ui/widgets/kis_color_space_selector.cc:70
-#, fuzzy
-#| msgid "Layer Properties"
-msgid "Share Color Profile"
-msgstr "Qatlamning xossalari"
-
-#: ui/widgets/kis_gradient_chooser.cc:75
-msgid "Custom Gradient..."
-msgstr "Boshqa gradient..."
-
-#: ui/widgets/kis_gradient_slider_widget.cc:48
-msgid "Split Segment"
-msgstr ""
-
-#: ui/widgets/kis_gradient_slider_widget.cc:49
-#, fuzzy
-msgid "Duplicate Segment"
-msgstr "Nusxasini yaratish"
-
-#: ui/widgets/kis_gradient_slider_widget.cc:50
-msgid "Mirror Segment"
-msgstr ""
-
-#: ui/widgets/kis_gradient_slider_widget.cc:52
-#, fuzzy
-msgid "Remove Segment"
-msgstr "Tanlangan rangni olib tashlash"
-
-#: ui/widgets/kis_meta_data_merge_strategy_chooser_widget.cc:73
-msgid "Choose meta data merge strategy"
-msgstr ""
-
-#: ui/widgets/kis_multipliers_double_slider_spinbox.cpp:60
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgid "x%1"
-msgstr "%1%"
-
-#: ui/widgets/kis_paintop_presets_popup.cpp:202
-#, fuzzy
-#| msgid "Pressure:"
-msgid "Overwrite Preset"
-msgstr "Bosim:"
-
-#: ui/widgets/kis_paintop_presets_popup.cpp:206
-#, fuzzy
-msgid "Save to Presets"
-msgstr "Palitraga qoʻshish:"
-
-#: ui/widgets/kis_paintop_presets_popup.cpp:225
-#, fuzzy
-msgid "Attach to Toolbar"
-msgstr "Yulduz vositasi"
-
-#: ui/widgets/kis_paintop_presets_popup.cpp:225
-msgid "Detach from Toolbar"
-msgstr ""
-
-#: ui/widgets/kis_wdg_generator.cpp:150 ui/widgets/kis_wdg_generator.cpp:164
-#, fuzzy
-msgid "No configuration options."
-msgstr "Moslash..."
-
-#: ui/widgets/kis_workspace_chooser.cpp:83
-#, fuzzy
-#| msgid "Slate"
-msgid "Save"
-msgstr "Shifer"
-
-#: ui/widgets/kis_workspace_chooser.cpp:87
-#, fuzzy
-#| msgid "Layer name:"
-msgid "Insert name"
-msgstr "Qatlamning nomi:"
-
-#: ui/widgets/kis_workspace_chooser.cpp:118
-#, fuzzy
-msgid "Workspace"
-msgstr "Ranglar boʻshligʻi"
-
-#: ui/widgets/kis_workspace_chooser.cpp:129
-#, fuzzy, kde-format
-msgid "Workspace %1"
-msgstr "Ranglar boʻshligʻi"
 
 #, fuzzy
 #~ msgid "Tool Options"
