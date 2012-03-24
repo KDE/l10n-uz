@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-22 03:52+0100\n"
+"POT-Creation-Date: 2012-03-24 04:40+0100\n"
 "PO-Revision-Date: 2008-05-31 09:43+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -378,11 +378,6 @@ msgctxt "@label"
 msgid "Group"
 msgstr "Guruh"
 
-#: kitemviews/kfileitemlistview.cpp:559
-msgctxt "@item:intable"
-msgid "items"
-msgstr ""
-
 #: kitemviews/kfileitemlistwidget.cpp:248
 msgctxt "@item:intable"
 msgid "Unknown"
@@ -394,6 +389,11 @@ msgctxt "@item:intable"
 msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] ""
+
+#: kitemviews/kfileitemlistview.cpp:559
+msgctxt "@item:intable"
+msgid "items"
+msgstr ""
 
 #: panels/folders/treeviewcontextmenu.cpp:58
 msgctxt "@action:inmenu"
@@ -1317,70 +1317,6 @@ msgstr "Qaytadan yuklash"
 msgid "Default"
 msgstr "Oʻchirish"
 
-#: views/dolphinview.cpp:519
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr ""
-
-#: views/dolphinview.cpp:522
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] ""
-
-#: views/dolphinview.cpp:523
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] ""
-
-#: views/dolphinview.cpp:527
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Folder"
-msgctxt "@info:status"
-msgid "1 Folder"
-msgid_plural "%1 Folders"
-msgstr[0] "Jild"
-
-#: views/dolphinview.cpp:528
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File"
-msgid_plural "%1 Files"
-msgstr[0] ""
-
-#: views/dolphinview.cpp:532
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr ""
-
-#: views/dolphinview.cpp:535
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr ""
-
-#: views/dolphinview.cpp:1117
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr ""
-
-#: views/dolphinview.cpp:1205
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr ""
-
-#: views/dolphinview.cpp:1207
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr ""
-
 #: views/draganddrophelper.cpp:34
 #, kde-format
 msgctxt "@info:status"
@@ -1431,6 +1367,86 @@ msgstr[0] ""
 #: views/renamedialog.cpp:106
 msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
+msgstr ""
+
+#: views/dolphinview.cpp:522
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr ""
+
+#: views/dolphinview.cpp:525
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] ""
+
+#: views/dolphinview.cpp:526
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] ""
+
+#: views/dolphinview.cpp:530
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Folder"
+msgctxt "@info:status"
+msgid "1 Folder"
+msgid_plural "%1 Folders"
+msgstr[0] "Jild"
+
+#: views/dolphinview.cpp:531
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File"
+msgid_plural "%1 Files"
+msgstr[0] ""
+
+#: views/dolphinview.cpp:535
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr ""
+
+#: views/dolphinview.cpp:538
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr ""
+
+#: views/dolphinview.cpp:821
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Column Width"
+msgctxt "@action:inmenu"
+msgid "Automatic Column Widths"
+msgstr "Ustunning eni"
+
+#: views/dolphinview.cpp:826
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Column Width"
+msgctxt "@action:inmenu"
+msgid "Custom Column Widths"
+msgstr "Ustunning eni"
+
+#: views/dolphinview.cpp:1182
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr ""
+
+#: views/dolphinview.cpp:1270
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr ""
+
+#: views/dolphinview.cpp:1272
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
 msgstr ""
 
 #: dolphincontextmenu.cpp:173
@@ -2457,22 +2473,32 @@ msgid "Visible roles"
 msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:66
-#. i18n: ectx: label, entry (Timestamp), group (Dolphin)
+#. i18n: ectx: label, entry (HeaderColumnWidths), group (Dolphin)
 #: rc.cpp:217
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Column width"
+msgctxt "@label"
+msgid "Header column widths"
+msgstr "Ustunning eni"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:71
+#. i18n: ectx: label, entry (Timestamp), group (Dolphin)
+#: rc.cpp:220
 msgctxt "@label"
 msgid "Properties last changed"
 msgstr ""
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:67
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:72
 #. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
-#: rc.cpp:220
+#: rc.cpp:223
 msgctxt "@info:whatsthis"
 msgid "The last time these properties were changed by the user."
 msgstr ""
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:72
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:77
 #. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
-#: rc.cpp:223
+#: rc.cpp:226
 #, fuzzy
 #| msgctxt "@title:window"
 #| msgid "Additional Information"
@@ -2482,13 +2508,13 @@ msgstr "Qoʻshimcha maʼlumot"
 
 #. i18n: file: dolphinpart.rc:4
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:230
+#: rc.cpp:233
 msgid "&Edit"
 msgstr ""
 
 #. i18n: file: dolphinpart.rc:14
 #. i18n: ectx: Menu (selection)
-#: rc.cpp:233
+#: rc.cpp:236
 #, fuzzy
 #| msgctxt "@action:inmenu Edit"
 #| msgid "Invert Selection"
@@ -2498,26 +2524,26 @@ msgstr "Teskarisini tanlash"
 
 #. i18n: file: dolphinpart.rc:23
 #. i18n: ectx: Menu (view)
-#: rc.cpp:236
+#: rc.cpp:239
 msgid "&View"
 msgstr ""
 
 #. i18n: file: dolphinpart.rc:32
 #. i18n: ectx: Menu (go)
-#: rc.cpp:239
+#: rc.cpp:242
 msgid "&Go"
 msgstr ""
 
 #. i18n: file: dolphinpart.rc:40
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:242
+#: rc.cpp:245
 msgctxt "@title:menu"
 msgid "Tools"
 msgstr ""
 
 #. i18n: file: dolphinpart.rc:48
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:245
+#: rc.cpp:248
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr ""
@@ -2699,12 +2725,6 @@ msgstr ""
 #~| msgid "Preview"
 #~ msgid "Show preview"
 #~ msgstr "Koʻrib chiqish"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Column width"
-#~ msgid "Column width"
-#~ msgstr "Ustunning eni"
 
 #~ msgctxt "@label"
 #~ msgid "Show hidden files"
@@ -3494,10 +3514,6 @@ msgstr ""
 #~ msgctxt "@action:inmenu"
 #~ msgid "Cancel"
 #~ msgstr "Bekor qilish"
-
-#~ msgctxt "@title:group"
-#~ msgid "Column Width"
-#~ msgstr "Ustunning eni"
 
 #~ msgctxt "@item:inrange Column Width"
 #~ msgid "Small"
