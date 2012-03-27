@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-26 03:25+0200\n"
+"POT-Creation-Date: 2012-03-27 04:00+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -13626,36 +13626,6 @@ msgstr ""
 msgid "Preview opacity:"
 msgstr "Koʻrib chiqish: "
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:69
-#, fuzzy
-#| msgid "Style:"
-msgid "Tilt"
-msgstr "Uslubi:"
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:71
-#, fuzzy
-#| msgid "Pressure"
-msgid "Tangential Pressure"
-msgstr "Bosim"
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:72
-#, fuzzy
-msgid "Varying End-Points"
-msgstr "Alfa moslamalari"
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:207
-#, fuzzy
-#| msgid "Line"
-msgctxt "a straight drawn line"
-msgid "Line"
-msgstr "Chiziq"
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:287
-msgid ""
-"Alt+Drag will move the origin of the currently displayed line around, Shift"
-"+Drag will force you to draw straight lines"
-msgstr ""
-
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:179
 msgid "Cannot pick a color as no layer is active."
 msgstr ""
@@ -13715,6 +13685,36 @@ msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_fill.h:89
 msgid "Fill a contiguous area of color with a color, or fill a selection."
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:69
+#, fuzzy
+#| msgid "Style:"
+msgid "Tilt"
+msgstr "Uslubi:"
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:71
+#, fuzzy
+#| msgid "Pressure"
+msgid "Tangential Pressure"
+msgstr "Bosim"
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:72
+#, fuzzy
+msgid "Varying End-Points"
+msgstr "Alfa moslamalari"
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:207
+#, fuzzy
+#| msgid "Line"
+msgctxt "a straight drawn line"
+msgid "Line"
+msgstr "Chiziq"
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:287
+msgid ""
+"Alt+Drag will move the origin of the currently displayed line around, Shift"
+"+Drag will force you to draw straight lines"
 msgstr ""
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.h:62
@@ -13967,14 +13967,14 @@ msgstr "Boshqa shaklga almashtirish"
 msgid "Draw a polygon. Shift-mouseclick ends the polygon."
 msgstr ""
 
+#: plugins/tools/tool_polyline/kis_tool_polyline.h:52
+msgid "Draw a polyline. Shift-mouseclick ends the polyline."
+msgstr ""
+
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:63
 #, fuzzy
 msgid "Polyline"
 msgstr "Siniq chiziq"
-
-#: plugins/tools/tool_polyline/kis_tool_polyline.h:52
-msgid "Draw a polyline. Shift-mouseclick ends the polyline."
-msgstr ""
 
 #: plugins/tools/tool_star/kis_tool_star.h:74
 msgid "Draw a star with the current brush"
@@ -14504,20 +14504,20 @@ msgid ""
 "down."
 msgstr ""
 
-#: ui/kis_doc2.cc:437
+#: ui/kis_doc2.cc:443
 msgid ""
 "The Calligra LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: ui/kis_doc2.cc:448
+#: ui/kis_doc2.cc:454
 #, kde-format
 msgid ""
 "Krita needs at least Qt 4.6.3 to work correctly. Your Qt version is %1. If "
 "you have a graphics tablet it will not work correctly!"
 msgstr ""
 
-#: ui/kis_doc2.cc:461
+#: ui/kis_doc2.cc:467
 #, fuzzy
 #| msgid "Layer Error"
 msgid "Installation error"
@@ -15084,12 +15084,12 @@ msgstr "Yangi hujjatlarda ochish"
 msgid "Replace Current Document"
 msgstr ""
 
-#: ui/kis_view2.cpp:709
+#: ui/kis_view2.cpp:714
 #, fuzzy
 msgid "Edit Palette..."
 msgstr "Palitrani tahrirlash..."
 
-#: ui/kis_view2.cpp:837 ui/kis_view2.cpp:840
+#: ui/kis_view2.cpp:842 ui/kis_view2.cpp:845
 #, fuzzy
 msgid "Edit Palette"
 msgstr "Palitrani tahrirlash..."
