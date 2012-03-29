@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-28 02:21+0200\n"
+"POT-Creation-Date: 2012-03-29 02:52+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1320,7 +1320,7 @@ msgstr "Yangi qatlam yaratish"
 
 #. i18n: file: plugins/extensions/bracketing2hdr/wdgbracketing2hdr.ui:162
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonCancel)
-#: rc.cpp:80 ui/kis_view2.cpp:505
+#: rc.cpp:80 ui/kis_view2.cpp:507
 #, fuzzy
 msgid "Cancel"
 msgstr "Kanal"
@@ -13726,11 +13726,6 @@ msgstr ""
 msgid "Select a contiguous area of colors"
 msgstr "Oʻxshash ranglarni tanlash"
 
-#: plugins/tools/selectiontools/kis_tool_select_magnetic.h:126
-#, fuzzy
-msgid "Magnetic selection tool"
-msgstr "Tanlanganni bekitish"
-
 #: plugins/tools/selectiontools/kis_tool_select_brush.cc:52
 #: plugins/tools/selectiontools/kis_tool_select_brush.cc:194
 #, fuzzy
@@ -13788,10 +13783,6 @@ msgstr "Tanlash"
 msgid "Select an area by its outline"
 msgstr "Tanlash usuli:"
 
-#: plugins/tools/selectiontools/kis_tool_select_path.h:90
-msgid "Select an area of the image with path."
-msgstr ""
-
 #: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:40
 #: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:68
 #, fuzzy
@@ -13829,6 +13820,15 @@ msgstr "Oʻxshash ranglarni tanlash"
 #, fuzzy
 msgid "Outline Selection"
 msgstr "Tanlanganni bekitish"
+
+#: plugins/tools/selectiontools/kis_tool_select_magnetic.h:126
+#, fuzzy
+msgid "Magnetic selection tool"
+msgstr "Tanlanganni bekitish"
+
+#: plugins/tools/selectiontools/kis_tool_select_path.h:90
+msgid "Select an area of the image with path."
+msgstr ""
 
 #: plugins/tools/tool_crop/kis_tool_crop.h:147
 #, fuzzy
@@ -14993,111 +14993,111 @@ msgstr "Hech narsa tanlanmagan"
 msgid "No profile"
 msgstr "Profil yoʻq"
 
-#: ui/kis_view2.cpp:270
+#: ui/kis_view2.cpp:272
 msgid "Save Incremental &Version"
 msgstr ""
 
-#: ui/kis_view2.cpp:275
+#: ui/kis_view2.cpp:277
 msgid "Save Incremental Backup"
 msgstr ""
 
-#: ui/kis_view2.cpp:287
+#: ui/kis_view2.cpp:289
 msgid "Total Refresh"
 msgstr ""
 
-#: ui/kis_view2.cpp:292
+#: ui/kis_view2.cpp:294
 #, fuzzy
 #| msgid "&Rotate Image..."
 msgid "&Create Template From Image..."
 msgstr "Rasmni &burish..."
 
-#: ui/kis_view2.cpp:296
+#: ui/kis_view2.cpp:298
 msgid "Load Tutorial"
 msgstr ""
 
-#: ui/kis_view2.cpp:300
+#: ui/kis_view2.cpp:302
 #, fuzzy
 msgid "Mirror Image"
 msgstr "Rasmni kesish"
 
-#: ui/kis_view2.cpp:306
+#: ui/kis_view2.cpp:308
 msgid "Rotate Canvas Right"
 msgstr ""
 
-#: ui/kis_view2.cpp:311
+#: ui/kis_view2.cpp:313
 #, fuzzy
 #| msgid "Rotate Image"
 msgid "Rotate Canvas Left"
 msgstr "Rasmni burish"
 
-#: ui/kis_view2.cpp:316
+#: ui/kis_view2.cpp:318
 #, fuzzy
 msgid "Reset Canvas Transformations"
 msgstr "Boshqa shaklga almashtirish"
 
-#: ui/kis_view2.cpp:321
+#: ui/kis_view2.cpp:323
 #, fuzzy
 #| msgid "Show original layer"
 msgid "Show Status Bar"
 msgstr "Asl qatlamni koʻrsatish"
 
-#: ui/kis_view2.cpp:322
+#: ui/kis_view2.cpp:324
 msgid "Hide Status Bar"
 msgstr ""
 
-#: ui/kis_view2.cpp:324
+#: ui/kis_view2.cpp:326
 msgid "Shows or hides the status bar"
 msgstr ""
 
-#: ui/kis_view2.cpp:328
+#: ui/kis_view2.cpp:330
 #, fuzzy
 msgid "Show Canvas Only"
 msgstr "Rangi:"
 
-#: ui/kis_view2.cpp:329
+#: ui/kis_view2.cpp:331
 msgid "Return to Window"
 msgstr ""
 
-#: ui/kis_view2.cpp:330
+#: ui/kis_view2.cpp:332
 msgid "Shows just the canvas or the whole window"
 msgstr ""
 
-#: ui/kis_view2.cpp:459
+#: ui/kis_view2.cpp:461
 #, fuzzy
 #| msgid "&Layer"
 msgid "Pasted Layer"
 msgstr "&Qatlam"
 
-#: ui/kis_view2.cpp:497
+#: ui/kis_view2.cpp:499
 msgid "Insert as New Layer"
 msgstr "Yangi qatlam sifatida qoʻyish"
 
-#: ui/kis_view2.cpp:498
+#: ui/kis_view2.cpp:500
 msgid "Insert as New Layers"
 msgstr "Yangi qatlamlar sifatida qoʻyish"
 
-#: ui/kis_view2.cpp:500
+#: ui/kis_view2.cpp:502
 msgid "Open in New Document"
 msgstr "Yangi hujjatda ochish"
 
-#: ui/kis_view2.cpp:501
+#: ui/kis_view2.cpp:503
 msgid "Open in New Documents"
 msgstr "Yangi hujjatlarda ochish"
 
-#: ui/kis_view2.cpp:503
+#: ui/kis_view2.cpp:505
 msgid "Replace Current Document"
 msgstr ""
 
-#: ui/kis_view2.cpp:721
+#: ui/kis_view2.cpp:723
 #, fuzzy
 msgid "Edit Palette..."
 msgstr "Palitrani tahrirlash..."
 
-#: ui/kis_view2.cpp:726
+#: ui/kis_view2.cpp:728
 msgid "&Themes"
 msgstr ""
 
-#: ui/kis_view2.cpp:857 ui/kis_view2.cpp:860
+#: ui/kis_view2.cpp:859 ui/kis_view2.cpp:862
 #, fuzzy
 msgid "Edit Palette"
 msgstr "Palitrani tahrirlash..."
@@ -15289,19 +15289,19 @@ msgstr "Ranglar boʻshligʻi"
 msgid "Workspace %1"
 msgstr "Ranglar boʻshligʻi"
 
-#: ui/thememanager.cpp:79
+#: ui/thememanager.cpp:70
 #, fuzzy
 #| msgid "Current Layer"
 msgctxt "default theme name"
 msgid "Default"
 msgstr "Joriy qatlam"
 
-#: ui/thememanager.cpp:254
+#: ui/thememanager.cpp:242
 #, fuzzy
 msgid "Configuration..."
 msgstr "Moslash..."
 
-#: ui/thememanager.cpp:267
+#: ui/thememanager.cpp:255
 msgid ""
 "Cannot start Colors Settings panel from KDE Control Center. Please check "
 "your system..."
