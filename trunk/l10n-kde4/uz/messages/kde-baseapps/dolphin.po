@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-28 04:03+0200\n"
+"POT-Creation-Date: 2012-04-02 04:21+0200\n"
 "PO-Revision-Date: 2008-05-31 09:43+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -28,7 +28,7 @@ msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1198
+#: kitemviews/kfileitemmodel.cpp:1189
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -375,15 +375,15 @@ msgstr "Egasi"
 #| msgctxt "@option:check Additional Information"
 #| msgid "Group"
 msgctxt "@label"
-msgid "Group"
+msgid "User Group"
 msgstr "Guruh"
 
-#: kitemviews/kfileitemlistwidget.cpp:1020
+#: kitemviews/kfileitemlistwidget.cpp:1012
 msgctxt "@item:intable"
 msgid "Unknown"
 msgstr ""
 
-#: kitemviews/kfileitemlistwidget.cpp:1022
+#: kitemviews/kfileitemlistwidget.cpp:1014
 #, kde-format
 msgctxt "@item:intable"
 msgid "%1 item"
@@ -939,16 +939,6 @@ msgctxt "@title:group General settings"
 msgid "General"
 msgstr "Umumiy"
 
-#: settings/additionalinfodialog.cpp:34
-msgctxt "@title:window"
-msgid "Additional Information"
-msgstr "Qoʻshimcha maʼlumot"
-
-#: settings/additionalinfodialog.cpp:43
-msgctxt "@label"
-msgid "Select which additional information should be shown:"
-msgstr ""
-
 #: settings/viewpropertiesdialog.cpp:78
 msgctxt "@title:window"
 msgid "View Properties"
@@ -1060,6 +1050,16 @@ msgid ""
 "The view properties of all folders will be changed. Do you want to continue?"
 msgstr ""
 
+#: settings/additionalinfodialog.cpp:40
+msgctxt "@title:window"
+msgid "Additional Information"
+msgstr "Qoʻshimcha maʼlumot"
+
+#: settings/additionalinfodialog.cpp:49
+msgctxt "@label"
+msgid "Select which additional information should be shown:"
+msgstr ""
+
 #: statusbar/statusbarspaceinfo.cpp:79 statusbar/statusbarspaceinfo.cpp:87
 msgctxt "@info:status"
 msgid "Unknown size"
@@ -1120,185 +1120,27 @@ msgctxt "@info:status"
 msgid "Unknown error."
 msgstr ""
 
-#: views/dolphinviewactionhandler.cpp:93
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "Create Folder..."
-msgctxt "@action"
-msgid "Create Folder..."
-msgstr "Jildni yaratish..."
-
-#: views/dolphinviewactionhandler.cpp:101
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Rename..."
-msgctxt "@action:inmenu File"
-msgid "Rename..."
-msgstr "Nomini oʻzgartirish..."
-
-#: views/dolphinviewactionhandler.cpp:107
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu File"
-msgid "Move to Trash"
-msgstr "Chiqindilar qutisiga koʻchirish"
-
-#: views/dolphinviewactionhandler.cpp:115
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Delete"
-msgctxt "@action:inmenu File"
-msgid "Delete"
-msgstr "Oʻchirish"
-
-#: views/dolphinviewactionhandler.cpp:125
-msgctxt "@action \"Move to Trash\" for non-local files, etc."
-msgid "Delete (using shortcut for Trash)"
-msgstr ""
-
-#: views/dolphinviewactionhandler.cpp:132
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Properties"
-msgctxt "@action:inmenu File"
-msgid "Properties"
-msgstr "Xossalari"
-
-#: views/dolphinviewactionhandler.cpp:143
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "View Mode"
-msgctxt "@action:intoolbar"
-msgid "View Mode"
-msgstr "Koʻrish usuli"
-
-#: views/dolphinviewactionhandler.cpp:159
-#, fuzzy
-#| msgctxt "@action:intoolbar"
-#| msgid "Preview"
-msgctxt "@action:intoolbar"
-msgid "Preview"
-msgstr "Koʻrib chiqish"
-
-#: views/dolphinviewactionhandler.cpp:160
-msgctxt "@info"
-msgid "Show preview of files and folders"
-msgstr ""
-
-#: views/dolphinviewactionhandler.cpp:165
-#, fuzzy
-#| msgctxt "@item:inlistbox Sort"
-#| msgid "Descending"
-msgctxt "@action:inmenu Sort"
-msgid "Descending"
-msgstr "Kamayish boʻyicha"
-
-#: views/dolphinviewactionhandler.cpp:169
-#, fuzzy
-#| msgctxt "@title:group Size"
-#| msgid "Folders"
-msgctxt "@action:inmenu Sort"
-msgid "Folders First"
-msgstr "Jildlar"
-
-#: views/dolphinviewactionhandler.cpp:176
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Sort By"
-msgctxt "@action:inmenu View"
-msgid "Sort By"
-msgstr "Saralash"
-
-#: views/dolphinviewactionhandler.cpp:190
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Additional Information"
-msgctxt "@action:inmenu View"
-msgid "Additional Information"
-msgstr "Qoʻshimcha maʼlumot"
-
-#: views/dolphinviewactionhandler.cpp:199
-#, fuzzy
-#| msgctxt "@action:inmenu View"
-#| msgid "Show in Groups"
-msgctxt "@action:inmenu View"
-msgid "Show in Groups"
-msgstr "Guruhlarda koʻrsatish"
-
-#: views/dolphinviewactionhandler.cpp:203
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Show Hidden Files"
-msgctxt "@action:inmenu View"
-msgid "Show Hidden Files"
-msgstr "Yashirilgan fayllarni koʻrsatish"
-
-#: views/dolphinviewactionhandler.cpp:208
-msgctxt "@action:inmenu View"
-msgid "Adjust View Properties..."
-msgstr ""
-
-#: views/dolphinviewactionhandler.cpp:474
-#, fuzzy
-#| msgctxt "@title:tab"
-#| msgid "Icons"
-msgctxt "@action:inmenu View Mode"
-msgid "Icons"
-msgstr "Nishonchalar"
-
-#: views/dolphinviewactionhandler.cpp:475
-msgctxt "@info"
-msgid "Icons view mode"
-msgstr ""
-
-#: views/dolphinviewactionhandler.cpp:485
-msgctxt "@action:inmenu View Mode"
-msgid "Compact"
-msgstr ""
-
-#: views/dolphinviewactionhandler.cpp:486
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Column width"
-msgctxt "@info"
-msgid "Compact view mode"
-msgstr "Ustunning eni"
-
-#: views/dolphinviewactionhandler.cpp:496
-#, fuzzy
-#| msgctxt "@title:tab"
-#| msgid "Details"
-msgctxt "@action:inmenu View Mode"
-msgid "Details"
-msgstr "Tafsilotlar"
-
-#: views/dolphinviewactionhandler.cpp:497
-msgctxt "@info"
-msgid "Details view mode"
-msgstr ""
-
-#: views/dolphinview.cpp:522
+#: views/dolphinview.cpp:528
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr ""
 
-#: views/dolphinview.cpp:525
+#: views/dolphinview.cpp:531
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
 msgid_plural "%1 Folders selected"
 msgstr[0] ""
 
-#: views/dolphinview.cpp:526
+#: views/dolphinview.cpp:532
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
 msgid_plural "%1 Files selected"
 msgstr[0] ""
 
-#: views/dolphinview.cpp:530
+#: views/dolphinview.cpp:536
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Folder"
@@ -1307,26 +1149,26 @@ msgid "1 Folder"
 msgid_plural "%1 Folders"
 msgstr[0] "Jild"
 
-#: views/dolphinview.cpp:531
+#: views/dolphinview.cpp:537
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File"
 msgid_plural "%1 Files"
 msgstr[0] ""
 
-#: views/dolphinview.cpp:535
+#: views/dolphinview.cpp:541
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr ""
 
-#: views/dolphinview.cpp:538
+#: views/dolphinview.cpp:544
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr ""
 
-#: views/dolphinview.cpp:821
+#: views/dolphinview.cpp:842
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Column Width"
@@ -1334,7 +1176,7 @@ msgctxt "@action:inmenu"
 msgid "Automatic Column Widths"
 msgstr "Ustunning eni"
 
-#: views/dolphinview.cpp:826
+#: views/dolphinview.cpp:847
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Column Width"
@@ -1342,17 +1184,17 @@ msgctxt "@action:inmenu"
 msgid "Custom Column Widths"
 msgstr "Ustunning eni"
 
-#: views/dolphinview.cpp:1192
+#: views/dolphinview.cpp:1215
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr ""
 
-#: views/dolphinview.cpp:1280
+#: views/dolphinview.cpp:1303
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr ""
 
-#: views/dolphinview.cpp:1282
+#: views/dolphinview.cpp:1305
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -1401,6 +1243,164 @@ msgstr ""
 #: views/draganddrophelper.cpp:49
 msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
+msgstr ""
+
+#: views/dolphinviewactionhandler.cpp:99
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Create Folder..."
+msgctxt "@action"
+msgid "Create Folder..."
+msgstr "Jildni yaratish..."
+
+#: views/dolphinviewactionhandler.cpp:107
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Rename..."
+msgctxt "@action:inmenu File"
+msgid "Rename..."
+msgstr "Nomini oʻzgartirish..."
+
+#: views/dolphinviewactionhandler.cpp:113
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu File"
+msgid "Move to Trash"
+msgstr "Chiqindilar qutisiga koʻchirish"
+
+#: views/dolphinviewactionhandler.cpp:121
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Delete"
+msgctxt "@action:inmenu File"
+msgid "Delete"
+msgstr "Oʻchirish"
+
+#: views/dolphinviewactionhandler.cpp:131
+msgctxt "@action \"Move to Trash\" for non-local files, etc."
+msgid "Delete (using shortcut for Trash)"
+msgstr ""
+
+#: views/dolphinviewactionhandler.cpp:138
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Properties"
+msgctxt "@action:inmenu File"
+msgid "Properties"
+msgstr "Xossalari"
+
+#: views/dolphinviewactionhandler.cpp:149
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "View Mode"
+msgctxt "@action:intoolbar"
+msgid "View Mode"
+msgstr "Koʻrish usuli"
+
+#: views/dolphinviewactionhandler.cpp:165
+#, fuzzy
+#| msgctxt "@action:intoolbar"
+#| msgid "Preview"
+msgctxt "@action:intoolbar"
+msgid "Preview"
+msgstr "Koʻrib chiqish"
+
+#: views/dolphinviewactionhandler.cpp:166
+msgctxt "@info"
+msgid "Show preview of files and folders"
+msgstr ""
+
+#: views/dolphinviewactionhandler.cpp:171
+#, fuzzy
+#| msgctxt "@item:inlistbox Sort"
+#| msgid "Descending"
+msgctxt "@action:inmenu Sort"
+msgid "Descending"
+msgstr "Kamayish boʻyicha"
+
+#: views/dolphinviewactionhandler.cpp:175
+#, fuzzy
+#| msgctxt "@title:group Size"
+#| msgid "Folders"
+msgctxt "@action:inmenu Sort"
+msgid "Folders First"
+msgstr "Jildlar"
+
+#: views/dolphinviewactionhandler.cpp:182
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Sort By"
+msgctxt "@action:inmenu View"
+msgid "Sort By"
+msgstr "Saralash"
+
+#: views/dolphinviewactionhandler.cpp:196
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Additional Information"
+msgctxt "@action:inmenu View"
+msgid "Additional Information"
+msgstr "Qoʻshimcha maʼlumot"
+
+#: views/dolphinviewactionhandler.cpp:205
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Show in Groups"
+msgctxt "@action:inmenu View"
+msgid "Show in Groups"
+msgstr "Guruhlarda koʻrsatish"
+
+#: views/dolphinviewactionhandler.cpp:209
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Show Hidden Files"
+msgctxt "@action:inmenu View"
+msgid "Show Hidden Files"
+msgstr "Yashirilgan fayllarni koʻrsatish"
+
+#: views/dolphinviewactionhandler.cpp:214
+msgctxt "@action:inmenu View"
+msgid "Adjust View Properties..."
+msgstr ""
+
+#: views/dolphinviewactionhandler.cpp:495
+#, fuzzy
+#| msgctxt "@title:tab"
+#| msgid "Icons"
+msgctxt "@action:inmenu View Mode"
+msgid "Icons"
+msgstr "Nishonchalar"
+
+#: views/dolphinviewactionhandler.cpp:496
+msgctxt "@info"
+msgid "Icons view mode"
+msgstr ""
+
+#: views/dolphinviewactionhandler.cpp:506
+msgctxt "@action:inmenu View Mode"
+msgid "Compact"
+msgstr ""
+
+#: views/dolphinviewactionhandler.cpp:507
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Column width"
+msgctxt "@info"
+msgid "Compact view mode"
+msgstr "Ustunning eni"
+
+#: views/dolphinviewactionhandler.cpp:517
+#, fuzzy
+#| msgctxt "@title:tab"
+#| msgid "Details"
+msgctxt "@action:inmenu View Mode"
+msgid "Details"
+msgstr "Tafsilotlar"
+
+#: views/dolphinviewactionhandler.cpp:518
+msgctxt "@info"
+msgid "Details view mode"
 msgstr ""
 
 #: views/renamedialog.cpp:57
