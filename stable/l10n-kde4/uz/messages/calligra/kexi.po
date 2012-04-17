@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-06 11:16+0200\n"
+"POT-Creation-Date: 2012-04-17 17:46+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -7483,6 +7483,62 @@ msgstr "Xato jadval nomi \"%1\""
 msgid "Insert table field \"%1\""
 msgstr "Xato jadval nomi \"%1\""
 
+#: plugins/tables/kexitabledesignerview_p.cpp:277
+msgid "Do you want to save the design now?"
+msgstr "Dizaynni saqlashni istaysizmi?"
+
+#: plugins/tables/kexitablepart.cpp:60
+#, fuzzy
+msgctxt ""
+"Translate this word using only lowercase alphanumeric characters (a..z, "
+"0..9). Use '_' character instead of spaces. First character should be a..z "
+"character. If you cannot use latin characters in your language, use english "
+"word."
+msgid "table"
+msgstr "hisobot"
+
+#: plugins/tables/kexitablepart.cpp:61
+#, fuzzy
+msgctxt "tooltip"
+msgid "Create new table"
+msgstr "Yangi obʼekt yaratish"
+
+#: plugins/tables/kexitablepart.cpp:62
+#, fuzzy
+#| msgid "Creates a new object"
+msgctxt "what's this"
+msgid "Creates new table."
+msgstr "Yangi obʼekt yaratish"
+
+#: plugins/tables/kexitablepart.cpp:136
+#, kde-format
+msgid ""
+"You are about to remove table \"%1\" but following objects using this table "
+"are opened:"
+msgstr ""
+
+#: plugins/tables/kexitablepart.cpp:188
+msgid "Do you want to close all windows for these objects?"
+msgstr "Ushbu obʼektlar uchun barcha oynalarni yopishni istaysizmi?"
+
+#: plugins/tables/kexitablepart.cpp:189
+msgid "Close windows"
+msgstr "Oynalarni yopish"
+
+#: plugins/tables/kexitablepart.cpp:207
+#, fuzzy, kde-format
+msgid "Design of table \"%1\" has been modified."
+msgstr "\"%1\" hisoboti dizayni oʻzgartirildi."
+
+#: plugins/tables/kexitablepart.cpp:214
+msgid "Warning! Any data in this table will be removed upon design's saving!"
+msgstr ""
+
+#: plugins/tables/kexitablepart.cpp:244
+#, fuzzy
+msgid "Lookup column"
+msgstr "Soʻrov ustuni"
+
 #: plugins/tables/kexitabledesignerview.cpp:130
 msgid "Additional information about the field"
 msgstr ""
@@ -7748,62 +7804,6 @@ msgstr "Jadval maydoni"
 msgctxt "Empty table row"
 msgid "Empty Row"
 msgstr "Boʻsh hator &qoʻshish"
-
-#: plugins/tables/kexitabledesignerview_p.cpp:277
-msgid "Do you want to save the design now?"
-msgstr "Dizaynni saqlashni istaysizmi?"
-
-#: plugins/tables/kexitablepart.cpp:60
-#, fuzzy
-msgctxt ""
-"Translate this word using only lowercase alphanumeric characters (a..z, "
-"0..9). Use '_' character instead of spaces. First character should be a..z "
-"character. If you cannot use latin characters in your language, use english "
-"word."
-msgid "table"
-msgstr "hisobot"
-
-#: plugins/tables/kexitablepart.cpp:61
-#, fuzzy
-msgctxt "tooltip"
-msgid "Create new table"
-msgstr "Yangi obʼekt yaratish"
-
-#: plugins/tables/kexitablepart.cpp:62
-#, fuzzy
-#| msgid "Creates a new object"
-msgctxt "what's this"
-msgid "Creates new table."
-msgstr "Yangi obʼekt yaratish"
-
-#: plugins/tables/kexitablepart.cpp:136
-#, kde-format
-msgid ""
-"You are about to remove table \"%1\" but following objects using this table "
-"are opened:"
-msgstr ""
-
-#: plugins/tables/kexitablepart.cpp:188
-msgid "Do you want to close all windows for these objects?"
-msgstr "Ushbu obʼektlar uchun barcha oynalarni yopishni istaysizmi?"
-
-#: plugins/tables/kexitablepart.cpp:189
-msgid "Close windows"
-msgstr "Oynalarni yopish"
-
-#: plugins/tables/kexitablepart.cpp:207
-#, fuzzy, kde-format
-msgid "Design of table \"%1\" has been modified."
-msgstr "\"%1\" hisoboti dizayni oʻzgartirildi."
-
-#: plugins/tables/kexitablepart.cpp:214
-msgid "Warning! Any data in this table will be removed upon design's saving!"
-msgstr ""
-
-#: plugins/tables/kexitablepart.cpp:244
-#, fuzzy
-msgid "Lookup column"
-msgstr "Soʻrov ustuni"
 
 #: widget/KexiConnectionSelectorWidget.cpp:62
 msgid "Add a new database connection"
