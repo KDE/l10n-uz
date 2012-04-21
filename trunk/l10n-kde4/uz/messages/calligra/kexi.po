@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-17 02:41+0200\n"
+"POT-Creation-Date: 2012-04-21 02:51+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3079,21 +3079,6 @@ msgstr "Nomaʼlum xato."
 msgid "Could not compact database \"%1\"."
 msgstr "\"%1\" maʼlumotlar bazasini yaratib boʻlmadi."
 
-#: kexidb/drivers/sqlite/sqlitevacuum.cpp:129
-#, fuzzy
-msgid "Compacting database"
-msgstr "Maʼlumot bazasi ochilmoqda"
-
-#: kexidb/drivers/sqlite/sqlitevacuum.cpp:130
-#, fuzzy, kde-format
-msgid "Compacting database \"%1\"..."
-msgstr "\"%1\" obʼektini ochib boʻlmadi."
-
-#: kexidb/drivers/sqlite/sqlitevacuum.cpp:203
-#, kde-format
-msgid "The database has been compacted. Current size decreased by %1% to %2."
-msgstr ""
-
 #: kexidb/drivers/sqlite/sqliteconnection.cpp:242
 #, fuzzy, kde-format
 msgid "Do you want to open file \"%1\" as read-only?"
@@ -3126,6 +3111,21 @@ msgstr "\"%1\" faylini olib tashlab boʻlmadi."
 msgid ""
 "Check the file's permissions and whether it is already opened and locked by "
 "another application."
+msgstr ""
+
+#: kexidb/drivers/sqlite/sqlitevacuum.cpp:129
+#, fuzzy
+msgid "Compacting database"
+msgstr "Maʼlumot bazasi ochilmoqda"
+
+#: kexidb/drivers/sqlite/sqlitevacuum.cpp:130
+#, fuzzy, kde-format
+msgid "Compacting database \"%1\"..."
+msgstr "\"%1\" obʼektini ochib boʻlmadi."
+
+#: kexidb/drivers/sqlite/sqlitevacuum.cpp:203
+#, kde-format
+msgid "The database has been compacted. Current size decreased by %1% to %2."
 msgstr ""
 
 #: kexidb/drivers/xbase/xbaseexport.cpp:263
@@ -3232,6 +3232,24 @@ msgstr ""
 msgid "Unspecified error encountered"
 msgstr ""
 
+#: sqlscanner.l:98
+#, fuzzy
+msgid "Invalid integer number"
+msgstr "Xato jadval nomi \"%1\""
+
+#: sqlscanner.l:98
+msgid "This integer number may be too large."
+msgstr ""
+
+#: sqlscanner.l:286
+#, fuzzy
+msgid "Invalid identifier"
+msgstr "Xato oʻlchov \"%1\""
+
+#: sqlscanner.l:287 plugins/queries/kexiquerydesignerguieditor.cpp:1451
+msgid "Identifiers should start with a letter or '_' character"
+msgstr ""
+
 #: kexidb/parser/parser_p.cpp:137
 msgid "identifier was expected"
 msgstr ""
@@ -3293,24 +3311,6 @@ msgstr ""
 "Loyihani olib tashlab boʻlmadi.\n"
 "\"%1\" fayli mavjud emas."
 
-#: sqlscanner.l:98
-#, fuzzy
-msgid "Invalid integer number"
-msgstr "Xato jadval nomi \"%1\""
-
-#: sqlscanner.l:98
-msgid "This integer number may be too large."
-msgstr ""
-
-#: sqlscanner.l:286
-#, fuzzy
-msgid "Invalid identifier"
-msgstr "Xato oʻlchov \"%1\""
-
-#: sqlscanner.l:287 plugins/queries/kexiquerydesignerguieditor.cpp:1451
-msgid "Identifiers should start with a letter or '_' character"
-msgstr ""
-
 #: kexidb/simplecommandlineapp.cpp:81
 #, fuzzy
 msgid "Database driver name"
@@ -3342,6 +3342,151 @@ msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
 #, kde-format
 msgid "Enter password for %1: "
 msgstr ""
+
+#: kexidb/connectiondata.cpp:97
+msgid "file"
+msgstr "fayl"
+
+#: kexidb/drivermanager.cpp:171
+msgid "Could not find any database drivers."
+msgstr "Hecha qanday maʼlumot baza drayveri topilmadi."
+
+#: kexidb/drivermanager.cpp:181 kexidb/drivermanager.cpp:200
+#, kde-format
+msgid "Could not find database driver \"%1\"."
+msgstr "Maʼlumotlar baza drayveri \"%1\" topilmadi."
+
+#: kexidb/drivermanager.cpp:231
+#, kde-format
+msgid "Could not load database driver \"%1\"."
+msgstr "Maʼlumotlar baza drayverini \"%1\" yuklab boʻlmadi."
+
+#: kexidb/drivermanager.cpp:374
+#, kde-format
+msgid "No such driver service: \"%1\"."
+msgstr ""
+
+#: kexidb/utils.cpp:131
+msgid "Message from server:"
+msgstr "Serverdan olingan xabar:"
+
+#: kexidb/utils.cpp:133
+msgid "SQL statement:"
+msgstr ""
+
+#: kexidb/utils.cpp:150 kexidb/utils.cpp:157
+msgid "Server result:"
+msgstr ""
+
+#: kexidb/utils.cpp:394 kexidb/utils.cpp:457 kexidb/utils.cpp:462
+#, fuzzy
+msgid "Test Connection"
+msgstr "Ulanishni tekshirish"
+
+#: kexidb/utils.cpp:395
+#, kde-format
+msgid "<qt>Testing connection to <b>%1</b> database server...</qt>"
+msgstr ""
+
+#: kexidb/utils.cpp:456
+#, kde-format
+msgid ""
+"<qt>Test connection to <b>%1</b> database server failed. The server is not "
+"responding.</qt>"
+msgstr ""
+
+#: kexidb/utils.cpp:460
+#, kde-format
+msgid ""
+"<qt>Test connection to <b>%1</b> database server established successfully.</"
+"qt>"
+msgstr ""
+
+#: kexidb/utils.cpp:1248
+msgid "Number"
+msgstr "Raqam"
+
+#: kexidb/utils.cpp:1251 plugins/forms/kexidbfactory.cpp:344
+#: widget/utils/kexicontextmenuutils.cpp:293
+msgid "Image"
+msgstr "Rasm"
+
+#: kexidb/field.cpp:708
+msgid "Invalid Type"
+msgstr "Xato tur"
+
+#: kexidb/field.cpp:709
+msgid "Byte"
+msgstr "Bayt"
+
+#: kexidb/field.cpp:710
+msgid "Short Integer Number"
+msgstr ""
+
+#: kexidb/field.cpp:711 kexidb/field.cpp:741
+#, fuzzy
+msgid "Integer Number"
+msgstr "Imzolanmagan raqam"
+
+#: kexidb/field.cpp:712
+#, fuzzy
+msgid "Big Integer Number"
+msgstr "Imzolanmagan raqam"
+
+#: kexidb/field.cpp:713
+#, fuzzy
+msgid "Yes/No Value"
+msgstr "Ha/Yoʻq"
+
+#: kexidb/field.cpp:714
+msgid "Date"
+msgstr "Sana"
+
+#: kexidb/field.cpp:715
+msgid "Date and Time"
+msgstr "Vaqt va sana"
+
+#: kexidb/field.cpp:716
+msgid "Time"
+msgstr "Vaqt"
+
+#: kexidb/field.cpp:717
+msgid "Single Precision Number"
+msgstr ""
+
+#: kexidb/field.cpp:718
+msgid "Double Precision Number"
+msgstr ""
+
+#: kexidb/field.cpp:720
+msgid "Long Text"
+msgstr "Uzun matn"
+
+#: kexidb/field.cpp:721 kexidb/field.cpp:745
+msgid "Object"
+msgstr "Obʼekt"
+
+#: kexidb/field.cpp:739
+msgid "Invalid Group"
+msgstr "Xoto guruh"
+
+#: kexidb/field.cpp:742
+msgid "Floating Point Number"
+msgstr ""
+
+#: kexidb/field.cpp:743
+msgid "Yes/No"
+msgstr "Ha/Yoʻq"
+
+#: kexidb/field.cpp:744
+msgid "Date/Time"
+msgstr "Vaqt/Sana"
+
+#: kexidb/queryschema.cpp:266
+#, fuzzy
+msgctxt "short for 'expression' word, e.g. 'expr' (only latin letters, please)"
+msgid "expr"
+msgstr "&Eksport qilish"
 
 #: kexidb/connection.cpp:114
 #, fuzzy
@@ -3664,151 +3809,6 @@ msgstr ""
 #, fuzzy
 msgid "Record deletion on the server failed."
 msgstr "Qatorni olib tashlab boʻlmadi."
-
-#: kexidb/connectiondata.cpp:97
-msgid "file"
-msgstr "fayl"
-
-#: kexidb/drivermanager.cpp:171
-msgid "Could not find any database drivers."
-msgstr "Hecha qanday maʼlumot baza drayveri topilmadi."
-
-#: kexidb/drivermanager.cpp:181 kexidb/drivermanager.cpp:200
-#, kde-format
-msgid "Could not find database driver \"%1\"."
-msgstr "Maʼlumotlar baza drayveri \"%1\" topilmadi."
-
-#: kexidb/drivermanager.cpp:231
-#, kde-format
-msgid "Could not load database driver \"%1\"."
-msgstr "Maʼlumotlar baza drayverini \"%1\" yuklab boʻlmadi."
-
-#: kexidb/drivermanager.cpp:374
-#, kde-format
-msgid "No such driver service: \"%1\"."
-msgstr ""
-
-#: kexidb/utils.cpp:131
-msgid "Message from server:"
-msgstr "Serverdan olingan xabar:"
-
-#: kexidb/utils.cpp:133
-msgid "SQL statement:"
-msgstr ""
-
-#: kexidb/utils.cpp:150 kexidb/utils.cpp:157
-msgid "Server result:"
-msgstr ""
-
-#: kexidb/utils.cpp:394 kexidb/utils.cpp:457 kexidb/utils.cpp:462
-#, fuzzy
-msgid "Test Connection"
-msgstr "Ulanishni tekshirish"
-
-#: kexidb/utils.cpp:395
-#, kde-format
-msgid "<qt>Testing connection to <b>%1</b> database server...</qt>"
-msgstr ""
-
-#: kexidb/utils.cpp:456
-#, kde-format
-msgid ""
-"<qt>Test connection to <b>%1</b> database server failed. The server is not "
-"responding.</qt>"
-msgstr ""
-
-#: kexidb/utils.cpp:460
-#, kde-format
-msgid ""
-"<qt>Test connection to <b>%1</b> database server established successfully.</"
-"qt>"
-msgstr ""
-
-#: kexidb/utils.cpp:1248
-msgid "Number"
-msgstr "Raqam"
-
-#: kexidb/utils.cpp:1251 plugins/forms/kexidbfactory.cpp:344
-#: widget/utils/kexicontextmenuutils.cpp:293
-msgid "Image"
-msgstr "Rasm"
-
-#: kexidb/field.cpp:708
-msgid "Invalid Type"
-msgstr "Xato tur"
-
-#: kexidb/field.cpp:709
-msgid "Byte"
-msgstr "Bayt"
-
-#: kexidb/field.cpp:710
-msgid "Short Integer Number"
-msgstr ""
-
-#: kexidb/field.cpp:711 kexidb/field.cpp:741
-#, fuzzy
-msgid "Integer Number"
-msgstr "Imzolanmagan raqam"
-
-#: kexidb/field.cpp:712
-#, fuzzy
-msgid "Big Integer Number"
-msgstr "Imzolanmagan raqam"
-
-#: kexidb/field.cpp:713
-#, fuzzy
-msgid "Yes/No Value"
-msgstr "Ha/Yoʻq"
-
-#: kexidb/field.cpp:714
-msgid "Date"
-msgstr "Sana"
-
-#: kexidb/field.cpp:715
-msgid "Date and Time"
-msgstr "Vaqt va sana"
-
-#: kexidb/field.cpp:716
-msgid "Time"
-msgstr "Vaqt"
-
-#: kexidb/field.cpp:717
-msgid "Single Precision Number"
-msgstr ""
-
-#: kexidb/field.cpp:718
-msgid "Double Precision Number"
-msgstr ""
-
-#: kexidb/field.cpp:720
-msgid "Long Text"
-msgstr "Uzun matn"
-
-#: kexidb/field.cpp:721 kexidb/field.cpp:745
-msgid "Object"
-msgstr "Obʼekt"
-
-#: kexidb/field.cpp:739
-msgid "Invalid Group"
-msgstr "Xoto guruh"
-
-#: kexidb/field.cpp:742
-msgid "Floating Point Number"
-msgstr ""
-
-#: kexidb/field.cpp:743
-msgid "Yes/No"
-msgstr "Ha/Yoʻq"
-
-#: kexidb/field.cpp:744
-msgid "Date/Time"
-msgstr "Vaqt/Sana"
-
-#: kexidb/queryschema.cpp:266
-#, fuzzy
-msgctxt "short for 'expression' word, e.g. 'expr' (only latin letters, please)"
-msgid "expr"
-msgstr "&Eksport qilish"
 
 #: kexiutils/identifier.cpp:92
 #, kde-format
