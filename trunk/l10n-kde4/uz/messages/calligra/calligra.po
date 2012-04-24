@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-23 02:34+0200\n"
+"POT-Creation-Date: 2012-04-24 03:24+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1148,22 +1148,6 @@ msgctxt "(qtundo-format)"
 msgid "Change page layout"
 msgstr "Tabulyasiyani oʻzgartirish"
 
-#. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: file: main/rdf/KoRdfLocationViewWidgetMarble.ui:24
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: koreport/common/KoReportItemBase.cpp:28 rc.cpp:313 rc.cpp:337
-#, fuzzy
-#| msgid "Name:"
-msgid "Name"
-msgstr "Nomi:"
-
-#: koreport/common/KoReportItemBase.cpp:28
-#, fuzzy
-#| msgid "Object"
-msgid "Object Name"
-msgstr "Obʼekt"
-
 #: koreport/common/KoReportItemLine.cpp:67
 #: koreport/items/check/KoReportItemCheck.cpp:82
 #: koreport/items/field/KoReportItemField.cpp:107
@@ -1198,6 +1182,28 @@ msgstr "&Uslub"
 msgid "Position"
 msgstr "Joylashishi"
 
+#: koreport/common/krsize.cpp:26
+#, fuzzy
+#| msgid "Size:"
+msgid "Size"
+msgstr "Oʻlchami:"
+
+#. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: main/rdf/KoRdfLocationViewWidgetMarble.ui:24
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: koreport/common/KoReportItemBase.cpp:28 rc.cpp:313 rc.cpp:337
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "Nomi:"
+
+#: koreport/common/KoReportItemBase.cpp:28
+#, fuzzy
+#| msgid "Object"
+msgid "Object Name"
+msgstr "Obʼekt"
+
 #: koreport/common/krsectiondata.cpp:109
 #, fuzzy
 msgid "Height"
@@ -1210,12 +1216,6 @@ msgstr "&Uzunasi:"
 #, fuzzy
 msgid "Background Color"
 msgstr "Soniya"
-
-#: koreport/common/krsize.cpp:26
-#, fuzzy
-#| msgid "Size:"
-msgid "Size"
-msgstr "Oʻlchami:"
 
 #: koreport/items/check/KoReportCheckPlugin.cpp:36
 msgid "Check"
@@ -1426,18 +1426,6 @@ msgstr ""
 msgid "Unable to add a new group because its name would not be unique"
 msgstr ""
 
-#: koreport/wrtembed/KoReportDesignerItemBase.cpp:124
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgctxt "<data-source>: <object>"
-msgid "%1: %2"
-msgstr "%1%"
-
-#: koreport/wrtembed/reportsection.cpp:95
-#, fuzzy
-msgid "Detail"
-msgstr "&Andoza"
-
 #: koreport/wrtembed/KoReportDesigner.cpp:493
 msgid "Page Header (Any)"
 msgstr ""
@@ -1598,6 +1586,18 @@ msgstr "Matnni oʻchirish"
 #, fuzzy
 msgid "Line"
 msgstr "Atirgul"
+
+#: koreport/wrtembed/KoReportDesignerItemBase.cpp:124
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "<data-source>: <object>"
+msgid "%1: %2"
+msgstr "%1%"
+
+#: koreport/wrtembed/reportsection.cpp:95
+#, fuzzy
+msgid "Detail"
+msgstr "&Andoza"
 
 #: kotext/InsertTextLocator.cpp:33
 msgid "Index Reference"
@@ -2132,6 +2132,166 @@ msgid "Unknown Calligra MimeType %1. Check your installation."
 msgstr ""
 "KOffice MIME turi %s nomaʼlum. Dastur toʻgʻri oʻrnatilganligini tekshiring."
 
+#: main/KoView.cpp:505
+#, fuzzy
+msgid "&New View"
+msgstr "Koʻrinishni &olib tashlash"
+
+#: main/KoDocumentInfo.cpp:51
+msgid "Unknown"
+msgstr "Nomaʼlum"
+
+#: main/KoDocumentInfoDlg.cpp:93 main/KoMainWindow.cpp:282
+msgid "Document Information"
+msgstr "Hujjat haqida maʼlumot"
+
+#: main/KoDocumentInfoDlg.cpp:108 main/KoDocumentInfoDlg.cpp:109
+msgid "General"
+msgstr "Umumiy"
+
+#: main/KoDocumentInfoDlg.cpp:127 main/KoDocumentInfoDlg.cpp:128
+msgid "Author"
+msgstr "Muallif"
+
+#: main/KoDocumentInfoDlg.cpp:143 main/KoDocumentInfoDlg.cpp:144
+#, fuzzy
+#| msgid "Red"
+msgid "Rdf"
+msgstr "Qizil"
+
+#: main/KoDocumentInfoDlg.cpp:192
+msgid "Use ';' (Example: Office;KDE;Calligra)"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:222 main/KoDocumentInfoDlg.cpp:355
+msgid "This document will be decrypted"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:224 main/KoDocumentInfoDlg.cpp:357
+#, fuzzy
+msgid "Do not decrypt"
+msgstr "Taʼrifi:"
+
+#: main/KoDocumentInfoDlg.cpp:227 main/KoDocumentInfoDlg.cpp:360
+msgid "This document is encrypted"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:229 main/KoDocumentInfoDlg.cpp:362
+#, fuzzy
+msgid "D&ecrypt"
+msgstr "Taʼrifi:"
+
+#: main/KoDocumentInfoDlg.cpp:234 main/KoDocumentInfoDlg.cpp:367
+msgid "This document will be encrypted."
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:236 main/KoDocumentInfoDlg.cpp:369
+#, fuzzy
+msgid "Do not encrypt"
+msgstr "Taʼrifi:"
+
+#: main/KoDocumentInfoDlg.cpp:239 main/KoDocumentInfoDlg.cpp:372
+#, fuzzy
+msgid "This document is not encrypted"
+msgstr "Hujjat MathML hujjatiga oʻxshamaydi."
+
+#. i18n: file: main/koDocumentInfoAboutWidget.ui:298
+#. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
+#: main/KoDocumentInfoDlg.cpp:241 main/KoDocumentInfoDlg.cpp:374 rc.cpp:406
+msgid "&Encrypt"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:245
+#, fuzzy
+msgid "This document does not support encryption"
+msgstr "Hujjat MathML hujjatiga oʻxshamaydi."
+
+#: main/KoDocumentInfoDlg.cpp:409
+msgid ""
+"<qt>Decrypting the document will remove the password protection from it."
+"<p>Do you still want to decrypt the file?</qt>"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:411
+#, fuzzy
+msgid "Confirm Decrypt"
+msgstr "Eksport qilishni tasdiqlash"
+
+#: main/KoDocumentInfoDlg.cpp:412
+#, fuzzy
+msgid "Decrypt"
+msgstr "Taʼrifi:"
+
+#: main/KoDocumentInfoDlg.cpp:423
+msgid ""
+"<qt>Your document could not be saved automatically.<p>To complete the "
+"decryption, please save the document.</qt>"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:425 main/KoDocumentInfoDlg.cpp:433
+#: main/KoDocumentInfoDlg.cpp:466 main/KoDocumentInfoDlg.cpp:474
+#, fuzzy
+msgid "Save Document"
+msgstr "Boshqa hujjat sifatida saqlash"
+
+#: main/KoDocumentInfoDlg.cpp:431
+msgid ""
+"<qt>The document has been changed since it was opened. To complete the "
+"decryption the document needs to be saved.<p>Do you want to save the "
+"document now?</qt>"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:445 main/KoMainWindow.cpp:757
+#, kde-format
+msgid "%1 (unknown file type)"
+msgstr "%1 (faylning turi nomaʼlum)"
+
+#: main/KoDocumentInfoDlg.cpp:448
+#, kde-format
+msgid ""
+"<qt>The document is currently saved as %1. The document needs to be changed "
+"to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the "
+"file to OASIS OpenDocument?</qt>"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:450
+#, fuzzy
+msgid "Change Filetype"
+msgstr "Roʻyxatning turini oʻzgartirish"
+
+#: main/KoDocumentInfoDlg.cpp:451
+#, fuzzy
+msgid "Change"
+msgstr "Belgi uslubini oʻzgartirish"
+
+#: main/KoDocumentInfoDlg.cpp:464
+msgid ""
+"<qt>Your document could not be saved automatically.<p>To complete the "
+"encryption, please save the document.</qt>"
+msgstr ""
+
+#: main/KoDocumentInfoDlg.cpp:472
+msgid ""
+"<qt>The document has been changed since it was opened. To complete the "
+"encryption the document needs to be saved.<p>Do you want to save the "
+"document now?</qt>"
+msgstr ""
+
+#: main/KoDocumentSectionDelegate.cpp:512
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgid "%1 %"
+msgstr "%1%"
+
+#: main/KoDocumentSectionToolTip.cpp:50
+msgid "Yes"
+msgstr ""
+
+#: main/KoDocumentSectionToolTip.cpp:50
+#, fuzzy
+msgid "No"
+msgstr "Izoh"
+
 #: main/KoDocument.cpp:513
 #, fuzzy
 msgid "Making backup..."
@@ -2338,7 +2498,7 @@ msgid ""
 msgstr ""
 
 #: main/KoDocument.cpp:2159 main/KoMainWindow.cpp:1141
-#: pigment/resources/KoColorSet.cpp:174
+#: pigment/resources/KoColorSet.cpp:175
 #, fuzzy
 msgid "Untitled"
 msgstr "Sarlavha"
@@ -2413,165 +2573,10 @@ msgstr "diagramma"
 msgid "a drawing"
 msgstr "chizma"
 
-#: main/KoDocument.cpp:2757
+#: main/KoDocument.cpp:2752
 #, fuzzy
 msgid "Embedding Object"
 msgstr "Belgilangan obʼektlar soni"
-
-#: main/KoDocumentInfo.cpp:51
-msgid "Unknown"
-msgstr "Nomaʼlum"
-
-#: main/KoDocumentInfoDlg.cpp:93 main/KoMainWindow.cpp:282
-msgid "Document Information"
-msgstr "Hujjat haqida maʼlumot"
-
-#: main/KoDocumentInfoDlg.cpp:108 main/KoDocumentInfoDlg.cpp:109
-msgid "General"
-msgstr "Umumiy"
-
-#: main/KoDocumentInfoDlg.cpp:127 main/KoDocumentInfoDlg.cpp:128
-msgid "Author"
-msgstr "Muallif"
-
-#: main/KoDocumentInfoDlg.cpp:143 main/KoDocumentInfoDlg.cpp:144
-#, fuzzy
-#| msgid "Red"
-msgid "Rdf"
-msgstr "Qizil"
-
-#: main/KoDocumentInfoDlg.cpp:192
-msgid "Use ';' (Example: Office;KDE;Calligra)"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:222 main/KoDocumentInfoDlg.cpp:355
-msgid "This document will be decrypted"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:224 main/KoDocumentInfoDlg.cpp:357
-#, fuzzy
-msgid "Do not decrypt"
-msgstr "Taʼrifi:"
-
-#: main/KoDocumentInfoDlg.cpp:227 main/KoDocumentInfoDlg.cpp:360
-msgid "This document is encrypted"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:229 main/KoDocumentInfoDlg.cpp:362
-#, fuzzy
-msgid "D&ecrypt"
-msgstr "Taʼrifi:"
-
-#: main/KoDocumentInfoDlg.cpp:234 main/KoDocumentInfoDlg.cpp:367
-msgid "This document will be encrypted."
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:236 main/KoDocumentInfoDlg.cpp:369
-#, fuzzy
-msgid "Do not encrypt"
-msgstr "Taʼrifi:"
-
-#: main/KoDocumentInfoDlg.cpp:239 main/KoDocumentInfoDlg.cpp:372
-#, fuzzy
-msgid "This document is not encrypted"
-msgstr "Hujjat MathML hujjatiga oʻxshamaydi."
-
-#. i18n: file: main/koDocumentInfoAboutWidget.ui:298
-#. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
-#: main/KoDocumentInfoDlg.cpp:241 main/KoDocumentInfoDlg.cpp:374 rc.cpp:406
-msgid "&Encrypt"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:245
-#, fuzzy
-msgid "This document does not support encryption"
-msgstr "Hujjat MathML hujjatiga oʻxshamaydi."
-
-#: main/KoDocumentInfoDlg.cpp:409
-msgid ""
-"<qt>Decrypting the document will remove the password protection from it."
-"<p>Do you still want to decrypt the file?</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:411
-#, fuzzy
-msgid "Confirm Decrypt"
-msgstr "Eksport qilishni tasdiqlash"
-
-#: main/KoDocumentInfoDlg.cpp:412
-#, fuzzy
-msgid "Decrypt"
-msgstr "Taʼrifi:"
-
-#: main/KoDocumentInfoDlg.cpp:423
-msgid ""
-"<qt>Your document could not be saved automatically.<p>To complete the "
-"decryption, please save the document.</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:425 main/KoDocumentInfoDlg.cpp:433
-#: main/KoDocumentInfoDlg.cpp:466 main/KoDocumentInfoDlg.cpp:474
-#, fuzzy
-msgid "Save Document"
-msgstr "Boshqa hujjat sifatida saqlash"
-
-#: main/KoDocumentInfoDlg.cpp:431
-msgid ""
-"<qt>The document has been changed since it was opened. To complete the "
-"decryption the document needs to be saved.<p>Do you want to save the "
-"document now?</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:445 main/KoMainWindow.cpp:757
-#, kde-format
-msgid "%1 (unknown file type)"
-msgstr "%1 (faylning turi nomaʼlum)"
-
-#: main/KoDocumentInfoDlg.cpp:448
-#, kde-format
-msgid ""
-"<qt>The document is currently saved as %1. The document needs to be changed "
-"to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the "
-"file to OASIS OpenDocument?</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:450
-#, fuzzy
-msgid "Change Filetype"
-msgstr "Roʻyxatning turini oʻzgartirish"
-
-#: main/KoDocumentInfoDlg.cpp:451
-#, fuzzy
-msgid "Change"
-msgstr "Belgi uslubini oʻzgartirish"
-
-#: main/KoDocumentInfoDlg.cpp:464
-msgid ""
-"<qt>Your document could not be saved automatically.<p>To complete the "
-"encryption, please save the document.</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:472
-msgid ""
-"<qt>The document has been changed since it was opened. To complete the "
-"encryption the document needs to be saved.<p>Do you want to save the "
-"document now?</qt>"
-msgstr ""
-
-#: main/KoDocumentSectionDelegate.cpp:512
-#, fuzzy, kde-format
-#| msgid "%1%"
-msgid "%1 %"
-msgstr "%1%"
-
-#: main/KoDocumentSectionToolTip.cpp:50
-msgid "Yes"
-msgstr ""
-
-#: main/KoDocumentSectionToolTip.cpp:50
-#, fuzzy
-msgid "No"
-msgstr "Izoh"
 
 #: main/KoExistingDocumentPane.cpp:45 main/KoMainWindow.cpp:1216
 #: main/KoOpenPane.cpp:359 main/KoOpenPane.cpp:363
@@ -2597,6 +2602,18 @@ msgstr ""
 #, kde-format
 msgid "%1 (%2 Compatible)"
 msgstr "%1 (%2 bilan mos)"
+
+#: main/KoRuler.cpp:1271
+msgid "First line indent"
+msgstr "Birinchi satrda boʻsh joy"
+
+#: main/KoRuler.cpp:1272
+msgid "Left indent"
+msgstr "Chapdan boʻsh joy"
+
+#: main/KoRuler.cpp:1273
+msgid "Right indent"
+msgstr "Oʻngdan boʻsh joy"
 
 #: main/KoFilterManager.cpp:230 main/KoFilterManager.cpp:239
 msgid "Could not export file."
@@ -2899,18 +2916,6 @@ msgctxt "File access date and time. %1 is date time"
 msgid "<tr><td><b>Accessed:</b></td><td>%1</td></tr>"
 msgstr "<tr><td><b>Foydalanilgan:</b></td><td>%1</td></tr>"
 
-#: main/KoRuler.cpp:1271
-msgid "First line indent"
-msgstr "Birinchi satrda boʻsh joy"
-
-#: main/KoRuler.cpp:1272
-msgid "Left indent"
-msgstr "Chapdan boʻsh joy"
-
-#: main/KoRuler.cpp:1273
-msgid "Right indent"
-msgstr "Oʻngdan boʻsh joy"
-
 #: main/KoStandardAction.cpp:31
 msgid "Show Guides"
 msgstr ""
@@ -3067,6 +3072,27 @@ msgstr ""
 msgid "Date: %1"
 msgstr "Sana:"
 
+#: main/config/KoConfigDocumentPage.cpp:75
+#, fuzzy
+#| msgid "Autosaving..."
+msgid "Auto save (min):"
+msgstr "Avto-saqlanmoqda..."
+
+#: main/config/KoConfigDocumentPage.cpp:76
+#, fuzzy
+#| msgid "No date set"
+msgid "No auto save"
+msgstr "Sana koʻrsatilmagan"
+
+#: main/config/KoConfigDocumentPage.cpp:77
+msgid "min"
+msgstr ""
+
+#: main/config/KoConfigDocumentPage.cpp:80
+#, fuzzy
+msgid "Create backup file"
+msgstr "Namunani yaratish"
+
 #: main/config/KoConfigGridPage.cpp:67
 #, fuzzy
 #| msgid "Show %1"
@@ -3103,48 +3129,27 @@ msgctxt "Vertical grid spacing"
 msgid "&Vertical:"
 msgstr "&Boʻyiga"
 
-#: main/config/KoConfigDocumentPage.cpp:75
-#, fuzzy
-#| msgid "Autosaving..."
-msgid "Auto save (min):"
-msgstr "Avto-saqlanmoqda..."
-
-#: main/config/KoConfigDocumentPage.cpp:76
-#, fuzzy
-#| msgid "No date set"
-msgid "No auto save"
-msgstr "Sana koʻrsatilmagan"
-
-#: main/config/KoConfigDocumentPage.cpp:77
-msgid "min"
-msgstr ""
-
-#: main/config/KoConfigDocumentPage.cpp:80
-#, fuzzy
-msgid "Create backup file"
-msgstr "Namunani yaratish"
-
-#: main/config/KoConfigMiscPage.cpp:89
+#: main/config/KoConfigMiscPage.cpp:88
 #, fuzzy
 #| msgid "Unit:"
 msgid "Units:"
 msgstr "Birlik:"
 
-#: main/config/KoConfigMiscPage.cpp:97
+#: main/config/KoConfigMiscPage.cpp:96
 msgid "Handle radius:"
 msgstr ""
 
-#: main/config/KoConfigMiscPage.cpp:105
+#: main/config/KoConfigMiscPage.cpp:104
 msgid "Grab sensitivity:"
 msgstr ""
 
-#: main/config/KoConfigMiscPage.cpp:113
+#: main/config/KoConfigMiscPage.cpp:112
 #, fuzzy
 #| msgid "Shadow:"
 msgid "Paste offset:"
 msgstr "Soya:"
 
-#: main/config/KoConfigMiscPage.cpp:122
+#: main/config/KoConfigMiscPage.cpp:121
 msgid "Paste at Cursor"
 msgstr ""
 
@@ -3363,11 +3368,6 @@ msgstr "Toʻldirish moslamalari"
 #: main/KoToolDocker.cpp:223
 msgid "Toggles organising the options in tabs or not"
 msgstr ""
-
-#: main/KoView.cpp:505
-#, fuzzy
-msgid "&New View"
-msgstr "Koʻrinishni &olib tashlash"
 
 #: odf/KoEncryptedStore.cpp:165
 msgid ""
@@ -3636,40 +3636,40 @@ msgstr "Masofadagi manzil uchun direktoriya usuli qoʻllanilmaydi."
 msgid "Calligra Storage"
 msgstr ""
 
-#: odf/KoUnit.cpp:53
+#: odf/KoUnit.cpp:48
 msgid "Millimeters (mm)"
 msgstr "Millimetr (mm)"
 
-#: odf/KoUnit.cpp:55
+#: odf/KoUnit.cpp:50
 msgid "Centimeters (cm)"
 msgstr "Santimetr (sm)"
 
-#: odf/KoUnit.cpp:57
+#: odf/KoUnit.cpp:52
 msgid "Decimeters (dm)"
 msgstr "Detsimetr (dm)"
 
-#: odf/KoUnit.cpp:59
+#: odf/KoUnit.cpp:54
 msgid "Inches (in)"
 msgstr "Dyuym (dm)"
 
-#: odf/KoUnit.cpp:61
+#: odf/KoUnit.cpp:56
 msgid "Pica (pi)"
 msgstr "Pika (pi)"
 
-#: odf/KoUnit.cpp:63
+#: odf/KoUnit.cpp:58
 msgid "Cicero (cc)"
 msgstr ""
 
-#: odf/KoUnit.cpp:65
+#: odf/KoUnit.cpp:60
 msgid "Points (pt)"
 msgstr "Nuqta (pt)"
 
-#: odf/KoUnit.cpp:67
+#: odf/KoUnit.cpp:62
 #, fuzzy
 msgid "Pixels (px)"
 msgstr "Nuqta (pt)"
 
-#: odf/KoUnit.cpp:69
+#: odf/KoUnit.cpp:64
 msgid "Error!"
 msgstr "Xato!"
 
