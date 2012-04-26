@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-19 12:53+0200\n"
+"POT-Creation-Date: 2012-04-26 12:44+0200\n"
 "PO-Revision-Date: 2008-06-04 01:21+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -422,93 +422,6 @@ msgstr "Manzili:"
 #, fuzzy
 msgid "Device name"
 msgstr "Uskuna:"
-
-#: kfile/kopenwithdialog.cpp:269
-msgid "Known Applications"
-msgstr "Maʼlum boʻlgan dasturlar"
-
-#: kfile/kopenwithdialog.cpp:483
-msgid "Open With"
-msgstr "Dastur bilan ochish"
-
-#: kfile/kopenwithdialog.cpp:488
-#, kde-format
-msgid ""
-"<qt>Select the program that should be used to open <b>%1</b>. If the program "
-"is not listed, enter the name or click the browse button.</qt>"
-msgstr ""
-"<qt><b>%1</b> faylini ochish uchun dasturni tanlang. Agar dastur roʻyxatda "
-"boʻlmasa, uning nomini kiriting yoki \"Tanlash\"tugmasini bosing.</qt>"
-
-#: kfile/kopenwithdialog.cpp:494
-msgid "Choose the name of the program with which to open the selected files."
-msgstr "Tanlangan fayllarni ochish uchun dasturni tanlang."
-
-#: kfile/kopenwithdialog.cpp:521
-#, kde-format
-msgid "Choose Application for %1"
-msgstr "%1 uchun dasturni tanlang"
-
-#: kfile/kopenwithdialog.cpp:522
-#, kde-format
-msgid ""
-"<qt>Select the program for the file type: <b>%1</b>. If the program is not "
-"listed, enter the name or click the browse button.</qt>"
-msgstr ""
-"<qt><b>%1</b> fayl turi uchun dasturni tanlang. Agar dastur roʻyxatda "
-"boʻlmasa, uning nomini kiriting yoki \"Tanlash\"tugmasini bosing.</qt>"
-
-#: kfile/kopenwithdialog.cpp:537
-msgid "Choose Application"
-msgstr "Dasturni tanlang"
-
-#: kfile/kopenwithdialog.cpp:538
-msgid ""
-"<qt>Select a program. If the program is not listed, enter the name or click "
-"the browse button.</qt>"
-msgstr ""
-"<qt>Dasturni tanlang. Agar dastur roʻyxatda boʻlmasa, uning nomini kiriting "
-"yoki \"Tanlash\"tugmasini bosing.</qt>"
-
-#: kfile/kopenwithdialog.cpp:601
-msgid ""
-"Following the command, you can have several place holders which will be "
-"replaced with the actual values when the actual program is run:\n"
-"%f - a single file name\n"
-"%F - a list of files; use for applications that can open several local files "
-"at once\n"
-"%u - a single URL\n"
-"%U - a list of URLs\n"
-"%d - the directory of the file to open\n"
-"%D - a list of directories\n"
-"%i - the icon\n"
-"%m - the mini-icon\n"
-"%c - the comment"
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:636
-msgid "Run in &terminal"
-msgstr "&Terminalda bajarish"
-
-#: kfile/kopenwithdialog.cpp:653
-msgid "&Do not close when command exits"
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:670
-msgid "&Remember application association for this type of file"
-msgstr "Shu fayl turi bilan bogʻliq dasturni &eslab qolish"
-
-#: kfile/kopenwithdialog.cpp:814
-#, kde-format
-msgid ""
-"Could not extract executable name from '%1', please type a valid program "
-"name."
-msgstr ""
-
-#: kfile/kopenwithdialog.cpp:860
-#, kde-format
-msgid "'%1' not found, please type a valid program name."
-msgstr ""
 
 #: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:423
 #, fuzzy
@@ -1111,6 +1024,93 @@ msgstr "Hajmi:"
 msgctxt "@label"
 msgid "Type"
 msgstr "Turi"
+
+#: kfile/kopenwithdialog.cpp:269
+msgid "Known Applications"
+msgstr "Maʼlum boʻlgan dasturlar"
+
+#: kfile/kopenwithdialog.cpp:483
+msgid "Open With"
+msgstr "Dastur bilan ochish"
+
+#: kfile/kopenwithdialog.cpp:488
+#, kde-format
+msgid ""
+"<qt>Select the program that should be used to open <b>%1</b>. If the program "
+"is not listed, enter the name or click the browse button.</qt>"
+msgstr ""
+"<qt><b>%1</b> faylini ochish uchun dasturni tanlang. Agar dastur roʻyxatda "
+"boʻlmasa, uning nomini kiriting yoki \"Tanlash\"tugmasini bosing.</qt>"
+
+#: kfile/kopenwithdialog.cpp:494
+msgid "Choose the name of the program with which to open the selected files."
+msgstr "Tanlangan fayllarni ochish uchun dasturni tanlang."
+
+#: kfile/kopenwithdialog.cpp:521
+#, kde-format
+msgid "Choose Application for %1"
+msgstr "%1 uchun dasturni tanlang"
+
+#: kfile/kopenwithdialog.cpp:522
+#, kde-format
+msgid ""
+"<qt>Select the program for the file type: <b>%1</b>. If the program is not "
+"listed, enter the name or click the browse button.</qt>"
+msgstr ""
+"<qt><b>%1</b> fayl turi uchun dasturni tanlang. Agar dastur roʻyxatda "
+"boʻlmasa, uning nomini kiriting yoki \"Tanlash\"tugmasini bosing.</qt>"
+
+#: kfile/kopenwithdialog.cpp:537
+msgid "Choose Application"
+msgstr "Dasturni tanlang"
+
+#: kfile/kopenwithdialog.cpp:538
+msgid ""
+"<qt>Select a program. If the program is not listed, enter the name or click "
+"the browse button.</qt>"
+msgstr ""
+"<qt>Dasturni tanlang. Agar dastur roʻyxatda boʻlmasa, uning nomini kiriting "
+"yoki \"Tanlash\"tugmasini bosing.</qt>"
+
+#: kfile/kopenwithdialog.cpp:602
+msgid ""
+"Following the command, you can have several place holders which will be "
+"replaced with the actual values when the actual program is run:\n"
+"%f - a single file name\n"
+"%F - a list of files; use for applications that can open several local files "
+"at once\n"
+"%u - a single URL\n"
+"%U - a list of URLs\n"
+"%d - the directory of the file to open\n"
+"%D - a list of directories\n"
+"%i - the icon\n"
+"%m - the mini-icon\n"
+"%c - the comment"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:637
+msgid "Run in &terminal"
+msgstr "&Terminalda bajarish"
+
+#: kfile/kopenwithdialog.cpp:654
+msgid "&Do not close when command exits"
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:671
+msgid "&Remember application association for this type of file"
+msgstr "Shu fayl turi bilan bogʻliq dasturni &eslab qolish"
+
+#: kfile/kopenwithdialog.cpp:815
+#, kde-format
+msgid ""
+"Could not extract executable name from '%1', please type a valid program "
+"name."
+msgstr ""
+
+#: kfile/kopenwithdialog.cpp:861
+#, kde-format
+msgid "'%1' not found, please type a valid program name."
+msgstr ""
 
 #: kfile/kcommentwidget.cpp:65
 #, fuzzy
