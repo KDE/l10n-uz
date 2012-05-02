@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-26 03:07+0200\n"
+"POT-Creation-Date: 2012-05-02 03:06+0200\n"
 "PO-Revision-Date: 2006-12-17 13:47+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -18385,16 +18385,22 @@ msgid "Internet address:"
 msgstr "Internet manzili:"
 
 #: dialogs/LinkDialog.cpp:96
-msgid "Mail"
-msgstr "Xat"
+#, fuzzy
+#| msgid "Email:"
+msgid "Email"
+msgstr "Elektron pochta:"
 
 #: dialogs/LinkDialog.cpp:97
-msgid "Link to Mail Address"
-msgstr ""
+#, fuzzy
+#| msgid "Internet address:"
+msgid "Link to Email Address"
+msgstr "Internet manzili:"
 
 #: dialogs/LinkDialog.cpp:103
-msgid "Email:"
-msgstr "Elektron pochta:"
+#, fuzzy
+#| msgid "Mail address is empty"
+msgid "Email address:"
+msgstr "Elektron pochta manzili koʻrsatilmagan"
 
 #: dialogs/LinkDialog.cpp:108
 #, fuzzy
@@ -20143,8 +20149,8 @@ msgstr "Ustunlarni olib tashlash"
 
 #: ui/CellToolBase.cpp:476
 #, fuzzy
-msgid "Removes a column from the spreadsheet"
-msgstr "Elektron jadvaldan ustunni olib tashlash."
+msgid "Removes the selected columns from the spreadsheet"
+msgstr "Joriy katakni elektron jadvaldan olib tashlash."
 
 #: ui/CellToolBase.cpp:480
 msgid "Hide Columns"
@@ -20976,6 +20982,13 @@ msgstr "Tanlangan varaqlar"
 #, fuzzy
 msgid "Select Multiple Cells"
 msgstr "Jadvallarni tanlang:"
+
+#~ msgid "Mail"
+#~ msgstr "Xat"
+
+#, fuzzy
+#~ msgid "Removes a column from the spreadsheet"
+#~ msgstr "Elektron jadvaldan ustunni olib tashlash."
 
 #, fuzzy
 #~ msgctxt "application name"
