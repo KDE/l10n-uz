@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-06 03:00+0200\n"
+"POT-Creation-Date: 2012-05-07 02:37+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1585,8 +1585,8 @@ msgstr "Tanlanganni koʻrsatish"
 
 #. i18n: file: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:24
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: rc.cpp:219 ui/dialogs/kis_dlg_preferences.cc:566
-#: ui/dialogs/kis_dlg_preferences.cc:567
+#: rc.cpp:219 ui/dialogs/kis_dlg_preferences.cc:567
+#: ui/dialogs/kis_dlg_preferences.cc:568
 msgid "General"
 msgstr "Umumiy"
 
@@ -4756,7 +4756,7 @@ msgstr "&Azimut:"
 #: rc.cpp:1469 rc.cpp:1502 rc.cpp:1535 rc.cpp:1568 rc.cpp:3886
 #: plugins/generators/solid/colorgenerator.h:53
 #: plugins/paintops/libpaintop/kis_paintop_option.cpp:31
-#: ui/dialogs/kis_dlg_preferences.cc:583
+#: ui/dialogs/kis_dlg_preferences.cc:584
 msgid "Color"
 msgstr "Rang"
 
@@ -8246,8 +8246,8 @@ msgstr "Yangi rasm uchun andoza rang:"
 #. i18n: ectx: property (title), widget (QGroupBox, grpDisplay)
 #. i18n: file: ui/forms/wdgdisplaysettings.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
-#: rc.cpp:3315 rc.cpp:3411 ui/dialogs/kis_dlg_preferences.cc:574
-#: ui/dialogs/kis_dlg_preferences.cc:575
+#: rc.cpp:3315 rc.cpp:3411 ui/dialogs/kis_dlg_preferences.cc:575
+#: ui/dialogs/kis_dlg_preferences.cc:576
 #, fuzzy
 msgid "Display"
 msgstr "Displey"
@@ -9594,14 +9594,14 @@ msgstr "Filte&r"
 msgid "Settings"
 msgstr "Moslamalar"
 
-#. i18n: file: krita.rc:155
+#. i18n: file: krita.rc:156
 #. i18n: ectx: Menu (help)
 #: rc.cpp:4075
 #, fuzzy
 msgid "&Help"
 msgstr "Koʻrsatish/&bekitish"
 
-#. i18n: file: krita.rc:163
+#. i18n: file: krita.rc:164
 #. i18n: ectx: ToolBar (BrushesAndStuff)
 #: rc.cpp:4078
 #, fuzzy
@@ -12862,8 +12862,8 @@ msgstr "Oʻng:"
 msgid "Unlock Points"
 msgstr ""
 
-#: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:600
-#: ui/dialogs/kis_dlg_preferences.cc:601
+#: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:601
+#: ui/dialogs/kis_dlg_preferences.cc:602
 msgid "Grid"
 msgstr "Toʻr"
 
@@ -12932,56 +12932,65 @@ msgstr "Rasmning xossalari"
 msgid "Layer Properties"
 msgstr "Qatlamning xossalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:90
+#: ui/dialogs/kis_dlg_preferences.cc:91
 #, fuzzy
 msgid "Small Circle"
 msgstr "Bitta kichik qadam..."
 
-#: ui/dialogs/kis_dlg_preferences.cc:238
+#: ui/dialogs/kis_dlg_preferences.cc:239
 #, fuzzy
 msgid "Monitor profile: "
 msgstr "Profil yoʻq"
 
-#: ui/dialogs/kis_dlg_preferences.cc:241
+#: ui/dialogs/kis_dlg_preferences.cc:242
 #, fuzzy
 msgid "&Monitor profile: "
 msgstr "Profil yoʻq"
 
-#: ui/dialogs/kis_dlg_preferences.cc:558
+#: ui/dialogs/kis_dlg_preferences.cc:559
 msgid "Preferences"
 msgstr "Moslamalar"
 
-#: ui/dialogs/kis_dlg_preferences.cc:582
+#: ui/dialogs/kis_dlg_preferences.cc:583
 msgid "Color Management"
 msgstr "Rang boshqaruvi"
 
-#: ui/dialogs/kis_dlg_preferences.cc:591 ui/dialogs/kis_dlg_preferences.cc:592
+#: ui/dialogs/kis_dlg_preferences.cc:592 ui/dialogs/kis_dlg_preferences.cc:593
 msgid "Performance"
 msgstr "Unumdorlik"
 
-#: ui/dialogs/kis_dlg_preferences.cc:608
+#: ui/dialogs/kis_dlg_preferences.cc:609
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Tablet settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:609
+#: ui/dialogs/kis_dlg_preferences.cc:610
 #, fuzzy
 msgid "Tablet"
 msgstr "Yoqish"
 
-#: ui/dialogs/kis_dlg_preferences.cc:617
+#: ui/dialogs/kis_dlg_preferences.cc:618
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Canvas-only settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:618
+#: ui/dialogs/kis_dlg_preferences.cc:619
 #, fuzzy
 msgid "Canvas-only"
 msgstr "Rangi:"
 
-#: ui/dialogs/kis_dlg_preferences.cc:709
+#: ui/dialogs/kis_dlg_preferences.cc:628
+msgctxt "@title:tab Author page"
+msgid "Author"
+msgstr ""
+
+#: ui/dialogs/kis_dlg_preferences.cc:629
+msgid "Author"
+msgstr ""
+
+#: ui/dialogs/kis_dlg_preferences.cc:718
 msgid ""
 "You are trying to enable OpenGL\n"
 "\n"
@@ -12991,7 +13000,7 @@ msgid ""
 "Are you sure you want to enable OpenGL?\n"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:712 ui/kis_aboutdata.h:31
+#: ui/dialogs/kis_dlg_preferences.cc:721 ui/kis_aboutdata.h:31
 msgid "Krita"
 msgstr "Krita"
 
