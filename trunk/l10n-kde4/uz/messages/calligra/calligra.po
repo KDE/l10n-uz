@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-07 02:38+0200\n"
+"POT-Creation-Date: 2012-05-09 02:53+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1632,8 +1632,9 @@ msgstr[0] ""
 msgid "Found no match"
 msgstr ""
 
-#: kotext/KoTextEditor_undo.cpp:88 kotext/commands/DeleteCommand.cpp:251
+#: kotext/KoTextEditor_undo.cpp:88
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:373
+#: kotext/commands/DeleteCommand.cpp:253
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Text"
@@ -1683,8 +1684,8 @@ msgstr "Ikkita"
 msgid "Format"
 msgstr "Sanani koʻrinishi"
 
-#: kotext/KoTextEditor.cpp:170 kotext/KoTextEditor.cpp:1634
-#: kotext/KoTextEditor.cpp:1636
+#: kotext/KoTextEditor.cpp:170 kotext/KoTextEditor.cpp:1636
+#: kotext/KoTextEditor.cpp:1638
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "New Paragraph"
@@ -1803,36 +1804,36 @@ msgstr "Mundarijaga kiritish"
 msgid "Insert Table Of Contents"
 msgstr "Mundarijaga kiritish"
 
-#: kotext/KoTextEditor.cpp:1394
+#: kotext/KoTextEditor.cpp:1396
 #, fuzzy
 #| msgid "Include in table of contents"
 msgid "Modify Table Of Contents"
 msgstr "Mundarijaga kiritish"
 
-#: kotext/KoTextEditor.cpp:1411 kotext/KoTextEditor.cpp:1413
+#: kotext/KoTextEditor.cpp:1413 kotext/KoTextEditor.cpp:1415
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Insert Bibliography"
 msgstr "Bogʻni qoʻyish"
 
-#: kotext/KoTextEditor.cpp:1429
+#: kotext/KoTextEditor.cpp:1431
 #, fuzzy
 msgid "Insert Bibliography"
 msgstr "Bogʻni qoʻyish"
 
-#: kotext/KoTextEditor.cpp:1466 kotext/KoTextEditor.cpp:1468
+#: kotext/KoTextEditor.cpp:1468 kotext/KoTextEditor.cpp:1470
 #, fuzzy
 #| msgid "Add Fraction"
 msgctxt "(qtundo-format)"
 msgid "Add Citation"
 msgstr "Kasrni qoʻshish"
 
-#: kotext/KoTextEditor.cpp:1495 kotext/KoTextEditor.cpp:1497
+#: kotext/KoTextEditor.cpp:1497 kotext/KoTextEditor.cpp:1499
 msgctxt "(qtundo-format)"
 msgid "Typing"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1534
+#: kotext/KoTextEditor.cpp:1536
 msgid "Typing"
 msgstr ""
 
@@ -1918,19 +1919,19 @@ msgctxt "(qtundo-format)"
 msgid "Adjust Row Height"
 msgstr ""
 
-#: kotext/commands/DeleteCommand.cpp:50
-#: kotext/commands/ChangeTrackedDeleteCommand.cpp:83
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete"
-msgstr "Matnni oʻchirish"
-
 #: kotext/commands/ChangeStylesMacroCommand.cpp:37
 #, fuzzy
 #| msgid "Change Char Style"
 msgctxt "(qtundo-format)"
 msgid "Change Styles"
 msgstr "Belgi uslubini oʻzgartirish"
+
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:83
+#: kotext/commands/DeleteCommand.cpp:50
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete"
+msgstr "Matnni oʻchirish"
 
 #: kotext/styles/KoStyleManager.cpp:101 kotext/styles/KoStyleManager.cpp:106
 #, fuzzy
