@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-24 03:27+0200\n"
+"POT-Creation-Date: 2012-05-25 06:12+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -6940,7 +6940,7 @@ msgstr "Palitrani tahrirlash..."
 
 #. i18n: file: plugins/paintops/libpaintop/forms/wdgautobrush.ui:107
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:2555 plugins/tools/tool_star/kis_tool_star.cc:217
+#: rc.cpp:2555
 #, fuzzy
 msgid "Ratio:"
 msgstr "Amal:"
@@ -10414,8 +10414,9 @@ msgstr "Yangi &obʼekt qatlami"
 
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:179
 #, fuzzy
-msgid "&Shape Layer"
-msgstr "Yangi qatlam"
+#| msgid "&Object Layer"
+msgid "&Vector Layer"
+msgstr "O&bʼekt qatlami"
 
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:182
 #, fuzzy
@@ -10476,7 +10477,6 @@ msgid "Digital Colors Mixer"
 msgstr "&Rassom asbob-uskunalari"
 
 #: plugins/extensions/dockers/dockerplugintemplate/presetdocker_dock.cpp:28
-#: plugins/extensions/dockers/presetdocker/presetdocker_dock.cpp:37
 #, fuzzy
 msgid "Preset docker"
 msgstr "Palitra"
@@ -10488,8 +10488,14 @@ msgstr "Tanlanganni koʻrsatish"
 
 #: plugins/extensions/dockers/imagedocker/imagedocker_dock.cpp:161
 #, fuzzy
-msgid "Image Docker"
-msgstr "Palitra"
+msgid "Reference Images"
+msgstr "Rasmning nomini oʻzgartirish"
+
+#: plugins/extensions/dockers/presetdocker/presetdocker_dock.cpp:37
+#, fuzzy
+#| msgid "Pressure:"
+msgid "Brush Presets"
+msgstr "Bosim:"
 
 #: plugins/extensions/dockers/smallcolorselector/smallcolorselector_dock.cc:45
 #, fuzzy
@@ -10557,9 +10563,10 @@ msgid "Composition"
 msgstr "Kompozitsiyasiz"
 
 #: plugins/extensions/dockers/patterndocker/patterndocker_dock.cpp:37
+#: ui/kis_control_frame.cpp:151
 #, fuzzy
-msgid "Pattern Palette"
-msgstr "Palitraga qoʻshish:"
+msgid "Patterns"
+msgstr "Namunalar"
 
 #: plugins/extensions/dropshadow/dlg_dropshadow.cc:42
 #: plugins/extensions/dropshadow/kis_dropshadow_plugin.cc:80
@@ -12863,19 +12870,6 @@ msgstr ""
 msgid "Polyline"
 msgstr "Siniq chiziq"
 
-#: plugins/tools/tool_star/kis_tool_star.h:74
-msgid "Draw a star with the current brush"
-msgstr ""
-
-#: plugins/tools/tool_star/kis_tool_star.cc:120
-msgid "Star"
-msgstr "Yulduz"
-
-#: plugins/tools/tool_star/kis_tool_star.cc:211
-#, fuzzy
-msgid "Vertices:"
-msgstr "Uskuna:"
-
 #: plugins/tools/tool_text/kis_tool_text.h:55
 #, fuzzy
 #| msgid "Text Tool"
@@ -13371,11 +13365,6 @@ msgstr "Ran&g:"
 #, fuzzy
 msgid "&Painter's Tools"
 msgstr "&Rassom asbob-uskunalari"
-
-#: ui/kis_control_frame.cpp:151
-#, fuzzy
-msgid "Patterns"
-msgstr "Namunalar"
 
 #: ui/kis_control_frame.cpp:154 ui/kis_control_frame.cpp:156
 #, fuzzy
@@ -14211,6 +14200,25 @@ msgstr ""
 #: main.cc:50
 msgid "File(s) or URL(s) to open"
 msgstr "Ochish uchun fayl(lar) yoki URL(lar)"
+
+#, fuzzy
+#~ msgid "&Shape Layer"
+#~ msgstr "Yangi qatlam"
+
+#, fuzzy
+#~ msgid "Image Docker"
+#~ msgstr "Palitra"
+
+#, fuzzy
+#~ msgid "Pattern Palette"
+#~ msgstr "Palitraga qoʻshish:"
+
+#~ msgid "Star"
+#~ msgstr "Yulduz"
+
+#, fuzzy
+#~ msgid "Vertices:"
+#~ msgstr "Uskuna:"
 
 #~ msgid "Allow resizing"
 #~ msgstr "Oʻlchamini oʻzgartirishga ruxsat berish"
@@ -15079,11 +15087,6 @@ msgstr "Ochish uchun fayl(lar) yoki URL(lar)"
 #~| msgid "Brush size"
 #~ msgid "Brush Editor"
 #~ msgstr "Boʻyoqning oʻlchami"
-
-#, fuzzy
-#~| msgid "Pressure:"
-#~ msgid "Presets"
-#~ msgstr "Bosim:"
 
 #, fuzzy
 #~ msgid "Mirror: "
