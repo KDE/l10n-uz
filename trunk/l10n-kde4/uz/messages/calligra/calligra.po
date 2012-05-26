@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-24 03:27+0200\n"
+"POT-Creation-Date: 2012-05-26 02:56+0200\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1366,6 +1366,7 @@ msgid "Track Total Format"
 msgstr "Sanani koʻrinishi"
 
 #: koreport/items/image/KoReportImagePlugin.cpp:35
+#: textlayout/ListItemsHelper.cpp:213
 #, fuzzy
 msgid "Image"
 msgstr "Betga moslash"
@@ -1890,15 +1891,6 @@ msgctxt "(qtundo-format)"
 msgid "Change List Numbering"
 msgstr "Satrlar orasidagi masofani oʻzgartirish"
 
-#: kotext/commands/ChangeListCommand.cpp:40
-#: kotext/commands/ChangeListCommand.cpp:82
-#: kotext/commands/ChangeListCommand.cpp:95
-#, fuzzy
-#| msgid "Change font family?"
-msgctxt "(qtundo-format)"
-msgid "Change List"
-msgstr "Shriftni oʻzgartirish"
-
 #: kotext/commands/TextPasteCommand.cpp:62
 #, fuzzy
 #| msgid "Shadow:"
@@ -1938,6 +1930,15 @@ msgstr "Belgi uslubini oʻzgartirish"
 msgctxt "(qtundo-format)"
 msgid "Delete"
 msgstr "Matnni oʻchirish"
+
+#: kotext/commands/ChangeListCommand.cpp:41
+#: kotext/commands/ChangeListCommand.cpp:87
+#: kotext/commands/ChangeListCommand.cpp:100
+#, fuzzy
+#| msgid "Change font family?"
+msgctxt "(qtundo-format)"
+msgid "Change List"
+msgstr "Shriftni oʻzgartirish"
 
 #: kotext/styles/KoStyleManager.cpp:101 kotext/styles/KoStyleManager.cpp:106
 #, fuzzy
