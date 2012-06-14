@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-13 02:28+0200\n"
+"POT-Creation-Date: 2012-06-14 03:53+0200\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -319,7 +319,7 @@ msgstr "Slayddan nusxa olish"
 msgid "Copy the current slide"
 msgstr "Joriy slayddan oldin"
 
-#: part/KPrView.cpp:88
+#: part/KPrView.cpp:88 part/KPrViewModeSlidesSorter.cpp:188
 #, fuzzy
 #| msgid "Delete Slide"
 msgid "Delete Slide"
@@ -571,7 +571,7 @@ msgid "Export"
 msgstr ""
 
 #: part/ui/KPrHtmlExportDialog.cpp:158 part/ui/KPrHtmlExportDialog.cpp:210
-#: part/KPrViewModeSlidesSorter.cpp:692
+#: part/KPrViewModeSlidesSorter.cpp:695
 #, fuzzy
 msgid "Error"
 msgstr "Koʻrsatkich uslubi"
@@ -631,7 +631,7 @@ msgid "Configure Presenter View"
 msgstr "KPresenter moslamasi"
 
 #: part/ui/KPrConfigureSlideShowDialog.cpp:41
-#: part/KPrViewModeSlidesSorter.cpp:663
+#: part/KPrViewModeSlidesSorter.cpp:666
 #, fuzzy
 #| msgid "All Files"
 msgid "All slides"
@@ -643,90 +643,102 @@ msgstr "Hamma fayllar"
 msgid "Configure Slide Show"
 msgstr "Namoyish moslamalari"
 
-#: part/KPrViewModeSlidesSorter.cpp:77
-#, fuzzy
-#| msgid "Slide Show"
-msgid "Slides Sorter"
-msgstr "Namoyish"
-
-#: part/KPrViewModeSlidesSorter.cpp:86
-#, fuzzy
-#| msgid "Slide Show"
-msgid "Slide Show: "
-msgstr "Namoyish"
-
-#: part/KPrViewModeSlidesSorter.cpp:95
-#, fuzzy
-#| msgid "Slideshow"
-msgid "Add a new custom slide show"
-msgstr "Namoyish"
-
-#: part/KPrViewModeSlidesSorter.cpp:100
-#, fuzzy
-#| msgid "Before Current Slide"
-msgid "Delete current custom slide show"
-msgstr "Joriy slayddan oldin"
-
-#: part/KPrViewModeSlidesSorter.cpp:104
-#, fuzzy
-#| msgid "Custom slide show"
-msgid "Add slides to current custom slide show"
-msgstr "Boshqa namoyish"
-
-#: part/KPrViewModeSlidesSorter.cpp:109
-msgid "Remove slides from current custom slide show"
-msgstr ""
-
-#: part/KPrViewModeSlidesSorter.cpp:537
-#, fuzzy
-#| msgid "Slideshow"
-msgid "Add a new slide"
-msgstr "Namoyish"
-
-#: part/KPrViewModeSlidesSorter.cpp:538 part/KPrViewModeSlidesSorter.cpp:556
-#, fuzzy
-#| msgid "Selected slides:"
-msgid "Delete selected slides"
-msgstr "Tanlangan slaydlar:"
-
-#: part/KPrViewModeSlidesSorter.cpp:542
-#, fuzzy
-msgid "Rename"
-msgstr "Bogʻni olib tashlash"
-
-#: part/KPrViewModeSlidesSorter.cpp:546
-#, fuzzy
-#| msgid "&Custom"
-msgid "Cut"
-msgstr "&Boshqa"
-
-#: part/KPrViewModeSlidesSorter.cpp:547
-#, fuzzy
-#| msgid "Co&py"
-msgid "Copy"
-msgstr "&Nusxa olish"
-
-#: part/KPrViewModeSlidesSorter.cpp:548
-#, fuzzy
-#| msgid "Path"
-msgid "Paste"
-msgstr "Yoʻl"
-
-#: part/KPrViewModeSlidesSorter.cpp:644 part/KPrViewModeSlidesSorter.cpp:649
-#, fuzzy, kde-format
-#| msgid "Slide Show"
-msgid "Slide Show %1"
-msgstr "Namoyish"
-
-#: part/KPrViewModeSlidesSorter.cpp:692
-msgid "There cannot be two slideshows with the same name."
-msgstr ""
-
 #: part/KPrViewModeNotes.cpp:52
 #, fuzzy
 #| msgid "Note"
 msgid "Notes"
 msgstr "Izoh"
+
+#: part/KPrViewModeSlidesSorter.cpp:79
+#, fuzzy
+#| msgid "Slide Show"
+msgid "Slides Sorter"
+msgstr "Namoyish"
+
+#: part/KPrViewModeSlidesSorter.cpp:88
+#, fuzzy
+#| msgid "Slide Show"
+msgid "Slide Show: "
+msgstr "Namoyish"
+
+#: part/KPrViewModeSlidesSorter.cpp:97
+#, fuzzy
+#| msgid "Slideshow"
+msgid "Add a new custom slide show"
+msgstr "Namoyish"
+
+#: part/KPrViewModeSlidesSorter.cpp:102
+#, fuzzy
+#| msgid "Before Current Slide"
+msgid "Delete current custom slide show"
+msgstr "Joriy slayddan oldin"
+
+#: part/KPrViewModeSlidesSorter.cpp:106
+#, fuzzy
+#| msgid "Custom slide show"
+msgid "Add slides to current custom slide show"
+msgstr "Boshqa namoyish"
+
+#: part/KPrViewModeSlidesSorter.cpp:111
+msgid "Remove slides from current custom slide show"
+msgstr ""
+
+#: part/KPrViewModeSlidesSorter.cpp:187
+#, fuzzy
+#| msgid "Delete Slide"
+msgid "Duplicate Slide"
+msgstr "Slaydni olib tashlash"
+
+#: part/KPrViewModeSlidesSorter.cpp:189
+#, fuzzy
+#| msgid "Create HTML Slideshow"
+msgid "Start Slideshow"
+msgstr "HTML namoyish yaratish"
+
+#: part/KPrViewModeSlidesSorter.cpp:540
+#, fuzzy
+#| msgid "Slideshow"
+msgid "Add a new slide"
+msgstr "Namoyish"
+
+#: part/KPrViewModeSlidesSorter.cpp:541 part/KPrViewModeSlidesSorter.cpp:559
+#, fuzzy
+#| msgid "Selected slides:"
+msgid "Delete selected slides"
+msgstr "Tanlangan slaydlar:"
+
+#: part/KPrViewModeSlidesSorter.cpp:545
+#, fuzzy
+msgid "Rename"
+msgstr "Bogʻni olib tashlash"
+
+#: part/KPrViewModeSlidesSorter.cpp:549
+#, fuzzy
+#| msgid "&Custom"
+msgid "Cut"
+msgstr "&Boshqa"
+
+#: part/KPrViewModeSlidesSorter.cpp:550
+#, fuzzy
+#| msgid "Co&py"
+msgid "Copy"
+msgstr "&Nusxa olish"
+
+#: part/KPrViewModeSlidesSorter.cpp:551
+#, fuzzy
+#| msgid "Path"
+msgid "Paste"
+msgstr "Yoʻl"
+
+#: part/KPrViewModeSlidesSorter.cpp:647 part/KPrViewModeSlidesSorter.cpp:652
+#, fuzzy, kde-format
+#| msgid "Slide Show"
+msgid "Slide Show %1"
+msgstr "Namoyish"
+
+#: part/KPrViewModeSlidesSorter.cpp:695
+msgid "There cannot be two slideshows with the same name."
+msgstr ""
 
 #: plugins/eventactions/sound/KPrSoundEventActionWidget.cpp:94
 #, fuzzy
@@ -2491,11 +2503,6 @@ msgstr "Imloni tekshirish natijasi"
 #~| msgid "Duplicate Slide"
 #~ msgid "Available Slides"
 #~ msgstr "Slaydni ayni nusxasini olish"
-
-#, fuzzy
-#~| msgid "Create HTML Slideshow"
-#~ msgid "Current Slideshow:"
-#~ msgstr "HTML namoyish yaratish"
 
 #, fuzzy
 #~| msgid "Slide"

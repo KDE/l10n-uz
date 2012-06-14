@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-11 04:42+0200\n"
+"POT-Creation-Date: 2012-06-14 06:04+0200\n"
 "PO-Revision-Date: 2006-10-01 21:04+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1322,93 +1322,6 @@ msgstr "&Keyingi: %1 - \"%2\""
 msgid "&Previous: %1 - \"%2\""
 msgstr "O&ldingi: %1 - \"%2\""
 
-#: utils/katecmds.cpp:203 utils/katecmds.cpp:236
-#, kde-format
-msgid "Missing argument. Usage: %1 <value>"
-msgstr "Argument yetishmaydi. Foydalanish: %1 <qiymat>"
-
-#: utils/katecmds.cpp:218
-#, fuzzy, kde-format
-#| msgid "No such command: \"%1\""
-msgid "No such highlighting '%1'"
-msgstr "Bunday buyruq mavjud emas: \"%1\""
-
-#: utils/katecmds.cpp:225
-#, fuzzy, kde-format
-#| msgid "No such command: \"%1\""
-msgid "No such mode '%1'"
-msgstr "Bunday buyruq mavjud emas: \"%1\""
-
-#: utils/katecmds.cpp:240
-#, kde-format
-msgid "Failed to convert argument '%1' to integer."
-msgstr "Argumentni (\"%1\") butun songa aylantirish muvaffaqiyatsiz tugadi."
-
-#: utils/katecmds.cpp:246 utils/katecmds.cpp:252
-msgid "Width must be at least 1."
-msgstr "Eni kamida 1 boʻlishi kerak."
-
-#: utils/katecmds.cpp:258
-msgid "Column must be at least 1."
-msgstr "Ustun kamida 1 boʻlishi kerak."
-
-#: utils/katecmds.cpp:297
-#, kde-format
-msgid "Usage: %1 on|off|1|0|true|false"
-msgstr "Foydalanish: %1 on|off|1|0|true|false"
-
-#: utils/katecmds.cpp:328
-#, kde-format
-msgid "Bad argument '%1'. Usage: %2 on|off|1|0|true|false"
-msgstr "Argument %1 notoʻgʻri. Foydalanish: %2 on|off|1|0|true|false"
-
-#: utils/katecmds.cpp:333 utils/katecmds.cpp:498
-#, kde-format
-msgid "Unknown command '%1'"
-msgstr "Buyruq \"%1\" nomaʼlum."
-
-#: utils/katecmds.cpp:409
-#, kde-format
-msgid "No mapping found for \"%1\""
-msgstr ""
-
-#: utils/katecmds.cpp:412
-#, kde-format
-msgid "\"%1\" is mapped to \"%2\""
-msgstr ""
-
-#: utils/katecmds.cpp:417
-#, fuzzy, kde-format
-#| msgid "Missing argument. Usage: %1 <value>"
-msgid "Missing argument(s). Usage: %1 <from> [<to>]"
-msgstr "Argument yetishmaydi. Foydalanish: %1 <qiymat>"
-
-#: utils/katecmds.cpp:475 utils/katecmds.cpp:491
-msgid "Wrong arguments"
-msgstr ""
-
-#: utils/katecmds.cpp:575
-msgid "Document written to disk"
-msgstr ""
-
-#: utils/katecmds.cpp:807
-msgid "Sorry, but Kate is not able to replace newlines, yet"
-msgstr ""
-
-#: utils/katecmds.cpp:846
-#, kde-format
-msgctxt "substituted into the previous message"
-msgid "1 line"
-msgid_plural "%1 lines"
-msgstr[0] ""
-
-#: utils/katecmds.cpp:844
-#, kde-format
-msgctxt "%2 is the translation of the next message"
-msgid "1 replacement done on %2"
-msgid_plural "%1 replacements done on %2"
-msgstr[0] ""
-
 #: utils/kateprinter.cpp:246
 msgid "(Selection of) "
 msgstr ""
@@ -1985,6 +1898,93 @@ msgstr "Faylni ochish va saqlash"
 #| msgid "Plugin Manager"
 msgid "Extensions Manager"
 msgstr "Plagin boshqaruvchisi"
+
+#: utils/katecmds.cpp:203 utils/katecmds.cpp:236
+#, kde-format
+msgid "Missing argument. Usage: %1 <value>"
+msgstr "Argument yetishmaydi. Foydalanish: %1 <qiymat>"
+
+#: utils/katecmds.cpp:218
+#, fuzzy, kde-format
+#| msgid "No such command: \"%1\""
+msgid "No such highlighting '%1'"
+msgstr "Bunday buyruq mavjud emas: \"%1\""
+
+#: utils/katecmds.cpp:225
+#, fuzzy, kde-format
+#| msgid "No such command: \"%1\""
+msgid "No such mode '%1'"
+msgstr "Bunday buyruq mavjud emas: \"%1\""
+
+#: utils/katecmds.cpp:240
+#, kde-format
+msgid "Failed to convert argument '%1' to integer."
+msgstr "Argumentni (\"%1\") butun songa aylantirish muvaffaqiyatsiz tugadi."
+
+#: utils/katecmds.cpp:246 utils/katecmds.cpp:252
+msgid "Width must be at least 1."
+msgstr "Eni kamida 1 boʻlishi kerak."
+
+#: utils/katecmds.cpp:258
+msgid "Column must be at least 1."
+msgstr "Ustun kamida 1 boʻlishi kerak."
+
+#: utils/katecmds.cpp:297
+#, kde-format
+msgid "Usage: %1 on|off|1|0|true|false"
+msgstr "Foydalanish: %1 on|off|1|0|true|false"
+
+#: utils/katecmds.cpp:328
+#, kde-format
+msgid "Bad argument '%1'. Usage: %2 on|off|1|0|true|false"
+msgstr "Argument %1 notoʻgʻri. Foydalanish: %2 on|off|1|0|true|false"
+
+#: utils/katecmds.cpp:333 utils/katecmds.cpp:498
+#, kde-format
+msgid "Unknown command '%1'"
+msgstr "Buyruq \"%1\" nomaʼlum."
+
+#: utils/katecmds.cpp:409
+#, kde-format
+msgid "No mapping found for \"%1\""
+msgstr ""
+
+#: utils/katecmds.cpp:412
+#, kde-format
+msgid "\"%1\" is mapped to \"%2\""
+msgstr ""
+
+#: utils/katecmds.cpp:417
+#, fuzzy, kde-format
+#| msgid "Missing argument. Usage: %1 <value>"
+msgid "Missing argument(s). Usage: %1 <from> [<to>]"
+msgstr "Argument yetishmaydi. Foydalanish: %1 <qiymat>"
+
+#: utils/katecmds.cpp:475 utils/katecmds.cpp:491
+msgid "Wrong arguments"
+msgstr ""
+
+#: utils/katecmds.cpp:575
+msgid "Document written to disk"
+msgstr ""
+
+#: utils/katecmds.cpp:807
+msgid "Sorry, but Kate is not able to replace newlines, yet"
+msgstr ""
+
+#: utils/katecmds.cpp:846
+#, kde-format
+msgctxt "substituted into the previous message"
+msgid "1 line"
+msgid_plural "%1 lines"
+msgstr[0] ""
+
+#: utils/katecmds.cpp:844
+#, kde-format
+msgctxt "%2 is the translation of the next message"
+msgid "1 replacement done on %2"
+msgid_plural "%1 replacements done on %2"
+msgstr[0] ""
 
 #: variableeditor/katehelpbutton.cpp:32
 msgid "Kate Handbook."
@@ -3023,8 +3023,8 @@ msgstr ""
 msgid "VI: REPLACE"
 msgstr ""
 
-#: vimode/katevimodebase.cpp:860 vimode/katevinormalmode.cpp:1119
-#: vimode/kateviinsertmode.cpp:220
+#: vimode/katevimodebase.cpp:860 vimode/kateviinsertmode.cpp:220
+#: vimode/katevinormalmode.cpp:1119
 #, kde-format
 msgid "Nothing in register %1"
 msgstr ""
@@ -3042,105 +3042,6 @@ msgstr " Satr: %1"
 #: schema/katecolortreewidget.cpp:51 schema/katecolortreewidget.cpp:73
 msgid "Use default color from the KDE color scheme"
 msgstr ""
-
-#: schema/katestyletreewidget.cpp:133
-#, fuzzy
-#| msgid "Latest"
-msgctxt "@title:column Meaning of text in editor"
-msgid "Context"
-msgstr "Eng oxirgi"
-
-#: schema/katestyletreewidget.cpp:133
-#, fuzzy
-#| msgid "Normal"
-msgctxt "@title:column Text style"
-msgid "Normal"
-msgstr "Oddiy"
-
-#: schema/katestyletreewidget.cpp:133
-#, fuzzy
-#| msgid "Selected"
-msgctxt "@title:column Text style"
-msgid "Selected"
-msgstr "Belgilangan"
-
-#: schema/katestyletreewidget.cpp:133
-#, fuzzy
-#| msgid "Background"
-msgctxt "@title:column Text style"
-msgid "Background"
-msgstr "Orqa fon"
-
-#: schema/katestyletreewidget.cpp:133
-#, fuzzy
-#| msgid "Background Selected"
-msgctxt "@title:column Text style"
-msgid "Background Selected"
-msgstr "Belgilangan uchun orqa fon"
-
-#: schema/katestyletreewidget.cpp:135
-msgid "Use Default Style"
-msgstr "Andoza uslubdan foydalanish"
-
-#: schema/katestyletreewidget.cpp:223
-msgid "&Bold"
-msgstr "Qal&in"
-
-#: schema/katestyletreewidget.cpp:228
-msgid "&Italic"
-msgstr "&Qiya"
-
-#: schema/katestyletreewidget.cpp:233
-msgid "&Underline"
-msgstr ""
-
-#: schema/katestyletreewidget.cpp:238
-msgid "S&trikeout"
-msgstr ""
-
-#: schema/katestyletreewidget.cpp:245
-msgid "Normal &Color..."
-msgstr "Oddiy &rang"
-
-#: schema/katestyletreewidget.cpp:248
-msgid "&Selected Color..."
-msgstr "Belgilangan &uchun rang"
-
-#: schema/katestyletreewidget.cpp:251
-msgid "&Background Color..."
-msgstr "&Orqa fon"
-
-#: schema/katestyletreewidget.cpp:254
-msgid "S&elected Background Color..."
-msgstr ""
-
-#: schema/katestyletreewidget.cpp:266
-msgid "Unset Background Color"
-msgstr ""
-
-#: schema/katestyletreewidget.cpp:270
-msgid "Unset Selected Background Color"
-msgstr ""
-
-#: schema/katestyletreewidget.cpp:277
-msgid "Use &Default Style"
-msgstr "&Andoza uslubdan foydalanish"
-
-#: schema/katestyletreewidget.cpp:389
-#, fuzzy
-msgctxt "No text or background color set"
-msgid "None set"
-msgstr "Yoʻq"
-
-#: schema/katestyletreewidget.cpp:603
-msgid ""
-"\"Use Default Style\" will be automatically unset when you change any style "
-"properties."
-msgstr ""
-
-#: schema/katestyletreewidget.cpp:604
-msgid "Kate Styles"
-msgstr "Kate uslublari"
 
 #: schema/kateschemaconfig.cpp:58
 #, fuzzy
@@ -3572,6 +3473,105 @@ msgid ""
 "<p>The schema %1 already exists, or was just deleted.</p><p>Please choose a "
 "different schema name.</p>"
 msgstr ""
+
+#: schema/katestyletreewidget.cpp:133
+#, fuzzy
+#| msgid "Latest"
+msgctxt "@title:column Meaning of text in editor"
+msgid "Context"
+msgstr "Eng oxirgi"
+
+#: schema/katestyletreewidget.cpp:133
+#, fuzzy
+#| msgid "Normal"
+msgctxt "@title:column Text style"
+msgid "Normal"
+msgstr "Oddiy"
+
+#: schema/katestyletreewidget.cpp:133
+#, fuzzy
+#| msgid "Selected"
+msgctxt "@title:column Text style"
+msgid "Selected"
+msgstr "Belgilangan"
+
+#: schema/katestyletreewidget.cpp:133
+#, fuzzy
+#| msgid "Background"
+msgctxt "@title:column Text style"
+msgid "Background"
+msgstr "Orqa fon"
+
+#: schema/katestyletreewidget.cpp:133
+#, fuzzy
+#| msgid "Background Selected"
+msgctxt "@title:column Text style"
+msgid "Background Selected"
+msgstr "Belgilangan uchun orqa fon"
+
+#: schema/katestyletreewidget.cpp:135
+msgid "Use Default Style"
+msgstr "Andoza uslubdan foydalanish"
+
+#: schema/katestyletreewidget.cpp:223
+msgid "&Bold"
+msgstr "Qal&in"
+
+#: schema/katestyletreewidget.cpp:228
+msgid "&Italic"
+msgstr "&Qiya"
+
+#: schema/katestyletreewidget.cpp:233
+msgid "&Underline"
+msgstr ""
+
+#: schema/katestyletreewidget.cpp:238
+msgid "S&trikeout"
+msgstr ""
+
+#: schema/katestyletreewidget.cpp:245
+msgid "Normal &Color..."
+msgstr "Oddiy &rang"
+
+#: schema/katestyletreewidget.cpp:248
+msgid "&Selected Color..."
+msgstr "Belgilangan &uchun rang"
+
+#: schema/katestyletreewidget.cpp:251
+msgid "&Background Color..."
+msgstr "&Orqa fon"
+
+#: schema/katestyletreewidget.cpp:254
+msgid "S&elected Background Color..."
+msgstr ""
+
+#: schema/katestyletreewidget.cpp:266
+msgid "Unset Background Color"
+msgstr ""
+
+#: schema/katestyletreewidget.cpp:270
+msgid "Unset Selected Background Color"
+msgstr ""
+
+#: schema/katestyletreewidget.cpp:277
+msgid "Use &Default Style"
+msgstr "&Andoza uslubdan foydalanish"
+
+#: schema/katestyletreewidget.cpp:389
+#, fuzzy
+msgctxt "No text or background color set"
+msgid "None set"
+msgstr "Yoʻq"
+
+#: schema/katestyletreewidget.cpp:603
+msgid ""
+"\"Use Default Style\" will be automatically unset when you change any style "
+"properties."
+msgstr ""
+
+#: schema/katestyletreewidget.cpp:604
+msgid "Kate Styles"
+msgstr "Kate uslublari"
 
 #. i18n: file: data/katepartsimpleui.rc:4
 #. i18n: ectx: Menu (file)
