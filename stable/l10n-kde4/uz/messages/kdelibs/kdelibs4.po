@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-24 12:03+0200\n"
+"POT-Creation-Date: 2012-06-25 12:35+0200\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -10706,30 +10706,6 @@ msgstr "Saqlash"
 msgid "Inactive"
 msgstr "Nisbiy"
 
-#: khtml/khtmlimage.cpp:202
-#, kde-format
-msgid "%1 (%2 - %3x%4 Pixels)"
-msgstr "%1 (%2 - %3x%4 piksel)"
-
-#: khtml/khtmlimage.cpp:204
-#, kde-format
-msgid "%1 - %2x%3 Pixels"
-msgstr "%1 - %2x%3 piksel"
-
-#: khtml/khtmlimage.cpp:209
-#, kde-format
-msgid "%1 (%2x%3 Pixels)"
-msgstr "%1 (%2x%3 piksel)"
-
-#: khtml/khtmlimage.cpp:211
-#, kde-format
-msgid "Image - %1x%2 Pixels"
-msgstr "Rasm - %1x%2 piksel"
-
-#: khtml/khtmlimage.cpp:217
-msgid "Done."
-msgstr "Tayyor."
-
 #: khtml/khtml_part.cpp:252
 msgid "View Do&cument Source"
 msgstr "Hujjatning &kodini koʻrish"
@@ -11206,6 +11182,30 @@ msgstr "Toʻsilgan popap oyna haqida &xabar berish"
 msgid "&Configure JavaScript New Window Policies..."
 msgstr ""
 
+#: khtml/khtmlimage.cpp:202
+#, kde-format
+msgid "%1 (%2 - %3x%4 Pixels)"
+msgstr "%1 (%2 - %3x%4 piksel)"
+
+#: khtml/khtmlimage.cpp:204
+#, kde-format
+msgid "%1 - %2x%3 Pixels"
+msgstr "%1 - %2x%3 piksel"
+
+#: khtml/khtmlimage.cpp:209
+#, kde-format
+msgid "%1 (%2x%3 Pixels)"
+msgstr "%1 (%2x%3 piksel)"
+
+#: khtml/khtmlimage.cpp:211
+#, kde-format
+msgid "Image - %1x%2 Pixels"
+msgstr "Rasm - %1x%2 piksel"
+
+#: khtml/khtmlimage.cpp:217
+msgid "Done."
+msgstr "Tayyor."
+
 #: khtml/test_regression_gui_main.cpp:34
 msgid "TestRegressionGui"
 msgstr ""
@@ -11509,38 +11509,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "S&kript"
 
-#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1660
+#: khtml/ecma/kjs_window.cpp:1660 khtml/ecma/kjs_html.cpp:2166
 msgid "Confirmation: JavaScript Popup"
 msgstr "Tasdiqlash: JavaScript Popup"
-
-#: khtml/ecma/kjs_html.cpp:2168
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"Bu sayt JavaScript orqali brauzerning yangi oynasini ochadigan shakilni "
-"joʻnatmoqchi.\n"
-"Shakilni joʻnatishga ruxsat berasizmi?"
-
-#: khtml/ecma/kjs_html.cpp:2171
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>Bu sayt JavaScript orqali brauzerning yangi oynasida <p>%1</p> "
-"sahifasini ochadigan shakilni joʻnatmoqchi.<br />Shakilni joʻnatishga ruxsat "
-"berasizmi?</qt>"
-
-#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1668
-msgid "Allow"
-msgstr "Ruxsat berish"
-
-#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1668
-msgid "Do Not Allow"
-msgstr "Ruxsat berilmasin"
 
 #: khtml/ecma/kjs_window.cpp:1663
 msgid ""
@@ -11559,6 +11530,14 @@ msgid ""
 msgstr ""
 "<qt>Bu sayt JavaScript yordamida brauzerning yangi oynasida quyidagini "
 "ochishga urinayapti<p>%1</p><br />Siz ruxsat berasizmi?</qt>"
+
+#: khtml/ecma/kjs_window.cpp:1668 khtml/ecma/kjs_html.cpp:2173
+msgid "Allow"
+msgstr "Ruxsat berish"
+
+#: khtml/ecma/kjs_window.cpp:1668 khtml/ecma/kjs_html.cpp:2173
+msgid "Do Not Allow"
+msgstr "Ruxsat berilmasin"
 
 #: khtml/ecma/kjs_window.cpp:1981
 msgid "Close window?"
@@ -11597,6 +11576,27 @@ msgstr "Qoʻyish"
 #: khtml/ecma/kjs_window.cpp:2899
 msgid "Disallow"
 msgstr "Ruxsat berilmasin"
+
+#: khtml/ecma/kjs_html.cpp:2168
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"Bu sayt JavaScript orqali brauzerning yangi oynasini ochadigan shakilni "
+"joʻnatmoqchi.\n"
+"Shakilni joʻnatishga ruxsat berasizmi?"
+
+#: khtml/ecma/kjs_html.cpp:2171
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>Bu sayt JavaScript orqali brauzerning yangi oynasida <p>%1</p> "
+"sahifasini ochadigan shakilni joʻnatmoqchi.<br />Shakilni joʻnatishga ruxsat "
+"berasizmi?</qt>"
 
 #: khtml/ecma/debugger/consoledock.cpp:220
 #, fuzzy
