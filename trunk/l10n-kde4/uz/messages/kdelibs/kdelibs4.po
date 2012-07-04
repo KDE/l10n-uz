@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-26 07:39+0200\n"
+"POT-Creation-Date: 2012-07-04 04:54+0200\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -9851,6 +9851,59 @@ msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "Andoza"
 
+#: kdeui/widgets/kdatepicker.cpp:174
+#, kde-format
+msgid "Week %1"
+msgstr "Hafta %1"
+
+#: kdeui/widgets/kdatepicker.cpp:278
+msgid "Next year"
+msgstr "Kelasi yil"
+
+#: kdeui/widgets/kdatepicker.cpp:279
+msgid "Previous year"
+msgstr "Oʻtgan yil"
+
+#: kdeui/widgets/kdatepicker.cpp:280
+msgid "Next month"
+msgstr "Kelasi oy"
+
+#: kdeui/widgets/kdatepicker.cpp:281
+msgid "Previous month"
+msgstr "Oʻtgan oy"
+
+#: kdeui/widgets/kdatepicker.cpp:282
+msgid "Select a week"
+msgstr "Haftani tanlash"
+
+#: kdeui/widgets/kdatepicker.cpp:283
+msgid "Select a month"
+msgstr "Oyni tanlash"
+
+#: kdeui/widgets/kdatepicker.cpp:284
+msgid "Select a year"
+msgstr "Yilni tanlash"
+
+#: kdeui/widgets/kdatepicker.cpp:285
+msgid "Select the current day"
+msgstr "Joriy kunni tanlash"
+
+#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
+msgid "&Add"
+msgstr "&Qoʻshish"
+
+#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
+msgid "&Remove"
+msgstr "&Olib tashlash"
+
+#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
+msgid "Move &Up"
+msgstr "&Yuqoriga"
+
+#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
+msgid "Move &Down"
+msgstr "&Pastga"
+
 #: kdeui/widgets/ktoolbar.cpp:292
 #, fuzzy
 #| msgid "Show help"
@@ -9944,70 +9997,17 @@ msgstr "Juda katta (%1x%2)"
 msgid "Lock Toolbar Positions"
 msgstr "Asboblar panellari"
 
-#: kdeui/widgets/ktoolbar.cpp:1321
+#: kdeui/widgets/ktoolbar.cpp:1326
 #, fuzzy, kde-format
 msgctxt "@action:intoolbar Text label of toolbar button"
 msgid "%1"
 msgstr "%1%"
 
-#: kdeui/widgets/ktoolbar.cpp:1322
+#: kdeui/widgets/ktoolbar.cpp:1327
 #, fuzzy, kde-format
 msgctxt "@info:tooltip Tooltip of toolbar button"
 msgid "%1"
 msgstr "%1%"
-
-#: kdeui/widgets/kdatepicker.cpp:174
-#, kde-format
-msgid "Week %1"
-msgstr "Hafta %1"
-
-#: kdeui/widgets/kdatepicker.cpp:278
-msgid "Next year"
-msgstr "Kelasi yil"
-
-#: kdeui/widgets/kdatepicker.cpp:279
-msgid "Previous year"
-msgstr "Oʻtgan yil"
-
-#: kdeui/widgets/kdatepicker.cpp:280
-msgid "Next month"
-msgstr "Kelasi oy"
-
-#: kdeui/widgets/kdatepicker.cpp:281
-msgid "Previous month"
-msgstr "Oʻtgan oy"
-
-#: kdeui/widgets/kdatepicker.cpp:282
-msgid "Select a week"
-msgstr "Haftani tanlash"
-
-#: kdeui/widgets/kdatepicker.cpp:283
-msgid "Select a month"
-msgstr "Oyni tanlash"
-
-#: kdeui/widgets/kdatepicker.cpp:284
-msgid "Select a year"
-msgstr "Yilni tanlash"
-
-#: kdeui/widgets/kdatepicker.cpp:285
-msgid "Select the current day"
-msgstr "Joriy kunni tanlash"
-
-#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
-msgid "&Add"
-msgstr "&Qoʻshish"
-
-#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
-msgid "&Remove"
-msgstr "&Olib tashlash"
-
-#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
-msgid "Move &Up"
-msgstr "&Yuqoriga"
-
-#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
-msgid "Move &Down"
-msgstr "&Pastga"
 
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:993
 msgid "Clear &History"
@@ -11897,10 +11897,6 @@ msgstr ""
 msgid "No handler found for %1."
 msgstr "%1 uchun dastur topilmadi."
 
-#: khtml/rendering/media_controls.cpp:47
-msgid "Play"
-msgstr ""
-
 #: khtml/rendering/render_form.cpp:849
 #, fuzzy
 #| msgid "Shortcut"
@@ -11933,6 +11929,10 @@ msgstr "Tugmalar birikmasi"
 #| msgid "Clear shortcut"
 msgid "Create Web Shortcut"
 msgstr "Tugmalar birikmasini oʻchirish"
+
+#: khtml/rendering/media_controls.cpp:47
+msgid "Play"
+msgstr ""
 
 #: khtml/ui/findbar/khtmlfindbar.cpp:58
 msgid "Find &links only"
