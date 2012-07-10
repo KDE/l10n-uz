@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-22 05:19+0200\n"
+"POT-Creation-Date: 2012-07-10 08:59+0200\n"
 "PO-Revision-Date: 2008-06-02 22:57+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -45,70 +45,6 @@ msgctxt "General configuration page"
 msgid "General"
 msgstr ""
 
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "Uy jildi"
-
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr "Tarmoq jildlari"
-
-#: core/recentlyusedmodel.cpp:109
-msgid "Documents"
-msgstr "Hujjatlar"
-
-#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
-#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
-msgid "Applications"
-msgstr "Dasturlar"
-
-#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
-#: ui/launcher.cpp:124 ui/launcher.cpp:249
-msgid "Recently Used"
-msgstr "Yaqinda ishlatilgan"
-
-#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
-#, fuzzy
-#| msgid "Recently Used"
-msgid "Recently Used Documents"
-msgstr "Yaqinda ishlatilgan"
-
-#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
-#, fuzzy
-#| msgid "Clear Recent Applications"
-msgid "Recently Used Applications"
-msgstr "Yaqinda ishlatilgan dasturlarni tozalash"
-
-#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
-#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
-msgid "Favorites"
-msgstr "Sevimli"
-
-#: core/systemmodel.cpp:75
-msgid "Places"
-msgstr "Joylar"
-
-#: core/systemmodel.cpp:76
-msgid "Removable Storage"
-msgstr "Olinadigan uskuna"
-
-#: core/systemmodel.cpp:77
-msgid "Storage"
-msgstr "Saqlash"
-
-#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:201
-msgid "Run Command..."
-msgstr ""
-
-#: core/systemmodel.cpp:211
-msgid "Run a command or a search query"
-msgstr ""
-
-#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:196
-#: ui/launcher.cpp:123 ui/launcher.cpp:270
-msgid "Computer"
-msgstr "Kompyuter"
-
 #: core/applicationmodel.cpp:334
 msgid "Games"
 msgstr ""
@@ -116,6 +52,11 @@ msgstr ""
 #: core/applicationmodel.cpp:428 ui/launcher.cpp:976
 msgid "All Applications"
 msgstr "Hamma dasturlar"
+
+#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
+msgid "Favorites"
+msgstr "Sevimli"
 
 #: core/leavemodel.cpp:50 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
@@ -222,6 +163,65 @@ msgstr "Seans"
 #: core/leavemodel.cpp:150
 msgid "System"
 msgstr "Tizim"
+
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "Uy jildi"
+
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "Tarmoq jildlari"
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "Hujjatlar"
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
+msgid "Applications"
+msgstr "Dasturlar"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:124 ui/launcher.cpp:249
+msgid "Recently Used"
+msgstr "Yaqinda ishlatilgan"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Used Documents"
+msgstr "Yaqinda ishlatilgan"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+#, fuzzy
+#| msgid "Clear Recent Applications"
+msgid "Recently Used Applications"
+msgstr "Yaqinda ishlatilgan dasturlarni tozalash"
+
+#: core/systemmodel.cpp:75
+msgid "Places"
+msgstr "Joylar"
+
+#: core/systemmodel.cpp:76
+msgid "Removable Storage"
+msgstr "Olinadigan uskuna"
+
+#: core/systemmodel.cpp:77
+msgid "Storage"
+msgstr "Saqlash"
+
+#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:201
+msgid "Run Command..."
+msgstr ""
+
+#: core/systemmodel.cpp:211
+msgid "Run a command or a search query"
+msgstr ""
+
+#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:196
+#: ui/launcher.cpp:123 ui/launcher.cpp:270
+msgid "Computer"
+msgstr "Kompyuter"
 
 #: main.cpp:32
 msgid "Kickoff"
@@ -338,41 +338,6 @@ msgstr "Dasturlar"
 msgid "Actions"
 msgstr "Dasturlar"
 
-#: ui/searchbar.cpp:70
-#, fuzzy
-#| msgid "Search:"
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
-msgstr "Qidirish:"
-
-#: ui/launcher.cpp:194
-msgid "Sort Alphabetically (A to Z)"
-msgstr ""
-
-#: ui/launcher.cpp:197
-msgid "Sort Alphabetically (Z to A)"
-msgstr ""
-
-#: ui/launcher.cpp:251
-msgid "Clear Recent Applications"
-msgstr "Yaqinda ishlatilgan dasturlarni tozalash"
-
-#: ui/launcher.cpp:252
-msgid "Clear Recent Documents"
-msgstr "Yaqinda ishlatilgan hujjatlarni tozalash"
-
-#: ui/launcher.cpp:560
-#, kde-format
-msgctxt "login name, hostname"
-msgid "User <b>%1</b> on <b>%2</b>"
-msgstr ""
-
-#: ui/launcher.cpp:562
-#, kde-format
-msgctxt "full name, login name, hostname"
-msgid "<b>%1 (%2)</b> on <b>%3</b>"
-msgstr ""
-
 #: ui/contextmenufactory.cpp:85
 msgid "Advanced"
 msgstr "Qoʻshimcha"
@@ -404,6 +369,41 @@ msgstr "Chiqarish"
 #: ui/contextmenufactory.cpp:263
 msgid "Safely Remove"
 msgstr ""
+
+#: ui/launcher.cpp:194
+msgid "Sort Alphabetically (A to Z)"
+msgstr ""
+
+#: ui/launcher.cpp:197
+msgid "Sort Alphabetically (Z to A)"
+msgstr ""
+
+#: ui/launcher.cpp:251
+msgid "Clear Recent Applications"
+msgstr "Yaqinda ishlatilgan dasturlarni tozalash"
+
+#: ui/launcher.cpp:252
+msgid "Clear Recent Documents"
+msgstr "Yaqinda ishlatilgan hujjatlarni tozalash"
+
+#: ui/launcher.cpp:560
+#, kde-format
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
+msgstr ""
+
+#: ui/launcher.cpp:562
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr ""
+
+#: ui/searchbar.cpp:70
+#, fuzzy
+#| msgid "Search:"
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr "Qidirish:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
