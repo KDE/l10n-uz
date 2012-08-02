@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-27 04:25+0200\n"
+"POT-Creation-Date: 2012-08-02 04:35+0200\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -5019,7 +5019,7 @@ msgid "Connection timed out"
 msgstr "aloqada taymaut"
 
 #: kdecore/network/klocalsocket_unix.cpp:213
-#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:538
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:560
 #, fuzzy
 msgid "Unknown error"
 msgstr "Nomaʼlum xato"
@@ -5591,6 +5591,18 @@ msgctxt "@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
 
+#: kdeui/actions/kaction.cpp:122
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguity.\n"
+"No action will be triggered."
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:126
+msgid "Ambiguous shortcut detected"
+msgstr ""
+
 #: kdeui/actions/kstandardaction.cpp:93 kdeui/util/kstandardguiitem.cpp:210
 msgctxt "go back"
 msgid "&Back"
@@ -5632,18 +5644,6 @@ msgid ""
 msgstr ""
 "Holat panelini koʻrsatish<p>Oynaning pastida joylashgan holat maʼlumotini "
 "koʻrsatuvchi panelni koʻrsatish."
-
-#: kdeui/actions/kaction.cpp:122
-#, kde-format
-msgid ""
-"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
-"from the 'Settings' menu to solve the ambiguity.\n"
-"No action will be triggered."
-msgstr ""
-
-#: kdeui/actions/kaction.cpp:126
-msgid "Ambiguous shortcut detected"
-msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
 #, fuzzy
@@ -9781,75 +9781,21 @@ msgstr ""
 msgid "Separator, Space"
 msgstr "Almashtirishni boshlash"
 
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
 #. i18n: Placeholder text in text edit widgets is the text appearing
 #. before any user input, briefly explaining to the user what to type
 #. (e.g. "Enter message").
 #. By default the text is set in italic, which may not be appropriate
 #. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/ktextedit.cpp:79 kdeui/widgets/klineedit.cpp:87
 #, fuzzy
 msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
 msgid "1"
 msgstr "%1%"
-
-#: kdeui/widgets/klineedit.cpp:296
-#, fuzzy
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "Tugmalar birikmasini oʻchirish"
-
-#: kdeui/widgets/klineedit.cpp:1216
-#, fuzzy
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "Matnni tugatish"
-
-#: kdeui/widgets/klineedit.cpp:1223
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "Yoʻq"
-
-#: kdeui/widgets/klineedit.cpp:1224
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "Qoʻlbola"
-
-#: kdeui/widgets/klineedit.cpp:1225
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "Avtomatik"
-
-#: kdeui/widgets/klineedit.cpp:1226
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "Pastga tushar roʻyxat"
-
-#: kdeui/widgets/klineedit.cpp:1227
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "Qisqa avtomatik"
-
-#: kdeui/widgets/klineedit.cpp:1228
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "Pastga tushar roʻyxat"
-
-#: kdeui/widgets/klineedit.cpp:1259
-#, fuzzy
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "Andoza"
 
 #: kdeui/widgets/ktextedit.cpp:525
 #, fuzzy
@@ -10176,6 +10122,60 @@ msgstr ""
 #| msgid "Could not create the new configuration file."
 msgid "You are not allowed to save the configuration"
 msgstr "Yangi moslama faylini yaratib boʻlmadi."
+
+#: kdeui/widgets/klineedit.cpp:296
+#, fuzzy
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "Tugmalar birikmasini oʻchirish"
+
+#: kdeui/widgets/klineedit.cpp:1216
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "Matnni tugatish"
+
+#: kdeui/widgets/klineedit.cpp:1223
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "Yoʻq"
+
+#: kdeui/widgets/klineedit.cpp:1224
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "Qoʻlbola"
+
+#: kdeui/widgets/klineedit.cpp:1225
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "Avtomatik"
+
+#: kdeui/widgets/klineedit.cpp:1226
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "Pastga tushar roʻyxat"
+
+#: kdeui/widgets/klineedit.cpp:1227
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "Qisqa avtomatik"
+
+#: kdeui/widgets/klineedit.cpp:1228
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "Pastga tushar roʻyxat"
+
+#: kdeui/widgets/klineedit.cpp:1259
+#, fuzzy
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "Andoza"
 
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
@@ -13551,16 +13551,16 @@ msgstr "Komponentlarni tanlash"
 msgid "Enable component"
 msgstr "Ichiga oʻrnatib boʻladigan HTML komponent"
 
-#: nepomuk/core/resource.cpp:532
+#: nepomuk/core/resource.cpp:554
 msgid "Success"
 msgstr ""
 
-#: nepomuk/core/resource.cpp:534
+#: nepomuk/core/resource.cpp:556
 #, fuzzy
 msgid "Communication error"
 msgstr "Moslama"
 
-#: nepomuk/core/resource.cpp:536
+#: nepomuk/core/resource.cpp:558
 #, fuzzy
 msgid "Invalid type in Database"
 msgstr "Sertifikat haqiqiy emas!"
