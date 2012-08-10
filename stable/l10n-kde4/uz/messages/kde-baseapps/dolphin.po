@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-07 21:36+0200\n"
+"POT-Creation-Date: 2012-08-10 13:58+0200\n"
 "PO-Revision-Date: 2008-05-31 09:43+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -86,34 +86,6 @@ msgctxt "@label::textbox"
 msgid "Select which data should be shown:"
 msgstr ""
 
-#: panels/information/informationpanelcontent.cpp:229
-#, kde-format
-msgctxt "@info"
-msgid "%1 item selected"
-msgid_plural "%1 items selected"
-msgstr[0] ""
-
-#: panels/information/informationpanelcontent.cpp:270
-#, fuzzy
-#| msgctxt "@action:intoolbar"
-#| msgid "Preview"
-msgctxt "@action:inmenu"
-msgid "Preview"
-msgstr "Koʻrib chiqish"
-
-#: panels/information/informationpanelcontent.cpp:275
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Change tags..."
-msgctxt "@action:inmenu"
-msgid "Configure..."
-msgstr "Yorliqlarni oʻzgartirish..."
-
-#: panels/information/informationpanelcontent.cpp:297
-msgctxt "@label::textbox"
-msgid "Select which data should be shown in the information panel:"
-msgstr ""
-
 #: panels/information/phononwidget.cpp:126
 msgid "play"
 msgstr ""
@@ -125,33 +97,32 @@ msgstr ""
 msgid "stop"
 msgstr "Toʻxtatish"
 
-#: panels/places/placesitem.cpp:150
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Places"
-msgctxt "@item"
-msgid "Places"
-msgstr "Joylar"
+#: panels/information/informationpanelcontent.cpp:227
+#, kde-format
+msgctxt "@info"
+msgid "%1 item selected"
+msgid_plural "%1 items selected"
+msgstr[0] ""
 
-#: panels/places/placesitem.cpp:151
+#: panels/information/informationpanelcontent.cpp:268
 #, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
-msgctxt "@item"
-msgid "Recently Accessed"
-msgstr "Tabni yopish"
+#| msgctxt "@action:intoolbar"
+#| msgid "Preview"
+msgctxt "@action:inmenu"
+msgid "Preview"
+msgstr "Koʻrib chiqish"
 
-#: panels/places/placesitem.cpp:152
+#: panels/information/informationpanelcontent.cpp:273
 #, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Main Toolbar"
-msgctxt "@item"
-msgid "Search For"
-msgstr "Asosiy asboblar paneli"
+#| msgctxt "@label"
+#| msgid "Change tags..."
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "Yorliqlarni oʻzgartirish..."
 
-#: panels/places/placesitem.cpp:153
-msgctxt "@item"
-msgid "Devices"
+#: panels/information/informationpanelcontent.cpp:295
+msgctxt "@label::textbox"
+msgid "Select which data should be shown in the information panel:"
 msgstr ""
 
 #: panels/places/placesitemeditdialog.cpp:127
@@ -370,6 +341,35 @@ msgstr "Izohni qoʻshish..."
 #: panels/places/placespanel.cpp:355
 msgctxt "@title:window"
 msgid "Edit Places Entry"
+msgstr ""
+
+#: panels/places/placesitem.cpp:150
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Places"
+msgctxt "@item"
+msgid "Places"
+msgstr "Joylar"
+
+#: panels/places/placesitem.cpp:151
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgctxt "@item"
+msgid "Recently Accessed"
+msgstr "Tabni yopish"
+
+#: panels/places/placesitem.cpp:152
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Main Toolbar"
+msgctxt "@item"
+msgid "Search For"
+msgstr "Asosiy asboblar paneli"
+
+#: panels/places/placesitem.cpp:153
+msgctxt "@item"
+msgid "Devices"
 msgstr ""
 
 #: search/dolphinfacetswidget.cpp:61
