@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-14 07:52+0200\n"
+"POT-Creation-Date: 2012-08-18 04:26+0200\n"
 "PO-Revision-Date: 2006-12-17 13:39+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -138,6 +138,10 @@ msgstr "Yangi jild"
 msgid "Please choose a name for the new folder:"
 msgstr "Iltimos yangi jild uchun nom tanlang:"
 
+#: kwalleteditor.cpp:361 kwalleteditor.cpp:707 kwalletmanager.cpp:390
+msgid "Do Not Try"
+msgstr "Urinib koʻrilmasin"
+
 #: kwalleteditor.cpp:361
 msgid "Sorry, that folder name is in use. Try again?"
 msgstr ""
@@ -147,10 +151,6 @@ msgstr ""
 #: kwalleteditor.cpp:361 kwalleteditor.cpp:707
 msgid "Try Again"
 msgstr "Urinib koʻrish"
-
-#: kwalleteditor.cpp:361 kwalleteditor.cpp:707 kwalletmanager.cpp:390
-msgid "Do Not Try"
-msgstr "Urinib koʻrilmasin"
 
 #: kwalleteditor.cpp:399
 #, kde-format
@@ -300,20 +300,20 @@ msgid "Unable to delete the wallet. Error code was %1."
 msgstr "Kopchiqni oʻchirib boʻlmadi. Xato kodi: %1."
 
 #: kwalletmanager.cpp:255
-msgid ""
-"Unable to close wallet cleanly. It is probably in use by other applications. "
-"Do you wish to force it closed?"
-msgstr ""
-"Kopchiqni xatosiz yopib boʻlmaydi. Uni boshqa dasturlar ishlatayotganga "
-"oʻxshaydi. Majburiy yopishni istaysizmi?"
+msgid "Do Not Force"
+msgstr "Majburiy yopilmasin"
 
 #: kwalletmanager.cpp:255
 msgid "Force Closure"
 msgstr "Majburiy yopish"
 
 #: kwalletmanager.cpp:255
-msgid "Do Not Force"
-msgstr "Majburiy yopilmasin"
+msgid ""
+"Unable to close wallet cleanly. It is probably in use by other applications. "
+"Do you wish to force it closed?"
+msgstr ""
+"Kopchiqni xatosiz yopib boʻlmaydi. Uni boshqa dasturlar ishlatayotganga "
+"oʻxshaydi. Majburiy yopishni istaysizmi?"
 
 #: kwalletmanager.cpp:259
 #, kde-format
@@ -376,11 +376,11 @@ msgid "(c) 2003,2004 George Staikos"
 msgstr "(C) 2003,2004 Jorj Staykos (George Staikos)"
 
 #: main.cpp:50
-msgid "Michael Leupold"
+msgid "Maintainer"
 msgstr ""
 
 #: main.cpp:50
-msgid "Maintainer"
+msgid "Michael Leupold"
 msgstr ""
 
 #: main.cpp:51
@@ -396,12 +396,12 @@ msgid "Original author and former maintainer"
 msgstr "Muallif va taʼminlovchi"
 
 #: main.cpp:52
-msgid "Isaac Clerencia"
-msgstr ""
-
-#: main.cpp:52
 msgid "Developer"
 msgstr "Tuzuvchi"
+
+#: main.cpp:52
+msgid "Isaac Clerencia"
+msgstr ""
 
 #: main.cpp:57
 msgid "Show window on startup"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-15 05:03+0200\n"
+"POT-Creation-Date: 2012-08-18 04:21+0200\n"
 "PO-Revision-Date: 2006-12-17 13:25+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -16,56 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: deferdlg.cpp:44
-#, fuzzy
-#| msgid "Delete Alarm"
-#| msgid_plural "Delete Alarms"
-msgctxt "@title:window"
-msgid "Defer Alarm"
-msgstr "Ogohlantirishni oʻchirish"
-
-#: deferdlg.cpp:46
-#, fuzzy
-msgctxt "@action:button"
-msgid "Cancel Deferral"
-msgstr "Bekor qilish"
-
-#: deferdlg.cpp:65
-#, fuzzy
-#| msgid "Schedule the alarm at the specified time."
-msgctxt "@info:whatsthis"
-msgid "Defer the alarm until the specified time."
-msgstr "Ogohlantirishni koʻrsatilgan vaqtda rejalashtirish."
-
-#: deferdlg.cpp:66
-msgctxt "@info:whatsthis"
-msgid "Cancel the deferred alarm. This does not affect future recurrences."
-msgstr ""
-
-#: deferdlg.cpp:98
-#, kde-format
-msgctxt "@info"
-msgid "Cannot defer past the alarm's next sub-repetition (currently %1)"
-msgstr ""
-
-#: deferdlg.cpp:102
-#, kde-format
-msgctxt "@info"
-msgid "Cannot defer past the alarm's next recurrence (currently %1)"
-msgstr ""
-
-#: deferdlg.cpp:106
-#, kde-format
-msgctxt "@info"
-msgid "Cannot defer past the alarm's next reminder (currently %1)"
-msgstr ""
-
-#: deferdlg.cpp:110
-#, kde-format
-msgctxt "@info"
-msgid "Cannot defer reminder past the main alarm time (%1)"
-msgstr ""
 
 #: akonadimodel.cpp:450 eventlistmodel.cpp:313
 #, fuzzy
@@ -305,6 +255,13 @@ msgctxt "@info/plain"
 msgid "Failed to delete alarm."
 msgstr "Buyruqni ishga tushirib boʻlmadi:"
 
+#: akonadiresourcecreator.cpp:109
+#, fuzzy
+#| msgid "Failed to send email"
+msgctxt "@info/plain"
+msgid "Failed to create new calendar resource"
+msgstr "Xatni joʻnatish muvaffaqiyatsiz tugadi"
+
 #: alarmcalendar.cpp:344 alarmcalendar.cpp:901
 #, fuzzy, kde-format
 #| msgid ""
@@ -411,6 +368,35 @@ msgstr ""
 "Audio faylni ochib boʻlmadi:\n"
 "%1"
 
+#: alarmtime.cpp:42 alarmtime.cpp:80
+msgctxt "@info/plain Alarm never occurs"
+msgid "Never"
+msgstr ""
+
+#: alarmtime.cpp:86
+#, fuzzy, no-c-format, kde-format
+#| msgctxt "n days"
+#| msgid " %1d "
+msgctxt "@info/plain n days"
+msgid "%1d"
+msgstr " %1k "
+
+#: alarmtime.cpp:95
+#, fuzzy, kde-format
+#| msgctxt "Undo-action: message"
+#| msgid "%1: %2"
+msgctxt "@info/plain hours:minutes"
+msgid "%1:%2"
+msgstr "%1: %2"
+
+#: alarmtime.cpp:98
+#, fuzzy, kde-format
+#| msgctxt "days hours:minutes"
+#| msgid " %1d %2:%3 "
+msgctxt "@info/plain days hours:minutes"
+msgid "%1d %2:%3"
+msgstr " %1k %2:%3 "
+
 #: alarmtimewidget.cpp:52
 #, fuzzy
 msgctxt "@info/plain"
@@ -436,13 +422,13 @@ msgstr ""
 #: alarmtimewidget.cpp:108
 #, fuzzy
 msgctxt "@option:radio"
-msgid "Defer to date/time:"
+msgid "At date/time:"
 msgstr "K&un/vaqtda:"
 
 #: alarmtimewidget.cpp:108
 #, fuzzy
 msgctxt "@option:radio"
-msgid "At date/time:"
+msgid "Defer to date/time:"
 msgstr "K&un/vaqtda:"
 
 #: alarmtimewidget.cpp:110
@@ -737,6 +723,109 @@ msgctxt "@info:whatsthis"
 msgid "Set up an additional alarm repetition"
 msgstr "Ogohlantirishni takrorlash vaqti"
 
+#: calendarmigrator.cpp:278 collectionmodel.cpp:939
+#: resources/alarmresources.cpp:135
+#, fuzzy
+msgctxt "@info/plain"
+msgid "Active Alarms"
+msgstr "KAlarm'ni aktivlashtirish"
+
+#: calendarmigrator.cpp:286 collectionmodel.cpp:941
+#: resources/alarmresources.cpp:145
+#, fuzzy
+msgctxt "@info/plain"
+msgid "Archived Alarms"
+msgstr "KAlarm'ni aktivlashtirish"
+
+#: calendarmigrator.cpp:294 collectionmodel.cpp:943
+#: resources/alarmresources.cpp:140
+#, fuzzy
+#| msgid "Alarm Templates"
+msgctxt "@info/plain"
+msgid "Alarm Templates"
+msgstr "Ogohlantirish namunalari"
+
+#: calendarmigrator.cpp:329
+#, fuzzy, kde-format
+#| msgid ""
+#| "Cannot open audio file:\n"
+#| "%1"
+msgctxt "@info/plain"
+msgid "Failed to create default calendar <resource>%1</resource>"
+msgstr ""
+"Audio faylni ochib boʻlmadi:\n"
+"%1"
+
+#: calendarmigrator.cpp:331
+#, fuzzy, kde-format
+#| msgid ""
+#| "Cannot open audio file:\n"
+#| "%1"
+msgctxt "@info/plain 'Import Alarms' is the name of a menu option"
+msgid ""
+"Failed to convert old configuration for calendar <resource>%1</resource>. "
+"Please use Import Alarms to load its alarms into a new or existing calendar."
+msgstr ""
+"Audio faylni ochib boʻlmadi:\n"
+"%1"
+
+#: calendarmigrator.cpp:333
+#, fuzzy, kde-format
+#| msgid "Action"
+msgctxt "@info/plain File path or URL"
+msgid "Location: %1"
+msgstr "Amal"
+
+#: calendarmigrator.cpp:335
+#, fuzzy, kde-format
+#| msgid ""
+#| "%1\n"
+#| "Are you sure you want to save your changes?"
+msgctxt "@info"
+msgid "<para>%1</para><para>%2</para>"
+msgstr ""
+"%1\n"
+"Oʻzgarishlarni saqlashga ishonchingiz komilmi?"
+
+#: calendarmigrator.cpp:337
+#, fuzzy, kde-format
+#| msgid ""
+#| "%1\n"
+#| "Are you sure you want to save your changes?"
+msgctxt "@info"
+msgid "<para>%1</para><para>%2<nl/>(%3)</para>"
+msgstr ""
+"%1\n"
+"Oʻzgarishlarni saqlashga ishonchingiz komilmi?"
+
+#: calendarmigrator.cpp:443
+#, fuzzy
+#| msgid "Invalid time"
+msgctxt "@info/plain"
+msgid "Invalid collection"
+msgstr "Xato vaqt"
+
+#: calendarmigrator.cpp:457
+#, fuzzy, kde-format
+#| msgid ""
+#| "Cannot open audio file:\n"
+#| "%1"
+msgctxt "@info/plain"
+msgid "Failed to update format of calendar <resource>%1</resource>"
+msgstr ""
+"Audio faylni ochib boʻlmadi:\n"
+"%1"
+
+#: calendarmigrator.cpp:735
+msgctxt "@info/plain"
+msgid "New configuration timed out"
+msgstr ""
+
+#: calendarmigrator.cpp:748
+msgctxt "@info/plain"
+msgid "New configuration was corrupt"
+msgstr ""
+
 #: collectionmodel.cpp:362 resourcemodelview.cpp:422
 #, fuzzy
 msgctxt "@info"
@@ -800,28 +889,6 @@ msgid "<para>%1</para><para>Please select a new default calendar.</para>"
 msgstr ""
 "%1\n"
 "Oʻzgarishlarni saqlashga ishonchingiz komilmi?"
-
-#: collectionmodel.cpp:939 resources/alarmresources.cpp:135
-#: calendarmigrator.cpp:278
-#, fuzzy
-msgctxt "@info/plain"
-msgid "Active Alarms"
-msgstr "KAlarm'ni aktivlashtirish"
-
-#: collectionmodel.cpp:941 resources/alarmresources.cpp:145
-#: calendarmigrator.cpp:286
-#, fuzzy
-msgctxt "@info/plain"
-msgid "Archived Alarms"
-msgstr "KAlarm'ni aktivlashtirish"
-
-#: collectionmodel.cpp:943 resources/alarmresources.cpp:140
-#: calendarmigrator.cpp:294
-#, fuzzy
-#| msgid "Alarm Templates"
-msgctxt "@info/plain"
-msgid "Alarm Templates"
-msgstr "Ogohlantirish namunalari"
 
 #: collectionmodel.cpp:1202
 #, fuzzy
@@ -906,6 +973,56 @@ msgstr "Xato %1 parametr"
 msgctxt "@info:shell"
 msgid "<icode>%1</icode> incompatible with <icode>%2</icode>"
 msgstr "%1 %2 bilan mos kelmaydi"
+
+#: deferdlg.cpp:44
+#, fuzzy
+#| msgid "Delete Alarm"
+#| msgid_plural "Delete Alarms"
+msgctxt "@title:window"
+msgid "Defer Alarm"
+msgstr "Ogohlantirishni oʻchirish"
+
+#: deferdlg.cpp:46
+#, fuzzy
+msgctxt "@action:button"
+msgid "Cancel Deferral"
+msgstr "Bekor qilish"
+
+#: deferdlg.cpp:65
+#, fuzzy
+#| msgid "Schedule the alarm at the specified time."
+msgctxt "@info:whatsthis"
+msgid "Defer the alarm until the specified time."
+msgstr "Ogohlantirishni koʻrsatilgan vaqtda rejalashtirish."
+
+#: deferdlg.cpp:66
+msgctxt "@info:whatsthis"
+msgid "Cancel the deferred alarm. This does not affect future recurrences."
+msgstr ""
+
+#: deferdlg.cpp:98
+#, kde-format
+msgctxt "@info"
+msgid "Cannot defer past the alarm's next sub-repetition (currently %1)"
+msgstr ""
+
+#: deferdlg.cpp:102
+#, kde-format
+msgctxt "@info"
+msgid "Cannot defer past the alarm's next recurrence (currently %1)"
+msgstr ""
+
+#: deferdlg.cpp:106
+#, kde-format
+msgctxt "@info"
+msgid "Cannot defer past the alarm's next reminder (currently %1)"
+msgstr ""
+
+#: deferdlg.cpp:110
+#, kde-format
+msgctxt "@info"
+msgid "Cannot defer reminder past the main alarm time (%1)"
+msgstr ""
 
 #: editdlg.cpp:98
 #, fuzzy, kde-format
@@ -1177,30 +1294,30 @@ msgstr "Tasdiqlash"
 
 #: editdlgtypes.cpp:144
 #, fuzzy
-#| msgid "New Alarm Template"
-msgctxt "@title:window"
-msgid "New Display Alarm Template"
-msgstr "Yangi ogohlantirish namunasi"
-
-#: editdlgtypes.cpp:144
-#, fuzzy
 #| msgid "Edit Alarm Template"
 msgctxt "@title:window"
 msgid "Edit Display Alarm Template"
 msgstr "Ogohlantirish namunasini tahrirlash"
 
-#: editdlgtypes.cpp:145
+#: editdlgtypes.cpp:144
 #, fuzzy
-#| msgid "Display Alarms"
+#| msgid "New Alarm Template"
 msgctxt "@title:window"
-msgid "New Display Alarm"
-msgstr "Ogohlantirishlarni koʻrsatish"
+msgid "New Display Alarm Template"
+msgstr "Yangi ogohlantirish namunasi"
 
 #: editdlgtypes.cpp:145
 #, fuzzy
 #| msgid "Display Alarms"
 msgctxt "@title:window"
 msgid "Edit Display Alarm"
+msgstr "Ogohlantirishlarni koʻrsatish"
+
+#: editdlgtypes.cpp:145
+#, fuzzy
+#| msgid "Display Alarms"
+msgctxt "@title:window"
+msgid "New Display Alarm"
 msgstr "Ogohlantirishlarni koʻrsatish"
 
 #: editdlgtypes.cpp:157
@@ -1352,30 +1469,30 @@ msgstr "Terminal oynasida ishga tushirish"
 
 #: editdlgtypes.cpp:756
 #, fuzzy
-#| msgid "New Alarm Template"
-msgctxt "@title:window"
-msgid "New Command Alarm Template"
-msgstr "Yangi ogohlantirish namunasi"
-
-#: editdlgtypes.cpp:756
-#, fuzzy
 #| msgid "Edit Alarm Template"
 msgctxt "@title:window"
 msgid "Edit Command Alarm Template"
 msgstr "Ogohlantirish namunasini tahrirlash"
 
-#: editdlgtypes.cpp:757
+#: editdlgtypes.cpp:756
 #, fuzzy
-#| msgid "Command Alarms"
+#| msgid "New Alarm Template"
 msgctxt "@title:window"
-msgid "New Command Alarm"
-msgstr "Buyruq orqali ogohlantirishlar"
+msgid "New Command Alarm Template"
+msgstr "Yangi ogohlantirish namunasi"
 
 #: editdlgtypes.cpp:757
 #, fuzzy
 #| msgid "Command Alarms"
 msgctxt "@title:window"
 msgid "Edit Command Alarm"
+msgstr "Buyruq orqali ogohlantirishlar"
+
+#: editdlgtypes.cpp:757
+#, fuzzy
+#| msgid "Command Alarms"
+msgctxt "@title:window"
+msgid "New Command Alarm"
 msgstr "Buyruq orqali ogohlantirishlar"
 
 #: editdlgtypes.cpp:765
@@ -1464,30 +1581,30 @@ msgstr "Joʻnatish uchun elektron pochta"
 
 #: editdlgtypes.cpp:1059
 #, fuzzy
-#| msgid "New Alarm Template"
-msgctxt "@title:window"
-msgid "New Email Alarm Template"
-msgstr "Yangi ogohlantirish namunasi"
-
-#: editdlgtypes.cpp:1059
-#, fuzzy
 #| msgid "Edit Alarm Template"
 msgctxt "@title:window"
 msgid "Edit Email Alarm Template"
 msgstr "Ogohlantirish namunasini tahrirlash"
 
-#: editdlgtypes.cpp:1060
+#: editdlgtypes.cpp:1059
 #, fuzzy
-#| msgid "Email Alarms"
+#| msgid "New Alarm Template"
 msgctxt "@title:window"
-msgid "New Email Alarm"
-msgstr "Elektron pochta orqali ogohlantirishlar"
+msgid "New Email Alarm Template"
+msgstr "Yangi ogohlantirish namunasi"
 
 #: editdlgtypes.cpp:1060
 #, fuzzy
 #| msgid "Email Alarms"
 msgctxt "@title:window"
 msgid "Edit Email Alarm"
+msgstr "Elektron pochta orqali ogohlantirishlar"
+
+#: editdlgtypes.cpp:1060
+#, fuzzy
+#| msgid "Email Alarms"
+msgctxt "@title:window"
+msgid "New Email Alarm"
 msgstr "Elektron pochta orqali ogohlantirishlar"
 
 #: editdlgtypes.cpp:1068
@@ -1686,24 +1803,17 @@ msgstr "Ilova qilish uchun faylni tanlash"
 
 #: editdlgtypes.cpp:1512
 #, fuzzy
-#| msgid "New Alarm Template"
-msgctxt "@title:window"
-msgid "New Audio Alarm Template"
-msgstr "Yangi ogohlantirish namunasi"
-
-#: editdlgtypes.cpp:1512
-#, fuzzy
 #| msgid "Edit Alarm Template"
 msgctxt "@title:window"
 msgid "Edit Audio Alarm Template"
 msgstr "Ogohlantirish namunasini tahrirlash"
 
-#: editdlgtypes.cpp:1513
+#: editdlgtypes.cpp:1512
 #, fuzzy
-#| msgid "Email Alarms"
+#| msgid "New Alarm Template"
 msgctxt "@title:window"
-msgid "New Audio Alarm"
-msgstr "Elektron pochta orqali ogohlantirishlar"
+msgid "New Audio Alarm Template"
+msgstr "Yangi ogohlantirish namunasi"
 
 #: editdlgtypes.cpp:1513
 #, fuzzy
@@ -1711,6 +1821,13 @@ msgstr "Elektron pochta orqali ogohlantirishlar"
 msgctxt "@title:window"
 msgid "Edit Audio Alarm"
 msgstr "Ogohlantirishni tahrirlash"
+
+#: editdlgtypes.cpp:1513
+#, fuzzy
+#| msgid "Email Alarms"
+msgctxt "@title:window"
+msgid "New Audio Alarm"
+msgstr "Elektron pochta orqali ogohlantirishlar"
 
 #: editdlgtypes.cpp:1730
 msgctxt "@info:whatsthis"
@@ -1741,6 +1858,209 @@ msgstr "Ishga tushirish uchun shell buyrugʻini kiriting."
 msgctxt "@info:whatsthis"
 msgid "List of scheduled alarms"
 msgstr "Rejalashtirilgan ogohlantirishlar roʻyxati"
+
+#: find.cpp:137
+#, fuzzy
+#| msgid "Alarm Type"
+msgctxt "@title:group"
+msgid "Alarm Type"
+msgstr "Ogohlantirish turi"
+
+#: find.cpp:145
+#, fuzzy
+#| msgid "Acti&ve"
+msgctxt "@option:check Alarm type"
+msgid "Active"
+msgstr "Akti&v"
+
+#: find.cpp:147
+#, fuzzy
+#| msgid "Check to include active alarms in the search."
+msgctxt "@info:whatsthis"
+msgid "Check to include active alarms in the search."
+msgstr "Aktiv ogohlantirishlarda ham qidirish uchun shu yerni belgilang."
+
+#: find.cpp:150
+#, fuzzy
+msgctxt "@option:check Alarm type"
+msgid "Archived"
+msgstr "Akti&v"
+
+#: find.cpp:152
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to include archived alarms in the search. This option is only "
+"available if archived alarms are currently being displayed."
+msgstr ""
+
+#: find.cpp:160
+#, fuzzy
+#| msgid "Text"
+msgctxt "@option:check Alarm action = text display"
+msgid "Text"
+msgstr "Matn"
+
+#: find.cpp:162
+#, fuzzy
+#| msgid "Check to include active alarms in the search."
+msgctxt "@info:whatsthis"
+msgid "Check to include text message alarms in the search."
+msgstr "Aktiv ogohlantirishlarda ham qidirish uchun shu yerni belgilang."
+
+#: find.cpp:165
+#, fuzzy
+msgctxt "@option:check Alarm action = file display"
+msgid "File"
+msgstr "Fay&l"
+
+#: find.cpp:167
+#, fuzzy
+#| msgid "Check to include active alarms in the search."
+msgctxt "@info:whatsthis"
+msgid "Check to include file alarms in the search."
+msgstr "Aktiv ogohlantirishlarda ham qidirish uchun shu yerni belgilang."
+
+#: find.cpp:170
+#, fuzzy
+#| msgid "Co&mmand"
+msgctxt "@option:check Alarm action"
+msgid "Command"
+msgstr "Buy&ruq"
+
+#: find.cpp:172
+#, fuzzy
+#| msgid "Check to include active alarms in the search."
+msgctxt "@info:whatsthis"
+msgid "Check to include command alarms in the search."
+msgstr "Aktiv ogohlantirishlarda ham qidirish uchun shu yerni belgilang."
+
+#: find.cpp:175
+#, fuzzy
+#| msgid "Email"
+msgctxt "@option:check Alarm action"
+msgid "Email"
+msgstr "Elektron pochta"
+
+#: find.cpp:177
+#, fuzzy
+#| msgid "Check to include active alarms in the search."
+msgctxt "@info:whatsthis"
+msgid "Check to include email alarms in the search."
+msgstr "Aktiv ogohlantirishlarda ham qidirish uchun shu yerni belgilang."
+
+#: find.cpp:180
+msgctxt "@option:check Alarm action"
+msgid "Audio"
+msgstr ""
+
+#: find.cpp:182
+#, fuzzy
+#| msgid "Check to include active alarms in the search."
+msgctxt "@info:whatsthis"
+msgid "Check to include audio alarms in the search."
+msgstr "Aktiv ogohlantirishlarda ham qidirish uchun shu yerni belgilang."
+
+#: find.cpp:283
+#, fuzzy
+#| msgid "No alarm types are selected to search"
+msgctxt "@info"
+msgid "No alarm types are selected to search"
+msgstr "Qidirish uchun ogohlantirish turi tanlanmagan"
+
+#: find.cpp:439
+#, fuzzy
+#| msgid ""
+#| "End of alarm list reached.\n"
+#| "Continue from the beginning?"
+msgctxt "@info"
+msgid ""
+"<para>End of alarm list reached.</para><para>Continue from the beginning?</"
+"para>"
+msgstr ""
+"Ogohlantirish roʻyxati oxiriga yetdi.\n"
+"Boshidan davom etishni istaysizmi?"
+
+#: find.cpp:440
+#, fuzzy
+#| msgid ""
+#| "Beginning of alarm list reached.\n"
+#| "Continue from the end?"
+msgctxt "@info"
+msgid ""
+"<para>Beginning of alarm list reached.</para><para>Continue from the end?</"
+"para>"
+msgstr ""
+"Ogohlantirish roʻyxati boshiga yetdi.\n"
+"Oxiridan davom etishni istaysizmi?"
+
+#: fontcolour.cpp:71
+#, fuzzy
+#| msgid "&Foreground color:"
+msgctxt "@label:listbox"
+msgid "Foreground color:"
+msgstr "&Oldin fonning rangi:"
+
+#: fontcolour.cpp:76
+#, fuzzy
+#| msgid "Select the alarm message foreground color"
+msgctxt "@info:whatsthis"
+msgid "Select the alarm message foreground color"
+msgstr "Ogohlantirish xabari uchun oldin fon rangini tanlash"
+
+#: fontcolour.cpp:84
+#, fuzzy
+#| msgid "&Background color:"
+msgctxt "@label:listbox"
+msgid "Background color:"
+msgstr "O&rqa fon rangi:"
+
+#: fontcolour.cpp:89
+#, fuzzy
+#| msgid "Select the alarm message background color"
+msgctxt "@info:whatsthis"
+msgid "Select the alarm message background color"
+msgstr "Ogohlantirish xabari uchun orqa fon rangini tanlash"
+
+#: fontcolour.cpp:97
+#, fuzzy
+#| msgid "Use &default font"
+msgctxt "@option:check"
+msgid "Use default font"
+msgstr "&Andoza shriftdan foydalanish"
+
+#: fontcolour.cpp:100
+#, fuzzy
+#| msgid "Configure a sound file to play when the alarm is displayed."
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to use the default font current at the time the alarm is displayed."
+msgstr "Ogohlantirish koʻrsatilganda oʻynaladigan tovush faylini moslash."
+
+#: fontcolour.h:39
+msgid "Requested font"
+msgstr "Talab qilingan shrift"
+
+#: fontcolourbutton.cpp:43
+#, fuzzy
+#| msgid "Font && Co&lor..."
+msgctxt "@action:button"
+msgid "Font && Color..."
+msgstr "Shrift va ran&g..."
+
+#: fontcolourbutton.cpp:47
+#, fuzzy
+#| msgid "Choose the background color for the alarm message."
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose the font, and foreground and background color, for the alarm message."
+msgstr "Ogohlantirish xabarining orqa fon rangini tanlash."
+
+#: fontcolourbutton.cpp:71
+#, fuzzy
+#| msgid "Choose Alarm Font & Color"
+msgctxt "@title:window"
+msgid "Choose Alarm Font & Color"
+msgstr "Ogohlantirish shrifti va rangini tanlash"
 
 #: functions.cpp:181
 #, fuzzy
@@ -2013,74 +2333,69 @@ msgid ""
 "para><para>Do you wish to update the calendar?</para>"
 msgstr ""
 
-#: fontcolour.cpp:71
-#, fuzzy
-#| msgid "&Foreground color:"
-msgctxt "@label:listbox"
-msgid "Foreground color:"
-msgstr "&Oldin fonning rangi:"
+#: kalarmapp.cpp:346
+#, kde-format
+msgctxt "@info:shell"
+msgid "%1: Event <resource>%2</resource> not found, or not unique"
+msgstr ""
 
-#: fontcolour.cpp:76
-#, fuzzy
-#| msgid "Select the alarm message foreground color"
-msgctxt "@info:whatsthis"
-msgid "Select the alarm message foreground color"
-msgstr "Ogohlantirish xabari uchun oldin fon rangini tanlash"
+#: kalarmapp.cpp:348
+#, fuzzy, kde-format
+msgctxt "@info:shell"
+msgid "%1: Event <resource>%2</resource> not found"
+msgstr "Koʻrinish moslamalari"
 
-#: fontcolour.cpp:84
-#, fuzzy
-#| msgid "&Background color:"
-msgctxt "@label:listbox"
-msgid "Background color:"
-msgstr "O&rqa fon rangi:"
+#: kalarmapp.cpp:376 kalarmapp.cpp:378
+#, kde-format
+msgctxt "@info:shell"
+msgid "%1: Event <resource>%2</resource> not found, or not editable"
+msgstr ""
 
-#: fontcolour.cpp:89
-#, fuzzy
-#| msgid "Select the alarm message background color"
-msgctxt "@info:whatsthis"
-msgid "Select the alarm message background color"
-msgstr "Ogohlantirish xabari uchun orqa fon rangini tanlash"
-
-#: fontcolour.cpp:97
-#, fuzzy
-#| msgid "Use &default font"
-msgctxt "@option:check"
-msgid "Use default font"
-msgstr "&Andoza shriftdan foydalanish"
-
-#: fontcolour.cpp:100
-#, fuzzy
-#| msgid "Configure a sound file to play when the alarm is displayed."
-msgctxt "@info:whatsthis"
+#: kalarmapp.cpp:557
+msgctxt "@info"
 msgid ""
-"Check to use the default font current at the time the alarm is displayed."
-msgstr "Ogohlantirish koʻrsatilganda oʻynaladigan tovush faylini moslash."
+"Time zones are not accessible:<nl/>KAlarm will use the UTC time zone.<nl/"
+"><nl/>(The KDE time zone service is not available:<nl/>check that "
+"<application>ktimezoned</application> is installed.)"
+msgstr ""
 
-#: fontcolour.h:39
-msgid "Requested font"
-msgstr "Talab qilingan shrift"
-
-#: fontcolourbutton.cpp:43
-#, fuzzy
-#| msgid "Font && Co&lor..."
-msgctxt "@action:button"
-msgid "Font && Color..."
-msgstr "Shrift va ran&g..."
-
-#: fontcolourbutton.cpp:47
-#, fuzzy
-#| msgid "Choose the background color for the alarm message."
-msgctxt "@info:whatsthis"
+#: kalarmapp.cpp:634
+msgctxt "@info"
 msgid ""
-"Choose the font, and foreground and background color, for the alarm message."
-msgstr "Ogohlantirish xabarining orqa fon rangini tanlash."
+"Quitting will disable alarms (once any alarm message windows are closed)."
+msgstr ""
 
-#: fontcolourbutton.cpp:71
+#: kalarmapp.cpp:642
+msgctxt "@info"
+msgid "Quitting will cancel the scheduled Wake from Suspend."
+msgstr ""
+
+#: kalarmapp.cpp:654
+msgctxt "@info"
+msgid ""
+"Do you want to start KAlarm at login?<nl/>(Note that alarms will be disabled "
+"if KAlarm is not started.)"
+msgstr ""
+
+#: kalarmapp.cpp:2126
 #, fuzzy
-#| msgid "Choose Alarm Font & Color"
-msgctxt "@title:window"
-msgid "Choose Alarm Font & Color"
-msgstr "Ogohlantirish shrifti va rangini tanlash"
+msgctxt "@info"
+msgid "Error creating temporary script file"
+msgstr "Ogohlantirishni qayta yaratishda xato"
+
+#: kalarmapp.cpp:2214
+#, fuzzy
+#| msgid "Pre-alarm action:"
+msgctxt "@info"
+msgid "Pre-alarm action:"
+msgstr "Ogohlantirishdan oldingi amal:"
+
+#: kalarmapp.cpp:2220
+#, fuzzy
+#| msgid "Post-alarm action:"
+msgctxt "@info"
+msgid "Post-alarm action:"
+msgstr "Ogohlantirishdan keyingi amal:"
 
 #: kamail.cpp:91
 #, fuzzy
@@ -2203,6 +2518,977 @@ msgstr "Xatni joʻnatish muvaffaqiyatsiz tugadi"
 msgctxt "@info"
 msgid "Error sending email"
 msgstr "Ogohlantirishni qayta yaratishda xato"
+
+#: latecancel.cpp:44
+#, fuzzy
+#| msgid "Cancel if late"
+msgctxt "@option:check"
+msgid "Cancel if late"
+msgstr "Kech boʻlsa, bekor qilish"
+
+#: latecancel.cpp:45
+#, fuzzy
+#| msgid "Auto-close window after this time"
+msgctxt "@option:check"
+msgid "Auto-close window after this time"
+msgstr "Ushbu vaqtdan keyin oynani avtomatik yopish"
+
+#: latecancel.cpp:46
+#, fuzzy
+msgctxt "@option:check"
+msgid "Auto-close window after late-cancellation time"
+msgstr "Kechikkanda bekor qilgandan soʻng oynani avtomatik yopish vaqti"
+
+#: latecancel.cpp:56
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>If checked, the alarm will be canceled if it cannot be triggered "
+"within the specified period after its scheduled time. Possible reasons for "
+"not triggering include your being logged off, X not running, or "
+"<application>KAlarm</application> not running.</para><para>If unchecked, the "
+"alarm will be triggered at the first opportunity after its scheduled time, "
+"regardless of how late it is.</para>"
+msgstr ""
+
+#: latecancel.cpp:82
+#, fuzzy
+#| msgid "Ca&ncel if late"
+msgctxt "@option:check Cancel if late by 10 minutes"
+msgid "Cancel if late by"
+msgstr "Kech &boʻlsa, bekor qilish"
+
+#: latecancel.cpp:83
+#, fuzzy
+#| msgid "Enter how late will cause the alarm to be canceled"
+msgctxt "@info:whatsthis"
+msgid "Enter how late will cause the alarm to be canceled"
+msgstr "Qancha kechikkanda ogohlantirishni bekor qilish vaqtini kiriting"
+
+#: latecancel.cpp:99
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"Automatically close the alarm window after the expiry of the late-"
+"cancellation period"
+msgstr "Kechikkanda bekor qilgandan soʻng oynani avtomatik yopish vaqti"
+
+#: lib/filedialog.cpp:60
+#, fuzzy
+#| msgid "Failed to open file"
+msgctxt "@option:check"
+msgid "Append to existing file"
+msgstr "Faylni ochish muvaffaqiyatsiz tugadi"
+
+#: lib/kalocale.cpp:51
+#, fuzzy
+msgctxt "@option Name of the weekday"
+msgid "Monday"
+msgstr "Bugun"
+
+#: lib/kalocale.cpp:52
+#, fuzzy
+msgctxt "@option Name of the weekday"
+msgid "Tuesday"
+msgstr "Bugun"
+
+#: lib/kalocale.cpp:53
+#, fuzzy
+msgctxt "@option Name of the weekday"
+msgid "Wednesday"
+msgstr "Bugun"
+
+#: lib/kalocale.cpp:54
+#, fuzzy
+msgctxt "@option Name of the weekday"
+msgid "Thursday"
+msgstr "Bugun"
+
+#: lib/kalocale.cpp:55
+#, fuzzy
+msgctxt "@option Name of the weekday"
+msgid "Friday"
+msgstr "kun"
+
+#: lib/kalocale.cpp:56
+#, fuzzy
+msgctxt "@option Name of the weekday"
+msgid "Saturday"
+msgstr "bugun"
+
+#: lib/kalocale.cpp:57
+#, fuzzy
+msgctxt "@option Name of the weekday"
+msgid "Sunday"
+msgstr "Tovush"
+
+#: lib/shellprocess.cpp:158
+#, fuzzy
+#| msgid "Failed to execute command:"
+msgctxt "@info"
+msgid "Failed to execute command (shell access not authorized)"
+msgstr "Buyruqni ishga tushirib boʻlmadi:"
+
+#: lib/shellprocess.cpp:161
+#, fuzzy
+#| msgid "Failed to execute command:"
+msgctxt "@info"
+msgid "Failed to execute command"
+msgstr "Buyruqni ishga tushirib boʻlmadi:"
+
+#: lib/shellprocess.cpp:163
+#, fuzzy
+#| msgid "Command execution error:"
+msgctxt "@info"
+msgid "Command execution error"
+msgstr "Buyruqni ishga tushirish xatosi:"
+
+#: lib/shellprocess.cpp:166
+#, fuzzy, kde-format
+#| msgid ""
+#| "Command executed:\n"
+#| "%1"
+msgctxt "@info"
+msgid "Command exit code: %1"
+msgstr ""
+"Bajarilgan buyruq:\n"
+"%1"
+
+#: lib/timeedit.cpp:177
+#, fuzzy
+msgctxt "@item:inlistbox Morning, as in 2am"
+msgid "am"
+msgstr "Ismi"
+
+#: lib/timeedit.cpp:196
+msgctxt "@item:inlistbox Afternoon, as in 2pm"
+msgid "pm"
+msgstr ""
+
+#: lib/timeperiod.cpp:41
+#, fuzzy
+#| msgid "hours/minutes"
+msgctxt "@item:inlistbox Time units"
+msgid "minutes"
+msgstr "soat/daqiqa"
+
+#: lib/timeperiod.cpp:42
+#, fuzzy
+#| msgid "hours/minutes"
+msgctxt "@item:inlistbox Time units"
+msgid "hours/minutes"
+msgstr "soat/daqiqa"
+
+#: lib/timeperiod.cpp:43
+#, fuzzy
+#| msgid "days"
+msgctxt "@item:inlistbox Time units"
+msgid "days"
+msgstr "kun"
+
+#: lib/timeperiod.cpp:44
+#, fuzzy
+#| msgid "weeks"
+msgctxt "@item:inlistbox Time units"
+msgid "weeks"
+msgstr "hafta"
+
+#: lib/timespinbox.cpp:77
+msgctxt "@info:whatsthis"
+msgid ""
+"Press the Shift key while clicking the spin buttons to adjust the time by a "
+"larger step (6 hours / 5 minutes)."
+msgstr ""
+
+#: main.cpp:39
+msgid "KAlarm"
+msgstr "KAlarm"
+
+#: main.cpp:40
+msgid "Personal alarm message, command and email scheduler for KDE"
+msgstr ""
+"KDE uchun ogohlantirish, buyruq va xat joʻnatishni rejalashtirish dasturi"
+
+#: main.cpp:42
+msgid "Copyright 2001-2012, David Jarvie"
+msgstr ""
+
+#: main.cpp:50
+msgid "Prompt for confirmation when alarm is acknowledged"
+msgstr ""
+
+#: main.cpp:52
+msgid "Attach file to email (repeat as needed)"
+msgstr "Faylni xatga ilova qilish (keragida takrorlash)"
+
+#: main.cpp:53
+msgid "Auto-close alarm window after --late-cancel period"
+msgstr ""
+
+#: main.cpp:54
+msgid "Blind copy email to self"
+msgstr ""
+
+#: main.cpp:56
+msgid "Beep when message is displayed"
+msgstr "Xabar koʻrsatilganda ovoz berish"
+
+#: main.cpp:59
+msgid "Message background color (name or hex 0xRRGGBB)"
+msgstr "Xabarning orqa fon rangi (nomi yoki 0xRRGGBB koʻrinishda)"
+
+#: main.cpp:62
+msgid "Message foreground color (name or hex 0xRRGGBB)"
+msgstr "Xabarning oldin fon rangi (nomi yoki 0xRRGGBB koʻrinishda)"
+
+#: main.cpp:63
+msgid "Cancel alarm with the specified event ID"
+msgstr ""
+
+#: main.cpp:65
+msgid "Disable the alarm"
+msgstr "Ogohlantirishni oʻchirish"
+
+#: main.cpp:66
+#, fuzzy
+#| msgid "Disable the alarm"
+msgid "Disable monitoring of all alarms"
+msgstr "Ogohlantirishni oʻchirish"
+
+#: main.cpp:68
+#, fuzzy
+msgid "Execute a shell command line"
+msgstr "Shell buyruqlar satrini ishga tushirish"
+
+#: main.cpp:70
+msgid "Command line to generate alarm message text"
+msgstr ""
+
+#: main.cpp:71
+#, fuzzy
+msgid "Display the alarm edit dialog to edit the specified alarm"
+msgstr "Ogohlantirishni koʻrsatilgan vaqtda rejalashtirish."
+
+#: main.cpp:72
+#, fuzzy
+msgid "Display the alarm edit dialog to edit a new display alarm"
+msgstr "Ogohlantirish xabarini darhol koʻrsatish"
+
+#: main.cpp:73
+#, fuzzy
+msgid "Display the alarm edit dialog to edit a new command alarm"
+msgstr "Ogohlantirish xabarini darhol koʻrsatish"
+
+#: main.cpp:74
+#, fuzzy
+msgid "Display the alarm edit dialog to edit a new email alarm"
+msgstr "Ogohlantirish xabarini darhol koʻrsatish"
+
+#: main.cpp:75
+#, fuzzy
+msgid "Display the alarm edit dialog to edit a new audio alarm"
+msgstr "Ogohlantirish xabarini darhol koʻrsatish"
+
+#: main.cpp:76
+msgid "Display the alarm edit dialog, preset with a template"
+msgstr ""
+
+#: main.cpp:78
+msgid "File to display"
+msgstr "Koʻrsatish uchun fayl"
+
+#: main.cpp:80
+msgid "KMail identity to use as sender of email"
+msgstr "Joʻnatuvchi sifatida ishlatish uchun KMail shaxsiyatidan foydalanish"
+
+#: main.cpp:82
+msgid "Interval between alarm repetitions"
+msgstr "Ogohlantirishni takrorlash vaqti"
+
+#: main.cpp:84
+msgid "Show alarm as an event in KOrganizer"
+msgstr "Ogohlantirishni KOrganizer'da hodisa sifatida koʻrsatish"
+
+#: main.cpp:86
+msgid "Cancel alarm if more than 'period' late when triggered"
+msgstr ""
+
+#: main.cpp:87
+#, fuzzy
+#| msgid "List of scheduled alarms"
+msgid "Output list of scheduled alarms to stdout"
+msgstr "Rejalashtirilgan ogohlantirishlar roʻyxati"
+
+#: main.cpp:89
+msgid "Repeat alarm at every login"
+msgstr "Ogohlantirishni tizimga har kirganda takrorlash"
+
+#: main.cpp:91
+msgid "Send an email to the given address (repeat as needed)"
+msgstr ""
+
+#: main.cpp:93
+msgid "Audio file to play once"
+msgstr "Bir marta oʻynash uchun audio fayli"
+
+#: main.cpp:95
+msgid "Audio file to play repeatedly"
+msgstr "Takrorlab oʻynash uchun audio fayli"
+
+#: main.cpp:96
+msgid "Specify alarm recurrence using iCalendar syntax"
+msgstr ""
+
+#: main.cpp:98
+msgid "Display reminder before or after alarm"
+msgstr ""
+
+#: main.cpp:99
+msgid "Display reminder once, before or after first alarm recurrence"
+msgstr ""
+
+#: main.cpp:101
+msgid "Number of times to repeat alarm (including initial occasion)"
+msgstr ""
+
+#: main.cpp:103
+msgid "Speak the message when it is displayed"
+msgstr "Koʻrsatilgan xabarni oʻqib eshittirish"
+
+#: main.cpp:105
+msgid "Email subject line"
+msgstr "Xatning mavzusi"
+
+#: main.cpp:107
+msgid "Simulate system time [[[yyyy-]mm-]dd-]hh:mm [TZ] (debug mode)"
+msgstr ""
+
+#: main.cpp:110
+msgid ""
+"Trigger alarm at time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
+msgstr ""
+
+#: main.cpp:111
+msgid "Display system tray icon"
+msgstr ""
+
+#: main.cpp:112
+msgid "Trigger alarm with the specified event ID"
+msgstr ""
+
+#: main.cpp:114
+msgid "Repeat until time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
+msgstr ""
+
+#: main.cpp:116
+msgid "Volume to play audio file"
+msgstr "Audio faylning tovushi"
+
+#: main.cpp:117
+msgid "Message text to display"
+msgstr "Koʻrsatish uchun xabar matni"
+
+#: mainwindow.cpp:126
+#, fuzzy
+#| msgid "Show &Alarm Times"
+msgctxt "@action"
+msgid "Show &Alarm Times"
+msgstr "Ogohlantirish vaqtlarini &koʻrsatish"
+
+#: mainwindow.cpp:127
+#, fuzzy
+msgctxt "@option:check"
+msgid "Show alarm time"
+msgstr "Ogohlantirish vaq&tini koʻrsatish"
+
+#: mainwindow.cpp:128
+#, fuzzy
+#| msgid "Show Time t&o Alarms"
+msgctxt "@action"
+msgid "Show Time t&o Alarms"
+msgstr "Ogohlantirishlar u&chun vaqtni koʻrsatish"
+
+#: mainwindow.cpp:129
+#, fuzzy
+#| msgid "Show time u&ntil alarm"
+msgctxt "@option:check"
+msgid "Show time until alarm"
+msgstr "Ogohlantiri&shga qolgan vaqtni koʻrsatish"
+
+#: mainwindow.cpp:437
+#, fuzzy, kde-format
+#| msgid ""
+#| "Failed to save calendar to\n"
+#| "'%1'"
+msgctxt "@info"
+msgid ""
+"Failure to create menus (perhaps <filename>%1</filename> missing or "
+"corrupted)"
+msgstr ""
+"Kalendarni saqlab boʻlmadi\n"
+"'%1'"
+
+#: mainwindow.cpp:458
+#, fuzzy
+#| msgid "&Templates..."
+msgctxt "@action"
+msgid "&Templates..."
+msgstr "&Namunalar..."
+
+#: mainwindow.cpp:462
+#, fuzzy
+#| msgid "&New..."
+msgctxt "@action"
+msgid "&New"
+msgstr "Ya&ngi..."
+
+#: mainwindow.cpp:489
+#, fuzzy
+#| msgid "Create Tem&plate..."
+msgctxt "@action"
+msgid "Create Tem&plate..."
+msgstr "Na&muna yaratish..."
+
+#: mainwindow.cpp:493
+#, fuzzy
+#| msgid "&Copy..."
+msgctxt "@action"
+msgid "&Copy..."
+msgstr "&Nusxa olish"
+
+#: mainwindow.cpp:498 resourceselector.cpp:518
+#, fuzzy
+#| msgid "&Edit..."
+msgctxt "@action"
+msgid "&Edit..."
+msgstr "&Tahrirlash"
+
+#: mainwindow.cpp:503
+#, fuzzy
+msgctxt "@action"
+msgid "&Delete"
+msgstr "Ogohlantirishni oʻchirish"
+
+#: mainwindow.cpp:509
+#, fuzzy
+msgctxt "@action"
+msgid "Delete Without Confirmation"
+msgstr "Ogohlantirish moslamasi"
+
+#: mainwindow.cpp:514
+#, fuzzy
+#| msgid "Reac&tivate"
+msgctxt "@action"
+msgid "Reac&tivate"
+msgstr "Qayta akti&vlashtirish"
+
+#: mainwindow.cpp:524
+msgctxt "@action"
+msgid "Wake From Suspend..."
+msgstr ""
+
+#: mainwindow.cpp:541
+#, fuzzy
+msgctxt "@action"
+msgid "Show Archi&ved Alarms"
+msgstr "Muddati oʻtgan ogohlantirishlarni koʻrsatish"
+
+#: mainwindow.cpp:546
+msgctxt "@action"
+msgid "Show in System &Tray"
+msgstr ""
+
+#: mainwindow.cpp:550
+#, fuzzy
+msgctxt "@action"
+msgid "Show &Calendars"
+msgstr "Kalendar faylining manzili"
+
+#: mainwindow.cpp:558
+#, fuzzy
+msgctxt "@action"
+msgid "Import &Alarms..."
+msgstr "&Tugʻilgan kunlarni import qilish..."
+
+#: mainwindow.cpp:562
+#, fuzzy
+#| msgid "Import &Birthdays..."
+msgctxt "@action"
+msgid "Import &Birthdays..."
+msgstr "&Tugʻilgan kunlarni import qilish..."
+
+#: mainwindow.cpp:566
+#, fuzzy
+msgctxt "@action"
+msgid "E&xport Selected Alarms..."
+msgstr "&Tugʻilgan kunlarni import qilish..."
+
+#: mainwindow.cpp:570 resourceselector.cpp:538
+#, fuzzy
+msgctxt "@action"
+msgid "E&xport..."
+msgstr "&Tugʻilgan kunlarni import qilish..."
+
+#: mainwindow.cpp:574
+#, fuzzy
+#| msgid "&Refresh Alarms"
+msgctxt "@action"
+msgid "&Refresh Alarms"
+msgstr "Ogohlantirishlarni &yangilash"
+
+#: mainwindow.cpp:829
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "Do you really want to delete the selected alarm?"
+msgid_plural "Do you really want to delete the %1 selected alarms?"
+msgstr[0] "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
+
+#: mainwindow.cpp:831
+#, fuzzy
+#| msgid "Delete Alarm"
+#| msgid_plural "Delete Alarms"
+msgctxt "@title:window"
+msgid "Delete Alarm"
+msgid_plural "Delete Alarms"
+msgstr[0] "Ogohlantirishni oʻchirish"
+
+#: mainwindow.cpp:832 templatedlg.cpp:214
+#, fuzzy
+msgctxt "@action:button"
+msgid "&Delete"
+msgstr "Ogohlantirishni oʻchirish"
+
+#: mainwindow.cpp:976
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Hide Archived Alarms"
+msgstr "Muddati oʻtgan ogohlantirishlarni bekitish"
+
+#: mainwindow.cpp:977
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Show Archived Alarms"
+msgstr "Muddati oʻtgan ogohlantirishlarni koʻrsatish"
+
+#: mainwindow.cpp:1064
+#, fuzzy
+msgctxt "@info"
+msgid "Import birthdays"
+msgstr "&Tugʻilgan kunlarni import qilish..."
+
+#: mainwindow.cpp:1234
+#, fuzzy, kde-format
+#| msgctxt "Undo-action: message"
+#| msgid "%1: %2"
+msgctxt "@action Undo/Redo [action]"
+msgid "%1 %2"
+msgstr "%1: %2"
+
+#: mainwindow.cpp:1235
+#, fuzzy, kde-format
+msgctxt "@action Undo [action]: message"
+msgid "%1 %2: %3"
+msgstr "%1%2:%3"
+
+#: mainwindow.cpp:1521
+#, fuzzy
+#| msgid "Display Alarms"
+msgctxt "@item:inlistbox"
+msgid "Display Alarm"
+msgstr "Ogohlantirishlarni koʻrsatish"
+
+#: mainwindow.cpp:1523
+#, fuzzy
+#| msgid "Email Alarms"
+msgctxt "@item:inlistbox"
+msgid "Email Alarm"
+msgstr "Elektron pochta orqali ogohlantirishlar"
+
+#: mainwindow.cpp:1525
+#, fuzzy
+#| msgid "Command Alarms"
+msgctxt "@item:inlistbox"
+msgid "Command Alarm"
+msgstr "Buyruq orqali ogohlantirishlar"
+
+#: mainwindow.cpp:1527
+#, fuzzy
+#| msgid "Alarm Type"
+msgctxt "@title:window"
+msgid "Alarm Type"
+msgstr "Ogohlantirish turi"
+
+#: mainwindow.cpp:1528
+#, fuzzy
+#| msgid "Choose Alarm Font & Color"
+msgctxt "@info"
+msgid "Choose alarm type to create:"
+msgstr "Ogohlantirish shrifti va rangini tanlash"
+
+#: mainwindow.cpp:1681
+#, fuzzy
+#| msgid "Disa&ble"
+msgctxt "@action"
+msgid "Disa&ble"
+msgstr "Oʻ&chirish"
+
+#: mainwindow.cpp:1681
+#, fuzzy
+#| msgid "Ena&ble"
+msgctxt "@action"
+msgid "Ena&ble"
+msgstr "Yoq&ish"
+
+#: messagewin.cpp:438 messagewin.cpp:861
+#, fuzzy
+#| msgid "Message"
+msgctxt "@title:window"
+msgid "Message"
+msgstr "Xabar"
+
+#: messagewin.cpp:438
+#, fuzzy
+#| msgid "Reminder"
+msgctxt "@title:window"
+msgid "Reminder"
+msgstr "Esga solish"
+
+#: messagewin.cpp:456
+msgctxt "@info:whatsthis"
+msgid ""
+"The scheduled date/time for the message (as opposed to the actual time of "
+"display)."
+msgstr ""
+
+#: messagewin.cpp:463
+#, fuzzy
+#| msgid "Reminder"
+msgctxt "@info"
+msgid "Reminder"
+msgstr "Esga solish"
+
+#: messagewin.cpp:487
+msgctxt "@info:whatsthis"
+msgid "The file whose contents are displayed below"
+msgstr ""
+
+#: messagewin.cpp:543
+#, fuzzy
+#| msgid "Select a text or image file to display."
+msgctxt "@info:whatsthis"
+msgid "The contents of the file to be displayed"
+msgstr "Koʻrsatish uchun matn yoki rasm faylini tanlang."
+
+#: messagewin.cpp:551
+#, fuzzy
+#| msgid "Failed to open file"
+msgctxt "@info"
+msgid "Failed to open file"
+msgstr "Faylni ochish muvaffaqiyatsiz tugadi"
+
+#: messagewin.cpp:551
+#, fuzzy
+#| msgid "File not found"
+msgctxt "@info"
+msgid "File is a folder"
+msgstr "Fayl topilmadi"
+
+#: messagewin.cpp:551
+#, fuzzy
+#| msgid "File not found"
+msgctxt "@info"
+msgid "File not found"
+msgstr "Fayl topilmadi"
+
+#: messagewin.cpp:571
+#, fuzzy
+#| msgid "The alarm message"
+msgctxt "@info:whatsthis"
+msgid "The alarm message"
+msgstr "Ogohlantirish xabari"
+
+#: messagewin.cpp:598
+msgctxt "@info:whatsthis"
+msgid "The output of the alarm's command"
+msgstr ""
+
+#: messagewin.cpp:640
+#, fuzzy
+#| msgid "The email to send"
+msgctxt "@info:whatsthis"
+msgid "The email to send"
+msgstr "Joʻnatish uchun elektron pochta"
+
+#: messagewin.cpp:646
+#, fuzzy
+#| msgctxt "Email addressee"
+#| msgid "To:"
+msgctxt "@info Email addressee"
+msgid "To:"
+msgstr "Kimga:"
+
+#: messagewin.cpp:653
+#, fuzzy
+#| msgctxt "Email subject"
+#| msgid "Subject:"
+msgctxt "@info Email subject"
+msgid "Subject:"
+msgstr "Mavzu:"
+
+#: messagewin.cpp:679
+msgctxt "@title:window"
+msgid "Error"
+msgstr ""
+
+#: messagewin.cpp:699
+msgctxt "@option:check"
+msgid "Do not display this error message again for this alarm"
+msgstr ""
+
+#: messagewin.cpp:718
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Acknowledge the alarm"
+msgstr "Ogohlantirishni tasdiqlash"
+
+#: messagewin.cpp:723
+#, fuzzy
+#| msgid "&Edit..."
+msgctxt "@action:button"
+msgid "&Edit..."
+msgstr "&Tahrirlash"
+
+#: messagewin.cpp:728
+#, fuzzy
+#| msgid "Edit the alarm."
+msgctxt "@info:whatsthis"
+msgid "Edit the alarm."
+msgstr "Ogohlantirishni tahrirlash."
+
+#: messagewin.cpp:732
+#, fuzzy
+#| msgid "&New..."
+msgctxt "@action:button"
+msgid "&Defer..."
+msgstr "Ya&ngi..."
+
+#: messagewin.cpp:737
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Defer the alarm until later.</para><para>You will be prompted to "
+"specify when the alarm should be redisplayed.</para>"
+msgstr ""
+
+#: messagewin.cpp:752 sounddlg.cpp:442
+#, fuzzy
+#| msgid "Stop sound"
+msgctxt "@info:tooltip"
+msgid "Stop sound"
+msgstr "Tovushni toʻxtatish"
+
+#: messagewin.cpp:753 sounddlg.cpp:443
+#, fuzzy
+#| msgid "Stop playing the sound"
+msgctxt "@info:whatsthis"
+msgid "Stop playing the sound"
+msgstr "Tovushni oʻynashni toʻxtatish"
+
+#: messagewin.cpp:767
+#, fuzzy
+#| msgid "Use KMail &identities"
+msgctxt "@info:tooltip Locate this email in KMail"
+msgid "Locate in <application>KMail</application>"
+msgstr "KMail &shaxsiyatlaridan foydalanish"
+
+#: messagewin.cpp:768
+msgctxt "@info:whatsthis"
+msgid "Locate and highlight this email in <application>KMail</application>"
+msgstr ""
+
+#: messagewin.cpp:777
+msgctxt "@info:tooltip"
+msgid "Activate <application>KAlarm</application>"
+msgstr ""
+
+#: messagewin.cpp:778
+msgctxt "@info:whatsthis"
+msgid "Activate <application>KAlarm</application>"
+msgstr ""
+
+#: messagewin.cpp:938
+#, fuzzy
+#| msgid "Today"
+msgctxt "@info"
+msgid "Today"
+msgstr "Bugun"
+
+#: messagewin.cpp:940
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "Tomorrow"
+msgid_plural "in %1 days' time"
+msgstr[0] "Ertaga"
+
+#: messagewin.cpp:942
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "in 1 week's time"
+msgid_plural "in %1 weeks' time"
+msgstr[0] "1 haftadan soʻng"
+
+#: messagewin.cpp:956
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "in 1 minute's time"
+msgid_plural "in %1 minutes' time"
+msgstr[0] "1 daqiqadan soʻng"
+
+#: messagewin.cpp:958
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "in 1 hour's time"
+msgid_plural "in %1 hours' time"
+msgstr[0] "1 soatdan soʻng"
+
+#: messagewin.cpp:961
+#, fuzzy, kde-format
+msgctxt "@item:intext inserted into 'in ... %1 minute's time' below"
+msgid "1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "1 soat"
+
+#: messagewin.cpp:962
+#, fuzzy, kde-format
+msgctxt "@info '%2' is the previous message '1 hour'/'%1 hours'"
+msgid "in %2 1 minute's time"
+msgid_plural "in %2 %1 minutes' time"
+msgstr[0] "1 daqiqadan soʻng"
+
+#: messagewin.cpp:1464 messagewin.cpp:1474
+#, fuzzy
+#| msgid "Enter the email message."
+msgctxt "@info"
+msgid "Unable to speak message"
+msgstr "Elektron pochta xabarini kiriting."
+
+#: messagewin.cpp:1474
+msgctxt "@info"
+msgid "D-Bus call say() failed"
+msgstr ""
+
+#: messagewin.cpp:1617
+#, fuzzy, kde-format
+#| msgid ""
+#| "Cannot open audio file:\n"
+#| "%1"
+msgctxt "@info"
+msgid "Cannot open audio file: <filename>%1</filename>"
+msgstr ""
+"Audio faylni ochib boʻlmadi:\n"
+"%1"
+
+#: messagewin.cpp:1715
+#, fuzzy, kde-format
+#| msgid ""
+#| "Error attaching file:\n"
+#| "%1"
+msgctxt "@info"
+msgid ""
+"<para>Error playing audio file: <filename>%1</filename></para><para>%2</para>"
+msgstr ""
+"Faylni ilova qilish xatosi:\n"
+"%1"
+
+#: messagewin.cpp:2044
+#, fuzzy
+msgctxt "@info"
+msgid "Do you really want to acknowledge this alarm?"
+msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
+
+#: messagewin.cpp:2045
+#, fuzzy
+msgctxt "@action:button"
+msgid "Acknowledge"
+msgstr "&Tasdiqlash"
+
+#: messagewin.cpp:2045
+#, fuzzy
+msgctxt "@action:button"
+msgid "Acknowledge Alarm"
+msgstr "Ogohlantirishni tasdiqlash"
+
+#: messagewin.cpp:2096
+msgctxt "@info"
+msgid "Unable to locate this email in <application>KMail</application>"
+msgstr ""
+
+#: messagewin.cpp:2266
+msgctxt "@info"
+msgid "<para>Cannot defer alarm:</para><para>Alarm not found.</para>"
+msgstr ""
+
+#: newalarmaction.cpp:59
+#, fuzzy
+#| msgid "Delete Alarm Template"
+#| msgid_plural "Delete Alarm Templates"
+msgctxt "@item:inmenu"
+msgid "&Display Alarm Template"
+msgstr "Ogohlantirish namunasini oʻchirish"
+
+#: newalarmaction.cpp:59
+#, fuzzy
+#| msgid "Display Alarms"
+msgctxt "@action"
+msgid "New Display Alarm"
+msgstr "Ogohlantirishlarni koʻrsatish"
+
+#: newalarmaction.cpp:62
+#, fuzzy
+#| msgid "Edit Alarm Template"
+msgctxt "@item:inmenu"
+msgid "&Command Alarm Template"
+msgstr "Ogohlantirish namunasini tahrirlash"
+
+#: newalarmaction.cpp:62
+#, fuzzy
+#| msgid "Command Alarms"
+msgctxt "@action"
+msgid "New Command Alarm"
+msgstr "Buyruq orqali ogohlantirishlar"
+
+#: newalarmaction.cpp:65
+#, fuzzy
+#| msgid "Edit Alarm Template"
+msgctxt "@item:inmenu"
+msgid "&Email Alarm Template"
+msgstr "Ogohlantirish namunasini tahrirlash"
+
+#: newalarmaction.cpp:65
+#, fuzzy
+#| msgid "Email Alarms"
+msgctxt "@action"
+msgid "New Email Alarm"
+msgstr "Elektron pochta orqali ogohlantirishlar"
+
+#: newalarmaction.cpp:68
+#, fuzzy
+#| msgid "Edit Alarm Template"
+msgctxt "@item:inmenu"
+msgid "&Audio Alarm Template"
+msgstr "Ogohlantirish namunasini tahrirlash"
+
+#: newalarmaction.cpp:68
+#, fuzzy
+#| msgid "Email Alarms"
+msgctxt "@action"
+msgid "New Audio Alarm"
+msgstr "Elektron pochta orqali ogohlantirishlar"
+
+#: newalarmaction.cpp:79
+#, fuzzy
+#| msgid "New Alarm From &Template"
+msgctxt "@action"
+msgid "New Alarm From &Template"
+msgstr "&Namunadan yangi ogohlantirish"
 
 #: prefdlg.cpp:157
 #, fuzzy
@@ -3239,3036 +4525,6 @@ msgid ""
 "does not interfere with your typing when it is displayed, but it has no "
 "title bar and cannot be moved or resized.</item></list></para>"
 msgstr ""
-
-#: sounddlg.cpp:54
-#, fuzzy
-#| msgid "Repeat"
-msgctxt "@option:check"
-msgid "Repeat"
-msgstr "Qaytarish"
-
-#: sounddlg.cpp:158
-#, fuzzy
-#| msgid "Sound &file:"
-msgctxt "@label"
-msgid "Sound file:"
-msgstr "Tovush f&ayli:"
-
-#: sounddlg.cpp:172 sounddlg.cpp:455
-#, fuzzy
-msgctxt "@info:tooltip"
-msgid "Test the sound"
-msgstr "Tovushni oʻynashni toʻxtatish"
-
-#: sounddlg.cpp:173 sounddlg.cpp:456
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Play the selected sound file."
-msgstr "Takrorlash uchun to&vush fayli"
-
-#: sounddlg.cpp:179
-#, fuzzy
-#| msgid "Enter the name or URL of a sound file to play."
-msgctxt "@info:whatsthis"
-msgid "Enter the name or URL of a sound file to play."
-msgstr "Oʻynash uchun tovush faylining nomi yoki manzilini kiriting."
-
-#: sounddlg.cpp:191
-#, fuzzy
-#| msgid "Select a sound file to play."
-msgctxt "@info:whatsthis"
-msgid "Select a sound file to play."
-msgstr "Oʻynash uchun tovush faylini tanlash."
-
-#: sounddlg.cpp:205
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid ""
-"If checked, the sound file will be played repeatedly for as long as the "
-"message is displayed."
-msgstr "Ogohlantirish koʻrsatilganda oʻynaladigan tovush faylini moslash."
-
-#: sounddlg.cpp:215
-#, fuzzy
-#| msgid "Interval between alarm repetitions"
-msgctxt "@label:spinbox Length of time to pause between repetitions"
-msgid "Pause between repetitions:"
-msgstr "Ogohlantirishni takrorlash vaqti"
-
-#: sounddlg.cpp:222 sounddlg.cpp:276
-#, fuzzy
-#| msgid "seconds"
-msgctxt "@label"
-msgid "seconds"
-msgstr "soniya"
-
-#: sounddlg.cpp:224
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Enter how many seconds to pause between repetitions."
-msgstr "Ogohlantirishni takrorlash uchun oxirigi kunni kiriting"
-
-#: sounddlg.cpp:228
-#, fuzzy
-#| msgid "Volume"
-msgctxt "@title:group Sound volume"
-msgid "Volume"
-msgstr "Tovush"
-
-#: sounddlg.cpp:243
-#, fuzzy
-#| msgid "Set volume"
-msgctxt "@option:check"
-msgid "Set volume"
-msgstr "Tovushni moslash"
-
-#: sounddlg.cpp:246
-msgctxt "@info:whatsthis"
-msgid "Select to choose the volume for playing the sound file."
-msgstr ""
-
-#: sounddlg.cpp:253
-#, fuzzy
-#| msgid "Enter the name or path of the log file."
-msgctxt "@info:whatsthis"
-msgid "Choose the volume for playing the sound file."
-msgstr "Log faylini nomini yoki yoʻlini kiriting."
-
-#: sounddlg.cpp:258
-#, fuzzy
-#| msgid "Fade"
-msgctxt "@option:check"
-msgid "Fade"
-msgstr "Soʻnish"
-
-#: sounddlg.cpp:261
-msgctxt "@info:whatsthis"
-msgid "Select to fade the volume when the sound file first starts to play."
-msgstr ""
-
-#: sounddlg.cpp:269
-#, fuzzy
-#| msgctxt "Time period over which to fade the sound"
-#| msgid "Fade time:"
-msgctxt "@label:spinbox Time period over which to fade the sound"
-msgid "Fade time:"
-msgstr "Soʻnish vaqti:"
-
-#: sounddlg.cpp:278
-msgctxt "@info:whatsthis"
-msgid ""
-"Enter how many seconds to fade the sound before reaching the set volume."
-msgstr ""
-
-#: sounddlg.cpp:285
-#, fuzzy
-#| msgid "Set volume"
-msgctxt "@label:slider"
-msgid "Initial volume:"
-msgstr "Tovushni moslash"
-
-#: sounddlg.cpp:293
-#, fuzzy
-#| msgid "Enter the name or path of the log file."
-msgctxt "@info:whatsthis"
-msgid "Choose the initial volume for playing the sound file."
-msgstr "Log faylini nomini yoki yoʻlini kiriting."
-
-#: sounddlg.cpp:442 messagewin.cpp:752
-#, fuzzy
-#| msgid "Stop sound"
-msgctxt "@info:tooltip"
-msgid "Stop sound"
-msgstr "Tovushni toʻxtatish"
-
-#: sounddlg.cpp:443 messagewin.cpp:753
-#, fuzzy
-#| msgid "Stop playing the sound"
-msgctxt "@info:whatsthis"
-msgid "Stop playing the sound"
-msgstr "Tovushni oʻynashni toʻxtatish"
-
-#: find.cpp:137
-#, fuzzy
-#| msgid "Alarm Type"
-msgctxt "@title:group"
-msgid "Alarm Type"
-msgstr "Ogohlantirish turi"
-
-#: find.cpp:145
-#, fuzzy
-#| msgid "Acti&ve"
-msgctxt "@option:check Alarm type"
-msgid "Active"
-msgstr "Akti&v"
-
-#: find.cpp:147
-#, fuzzy
-#| msgid "Check to include active alarms in the search."
-msgctxt "@info:whatsthis"
-msgid "Check to include active alarms in the search."
-msgstr "Aktiv ogohlantirishlarda ham qidirish uchun shu yerni belgilang."
-
-#: find.cpp:150
-#, fuzzy
-msgctxt "@option:check Alarm type"
-msgid "Archived"
-msgstr "Akti&v"
-
-#: find.cpp:152
-msgctxt "@info:whatsthis"
-msgid ""
-"Check to include archived alarms in the search. This option is only "
-"available if archived alarms are currently being displayed."
-msgstr ""
-
-#: find.cpp:160
-#, fuzzy
-#| msgid "Text"
-msgctxt "@option:check Alarm action = text display"
-msgid "Text"
-msgstr "Matn"
-
-#: find.cpp:162
-#, fuzzy
-#| msgid "Check to include active alarms in the search."
-msgctxt "@info:whatsthis"
-msgid "Check to include text message alarms in the search."
-msgstr "Aktiv ogohlantirishlarda ham qidirish uchun shu yerni belgilang."
-
-#: find.cpp:165
-#, fuzzy
-msgctxt "@option:check Alarm action = file display"
-msgid "File"
-msgstr "Fay&l"
-
-#: find.cpp:167
-#, fuzzy
-#| msgid "Check to include active alarms in the search."
-msgctxt "@info:whatsthis"
-msgid "Check to include file alarms in the search."
-msgstr "Aktiv ogohlantirishlarda ham qidirish uchun shu yerni belgilang."
-
-#: find.cpp:170
-#, fuzzy
-#| msgid "Co&mmand"
-msgctxt "@option:check Alarm action"
-msgid "Command"
-msgstr "Buy&ruq"
-
-#: find.cpp:172
-#, fuzzy
-#| msgid "Check to include active alarms in the search."
-msgctxt "@info:whatsthis"
-msgid "Check to include command alarms in the search."
-msgstr "Aktiv ogohlantirishlarda ham qidirish uchun shu yerni belgilang."
-
-#: find.cpp:175
-#, fuzzy
-#| msgid "Email"
-msgctxt "@option:check Alarm action"
-msgid "Email"
-msgstr "Elektron pochta"
-
-#: find.cpp:177
-#, fuzzy
-#| msgid "Check to include active alarms in the search."
-msgctxt "@info:whatsthis"
-msgid "Check to include email alarms in the search."
-msgstr "Aktiv ogohlantirishlarda ham qidirish uchun shu yerni belgilang."
-
-#: find.cpp:180
-msgctxt "@option:check Alarm action"
-msgid "Audio"
-msgstr ""
-
-#: find.cpp:182
-#, fuzzy
-#| msgid "Check to include active alarms in the search."
-msgctxt "@info:whatsthis"
-msgid "Check to include audio alarms in the search."
-msgstr "Aktiv ogohlantirishlarda ham qidirish uchun shu yerni belgilang."
-
-#: find.cpp:283
-#, fuzzy
-#| msgid "No alarm types are selected to search"
-msgctxt "@info"
-msgid "No alarm types are selected to search"
-msgstr "Qidirish uchun ogohlantirish turi tanlanmagan"
-
-#: find.cpp:439
-#, fuzzy
-#| msgid ""
-#| "End of alarm list reached.\n"
-#| "Continue from the beginning?"
-msgctxt "@info"
-msgid ""
-"<para>End of alarm list reached.</para><para>Continue from the beginning?</"
-"para>"
-msgstr ""
-"Ogohlantirish roʻyxati oxiriga yetdi.\n"
-"Boshidan davom etishni istaysizmi?"
-
-#: find.cpp:440
-#, fuzzy
-#| msgid ""
-#| "Beginning of alarm list reached.\n"
-#| "Continue from the end?"
-msgctxt "@info"
-msgid ""
-"<para>Beginning of alarm list reached.</para><para>Continue from the end?</"
-"para>"
-msgstr ""
-"Ogohlantirish roʻyxati boshiga yetdi.\n"
-"Oxiridan davom etishni istaysizmi?"
-
-#: latecancel.cpp:44
-#, fuzzy
-#| msgid "Cancel if late"
-msgctxt "@option:check"
-msgid "Cancel if late"
-msgstr "Kech boʻlsa, bekor qilish"
-
-#: latecancel.cpp:45
-#, fuzzy
-#| msgid "Auto-close window after this time"
-msgctxt "@option:check"
-msgid "Auto-close window after this time"
-msgstr "Ushbu vaqtdan keyin oynani avtomatik yopish"
-
-#: latecancel.cpp:46
-#, fuzzy
-msgctxt "@option:check"
-msgid "Auto-close window after late-cancellation time"
-msgstr "Kechikkanda bekor qilgandan soʻng oynani avtomatik yopish vaqti"
-
-#: latecancel.cpp:56
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>If checked, the alarm will be canceled if it cannot be triggered "
-"within the specified period after its scheduled time. Possible reasons for "
-"not triggering include your being logged off, X not running, or "
-"<application>KAlarm</application> not running.</para><para>If unchecked, the "
-"alarm will be triggered at the first opportunity after its scheduled time, "
-"regardless of how late it is.</para>"
-msgstr ""
-
-#: latecancel.cpp:82
-#, fuzzy
-#| msgid "Ca&ncel if late"
-msgctxt "@option:check Cancel if late by 10 minutes"
-msgid "Cancel if late by"
-msgstr "Kech &boʻlsa, bekor qilish"
-
-#: latecancel.cpp:83
-#, fuzzy
-#| msgid "Enter how late will cause the alarm to be canceled"
-msgctxt "@info:whatsthis"
-msgid "Enter how late will cause the alarm to be canceled"
-msgstr "Qancha kechikkanda ogohlantirishni bekor qilish vaqtini kiriting"
-
-#: latecancel.cpp:99
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid ""
-"Automatically close the alarm window after the expiry of the late-"
-"cancellation period"
-msgstr "Kechikkanda bekor qilgandan soʻng oynani avtomatik yopish vaqti"
-
-#: lib/filedialog.cpp:60
-#, fuzzy
-#| msgid "Failed to open file"
-msgctxt "@option:check"
-msgid "Append to existing file"
-msgstr "Faylni ochish muvaffaqiyatsiz tugadi"
-
-#: lib/kalocale.cpp:51
-#, fuzzy
-msgctxt "@option Name of the weekday"
-msgid "Monday"
-msgstr "Bugun"
-
-#: lib/kalocale.cpp:52
-#, fuzzy
-msgctxt "@option Name of the weekday"
-msgid "Tuesday"
-msgstr "Bugun"
-
-#: lib/kalocale.cpp:53
-#, fuzzy
-msgctxt "@option Name of the weekday"
-msgid "Wednesday"
-msgstr "Bugun"
-
-#: lib/kalocale.cpp:54
-#, fuzzy
-msgctxt "@option Name of the weekday"
-msgid "Thursday"
-msgstr "Bugun"
-
-#: lib/kalocale.cpp:55
-#, fuzzy
-msgctxt "@option Name of the weekday"
-msgid "Friday"
-msgstr "kun"
-
-#: lib/kalocale.cpp:56
-#, fuzzy
-msgctxt "@option Name of the weekday"
-msgid "Saturday"
-msgstr "bugun"
-
-#: lib/kalocale.cpp:57
-#, fuzzy
-msgctxt "@option Name of the weekday"
-msgid "Sunday"
-msgstr "Tovush"
-
-#: lib/timeedit.cpp:177
-#, fuzzy
-msgctxt "@item:inlistbox Morning, as in 2am"
-msgid "am"
-msgstr "Ismi"
-
-#: lib/timeedit.cpp:196
-msgctxt "@item:inlistbox Afternoon, as in 2pm"
-msgid "pm"
-msgstr ""
-
-#: lib/timeperiod.cpp:41
-#, fuzzy
-#| msgid "hours/minutes"
-msgctxt "@item:inlistbox Time units"
-msgid "minutes"
-msgstr "soat/daqiqa"
-
-#: lib/timeperiod.cpp:42
-#, fuzzy
-#| msgid "hours/minutes"
-msgctxt "@item:inlistbox Time units"
-msgid "hours/minutes"
-msgstr "soat/daqiqa"
-
-#: lib/timeperiod.cpp:43
-#, fuzzy
-#| msgid "days"
-msgctxt "@item:inlistbox Time units"
-msgid "days"
-msgstr "kun"
-
-#: lib/timeperiod.cpp:44
-#, fuzzy
-#| msgid "weeks"
-msgctxt "@item:inlistbox Time units"
-msgid "weeks"
-msgstr "hafta"
-
-#: lib/timespinbox.cpp:77
-msgctxt "@info:whatsthis"
-msgid ""
-"Press the Shift key while clicking the spin buttons to adjust the time by a "
-"larger step (6 hours / 5 minutes)."
-msgstr ""
-
-#: lib/shellprocess.cpp:158
-#, fuzzy
-#| msgid "Failed to execute command:"
-msgctxt "@info"
-msgid "Failed to execute command (shell access not authorized)"
-msgstr "Buyruqni ishga tushirib boʻlmadi:"
-
-#: lib/shellprocess.cpp:161
-#, fuzzy
-#| msgid "Failed to execute command:"
-msgctxt "@info"
-msgid "Failed to execute command"
-msgstr "Buyruqni ishga tushirib boʻlmadi:"
-
-#: lib/shellprocess.cpp:163
-#, fuzzy
-#| msgid "Command execution error:"
-msgctxt "@info"
-msgid "Command execution error"
-msgstr "Buyruqni ishga tushirish xatosi:"
-
-#: lib/shellprocess.cpp:166
-#, fuzzy, kde-format
-#| msgid ""
-#| "Command executed:\n"
-#| "%1"
-msgctxt "@info"
-msgid "Command exit code: %1"
-msgstr ""
-"Bajarilgan buyruq:\n"
-"%1"
-
-#: main.cpp:39
-msgid "KAlarm"
-msgstr "KAlarm"
-
-#: main.cpp:40
-msgid "Personal alarm message, command and email scheduler for KDE"
-msgstr ""
-"KDE uchun ogohlantirish, buyruq va xat joʻnatishni rejalashtirish dasturi"
-
-#: main.cpp:42
-msgid "Copyright 2001-2012, David Jarvie"
-msgstr ""
-
-#: main.cpp:50
-msgid "Prompt for confirmation when alarm is acknowledged"
-msgstr ""
-
-#: main.cpp:52
-msgid "Attach file to email (repeat as needed)"
-msgstr "Faylni xatga ilova qilish (keragida takrorlash)"
-
-#: main.cpp:53
-msgid "Auto-close alarm window after --late-cancel period"
-msgstr ""
-
-#: main.cpp:54
-msgid "Blind copy email to self"
-msgstr ""
-
-#: main.cpp:56
-msgid "Beep when message is displayed"
-msgstr "Xabar koʻrsatilganda ovoz berish"
-
-#: main.cpp:59
-msgid "Message background color (name or hex 0xRRGGBB)"
-msgstr "Xabarning orqa fon rangi (nomi yoki 0xRRGGBB koʻrinishda)"
-
-#: main.cpp:62
-msgid "Message foreground color (name or hex 0xRRGGBB)"
-msgstr "Xabarning oldin fon rangi (nomi yoki 0xRRGGBB koʻrinishda)"
-
-#: main.cpp:63
-msgid "Cancel alarm with the specified event ID"
-msgstr ""
-
-#: main.cpp:65
-msgid "Disable the alarm"
-msgstr "Ogohlantirishni oʻchirish"
-
-#: main.cpp:66
-#, fuzzy
-#| msgid "Disable the alarm"
-msgid "Disable monitoring of all alarms"
-msgstr "Ogohlantirishni oʻchirish"
-
-#: main.cpp:68
-#, fuzzy
-msgid "Execute a shell command line"
-msgstr "Shell buyruqlar satrini ishga tushirish"
-
-#: main.cpp:70
-msgid "Command line to generate alarm message text"
-msgstr ""
-
-#: main.cpp:71
-#, fuzzy
-msgid "Display the alarm edit dialog to edit the specified alarm"
-msgstr "Ogohlantirishni koʻrsatilgan vaqtda rejalashtirish."
-
-#: main.cpp:72
-#, fuzzy
-msgid "Display the alarm edit dialog to edit a new display alarm"
-msgstr "Ogohlantirish xabarini darhol koʻrsatish"
-
-#: main.cpp:73
-#, fuzzy
-msgid "Display the alarm edit dialog to edit a new command alarm"
-msgstr "Ogohlantirish xabarini darhol koʻrsatish"
-
-#: main.cpp:74
-#, fuzzy
-msgid "Display the alarm edit dialog to edit a new email alarm"
-msgstr "Ogohlantirish xabarini darhol koʻrsatish"
-
-#: main.cpp:75
-#, fuzzy
-msgid "Display the alarm edit dialog to edit a new audio alarm"
-msgstr "Ogohlantirish xabarini darhol koʻrsatish"
-
-#: main.cpp:76
-msgid "Display the alarm edit dialog, preset with a template"
-msgstr ""
-
-#: main.cpp:78
-msgid "File to display"
-msgstr "Koʻrsatish uchun fayl"
-
-#: main.cpp:80
-msgid "KMail identity to use as sender of email"
-msgstr "Joʻnatuvchi sifatida ishlatish uchun KMail shaxsiyatidan foydalanish"
-
-#: main.cpp:82
-msgid "Interval between alarm repetitions"
-msgstr "Ogohlantirishni takrorlash vaqti"
-
-#: main.cpp:84
-msgid "Show alarm as an event in KOrganizer"
-msgstr "Ogohlantirishni KOrganizer'da hodisa sifatida koʻrsatish"
-
-#: main.cpp:86
-msgid "Cancel alarm if more than 'period' late when triggered"
-msgstr ""
-
-#: main.cpp:87
-#, fuzzy
-#| msgid "List of scheduled alarms"
-msgid "Output list of scheduled alarms to stdout"
-msgstr "Rejalashtirilgan ogohlantirishlar roʻyxati"
-
-#: main.cpp:89
-msgid "Repeat alarm at every login"
-msgstr "Ogohlantirishni tizimga har kirganda takrorlash"
-
-#: main.cpp:91
-msgid "Send an email to the given address (repeat as needed)"
-msgstr ""
-
-#: main.cpp:93
-msgid "Audio file to play once"
-msgstr "Bir marta oʻynash uchun audio fayli"
-
-#: main.cpp:95
-msgid "Audio file to play repeatedly"
-msgstr "Takrorlab oʻynash uchun audio fayli"
-
-#: main.cpp:96
-msgid "Specify alarm recurrence using iCalendar syntax"
-msgstr ""
-
-#: main.cpp:98
-msgid "Display reminder before or after alarm"
-msgstr ""
-
-#: main.cpp:99
-msgid "Display reminder once, before or after first alarm recurrence"
-msgstr ""
-
-#: main.cpp:101
-msgid "Number of times to repeat alarm (including initial occasion)"
-msgstr ""
-
-#: main.cpp:103
-msgid "Speak the message when it is displayed"
-msgstr "Koʻrsatilgan xabarni oʻqib eshittirish"
-
-#: main.cpp:105
-msgid "Email subject line"
-msgstr "Xatning mavzusi"
-
-#: main.cpp:107
-msgid "Simulate system time [[[yyyy-]mm-]dd-]hh:mm [TZ] (debug mode)"
-msgstr ""
-
-#: main.cpp:110
-msgid ""
-"Trigger alarm at time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
-msgstr ""
-
-#: main.cpp:111
-msgid "Display system tray icon"
-msgstr ""
-
-#: main.cpp:112
-msgid "Trigger alarm with the specified event ID"
-msgstr ""
-
-#: main.cpp:114
-msgid "Repeat until time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
-msgstr ""
-
-#: main.cpp:116
-msgid "Volume to play audio file"
-msgstr "Audio faylning tovushi"
-
-#: main.cpp:117
-msgid "Message text to display"
-msgstr "Koʻrsatish uchun xabar matni"
-
-#: mainwindow.cpp:126
-#, fuzzy
-#| msgid "Show &Alarm Times"
-msgctxt "@action"
-msgid "Show &Alarm Times"
-msgstr "Ogohlantirish vaqtlarini &koʻrsatish"
-
-#: mainwindow.cpp:127
-#, fuzzy
-msgctxt "@option:check"
-msgid "Show alarm time"
-msgstr "Ogohlantirish vaq&tini koʻrsatish"
-
-#: mainwindow.cpp:128
-#, fuzzy
-#| msgid "Show Time t&o Alarms"
-msgctxt "@action"
-msgid "Show Time t&o Alarms"
-msgstr "Ogohlantirishlar u&chun vaqtni koʻrsatish"
-
-#: mainwindow.cpp:129
-#, fuzzy
-#| msgid "Show time u&ntil alarm"
-msgctxt "@option:check"
-msgid "Show time until alarm"
-msgstr "Ogohlantiri&shga qolgan vaqtni koʻrsatish"
-
-#: mainwindow.cpp:437
-#, fuzzy, kde-format
-#| msgid ""
-#| "Failed to save calendar to\n"
-#| "'%1'"
-msgctxt "@info"
-msgid ""
-"Failure to create menus (perhaps <filename>%1</filename> missing or "
-"corrupted)"
-msgstr ""
-"Kalendarni saqlab boʻlmadi\n"
-"'%1'"
-
-#: mainwindow.cpp:458
-#, fuzzy
-#| msgid "&Templates..."
-msgctxt "@action"
-msgid "&Templates..."
-msgstr "&Namunalar..."
-
-#: mainwindow.cpp:462
-#, fuzzy
-#| msgid "&New..."
-msgctxt "@action"
-msgid "&New"
-msgstr "Ya&ngi..."
-
-#: mainwindow.cpp:489
-#, fuzzy
-#| msgid "Create Tem&plate..."
-msgctxt "@action"
-msgid "Create Tem&plate..."
-msgstr "Na&muna yaratish..."
-
-#: mainwindow.cpp:493
-#, fuzzy
-#| msgid "&Copy..."
-msgctxt "@action"
-msgid "&Copy..."
-msgstr "&Nusxa olish"
-
-#: mainwindow.cpp:498 resourceselector.cpp:518
-#, fuzzy
-#| msgid "&Edit..."
-msgctxt "@action"
-msgid "&Edit..."
-msgstr "&Tahrirlash"
-
-#: mainwindow.cpp:503
-#, fuzzy
-msgctxt "@action"
-msgid "&Delete"
-msgstr "Ogohlantirishni oʻchirish"
-
-#: mainwindow.cpp:509
-#, fuzzy
-msgctxt "@action"
-msgid "Delete Without Confirmation"
-msgstr "Ogohlantirish moslamasi"
-
-#: mainwindow.cpp:514
-#, fuzzy
-#| msgid "Reac&tivate"
-msgctxt "@action"
-msgid "Reac&tivate"
-msgstr "Qayta akti&vlashtirish"
-
-#: mainwindow.cpp:524
-msgctxt "@action"
-msgid "Wake From Suspend..."
-msgstr ""
-
-#: mainwindow.cpp:541
-#, fuzzy
-msgctxt "@action"
-msgid "Show Archi&ved Alarms"
-msgstr "Muddati oʻtgan ogohlantirishlarni koʻrsatish"
-
-#: mainwindow.cpp:546
-msgctxt "@action"
-msgid "Show in System &Tray"
-msgstr ""
-
-#: mainwindow.cpp:550
-#, fuzzy
-msgctxt "@action"
-msgid "Show &Calendars"
-msgstr "Kalendar faylining manzili"
-
-#: mainwindow.cpp:558
-#, fuzzy
-msgctxt "@action"
-msgid "Import &Alarms..."
-msgstr "&Tugʻilgan kunlarni import qilish..."
-
-#: mainwindow.cpp:562
-#, fuzzy
-#| msgid "Import &Birthdays..."
-msgctxt "@action"
-msgid "Import &Birthdays..."
-msgstr "&Tugʻilgan kunlarni import qilish..."
-
-#: mainwindow.cpp:566
-#, fuzzy
-msgctxt "@action"
-msgid "E&xport Selected Alarms..."
-msgstr "&Tugʻilgan kunlarni import qilish..."
-
-#: mainwindow.cpp:570 resourceselector.cpp:538
-#, fuzzy
-msgctxt "@action"
-msgid "E&xport..."
-msgstr "&Tugʻilgan kunlarni import qilish..."
-
-#: mainwindow.cpp:574
-#, fuzzy
-#| msgid "&Refresh Alarms"
-msgctxt "@action"
-msgid "&Refresh Alarms"
-msgstr "Ogohlantirishlarni &yangilash"
-
-#: mainwindow.cpp:829
-#, fuzzy, kde-format
-msgctxt "@info"
-msgid "Do you really want to delete the selected alarm?"
-msgid_plural "Do you really want to delete the %1 selected alarms?"
-msgstr[0] "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
-
-#: mainwindow.cpp:831
-#, fuzzy
-#| msgid "Delete Alarm"
-#| msgid_plural "Delete Alarms"
-msgctxt "@title:window"
-msgid "Delete Alarm"
-msgid_plural "Delete Alarms"
-msgstr[0] "Ogohlantirishni oʻchirish"
-
-#: mainwindow.cpp:832 templatedlg.cpp:214
-#, fuzzy
-msgctxt "@action:button"
-msgid "&Delete"
-msgstr "Ogohlantirishni oʻchirish"
-
-#: mainwindow.cpp:976
-#, fuzzy
-msgctxt "@info:tooltip"
-msgid "Hide Archived Alarms"
-msgstr "Muddati oʻtgan ogohlantirishlarni bekitish"
-
-#: mainwindow.cpp:977
-#, fuzzy
-msgctxt "@info:tooltip"
-msgid "Show Archived Alarms"
-msgstr "Muddati oʻtgan ogohlantirishlarni koʻrsatish"
-
-#: mainwindow.cpp:1064
-#, fuzzy
-msgctxt "@info"
-msgid "Import birthdays"
-msgstr "&Tugʻilgan kunlarni import qilish..."
-
-#: mainwindow.cpp:1234
-#, fuzzy, kde-format
-#| msgctxt "Undo-action: message"
-#| msgid "%1: %2"
-msgctxt "@action Undo/Redo [action]"
-msgid "%1 %2"
-msgstr "%1: %2"
-
-#: mainwindow.cpp:1235
-#, fuzzy, kde-format
-msgctxt "@action Undo [action]: message"
-msgid "%1 %2: %3"
-msgstr "%1%2:%3"
-
-#: mainwindow.cpp:1521
-#, fuzzy
-#| msgid "Display Alarms"
-msgctxt "@item:inlistbox"
-msgid "Display Alarm"
-msgstr "Ogohlantirishlarni koʻrsatish"
-
-#: mainwindow.cpp:1523
-#, fuzzy
-#| msgid "Email Alarms"
-msgctxt "@item:inlistbox"
-msgid "Email Alarm"
-msgstr "Elektron pochta orqali ogohlantirishlar"
-
-#: mainwindow.cpp:1525
-#, fuzzy
-#| msgid "Command Alarms"
-msgctxt "@item:inlistbox"
-msgid "Command Alarm"
-msgstr "Buyruq orqali ogohlantirishlar"
-
-#: mainwindow.cpp:1527
-#, fuzzy
-#| msgid "Alarm Type"
-msgctxt "@title:window"
-msgid "Alarm Type"
-msgstr "Ogohlantirish turi"
-
-#: mainwindow.cpp:1528
-#, fuzzy
-#| msgid "Choose Alarm Font & Color"
-msgctxt "@info"
-msgid "Choose alarm type to create:"
-msgstr "Ogohlantirish shrifti va rangini tanlash"
-
-#: mainwindow.cpp:1681
-#, fuzzy
-#| msgid "Ena&ble"
-msgctxt "@action"
-msgid "Ena&ble"
-msgstr "Yoq&ish"
-
-#: mainwindow.cpp:1681
-#, fuzzy
-#| msgid "Disa&ble"
-msgctxt "@action"
-msgid "Disa&ble"
-msgstr "Oʻ&chirish"
-
-#: messagewin.cpp:438
-#, fuzzy
-#| msgid "Reminder"
-msgctxt "@title:window"
-msgid "Reminder"
-msgstr "Esga solish"
-
-#: messagewin.cpp:438 messagewin.cpp:861
-#, fuzzy
-#| msgid "Message"
-msgctxt "@title:window"
-msgid "Message"
-msgstr "Xabar"
-
-#: messagewin.cpp:456
-msgctxt "@info:whatsthis"
-msgid ""
-"The scheduled date/time for the message (as opposed to the actual time of "
-"display)."
-msgstr ""
-
-#: messagewin.cpp:463
-#, fuzzy
-#| msgid "Reminder"
-msgctxt "@info"
-msgid "Reminder"
-msgstr "Esga solish"
-
-#: messagewin.cpp:487
-msgctxt "@info:whatsthis"
-msgid "The file whose contents are displayed below"
-msgstr ""
-
-#: messagewin.cpp:543
-#, fuzzy
-#| msgid "Select a text or image file to display."
-msgctxt "@info:whatsthis"
-msgid "The contents of the file to be displayed"
-msgstr "Koʻrsatish uchun matn yoki rasm faylini tanlang."
-
-#: messagewin.cpp:551
-#, fuzzy
-#| msgid "File not found"
-msgctxt "@info"
-msgid "File is a folder"
-msgstr "Fayl topilmadi"
-
-#: messagewin.cpp:551
-#, fuzzy
-#| msgid "Failed to open file"
-msgctxt "@info"
-msgid "Failed to open file"
-msgstr "Faylni ochish muvaffaqiyatsiz tugadi"
-
-#: messagewin.cpp:551
-#, fuzzy
-#| msgid "File not found"
-msgctxt "@info"
-msgid "File not found"
-msgstr "Fayl topilmadi"
-
-#: messagewin.cpp:571
-#, fuzzy
-#| msgid "The alarm message"
-msgctxt "@info:whatsthis"
-msgid "The alarm message"
-msgstr "Ogohlantirish xabari"
-
-#: messagewin.cpp:598
-msgctxt "@info:whatsthis"
-msgid "The output of the alarm's command"
-msgstr ""
-
-#: messagewin.cpp:640
-#, fuzzy
-#| msgid "The email to send"
-msgctxt "@info:whatsthis"
-msgid "The email to send"
-msgstr "Joʻnatish uchun elektron pochta"
-
-#: messagewin.cpp:646
-#, fuzzy
-#| msgctxt "Email addressee"
-#| msgid "To:"
-msgctxt "@info Email addressee"
-msgid "To:"
-msgstr "Kimga:"
-
-#: messagewin.cpp:653
-#, fuzzy
-#| msgctxt "Email subject"
-#| msgid "Subject:"
-msgctxt "@info Email subject"
-msgid "Subject:"
-msgstr "Mavzu:"
-
-#: messagewin.cpp:679
-msgctxt "@title:window"
-msgid "Error"
-msgstr ""
-
-#: messagewin.cpp:699
-msgctxt "@option:check"
-msgid "Do not display this error message again for this alarm"
-msgstr ""
-
-#: messagewin.cpp:718
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Acknowledge the alarm"
-msgstr "Ogohlantirishni tasdiqlash"
-
-#: messagewin.cpp:723
-#, fuzzy
-#| msgid "&Edit..."
-msgctxt "@action:button"
-msgid "&Edit..."
-msgstr "&Tahrirlash"
-
-#: messagewin.cpp:728
-#, fuzzy
-#| msgid "Edit the alarm."
-msgctxt "@info:whatsthis"
-msgid "Edit the alarm."
-msgstr "Ogohlantirishni tahrirlash."
-
-#: messagewin.cpp:732
-#, fuzzy
-#| msgid "&New..."
-msgctxt "@action:button"
-msgid "&Defer..."
-msgstr "Ya&ngi..."
-
-#: messagewin.cpp:737
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Defer the alarm until later.</para><para>You will be prompted to "
-"specify when the alarm should be redisplayed.</para>"
-msgstr ""
-
-#: messagewin.cpp:767
-#, fuzzy
-#| msgid "Use KMail &identities"
-msgctxt "@info:tooltip Locate this email in KMail"
-msgid "Locate in <application>KMail</application>"
-msgstr "KMail &shaxsiyatlaridan foydalanish"
-
-#: messagewin.cpp:768
-msgctxt "@info:whatsthis"
-msgid "Locate and highlight this email in <application>KMail</application>"
-msgstr ""
-
-#: messagewin.cpp:777
-msgctxt "@info:tooltip"
-msgid "Activate <application>KAlarm</application>"
-msgstr ""
-
-#: messagewin.cpp:778
-msgctxt "@info:whatsthis"
-msgid "Activate <application>KAlarm</application>"
-msgstr ""
-
-#: messagewin.cpp:938
-#, fuzzy
-#| msgid "Today"
-msgctxt "@info"
-msgid "Today"
-msgstr "Bugun"
-
-#: messagewin.cpp:940
-#, fuzzy, kde-format
-msgctxt "@info"
-msgid "Tomorrow"
-msgid_plural "in %1 days' time"
-msgstr[0] "Ertaga"
-
-#: messagewin.cpp:942
-#, fuzzy, kde-format
-msgctxt "@info"
-msgid "in 1 week's time"
-msgid_plural "in %1 weeks' time"
-msgstr[0] "1 haftadan soʻng"
-
-#: messagewin.cpp:956
-#, fuzzy, kde-format
-msgctxt "@info"
-msgid "in 1 minute's time"
-msgid_plural "in %1 minutes' time"
-msgstr[0] "1 daqiqadan soʻng"
-
-#: messagewin.cpp:958
-#, fuzzy, kde-format
-msgctxt "@info"
-msgid "in 1 hour's time"
-msgid_plural "in %1 hours' time"
-msgstr[0] "1 soatdan soʻng"
-
-#: messagewin.cpp:961
-#, fuzzy, kde-format
-msgctxt "@item:intext inserted into 'in ... %1 minute's time' below"
-msgid "1 hour"
-msgid_plural "%1 hours"
-msgstr[0] "1 soat"
-
-#: messagewin.cpp:962
-#, fuzzy, kde-format
-msgctxt "@info '%2' is the previous message '1 hour'/'%1 hours'"
-msgid "in %2 1 minute's time"
-msgid_plural "in %2 %1 minutes' time"
-msgstr[0] "1 daqiqadan soʻng"
-
-#: messagewin.cpp:1464 messagewin.cpp:1474
-#, fuzzy
-#| msgid "Enter the email message."
-msgctxt "@info"
-msgid "Unable to speak message"
-msgstr "Elektron pochta xabarini kiriting."
-
-#: messagewin.cpp:1474
-msgctxt "@info"
-msgid "D-Bus call say() failed"
-msgstr ""
-
-#: messagewin.cpp:1617
-#, fuzzy, kde-format
-#| msgid ""
-#| "Cannot open audio file:\n"
-#| "%1"
-msgctxt "@info"
-msgid "Cannot open audio file: <filename>%1</filename>"
-msgstr ""
-"Audio faylni ochib boʻlmadi:\n"
-"%1"
-
-#: messagewin.cpp:1715
-#, fuzzy, kde-format
-#| msgid ""
-#| "Error attaching file:\n"
-#| "%1"
-msgctxt "@info"
-msgid ""
-"<para>Error playing audio file: <filename>%1</filename></para><para>%2</para>"
-msgstr ""
-"Faylni ilova qilish xatosi:\n"
-"%1"
-
-#: messagewin.cpp:2044
-#, fuzzy
-msgctxt "@info"
-msgid "Do you really want to acknowledge this alarm?"
-msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
-
-#: messagewin.cpp:2045
-#, fuzzy
-msgctxt "@action:button"
-msgid "Acknowledge Alarm"
-msgstr "Ogohlantirishni tasdiqlash"
-
-#: messagewin.cpp:2045
-#, fuzzy
-msgctxt "@action:button"
-msgid "Acknowledge"
-msgstr "&Tasdiqlash"
-
-#: messagewin.cpp:2096
-msgctxt "@info"
-msgid "Unable to locate this email in <application>KMail</application>"
-msgstr ""
-
-#: messagewin.cpp:2266
-msgctxt "@info"
-msgid "<para>Cannot defer alarm:</para><para>Alarm not found.</para>"
-msgstr ""
-
-#: kalarmapp.cpp:346
-#, kde-format
-msgctxt "@info:shell"
-msgid "%1: Event <resource>%2</resource> not found, or not unique"
-msgstr ""
-
-#: kalarmapp.cpp:348
-#, fuzzy, kde-format
-msgctxt "@info:shell"
-msgid "%1: Event <resource>%2</resource> not found"
-msgstr "Koʻrinish moslamalari"
-
-#: kalarmapp.cpp:376 kalarmapp.cpp:378
-#, kde-format
-msgctxt "@info:shell"
-msgid "%1: Event <resource>%2</resource> not found, or not editable"
-msgstr ""
-
-#: kalarmapp.cpp:557
-msgctxt "@info"
-msgid ""
-"Time zones are not accessible:<nl/>KAlarm will use the UTC time zone.<nl/"
-"><nl/>(The KDE time zone service is not available:<nl/>check that "
-"<application>ktimezoned</application> is installed.)"
-msgstr ""
-
-#: kalarmapp.cpp:634
-msgctxt "@info"
-msgid ""
-"Quitting will disable alarms (once any alarm message windows are closed)."
-msgstr ""
-
-#: kalarmapp.cpp:642
-msgctxt "@info"
-msgid "Quitting will cancel the scheduled Wake from Suspend."
-msgstr ""
-
-#: kalarmapp.cpp:654
-msgctxt "@info"
-msgid ""
-"Do you want to start KAlarm at login?<nl/>(Note that alarms will be disabled "
-"if KAlarm is not started.)"
-msgstr ""
-
-#: kalarmapp.cpp:2126
-#, fuzzy
-msgctxt "@info"
-msgid "Error creating temporary script file"
-msgstr "Ogohlantirishni qayta yaratishda xato"
-
-#: kalarmapp.cpp:2214
-#, fuzzy
-#| msgid "Pre-alarm action:"
-msgctxt "@info"
-msgid "Pre-alarm action:"
-msgstr "Ogohlantirishdan oldingi amal:"
-
-#: kalarmapp.cpp:2220
-#, fuzzy
-#| msgid "Post-alarm action:"
-msgctxt "@info"
-msgid "Post-alarm action:"
-msgstr "Ogohlantirishdan keyingi amal:"
-
-#: newalarmaction.cpp:59
-#, fuzzy
-#| msgid "Delete Alarm Template"
-#| msgid_plural "Delete Alarm Templates"
-msgctxt "@item:inmenu"
-msgid "&Display Alarm Template"
-msgstr "Ogohlantirish namunasini oʻchirish"
-
-#: newalarmaction.cpp:59
-#, fuzzy
-#| msgid "Display Alarms"
-msgctxt "@action"
-msgid "New Display Alarm"
-msgstr "Ogohlantirishlarni koʻrsatish"
-
-#: newalarmaction.cpp:62
-#, fuzzy
-#| msgid "Edit Alarm Template"
-msgctxt "@item:inmenu"
-msgid "&Command Alarm Template"
-msgstr "Ogohlantirish namunasini tahrirlash"
-
-#: newalarmaction.cpp:62
-#, fuzzy
-#| msgid "Command Alarms"
-msgctxt "@action"
-msgid "New Command Alarm"
-msgstr "Buyruq orqali ogohlantirishlar"
-
-#: newalarmaction.cpp:65
-#, fuzzy
-#| msgid "Edit Alarm Template"
-msgctxt "@item:inmenu"
-msgid "&Email Alarm Template"
-msgstr "Ogohlantirish namunasini tahrirlash"
-
-#: newalarmaction.cpp:65
-#, fuzzy
-#| msgid "Email Alarms"
-msgctxt "@action"
-msgid "New Email Alarm"
-msgstr "Elektron pochta orqali ogohlantirishlar"
-
-#: newalarmaction.cpp:68
-#, fuzzy
-#| msgid "Edit Alarm Template"
-msgctxt "@item:inmenu"
-msgid "&Audio Alarm Template"
-msgstr "Ogohlantirish namunasini tahrirlash"
-
-#: newalarmaction.cpp:68
-#, fuzzy
-#| msgid "Email Alarms"
-msgctxt "@action"
-msgid "New Audio Alarm"
-msgstr "Elektron pochta orqali ogohlantirishlar"
-
-#: newalarmaction.cpp:79
-#, fuzzy
-#| msgid "New Alarm From &Template"
-msgctxt "@action"
-msgid "New Alarm From &Template"
-msgstr "&Namunadan yangi ogohlantirish"
-
-#: reminder.cpp:49
-msgctxt "@option:check"
-msgid "Reminder for first recurrence only"
-msgstr ""
-
-#: reminder.cpp:51
-msgctxt "@item:inlistbox"
-msgid "in advance"
-msgstr ""
-
-#: reminder.cpp:65
-#, fuzzy
-#| msgid "Rem&inder:"
-msgctxt "@option:check"
-msgid "Reminder:"
-msgstr "&Esga solish:"
-
-#: reminder.cpp:69
-msgctxt "@item:inlistbox"
-msgid "afterwards"
-msgstr ""
-
-#: reminder.cpp:91
-msgctxt "@info:whatsthis"
-msgid "Display the reminder only for the first time the alarm is scheduled"
-msgstr ""
-
-#: recurrenceedit.cpp:81
-#, fuzzy
-#| msgid "Repeat"
-msgctxt "@item:inlistbox Recurrence type"
-msgid "No Recurrence"
-msgstr "Qaytarish"
-
-#: recurrenceedit.cpp:82
-#, fuzzy
-#| msgid "At Login"
-msgctxt "@item:inlistbox Recurrence type"
-msgid "At Login"
-msgstr "Tizimga kirishda"
-
-#: recurrenceedit.cpp:83
-#, fuzzy
-#| msgid "Hourly/Minutely"
-msgctxt "@item:inlistbox Recurrence type"
-msgid "Hourly/Minutely"
-msgstr "Har soat/daqiqada"
-
-#: recurrenceedit.cpp:84
-#, fuzzy
-#| msgid "Daily"
-msgctxt "@item:inlistbox Recurrence type"
-msgid "Daily"
-msgstr "Har kun"
-
-#: recurrenceedit.cpp:85
-#, fuzzy
-#| msgid "Weekly"
-msgctxt "@item:inlistbox Recurrence type"
-msgid "Weekly"
-msgstr "Har hafta"
-
-#: recurrenceedit.cpp:86
-#, fuzzy
-#| msgid "Monthly"
-msgctxt "@item:inlistbox Recurrence type"
-msgid "Monthly"
-msgstr "Har oy"
-
-#: recurrenceedit.cpp:87
-#, fuzzy
-#| msgid "Yearly"
-msgctxt "@item:inlistbox Recurrence type"
-msgid "Yearly"
-msgstr "Har yil"
-
-#: recurrenceedit.cpp:113
-msgctxt "@title:group"
-msgid "Recurrence Rule"
-msgstr ""
-
-#: recurrenceedit.cpp:131
-#, fuzzy
-#| msgid "Do not repeat the alarm"
-msgctxt "@info:whatsthis"
-msgid "Do not repeat the alarm"
-msgstr "Ogohlantirish takrorlanmasin"
-
-#: recurrenceedit.cpp:139
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Trigger the alarm at the specified date/time and at every login until "
-"then.</para><para>Note that it will also be triggered any time "
-"<application>KAlarm</application> is restarted.</para>"
-msgstr ""
-
-#: recurrenceedit.cpp:147
-#, fuzzy
-#| msgid "Repeat the alarm at hourly/minutely intervals"
-msgctxt "@info:whatsthis"
-msgid "Repeat the alarm at hourly/minutely intervals"
-msgstr "Ogohlantirishni har soat/daqiqada takrorlash"
-
-#: recurrenceedit.cpp:154
-#, fuzzy
-#| msgid "Repeat the alarm at daily intervals"
-msgctxt "@info:whatsthis"
-msgid "Repeat the alarm at daily intervals"
-msgstr "Ogohlantirishni har kuni takrorlash"
-
-#: recurrenceedit.cpp:161
-#, fuzzy
-#| msgid "Repeat the alarm at weekly intervals"
-msgctxt "@info:whatsthis"
-msgid "Repeat the alarm at weekly intervals"
-msgstr "Ogohlantirishni har hafta takrorlash"
-
-#: recurrenceedit.cpp:168
-#, fuzzy
-#| msgid "Repeat the alarm at monthly intervals"
-msgctxt "@info:whatsthis"
-msgid "Repeat the alarm at monthly intervals"
-msgstr "Ogohlantirishni har oy takrorlash"
-
-#: recurrenceedit.cpp:175
-#, fuzzy
-#| msgid "Repeat the alarm at annual intervals"
-msgctxt "@info:whatsthis"
-msgid "Repeat the alarm at annual intervals"
-msgstr "Ogohlantirishni har yil takrorlash"
-
-#: recurrenceedit.cpp:185
-msgctxt "@info:whatsthis"
-msgid ""
-"Set up a repetition within the recurrence, to trigger the alarm multiple "
-"times each time the recurrence is due."
-msgstr ""
-
-#: recurrenceedit.cpp:233
-msgctxt "@title:group"
-msgid "Recurrence End"
-msgstr ""
-
-#: recurrenceedit.cpp:242
-#, fuzzy
-#| msgid "&Send"
-msgctxt "@option:radio"
-msgid "No end"
-msgstr "&Joʻnatish"
-
-#: recurrenceedit.cpp:245
-#, fuzzy
-#| msgid "Repeat the alarm indefinitely"
-msgctxt "@info:whatsthis"
-msgid "Repeat the alarm indefinitely"
-msgstr "Ogohlantirishni cheksiz takrorlash"
-
-#: recurrenceedit.cpp:253
-#, fuzzy
-#| msgid "End a&fter:"
-msgctxt "@option:radio"
-msgid "End after:"
-msgstr "&Oxiri:"
-
-#: recurrenceedit.cpp:255
-#, fuzzy
-#| msgid "Repeat the alarm on the selected day of the month"
-msgctxt "@info:whatsthis"
-msgid "Repeat the alarm for the number of times specified"
-msgstr "Oyning tanlangan kunida ogohlantirishni takrorlash"
-
-#: recurrenceedit.cpp:262
-#, fuzzy
-#| msgid "Enter the last time to repeat the alarm."
-msgctxt "@info:whatsthis"
-msgid "Enter the total number of times to trigger the alarm"
-msgstr "Ogohlantirishni takrorlash uchun oxirigi vaqtni kiriting"
-
-#: recurrenceedit.cpp:266
-msgctxt "@label"
-msgid "occurrence(s)"
-msgstr ""
-
-#: recurrenceedit.cpp:278
-#, fuzzy
-#| msgid "End a&fter:"
-msgctxt "@option:radio"
-msgid "End by:"
-msgstr "&Oxiri:"
-
-#: recurrenceedit.cpp:281
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Repeat the alarm until the date/time specified.</para><para><note>This "
-"applies to the main recurrence only. It does not limit any sub-repetition "
-"which will occur regardless after the last main recurrence.</note></para>"
-msgstr ""
-
-#: recurrenceedit.cpp:286
-msgctxt "@info/plain"
-msgid "This uses the same time zone as the start time."
-msgstr ""
-
-#: recurrenceedit.cpp:288
-#, fuzzy, kde-format
-msgctxt "@info:whatsthis"
-msgid "<para>Enter the last date to repeat the alarm.</para><para>%1</para>"
-msgstr "Ogohlantirishni takrorlash uchun oxirigi kunni kiriting"
-
-#: recurrenceedit.cpp:295
-#, fuzzy, kde-format
-#| msgid "Enter the last time to repeat the alarm."
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Enter the last time to repeat the alarm.</para><para>%1</para><para>"
-"%2</para>"
-msgstr "Ogohlantirishni takrorlash uchun oxirigi vaqtni kiriting"
-
-#: recurrenceedit.cpp:300
-msgctxt "@info:whatsthis"
-msgid ""
-"Stop repeating the alarm after your first login on or after the specified "
-"end date"
-msgstr ""
-
-#: recurrenceedit.cpp:318
-#, fuzzy
-#| msgid "E&xceptions"
-msgctxt "@title:group"
-msgid "Exceptions"
-msgstr "Qoidadan t&ashqari holatlar"
-
-#: recurrenceedit.cpp:329
-msgctxt "@info:whatsthis"
-msgid "The list of exceptions, i.e. dates/times excluded from the recurrence"
-msgstr ""
-
-#: recurrenceedit.cpp:348
-msgctxt "@info:whatsthis"
-msgid ""
-"Enter a date to insert in the exceptions list. Use in conjunction with the "
-"Add or Change button below."
-msgstr ""
-
-#: recurrenceedit.cpp:355
-#, fuzzy
-msgctxt "@action:button"
-msgid "Add"
-msgstr "Qoʻshish"
-
-#: recurrenceedit.cpp:356
-msgctxt "@info:whatsthis"
-msgid "Add the date entered above to the exceptions list"
-msgstr ""
-
-#: recurrenceedit.cpp:360
-#, fuzzy
-msgctxt "@action:button"
-msgid "Change"
-msgstr "Oʻz&gartirish"
-
-#: recurrenceedit.cpp:362
-msgctxt "@info:whatsthis"
-msgid ""
-"Replace the currently highlighted item in the exceptions list with the date "
-"entered above"
-msgstr ""
-
-#: recurrenceedit.cpp:366 templatedlg.cpp:120
-#, fuzzy
-msgctxt "@action:button"
-msgid "Delete"
-msgstr "Ogohlantirishni oʻchirish"
-
-#: recurrenceedit.cpp:367
-#, fuzzy
-#| msgid "Remove the highlighted attachment from the email."
-msgctxt "@info:whatsthis"
-msgid "Remove the currently highlighted item from the exceptions list"
-msgstr "Tanlangan ilovani xatdan olib tashlash."
-
-#: recurrenceedit.cpp:374
-msgctxt "@option:check"
-msgid "Exclude holidays"
-msgstr ""
-
-#: recurrenceedit.cpp:377
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Do not trigger the alarm on holidays.</para><para>You can specify your "
-"holiday region in the Configuration dialog.</para>"
-msgstr ""
-
-#: recurrenceedit.cpp:382
-msgctxt "@option:check"
-msgid "Only during working time"
-msgstr ""
-
-#: recurrenceedit.cpp:385
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Only execute the alarm during working hours, on working days.</"
-"para><para>You can specify working days and hours in the Configuration "
-"dialog.</para>"
-msgstr ""
-
-#: recurrenceedit.cpp:428
-msgctxt "@info"
-msgid "End date is earlier than start date"
-msgstr ""
-
-#: recurrenceedit.cpp:429
-msgctxt "@info"
-msgid "End date/time is earlier than start date/time"
-msgstr ""
-
-#: recurrenceedit.cpp:699
-#, fuzzy
-#| msgid "Date cannot be earlier than %1"
-msgctxt "@info"
-msgid "Date cannot be earlier than start date"
-msgstr "Sana %1'dan oldin boʻlmasligi lozim"
-
-#: recurrenceedit.cpp:1114
-#, fuzzy
-#| msgid "Repeat"
-msgctxt "@label:spinbox"
-msgid "Recur e&very"
-msgstr "Qaytarish"
-
-#: recurrenceedit.cpp:1183
-#, fuzzy
-#| msgid "hours:minutes"
-msgctxt "@label Time units for user-entered numbers"
-msgid "hours:minutes"
-msgstr "soat:daqiqa"
-
-#: recurrenceedit.cpp:1184
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Enter the number of hours and minutes between repetitions of the alarm"
-msgstr ""
-"Joriy vaqtdan keyin ogohlantirishni rejalashtirish uchun vaqtni qanchaligini "
-"kiriting (soat va daqiqalarda)."
-
-#: recurrenceedit.cpp:1204
-msgctxt "@label On: Tuesday"
-msgid "O&n:"
-msgstr ""
-
-#: recurrenceedit.cpp:1285
-#, fuzzy
-#| msgid "No day selected"
-msgctxt "@info"
-msgid "No day selected"
-msgstr "Kun tanlanmagan"
-
-#: recurrenceedit.cpp:1314
-#, fuzzy
-#| msgid "day(s)"
-msgctxt "@label Time unit for user-entered number"
-msgid "day(s)"
-msgstr "kun(lar)"
-
-#: recurrenceedit.cpp:1315
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Enter the number of days between repetitions of the alarm"
-msgstr "Ogohlantirishni takrorlash uchun oxirigi kunni kiriting"
-
-#: recurrenceedit.cpp:1316
-#, fuzzy
-#| msgid "Select the day of the week on which to repeat the alarm"
-msgctxt "@info:whatsthis"
-msgid "Select the days of the week on which the alarm is allowed to occur"
-msgstr "Ogohlantirish takrorlanadigan hafta kunini tanlang"
-
-#: recurrenceedit.cpp:1327
-#, fuzzy
-#| msgid "week(s)"
-msgctxt "@label Time unit for user-entered number"
-msgid "week(s)"
-msgstr "hafta(lar)"
-
-#: recurrenceedit.cpp:1328
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Enter the number of weeks between repetitions of the alarm"
-msgstr "Ogohlantirishni takrorlash uchun oxirigi kunni kiriting"
-
-#: recurrenceedit.cpp:1329
-#, fuzzy
-#| msgid "Select the day of the week on which to repeat the alarm"
-msgctxt "@info:whatsthis"
-msgid "Select the days of the week on which to repeat the alarm"
-msgstr "Ogohlantirish takrorlanadigan hafta kunini tanlang"
-
-#: recurrenceedit.cpp:1352
-#, fuzzy
-msgctxt "@option:radio On day number in the month"
-msgid "O&n day"
-msgstr "Bugun"
-
-#: recurrenceedit.cpp:1356
-#, fuzzy
-#| msgid "Repeat the alarm on the selected day of the month"
-msgctxt "@info:whatsthis"
-msgid "Repeat the alarm on the selected day of the month"
-msgstr "Oyning tanlangan kunida ogohlantirishni takrorlash"
-
-#: recurrenceedit.cpp:1363
-#, fuzzy
-#| msgctxt "Last day of month"
-#| msgid "Last"
-msgctxt "@item:inlistbox Last day of month"
-msgid "Last"
-msgstr "Oxirgi"
-
-#: recurrenceedit.cpp:1366
-#, fuzzy
-#| msgid "Select the week of the month in which to repeat the alarm"
-msgctxt "@info:whatsthis"
-msgid "Select the day of the month on which to repeat the alarm"
-msgstr "Ogohlantirish takrorlanadigan oy haftasini tanlang"
-
-#: recurrenceedit.cpp:1380
-#, fuzzy
-#| msgid "Other:"
-msgctxt "@option:radio On the 1st Tuesday"
-msgid "On t&he"
-msgstr "Boshqa:"
-
-#: recurrenceedit.cpp:1384
-#, fuzzy
-#| msgid "Repeat the alarm on the selected day of the month"
-msgctxt "@info:whatsthis"
-msgid ""
-"Repeat the alarm on one day of the week, in the selected week of the month"
-msgstr "Oyning tanlangan kunida ogohlantirishni takrorlash"
-
-#: recurrenceedit.cpp:1388
-#, fuzzy
-#| msgid "1st"
-msgctxt "@item:inlistbox"
-msgid "1st"
-msgstr "1-chi"
-
-#: recurrenceedit.cpp:1389
-#, fuzzy
-#| msgid "2nd"
-msgctxt "@item:inlistbox"
-msgid "2nd"
-msgstr "2-chi"
-
-#: recurrenceedit.cpp:1390
-#, fuzzy
-#| msgid "3rd"
-msgctxt "@item:inlistbox"
-msgid "3rd"
-msgstr "3-chi"
-
-#: recurrenceedit.cpp:1391
-#, fuzzy
-#| msgid "4th"
-msgctxt "@item:inlistbox"
-msgid "4th"
-msgstr "4-chi"
-
-#: recurrenceedit.cpp:1392
-#, fuzzy
-#| msgid "5th"
-msgctxt "@item:inlistbox"
-msgid "5th"
-msgstr "5-chi"
-
-#: recurrenceedit.cpp:1393
-#, fuzzy
-#| msgctxt "Last day of month"
-#| msgid "Last"
-msgctxt "@item:inlistbox Last Monday in March"
-msgid "Last"
-msgstr "Oxirgi"
-
-#: recurrenceedit.cpp:1394
-#, fuzzy
-#| msgid "2nd Last"
-msgctxt "@item:inlistbox"
-msgid "2nd Last"
-msgstr "oxirdan 2-chi"
-
-#: recurrenceedit.cpp:1395
-#, fuzzy
-#| msgid "3rd Last"
-msgctxt "@item:inlistbox"
-msgid "3rd Last"
-msgstr "oxirdan 3-chi"
-
-#: recurrenceedit.cpp:1396
-#, fuzzy
-#| msgid "4th Last"
-msgctxt "@item:inlistbox"
-msgid "4th Last"
-msgstr "oxirdan 4-chi"
-
-#: recurrenceedit.cpp:1397
-#, fuzzy
-#| msgid "5th Last"
-msgctxt "@item:inlistbox"
-msgid "5th Last"
-msgstr "oxirdan 5-chi"
-
-#: recurrenceedit.cpp:1400
-#, fuzzy
-msgctxt "@item:inlistbox Every (Monday...) in month"
-msgid "Every"
-msgstr "Har"
-
-#: recurrenceedit.cpp:1403
-#, fuzzy
-#| msgid "Select the week of the month in which to repeat the alarm"
-msgctxt "@info:whatsthis"
-msgid "Select the week of the month in which to repeat the alarm"
-msgstr "Ogohlantirish takrorlanadigan oy haftasini tanlang"
-
-#: recurrenceedit.cpp:1418
-#, fuzzy
-#| msgid "Select the day of the week on which to repeat the alarm"
-msgctxt "@info:whatsthis"
-msgid "Select the day of the week on which to repeat the alarm"
-msgstr "Ogohlantirish takrorlanadigan hafta kunini tanlang"
-
-#: recurrenceedit.cpp:1541
-#, fuzzy
-#| msgid "month(s)"
-msgctxt "@label Time unit for user-entered number"
-msgid "month(s)"
-msgstr "oy(lar)"
-
-#: recurrenceedit.cpp:1542
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Enter the number of months between repetitions of the alarm"
-msgstr "Ogohlantirishni takrorlash uchun oxirigi kunni kiriting"
-
-#: recurrenceedit.cpp:1553
-#, fuzzy
-#| msgid "year(s)"
-msgctxt "@label Time unit for user-entered number"
-msgid "year(s)"
-msgstr "yil(lar)"
-
-#: recurrenceedit.cpp:1554
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Enter the number of years between repetitions of the alarm"
-msgstr "Ogohlantirishni takrorlash uchun oxirigi kunni kiriting"
-
-#: recurrenceedit.cpp:1561
-#, fuzzy
-#| msgid "Monthly"
-msgctxt "@label List of months to select"
-msgid "Months:"
-msgstr "Har oy"
-
-#: recurrenceedit.cpp:1583
-#, fuzzy
-#| msgid "Select the months of the year in which to repeat the alarm"
-msgctxt "@info:whatsthis"
-msgid "Select the months of the year in which to repeat the alarm"
-msgstr "Ogohlantirish takrorlanadigan yil oylarini tanlang"
-
-#: recurrenceedit.cpp:1592
-msgctxt "@label:listbox"
-msgid "February 2&9th alarm in non-leap years:"
-msgstr ""
-
-#: recurrenceedit.cpp:1596
-#, fuzzy
-#| msgid "None"
-msgctxt "@item:inlistbox No date"
-msgid "None"
-msgstr "Yoʻq"
-
-#: recurrenceedit.cpp:1597
-#, fuzzy
-#| msgctxt "1st March (short form)"
-#| msgid "1 Mar"
-msgctxt "@item:inlistbox 1st March (short form)"
-msgid "1 Mar"
-msgstr "1-chi Mar"
-
-#: recurrenceedit.cpp:1598
-#, fuzzy
-#| msgctxt "28th February (short form)"
-#| msgid "28 Feb"
-msgctxt "@item:inlistbox 28th February (short form)"
-msgid "28 Feb"
-msgstr "28-chi Fev"
-
-#: recurrenceedit.cpp:1604
-msgctxt "@info:whatsthis"
-msgid ""
-"Select which date, if any, the February 29th alarm should trigger in non-"
-"leap years"
-msgstr ""
-
-#: recurrenceedit.cpp:1688
-#, fuzzy
-#| msgid "No month selected"
-msgctxt "@info"
-msgid "No month selected"
-msgstr "Oy tanlanmagan"
-
-#: repetitionbutton.cpp:87
-#, fuzzy
-#| msgid "Email Alarm Settings"
-msgctxt "@title:window"
-msgid "Alarm Sub-Repetition"
-msgstr "Xat orqali ogohlantirish moslamalari"
-
-#: repetitionbutton.cpp:165
-#, fuzzy
-#| msgid "Repeat"
-msgctxt "@option:check Repeat every 10 minutes"
-msgid "Repeat every"
-msgstr "Qaytarish"
-
-#: repetitionbutton.cpp:166
-msgctxt "@info:whatsthis"
-msgid ""
-"Instead of the alarm triggering just once at each recurrence, checking this "
-"option makes the alarm trigger multiple times at each recurrence."
-msgstr ""
-
-#: repetitionbutton.cpp:168
-#, fuzzy
-#| msgid "Enter the last time to repeat the alarm."
-msgctxt "@info:whatsthis"
-msgid "Enter the time between repetitions of the alarm"
-msgstr "Ogohlantirishni takrorlash uchun oxirigi vaqtni kiriting"
-
-#: repetitionbutton.cpp:186
-#, fuzzy
-#| msgid "&Number of repetitions:"
-msgctxt "@option:radio"
-msgid "Number of repetitions:"
-msgstr "&Takrorlanish soni:"
-
-#: repetitionbutton.cpp:188
-msgctxt "@info:whatsthis"
-msgid ""
-"Check to specify the number of times the alarm should repeat after each "
-"recurrence"
-msgstr ""
-
-#: repetitionbutton.cpp:196
-msgctxt "@info:whatsthis"
-msgid ""
-"Enter the number of times to trigger the alarm after its initial occurrence"
-msgstr ""
-
-#: repetitionbutton.cpp:204
-#, fuzzy
-#| msgid "&Duration:"
-msgctxt "@option:radio"
-msgid "Duration:"
-msgstr "&Davom etishi:"
-
-#: repetitionbutton.cpp:206
-#, fuzzy
-#| msgid "Check to copy the alarm into KOrganizer's calendar"
-msgctxt "@info:whatsthis"
-msgid "Check to specify how long the alarm is to be repeated"
-msgstr ""
-"Ogohlantirishni KOrganizer kalendariga koʻchirish uchun shu yerni belgilang"
-
-#: repetitionbutton.cpp:212
-#, fuzzy
-#| msgid "Enter the last time to repeat the alarm."
-msgctxt "@info:whatsthis"
-msgid "Enter the length of time to repeat the alarm"
-msgstr "Ogohlantirishni takrorlash uchun oxirigi vaqtni kiriting"
-
-#: resourceconfigdialog.cpp:48 resourceselector.cpp:238
-#, fuzzy
-#| msgid "Alarm Configuration"
-msgctxt "@title:window"
-msgid "Calendar Configuration"
-msgstr "Ogohlantirish moslamasi"
-
-#: resourceconfigdialog.cpp:61
-#, fuzzy
-msgctxt "@title:group"
-msgid "General Settings"
-msgstr "Koʻrinish moslamalari"
-
-#: resourceconfigdialog.cpp:63
-#, fuzzy
-msgctxt "@label:textbox Calendar name"
-msgid "Name:"
-msgstr "Ismi"
-
-#: resourceconfigdialog.cpp:68
-#, fuzzy
-msgctxt "@option:check"
-msgid "Read-only"
-msgstr "faqat oʻqishga"
-
-#: resourceconfigdialog.cpp:81
-#, fuzzy, kde-format
-msgctxt "@title:group"
-msgid "<resource>%1</resource> Calendar Settings"
-msgstr "Koʻrinish moslamalari"
-
-#: resourceconfigdialog.cpp:123
-msgctxt "@info"
-msgid "Please enter a calendar name."
-msgstr ""
-
-#: resourcemodelview.cpp:119 resources/alarmresource.cpp:360
-#, fuzzy
-msgctxt "@info/plain"
-msgid "Disabled (wrong alarm type)"
-msgstr "Oʻ&chirilgan ogohlantirishning rangi:"
-
-#: resources/resourcelocaldirwidget.cpp:40
-#: resources/resourcelocalwidget.cpp:42
-#, fuzzy
-#| msgid "Action"
-msgctxt "@label:textbox"
-msgid "Location:"
-msgstr "Amal"
-
-#: resources/resourcelocaldirwidget.cpp:72
-#: resources/resourcelocalwidget.cpp:77
-msgctxt "@info"
-msgid "No location specified.  The calendar will be invalid."
-msgstr ""
-
-#: resources/resourceremotewidget.cpp:42
-msgctxt "@label:textbox"
-msgid "Download from:"
-msgstr ""
-
-#: resources/resourceremotewidget.cpp:48
-msgctxt "@label:textbox"
-msgid "Upload to:"
-msgstr ""
-
-#: resources/resourceremotewidget.cpp:94
-msgctxt "@info"
-msgid "You have specified no upload URL: the alarm calendar will be read-only."
-msgstr ""
-
-#: resources/resourcewidget.cpp:54
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Calendar <resource>%1</resource> cannot be made writable since it either was "
-"not created by <application>KAlarm</application>, or was created by a newer "
-"version of <application>KAlarm</application>"
-msgstr ""
-
-#: resources/alarmresource.cpp:354 resourceselector.cpp:856
-#, fuzzy
-msgctxt "@info/plain"
-msgid "Active alarms"
-msgstr "KAlarm'ni aktivlashtirish"
-
-#: resources/alarmresource.cpp:355 resourceselector.cpp:858
-#, fuzzy
-msgctxt "@info/plain"
-msgid "Archived alarms"
-msgstr "KAlarm'ni aktivlashtirish"
-
-#: resources/alarmresource.cpp:356 resourceselector.cpp:860
-#, fuzzy
-#| msgid "Alarm Templates"
-msgctxt "@info/plain"
-msgid "Alarm templates"
-msgstr "Ogohlantirish namunalari"
-
-#: resources/alarmresource.cpp:359 resourceselector.cpp:865
-msgctxt "@info/plain"
-msgid "Read-write"
-msgstr ""
-
-#: resources/alarmresource.cpp:360 resourceselector.cpp:867
-#, fuzzy
-#| msgid "Enable"
-msgctxt "@info/plain"
-msgid "Enabled"
-msgstr "Yoqish"
-
-#: resources/alarmresource.cpp:361 resourceselector.cpp:870
-msgctxt "@info/plain Parameter in 'Default calendar: Yes/No'"
-msgid "Yes"
-msgstr ""
-
-#: resources/alarmresource.cpp:361 resourceselector.cpp:871
-#, fuzzy
-#| msgid "None"
-msgctxt "@info/plain Parameter in 'Default calendar: Yes/No'"
-msgid "No"
-msgstr "Yoʻq"
-
-#: resources/alarmresource.cpp:363
-#, kde-format
-msgctxt "@info"
-msgid ""
-"<title>%1</title><para>Calendar type: %2<nl/>Contents: %3<nl/>%4: <filename>"
-"%5</filename><nl/>Permissions: %6<nl/>Status: %7<nl/>Default calendar: %8</"
-"para>"
-msgstr ""
-
-#: resources/alarmresources.cpp:159
-#, fuzzy, kde-format
-#| msgid "Invalid calendar file name: %1"
-msgctxt "@info"
-msgid "%1: invalid calendar file name: <filename>%2</filename>"
-msgstr "Kalendar faylning nomi xato: %1"
-
-#: resources/alarmresources.cpp:167
-#, fuzzy, kde-format
-#| msgid ""
-#| "Attachment not found:\n"
-#| "%1"
-msgctxt "@info"
-msgid "%1: file name not permitted: <filename>%2</filename>"
-msgstr ""
-"Ilova topilmadi:\n"
-"%1"
-
-#: resourceselector.cpp:100
-#, fuzzy
-msgctxt "@title:group"
-msgid "Calendars"
-msgstr "Kalendar faylining manzili"
-
-#: resourceselector.cpp:104
-#, fuzzy
-msgctxt "@item:inlistbox"
-msgid "Active Alarms"
-msgstr "KAlarm'ni aktivlashtirish"
-
-#: resourceselector.cpp:105
-#, fuzzy
-msgctxt "@item:inlistbox"
-msgid "Archived Alarms"
-msgstr "KAlarm'ni aktivlashtirish"
-
-#: resourceselector.cpp:106
-#, fuzzy
-#| msgid "Alarm Templates"
-msgctxt "@item:inlistbox"
-msgid "Alarm Templates"
-msgstr "Ogohlantirish namunalari"
-
-#: resourceselector.cpp:108
-msgctxt "@info:whatsthis"
-msgid "Choose which type of data to show alarm calendars for"
-msgstr ""
-
-#: resourceselector.cpp:125
-msgctxt "@info:whatsthis"
-msgid ""
-"List of available calendars of the selected type. The checked state shows "
-"whether a calendar is enabled (checked) or disabled (unchecked). The default "
-"calendar is shown in bold."
-msgstr ""
-
-#: resourceselector.cpp:136 templatedlg.cpp:110
-#, fuzzy
-msgctxt "@action:button"
-msgid "Edit..."
-msgstr "&Tahrirlash"
-
-#: resourceselector.cpp:141
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Edit the highlighted calendar"
-msgstr "Tanlangan ogohlantirish namunasini tahrirlash"
-
-#: resourceselector.cpp:142
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Remove the highlighted calendar from the list.</para><para>The "
-"calendar itself is left intact, and may subsequently be reinstated in the "
-"list if desired.</para>"
-msgstr ""
-
-#: resourceselector.cpp:175
-#, fuzzy
-msgctxt "@info:tooltip"
-msgid "Add a new active alarm calendar"
-msgstr "Yangi ogohlantirish namunasi yaratish"
-
-#: resourceselector.cpp:179
-#, fuzzy
-msgctxt "@info:tooltip"
-msgid "Add a new archived alarm calendar"
-msgstr "Yangi ogohlantirish namunasi yaratish"
-
-#: resourceselector.cpp:183
-#, fuzzy
-msgctxt "@info:tooltip"
-msgid "Add a new alarm template calendar"
-msgstr "Yangi ogohlantirish namunasi yaratish"
-
-#: resourceselector.cpp:239
-msgctxt "@info"
-msgid "Select storage type of new calendar:"
-msgstr ""
-
-#: resourceselector.cpp:246
-#, kde-format
-msgctxt "@info"
-msgid "Unable to create calendar of type <resource>%1</resource>."
-msgstr ""
-
-#: resourceselector.cpp:249
-#, fuzzy, kde-format
-#| msgid "%1: wrong calendar file"
-msgctxt "@info/plain"
-msgid "%1 calendar"
-msgstr "%1: notoʻgʻri kalendar fayli"
-
-#: resourceselector.cpp:363
-#, fuzzy
-msgctxt "@info"
-msgid "You cannot make your default active alarm calendar read-only."
-msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
-
-#: resourceselector.cpp:370
-#, fuzzy
-msgctxt "@info"
-msgid ""
-"You cannot make your default archived alarm calendar read-only while expired "
-"alarms are configured to be kept."
-msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
-
-#: resourceselector.cpp:374
-#, fuzzy
-msgctxt "@info"
-msgid "Do you really want to make your default calendar read-only?"
-msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
-
-#: resourceselector.cpp:427
-#, fuzzy
-msgctxt "@info"
-msgid "You cannot remove your default active alarm calendar."
-msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
-
-#: resourceselector.cpp:434
-#, fuzzy
-msgctxt "@info"
-msgid ""
-"You cannot remove your default archived alarm calendar while expired alarms "
-"are configured to be kept."
-msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
-
-#: resourceselector.cpp:450
-#, kde-format
-msgctxt "@info"
-msgid "<para>It also contains:%1</para>"
-msgstr ""
-
-#: resourceselector.cpp:451
-#, kde-format
-msgctxt "@info"
-msgid ""
-"<para><resource>%1</resource> is the default calendar for:%2</para>"
-"%3<para>Do you really want to remove it from all calendar lists?</para>"
-msgstr ""
-
-#: resourceselector.cpp:455 resourceselector.cpp:463
-#, fuzzy, kde-format
-msgctxt "@info"
-msgid ""
-"Do you really want to remove your default calendar (<resource>%1</resource>) "
-"from the list?"
-msgstr ""
-"Rostdan ham koʻrsatilgan qabul qiluvchi(lar)ga xat joʻnatishni istaysizmi?"
-
-#: resourceselector.cpp:458
-#, fuzzy, kde-format
-#| msgid ""
-#| "Alarms are currently disabled.\n"
-#| "Do you want to enable alarms now?"
-msgctxt "@info"
-msgid ""
-"<para><resource>%1</resource> contains:%2</para><para>Do you really want to "
-"remove it from all calendar lists?</para>"
-msgstr ""
-"Hozirda ogohlantirishlar oʻchirilgan.\n"
-"Ogohlantirishlarni yoqishni istaysizmi?"
-
-#: resourceselector.cpp:461 resourceselector.cpp:464
-#, fuzzy, kde-format
-msgctxt "@info"
-msgid ""
-"Do you really want to remove the calendar <resource>%1</resource> from the "
-"list?"
-msgstr ""
-"Rostdan ham koʻrsatilgan qabul qiluvchi(lar)ga xat joʻnatishni istaysizmi?"
-
-#: resourceselector.cpp:501
-msgctxt "@action Reload calendar"
-msgid "Re&load"
-msgstr ""
-
-#: resourceselector.cpp:505
-#, fuzzy
-msgctxt "@action"
-msgid "&Save"
-msgstr "&Joʻnatish"
-
-#: resourceselector.cpp:509
-#, fuzzy
-msgctxt "@action"
-msgid "Show &Details"
-msgstr "Ogohlantirish vaqtlarini &koʻrsatish"
-
-#: resourceselector.cpp:512
-#, fuzzy
-#| msgid "Font & Color"
-msgctxt "@action"
-msgid "Set &Color..."
-msgstr "Shrift va rang"
-
-#: resourceselector.cpp:515
-#, fuzzy
-#| msgid "Font & Color"
-msgctxt "@action"
-msgid "Clear C&olor"
-msgstr "Shrift va rang"
-
-#: resourceselector.cpp:522
-msgctxt "@action"
-msgid "&Update Calendar Format"
-msgstr ""
-
-#: resourceselector.cpp:526
-#, fuzzy
-msgctxt "@action"
-msgid "&Remove"
-msgstr "&Olib tashlash"
-
-#: resourceselector.cpp:532
-#, fuzzy
-msgctxt "@action"
-msgid "&Add..."
-msgstr "Qoʻshish"
-
-#: resourceselector.cpp:535
-#, fuzzy
-msgctxt "@action"
-msgid "Im&port..."
-msgstr "&Tugʻilgan kunlarni import qilish..."
-
-#: resourceselector.cpp:621
-#, fuzzy
-msgctxt "@action"
-msgid "Use as &Default for Active Alarms"
-msgstr "&Andoza shriftdan foydalanish"
-
-#: resourceselector.cpp:622
-#, fuzzy
-msgctxt "@action"
-msgid "Use as &Default for Archived Alarms"
-msgstr "&Andoza shriftdan foydalanish"
-
-#: resourceselector.cpp:623
-#, fuzzy
-msgctxt "@action"
-msgid "Use as &Default for Alarm Templates"
-msgstr "Ogohlantirish namunasini oʻchirish"
-
-#: resourceselector.cpp:740
-#, fuzzy
-msgctxt "@info/plain"
-msgid "It is not an active alarm calendar."
-msgstr "Yangi ogohlantirish namunasi yaratish"
-
-#: resourceselector.cpp:743
-#, fuzzy
-msgctxt "@info/plain"
-msgid "It is not an archived alarm calendar."
-msgstr "Yangi ogohlantirish namunasi yaratish"
-
-#: resourceselector.cpp:746
-#, fuzzy
-msgctxt "@info/plain"
-msgid "It is not an alarm template calendar."
-msgstr "Yangi ogohlantirish namunasi yaratish"
-
-#: resourceselector.cpp:751
-#, kde-format
-msgctxt "@info"
-msgid ""
-"<para>Calendar <resource>%1</resource> has been disabled:</para><para>%2</"
-"para>"
-msgstr ""
-
-#: resourceselector.cpp:861
-msgctxt "@info/plain List separator"
-msgid ", "
-msgstr ""
-
-#: resourceselector.cpp:873
-#, kde-format
-msgctxt "@info"
-msgid ""
-"<title>%1</title><para>ID: %2<nl/>Calendar type: %3<nl/>Contents: %4<nl/>%5: "
-"<filename>%6</filename><nl/>Permissions: %7<nl/>Status: %8<nl/>Default "
-"calendar: %9</para>"
-msgstr ""
-
-#: soundpicker.cpp:50
-#, fuzzy
-msgctxt "@label:listbox Listbox providing audio options"
-msgid "Sound:"
-msgstr "&Tovush"
-
-#: soundpicker.cpp:51
-#, fuzzy
-#| msgid "None"
-msgctxt "@item:inlistbox No sound"
-msgid "None"
-msgstr "Yoʻq"
-
-#: soundpicker.cpp:52
-#, fuzzy
-#| msgid "Beep"
-msgctxt "@item:inlistbox"
-msgid "Beep"
-msgstr "Bip"
-
-#: soundpicker.cpp:53
-msgctxt "@item:inlistbox"
-msgid "Speak"
-msgstr ""
-
-#: soundpicker.cpp:54
-#, fuzzy
-msgctxt "@item:inlistbox"
-msgid "Sound file"
-msgstr "Tovush f&ayli:"
-
-#: soundpicker.cpp:98
-#, fuzzy
-msgctxt "@info:tooltip"
-msgid "Configure sound file"
-msgstr "Tovush faylini tanlash"
-
-#: soundpicker.cpp:99
-#, fuzzy
-#| msgid "Configure a sound file to play when the alarm is displayed."
-msgctxt "@info:whatsthis"
-msgid "Configure a sound file to play when the alarm is displayed."
-msgstr "Ogohlantirish koʻrsatilganda oʻynaladigan tovush faylini moslash."
-
-#: soundpicker.cpp:132
-#, fuzzy, kde-format
-msgctxt "@info:whatsthis"
-msgid "<interface>%1</interface>: the message is displayed silently."
-msgstr "Xabar koʻrsatilganda ovoz berish"
-
-#: soundpicker.cpp:133
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid "<interface>%1</interface>: a simple beep is sounded."
-msgstr ""
-
-#: soundpicker.cpp:134
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"<interface>%1</interface>: an audio file is played. You will be prompted to "
-"choose the file and set play options."
-msgstr ""
-
-#: soundpicker.cpp:138
-#, fuzzy, kde-format
-msgctxt "@info:whatsthis"
-msgid "<interface>%1</interface>: the message text is spoken."
-msgstr "Koʻrsatilgan xabarni oʻqib eshittirish"
-
-#: soundpicker.cpp:140
-#, kde-format
-msgctxt "@info:whatsthis Combination of multiple whatsthis items"
-msgid ""
-"<para>Choose a sound to play when the message is displayed:<list><item>%1</"
-"item><item>%2</item><item>%3</item><item>%4</item></list></para>"
-msgstr ""
-
-#: soundpicker.cpp:148
-#, kde-format
-msgctxt "@info:whatsthis Combination of multiple whatsthis items"
-msgid ""
-"<para>Choose a sound to play when the message is displayed:<list><item>%1</"
-"item><item>%2</item><item>%3</item></list></para>"
-msgstr ""
-
-#: soundpicker.cpp:268
-#, fuzzy
-#| msgid "Sound File"
-msgctxt "@title:window"
-msgid "Sound File"
-msgstr "Tovush fayli"
-
-#: soundpicker.cpp:330
-#, fuzzy
-#| msgid "Choose Sound File"
-msgctxt "@title:window"
-msgid "Choose Sound File"
-msgstr "Tovush faylini tanlang"
-
-#: specialactions.cpp:48
-#, fuzzy
-#| msgid "Special Actions..."
-msgctxt "@action:button"
-msgid "Special Actions..."
-msgstr "Maxsus amallar..."
-
-#: specialactions.cpp:56
-msgctxt "@info:whatsthis"
-msgid "Specify actions to execute before and after the alarm is displayed."
-msgstr ""
-
-#: specialactions.cpp:107
-#, fuzzy
-#| msgid "Special Alarm Actions"
-msgctxt "@title:window"
-msgid "Special Alarm Actions"
-msgstr "Maxsus ogohlantirish amallari"
-
-#: specialactions.cpp:165
-#, fuzzy
-msgctxt "@title:group"
-msgid "Pre-Alarm Action"
-msgstr "Ogohlantirishdan oldingi amal:"
-
-#: specialactions.cpp:175 specialactions.cpp:210
-#, fuzzy
-#| msgid "Co&mmand"
-msgctxt "@label:textbox"
-msgid "Command:"
-msgstr "Buy&ruq"
-
-#: specialactions.cpp:180
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Enter a shell command to execute before the alarm is displayed.</"
-"para><para>Note that it is executed only when the alarm proper is displayed, "
-"not when a reminder or deferred alarm is displayed.</para><para><note>KAlarm "
-"will wait for the command to complete before displaying the alarm.</note></"
-"para>"
-msgstr ""
-
-#: specialactions.cpp:186
-msgctxt "@option:check"
-msgid "Execute for deferred alarms"
-msgstr ""
-
-#: specialactions.cpp:187
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>If unchecked, the command is only executed before the alarm proper is "
-"displayed.</para><para>If checked, the pre-alarm command is also executed "
-"before a deferred alarm is displayed.</para>"
-msgstr ""
-
-#: specialactions.cpp:191
-msgctxt "@option:check"
-msgid "Cancel alarm on error"
-msgstr ""
-
-#: specialactions.cpp:192
-msgctxt "@info:whatsthis"
-msgid ""
-"Cancel the alarm if the pre-alarm command fails, i.e. do not display the "
-"alarm or execute any post-alarm action command."
-msgstr ""
-
-#: specialactions.cpp:195
-msgctxt "@option:check"
-msgid "Do not notify errors"
-msgstr ""
-
-#: specialactions.cpp:196
-#, fuzzy
-#| msgid "The default setting for \"%1\" in the alarm edit dialog."
-msgctxt "@info:whatsthis"
-msgid ""
-"Do not show error status or error message if the pre-alarm command fails."
-msgstr "Ogohlantirishni tahrirlash oynasidagi \"%1\" uchun andoza moslama."
-
-#: specialactions.cpp:200
-#, fuzzy
-msgctxt "@title:group"
-msgid "Post-Alarm Action"
-msgstr "Ogohlantirishdan keyingi amal:"
-
-#: specialactions.cpp:214
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Enter a shell command to execute after the alarm window is closed.</"
-"para><para>Note that it is not executed after closing a reminder window. If "
-"you defer the alarm, it is not executed until the alarm is finally "
-"acknowledged or closed.</para>"
-msgstr ""
-
-#: templatedlg.cpp:69
-#, fuzzy
-#| msgid "Alarm Templates"
-msgctxt "@title:window"
-msgid "Alarm Templates"
-msgstr "Ogohlantirish namunalari"
-
-#: templatedlg.cpp:95 templatelistview.cpp:44
-#, fuzzy
-#| msgid "Name of the alarm template"
-msgctxt "@info:whatsthis"
-msgid "The list of alarm templates"
-msgstr "Ogohlantirish namunasining nomi"
-
-#: templatedlg.cpp:103
-#, fuzzy
-#| msgid "&New..."
-msgctxt "@action:button"
-msgid "New"
-msgstr "Ya&ngi..."
-
-#: templatedlg.cpp:104
-#, fuzzy
-#| msgid "&New..."
-msgctxt "@action"
-msgid "New"
-msgstr "Ya&ngi..."
-
-#: templatedlg.cpp:107
-#, fuzzy
-#| msgid "Create a new alarm template"
-msgctxt "@info:whatsthis"
-msgid "Create a new alarm template"
-msgstr "Yangi ogohlantirish namunasi yaratish"
-
-#: templatedlg.cpp:112
-#, fuzzy
-#| msgid "Edit the currently highlighted alarm template"
-msgctxt "@info:whatsthis"
-msgid "Edit the currently highlighted alarm template"
-msgstr "Tanlangan ogohlantirish namunasini tahrirlash"
-
-#: templatedlg.cpp:115
-#, fuzzy
-#| msgid "Co&py"
-msgctxt "@action:button"
-msgid "Copy"
-msgstr "&Nusxa olish"
-
-#: templatedlg.cpp:117
-msgctxt "@info:whatsthis"
-msgid ""
-"Create a new alarm template based on a copy of the currently highlighted "
-"template"
-msgstr ""
-
-#: templatedlg.cpp:122
-#, fuzzy
-#| msgid "Edit the currently highlighted alarm template"
-msgctxt "@info:whatsthis"
-msgid "Delete the currently highlighted alarm template"
-msgstr "Tanlangan ogohlantirish namunasini tahrirlash"
-
-#: templatedlg.cpp:211
-#, fuzzy, kde-format
-msgctxt "@info"
-msgid "Do you really want to delete the selected alarm template?"
-msgid_plural "Do you really want to delete the %1 selected alarm templates?"
-msgstr[0] "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
-
-#: templatedlg.cpp:213
-#, fuzzy
-#| msgid "Delete Alarm Template"
-#| msgid_plural "Delete Alarm Templates"
-msgctxt "@title:window"
-msgid "Delete Alarm Template"
-msgid_plural "Delete Alarm Templates"
-msgstr[0] "Ogohlantirish namunasini oʻchirish"
-
-#: templatepickdlg.cpp:46
-#, fuzzy
-#| msgid "New Alarm Template"
-msgctxt "@title:window"
-msgid "Choose Alarm Template"
-msgstr "Yangi ogohlantirish namunasi"
-
-#: templatepickdlg.cpp:77
-#, fuzzy
-msgctxt "@info:whatsthis"
-msgid "Select a template to base the new alarm on."
-msgstr "Ogohlantirishni rejalashtirish uchun vaqtni koʻrsating."
-
-#: traywindow.cpp:100
-#, fuzzy
-#| msgid "New Alarm"
-msgctxt "@action"
-msgid "&New Alarm"
-msgstr "Yangi ogohlantirish"
-
-#: traywindow.cpp:333
-#, fuzzy
-msgid "Disabled"
-msgstr "Oʻ&chirish"
-
-#: traywindow.cpp:338
-msgctxt "@info:tooltip Brief: some alarms are disabled"
-msgid "(Some alarms disabled)"
-msgstr ""
-
-#: traywindow.cpp:408
-#, fuzzy, kde-format
-msgctxt "@info/plain prefix + hours:minutes"
-msgid "(%1%2:%3)"
-msgstr "(%1%2:%3)"
-
-#: traywindow.cpp:410
-#, fuzzy, kde-format
-msgctxt "@info/plain prefix + hours:minutes"
-msgid "%1%2:%3"
-msgstr "%1%2:%3"
-
-#: rtcwakeaction.cpp:89
-#, kde-format
-msgctxt "@text/plain"
-msgid "Could not run <command>%1</command> to set wake from suspend"
-msgstr ""
-
-#: rtcwakeaction.cpp:92
-#, kde-format
-msgctxt "@text/plain"
-msgid ""
-"Error setting wake from suspend.<nl/>Command was: <command>%1</command><nl/"
-">Error code: %2."
-msgstr ""
-
-#: akonadiresourcecreator.cpp:109
-#, fuzzy
-#| msgid "Failed to send email"
-msgctxt "@info/plain"
-msgid "Failed to create new calendar resource"
-msgstr "Xatni joʻnatish muvaffaqiyatsiz tugadi"
-
-#: calendarmigrator.cpp:329
-#, fuzzy, kde-format
-#| msgid ""
-#| "Cannot open audio file:\n"
-#| "%1"
-msgctxt "@info/plain"
-msgid "Failed to create default calendar <resource>%1</resource>"
-msgstr ""
-"Audio faylni ochib boʻlmadi:\n"
-"%1"
-
-#: calendarmigrator.cpp:331
-#, fuzzy, kde-format
-#| msgid ""
-#| "Cannot open audio file:\n"
-#| "%1"
-msgctxt "@info/plain 'Import Alarms' is the name of a menu option"
-msgid ""
-"Failed to convert old configuration for calendar <resource>%1</resource>. "
-"Please use Import Alarms to load its alarms into a new or existing calendar."
-msgstr ""
-"Audio faylni ochib boʻlmadi:\n"
-"%1"
-
-#: calendarmigrator.cpp:333
-#, fuzzy, kde-format
-#| msgid "Action"
-msgctxt "@info/plain File path or URL"
-msgid "Location: %1"
-msgstr "Amal"
-
-#: calendarmigrator.cpp:335
-#, fuzzy, kde-format
-#| msgid ""
-#| "%1\n"
-#| "Are you sure you want to save your changes?"
-msgctxt "@info"
-msgid "<para>%1</para><para>%2</para>"
-msgstr ""
-"%1\n"
-"Oʻzgarishlarni saqlashga ishonchingiz komilmi?"
-
-#: calendarmigrator.cpp:337
-#, fuzzy, kde-format
-#| msgid ""
-#| "%1\n"
-#| "Are you sure you want to save your changes?"
-msgctxt "@info"
-msgid "<para>%1</para><para>%2<nl/>(%3)</para>"
-msgstr ""
-"%1\n"
-"Oʻzgarishlarni saqlashga ishonchingiz komilmi?"
-
-#: calendarmigrator.cpp:443
-#, fuzzy
-#| msgid "Invalid time"
-msgctxt "@info/plain"
-msgid "Invalid collection"
-msgstr "Xato vaqt"
-
-#: calendarmigrator.cpp:457
-#, fuzzy, kde-format
-#| msgid ""
-#| "Cannot open audio file:\n"
-#| "%1"
-msgctxt "@info/plain"
-msgid "Failed to update format of calendar <resource>%1</resource>"
-msgstr ""
-"Audio faylni ochib boʻlmadi:\n"
-"%1"
-
-#: calendarmigrator.cpp:735
-msgctxt "@info/plain"
-msgid "New configuration timed out"
-msgstr ""
-
-#: calendarmigrator.cpp:748
-msgctxt "@info/plain"
-msgid "New configuration was corrupt"
-msgstr ""
-
-#: undo.cpp:440
-#, fuzzy
-#| msgid "Alarm not found"
-msgctxt "@info/plain"
-msgid "Alarm not found"
-msgstr "Ogohlantirish topilmadi"
-
-#: undo.cpp:441
-#, fuzzy
-#| msgid "Error recreating alarm"
-msgctxt "@info/plain"
-msgid "Error recreating alarm"
-msgstr "Ogohlantirishni qayta yaratishda xato"
-
-#: undo.cpp:442
-#, fuzzy
-msgctxt "@info/plain"
-msgid "Error recreating alarm template"
-msgstr "Ogohlantirishni qayta yaratishda xato"
-
-#: undo.cpp:443
-#, fuzzy
-msgctxt "@info/plain"
-msgid "Cannot reactivate archived alarm"
-msgstr "Muddati oʻtgan ogohlantirishni qayta yaratishda xato"
-
-#: undo.cpp:444
-#, fuzzy
-#| msgid "Program error"
-msgctxt "@info/plain"
-msgid "Program error"
-msgstr "Dastur xatosi"
-
-#: undo.cpp:445
-#, fuzzy
-#| msgid "Unknown error"
-msgctxt "@info/plain"
-msgid "Unknown error"
-msgstr "Nomaʼlum xato"
-
-#: undo.cpp:447
-#, fuzzy, kde-format
-#| msgctxt "Undo-action: message"
-#| msgid "%1: %2"
-msgctxt "@info Undo-action: message"
-msgid "%1: %2"
-msgstr "%1: %2"
-
-#: undo.cpp:684
-#, fuzzy
-#| msgctxt "Action to create a new alarm"
-#| msgid "New alarm"
-msgctxt "@info/plain Action to create a new alarm"
-msgid "New alarm"
-msgstr "Yangi ogohlantirish"
-
-#: undo.cpp:686
-#, fuzzy
-#| msgctxt "Action to delete an alarm"
-#| msgid "Delete alarm"
-msgctxt "@info/plain Action to delete an alarm"
-msgid "Delete alarm"
-msgstr "Ogohlantirishni olib tashlash"
-
-#: undo.cpp:689
-#, fuzzy
-#| msgctxt "Action to create a new alarm template"
-#| msgid "New template"
-msgctxt "@info/plain Action to create a new alarm template"
-msgid "New template"
-msgstr "Yangi namuna"
-
-#: undo.cpp:691
-#, fuzzy
-#| msgctxt "Action to delete an alarm template"
-#| msgid "Delete template"
-msgctxt "@info/plain Action to delete an alarm template"
-msgid "Delete template"
-msgstr "Namunani olib tashlash"
-
-#: undo.cpp:693
-#, fuzzy
-msgctxt "@info/plain"
-msgid "Delete archived alarm"
-msgstr "Muddati oʻtgan ogohlantirishni olib tashlash"
-
-#: undo.cpp:916
-#, fuzzy
-msgctxt "@info/plain"
-msgid "Create multiple alarms"
-msgstr "Koʻp takrorlanuvchi ogohlantirishlarni olib tashlash"
-
-#: undo.cpp:1022
-#, fuzzy
-#| msgctxt "Action to edit an alarm"
-#| msgid "Edit alarm"
-msgctxt "@info/plain Action to edit an alarm"
-msgid "Edit alarm"
-msgstr "Ogohlantirishni tahrirlash"
-
-#: undo.cpp:1024
-#, fuzzy
-#| msgctxt "Action to edit an alarm template"
-#| msgid "Edit template"
-msgctxt "@info/plain Action to edit an alarm template"
-msgid "Edit template"
-msgstr "Namunani tahrirlash"
-
-#: undo.cpp:1207
-#, fuzzy
-msgctxt "@info/plain"
-msgid "Delete multiple alarms"
-msgstr "Koʻp takrorlanuvchi ogohlantirishlarni olib tashlash"
-
-#: undo.cpp:1209
-#, fuzzy
-msgctxt "@info/plain"
-msgid "Delete multiple templates"
-msgstr "Koʻp takrorlanuvchi namunalarni olib tashlash"
-
-#: undo.cpp:1216
-#, fuzzy
-msgctxt "@info/plain"
-msgid "Delete multiple archived alarms"
-msgstr "Koʻp takrorlanuvchi, muddati oʻtgan ogohlantirishlarni olib tashlash"
-
-#: undo.cpp:1259 undo.cpp:1303
-#, fuzzy
-#| msgid "Reactivate alarm"
-msgctxt "@info/plain"
-msgid "Reactivate alarm"
-msgstr "Ogohlantirishni qayta aktivlashtirish"
-
-#: undo.cpp:1326
-#, fuzzy
-msgctxt "@info/plain"
-msgid "Reactivate multiple alarms"
-msgstr "Koʻp takrorlanuvchi ogohlantirishlarni qayta aktivlashtirish"
-
-#: wakedlg.cpp:56
-msgctxt "@title:window"
-msgid "Wake From Suspend"
-msgstr ""
-
-#: wakedlg.cpp:181
-#, fuzzy
-#| msgid "Next scheduled date and time of the alarm"
-msgctxt "@info"
-msgid "Cannot schedule wakeup time for a date-only alarm"
-msgstr "Navbatdagi rejalashtirilgan sana va ogohlantirish vaqti"
-
-#: wakedlg.cpp:185
-msgctxt "@info"
-msgid ""
-"<para>This wakeup will cancel any existing wakeup which has been set by "
-"KAlarm or any other application, because your computer can only schedule a "
-"single wakeup time.</para><para><b>Note:</b> Wake From Suspend is not "
-"supported at all on some computers, especially older ones, and some "
-"computers only support setting a wakeup time up to 24 hours ahead. You may "
-"wish to set up a test alarm to check your system's capability.</para>"
-msgstr ""
-
-#: alarmtime.cpp:42 alarmtime.cpp:80
-msgctxt "@info/plain Alarm never occurs"
-msgid "Never"
-msgstr ""
-
-#: alarmtime.cpp:86
-#, fuzzy, no-c-format, kde-format
-#| msgctxt "n days"
-#| msgid " %1d "
-msgctxt "@info/plain n days"
-msgid "%1d"
-msgstr " %1k "
-
-#: alarmtime.cpp:95
-#, fuzzy, kde-format
-#| msgctxt "Undo-action: message"
-#| msgid "%1: %2"
-msgctxt "@info/plain hours:minutes"
-msgid "%1:%2"
-msgstr "%1: %2"
-
-#: alarmtime.cpp:98
-#, fuzzy, kde-format
-#| msgctxt "days hours:minutes"
-#| msgid " %1d %2:%3 "
-msgctxt "@info/plain days hours:minutes"
-msgid "%1d %2:%3"
-msgstr " %1k %2:%3 "
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -7394,6 +5650,1750 @@ msgstr "Kalendar faylining manzili"
 #. i18n: ectx: label, entry (MonitorFile), group (General)
 #: rc.cpp:483
 msgid "Monitor file for changes."
+msgstr ""
+
+#: recurrenceedit.cpp:81
+#, fuzzy
+#| msgid "Repeat"
+msgctxt "@item:inlistbox Recurrence type"
+msgid "No Recurrence"
+msgstr "Qaytarish"
+
+#: recurrenceedit.cpp:82
+#, fuzzy
+#| msgid "At Login"
+msgctxt "@item:inlistbox Recurrence type"
+msgid "At Login"
+msgstr "Tizimga kirishda"
+
+#: recurrenceedit.cpp:83
+#, fuzzy
+#| msgid "Hourly/Minutely"
+msgctxt "@item:inlistbox Recurrence type"
+msgid "Hourly/Minutely"
+msgstr "Har soat/daqiqada"
+
+#: recurrenceedit.cpp:84
+#, fuzzy
+#| msgid "Daily"
+msgctxt "@item:inlistbox Recurrence type"
+msgid "Daily"
+msgstr "Har kun"
+
+#: recurrenceedit.cpp:85
+#, fuzzy
+#| msgid "Weekly"
+msgctxt "@item:inlistbox Recurrence type"
+msgid "Weekly"
+msgstr "Har hafta"
+
+#: recurrenceedit.cpp:86
+#, fuzzy
+#| msgid "Monthly"
+msgctxt "@item:inlistbox Recurrence type"
+msgid "Monthly"
+msgstr "Har oy"
+
+#: recurrenceedit.cpp:87
+#, fuzzy
+#| msgid "Yearly"
+msgctxt "@item:inlistbox Recurrence type"
+msgid "Yearly"
+msgstr "Har yil"
+
+#: recurrenceedit.cpp:113
+msgctxt "@title:group"
+msgid "Recurrence Rule"
+msgstr ""
+
+#: recurrenceedit.cpp:131
+#, fuzzy
+#| msgid "Do not repeat the alarm"
+msgctxt "@info:whatsthis"
+msgid "Do not repeat the alarm"
+msgstr "Ogohlantirish takrorlanmasin"
+
+#: recurrenceedit.cpp:139
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Trigger the alarm at the specified date/time and at every login until "
+"then.</para><para>Note that it will also be triggered any time "
+"<application>KAlarm</application> is restarted.</para>"
+msgstr ""
+
+#: recurrenceedit.cpp:147
+#, fuzzy
+#| msgid "Repeat the alarm at hourly/minutely intervals"
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm at hourly/minutely intervals"
+msgstr "Ogohlantirishni har soat/daqiqada takrorlash"
+
+#: recurrenceedit.cpp:154
+#, fuzzy
+#| msgid "Repeat the alarm at daily intervals"
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm at daily intervals"
+msgstr "Ogohlantirishni har kuni takrorlash"
+
+#: recurrenceedit.cpp:161
+#, fuzzy
+#| msgid "Repeat the alarm at weekly intervals"
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm at weekly intervals"
+msgstr "Ogohlantirishni har hafta takrorlash"
+
+#: recurrenceedit.cpp:168
+#, fuzzy
+#| msgid "Repeat the alarm at monthly intervals"
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm at monthly intervals"
+msgstr "Ogohlantirishni har oy takrorlash"
+
+#: recurrenceedit.cpp:175
+#, fuzzy
+#| msgid "Repeat the alarm at annual intervals"
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm at annual intervals"
+msgstr "Ogohlantirishni har yil takrorlash"
+
+#: recurrenceedit.cpp:185
+msgctxt "@info:whatsthis"
+msgid ""
+"Set up a repetition within the recurrence, to trigger the alarm multiple "
+"times each time the recurrence is due."
+msgstr ""
+
+#: recurrenceedit.cpp:233
+msgctxt "@title:group"
+msgid "Recurrence End"
+msgstr ""
+
+#: recurrenceedit.cpp:242
+#, fuzzy
+#| msgid "&Send"
+msgctxt "@option:radio"
+msgid "No end"
+msgstr "&Joʻnatish"
+
+#: recurrenceedit.cpp:245
+#, fuzzy
+#| msgid "Repeat the alarm indefinitely"
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm indefinitely"
+msgstr "Ogohlantirishni cheksiz takrorlash"
+
+#: recurrenceedit.cpp:253
+#, fuzzy
+#| msgid "End a&fter:"
+msgctxt "@option:radio"
+msgid "End after:"
+msgstr "&Oxiri:"
+
+#: recurrenceedit.cpp:255
+#, fuzzy
+#| msgid "Repeat the alarm on the selected day of the month"
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm for the number of times specified"
+msgstr "Oyning tanlangan kunida ogohlantirishni takrorlash"
+
+#: recurrenceedit.cpp:262
+#, fuzzy
+#| msgid "Enter the last time to repeat the alarm."
+msgctxt "@info:whatsthis"
+msgid "Enter the total number of times to trigger the alarm"
+msgstr "Ogohlantirishni takrorlash uchun oxirigi vaqtni kiriting"
+
+#: recurrenceedit.cpp:266
+msgctxt "@label"
+msgid "occurrence(s)"
+msgstr ""
+
+#: recurrenceedit.cpp:278
+#, fuzzy
+#| msgid "End a&fter:"
+msgctxt "@option:radio"
+msgid "End by:"
+msgstr "&Oxiri:"
+
+#: recurrenceedit.cpp:281
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Repeat the alarm until the date/time specified.</para><para><note>This "
+"applies to the main recurrence only. It does not limit any sub-repetition "
+"which will occur regardless after the last main recurrence.</note></para>"
+msgstr ""
+
+#: recurrenceedit.cpp:286
+msgctxt "@info/plain"
+msgid "This uses the same time zone as the start time."
+msgstr ""
+
+#: recurrenceedit.cpp:288
+#, fuzzy, kde-format
+msgctxt "@info:whatsthis"
+msgid "<para>Enter the last date to repeat the alarm.</para><para>%1</para>"
+msgstr "Ogohlantirishni takrorlash uchun oxirigi kunni kiriting"
+
+#: recurrenceedit.cpp:295
+#, fuzzy, kde-format
+#| msgid "Enter the last time to repeat the alarm."
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Enter the last time to repeat the alarm.</para><para>%1</para><para>"
+"%2</para>"
+msgstr "Ogohlantirishni takrorlash uchun oxirigi vaqtni kiriting"
+
+#: recurrenceedit.cpp:300
+msgctxt "@info:whatsthis"
+msgid ""
+"Stop repeating the alarm after your first login on or after the specified "
+"end date"
+msgstr ""
+
+#: recurrenceedit.cpp:318
+#, fuzzy
+#| msgid "E&xceptions"
+msgctxt "@title:group"
+msgid "Exceptions"
+msgstr "Qoidadan t&ashqari holatlar"
+
+#: recurrenceedit.cpp:329
+msgctxt "@info:whatsthis"
+msgid "The list of exceptions, i.e. dates/times excluded from the recurrence"
+msgstr ""
+
+#: recurrenceedit.cpp:348
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter a date to insert in the exceptions list. Use in conjunction with the "
+"Add or Change button below."
+msgstr ""
+
+#: recurrenceedit.cpp:355
+#, fuzzy
+msgctxt "@action:button"
+msgid "Add"
+msgstr "Qoʻshish"
+
+#: recurrenceedit.cpp:356
+msgctxt "@info:whatsthis"
+msgid "Add the date entered above to the exceptions list"
+msgstr ""
+
+#: recurrenceedit.cpp:360
+#, fuzzy
+msgctxt "@action:button"
+msgid "Change"
+msgstr "Oʻz&gartirish"
+
+#: recurrenceedit.cpp:362
+msgctxt "@info:whatsthis"
+msgid ""
+"Replace the currently highlighted item in the exceptions list with the date "
+"entered above"
+msgstr ""
+
+#: recurrenceedit.cpp:366 templatedlg.cpp:120
+#, fuzzy
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "Ogohlantirishni oʻchirish"
+
+#: recurrenceedit.cpp:367
+#, fuzzy
+#| msgid "Remove the highlighted attachment from the email."
+msgctxt "@info:whatsthis"
+msgid "Remove the currently highlighted item from the exceptions list"
+msgstr "Tanlangan ilovani xatdan olib tashlash."
+
+#: recurrenceedit.cpp:374
+msgctxt "@option:check"
+msgid "Exclude holidays"
+msgstr ""
+
+#: recurrenceedit.cpp:377
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Do not trigger the alarm on holidays.</para><para>You can specify your "
+"holiday region in the Configuration dialog.</para>"
+msgstr ""
+
+#: recurrenceedit.cpp:382
+msgctxt "@option:check"
+msgid "Only during working time"
+msgstr ""
+
+#: recurrenceedit.cpp:385
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Only execute the alarm during working hours, on working days.</"
+"para><para>You can specify working days and hours in the Configuration "
+"dialog.</para>"
+msgstr ""
+
+#: recurrenceedit.cpp:428
+msgctxt "@info"
+msgid "End date is earlier than start date"
+msgstr ""
+
+#: recurrenceedit.cpp:429
+msgctxt "@info"
+msgid "End date/time is earlier than start date/time"
+msgstr ""
+
+#: recurrenceedit.cpp:699
+#, fuzzy
+#| msgid "Date cannot be earlier than %1"
+msgctxt "@info"
+msgid "Date cannot be earlier than start date"
+msgstr "Sana %1'dan oldin boʻlmasligi lozim"
+
+#: recurrenceedit.cpp:1114
+#, fuzzy
+#| msgid "Repeat"
+msgctxt "@label:spinbox"
+msgid "Recur e&very"
+msgstr "Qaytarish"
+
+#: recurrenceedit.cpp:1183
+#, fuzzy
+#| msgid "hours:minutes"
+msgctxt "@label Time units for user-entered numbers"
+msgid "hours:minutes"
+msgstr "soat:daqiqa"
+
+#: recurrenceedit.cpp:1184
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Enter the number of hours and minutes between repetitions of the alarm"
+msgstr ""
+"Joriy vaqtdan keyin ogohlantirishni rejalashtirish uchun vaqtni qanchaligini "
+"kiriting (soat va daqiqalarda)."
+
+#: recurrenceedit.cpp:1204
+msgctxt "@label On: Tuesday"
+msgid "O&n:"
+msgstr ""
+
+#: recurrenceedit.cpp:1285
+#, fuzzy
+#| msgid "No day selected"
+msgctxt "@info"
+msgid "No day selected"
+msgstr "Kun tanlanmagan"
+
+#: recurrenceedit.cpp:1314
+#, fuzzy
+#| msgid "day(s)"
+msgctxt "@label Time unit for user-entered number"
+msgid "day(s)"
+msgstr "kun(lar)"
+
+#: recurrenceedit.cpp:1315
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Enter the number of days between repetitions of the alarm"
+msgstr "Ogohlantirishni takrorlash uchun oxirigi kunni kiriting"
+
+#: recurrenceedit.cpp:1316
+#, fuzzy
+#| msgid "Select the day of the week on which to repeat the alarm"
+msgctxt "@info:whatsthis"
+msgid "Select the days of the week on which the alarm is allowed to occur"
+msgstr "Ogohlantirish takrorlanadigan hafta kunini tanlang"
+
+#: recurrenceedit.cpp:1327
+#, fuzzy
+#| msgid "week(s)"
+msgctxt "@label Time unit for user-entered number"
+msgid "week(s)"
+msgstr "hafta(lar)"
+
+#: recurrenceedit.cpp:1328
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Enter the number of weeks between repetitions of the alarm"
+msgstr "Ogohlantirishni takrorlash uchun oxirigi kunni kiriting"
+
+#: recurrenceedit.cpp:1329
+#, fuzzy
+#| msgid "Select the day of the week on which to repeat the alarm"
+msgctxt "@info:whatsthis"
+msgid "Select the days of the week on which to repeat the alarm"
+msgstr "Ogohlantirish takrorlanadigan hafta kunini tanlang"
+
+#: recurrenceedit.cpp:1352
+#, fuzzy
+msgctxt "@option:radio On day number in the month"
+msgid "O&n day"
+msgstr "Bugun"
+
+#: recurrenceedit.cpp:1356
+#, fuzzy
+#| msgid "Repeat the alarm on the selected day of the month"
+msgctxt "@info:whatsthis"
+msgid "Repeat the alarm on the selected day of the month"
+msgstr "Oyning tanlangan kunida ogohlantirishni takrorlash"
+
+#: recurrenceedit.cpp:1363
+#, fuzzy
+#| msgctxt "Last day of month"
+#| msgid "Last"
+msgctxt "@item:inlistbox Last day of month"
+msgid "Last"
+msgstr "Oxirgi"
+
+#: recurrenceedit.cpp:1366
+#, fuzzy
+#| msgid "Select the week of the month in which to repeat the alarm"
+msgctxt "@info:whatsthis"
+msgid "Select the day of the month on which to repeat the alarm"
+msgstr "Ogohlantirish takrorlanadigan oy haftasini tanlang"
+
+#: recurrenceedit.cpp:1380
+#, fuzzy
+#| msgid "Other:"
+msgctxt "@option:radio On the 1st Tuesday"
+msgid "On t&he"
+msgstr "Boshqa:"
+
+#: recurrenceedit.cpp:1384
+#, fuzzy
+#| msgid "Repeat the alarm on the selected day of the month"
+msgctxt "@info:whatsthis"
+msgid ""
+"Repeat the alarm on one day of the week, in the selected week of the month"
+msgstr "Oyning tanlangan kunida ogohlantirishni takrorlash"
+
+#: recurrenceedit.cpp:1388
+#, fuzzy
+#| msgid "1st"
+msgctxt "@item:inlistbox"
+msgid "1st"
+msgstr "1-chi"
+
+#: recurrenceedit.cpp:1389
+#, fuzzy
+#| msgid "2nd"
+msgctxt "@item:inlistbox"
+msgid "2nd"
+msgstr "2-chi"
+
+#: recurrenceedit.cpp:1390
+#, fuzzy
+#| msgid "3rd"
+msgctxt "@item:inlistbox"
+msgid "3rd"
+msgstr "3-chi"
+
+#: recurrenceedit.cpp:1391
+#, fuzzy
+#| msgid "4th"
+msgctxt "@item:inlistbox"
+msgid "4th"
+msgstr "4-chi"
+
+#: recurrenceedit.cpp:1392
+#, fuzzy
+#| msgid "5th"
+msgctxt "@item:inlistbox"
+msgid "5th"
+msgstr "5-chi"
+
+#: recurrenceedit.cpp:1393
+#, fuzzy
+#| msgctxt "Last day of month"
+#| msgid "Last"
+msgctxt "@item:inlistbox Last Monday in March"
+msgid "Last"
+msgstr "Oxirgi"
+
+#: recurrenceedit.cpp:1394
+#, fuzzy
+#| msgid "2nd Last"
+msgctxt "@item:inlistbox"
+msgid "2nd Last"
+msgstr "oxirdan 2-chi"
+
+#: recurrenceedit.cpp:1395
+#, fuzzy
+#| msgid "3rd Last"
+msgctxt "@item:inlistbox"
+msgid "3rd Last"
+msgstr "oxirdan 3-chi"
+
+#: recurrenceedit.cpp:1396
+#, fuzzy
+#| msgid "4th Last"
+msgctxt "@item:inlistbox"
+msgid "4th Last"
+msgstr "oxirdan 4-chi"
+
+#: recurrenceedit.cpp:1397
+#, fuzzy
+#| msgid "5th Last"
+msgctxt "@item:inlistbox"
+msgid "5th Last"
+msgstr "oxirdan 5-chi"
+
+#: recurrenceedit.cpp:1400
+#, fuzzy
+msgctxt "@item:inlistbox Every (Monday...) in month"
+msgid "Every"
+msgstr "Har"
+
+#: recurrenceedit.cpp:1403
+#, fuzzy
+#| msgid "Select the week of the month in which to repeat the alarm"
+msgctxt "@info:whatsthis"
+msgid "Select the week of the month in which to repeat the alarm"
+msgstr "Ogohlantirish takrorlanadigan oy haftasini tanlang"
+
+#: recurrenceedit.cpp:1418
+#, fuzzy
+#| msgid "Select the day of the week on which to repeat the alarm"
+msgctxt "@info:whatsthis"
+msgid "Select the day of the week on which to repeat the alarm"
+msgstr "Ogohlantirish takrorlanadigan hafta kunini tanlang"
+
+#: recurrenceedit.cpp:1541
+#, fuzzy
+#| msgid "month(s)"
+msgctxt "@label Time unit for user-entered number"
+msgid "month(s)"
+msgstr "oy(lar)"
+
+#: recurrenceedit.cpp:1542
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Enter the number of months between repetitions of the alarm"
+msgstr "Ogohlantirishni takrorlash uchun oxirigi kunni kiriting"
+
+#: recurrenceedit.cpp:1553
+#, fuzzy
+#| msgid "year(s)"
+msgctxt "@label Time unit for user-entered number"
+msgid "year(s)"
+msgstr "yil(lar)"
+
+#: recurrenceedit.cpp:1554
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Enter the number of years between repetitions of the alarm"
+msgstr "Ogohlantirishni takrorlash uchun oxirigi kunni kiriting"
+
+#: recurrenceedit.cpp:1561
+#, fuzzy
+#| msgid "Monthly"
+msgctxt "@label List of months to select"
+msgid "Months:"
+msgstr "Har oy"
+
+#: recurrenceedit.cpp:1583
+#, fuzzy
+#| msgid "Select the months of the year in which to repeat the alarm"
+msgctxt "@info:whatsthis"
+msgid "Select the months of the year in which to repeat the alarm"
+msgstr "Ogohlantirish takrorlanadigan yil oylarini tanlang"
+
+#: recurrenceedit.cpp:1592
+msgctxt "@label:listbox"
+msgid "February 2&9th alarm in non-leap years:"
+msgstr ""
+
+#: recurrenceedit.cpp:1596
+#, fuzzy
+#| msgid "None"
+msgctxt "@item:inlistbox No date"
+msgid "None"
+msgstr "Yoʻq"
+
+#: recurrenceedit.cpp:1597
+#, fuzzy
+#| msgctxt "1st March (short form)"
+#| msgid "1 Mar"
+msgctxt "@item:inlistbox 1st March (short form)"
+msgid "1 Mar"
+msgstr "1-chi Mar"
+
+#: recurrenceedit.cpp:1598
+#, fuzzy
+#| msgctxt "28th February (short form)"
+#| msgid "28 Feb"
+msgctxt "@item:inlistbox 28th February (short form)"
+msgid "28 Feb"
+msgstr "28-chi Fev"
+
+#: recurrenceedit.cpp:1604
+msgctxt "@info:whatsthis"
+msgid ""
+"Select which date, if any, the February 29th alarm should trigger in non-"
+"leap years"
+msgstr ""
+
+#: recurrenceedit.cpp:1688
+#, fuzzy
+#| msgid "No month selected"
+msgctxt "@info"
+msgid "No month selected"
+msgstr "Oy tanlanmagan"
+
+#: reminder.cpp:49
+msgctxt "@option:check"
+msgid "Reminder for first recurrence only"
+msgstr ""
+
+#: reminder.cpp:51
+msgctxt "@item:inlistbox"
+msgid "in advance"
+msgstr ""
+
+#: reminder.cpp:65
+#, fuzzy
+#| msgid "Rem&inder:"
+msgctxt "@option:check"
+msgid "Reminder:"
+msgstr "&Esga solish:"
+
+#: reminder.cpp:69
+msgctxt "@item:inlistbox"
+msgid "afterwards"
+msgstr ""
+
+#: reminder.cpp:91
+msgctxt "@info:whatsthis"
+msgid "Display the reminder only for the first time the alarm is scheduled"
+msgstr ""
+
+#: repetitionbutton.cpp:87
+#, fuzzy
+#| msgid "Email Alarm Settings"
+msgctxt "@title:window"
+msgid "Alarm Sub-Repetition"
+msgstr "Xat orqali ogohlantirish moslamalari"
+
+#: repetitionbutton.cpp:165
+#, fuzzy
+#| msgid "Repeat"
+msgctxt "@option:check Repeat every 10 minutes"
+msgid "Repeat every"
+msgstr "Qaytarish"
+
+#: repetitionbutton.cpp:166
+msgctxt "@info:whatsthis"
+msgid ""
+"Instead of the alarm triggering just once at each recurrence, checking this "
+"option makes the alarm trigger multiple times at each recurrence."
+msgstr ""
+
+#: repetitionbutton.cpp:168
+#, fuzzy
+#| msgid "Enter the last time to repeat the alarm."
+msgctxt "@info:whatsthis"
+msgid "Enter the time between repetitions of the alarm"
+msgstr "Ogohlantirishni takrorlash uchun oxirigi vaqtni kiriting"
+
+#: repetitionbutton.cpp:186
+#, fuzzy
+#| msgid "&Number of repetitions:"
+msgctxt "@option:radio"
+msgid "Number of repetitions:"
+msgstr "&Takrorlanish soni:"
+
+#: repetitionbutton.cpp:188
+msgctxt "@info:whatsthis"
+msgid ""
+"Check to specify the number of times the alarm should repeat after each "
+"recurrence"
+msgstr ""
+
+#: repetitionbutton.cpp:196
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the number of times to trigger the alarm after its initial occurrence"
+msgstr ""
+
+#: repetitionbutton.cpp:204
+#, fuzzy
+#| msgid "&Duration:"
+msgctxt "@option:radio"
+msgid "Duration:"
+msgstr "&Davom etishi:"
+
+#: repetitionbutton.cpp:206
+#, fuzzy
+#| msgid "Check to copy the alarm into KOrganizer's calendar"
+msgctxt "@info:whatsthis"
+msgid "Check to specify how long the alarm is to be repeated"
+msgstr ""
+"Ogohlantirishni KOrganizer kalendariga koʻchirish uchun shu yerni belgilang"
+
+#: repetitionbutton.cpp:212
+#, fuzzy
+#| msgid "Enter the last time to repeat the alarm."
+msgctxt "@info:whatsthis"
+msgid "Enter the length of time to repeat the alarm"
+msgstr "Ogohlantirishni takrorlash uchun oxirigi vaqtni kiriting"
+
+#: resourceconfigdialog.cpp:48 resourceselector.cpp:238
+#, fuzzy
+#| msgid "Alarm Configuration"
+msgctxt "@title:window"
+msgid "Calendar Configuration"
+msgstr "Ogohlantirish moslamasi"
+
+#: resourceconfigdialog.cpp:61
+#, fuzzy
+msgctxt "@title:group"
+msgid "General Settings"
+msgstr "Koʻrinish moslamalari"
+
+#: resourceconfigdialog.cpp:63
+#, fuzzy
+msgctxt "@label:textbox Calendar name"
+msgid "Name:"
+msgstr "Ismi"
+
+#: resourceconfigdialog.cpp:68
+#, fuzzy
+msgctxt "@option:check"
+msgid "Read-only"
+msgstr "faqat oʻqishga"
+
+#: resourceconfigdialog.cpp:81
+#, fuzzy, kde-format
+msgctxt "@title:group"
+msgid "<resource>%1</resource> Calendar Settings"
+msgstr "Koʻrinish moslamalari"
+
+#: resourceconfigdialog.cpp:123
+msgctxt "@info"
+msgid "Please enter a calendar name."
+msgstr ""
+
+#: resourcemodelview.cpp:119 resources/alarmresource.cpp:360
+#, fuzzy
+msgctxt "@info/plain"
+msgid "Disabled (wrong alarm type)"
+msgstr "Oʻ&chirilgan ogohlantirishning rangi:"
+
+#: resources/alarmresource.cpp:354 resourceselector.cpp:856
+#, fuzzy
+msgctxt "@info/plain"
+msgid "Active alarms"
+msgstr "KAlarm'ni aktivlashtirish"
+
+#: resources/alarmresource.cpp:355 resourceselector.cpp:858
+#, fuzzy
+msgctxt "@info/plain"
+msgid "Archived alarms"
+msgstr "KAlarm'ni aktivlashtirish"
+
+#: resources/alarmresource.cpp:356 resourceselector.cpp:860
+#, fuzzy
+#| msgid "Alarm Templates"
+msgctxt "@info/plain"
+msgid "Alarm templates"
+msgstr "Ogohlantirish namunalari"
+
+#: resources/alarmresource.cpp:359 resourceselector.cpp:865
+msgctxt "@info/plain"
+msgid "Read-write"
+msgstr ""
+
+#: resources/alarmresource.cpp:360 resourceselector.cpp:867
+#, fuzzy
+#| msgid "Enable"
+msgctxt "@info/plain"
+msgid "Enabled"
+msgstr "Yoqish"
+
+#: resources/alarmresource.cpp:361 resourceselector.cpp:871
+#, fuzzy
+#| msgid "None"
+msgctxt "@info/plain Parameter in 'Default calendar: Yes/No'"
+msgid "No"
+msgstr "Yoʻq"
+
+#: resources/alarmresource.cpp:361 resourceselector.cpp:870
+msgctxt "@info/plain Parameter in 'Default calendar: Yes/No'"
+msgid "Yes"
+msgstr ""
+
+#: resources/alarmresource.cpp:363
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<title>%1</title><para>Calendar type: %2<nl/>Contents: %3<nl/>%4: <filename>"
+"%5</filename><nl/>Permissions: %6<nl/>Status: %7<nl/>Default calendar: %8</"
+"para>"
+msgstr ""
+
+#: resources/alarmresources.cpp:159
+#, fuzzy, kde-format
+#| msgid "Invalid calendar file name: %1"
+msgctxt "@info"
+msgid "%1: invalid calendar file name: <filename>%2</filename>"
+msgstr "Kalendar faylning nomi xato: %1"
+
+#: resources/alarmresources.cpp:167
+#, fuzzy, kde-format
+#| msgid ""
+#| "Attachment not found:\n"
+#| "%1"
+msgctxt "@info"
+msgid "%1: file name not permitted: <filename>%2</filename>"
+msgstr ""
+"Ilova topilmadi:\n"
+"%1"
+
+#: resources/resourcelocaldirwidget.cpp:40
+#: resources/resourcelocalwidget.cpp:42
+#, fuzzy
+#| msgid "Action"
+msgctxt "@label:textbox"
+msgid "Location:"
+msgstr "Amal"
+
+#: resources/resourcelocaldirwidget.cpp:72
+#: resources/resourcelocalwidget.cpp:77
+msgctxt "@info"
+msgid "No location specified.  The calendar will be invalid."
+msgstr ""
+
+#: resources/resourceremotewidget.cpp:42
+msgctxt "@label:textbox"
+msgid "Download from:"
+msgstr ""
+
+#: resources/resourceremotewidget.cpp:48
+msgctxt "@label:textbox"
+msgid "Upload to:"
+msgstr ""
+
+#: resources/resourceremotewidget.cpp:94
+msgctxt "@info"
+msgid "You have specified no upload URL: the alarm calendar will be read-only."
+msgstr ""
+
+#: resources/resourcewidget.cpp:54
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Calendar <resource>%1</resource> cannot be made writable since it either was "
+"not created by <application>KAlarm</application>, or was created by a newer "
+"version of <application>KAlarm</application>"
+msgstr ""
+
+#: resourceselector.cpp:100
+#, fuzzy
+msgctxt "@title:group"
+msgid "Calendars"
+msgstr "Kalendar faylining manzili"
+
+#: resourceselector.cpp:104
+#, fuzzy
+msgctxt "@item:inlistbox"
+msgid "Active Alarms"
+msgstr "KAlarm'ni aktivlashtirish"
+
+#: resourceselector.cpp:105
+#, fuzzy
+msgctxt "@item:inlistbox"
+msgid "Archived Alarms"
+msgstr "KAlarm'ni aktivlashtirish"
+
+#: resourceselector.cpp:106
+#, fuzzy
+#| msgid "Alarm Templates"
+msgctxt "@item:inlistbox"
+msgid "Alarm Templates"
+msgstr "Ogohlantirish namunalari"
+
+#: resourceselector.cpp:108
+msgctxt "@info:whatsthis"
+msgid "Choose which type of data to show alarm calendars for"
+msgstr ""
+
+#: resourceselector.cpp:125
+msgctxt "@info:whatsthis"
+msgid ""
+"List of available calendars of the selected type. The checked state shows "
+"whether a calendar is enabled (checked) or disabled (unchecked). The default "
+"calendar is shown in bold."
+msgstr ""
+
+#: resourceselector.cpp:136 templatedlg.cpp:110
+#, fuzzy
+msgctxt "@action:button"
+msgid "Edit..."
+msgstr "&Tahrirlash"
+
+#: resourceselector.cpp:141
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Edit the highlighted calendar"
+msgstr "Tanlangan ogohlantirish namunasini tahrirlash"
+
+#: resourceselector.cpp:142
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Remove the highlighted calendar from the list.</para><para>The "
+"calendar itself is left intact, and may subsequently be reinstated in the "
+"list if desired.</para>"
+msgstr ""
+
+#: resourceselector.cpp:175
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Add a new active alarm calendar"
+msgstr "Yangi ogohlantirish namunasi yaratish"
+
+#: resourceselector.cpp:179
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Add a new archived alarm calendar"
+msgstr "Yangi ogohlantirish namunasi yaratish"
+
+#: resourceselector.cpp:183
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Add a new alarm template calendar"
+msgstr "Yangi ogohlantirish namunasi yaratish"
+
+#: resourceselector.cpp:239
+msgctxt "@info"
+msgid "Select storage type of new calendar:"
+msgstr ""
+
+#: resourceselector.cpp:246
+#, kde-format
+msgctxt "@info"
+msgid "Unable to create calendar of type <resource>%1</resource>."
+msgstr ""
+
+#: resourceselector.cpp:249
+#, fuzzy, kde-format
+#| msgid "%1: wrong calendar file"
+msgctxt "@info/plain"
+msgid "%1 calendar"
+msgstr "%1: notoʻgʻri kalendar fayli"
+
+#: resourceselector.cpp:363
+#, fuzzy
+msgctxt "@info"
+msgid "You cannot make your default active alarm calendar read-only."
+msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
+
+#: resourceselector.cpp:370
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"You cannot make your default archived alarm calendar read-only while expired "
+"alarms are configured to be kept."
+msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
+
+#: resourceselector.cpp:374
+#, fuzzy
+msgctxt "@info"
+msgid "Do you really want to make your default calendar read-only?"
+msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
+
+#: resourceselector.cpp:427
+#, fuzzy
+msgctxt "@info"
+msgid "You cannot remove your default active alarm calendar."
+msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
+
+#: resourceselector.cpp:434
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"You cannot remove your default archived alarm calendar while expired alarms "
+"are configured to be kept."
+msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
+
+#: resourceselector.cpp:450
+#, kde-format
+msgctxt "@info"
+msgid "<para>It also contains:%1</para>"
+msgstr ""
+
+#: resourceselector.cpp:451
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para><resource>%1</resource> is the default calendar for:%2</para>"
+"%3<para>Do you really want to remove it from all calendar lists?</para>"
+msgstr ""
+
+#: resourceselector.cpp:455 resourceselector.cpp:463
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove your default calendar (<resource>%1</resource>) "
+"from the list?"
+msgstr ""
+"Rostdan ham koʻrsatilgan qabul qiluvchi(lar)ga xat joʻnatishni istaysizmi?"
+
+#: resourceselector.cpp:458
+#, fuzzy, kde-format
+#| msgid ""
+#| "Alarms are currently disabled.\n"
+#| "Do you want to enable alarms now?"
+msgctxt "@info"
+msgid ""
+"<para><resource>%1</resource> contains:%2</para><para>Do you really want to "
+"remove it from all calendar lists?</para>"
+msgstr ""
+"Hozirda ogohlantirishlar oʻchirilgan.\n"
+"Ogohlantirishlarni yoqishni istaysizmi?"
+
+#: resourceselector.cpp:461 resourceselector.cpp:464
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove the calendar <resource>%1</resource> from the "
+"list?"
+msgstr ""
+"Rostdan ham koʻrsatilgan qabul qiluvchi(lar)ga xat joʻnatishni istaysizmi?"
+
+#: resourceselector.cpp:501
+msgctxt "@action Reload calendar"
+msgid "Re&load"
+msgstr ""
+
+#: resourceselector.cpp:505
+#, fuzzy
+msgctxt "@action"
+msgid "&Save"
+msgstr "&Joʻnatish"
+
+#: resourceselector.cpp:509
+#, fuzzy
+msgctxt "@action"
+msgid "Show &Details"
+msgstr "Ogohlantirish vaqtlarini &koʻrsatish"
+
+#: resourceselector.cpp:512
+#, fuzzy
+#| msgid "Font & Color"
+msgctxt "@action"
+msgid "Set &Color..."
+msgstr "Shrift va rang"
+
+#: resourceselector.cpp:515
+#, fuzzy
+#| msgid "Font & Color"
+msgctxt "@action"
+msgid "Clear C&olor"
+msgstr "Shrift va rang"
+
+#: resourceselector.cpp:522
+msgctxt "@action"
+msgid "&Update Calendar Format"
+msgstr ""
+
+#: resourceselector.cpp:526
+#, fuzzy
+msgctxt "@action"
+msgid "&Remove"
+msgstr "&Olib tashlash"
+
+#: resourceselector.cpp:532
+#, fuzzy
+msgctxt "@action"
+msgid "&Add..."
+msgstr "Qoʻshish"
+
+#: resourceselector.cpp:535
+#, fuzzy
+msgctxt "@action"
+msgid "Im&port..."
+msgstr "&Tugʻilgan kunlarni import qilish..."
+
+#: resourceselector.cpp:621
+#, fuzzy
+msgctxt "@action"
+msgid "Use as &Default for Active Alarms"
+msgstr "&Andoza shriftdan foydalanish"
+
+#: resourceselector.cpp:622
+#, fuzzy
+msgctxt "@action"
+msgid "Use as &Default for Archived Alarms"
+msgstr "&Andoza shriftdan foydalanish"
+
+#: resourceselector.cpp:623
+#, fuzzy
+msgctxt "@action"
+msgid "Use as &Default for Alarm Templates"
+msgstr "Ogohlantirish namunasini oʻchirish"
+
+#: resourceselector.cpp:740
+#, fuzzy
+msgctxt "@info/plain"
+msgid "It is not an active alarm calendar."
+msgstr "Yangi ogohlantirish namunasi yaratish"
+
+#: resourceselector.cpp:743
+#, fuzzy
+msgctxt "@info/plain"
+msgid "It is not an archived alarm calendar."
+msgstr "Yangi ogohlantirish namunasi yaratish"
+
+#: resourceselector.cpp:746
+#, fuzzy
+msgctxt "@info/plain"
+msgid "It is not an alarm template calendar."
+msgstr "Yangi ogohlantirish namunasi yaratish"
+
+#: resourceselector.cpp:751
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Calendar <resource>%1</resource> has been disabled:</para><para>%2</"
+"para>"
+msgstr ""
+
+#: resourceselector.cpp:861
+msgctxt "@info/plain List separator"
+msgid ", "
+msgstr ""
+
+#: resourceselector.cpp:873
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<title>%1</title><para>ID: %2<nl/>Calendar type: %3<nl/>Contents: %4<nl/>%5: "
+"<filename>%6</filename><nl/>Permissions: %7<nl/>Status: %8<nl/>Default "
+"calendar: %9</para>"
+msgstr ""
+
+#: rtcwakeaction.cpp:89
+#, kde-format
+msgctxt "@text/plain"
+msgid "Could not run <command>%1</command> to set wake from suspend"
+msgstr ""
+
+#: rtcwakeaction.cpp:92
+#, kde-format
+msgctxt "@text/plain"
+msgid ""
+"Error setting wake from suspend.<nl/>Command was: <command>%1</command><nl/"
+">Error code: %2."
+msgstr ""
+
+#: sounddlg.cpp:54
+#, fuzzy
+#| msgid "Repeat"
+msgctxt "@option:check"
+msgid "Repeat"
+msgstr "Qaytarish"
+
+#: sounddlg.cpp:158
+#, fuzzy
+#| msgid "Sound &file:"
+msgctxt "@label"
+msgid "Sound file:"
+msgstr "Tovush f&ayli:"
+
+#: sounddlg.cpp:172 sounddlg.cpp:455
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Test the sound"
+msgstr "Tovushni oʻynashni toʻxtatish"
+
+#: sounddlg.cpp:173 sounddlg.cpp:456
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Play the selected sound file."
+msgstr "Takrorlash uchun to&vush fayli"
+
+#: sounddlg.cpp:179
+#, fuzzy
+#| msgid "Enter the name or URL of a sound file to play."
+msgctxt "@info:whatsthis"
+msgid "Enter the name or URL of a sound file to play."
+msgstr "Oʻynash uchun tovush faylining nomi yoki manzilini kiriting."
+
+#: sounddlg.cpp:191
+#, fuzzy
+#| msgid "Select a sound file to play."
+msgctxt "@info:whatsthis"
+msgid "Select a sound file to play."
+msgstr "Oʻynash uchun tovush faylini tanlash."
+
+#: sounddlg.cpp:205
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"If checked, the sound file will be played repeatedly for as long as the "
+"message is displayed."
+msgstr "Ogohlantirish koʻrsatilganda oʻynaladigan tovush faylini moslash."
+
+#: sounddlg.cpp:215
+#, fuzzy
+#| msgid "Interval between alarm repetitions"
+msgctxt "@label:spinbox Length of time to pause between repetitions"
+msgid "Pause between repetitions:"
+msgstr "Ogohlantirishni takrorlash vaqti"
+
+#: sounddlg.cpp:222 sounddlg.cpp:276
+#, fuzzy
+#| msgid "seconds"
+msgctxt "@label"
+msgid "seconds"
+msgstr "soniya"
+
+#: sounddlg.cpp:224
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Enter how many seconds to pause between repetitions."
+msgstr "Ogohlantirishni takrorlash uchun oxirigi kunni kiriting"
+
+#: sounddlg.cpp:228
+#, fuzzy
+#| msgid "Volume"
+msgctxt "@title:group Sound volume"
+msgid "Volume"
+msgstr "Tovush"
+
+#: sounddlg.cpp:243
+#, fuzzy
+#| msgid "Set volume"
+msgctxt "@option:check"
+msgid "Set volume"
+msgstr "Tovushni moslash"
+
+#: sounddlg.cpp:246
+msgctxt "@info:whatsthis"
+msgid "Select to choose the volume for playing the sound file."
+msgstr ""
+
+#: sounddlg.cpp:253
+#, fuzzy
+#| msgid "Enter the name or path of the log file."
+msgctxt "@info:whatsthis"
+msgid "Choose the volume for playing the sound file."
+msgstr "Log faylini nomini yoki yoʻlini kiriting."
+
+#: sounddlg.cpp:258
+#, fuzzy
+#| msgid "Fade"
+msgctxt "@option:check"
+msgid "Fade"
+msgstr "Soʻnish"
+
+#: sounddlg.cpp:261
+msgctxt "@info:whatsthis"
+msgid "Select to fade the volume when the sound file first starts to play."
+msgstr ""
+
+#: sounddlg.cpp:269
+#, fuzzy
+#| msgctxt "Time period over which to fade the sound"
+#| msgid "Fade time:"
+msgctxt "@label:spinbox Time period over which to fade the sound"
+msgid "Fade time:"
+msgstr "Soʻnish vaqti:"
+
+#: sounddlg.cpp:278
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter how many seconds to fade the sound before reaching the set volume."
+msgstr ""
+
+#: sounddlg.cpp:285
+#, fuzzy
+#| msgid "Set volume"
+msgctxt "@label:slider"
+msgid "Initial volume:"
+msgstr "Tovushni moslash"
+
+#: sounddlg.cpp:293
+#, fuzzy
+#| msgid "Enter the name or path of the log file."
+msgctxt "@info:whatsthis"
+msgid "Choose the initial volume for playing the sound file."
+msgstr "Log faylini nomini yoki yoʻlini kiriting."
+
+#: soundpicker.cpp:50
+#, fuzzy
+msgctxt "@label:listbox Listbox providing audio options"
+msgid "Sound:"
+msgstr "&Tovush"
+
+#: soundpicker.cpp:51
+#, fuzzy
+#| msgid "None"
+msgctxt "@item:inlistbox No sound"
+msgid "None"
+msgstr "Yoʻq"
+
+#: soundpicker.cpp:52
+#, fuzzy
+#| msgid "Beep"
+msgctxt "@item:inlistbox"
+msgid "Beep"
+msgstr "Bip"
+
+#: soundpicker.cpp:53
+msgctxt "@item:inlistbox"
+msgid "Speak"
+msgstr ""
+
+#: soundpicker.cpp:54
+#, fuzzy
+msgctxt "@item:inlistbox"
+msgid "Sound file"
+msgstr "Tovush f&ayli:"
+
+#: soundpicker.cpp:98
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Configure sound file"
+msgstr "Tovush faylini tanlash"
+
+#: soundpicker.cpp:99
+#, fuzzy
+#| msgid "Configure a sound file to play when the alarm is displayed."
+msgctxt "@info:whatsthis"
+msgid "Configure a sound file to play when the alarm is displayed."
+msgstr "Ogohlantirish koʻrsatilganda oʻynaladigan tovush faylini moslash."
+
+#: soundpicker.cpp:132
+#, fuzzy, kde-format
+msgctxt "@info:whatsthis"
+msgid "<interface>%1</interface>: the message is displayed silently."
+msgstr "Xabar koʻrsatilganda ovoz berish"
+
+#: soundpicker.cpp:133
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "<interface>%1</interface>: a simple beep is sounded."
+msgstr ""
+
+#: soundpicker.cpp:134
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<interface>%1</interface>: an audio file is played. You will be prompted to "
+"choose the file and set play options."
+msgstr ""
+
+#: soundpicker.cpp:138
+#, fuzzy, kde-format
+msgctxt "@info:whatsthis"
+msgid "<interface>%1</interface>: the message text is spoken."
+msgstr "Koʻrsatilgan xabarni oʻqib eshittirish"
+
+#: soundpicker.cpp:140
+#, kde-format
+msgctxt "@info:whatsthis Combination of multiple whatsthis items"
+msgid ""
+"<para>Choose a sound to play when the message is displayed:<list><item>%1</"
+"item><item>%2</item><item>%3</item><item>%4</item></list></para>"
+msgstr ""
+
+#: soundpicker.cpp:148
+#, kde-format
+msgctxt "@info:whatsthis Combination of multiple whatsthis items"
+msgid ""
+"<para>Choose a sound to play when the message is displayed:<list><item>%1</"
+"item><item>%2</item><item>%3</item></list></para>"
+msgstr ""
+
+#: soundpicker.cpp:268
+#, fuzzy
+#| msgid "Sound File"
+msgctxt "@title:window"
+msgid "Sound File"
+msgstr "Tovush fayli"
+
+#: soundpicker.cpp:330
+#, fuzzy
+#| msgid "Choose Sound File"
+msgctxt "@title:window"
+msgid "Choose Sound File"
+msgstr "Tovush faylini tanlang"
+
+#: specialactions.cpp:48
+#, fuzzy
+#| msgid "Special Actions..."
+msgctxt "@action:button"
+msgid "Special Actions..."
+msgstr "Maxsus amallar..."
+
+#: specialactions.cpp:56
+msgctxt "@info:whatsthis"
+msgid "Specify actions to execute before and after the alarm is displayed."
+msgstr ""
+
+#: specialactions.cpp:107
+#, fuzzy
+#| msgid "Special Alarm Actions"
+msgctxt "@title:window"
+msgid "Special Alarm Actions"
+msgstr "Maxsus ogohlantirish amallari"
+
+#: specialactions.cpp:165
+#, fuzzy
+msgctxt "@title:group"
+msgid "Pre-Alarm Action"
+msgstr "Ogohlantirishdan oldingi amal:"
+
+#: specialactions.cpp:175 specialactions.cpp:210
+#, fuzzy
+#| msgid "Co&mmand"
+msgctxt "@label:textbox"
+msgid "Command:"
+msgstr "Buy&ruq"
+
+#: specialactions.cpp:180
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Enter a shell command to execute before the alarm is displayed.</"
+"para><para>Note that it is executed only when the alarm proper is displayed, "
+"not when a reminder or deferred alarm is displayed.</para><para><note>KAlarm "
+"will wait for the command to complete before displaying the alarm.</note></"
+"para>"
+msgstr ""
+
+#: specialactions.cpp:186
+msgctxt "@option:check"
+msgid "Execute for deferred alarms"
+msgstr ""
+
+#: specialactions.cpp:187
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>If unchecked, the command is only executed before the alarm proper is "
+"displayed.</para><para>If checked, the pre-alarm command is also executed "
+"before a deferred alarm is displayed.</para>"
+msgstr ""
+
+#: specialactions.cpp:191
+msgctxt "@option:check"
+msgid "Cancel alarm on error"
+msgstr ""
+
+#: specialactions.cpp:192
+msgctxt "@info:whatsthis"
+msgid ""
+"Cancel the alarm if the pre-alarm command fails, i.e. do not display the "
+"alarm or execute any post-alarm action command."
+msgstr ""
+
+#: specialactions.cpp:195
+msgctxt "@option:check"
+msgid "Do not notify errors"
+msgstr ""
+
+#: specialactions.cpp:196
+#, fuzzy
+#| msgid "The default setting for \"%1\" in the alarm edit dialog."
+msgctxt "@info:whatsthis"
+msgid ""
+"Do not show error status or error message if the pre-alarm command fails."
+msgstr "Ogohlantirishni tahrirlash oynasidagi \"%1\" uchun andoza moslama."
+
+#: specialactions.cpp:200
+#, fuzzy
+msgctxt "@title:group"
+msgid "Post-Alarm Action"
+msgstr "Ogohlantirishdan keyingi amal:"
+
+#: specialactions.cpp:214
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Enter a shell command to execute after the alarm window is closed.</"
+"para><para>Note that it is not executed after closing a reminder window. If "
+"you defer the alarm, it is not executed until the alarm is finally "
+"acknowledged or closed.</para>"
+msgstr ""
+
+#: templatedlg.cpp:69
+#, fuzzy
+#| msgid "Alarm Templates"
+msgctxt "@title:window"
+msgid "Alarm Templates"
+msgstr "Ogohlantirish namunalari"
+
+#: templatedlg.cpp:95 templatelistview.cpp:44
+#, fuzzy
+#| msgid "Name of the alarm template"
+msgctxt "@info:whatsthis"
+msgid "The list of alarm templates"
+msgstr "Ogohlantirish namunasining nomi"
+
+#: templatedlg.cpp:103
+#, fuzzy
+#| msgid "&New..."
+msgctxt "@action:button"
+msgid "New"
+msgstr "Ya&ngi..."
+
+#: templatedlg.cpp:104
+#, fuzzy
+#| msgid "&New..."
+msgctxt "@action"
+msgid "New"
+msgstr "Ya&ngi..."
+
+#: templatedlg.cpp:107
+#, fuzzy
+#| msgid "Create a new alarm template"
+msgctxt "@info:whatsthis"
+msgid "Create a new alarm template"
+msgstr "Yangi ogohlantirish namunasi yaratish"
+
+#: templatedlg.cpp:112
+#, fuzzy
+#| msgid "Edit the currently highlighted alarm template"
+msgctxt "@info:whatsthis"
+msgid "Edit the currently highlighted alarm template"
+msgstr "Tanlangan ogohlantirish namunasini tahrirlash"
+
+#: templatedlg.cpp:115
+#, fuzzy
+#| msgid "Co&py"
+msgctxt "@action:button"
+msgid "Copy"
+msgstr "&Nusxa olish"
+
+#: templatedlg.cpp:117
+msgctxt "@info:whatsthis"
+msgid ""
+"Create a new alarm template based on a copy of the currently highlighted "
+"template"
+msgstr ""
+
+#: templatedlg.cpp:122
+#, fuzzy
+#| msgid "Edit the currently highlighted alarm template"
+msgctxt "@info:whatsthis"
+msgid "Delete the currently highlighted alarm template"
+msgstr "Tanlangan ogohlantirish namunasini tahrirlash"
+
+#: templatedlg.cpp:211
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "Do you really want to delete the selected alarm template?"
+msgid_plural "Do you really want to delete the %1 selected alarm templates?"
+msgstr[0] "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
+
+#: templatedlg.cpp:213
+#, fuzzy
+#| msgid "Delete Alarm Template"
+#| msgid_plural "Delete Alarm Templates"
+msgctxt "@title:window"
+msgid "Delete Alarm Template"
+msgid_plural "Delete Alarm Templates"
+msgstr[0] "Ogohlantirish namunasini oʻchirish"
+
+#: templatepickdlg.cpp:46
+#, fuzzy
+#| msgid "New Alarm Template"
+msgctxt "@title:window"
+msgid "Choose Alarm Template"
+msgstr "Yangi ogohlantirish namunasi"
+
+#: templatepickdlg.cpp:77
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "Select a template to base the new alarm on."
+msgstr "Ogohlantirishni rejalashtirish uchun vaqtni koʻrsating."
+
+#: traywindow.cpp:100
+#, fuzzy
+#| msgid "New Alarm"
+msgctxt "@action"
+msgid "&New Alarm"
+msgstr "Yangi ogohlantirish"
+
+#: traywindow.cpp:333
+#, fuzzy
+msgid "Disabled"
+msgstr "Oʻ&chirish"
+
+#: traywindow.cpp:338
+msgctxt "@info:tooltip Brief: some alarms are disabled"
+msgid "(Some alarms disabled)"
+msgstr ""
+
+#: traywindow.cpp:408
+#, fuzzy, kde-format
+msgctxt "@info/plain prefix + hours:minutes"
+msgid "(%1%2:%3)"
+msgstr "(%1%2:%3)"
+
+#: traywindow.cpp:410
+#, fuzzy, kde-format
+msgctxt "@info/plain prefix + hours:minutes"
+msgid "%1%2:%3"
+msgstr "%1%2:%3"
+
+#: undo.cpp:440
+#, fuzzy
+#| msgid "Alarm not found"
+msgctxt "@info/plain"
+msgid "Alarm not found"
+msgstr "Ogohlantirish topilmadi"
+
+#: undo.cpp:441
+#, fuzzy
+#| msgid "Error recreating alarm"
+msgctxt "@info/plain"
+msgid "Error recreating alarm"
+msgstr "Ogohlantirishni qayta yaratishda xato"
+
+#: undo.cpp:442
+#, fuzzy
+msgctxt "@info/plain"
+msgid "Error recreating alarm template"
+msgstr "Ogohlantirishni qayta yaratishda xato"
+
+#: undo.cpp:443
+#, fuzzy
+msgctxt "@info/plain"
+msgid "Cannot reactivate archived alarm"
+msgstr "Muddati oʻtgan ogohlantirishni qayta yaratishda xato"
+
+#: undo.cpp:444
+#, fuzzy
+#| msgid "Program error"
+msgctxt "@info/plain"
+msgid "Program error"
+msgstr "Dastur xatosi"
+
+#: undo.cpp:445
+#, fuzzy
+#| msgid "Unknown error"
+msgctxt "@info/plain"
+msgid "Unknown error"
+msgstr "Nomaʼlum xato"
+
+#: undo.cpp:447
+#, fuzzy, kde-format
+#| msgctxt "Undo-action: message"
+#| msgid "%1: %2"
+msgctxt "@info Undo-action: message"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: undo.cpp:684
+#, fuzzy
+#| msgctxt "Action to create a new alarm"
+#| msgid "New alarm"
+msgctxt "@info/plain Action to create a new alarm"
+msgid "New alarm"
+msgstr "Yangi ogohlantirish"
+
+#: undo.cpp:686
+#, fuzzy
+#| msgctxt "Action to delete an alarm"
+#| msgid "Delete alarm"
+msgctxt "@info/plain Action to delete an alarm"
+msgid "Delete alarm"
+msgstr "Ogohlantirishni olib tashlash"
+
+#: undo.cpp:689
+#, fuzzy
+#| msgctxt "Action to create a new alarm template"
+#| msgid "New template"
+msgctxt "@info/plain Action to create a new alarm template"
+msgid "New template"
+msgstr "Yangi namuna"
+
+#: undo.cpp:691
+#, fuzzy
+#| msgctxt "Action to delete an alarm template"
+#| msgid "Delete template"
+msgctxt "@info/plain Action to delete an alarm template"
+msgid "Delete template"
+msgstr "Namunani olib tashlash"
+
+#: undo.cpp:693
+#, fuzzy
+msgctxt "@info/plain"
+msgid "Delete archived alarm"
+msgstr "Muddati oʻtgan ogohlantirishni olib tashlash"
+
+#: undo.cpp:916
+#, fuzzy
+msgctxt "@info/plain"
+msgid "Create multiple alarms"
+msgstr "Koʻp takrorlanuvchi ogohlantirishlarni olib tashlash"
+
+#: undo.cpp:1022
+#, fuzzy
+#| msgctxt "Action to edit an alarm"
+#| msgid "Edit alarm"
+msgctxt "@info/plain Action to edit an alarm"
+msgid "Edit alarm"
+msgstr "Ogohlantirishni tahrirlash"
+
+#: undo.cpp:1024
+#, fuzzy
+#| msgctxt "Action to edit an alarm template"
+#| msgid "Edit template"
+msgctxt "@info/plain Action to edit an alarm template"
+msgid "Edit template"
+msgstr "Namunani tahrirlash"
+
+#: undo.cpp:1207
+#, fuzzy
+msgctxt "@info/plain"
+msgid "Delete multiple alarms"
+msgstr "Koʻp takrorlanuvchi ogohlantirishlarni olib tashlash"
+
+#: undo.cpp:1209
+#, fuzzy
+msgctxt "@info/plain"
+msgid "Delete multiple templates"
+msgstr "Koʻp takrorlanuvchi namunalarni olib tashlash"
+
+#: undo.cpp:1216
+#, fuzzy
+msgctxt "@info/plain"
+msgid "Delete multiple archived alarms"
+msgstr "Koʻp takrorlanuvchi, muddati oʻtgan ogohlantirishlarni olib tashlash"
+
+#: undo.cpp:1259 undo.cpp:1303
+#, fuzzy
+#| msgid "Reactivate alarm"
+msgctxt "@info/plain"
+msgid "Reactivate alarm"
+msgstr "Ogohlantirishni qayta aktivlashtirish"
+
+#: undo.cpp:1326
+#, fuzzy
+msgctxt "@info/plain"
+msgid "Reactivate multiple alarms"
+msgstr "Koʻp takrorlanuvchi ogohlantirishlarni qayta aktivlashtirish"
+
+#: wakedlg.cpp:56
+msgctxt "@title:window"
+msgid "Wake From Suspend"
+msgstr ""
+
+#: wakedlg.cpp:181
+#, fuzzy
+#| msgid "Next scheduled date and time of the alarm"
+msgctxt "@info"
+msgid "Cannot schedule wakeup time for a date-only alarm"
+msgstr "Navbatdagi rejalashtirilgan sana va ogohlantirish vaqti"
+
+#: wakedlg.cpp:185
+msgctxt "@info"
+msgid ""
+"<para>This wakeup will cancel any existing wakeup which has been set by "
+"KAlarm or any other application, because your computer can only schedule a "
+"single wakeup time.</para><para><b>Note:</b> Wake From Suspend is not "
+"supported at all on some computers, especially older ones, and some "
+"computers only support setting a wakeup time up to 24 hours ahead. You may "
+"wish to set up a test alarm to check your system's capability.</para>"
 msgstr ""
 
 #, fuzzy

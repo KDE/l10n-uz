@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-17 04:34+0200\n"
+"POT-Creation-Date: 2012-08-18 04:21+0200\n"
 "PO-Revision-Date: 2006-12-17 13:24+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -18,893 +18,242 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: printing/detailledstyle.cpp:99
+#: aboutdata.cpp:28
+msgid "KAddressBook"
+msgstr "KAddressBook"
+
+#: aboutdata.cpp:29
 #, fuzzy
-#| msgid "Organization"
-msgid "Organization:"
-msgstr "Tashkilot"
+#| msgid "The KDE Address Book"
+msgid "The KDE Address Book Application"
+msgstr "KDE manzillar daftari"
 
-#: printing/detailledstyle.cpp:108
-msgid "Email address:"
-msgstr "Elektron pochta:"
-
-#: printing/detailledstyle.cpp:109
-msgid "Email addresses:"
-msgstr "Elektron pochtalar:"
-
-#: printing/detailledstyle.cpp:120
-msgid "Telephone:"
-msgstr "Telefon:"
-
-#: printing/detailledstyle.cpp:121
-msgid "Telephones:"
-msgstr "Telefonlar:"
-
-#: printing/detailledstyle.cpp:133
-msgid "Web page:"
-msgstr "Veb-sahifa:"
-
-#: printing/detailledstyle.cpp:147
-msgid "Domestic Address"
-msgstr "Mahalliy manzilgoh"
-
-#: printing/detailledstyle.cpp:150
-msgid "International Address"
-msgstr "Xalqaro manzilgoh"
-
-#: printing/detailledstyle.cpp:153
-msgid "Postal Address"
-msgstr "Manzilgoh"
-
-#: printing/detailledstyle.cpp:156
-msgid "Parcel Address"
+#: aboutdata.cpp:31
+msgid "Copyright © 2007–2012 KAddressBook authors"
 msgstr ""
 
-#: printing/detailledstyle.cpp:159 modelcolumnmanager.cpp:99
-msgid "Home Address"
-msgstr "Uy manzilgoh"
+#: aboutdata.cpp:33
+msgid "Current maintainer"
+msgstr "Joriy taʼminlovchi"
 
-#: printing/detailledstyle.cpp:162
-msgid "Work Address"
-msgstr "Ish manzilgoh"
-
-#: printing/detailledstyle.cpp:166
-msgid "Preferred Address"
-msgstr "Eng afzal manzilgoh"
-
-#: printing/detailledstyle.cpp:177
-#, fuzzy
-#| msgid "Note:"
-msgid "Notes:"
-msgstr "Izoh:"
-
-#. i18n: file: printing/ds_appearance.ui:49
-#. i18n: ectx: property (text), widget (QLabel, labelHeader)
-#: printing/detailledstyle.cpp:264 rc.cpp:8
-msgid "Detailed Print Style - Appearance"
+#: aboutdata.cpp:33
+msgid "Tobias Koenig"
 msgstr ""
 
-#: printing/detailledstyle.cpp:284
+#: aboutdata.cpp:34
 #, fuzzy
-#| msgid "Setting up fonts and colors"
-msgid "Setting up colors"
-msgstr "Shrift va ranglarni moslash"
+#| msgid "Contact pinning"
+msgid "Kontact integration"
+msgstr "Aloqani bosib chiqarish"
 
-#: printing/detailledstyle.cpp:301 printing/ringbinderstyle.cpp:184
-#: printing/compactstyle.cpp:193 printing/mikesstyle.cpp:129
-#, fuzzy
-#| msgid "Setting up fonts and colors"
-msgid "Setting up document"
-msgstr "Shrift va ranglarni moslash"
-
-#: printing/detailledstyle.cpp:308 printing/ringbinderstyle.cpp:217
-#: printing/compactstyle.cpp:200 printing/mikesstyle.cpp:136
-msgid "Printing"
-msgstr "Bosib chiqarish"
-
-#: printing/detailledstyle.cpp:312 printing/ringbinderstyle.cpp:221
-#: printing/compactstyle.cpp:204 printing/mikesstyle.cpp:140
-#, fuzzy
-#| msgid "Done"
-msgctxt "Finished printing"
-msgid "Done"
-msgstr "Tayyor"
-
-#: printing/detailledstyle.cpp:327
-msgid "Detailed Style"
-msgstr "Batafsil usul"
-
-#: printing/printprogress.cpp:41
-msgid "Printing: Progress"
-msgstr "Bosib chiqarilmoqda"
-
-#: printing/printprogress.cpp:65
-msgid "Progress"
-msgstr "Jarayon"
-
-#: printing/ringbinderstyle.cpp:150
-msgid "Ring Binder Printing Style - Appearance"
+#: aboutdata.cpp:34
+msgid "Laurent Montel"
 msgstr ""
 
-#: printing/ringbinderstyle.cpp:168
+#: contactfields.cpp:29
 #, fuzzy
-#| msgid "Setting up fonts and colors"
-msgid "Setting up fields"
-msgstr "Shrift va ranglarni moslash"
+#| msgid "Undefined"
+msgctxt "@item Undefined import field type"
+msgid "Undefined"
+msgstr "Noaniq"
 
-#: printing/ringbinderstyle.cpp:236
-msgid "Printout for Ring Binders"
+#: contactfields.cpp:56
+msgid "Anniversary"
+msgstr "Yillik"
+
+#: contactfields.cpp:125
+#, fuzzy
+#| msgid "Use Preferred"
+msgctxt "Preferred email address"
+msgid "EMail (preferred)"
+msgstr "Eng afzaldan foydalanish"
+
+#: contactfields.cpp:128
+#, fuzzy
+#| msgid "Email"
+msgctxt "Second email address"
+msgid "EMail (2)"
+msgstr "Elektron pochta"
+
+#: contactfields.cpp:131
+#, fuzzy
+#| msgid "Email"
+msgctxt "Third email address"
+msgid "EMail (3)"
+msgstr "Elektron pochta"
+
+#: contactfields.cpp:134
+#, fuzzy
+#| msgid "Email"
+msgctxt "Fourth email address"
+msgid "EMail (4)"
+msgstr "Elektron pochta"
+
+#: contactfields.cpp:155
+msgid "Blog Feed"
 msgstr ""
 
-#: printing/stylepage.cpp:53
-#, fuzzy
-#| msgid "Ascending"
-msgctxt "@item:inlistbox Ascending sort order"
-msgid "Ascending"
-msgstr "Koʻpayish"
+#: contactfields.cpp:158
+msgid "Profession"
+msgstr "Kasb"
 
-#: printing/stylepage.cpp:54
-#, fuzzy
-#| msgid "Descending"
-msgctxt "@item:inlistbox Descending sort order"
-msgid "Descending"
-msgstr "Kamayish"
+#: contactfields.cpp:161
+msgid "Office"
+msgstr "Idora"
 
-#: printing/stylepage.cpp:66
-msgctxt "@label"
-msgid "(No preview available.)"
+#: contactfields.cpp:164
+#, fuzzy
+#| msgid "Myanmar"
+msgid "Manager"
+msgstr "Myanmar"
+
+#: contactfields.cpp:167
+#, fuzzy
+#| msgid "Assistant's Name"
+msgid "Assistant"
+msgstr "Yordamchisining ismi"
+
+#: contactfields.cpp:170
+msgid "Spouse"
 msgstr ""
 
-#: printing/stylepage.cpp:127
-#, fuzzy
-#| msgid "Choose Printing Style"
-msgctxt "@title:window"
-msgid "Choose Printing Style"
-msgstr "Bosib chiqarish uslubini tanlash"
-
-#: printing/stylepage.cpp:136
-msgctxt "@label:textbox"
-msgid ""
-"What should the print look like?\n"
-"KAddressBook has several printing styles, designed for different purposes.\n"
-"Choose the style that suits your needs below."
-msgstr ""
-
-#: printing/stylepage.cpp:141
-#, fuzzy
-#| msgid "Sorting"
-msgctxt "@title:group"
-msgid "Sorting"
-msgstr "Saralash"
-
-#: printing/stylepage.cpp:148
-#, fuzzy
-#| msgid "Organization"
-msgctxt "@label:listbox"
-msgid "Criterion:"
-msgstr "Tashkilot"
-
-#: printing/stylepage.cpp:153
-msgctxt "@info:tooltip"
-msgid "Select the primary sort field"
-msgstr ""
-
-#: printing/stylepage.cpp:156
-msgctxt "@info:whatsthis"
-msgid ""
-"From this list you can select the field on which your contacts are sorted in "
-"the print output.  Use the sorting order option to determine if the sort "
-"will be in ascending or descending order."
-msgstr ""
-
-#: printing/stylepage.cpp:161
-#, fuzzy
-#| msgid "Order:"
-msgctxt "@label:listbox"
-msgid "Order:"
-msgstr "Tartib:"
-
-#: printing/stylepage.cpp:166
-msgctxt "@info:tooltip"
-msgid "Select the sorting order"
-msgstr ""
-
-#: printing/stylepage.cpp:169
-msgctxt "@info:whatsthis"
-msgid ""
-"Choose if you want to sort your contacts in ascending or descending order. "
-"Use the sorting criterion option to specify on which contact field the "
-"sorting will be performed."
-msgstr ""
-
-#: printing/stylepage.cpp:176
-#, fuzzy
-#| msgid "Print Style"
-msgctxt "@title:group"
-msgid "Print Style"
-msgstr "Bosib chiqarish uslubi"
-
-#: printing/stylepage.cpp:184
-#, fuzzy
-#| msgid "New Distribution List"
-msgctxt "@info:tooltip"
-msgid "Select the print style"
-msgstr "Yangi tarqatish roʻyxati"
-
-#: printing/stylepage.cpp:187
-msgctxt "@info:whatsthis"
-msgid ""
-"Choose your desired printing style. See the preview image to help you decide."
-msgstr ""
-
-#: printing/printingwizard.cpp:56 mainwidget.cpp:570
-#, fuzzy
-#| msgid "Edit Contact"
-msgid "Print Contacts"
-msgstr "Aloqani tahrirlash"
-
-#: printing/printingwizard.cpp:60
-msgid "Which contacts do you want to print?"
-msgstr "Qaysi aloqalarni bosib chiqarishni istaysiz?"
-
-#: printing/printingwizard.cpp:63
-msgid "Choose Contacts to Print"
-msgstr "Bosib chiqarish uchun aloqalarni tanlash"
-
-#: printing/printingwizard.cpp:69
-msgid "Choose Printing Style"
-msgstr "Bosib chiqarish uslubini tanlash"
-
-#: printing/printingwizard.cpp:157
-msgid "Print Progress"
-msgstr "Bosib chiqarish jarayoni"
-
-#: printing/compactstyle.cpp:136
-#, fuzzy
-#| msgid "Company"
-msgid "Compact Style"
-msgstr "Tashkilot"
-
-#: printing/compactstyle.cpp:227
-#, fuzzy
-#| msgid "Choose Printing Style"
-msgid "Compact Printing Style"
-msgstr "Bosib chiqarish uslubini tanlash"
-
-#: printing/mikesstyle.cpp:155
-msgid "Mike's Printing Style"
-msgstr ""
-
-#: xxport/csv/csv_xxport.cpp:50 xxport/gmx/gmx_xxport.cpp:356
-#: xxport/ldif/ldif_xxport.cpp:120
-#, kde-format
-msgid "Do you want to overwrite file \"%1\""
-msgstr ""
-
-#: xxport/csv/csv_xxport.cpp:59 xxport/gmx/gmx_xxport.cpp:365
-#: xxport/ldif/ldif_xxport.cpp:105
-#, fuzzy, kde-format
-msgid "<qt>Unable to open file <b>%1</b></qt>"
-msgstr "<qt> <b>%1</b> faylini ochib boʻlmadi.</qt>"
-
-#: xxport/csv/csv_xxport.cpp:72 xxport/gmx/gmx_xxport.cpp:379
-#: xxport/ldif/ldif_xxport.cpp:128
-#, kde-format
-msgid "<qt>Unable to open file <b>%1</b>.</qt>"
-msgstr "<qt> <b>%1</b> faylini ochib boʻlmadi.</qt>"
-
-#: xxport/csv/templateselectiondialog.cpp:186
-#, fuzzy, kde-format
-#| msgid "<qt>Do you really want to remove the address book <b>%1</b>?</qt>"
-msgctxt "@label"
-msgid "Do you really want to delete template '%1'?"
-msgstr "<qt>Rostdan <b>%1</b> manzillar daftarini oʻchirishni istaysizmi?</qt>"
-
-#: xxport/csv/templateselectiondialog.cpp:204
-#, fuzzy
-#| msgid "Template Selection"
-msgctxt "@title:window"
-msgid "Template Selection"
-msgstr "Namunani tanlash"
-
-#: xxport/csv/templateselectiondialog.cpp:210
-msgctxt "@info"
-msgid "Please select a template, that matches the CSV file:"
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:179
-#, fuzzy
-#| msgid "CSV Import Dialog"
-msgctxt "@title:window"
-msgid "CSV Import Dialog"
-msgstr "CSV import oynasi"
-
-#: xxport/csv/csvimportdialog.cpp:229
-#, fuzzy
-#| msgid "Importing contacts"
-msgctxt "@label"
-msgid "Importing contacts"
-msgstr "Aloqalar import qilinmoqda"
-
-#: xxport/csv/csvimportdialog.cpp:286
-#, fuzzy
-#| msgid "File to import:"
-msgctxt "@label"
-msgid "File to import:"
-msgstr "Import qilish uchun fayl:"
-
-#: xxport/csv/csvimportdialog.cpp:293
-#, fuzzy
-#| msgid "Select vCard to Import"
-msgctxt "@info:tooltip"
-msgid "Select a csv file to import"
-msgstr "Import qilish uchun vCard tanlang"
-
-#: xxport/csv/csvimportdialog.cpp:296
-msgctxt "@info:whatsthis"
-msgid ""
-"Click this button to start a file chooser that will allow you to select a "
-"csv file to import."
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:303
-#, fuzzy
-#| msgid "Delimiter"
-msgctxt "@title:group"
-msgid "Delimiter"
-msgstr "Ajratuvchi"
-
-#: xxport/csv/csvimportdialog.cpp:314
-#, fuzzy
-#| msgid "Comma"
-msgctxt "@option:radio Field separator"
-msgid "Comma"
-msgstr "Vergul"
-
-#: xxport/csv/csvimportdialog.cpp:316
-#, fuzzy
-#| msgid "Select the field you want to remove:"
-msgctxt "@info:tooltip"
-msgid "Set the field separator to a comma"
-msgstr "Olib tashlash uchun maydonni tanlash:"
-
-#: xxport/csv/csvimportdialog.cpp:319
-msgctxt "@info:whatsthis"
-msgid ""
-"Select this option if your csv file uses the comma as a field separator."
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:324
-#, fuzzy
-#| msgid "Semicolon"
-msgctxt "@option:radio Field separator"
-msgid "Semicolon"
-msgstr "Nuqta vergul"
-
-#: xxport/csv/csvimportdialog.cpp:326
-#, fuzzy
-#| msgid "Select the field you want to remove:"
-msgctxt "@info:tooltip"
-msgid "Set the field separator to a semicolon"
-msgstr "Olib tashlash uchun maydonni tanlash:"
-
-#: xxport/csv/csvimportdialog.cpp:329
-msgctxt "@info:whatsthis"
-msgid ""
-"Select this option if your csv file uses the semicolon as a field separator."
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:333
-#, fuzzy
-#| msgid "Tabulator"
-msgctxt "@option:radio Field separator"
-msgid "Tabulator"
-msgstr "Tab"
-
-#: xxport/csv/csvimportdialog.cpp:335
-msgctxt "@info:tooltip"
-msgid "Set the field separator to a tab character"
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:338
-msgctxt "@info:whatsthis"
-msgid ""
-"Select this option if your csv file uses the tab character as a field "
-"separator."
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:342
-#, fuzzy
-#| msgid "Space"
-msgctxt "@option:radio Field separator"
-msgid "Space"
-msgstr "Boʻsh joy"
-
-#: xxport/csv/csvimportdialog.cpp:344
-msgctxt "@info:tooltip"
-msgid "Set the field separator to a space character"
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:347
-msgctxt "@info:whatsthis"
-msgid ""
-"Select this option if your csv file uses the space character as a field "
-"separator."
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:351
-#, fuzzy
-#| msgid "Other"
-msgctxt "@option:radio Custum field separator"
-msgid "Other"
-msgstr "Boshqa"
-
-#: xxport/csv/csvimportdialog.cpp:353
-msgctxt "@info:tooltip"
-msgid "Set the field separator to a custom character"
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:356
-msgctxt "@info:whatsthis"
-msgid ""
-"Select this option if to use some other character as the field delimiter for "
-"the data in your csv file."
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:364
-msgctxt "@info:tooltip"
-msgid "Set the custom delimiter character"
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:367
-msgctxt "@info:whatsthis"
-msgid ""
-"Enter a custom character to use as the delimiter character. If you enter "
-"more than 1 character, only the first will be used and the remaining "
-"characters will be ignored."
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:373
-#, fuzzy
-#| msgid "&Text font:"
-msgctxt "@label:listbox"
-msgid "Text quote:"
-msgstr "&Matnning shrifti:"
-
-#: xxport/csv/csvimportdialog.cpp:378
+#: contactselectiondialog.cpp:29
 #, fuzzy
 #| msgid "&Selected contacts"
-msgctxt "@info:tooltip"
-msgid "Select the quote character"
+msgid "Select Contacts"
 msgstr "&Tanlangan aloqalar"
 
-#: xxport/csv/csvimportdialog.cpp:381
-msgctxt "@info:whatsthis"
-msgid ""
-"Choose the character that your csv data uses to \"quote\" the field "
-"delimiter if that character happens to occur within the data.  For example, "
-"if the comma is the field delimiter, then any comma occurring with the data "
-"will be \"quoted\" by the character specified here."
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:386
+#: contactselectionwidget.cpp:99
 #, fuzzy
-#| msgid "\""
-msgctxt "@item:inlistbox Qoute character option"
-msgid "\""
-msgstr "\""
+#| msgid "&All contacts"
+msgctxt "@option:radio"
+msgid "All contacts"
+msgstr "&Hamma aloqalar"
 
-#: xxport/csv/csvimportdialog.cpp:387
+#: contactselectionwidget.cpp:101
 #, fuzzy
-#| msgid "'"
-msgctxt "@item:inlistbox Quote character option"
-msgid "'"
-msgstr "'"
-
-#: xxport/csv/csvimportdialog.cpp:388
-#, fuzzy
-#| msgid "None"
-msgctxt "@item:inlistbox Quote character option"
-msgid "None"
-msgstr "Yoʻq"
-
-#: xxport/csv/csvimportdialog.cpp:392
-#, fuzzy
-#| msgid "Date format:"
-msgctxt "@label:listbox"
-msgid "Date format:"
-msgstr "Sanani koʻrinishi:"
-
-#: xxport/csv/csvimportdialog.cpp:399
 msgctxt "@info:tooltip"
-msgid ""
-"<para><list><item>y: year with 2 digits</item><item>Y: year with 4 digits</"
-"item><item>m: month with 1 or 2 digits</item><item>M: month with 2 digits</"
-"item><item>d: day with 1 or 2 digits</item><item>D: day with 2 digits</"
-"item><item>H: hours with 2 digits</item><item>I: minutes with 2 digits</"
-"item><item>S: seconds with 2 digits</item></list></para>"
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:411
-msgctxt "@info:whatsthis"
-msgid ""
-"<para>Specify a format to use for dates included in your csv data. Use the "
-"following sequences to help you define the format:</"
-"para><para><list><item>y: year with 2 digits</item><item>Y: year with 4 "
-"digits</item><item>m: month with 1 or 2 digits</item><item>M: month with 2 "
-"digits</item><item>d: day with 1 or 2 digits</item><item>D: day with 2 "
-"digits</item><item>H: hours with 2 digits</item><item>I: minutes with 2 "
-"digits</item><item>S: seconds with 2 digits</item></list></"
-"para><para>Example: \"Y-M-D\" corresponds to a date like \"2012-01-04\"</"
-"para>"
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:427
-#, fuzzy
-#| msgid "&Text font:"
-msgctxt "@label:listbox"
-msgid "Text codec:"
-msgstr "&Matnning shrifti:"
-
-#: xxport/csv/csvimportdialog.cpp:432
-#, fuzzy
-#| msgid "%1 address book"
-msgctxt "@info:tooltip"
-msgid "Select the text codec"
+msgid "All contacts from all your address books"
 msgstr "%1 manzillar daftari"
 
-#: xxport/csv/csvimportdialog.cpp:435
-msgctxt "@info:whatsthis"
-msgid "Choose the character encoding of the data in your csv file."
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:439
-msgctxt "@option:check"
-msgid "Skip first row of file"
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:441
-msgctxt "@info:tooltip"
-msgid "Skip first row of csv file when importing"
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:444
+#: contactselectionwidget.cpp:104
+#, fuzzy
+#| msgid "Please select type of the new address book:"
 msgctxt "@info:whatsthis"
 msgid ""
-"Check this box if you want the import to skip over the first row of the csv "
-"data. In many cases, the first line of a csv file will be a comment line "
-"describing the order of the data fields included in the file."
+"Choose this option you want to select all your contacts from all your "
+"address books."
+msgstr "Manzillar daftarining turini tanlang:"
+
+#: contactselectionwidget.cpp:107
+#, fuzzy
+#| msgid "&Selected contacts"
+msgctxt "@option:radio"
+msgid "Selected contacts"
+msgstr "&Tanlangan aloqalar"
+
+#: contactselectionwidget.cpp:109
+#, fuzzy
+#| msgid "&All contacts"
+msgctxt "@info:tooltip"
+msgid "Only the contacts currently selected"
+msgstr "&Hamma aloqalar"
+
+#: contactselectionwidget.cpp:112
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose this option if you want only the contacts you have already selected "
+"in the graphical interface."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:459
+#: contactselectionwidget.cpp:115
 #, fuzzy
-#| msgid "Apply Template..."
-msgctxt "@action:button"
-msgid "Apply Template..."
-msgstr "Namunani qoʻllash"
+#| msgid "&All contacts"
+msgctxt "@option:radio"
+msgid "All contacts from:"
+msgstr "&Hamma aloqalar"
 
-#: xxport/csv/csvimportdialog.cpp:460
+#: contactselectionwidget.cpp:117
 #, fuzzy
-#| msgid "Save Template..."
-msgctxt "@action:button"
-msgid "Save Template..."
-msgstr "Namunani saqlash"
+msgctxt "@info:tooltip"
+msgid "All contacts from a chosen address book"
+msgstr "%1 manzillar daftari"
 
-#: xxport/csv/csvimportdialog.cpp:479
+#: contactselectionwidget.cpp:120
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose this option if you want to select all the contacts from only one of "
+"your address books.  Once this option is clicked you will be provided a drop "
+"down box listing all those address books and permitted to select the one you "
+"want."
+msgstr ""
+
+#: contactselectionwidget.cpp:128
+msgctxt "@option:check"
+msgid "Include Subfolders"
+msgstr ""
+
+#: contactselectionwidget.cpp:130
+msgctxt "@info:tooltip"
+msgid "Select all subfolders including the top-level folder"
+msgstr ""
+
+#: contactselectionwidget.cpp:133
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to select all contacts from this folder, "
+"including all subfolders.  If you only want the contacts from the top-level "
+"folder then leave this box unchecked."
+msgstr ""
+
+#: contactswitcher.cpp:34
+msgctxt "@action:button Previous contact"
+msgid "Previous"
+msgstr ""
+
+#: contactswitcher.cpp:36
+msgctxt "@info:tooltip"
+msgid "Move to the previous contact in the list"
+msgstr ""
+
+#: contactswitcher.cpp:39
+msgctxt "@info:whatsthis"
+msgid "Press this button to move to the previous contact in the list."
+msgstr ""
+
+#: contactswitcher.cpp:41
+#, fuzzy
+#| msgid "Text"
+msgctxt "@action:button Next contact"
+msgid "Next"
+msgstr "Matn"
+
+#: contactswitcher.cpp:43
+msgctxt "@info:tooltip"
+msgid "Move to the next contact in the list"
+msgstr ""
+
+#: contactswitcher.cpp:46
+msgctxt "@info:whatsthis"
+msgid "Press this button to move to the next contact in the list."
+msgstr ""
+
+#: contactswitcher.cpp:129
 #, kde-format
-msgctxt "@item:inlistbox Codec setting"
-msgid "Local (%1)"
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:481
-#, fuzzy
-#| msgid "Latin1"
-msgctxt "@item:inlistbox Codec setting"
-msgid "Latin1"
-msgstr "Latin1"
-
-#: xxport/csv/csvimportdialog.cpp:482
-#, fuzzy
-#| msgid "Unicode"
-msgctxt "@item:inlistbox Codec setting"
-msgid "Unicode"
-msgstr "Yunikod"
-
-#: xxport/csv/csvimportdialog.cpp:483
-#, fuzzy
-#| msgid "Microsoft Unicode"
-msgctxt "@item:inlistbox Codec setting"
-msgid "Microsoft Unicode"
-msgstr "Microsoft yunikod"
-
-#: xxport/csv/csvimportdialog.cpp:579
 msgctxt "@info:status"
-msgid "You must assign at least one column."
+msgid "%1 out of %2"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:598
-msgctxt "@label"
-msgid "There are no templates available yet."
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:599
-msgctxt "@title:window"
-msgid "No templates available"
-msgstr ""
-
-#: xxport/csv/csvimportdialog.cpp:665
+#: grantleecontactformatter.cpp:341
 #, fuzzy
-#| msgid "Template Name"
-msgctxt "@title:window"
-msgid "Template Name"
-msgstr "Namunaning nomi"
+#| msgid "Types"
+msgctxt "Boolean value"
+msgid "yes"
+msgstr "Turlari"
 
-#: xxport/csv/csvimportdialog.cpp:666
-#, fuzzy
-#| msgid "Please enter a name for the template:"
-msgctxt "@info"
-msgid "Please enter a name for the template:"
-msgstr "Iltimos namunaning nomi kiriting:"
-
-#: xxport/csv/csvimportdialog.cpp:712
-#, fuzzy
-#| msgid "Cannot open input file."
-msgctxt "@info:status"
-msgid "Cannot open input file."
-msgstr "Kiritish faylini ochib boʻlmadi."
-
-#: xxport/gmx/gmx_xxport.cpp:96
-#, fuzzy
-msgid "GMX address book file (*.gmxa)"
-msgstr "%1 manzillar daftari"
-
-#: xxport/gmx/gmx_xxport.cpp:137 xxport/ldif/ldif_xxport.cpp:77
-#, kde-format
-msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
-msgstr ""
-
-#: xxport/gmx/gmx_xxport.cpp:152
-#, fuzzy, kde-format
-msgid "%1 is not a GMX address book file."
-msgstr "%1 manzillar daftari"
-
-#: xxport/vcard/vcard_xxport.cpp:135
-msgctxt "@info"
-msgid ""
-"You have selected a list of contacts, shall they be exported to several "
-"files?"
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:138
-#, fuzzy
-#| msgid "Export to Several Files"
-msgctxt "@action:button"
-msgid "Export to Several Files"
-msgstr "Bir necha faylga eksport qilish"
-
-#: xxport/vcard/vcard_xxport.cpp:139
-#, fuzzy
-#| msgid "Export to One File"
-msgctxt "@action:button"
-msgid "Export to One File"
-msgstr "Bitta faylga eksport qilish"
-
-#: xxport/vcard/vcard_xxport.cpp:203
-#, fuzzy
-#| msgid "Select vCard to Import"
-msgctxt "@title:window"
-msgid "Select vCard to Import"
-msgstr "Import qilish uchun vCard tanlang"
-
-#: xxport/vcard/vcard_xxport.cpp:210
-#, fuzzy
-#| msgid "vCard Import Failed"
-msgctxt "@title:window"
-msgid "vCard Import Failed"
-msgstr "vCard import qilish muvaffaqiyatsiz tugadi"
-
-#: xxport/vcard/vcard_xxport.cpp:231
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>When trying to read the vCard, there was an error opening the file "
-#| "'%1': %2</qt>"
-msgctxt "@info"
-msgid ""
-"<para>When trying to read the vCard, there was an error opening the file "
-"<filename>%1</filename>:</para><para>%2</para>"
-msgstr ""
-"<qt>vCard'ni oʻqish mobaynida '%1 faylini ochishda xatolik roʻy berdi: %2</"
-"qt>"
-
-#: xxport/vcard/vcard_xxport.cpp:242
-#, fuzzy, kde-format
-#| msgid "<qt>Unable to access vCard: %1</qt>"
-msgctxt "@info"
-msgid "<para>Unable to access vCard:</para><para>%1</para>"
-msgstr "<qt>vCard'ga murojaat etib boʻlmadi: %1</qt>"
-
-#: xxport/vcard/vcard_xxport.cpp:254
-#, fuzzy
-#| msgid "No contacts were imported, due to errors with the vCards."
-msgctxt "@info"
-msgid "No contacts were imported, due to errors with the vCards."
-msgstr "vCard xatoligi sababli hech qanday aloqa import qilinmadi."
-
-#: xxport/vcard/vcard_xxport.cpp:258
-#, fuzzy
-#| msgid "The vCard does not contain any contacts."
-msgctxt "@info"
-msgid "The vCard does not contain any contacts."
-msgstr "vCard tarkibida hech qanday aloqa mavjud emas."
-
-#: xxport/vcard/vcard_xxport.cpp:287
-#, fuzzy, kde-format
-#| msgid "<qt>Do you really want to remove the address book <b>%1</b>?</qt>"
-msgctxt "@info"
-msgid "Do you want to overwrite file \"%1\""
-msgstr "<qt>Rostdan <b>%1</b> manzillar daftarini oʻchirishni istaysizmi?</qt>"
-
-#: xxport/vcard/vcard_xxport.cpp:480
-#, fuzzy
-#| msgid "Import vCard"
-msgctxt "@title:window"
-msgid "Import vCard"
-msgstr "vCard import qilish"
-
-#: xxport/vcard/vcard_xxport.cpp:495
-#, fuzzy
-#| msgid "Do you want to import this contact in your address book?"
-msgctxt "@info"
-msgid "Do you want to import this contact into your address book?"
-msgstr "Ushbu aloqani manzillar daftariga import qilishni istaysizmi?"
-
-#: xxport/vcard/vcard_xxport.cpp:504
-#, fuzzy
-#| msgid "Import All..."
-msgctxt "@action:button"
-msgid "Import All..."
-msgstr "Hammasini import qilish"
-
-#: xxport/vcard/vcard_xxport.cpp:568
-#, fuzzy
-#| msgid "Select vCard Fields"
-msgctxt "@title:window"
-msgid "Select vCard Fields"
-msgstr "vCard maydonini tanlang"
-
-#: xxport/vcard/vcard_xxport.cpp:582
-#, fuzzy
-#| msgid "File to import:"
-msgctxt "@title:group"
-msgid "Fields to be exported"
-msgstr "Import qilish uchun fayl:"
-
-#: xxport/vcard/vcard_xxport.cpp:586
-#, fuzzy
-#| msgid "Private fields"
-msgctxt "@option:check"
-msgid "Private fields"
-msgstr "Shaxsiy maydonlar"
-
-#: xxport/vcard/vcard_xxport.cpp:588
-#, fuzzy
-#| msgid "Private fields"
-msgctxt "@info:tooltip"
-msgid "Export private fields"
-msgstr "Shaxsiy maydonlar"
-
-#: xxport/vcard/vcard_xxport.cpp:591
-msgctxt "@info:whatsthis"
-msgid ""
-"Check this box if you want to export the contact's private fields to the "
-"vCard output file."
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:595
-#, fuzzy
-#| msgid "Business fields"
-msgctxt "@option:check"
-msgid "Business fields"
-msgstr "Ish maydonlari"
-
-#: xxport/vcard/vcard_xxport.cpp:597
-#, fuzzy
-#| msgid "Business fields"
-msgctxt "@info:tooltip"
-msgid "Export business fields"
-msgstr "Ish maydonlari"
-
-#: xxport/vcard/vcard_xxport.cpp:600
-msgctxt "@info:whatsthis"
-msgid ""
-"Check this box if you want to export the contact's business fields to the "
-"vCard output file."
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:604
-#, fuzzy
-#| msgid "Other fields"
-msgctxt "@option:check"
-msgid "Other fields"
-msgstr "Boshqa maydonlar"
-
-#: xxport/vcard/vcard_xxport.cpp:606
-#, fuzzy
-#| msgid "Other fields"
-msgctxt "@info:tooltip"
-msgid "Export other fields"
-msgstr "Boshqa maydonlar"
-
-#: xxport/vcard/vcard_xxport.cpp:609
-msgctxt "@info:whatsthis"
-msgid ""
-"Check this box if you want to export the contact's other fields to the vCard "
-"output file."
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:613
-msgctxt "@option:check"
-msgid "Encryption keys"
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:615
-#, fuzzy
-#| msgid "Export to One File"
-msgctxt "@info:tooltip"
-msgid "Export encryption keys"
-msgstr "Bitta faylga eksport qilish"
-
-#: xxport/vcard/vcard_xxport.cpp:618
-msgctxt "@info:whatsthis"
-msgid ""
-"Check this box if you want to export the contact's encryption keys to the "
-"vCard output file."
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:622
-#, fuzzy
-#| msgid "Picture"
-msgctxt "@option:check"
-msgid "Pictures"
-msgstr "Rasm"
-
-#: xxport/vcard/vcard_xxport.cpp:624
-#, fuzzy
-#| msgid "Picture"
-msgctxt "@info:tooltip"
-msgid "Export pictures"
-msgstr "Rasm"
-
-#: xxport/vcard/vcard_xxport.cpp:627
-msgctxt "@info:whatsthis"
-msgid ""
-"Check this box if you want to export the contact's picture to the vCard "
-"output file."
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:632
-#, fuzzy
-#| msgid "Export to One File"
-msgctxt "@title:group"
-msgid "Export options"
-msgstr "Bitta faylga eksport qilish"
-
-#: xxport/vcard/vcard_xxport.cpp:636
-msgctxt "@option:check"
-msgid "Display name as full name"
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:638
-msgctxt "@info:tooltip"
-msgid "Export display name as full name"
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:641
-msgctxt "@info:whatsthis"
-msgid ""
-"Check this box if you want to export the contact's display name in the "
-"vCard's full name field.  This may be required to get the name shown "
-"correctly in GMail or Android."
+#: grantleecontactformatter.cpp:343
+msgctxt "Boolean value"
+msgid "no"
 msgstr ""
 
 #: kaddressbookpart.cpp:62
@@ -1075,6 +424,331 @@ msgstr "%1 manzillar daftari"
 #: mainwidget.cpp:564
 msgid "Address Book"
 msgstr "Manzillar daftari"
+
+#: mainwidget.cpp:570 printing/printingwizard.cpp:56
+#, fuzzy
+#| msgid "Edit Contact"
+msgid "Print Contacts"
+msgstr "Aloqani tahrirlash"
+
+#: mainwindow.cpp:62
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can configure the application-"
+"wide shortcuts."
+msgstr ""
+
+#: modelcolumnmanager.cpp:78
+msgid "Full Name"
+msgstr "Toʻliq ismi"
+
+#: modelcolumnmanager.cpp:84
+#, fuzzy
+#| msgid "Family names:"
+msgid "Family Name"
+msgstr "Otasini ismi:"
+
+#: modelcolumnmanager.cpp:89
+#, fuzzy
+#| msgid "Given name:"
+msgid "Given Name"
+msgstr "Ismi:"
+
+#: modelcolumnmanager.cpp:99 printing/detailledstyle.cpp:159
+msgid "Home Address"
+msgstr "Uy manzilgoh"
+
+#: modelcolumnmanager.cpp:104
+#, fuzzy
+#| msgid "Business fields"
+msgid "Business Address"
+msgstr "Ish maydonlari"
+
+#: modelcolumnmanager.cpp:109
+#, fuzzy
+msgid "Phone Numbers"
+msgstr "Telefon raqamni tahrirlash"
+
+#: modelcolumnmanager.cpp:114
+#, fuzzy
+#| msgid "Preferred address"
+msgid "Preferred EMail"
+msgstr "Eng afzal manzilgoh"
+
+#: modelcolumnmanager.cpp:119
+#, fuzzy
+#| msgid "Email"
+msgid "All EMails"
+msgstr "Elektron pochta"
+
+#: printing/compactstyle.cpp:136
+#, fuzzy
+#| msgid "Company"
+msgid "Compact Style"
+msgstr "Tashkilot"
+
+#: printing/compactstyle.cpp:193 printing/detailledstyle.cpp:301
+#: printing/mikesstyle.cpp:129 printing/ringbinderstyle.cpp:184
+#, fuzzy
+#| msgid "Setting up fonts and colors"
+msgid "Setting up document"
+msgstr "Shrift va ranglarni moslash"
+
+#: printing/compactstyle.cpp:200 printing/detailledstyle.cpp:308
+#: printing/mikesstyle.cpp:136 printing/ringbinderstyle.cpp:217
+msgid "Printing"
+msgstr "Bosib chiqarish"
+
+#: printing/compactstyle.cpp:204 printing/detailledstyle.cpp:312
+#: printing/mikesstyle.cpp:140 printing/ringbinderstyle.cpp:221
+#, fuzzy
+#| msgid "Done"
+msgctxt "Finished printing"
+msgid "Done"
+msgstr "Tayyor"
+
+#: printing/compactstyle.cpp:227
+#, fuzzy
+#| msgid "Choose Printing Style"
+msgid "Compact Printing Style"
+msgstr "Bosib chiqarish uslubini tanlash"
+
+#: printing/detailledstyle.cpp:99
+#, fuzzy
+#| msgid "Organization"
+msgid "Organization:"
+msgstr "Tashkilot"
+
+#: printing/detailledstyle.cpp:108
+msgid "Email address:"
+msgstr "Elektron pochta:"
+
+#: printing/detailledstyle.cpp:109
+msgid "Email addresses:"
+msgstr "Elektron pochtalar:"
+
+#: printing/detailledstyle.cpp:120
+msgid "Telephone:"
+msgstr "Telefon:"
+
+#: printing/detailledstyle.cpp:121
+msgid "Telephones:"
+msgstr "Telefonlar:"
+
+#: printing/detailledstyle.cpp:133
+msgid "Web page:"
+msgstr "Veb-sahifa:"
+
+#: printing/detailledstyle.cpp:147
+msgid "Domestic Address"
+msgstr "Mahalliy manzilgoh"
+
+#: printing/detailledstyle.cpp:150
+msgid "International Address"
+msgstr "Xalqaro manzilgoh"
+
+#: printing/detailledstyle.cpp:153
+msgid "Postal Address"
+msgstr "Manzilgoh"
+
+#: printing/detailledstyle.cpp:156
+msgid "Parcel Address"
+msgstr ""
+
+#: printing/detailledstyle.cpp:162
+msgid "Work Address"
+msgstr "Ish manzilgoh"
+
+#: printing/detailledstyle.cpp:166
+msgid "Preferred Address"
+msgstr "Eng afzal manzilgoh"
+
+#: printing/detailledstyle.cpp:177
+#, fuzzy
+#| msgid "Note:"
+msgid "Notes:"
+msgstr "Izoh:"
+
+#. i18n: file: printing/ds_appearance.ui:49
+#. i18n: ectx: property (text), widget (QLabel, labelHeader)
+#: printing/detailledstyle.cpp:264 rc.cpp:8
+msgid "Detailed Print Style - Appearance"
+msgstr ""
+
+#: printing/detailledstyle.cpp:284
+#, fuzzy
+#| msgid "Setting up fonts and colors"
+msgid "Setting up colors"
+msgstr "Shrift va ranglarni moslash"
+
+#: printing/detailledstyle.cpp:327
+msgid "Detailed Style"
+msgstr "Batafsil usul"
+
+#: printing/mikesstyle.cpp:155
+msgid "Mike's Printing Style"
+msgstr ""
+
+#: printing/printingwizard.cpp:60
+msgid "Which contacts do you want to print?"
+msgstr "Qaysi aloqalarni bosib chiqarishni istaysiz?"
+
+#: printing/printingwizard.cpp:63
+msgid "Choose Contacts to Print"
+msgstr "Bosib chiqarish uchun aloqalarni tanlash"
+
+#: printing/printingwizard.cpp:69
+msgid "Choose Printing Style"
+msgstr "Bosib chiqarish uslubini tanlash"
+
+#: printing/printingwizard.cpp:157
+msgid "Print Progress"
+msgstr "Bosib chiqarish jarayoni"
+
+#: printing/printprogress.cpp:41
+msgid "Printing: Progress"
+msgstr "Bosib chiqarilmoqda"
+
+#: printing/printprogress.cpp:65
+msgid "Progress"
+msgstr "Jarayon"
+
+#: printing/ringbinderstyle.cpp:150
+msgid "Ring Binder Printing Style - Appearance"
+msgstr ""
+
+#: printing/ringbinderstyle.cpp:168
+#, fuzzy
+#| msgid "Setting up fonts and colors"
+msgid "Setting up fields"
+msgstr "Shrift va ranglarni moslash"
+
+#: printing/ringbinderstyle.cpp:236
+msgid "Printout for Ring Binders"
+msgstr ""
+
+#: printing/stylepage.cpp:53
+#, fuzzy
+#| msgid "Ascending"
+msgctxt "@item:inlistbox Ascending sort order"
+msgid "Ascending"
+msgstr "Koʻpayish"
+
+#: printing/stylepage.cpp:54
+#, fuzzy
+#| msgid "Descending"
+msgctxt "@item:inlistbox Descending sort order"
+msgid "Descending"
+msgstr "Kamayish"
+
+#: printing/stylepage.cpp:66
+msgctxt "@label"
+msgid "(No preview available.)"
+msgstr ""
+
+#: printing/stylepage.cpp:127
+#, fuzzy
+#| msgid "Choose Printing Style"
+msgctxt "@title:window"
+msgid "Choose Printing Style"
+msgstr "Bosib chiqarish uslubini tanlash"
+
+#: printing/stylepage.cpp:136
+msgctxt "@label:textbox"
+msgid ""
+"What should the print look like?\n"
+"KAddressBook has several printing styles, designed for different purposes.\n"
+"Choose the style that suits your needs below."
+msgstr ""
+
+#: printing/stylepage.cpp:141
+#, fuzzy
+#| msgid "Sorting"
+msgctxt "@title:group"
+msgid "Sorting"
+msgstr "Saralash"
+
+#: printing/stylepage.cpp:148
+#, fuzzy
+#| msgid "Organization"
+msgctxt "@label:listbox"
+msgid "Criterion:"
+msgstr "Tashkilot"
+
+#: printing/stylepage.cpp:153
+msgctxt "@info:tooltip"
+msgid "Select the primary sort field"
+msgstr ""
+
+#: printing/stylepage.cpp:156
+msgctxt "@info:whatsthis"
+msgid ""
+"From this list you can select the field on which your contacts are sorted in "
+"the print output.  Use the sorting order option to determine if the sort "
+"will be in ascending or descending order."
+msgstr ""
+
+#: printing/stylepage.cpp:161
+#, fuzzy
+#| msgid "Order:"
+msgctxt "@label:listbox"
+msgid "Order:"
+msgstr "Tartib:"
+
+#: printing/stylepage.cpp:166
+msgctxt "@info:tooltip"
+msgid "Select the sorting order"
+msgstr ""
+
+#: printing/stylepage.cpp:169
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose if you want to sort your contacts in ascending or descending order. "
+"Use the sorting criterion option to specify on which contact field the "
+"sorting will be performed."
+msgstr ""
+
+#: printing/stylepage.cpp:176
+#, fuzzy
+#| msgid "Print Style"
+msgctxt "@title:group"
+msgid "Print Style"
+msgstr "Bosib chiqarish uslubi"
+
+#: printing/stylepage.cpp:184
+#, fuzzy
+#| msgid "New Distribution List"
+msgctxt "@info:tooltip"
+msgid "Select the print style"
+msgstr "Yangi tarqatish roʻyxati"
+
+#: printing/stylepage.cpp:187
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose your desired printing style. See the preview image to help you decide."
+msgstr ""
+
+#: quicksearchwidget.cpp:38
+#, fuzzy
+#| msgid "Search:"
+msgctxt "@label Search contacts in list"
+msgid "Search"
+msgstr "Qidirish:"
+
+#: quicksearchwidget.cpp:41
+#, fuzzy
+#| msgid "&Selected contacts"
+msgctxt "@info:tooltip"
+msgid "Search contacts in list"
+msgstr "&Tanlangan aloqalar"
+
+#: quicksearchwidget.cpp:44
+msgctxt "@info:whatsthis"
+msgid ""
+"Start typing a search string in this box and the list of contacts matching "
+"that string will be displayed.  This is a quick way of searching for "
+"contacts of interest."
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -1450,303 +1124,636 @@ msgstr "Shrift moslamalari"
 msgid "Main Toolbar"
 msgstr "Aloqa asboblar paneli"
 
-#: aboutdata.cpp:28
-msgid "KAddressBook"
-msgstr "KAddressBook"
-
-#: aboutdata.cpp:29
-#, fuzzy
-#| msgid "The KDE Address Book"
-msgid "The KDE Address Book Application"
-msgstr "KDE manzillar daftari"
-
-#: aboutdata.cpp:31
-msgid "Copyright © 2007–2012 KAddressBook authors"
-msgstr ""
-
-#: aboutdata.cpp:33
-msgid "Tobias Koenig"
-msgstr ""
-
-#: aboutdata.cpp:33
-msgid "Current maintainer"
-msgstr "Joriy taʼminlovchi"
-
-#: aboutdata.cpp:34
-msgid "Laurent Montel"
-msgstr ""
-
-#: aboutdata.cpp:34
-#, fuzzy
-#| msgid "Contact pinning"
-msgid "Kontact integration"
-msgstr "Aloqani bosib chiqarish"
-
-#: contactfields.cpp:29
-#, fuzzy
-#| msgid "Undefined"
-msgctxt "@item Undefined import field type"
-msgid "Undefined"
-msgstr "Noaniq"
-
-#: contactfields.cpp:56
-msgid "Anniversary"
-msgstr "Yillik"
-
-#: contactfields.cpp:125
-#, fuzzy
-#| msgid "Use Preferred"
-msgctxt "Preferred email address"
-msgid "EMail (preferred)"
-msgstr "Eng afzaldan foydalanish"
-
-#: contactfields.cpp:128
-#, fuzzy
-#| msgid "Email"
-msgctxt "Second email address"
-msgid "EMail (2)"
-msgstr "Elektron pochta"
-
-#: contactfields.cpp:131
-#, fuzzy
-#| msgid "Email"
-msgctxt "Third email address"
-msgid "EMail (3)"
-msgstr "Elektron pochta"
-
-#: contactfields.cpp:134
-#, fuzzy
-#| msgid "Email"
-msgctxt "Fourth email address"
-msgid "EMail (4)"
-msgstr "Elektron pochta"
-
-#: contactfields.cpp:155
-msgid "Blog Feed"
-msgstr ""
-
-#: contactfields.cpp:158
-msgid "Profession"
-msgstr "Kasb"
-
-#: contactfields.cpp:161
-msgid "Office"
-msgstr "Idora"
-
-#: contactfields.cpp:164
-#, fuzzy
-#| msgid "Myanmar"
-msgid "Manager"
-msgstr "Myanmar"
-
-#: contactfields.cpp:167
-#, fuzzy
-#| msgid "Assistant's Name"
-msgid "Assistant"
-msgstr "Yordamchisining ismi"
-
-#: contactfields.cpp:170
-msgid "Spouse"
-msgstr ""
-
-#: contactselectiondialog.cpp:29
-#, fuzzy
-#| msgid "&Selected contacts"
-msgid "Select Contacts"
-msgstr "&Tanlangan aloqalar"
-
-#: contactselectionwidget.cpp:99
-#, fuzzy
-#| msgid "&All contacts"
-msgctxt "@option:radio"
-msgid "All contacts"
-msgstr "&Hamma aloqalar"
-
-#: contactselectionwidget.cpp:101
-#, fuzzy
-msgctxt "@info:tooltip"
-msgid "All contacts from all your address books"
-msgstr "%1 manzillar daftari"
-
-#: contactselectionwidget.cpp:104
-#, fuzzy
-#| msgid "Please select type of the new address book:"
-msgctxt "@info:whatsthis"
-msgid ""
-"Choose this option you want to select all your contacts from all your "
-"address books."
-msgstr "Manzillar daftarining turini tanlang:"
-
-#: contactselectionwidget.cpp:107
-#, fuzzy
-#| msgid "&Selected contacts"
-msgctxt "@option:radio"
-msgid "Selected contacts"
-msgstr "&Tanlangan aloqalar"
-
-#: contactselectionwidget.cpp:109
-#, fuzzy
-#| msgid "&All contacts"
-msgctxt "@info:tooltip"
-msgid "Only the contacts currently selected"
-msgstr "&Hamma aloqalar"
-
-#: contactselectionwidget.cpp:112
-msgctxt "@info:whatsthis"
-msgid ""
-"Choose this option if you want only the contacts you have already selected "
-"in the graphical interface."
-msgstr ""
-
-#: contactselectionwidget.cpp:115
-#, fuzzy
-#| msgid "&All contacts"
-msgctxt "@option:radio"
-msgid "All contacts from:"
-msgstr "&Hamma aloqalar"
-
-#: contactselectionwidget.cpp:117
-#, fuzzy
-msgctxt "@info:tooltip"
-msgid "All contacts from a chosen address book"
-msgstr "%1 manzillar daftari"
-
-#: contactselectionwidget.cpp:120
-msgctxt "@info:whatsthis"
-msgid ""
-"Choose this option if you want to select all the contacts from only one of "
-"your address books.  Once this option is clicked you will be provided a drop "
-"down box listing all those address books and permitted to select the one you "
-"want."
-msgstr ""
-
-#: contactselectionwidget.cpp:128
-msgctxt "@option:check"
-msgid "Include Subfolders"
-msgstr ""
-
-#: contactselectionwidget.cpp:130
-msgctxt "@info:tooltip"
-msgid "Select all subfolders including the top-level folder"
-msgstr ""
-
-#: contactselectionwidget.cpp:133
-msgctxt "@info:whatsthis"
-msgid ""
-"Check this box if you want to select all contacts from this folder, "
-"including all subfolders.  If you only want the contacts from the top-level "
-"folder then leave this box unchecked."
-msgstr ""
-
-#: contactswitcher.cpp:34
-msgctxt "@action:button Previous contact"
-msgid "Previous"
-msgstr ""
-
-#: contactswitcher.cpp:36
-msgctxt "@info:tooltip"
-msgid "Move to the previous contact in the list"
-msgstr ""
-
-#: contactswitcher.cpp:39
-msgctxt "@info:whatsthis"
-msgid "Press this button to move to the previous contact in the list."
-msgstr ""
-
-#: contactswitcher.cpp:41
-#, fuzzy
-#| msgid "Text"
-msgctxt "@action:button Next contact"
-msgid "Next"
-msgstr "Matn"
-
-#: contactswitcher.cpp:43
-msgctxt "@info:tooltip"
-msgid "Move to the next contact in the list"
-msgstr ""
-
-#: contactswitcher.cpp:46
-msgctxt "@info:whatsthis"
-msgid "Press this button to move to the next contact in the list."
-msgstr ""
-
-#: contactswitcher.cpp:129
+#: xxport/csv/csv_xxport.cpp:50 xxport/gmx/gmx_xxport.cpp:356
+#: xxport/ldif/ldif_xxport.cpp:120
 #, kde-format
+msgid "Do you want to overwrite file \"%1\""
+msgstr ""
+
+#: xxport/csv/csv_xxport.cpp:59 xxport/gmx/gmx_xxport.cpp:365
+#: xxport/ldif/ldif_xxport.cpp:105
+#, fuzzy, kde-format
+msgid "<qt>Unable to open file <b>%1</b></qt>"
+msgstr "<qt> <b>%1</b> faylini ochib boʻlmadi.</qt>"
+
+#: xxport/csv/csv_xxport.cpp:72 xxport/gmx/gmx_xxport.cpp:379
+#: xxport/ldif/ldif_xxport.cpp:128
+#, kde-format
+msgid "<qt>Unable to open file <b>%1</b>.</qt>"
+msgstr "<qt> <b>%1</b> faylini ochib boʻlmadi.</qt>"
+
+#: xxport/csv/csvimportdialog.cpp:179
+#, fuzzy
+#| msgid "CSV Import Dialog"
+msgctxt "@title:window"
+msgid "CSV Import Dialog"
+msgstr "CSV import oynasi"
+
+#: xxport/csv/csvimportdialog.cpp:229
+#, fuzzy
+#| msgid "Importing contacts"
+msgctxt "@label"
+msgid "Importing contacts"
+msgstr "Aloqalar import qilinmoqda"
+
+#: xxport/csv/csvimportdialog.cpp:286
+#, fuzzy
+#| msgid "File to import:"
+msgctxt "@label"
+msgid "File to import:"
+msgstr "Import qilish uchun fayl:"
+
+#: xxport/csv/csvimportdialog.cpp:293
+#, fuzzy
+#| msgid "Select vCard to Import"
+msgctxt "@info:tooltip"
+msgid "Select a csv file to import"
+msgstr "Import qilish uchun vCard tanlang"
+
+#: xxport/csv/csvimportdialog.cpp:296
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button to start a file chooser that will allow you to select a "
+"csv file to import."
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:303
+#, fuzzy
+#| msgid "Delimiter"
+msgctxt "@title:group"
+msgid "Delimiter"
+msgstr "Ajratuvchi"
+
+#: xxport/csv/csvimportdialog.cpp:314
+#, fuzzy
+#| msgid "Comma"
+msgctxt "@option:radio Field separator"
+msgid "Comma"
+msgstr "Vergul"
+
+#: xxport/csv/csvimportdialog.cpp:316
+#, fuzzy
+#| msgid "Select the field you want to remove:"
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a comma"
+msgstr "Olib tashlash uchun maydonni tanlash:"
+
+#: xxport/csv/csvimportdialog.cpp:319
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the comma as a field separator."
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:324
+#, fuzzy
+#| msgid "Semicolon"
+msgctxt "@option:radio Field separator"
+msgid "Semicolon"
+msgstr "Nuqta vergul"
+
+#: xxport/csv/csvimportdialog.cpp:326
+#, fuzzy
+#| msgid "Select the field you want to remove:"
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a semicolon"
+msgstr "Olib tashlash uchun maydonni tanlash:"
+
+#: xxport/csv/csvimportdialog.cpp:329
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the semicolon as a field separator."
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:333
+#, fuzzy
+#| msgid "Tabulator"
+msgctxt "@option:radio Field separator"
+msgid "Tabulator"
+msgstr "Tab"
+
+#: xxport/csv/csvimportdialog.cpp:335
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a tab character"
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:338
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the tab character as a field "
+"separator."
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:342
+#, fuzzy
+#| msgid "Space"
+msgctxt "@option:radio Field separator"
+msgid "Space"
+msgstr "Boʻsh joy"
+
+#: xxport/csv/csvimportdialog.cpp:344
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a space character"
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:347
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the space character as a field "
+"separator."
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:351
+#, fuzzy
+#| msgid "Other"
+msgctxt "@option:radio Custum field separator"
+msgid "Other"
+msgstr "Boshqa"
+
+#: xxport/csv/csvimportdialog.cpp:353
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a custom character"
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:356
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if to use some other character as the field delimiter for "
+"the data in your csv file."
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:364
+msgctxt "@info:tooltip"
+msgid "Set the custom delimiter character"
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:367
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter a custom character to use as the delimiter character. If you enter "
+"more than 1 character, only the first will be used and the remaining "
+"characters will be ignored."
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:373
+#, fuzzy
+#| msgid "&Text font:"
+msgctxt "@label:listbox"
+msgid "Text quote:"
+msgstr "&Matnning shrifti:"
+
+#: xxport/csv/csvimportdialog.cpp:378
+#, fuzzy
+#| msgid "&Selected contacts"
+msgctxt "@info:tooltip"
+msgid "Select the quote character"
+msgstr "&Tanlangan aloqalar"
+
+#: xxport/csv/csvimportdialog.cpp:381
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose the character that your csv data uses to \"quote\" the field "
+"delimiter if that character happens to occur within the data.  For example, "
+"if the comma is the field delimiter, then any comma occurring with the data "
+"will be \"quoted\" by the character specified here."
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:386
+#, fuzzy
+#| msgid "\""
+msgctxt "@item:inlistbox Qoute character option"
+msgid "\""
+msgstr "\""
+
+#: xxport/csv/csvimportdialog.cpp:387
+#, fuzzy
+#| msgid "'"
+msgctxt "@item:inlistbox Quote character option"
+msgid "'"
+msgstr "'"
+
+#: xxport/csv/csvimportdialog.cpp:388
+#, fuzzy
+#| msgid "None"
+msgctxt "@item:inlistbox Quote character option"
+msgid "None"
+msgstr "Yoʻq"
+
+#: xxport/csv/csvimportdialog.cpp:392
+#, fuzzy
+#| msgid "Date format:"
+msgctxt "@label:listbox"
+msgid "Date format:"
+msgstr "Sanani koʻrinishi:"
+
+#: xxport/csv/csvimportdialog.cpp:399
+msgctxt "@info:tooltip"
+msgid ""
+"<para><list><item>y: year with 2 digits</item><item>Y: year with 4 digits</"
+"item><item>m: month with 1 or 2 digits</item><item>M: month with 2 digits</"
+"item><item>d: day with 1 or 2 digits</item><item>D: day with 2 digits</"
+"item><item>H: hours with 2 digits</item><item>I: minutes with 2 digits</"
+"item><item>S: seconds with 2 digits</item></list></para>"
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:411
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Specify a format to use for dates included in your csv data. Use the "
+"following sequences to help you define the format:</"
+"para><para><list><item>y: year with 2 digits</item><item>Y: year with 4 "
+"digits</item><item>m: month with 1 or 2 digits</item><item>M: month with 2 "
+"digits</item><item>d: day with 1 or 2 digits</item><item>D: day with 2 "
+"digits</item><item>H: hours with 2 digits</item><item>I: minutes with 2 "
+"digits</item><item>S: seconds with 2 digits</item></list></"
+"para><para>Example: \"Y-M-D\" corresponds to a date like \"2012-01-04\"</"
+"para>"
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:427
+#, fuzzy
+#| msgid "&Text font:"
+msgctxt "@label:listbox"
+msgid "Text codec:"
+msgstr "&Matnning shrifti:"
+
+#: xxport/csv/csvimportdialog.cpp:432
+#, fuzzy
+#| msgid "%1 address book"
+msgctxt "@info:tooltip"
+msgid "Select the text codec"
+msgstr "%1 manzillar daftari"
+
+#: xxport/csv/csvimportdialog.cpp:435
+msgctxt "@info:whatsthis"
+msgid "Choose the character encoding of the data in your csv file."
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:439
+msgctxt "@option:check"
+msgid "Skip first row of file"
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:441
+msgctxt "@info:tooltip"
+msgid "Skip first row of csv file when importing"
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:444
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want the import to skip over the first row of the csv "
+"data. In many cases, the first line of a csv file will be a comment line "
+"describing the order of the data fields included in the file."
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:459
+#, fuzzy
+#| msgid "Apply Template..."
+msgctxt "@action:button"
+msgid "Apply Template..."
+msgstr "Namunani qoʻllash"
+
+#: xxport/csv/csvimportdialog.cpp:460
+#, fuzzy
+#| msgid "Save Template..."
+msgctxt "@action:button"
+msgid "Save Template..."
+msgstr "Namunani saqlash"
+
+#: xxport/csv/csvimportdialog.cpp:479
+#, kde-format
+msgctxt "@item:inlistbox Codec setting"
+msgid "Local (%1)"
+msgstr ""
+
+#: xxport/csv/csvimportdialog.cpp:481
+#, fuzzy
+#| msgid "Latin1"
+msgctxt "@item:inlistbox Codec setting"
+msgid "Latin1"
+msgstr "Latin1"
+
+#: xxport/csv/csvimportdialog.cpp:482
+#, fuzzy
+#| msgid "Unicode"
+msgctxt "@item:inlistbox Codec setting"
+msgid "Unicode"
+msgstr "Yunikod"
+
+#: xxport/csv/csvimportdialog.cpp:483
+#, fuzzy
+#| msgid "Microsoft Unicode"
+msgctxt "@item:inlistbox Codec setting"
+msgid "Microsoft Unicode"
+msgstr "Microsoft yunikod"
+
+#: xxport/csv/csvimportdialog.cpp:579
 msgctxt "@info:status"
-msgid "%1 out of %2"
+msgid "You must assign at least one column."
 msgstr ""
 
-#: grantleecontactformatter.cpp:341
-#, fuzzy
-#| msgid "Types"
-msgctxt "Boolean value"
-msgid "yes"
-msgstr "Turlari"
-
-#: grantleecontactformatter.cpp:343
-msgctxt "Boolean value"
-msgid "no"
+#: xxport/csv/csvimportdialog.cpp:598
+msgctxt "@label"
+msgid "There are no templates available yet."
 msgstr ""
 
-#: modelcolumnmanager.cpp:78
-msgid "Full Name"
-msgstr "Toʻliq ismi"
+#: xxport/csv/csvimportdialog.cpp:599
+msgctxt "@title:window"
+msgid "No templates available"
+msgstr ""
 
-#: modelcolumnmanager.cpp:84
+#: xxport/csv/csvimportdialog.cpp:665
 #, fuzzy
-#| msgid "Family names:"
-msgid "Family Name"
-msgstr "Otasini ismi:"
+#| msgid "Template Name"
+msgctxt "@title:window"
+msgid "Template Name"
+msgstr "Namunaning nomi"
 
-#: modelcolumnmanager.cpp:89
+#: xxport/csv/csvimportdialog.cpp:666
 #, fuzzy
-#| msgid "Given name:"
-msgid "Given Name"
-msgstr "Ismi:"
+#| msgid "Please enter a name for the template:"
+msgctxt "@info"
+msgid "Please enter a name for the template:"
+msgstr "Iltimos namunaning nomi kiriting:"
 
-#: modelcolumnmanager.cpp:104
+#: xxport/csv/csvimportdialog.cpp:712
+#, fuzzy
+#| msgid "Cannot open input file."
+msgctxt "@info:status"
+msgid "Cannot open input file."
+msgstr "Kiritish faylini ochib boʻlmadi."
+
+#: xxport/csv/templateselectiondialog.cpp:186
+#, fuzzy, kde-format
+#| msgid "<qt>Do you really want to remove the address book <b>%1</b>?</qt>"
+msgctxt "@label"
+msgid "Do you really want to delete template '%1'?"
+msgstr "<qt>Rostdan <b>%1</b> manzillar daftarini oʻchirishni istaysizmi?</qt>"
+
+#: xxport/csv/templateselectiondialog.cpp:204
+#, fuzzy
+#| msgid "Template Selection"
+msgctxt "@title:window"
+msgid "Template Selection"
+msgstr "Namunani tanlash"
+
+#: xxport/csv/templateselectiondialog.cpp:210
+msgctxt "@info"
+msgid "Please select a template, that matches the CSV file:"
+msgstr ""
+
+#: xxport/gmx/gmx_xxport.cpp:96
+#, fuzzy
+msgid "GMX address book file (*.gmxa)"
+msgstr "%1 manzillar daftari"
+
+#: xxport/gmx/gmx_xxport.cpp:137 xxport/ldif/ldif_xxport.cpp:77
+#, kde-format
+msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
+msgstr ""
+
+#: xxport/gmx/gmx_xxport.cpp:152
+#, fuzzy, kde-format
+msgid "%1 is not a GMX address book file."
+msgstr "%1 manzillar daftari"
+
+#: xxport/vcard/vcard_xxport.cpp:135
+msgctxt "@info"
+msgid ""
+"You have selected a list of contacts, shall they be exported to several "
+"files?"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:138
+#, fuzzy
+#| msgid "Export to Several Files"
+msgctxt "@action:button"
+msgid "Export to Several Files"
+msgstr "Bir necha faylga eksport qilish"
+
+#: xxport/vcard/vcard_xxport.cpp:139
+#, fuzzy
+#| msgid "Export to One File"
+msgctxt "@action:button"
+msgid "Export to One File"
+msgstr "Bitta faylga eksport qilish"
+
+#: xxport/vcard/vcard_xxport.cpp:203
+#, fuzzy
+#| msgid "Select vCard to Import"
+msgctxt "@title:window"
+msgid "Select vCard to Import"
+msgstr "Import qilish uchun vCard tanlang"
+
+#: xxport/vcard/vcard_xxport.cpp:210
+#, fuzzy
+#| msgid "vCard Import Failed"
+msgctxt "@title:window"
+msgid "vCard Import Failed"
+msgstr "vCard import qilish muvaffaqiyatsiz tugadi"
+
+#: xxport/vcard/vcard_xxport.cpp:231
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>When trying to read the vCard, there was an error opening the file "
+#| "'%1': %2</qt>"
+msgctxt "@info"
+msgid ""
+"<para>When trying to read the vCard, there was an error opening the file "
+"<filename>%1</filename>:</para><para>%2</para>"
+msgstr ""
+"<qt>vCard'ni oʻqish mobaynida '%1 faylini ochishda xatolik roʻy berdi: %2</"
+"qt>"
+
+#: xxport/vcard/vcard_xxport.cpp:242
+#, fuzzy, kde-format
+#| msgid "<qt>Unable to access vCard: %1</qt>"
+msgctxt "@info"
+msgid "<para>Unable to access vCard:</para><para>%1</para>"
+msgstr "<qt>vCard'ga murojaat etib boʻlmadi: %1</qt>"
+
+#: xxport/vcard/vcard_xxport.cpp:254
+#, fuzzy
+#| msgid "No contacts were imported, due to errors with the vCards."
+msgctxt "@info"
+msgid "No contacts were imported, due to errors with the vCards."
+msgstr "vCard xatoligi sababli hech qanday aloqa import qilinmadi."
+
+#: xxport/vcard/vcard_xxport.cpp:258
+#, fuzzy
+#| msgid "The vCard does not contain any contacts."
+msgctxt "@info"
+msgid "The vCard does not contain any contacts."
+msgstr "vCard tarkibida hech qanday aloqa mavjud emas."
+
+#: xxport/vcard/vcard_xxport.cpp:287
+#, fuzzy, kde-format
+#| msgid "<qt>Do you really want to remove the address book <b>%1</b>?</qt>"
+msgctxt "@info"
+msgid "Do you want to overwrite file \"%1\""
+msgstr "<qt>Rostdan <b>%1</b> manzillar daftarini oʻchirishni istaysizmi?</qt>"
+
+#: xxport/vcard/vcard_xxport.cpp:480
+#, fuzzy
+#| msgid "Import vCard"
+msgctxt "@title:window"
+msgid "Import vCard"
+msgstr "vCard import qilish"
+
+#: xxport/vcard/vcard_xxport.cpp:495
+#, fuzzy
+#| msgid "Do you want to import this contact in your address book?"
+msgctxt "@info"
+msgid "Do you want to import this contact into your address book?"
+msgstr "Ushbu aloqani manzillar daftariga import qilishni istaysizmi?"
+
+#: xxport/vcard/vcard_xxport.cpp:504
+#, fuzzy
+#| msgid "Import All..."
+msgctxt "@action:button"
+msgid "Import All..."
+msgstr "Hammasini import qilish"
+
+#: xxport/vcard/vcard_xxport.cpp:568
+#, fuzzy
+#| msgid "Select vCard Fields"
+msgctxt "@title:window"
+msgid "Select vCard Fields"
+msgstr "vCard maydonini tanlang"
+
+#: xxport/vcard/vcard_xxport.cpp:582
+#, fuzzy
+#| msgid "File to import:"
+msgctxt "@title:group"
+msgid "Fields to be exported"
+msgstr "Import qilish uchun fayl:"
+
+#: xxport/vcard/vcard_xxport.cpp:586
+#, fuzzy
+#| msgid "Private fields"
+msgctxt "@option:check"
+msgid "Private fields"
+msgstr "Shaxsiy maydonlar"
+
+#: xxport/vcard/vcard_xxport.cpp:588
+#, fuzzy
+#| msgid "Private fields"
+msgctxt "@info:tooltip"
+msgid "Export private fields"
+msgstr "Shaxsiy maydonlar"
+
+#: xxport/vcard/vcard_xxport.cpp:591
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's private fields to the "
+"vCard output file."
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:595
 #, fuzzy
 #| msgid "Business fields"
-msgid "Business Address"
+msgctxt "@option:check"
+msgid "Business fields"
 msgstr "Ish maydonlari"
 
-#: modelcolumnmanager.cpp:109
+#: xxport/vcard/vcard_xxport.cpp:597
 #, fuzzy
-msgid "Phone Numbers"
-msgstr "Telefon raqamni tahrirlash"
-
-#: modelcolumnmanager.cpp:114
-#, fuzzy
-#| msgid "Preferred address"
-msgid "Preferred EMail"
-msgstr "Eng afzal manzilgoh"
-
-#: modelcolumnmanager.cpp:119
-#, fuzzy
-#| msgid "Email"
-msgid "All EMails"
-msgstr "Elektron pochta"
-
-#: quicksearchwidget.cpp:38
-#, fuzzy
-#| msgid "Search:"
-msgctxt "@label Search contacts in list"
-msgid "Search"
-msgstr "Qidirish:"
-
-#: quicksearchwidget.cpp:41
-#, fuzzy
-#| msgid "&Selected contacts"
+#| msgid "Business fields"
 msgctxt "@info:tooltip"
-msgid "Search contacts in list"
-msgstr "&Tanlangan aloqalar"
+msgid "Export business fields"
+msgstr "Ish maydonlari"
 
-#: quicksearchwidget.cpp:44
+#: xxport/vcard/vcard_xxport.cpp:600
 msgctxt "@info:whatsthis"
 msgid ""
-"Start typing a search string in this box and the list of contacts matching "
-"that string will be displayed.  This is a quick way of searching for "
-"contacts of interest."
+"Check this box if you want to export the contact's business fields to the "
+"vCard output file."
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:604
+#, fuzzy
+#| msgid "Other fields"
+msgctxt "@option:check"
+msgid "Other fields"
+msgstr "Boshqa maydonlar"
+
+#: xxport/vcard/vcard_xxport.cpp:606
+#, fuzzy
+#| msgid "Other fields"
+msgctxt "@info:tooltip"
+msgid "Export other fields"
+msgstr "Boshqa maydonlar"
+
+#: xxport/vcard/vcard_xxport.cpp:609
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's other fields to the vCard "
+"output file."
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:613
+msgctxt "@option:check"
+msgid "Encryption keys"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:615
+#, fuzzy
+#| msgid "Export to One File"
+msgctxt "@info:tooltip"
+msgid "Export encryption keys"
+msgstr "Bitta faylga eksport qilish"
+
+#: xxport/vcard/vcard_xxport.cpp:618
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's encryption keys to the "
+"vCard output file."
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:622
+#, fuzzy
+#| msgid "Picture"
+msgctxt "@option:check"
+msgid "Pictures"
+msgstr "Rasm"
+
+#: xxport/vcard/vcard_xxport.cpp:624
+#, fuzzy
+#| msgid "Picture"
+msgctxt "@info:tooltip"
+msgid "Export pictures"
+msgstr "Rasm"
+
+#: xxport/vcard/vcard_xxport.cpp:627
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's picture to the vCard "
+"output file."
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:632
+#, fuzzy
+#| msgid "Export to One File"
+msgctxt "@title:group"
+msgid "Export options"
+msgstr "Bitta faylga eksport qilish"
+
+#: xxport/vcard/vcard_xxport.cpp:636
+msgctxt "@option:check"
+msgid "Display name as full name"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:638
+msgctxt "@info:tooltip"
+msgid "Export display name as full name"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:641
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's display name in the "
+"vCard's full name field.  This may be required to get the name shown "
+"correctly in GMail or Android."
 msgstr ""
 
 #: xxportmanager.cpp:99
@@ -1780,13 +1787,6 @@ msgstr "Qaysi aloqalarni eksport qilmoqchisiz?"
 
 #: xxportmanager.cpp:170
 msgid "You have not selected any contacts to export."
-msgstr ""
-
-#: mainwindow.cpp:62
-msgctxt "@info:whatsthis"
-msgid ""
-"You will be presented with a dialog where you can configure the application-"
-"wide shortcuts."
 msgstr ""
 
 #~ msgid "Select the fields which shall be exported in the vCard."

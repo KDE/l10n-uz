@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-12 02:48+0200\n"
+"POT-Creation-Date: 2012-08-18 03:02+0200\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -31,198 +31,146 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:167
+msgid "Target:"
+msgstr "Moʻljal:"
+
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:169
+msgid "Stroke"
+msgstr "Chizish"
+
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:170
+msgid "Fill"
+msgstr "Toʻldirish"
+
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:174
+msgid "Type:"
+msgstr "Turi:"
+
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:176
+#, fuzzy
+#| msgid "Linear"
+msgctxt "Linear gradient type"
+msgid "Linear"
+msgstr "Chiziqli"
+
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:177
+#, fuzzy
+#| msgid "Radial"
+msgctxt "Radial gradient type"
+msgid "Radial"
+msgstr "Radial"
+
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:178
+#, fuzzy
+#| msgid "Conical"
+msgctxt "Conical gradient type"
+msgid "Conical"
+msgstr "Konussimon"
+
 #. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:19
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3 ../../ui/widgets/KarbonGradientEditWidget.cpp:181
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:181 rc.cpp:3
 msgid "Repeat:"
 msgstr "Qaytarish:"
 
-#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:29
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:6
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:183
 #, fuzzy
-msgid "Reference Point:"
-msgstr "Bogʻlash"
+#| msgid "None"
+msgctxt "No gradient spread"
+msgid "None"
+msgstr "Yoʻq"
 
-#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:39
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:9
-msgid "Reference Point Offset"
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:184
+msgid "Reflect"
+msgstr "Aks etishi"
+
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:185
+msgid "Repeat"
+msgstr "Qaytarish"
+
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:188
+msgid "Overall opacity:"
+msgstr "Umumiy xiralik:"
+
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:193
+msgid "Color stop:"
 msgstr ""
 
-#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:46
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:73
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:12 rc.cpp:21 filterEffectTool/KarbonFilterEffectsTool.cpp:485
-msgid "X:"
-msgstr "X:"
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:200
+#, fuzzy
+#| msgid "Stroke: Color"
+msgid "Stop color."
+msgstr "Chizish: Rang"
 
-#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:56
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:83
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:15 rc.cpp:24 filterEffectTool/KarbonFilterEffectsTool.cpp:491
-msgid "Y:"
-msgstr "Y:"
+#: ../../ui/widgets/KarbonGradientEditWidget.cpp:203
+msgid "&Add to Predefined Gradients"
+msgstr "Oldindan &aniqlangan gradientlarga qoʻshish"
 
-#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:66
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:18
-msgid "Tile Offset"
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:33
+msgid "Original"
 msgstr ""
 
-#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:93
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: rc.cpp:27
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:34
 #, fuzzy
-#| msgid "Pattern"
-msgid "Pattern Size"
-msgstr "Namuna"
+msgid "Tiled"
+msgstr "Toʻldirish"
 
-#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:100
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:30 filterEffectTool/KarbonFilterEffectsTool.cpp:497
-#, fuzzy
-msgid "W:"
-msgstr "W:"
-
-#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:110
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:33 filterEffectTool/KarbonFilterEffectsTool.cpp:503
-#, fuzzy
-msgid "H:"
-msgstr "H:"
-
-#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:32
-#. i18n: ectx: property (windowTitle), widget (QWidget, FilterEffectEditWidget)
-#: rc.cpp:36 filterEffectTool/KarbonFilterEffectsTool.cpp:323
-#, fuzzy
-#| msgid "Pattern Tool"
-msgid "Filter Effect Editor"
-msgstr "Namuna moslamasi"
-
-#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:40
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:39
-#, fuzzy
-#| msgid "Object Properties"
-msgid "Effects and Connections"
-msgstr "Obʼektning xossalari"
-
-#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:57
-#. i18n: ectx: property (text), widget (QToolButton, removeEffect)
-#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:67
-#. i18n: ectx: property (text), widget (QToolButton, addEffect)
-#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:74
-#. i18n: ectx: property (text), widget (QToolButton, raiseEffect)
-#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:81
-#. i18n: ectx: property (text), widget (QToolButton, lowerEffect)
-#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:102
-#. i18n: ectx: property (text), widget (QToolButton, addPreset)
-#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:109
-#. i18n: ectx: property (text), widget (QToolButton, removePreset)
-#: rc.cpp:42 rc.cpp:45 rc.cpp:48 rc.cpp:51 rc.cpp:57 rc.cpp:60
-msgid "..."
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:35
+msgid "Stretched"
 msgstr ""
 
-#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:92
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:54
-msgid "Filter Presets"
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:37
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Left"
+msgid "Top Left"
+msgstr "Chap"
+
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:38
+msgid "Top"
 msgstr ""
 
-#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:116
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:63 filterEffectTool/KarbonFilterEffectsTool.cpp:473
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:39
 #, fuzzy
-#| msgid "Object Properties"
-msgid "Effect Properties"
-msgstr "Obʼektning xossalari"
+#| msgctxt "Horizontal alignment"
+#| msgid "Right"
+msgid "Top Right"
+msgstr "Oʻng"
 
-#: KarbonGradientTool.cpp:209
-msgid "Drag to move gradient position."
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:40
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Left"
+msgid "Left"
+msgstr "Chap"
+
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:41
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Center"
+msgid "Center"
+msgstr "Markaz"
+
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:42
+#, fuzzy
+#| msgctxt "Horizontal alignment"
+#| msgid "Right"
+msgid "Right"
+msgstr "Oʻng"
+
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:43
+msgid "Bottom Left"
 msgstr ""
 
-#: KarbonGradientTool.cpp:218
-msgid "Drag to move color stop. Double click to remove color stop."
-msgstr ""
-
-#: KarbonGradientTool.cpp:220
-msgid "Drag to move color stop."
-msgstr ""
-
-#: KarbonGradientTool.cpp:227
-msgid "Drag to move gradient position. Double click to insert color stop."
-msgstr ""
-
-#: KarbonGradientTool.cpp:506
-msgid "Edit Gradient"
-msgstr "Gradientni tahrirlash"
-
-#: KarbonGradientTool.cpp:508
-msgid "Predefined Gradients"
-msgstr "Oldindan aniqlangan gradientlar"
-
-#: KarbonGradientToolFactory.cpp:31
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:44
 #, fuzzy
-#| msgid "Gradient Tool"
-msgid "Gradient Editing Tool"
-msgstr "Gradient vositasi"
+#| msgid "Align Bottom"
+msgid "Bottom"
+msgstr "Pastga"
 
-#: KarbonPatternTool.cpp:286
-#, fuzzy
-#| msgid "Pattern Tool"
-msgid "Pattern Options"
-msgstr "Namuna moslamasi"
-
-#: KarbonPatternTool.cpp:288
-msgid "Patterns"
-msgstr "Namunalar"
-
-#: KarbonPatternToolFactory.cpp:31
-#, fuzzy
-#| msgid "Pattern Tool"
-msgid "Pattern Editing Tool"
-msgstr "Namuna moslamasi"
-
-#: KarbonPencilTool.cpp:322
-#, fuzzy
-#| msgid "Position:"
-msgid "Precision:"
-msgstr "Joylashishi:"
-
-#: KarbonPencilTool.cpp:324
-#, fuzzy
-msgctxt "The raw line data"
-msgid "Raw"
-msgstr "Qator"
-
-#: KarbonPencilTool.cpp:325
-msgid "Curve"
-msgstr "Egri chiziq"
-
-#: KarbonPencilTool.cpp:326
-#, fuzzy
-msgid "Straight"
-msgstr "Toʻgʻri chiziq"
-
-#: KarbonPencilTool.cpp:335 KarbonPencilTool.cpp:341
-#, fuzzy
-msgid "Optimize"
-msgstr "Optimallashtirish"
-
-#: KarbonPencilTool.cpp:343
-msgid "Exactness:"
-msgstr "Aniqlik:"
-
-#: KarbonPencilTool.cpp:352
-#, fuzzy
-msgid "Combine angle:"
-msgstr "Ichki burchak:"
-
-#: KarbonPencilToolFactory.cpp:31
-msgid "Freehand Path Drawing Tool"
+#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:45
+msgid "Bottom Right"
 msgstr ""
 
 #: CalligraphyTool/KarbonCalligraphicShapeFactory.cpp:28
@@ -352,6 +300,91 @@ msgstr ""
 msgid "Calligraphy Tool"
 msgstr "Ellips vositasi"
 
+#: KarbonGradientTool.cpp:209
+msgid "Drag to move gradient position."
+msgstr ""
+
+#: KarbonGradientTool.cpp:218
+msgid "Drag to move color stop. Double click to remove color stop."
+msgstr ""
+
+#: KarbonGradientTool.cpp:220
+msgid "Drag to move color stop."
+msgstr ""
+
+#: KarbonGradientTool.cpp:227
+msgid "Drag to move gradient position. Double click to insert color stop."
+msgstr ""
+
+#: KarbonGradientTool.cpp:506
+msgid "Edit Gradient"
+msgstr "Gradientni tahrirlash"
+
+#: KarbonGradientTool.cpp:508
+msgid "Predefined Gradients"
+msgstr "Oldindan aniqlangan gradientlar"
+
+#: KarbonGradientToolFactory.cpp:31
+#, fuzzy
+#| msgid "Gradient Tool"
+msgid "Gradient Editing Tool"
+msgstr "Gradient vositasi"
+
+#: KarbonPatternTool.cpp:286
+#, fuzzy
+#| msgid "Pattern Tool"
+msgid "Pattern Options"
+msgstr "Namuna moslamasi"
+
+#: KarbonPatternTool.cpp:288
+msgid "Patterns"
+msgstr "Namunalar"
+
+#: KarbonPatternToolFactory.cpp:31
+#, fuzzy
+#| msgid "Pattern Tool"
+msgid "Pattern Editing Tool"
+msgstr "Namuna moslamasi"
+
+#: KarbonPencilTool.cpp:322
+#, fuzzy
+#| msgid "Position:"
+msgid "Precision:"
+msgstr "Joylashishi:"
+
+#: KarbonPencilTool.cpp:324
+#, fuzzy
+msgctxt "The raw line data"
+msgid "Raw"
+msgstr "Qator"
+
+#: KarbonPencilTool.cpp:325
+msgid "Curve"
+msgstr "Egri chiziq"
+
+#: KarbonPencilTool.cpp:326
+#, fuzzy
+msgid "Straight"
+msgstr "Toʻgʻri chiziq"
+
+#: KarbonPencilTool.cpp:335 KarbonPencilTool.cpp:341
+#, fuzzy
+msgid "Optimize"
+msgstr "Optimallashtirish"
+
+#: KarbonPencilTool.cpp:343
+msgid "Exactness:"
+msgstr "Aniqlik:"
+
+#: KarbonPencilTool.cpp:352
+#, fuzzy
+msgid "Combine angle:"
+msgstr "Ichki burchak:"
+
+#: KarbonPencilToolFactory.cpp:31
+msgid "Freehand Path Drawing Tool"
+msgstr ""
+
 #: filterEffectTool/FilterAddCommand.cpp:31
 #, fuzzy
 #| msgid "Add Layer"
@@ -396,6 +429,14 @@ msgctxt "(qtundo-format)"
 msgid "Set filter stack"
 msgstr "Chiziq qalinligini koʻrsatish"
 
+#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:32
+#. i18n: ectx: property (windowTitle), widget (QWidget, FilterEffectEditWidget)
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:323 rc.cpp:36
+#, fuzzy
+#| msgid "Pattern Tool"
+msgid "Filter Effect Editor"
+msgstr "Namuna moslamasi"
+
 #: filterEffectTool/KarbonFilterEffectsTool.cpp:436
 #, fuzzy
 #| msgid "Effe&cts"
@@ -418,6 +459,44 @@ msgstr "Qatlamni qoʻshish"
 msgid "Add Filter"
 msgstr "Qatlamni qoʻshish"
 
+#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:116
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:473 rc.cpp:63
+#, fuzzy
+#| msgid "Object Properties"
+msgid "Effect Properties"
+msgstr "Obʼektning xossalari"
+
+#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:46
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:73
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:485 rc.cpp:12 rc.cpp:21
+msgid "X:"
+msgstr "X:"
+
+#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:56
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:83
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:491 rc.cpp:15 rc.cpp:24
+msgid "Y:"
+msgstr "Y:"
+
+#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:100
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:497 rc.cpp:30
+#, fuzzy
+msgid "W:"
+msgstr "W:"
+
+#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:110
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:503 rc.cpp:33
+#, fuzzy
+msgid "H:"
+msgstr "H:"
+
 #: filterEffectTool/KarbonFilterEffectsTool.cpp:508
 #, fuzzy
 #| msgid "Effects"
@@ -430,141 +509,62 @@ msgstr "Effektlar"
 msgid "Filter Effects Editing Tool"
 msgstr "Namuna moslamasi"
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:33
-msgid "Original"
+#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:29
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:6
+#, fuzzy
+msgid "Reference Point:"
+msgstr "Bogʻlash"
+
+#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:39
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:9
+msgid "Reference Point Offset"
 msgstr ""
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:34
-#, fuzzy
-msgid "Tiled"
-msgstr "Toʻldirish"
-
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:35
-msgid "Stretched"
+#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:66
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: rc.cpp:18
+msgid "Tile Offset"
 msgstr ""
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:37
+#. i18n: file: ../../ui/widgets/KarbonPatternOptionsWidget.ui:93
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: rc.cpp:27
 #, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Left"
-msgid "Top Left"
-msgstr "Chap"
+#| msgid "Pattern"
+msgid "Pattern Size"
+msgstr "Namuna"
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:38
-msgid "Top"
+#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:39
+#, fuzzy
+#| msgid "Object Properties"
+msgid "Effects and Connections"
+msgstr "Obʼektning xossalari"
+
+#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:57
+#. i18n: ectx: property (text), widget (QToolButton, removeEffect)
+#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:67
+#. i18n: ectx: property (text), widget (QToolButton, addEffect)
+#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:74
+#. i18n: ectx: property (text), widget (QToolButton, raiseEffect)
+#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:81
+#. i18n: ectx: property (text), widget (QToolButton, lowerEffect)
+#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:102
+#. i18n: ectx: property (text), widget (QToolButton, addPreset)
+#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:109
+#. i18n: ectx: property (text), widget (QToolButton, removePreset)
+#: rc.cpp:42 rc.cpp:45 rc.cpp:48 rc.cpp:51 rc.cpp:57 rc.cpp:60
+msgid "..."
 msgstr ""
 
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:39
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Right"
-msgid "Top Right"
-msgstr "Oʻng"
-
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:40
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Left"
-msgid "Left"
-msgstr "Chap"
-
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:41
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Center"
-msgid "Center"
-msgstr "Markaz"
-
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:42
-#, fuzzy
-#| msgctxt "Horizontal alignment"
-#| msgid "Right"
-msgid "Right"
-msgstr "Oʻng"
-
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:43
-msgid "Bottom Left"
+#. i18n: file: filterEffectTool/FilterEffectEditWidget.ui:92
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:54
+msgid "Filter Presets"
 msgstr ""
-
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:44
-#, fuzzy
-#| msgid "Align Bottom"
-msgid "Bottom"
-msgstr "Pastga"
-
-#: ../../ui/widgets/KarbonPatternOptionsWidget.cpp:45
-msgid "Bottom Right"
-msgstr ""
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:167
-msgid "Target:"
-msgstr "Moʻljal:"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:169
-msgid "Stroke"
-msgstr "Chizish"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:170
-msgid "Fill"
-msgstr "Toʻldirish"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:174
-msgid "Type:"
-msgstr "Turi:"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:176
-#, fuzzy
-#| msgid "Linear"
-msgctxt "Linear gradient type"
-msgid "Linear"
-msgstr "Chiziqli"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:177
-#, fuzzy
-#| msgid "Radial"
-msgctxt "Radial gradient type"
-msgid "Radial"
-msgstr "Radial"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:178
-#, fuzzy
-#| msgid "Conical"
-msgctxt "Conical gradient type"
-msgid "Conical"
-msgstr "Konussimon"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:183
-#, fuzzy
-#| msgid "None"
-msgctxt "No gradient spread"
-msgid "None"
-msgstr "Yoʻq"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:184
-msgid "Reflect"
-msgstr "Aks etishi"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:185
-msgid "Repeat"
-msgstr "Qaytarish"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:188
-msgid "Overall opacity:"
-msgstr "Umumiy xiralik:"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:193
-msgid "Color stop:"
-msgstr ""
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:200
-#, fuzzy
-#| msgid "Stroke: Color"
-msgid "Stop color."
-msgstr "Chizish: Rang"
-
-#: ../../ui/widgets/KarbonGradientEditWidget.cpp:203
-msgid "&Add to Predefined Gradients"
-msgstr "Oldindan &aniqlangan gradientlarga qoʻshish"
 
 #, fuzzy
 #~| msgid "Stroke: Color"
