@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kppp\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-22 04:45+0100\n"
+"POT-Creation-Date: 2012-08-19 15:40+0200\n"
 "PO-Revision-Date: 2006-12-17 13:23+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,6 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Abdurahmonov Nurali"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mavnur@gmail.com"
 
 #: accounts.cpp:77 modems.cpp:78
 msgid "&Edit..."
@@ -1814,6 +1822,38 @@ msgstr "Goʻshak qoʻyilmoqda..."
 msgid "Resetting Modem"
 msgstr "Modem tiklanmoqda"
 
+#: modem.cpp:126
+msgid "Unable to open modem."
+msgstr "Modemni ochib boʻlmadi."
+
+#: modem.cpp:133
+msgid "Unable to detect state of CD line."
+msgstr ""
+
+#: modem.cpp:139
+msgid "The modem is not ready."
+msgstr "Modem tayyor emas."
+
+#: modem.cpp:155 modem.cpp:203
+msgid "The modem is busy."
+msgstr "Modem band."
+
+#: modem.cpp:209
+msgid "Modem Ready."
+msgstr "Modem tayyor."
+
+#: modem.cpp:221
+msgid "Can not restore tty settings: tcsetattr()\n"
+msgstr ""
+
+#: modem.cpp:373
+msgid "The modem does not respond."
+msgstr "Modem javob bermayapti."
+
+#: modem.cpp:511
+msgid "Unknown speed"
+msgstr "Noaniq tezlik"
+
 #: modemcmds.cpp:56
 msgid "Edit Modem Commands"
 msgstr "Modem buyruqlarini tahrirlash"
@@ -1902,38 +1942,6 @@ msgstr ""
 #: modemcmds.cpp:267
 msgid "Volume off/low/high:"
 msgstr "Tovush yoʻq/past/baland:"
-
-#: modem.cpp:126
-msgid "Unable to open modem."
-msgstr "Modemni ochib boʻlmadi."
-
-#: modem.cpp:133
-msgid "Unable to detect state of CD line."
-msgstr ""
-
-#: modem.cpp:139
-msgid "The modem is not ready."
-msgstr "Modem tayyor emas."
-
-#: modem.cpp:155 modem.cpp:203
-msgid "The modem is busy."
-msgstr "Modem band."
-
-#: modem.cpp:209
-msgid "Modem Ready."
-msgstr "Modem tayyor."
-
-#: modem.cpp:221
-msgid "Can not restore tty settings: tcsetattr()\n"
-msgstr ""
-
-#: modem.cpp:373
-msgid "The modem does not respond."
-msgstr "Modem javob bermayapti."
-
-#: modem.cpp:511
-msgid "Unknown speed"
-msgstr "Noaniq tezlik"
 
 #: modemdb.cpp:51
 msgid "Select Modem Type"
@@ -2279,16 +2287,6 @@ msgid ""
 "check the settings of the newly created account,\n"
 "you can use \"Edit\" in the setup dialog."
 msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Abdurahmonov Nurali"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "mavnur@gmail.com"
 
 #: ruleset.cpp:539
 msgid "kppp: no rulefile specified\n"
