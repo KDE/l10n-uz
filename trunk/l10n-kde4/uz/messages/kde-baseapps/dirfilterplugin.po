@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dirfilterplugin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-08 04:23+0200\n"
+"POT-Creation-Date: 2012-09-20 04:20+0200\n"
 "PO-Revision-Date: 2006-04-02 11:34+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,27 +17,46 @@ msgstr ""
 "X-Generator: KBabel 1.11.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: dirfilterplugin.cpp:128
-msgid "View F&ilter"
+#: dirfilterplugin.cpp:133
+#, fuzzy
+#| msgid "View F&ilter"
+msgctxt "@info:tooltip"
+msgid "Hide Filter Bar"
 msgstr "&Koʻrinishni filterlash"
 
-#: dirfilterplugin.cpp:132
-msgid "Allow to filter the currently displayed items by filetype."
-msgstr "Joriy koʻrsatilgan bandlarni fayl turi boʻyicha filterlash."
+#: dirfilterplugin.cpp:137
+#, fuzzy
+#| msgid "View F&ilter"
+msgctxt "@label:textbox"
+msgid "F&ilter:"
+msgstr "&Koʻrinishni filterlash"
 
-#: dirfilterplugin.cpp:182
-msgid "Only Show Items of Type"
-msgstr "Faqat quyidagi turdagi bandlarni koʻrsatish"
+#: dirfilterplugin.cpp:149
+msgctxt "@label:button"
+msgid "Filter by t&ype"
+msgstr ""
 
-#: dirfilterplugin.cpp:241
+#: dirfilterplugin.cpp:150
+msgctxt "@info:tooltip"
+msgid "Filter items by file type."
+msgstr ""
+
+#: dirfilterplugin.cpp:242
+#, fuzzy
+#| msgid "Filter Toolbar"
+msgctxt "@action:inmenu Tools"
+msgid "Show Filter Bar"
+msgstr "Filter asboblar paneli"
+
+#: dirfilterplugin.cpp:335
 msgid "Use Multiple Filters"
 msgstr "Bir nechta filterni ishlatish"
 
-#: dirfilterplugin.cpp:247
+#: dirfilterplugin.cpp:341
 msgid "Show Count"
 msgstr "Sonini koʻrsatish"
 
-#: dirfilterplugin.cpp:252
+#: dirfilterplugin.cpp:346
 msgid "Reset"
 msgstr "Tiklash"
 
@@ -51,11 +70,14 @@ msgstr ""
 msgid "Extra Toolbar"
 msgstr "Qoʻshimcha asboblar paneli"
 
+#~ msgid "Allow to filter the currently displayed items by filetype."
+#~ msgstr "Joriy koʻrsatilgan bandlarni fayl turi boʻyicha filterlash."
+
+#~ msgid "Only Show Items of Type"
+#~ msgstr "Faqat quyidagi turdagi bandlarni koʻrsatish"
+
 #~ msgid "Filter Field"
 #~ msgstr "Filter maydoni"
-
-#~ msgid "Filter Toolbar"
-#~ msgstr "Filter asboblar paneli"
 
 #~ msgid "Clear Filter Field"
 #~ msgstr "Filter maydonini tozalash"
