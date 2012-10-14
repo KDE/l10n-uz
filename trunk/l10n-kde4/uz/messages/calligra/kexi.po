@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-05 02:39+0200\n"
+"POT-Creation-Date: 2012-10-14 02:58+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -818,34 +818,34 @@ msgstr ""
 msgid "Saves changes made to the current design."
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: core/KexiView.cpp:580
+#: core/KexiView.cpp:585
 #, fuzzy
 #| msgid "Row:"
 msgid "Show:"
 msgstr "Satr:"
 
-#: core/KexiView.cpp:591 main/KexiMainWindow_p.h:980
+#: core/KexiView.cpp:596 main/KexiMainWindow_p.h:980
 msgid "Data"
 msgstr "Maʼlumot"
 
-#: core/KexiView.cpp:602
+#: core/KexiView.cpp:607
 #, fuzzy
 #| msgid "&Design"
 msgid "Design"
 msgstr "&Dizayn"
 
-#: core/KexiWindow.cpp:580 widget/kexidbconnectionwidget.cpp:90
+#: core/KexiWindow.cpp:576 widget/kexidbconnectionwidget.cpp:90
 msgid "Save Changes"
 msgstr "Oʻzgarishlarni saqlash"
 
-#: core/KexiWindow.cpp:583
+#: core/KexiWindow.cpp:579
 #, fuzzy
 #| msgctxt "Do Not Add Database Primary Key to a Table"
 #| msgid "Do Not Add"
 msgid "Do Not Switch"
 msgstr "Qoʻshilmasin"
 
-#: core/KexiWindow.cpp:586
+#: core/KexiWindow.cpp:582
 #, fuzzy, kde-format
 msgid ""
 "There are unsaved changes in object \"%1\". Do you want to save these "
@@ -854,13 +854,13 @@ msgstr ""
 "Dizayn oʻzgartirildi. Boshqa koʻrinishga oʻtishdan oldin uni saqlashingiz "
 "lozim."
 
-#: core/KexiWindow.cpp:589
+#: core/KexiWindow.cpp:585
 #, fuzzy
 #| msgid "Save Changes"
 msgid "Confirm Saving Changes"
 msgstr "Oʻzgarishlarni saqlash"
 
-#: core/KexiWindow.cpp:610
+#: core/KexiWindow.cpp:606
 #, fuzzy
 msgid ""
 "Design has been changed. You must save it before switching to other view."
@@ -868,17 +868,17 @@ msgstr ""
 "Dizayn oʻzgartirildi. Boshqa koʻrinishga oʻtishdan oldin uni saqlashingiz "
 "lozim."
 
-#: core/KexiWindow.cpp:675 main/KexiMainWindow.cpp:2894
+#: core/KexiWindow.cpp:671 main/KexiMainWindow.cpp:2894
 #, kde-format
 msgid "Switching to other view failed (%1)."
 msgstr ""
 
-#: core/KexiWindow.cpp:858
+#: core/KexiWindow.cpp:854
 #, fuzzy
 msgid "Saving object's definition failed."
 msgstr "Obʼektni aniqlashni saqlab boʻlmadi."
 
-#: core/KexiWindow.cpp:942
+#: core/KexiWindow.cpp:938
 #, fuzzy
 msgid "Saving object's data failed."
 msgstr "Obʼektni aniqlashni saqlab boʻlmadi."
@@ -1213,7 +1213,7 @@ msgstr "Izohlar"
 
 #: formeditor/editlistviewdialog.cpp:120 formeditor/form.cpp:443
 #: plugins/queries/kexiquerydesignerguieditor.cpp:1764
-#: plugins/tables/kexitabledesignerview.cpp:391
+#: plugins/tables/kexitabledesignerview.cpp:392
 #, fuzzy
 msgid "Caption"
 msgstr "Sarlavha:"
@@ -2230,7 +2230,7 @@ msgstr "Andoza: %1"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: formeditor/form.cpp:441 formeditor/form.cpp:442
-#: plugins/tables/kexitabledesignerview.cpp:354
+#: plugins/tables/kexitabledesignerview.cpp:355
 #: widget/KexiConnectionSelector.ui:91
 msgid "Name"
 msgstr "Nomi"
@@ -4781,14 +4781,14 @@ msgstr "Ustun %1"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
 #: migration/AlterSchemaWidget.cpp:52
-#: plugins/tables/kexitabledesignerview.cpp:357
+#: plugins/tables/kexitabledesignerview.cpp:358
 #: widget/KexiConnectionSelector.ui:96 widget/KexiProjectSelector.ui:96
 msgid "Type"
 msgstr "Turi"
 
 #: migration/AlterSchemaWidget.cpp:53
-#: plugins/tables/kexitabledesignerview.cpp:193
-#: plugins/tables/kexitabledesignerview.cpp:432
+#: plugins/tables/kexitabledesignerview.cpp:194
+#: plugins/tables/kexitabledesignerview.cpp:433
 msgid "Primary Key"
 msgstr "Birinchi darajali kalit"
 
@@ -6278,7 +6278,7 @@ msgstr "Boshqa"
 #: plugins/importexport/csv/kexicsvwidgets.cpp:167
 #: plugins/importexport/csv/kexicsvwidgets.cpp:182
 #: plugins/queries/kexiquerydesignerguieditor.cpp:1781
-#: plugins/tables/kexitabledesignerview.cpp:428
+#: plugins/tables/kexitabledesignerview.cpp:429
 msgid "None"
 msgstr "Yoʻq"
 
@@ -6943,82 +6943,82 @@ msgstr ""
 msgid "Insert table field \"%1\""
 msgstr "Xato jadval nomi \"%1\""
 
-#: plugins/tables/kexitabledesignerview.cpp:130
+#: plugins/tables/kexitabledesignerview.cpp:131
 msgid "Additional information about the field"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:138
+#: plugins/tables/kexitabledesignerview.cpp:139
 #, fuzzy
 msgid "Field Caption"
 msgstr "Sarlavha:"
 
-#: plugins/tables/kexitabledesignerview.cpp:139
+#: plugins/tables/kexitabledesignerview.cpp:140
 #, fuzzy
 msgid "Describes caption for the field"
 msgstr "Eski birinchi darajali kalit olib tashlandi."
 
-#: plugins/tables/kexitabledesignerview.cpp:145
+#: plugins/tables/kexitabledesignerview.cpp:146
 msgid "Data Type"
 msgstr "Maʼlumot turi"
 
-#: plugins/tables/kexitabledesignerview.cpp:146
+#: plugins/tables/kexitabledesignerview.cpp:147
 #, fuzzy
 msgid "Describes data type for the field"
 msgstr "Eski birinchi darajali kalit olib tashlandi."
 
-#: plugins/tables/kexitabledesignerview.cpp:164
+#: plugins/tables/kexitabledesignerview.cpp:165
 msgid "Comments"
 msgstr "Izohlar"
 
-#: plugins/tables/kexitabledesignerview.cpp:164
+#: plugins/tables/kexitabledesignerview.cpp:165
 #, fuzzy
 msgid "Describes additional comments for the field"
 msgstr "Eski birinchi darajali kalit olib tashlandi."
 
-#: plugins/tables/kexitabledesignerview.cpp:196
+#: plugins/tables/kexitabledesignerview.cpp:197
 #, fuzzy
 msgid "Sets or removes primary key"
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: plugins/tables/kexitabledesignerview.cpp:197
+#: plugins/tables/kexitabledesignerview.cpp:198
 #, fuzzy
 msgid "Sets or removes primary key for currently selected field."
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: plugins/tables/kexitabledesignerview.cpp:341
+#: plugins/tables/kexitabledesignerview.cpp:342
 msgid "Table field"
 msgstr "Jadval maydoni"
 
-#: plugins/tables/kexitabledesignerview.cpp:376
-#: plugins/tables/kexitabledesignerview.cpp:388
+#: plugins/tables/kexitabledesignerview.cpp:377
+#: plugins/tables/kexitabledesignerview.cpp:389
 msgid "Subtype"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:382
+#: plugins/tables/kexitabledesignerview.cpp:383
 msgctxt "Image object type"
 msgid "Image"
 msgstr "Rasm"
 
-#: plugins/tables/kexitabledesignerview.cpp:398
+#: plugins/tables/kexitabledesignerview.cpp:399
 #, fuzzy
 msgid "Unsigned Number"
 msgstr "Imzolanmagan raqam"
 
-#: plugins/tables/kexitabledesignerview.cpp:401
+#: plugins/tables/kexitabledesignerview.cpp:402
 #, fuzzy
 #| msgid "Length"
 msgid "Max Length"
 msgstr "Uzunligi"
 
-#: plugins/tables/kexitabledesignerview.cpp:408
+#: plugins/tables/kexitabledesignerview.cpp:409
 msgid "Precision"
 msgstr "Aniqlik"
 
-#: plugins/tables/kexitabledesignerview.cpp:413
+#: plugins/tables/kexitabledesignerview.cpp:414
 msgid "Visible Decimal Places"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:415
+#: plugins/tables/kexitabledesignerview.cpp:416
 #, fuzzy
 #| msgctxt "AutoField editor's type"
 #| msgid "Auto"
@@ -7026,23 +7026,24 @@ msgctxt "Auto Decimal Places"
 msgid "Auto"
 msgstr "Avto"
 
-#: plugins/tables/kexitabledesignerview.cpp:419
-msgid "Column Width"
-msgstr "Ustunning eni"
+#: plugins/tables/kexitabledesignerview.cpp:420
+#, fuzzy
+msgid "Default Width"
+msgstr "Andoza: %1"
 
-#: plugins/tables/kexitabledesignerview.cpp:425
+#: plugins/tables/kexitabledesignerview.cpp:426
 msgid "Default Value"
 msgstr "Andoza qiymat"
 
-#: plugins/tables/kexitabledesignerview.cpp:436
+#: plugins/tables/kexitabledesignerview.cpp:437
 msgid "Unique"
 msgstr "Yagona"
 
-#: plugins/tables/kexitabledesignerview.cpp:439
+#: plugins/tables/kexitabledesignerview.cpp:440
 msgid "Required"
 msgstr "Talab qilinadi"
 
-#: plugins/tables/kexitabledesignerview.cpp:442
+#: plugins/tables/kexitabledesignerview.cpp:443
 msgid ""
 "Allow Zero\n"
 "Size"
@@ -7050,65 +7051,65 @@ msgstr ""
 "Nol oʻlchamga\n"
 "ruxsat berish"
 
-#: plugins/tables/kexitabledesignerview.cpp:445
+#: plugins/tables/kexitabledesignerview.cpp:446
 msgid "Autonumber"
 msgstr "Avto-raqamlash"
 
-#: plugins/tables/kexitabledesignerview.cpp:449
+#: plugins/tables/kexitabledesignerview.cpp:450
 msgid "Indexed"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:456
+#: plugins/tables/kexitabledesignerview.cpp:457
 #, fuzzy
 msgid "Record Source"
 msgstr "Maʼlumot manbasi"
 
-#: plugins/tables/kexitabledesignerview.cpp:461
+#: plugins/tables/kexitabledesignerview.cpp:462
 #, fuzzy
 msgid ""
 "Record Source\n"
 "Type"
 msgstr "Maʼlumot manbasi"
 
-#: plugins/tables/kexitabledesignerview.cpp:465
+#: plugins/tables/kexitabledesignerview.cpp:466
 #, fuzzy
 msgid "Bound Column"
 msgstr "Ustun"
 
-#: plugins/tables/kexitabledesignerview.cpp:475
+#: plugins/tables/kexitabledesignerview.cpp:476
 #, fuzzy
 msgid "Visible Column"
 msgstr "Koʻrinadigan"
 
-#: plugins/tables/kexitabledesignerview.cpp:623
+#: plugins/tables/kexitabledesignerview.cpp:624
 msgid ""
 "Cannot switch to data view, because table design is empty.\n"
 "First, please create your design."
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:634
+#: plugins/tables/kexitabledesignerview.cpp:635
 msgid "Saving changes for existing table design is now required."
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:699
+#: plugins/tables/kexitabledesignerview.cpp:700
 #, kde-format
 msgid "Change \"%1\" field's name to \"%2\" and caption from \"%3\" to \"%4\""
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:777
+#: plugins/tables/kexitabledesignerview.cpp:778
 #, kde-format
 msgid "Change data type for field \"%1\" to \"%2\""
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:970
+#: plugins/tables/kexitabledesignerview.cpp:971
 msgid "Setting autonumber requires primary key to be set for current field."
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:972
+#: plugins/tables/kexitabledesignerview.cpp:973
 msgid "Previous primary key will be removed."
 msgstr "Eski birinchi darajali kalit olib tashlandi."
 
-#: plugins/tables/kexitabledesignerview.cpp:974
+#: plugins/tables/kexitabledesignerview.cpp:975
 msgid ""
 "Do you want to create primary key for current field? Click \"Cancel\" to "
 "cancel setting autonumber."
@@ -7116,46 +7117,46 @@ msgstr ""
 "Joriy maydon uchun birinchi darajali kalit yaratishni istaysizmi? Avto-"
 "raqamlashni bekor qilish uchun \"Bekor qilish\" tugmasini bosing."
 
-#: plugins/tables/kexitabledesignerview.cpp:978
+#: plugins/tables/kexitabledesignerview.cpp:979
 #, fuzzy
 msgid "Setting Autonumber Field"
 msgstr "Avtomatik raqamlash qatori moslamalari"
 
-#: plugins/tables/kexitabledesignerview.cpp:979
+#: plugins/tables/kexitabledesignerview.cpp:980
 msgid "Create &Primary Key"
 msgstr "Birinchi &darajali kalit yaratish"
 
-#: plugins/tables/kexitabledesignerview.cpp:986
+#: plugins/tables/kexitabledesignerview.cpp:987
 #, fuzzy, kde-format
 msgid "Assign autonumber for field \"%1\""
 msgstr "Avtomatik raqamlash qatori moslamalari"
 
-#: plugins/tables/kexitabledesignerview.cpp:991
+#: plugins/tables/kexitabledesignerview.cpp:992
 #, fuzzy, kde-format
 msgid "Remove autonumber from field \"%1\""
 msgstr "Avtomatik raqamlash qatori moslamalari"
 
-#: plugins/tables/kexitabledesignerview.cpp:1012
+#: plugins/tables/kexitabledesignerview.cpp:1013
 #, fuzzy, kde-format
 msgid "Set \"%1\" property for field \"%2\""
 msgstr "Eski birinchi darajali kalit olib tashlandi."
 
-#: plugins/tables/kexitabledesignerview.cpp:1059
+#: plugins/tables/kexitabledesignerview.cpp:1060
 #, kde-format
 msgid "Change type for field \"%1\" to \"%2\""
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:1105
+#: plugins/tables/kexitabledesignerview.cpp:1106
 #, fuzzy, kde-format
 msgid "Set primary key for field \"%1\""
 msgstr "Eski birinchi darajali kalit olib tashlandi."
 
-#: plugins/tables/kexitabledesignerview.cpp:1130
+#: plugins/tables/kexitabledesignerview.cpp:1131
 #, fuzzy, kde-format
 msgid "Unset primary key for field \"%1\""
 msgstr "Eski birinchi darajali kalit olib tashlandi."
 
-#: plugins/tables/kexitabledesignerview.cpp:1223
+#: plugins/tables/kexitabledesignerview.cpp:1224
 #, kde-format
 msgid ""
 "<p>Table \"%1\" has no <b>primary key</b> defined.</p><p>Although a primary "
@@ -7165,47 +7166,47 @@ msgid ""
 "</p>"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:1230
+#: plugins/tables/kexitabledesignerview.cpp:1231
 msgid "&Add Primary Key"
 msgstr "Birinchi darajali kalitni &qoʻshish"
 
-#: plugins/tables/kexitabledesignerview.cpp:1241
+#: plugins/tables/kexitabledesignerview.cpp:1242
 #, kde-format
 msgctxt "Identifier%1"
 msgid "Id%1"
 msgstr "Id%1"
 
-#: plugins/tables/kexitabledesignerview.cpp:1292
+#: plugins/tables/kexitabledesignerview.cpp:1293
 #, fuzzy
 msgid "You should enter field caption."
 msgstr "Iltimos sarlavhani kiriting."
 
-#: plugins/tables/kexitabledesignerview.cpp:1308
+#: plugins/tables/kexitabledesignerview.cpp:1309
 msgid ""
 "You have added no fields.\n"
 "Every table should have at least one field."
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:1322
+#: plugins/tables/kexitabledesignerview.cpp:1323
 #, kde-format
 msgid ""
 "You have added \"%1\" field name twice.\n"
 "Field names cannot be repeated. Correct name of the field."
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:1472
+#: plugins/tables/kexitabledesignerview.cpp:1473
 #, kde-format
 msgid ""
 "You are about to change the design of table \"%1\" but following objects "
 "using this table are opened:"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:1663
+#: plugins/tables/kexitabledesignerview.cpp:1664
 #, fuzzy, kde-format
 msgid "Table field \"%1\""
 msgstr "Jadval maydoni"
 
-#: plugins/tables/kexitabledesignerview.cpp:1665
+#: plugins/tables/kexitabledesignerview.cpp:1666
 #, fuzzy
 msgctxt "Empty table row"
 msgid "Empty Row"
@@ -8145,6 +8146,9 @@ msgstr "Birinchi satr"
 #, fuzzy
 msgid "Moves cursor to new record and allows inserting."
 msgstr "Keyingi oyna"
+
+#~ msgid "Column Width"
+#~ msgstr "Ustunning eni"
 
 #~ msgid "Show SQL History"
 #~ msgstr "SQL tarixini koʻrsatish"
