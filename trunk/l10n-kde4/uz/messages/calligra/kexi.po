@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-18 02:43+0200\n"
+"POT-Creation-Date: 2012-10-22 02:54+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -646,76 +646,76 @@ msgstr "\"%1\" plaginini yuklashda xato roʻy berdi"
 msgid "No plugin for class \"%1\""
 msgstr ""
 
-#: core/kexiproject.cpp:225
+#: core/kexiproject.cpp:130 main/KexiMainWindow.cpp:3584
+#, fuzzy
+msgid "Could not set empty name for this object."
+msgstr "Ushbu loyiha uchun boʻsh nom oʻrnatib boʻlmadi."
+
+#: core/kexiproject.cpp:134
+#, kde-format
+msgid "Could not use this name. Object with name \"%1\" already exists."
+msgstr "Ushbu nomni qoʻllab boʻlmaydi. \"%1\" nomli obʼekt allaqachon mavjud."
+
+#: core/kexiproject.cpp:145
+#, fuzzy, kde-format
+msgid "Could not rename object \"%1\"."
+msgstr "\"%1\" obʼektini qayta nomlab boʻlmadi."
+
+#: core/kexiproject.cpp:307
 #, kde-format
 msgid "Could not open project \"%1\"."
 msgstr "\"%1\" loyihasini ochib boʻlmadi."
 
-#: core/kexiproject.cpp:249
+#: core/kexiproject.cpp:331
 #, kde-format
 msgid ""
 "Database project %1 does not appear to have been created using Kexi and "
 "cannot be opened.<br><br>It is an SQLite file created using other tools.</qt>"
 msgstr ""
 
-#: core/kexiproject.cpp:272
+#: core/kexiproject.cpp:354
 #, kde-format
 msgid "Could not create project \"%1\"."
 msgstr "\"%1\" loyihasini yaratib boʻlmadi."
 
-#: core/kexiproject.cpp:315 core/kexiproject.cpp:380
+#: core/kexiproject.cpp:397 core/kexiproject.cpp:462
 #, fuzzy
 msgid "Project major version"
 msgstr "Loyihaning asl versiyasi"
 
-#: core/kexiproject.cpp:317 core/kexiproject.cpp:382
+#: core/kexiproject.cpp:399 core/kexiproject.cpp:464
 #, fuzzy
 msgid "Project minor version"
 msgstr "Loyihaning ikkinchi darajali versiyasi"
 
-#: core/kexiproject.cpp:319
+#: core/kexiproject.cpp:401
 msgid "Project caption"
 msgstr "Loyiha sarlavhasi"
 
-#: core/kexiproject.cpp:321
+#: core/kexiproject.cpp:403
 msgid "Project description"
 msgstr "Loyiha taʼrifi"
 
-#: core/kexiproject.cpp:854
+#: core/kexiproject.cpp:936
 #, fuzzy, kde-format
 msgid "Opening object \"%1\" failed."
 msgstr "\"%1\" obʼektini ochib boʻlmadi."
 
-#: core/kexiproject.cpp:873
+#: core/kexiproject.cpp:955
 msgid "This project is opened as read only."
 msgstr ""
 
-#: core/kexiproject.cpp:904
+#: core/kexiproject.cpp:986
 #, fuzzy
 #| msgid "Could not remove object's data."
 msgid "Could not remove object's user data."
 msgstr "Obʼekt maʼlumotlarini olib tashlab boʻlmadi."
 
-#: core/kexiproject.cpp:934 main/KexiMainWindow.cpp:3582
-#, fuzzy
-msgid "Could not set empty name for this object."
-msgstr "Ushbu loyiha uchun boʻsh nom oʻrnatib boʻlmadi."
-
-#: core/kexiproject.cpp:938
-#, kde-format
-msgid "Could not use this name. Object with name \"%1\" already exists."
-msgstr "Ushbu nomni qoʻllab boʻlmaydi. \"%1\" nomli obʼekt allaqachon mavjud."
-
-#: core/kexiproject.cpp:945
-#, fuzzy, kde-format
-msgid "Could not rename object \"%1\"."
-msgstr "\"%1\" obʼektini qayta nomlab boʻlmadi."
-
-#: core/kexiproject.cpp:1069
+#: core/kexiproject.cpp:1108
 msgid "Warning: entire project's data will be removed."
 msgstr "Diqqat: loyihaning barcha maʼlumotlari oʻchirib tashlanadi."
 
-#: core/kexiproject.cpp:1083
+#: core/kexiproject.cpp:1122
 #, kde-format
 msgid ""
 "The project %1 already exists.\n"
@@ -724,17 +724,17 @@ msgstr ""
 "\"%1\" loyihasi allaqachon mavjud.\n"
 "Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
 
-#: core/kexiproject.cpp:1086 main/kexifinddialog.cpp:228
+#: core/kexiproject.cpp:1125 main/kexifinddialog.cpp:228
 #, fuzzy
 msgid "Replace"
 msgstr "&Almashtirish"
 
-#: core/kexiproject.cpp:1110
+#: core/kexiproject.cpp:1149
 #, fuzzy, kde-format
 msgid "Do you want to drop the project \"%1\"?"
 msgstr "\"%1\" loyihasini ochib boʻlmadi."
 
-#: core/kexiproject.cpp:1120
+#: core/kexiproject.cpp:1159
 msgid ""
 "Could not drop this project. Database connection for this project has been "
 "opened as read only."
@@ -868,7 +868,7 @@ msgstr ""
 "Dizayn oʻzgartirildi. Boshqa koʻrinishga oʻtishdan oldin uni saqlashingiz "
 "lozim."
 
-#: core/KexiWindow.cpp:671 main/KexiMainWindow.cpp:2895
+#: core/KexiWindow.cpp:671 main/KexiMainWindow.cpp:2897
 #, kde-format
 msgid "Switching to other view failed (%1)."
 msgstr ""
@@ -2722,7 +2722,7 @@ msgstr "&Matn koʻrinishida ochish"
 #: formeditor/kexiactionselectiondialog.cpp:278
 #: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:161
 #: plugins/scripting/kexiscripting/kexiscriptpart.cpp:126
-#: widget/navigator/KexiProjectNavigator.cpp:167
+#: widget/navigator/KexiProjectNavigator.cpp:170
 #, fuzzy
 msgid "Execute"
 msgstr "Skriptni ishga tushirish"
@@ -3081,7 +3081,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, m_btnReplace)
 #: main/kexifinddialog.ui:103 migration/importwizard.cpp:809
-#: widget/KexiNameDialog.cpp:133 widget/utils/kexicontextmenuutils.cpp:234
+#: widget/KexiNameDialog.cpp:135 widget/utils/kexicontextmenuutils.cpp:234
 msgid "&Replace"
 msgstr "&Almashtirish"
 
@@ -3240,7 +3240,7 @@ msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 msgid "Save &As..."
 msgstr "...sifatida s&aqlash"
 
-#: main/KexiMainWindow.cpp:498 main/KexiMainWindow.cpp:2749
+#: main/KexiMainWindow.cpp:498 main/KexiMainWindow.cpp:2751
 #, fuzzy
 msgid "Save object as"
 msgstr "Obʼektni quyidagicha saqlash"
@@ -3406,7 +3406,7 @@ msgstr "Sahifa mos&lamasi..."
 msgid "Show page setup for printing the active table or query"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:624 widget/navigator/KexiProjectNavigator.cpp:197
+#: main/KexiMainWindow.cpp:624 widget/navigator/KexiProjectNavigator.cpp:200
 msgid "Shows page setup for printing the active table or query."
 msgstr ""
 
@@ -3805,90 +3805,90 @@ msgid ""
 "on startup. Several objects cannot be opened or processed."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:2038
+#: main/KexiMainWindow.cpp:2040
 #, fuzzy
 msgid "Property Editor"
 msgstr "Loyiha navigatori"
 
-#: main/KexiMainWindow.cpp:2066
+#: main/KexiMainWindow.cpp:2068
 #: widget/properties/KexiPropertyEditorView.cpp:46
 #: widget/utils/kexicontextmenuutils.cpp:98
 #, fuzzy
 msgid "Properties"
 msgstr "Loyiha xossalari"
 
-#: main/KexiMainWindow.cpp:2826
+#: main/KexiMainWindow.cpp:2828
 msgid "From File..."
 msgstr "Fayldan"
 
-#: main/KexiMainWindow.cpp:2831
+#: main/KexiMainWindow.cpp:2833
 msgid "From Server..."
 msgstr "Serverdan"
 
-#: main/KexiMainWindow.cpp:2881
+#: main/KexiMainWindow.cpp:2883
 #, kde-format
 msgid "Selected view is not supported for \"%1\" object."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:2883
+#: main/KexiMainWindow.cpp:2885
 #, kde-format
 msgid "Selected view (%1) is not supported by this object type (%2)."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:2959
+#: main/KexiMainWindow.cpp:2961
 #, fuzzy
 msgid "Save Object As"
 msgstr "Obʼektni quyidagicha saqlash"
 
-#: main/KexiMainWindow.cpp:2983
+#: main/KexiMainWindow.cpp:2985
 #, fuzzy, kde-format
 msgid "Saving \"%1\" object failed."
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3004
+#: main/KexiMainWindow.cpp:3006
 #, fuzzy, kde-format
 msgid "Saving new \"%1\" object failed."
 msgstr "Yangi \"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3069 main/KexiMainWindow.cpp:4190
+#: main/KexiMainWindow.cpp:3071 main/KexiMainWindow.cpp:4223
 msgid "Save changes"
 msgstr "Oʻzgarishlarni saqlash"
 
-#: main/KexiMainWindow.cpp:3071 main/KexiMainWindow.cpp:4192
+#: main/KexiMainWindow.cpp:3073 main/KexiMainWindow.cpp:4225
 #, kde-format
 msgid ""
 "Pressing this button will save all recent changes made in \"%1\" object."
 msgstr ""
 "Ushbu tugmani bosish \"%1\" obʼektidagi oxirgi oʻzgarishlarni saqlaydi."
 
-#: main/KexiMainWindow.cpp:3075
+#: main/KexiMainWindow.cpp:3077
 #, fuzzy, kde-format
 msgid ""
 "Pressing this button will discard all recent changes made in \"%1\" object."
 msgstr ""
 "Ushbu tugmani bosish \"%1\" obʼektidagi oxirgi oʻzgarishlarni saqlaydi."
 
-#: main/KexiMainWindow.cpp:3097
+#: main/KexiMainWindow.cpp:3099
 msgid "Do you want to save changes?"
 msgstr "Oʻzgarishlarni saqlashni istaysizmi?"
 
-#: main/KexiMainWindow.cpp:3281
+#: main/KexiMainWindow.cpp:3283
 #, kde-format
 msgctxt "opening is not allowed in \"data view/design view/text view\" mode"
 msgid "opening is not allowed in \"%1\" mode"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3331
+#: main/KexiMainWindow.cpp:3333
 #, kde-format
 msgid "Tab for \"%1\" (%2)."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3335
+#: main/KexiMainWindow.cpp:3337
 #, fuzzy, kde-format
 msgid "Tab for \"%1\"."
 msgstr "Jadval maydoni"
 
-#: main/KexiMainWindow.cpp:3510
+#: main/KexiMainWindow.cpp:3512
 #, kde-format
 msgid ""
 "Do you want to permanently delete:\n"
@@ -3896,52 +3896,70 @@ msgid ""
 "If you click \"Delete\", you will not be able to undo the deletion."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3514
+#: main/KexiMainWindow.cpp:3516
 #, fuzzy
 msgid "Delete"
 msgstr "Satrni olib tashlash"
 
-#: main/KexiMainWindow.cpp:3568
+#: main/KexiMainWindow.cpp:3570
 msgid "Could not remove object."
 msgstr "Obʼektni olib tashlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3590
+#: main/KexiMainWindow.cpp:3591
+#, kde-format
+msgid ""
+"<para>Before renaming object <resource>%1</resource> it should be closed.</"
+"para><para>Do you want to close it?</para>"
+msgstr ""
+
+#: main/KexiMainWindow.cpp:3595
+#, fuzzy
+#| msgid "Close windows"
+msgid "Close window"
+msgstr "Oynalarni yopish"
+
+#: main/KexiMainWindow.cpp:3606
 #, fuzzy, kde-format
 msgid "Renaming object \"%1\" failed."
 msgstr "\"%1\" obʼektini nomini oʻzgartirib boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3731
+#: main/KexiMainWindow.cpp:3623
+#, fuzzy, kde-format
+msgid "Setting caption for object \"%1\" failed."
+msgstr "\"%1\" obʼektini nomini oʻzgartirib boʻlmadi."
+
+#: main/KexiMainWindow.cpp:3764
 msgid "Important Information"
 msgstr "Muhim maʼlumot"
 
-#: main/KexiMainWindow.cpp:3790
+#: main/KexiMainWindow.cpp:3823
 #, fuzzy, kde-format
 msgid "Could not start project \"%1\" in Final Mode."
 msgstr "\"%1\" loyihasini yaratib boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3794
+#: main/KexiMainWindow.cpp:3827
 #, fuzzy
 msgid "No Final Mode data found."
 msgstr "Maydon topilmadi"
 
-#: main/KexiMainWindow.cpp:3801
+#: main/KexiMainWindow.cpp:3834
 msgid "Error reading Final Mode data."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3830
+#: main/KexiMainWindow.cpp:3863
 msgid "Specified plugin does not exist."
 msgstr "Koʻrsatilgan plagin mavjud emas."
 
-#: main/KexiMainWindow.cpp:3839
+#: main/KexiMainWindow.cpp:3872
 msgid "Specified object could not be opened."
 msgstr "Koʻrsatilgan obʼektni ochib boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3926
+#: main/KexiMainWindow.cpp:3959
 #, fuzzy, kde-format
 msgid "Compacting database file <nobr>\"%1\"</nobr> is not supported."
 msgstr "<p><nobr>\"%1\"</nobr> faylini oʻqib boʻlmaydi.</p>"
 
-#: main/KexiMainWindow.cpp:3938
+#: main/KexiMainWindow.cpp:3971
 msgid ""
 "The current project has to be closed before compacting the database. It will "
 "be open again after compacting.\n"
@@ -3949,23 +3967,23 @@ msgid ""
 "Do you want to continue?"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:4196
+#: main/KexiMainWindow.cpp:4229
 #, fuzzy, kde-format
 msgid ""
 "Pressing this button will ignore all unsaved changes made in \"%1\" object."
 msgstr ""
 "Ushbu tugmani bosish \"%1\" obʼektidagi oxirgi oʻzgarishlarni saqlaydi."
 
-#: main/KexiMainWindow.cpp:4201
+#: main/KexiMainWindow.cpp:4234
 msgid "Do you want to save changes before printing?"
 msgstr "Bosib chiqarishdan oldin oʻzgarishlarni saqlashni istaysizmi?"
 
-#: main/KexiMainWindow.cpp:4203
+#: main/KexiMainWindow.cpp:4236
 #, fuzzy
 msgid "Do you want to save changes before making print preview?"
 msgstr "Bosib chiqarishdan oldin oʻzgarishlarni saqlashni istaysizmi?"
 
-#: main/KexiMainWindow.cpp:4205
+#: main/KexiMainWindow.cpp:4238
 #, fuzzy
 msgid "Do you want to save changes before showing page setup?"
 msgstr "Bosib chiqarishdan oldin oʻzgarishlarni saqlashni istaysizmi?"
@@ -4444,7 +4462,7 @@ msgstr "&Tafsilotlar"
 
 #: main/startup/KexiStartup.cpp:173 widget/kexidbconnectionwidget.cpp:401
 #: widget/KexiProjectSelectorWidget.cpp:308
-#: widget/navigator/KexiProjectNavigator.cpp:110
+#: widget/navigator/KexiProjectNavigator.cpp:112
 msgid "&Open"
 msgstr "&Ochish"
 
@@ -5896,7 +5914,7 @@ msgid "Copy"
 msgstr "Nusxa olinmoqda"
 
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:66
-#: widget/navigator/KexiProjectNavigator.cpp:173
+#: widget/navigator/KexiProjectNavigator.cpp:176
 #, fuzzy
 msgid "Export"
 msgstr "&Eksport qilish"
@@ -6489,12 +6507,18 @@ msgstr "Yangi obʼekt yaratish"
 msgid "SQL"
 msgstr ""
 
-#: plugins/queries/kexiquerypart.cpp:200
+#: plugins/queries/kexiquerypart.cpp:62
+#, kde-format
+msgctxt "@info Object \"objectname\""
+msgid "%1 <resource>%2</resource>"
+msgstr ""
+
+#: plugins/queries/kexiquerypart.cpp:201
 #, fuzzy, kde-format
 msgid "Design of query \"%1\" has been modified."
 msgstr "\"%1\" hisoboti dizayni oʻzgartirildi."
 
-#: plugins/queries/kexiquerypart.cpp:202
+#: plugins/queries/kexiquerypart.cpp:203
 #, kde-format
 msgid "Query \"%1\" already exists."
 msgstr "\"%1\" soʻrovi allaqachon mavjud."
@@ -7217,36 +7241,43 @@ msgctxt "what's this"
 msgid "Creates new table."
 msgstr "Yangi obʼekt yaratish"
 
-#: plugins/tables/kexitablepart.cpp:137
+#: plugins/tables/kexitablepart.cpp:136
 #, kde-format
 msgid ""
-"You are about to remove table \"%1\" but following objects using this table "
-"are opened:"
+"You are about to remove table <resource>%1</resource> but following objects "
+"using this table are opened:"
 msgstr ""
 
-#: plugins/tables/kexitablepart.cpp:189
+#: plugins/tables/kexitablepart.cpp:155
+#, kde-format
+msgid ""
+"You are about to rename table <resource>%1</resource> but following objects "
+"using this table are opened:"
+msgstr ""
+
+#: plugins/tables/kexitablepart.cpp:196
 msgid "Do you want to close all windows for these objects?"
 msgstr "Ushbu obʼektlar uchun barcha oynalarni yopishni istaysizmi?"
 
-#: plugins/tables/kexitablepart.cpp:190
+#: plugins/tables/kexitablepart.cpp:198
 msgid "Close windows"
 msgstr "Oynalarni yopish"
 
-#: plugins/tables/kexitablepart.cpp:208
+#: plugins/tables/kexitablepart.cpp:216
 #, fuzzy, kde-format
 msgid "Design of table \"%1\" has been modified."
 msgstr "\"%1\" hisoboti dizayni oʻzgartirildi."
 
-#: plugins/tables/kexitablepart.cpp:211
+#: plugins/tables/kexitablepart.cpp:219
 #, kde-format
 msgid "Table \"%1\" already exists."
 msgstr "\"%1\" jadvali allaqachon mavjud."
 
-#: plugins/tables/kexitablepart.cpp:215
+#: plugins/tables/kexitablepart.cpp:223
 msgid "Warning! Any data in this table will be removed upon design's saving!"
 msgstr ""
 
-#: plugins/tables/kexitablepart.cpp:245
+#: plugins/tables/kexitablepart.cpp:253
 #, fuzzy
 msgid "Lookup column"
 msgstr "Soʻrov ustuni"
@@ -7610,37 +7641,37 @@ msgstr ""
 "\"%1\" fayli allaqachon mavjud.\n"
 "Uni almashtirishni istaysizmi?"
 
-#: widget/KexiNameDialog.cpp:124
+#: widget/KexiNameDialog.cpp:126
 msgid "Please choose other name."
 msgstr "Iltimos boshqa nom tanlang."
 
-#: widget/KexiNameDialog.cpp:131
+#: widget/KexiNameDialog.cpp:133
 msgid "Do you want to replace it?"
 msgstr "Uni almashtirishni istaysizmi?"
 
-#: widget/KexiNameDialog.cpp:134
+#: widget/KexiNameDialog.cpp:136
 #, fuzzy
 #| msgid "Create object"
 msgid "Replace object"
 msgstr "Obʼekt yaratish"
 
-#: widget/KexiNameDialog.cpp:137
+#: widget/KexiNameDialog.cpp:139
 msgid "&Choose Other Name..."
 msgstr "Boshqa nom &tanlash..."
 
-#: widget/KexiNameWidget.cpp:74
+#: widget/KexiNameWidget.cpp:75
 msgid "Caption:"
 msgstr "Sarlavha:"
 
-#: widget/KexiNameWidget.cpp:79
+#: widget/KexiNameWidget.cpp:80
 msgid "Name:"
 msgstr "Nomi:"
 
-#: widget/KexiNameWidget.cpp:104
+#: widget/KexiNameWidget.cpp:107
 msgid "Please enter the name."
 msgstr "Iltimos nomini kiriting."
 
-#: widget/KexiNameWidget.cpp:105
+#: widget/KexiNameWidget.cpp:108
 msgid "Please enter the caption."
 msgstr "Iltimos sarlavhani kiriting."
 
@@ -7725,153 +7756,165 @@ msgstr ""
 "Tashqi\n"
 "maydon"
 
-#: widget/navigator/KexiProjectNavigator.cpp:72
+#: widget/navigator/KexiProjectNavigator.cpp:74
 #, fuzzy
 msgid "Project Navigator"
 msgstr "Loyiha navigatori"
 
-#: widget/navigator/KexiProjectNavigator.cpp:111
+#: widget/navigator/KexiProjectNavigator.cpp:113
 #, fuzzy
 msgid "Open object"
 msgstr "Obʼektni ochish"
 
-#: widget/navigator/KexiProjectNavigator.cpp:111
+#: widget/navigator/KexiProjectNavigator.cpp:113
 #, fuzzy
 #| msgid "Opens object selected in the list"
 msgid "Opens object selected in the list."
 msgstr "Roʻyxatdan tanlangan obʼektni ochish"
 
-#: widget/navigator/KexiProjectNavigator.cpp:129
+#: widget/navigator/KexiProjectNavigator.cpp:131
 #, fuzzy
 msgid "&Delete..."
 msgstr "Satrni &olib tashlash"
 
-#: widget/navigator/KexiProjectNavigator.cpp:130
+#: widget/navigator/KexiProjectNavigator.cpp:132
 #, fuzzy
 #| msgid "Delete Object"
 msgid "Delete object"
 msgstr "Obʼektni olib tashlash"
 
-#: widget/navigator/KexiProjectNavigator.cpp:131
+#: widget/navigator/KexiProjectNavigator.cpp:133
 #, fuzzy
 #| msgid "Opens object selected in the list"
 msgid "Deletes the object selected in the list."
 msgstr "Roʻyxatdan tanlangan obʼektni ochish"
 
-#: widget/navigator/KexiProjectNavigator.cpp:134
+#: widget/navigator/KexiProjectNavigator.cpp:136
 #, fuzzy
 #| msgid "&Rename"
 msgid "&Rename..."
 msgstr "&Nomini oʻzgartirish"
 
-#: widget/navigator/KexiProjectNavigator.cpp:135
+#: widget/navigator/KexiProjectNavigator.cpp:137
 #, fuzzy
 #| msgid "Create object"
 msgid "Rename object"
 msgstr "Obʼekt yaratish"
 
-#: widget/navigator/KexiProjectNavigator.cpp:136
+#: widget/navigator/KexiProjectNavigator.cpp:138
 #, fuzzy
 #| msgid "Opens object selected in the list"
 msgid "Renames the object selected in the list."
 msgstr "Roʻyxatdan tanlangan obʼektni ochish"
 
-#: widget/navigator/KexiProjectNavigator.cpp:144
+#: widget/navigator/KexiProjectNavigator.cpp:147
 msgid "&Design"
 msgstr "&Dizayn"
 
-#: widget/navigator/KexiProjectNavigator.cpp:145
+#: widget/navigator/KexiProjectNavigator.cpp:148
 #, fuzzy
 msgid "Design object"
 msgstr "Obʼektni olib tashlash"
 
-#: widget/navigator/KexiProjectNavigator.cpp:146
+#: widget/navigator/KexiProjectNavigator.cpp:149
 #, fuzzy
 msgid "Starts designing of the object selected in the list."
 msgstr "Roʻyxatdan tanlangan obʼektni ochish"
 
-#: widget/navigator/KexiProjectNavigator.cpp:154
+#: widget/navigator/KexiProjectNavigator.cpp:157
 #, fuzzy
 #| msgid "Open in &Text View"
 msgid "Design in &Text View"
 msgstr "&Matn koʻrinishida ochish"
 
-#: widget/navigator/KexiProjectNavigator.cpp:155
+#: widget/navigator/KexiProjectNavigator.cpp:158
 #, fuzzy
 msgid "Design object in text view"
 msgstr "Obʼektni matn koʻrinishida ochish"
 
-#: widget/navigator/KexiProjectNavigator.cpp:156
+#: widget/navigator/KexiProjectNavigator.cpp:159
 #, fuzzy
 msgid "Starts designing of the object in the list in text view."
 msgstr "Roʻyxatdan tanlangan obʼektni ochish"
 
-#: widget/navigator/KexiProjectNavigator.cpp:175
+#: widget/navigator/KexiProjectNavigator.cpp:178
 #, fuzzy
 #| msgid "To clipboard:"
 msgctxt "Export->To Clipboard as Data... "
 msgid "To &Clipboard..."
 msgstr "Xotiraga olish:"
 
-#: widget/navigator/KexiProjectNavigator.cpp:176
+#: widget/navigator/KexiProjectNavigator.cpp:179
 #, fuzzy
 #| msgid "Exporting data from table:"
 msgid "Export data to clipboard"
 msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
 
-#: widget/navigator/KexiProjectNavigator.cpp:177
+#: widget/navigator/KexiProjectNavigator.cpp:180
 #, fuzzy
 msgid "Exports data from the currently selected table or query to clipboard."
 msgstr "Pastga yangi boʻsh qator qoʻshish"
 
-#: widget/navigator/KexiProjectNavigator.cpp:182
+#: widget/navigator/KexiProjectNavigator.cpp:185
 #, fuzzy
 msgctxt "Export->To File As Data &Table... "
 msgid "To &File As Data Table..."
 msgstr "Maʼlumotlar &jadvali..."
 
-#: widget/navigator/KexiProjectNavigator.cpp:183
+#: widget/navigator/KexiProjectNavigator.cpp:186
 #, fuzzy
 #| msgid "Exporting data from table:"
 msgid "Export data to a file"
 msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
 
-#: widget/navigator/KexiProjectNavigator.cpp:184
+#: widget/navigator/KexiProjectNavigator.cpp:187
 #, fuzzy
 msgid "Exports data from the currently selected table or query to a file."
 msgstr "Pastga yangi boʻsh qator qoʻshish"
 
-#: widget/navigator/KexiProjectNavigator.cpp:189
+#: widget/navigator/KexiProjectNavigator.cpp:192
 #, fuzzy
 msgid "&Print..."
 msgstr "&Shrift..."
 
-#: widget/navigator/KexiProjectNavigator.cpp:190
+#: widget/navigator/KexiProjectNavigator.cpp:193
 #, fuzzy
 msgid "Print data"
 msgstr "Bosib chiqarish"
 
-#: widget/navigator/KexiProjectNavigator.cpp:191
+#: widget/navigator/KexiProjectNavigator.cpp:194
 msgid "Prints data from the currently selected table or query."
 msgstr ""
 
-#: widget/navigator/KexiProjectNavigator.cpp:195
+#: widget/navigator/KexiProjectNavigator.cpp:198
 #, fuzzy
 msgid "Page Setup..."
 msgstr "Sahifa moslamasi..."
 
-#: widget/navigator/KexiProjectNavigator.cpp:196
+#: widget/navigator/KexiProjectNavigator.cpp:199
 msgid "Page setup for data"
 msgstr ""
 
-#: widget/navigator/KexiProjectNavigator.cpp:368
+#: widget/navigator/KexiProjectNavigator.cpp:369
 #, kde-format
 msgid "&Create Object: %1..."
 msgstr "Obʼekt &yaratish: %1..."
 
-#: widget/navigator/KexiProjectNavigator.cpp:381
+#: widget/navigator/KexiProjectNavigator.cpp:382
 msgid "&Create Object..."
 msgstr "Obʼekt &yaratish..."
+
+#: widget/navigator/KexiProjectNavigator.cpp:487
+#, kde-format
+msgctxt "@info Rename object %1:"
+msgid "Rename <resource>%1</resource>:"
+msgstr ""
+
+#: widget/navigator/KexiProjectNavigator.cpp:498
+#, kde-format
+msgctxt "@title:window Rename Object %1."
+msgid "Rename <resource>%1</resource>"
+msgstr ""
 
 #: widget/pixmapcollection.cpp:151
 msgid "Load KDE Icon by Name"
