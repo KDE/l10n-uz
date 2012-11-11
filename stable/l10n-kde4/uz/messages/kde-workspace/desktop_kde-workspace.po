@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-05 07:20+0000\n"
+"POT-Creation-Date: 2012-11-11 07:01+0000\n"
 "PO-Revision-Date: 2008-06-02 22:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,6 +17,19 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: appmenu/appmenu.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Manuals"
+msgctxt "Name"
+msgid "Application menus daemon"
+msgstr "Dasturlar uchun qoʻllanmalar"
+
+#: appmenu/appmenu.desktop:25
+msgctxt "Comment"
+msgid "Transfers application's menu to the desktop"
+msgstr ""
+
 #: freespacenotifier/freespacenotifier.desktop:2
 #, fuzzy
 #| msgctxt "Comment"
@@ -25,7 +38,7 @@ msgctxt "Name"
 msgid "Free Space Notifier"
 msgstr "Yangi MO uskunasi"
 
-#: freespacenotifier/freespacenotifier.desktop:63
+#: freespacenotifier/freespacenotifier.desktop:64
 msgctxt "Comment"
 msgid "Warns when running out of space on your home folder"
 msgstr ""
@@ -36,29 +49,29 @@ msgctxt "Comment"
 msgid "KDE Free Space Notifier Daemon"
 msgstr "Saqlash uskunalar uchun demon"
 
-#: freespacenotifier/freespacenotifier.notifyrc:65
+#: freespacenotifier/freespacenotifier.notifyrc:66
 msgctxt "Name"
 msgid "Low Disk Space"
 msgstr ""
 
-#: freespacenotifier/freespacenotifier.notifyrc:130
-#: powerdevil/powerdevil.notifyrc:113
+#: freespacenotifier/freespacenotifier.notifyrc:132
+#: powerdevil/powerdevil.notifyrc:85
 msgctxt "Name"
 msgid "Warning"
 msgstr "Ogohnoma"
 
-#: freespacenotifier/freespacenotifier.notifyrc:217
-#: powerdevil/powerdevil.notifyrc:200
+#: freespacenotifier/freespacenotifier.notifyrc:219
+#: powerdevil/powerdevil.notifyrc:172
 msgctxt "Comment"
 msgid "Used for warning notifications"
 msgstr ""
 
-#: freespacenotifier/freespacenotifier.notifyrc:292
+#: freespacenotifier/freespacenotifier.notifyrc:294
 msgctxt "Name"
 msgid "Running low on disk space"
 msgstr ""
 
-#: freespacenotifier/freespacenotifier.notifyrc:353
+#: freespacenotifier/freespacenotifier.notifyrc:356
 msgctxt "Comment"
 msgid "You are running low on disk space"
 msgstr ""
@@ -198,12 +211,10 @@ msgstr "Avto-boshlash"
 
 #: kcontrol/autostart/autostart.desktop:103
 msgctxt "Comment"
-msgid ""
-"A configuration tool for managing which programs start up automatically with "
-"KDE."
+msgid "Manage which programs start up automatically with KDE."
 msgstr ""
 
-#: kcontrol/autostart/autostart.desktop:139
+#: kcontrol/autostart/autostart.desktop:125
 msgctxt "X-KDE-Keywords"
 msgid "Autostart Manager,autostart,startup,system startup,kde start,cron"
 msgstr ""
@@ -238,7 +249,7 @@ msgctxt "Comment"
 msgid "Change the colors used in applications"
 msgstr "Dasturlarni ishga tushiruvchi vosita"
 
-#: kcontrol/colors/colors.desktop:144
+#: kcontrol/colors/colors.desktop:145
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid "colors,colours,scheme,contrast,Widget colors,Color Scheme"
@@ -317,12 +328,12 @@ msgctxt "Name"
 msgid "Desktop Theme"
 msgstr "Ish stolining peyjeri"
 
-#: kcontrol/desktoptheme/desktoptheme.desktop:75
+#: kcontrol/desktoptheme/desktoptheme.desktop:76
 msgctxt "Comment"
 msgid "Customize the desktop theme"
 msgstr ""
 
-#: kcontrol/desktoptheme/desktoptheme.desktop:137
+#: kcontrol/desktoptheme/desktoptheme.desktop:139
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Desktop Pager"
@@ -396,12 +407,12 @@ msgctxt "Name"
 msgid "Cursor Theme"
 msgstr "Kursor fayllari"
 
-#: kcontrol/input/cursortheme.desktop:71
+#: kcontrol/input/cursortheme.desktop:72
 msgctxt "Comment"
 msgid "Customize the mouse cursor appearance"
 msgstr ""
 
-#: kcontrol/input/cursortheme.desktop:127
+#: kcontrol/input/cursortheme.desktop:129
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Mouse,Cursor,Theme,Cursor Appearance,Cursor Color,Cursor Theme,Mouse Theme,"
@@ -540,12 +551,12 @@ msgctxt "Name"
 msgid "Font Management"
 msgstr "Fayl boshqaruvi"
 
-#: kcontrol/kfontinst/kcmfontinst/fontinst.desktop:60
+#: kcontrol/kfontinst/kcmfontinst/fontinst.desktop:61
 msgctxt "Comment"
 msgid "Install, manage, and preview fonts"
 msgstr "Shriftlarni oʻrnatish va koʻrib chiqish"
 
-#: kcontrol/kfontinst/kcmfontinst/fontinst.desktop:145
+#: kcontrol/kfontinst/kcmfontinst/fontinst.desktop:146
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid "font,fonts,installer,truetype,type1,speedo,bitmap"
@@ -630,21 +641,27 @@ msgstr ""
 "vertikal"
 
 #: kcontrol/screensaver/screensaver.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
 msgctxt "Name"
-msgid "Screen Saver"
+msgid "Screen Locker"
 msgstr "Ekran saqlovchisi"
 
-#: kcontrol/screensaver/screensaver.desktop:106
+#: kcontrol/screensaver/screensaver.desktop:40
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Screen Saver Settings"
 msgctxt "Comment"
-msgid "Screen Saver Settings"
+msgid "Screen Locker Settings"
 msgstr "Ekran saqlovchisining moslamalari"
 
-#: kcontrol/screensaver/screensaver.desktop:199
+#: kcontrol/screensaver/screensaver.desktop:66
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid "screensavers,Priority"
 msgctxt "X-KDE-Keywords"
-msgid "screensavers,Priority"
+msgid "screensavers,Priority,locking,security"
 msgstr "ekran saqlovchilari,Muhimlik darajasi"
 
 #: kcontrol/smartcard/smartcard.desktop:15
@@ -694,6 +711,29 @@ msgid ""
 msgstr ""
 "Tugmalar,Umumiy tugmalar birikmasi,Tugma qolipi,Tugmalar birikmasi,tugma va "
 "dastur birikmasi"
+
+#: kcontrol/style/kcmstyle.notifyrc:3
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Calendar Manager"
+msgctxt "Name"
+msgid "Menubar manager"
+msgstr "Kalendar boshqaruvchisi"
+
+#: kcontrol/style/kcmstyle.notifyrc:4
+msgctxt "Comment"
+msgid "Menubar exporter"
+msgstr ""
+
+#: kcontrol/style/kcmstyle.notifyrc:7
+msgctxt "Name"
+msgid "Menubar changed"
+msgstr ""
+
+#: kcontrol/style/kcmstyle.notifyrc:8
+msgctxt "Comment"
+msgid "Settings changes will take effect only on application restart"
+msgstr ""
 
 #: kcontrol/style/style.desktop:15
 msgctxt "Name"
@@ -808,24 +848,24 @@ msgid ""
 "Administrator authorization is required to change the Login Manager settings"
 msgstr ""
 
-#: kdm/kcm/kcmkdm_actions.actions:187
+#: kdm/kcm/kcmkdm_actions.actions:188
 msgctxt "Name"
 msgid "Manage user images shown in the Login Manager"
 msgstr ""
 
-#: kdm/kcm/kcmkdm_actions.actions:246
+#: kdm/kcm/kcmkdm_actions.actions:248
 msgctxt "Description"
 msgid ""
 "Administrator authorization is required to manage user images for the Login "
 "Manager"
 msgstr ""
 
-#: kdm/kcm/kcmkdm_actions.actions:308
+#: kdm/kcm/kcmkdm_actions.actions:311
 msgctxt "Name"
 msgid "Manage themes for the Login Manager"
 msgstr ""
 
-#: kdm/kcm/kcmkdm_actions.actions:367
+#: kdm/kcm/kcmkdm_actions.actions:371
 msgctxt "Description"
 msgid ""
 "Administrator authorization is required to manage themes for the Login "
@@ -840,12 +880,12 @@ msgctxt "Name"
 msgid "Login Screen"
 msgstr "Printer"
 
-#: kdm/kcm/kdm.desktop:76
+#: kdm/kcm/kdm.desktop:77
 msgctxt "Comment"
 msgid "Configure the login manager (KDM)"
 msgstr "Tizimga kirish boshqaruvchisini (KDM) moslash"
 
-#: kdm/kcm/kdm.desktop:168
+#: kdm/kcm/kdm.desktop:169
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid ""
@@ -1115,7 +1155,7 @@ msgctxt "Name"
 msgid "KDE Plasma Workspace"
 msgstr "KDE unumdorligi"
 
-#: kdm/kfrontend/sessions/kde-plasma.desktop.cmake:55
+#: kdm/kfrontend/sessions/kde-plasma.desktop.cmake:56
 msgctxt "Comment"
 msgid "The desktop made by KDE"
 msgstr ""
@@ -1125,7 +1165,7 @@ msgctxt "Name"
 msgid "KDE Plasma Workspace (failsafe session)"
 msgstr ""
 
-#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:54
+#: kdm/kfrontend/sessions/kde-plasma-safe.desktop.cmake:55
 msgctxt "Comment"
 msgid "The desktop made by KDE (failsafe session)"
 msgstr ""
@@ -1155,7 +1195,7 @@ msgctxt "Name"
 msgid "LXDE"
 msgstr ""
 
-#: kdm/kfrontend/sessions/lxde.desktop:68
+#: kdm/kfrontend/sessions/lxde.desktop:69
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The UNIX Desktop Environment"
@@ -1377,7 +1417,7 @@ msgctxt "Name"
 msgid "Xfce 4"
 msgstr "XFce 4"
 
-#: kdm/kfrontend/sessions/xfce4.desktop:56
+#: kdm/kfrontend/sessions/xfce4.desktop:57
 msgctxt "Comment"
 msgid ""
 "The Cholesterol Free Desktop Environment, version 4. A desktop environment "
@@ -1477,8 +1517,8 @@ msgstr "PHP qidirish"
 
 #: khotkeys/./data/defaults.khotkeys:309 khotkeys/./data/kde32b1.khotkeys:526
 #: khotkeys/./data/kde32b1.khotkeys:768 khotkeys/./data/kde32b1.khotkeys:1028
-#: khotkeys/./data/kde32b1.khotkeys:1486 khotkeys/./data/kde32b1.khotkeys:1907
-#: khotkeys/./data/kde32b1.khotkeys:3335
+#: khotkeys/./data/kde32b1.khotkeys:1488 khotkeys/./data/kde32b1.khotkeys:1909
+#: khotkeys/./data/kde32b1.khotkeys:3337
 #: khotkeys/./data/printscreen.khotkeys:350
 msgctxt "Comment"
 msgid "Simple_action"
@@ -1572,12 +1612,12 @@ msgid ""
 "title."
 msgstr ""
 
-#: khotkeys/./data/kde32b1.khotkeys:1158
+#: khotkeys/./data/kde32b1.khotkeys:1159
 msgctxt "Name"
 msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
 msgstr ""
 
-#: khotkeys/./data/kde32b1.khotkeys:1251
+#: khotkeys/./data/kde32b1.khotkeys:1252
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Qt Designer"
@@ -1585,7 +1625,7 @@ msgctxt "Comment"
 msgid "Qt Designer"
 msgstr "Qt3 dizayner"
 
-#: khotkeys/./data/kde32b1.khotkeys:1356
+#: khotkeys/./data/kde32b1.khotkeys:1357
 msgctxt "Comment"
 msgid ""
 "By pressing Alt+Ctrl+W a D-Bus call will be performed that will show the "
@@ -1593,12 +1633,12 @@ msgid ""
 "line 'qdbus' tool."
 msgstr ""
 
-#: khotkeys/./data/kde32b1.khotkeys:1421
+#: khotkeys/./data/kde32b1.khotkeys:1422
 msgctxt "Name"
 msgid "Perform D-Bus call 'qdbus org.kde.krunner /App display'"
 msgstr ""
 
-#: khotkeys/./data/kde32b1.khotkeys:1571
+#: khotkeys/./data/kde32b1.khotkeys:1573
 msgctxt "Comment"
 msgid ""
 "Read the comment on the \"Type 'Hello'\" action first.\\n\\nJust like the "
@@ -1611,22 +1651,22 @@ msgid ""
 "on the XMMS window and search for WM_CLASS to see 'XMMS_Player')."
 msgstr ""
 
-#: khotkeys/./data/kde32b1.khotkeys:1630
+#: khotkeys/./data/kde32b1.khotkeys:1632
 msgctxt "Name"
 msgid "Next in XMMS"
 msgstr ""
 
-#: khotkeys/./data/kde32b1.khotkeys:1724
+#: khotkeys/./data/kde32b1.khotkeys:1726
 msgctxt "Comment"
 msgid "XMMS window"
 msgstr "XMMS oynasi"
 
-#: khotkeys/./data/kde32b1.khotkeys:1814
+#: khotkeys/./data/kde32b1.khotkeys:1816
 msgctxt "Comment"
 msgid "XMMS Player window"
 msgstr ""
 
-#: khotkeys/./data/kde32b1.khotkeys:1992
+#: khotkeys/./data/kde32b1.khotkeys:1994
 msgctxt "Comment"
 msgid ""
 "Konqueror in KDE3.1 has tabs, and now you can also have gestures.\\n\\nJust "
@@ -1649,32 +1689,32 @@ msgid ""
 "window is Konqueror (class contains 'konqueror')."
 msgstr ""
 
-#: khotkeys/./data/kde32b1.khotkeys:2052
+#: khotkeys/./data/kde32b1.khotkeys:2054
 msgctxt "Name"
 msgid "Konqi Gestures"
 msgstr ""
 
-#: khotkeys/./data/kde32b1.khotkeys:2134
+#: khotkeys/./data/kde32b1.khotkeys:2136
 #: khotkeys/./data/konqueror_gestures_kde321.khotkeys:170
 msgctxt "Comment"
 msgid "Konqueror window"
 msgstr "Konqueror oynasi"
 
-#: khotkeys/./data/kde32b1.khotkeys:2225 khotkeys/./data/kde32b1.khotkeys:2316
+#: khotkeys/./data/kde32b1.khotkeys:2227 khotkeys/./data/kde32b1.khotkeys:2318
 #: khotkeys/./data/konqueror_gestures_kde321.khotkeys:261
 #: khotkeys/./data/konqueror_gestures_kde321.khotkeys:352
 msgctxt "Comment"
 msgid "Konqueror"
 msgstr "Konqueror"
 
-#: khotkeys/./data/kde32b1.khotkeys:2412
+#: khotkeys/./data/kde32b1.khotkeys:2414
 #: khotkeys/./data/konqueror_gestures_kde321.khotkeys:526
 msgctxt "Name"
 msgid "Back"
 msgstr "Orqaga"
 
-#: khotkeys/./data/kde32b1.khotkeys:2514 khotkeys/./data/kde32b1.khotkeys:2705
-#: khotkeys/./data/kde32b1.khotkeys:2896 khotkeys/./data/kde32b1.khotkeys:3087
+#: khotkeys/./data/kde32b1.khotkeys:2516 khotkeys/./data/kde32b1.khotkeys:2707
+#: khotkeys/./data/kde32b1.khotkeys:2898 khotkeys/./data/kde32b1.khotkeys:3089
 #: khotkeys/./data/konqueror_gestures_kde321.khotkeys:787
 #: khotkeys/./data/konqueror_gestures_kde321.khotkeys:1038
 #: khotkeys/./data/konqueror_gestures_kde321.khotkeys:1276
@@ -1693,25 +1733,25 @@ msgctxt "Comment"
 msgid "Gesture_triggers"
 msgstr ""
 
-#: khotkeys/./data/kde32b1.khotkeys:2603
+#: khotkeys/./data/kde32b1.khotkeys:2605
 #: khotkeys/./data/konqueror_gestures_kde321.khotkeys:2552
 msgctxt "Name"
 msgid "Forward"
 msgstr "Oldinga"
 
-#: khotkeys/./data/kde32b1.khotkeys:2794
+#: khotkeys/./data/kde32b1.khotkeys:2796
 #: khotkeys/./data/konqueror_gestures_kde321.khotkeys:936
 msgctxt "Name"
 msgid "Up"
 msgstr "Yuqoriga"
 
-#: khotkeys/./data/kde32b1.khotkeys:2985
+#: khotkeys/./data/kde32b1.khotkeys:2987
 #: khotkeys/./data/konqueror_gestures_kde321.khotkeys:3844
 msgctxt "Name"
 msgid "Reload"
 msgstr "Qaytadan yuklash"
 
-#: khotkeys/./data/kde32b1.khotkeys:3174
+#: khotkeys/./data/kde32b1.khotkeys:3176
 msgctxt "Comment"
 msgid ""
 "After pressing Win+E (Tux+E) a WWW browser will be launched, and it will "
@@ -1719,7 +1759,7 @@ msgid ""
 "minicli (Alt+F2)."
 msgstr ""
 
-#: khotkeys/./data/kde32b1.khotkeys:3239
+#: khotkeys/./data/kde32b1.khotkeys:3241
 msgctxt "Name"
 msgid "Go to KDE Website"
 msgstr ""
@@ -1908,7 +1948,7 @@ msgctxt "Name"
 msgid "Custom Shortcuts"
 msgstr "Veb-qisqartmalari"
 
-#: khotkeys/kcm_hotkeys/khotkeys.desktop:74
+#: khotkeys/kcm_hotkeys/khotkeys.desktop:75
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure password settings"
@@ -1916,7 +1956,7 @@ msgctxt "Comment"
 msgid "Configure Input Actions settings"
 msgstr "Maxfiy soʻz moslamalarini moslash"
 
-#: khotkeys/kcm_hotkeys/khotkeys.desktop:143
+#: khotkeys/kcm_hotkeys/khotkeys.desktop:144
 msgctxt "X-KDE-Keywords"
 msgid ""
 "global,keyboard shortcuts,hot keys,hotkeys,KHotKeys,input actions,mouse "
@@ -1982,7 +2022,7 @@ msgctxt "Name"
 msgid "Device Viewer"
 msgstr "Rasm koʻruvchi"
 
-#: kinfocenter/Modules/devinfo/devinfo.desktop:75
+#: kinfocenter/Modules/devinfo/devinfo.desktop:76
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Picture Viewer"
@@ -1990,8 +2030,8 @@ msgctxt "Comment"
 msgid "Device Viewer"
 msgstr "Rasm koʻruvchi"
 
-#: kinfocenter/Modules/devinfo/devinfo.desktop:137
-#: kinfocenter/Modules/infosummary/kcm_infosummary.desktop:139
+#: kinfocenter/Modules/devinfo/devinfo.desktop:139
+#: kinfocenter/Modules/infosummary/kcm_infosummary.desktop:141
 msgctxt "X-KDE-Keywords"
 msgid "device,devices"
 msgstr ""
@@ -2074,7 +2114,7 @@ msgctxt "Name"
 msgid "Summary"
 msgstr ""
 
-#: kinfocenter/Modules/infosummary/kcm_infosummary.desktop:76
+#: kinfocenter/Modules/infosummary/kcm_infosummary.desktop:77
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Hardware"
@@ -2342,73 +2382,6 @@ msgctxt "Name"
 msgid "Command Runner"
 msgstr ""
 
-#: krunner/lock/kscreenlocker.notifyrc:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Comment"
-msgid "Screen Saver"
-msgstr "Ekran saqlovchisi"
-
-#: krunner/lock/kscreenlocker.notifyrc:66
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Screen saver demos"
-msgctxt "Name"
-msgid "Screen saver started"
-msgstr "Ekran saqlovchilar namunalari"
-
-#: krunner/lock/kscreenlocker.notifyrc:133
-msgctxt "Comment"
-msgid "The screen saver has been started"
-msgstr ""
-
-#: krunner/lock/kscreenlocker.notifyrc:202
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Screen Saver"
-msgctxt "Name"
-msgid "Screen locked"
-msgstr "Ekran saqlovchisi"
-
-#: krunner/lock/kscreenlocker.notifyrc:269
-msgctxt "Comment"
-msgid "The screen has been locked"
-msgstr ""
-
-#: krunner/lock/kscreenlocker.notifyrc:339
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Screen saver demos"
-msgctxt "Name"
-msgid "Screen saver exited"
-msgstr "Ekran saqlovchilar namunalari"
-
-#: krunner/lock/kscreenlocker.notifyrc:405
-msgctxt "Comment"
-msgid "The screen saver has finished"
-msgstr ""
-
-#: krunner/lock/kscreenlocker.notifyrc:474
-msgctxt "Name"
-msgid "Screen unlocked"
-msgstr ""
-
-#: krunner/lock/kscreenlocker.notifyrc:541
-msgctxt "Comment"
-msgid "The screen has been unlocked"
-msgstr ""
-
-#: krunner/lock/kscreenlocker.notifyrc:609
-msgctxt "Name"
-msgid "Screen unlock failed"
-msgstr ""
-
-#: krunner/lock/kscreenlocker.notifyrc:676
-msgctxt "Comment"
-msgid "Failed attempt to unlock the screen"
-msgstr ""
-
 #: kscreensaver/kblank_screensaver/kblank.desktop:7
 msgctxt "Name"
 msgid "Blank Screen"
@@ -2450,12 +2423,12 @@ msgctxt "Name"
 msgid "Session Management"
 msgstr "Seans boshqaruvchisi"
 
-#: ksmserver/kcm/kcmsmserver.desktop:76
+#: ksmserver/kcm/kcmsmserver.desktop:77
 msgctxt "Comment"
 msgid "Configure the session manager and logout settings"
 msgstr "Seans boshqaruvchisini va chiqish moslamalarini moslash"
 
-#: ksmserver/kcm/kcmsmserver.desktop:166
+#: ksmserver/kcm/kcmsmserver.desktop:167
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid "ksmserver,session,logout,confirmation,save,restore"
@@ -2463,12 +2436,94 @@ msgctxt "X-KDE-Keywords"
 msgid "ksmserver,session,logout,confirmation,save,restore"
 msgstr "ksmserver,seans,chiqish,tasdiqlash,saqlash,tiklash"
 
+#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Passwords"
+msgctxt "Name"
+msgid "Password dialog"
+msgstr "Maxfiy soʻzlar"
+
+#: ksmserver/screenlocker/greeter/themes/org.kde.passworddialog/metadata.desktop:26
+msgctxt "Comment"
+msgid ""
+"Screen locker that provides a password dialog and an interface to switch the "
+"current user"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "Comment"
+msgid "Screen Saver"
+msgstr "Ekran saqlovchisi"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:67
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Screen saver demos"
+msgctxt "Name"
+msgid "Screen saver started"
+msgstr "Ekran saqlovchilar namunalari"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:134
+msgctxt "Comment"
+msgid "The screen saver has been started"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:203
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Saver"
+msgctxt "Name"
+msgid "Screen locked"
+msgstr "Ekran saqlovchisi"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:270
+msgctxt "Comment"
+msgid "The screen has been locked"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:340
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Screen saver demos"
+msgctxt "Name"
+msgid "Screen saver exited"
+msgstr "Ekran saqlovchilar namunalari"
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:406
+msgctxt "Comment"
+msgid "The screen saver has finished"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:475
+msgctxt "Name"
+msgid "Screen unlocked"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:542
+msgctxt "Comment"
+msgid "The screen has been unlocked"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:610
+msgctxt "Name"
+msgid "Screen unlock failed"
+msgstr ""
+
+#: ksmserver/screenlocker/kscreenlocker.notifyrc:677
+msgctxt "Comment"
+msgid "Failed attempt to unlock the screen"
+msgstr ""
+
 #: ksmserver/themes/contour/metadata.desktop:3
 msgctxt "Name"
 msgid "Contour"
 msgstr ""
 
-#: ksmserver/themes/contour/metadata.desktop:37
+#: ksmserver/themes/contour/metadata.desktop:38
 msgctxt "Comment"
 msgid "Plasma Active theme"
 msgstr ""
@@ -2478,7 +2533,7 @@ msgctxt "Name"
 msgid "Default"
 msgstr "Andoza"
 
-#: ksmserver/themes/default/metadata.desktop:88
+#: ksmserver/themes/default/metadata.desktop:89
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Desktop Pager"
@@ -2726,7 +2781,7 @@ msgctxt "Comment"
 msgid "System Monitor"
 msgstr "Tizimni nazorat qilish"
 
-#: ksysguard/example/ksysguard.notifyrc:67
+#: ksysguard/example/ksysguard.notifyrc:68
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "pattern_match"
@@ -2734,7 +2789,7 @@ msgctxt "Name"
 msgid "Pattern Matched"
 msgstr "pattern_match"
 
-#: ksysguard/example/ksysguard.notifyrc:146
+#: ksysguard/example/ksysguard.notifyrc:147
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "pattern_match"
@@ -2742,7 +2797,7 @@ msgctxt "Comment"
 msgid "Search pattern matched"
 msgstr "pattern_match"
 
-#: ksysguard/example/ksysguard.notifyrc:229
+#: ksysguard/example/ksysguard.notifyrc:230
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "sensor_alarm"
@@ -2750,27 +2805,53 @@ msgctxt "Name"
 msgid "Sensor Alarm"
 msgstr "sensor_alarm"
 
-#: ksysguard/example/ksysguard.notifyrc:308
+#: ksysguard/example/ksysguard.notifyrc:309
 msgctxt "Comment"
 msgid "Sensor exceeded critical limit"
 msgstr "Sensor havfli chegaradan oʻtdi"
 
 #: ksysguard/gui/ksysguard.desktop:2
-#: plasma/generic/applets/system-monitor/plasma-applet-system-monitor.desktop:2
-#: plasma/generic/dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:3
-#, fuzzy
+#: libs/ksysguard/processcore/actions.actions:2
 msgctxt "Name"
-msgid "System Monitor"
-msgstr "Tizimni nazorat qilish"
+msgid "KSysGuard"
+msgstr "KDE tizim nazoratchisi"
 
-#: ksysguard/gui/ksysguard.desktop:86
+#: ksysguard/gui/ksysguard.desktop:76
 msgctxt "GenericName"
 msgid "System Monitor"
 msgstr "Tizimni nazorat qilish"
 
+#: ktouchpadenabler/ktouchpadenabler.desktop:8
+msgctxt "Name"
+msgid "KDE TouchPad Enabler Daemon"
+msgstr ""
+
+#: ktouchpadenabler/ktouchpadenabler.desktop:37
+msgctxt "Comment"
+msgid "Toggles the enable status of the TouchPad"
+msgstr ""
+
 #: kwin/clients/aurorae/src/aurorae.desktop:2
 msgctxt "Name"
 msgid "Aurorae Decoration Theme Engine"
+msgstr ""
+
+#: kwin/clients/aurorae/src/kwindecoration.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Decorations"
+msgctxt "Comment"
+msgid "KWin Window Decoration"
+msgstr "Oynaning bezaklari"
+
+#: kwin/clients/aurorae/themes/plastik/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Plastik"
+msgstr "Plastik"
+
+#: kwin/clients/aurorae/themes/plastik/package/metadata.desktop:91
+msgctxt "Comment"
+msgid "The classic theme known from KDE 3"
 msgstr ""
 
 #: kwin/clients/b2/b2.desktop:2
@@ -2782,11 +2863,6 @@ msgstr "B II"
 msgctxt "Name"
 msgid "Laptop"
 msgstr "Laptop"
-
-#: kwin/clients/plastik/plastik.desktop:3
-msgctxt "Name"
-msgid "Plastik"
-msgstr "Plastik"
 
 #: kwin/./data/fsp_workarounds_1.kwinrules:2
 msgctxt "Description"
@@ -2882,7 +2958,7 @@ msgctxt "Name"
 msgid "Desktop Grid"
 msgstr "Ish stoli"
 
-#: kwin/effects/desktopgrid/desktopgrid.desktop:82
+#: kwin/effects/desktopgrid/desktopgrid.desktop:81
 msgctxt "Comment"
 msgid "Zoom out so all desktops are displayed side-by-side in a grid"
 msgstr ""
@@ -3080,6 +3156,19 @@ msgctxt "Comment"
 msgid "Magnify the section of the screen that is near the mouse cursor"
 msgstr ""
 
+#: kwin/effects/maximize/package/metadata.desktop:2
+msgctxt "Comment"
+msgid "Animation for a window going to maximize/restore from maximize"
+msgstr ""
+
+#: kwin/effects/maximize/package/metadata.desktop:21
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Maximize"
+msgctxt "Name"
+msgid "Maximize"
+msgstr "Oynani yoyish"
+
 #: kwin/effects/minimizeanimation/minimizeanimation.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -3091,6 +3180,22 @@ msgstr "Saqlash uskuna haqida maʼlumot"
 #: kwin/effects/minimizeanimation/minimizeanimation.desktop:82
 msgctxt "Comment"
 msgid "Animate the minimizing of windows"
+msgstr ""
+
+#: kwin/effects/mouseclick/mouseclick_config.desktop:9
+#: kwin/effects/mouseclick/mouseclick.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "More Applications"
+msgctxt "Name"
+msgid "Mouse Click Animation"
+msgstr "Boshqa dasturlar"
+
+#: kwin/effects/mouseclick/mouseclick.desktop:22
+msgctxt "Comment"
+msgid ""
+"Creates an animation whenever a mouse button is clicked. This is useful for "
+"screenrecordings/presentations."
 msgstr ""
 
 #: kwin/effects/mousemark/mousemark_config.desktop:9
@@ -3601,7 +3706,7 @@ msgctxt "X-KDE-Keywords"
 msgid "kwin script"
 msgstr "CGI skriptlar"
 
-#: kwin/kcmkwin/kwinscripts/kwinscripts.desktop:49
+#: kwin/kcmkwin/kwinscripts/kwinscripts.desktop:48
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "CGI Scripts"
@@ -3609,7 +3714,7 @@ msgctxt "Name"
 msgid "KWin Scripts"
 msgstr "CGI skriptlar"
 
-#: kwin/kcmkwin/kwinscripts/kwinscripts.desktop:86
+#: kwin/kcmkwin/kwinscripts/kwinscripts.desktop:84
 msgctxt "Comment"
 msgid "Manage KWin scripts"
 msgstr ""
@@ -4079,36 +4184,6 @@ msgid "Some effects are not supported by backend or hardware."
 msgstr ""
 
 #: kwin/kwin.notifyrc:7126
-msgctxt "Name"
-msgid "Tiling Enabled"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7182
-msgctxt "Comment"
-msgid "Tiling mode has been enabled"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7240
-msgctxt "Name"
-msgid "Tiling Disabled"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7296
-msgctxt "Comment"
-msgid "Tiling mode has been disabled"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7354
-msgctxt "Name"
-msgid "Tiling Layout Changed"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7410
-msgctxt "Comment"
-msgid "Tiling Layout has been changed"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7469
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Window Close"
@@ -4116,7 +4191,7 @@ msgctxt "Name"
 msgid "Window Fullscreen Set"
 msgstr "Oynani yopish"
 
-#: kwin/kwin.notifyrc:7502
+#: kwin/kwin.notifyrc:7159
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A window has begun resizing"
@@ -4124,7 +4199,7 @@ msgctxt "Comment"
 msgid "A window has been set to fullscreen"
 msgstr "Oynaning oʻlchami oʻzgarib boshladi"
 
-#: kwin/kwin.notifyrc:7538
+#: kwin/kwin.notifyrc:7195
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A Window is restored"
@@ -4132,7 +4207,7 @@ msgctxt "Name"
 msgid "Window Fullscreen Restored"
 msgstr "Oyna tiklangan"
 
-#: kwin/kwin.notifyrc:7571
+#: kwin/kwin.notifyrc:7227
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A window has begun resizing"
@@ -4181,7 +4256,7 @@ msgctxt "Name"
 msgid "Video Wall"
 msgstr "Video pleyer"
 
-#: kwin/scripts/videowall/metadata.desktop:37
+#: kwin/scripts/videowall/metadata.desktop:36
 msgctxt "Comment"
 msgid ""
 "Spans fullscreen video player over all attached screens to create a Video "
@@ -4204,7 +4279,7 @@ msgctxt "Name"
 msgid "Large Icons"
 msgstr "Nishonchalar"
 
-#: kwin/tabbox/qml/clients/big_icons/metadata.desktop:39
+#: kwin/tabbox/qml/clients/big_icons/metadata.desktop:38
 msgctxt "Comment"
 msgid "A window switcher layout using large icons to represent the window"
 msgstr ""
@@ -4214,7 +4289,7 @@ msgctxt "Name"
 msgid "Compact"
 msgstr ""
 
-#: kwin/tabbox/qml/clients/compact/metadata.desktop:39
+#: kwin/tabbox/qml/clients/compact/metadata.desktop:38
 msgctxt "Comment"
 msgid "A compact window switcher layout"
 msgstr ""
@@ -4227,7 +4302,7 @@ msgctxt "Name"
 msgid "Informative"
 msgstr "Maʼlumot"
 
-#: kwin/tabbox/qml/clients/informative/metadata.desktop:39
+#: kwin/tabbox/qml/clients/informative/metadata.desktop:38
 msgctxt "Comment"
 msgid "An informative window switcher layout including desktop name"
 msgstr ""
@@ -4237,7 +4312,7 @@ msgctxt "Name"
 msgid "Grid"
 msgstr ""
 
-#: kwin/tabbox/qml/clients/present_windows/metadata.desktop:41
+#: kwin/tabbox/qml/clients/present_windows/metadata.desktop:40
 msgctxt "Comment"
 msgid "A Window Switcher layout showing all windows as thumbnails in a grid"
 msgstr ""
@@ -4250,7 +4325,7 @@ msgctxt "Name"
 msgid "Small Icons"
 msgstr "Nishonchalar"
 
-#: kwin/tabbox/qml/clients/small_icons/metadata.desktop:38
+#: kwin/tabbox/qml/clients/small_icons/metadata.desktop:37
 msgctxt "Comment"
 msgid "A window switcher layout using small icons to represent the window"
 msgstr ""
@@ -4263,7 +4338,7 @@ msgctxt "Name"
 msgid "Text Icons"
 msgstr "Ish stolini moslash uchun yordamchi"
 
-#: kwin/tabbox/qml/clients/text/metadata.desktop:38
+#: kwin/tabbox/qml/clients/text/metadata.desktop:37
 msgctxt "Comment"
 msgid "A window switcher layout only showing window captions"
 msgstr ""
@@ -4286,7 +4361,7 @@ msgctxt "Name"
 msgid "Window Strip"
 msgstr "Oynalar roʻyxati"
 
-#: kwin/tabbox/qml/clients/window_strip/metadata.desktop:34
+#: kwin/tabbox/qml/clients/window_strip/metadata.desktop:35
 msgctxt "Comment"
 msgid "Window switcher layout for Plasma Active"
 msgstr ""
@@ -4336,11 +4411,6 @@ msgstr "Fayl boshqaruvi"
 msgctxt "Comment"
 msgid "Manages displays and video outputs"
 msgstr ""
-
-#: libs/ksysguard/processcore/actions.actions:2
-msgctxt "Name"
-msgid "KSysGuard"
-msgstr "KDE tizim nazoratchisi"
 
 #: libs/ksysguard/processcore/actions.actions:79
 msgctxt "Name"
@@ -4424,6 +4494,12 @@ msgctxt "Comment"
 msgid "Network Management Backend"
 msgstr "Tarmoqni tahlil qilish vositasi"
 
+#: libs/solid/control/solidremotecontrolmanager.desktop:5
+#, fuzzy
+msgctxt "Comment"
+msgid "Remote Control Management Backend"
+msgstr "Tarmoqni tahlil qilish vositasi"
+
 #: plasma/desktop/applets/kickoff/applet/plasma-applet-launcher.desktop:2
 #: plasma/generic/containmentactions/applauncher/plasma-containmentactions-applauncher.desktop:2
 msgctxt "Name"
@@ -4447,6 +4523,14 @@ msgstr "No-KDE dasturlarni ishga tushuruvchi"
 msgctxt "Comment"
 msgid "Traditional menu based application launcher"
 msgstr ""
+
+#: plasma/desktop/applets/pager/package/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KPager"
+msgctxt "Name"
+msgid "Pager (QML)"
+msgstr "KPager"
 
 #: plasma/desktop/applets/pager/plasma-pager-default.desktop:2
 #, fuzzy
@@ -4538,7 +4622,7 @@ msgctxt "Name|plasma containment"
 msgid "Default Desktop"
 msgstr "Andoza koʻk"
 
-#: plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:41
+#: plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:40
 msgctxt "Comment"
 msgid "A clean and simple layout"
 msgstr ""
@@ -4780,12 +4864,12 @@ msgctxt "Keywords"
 msgid "Lock, Logout, Sleep, Hibernate, Switch User"
 msgstr ""
 
-#: plasma/generic/applets/notifications/plasma-applet-notifications.desktop:2
+#: plasma/generic/applets/notifications/metadata.desktop:3
 msgctxt "Name"
 msgid "Notifications"
 msgstr "Xabarnomalar"
 
-#: plasma/generic/applets/notifications/plasma-applet-notifications.desktop:88
+#: plasma/generic/applets/notifications/metadata.desktop:89
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "KDE Notification Daemon"
@@ -4838,7 +4922,7 @@ msgctxt "Name"
 msgid "Hard Disk I/O Monitor"
 msgstr "Fayl boshqaruvi"
 
-#: plasma/generic/applets/system-monitor/plasma-applet-sm_hdd_activity.desktop:41
+#: plasma/generic/applets/system-monitor/plasma-applet-sm_hdd_activity.desktop:40
 msgctxt "Comment"
 msgid "An applet that monitors hard disk throughput and input/output"
 msgstr ""
@@ -4903,6 +4987,13 @@ msgstr ""
 msgctxt "Comment"
 msgid "A system temperature monitor"
 msgstr ""
+
+#: plasma/generic/applets/system-monitor/plasma-applet-system-monitor.desktop:2
+#: plasma/generic/dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:3
+#, fuzzy
+msgctxt "Name"
+msgid "System Monitor"
+msgstr "Tizimni nazorat qilish"
 
 #: plasma/generic/applets/system-monitor/plasma-applet-system-monitor.desktop:86
 #, fuzzy
@@ -5645,7 +5736,7 @@ msgctxt "Name"
 msgid "Nepomuk Desktop Search"
 msgstr "Ish stolining peyjeri"
 
-#: plasma/generic/runners/nepomuksearch/plasma-runner-nepomuksearch.desktop:38
+#: plasma/generic/runners/nepomuksearch/plasma-runner-nepomuksearch.desktop:37
 msgctxt "Comment"
 msgid "KRunner which performs desktop searches via Nepomuk"
 msgstr ""
@@ -6363,7 +6454,7 @@ msgctxt "Name"
 msgid "Activity Settings"
 msgstr "Xizmat boshqaruvchisi"
 
-#: powerdevil/kcmodule/activities/powerdevilactivitiesconfig.desktop:52
+#: powerdevil/kcmodule/activities/powerdevilactivitiesconfig.desktop:51
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Print Management Tool"
@@ -6371,7 +6462,7 @@ msgctxt "Comment"
 msgid "Configure per-activity Power Management"
 msgstr "Bosib chiqarishni boshqarish vositasi"
 
-#: powerdevil/kcmodule/activities/powerdevilactivitiesconfig.desktop:89
+#: powerdevil/kcmodule/activities/powerdevilactivitiesconfig.desktop:88
 msgctxt "X-KDE-Keywords"
 msgid ""
 "system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
@@ -6386,7 +6477,7 @@ msgctxt "Name"
 msgid "Advanced Settings"
 msgstr "Ekran saqlovchisining moslamalari"
 
-#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:52
+#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:51
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Print Management Tool"
@@ -6394,8 +6485,8 @@ msgctxt "Comment"
 msgid "Configure Advanced Power Management Settings"
 msgstr "Bosib chiqarishni boshqarish vositasi"
 
-#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:90
-#: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:90
+#: powerdevil/kcmodule/global/powerdevilglobalconfig.desktop:88
+#: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:88
 msgctxt "X-KDE-Keywords"
 msgid ""
 "system,power,power management,energy,laptop,battery,suspension,AC,suspend,"
@@ -6410,7 +6501,7 @@ msgctxt "Name"
 msgid "Energy Saving"
 msgstr "Ekran saqlovchisining moslamalari"
 
-#: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:52
+#: powerdevil/kcmodule/profiles/powerdevilprofilesconfig.desktop:51
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure password settings"
@@ -6429,22 +6520,22 @@ msgstr "Bosib chiqarishni boshqarish vositasi"
 #: powerdevil/powerdevil.notifyrc:58
 #, fuzzy
 #| msgctxt "Comment"
-#| msgid "Settings for display power management"
+#| msgid "Print Management Tool"
 msgctxt "Comment"
-msgid "Notifications for KDE Power Management system"
-msgstr "Displeyning elektr taʼminoti uchun moslamalar"
+msgid "Power Management System"
+msgstr "Bosib chiqarishni boshqarish vositasi"
 
-#: powerdevil/powerdevil.notifyrc:275
+#: powerdevil/powerdevil.notifyrc:247
 msgctxt "Name"
 msgid "Notification"
 msgstr "Xabarnoma"
 
-#: powerdevil/powerdevil.notifyrc:360
+#: powerdevil/powerdevil.notifyrc:332
 msgctxt "Comment"
 msgid "Used for standard notifications"
 msgstr ""
 
-#: powerdevil/powerdevil.notifyrc:435
+#: powerdevil/powerdevil.notifyrc:407
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Notification"
@@ -6452,37 +6543,33 @@ msgctxt "Name"
 msgid "Critical notification"
 msgstr "Xabarnoma"
 
-#: powerdevil/powerdevil.notifyrc:511
+#: powerdevil/powerdevil.notifyrc:483
 msgctxt "Comment"
 msgid "Notifies a critical event"
 msgstr ""
 
-#: powerdevil/powerdevil.notifyrc:587
+#: powerdevil/powerdevil.notifyrc:559
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Battery Monitor"
 msgctxt "Name"
-msgid "Low Battery"
-msgstr ""
+msgid "Battery Low"
+msgstr "Batareya nazoratchisi"
 
-#: powerdevil/powerdevil.notifyrc:661
+#: powerdevil/powerdevil.notifyrc:583
 msgctxt "Comment"
 msgid "Your battery has reached low level"
 msgstr ""
 
-#: powerdevil/powerdevil.notifyrc:742
+#: powerdevil/powerdevil.notifyrc:665
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Battery Monitor"
 msgctxt "Name"
-msgid "Battery at warning level"
-msgstr ""
+msgid "Battery Critical"
+msgstr "Batareya nazoratchisi"
 
-#: powerdevil/powerdevil.notifyrc:818
-msgctxt "Comment"
-msgid "Your battery has reached warning level"
-msgstr ""
-
-#: powerdevil/powerdevil.notifyrc:899
-msgctxt "Name"
-msgid "Battery at critical level"
-msgstr ""
-
-#: powerdevil/powerdevil.notifyrc:975
+#: powerdevil/powerdevil.notifyrc:689
 msgctxt "Comment"
 msgid ""
 "Your battery has reached critical level. This notification triggers a "
@@ -6490,7 +6577,17 @@ msgid ""
 "to leave that on."
 msgstr ""
 
-#: powerdevil/powerdevil.notifyrc:1048
+#: powerdevil/powerdevil.notifyrc:763
+msgctxt "Name"
+msgid "Charge Complete"
+msgstr ""
+
+#: powerdevil/powerdevil.notifyrc:787
+msgctxt "Comment"
+msgid "The battery is fully charged"
+msgstr ""
+
+#: powerdevil/powerdevil.notifyrc:816
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "A media plugged notifier"
@@ -6498,77 +6595,45 @@ msgctxt "Name"
 msgid "AC adaptor plugged in"
 msgstr "Saqlash uskunalar ulanganida xabar beruvchi"
 
-#: powerdevil/powerdevil.notifyrc:1124
+#: powerdevil/powerdevil.notifyrc:892
 msgctxt "Comment"
 msgid "The power adaptor has been plugged in"
 msgstr ""
 
-#: powerdevil/powerdevil.notifyrc:1205
+#: powerdevil/powerdevil.notifyrc:974
 msgctxt "Name"
 msgid "AC adaptor unplugged"
 msgstr ""
 
-#: powerdevil/powerdevil.notifyrc:1281
+#: powerdevil/powerdevil.notifyrc:1050
 msgctxt "Comment"
 msgid "The power adaptor has been unplugged"
 msgstr ""
 
-#: powerdevil/powerdevil.notifyrc:1362
-msgctxt "Name"
-msgid "Job error"
-msgstr ""
-
-#: powerdevil/powerdevil.notifyrc:1438
-msgctxt "Comment"
-msgid "There was an error while performing a job"
-msgstr ""
-
-#: powerdevil/powerdevil.notifyrc:1515
-msgctxt "Name"
-msgid "Profile Changed"
-msgstr ""
-
-#: powerdevil/powerdevil.notifyrc:1590
-msgctxt "Comment"
-msgid "The profile was changed"
-msgstr ""
-
-#: powerdevil/powerdevil.notifyrc:1670
-msgctxt "Name"
-msgid "Performing a suspension job"
-msgstr ""
-
-#: powerdevil/powerdevil.notifyrc:1741
-msgctxt "Comment"
-msgid ""
-"This notification is displayed when a suspension job is about to be done, "
-"and it triggers a countdown. Hence, it is strongly advised to leave it on."
-msgstr ""
-
-#: powerdevil/powerdevil.notifyrc:1810
+#: powerdevil/powerdevil.notifyrc:1132
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Internal Services"
+#| msgid "Fatal Error"
 msgctxt "Name"
-msgid "Internal KDE Power Management System Error"
-msgstr "Ichki xizmatlar"
+msgid "Internal Error"
+msgstr "Juda jiddiy xato"
 
-#: powerdevil/powerdevil.notifyrc:1864
+#: powerdevil/powerdevil.notifyrc:1156
 msgctxt "Comment"
 msgid "The KDE Power Management System has triggered an internal error"
 msgstr ""
 
-#: powerdevil/powerdevil.notifyrc:1921
+#: powerdevil/powerdevil.notifyrc:1214
 msgctxt "Name"
 msgid "Suspension inhibited"
 msgstr ""
 
-#: powerdevil/powerdevil.notifyrc:1990
+#: powerdevil/powerdevil.notifyrc:1283
 msgctxt "Comment"
 msgid "The suspension has been inhibited because an application requested it"
 msgstr ""
 
-#: powerdevil/powerdevil.notifyrc:2062
+#: powerdevil/powerdevil.notifyrc:1356
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Notifications"
@@ -6576,11 +6641,11 @@ msgctxt "Name"
 msgid "Broken battery notification"
 msgstr "Xabarnomalar"
 
-#: powerdevil/powerdevil.notifyrc:2115
+#: powerdevil/powerdevil.notifyrc:1409
 msgctxt "Comment"
 msgid ""
-"This notification will pop up if KDE Power Management System detects some "
-"troubles with one of your batteries"
+"KDE Power Management System has detected some troubles with one of your "
+"batteries"
 msgstr ""
 
 #: solid/kcm/kcm_solid.desktop:12
@@ -6642,18 +6707,17 @@ msgid ""
 "Fake backend to allow kdelibs to read NetworkManager daemon 0.9's status"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:2
-#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:144
+#: solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Phluid"
-msgctxt "Name"
+msgctxt "Name|AC adapter plugged in"
 msgid "Plugged"
 msgstr "Phluid"
 
-#: solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:73
+#: solid/solid-actions-kcm/device-actions/solid-device-AcAdapter.desktop:32
 #: solid/solid-actions-kcm/device-actions/solid-device-AudioInterface.desktop:361
-#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:355
+#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:314
 #: solid/solid-actions-kcm/device-actions/solid-device-Block.desktop:214
 #: solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:213
 #: solid/solid-actions-kcm/device-actions/solid-device-Camera.desktop:144
@@ -6725,12 +6789,20 @@ msgctxt "Name"
 msgid "Charge State"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:214
+#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:145
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Phluid"
+msgctxt "Name|battery plugged in"
+msgid "Plugged"
+msgstr "Phluid"
+
+#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:173
 msgctxt "Name"
 msgid "Rechargeable"
 msgstr ""
 
-#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:281
+#: solid/solid-actions-kcm/device-actions/solid-device-Battery.desktop:240
 #: solid/solid-actions-kcm/device-actions/solid-device-Button.desktop:139
 msgctxt "Name"
 msgid "Type"
@@ -7057,12 +7129,10 @@ msgstr "Diskning qismlari"
 
 #: solid/solid-actions-kcm/solid-actions.desktop:83
 msgctxt "Comment"
-msgid ""
-"A configuration tool for managing the actions available to the user when "
-"connecting new devices to the computer"
+msgid "Manage actions available to the user when connecting new devices"
 msgstr ""
 
-#: solid/solid-actions-kcm/solid-actions.desktop:145
+#: solid/solid-actions-kcm/solid-actions.desktop:104
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Partitions"
@@ -7347,6 +7417,24 @@ msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr ""
 
+#~ msgctxt "Name"
+#~ msgid "Screen Saver"
+#~ msgstr "Ekran saqlovchisi"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Settings for display power management"
+#~ msgctxt "Comment"
+#~ msgid "Notifications for KDE Power Management system"
+#~ msgstr "Displeyning elektr taʼminoti uchun moslamalar"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Internal Services"
+#~ msgctxt "Name"
+#~ msgid "Internal KDE Power Management System Error"
+#~ msgstr "Ichki xizmatlar"
+
 #, fuzzy
 #~| msgctxt "Comment"
 #~| msgid "Screen Saver Settings"
@@ -7581,11 +7669,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Oxygen Advanced Configuration"
 #~ msgstr "Xine tovush tizimini moslash"
-
-#, fuzzy
-#~ msgctxt "Comment"
-#~ msgid "Remote Control Management Backend"
-#~ msgstr "Tarmoqni tahlil qilish vositasi"
 
 #, fuzzy
 #~| msgctxt "Name"
@@ -8712,10 +8795,6 @@ msgstr ""
 #~ msgstr "KDE yordam markazi"
 
 #~ msgctxt "Name"
-#~ msgid "Application Manuals"
-#~ msgstr "Dasturlar uchun qoʻllanmalar"
-
-#~ msgctxt "Name"
 #~ msgid "Browse Info Pages"
 #~ msgstr "Info varaqlarni koʻrish"
 
@@ -8926,10 +9005,6 @@ msgstr ""
 #~ msgid "The Plasma device notifier is present"
 #~ msgstr "Qidirish vositasi"
 
-#~ msgctxt "Name"
-#~ msgid "Fatal Error"
-#~ msgstr "Juda jiddiy xato"
-
 #~ msgctxt "Comment"
 #~ msgid "KDE is starting up"
 #~ msgstr "KDE ishga tushyapti"
@@ -8972,13 +9047,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "KDE Notification Daemon"
 #~ msgstr "KDE xabarnoma xizmati"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Passwords"
-#~ msgctxt "Name"
-#~ msgid "Password Caching"
-#~ msgstr "Maxfiy soʻzlar"
 
 #, fuzzy
 #~| msgctxt "Name"
@@ -12092,10 +12160,6 @@ msgstr ""
 #~ msgstr "KDE menyu"
 
 #~ msgctxt "Name"
-#~ msgid "More Applications"
-#~ msgstr "Boshqa dasturlar"
-
-#~ msgctxt "Name"
 #~ msgid "Science & Math"
 #~ msgstr "Fan va Matematika"
 
@@ -14019,10 +14083,6 @@ msgstr ""
 #~ msgstr "Plan"
 
 #~ msgctxt "GenericName"
-#~ msgid "Calendar Manager"
-#~ msgstr "Kalendar boshqaruvchisi"
-
-#~ msgctxt "GenericName"
 #~ msgid "Bibliographic Database"
 #~ msgstr "Bibliografik maʼlumot bazasi"
 
@@ -14579,13 +14639,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Audio Interface"
 #~ msgstr "Tarmoq interfeyslari"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Battery Monitor"
-#~ msgctxt "Name"
-#~ msgid "Battery"
-#~ msgstr "Batareya nazoratchisi"
 
 #, fuzzy
 #~| msgctxt "Name"
