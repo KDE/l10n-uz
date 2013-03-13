@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-12 02:16+0100\n"
+"POT-Creation-Date: 2013-03-13 02:10+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1682,6 +1682,11 @@ msgstr "Tanlash"
 #: plugins/extensions/colorrange/wdg_colorrange.ui:14
 msgid "Color Range"
 msgstr "Rang chegarasi"
+
+#: plugins/extensions/colorrange/dlg_colorrange.cc:315
+#, fuzzy
+msgid "Color Range Selection"
+msgstr "Tanlanganni koʻrsatish"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSelect)
 #: plugins/extensions/colorrange/wdg_colorrange.ui:36
@@ -5583,17 +5588,17 @@ msgstr "Ochroq"
 msgid "Light Source 4"
 msgstr "Ochroq"
 
-#: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:59
+#: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:58
 #, fuzzy
 msgid "&Pixelize..."
 msgstr "&Piksellash..."
 
-#: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:136
+#: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:135
 #, fuzzy
 msgid "Pixel width"
 msgstr "Piksel eni"
 
-#: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:137
+#: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:136
 #, fuzzy
 msgid "Pixel height"
 msgstr "Piksel balandligi"
@@ -9317,7 +9322,7 @@ msgid "Move the whole group"
 msgstr "Hech narsa tanlanmagan"
 
 #: plugins/tools/selectiontools/kis_tool_select_brush.cc:52
-#: plugins/tools/selectiontools/kis_tool_select_brush.cc:198
+#: plugins/tools/selectiontools/kis_tool_select_brush.cc:194
 #, fuzzy
 msgid "Brush Selection"
 msgstr "Choʻtka tanlash"
@@ -9350,7 +9355,7 @@ msgid "Select a contiguous area of colors"
 msgstr "Oʻxshash ranglarni tanlash"
 
 #: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:39
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:72
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:70
 msgid "Elliptical Selection"
 msgstr "Ellips maydonni tanlash"
 
@@ -9367,7 +9372,7 @@ msgstr "Tanlanganni bekitish"
 
 #: plugins/tools/selectiontools/kis_tool_select_magnetic.cc:478
 #: plugins/tools/selectiontools/kis_tool_select_path.cc:38
-#: plugins/tools/selectiontools/kis_tool_select_path.cc:94
+#: plugins/tools/selectiontools/kis_tool_select_path.cc:92
 #, fuzzy
 #| msgid "Selection"
 msgid "Path Selection"
@@ -9420,7 +9425,7 @@ msgid "Limit to Current Layer"
 msgstr "Joriy qatlamni oʻchirish"
 
 #: plugins/tools/selectiontools/kis_tool_select_outline.cc:58
-#: plugins/tools/selectiontools/kis_tool_select_outline.cc:119
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:115
 #, fuzzy
 msgid "Outline Selection"
 msgstr "Tanlanganni bekitish"
@@ -9435,7 +9440,7 @@ msgid "Select an area of the image with path."
 msgstr ""
 
 #: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:42
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:71
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:70
 #, fuzzy
 msgid "Polygonal Selection"
 msgstr "Hech narsa tanlanmagan"
@@ -9446,7 +9451,7 @@ msgid "Select a polygonal region"
 msgstr "Ellips maydonni tanlash"
 
 #: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:42
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:81
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:79
 msgid "Rectangular Selection"
 msgstr "Toʻgʻri burchak maydonni tanlash"
 
@@ -11715,7 +11720,7 @@ msgstr "Yangi palitra qoʻshish..."
 msgid "Palette name:"
 msgstr "Palitra"
 
-#: ui/kis_custom_pattern.cc:168
+#: ui/kis_custom_pattern.cc:167
 msgid ""
 "The current image is too big to create a pattern. The pattern will be scaled "
 "down."
