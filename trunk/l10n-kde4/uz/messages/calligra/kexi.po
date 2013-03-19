@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-13 02:10+0100\n"
+"POT-Creation-Date: 2013-03-19 02:21+0100\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -657,76 +657,76 @@ msgstr "\"%1\" plaginini yuklashda xato roʻy berdi"
 msgid "No plugin for class \"%1\""
 msgstr ""
 
-#: core/kexiproject.cpp:130 main/KexiMainWindow.cpp:3413
+#: core/kexiproject.cpp:132 main/KexiMainWindow.cpp:3430
 #, fuzzy
 msgid "Could not set empty name for this object."
 msgstr "Ushbu loyiha uchun boʻsh nom oʻrnatib boʻlmadi."
 
-#: core/kexiproject.cpp:134
+#: core/kexiproject.cpp:136
 #, kde-format
 msgid "Could not use this name. Object with name \"%1\" already exists."
 msgstr "Ushbu nomni qoʻllab boʻlmaydi. \"%1\" nomli obʼekt allaqachon mavjud."
 
-#: core/kexiproject.cpp:145
+#: core/kexiproject.cpp:147
 #, fuzzy, kde-format
 msgid "Could not rename object \"%1\"."
 msgstr "\"%1\" obʼektini qayta nomlab boʻlmadi."
 
-#: core/kexiproject.cpp:307
+#: core/kexiproject.cpp:309
 #, kde-format
 msgid "Could not open project \"%1\"."
 msgstr "\"%1\" loyihasini ochib boʻlmadi."
 
-#: core/kexiproject.cpp:331
+#: core/kexiproject.cpp:345
 #, kde-format
 msgid ""
 "Database project %1 does not appear to have been created using Kexi and "
 "cannot be opened.<br><br>It is an SQLite file created using other tools.</qt>"
 msgstr ""
 
-#: core/kexiproject.cpp:354
+#: core/kexiproject.cpp:368
 #, kde-format
 msgid "Could not create project \"%1\"."
 msgstr "\"%1\" loyihasini yaratib boʻlmadi."
 
-#: core/kexiproject.cpp:397 core/kexiproject.cpp:462
+#: core/kexiproject.cpp:411 core/kexiproject.cpp:476
 #, fuzzy
 msgid "Project major version"
 msgstr "Loyihaning asl versiyasi"
 
-#: core/kexiproject.cpp:399 core/kexiproject.cpp:464
+#: core/kexiproject.cpp:413 core/kexiproject.cpp:478
 #, fuzzy
 msgid "Project minor version"
 msgstr "Loyihaning ikkinchi darajali versiyasi"
 
-#: core/kexiproject.cpp:401
+#: core/kexiproject.cpp:415
 msgid "Project caption"
 msgstr "Loyiha sarlavhasi"
 
-#: core/kexiproject.cpp:403
+#: core/kexiproject.cpp:417
 msgid "Project description"
 msgstr "Loyiha taʼrifi"
 
-#: core/kexiproject.cpp:936
+#: core/kexiproject.cpp:950
 #, fuzzy, kde-format
 msgid "Opening object \"%1\" failed."
 msgstr "\"%1\" obʼektini ochib boʻlmadi."
 
-#: core/kexiproject.cpp:955
+#: core/kexiproject.cpp:969
 msgid "This project is opened as read only."
 msgstr ""
 
-#: core/kexiproject.cpp:986
+#: core/kexiproject.cpp:1000
 #, fuzzy
 #| msgid "Could not remove object's data."
 msgid "Could not remove object's user data."
 msgstr "Obʼekt maʼlumotlarini olib tashlab boʻlmadi."
 
-#: core/kexiproject.cpp:1109
+#: core/kexiproject.cpp:1123
 msgid "Warning: entire project's data will be removed."
 msgstr "Diqqat: loyihaning barcha maʼlumotlari oʻchirib tashlanadi."
 
-#: core/kexiproject.cpp:1123
+#: core/kexiproject.cpp:1137
 #, kde-format
 msgid ""
 "The project %1 already exists.\n"
@@ -735,21 +735,41 @@ msgstr ""
 "\"%1\" loyihasi allaqachon mavjud.\n"
 "Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
 
-#: core/kexiproject.cpp:1126 main/kexifinddialog.cpp:228
+#: core/kexiproject.cpp:1140 main/kexifinddialog.cpp:228
 #, fuzzy
 msgid "Replace"
 msgstr "&Almashtirish"
 
-#: core/kexiproject.cpp:1150
+#: core/kexiproject.cpp:1164
 #, fuzzy, kde-format
 msgid "Do you want to drop the project \"%1\"?"
 msgstr "\"%1\" loyihasini ochib boʻlmadi."
 
-#: core/kexiproject.cpp:1160
+#: core/kexiproject.cpp:1174
 msgid ""
 "Could not drop this project. Database connection for this project has been "
 "opened as read only."
 msgstr ""
+
+#: core/kexiproject.cpp:1399
+msgid "Open As Read Only"
+msgstr ""
+
+#: core/kexiproject.cpp:1402
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Could not open file <filename>%1</filename> for reading and writing.</"
+"para><para>Do you want to open the file as read only?</para>"
+msgstr ""
+
+#: core/kexiproject.cpp:1405 main/startup/KexiStartup.cpp:767
+#: main/startup/KexiStartup.cpp:776 main/startup/KexiStartup.cpp:787
+#, fuzzy
+#| msgid "Could not open \"%1\" project file."
+msgctxt "@title:window"
+msgid "Could Not Open File"
+msgstr "\"%1\" loyiha faylini ochib boʻlmadi."
 
 #: core/kexiprojectdata.cpp:212
 #, fuzzy, kde-format
@@ -889,7 +909,7 @@ msgstr ""
 "Dizayn oʻzgartirildi. Boshqa koʻrinishga oʻtishdan oldin uni saqlashingiz "
 "lozim."
 
-#: core/KexiWindow.cpp:527 main/KexiMainWindow.cpp:2670
+#: core/KexiWindow.cpp:527 main/KexiMainWindow.cpp:2687
 #, kde-format
 msgid "Switching to other view failed (%1)."
 msgstr ""
@@ -3829,79 +3849,85 @@ msgstr "Loyiha navigatori"
 msgid "Properties"
 msgstr "Loyiha xossalari"
 
-#: main/KexiMainWindow.cpp:2601
+#: main/KexiMainWindow.cpp:2011
+#, kde-format
+msgctxt "<project-name> (read only)"
+msgid "%1 (read only)"
+msgstr ""
+
+#: main/KexiMainWindow.cpp:2618
 msgid "From File..."
 msgstr "Fayldan"
 
-#: main/KexiMainWindow.cpp:2606
+#: main/KexiMainWindow.cpp:2623
 msgid "From Server..."
 msgstr "Serverdan"
 
-#: main/KexiMainWindow.cpp:2656
+#: main/KexiMainWindow.cpp:2673
 #, kde-format
 msgid "Selected view is not supported for \"%1\" object."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:2658
+#: main/KexiMainWindow.cpp:2675
 #, kde-format
 msgid "Selected view (%1) is not supported by this object type (%2)."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:2729
+#: main/KexiMainWindow.cpp:2746
 msgctxt "Could not save object under the original name."
 msgid "Could not save under the original name."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:2755
+#: main/KexiMainWindow.cpp:2772
 #, fuzzy
 msgid "Save Object As"
 msgstr "Obʼektni quyidagicha saqlash"
 
-#: main/KexiMainWindow.cpp:2791
+#: main/KexiMainWindow.cpp:2808
 #, fuzzy, kde-format
 msgctxt "@info Saving object failed"
 msgid "Saving <resource>%1</resource> object failed."
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:2911 main/KexiMainWindow.cpp:3976
+#: main/KexiMainWindow.cpp:2928 main/KexiMainWindow.cpp:3993
 msgid "Save changes"
 msgstr "Oʻzgarishlarni saqlash"
 
-#: main/KexiMainWindow.cpp:2913 main/KexiMainWindow.cpp:3978
+#: main/KexiMainWindow.cpp:2930 main/KexiMainWindow.cpp:3995
 #, kde-format
 msgid ""
 "Pressing this button will save all recent changes made in \"%1\" object."
 msgstr ""
 "Ushbu tugmani bosish \"%1\" obʼektidagi oxirgi oʻzgarishlarni saqlaydi."
 
-#: main/KexiMainWindow.cpp:2917
+#: main/KexiMainWindow.cpp:2934
 #, fuzzy, kde-format
 msgid ""
 "Pressing this button will discard all recent changes made in \"%1\" object."
 msgstr ""
 "Ushbu tugmani bosish \"%1\" obʼektidagi oxirgi oʻzgarishlarni saqlaydi."
 
-#: main/KexiMainWindow.cpp:2939
+#: main/KexiMainWindow.cpp:2956
 msgid "Do you want to save changes?"
 msgstr "Oʻzgarishlarni saqlashni istaysizmi?"
 
-#: main/KexiMainWindow.cpp:3121
+#: main/KexiMainWindow.cpp:3138
 #, kde-format
 msgctxt "opening is not allowed in \"data view/design view/text view\" mode"
 msgid "opening is not allowed in \"%1\" mode"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3171
+#: main/KexiMainWindow.cpp:3188
 #, kde-format
 msgid "Tab for \"%1\" (%2)."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3175
+#: main/KexiMainWindow.cpp:3192
 #, fuzzy, kde-format
 msgid "Tab for \"%1\"."
 msgstr "Jadval maydoni"
 
-#: main/KexiMainWindow.cpp:3344
+#: main/KexiMainWindow.cpp:3361
 #, kde-format
 msgid ""
 "Do you want to permanently delete:\n"
@@ -3909,66 +3935,66 @@ msgid ""
 "If you click \"Delete\", you will not be able to undo the deletion."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3348
+#: main/KexiMainWindow.cpp:3365
 #, fuzzy
 msgid "Delete"
 msgstr "Satrni olib tashlash"
 
-#: main/KexiMainWindow.cpp:3399
+#: main/KexiMainWindow.cpp:3416
 msgid "Could not remove object."
 msgstr "Obʼektni olib tashlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3420
+#: main/KexiMainWindow.cpp:3437
 #, kde-format
 msgid ""
 "<para>Before renaming object <resource>%1</resource> it should be closed.</"
 "para><para>Do you want to close it?</para>"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3424
+#: main/KexiMainWindow.cpp:3441
 #, fuzzy
 #| msgid "Close windows"
 msgid "Close window"
 msgstr "Oynalarni yopish"
 
-#: main/KexiMainWindow.cpp:3435
+#: main/KexiMainWindow.cpp:3452
 #, fuzzy, kde-format
 msgid "Renaming object \"%1\" failed."
 msgstr "\"%1\" obʼektini nomini oʻzgartirib boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3452
+#: main/KexiMainWindow.cpp:3469
 #, fuzzy, kde-format
 msgid "Setting caption for object \"%1\" failed."
 msgstr "\"%1\" obʼektini nomini oʻzgartirib boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3593
+#: main/KexiMainWindow.cpp:3610
 #, fuzzy, kde-format
 msgid "Could not start project \"%1\" in Final Mode."
 msgstr "\"%1\" loyihasini yaratib boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3597
+#: main/KexiMainWindow.cpp:3614
 #, fuzzy
 msgid "No Final Mode data found."
 msgstr "Maydon topilmadi"
 
-#: main/KexiMainWindow.cpp:3604
+#: main/KexiMainWindow.cpp:3621
 msgid "Error reading Final Mode data."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3633
+#: main/KexiMainWindow.cpp:3650
 msgid "Specified plugin does not exist."
 msgstr "Koʻrsatilgan plagin mavjud emas."
 
-#: main/KexiMainWindow.cpp:3642
+#: main/KexiMainWindow.cpp:3659
 msgid "Specified object could not be opened."
 msgstr "Koʻrsatilgan obʼektni ochib boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3712
+#: main/KexiMainWindow.cpp:3729
 #, fuzzy, kde-format
 msgid "Compacting database file <nobr>\"%1\"</nobr> is not supported."
 msgstr "<p><nobr>\"%1\"</nobr> faylini oʻqib boʻlmaydi.</p>"
 
-#: main/KexiMainWindow.cpp:3724
+#: main/KexiMainWindow.cpp:3741
 msgid ""
 "The current project has to be closed before compacting the database. It will "
 "be open again after compacting.\n"
@@ -3976,23 +4002,23 @@ msgid ""
 "Do you want to continue?"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3982
+#: main/KexiMainWindow.cpp:3999
 #, fuzzy, kde-format
 msgid ""
 "Pressing this button will ignore all unsaved changes made in \"%1\" object."
 msgstr ""
 "Ushbu tugmani bosish \"%1\" obʼektidagi oxirgi oʻzgarishlarni saqlaydi."
 
-#: main/KexiMainWindow.cpp:3987
+#: main/KexiMainWindow.cpp:4004
 msgid "Do you want to save changes before printing?"
 msgstr "Bosib chiqarishdan oldin oʻzgarishlarni saqlashni istaysizmi?"
 
-#: main/KexiMainWindow.cpp:3989
+#: main/KexiMainWindow.cpp:4006
 #, fuzzy
 msgid "Do you want to save changes before making print preview?"
 msgstr "Bosib chiqarishdan oldin oʻzgarishlarni saqlashni istaysizmi?"
 
-#: main/KexiMainWindow.cpp:3991
+#: main/KexiMainWindow.cpp:4008
 #, fuzzy
 msgid "Do you want to save changes before showing page setup?"
 msgstr "Bosib chiqarishdan oldin oʻzgarishlarni saqlashni istaysizmi?"
@@ -4520,21 +4546,21 @@ msgstr ""
 "Loyihani olib tashlab boʻlmadi.\n"
 "\"%1\" fayli mavjud emas."
 
-#: main/startup/KexiStartup.cpp:491
+#: main/startup/KexiStartup.cpp:498
 #, fuzzy, kde-format
 msgid ""
 "Could not open shortcut file\n"
 "\"%1\"."
 msgstr "\"%1\" loyihasini ochib boʻlmadi."
 
-#: main/startup/KexiStartup.cpp:522
+#: main/startup/KexiStartup.cpp:529
 #, fuzzy, kde-format
 msgid ""
 "Could not open connection data file\n"
 "\"%1\"."
 msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
 
-#: main/startup/KexiStartup.cpp:607
+#: main/startup/KexiStartup.cpp:614
 msgid ""
 "You have specified a few database objects to be opened automatically, using "
 "startup options.\n"
@@ -4542,37 +4568,59 @@ msgid ""
 "or dropping projects."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:623
+#: main/startup/KexiStartup.cpp:630
 #, kde-format
 msgid "Project \"%1\" created successfully."
 msgstr "\"%1\" loyihasi muvaffaqiyatli yaratildi."
 
-#: main/startup/KexiStartup.cpp:632
+#: main/startup/KexiStartup.cpp:639
 #, kde-format
 msgid "Project \"%1\" dropped successfully."
 msgstr "\"%1\" loyihasi muvaffaqiyatli olib tashlandi."
 
-#: main/startup/KexiStartup.cpp:754 main/startup/KexiStartup.cpp:786
+#: main/startup/KexiStartup.cpp:766
+#, fuzzy
+#| msgid "Could not remove file \"%1\"."
+msgctxt "@info"
+msgid "Could not open file. Missing filename."
+msgstr "\"%1\" faylini olib tashlab boʻlmadi."
+
+#: main/startup/KexiStartup.cpp:773
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not remove project.\n"
+#| "The file \"%1\" does not exist."
+msgctxt "@info"
+msgid "Could not open file. The file <filename>%1</filename> does not exist."
+msgstr ""
+"Loyihani olib tashlab boʻlmadi.\n"
+"\"%1\" fayli mavjud emas."
+
+#: main/startup/KexiStartup.cpp:783
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Could not open file <filename>%1</filename> for reading. <note>Check the "
+"file's permissions and whether it is already opened and locked by another "
+"application.</note>"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:824
 msgid "<p>Could not open project.</p>"
 msgstr "<p>Loyihani ochib boʻlmadi.</p>"
 
-#: main/startup/KexiStartup.cpp:755
+#: main/startup/KexiStartup.cpp:825
 #, kde-format
-msgid "<p>The file <nobr>\"%1\"</nobr> does not exist or is not readable.</p>"
-msgstr "<p><nobr>\"%1\"</nobr> fayli mavjud emas yoki uni oʻqib boʻlmaydi.</p>"
+msgid "<p>The file <nobr>\"%1\"</nobr> is not readable.</p>"
+msgstr "<p><nobr>\"%1\"</nobr> faylini oʻqib boʻlmaydi.</p>"
 
-#: main/startup/KexiStartup.cpp:757 main/startup/KexiStartup.cpp:789
+#: main/startup/KexiStartup.cpp:827
 msgid ""
 "Check the file's permissions and whether it is already opened and locked by "
 "another application."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:787
-#, kde-format
-msgid "<p>The file <nobr>\"%1\"</nobr> is not readable.</p>"
-msgstr "<p><nobr>\"%1\"</nobr> faylini oʻqib boʻlmaydi.</p>"
-
-#: main/startup/KexiStartup.cpp:809
+#: main/startup/KexiStartup.cpp:847
 #, kde-format
 msgid ""
 "\"%1\" is an external file of type:\n"
@@ -4580,15 +4628,15 @@ msgid ""
 "Do you want to import the file as a Kexi project?"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:812
+#: main/startup/KexiStartup.cpp:850
 msgid "Open External File"
 msgstr "Tashqi faylni ochish"
 
-#: main/startup/KexiStartup.cpp:812
+#: main/startup/KexiStartup.cpp:850
 msgid "Import..."
 msgstr "Import qilish..."
 
-#: main/startup/KexiStartup.cpp:833
+#: main/startup/KexiStartup.cpp:871
 #, kde-format
 msgid ""
 "The project file \"%1\" is recognized as compatible with \"%2\" database "
@@ -4596,7 +4644,7 @@ msgid ""
 "Do you want to use \"%4\" database driver?"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:856
+#: main/startup/KexiStartup.cpp:894
 #, kde-format
 msgid ""
 "Previous version of database file format (\"%1\") is detected in the \"%2\" "
@@ -4604,36 +4652,36 @@ msgid ""
 "Do you want to convert the project to a new \"%3\" format (recommended)?"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:865
+#: main/startup/KexiStartup.cpp:903
 #, kde-format
 msgid ""
 "Failed to convert project file \"%1\" to a new \"%2\" format.\n"
 "The file format remains unchanged."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:878
+#: main/startup/KexiStartup.cpp:916
 msgid "Possible problems:"
 msgstr "Ehtimol muammolar:"
 
-#: main/startup/KexiStartup.cpp:883
+#: main/startup/KexiStartup.cpp:921
 #, fuzzy, kde-format
 msgid "The file \"%1\" is not recognized as being supported by Kexi."
 msgstr "\"%1\" faylini oʻqib boʻlmaydi."
 
-#: main/startup/KexiStartup.cpp:886
+#: main/startup/KexiStartup.cpp:924
 #, kde-format
 msgid ""
 "Database driver for this file type not found.\n"
 "Detected MIME type: %1"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:922 main/startup/KexiStartup.cpp:926
+#: main/startup/KexiStartup.cpp:960 main/startup/KexiStartup.cpp:964
 #, kde-format
 msgid ""
 "Could not load list of available projects for <b>%1</b> database server."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:963
+#: main/startup/KexiStartup.cpp:1001
 #, fuzzy, kde-format
 msgid ""
 "Failed saving connection data to\n"
@@ -8417,6 +8465,11 @@ msgstr "Birinchi satr"
 msgid "Moves cursor to new record and allows inserting."
 msgstr "Keyingi oyna"
 
+#~ msgid ""
+#~ "<p>The file <nobr>\"%1\"</nobr> does not exist or is not readable.</p>"
+#~ msgstr ""
+#~ "<p><nobr>\"%1\"</nobr> fayli mavjud emas yoki uni oʻqib boʻlmaydi.</p>"
+
 #, fuzzy
 #~| msgid "Row:"
 #~ msgid "Show:"
@@ -8479,9 +8532,6 @@ msgstr "Keyingi oyna"
 
 #~ msgid "It is a system object."
 #~ msgstr "Bu tizim obʼekti."
-
-#~ msgid "Could not open \"%1\" project file."
-#~ msgstr "\"%1\" loyiha faylini ochib boʻlmadi."
 
 #, fuzzy
 #~ msgid "Could not connect to \"%1\" database server."
