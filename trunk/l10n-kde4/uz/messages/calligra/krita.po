@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-29 02:16+0100\n"
+"POT-Creation-Date: 2013-03-31 03:06+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -9007,14 +9007,12 @@ msgid "Cannot pick a color as the active layer is not visible."
 msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:301
-#: ui/kis_custom_palette.cc:113 ui/kis_custom_palette.cc:152
 #, fuzzy, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only."
 msgstr ""
 "%1 paoitra faylig yozib boʻlmadi. Fayl faqat oʻqish uchun boʻlishi mumkin."
 
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:301
-#: ui/kis_custom_palette.cc:113 ui/kis_custom_palette.cc:152
 #, fuzzy
 msgid "Palette"
 msgstr "Palitra"
@@ -10419,7 +10417,7 @@ msgid "Install a new profile from a file."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, palettename)
-#: ui/forms/wdgcustompalette.ui:18 ui/kis_custom_palette.cc:124
+#: ui/forms/wdgcustompalette.ui:18
 msgid "Unnamed"
 msgstr "Nomsiz"
 
@@ -11756,16 +11754,6 @@ msgstr "&Rassom asbob-uskunalari"
 msgid "Custom Pattern"
 msgstr "Noananaviy namuna"
 
-#: ui/kis_custom_palette.cc:122
-#, fuzzy
-msgid "Add New Palette"
-msgstr "Yangi palitra qoʻshish..."
-
-#: ui/kis_custom_palette.cc:123
-#, fuzzy
-msgid "Palette name:"
-msgstr "Palitra"
-
 #: ui/kis_custom_pattern.cc:167
 msgid ""
 "The current image is too big to create a pattern. The pattern will be scaled "
@@ -12258,111 +12246,101 @@ msgstr "Hech narsa tanlanmagan"
 msgid "No profile"
 msgstr "Profil yoʻq"
 
-#: ui/kis_view2.cpp:282
+#: ui/kis_view2.cpp:281
 msgid "Save Incremental &Version"
 msgstr ""
 
-#: ui/kis_view2.cpp:287
+#: ui/kis_view2.cpp:286
 msgid "Save Incremental Backup"
 msgstr ""
 
-#: ui/kis_view2.cpp:299
+#: ui/kis_view2.cpp:298
 msgid "Total Refresh"
 msgstr ""
 
-#: ui/kis_view2.cpp:304
+#: ui/kis_view2.cpp:303
 #, fuzzy
 #| msgid "&Rotate Image..."
 msgid "&Create Template From Image..."
 msgstr "Rasmni &burish..."
 
-#: ui/kis_view2.cpp:308
+#: ui/kis_view2.cpp:307
 #, fuzzy
 msgid "Mirror View"
 msgstr "Rasmni kesish"
 
-#: ui/kis_view2.cpp:314
+#: ui/kis_view2.cpp:313
 msgid "Rotate Canvas Right"
 msgstr ""
 
-#: ui/kis_view2.cpp:319
+#: ui/kis_view2.cpp:318
 #, fuzzy
 #| msgid "Rotate Image"
 msgid "Rotate Canvas Left"
 msgstr "Rasmni burish"
 
-#: ui/kis_view2.cpp:324
+#: ui/kis_view2.cpp:323
 #, fuzzy
 msgid "Reset Canvas Transformations"
 msgstr "Boshqa shaklga almashtirish"
 
-#: ui/kis_view2.cpp:329
+#: ui/kis_view2.cpp:328
 #, fuzzy
 #| msgid "Show original layer"
 msgid "Show Status Bar"
 msgstr "Asl qatlamni koʻrsatish"
 
-#: ui/kis_view2.cpp:330
+#: ui/kis_view2.cpp:329
 msgid "Hide Status Bar"
 msgstr ""
 
-#: ui/kis_view2.cpp:332
+#: ui/kis_view2.cpp:331
 msgid "Shows or hides the status bar"
 msgstr ""
 
-#: ui/kis_view2.cpp:336
+#: ui/kis_view2.cpp:335
 #, fuzzy
 msgid "Show Canvas Only"
 msgstr "Rangi:"
 
-#: ui/kis_view2.cpp:337
+#: ui/kis_view2.cpp:336
 msgid "Return to Window"
 msgstr ""
 
-#: ui/kis_view2.cpp:338
+#: ui/kis_view2.cpp:337
 msgid "Shows just the canvas or the whole window"
 msgstr ""
 
-#: ui/kis_view2.cpp:536
+#: ui/kis_view2.cpp:535
 msgid "Insert as New Layer"
 msgstr "Yangi qatlam sifatida qoʻyish"
 
-#: ui/kis_view2.cpp:537
+#: ui/kis_view2.cpp:536
 msgid "Insert as New Layers"
 msgstr "Yangi qatlamlar sifatida qoʻyish"
 
-#: ui/kis_view2.cpp:539
+#: ui/kis_view2.cpp:538
 msgid "Open in New Document"
 msgstr "Yangi hujjatda ochish"
 
-#: ui/kis_view2.cpp:540
+#: ui/kis_view2.cpp:539
 msgid "Open in New Documents"
 msgstr "Yangi hujjatlarda ochish"
 
-#: ui/kis_view2.cpp:542
+#: ui/kis_view2.cpp:541
 msgid "Replace Current Document"
 msgstr ""
 
-#: ui/kis_view2.cpp:544
+#: ui/kis_view2.cpp:543
 #, fuzzy
 msgid "Cancel"
 msgstr "Kanal"
 
-#: ui/kis_view2.cpp:785
-#, fuzzy
-msgid "Edit Palette..."
-msgstr "Palitrani tahrirlash..."
-
-#: ui/kis_view2.cpp:789
+#: ui/kis_view2.cpp:784
 msgid "Cleanup removed files..."
 msgstr ""
 
-#: ui/kis_view2.cpp:921 ui/kis_view2.cpp:924
-#, fuzzy
-msgid "Edit Palette"
-msgstr "Palitrani tahrirlash..."
-
-#: ui/kis_view2.cpp:1311
+#: ui/kis_view2.cpp:1293
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
@@ -12590,6 +12568,22 @@ msgstr "Ranglar boʻshligʻi"
 #, fuzzy, kde-format
 msgid "Workspace %1"
 msgstr "Ranglar boʻshligʻi"
+
+#, fuzzy
+#~ msgid "Add New Palette"
+#~ msgstr "Yangi palitra qoʻshish..."
+
+#, fuzzy
+#~ msgid "Palette name:"
+#~ msgstr "Palitra"
+
+#, fuzzy
+#~ msgid "Edit Palette..."
+#~ msgstr "Palitrani tahrirlash..."
+
+#, fuzzy
+#~ msgid "Edit Palette"
+#~ msgstr "Palitrani tahrirlash..."
 
 #~ msgid "I&nsert Image as Layer..."
 #~ msgstr "&Rasmni qatlam sifatida qoʻyish..."
