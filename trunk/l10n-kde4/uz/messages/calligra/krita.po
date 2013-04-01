@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-31 03:06+0200\n"
+"POT-Creation-Date: 2013-04-01 02:27+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -4629,16 +4629,14 @@ msgstr "Rasmni &180 darajaga burish"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:62
 #: plugins/extensions/rotateimage/rotateimage.cc:143
-#: ui/kis_node_manager.cpp:153
 #, fuzzy
-msgid "Mirror Horizontally"
+msgid "Mirror Image Horizontally"
 msgstr "Ufq 1"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:66
 #: plugins/extensions/rotateimage/rotateimage.cc:136
-#: ui/kis_node_manager.cpp:159
 #, fuzzy
-msgid "Mirror Vertically"
+msgid "Mirror Image Vertically"
 msgstr "Uskuna:"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:70
@@ -11973,6 +11971,16 @@ msgstr "Qatlamni koʻchirish"
 msgid "Mirror Mask Y"
 msgstr "Qatlamni koʻchirish"
 
+#: ui/kis_node_manager.cpp:153
+#, fuzzy
+msgid "Mirror Layer Horizontally"
+msgstr "Ufq 1"
+
+#: ui/kis_node_manager.cpp:159
+#, fuzzy
+msgid "Mirror Layer Vertically"
+msgstr "Uskuna:"
+
 #: ui/kis_node_manager.cpp:165
 #, fuzzy
 msgid "Duplicate current layer"
@@ -12336,11 +12344,11 @@ msgstr ""
 msgid "Cancel"
 msgstr "Kanal"
 
-#: ui/kis_view2.cpp:784
+#: ui/kis_view2.cpp:786
 msgid "Cleanup removed files..."
 msgstr ""
 
-#: ui/kis_view2.cpp:1293
+#: ui/kis_view2.cpp:1295
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
