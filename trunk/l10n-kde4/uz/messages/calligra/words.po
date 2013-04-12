@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-17 02:32+0100\n"
+"POT-Creation-Date: 2013-04-12 02:20+0200\n"
 "PO-Revision-Date: 2006-12-17 13:48+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -156,24 +156,48 @@ msgstr ""
 msgid "Installation Error"
 msgstr ""
 
-#: part/author/CAuView.cpp:45
+#: part/author/CAuView.cpp:46
 #, fuzzy
 #| msgid "Insert Page"
-msgid "Insert Cover Image"
+msgid "Select Cover Image..."
 msgstr "Betni qoʻyish"
 
-#: part/author/CAuView.cpp:47
+#: part/author/CAuView.cpp:48
 msgid "Set cover for your ebook"
 msgstr ""
 
-#: part/author/CAuView.cpp:55
+#: part/author/CoverSelectionDialog.cpp:54
+#, fuzzy
+#| msgid "Open Existing..."
+msgid "Open..."
+msgstr "Borini ochish"
+
+#: part/author/CoverSelectionDialog.cpp:69
 #, fuzzy
 #| msgid "Open Link"
 msgid "Open File"
 msgstr "Bogʻni ochish"
 
-#: part/author/CAuView.cpp:57
-msgid "Images (*.png *.xpm *.jpg)"
+#: part/author/CoverSelectionDialog.cpp:71
+msgid "Images (*.png *.xpm *.jpg *.jpeg)"
+msgstr ""
+
+#: part/author/CoverSelectionDialog.cpp:76
+#, fuzzy
+#| msgid "Import Style"
+msgid "Import problem"
+msgstr "Uslubni import qilish"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, CoverSelectionDialog)
+#: part/author/CoverSelectionDialog.ui:26
+#, fuzzy
+#| msgid "Completion"
+msgid "Cover selection"
+msgstr "Toʻldirish"
+
+#. i18n: ectx: property (text), widget (QLabel, coverSelectLabel)
+#: part/author/CoverSelectionDialog.ui:49
+msgid "No cover selected yet"
 msgstr ""
 
 #: part/commands/KWChangePageStyleCommand.cpp:27
@@ -3185,9 +3209,6 @@ msgstr "Betni qoʻyish"
 #~ msgid "Go to Footnote"
 #~ msgstr "Hujjatga oʻtish"
 
-#~ msgid "Import Style"
-#~ msgstr "Uslubni import qilish"
-
 #~ msgid "File name is empty."
 #~ msgstr "Faylning nomi koʻrsatilmagan."
 
@@ -3248,9 +3269,6 @@ msgstr "Betni qoʻyish"
 
 #~ msgid "Create New..."
 #~ msgstr "Yangini yaratish"
-
-#~ msgid "Open Existing..."
-#~ msgstr "Borini ochish"
 
 #, fuzzy
 #~ msgid "Merging:"
@@ -3906,9 +3924,6 @@ msgstr "Betni qoʻyish"
 #, fuzzy
 #~ msgid "Change the words and options for autocompletion"
 #~ msgstr "Izohni oʻzgartirish."
-
-#~ msgid "Completion"
-#~ msgstr "Toʻldirish"
 
 #~ msgid "Edit Variable..."
 #~ msgstr "Oʻzgaruvchini tahrirlash"
