@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-18 02:14+0200\n"
+"POT-Creation-Date: 2013-04-19 02:29+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2759,7 +2759,7 @@ msgid "Execute"
 msgstr "Skriptni ishga tushirish"
 
 #: formeditor/kexiactionselectiondialog.cpp:286
-#: plugins/reports/kexireportview.cpp:82
+#: plugins/reports/kexireportview.cpp:83
 #, fuzzy
 msgid "Print"
 msgstr "Bosib chiqarish"
@@ -4810,7 +4810,7 @@ msgstr ""
 "Uni almashtirishni istaysizmi?"
 
 #: main/startup/KexiStartupFileHandler.cpp:490
-#: plugins/reports/kexireportview.cpp:176 widget/KexiFileWidget.cpp:433
+#: plugins/reports/kexireportview.cpp:191 widget/KexiFileWidget.cpp:433
 msgid "Overwrite"
 msgstr "Almashtirish"
 
@@ -6757,73 +6757,84 @@ msgctxt "what's this"
 msgid "Creates new report."
 msgstr "Yangi loyihani yaratish"
 
-#: plugins/reports/kexireportview.cpp:73
+#: plugins/reports/kexireportview.cpp:74
 #, fuzzy
 #| msgid "Page:"
 msgid "Page"
 msgstr "Bet:"
 
-#: plugins/reports/kexireportview.cpp:84
+#: plugins/reports/kexireportview.cpp:85
 #, fuzzy
 #| msgid "Report"
 msgid "Print report"
 msgstr "Hisobot"
 
-#: plugins/reports/kexireportview.cpp:85
+#: plugins/reports/kexireportview.cpp:86
 #, fuzzy
 msgid "Prints the current report."
 msgstr "Joriy loyihani yopish"
 
-#: plugins/reports/kexireportview.cpp:90
+#: plugins/reports/kexireportview.cpp:89
+#, fuzzy
+msgctxt "@title:menu"
+msgid "E&xport As"
+msgstr "&Eksport qilish"
+
+#: plugins/reports/kexireportview.cpp:95
 #, fuzzy
 msgid "Export:"
 msgstr "&Eksport qilish"
 
-#: plugins/reports/kexireportview.cpp:95
-msgid "Export as Text Document"
-msgstr ""
+#: plugins/reports/kexireportview.cpp:101
+#, fuzzy
+#| msgid "Set Font..."
+msgctxt "open dialog to export as text document"
+msgid "Text Document..."
+msgstr "Shriftni tanlash..."
 
-#: plugins/reports/kexireportview.cpp:98
+#: plugins/reports/kexireportview.cpp:104
 msgid "Export the report as a text document (in OpenDocument Text format)"
 msgstr ""
 
-#: plugins/reports/kexireportview.cpp:99
+#: plugins/reports/kexireportview.cpp:105
 msgid "Exports the report as a text document (in OpenDocument Text format)."
 msgstr ""
 
-#: plugins/reports/kexireportview.cpp:106
+#: plugins/reports/kexireportview.cpp:113
 #, fuzzy
-msgid "Export as Spreadsheet"
+msgctxt "open dialog to export as spreadsheet"
+msgid "Spreadsheet..."
 msgstr "Satrni &olib tashlash"
 
-#: plugins/reports/kexireportview.cpp:109
+#: plugins/reports/kexireportview.cpp:116
 msgid "Export the report as a spreadsheet (in OpenDocument Spreadsheet format)"
 msgstr ""
 
-#: plugins/reports/kexireportview.cpp:110
+#: plugins/reports/kexireportview.cpp:117
 msgid ""
 "Exports the report as a spreadsheet (in OpenDocument Spreadsheet format)."
 msgstr ""
 
-#: plugins/reports/kexireportview.cpp:117
+#: plugins/reports/kexireportview.cpp:125
 #, fuzzy
-#| msgid "Exporting data from table:"
-msgid "Export as Web Page"
-msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
+#| msgid "&Add..."
+msgctxt "open dialog to export as web page"
+msgid "Web Page..."
+msgstr "&Qoʻshish..."
 
-#: plugins/reports/kexireportview.cpp:120
+#: plugins/reports/kexireportview.cpp:128
 #, fuzzy
 #| msgid "Exporting data from table:"
 msgid "Export the report as a web page (in HTML format)"
 msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
 
-#: plugins/reports/kexireportview.cpp:121
+#: plugins/reports/kexireportview.cpp:129
 #, fuzzy
 #| msgid "Exporting data from table:"
 msgid "Exports the report as a web page (in HTML format)."
 msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
 
-#: plugins/reports/kexireportview.cpp:175
+#: plugins/reports/kexireportview.cpp:190
 #, fuzzy, kde-format
 #| msgid ""
 #| "The file \"%1\" already exists.\n"
@@ -6835,66 +6846,66 @@ msgstr ""
 "\"%1\" fayli allaqachon mavjud.\n"
 "Uni almashtirishni istaysizmi?"
 
-#: plugins/reports/kexireportview.cpp:201
+#: plugins/reports/kexireportview.cpp:216
 #, fuzzy
 msgid "Export Report as Spreadsheet"
 msgstr "Joriy loyihani yopish"
 
-#: plugins/reports/kexireportview.cpp:208
+#: plugins/reports/kexireportview.cpp:223
 #, fuzzy, kde-format
 msgid "Failed to export the report as spreadsheet to %1."
 msgstr "Joriy loyihani yopish"
 
-#: plugins/reports/kexireportview.cpp:209
-#: plugins/reports/kexireportview.cpp:233
-#: plugins/reports/kexireportview.cpp:271
+#: plugins/reports/kexireportview.cpp:224
+#: plugins/reports/kexireportview.cpp:248
+#: plugins/reports/kexireportview.cpp:286
 #, fuzzy
 msgid "Export Failed"
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: plugins/reports/kexireportview.cpp:225
+#: plugins/reports/kexireportview.cpp:240
 msgid "Export Report as Text Document"
 msgstr ""
 
-#: plugins/reports/kexireportview.cpp:232
+#: plugins/reports/kexireportview.cpp:247
 #, kde-format
 msgid "Exporting the report as text document to %1 failed."
 msgstr ""
 
-#: plugins/reports/kexireportview.cpp:245
+#: plugins/reports/kexireportview.cpp:260
 #, fuzzy
 #| msgid "Exporting data from table:"
 msgid "Export Report as Web Page"
 msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
 
-#: plugins/reports/kexireportview.cpp:254
+#: plugins/reports/kexireportview.cpp:269
 msgid ""
 "Would you like to export using a Cascading Style Sheet (CSS), which will "
 "give an output closer to the original, or export using a HTML Table, which "
 "outputs a much simpler format?"
 msgstr ""
 
-#: plugins/reports/kexireportview.cpp:258
+#: plugins/reports/kexireportview.cpp:273
 msgid "Use CSS"
 msgstr ""
 
-#: plugins/reports/kexireportview.cpp:259
+#: plugins/reports/kexireportview.cpp:274
 #, fuzzy
 #| msgid "Table"
 msgid "Use Table"
 msgstr "Jadval"
 
-#: plugins/reports/kexireportview.cpp:270
+#: plugins/reports/kexireportview.cpp:285
 #, fuzzy, kde-format
 #| msgid "Exporting data from table:"
 msgid "Exporting the report as web page to %1 failed."
 msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
 
-#: plugins/reports/kexireportview.cpp:349
+#: plugins/reports/kexireportview.cpp:364
 msgid "Report schema appears to be invalid or corrupt"
 msgstr ""
 
-#: plugins/reports/kexireportview.cpp:349
+#: plugins/reports/kexireportview.cpp:364
 #, fuzzy
 msgid "Opening failed"
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
@@ -8469,6 +8480,11 @@ msgstr "Birinchi satr"
 msgid "Moves cursor to new record and allows inserting."
 msgstr "Keyingi oyna"
 
+#, fuzzy
+#~| msgid "Exporting data from table:"
+#~ msgid "Export as Web Page"
+#~ msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
+
 #~ msgid ""
 #~ "<p>The file <nobr>\"%1\"</nobr> does not exist or is not readable.</p>"
 #~ msgstr ""
@@ -9051,9 +9067,6 @@ msgstr "Keyingi oyna"
 
 #~ msgid "."
 #~ msgstr "."
-
-#~ msgid "Set Font..."
-#~ msgstr "Shriftni tanlash..."
 
 #, fuzzy
 #~ msgid "Page title:"
