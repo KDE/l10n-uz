@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-02 02:19+0200\n"
+"POT-Creation-Date: 2013-05-09 02:15+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1063,13 +1063,13 @@ msgstr "Filter boʻyogʻi"
 msgid "Gaussian brush"
 msgstr "Chegara..."
 
-#: image/kis_base_node.cpp:141 ui/kis_node_model.cpp:370
+#: image/kis_base_node.cpp:141 ui/kis_node_model.cpp:373
 msgid "Visible"
 msgstr "Koʻrinadigan"
 
 #: image/kis_base_node.cpp:142
 #: plugins/extensions/dockers/channeldocker/channelmodel.cpp:67
-#: ui/kis_node_model.cpp:371
+#: ui/kis_node_model.cpp:374
 msgid "Locked"
 msgstr "Qulflangan"
 
@@ -1214,7 +1214,7 @@ msgid "Composite Mode"
 msgstr "Qa&erni rasmga olish:"
 
 #: image/kis_paint_layer.cc:157 image/kis_paint_layer.cc:166
-#: ui/kis_node_model.cpp:379
+#: ui/kis_node_model.cpp:382
 #, fuzzy
 #| msgid "Locked"
 msgid "Alpha Locked"
@@ -1271,7 +1271,7 @@ msgstr "Tanlash"
 msgid "Invert Selection"
 msgstr "Tanlanganni bekitish"
 
-#: image/kis_selection_mask.cpp:106 ui/kis_node_model.cpp:372
+#: image/kis_selection_mask.cpp:106 ui/kis_node_model.cpp:375
 #, fuzzy
 msgid "Active"
 msgstr "Qatlamni koʻchirish"
@@ -2682,7 +2682,7 @@ msgstr "Tanlash"
 msgid "&Transformation Mask..."
 msgstr "Boshqa shaklga almashtirish"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:484
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:485
 #: ui/kis_layer_manager.cc:286
 msgid "&Merge with Layer Below"
 msgstr "&Pastgi qatlam bilan birlashtirish"
@@ -2728,8 +2728,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, paintColor)
 #. i18n: ectx: property (text), widget (QToolButton, backgroundColor)
 #. i18n: ectx: property (text), widget (QToolButton, bnSelectOcioConfigPath)
-#. i18n: ectx: property (text), widget (QToolButton, bnPortrait)
-#. i18n: ectx: property (text), widget (QToolButton, bnLandscape)
 #. i18n: ectx: property (text), widget (QToolButton, viewModeButton)
 #. i18n: ectx: property (text), widget (KoGroupButton, intersect)
 #. i18n: ectx: property (text), widget (KoGroupButton, shape)
@@ -2738,6 +2736,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KoGroupButton, pixel)
 #. i18n: ectx: property (text), widget (KoGroupButton, subtract)
 #. i18n: ectx: property (text), widget (QToolButton, bnGetFileName)
+#. i18n: ectx: property (text), widget (QToolButton, bnPortrait)
+#. i18n: ectx: property (text), widget (QToolButton, bnLandscape)
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:50
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:99
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:124
@@ -3103,7 +3103,7 @@ msgid "LUT file:"
 msgstr "Qatlamning xossalari"
 
 #. i18n: ectx: property (text), widget (QToolButton, m_bnClearLut)
-#: plugins/extensions/dockers/lut/wdglut.ui:179 ui/tool/kis_tool.cc:545
+#: plugins/extensions/dockers/lut/wdglut.ui:179 ui/tool/kis_tool.cc:569
 #, fuzzy
 msgid "Clear"
 msgstr "Ayiqlar"
@@ -5576,7 +5576,7 @@ msgstr "&Azimut:"
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:971
 #: plugins/generators/solid/colorgenerator.h:53
 #: plugins/paintops/libpaintop/kis_paintop_option.cpp:31
-#: ui/dialogs/kis_dlg_preferences.cc:632 ui/forms/wdgnewimage.ui:303
+#: ui/dialogs/kis_dlg_preferences.cc:632 ui/forms/wdgnewimage.ui:317
 msgid "Color"
 msgstr "Rang"
 
@@ -7998,14 +7998,14 @@ msgstr "Qorayish"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:36
 #: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:30
-#: ui/forms/wdgnewimage.ui:359
+#: ui/forms/wdgnewimage.ui:373
 msgid "Transparent"
 msgstr "Shaffof"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:37
 #: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:31
-#: ui/forms/wdgnewimage.ui:391
+#: ui/forms/wdgnewimage.ui:405
 msgid "Opaque"
 msgstr ""
 
@@ -9892,11 +9892,11 @@ msgstr "Yashildan nusxa olish"
 msgid "Copy Merged"
 msgstr "Qizildan nusxa olish"
 
-#: ui/actions/kis_selection_action_factories.cpp:331
+#: ui/actions/kis_selection_action_factories.cpp:307
 msgid "(pasted)"
 msgstr ""
 
-#: ui/actions/kis_selection_action_factories.cpp:365
+#: ui/actions/kis_selection_action_factories.cpp:341
 #, fuzzy
 msgid "Pasted"
 msgstr "Palitralar"
@@ -10948,7 +10948,7 @@ msgstr "&Nomi:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #. i18n: ectx: property (text), widget (QLabel, lblOpacity)
-#: ui/forms/wdglayerproperties.ui:38 ui/forms/wdgnewimage.ui:334
+#: ui/forms/wdglayerproperties.ui:38 ui/forms/wdgnewimage.ui:348
 msgid "&Opacity:"
 msgstr "&Xiralik:"
 
@@ -11086,56 +11086,61 @@ msgstr ""
 msgid "&Screen size"
 msgstr "Ekran"
 
+#. i18n: ectx: property (text), widget (QPushButton, btnFromClipboard)
+#: ui/forms/wdgnewimage.ui:265
+msgid "Use clip image"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkFromClipboard)
+#: ui/forms/wdgnewimage.ui:272
+msgid "&First layer from clipboard"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveAsPredefined)
-#: ui/forms/wdgnewimage.ui:288
+#: ui/forms/wdgnewimage.ui:302
 #, fuzzy
 msgid "Save the current dimensions"
 msgstr "Joriy qatlamni oʻchirish"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSaveAsPredefined)
-#: ui/forms/wdgnewimage.ui:291
+#: ui/forms/wdgnewimage.ui:305
 #, fuzzy
 #| msgid "Slate"
 msgid "&Save"
 msgstr "Shifer"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpContents)
-#: ui/forms/wdgnewimage.ui:315
+#: ui/forms/wdgnewimage.ui:329
 #, fuzzy
 msgid "Contents"
 msgstr "Doimiy"
 
 #. i18n: ectx: property (text), widget (QLabel, lblColor)
-#: ui/forms/wdgnewimage.ui:321
+#: ui/forms/wdgnewimage.ui:335
 #, fuzzy
 msgid "C&anvas color:"
 msgstr "Rangi:"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, sliderOpacity)
-#: ui/forms/wdgnewimage.ui:366
+#: ui/forms/wdgnewimage.ui:380
 #, fuzzy
 msgid "Opacity of the background color"
 msgstr "Orqa fon rangining xiraligi."
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, sliderOpacity)
-#: ui/forms/wdgnewimage.ui:369
+#: ui/forms/wdgnewimage.ui:383
 msgid "Opacity of the background color."
 msgstr "Orqa fon rangining xiraligi."
 
 #. i18n: ectx: property (text), widget (QLabel, lblDescription)
-#: ui/forms/wdgnewimage.ui:401
+#: ui/forms/wdgnewimage.ui:415
 #, fuzzy
 #| msgid "Description:"
 msgid "&Description:"
 msgstr "Taʼrifi:"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkFromClipboard)
-#: ui/forms/wdgnewimage.ui:417
-msgid "&First layer from clipboard"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QPushButton, createButton)
-#: ui/forms/wdgnewimage.ui:466
+#: ui/forms/wdgnewimage.ui:473
 #, fuzzy
 #| msgid "Create"
 msgid "&Create"
@@ -11731,11 +11736,11 @@ msgstr ""
 msgid "New configuration %1"
 msgstr "Moslash..."
 
-#: ui/kis_clipboard.cc:250
+#: ui/kis_clipboard.cc:257
 msgid "Pasting data from simple source"
 msgstr ""
 
-#: ui/kis_clipboard.cc:250
+#: ui/kis_clipboard.cc:257
 msgid ""
 "The image data you are trying to paste has no color profile information.\n"
 "\n"
@@ -11748,11 +11753,11 @@ msgid ""
 "How do you want to interpret these data?"
 msgstr ""
 
-#: ui/kis_clipboard.cc:250
+#: ui/kis_clipboard.cc:257
 msgid "As &Web"
 msgstr "&Veb sifatida"
 
-#: ui/kis_clipboard.cc:250
+#: ui/kis_clipboard.cc:257
 msgid "As on &Monitor"
 msgstr ""
 
@@ -12301,101 +12306,101 @@ msgstr "Hech narsa tanlanmagan"
 msgid "No profile"
 msgstr "Profil yoʻq"
 
-#: ui/kis_view2.cpp:277
+#: ui/kis_view2.cpp:279
 msgid "Save Incremental &Version"
 msgstr ""
 
-#: ui/kis_view2.cpp:282
+#: ui/kis_view2.cpp:284
 msgid "Save Incremental Backup"
 msgstr ""
 
-#: ui/kis_view2.cpp:294
+#: ui/kis_view2.cpp:296
 msgid "Total Refresh"
 msgstr ""
 
-#: ui/kis_view2.cpp:299
+#: ui/kis_view2.cpp:301
 #, fuzzy
 #| msgid "&Rotate Image..."
 msgid "&Create Template From Image..."
 msgstr "Rasmni &burish..."
 
-#: ui/kis_view2.cpp:303
+#: ui/kis_view2.cpp:305
 #, fuzzy
 msgid "Mirror View"
 msgstr "Rasmni kesish"
 
-#: ui/kis_view2.cpp:309
+#: ui/kis_view2.cpp:311
 msgid "Rotate Canvas Right"
 msgstr ""
 
-#: ui/kis_view2.cpp:314
+#: ui/kis_view2.cpp:316
 #, fuzzy
 #| msgid "Rotate Image"
 msgid "Rotate Canvas Left"
 msgstr "Rasmni burish"
 
-#: ui/kis_view2.cpp:319
+#: ui/kis_view2.cpp:321
 #, fuzzy
 msgid "Reset Canvas Transformations"
 msgstr "Boshqa shaklga almashtirish"
 
-#: ui/kis_view2.cpp:324
+#: ui/kis_view2.cpp:326
 #, fuzzy
 #| msgid "Show original layer"
 msgid "Show Status Bar"
 msgstr "Asl qatlamni koʻrsatish"
 
-#: ui/kis_view2.cpp:325
+#: ui/kis_view2.cpp:327
 msgid "Hide Status Bar"
 msgstr ""
 
-#: ui/kis_view2.cpp:327
+#: ui/kis_view2.cpp:329
 msgid "Shows or hides the status bar"
 msgstr ""
 
-#: ui/kis_view2.cpp:331
+#: ui/kis_view2.cpp:333
 #, fuzzy
 msgid "Show Canvas Only"
 msgstr "Rangi:"
 
-#: ui/kis_view2.cpp:332
+#: ui/kis_view2.cpp:334
 msgid "Return to Window"
 msgstr ""
 
-#: ui/kis_view2.cpp:333
+#: ui/kis_view2.cpp:335
 msgid "Shows just the canvas or the whole window"
 msgstr ""
 
-#: ui/kis_view2.cpp:528
+#: ui/kis_view2.cpp:503
 msgid "Insert as New Layer"
 msgstr "Yangi qatlam sifatida qoʻyish"
 
-#: ui/kis_view2.cpp:529
+#: ui/kis_view2.cpp:504
 msgid "Insert as New Layers"
 msgstr "Yangi qatlamlar sifatida qoʻyish"
 
-#: ui/kis_view2.cpp:531
+#: ui/kis_view2.cpp:506
 msgid "Open in New Document"
 msgstr "Yangi hujjatda ochish"
 
-#: ui/kis_view2.cpp:532
+#: ui/kis_view2.cpp:507
 msgid "Open in New Documents"
 msgstr "Yangi hujjatlarda ochish"
 
-#: ui/kis_view2.cpp:534
+#: ui/kis_view2.cpp:509
 msgid "Replace Current Document"
 msgstr ""
 
-#: ui/kis_view2.cpp:536
+#: ui/kis_view2.cpp:511
 #, fuzzy
 msgid "Cancel"
 msgstr "Kanal"
 
-#: ui/kis_view2.cpp:784
+#: ui/kis_view2.cpp:757
 msgid "Cleanup removed files..."
 msgstr ""
 
-#: ui/kis_view2.cpp:1343
+#: ui/kis_view2.cpp:1316
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
@@ -12436,46 +12441,46 @@ msgid ""
 "<i>./0</i> represents the first child of the current layer"
 msgstr ""
 
-#: ui/tool/kis_tool.cc:114
+#: ui/tool/kis_tool.cc:122
 #, fuzzy
 #| msgid "Foreground Color"
 msgid "Swap Foreground and Background Color"
 msgstr "Oldin fon rangi"
 
-#: ui/tool/kis_tool.cc:120
+#: ui/tool/kis_tool.cc:128
 #, fuzzy
 #| msgid "Foreground Color"
 msgid "Reset Foreground and Background Color"
 msgstr "Oldin fon rangi"
 
-#: ui/tool/kis_tool.cc:574
+#: ui/tool/kis_tool.cc:598
 #, fuzzy
 msgid "No options"
 msgstr "Alfa moslamalari"
 
-#: ui/tool/kis_tool.cc:730
+#: ui/tool/kis_tool.cc:754
 #, fuzzy
 #| msgid "Layer is locked or invisible."
 msgid "Layer is locked and invisible."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/tool/kis_tool.cc:732
+#: ui/tool/kis_tool.cc:756
 #, fuzzy
 #| msgid "Layer is locked or invisible."
 msgid "Layer is locked."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/tool/kis_tool.cc:734
+#: ui/tool/kis_tool.cc:758
 #, fuzzy
 #| msgid "Layer is locked or invisible."
 msgid "Layer is invisible."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/tool/kis_tool.cc:736
+#: ui/tool/kis_tool.cc:760
 msgid "Group not editable."
 msgstr ""
 
-#: ui/tool/kis_tool.cc:751
+#: ui/tool/kis_tool.cc:775
 #, fuzzy
 msgid "Local selection is locked."
 msgstr "Palitra tanlanmagan."
