@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-04 01:28+0000\n"
+"POT-Creation-Date: 2013-07-09 21:09+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1918,154 +1918,6 @@ msgid ""
 "Allow Little CMS optimizations (uncheck when using linear light RGB or XYZ)"
 msgstr ""
 
-#: plugins/extensions/compose/dlg_compose.cpp:37
-#, fuzzy
-#| msgid "Remove Layer"
-msgid "compose Layer"
-msgstr "Qatlamni olib tashlash"
-
-#: plugins/extensions/compose/kis_layer_compose_plugin.cpp:44
-#, fuzzy
-#| msgid "&New Layer..."
-msgid "Compose Layer..."
-msgstr "&Yangi qatlam..."
-
-#: plugins/extensions/compose/kis_layer_compose_plugin.cpp:60
-#, fuzzy
-#| msgid "Move Layer"
-msgid "Compose Layer"
-msgstr "Qatlamni koʻchirish"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#. i18n: ectx: Menu (Layer)
-#: plugins/extensions/compose/layercompose.rc:4
-#: plugins/extensions/imagesize/imagesize.rc:9
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:210
-msgid "Layer"
-msgstr "Qatlam"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/extensions/compose/wdg_compose.ui:16
-#, fuzzy
-#| msgid "Layer Properties"
-msgid "New Layer Properties"
-msgstr "Qatlamning xossalari"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/compose/wdg_compose.ui:22
-#: ui/dialogs/kis_dlg_adj_layer_props.cc:81
-msgid "Layer name:"
-msgstr "Qatlamning nomi:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/compose/wdg_compose.ui:32
-#, fuzzy
-msgid "Target Colorspace:"
-msgstr "Ranglar boʻshligʻi"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/extensions/compose/wdg_compose.ui:42
-#, fuzzy
-#| msgid "Layer Properties"
-msgid "Layer Profile:"
-msgstr "Qatlamning xossalari"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/extensions/compose/wdg_compose.ui:52
-#, fuzzy
-msgid "Opacity: "
-msgstr "Xiralik:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/extensions/compose/wdg_compose.ui:66
-#, fuzzy
-msgid "Blend mode:"
-msgstr "Aralashtirish usuli"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: plugins/extensions/compose/wdg_compose.ui:115
-#, fuzzy
-#| msgid "Channel"
-msgid "Channel Sources"
-msgstr "Kanal"
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: plugins/extensions/compose/wdg_compose.ui:123
-#, fuzzy
-#| msgid "Red"
-msgid "Red:"
-msgstr "Qizil"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_4)
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_6)
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_8)
-#: plugins/extensions/compose/wdg_compose.ui:131
-#: plugins/extensions/compose/wdg_compose.ui:167
-#: plugins/extensions/compose/wdg_compose.ui:203
-#, fuzzy
-#| msgid "Layer %1"
-msgid "Layer 1"
-msgstr "Qatlam %1"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_5)
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_7)
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_11)
-#. i18n: ectx: property (text), item, widget (QComboBox, m_colorLimitation)
-#: plugins/extensions/compose/wdg_compose.ui:140
-#: plugins/extensions/compose/wdg_compose.ui:176
-#: plugins/extensions/compose/wdg_compose.ui:248
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:144
-msgid "Blue"
-msgstr "Koʻk"
-
-#. i18n: ectx: property (text), widget (QPushButton, pushButton)
-#. i18n: ectx: property (text), widget (QPushButton, pushButton_2)
-#. i18n: ectx: property (text), widget (QPushButton, pushButton_3)
-#. i18n: ectx: property (text), widget (QPushButton, pushButton_4)
-#: plugins/extensions/compose/wdg_compose.ui:148
-#: plugins/extensions/compose/wdg_compose.ui:184
-#: plugins/extensions/compose/wdg_compose.ui:220
-#: plugins/extensions/compose/wdg_compose.ui:256
-#, fuzzy
-#| msgid "Filters"
-msgid "File..."
-msgstr "Filterlar"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: plugins/extensions/compose/wdg_compose.ui:159
-#, fuzzy
-#| msgid "Green"
-msgid "Green:"
-msgstr "Yashil"
-
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: plugins/extensions/compose/wdg_compose.ui:195
-#, fuzzy
-#| msgid "Blue"
-msgid "Blue:"
-msgstr "Koʻk"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_9)
-#. i18n: ectx: property (text), item, widget (QComboBox, m_colorLimitation)
-#: plugins/extensions/compose/wdg_compose.ui:212
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:139
-msgid "Green"
-msgstr "Yashil"
-
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: plugins/extensions/compose/wdg_compose.ui:231
-#, fuzzy
-#| msgid "Alpha"
-msgid "Alpha:"
-msgstr "Alfa"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox_10)
-#: plugins/extensions/compose/wdg_compose.ui:239
-#, fuzzy
-#| msgid "Layer"
-msgid "Layer 2"
-msgstr "Qatlam"
-
 #: plugins/extensions/dockers/advancedcolorselector/kis_color_selector_ng_dock.cpp:35
 #, fuzzy
 msgid "Advanced Color Selector"
@@ -3417,6 +3269,13 @@ msgstr "Tanlanganni bekitish"
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:215
 msgid "Image"
 msgstr "Rasm"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
+#. i18n: ectx: Menu (Layer)
+#: plugins/extensions/imagesize/imagesize.rc:9
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:210
+msgid "Layer"
+msgstr "Qatlam"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: plugins/extensions/imagesize/wdg_canvassize.ui:29
@@ -9495,6 +9354,16 @@ msgstr ""
 msgid "Red"
 msgstr "Qizil"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, m_colorLimitation)
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:139
+msgid "Green"
+msgstr "Yashil"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_colorLimitation)
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:144
+msgid "Blue"
+msgstr "Koʻk"
+
 #: plugins/tools/selectiontools/kis_tool_select_outline.cc:58
 #: plugins/tools/selectiontools/kis_tool_select_outline.cc:115
 #, fuzzy
@@ -9944,6 +9813,10 @@ msgstr "Boshqa shaklga almashtirish"
 #, fuzzy
 msgid "Clear Perspective Grid"
 msgstr "Boshqa shaklga almashtirish"
+
+#: ui/dialogs/kis_dlg_adj_layer_props.cc:81
+msgid "Layer name:"
+msgstr "Qatlamning nomi:"
 
 #: ui/dialogs/kis_dlg_adj_layer_props.cc:102
 msgid "No configuration options are available for this filter"
@@ -12622,6 +12495,83 @@ msgstr "Ranglar boʻshligʻi"
 #, fuzzy, kde-format
 msgid "Workspace %1"
 msgstr "Ranglar boʻshligʻi"
+
+#, fuzzy
+#~| msgid "Remove Layer"
+#~ msgid "compose Layer"
+#~ msgstr "Qatlamni olib tashlash"
+
+#, fuzzy
+#~| msgid "&New Layer..."
+#~ msgid "Compose Layer..."
+#~ msgstr "&Yangi qatlam..."
+
+#, fuzzy
+#~| msgid "Move Layer"
+#~ msgid "Compose Layer"
+#~ msgstr "Qatlamni koʻchirish"
+
+#, fuzzy
+#~| msgid "Layer Properties"
+#~ msgid "New Layer Properties"
+#~ msgstr "Qatlamning xossalari"
+
+#, fuzzy
+#~ msgid "Target Colorspace:"
+#~ msgstr "Ranglar boʻshligʻi"
+
+#, fuzzy
+#~| msgid "Layer Properties"
+#~ msgid "Layer Profile:"
+#~ msgstr "Qatlamning xossalari"
+
+#, fuzzy
+#~ msgid "Opacity: "
+#~ msgstr "Xiralik:"
+
+#, fuzzy
+#~ msgid "Blend mode:"
+#~ msgstr "Aralashtirish usuli"
+
+#, fuzzy
+#~| msgid "Channel"
+#~ msgid "Channel Sources"
+#~ msgstr "Kanal"
+
+#, fuzzy
+#~| msgid "Red"
+#~ msgid "Red:"
+#~ msgstr "Qizil"
+
+#, fuzzy
+#~| msgid "Layer %1"
+#~ msgid "Layer 1"
+#~ msgstr "Qatlam %1"
+
+#, fuzzy
+#~| msgid "Filters"
+#~ msgid "File..."
+#~ msgstr "Filterlar"
+
+#, fuzzy
+#~| msgid "Green"
+#~ msgid "Green:"
+#~ msgstr "Yashil"
+
+#, fuzzy
+#~| msgid "Blue"
+#~ msgid "Blue:"
+#~ msgstr "Koʻk"
+
+#, fuzzy
+#~| msgid "Alpha"
+#~ msgid "Alpha:"
+#~ msgstr "Alfa"
+
+#, fuzzy
+#~| msgid "Layer"
+#~ msgid "Layer 2"
+#~ msgstr "Qatlam"
 
 #, fuzzy
 #~| msgid "Angular"
