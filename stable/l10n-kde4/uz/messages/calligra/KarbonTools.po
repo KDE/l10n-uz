@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-25 02:03+0100\n"
+"POT-Creation-Date: 2013-08-10 05:22+0000\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -36,13 +36,10 @@ msgid "Target:"
 msgstr "Moʻljal:"
 
 #: ../../ui/widgets/KarbonGradientEditWidget.cpp:169
-#, fuzzy
-#| msgid "Linear"
-msgid "Line"
-msgstr "Chiziqli"
+msgid "Stroke"
+msgstr "Chizish"
 
 #: ../../ui/widgets/KarbonGradientEditWidget.cpp:170
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:351
 msgid "Fill"
 msgstr "Toʻldirish"
 
@@ -335,28 +332,21 @@ msgstr ""
 msgid "Graphics Pen"
 msgstr "Gradient"
 
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:390
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:382
 msgid "Calligraphy: increase width"
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:395
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:387
 msgid "Calligraphy: decrease width"
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:400
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:392
 msgid "Calligraphy: increase angle"
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:405
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:397
 msgid "Calligraphy: decrease angle"
 msgstr ""
-
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:412
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:413
-#, fuzzy
-#| msgid "Ellipse Tool"
-msgid "Calligraphy"
-msgstr "Ellips vositasi"
 
 #: CalligraphyTool/KarbonCalligraphyToolFactory.cpp:32
 #, fuzzy
@@ -533,36 +523,54 @@ msgstr "Namunalar"
 msgid "Pattern Editing Tool"
 msgstr "Namuna moslamasi"
 
-#~ msgid "Stroke"
-#~ msgstr "Chizish"
+#: KarbonPencilTool.cpp:322
+#, fuzzy
+#| msgid "Position:"
+msgid "Precision:"
+msgstr "Joylashishi:"
+
+#: KarbonPencilTool.cpp:324
+#, fuzzy
+msgctxt "The raw line data"
+msgid "Raw"
+msgstr "Qator"
+
+#: KarbonPencilTool.cpp:325
+msgid "Curve"
+msgstr "Egri chiziq"
+
+#: KarbonPencilTool.cpp:326
+#, fuzzy
+msgid "Straight"
+msgstr "Toʻgʻri chiziq"
+
+#: KarbonPencilTool.cpp:335 KarbonPencilTool.cpp:341
+#, fuzzy
+msgid "Optimize"
+msgstr "Optimallashtirish"
+
+#: KarbonPencilTool.cpp:343
+msgid "Exactness:"
+msgstr "Aniqlik:"
+
+#: KarbonPencilTool.cpp:352
+#, fuzzy
+msgid "Combine angle:"
+msgstr "Ichki burchak:"
+
+#: KarbonPencilToolFactory.cpp:32
+msgid "Freehand Path Drawing Tool"
+msgstr ""
 
 #, fuzzy
-#~| msgid "Position:"
-#~ msgid "Precision:"
-#~ msgstr "Joylashishi:"
+#~| msgid "Linear"
+#~ msgid "Line"
+#~ msgstr "Chiziqli"
 
 #, fuzzy
-#~ msgctxt "The raw line data"
-#~ msgid "Raw"
-#~ msgstr "Qator"
-
-#~ msgid "Curve"
-#~ msgstr "Egri chiziq"
-
-#, fuzzy
-#~ msgid "Straight"
-#~ msgstr "Toʻgʻri chiziq"
-
-#, fuzzy
-#~ msgid "Optimize"
-#~ msgstr "Optimallashtirish"
-
-#~ msgid "Exactness:"
-#~ msgstr "Aniqlik:"
-
-#, fuzzy
-#~ msgid "Combine angle:"
-#~ msgstr "Ichki burchak:"
+#~| msgid "Ellipse Tool"
+#~ msgid "Calligraphy"
+#~ msgstr "Ellips vositasi"
 
 #, fuzzy
 #~| msgid "Stroke: Color"
