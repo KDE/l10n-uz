@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-28 01:29+0000\n"
+"POT-Creation-Date: 2013-08-31 01:28+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -5568,8 +5568,8 @@ msgstr "&Azimut:"
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:761
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:971
 #: plugins/generators/solid/colorgenerator.h:53
-#: plugins/paintops/libpaintop/kis_paintop_option.cpp:31
 #: ui/dialogs/kis_dlg_preferences.cc:630 ui/forms/wdgnewimage.ui:323
+#: ui/kis_paintop_option.cpp:31
 msgid "Color"
 msgstr "Rang"
 
@@ -8004,18 +8004,6 @@ msgstr "Taʼrifi:"
 #| msgid "Pressure"
 msgid "Tangential pressure"
 msgstr "Bosim"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbOutline)
-#: plugins/paintops/libpaintop/kis_paintop_option.cpp:26
-#: ui/forms/wdgshapeoptions.ui:35
-msgid "Brush"
-msgstr "Boʻyoq"
-
-#: plugins/paintops/libpaintop/kis_paintop_option.cpp:36
-#, fuzzy
-#| msgid "Text"
-msgid "Texture"
-msgstr "Matn"
 
 #: plugins/paintops/libpaintop/kis_pressure_darken_option.cpp:28
 #, fuzzy
@@ -11410,6 +11398,11 @@ msgstr "Boʻyoqning oʻlchami"
 msgid "No Outline"
 msgstr "Boʻyoqning oʻlchami"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbOutline)
+#: ui/forms/wdgshapeoptions.ui:35 ui/kis_paintop_option.cpp:26
+msgid "Brush"
+msgstr "Boʻyoq"
+
 #. i18n: ectx: property (text), widget (QLabel, textLabelFill)
 #: ui/forms/wdgshapeoptions.ui:43
 msgid "Fill:"
@@ -12638,6 +12631,12 @@ msgstr ""
 #, fuzzy
 msgid "Add to palette"
 msgstr "Palitraga qoʻshish:"
+
+#: ui/kis_paintop_option.cpp:36
+#, fuzzy
+#| msgid "Text"
+msgid "Texture"
+msgstr "Matn"
 
 #: ui/kis_palette_manager.cpp:64
 #, fuzzy
