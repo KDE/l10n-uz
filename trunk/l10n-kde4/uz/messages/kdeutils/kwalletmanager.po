@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwalletmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-03 01:39+0000\n"
+"POT-Creation-Date: 2013-09-03 01:43+0000\n"
 "PO-Revision-Date: 2006-12-17 13:39+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -190,7 +190,7 @@ msgstr "Yangi jild"
 msgid "Please choose a name for the new folder:"
 msgstr "Iltimos yangi jild uchun nom tanlang:"
 
-#: kwalleteditor.cpp:438 kwalleteditor.cpp:787 kwalletmanager.cpp:290
+#: kwalleteditor.cpp:438 kwalleteditor.cpp:787 kwalletmanager.cpp:295
 msgid "Do Not Try"
 msgstr "Urinib koʻrilmasin"
 
@@ -298,20 +298,20 @@ msgstr "'<b>%1</b>' XML faylni oʻqishda xato roʻy berdi."
 msgid "Error: XML file does not contain a wallet."
 msgstr "Xato: XML fayli tarkibida qopchiq mavjud emas."
 
-#: kwalletmanager.cpp:71 kwalletmanager.cpp:78 kwalletmanager.cpp:187
-#: kwalletmanager.cpp:238
+#: kwalletmanager.cpp:71 kwalletmanager.cpp:78 kwalletmanager.cpp:192
+#: kwalletmanager.cpp:243
 #, fuzzy
 #| msgid "KDE Wallet Manager"
 msgid "KDE Wallet"
 msgstr "KDE qopchiq boshqaruvchisi"
 
-#: kwalletmanager.cpp:71 kwalletmanager.cpp:238
+#: kwalletmanager.cpp:71 kwalletmanager.cpp:243
 #, fuzzy
 #| msgid "KDE Wallet: No wallets open."
 msgid "No wallets open."
 msgstr "KDE qopchiq: Ochiq qopchiqlar yoʻq."
 
-#: kwalletmanager.cpp:78 kwalletmanager.cpp:187
+#: kwalletmanager.cpp:78 kwalletmanager.cpp:192
 #, fuzzy
 #| msgid "KDE Wallet: A wallet is open."
 msgid "A wallet is open."
@@ -321,21 +321,27 @@ msgstr "KDE qopchiq: Qopchiq ochiq."
 msgid "&New Wallet..."
 msgstr "&Yangi qopchiq"
 
-#: kwalletmanager.cpp:125
+#: kwalletmanager.cpp:126
+#, fuzzy
+#| msgid "New Wallet"
+msgid "Open Wallet..."
+msgstr "Yangi qopchiq"
+
+#: kwalletmanager.cpp:130
 #, fuzzy
 #| msgid "New Wallet"
 msgid "&Delete Wallet..."
 msgstr "Yangi qopchiq"
 
-#: kwalletmanager.cpp:129
+#: kwalletmanager.cpp:134
 msgid "Configure &Wallet..."
 msgstr "Qopchiqni &moslash"
 
-#: kwalletmanager.cpp:137
+#: kwalletmanager.cpp:142
 msgid "Close &All Wallets"
 msgstr "Hamma qo&pchiqlarni yopish"
 
-#: kwalletmanager.cpp:211 walletcontrolwidget.cpp:102
+#: kwalletmanager.cpp:216 walletcontrolwidget.cpp:118
 msgid ""
 "Unable to close wallet cleanly. It is probably in use by other applications. "
 "Do you wish to force it closed?"
@@ -343,47 +349,47 @@ msgstr ""
 "Kopchiqni xatosiz yopib boʻlmaydi. Uni boshqa dasturlar ishlatayotganga "
 "oʻxshaydi. Majburiy yopishni istaysizmi?"
 
-#: kwalletmanager.cpp:211 walletcontrolwidget.cpp:102
+#: kwalletmanager.cpp:216 walletcontrolwidget.cpp:118
 msgid "Force Closure"
 msgstr "Majburiy yopish"
 
-#: kwalletmanager.cpp:211 walletcontrolwidget.cpp:102
+#: kwalletmanager.cpp:216 walletcontrolwidget.cpp:118
 msgid "Do Not Force"
 msgstr "Majburiy yopilmasin"
 
-#: kwalletmanager.cpp:215 walletcontrolwidget.cpp:106
+#: kwalletmanager.cpp:220 walletcontrolwidget.cpp:122
 #, kde-format
 msgid "Unable to force the wallet closed. Error code was %1."
 msgstr "Qopchiqni majburiy yopib boʻlmadi. Xato kodi: %1."
 
-#: kwalletmanager.cpp:231
+#: kwalletmanager.cpp:236
 #, kde-format
 msgid "Error opening wallet %1."
 msgstr "'%1' qopchigʻini ochishda xato roʻy berdi."
 
-#: kwalletmanager.cpp:273
+#: kwalletmanager.cpp:278
 msgid "Please choose a name for the new wallet:"
 msgstr "Iltimos yangi qopchiq uchun nom tanlang:"
 
-#: kwalletmanager.cpp:282
+#: kwalletmanager.cpp:287
 msgid "New Wallet"
 msgstr "Yangi qopchiq"
 
-#: kwalletmanager.cpp:290
+#: kwalletmanager.cpp:295
 msgid "Sorry, that wallet already exists. Try a new name?"
 msgstr ""
 "Uzr, bunday qopchiq allaqachon mavjud. Boshqadan urinib koʻrishni istaysizmi?"
 
-#: kwalletmanager.cpp:290
+#: kwalletmanager.cpp:295
 msgid "Try New"
 msgstr "Urinib koʻrish"
 
-#: kwalletmanager.cpp:312
+#: kwalletmanager.cpp:317
 #, kde-format
 msgid "Are you sure you wish to delete the wallet '%1'?"
 msgstr "Rostdan '%1' qopchigʻini oʻchirishni istaysizmi?"
 
-#: kwalletmanager.cpp:318
+#: kwalletmanager.cpp:323
 #, kde-format
 msgid "Unable to delete the wallet. Error code was %1."
 msgstr "Kopchiqni oʻchirib boʻlmadi. Xato kodi: %1."
@@ -403,7 +409,7 @@ msgstr ""
 msgid "&Help"
 msgstr ""
 
-#: kwalletpopup.cpp:44 walletcontrolwidget.cpp:78
+#: kwalletpopup.cpp:44 walletcontrolwidget.cpp:94
 #, fuzzy
 msgid "&Open..."
 msgstr "Ya&ngi..."
@@ -447,11 +453,11 @@ msgid "(c) 2003,2004 George Staikos"
 msgstr "(C) 2003,2004 Jorj Staykos (George Staikos)"
 
 #: main.cpp:50
-msgid "Michael Leupold"
+msgid "Valentin Rusu"
 msgstr ""
 
 #: main.cpp:50
-msgid "Maintainer"
+msgid "Maintainer, user interface refactoring"
 msgstr ""
 
 #: main.cpp:51
@@ -467,20 +473,22 @@ msgid "Original author and former maintainer"
 msgstr "Muallif va taʼminlovchi"
 
 #: main.cpp:52
-msgid "Isaac Clerencia"
+msgid "Michael Leupold"
 msgstr ""
 
 #: main.cpp:52
+#, fuzzy
+#| msgid "Primary author and maintainer"
+msgid "Developer and former maintainer"
+msgstr "Muallif va taʼminlovchi"
+
+#: main.cpp:53
+msgid "Isaac Clerencia"
+msgstr ""
+
+#: main.cpp:53
 msgid "Developer"
 msgstr "Tuzuvchi"
-
-#: main.cpp:53
-msgid "Valentin Rusu"
-msgstr ""
-
-#: main.cpp:53
-msgid "Developer - user interface refactoring"
-msgstr ""
 
 #: main.cpp:58
 msgid "Show window on startup"
@@ -498,11 +506,11 @@ msgstr "Qopchiqning nomi"
 msgid "Revoke Authorization"
 msgstr ""
 
-#: walletcontrolwidget.cpp:57
+#: walletcontrolwidget.cpp:74
 msgid "&Close"
 msgstr ""
 
-#: walletcontrolwidget.cpp:74
+#: walletcontrolwidget.cpp:91
 #, fuzzy, kde-format
 #| msgid "KDE Wallet: A wallet is open."
 msgctxt ""
@@ -511,7 +519,7 @@ msgctxt ""
 msgid "The '%1' wallet is currently open"
 msgstr "KDE qopchiq: Qopchiq ochiq."
 
-#: walletcontrolwidget.cpp:90
+#: walletcontrolwidget.cpp:106
 msgid "The wallet is currently closed"
 msgstr ""
 
@@ -589,11 +597,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Ushbu qopchiq yopib qoʻyilgan. U bilan ishni davom ettirish uchun ochish "
 #~ "uni qaytadan ochish kerak."
-
-#, fuzzy
-#~| msgid "New Wallet"
-#~ msgid "Open Wallet"
-#~ msgstr "Yangi qopchiq"
 
 #~ msgid "Please choose a name that contains only alphanumeric characters:"
 #~ msgstr "Nom kiritishda faqat harf va raqamlardan foydalaning:"
