@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-26 01:44+0000\n"
+"POT-Creation-Date: 2013-09-27 01:50+0000\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -18,8 +18,109 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: adblock/adblockmanager.cpp:352
+#, fuzzy
+msgctxt "@title:window"
+msgid "Ad Block Settings"
+msgstr "&Joʻnatish"
+
+#: adblock/adblocksettingwidget.cpp:53
+msgid ""
+"<qt>Filter expression (e.g. <tt>http://www.example.com/ad/*</tt>, <a href="
+"\"filterhelp\">more information</a>):"
+msgstr ""
+
+#: adblock/adblocksettingwidget.cpp:69
+#, fuzzy
+#| msgid " days"
+msgid " day"
+msgid_plural " days"
+msgstr[0] " kun"
+
+#: adblock/adblocksettingwidget.cpp:86
+msgid ""
+"<qt><p>Enter an expression to filter. Filters can be defined as either:"
+"<ul><li>a shell-style wildcard, e.g. <tt>http://www.example.com/ads*</tt>, "
+"the wildcards <tt>*?[]</tt> may be used</li><li>a full regular expression by "
+"surrounding the string with '<tt>/</tt>', e.g. <tt>/\\/(ad|banner)\\./</tt></"
+"li></ul><p>Any filter string can be preceded by '<tt>@@</tt>' to whitelist "
+"(allow) any matching URL, which takes priority over any blacklist (blocking) "
+"filter."
+msgstr ""
+
 #: adblock/networkaccessmanager.cpp:51
 msgid "Blocked by ad filter"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, BlockedLabel)
+#: adblock/ui/blocked_elements.ui:17
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Blocked elements</"
+"span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, HidedLabel)
+#: adblock/ui/blocked_elements.ui:101
+msgid "<b>Hidden elements</b>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: adblock/ui/blocked_elements.ui:108
+msgid "TextLabel"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkEnableAdblock)
+#: adblock/ui/settings_adblock.ui:17
+msgid "&Enable Ad Block"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkHideAds)
+#: adblock/ui/settings_adblock.ui:24
+msgid "&Hide filtered elements"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: adblock/ui/settings_adblock.ui:38
+#, fuzzy
+#| msgid "Never Automatically"
+msgid "Automatic Filters"
+msgstr "Hech qachon avtomatik emas"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: adblock/ui/settings_adblock.ui:49
+msgid "Update enabled automatic filters every:"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: adblock/ui/settings_adblock.ui:88
+#, fuzzy
+#| msgid "Available Filters"
+msgid "Manual Filters"
+msgstr "Mavjud filterlar"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: adblock/ui/settings_adblock.ui:96
+#, fuzzy
+#| msgid "&Search:"
+msgid "Search:"
+msgstr "&Qidirish:"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, insertButton)
+#: adblock/ui/settings_adblock.ui:123
+msgid "Add filter expression"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, insertButton)
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#: adblock/ui/settings_adblock.ui:126 adblock/ui/settings_adblock.ui:136
+#, fuzzy
+#| msgid "Add..."
+msgid "..."
+msgstr "Qoʻshish..."
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#: adblock/ui/settings_adblock.ui:133
+msgid "Remove filter expression"
 msgstr ""
 
 #: findbar/findbarbase.cpp:48 findbar/findbarbase.cpp:51
@@ -4263,11 +4364,6 @@ msgstr "&Oldingi xabar"
 #~ msgstr "BCC"
 
 #, fuzzy
-#~| msgid "Available Filters"
-#~ msgid "KMail Filter"
-#~ msgstr "Mavjud filterlar"
-
-#, fuzzy
 #~| msgid "is in category"
 #~ msgid "with category"
 #~ msgstr "turkumda mavjud"
@@ -4587,12 +4683,6 @@ msgstr "&Oldingi xabar"
 #~ msgctxt "@title:column Email of the recipient."
 #~ msgid "Email"
 #~ msgstr "Elektron pochta"
-
-#, fuzzy
-#~| msgid "&Search:"
-#~ msgctxt "Search for recipient."
-#~ msgid "Search:"
-#~ msgstr "&Qidirish:"
 
 #, fuzzy
 #~ msgid "Add as &To"
@@ -5485,11 +5575,6 @@ msgstr "&Oldingi xabar"
 #~ msgid "Check inter&val:"
 #~ msgstr "Tekshirish &oraligʻi:"
 
-#, fuzzy
-#~ msgctxt "@title:tab"
-#~ msgid "IMAP Settings"
-#~ msgstr "&Joʻnatish"
-
 #~ msgid "Sho&w hidden folders"
 #~ msgstr "Yashirilgan &jildlarni koʻrsatish"
 
@@ -5527,11 +5612,6 @@ msgstr "&Oldingi xabar"
 #~| msgid "Replace:"
 #~ msgid "Namespaces:"
 #~ msgstr "Almashtirish:"
-
-#, fuzzy
-#~| msgid "Add..."
-#~ msgid "..."
-#~ msgstr "Qoʻshish..."
 
 #, fuzzy
 #~| msgid "Personal"
@@ -6998,13 +7078,6 @@ msgstr "&Oldingi xabar"
 #~ msgstr "Jildning xossalari"
 
 #, fuzzy
-#~| msgid " days"
-#~ msgctxt "Expire messages after %1"
-#~ msgid " day"
-#~ msgid_plural " days"
-#~ msgstr[0] " kun"
-
-#, fuzzy
 #~| msgid "There are no unread messages"
 #~ msgid "Expire unread messages after"
 #~ msgstr "Oʻqilmagan xabar yoʻq"
@@ -8224,12 +8297,6 @@ msgstr "&Oldingi xabar"
 #~ msgctxt "@action:inmenu Group header background color setting"
 #~ msgid "None"
 #~ msgstr "Yoʻq"
-
-#, fuzzy
-#~| msgid "Never Automatically"
-#~ msgctxt "@action:inmenu Group header background color setting"
-#~ msgid "Automatic"
-#~ msgstr "Hech qachon avtomatik emas"
 
 #, fuzzy
 #~| msgid "Alternative Background Color"
