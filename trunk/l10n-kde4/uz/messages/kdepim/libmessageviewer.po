@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-06 01:41+0000\n"
+"POT-Creation-Date: 2013-10-07 01:42+0000\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -87,38 +87,62 @@ msgstr ""
 msgid "Object"
 msgstr "Mavzu"
 
-#: adblock/adblockblockableitemswidget.cpp:110
+#: adblock/adblockblockableitemswidget.cpp:109
+msgid "Audio/Video"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:112
+msgid "Popup window"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:116
 #, fuzzy
 msgid "Unknown"
 msgstr "&Uzatish"
 
-#: adblock/adblockblockableitemswidget.cpp:206
+#: adblock/adblockblockableitemswidget.cpp:218
 #, fuzzy
 #| msgid "&Copy Here"
 msgid "Copy url"
 msgstr "Shu yerga &nusxa olish"
 
-#: adblock/adblockblockableitemswidget.cpp:208
+#: adblock/adblockblockableitemswidget.cpp:220
 #, fuzzy
 msgid "Copy filter"
 msgstr "Jildga nusxa olish"
 
-#: adblock/adblockblockableitemswidget.cpp:209
+#: adblock/adblockblockableitemswidget.cpp:221
 msgid "Block item..."
 msgstr ""
 
-#: adblock/adblockblockableitemswidget.cpp:211
+#: adblock/adblockblockableitemswidget.cpp:223
 #, fuzzy
 #| msgctxt "to open"
 #| msgid "Open"
 msgid "Open"
 msgstr "Ochish"
 
-#: adblock/adblockblockableitemswidget.cpp:214
+#: adblock/adblockblockableitemswidget.cpp:226
 #, fuzzy
 #| msgid "Rename Filter"
 msgid "Remove filter"
 msgstr "Filter nomini oʻzgartirish"
+
+#: adblock/adblockcreatefilterdialog.cpp:41
+#, fuzzy
+#| msgid "Delete T&hread"
+msgid "Use default"
+msgstr "Ketma-ketlikni oʻch&irish"
+
+#: adblock/adblockcreatefilterdialog.cpp:42
+msgid "Yes"
+msgstr ""
+
+#: adblock/adblockcreatefilterdialog.cpp:43
+#, fuzzy
+#| msgid "Notes"
+msgid "Not"
+msgstr "Yozma xotira"
 
 #: adblock/adblocklistwidget.cpp:61
 #, fuzzy
@@ -249,6 +273,13 @@ msgstr ""
 #| msgid "Repl&y to all:"
 msgid "Apply to:"
 msgstr "Hammaga j&avob berish:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: adblock/ui/adblockcreatefilterwidget.ui:125
+#, fuzzy
+#| msgid "Remove Header"
+msgid "Collapse blocked:"
+msgstr "Sarlavhani olib tashlash"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkEnableAdblock)
 #: adblock/ui/settings_adblock.ui:17
@@ -3138,12 +3169,6 @@ msgstr "&Oldingi xabar"
 #~ msgstr "Aloqalar"
 
 #, fuzzy
-#~| msgid "Notes"
-#~ msgctxt "type of folder content"
-#~ msgid "Notes"
-#~ msgstr "Yozma xotira"
-
-#, fuzzy
 #~| msgid "Tasks"
 #~ msgctxt "type of folder content"
 #~ msgid "Tasks"
@@ -5188,11 +5213,6 @@ msgstr "&Oldingi xabar"
 #~ msgstr "Takliflar"
 
 #, fuzzy
-#~| msgid "Delete T&hread"
-#~ msgid "Use default theme"
-#~ msgstr "Ketma-ketlikni oʻch&irish"
-
-#, fuzzy
 #~ msgid "&Use custom message templates in this folder"
 #~ msgstr "&Boshqa shriftlarni ishlatish"
 
@@ -5456,12 +5476,6 @@ msgstr "&Oldingi xabar"
 #~| msgid "Remove Header"
 #~ msgctxt "shortcut for expanding the header of a group in the message list"
 #~ msgid "Expand Group Header"
-#~ msgstr "Sarlavhani olib tashlash"
-
-#, fuzzy
-#~| msgid "Remove Header"
-#~ msgctxt "shortcut for collapsing the header of a group in the message list"
-#~ msgid "Collapse Group Header"
 #~ msgstr "Sarlavhani olib tashlash"
 
 #, fuzzy
