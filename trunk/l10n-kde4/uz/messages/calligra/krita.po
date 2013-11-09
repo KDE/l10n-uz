@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-08 01:29+0000\n"
+"POT-Creation-Date: 2013-11-09 01:24+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1074,7 +1074,7 @@ msgstr "Umumiy"
 msgid "Filter"
 msgstr "Filter"
 
-#: image/kis_assert.cpp:56
+#: image/kis_assert.cpp:57
 msgid "Krita Internal Error"
 msgstr ""
 
@@ -5098,7 +5098,7 @@ msgstr "&Foiz:"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/filters/blur/wdg_lens_blur.ui:73
 #: plugins/filters/roundcorners/kis_round_corners_filter.cpp:130
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:257
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:291
 #: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:103
 msgid "Radius"
 msgstr "Radius"
@@ -8283,7 +8283,7 @@ msgid "Lower value "
 msgstr "Rang chegarasi"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:31
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:215
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:249
 #: ui/kis_paintop_box.cc:240
 #, fuzzy
 msgid "Mirror"
@@ -8300,13 +8300,13 @@ msgid "Mirrored"
 msgstr "Rasmni kesish"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:35
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:235
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:269
 #, fuzzy
 msgid "Horizontally"
 msgstr "Ufq 1"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:37
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:237
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:271
 #, fuzzy
 msgid "Vertically"
 msgstr "Uskuna:"
@@ -9494,28 +9494,43 @@ msgstr ""
 msgid "Move a layer"
 msgstr "Qatlamni koʻchirish"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:208
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:230
+#, fuzzy
+msgid "Show Axis"
+msgstr "Toʻr"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:234
 #, fuzzy
 #| msgid "Axes"
 msgid "Axis point"
 msgstr "Oʻqlar"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:214
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:240
+msgid "Set axis angle (degrees)"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:245
+#, fuzzy
+#| msgid "Angle:"
+msgid "Axis Angle:"
+msgstr "Burchak:"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:248
 msgid "Symmetry"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:216
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:250
 #, fuzzy
 msgid "Translate"
 msgstr "Burchak"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:222
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:256
 #, fuzzy
 #| msgid "Brush size"
 msgid "Brush count"
 msgstr "Boʻyoqning oʻlchami"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.h:91
+#: plugins/tools/defaulttools/kis_tool_multihand.h:97
 #, fuzzy
 msgid "Paint with multibrushes"
 msgstr "Filtrli choʻtka"
@@ -15468,10 +15483,6 @@ msgstr "Ranglar boʻshligʻi"
 #, fuzzy
 #~ msgid "No editor"
 #~ msgstr "Qatlamning xossalari"
-
-#, fuzzy
-#~ msgid "Show Grid"
-#~ msgstr "Toʻr"
 
 #, fuzzy
 #~ msgid "Hide Grid"
