@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-22 01:34+0000\n"
+"POT-Creation-Date: 2013-11-23 01:24+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -46,28 +46,28 @@ msgstr "Gradient vositasi"
 msgid "Open Document"
 msgstr "Yangi hujjatlarda ochish"
 
-#: gemini/main.cpp:49 gemini/MainWindow.cpp:212
+#: gemini/main.cpp:55 gemini/MainWindow.cpp:212
 #, fuzzy
 #| msgid "Krita"
 msgid "Krita Gemini"
 msgstr "Krita"
 
-#: gemini/main.cpp:51
+#: gemini/main.cpp:57
 msgid "Krita Gemini: Painting at Home and on the Go for Artists"
 msgstr ""
 
-#: gemini/main.cpp:53 sketch/main.cpp:53
+#: gemini/main.cpp:59 sketch/main.cpp:60
 #, fuzzy
 msgid "(c) 1999-2012 The Krita team and KO GmbH.\n"
 msgstr "(C) 1999-2006, Krita jamoasi.\n"
 
-#: gemini/main.cpp:61 sketch/main.cpp:61
+#: gemini/main.cpp:67 sketch/main.cpp:68
 #, fuzzy
 #| msgid "Image Size"
 msgid "Images to open"
 msgstr "Rasmning oʻlchami"
 
-#: gemini/main.cpp:62 sketch/main.cpp:62
+#: gemini/main.cpp:68 sketch/main.cpp:69
 msgid "Don't use the virtual keyboard"
 msgstr ""
 
@@ -1176,77 +1176,77 @@ msgstr ""
 msgid "Mitchell"
 msgstr ""
 
-#: image/kis_image.cc:297
+#: image/kis_image.cc:282
 msgid "background"
 msgstr "orqa fon"
 
-#: image/kis_image.cc:300
+#: image/kis_image.cc:285
 #, kde-format
 msgid "Layer %1"
 msgstr "Qatlam %1"
 
-#: image/kis_image.cc:436
+#: image/kis_image.cc:421
 #, fuzzy
 msgid "Crop Image"
 msgstr "Rasmni kesish"
 
-#: image/kis_image.cc:436
+#: image/kis_image.cc:421
 msgid "Resize Image"
 msgstr "Rasmning oʻlchamini oʻzgartirish"
 
-#: image/kis_image.cc:469
+#: image/kis_image.cc:454
 #, fuzzy
 msgid "Crop Node"
 msgstr "Shrift vositasi"
 
-#: image/kis_image.cc:496
+#: image/kis_image.cc:481
 #, fuzzy
 msgid "Scale Image"
 msgstr "Yangi rasm"
 
-#: image/kis_image.cc:496
+#: image/kis_image.cc:481
 #, fuzzy
 #| msgid "Image Resolution"
 msgid "Change Image Resolution"
 msgstr "Rasmning oʻlchami"
 
-#: image/kis_image.cc:615 plugins/extensions/rotateimage/rotateimage.cc:155
+#: image/kis_image.cc:600 plugins/extensions/rotateimage/rotateimage.cc:155
 msgid "Rotate Layer"
 msgstr "Qatlamni burish"
 
-#: image/kis_image.cc:682
+#: image/kis_image.cc:667
 #, fuzzy
 msgid "Shear layer"
 msgstr "Yangi qatlam"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgShearImage)
-#: image/kis_image.cc:688 plugins/extensions/shearimage/dlg_shearimage.cc:32
+#: image/kis_image.cc:673 plugins/extensions/shearimage/dlg_shearimage.cc:32
 #: plugins/extensions/shearimage/shearimage.cc:64
 #: plugins/extensions/shearimage/wdg_shearimage.ui:14
 #, fuzzy
 msgid "Shear Image"
 msgstr "Yangi rasm"
 
-#: image/kis_image.cc:701
+#: image/kis_image.cc:686
 #, fuzzy
 #| msgid "Convert Image Type"
 msgid "Convert Image Color Space"
 msgstr "Rasmning turini oʻzgartirish"
 
-#: image/kis_image.cc:735
+#: image/kis_image.cc:720
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: image/kis_image.cc:914 ui/kis_layer_manager.cc:728
+#: image/kis_image.cc:899 ui/kis_layer_manager.cc:728
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Silliqlangan rasm"
 
-#: image/kis_image.cc:990
+#: image/kis_image.cc:975
 msgid "Merge with Layer Below"
 msgstr "Pastgi qatlam bilan birlashtirish"
 
-#: image/kis_image.cc:1036
+#: image/kis_image.cc:1021
 #, fuzzy
 msgid "Flatten Layer"
 msgstr "Silliqlangan rasm"
@@ -3652,7 +3652,7 @@ msgstr "&Oʻlchami:"
 msgid "Adjust print size separately"
 msgstr ""
 
-#: plugins/extensions/imagesplit/dlg_imagesplit.cpp:39
+#: plugins/extensions/imagesplit/dlg_imagesplit.cpp:38
 #, fuzzy
 #| msgid "Image Size"
 msgid "Image Split"
@@ -10054,13 +10054,13 @@ msgstr "Tanlanganni bekitish"
 msgid "Work Recursively"
 msgstr ""
 
-#: sketch/main.cpp:49 sketch/MainWindow.cpp:61
+#: sketch/main.cpp:56 sketch/MainWindow.cpp:61
 #, fuzzy
 #| msgid "Krita"
 msgid "Krita Sketch"
 msgstr "Krita"
 
-#: sketch/main.cpp:51
+#: sketch/main.cpp:58
 msgid "Krita Sketch: Painting on the Go for Artists"
 msgstr ""
 
@@ -13161,7 +13161,7 @@ msgstr "Palitra tanlanmagan."
 msgid "Can't paint on vector layer."
 msgstr ""
 
-#: ui/tool/kis_tool_freehand_helper.cpp:160
+#: ui/tool/kis_tool_freehand_helper.cpp:200
 msgid "Freehand Stroke"
 msgstr ""
 
