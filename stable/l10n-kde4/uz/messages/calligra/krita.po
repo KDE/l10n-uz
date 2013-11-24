@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-23 04:59+0000\n"
+"POT-Creation-Date: 2013-11-24 05:18+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1929,6 +1929,13 @@ msgstr ""
 msgid "Advanced Color Selector"
 msgstr "Tanlanganni koʻrsatish"
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, KisColorSelectorSettings)
+#: plugins/extensions/dockers/advancedcolorselector/kis_color_selector_settings.cpp:89
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:14
+#, fuzzy
+msgid "Color Selector Settings"
+msgstr "Tanlanganni koʻrsatish"
+
 #: plugins/extensions/dockers/advancedcolorselector/kis_shade_selector_line.cpp:153
 #, kde-format
 msgid "delta h=%1 s=%2 v=%3 shift h=%4 s=%5 v=%6"
@@ -1944,12 +1951,6 @@ msgstr "Kuch:"
 #, fuzzy
 msgid "Shift: "
 msgstr "Yulduz"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, KisColorSelectorSettings)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:14
-#, fuzzy
-msgid "Color Selector Settings"
-msgstr "Tanlanganni koʻrsatish"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:24
@@ -1985,11 +1986,16 @@ msgstr "Tekis"
 msgid "Zoom selectors"
 msgstr "Tanlanganni koʻrsatish"
 
+#. i18n: ectx: property (text), widget (QRadioButton, popupOnMouseClick)
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:74
+msgid "when pressing mid mousebutton"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QRadioButton, popupOnMouseOver)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:84
 #, fuzzy
 #| msgid "&New Layer..."
-msgid "on mouse over."
+msgid "on mouse over"
 msgstr "&Yangi qatlam..."
 
 #. i18n: ectx: property (text), widget (QRadioButton, neverZoom)
