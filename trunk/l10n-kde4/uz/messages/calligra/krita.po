@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-26 01:23+0000\n"
+"POT-Creation-Date: 2013-11-27 01:26+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1299,26 +1299,26 @@ msgid "Dilate Selection"
 msgstr "Tanlanganni koʻrsatish"
 
 #: image/kis_selection_filters.cpp:254
-#: plugins/extensions/modify_selection/dlg_border_selection.cc:26
+#: plugins/extensions/modify_selection/dlg_border_selection.cc:31
 #, fuzzy
 msgid "Border Selection"
 msgstr "Tanlanganni bekitish"
 
 #: image/kis_selection_filters.cpp:473
-#: plugins/extensions/modify_selection/dlg_feather_selection.cc:27
+#: plugins/extensions/modify_selection/dlg_feather_selection.cc:31
 #, fuzzy
 #| msgid "Selection"
 msgid "Feather Selection"
 msgstr "Tanlash"
 
 #: image/kis_selection_filters.cpp:521
-#: plugins/extensions/modify_selection/dlg_grow_selection.cc:27
+#: plugins/extensions/modify_selection/dlg_grow_selection.cc:31
 #, fuzzy
 msgid "Grow Selection"
 msgstr "Hech narsa tanlanmagan"
 
 #: image/kis_selection_filters.cpp:648
-#: plugins/extensions/modify_selection/dlg_shrink_selection.cc:26
+#: plugins/extensions/modify_selection/dlg_shrink_selection.cc:31
 #, fuzzy
 msgid "Shrink Selection"
 msgstr "Tanlanganni bekitish"
@@ -4529,42 +4529,33 @@ msgstr "Tanlash"
 msgid "Smooth"
 msgstr "Tekis"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/modify_selection/wdg_border_selection.ui:19
+#. i18n: ectx: property (text), widget (QLabel, lblWidth)
+#: plugins/extensions/modify_selection/wdg_border_selection.ui:110
 #, fuzzy
-msgid "Border selection by"
-msgstr "Tanlanganni bekitish"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox1)
-#: plugins/extensions/modify_selection/wdg_border_selection.ui:40
-#: plugins/extensions/modify_selection/wdg_feather_selection.ui:31
-#: plugins/extensions/modify_selection/wdg_grow_selection.ui:31
-#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:40
-#, fuzzy
-msgid "pixels"
-msgstr "Oʻqlar"
+msgid "Border width:"
+msgstr "Piksel eni"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/modify_selection/wdg_feather_selection.ui:39
+#: plugins/extensions/modify_selection/wdg_feather_selection.ui:17
 #, fuzzy
-#| msgid "Fill entire selection"
-msgid "Feather selection by"
-msgstr "Butun tanlanganni toʻldirish"
+#| msgid "Selection mode:"
+msgid "Feather radius:"
+msgstr "Tanlash usuli:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/modify_selection/wdg_grow_selection.ui:39
+#: plugins/extensions/modify_selection/wdg_grow_selection.ui:20
 #, fuzzy
-msgid "Grow selection by"
-msgstr "Hech narsa tanlanmagan"
+msgid "Grow by"
+msgstr "Choʻzish"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:19
+#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:65
 #, fuzzy
-msgid "Shrink selection by"
-msgstr "Tanlanganni chizish"
+msgid "Shrink by"
+msgstr "Shakllar"
 
-#. i18n: ectx: property (text), widget (QCheckBox, shrinkFromImageBorderCheckBox)
-#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:48
+#. i18n: ectx: property (text), widget (QCheckBox, ckbShrinkFromImageBorder)
+#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:123
 msgid "Shrink from image border"
 msgstr ""
 
@@ -13291,6 +13282,27 @@ msgstr "Ranglar boʻshligʻi"
 #, fuzzy, kde-format
 msgid "Workspace %1"
 msgstr "Ranglar boʻshligʻi"
+
+#, fuzzy
+#~ msgid "Border selection by"
+#~ msgstr "Tanlanganni bekitish"
+
+#, fuzzy
+#~ msgid "pixels"
+#~ msgstr "Oʻqlar"
+
+#, fuzzy
+#~| msgid "Fill entire selection"
+#~ msgid "Feather selection by"
+#~ msgstr "Butun tanlanganni toʻldirish"
+
+#, fuzzy
+#~ msgid "Grow selection by"
+#~ msgstr "Hech narsa tanlanmagan"
+
+#, fuzzy
+#~ msgid "Shrink selection by"
+#~ msgstr "Tanlanganni chizish"
 
 #, fuzzy
 #~| msgid "&Percent:"
