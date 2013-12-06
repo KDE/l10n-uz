@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-05 01:22+0000\n"
+"POT-Creation-Date: 2013-12-06 01:31+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1211,43 +1211,48 @@ msgstr "Yangi rasm"
 msgid "Change Image Resolution"
 msgstr "Rasmning oʻlchami"
 
-#: image/kis_image.cc:600 plugins/extensions/rotateimage/rotateimage.cc:155
+#: image/kis_image.cc:528
+#, fuzzy
+msgid "Scale Layer"
+msgstr "Yangi qatlam"
+
+#: image/kis_image.cc:622 plugins/extensions/rotateimage/rotateimage.cc:155
 msgid "Rotate Layer"
 msgstr "Qatlamni burish"
 
-#: image/kis_image.cc:667
+#: image/kis_image.cc:689
 #, fuzzy
 msgid "Shear layer"
 msgstr "Yangi qatlam"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgShearImage)
-#: image/kis_image.cc:673 plugins/extensions/shearimage/dlg_shearimage.cc:32
+#: image/kis_image.cc:695 plugins/extensions/shearimage/dlg_shearimage.cc:32
 #: plugins/extensions/shearimage/shearimage.cc:64
 #: plugins/extensions/shearimage/wdg_shearimage.ui:14
 #, fuzzy
 msgid "Shear Image"
 msgstr "Yangi rasm"
 
-#: image/kis_image.cc:686
+#: image/kis_image.cc:708
 #, fuzzy
 #| msgid "Convert Image Type"
 msgid "Convert Image Color Space"
 msgstr "Rasmning turini oʻzgartirish"
 
-#: image/kis_image.cc:720
+#: image/kis_image.cc:742
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: image/kis_image.cc:899 ui/kis_layer_manager.cc:728
+#: image/kis_image.cc:921 ui/kis_layer_manager.cc:707
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Silliqlangan rasm"
 
-#: image/kis_image.cc:975
+#: image/kis_image.cc:997
 msgid "Merge with Layer Below"
 msgstr "Pastgi qatlam bilan birlashtirish"
 
-#: image/kis_image.cc:1021
+#: image/kis_image.cc:1043
 #, fuzzy
 msgid "Flatten Layer"
 msgstr "Silliqlangan rasm"
@@ -1339,12 +1344,6 @@ msgstr "Tanlanganni bekitish"
 #, fuzzy
 msgid "Active"
 msgstr "Qatlamni koʻchirish"
-
-#: image/kis_transform_visitor.h:158
-#, fuzzy
-#| msgid "Rotate CW"
-msgid "Rotate Node"
-msgstr "Soat koʻrsatgichi boʻyicha burish"
 
 #: image/metadata/kis_meta_data_filter_p.cc:51
 msgid "Anonymizer"
@@ -2725,7 +2724,7 @@ msgid "&Select Opaque"
 msgstr "Tanlash"
 
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:458
-#: ui/kis_layer_manager.cc:283
+#: ui/kis_layer_manager.cc:285
 msgid "&Merge with Layer Below"
 msgstr "&Pastgi qatlam bilan birlashtirish"
 
@@ -3489,33 +3488,32 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgLayerSize)
 #: plugins/extensions/imagesize/dlg_layersize.cc:46
-#: plugins/extensions/imagesize/imagesize.cc:135
+#: plugins/extensions/imagesize/imagesize.cc:130
 #: plugins/extensions/imagesize/wdg_layersize.ui:14
 msgid "Layer Size"
 msgstr "Qatlamning oʻlchami"
 
-#: plugins/extensions/imagesize/imagesize.cc:56
+#: plugins/extensions/imagesize/imagesize.cc:51
 #, fuzzy
 msgid "Scale To New Size..."
 msgstr "Qatlamni rasm sifatida saqlash..."
 
-#: plugins/extensions/imagesize/imagesize.cc:60
+#: plugins/extensions/imagesize/imagesize.cc:55
 #, fuzzy
 msgid "Size Canvas..."
 msgstr "Kranlar"
 
-#: plugins/extensions/imagesize/imagesize.cc:64
+#: plugins/extensions/imagesize/imagesize.cc:59
 #, fuzzy
 msgid "Scale &Layer..."
 msgstr "Yangi qatlam"
 
-#: plugins/extensions/imagesize/imagesize.cc:70
+#: plugins/extensions/imagesize/imagesize.cc:65
 #, fuzzy
 msgid "&Scale..."
 msgstr "Toʻrtburcha&k"
 
-#: plugins/extensions/imagesize/imagesize.cc:165
-#: plugins/extensions/imagesize/imagesize.cc:172
+#: plugins/extensions/imagesize/imagesize.cc:159
 #, fuzzy
 msgid "Scale Selection"
 msgstr "Tanlanganni bekitish"
@@ -9640,7 +9638,7 @@ msgstr "Tanlanganni koʻrsatish"
 msgid "Select similar colors"
 msgstr "Oʻxshash ranglarni tanlash"
 
-#: plugins/tools/tool_crop/kis_tool_crop.h:200
+#: plugins/tools/tool_crop/kis_tool_crop.h:201
 #, fuzzy
 msgid "Crop the image to an area"
 msgstr "Rasmni kesish"
@@ -12376,93 +12374,88 @@ msgstr "Qatlamning xossalari"
 msgid "Import Image"
 msgstr "Rasmni import qilish"
 
-#: ui/kis_layer_manager.cc:278
+#: ui/kis_layer_manager.cc:280
 #, fuzzy
 msgid "&Flatten image"
 msgstr "&Silliqlangan rasm"
 
-#: ui/kis_layer_manager.cc:288
+#: ui/kis_layer_manager.cc:290
 #, fuzzy
 #| msgid "&Filters Gallery"
 msgid "&Flatten Layer"
 msgstr "Filterlar &toʻplami"
 
-#: ui/kis_layer_manager.cc:292 ui/kis_layer_manager.cc:797
+#: ui/kis_layer_manager.cc:294 ui/kis_layer_manager.cc:776
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "Rasterize Layer"
 msgstr "Qatlamni burish"
 
-#: ui/kis_layer_manager.cc:298
+#: ui/kis_layer_manager.cc:300
 #, fuzzy
 #| msgid "New &Group Layer..."
 msgid "Save Group Layers..."
 msgstr "Yangi qatlamlar &guruhi..."
 
-#: ui/kis_layer_manager.cc:302
+#: ui/kis_layer_manager.cc:304
 #, fuzzy
 #| msgid "Resize Image to Size of Current Layer"
 msgid "Size Canvas to Size of Current Layer"
 msgstr "Rasm oʻlchamini qatlam oʻlchamiga tenglashtirish"
 
-#: ui/kis_layer_manager.cc:357
+#: ui/kis_layer_manager.cc:359
 #, fuzzy
 #| msgid "Layer Properties"
 msgid "Filter Layer Properties"
 msgstr "Qatlamning xossalari"
 
-#: ui/kis_layer_manager.cc:402
+#: ui/kis_layer_manager.cc:404
 #, fuzzy
 #| msgid "Layer Properties"
 msgid "Generator Layer Properties"
 msgstr "Qatlamning xossalari"
 
-#: ui/kis_layer_manager.cc:480
+#: ui/kis_layer_manager.cc:482
 #, fuzzy
 msgid "Convert to a Paint Layer"
 msgstr "Joriy qatlam"
 
-#: ui/kis_layer_manager.cc:559
+#: ui/kis_layer_manager.cc:561
 #, fuzzy
 #| msgid "Filters"
 msgid "New Filter Layer"
 msgstr "Filterlar"
 
-#: ui/kis_layer_manager.cc:618
+#: ui/kis_layer_manager.cc:620
 msgid "Could not add layer to image."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: ui/kis_layer_manager.cc:618
+#: ui/kis_layer_manager.cc:620
 msgid "Layer Error"
 msgstr "Qatlam xatosi."
 
-#: ui/kis_layer_manager.cc:685
-#, fuzzy
-msgid "Scale Layer"
-msgstr "Yangi qatlam"
-
-#: ui/kis_layer_manager.cc:727
+#: ui/kis_layer_manager.cc:706
 msgid "The image contains hidden layers that will be lost."
 msgstr "Rasmda yashirin qatlamlar mavjud. Ular yoʻqoladi."
 
-#: ui/kis_layer_manager.cc:729
+#: ui/kis_layer_manager.cc:708
 #, fuzzy
 msgid "&Flatten Image"
 msgstr "&Silliqlangan rasm"
 
-#: ui/kis_layer_manager.cc:833
+#: ui/kis_layer_manager.cc:812
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:836
+#: ui/kis_layer_manager.cc:815
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:894
+#: ui/kis_layer_manager.cc:873
 msgid "No file name specified."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:894
+#: ui/kis_layer_manager.cc:873
 msgid "No file specified"
 msgstr ""
 
@@ -12664,7 +12657,7 @@ msgstr "Qatlamni koʻchirish"
 msgid "Mirror Mask Y"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:764
+#: ui/kis_node_manager.cpp:768
 #, fuzzy
 msgid "Export Node"
 msgstr "Ekspozitsiya:"
@@ -13254,6 +13247,11 @@ msgstr "Ranglar boʻshligʻi"
 #, fuzzy, kde-format
 msgid "Workspace %1"
 msgstr "Ranglar boʻshligʻi"
+
+#, fuzzy
+#~| msgid "Rotate CW"
+#~ msgid "Rotate Node"
+#~ msgstr "Soat koʻrsatgichi boʻyicha burish"
 
 #, fuzzy
 #~ msgid "File size:"
