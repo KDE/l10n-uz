@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-29 01:24+0000\n"
+"POT-Creation-Date: 2013-12-30 01:24+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1243,7 +1243,7 @@ msgstr "Rasmning turini oʻzgartirish"
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: image/kis_image.cc:920 ui/kis_layer_manager.cc:707
+#: image/kis_image.cc:920 ui/kis_layer_manager.cc:710
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Silliqlangan rasm"
@@ -1659,7 +1659,7 @@ msgstr "Ranglarni moslash"
 msgid "ColorBalanceMidtones Adjustment"
 msgstr "Ranglarni moslash"
 
-#: plugins/colorspaces/extensions/kis_desaturate_adjustment.cpp:135
+#: plugins/colorspaces/extensions/kis_desaturate_adjustment.cpp:152
 #, fuzzy
 #| msgid "Color Adjustment"
 msgid "Desaturate Adjustment"
@@ -5252,22 +5252,36 @@ msgstr ""
 msgid "Desaturation method:"
 msgstr "Toʻyintirish"
 
+#. i18n: ectx: property (text), widget (QRadioButton, radioMin)
+#: plugins/filters/colorsfilters/wdg_desaturate.ui:23
+msgid "&Min"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioMax)
+#: plugins/filters/colorsfilters/wdg_desaturate.ui:30
+msgid "&Max"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QRadioButton, radioAverage)
-#: plugins/filters/colorsfilters/wdg_desaturate.ui:36
+#: plugins/filters/colorsfilters/wdg_desaturate.ui:50
 msgid "&Average"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioLuminosity)
-#: plugins/filters/colorsfilters/wdg_desaturate.ui:43
-#, fuzzy
-msgid "Lu&minosity"
-msgstr "Aralashish"
-
 #. i18n: ectx: property (text), widget (QRadioButton, radioLightness)
-#: plugins/filters/colorsfilters/wdg_desaturate.ui:53
+#: plugins/filters/colorsfilters/wdg_desaturate.ui:57
 #, fuzzy
 msgid "&Lightness"
 msgstr "Yorugʻlik"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioLuminosityBT709)
+#: plugins/filters/colorsfilters/wdg_desaturate.ui:67
+msgid "Luminosity (ITU-R BT.&709)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioLuminosityBT601)
+#: plugins/filters/colorsfilters/wdg_desaturate.ui:74
+msgid "Luminosity (ITU-R BT.&601)"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:23
@@ -12433,7 +12447,7 @@ msgstr "&Silliqlangan rasm"
 msgid "&Flatten Layer"
 msgstr "Filterlar &toʻplami"
 
-#: ui/kis_layer_manager.cc:294 ui/kis_layer_manager.cc:776
+#: ui/kis_layer_manager.cc:294 ui/kis_layer_manager.cc:779
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "Rasterize Layer"
@@ -12463,47 +12477,47 @@ msgstr "Qatlamning xossalari"
 msgid "Generator Layer Properties"
 msgstr "Qatlamning xossalari"
 
-#: ui/kis_layer_manager.cc:482
+#: ui/kis_layer_manager.cc:485
 #, fuzzy
 msgid "Convert to a Paint Layer"
 msgstr "Joriy qatlam"
 
-#: ui/kis_layer_manager.cc:561
+#: ui/kis_layer_manager.cc:564
 #, fuzzy
 #| msgid "Filters"
 msgid "New Filter Layer"
 msgstr "Filterlar"
 
-#: ui/kis_layer_manager.cc:620
+#: ui/kis_layer_manager.cc:623
 msgid "Could not add layer to image."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: ui/kis_layer_manager.cc:620
+#: ui/kis_layer_manager.cc:623
 msgid "Layer Error"
 msgstr "Qatlam xatosi."
 
-#: ui/kis_layer_manager.cc:706
+#: ui/kis_layer_manager.cc:709
 msgid "The image contains hidden layers that will be lost."
 msgstr "Rasmda yashirin qatlamlar mavjud. Ular yoʻqoladi."
 
-#: ui/kis_layer_manager.cc:708
+#: ui/kis_layer_manager.cc:711
 #, fuzzy
 msgid "&Flatten Image"
 msgstr "&Silliqlangan rasm"
 
-#: ui/kis_layer_manager.cc:812
+#: ui/kis_layer_manager.cc:815
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:815
+#: ui/kis_layer_manager.cc:818
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:873
+#: ui/kis_layer_manager.cc:876
 msgid "No file name specified."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:873
+#: ui/kis_layer_manager.cc:876
 msgid "No file specified"
 msgstr ""
 
@@ -13314,6 +13328,10 @@ msgstr "Ranglar boʻshligʻi"
 #, fuzzy, kde-format
 msgid "Workspace %1"
 msgstr "Ranglar boʻshligʻi"
+
+#, fuzzy
+#~ msgid "Lu&minosity"
+#~ msgstr "Aralashish"
 
 #, fuzzy
 #~ msgid "Resource Tagging"
