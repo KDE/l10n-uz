@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-21 01:26+0000\n"
+"POT-Creation-Date: 2014-01-24 18:45+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1276,14 +1276,14 @@ msgstr "%1%"
 msgid "Composite Mode"
 msgstr "Qa&erni rasmga olish:"
 
-#: image/kis_paint_layer.cc:156 image/kis_paint_layer.cc:165
+#: image/kis_paint_layer.cc:153 image/kis_paint_layer.cc:162
 #: ui/kis_node_model.cpp:429
 #, fuzzy
 #| msgid "Locked"
 msgid "Alpha Locked"
 msgstr "Qulflangan"
 
-#: image/kis_paint_layer.cc:157 image/kis_paint_layer.cc:168
+#: image/kis_paint_layer.cc:154 image/kis_paint_layer.cc:165
 msgid "Inherit Alpha"
 msgstr ""
 
@@ -1317,25 +1317,25 @@ msgstr "Tanlanganni bekitish"
 msgid "Feather Selection"
 msgstr "Tanlash"
 
-#: image/kis_selection_filters.cpp:521
+#: image/kis_selection_filters.cpp:520
 #: plugins/extensions/modify_selection/dlg_grow_selection.cc:31
 #, fuzzy
 msgid "Grow Selection"
 msgstr "Hech narsa tanlanmagan"
 
-#: image/kis_selection_filters.cpp:648
+#: image/kis_selection_filters.cpp:647
 #: plugins/extensions/modify_selection/dlg_shrink_selection.cc:31
 #, fuzzy
 msgid "Shrink Selection"
 msgstr "Tanlanganni bekitish"
 
-#: image/kis_selection_filters.cpp:791
+#: image/kis_selection_filters.cpp:790
 #, fuzzy
 #| msgid "Selection"
 msgid "Smooth Selection"
 msgstr "Tanlash"
 
-#: image/kis_selection_filters.cpp:852
+#: image/kis_selection_filters.cpp:851
 #, fuzzy
 msgid "Invert Selection"
 msgstr "Tanlanganni bekitish"
@@ -1594,7 +1594,12 @@ msgstr "OpenGL"
 msgid "Ellipse assistant"
 msgstr "Oʻrnini almashtirishmoq"
 
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:583
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:493
+#, fuzzy
+msgid "Save Assistant"
+msgstr "Oʻrnini almashtirishmoq"
+
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:589
 msgid "Errors were encountered. Not all assistants were successfully loaded."
 msgstr ""
 
@@ -2225,6 +2230,10 @@ msgstr "Tanlanganni koʻrsatish"
 msgid "Color Selector Settings"
 msgstr "Tanlanganni koʻrsatish"
 
+#: plugins/extensions/dockers/advancedcolorselector/kis_common_colors.cpp:47
+msgid "Create a list of colors from the image"
+msgstr ""
+
 #: plugins/extensions/dockers/advancedcolorselector/kis_shade_selector_line.cpp:153
 #, kde-format
 msgid "delta h=%1 s=%2 v=%3 shift h=%4 s=%5 v=%6"
@@ -2243,7 +2252,7 @@ msgstr "Yulduz"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:24
-#: ui/dialogs/kis_dlg_preferences.cc:560 ui/dialogs/kis_dlg_preferences.cc:561
+#: ui/dialogs/kis_dlg_preferences.cc:563 ui/dialogs/kis_dlg_preferences.cc:564
 msgid "General"
 msgstr "Umumiy"
 
@@ -2897,68 +2906,68 @@ msgstr ""
 msgid "Digital Colors Mixer"
 msgstr "&Rassom asbob-uskunalari"
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:55
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:57
 msgid "Flipbook"
 msgstr ""
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:69
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:71
 #, fuzzy
 msgid "Save the current flipbook"
 msgstr "Joriy qatlamni oʻchirish"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:73
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:75
 #: ui/forms/wdgflipbookselector.ui:20
 #, fuzzy
 #| msgid "Create new layer"
 msgid "Create a new flipbook"
 msgstr "Yangi qatlam yaratish"
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:77
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:79
 #, fuzzy
 msgid "Open a flipbook file"
 msgstr "Profil yoʻq"
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:81
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:83
 msgid "Go to the first image in the current flipbook"
 msgstr ""
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:85
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:87
 #, fuzzy
 #| msgid "Preview: "
 msgid "Show previous image"
 msgstr "Koʻrib chiqish: "
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:89
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:91
 #, fuzzy
 msgid "Show next image"
 msgstr "Yangi rasm"
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:93
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:95
 #, fuzzy
 msgid "Go to the last image in the current flipbook"
 msgstr "Rasm oʻlchamini qatlam oʻlchamiga tenglashtirish"
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:97
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:99
 #, fuzzy
 msgid "Add one or more images to the current flipbook"
 msgstr "Rasm oʻlchamini qatlam oʻlchamiga tenglashtirish"
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:101
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:103
 msgid "Remove selected images from the current flipbook"
 msgstr ""
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:161
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:163
 msgid "Save flipbook"
 msgstr ""
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:188
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:251
-#: ui/widgets/KisFlipbookSelector.cpp:53
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:193
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:264
+#: ui/widgets/KisFlipbookSelector.cpp:50
 msgid "Select files to add to flipbook"
 msgstr ""
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:223
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:232
 msgid "Load flipbook"
 msgstr ""
 
@@ -3066,42 +3075,48 @@ msgstr "%"
 msgid "Reference Images"
 msgstr "Rasmning nomini oʻzgartirish"
 
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:55
+#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:56
 #, fuzzy
 #| msgid "Color Management"
 msgid "LUT Management"
 msgstr "Rang boshqaruvi"
 
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:75
+#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:76
 #, fuzzy
 msgid "Select custom configuration file."
 msgstr "Moslash..."
 
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:80
+#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:81
 #, fuzzy
 msgid "Select LUT file"
 msgstr "&Hammasini tanlash"
 
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:94
+#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:95
 msgid "Select the exposure (stops) for HDR images."
 msgstr ""
 
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:107
+#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:108
 msgid ""
 "Select the amount of gamma modification for display. This does not affect "
 "the pixels of your image."
 msgstr ""
 
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:165
+#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:166
 #, fuzzy
 msgid "Luminance"
 msgstr "Chiziq"
 
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:166
+#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:167
 #, fuzzy
 #| msgid "Channel"
 msgid "All Channels"
 msgstr "Kanal"
+
+#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:276
+#: ui/dialogs/kis_dlg_preferences.cc:299
+#, fuzzy
+msgid "Select OpenColorIO Configuration"
+msgstr "Moslash..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_chkUseOcio)
 #: plugins/extensions/dockers/lut/wdglut.ui:29
@@ -3374,7 +3389,7 @@ msgstr ""
 
 #: plugins/extensions/gmic/kis_gmic_plugin.cpp:123
 #: plugins/extensions/gmic/kis_gmic_plugin.cpp:132
-#: ui/dialogs/kis_dlg_preferences.cc:731 ui/kis_aboutdata.h:44
+#: ui/dialogs/kis_dlg_preferences.cc:734 ui/kis_aboutdata.h:44
 msgid "Krita"
 msgstr "Krita"
 
@@ -3670,13 +3685,13 @@ msgstr ""
 msgid "Image Split"
 msgstr "Rasmning oʻlchami"
 
-#: plugins/extensions/imagesplit/imagesplit.cpp:51
+#: plugins/extensions/imagesplit/imagesplit.cpp:54
 #, fuzzy
 #| msgid "Image Size"
 msgid "Image Split "
 msgstr "Rasmning oʻlchami"
 
-#: plugins/extensions/imagesplit/imagesplit.cpp:132
+#: plugins/extensions/imagesplit/imagesplit.cpp:133
 #, fuzzy
 msgid "Save Image on Split"
 msgstr "Yangi rasm"
@@ -4707,14 +4722,14 @@ msgid "&Custom:"
 msgstr "&Boshqa:"
 
 #: plugins/extensions/separate_channels/dlg_separate.cc:40
-#: plugins/extensions/separate_channels/kis_channel_separator.cc:211
+#: plugins/extensions/separate_channels/kis_channel_separator.cc:213
 #: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:76
 #: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:87
 #, fuzzy
 msgid "Separate Image"
 msgstr "Rasmning nomini oʻzgartirish"
 
-#: plugins/extensions/separate_channels/kis_channel_separator.cc:242
+#: plugins/extensions/separate_channels/kis_channel_separator.cc:243
 msgid "Export Layer"
 msgstr "Qatlamni eksport qilish"
 
@@ -4857,7 +4872,7 @@ msgstr "Yangi rasm"
 msgid "&Blur..."
 msgstr "Chegara..."
 
-#: plugins/filters/blur/kis_gaussian_blur_filter.cpp:43
+#: plugins/filters/blur/kis_gaussian_blur_filter.cpp:44
 #, fuzzy
 msgid "&Gaussian Blur..."
 msgstr "Chegara..."
@@ -4887,14 +4902,14 @@ msgstr "Chegara..."
 msgid "Motion Blur"
 msgstr "Och koʻk"
 
-#. i18n: ectx: property (label), widget (KIntNumInput, verticalRadius)
-#: plugins/filters/blur/wdg_gaussian_blur.ui:39
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/filters/blur/wdg_gaussian_blur.ui:27
 #, fuzzy
 msgid "Vertical Radius"
 msgstr "Uskuna:"
 
-#. i18n: ectx: property (label), widget (KIntNumInput, horizontalRadius)
-#: plugins/filters/blur/wdg_gaussian_blur.ui:55
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/filters/blur/wdg_gaussian_blur.ui:37
 #, fuzzy
 msgid "Horizontal Radius"
 msgstr "Ufq 1"
@@ -5071,7 +5086,7 @@ msgstr "&Kanal:"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/filters/colors/wdgcolortoalphabase.ui:64
-#: plugins/filters/unsharp/wdgunsharp.ui:68
+#: plugins/filters/unsharp/wdgunsharp.ui:61
 #: plugins/paintops/libpaintop/kis_pressure_sharpness_option_widget.cpp:37
 #: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:139
 msgid "Threshold:"
@@ -5851,26 +5866,26 @@ msgstr ""
 msgid "Sobel"
 msgstr "Tosh"
 
-#: plugins/filters/unsharp/kis_unsharp_filter.cpp:43
+#: plugins/filters/unsharp/kis_unsharp_filter.cpp:46
 #, fuzzy
 msgid "&Unsharp Mask..."
 msgstr "Alfa niqob"
 
-#: plugins/filters/unsharp/kis_unsharp_filter.cpp:77
+#: plugins/filters/unsharp/kis_unsharp_filter.cpp:80
 #: plugins/filters/unsharp/kis_unsharp_filter.h:39
 #, fuzzy
 msgid "Unsharp Mask"
 msgstr "Alfa niqob"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/filters/unsharp/wdgunsharp.ui:39
+#: plugins/filters/unsharp/wdgunsharp.ui:29
 #, fuzzy
 #| msgid "Size"
 msgid "Half-Size:"
 msgstr "Oʻlchami"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: plugins/filters/unsharp/wdgunsharp.ui:87
+#: plugins/filters/unsharp/wdgunsharp.ui:80
 #, fuzzy
 msgid "Amount:"
 msgstr "Shrift:"
@@ -6648,7 +6663,7 @@ msgstr "Rang chegarasi"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpMode)
 #: plugins/generators/solid/colorgenerator.h:53
-#: ui/dialogs/kis_dlg_preferences.cc:577 ui/forms/wdgnewimage.ui:361
+#: ui/dialogs/kis_dlg_preferences.cc:580 ui/forms/wdgnewimage.ui:361
 #: ui/kis_paintop_option.cpp:31
 msgid "Color"
 msgstr "Rang"
@@ -10117,8 +10132,8 @@ msgid ""
 "To visualize wrap-around mode, enable OpenGL."
 msgstr ""
 
-#: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:594
-#: ui/dialogs/kis_dlg_preferences.cc:595
+#: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:597
+#: ui/dialogs/kis_dlg_preferences.cc:598
 msgid "Grid"
 msgstr "Toʻr"
 
@@ -10193,7 +10208,7 @@ msgstr "Ushbu filtr uchun moslamalar mavjud emas"
 msgid "Cleanup resource files"
 msgstr "Manba:"
 
-#: ui/dialogs/kis_dlg_file_layer.cpp:103
+#: ui/dialogs/kis_dlg_file_layer.cpp:99
 msgid "Select file to use as dynamic file layer."
 msgstr ""
 
@@ -10249,71 +10264,71 @@ msgstr "Profil yoʻq"
 msgid "&Monitor profile: "
 msgstr "Profil yoʻq"
 
-#: ui/dialogs/kis_dlg_preferences.cc:552
+#: ui/dialogs/kis_dlg_preferences.cc:555
 msgid "Preferences"
 msgstr "Moslamalar"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplayBlacklist)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, grpDisplay)
-#: ui/dialogs/kis_dlg_preferences.cc:568 ui/dialogs/kis_dlg_preferences.cc:569
+#: ui/dialogs/kis_dlg_preferences.cc:571 ui/dialogs/kis_dlg_preferences.cc:572
 #: ui/forms/wdgcolorsettings.ui:62 ui/forms/wdgdisplaysettings.ui:20
 #: ui/forms/wdgdlgblacklistcleanup.ui:20
 #, fuzzy
 msgid "Display"
 msgstr "Displey"
 
-#: ui/dialogs/kis_dlg_preferences.cc:576
+#: ui/dialogs/kis_dlg_preferences.cc:579
 msgid "Color Management"
 msgstr "Rang boshqaruvi"
 
-#: ui/dialogs/kis_dlg_preferences.cc:585 ui/dialogs/kis_dlg_preferences.cc:586
+#: ui/dialogs/kis_dlg_preferences.cc:588 ui/dialogs/kis_dlg_preferences.cc:589
 msgid "Performance"
 msgstr "Unumdorlik"
 
-#: ui/dialogs/kis_dlg_preferences.cc:602
+#: ui/dialogs/kis_dlg_preferences.cc:605
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Tablet settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:603
+#: ui/dialogs/kis_dlg_preferences.cc:606
 #, fuzzy
 msgid "Tablet"
 msgstr "Yoqish"
 
-#: ui/dialogs/kis_dlg_preferences.cc:611
+#: ui/dialogs/kis_dlg_preferences.cc:614
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Canvas-only settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:612
+#: ui/dialogs/kis_dlg_preferences.cc:615
 #, fuzzy
 msgid "Canvas-only"
 msgstr "Rangi:"
 
-#: ui/dialogs/kis_dlg_preferences.cc:621
+#: ui/dialogs/kis_dlg_preferences.cc:624
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:622
+#: ui/dialogs/kis_dlg_preferences.cc:625
 msgid "Author"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:626
+#: ui/dialogs/kis_dlg_preferences.cc:629
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Canvas Input Settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:627
+#: ui/dialogs/kis_dlg_preferences.cc:630
 #, fuzzy
 msgid "Canvas Input"
 msgstr "Kranlar"
 
-#: ui/dialogs/kis_dlg_preferences.cc:728
+#: ui/dialogs/kis_dlg_preferences.cc:731
 msgid ""
 "You are trying to enable OpenGL\n"
 "\n"
@@ -12434,18 +12449,18 @@ msgstr ""
 msgid "Apply Filter Again: %1"
 msgstr "Filterni yana qoʻllash"
 
-#: ui/kis_image_manager.cc:50
+#: ui/kis_image_manager.cc:51
 #, fuzzy
 #| msgid "&New Layer..."
 msgid "I&mport Layer..."
 msgstr "&Yangi qatlam..."
 
-#: ui/kis_image_manager.cc:54
+#: ui/kis_image_manager.cc:55
 #, fuzzy
 msgid "Properties..."
 msgstr "Qatlamning xossalari"
 
-#: ui/kis_image_manager.cc:77
+#: ui/kis_image_manager.cc:78
 msgid "Import Image"
 msgstr "Rasmni import qilish"
 
@@ -12583,156 +12598,156 @@ msgstr "'%1'ning nusxasi"
 msgid "Filter Mask Properties"
 msgstr "Qatlamning xossalari"
 
-#: ui/kis_node_manager.cpp:190
+#: ui/kis_node_manager.cpp:193
 #, fuzzy
 msgid "Mirror Layer Horizontally"
 msgstr "Ufq 1"
 
-#: ui/kis_node_manager.cpp:196
+#: ui/kis_node_manager.cpp:199
 #, fuzzy
 msgid "Mirror Layer Vertically"
 msgstr "Uskuna:"
 
-#: ui/kis_node_manager.cpp:202
+#: ui/kis_node_manager.cpp:205
 #, fuzzy
 msgid "Activate next layer"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:208
+#: ui/kis_node_manager.cpp:211
 #, fuzzy
 msgid "Activate previous layer"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:214
+#: ui/kis_node_manager.cpp:217
 #, fuzzy
 #| msgid "Save Layer as Image..."
 msgid "Save Layer/Mask..."
 msgstr "Qatlamni rasm sifatida saqlash..."
 
-#: ui/kis_node_manager.cpp:219
+#: ui/kis_node_manager.cpp:222
 #, fuzzy
 #| msgid "Duplicate"
 msgid "&Duplicate Layer or Mask"
 msgstr "Nusxasini yaratish"
 
-#: ui/kis_node_manager.cpp:226
+#: ui/kis_node_manager.cpp:229
 #, fuzzy
 #| msgid "&Layer"
 msgid "&Paint Layer"
 msgstr "&Qatlam"
 
-#: ui/kis_node_manager.cpp:230
+#: ui/kis_node_manager.cpp:233
 #, fuzzy
 #| msgid "New &Group Layer..."
 msgid "&Group Layer"
 msgstr "Yangi qatlamlar &guruhi..."
 
-#: ui/kis_node_manager.cpp:233
+#: ui/kis_node_manager.cpp:236
 #, fuzzy
 #| msgid "New &Object Layer"
 msgid "&Clone Layer"
 msgstr "Yangi &obʼekt qatlami"
 
-#: ui/kis_node_manager.cpp:236
+#: ui/kis_node_manager.cpp:239
 #, fuzzy
 #| msgid "&Object Layer"
 msgid "&Vector Layer"
 msgstr "O&bʼekt qatlami"
 
-#: ui/kis_node_manager.cpp:239
+#: ui/kis_node_manager.cpp:242
 #, fuzzy
 #| msgid "&Filters Gallery"
 msgid "&Filter Layer..."
 msgstr "Filterlar &toʻplami"
 
-#: ui/kis_node_manager.cpp:242
+#: ui/kis_node_manager.cpp:245
 #, fuzzy
 #| msgid "&Group Layer..."
 msgid "&Generated Layer..."
 msgstr "Qatlamlar &guruhi..."
 
-#: ui/kis_node_manager.cpp:245
+#: ui/kis_node_manager.cpp:248
 #, fuzzy
 #| msgid "&Filters Gallery"
 msgid "&File Layer"
 msgstr "Filterlar &toʻplami"
 
-#: ui/kis_node_manager.cpp:248
+#: ui/kis_node_manager.cpp:251
 #, fuzzy
 msgid "&Transparency Mask"
 msgstr "Shaffof"
 
-#: ui/kis_node_manager.cpp:251
+#: ui/kis_node_manager.cpp:254
 #, fuzzy
 #| msgid "Filters"
 msgid "&Filter Mask..."
 msgstr "Filterlar"
 
-#: ui/kis_node_manager.cpp:254
+#: ui/kis_node_manager.cpp:257
 #, fuzzy
 msgid "&Local Selection"
 msgstr "Tanlanganni bekitish"
 
-#: ui/kis_node_manager.cpp:260
+#: ui/kis_node_manager.cpp:263
 #, fuzzy
 #| msgid "&Layer"
 msgid "to &Paint Layer"
 msgstr "&Qatlam"
 
-#: ui/kis_node_manager.cpp:263
+#: ui/kis_node_manager.cpp:266
 #, fuzzy
 msgid "to &Selection Mask"
 msgstr "Tanlash boʻyogʻi"
 
-#: ui/kis_node_manager.cpp:266
+#: ui/kis_node_manager.cpp:269
 #, fuzzy
 #| msgid "Filters"
 msgid "to &Filter Mask"
 msgstr "Filterlar"
 
-#: ui/kis_node_manager.cpp:269
+#: ui/kis_node_manager.cpp:272
 #, fuzzy
 msgid "to &Transparency Mask"
 msgstr "Shaffof"
 
-#: ui/kis_node_manager.cpp:275
+#: ui/kis_node_manager.cpp:278
 #, fuzzy
 #| msgid "&Filters Gallery"
 msgid "&Isolate Layer"
 msgstr "Filterlar &toʻplami"
 
-#: ui/kis_node_manager.cpp:447
+#: ui/kis_node_manager.cpp:450
 #, fuzzy
 msgid "Convert to a Selection Mask"
 msgstr "Tanlanganni bekitish"
 
-#: ui/kis_node_manager.cpp:647
+#: ui/kis_node_manager.cpp:650
 #, fuzzy
 #| msgid "Remove Layer"
 msgid "Remove Last Layer"
 msgstr "Qatlamni olib tashlash"
 
-#: ui/kis_node_manager.cpp:663
+#: ui/kis_node_manager.cpp:666
 #, fuzzy
 msgid "Mirror Layer X"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:665
+#: ui/kis_node_manager.cpp:668
 #, fuzzy
 msgid "Mirror Mask X"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:676
+#: ui/kis_node_manager.cpp:679
 #, fuzzy
 msgid "Mirror Layer Y"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:678
+#: ui/kis_node_manager.cpp:681
 #, fuzzy
 msgid "Mirror Mask Y"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:773
+#: ui/kis_node_manager.cpp:802
 #, fuzzy
 msgid "Export Node"
 msgstr "Ekspozitsiya:"
@@ -12912,7 +12927,7 @@ msgstr ""
 msgid "Installation error"
 msgstr "Qatlam xatosi."
 
-#: ui/kis_selection_decoration.cc:39
+#: ui/kis_selection_decoration.cc:43
 #, fuzzy
 #| msgid "Fill entire selection"
 msgid "Selection decoration"
@@ -13265,6 +13280,11 @@ msgstr ""
 #| msgid "Layer Properties"
 msgid "Share Color Profile"
 msgstr "Qatlamning xossalari"
+
+#: ui/widgets/kis_color_space_selector.cc:181
+#, fuzzy
+msgid "Install Color Profiles"
+msgstr "Profil yoʻq"
 
 #: ui/widgets/kis_filter_selector_widget.cc:162
 #, fuzzy
