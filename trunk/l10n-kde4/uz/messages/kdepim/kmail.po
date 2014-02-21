@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-20 01:44+0000\n"
+"POT-Creation-Date: 2014-02-21 01:54+0000\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -516,8 +516,9 @@ msgstr ""
 
 #: collectionpage/collectionmaintenancepage.cpp:135
 #, kde-format
-msgid "Indexed %1 items of this collection"
-msgstr ""
+msgid "Indexed %1 item of this collection"
+msgid_plural "Indexed %1 items of this collection"
+msgstr[0] ""
 
 #: collectionpage/collectionquotapage.cpp:47
 #, fuzzy
@@ -3326,26 +3327,26 @@ msgid "A&pply Filter"
 msgstr "Fil&terni qoʻllash"
 
 #. i18n: ectx: Menu (tools)
-#: kmail_part.rc:175 kmmainwin.rc:175
+#: kmail_part.rc:176 kmmainwin.rc:176
 #, fuzzy
 msgid "&Tools"
 msgstr "K&imga"
 
 #. i18n: ectx: Menu (settings)
-#: kmail_part.rc:196 kmcomposerui.rc:101 kmmainwin.rc:196
+#: kmail_part.rc:197 kmcomposerui.rc:101 kmmainwin.rc:197
 #: kmreadermainwin.rc:70
 #, fuzzy
 msgid "&Settings"
 msgstr "&Joʻnatish"
 
 #. i18n: ectx: Menu (help)
-#: kmail_part.rc:211 kmmainwin.rc:211
+#: kmail_part.rc:212 kmmainwin.rc:212
 #, fuzzy
 msgid "&Help"
 msgstr "&Bip"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kmail_part.rc:287 kmcomposerui.rc:105 kmmainwin.rc:287
+#: kmail_part.rc:288 kmcomposerui.rc:105 kmmainwin.rc:288
 #: kmreadermainwin.rc:79
 #, fuzzy
 msgid "Main Toolbar"
@@ -3532,24 +3533,24 @@ msgstr "Xabarlar joʻnatilmoqda"
 msgid "Initiating sending process..."
 msgstr ""
 
-#: kmkernel.cpp:1748
+#: kmkernel.cpp:1751
 #, fuzzy
 #| msgid "&Insert File..."
 msgid "online"
 msgstr "&Fayldan qoʻyish"
 
-#: kmkernel.cpp:1748
+#: kmkernel.cpp:1751
 #, fuzzy
 #| msgid "Work Offline"
 msgid "offline"
 msgstr "Oflaynda ishlash"
 
-#: kmkernel.cpp:1748
+#: kmkernel.cpp:1751
 #, kde-format
 msgid "Resource %1 is broken. This resource is now %2"
 msgstr ""
 
-#: kmkernel.cpp:1926 kmkernel.cpp:1945
+#: kmkernel.cpp:1929 kmkernel.cpp:1948
 #, kde-format
 msgctxt "<source>: <error message>"
 msgid "%1: %2"
@@ -4899,7 +4900,7 @@ msgctxt "@label No size available"
 msgid "-"
 msgstr ""
 
-#: searchdialog/kmsearchmessagemodel.cpp:231
+#: searchdialog/kmsearchmessagemodel.cpp:229
 #, fuzzy
 #| msgid "Folder"
 msgctxt "@title:column, folder (e.g. email)"
@@ -4908,7 +4909,7 @@ msgstr "Jild"
 
 #: searchdialog/searchpatternwarning.cpp:38
 #, kde-format
-msgid "Baloo cannot make search. Errors found: <ul><li>%1</li></ul>"
+msgid "Search failed. Errors found: <ul><li>%1</li></ul>"
 msgstr ""
 
 #: searchdialog/searchwindow.cpp:80
@@ -5457,7 +5458,7 @@ msgid ""
 "internal use only)"
 msgstr ""
 
-#: tag/tagactionmanager.cpp:117 tag/tagactionmanager.cpp:265
+#: tag/tagactionmanager.cpp:117 tag/tagactionmanager.cpp:264
 #, fuzzy, kde-format
 msgid "Message Tag %1"
 msgstr "Xabarlar roʻyxati"
@@ -5473,7 +5474,7 @@ msgstr "Qoʻshish..."
 msgid "More..."
 msgstr "KMail moslama&si"
 
-#: tag/tagactionmanager.cpp:268
+#: tag/tagactionmanager.cpp:267
 #, kde-format
 msgid "Toggle Message Tag %1"
 msgstr ""
