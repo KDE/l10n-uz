@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-21 01:39+0000\n"
+"POT-Creation-Date: 2014-02-22 01:28+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -11629,55 +11629,55 @@ msgstr "Profil yoʻq"
 msgid "Input pressure global curve"
 msgstr ""
 
-#: ui/input/config/kis_action_shortcuts_model.cpp:63
+#: ui/input/config/kis_action_shortcuts_model.cpp:65
 #, fuzzy
 #| msgid "Short"
 msgid "Add shortcut..."
 msgstr "Qisqa"
 
-#: ui/input/config/kis_action_shortcuts_model.cpp:75
+#: ui/input/config/kis_action_shortcuts_model.cpp:77
 #, fuzzy
 msgctxt "Shortcut type"
 msgid "Key Combination"
 msgstr "Kompozitsiyasiz"
 
-#: ui/input/config/kis_action_shortcuts_model.cpp:78
+#: ui/input/config/kis_action_shortcuts_model.cpp:80
 msgctxt "Shortcut type"
 msgid "Mouse Button"
 msgstr ""
 
-#: ui/input/config/kis_action_shortcuts_model.cpp:81
+#: ui/input/config/kis_action_shortcuts_model.cpp:83
 #, fuzzy
 #| msgid "Pressure"
 msgctxt "Shortcut type"
 msgid "Mouse Wheel"
 msgstr "Bosim"
 
-#: ui/input/config/kis_action_shortcuts_model.cpp:84
+#: ui/input/config/kis_action_shortcuts_model.cpp:86
 #, fuzzy
 #| msgid "Text"
 msgctxt "Shortcut type"
 msgid "Gesture"
 msgstr "Matn"
 
-#: ui/input/config/kis_action_shortcuts_model.cpp:87
+#: ui/input/config/kis_action_shortcuts_model.cpp:89
 #, fuzzy
 msgid "Unknown Input"
 msgstr "Namuna sifatida ishlatish"
 
-#: ui/input/config/kis_action_shortcuts_model.cpp:190
+#: ui/input/config/kis_action_shortcuts_model.cpp:192
 #, fuzzy
 #| msgid "&Type"
 msgctxt "Type of shortcut"
 msgid "Type"
 msgstr "&Turi"
 
-#: ui/input/config/kis_action_shortcuts_model.cpp:193
+#: ui/input/config/kis_action_shortcuts_model.cpp:195
 msgctxt "Input for shortcut"
 msgid "Input"
 msgstr ""
 
-#: ui/input/config/kis_action_shortcuts_model.cpp:196
+#: ui/input/config/kis_action_shortcuts_model.cpp:198
 #, fuzzy
 #| msgid "Action:"
 msgctxt "Action to trigger with shortcut"
@@ -11685,46 +11685,51 @@ msgid "Action"
 msgstr "Amal:"
 
 #. i18n: ectx: property (text), widget (KPushButton, editProfilesButton)
-#: ui/input/config/kis_edit_profiles_dialog.cpp:65
+#: ui/input/config/kis_edit_profiles_dialog.cpp:66
 #: ui/input/config/kis_input_configuration_page.ui:51
 #, fuzzy
 #| msgid "Pressure:"
 msgid "Edit Profiles"
 msgstr "Bosim:"
 
-#: ui/input/config/kis_edit_profiles_dialog.cpp:75
-#, fuzzy
-msgid "New Profile"
-msgstr "Profil:"
-
-#: ui/input/config/kis_edit_profiles_dialog.cpp:90
+#: ui/input/config/kis_edit_profiles_dialog.cpp:83
 #, fuzzy, kde-format
 #| msgid "Copy Green"
 msgid "Copy of %1"
 msgstr "Yashildan nusxa olish"
 
-#. i18n: ectx: property (text), widget (KPushButton, removeButton)
-#: ui/input/config/kis_edit_profiles_dialog.ui:17
+#: ui/input/config/kis_edit_profiles_dialog.cpp:95
+msgid ""
+"You will lose all changes to any input profiles. Do you wish to continue?"
+msgstr ""
+
+#: ui/input/config/kis_edit_profiles_dialog.cpp:95
 #, fuzzy
-msgid "Remove"
-msgstr "Qatlamni &olib tashlash"
+msgid "Reset All Profiles"
+msgstr "Profil yoʻq"
 
 #. i18n: ectx: property (text), widget (KPushButton, renameButton)
-#: ui/input/config/kis_edit_profiles_dialog.ui:27
+#: ui/input/config/kis_edit_profiles_dialog.ui:17
 #, fuzzy
 msgid "Rename"
 msgstr "Tiniq"
 
-#. i18n: ectx: property (text), widget (KPushButton, addButton)
-#: ui/input/config/kis_edit_profiles_dialog.ui:37
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: ui/input/config/kis_edit_profiles_dialog.ui:30
 #, fuzzy
-msgid "Add"
-msgstr "Qoʻsh&ish..."
+msgid "Remove"
+msgstr "Qatlamni &olib tashlash"
 
 #. i18n: ectx: property (text), widget (KPushButton, duplicateButton)
-#: ui/input/config/kis_edit_profiles_dialog.ui:47
+#: ui/input/config/kis_edit_profiles_dialog.ui:40
 msgid "Duplicate"
 msgstr "Nusxasini yaratish"
+
+#. i18n: ectx: property (text), widget (KPushButton, resetButton)
+#: ui/input/config/kis_edit_profiles_dialog.ui:50
+#, fuzzy
+msgid "Reset All"
+msgstr "&Hammasini tanlash"
 
 #: ui/input/config/kis_input_button.cpp:53
 #, fuzzy
@@ -13393,6 +13398,14 @@ msgstr "Ranglar boʻshligʻi"
 #, fuzzy, kde-format
 msgid "Workspace %1"
 msgstr "Ranglar boʻshligʻi"
+
+#, fuzzy
+#~ msgid "New Profile"
+#~ msgstr "Profil:"
+
+#, fuzzy
+#~ msgid "Add"
+#~ msgstr "Qoʻsh&ish..."
 
 #, fuzzy
 #~| msgid "Style:"
