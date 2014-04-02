@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-01 01:57+0000\n"
+"POT-Creation-Date: 2014-04-02 01:49+0000\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -115,7 +115,7 @@ msgid "Multiple encryption keys per address"
 msgstr ""
 
 #: aboutdata.cpp:240 collectionpage/collectionmailinglistpage.cpp:109
-#: editor/kmcomposewin.cpp:2179 kmsystemtray.cpp:71 kmsystemtray.cpp:116
+#: editor/kmcomposewin.cpp:2185 kmsystemtray.cpp:71 kmsystemtray.cpp:116
 msgid "KMail"
 msgstr "KMail"
 
@@ -525,27 +525,28 @@ msgstr[0] ""
 msgid "Quota"
 msgstr "Jami"
 
-#: collectionpage/collectionquotapage_p.cpp:54
+#: collectionpage/collectionquotapage_p.cpp:55
 #, fuzzy
 #| msgid "&Message"
 msgid "Usage:"
 msgstr "&Xabar"
 
-#: collectionpage/collectionquotapage_p.cpp:61
+#: collectionpage/collectionquotapage_p.cpp:62
 #, fuzzy
 #| msgid "Stat&us:"
 msgid "Status:"
 msgstr "Ho&lati:"
 
-#: collectionpage/collectionquotapage_p.cpp:65
+#: collectionpage/collectionquotapage_p.cpp:66
 #, no-c-format
 msgid "%p% full"
 msgstr ""
 
-#: collectionpage/collectionquotapage_p.cpp:75
-#, kde-format
-msgid "%1 of %2 KiB used"
-msgstr ""
+#: collectionpage/collectionquotapage_p.cpp:76
+#, fuzzy, kde-format
+#| msgid "Mail"
+msgid "%1 of %2 used"
+msgstr "Xat"
 
 #: collectionpage/collectionshortcutpage.cpp:42
 #, fuzzy
@@ -562,7 +563,7 @@ msgid ""
 msgstr ""
 
 #: collectionpage/collectiontemplatespage.cpp:39
-#: identity/identitydialog.cpp:544
+#: identity/identitydialog.cpp:574
 msgid "Templates"
 msgstr ""
 
@@ -572,7 +573,7 @@ msgid "&Use custom message templates in this folder"
 msgstr "&Boshqa shriftlarni ishlatish"
 
 #: collectionpage/collectiontemplatespage.cpp:79
-#: identity/identitydialog.cpp:529
+#: identity/identitydialog.cpp:559
 #, fuzzy
 msgid "&Copy Global Templates"
 msgstr "&Almashtirish"
@@ -737,54 +738,44 @@ msgstr "Darhol joʻnatish"
 msgid "Send Later"
 msgstr "Keyinroq joʻnatish"
 
-#: configuredialog/configureaccountpage.cpp:149
+#: configuredialog/configureaccountpage.cpp:143
 msgid "Send &messages in outbox folder:"
 msgstr "&Xabarlarni joʻnatish qutisiga yuborish:"
 
-#: configuredialog/configureaccountpage.cpp:157
+#: configuredialog/configureaccountpage.cpp:151
 msgid "Defa&ult send method:"
 msgstr "Joʻnatish &usuli:"
 
-#: configuredialog/configureaccountpage.cpp:160
-msgid "Defaul&t domain:"
-msgstr "Ando&za domen:"
-
-#: configuredialog/configureaccountpage.cpp:165
-msgid ""
-"<qt><p>The default domain is used to complete email addresses that only "
-"consist of the user's name.</p></qt>"
-msgstr ""
-
-#: configuredialog/configureaccountpage.cpp:314
+#: configuredialog/configureaccountpage.cpp:290
 #, fuzzy
 msgctxt "Label to a checkbox, so is either checked/unchecked"
 msgid "Include in Manual Mail Check"
 msgstr "&Pochtani maʼlum vaqt oraligʻida tekshirish"
 
-#: configuredialog/configureaccountpage.cpp:323
+#: configuredialog/configureaccountpage.cpp:299
 msgctxt "Label to a checkbox, so is either checked/unchecked"
 msgid "Switch offline on KMail Shutdown"
 msgstr ""
 
-#: configuredialog/configureaccountpage.cpp:332
+#: configuredialog/configureaccountpage.cpp:308
 #, fuzzy
 #| msgid "Chec&k mail on startup"
 msgid "Check mail on startup"
 msgstr "Ishga tushganda pochtani te&kshirish"
 
-#: configuredialog/configureaccountpage.cpp:431
+#: configuredialog/configureaccountpage.cpp:407
 #, fuzzy, kde-format
 #| msgid "<qt>Do you really want to remove the identity named <b>%1</b>?</qt>"
 msgid "Do you want to remove account '%1'?"
 msgstr "<qt><b>%1</b> nomli shaxsiyatni rostdan oʻchirishni istaysizmi?</qt>"
 
-#: configuredialog/configureaccountpage.cpp:432
+#: configuredialog/configureaccountpage.cpp:408
 #, fuzzy
 #| msgid "&Remove Attachment"
 msgid "Remove account?"
 msgstr "Ilovani &olib tashlash"
 
-#: configuredialog/configureaccountpage.cpp:450
+#: configuredialog/configureaccountpage.cpp:426
 msgid ""
 "New Mail Notifier Agent not registered. Please contact your administrator."
 msgstr ""
@@ -796,9 +787,9 @@ msgstr "Muhim xabar"
 
 #: configuredialog/configureagentswidget.cpp:52
 #, fuzzy
-#| msgid "Account Name"
-msgid "Agent Name"
-msgstr "Hisobning nomi"
+#| msgid "Name"
+msgid "Name"
+msgstr "Nomi"
 
 #: configuredialog/configureagentswidget.cpp:64
 #, fuzzy
@@ -1169,8 +1160,14 @@ msgstr ""
 msgid "Ta&g Settings"
 msgstr "&Joʻnatish"
 
-#: configuredialog/configureappearancepage.cpp:1321
-#: configuredialog/configureappearancepage.cpp:1358
+#: configuredialog/configureappearancepage.cpp:1277
+#, fuzzy, kde-format
+#| msgid "<qt>Do you really want to remove the identity named <b>%1</b>?</qt>"
+msgid "Do you want to remove tag '%1'?"
+msgstr "<qt><b>%1</b> nomli shaxsiyatni rostdan oʻchirishni istaysizmi?</qt>"
+
+#: configuredialog/configureappearancepage.cpp:1322
+#: configuredialog/configureappearancepage.cpp:1359
 msgid "We cannot create tag. A tag with same name already exists."
 msgstr ""
 
@@ -1441,18 +1438,20 @@ msgstr ""
 #: configuredialog/configurecomposerpage.cpp:783
 #: configuredialog/configurecomposerpage.cpp:881
 #: configuredialog/configurecomposerpage.cpp:1276
-#: ui/accountspagereceivingtab.ui:36
+#: mailmerge/mailmergewidget.cpp:79 ui/accountspagereceivingtab.ui:36
 msgid "A&dd..."
 msgstr "Qoʻ&shish"
 
 #: configuredialog/configurecomposerpage.cpp:783
 #: configuredialog/configurecomposerpage.cpp:1034
 #: configuredialog/configurecomposerpage.cpp:1276
+#: mailmerge/mailmergewidget.cpp:79
 msgid "Re&move"
 msgstr "&Olib tashlash"
 
 #: configuredialog/configurecomposerpage.cpp:784
 #: configuredialog/configurecomposerpage.cpp:1277
+#: mailmerge/mailmergewidget.cpp:80
 msgid "Mod&ify..."
 msgstr "Oʻ&zgartirish"
 
@@ -1631,7 +1630,7 @@ msgstr "proksisiz"
 
 #: configuredialog/configuremiscpage.cpp:51
 #, fuzzy
-msgid "Agent Settings"
+msgid "Plugins Settings"
 msgstr "&Joʻnatish"
 
 #: configuredialog/configuremiscpage.cpp:54
@@ -1736,7 +1735,7 @@ msgctxt "@title:window for archiving a folder"
 msgid "Archive Folder"
 msgstr "Yangi jild"
 
-#: dialog/archivefolderdialog.cpp:60 kmmainwidget.cpp:3686
+#: dialog/archivefolderdialog.cpp:60 kmmainwidget.cpp:3687
 #, fuzzy
 msgctxt "@action"
 msgid "Archive"
@@ -1955,7 +1954,7 @@ msgid "Send"
 msgstr "&Joʻnatish"
 
 #: editor/kmcomposewin.cpp:1138 editor/kmcomposewin.cpp:1147
-#: editor/kmcomposewin.cpp:2942
+#: editor/kmcomposewin.cpp:2954
 msgid "Send &Later"
 msgstr "&Keyinroq joʻnatish"
 
@@ -2002,7 +2001,7 @@ msgstr "Faylga saqlash"
 msgid "Save email as text or html file"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1202 kmmainwidget.cpp:3537
+#: editor/kmcomposewin.cpp:1202 kmmainwidget.cpp:3538
 #, fuzzy
 #| msgid "&Address Book..."
 msgid "New AddressBook Contact..."
@@ -2019,7 +2018,7 @@ msgstr "&Fayldan qoʻyish"
 msgid "&Insert Recent Text File"
 msgstr "&Fayldan qoʻyish"
 
-#: editor/kmcomposewin.cpp:1221 kmmainwidget.cpp:3032
+#: editor/kmcomposewin.cpp:1221 kmmainwidget.cpp:3033
 msgid "&Address Book"
 msgstr "Manzillar &daftari"
 
@@ -2152,152 +2151,156 @@ msgid "Uppercase"
 msgstr ""
 
 #: editor/kmcomposewin.cpp:1371
+msgid "Sentence case"
+msgstr ""
+
+#: editor/kmcomposewin.cpp:1376
 msgid "Lowercase"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1375
+#: editor/kmcomposewin.cpp:1380
 #, fuzzy
 #| msgid "Chang&e..."
 msgid "Change Case"
 msgstr "Oʻzg&artirish"
 
-#: editor/kmcomposewin.cpp:1388
+#: editor/kmcomposewin.cpp:1394
 msgid "&Spellchecker..."
 msgstr "&Imloni tekshirish"
 
-#: editor/kmcomposewin.cpp:1389
+#: editor/kmcomposewin.cpp:1395
 msgid "Spellchecker"
 msgstr "Imloni tekshirish"
 
-#: editor/kmcomposewin.cpp:1401 editor/kmcomposewin.cpp:1403
+#: editor/kmcomposewin.cpp:1407 editor/kmcomposewin.cpp:1409
 msgid "Encrypt Message with Chiasmus..."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1412
+#: editor/kmcomposewin.cpp:1418
 msgid "&Encrypt Message"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1413
+#: editor/kmcomposewin.cpp:1419
 msgid "Encrypt"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1415
+#: editor/kmcomposewin.cpp:1421
 msgid "&Sign Message"
 msgstr "Im&zo qoʻyish"
 
-#: editor/kmcomposewin.cpp:1416
+#: editor/kmcomposewin.cpp:1422
 msgid "Sign"
 msgstr "Imzo"
 
-#: editor/kmcomposewin.cpp:1440
+#: editor/kmcomposewin.cpp:1446
 msgid "&Cryptographic Message Format"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1444
+#: editor/kmcomposewin.cpp:1450
 msgid "Select a cryptographic format for this message"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1459
+#: editor/kmcomposewin.cpp:1465
 #, fuzzy
 msgid "Configure KMail..."
 msgstr "KMail moslama&si"
 
-#: editor/kmcomposewin.cpp:1495
+#: editor/kmcomposewin.cpp:1501
 #, fuzzy, kde-format
 msgid " Spellcheck: %1 "
 msgstr "Imloni tekshirish"
 
-#: editor/kmcomposewin.cpp:1496 editor/kmcomposewin.cpp:3315
+#: editor/kmcomposewin.cpp:1502 editor/kmcomposewin.cpp:3327
 #, kde-format
 msgid " Column: %1 "
 msgstr " Ustun: %1 "
 
-#: editor/kmcomposewin.cpp:1498 editor/kmcomposewin.cpp:3313
+#: editor/kmcomposewin.cpp:1504 editor/kmcomposewin.cpp:3325
 #, fuzzy, kde-format
 #| msgid " Line: %1 "
 msgctxt "Shows the linenumber of the cursor position."
 msgid " Line: %1 "
 msgstr " Satr: %1 "
 
-#: editor/kmcomposewin.cpp:1872
+#: editor/kmcomposewin.cpp:1878
 #, fuzzy
 msgid "Re&save as Template"
 msgstr "&Almashtirish"
 
-#: editor/kmcomposewin.cpp:1873
+#: editor/kmcomposewin.cpp:1879
 msgid "&Save as Draft"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1875
+#: editor/kmcomposewin.cpp:1881
 msgid ""
 "Resave this message in the Templates folder. It can then be used at a later "
 "time."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1877
+#: editor/kmcomposewin.cpp:1883
 msgid ""
 "Save this message in the Drafts folder. It can then be edited and sent at a "
 "later time."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1881
+#: editor/kmcomposewin.cpp:1887
 msgid "Do you want to save the message for later or discard it?"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1882
+#: editor/kmcomposewin.cpp:1888
 msgid "Close Composer"
 msgstr "Xabar yaratuvchini yopish"
 
-#: editor/kmcomposewin.cpp:1953
+#: editor/kmcomposewin.cpp:1959
 #, fuzzy
 #| msgid "Autosaving Failed"
 msgid "Autosave Message Failed"
 msgstr "Avto-saqlash muvaffaqiyatsiz tugadi"
 
-#: editor/kmcomposewin.cpp:1953
+#: editor/kmcomposewin.cpp:1959
 #, fuzzy
 #| msgid "Autosaving Failed"
 msgid "Sending Message Failed"
 msgstr "Avto-saqlash muvaffaqiyatsiz tugadi"
 
-#: editor/kmcomposewin.cpp:2162
+#: editor/kmcomposewin.cpp:2168
 msgid "Add as &Inline Image"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2163
+#: editor/kmcomposewin.cpp:2169
 #, fuzzy
 #| msgid "Add as Attachment"
 msgid "Add as &Attachment"
 msgstr "Ilova sifatida qoʻshish"
 
-#: editor/kmcomposewin.cpp:2179 editor/kmcomposewin.cpp:2256
+#: editor/kmcomposewin.cpp:2185 editor/kmcomposewin.cpp:2262
 msgid "Name of the attachment:"
 msgstr "Ilova nomi:"
 
-#: editor/kmcomposewin.cpp:2216
+#: editor/kmcomposewin.cpp:2222
 #, fuzzy
 msgid "Add URL into Message"
 msgid_plural "Add URLs into Message"
 msgstr[0] "Xabarlar joʻnatilmoqda"
 
-#: editor/kmcomposewin.cpp:2217
+#: editor/kmcomposewin.cpp:2223
 #, fuzzy
 #| msgid "Add as Attachment"
 msgid "Add File as &Attachment"
 msgid_plural "Add Files as &Attachment"
 msgstr[0] "Ilova sifatida qoʻshish"
 
-#: editor/kmcomposewin.cpp:2255
+#: editor/kmcomposewin.cpp:2261
 #, fuzzy
 #| msgid "Paste as Attac&hment"
 msgid "Insert clipboard text as attachment"
 msgstr "&Ilova sifatida qoʻyish"
 
-#: editor/kmcomposewin.cpp:2461
+#: editor/kmcomposewin.cpp:2467
 msgid "unnamed"
 msgstr "nomsiz"
 
-#: editor/kmcomposewin.cpp:2489
+#: editor/kmcomposewin.cpp:2495
 msgid ""
 "<qt><p>You have requested that messages be encrypted to yourself, but the "
 "currently selected identity does not define an (OpenPGP or S/MIME) "
@@ -2305,244 +2308,244 @@ msgid ""
 "identity configuration.</p></qt>"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2496
+#: editor/kmcomposewin.cpp:2502
 msgid "Undefined Encryption Key"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2542
+#: editor/kmcomposewin.cpp:2548
 msgid ""
 "<qt><p>In order to be able to sign this message you first have to define the "
 "(OpenPGP or S/MIME) signing key to use.</p><p>Please select the key to use "
 "in the identity configuration.</p></qt>"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2549
+#: editor/kmcomposewin.cpp:2555
 msgid "Undefined Signing Key"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2666
+#: editor/kmcomposewin.cpp:2672
 #, kde-format
 msgid "There is %1 file upload in progress."
 msgid_plural "There are %1 file uploads in progress."
 msgstr[0] ""
 
-#: editor/kmcomposewin.cpp:2687
+#: editor/kmcomposewin.cpp:2693
 msgid ""
 "You must enter your email address in the From: field. You should also set "
 "your email address for all identities, so that you do not have to enter it "
 "for each message."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2696
+#: editor/kmcomposewin.cpp:2702
 msgid ""
 "You must specify at least one receiver, either in the To: field or as CC or "
 "as BCC."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2702
+#: editor/kmcomposewin.cpp:2708
 #, fuzzy
 msgid "To: field is empty. Send message anyway?"
 msgstr "Siz mavzuni aniqlamadingiz. Bunga qaramasdan xabarni joʻnataymi?"
 
-#: editor/kmcomposewin.cpp:2704
+#: editor/kmcomposewin.cpp:2710
 #, fuzzy
 msgid "No To: specified"
 msgstr "Mavzu aniqlanmagan"
 
-#: editor/kmcomposewin.cpp:2718
+#: editor/kmcomposewin.cpp:2724
 msgid "You did not specify a subject. Send message anyway?"
 msgstr "Siz mavzuni aniqlamadingiz. Bunga qaramasdan xabarni joʻnataymi?"
 
-#: editor/kmcomposewin.cpp:2720
+#: editor/kmcomposewin.cpp:2726
 msgid "No Subject Specified"
 msgstr "Mavzu aniqlanmagan"
 
-#: editor/kmcomposewin.cpp:2721
+#: editor/kmcomposewin.cpp:2727
 msgid "S&end as Is"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2722
+#: editor/kmcomposewin.cpp:2728
 msgid "&Specify the Subject"
 msgstr "&Mavzuni koʻrsatish"
 
-#: editor/kmcomposewin.cpp:2752
+#: editor/kmcomposewin.cpp:2764
 msgid ""
 "You must specify at least one receiver in order to be able to encrypt a "
 "draft."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2939
+#: editor/kmcomposewin.cpp:2951
 msgid "About to send email..."
 msgstr "Xabar joʻnatilish arafasida..."
 
-#: editor/kmcomposewin.cpp:2940
+#: editor/kmcomposewin.cpp:2952
 msgid "Send Confirmation"
 msgstr "Joʻnatishni tasdiqlash"
 
-#: editor/kmcomposewin.cpp:2941
+#: editor/kmcomposewin.cpp:2953
 msgid "&Send Now"
 msgstr "&Darhol joʻnatish"
 
-#: editor/kmcomposewin.cpp:2960
+#: editor/kmcomposewin.cpp:2972
 #, kde-format
 msgid ""
 "You are trying to send the mail to more than %1 recipients. Send message "
 "anyway?"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2961
+#: editor/kmcomposewin.cpp:2973
 #, fuzzy
 msgid "Too many recipients"
 msgstr "<qabul qiluvchilar>"
 
-#: editor/kmcomposewin.cpp:2962
+#: editor/kmcomposewin.cpp:2974
 msgid "&Send as Is"
 msgstr "&Shunday joʻnatish"
 
-#: editor/kmcomposewin.cpp:2963
+#: editor/kmcomposewin.cpp:2975
 #, fuzzy
 #| msgid "Additional Recipients"
 msgid "&Edit Recipients"
 msgstr "Qoʻshimcha qabul qiluvchilar"
 
-#: editor/kmcomposewin.cpp:3006
+#: editor/kmcomposewin.cpp:3018
 msgid ""
 "Turning HTML mode off will cause the text to lose the formatting. Are you "
 "sure?"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3008
+#: editor/kmcomposewin.cpp:3020
 msgid "Lose the formatting?"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3008
+#: editor/kmcomposewin.cpp:3020
 #, fuzzy
 #| msgid "Login Information"
 msgid "Lose Formatting"
 msgstr "Foydalanuvchi maʼlumotlari"
 
-#: editor/kmcomposewin.cpp:3008
+#: editor/kmcomposewin.cpp:3020
 #, fuzzy
 #| msgid "Add as Text"
 msgid "Add Markup Plain Text"
 msgstr "Matn sifatida qoʻshish"
 
-#: editor/kmcomposewin.cpp:3072
+#: editor/kmcomposewin.cpp:3084
 #, fuzzy
 msgid "Spellcheck: on"
 msgstr "Imloni tekshirish"
 
-#: editor/kmcomposewin.cpp:3074
+#: editor/kmcomposewin.cpp:3086
 #, fuzzy
 msgid "Spellcheck: off"
 msgstr "Imloni tekshirish"
 
-#: editor/kmcomposewin.cpp:3303
+#: editor/kmcomposewin.cpp:3315
 msgid "OVR"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3303
+#: editor/kmcomposewin.cpp:3315
 msgid "INS"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3360
+#: editor/kmcomposewin.cpp:3372
 msgid ""
 "Please configure a Crypto Backend to use for Chiasmus encryption first.\n"
 "You can do this in the Crypto Backends tab of the configure dialog's "
 "Security page."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3364
+#: editor/kmcomposewin.cpp:3376
 msgid ""
 "It looks as though libkleopatra was compiled without Chiasmus support. You "
 "might want to recompile libkleopatra with --enable-chiasmus."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3367
+#: editor/kmcomposewin.cpp:3379
 msgid "No Chiasmus Backend Configured"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3373
+#: editor/kmcomposewin.cpp:3385
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please "
 "report this bug."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3375 editor/kmcomposewin.cpp:3380
-#: editor/kmcomposewin.cpp:3389
+#: editor/kmcomposewin.cpp:3387 editor/kmcomposewin.cpp:3392
+#: editor/kmcomposewin.cpp:3401
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3386
+#: editor/kmcomposewin.cpp:3398
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" "
 "function did not return a string list. Please report this bug."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3395
+#: editor/kmcomposewin.cpp:3407
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in "
 "the Chiasmus configuration."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3398
+#: editor/kmcomposewin.cpp:3410
 msgid "No Chiasmus Keys Found"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3402
+#: editor/kmcomposewin.cpp:3414
 msgid "Chiasmus Encryption Key Selection"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3431
+#: editor/kmcomposewin.cpp:3443
 #, fuzzy
 #| msgid "Message was signed by %1."
 msgid "Message will be signed"
 msgstr "Xabar %1 tomonidan imzolangan."
 
-#: editor/kmcomposewin.cpp:3432
+#: editor/kmcomposewin.cpp:3444
 #, fuzzy
 #| msgid "Message was signed by %1."
 msgid "Message will not be signed"
 msgstr "Xabar %1 tomonidan imzolangan."
 
-#: editor/kmcomposewin.cpp:3434
+#: editor/kmcomposewin.cpp:3446
 #, fuzzy
 msgid "Message will be encrypted"
 msgstr "Tanlangan xabarlarni oʻqilmagan deb belgilash"
 
-#: editor/kmcomposewin.cpp:3435
+#: editor/kmcomposewin.cpp:3447
 #, fuzzy
 msgid "Message will not be encrypted"
 msgstr "Tanlangan xabarlarni oʻqilmagan deb belgilash"
 
-#: editor/kmcomposewin.cpp:3457
+#: editor/kmcomposewin.cpp:3469
 #, fuzzy
 msgid "Insert Special Character"
 msgstr "&Fayldan qoʻyish"
 
-#: editor/kmcomposewin.cpp:3458
+#: editor/kmcomposewin.cpp:3470
 #, fuzzy
 msgid "Insert"
 msgstr "Fayldan qoʻyish"
 
-#: editor/kmcomposewin.cpp:3580
+#: editor/kmcomposewin.cpp:3598
 #, fuzzy
 #| msgid "Error while renaming a folder."
 msgid "An error occurred while sending the file."
 msgstr "Jildning nomini oʻzgartirishda xato roʻy berdi."
 
-#: editor/kmcomposewin.cpp:3580
+#: editor/kmcomposewin.cpp:3598
 #, fuzzy
 #| msgid "Load Profile"
 msgid "Upload file"
 msgstr "Profilni yuklash"
 
-#: editor/kmcomposewin.cpp:3599
+#: editor/kmcomposewin.cpp:3617
 #, kde-format
 msgid "%1 return an error '%2'"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:3599
+#: editor/kmcomposewin.cpp:3617
 #, fuzzy
 msgid "Error"
 msgstr "Xato: %1"
@@ -2645,44 +2648,44 @@ msgstr "&Mavjud shaxsiyatning nusxasi"
 msgid "&Existing identities:"
 msgstr "Mavjud &shaxsiyatlar:"
 
-#: identity/identitydialog.cpp:113
+#: identity/identitydialog.cpp:119
 msgid "Edit Identity"
 msgstr "Shaxsiyatni tahrirlash"
 
-#: identity/identitydialog.cpp:142
+#: identity/identitydialog.cpp:148
 #, fuzzy
 #| msgid "General"
 msgctxt "@title:tab General identity settings."
 msgid "General"
 msgstr "Umumiy"
 
-#: identity/identitydialog.cpp:153
+#: identity/identitydialog.cpp:159
 msgid "&Your name:"
 msgstr "I&smingiz:"
 
-#: identity/identitydialog.cpp:156
+#: identity/identitydialog.cpp:162
 msgid ""
 "<qt><h3>Your name</h3><p>This field should contain your name as you would "
 "like it to appear in the email header that is sent out;</p><p>if you leave "
 "this blank your real name will not appear, only the email address.</p></qt>"
 msgstr ""
 
-#: identity/identitydialog.cpp:168
+#: identity/identitydialog.cpp:174
 msgid "Organi&zation:"
 msgstr "&Tashkilot:"
 
-#: identity/identitydialog.cpp:171
+#: identity/identitydialog.cpp:177
 msgid ""
 "<qt><h3>Organization</h3><p>This field should have the name of your "
 "organization if you would like it to be shown in the email header that is "
 "sent out.</p><p>It is safe (and normal) to leave this blank.</p></qt>"
 msgstr ""
 
-#: identity/identitydialog.cpp:184
+#: identity/identitydialog.cpp:190
 msgid "&Email address:"
 msgstr "&Elektron pochta:"
 
-#: identity/identitydialog.cpp:187
+#: identity/identitydialog.cpp:193
 msgid ""
 "<qt><h3>Email address</h3><p>This field should have your full email address."
 "</p><p>This address is the primary one, used for all outgoing mail. If you "
@@ -2691,13 +2694,13 @@ msgid ""
 "wrong, people will have trouble replying to you.</p></qt>"
 msgstr ""
 
-#: identity/identitydialog.cpp:204
+#: identity/identitydialog.cpp:210
 #, fuzzy
 #| msgid "&Email address:"
 msgid "Email a&liases:"
 msgstr "&Elektron pochta:"
 
-#: identity/identitydialog.cpp:207
+#: identity/identitydialog.cpp:213
 msgid ""
 "<qt><h3>Email aliases</h3><p>This field contains alias addresses that should "
 "also be considered as belonging to this identity (as opposed to representing "
@@ -2707,25 +2710,25 @@ msgid ""
 "alias address per line.</p></qt>"
 msgstr ""
 
-#: identity/identitydialog.cpp:225
+#: identity/identitydialog.cpp:231
 msgid "Cryptography"
 msgstr ""
 
-#: identity/identitydialog.cpp:234 identity/identitydialog.cpp:259
-#: identity/identitydialog.cpp:285 identity/identitydialog.cpp:312
+#: identity/identitydialog.cpp:240 identity/identitydialog.cpp:265
+#: identity/identitydialog.cpp:291 identity/identitydialog.cpp:318
 msgid "Chang&e..."
 msgstr "Oʻzg&artirish"
 
-#: identity/identitydialog.cpp:235
+#: identity/identitydialog.cpp:241
 msgid "Your OpenPGP Signature Key"
 msgstr ""
 
-#: identity/identitydialog.cpp:236
+#: identity/identitydialog.cpp:242
 msgid ""
 "Select the OpenPGP key which should be used to digitally sign your messages."
 msgstr ""
 
-#: identity/identitydialog.cpp:240
+#: identity/identitydialog.cpp:246
 msgid ""
 "<qt><p>The OpenPGP key you choose here will be used to digitally sign "
 "messages. You can also use GnuPG keys.</p><p>You can leave this blank, but "
@@ -2734,21 +2737,21 @@ msgid ""
 "<a>http://www.gnupg.org</a></p></qt>"
 msgstr ""
 
-#: identity/identitydialog.cpp:247
+#: identity/identitydialog.cpp:253
 msgid "OpenPGP signing key:"
 msgstr ""
 
-#: identity/identitydialog.cpp:260
+#: identity/identitydialog.cpp:266
 msgid "Your OpenPGP Encryption Key"
 msgstr ""
 
-#: identity/identitydialog.cpp:261
+#: identity/identitydialog.cpp:267
 msgid ""
 "Select the OpenPGP key which should be used when encrypting to yourself and "
 "for the \"Attach My Public Key\" feature in the composer."
 msgstr ""
 
-#: identity/identitydialog.cpp:266
+#: identity/identitydialog.cpp:272
 msgid ""
 "<qt><p>The OpenPGP key you choose here will be used to encrypt messages to "
 "yourself and for the \"Attach My Public Key\" feature in the composer. You "
@@ -2758,21 +2761,21 @@ msgid ""
 "at <a>http://www.gnupg.org</a></p></qt>"
 msgstr ""
 
-#: identity/identitydialog.cpp:273
+#: identity/identitydialog.cpp:279
 msgid "OpenPGP encryption key:"
 msgstr ""
 
-#: identity/identitydialog.cpp:286
+#: identity/identitydialog.cpp:292
 msgid "Your S/MIME Signature Certificate"
 msgstr ""
 
-#: identity/identitydialog.cpp:287
+#: identity/identitydialog.cpp:293
 msgid ""
 "Select the S/MIME certificate which should be used to digitally sign your "
 "messages."
 msgstr ""
 
-#: identity/identitydialog.cpp:291
+#: identity/identitydialog.cpp:297
 msgid ""
 "<qt><p>The S/MIME (X.509) certificate you choose here will be used to "
 "digitally sign messages.</p><p>You can leave this blank, but KMail will not "
@@ -2780,21 +2783,21 @@ msgid ""
 "not be affected.</p></qt>"
 msgstr ""
 
-#: identity/identitydialog.cpp:296
+#: identity/identitydialog.cpp:302
 msgid "S/MIME signing certificate:"
 msgstr ""
 
-#: identity/identitydialog.cpp:313
+#: identity/identitydialog.cpp:319
 msgid "Your S/MIME Encryption Certificate"
 msgstr ""
 
-#: identity/identitydialog.cpp:314
+#: identity/identitydialog.cpp:320
 msgid ""
 "Select the S/MIME certificate which should be used when encrypting to "
 "yourself and for the \"Attach My Certificate\" feature in the composer."
 msgstr ""
 
-#: identity/identitydialog.cpp:319
+#: identity/identitydialog.cpp:325
 msgid ""
 "<qt><p>The S/MIME certificate you choose here will be used to encrypt "
 "messages to yourself and for the \"Attach My Certificate\" feature in the "
@@ -2803,33 +2806,33 @@ msgid ""
 "functions will not be affected.</p></qt>"
 msgstr ""
 
-#: identity/identitydialog.cpp:325
+#: identity/identitydialog.cpp:331
 msgid "S/MIME encryption certificate:"
 msgstr ""
 
-#: identity/identitydialog.cpp:347
+#: identity/identitydialog.cpp:353
 msgctxt "preferred format of encrypted messages"
 msgid "Preferred format:"
 msgstr ""
 
-#: identity/identitydialog.cpp:355
+#: identity/identitydialog.cpp:361
 #, fuzzy
 #| msgid "&Automatically sign messages"
 msgid "Automatically sign messages"
 msgstr "Xabarlarni &avtomatik imzolash"
 
-#: identity/identitydialog.cpp:366
+#: identity/identitydialog.cpp:372
 #, fuzzy
 #| msgid "Advanced"
 msgctxt "@title:tab Advanced identity settings."
 msgid "Advanced"
 msgstr "Qoʻshimcha"
 
-#: identity/identitydialog.cpp:378
+#: identity/identitydialog.cpp:384
 msgid "&Reply-To address:"
 msgstr ""
 
-#: identity/identitydialog.cpp:381
+#: identity/identitydialog.cpp:387
 msgid ""
 "<qt><h3>Reply-To addresses</h3><p>This sets the <tt>Reply-to:</tt> header to "
 "contain a different email address to the normal <tt>From:</tt> address.</"
@@ -2839,13 +2842,13 @@ msgid ""
 "address.</p><p>If in doubt, leave this field blank.</p></qt>"
 msgstr ""
 
-#: identity/identitydialog.cpp:401
+#: identity/identitydialog.cpp:407
 #, fuzzy
 #| msgid "&Email address:"
 msgid "&CC addresses:"
 msgstr "&Elektron pochta:"
 
-#: identity/identitydialog.cpp:404
+#: identity/identitydialog.cpp:410
 msgid ""
 "<qt><h3>CC (Carbon Copy) addresses</h3><p>The addresses that you enter here "
 "will be added to each outgoing mail that is sent with this identity.</"
@@ -2855,11 +2858,11 @@ msgid ""
 "blank.</p></qt>"
 msgstr ""
 
-#: identity/identitydialog.cpp:421
+#: identity/identitydialog.cpp:427
 msgid "&BCC addresses:"
 msgstr ""
 
-#: identity/identitydialog.cpp:424
+#: identity/identitydialog.cpp:430
 msgid ""
 "<qt><h3>BCC (Blind Carbon Copy) addresses</h3><p>The addresses that you "
 "enter here will be added to each outgoing mail that is sent with this "
@@ -2869,74 +2872,90 @@ msgid ""
 "list of BCC recipients.</p><p>If in doubt, leave this field blank.</p></qt>"
 msgstr ""
 
-#: identity/identitydialog.cpp:440
+#: identity/identitydialog.cpp:446
 msgid "D&ictionary:"
 msgstr "&Lugʻat:"
 
-#: identity/identitydialog.cpp:449
+#: identity/identitydialog.cpp:455
 msgid "Sent-mail &folder:"
 msgstr "\"Joʻnatilgan\" j&ildi:"
 
-#: identity/identitydialog.cpp:458
+#: identity/identitydialog.cpp:464
 msgid "&Drafts folder:"
 msgstr ""
 
-#: identity/identitydialog.cpp:467
+#: identity/identitydialog.cpp:473
 #, fuzzy
 msgid "&Templates folder:"
 msgstr "&Chiqindilar qutisi:"
 
-#: identity/identitydialog.cpp:473
+#: identity/identitydialog.cpp:479
 #, fuzzy
 #| msgid "Configure Account"
 msgid "Outgoing Account:"
 msgstr "Hisobni moslash"
 
-#: identity/identitydialog.cpp:482
+#: identity/identitydialog.cpp:488
 #, fuzzy
 #| msgid "Add 'header' to message"
 msgid "Attach my vCard to message"
 msgstr "Xabarga sarlavha qoʻshish"
 
-#: identity/identitydialog.cpp:484 identity/identitydialog.cpp:972
+#: identity/identitydialog.cpp:490 identity/identitydialog.cpp:1017
 #, fuzzy
 #| msgid "Rename..."
 msgid "Create..."
 msgstr "Nomini oʻzgartirish"
 
-#: identity/identitydialog.cpp:492
+#: identity/identitydialog.cpp:498
 #, fuzzy
 #| msgid "Choose &language:"
 msgid "Autocorrection language:"
 msgstr "Tilni &tanlash:"
 
-#: identity/identitydialog.cpp:512
+#: identity/identitydialog.cpp:510
+#, fuzzy
+#| msgid "Defaul&t domain:"
+msgid "Restore default domain name"
+msgstr "Ando&za domen:"
+
+#: identity/identitydialog.cpp:514
+msgid "Defaul&t domain:"
+msgstr "Ando&za domen:"
+
+#: identity/identitydialog.cpp:519
+msgid ""
+"<qt><p>The default domain is used to complete email addresses that only "
+"consist of the user's name.</p></qt>"
+msgstr ""
+
+#: identity/identitydialog.cpp:542
 #, fuzzy
 msgid "&Use custom message templates for this identity"
 msgstr "&Boshqa shriftlarni ishlatish"
 
-#: identity/identitydialog.cpp:552
+#: identity/identitydialog.cpp:582
 msgid "Signature"
 msgstr "Imzo"
 
-#: identity/identitydialog.cpp:561
+#: identity/identitydialog.cpp:591
 #, fuzzy
 #| msgid "&Picture"
 msgid "Picture"
 msgstr "&Rasm"
 
-#: identity/identitydialog.cpp:646
+#: identity/identitydialog.cpp:681
 #, fuzzy, kde-format
 #| msgid "Invalid Email Address"
 msgid "Invalid Email Alias \"%1\""
 msgstr "Xato elektron pochta manzili"
 
-#: identity/identitydialog.cpp:655 job/addressvalidationjob.cpp:84
-#: job/addressvalidationjob.cpp:93
+#: identity/identitydialog.cpp:690 job/addressvalidationjob.cpp:85
+#: job/addressvalidationjob.cpp:94
 msgid "Invalid Email Address"
 msgstr "Xato elektron pochta manzili"
 
-#: identity/identitydialog.cpp:690
+#: identity/identitydialog.cpp:727
 #, kde-format
 msgid ""
 "One of the configured OpenPGP signing keys does not contain any user ID with "
@@ -2945,14 +2964,14 @@ msgid ""
 "verify signatures made with this configuration."
 msgstr ""
 
-#: identity/identitydialog.cpp:698
+#: identity/identitydialog.cpp:735
 #, kde-format
 msgid ""
 "One of the configured OpenPGP encryption keys does not contain any user ID "
 "with the configured email address for this identity (%1)."
 msgstr ""
 
-#: identity/identitydialog.cpp:704
+#: identity/identitydialog.cpp:741
 #, kde-format
 msgid ""
 "One of the configured S/MIME signing certificates does not contain the "
@@ -2961,48 +2980,48 @@ msgid ""
 "verify signatures made with this configuration."
 msgstr ""
 
-#: identity/identitydialog.cpp:712
+#: identity/identitydialog.cpp:749
 #, kde-format
 msgid ""
 "One of the configured S/MIME encryption certificates does not contain the "
 "configured email address for this identity (%1)."
 msgstr ""
 
-#: identity/identitydialog.cpp:720
+#: identity/identitydialog.cpp:757
 msgid "Email Address Not Found in Key/Certificates"
 msgstr ""
 
-#: identity/identitydialog.cpp:735
+#: identity/identitydialog.cpp:772
 msgid "The signature file is not valid"
 msgstr ""
 
-#: identity/identitydialog.cpp:757
+#: identity/identitydialog.cpp:794
 #, kde-format
 msgid "Edit Identity \"%1\""
 msgstr "\"%1\" shaxsiyatini tahrirlash"
 
-#: identity/identitydialog.cpp:791
+#: identity/identitydialog.cpp:828
 #, kde-format
 msgid ""
 "The custom sent-mail folder for identity \"%1\" does not exist (anymore); "
 "therefore, the default sent-mail folder will be used."
 msgstr ""
 
-#: identity/identitydialog.cpp:803
+#: identity/identitydialog.cpp:840
 #, kde-format
 msgid ""
 "The custom drafts folder for identity \"%1\" does not exist (anymore); "
 "therefore, the default drafts folder will be used."
 msgstr ""
 
-#: identity/identitydialog.cpp:815
+#: identity/identitydialog.cpp:852
 #, kde-format
 msgid ""
 "The custom templates folder for identity \"%1\" does not exist (anymore); "
 "therefore, the default templates folder will be used."
 msgstr ""
 
-#: identity/identitydialog.cpp:974
+#: identity/identitydialog.cpp:1019
 msgid "Edit..."
 msgstr "Tahrirlash"
 
@@ -3181,7 +3200,7 @@ msgstr ""
 msgid "Email added successfully."
 msgstr "Xabarlar muvaffaqiyatli oʻchirildi."
 
-#: job/addressvalidationjob.cpp:81
+#: job/addressvalidationjob.cpp:82
 #, kde-format
 msgid "Distribution list %2 is empty, it cannot be used."
 msgid_plural "Distribution lists %2 are empty, they cannot be used."
@@ -3318,32 +3337,32 @@ msgid "&Forward"
 msgstr "&Uzatish"
 
 #. i18n: ectx: Menu (apply_filter_actions)
-#: kmail_part.rc:166 kmmainwidget.cpp:3361 kmmainwin.rc:166
+#: kmail_part.rc:166 kmmainwidget.cpp:3362 kmmainwin.rc:166
 msgid "A&pply Filter"
 msgstr "Fil&terni qoʻllash"
 
 #. i18n: ectx: Menu (tools)
-#: kmail_part.rc:176 kmmainwin.rc:176
+#: kmail_part.rc:177 kmmainwin.rc:177
 #, fuzzy
 msgid "&Tools"
 msgstr "K&imga"
 
 #. i18n: ectx: Menu (settings)
-#: kmail_part.rc:197 kmcomposerui.rc:101 kmmainwin.rc:197
-#: kmreadermainwin.rc:70
+#: kmail_part.rc:198 kmcomposerui.rc:101 kmmainwin.rc:198
+#: kmreadermainwin.rc:71
 #, fuzzy
 msgid "&Settings"
 msgstr "&Joʻnatish"
 
 #. i18n: ectx: Menu (help)
-#: kmail_part.rc:212 kmmainwin.rc:212
+#: kmail_part.rc:213 kmmainwin.rc:213
 #, fuzzy
 msgid "&Help"
 msgstr "&Bip"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kmail_part.rc:289 kmcomposerui.rc:105 kmmainwin.rc:289
-#: kmreadermainwin.rc:79
+#: kmail_part.rc:291 kmcomposerui.rc:105 kmmainwin.rc:291
+#: kmreadermainwin.rc:80
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "HTML asboblar paneli"
@@ -3401,25 +3420,25 @@ msgstr "Imzolamasdan joʻnatish"
 msgid "Send Individually"
 msgstr ""
 
-#: kmcommands.cpp:1315
+#: kmcommands.cpp:1317
 #, fuzzy
 msgid "Filtering messages"
 msgstr "Xabarlarni oʻchirish"
 
-#: kmcommands.cpp:1322
+#: kmcommands.cpp:1324
 #, fuzzy, kde-format
 msgid "Filtering message %1 of %2"
 msgstr "Xabarlarni oʻchirish"
 
-#: kmcommands.cpp:1474
+#: kmcommands.cpp:1476
 msgid "Moving messages"
 msgstr "Xabarlarni koʻchirish"
 
-#: kmcommands.cpp:1474
+#: kmcommands.cpp:1476
 msgid "Deleting messages"
 msgstr "Xabarlarni oʻchirish"
 
-#: kmcommands.cpp:1604
+#: kmcommands.cpp:1606
 msgid "Image"
 msgstr ""
 
@@ -3556,11 +3575,11 @@ msgstr ""
 msgid "Another mailer was found on system. Do you want to import data from it?"
 msgstr ""
 
-#: kmmainwidget.cpp:333 kmmainwidget.cpp:4343
+#: kmmainwidget.cpp:333 kmmainwidget.cpp:4351
 msgid "Could not start the import wizard. Please check your installation."
 msgstr ""
 
-#: kmmainwidget.cpp:335 kmmainwidget.cpp:4345
+#: kmmainwidget.cpp:335 kmmainwidget.cpp:4353
 #, fuzzy
 #| msgid "Unable to create account"
 msgid "Unable to start import wizard"
@@ -3862,609 +3881,618 @@ msgid ""
 "installation."
 msgstr ""
 
-#: kmmainwidget.cpp:2974
+#: kmmainwidget.cpp:2975
 msgid "Save &As..."
 msgstr "...sifatida s&aqlash"
 
-#: kmmainwidget.cpp:2988
+#: kmmainwidget.cpp:2989
 msgid "&Expire All Folders"
 msgstr ""
 
-#: kmmainwidget.cpp:2993
+#: kmmainwidget.cpp:2994
 msgid "Check &Mail"
 msgstr "Pochtani &tekshirish"
 
-#: kmmainwidget.cpp:2999
+#: kmmainwidget.cpp:3000
 #, fuzzy
 #| msgid "Check Mail &In"
 msgid "Check Mail In"
 msgstr "...da &pochtani tekshirish"
 
-#: kmmainwidget.cpp:3000 kmmainwidget.cpp:3001
+#: kmmainwidget.cpp:3001 kmmainwidget.cpp:3002
 #, fuzzy
 #| msgid "Check &Mail"
 msgid "Check Mail"
 msgstr "Pochtani &tekshirish"
 
-#: kmmainwidget.cpp:3010
+#: kmmainwidget.cpp:3011
 msgid "&Send Queued Messages"
 msgstr "&Navbatdagi xabarlarni joʻnatish"
 
-#: kmmainwidget.cpp:3019
+#: kmmainwidget.cpp:3020
 #, fuzzy
 msgid "Online status (unknown)"
 msgstr "Onlayn holati (nomaʼlum)"
 
-#: kmmainwidget.cpp:3022
+#: kmmainwidget.cpp:3023
 #, fuzzy
 msgid "Send Queued Messages Via"
 msgstr "&Navbatdagi xabarlarni joʻnatish"
 
-#: kmmainwidget.cpp:3040
+#: kmmainwidget.cpp:3041
 #, fuzzy
 #| msgid "Certificate Manager..."
 msgid "Certificate Manager"
 msgstr "Sertifikat boshqaruvchisi"
 
-#: kmmainwidget.cpp:3048
+#: kmmainwidget.cpp:3049
 msgid "GnuPG Log Viewer"
 msgstr ""
 
-#: kmmainwidget.cpp:3061
+#: kmmainwidget.cpp:3062
 #, fuzzy
 #| msgid "&Import Messages..."
 msgid "&Import Messages..."
 msgstr "Xabarlarni &import qilish"
 
-#: kmmainwidget.cpp:3069
+#: kmmainwidget.cpp:3070
 msgid "&Debug Sieve..."
 msgstr ""
 
-#: kmmainwidget.cpp:3076
+#: kmmainwidget.cpp:3077
 msgid "Filter &Log Viewer..."
 msgstr ""
 
-#: kmmainwidget.cpp:3081
+#: kmmainwidget.cpp:3082
 msgid "&Anti-Spam Wizard..."
 msgstr "Anti&spem yordamchisi"
 
-#: kmmainwidget.cpp:3086
+#: kmmainwidget.cpp:3087
 msgid "&Anti-Virus Wizard..."
 msgstr "Anti&virus yordamchisi"
 
-#: kmmainwidget.cpp:3091
+#: kmmainwidget.cpp:3092
 #, fuzzy
 #| msgid "&Anti-Spam Wizard..."
 msgid "&Account Wizard..."
 msgstr "Anti&spem yordamchisi"
 
-#: kmmainwidget.cpp:3096
+#: kmmainwidget.cpp:3097
 #, fuzzy
 #| msgid "&Anti-Spam Wizard..."
 msgid "&Import Wizard..."
 msgstr "Anti&spem yordamchisi"
 
-#: kmmainwidget.cpp:3102
+#: kmmainwidget.cpp:3103
 msgid "Edit \"Out of Office\" Replies..."
 msgstr ""
 
-#: kmmainwidget.cpp:3108
+#: kmmainwidget.cpp:3109
 #, fuzzy
 #| msgid "Configure &Notifications..."
 msgid "&Configure Automatic Archiving..."
 msgstr "&Xabar berishni moslash"
 
-#: kmmainwidget.cpp:3114
+#: kmmainwidget.cpp:3115
 #, fuzzy
 msgid "Message Delayed..."
 msgstr "Xabar tarkibi"
 
-#: kmmainwidget.cpp:3130 kmmainwidget.cpp:4138
+#: kmmainwidget.cpp:3131 kmmainwidget.cpp:4139
 #, fuzzy
 msgctxt "@action Hard delete, bypassing trash"
 msgid "&Delete"
 msgstr "Oʻchirilgan"
 
-#: kmmainwidget.cpp:3135 kmmainwidget.cpp:4140
+#: kmmainwidget.cpp:3136 kmmainwidget.cpp:4141
 msgid "M&ove Thread to Trash"
 msgstr "Ketma-ket&likni chiqindilar qutisiga koʻchirish"
 
-#: kmmainwidget.cpp:3139
+#: kmmainwidget.cpp:3140
 msgid "Move thread to trashcan"
 msgstr "Ketma-ketlikni chiqindilar qutisiga koʻchirish"
 
-#: kmmainwidget.cpp:3142 kmmainwidget.cpp:4140
+#: kmmainwidget.cpp:3143 kmmainwidget.cpp:4141
 msgid "Delete T&hread"
 msgstr "Ketma-ketlikni oʻch&irish"
 
-#: kmmainwidget.cpp:3148
+#: kmmainwidget.cpp:3149
 msgid "&Find Messages..."
 msgstr "Xabarlarni &qidirish"
 
-#: kmmainwidget.cpp:3154
+#: kmmainwidget.cpp:3155
 msgid "Select &All Messages"
 msgstr "Hamma xabarlarni &tanlash"
 
-#: kmmainwidget.cpp:3162
+#: kmmainwidget.cpp:3163
 msgid "&Mailing List Management..."
 msgstr ""
 
-#: kmmainwidget.cpp:3167
+#: kmmainwidget.cpp:3168
 msgid "&Assign Shortcut..."
 msgstr ""
 
-#: kmmainwidget.cpp:3184
+#: kmmainwidget.cpp:3185
 msgid "&Expiration Settings"
 msgstr "Muddati oʻtish &moslamalar"
 
-#: kmmainwidget.cpp:3202
+#: kmmainwidget.cpp:3203
 #, fuzzy
 #| msgid "&New Folder..."
 msgid "&Archive Folder..."
 msgstr "&Yangi jild"
 
-#: kmmainwidget.cpp:3206
+#: kmmainwidget.cpp:3207
 msgid "Prefer &HTML to Plain Text"
 msgstr ""
 
-#: kmmainwidget.cpp:3210
+#: kmmainwidget.cpp:3211
 msgid "Load E&xternal References"
 msgstr ""
 
-#: kmmainwidget.cpp:3233
+#: kmmainwidget.cpp:3234
 #, fuzzy
 #| msgid "New Message To..."
 msgid "Copy Message To..."
 msgstr "Xat joʻnatish"
 
-#: kmmainwidget.cpp:3235
+#: kmmainwidget.cpp:3236
 #, fuzzy
 #| msgid "New Message To..."
 msgid "Move Message To..."
 msgstr "Xat joʻnatish"
 
-#: kmmainwidget.cpp:3240
+#: kmmainwidget.cpp:3241
 msgid "&New Message..."
 msgstr "&Yangi xabar"
 
-#: kmmainwidget.cpp:3242
+#: kmmainwidget.cpp:3243
 #, fuzzy
 #| msgid "New"
 msgctxt "@action:intoolbar New Empty Message"
 msgid "New"
 msgstr "Yangi"
 
-#: kmmainwidget.cpp:3250
+#: kmmainwidget.cpp:3251
 #, fuzzy
 msgid "Message From &Template"
 msgstr "Serverda yangi xabar yoʻq"
 
-#: kmmainwidget.cpp:3260
+#: kmmainwidget.cpp:3261
 msgid "New Message t&o Mailing-List..."
 msgstr ""
 
-#: kmmainwidget.cpp:3267
+#: kmmainwidget.cpp:3268
 msgid "Send A&gain..."
 msgstr "&Qaytadan joʻnatish"
 
-#: kmmainwidget.cpp:3272
+#: kmmainwidget.cpp:3273
 msgid "&Create Filter"
 msgstr "F&ilter yaratish"
 
-#: kmmainwidget.cpp:3277
+#: kmmainwidget.cpp:3278
 msgid "Filter on &Subject..."
 msgstr ""
 
-#: kmmainwidget.cpp:3284
+#: kmmainwidget.cpp:3285
 msgid "Filter on &From..."
 msgstr ""
 
-#: kmmainwidget.cpp:3290
+#: kmmainwidget.cpp:3291
 msgid "Filter on &To..."
 msgstr ""
 
-#: kmmainwidget.cpp:3297
+#: kmmainwidget.cpp:3298
 #, fuzzy
 msgid "New Message From &Template"
 msgstr "Serverda yangi xabar yoʻq"
 
-#: kmmainwidget.cpp:3303
+#: kmmainwidget.cpp:3304
 msgid "Mark &Thread"
 msgstr "Ketma-ke&tlikni belgilash"
 
-#: kmmainwidget.cpp:3306
+#: kmmainwidget.cpp:3307
 msgid "Mark Thread as &Read"
 msgstr "Oʻqil&gan"
 
-#: kmmainwidget.cpp:3309
+#: kmmainwidget.cpp:3310
 msgid "Mark all messages in the selected thread as read"
 msgstr "Tanlangan ketma-ketlikdagi hamma xabarlarni oʻqilgan deb belgilash"
 
-#: kmmainwidget.cpp:3312
+#: kmmainwidget.cpp:3313
 msgid "Mark Thread as &Unread"
 msgstr "&Oʻqilmagan"
 
-#: kmmainwidget.cpp:3315
+#: kmmainwidget.cpp:3316
 msgid "Mark all messages in the selected thread as unread"
 msgstr "Tanlangan ketma-ketlikdagi hamma xabarlarni oʻqilmagan deb belgilash"
 
-#: kmmainwidget.cpp:3321
+#: kmmainwidget.cpp:3322
 msgid "Mark Thread as &Important"
 msgstr "&Muhim"
 
-#: kmmainwidget.cpp:3324
+#: kmmainwidget.cpp:3325
 #, fuzzy
 msgid "Remove &Important Thread Mark"
 msgstr "Muhim xabar"
 
-#: kmmainwidget.cpp:3327
+#: kmmainwidget.cpp:3328
 #, fuzzy
 #| msgid "Mark Thread as &New"
 msgid "Mark Thread as &Action Item"
 msgstr "&Yangi"
 
-#: kmmainwidget.cpp:3330
+#: kmmainwidget.cpp:3331
 #, fuzzy
 msgid "Remove &Action Item Thread Mark"
 msgstr "Muhim xabar"
 
-#: kmmainwidget.cpp:3334
+#: kmmainwidget.cpp:3335
 msgid "&Watch Thread"
 msgstr "Ketma-ketlikni na&zorat qilish"
 
-#: kmmainwidget.cpp:3338
+#: kmmainwidget.cpp:3339
 msgid "&Ignore Thread"
 msgstr "Ketma-ketlikka &eʼtibor berilmasin"
 
-#: kmmainwidget.cpp:3346 kmreadermainwin.cpp:327
+#: kmmainwidget.cpp:3347 kmreadermainwin.cpp:327
 msgid "Save A&ttachments..."
 msgstr "Ilovalarni &saqlash"
 
-#: kmmainwidget.cpp:3355
+#: kmmainwidget.cpp:3356
 msgid "Appl&y All Filters"
 msgstr "Ham&ma filterlarni qoʻllash"
 
-#: kmmainwidget.cpp:3365
+#: kmmainwidget.cpp:3366
 msgctxt "View->"
 msgid "&Expand Thread / Group"
 msgstr ""
 
-#: kmmainwidget.cpp:3368
+#: kmmainwidget.cpp:3369
 msgid "Expand the current thread or group"
 msgstr ""
 
-#: kmmainwidget.cpp:3372
+#: kmmainwidget.cpp:3373
 #, fuzzy
 #| msgid "Remove Header"
 msgctxt "View->"
 msgid "&Collapse Thread / Group"
 msgstr "Sarlavhani olib tashlash"
 
-#: kmmainwidget.cpp:3375
+#: kmmainwidget.cpp:3376
 msgid "Collapse the current thread or group"
 msgstr ""
 
-#: kmmainwidget.cpp:3379
+#: kmmainwidget.cpp:3380
 msgctxt "View->"
 msgid "Ex&pand All Threads"
 msgstr ""
 
-#: kmmainwidget.cpp:3382
+#: kmmainwidget.cpp:3383
 msgid "Expand all threads in the current folder"
 msgstr ""
 
-#: kmmainwidget.cpp:3386
+#: kmmainwidget.cpp:3387
 msgctxt "View->"
 msgid "C&ollapse All Threads"
 msgstr ""
 
-#: kmmainwidget.cpp:3389
+#: kmmainwidget.cpp:3390
 msgid "Collapse all threads in the current folder"
 msgstr ""
 
-#: kmmainwidget.cpp:3394
+#: kmmainwidget.cpp:3395
 msgid "&Display Message"
 msgstr "Xa&barni koʻrsatish"
 
-#: kmmainwidget.cpp:3403
+#: kmmainwidget.cpp:3404
 msgid "&Next Message"
 msgstr "&Keyingi xabar"
 
-#: kmmainwidget.cpp:3406
+#: kmmainwidget.cpp:3407
 msgid "Go to the next message"
 msgstr "Keyingi xabarga oʻtish"
 
-#: kmmainwidget.cpp:3410
+#: kmmainwidget.cpp:3411
 msgid "Next &Unread Message"
 msgstr "Keyingi oʻqi&lmagan xabar"
 
-#: kmmainwidget.cpp:3418
+#: kmmainwidget.cpp:3419
 msgctxt "@action:inmenu Goto next unread message"
 msgid "Next"
 msgstr ""
 
-#: kmmainwidget.cpp:3419
+#: kmmainwidget.cpp:3420
 msgid "Go to the next unread message"
 msgstr "Keyingi oʻqilmagan xabarga oʻtish"
 
-#: kmmainwidget.cpp:3423
+#: kmmainwidget.cpp:3424
 msgid "&Previous Message"
 msgstr "&Oldingi xabar"
 
-#: kmmainwidget.cpp:3425
+#: kmmainwidget.cpp:3426
 msgid "Go to the previous message"
 msgstr "Oldingi xabarga oʻtish"
 
-#: kmmainwidget.cpp:3430
+#: kmmainwidget.cpp:3431
 msgid "Previous Unread &Message"
 msgstr "&Oldingi oʻqilmagan xabar"
 
-#: kmmainwidget.cpp:3438
+#: kmmainwidget.cpp:3439
 #, fuzzy
 msgctxt "@action:inmenu Goto previous unread message."
 msgid "Previous"
 msgstr "&Oldingi xabar"
 
-#: kmmainwidget.cpp:3439
+#: kmmainwidget.cpp:3440
 msgid "Go to the previous unread message"
 msgstr "Oldingi oʻqilmagan xabarga oʻtish"
 
-#: kmmainwidget.cpp:3443
+#: kmmainwidget.cpp:3444
 msgid "Next Unread &Folder"
 msgstr "Keyingi oʻqilmagan &jild"
 
-#: kmmainwidget.cpp:3447
+#: kmmainwidget.cpp:3448
 msgid "Go to the next folder with unread messages"
 msgstr "Oʻqilmagan xabar bor keyingi jildga oʻtish"
 
-#: kmmainwidget.cpp:3450
+#: kmmainwidget.cpp:3451
 msgid "Previous Unread F&older"
 msgstr "Oldi&ngi oʻqilmagan jild"
 
-#: kmmainwidget.cpp:3453
+#: kmmainwidget.cpp:3454
 msgid "Go to the previous folder with unread messages"
 msgstr ""
 
-#: kmmainwidget.cpp:3457
+#: kmmainwidget.cpp:3458
 msgctxt "Go->"
 msgid "Next Unread &Text"
 msgstr "&Keyingi oʻqilmagan matn"
 
-#: kmmainwidget.cpp:3460
+#: kmmainwidget.cpp:3461
 msgid "Go to the next unread text"
 msgstr "Keyingi oʻqilmagan matnga oʻtish"
 
-#: kmmainwidget.cpp:3461
+#: kmmainwidget.cpp:3462
 msgid ""
 "Scroll down current message. If at end of current message, go to next unread "
 "message."
 msgstr ""
 
-#: kmmainwidget.cpp:3469
+#: kmmainwidget.cpp:3470
 msgid "Configure &Filters..."
 msgstr "&Filterlarni moslash"
 
-#: kmmainwidget.cpp:3475
+#: kmmainwidget.cpp:3476
 msgid "Manage &Sieve Scripts..."
 msgstr ""
 
-#: kmmainwidget.cpp:3480
+#: kmmainwidget.cpp:3481
 msgid "KMail &Introduction"
 msgstr "KMail'ga &kirish"
 
-#: kmmainwidget.cpp:3482
+#: kmmainwidget.cpp:3483
 msgid "Display KMail's Welcome Page"
 msgstr "KMail qutlov oynasini koʻrsatish"
 
-#: kmmainwidget.cpp:3491
+#: kmmainwidget.cpp:3492
 msgid "Configure &Notifications..."
 msgstr "&Xabar berishni moslash"
 
-#: kmmainwidget.cpp:3498
+#: kmmainwidget.cpp:3499
 msgid "&Configure KMail..."
 msgstr "KMail moslama&si"
 
-#: kmmainwidget.cpp:3504
+#: kmmainwidget.cpp:3505
 #, fuzzy
 msgid "Expire..."
 msgstr "Tahrirlash"
 
-#: kmmainwidget.cpp:3510
+#: kmmainwidget.cpp:3511
 #, fuzzy
 #| msgid "&New Folder..."
 msgid "Add Favorite Folder..."
 msgstr "&Yangi jild"
 
-#: kmmainwidget.cpp:3516
+#: kmmainwidget.cpp:3517
 #, fuzzy
 msgid "Serverside Subscription..."
 msgstr "Taʼrifi"
 
-#: kmmainwidget.cpp:3523
+#: kmmainwidget.cpp:3524
 #, fuzzy
 #| msgid "Appl&y All Filters"
 msgid "Appl&y All Filters On Folder"
 msgstr "Ham&ma filterlarni qoʻllash"
 
-#: kmmainwidget.cpp:3531
+#: kmmainwidget.cpp:3532
 #, fuzzy
 #| msgid "&Configure KMail..."
 msgid "&Export KMail Data..."
 msgstr "KMail moslama&si"
 
-#: kmmainwidget.cpp:3562
+#: kmmainwidget.cpp:3563
 msgid "Copy Message to Folder"
 msgstr "Xabardan jildga nusxa olish"
 
-#: kmmainwidget.cpp:3569
+#: kmmainwidget.cpp:3570
 #, fuzzy
 msgid "Jump to Folder..."
 msgstr "Jildga nusxa olish"
 
-#: kmmainwidget.cpp:3576
+#: kmmainwidget.cpp:3577
 msgid "Abort Current Operation"
 msgstr "Joriy amalni bekor qilish"
 
-#: kmmainwidget.cpp:3583
+#: kmmainwidget.cpp:3584
 msgid "Focus on Next Folder"
 msgstr ""
 
-#: kmmainwidget.cpp:3590
+#: kmmainwidget.cpp:3591
 msgid "Focus on Previous Folder"
 msgstr ""
 
-#: kmmainwidget.cpp:3597
+#: kmmainwidget.cpp:3598
 msgid "Select Folder with Focus"
 msgstr ""
 
-#: kmmainwidget.cpp:3605
+#: kmmainwidget.cpp:3606
 #, fuzzy
 #| msgid "Move to This Folder"
 msgid "Focus on First Folder"
 msgstr "Ushbu jildga koʻchirish"
 
-#: kmmainwidget.cpp:3612
+#: kmmainwidget.cpp:3613
 #, fuzzy
 msgid "Focus on Last Folder"
 msgstr "Yangi jild"
 
-#: kmmainwidget.cpp:3619
+#: kmmainwidget.cpp:3620
 msgid "Focus on Next Message"
 msgstr ""
 
-#: kmmainwidget.cpp:3626
+#: kmmainwidget.cpp:3627
 msgid "Focus on Previous Message"
 msgstr ""
 
-#: kmmainwidget.cpp:3633
+#: kmmainwidget.cpp:3634
 #, fuzzy
 #| msgid "Select &All Messages"
 msgid "Select First Message"
 msgstr "Hamma xabarlarni &tanlash"
 
-#: kmmainwidget.cpp:3640
+#: kmmainwidget.cpp:3641
 #, fuzzy
 #| msgid "Select &All Messages"
 msgid "Select Last Message"
 msgstr "Hamma xabarlarni &tanlash"
 
-#: kmmainwidget.cpp:3647
+#: kmmainwidget.cpp:3648
 msgid "Select Message with Focus"
 msgstr ""
 
-#: kmmainwidget.cpp:3655
+#: kmmainwidget.cpp:3656
 #, fuzzy
 #| msgid "Reset Quick Search"
 msgid "Set Focus to Quick Search"
 msgstr "Qidirish panelini tozalash"
 
-#: kmmainwidget.cpp:3664
+#: kmmainwidget.cpp:3665
 #, fuzzy
 #| msgid "Go to the previous message"
 msgid "Extend Selection to Previous Message"
 msgstr "Oldingi xabarga oʻtish"
 
-#: kmmainwidget.cpp:3671
+#: kmmainwidget.cpp:3672
 msgid "Extend Selection to Next Message"
 msgstr ""
 
-#: kmmainwidget.cpp:3679
+#: kmmainwidget.cpp:3680
 msgid "Move Message to Folder"
 msgstr "Xabarni jilga koʻchirish"
 
-#: kmmainwidget.cpp:3699
+#: kmmainwidget.cpp:3700
 #, fuzzy
 msgid "Add Favorite Folder"
 msgstr "Yangi jild"
 
-#: kmmainwidget.cpp:4032
+#: kmmainwidget.cpp:4033
 msgid "E&mpty Trash"
 msgstr "&Chiqindilar qutisini boʻshatish"
 
-#: kmmainwidget.cpp:4032
+#: kmmainwidget.cpp:4033
 msgid "&Move All Messages to Trash"
 msgstr "Hamma xa&barlarni chiqindilar qutisiga koʻchirish"
 
-#: kmmainwidget.cpp:4133
+#: kmmainwidget.cpp:4134
 msgid "&Delete Search"
 msgstr "Qidiruvni &olib tashlash"
 
-#: kmmainwidget.cpp:4138 kmreadermainwin.cpp:330
+#: kmmainwidget.cpp:4139 kmreadermainwin.cpp:330
 msgid "&Move to Trash"
 msgstr "Chiqindilar q&utisiga koʻchirish"
 
-#: kmmainwidget.cpp:4280
+#: kmmainwidget.cpp:4243
+msgid "&Undo"
+msgstr ""
+
+#: kmmainwidget.cpp:4245
+#, kde-format
+msgid "&Undo: \"%1\""
+msgstr ""
+
+#: kmmainwidget.cpp:4288
 #, kde-format
 msgid "Filter %1"
 msgstr "Filter %1"
 
-#: kmmainwidget.cpp:4550
+#: kmmainwidget.cpp:4558
 msgid "Network is unconnected. Folder information cannot be updated."
 msgstr ""
 
-#: kmmainwidget.cpp:4558 kmmainwidget.cpp:4606
+#: kmmainwidget.cpp:4566 kmmainwidget.cpp:4614
 #, fuzzy
 #| msgid "retrieving folders"
 msgid "Retrieving folder properties"
 msgstr "jildlar olinmoqda"
 
-#: kmmainwidget.cpp:4637 kmmainwidget.cpp:4705
+#: kmmainwidget.cpp:4645 kmmainwidget.cpp:4713
 #, fuzzy
 msgid "Done"
 msgstr "Tayyor"
 
-#: kmmainwidget.cpp:4661
+#: kmmainwidget.cpp:4669
 #, fuzzy, kde-format
 #| msgid "Properties of Folder %1"
 msgctxt "@title:window"
 msgid "Properties of Folder %1"
 msgstr "%1 jildning xossalari"
 
-#: kmmainwidget.cpp:4673
+#: kmmainwidget.cpp:4681
 #, fuzzy
 #| msgid "Remove Duplicate Messages"
 msgid "Removing duplicates"
 msgstr "Bir hil xabarlarni oʻchirish"
 
-#: kmmainwidget.cpp:4699
+#: kmmainwidget.cpp:4707
 #, fuzzy
 #| msgid "Error while removing a folder."
 msgid "Error while removing duplicates"
 msgstr "Jildni olib tashlashda xato roʻy berdi."
 
-#: kmmainwidget.cpp:4757
+#: kmmainwidget.cpp:4765
 msgid ""
 "IMAP server not configured yet. Please configure the server in the IMAP "
 "account before setting up server-side subscription."
 msgstr ""
 
-#: kmmainwidget.cpp:4759
+#: kmmainwidget.cpp:4767
 msgid ""
 "Log in failed, please configure the IMAP account before setting up server-"
 "side subscription."
 msgstr ""
 
-#: kmmainwidget.cpp:4777
+#: kmmainwidget.cpp:4785
 msgid "Archive Mail Agent was not registered."
 msgstr ""
 
-#: kmmainwidget.cpp:4787
+#: kmmainwidget.cpp:4795
 msgid "Send Later Agent was not registered."
 msgstr ""
 
-#: kmmainwidget.cpp:4803
+#: kmmainwidget.cpp:4811
 msgid ""
 "Could not start \"PIM Setting Exporter\" program. Please check your "
 "installation."
 msgstr ""
 
-#: kmmainwidget.cpp:4805
+#: kmmainwidget.cpp:4813
 #, fuzzy
 #| msgid "Unable to start external editor."
 msgid "Unable to start \"PIM Setting Exporter\" program"
 msgstr "Tashqi tahrirchini ishga tushirib boʻlmadi."
 
-#: kmmainwidget.cpp:4845
+#: kmmainwidget.cpp:4853
 #, fuzzy, kde-format
 msgctxt "Show shortcut for focus quick search. Don't change it"
 msgid "Search...<%1>"
@@ -4713,12 +4741,58 @@ msgid "1 unread message"
 msgid_plural "%1 unread messages"
 msgstr[0] "Oʻqilmagan xabar"
 
+#: mailmerge/attachmentlistwidget.cpp:66
+#, fuzzy
+#| msgid "Attachment"
+msgid "Attachment"
+msgstr "Ilova"
+
+#: mailmerge/attachmentlistwidget.cpp:71
+#, fuzzy
+#| msgid "&Remove Attachment"
+msgid "Select attachment:"
+msgstr "Ilovani &olib tashlash"
+
+#: mailmerge/mailmergedialog.cpp:25
+#, fuzzy
+#| msgid "Available Filters"
+msgid "Mail Merge"
+msgstr "Mavjud filterlar"
+
+#: mailmerge/mailmergewidget.cpp:40
+#, fuzzy
+#| msgid "&View Source"
+msgid "Source:"
+msgstr "Manbani &koʻrish"
+
+#: mailmerge/mailmergewidget.cpp:45
+#, fuzzy
+#| msgid "&Address Book"
+msgid "Address Book"
+msgstr "Manzillar &daftari"
+
+#: mailmerge/mailmergewidget.cpp:46
+msgid "CSV"
+msgstr ""
+
+#: mailmerge/mailmergewidget.cpp:66
+#, fuzzy
+msgid "Path:"
+msgstr "1 yangi xat, %2."
+
+#: mailmerge/mailmergewidget.cpp:73
+#, fuzzy
+#| msgctxt "Config->Composer->Attachments"
+#| msgid "A&ttachments"
+msgid "Attachment:"
+msgstr "&Ilovalar"
+
 #: messageactions.cpp:71
 msgctxt "Message->"
 msgid "&Reply"
 msgstr "&Javob berish"
 
-#: messageactions.cpp:76 searchdialog/searchwindow.cpp:233
+#: messageactions.cpp:76 searchdialog/searchwindow.cpp:231
 msgid "&Reply..."
 msgstr "&Javob berish"
 
@@ -4726,11 +4800,11 @@ msgstr "&Javob berish"
 msgid "Reply to A&uthor..."
 msgstr "Muallifga j&avob berish"
 
-#: messageactions.cpp:90 searchdialog/searchwindow.cpp:237
+#: messageactions.cpp:90 searchdialog/searchwindow.cpp:235
 msgid "Reply to &All..."
 msgstr "Hammaga j&avob berish"
 
-#: messageactions.cpp:97 searchdialog/searchwindow.cpp:241
+#: messageactions.cpp:97 searchdialog/searchwindow.cpp:239
 msgid "Reply to Mailing-&List..."
 msgstr ""
 
@@ -4756,7 +4830,7 @@ msgstr "Xabarni &tahrirlash"
 msgid "Add Note..."
 msgstr "Qoʻshish..."
 
-#: messageactions.cpp:151 searchdialog/searchwindow.cpp:245
+#: messageactions.cpp:151 searchdialog/searchwindow.cpp:243
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&Uzatish"
@@ -4925,91 +4999,95 @@ msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "&Qidirish"
 
-#: searchdialog/searchwindow.cpp:195 searchdialog/searchwindow.cpp:416
+#: searchdialog/searchwindow.cpp:193 searchdialog/searchwindow.cpp:419
 msgid "Last Search"
 msgstr "Oxirgi qidiruv"
 
-#: searchdialog/searchwindow.cpp:250
+#: searchdialog/searchwindow.cpp:248
 #, fuzzy
 #| msgid "&Insert File..."
 msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "&Fayldan qoʻyish"
 
-#: searchdialog/searchwindow.cpp:255
+#: searchdialog/searchwindow.cpp:253
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr "&Ilova sifatida"
 
-#: searchdialog/searchwindow.cpp:269
+#: searchdialog/searchwindow.cpp:267
 msgid "Save Attachments..."
 msgstr "Ilovalarni saqlash"
 
-#: searchdialog/searchwindow.cpp:275
+#: searchdialog/searchwindow.cpp:273
 msgid "Clear Selection"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:359
+#: searchdialog/searchwindow.cpp:277
+#, fuzzy
+msgid "Jump to original folder"
+msgstr "Jildga nusxa olish"
+
+#: searchdialog/searchwindow.cpp:362
 #, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
 msgstr[0] ""
 
-#: searchdialog/searchwindow.cpp:441
+#: searchdialog/searchwindow.cpp:444
 msgid "You did not selected a valid folder."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:451 searchdialog/searchwindow.cpp:460
+#: searchdialog/searchwindow.cpp:454 searchdialog/searchwindow.cpp:463
 msgid "You forgot to select collections."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:478
+#: searchdialog/searchwindow.cpp:481
 msgid "You forgot to define condition."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:483
+#: searchdialog/searchwindow.cpp:486
 msgid "All folders selected are empty or were not indexed."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:489
-#, fuzzy
-msgid "No message found."
-msgstr "1 xat, %2."
+#: searchdialog/searchwindow.cpp:492
+msgid "You forgot to add conditions."
+msgstr ""
 
-#: searchdialog/searchwindow.cpp:493
+#: searchdialog/searchwindow.cpp:496
 msgid ""
 "Contains condition cannot be used with a number of characters inferior to 4."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:525
+#: searchdialog/searchwindow.cpp:528
 #, fuzzy
 msgid "Searching..."
 msgstr "&Joʻnatish"
 
-#: searchdialog/searchwindow.cpp:535
+#: searchdialog/searchwindow.cpp:538
 #, fuzzy, kde-format
 #| msgid "Move Messages to Folder"
 msgid "Cannot get search result. %1"
 msgstr "Xabarlarni jilga koʻchirish"
 
-#: searchdialog/searchwindow.cpp:541
+#: searchdialog/searchwindow.cpp:544
 #, fuzzy
 msgid "Search failed."
 msgstr "Qidirish bekor qilindi"
 
-#: searchdialog/searchwindow.cpp:581
+#: searchdialog/searchwindow.cpp:584
 #, fuzzy
 #| msgid " Spell check complete."
 msgid "Search complete."
 msgstr " Imloni tekshirish tugadi."
 
-#: searchdialog/searchwindow.cpp:601
+#: searchdialog/searchwindow.cpp:604
 #, fuzzy
 #| msgid " Spell check stopped."
 msgid "Search stopped."
 msgstr " Imloni tekshirish toʻxtatildi."
 
-#: searchdialog/searchwindow.cpp:659
+#: searchdialog/searchwindow.cpp:662
 #, kde-format
 msgid ""
 "There was a problem renaming your search folder. A common reason for this is "
@@ -5017,13 +5095,13 @@ msgid ""
 "\"%1\"."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:765
+#: searchdialog/searchwindow.cpp:762
 #, fuzzy, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
 msgstr[0] "Xabarni ochish"
 
-#: searchdialog/searchwindow.cpp:768
+#: searchdialog/searchwindow.cpp:765
 #, fuzzy, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
@@ -6550,11 +6628,24 @@ msgstr "&Joʻnatish"
 msgid "Re-enable All \"Do not Ask Again\" Warnings"
 msgstr ""
 
-#: undostack.cpp:101
+#: undostack.cpp:60
+#, fuzzy
+#| msgid "Move to Trash"
+msgid "Move To Trash"
+msgstr "Chiqindilar qutisiga koʻchirish"
+
+#: undostack.cpp:60
+#, fuzzy
+#| msgid "New Message To..."
+msgid "Move Message"
+msgid_plural "Move Messages"
+msgstr[0] "Xat joʻnatish"
+
+#: undostack.cpp:112
 msgid "There is nothing to undo."
 msgstr ""
 
-#: undostack.cpp:108
+#: undostack.cpp:119
 #, fuzzy, kde-format
 #| msgid "Move Messages to Folder"
 msgid "Cannot move message. %1"
@@ -6636,6 +6727,15 @@ msgstr "Tashqi tahrirchi"
 msgid "Out of office reply active on server"
 msgid_plural "Out of office reply active on servers"
 msgstr[0] ""
+
+#, fuzzy
+#~| msgid "Account Name"
+#~ msgid "Agent Name"
+#~ msgstr "Hisobning nomi"
+
+#, fuzzy
+#~ msgid "No message found."
+#~ msgstr "1 xat, %2."
 
 #, fuzzy
 #~ msgctxt "mega bytes"
@@ -6891,9 +6991,6 @@ msgstr[0] ""
 #~| msgid "Unable to create account"
 #~ msgid "Unable to start backupmail"
 #~ msgstr "Hisobni yaratib boʻlmadi"
-
-#~ msgid "&View Source"
-#~ msgstr "Manbani &koʻrish"
 
 #, fuzzy
 #~| msgid "Name:"
@@ -7687,11 +7784,6 @@ msgstr[0] ""
 #~ msgstr "BCC"
 
 #, fuzzy
-#~| msgid "Available Filters"
-#~ msgid "KMail Filter"
-#~ msgstr "Mavjud filterlar"
-
-#, fuzzy
 #~| msgid "is in category"
 #~ msgid "with category"
 #~ msgstr "turkumda mavjud"
@@ -7854,10 +7946,6 @@ msgstr[0] ""
 #~| msgid "&Alternate URL:"
 #~ msgid "Define alternate URL"
 #~ msgstr "&Qoʻshimcha URL:"
-
-#, fuzzy
-#~ msgid "Path: (%1)"
-#~ msgstr "1 yangi xat, %2."
 
 #, fuzzy
 #~ msgid "Mail Expiry Properties"
@@ -9317,11 +9405,6 @@ msgstr[0] ""
 #~ msgstr "Hamma ilovalarni saqlash"
 
 #, fuzzy
-#~| msgid "&Remove Attachment"
-#~ msgid "Delete Attachment"
-#~ msgstr "Ilovani &olib tashlash"
-
-#, fuzzy
 #~| msgid "Attachment"
 #~ msgid "Edit Attachment"
 #~ msgstr "Ilova"
@@ -10399,12 +10482,6 @@ msgstr[0] ""
 #~ msgid "View Attachment: %1"
 #~ msgstr "Ilovani koʻrish: %1"
 
-#, fuzzy
-#~| msgctxt "Config->Composer->Attachments"
-#~| msgid "A&ttachments"
-#~ msgid "Attachments:"
-#~ msgstr "&Ilovalar"
-
 #~ msgid "Address copied to clipboard."
 #~ msgstr "Elektron pochta manzilidan xotiraga nusxa olindi."
 
@@ -10848,12 +10925,6 @@ msgstr[0] ""
 #~ msgctxt "Size of a message"
 #~ msgid "Size"
 #~ msgstr "Hajmi"
-
-#, fuzzy
-#~| msgid "Attachment"
-#~ msgctxt "Attachement indication"
-#~ msgid "Attachment"
-#~ msgstr "Ilova"
 
 #, fuzzy
 #~| msgctxt "msg status"
@@ -11757,12 +11828,6 @@ msgstr[0] ""
 #~| msgid "Local mailbox"
 #~ msgid "Local Inbox"
 #~ msgstr "Lokal pochta qutisi"
-
-#, fuzzy
-#~| msgid "Mail"
-#~ msgctxt "@item {FOLDER} on {MAIL ACCOUNT}"
-#~ msgid "%1 on %2"
-#~ msgstr "Xat"
 
 #, fuzzy
 #~| msgctxt ""
