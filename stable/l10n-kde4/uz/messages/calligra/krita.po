@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-09 06:22+0000\n"
+"POT-Creation-Date: 2014-04-11 06:54+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1715,14 +1715,19 @@ msgstr "OpenGL"
 msgid "Ellipse assistant"
 msgstr "Oʻrnini almashtirishmoq"
 
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:493
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:443
+#, fuzzy
+msgid "Select an Assistant"
+msgstr "Oʻrnini almashtirishmoq"
+
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:528
+msgid "Errors were encountered. Not all assistants were successfully loaded."
+msgstr ""
+
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:573
 #, fuzzy
 msgid "Save Assistant"
 msgstr "Oʻrnini almashtirishmoq"
-
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:589
-msgid "Errors were encountered. Not all assistants were successfully loaded."
-msgstr ""
 
 #: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.h:101
 #, fuzzy
@@ -1917,7 +1922,7 @@ msgstr ""
 msgid "Open Macro"
 msgstr "Plazma"
 
-#: plugins/extensions/bigbrother/bigbrother.cc:237
+#: plugins/extensions/bigbrother/bigbrother.cc:236
 #, fuzzy
 #| msgid "Plasma"
 msgid "Save Macro"
@@ -3088,13 +3093,13 @@ msgstr ""
 msgid "Save flipbook"
 msgstr ""
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:193
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:264
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:192
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:261
 #: ui/widgets/KisFlipbookSelector.cpp:50
 msgid "Select files to add to flipbook"
 msgstr ""
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:232
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:230
 msgid "Load flipbook"
 msgstr ""
 
@@ -3231,7 +3236,7 @@ msgid "All Channels"
 msgstr "Kanal"
 
 #: plugins/extensions/dockers/lut/lutdocker_dock.cpp:281
-#: ui/dialogs/kis_dlg_preferences.cc:353
+#: ui/dialogs/kis_dlg_preferences.cc:352
 #, fuzzy
 msgid "Select OpenColorIO Configuration"
 msgstr "Moslash..."
@@ -4662,11 +4667,10 @@ msgstr "Tanlanganni bekitish"
 msgid "Feather Selection..."
 msgstr "Tanlash"
 
-#. i18n: ectx: property (text), widget (QCheckBox, smoothCHBox)
 #: plugins/extensions/modify_selection/modify_selection.cc:78
-#: plugins/paintops/experiment/wdgexperimentoptions.ui:70
 #, fuzzy
 #| msgid "Smooth"
+msgctxt "Verb for a selection modification action"
 msgid "Smooth"
 msgstr "Tekis"
 
@@ -4849,7 +4853,7 @@ msgstr "&Boshqa:"
 msgid "Separate Image"
 msgstr "Rasmning nomini oʻzgartirish"
 
-#: plugins/extensions/separate_channels/kis_channel_separator.cc:243
+#: plugins/extensions/separate_channels/kis_channel_separator.cc:241
 msgid "Export Layer"
 msgstr "Qatlamni eksport qilish"
 
@@ -5320,8 +5324,10 @@ msgstr "Yashil"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. i18n: ectx: property (text), widget (QLabel, label_21)
+#. i18n: ectx: property (text), widget (QLabel, label_14)
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:68
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:168
+#: plugins/filters/colorsfilters/wdg_color_balance.ui:268
 msgid "Yellow"
 msgstr "Sariq"
 
@@ -5345,8 +5351,10 @@ msgstr "Soya 1"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, label_17)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:99
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:151
+#: plugins/filters/colorsfilters/wdg_color_balance.ui:251
 #, fuzzy
 msgid "Cyan"
 msgstr "Kranlar"
@@ -5357,24 +5365,11 @@ msgstr "Kranlar"
 msgid "Reset Midtones  "
 msgstr "Tosh"
 
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: plugins/filters/colorsfilters/wdg_color_balance.ui:251
-#, fuzzy
-msgid "     Cyan"
-msgstr "Kranlar"
-
 #. i18n: ectx: property (text), widget (QPushButton, pushResetHighlights)
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:261
 #, fuzzy
 msgid "Reset Highlights"
 msgstr "&Uzunasi:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_14)
-#: plugins/filters/colorsfilters/wdg_color_balance.ui:268
-#, fuzzy
-#| msgid "Yellow"
-msgid "    Yellow"
-msgstr "Sariq"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkPreserveLuminosity)
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:336
@@ -6522,7 +6517,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSRGB)
 #: plugins/formats/png/kis_wdg_options_png.ui:216
-msgid "save sRGB profile"
+msgid "Embed sRGB profile"
 msgstr ""
 
 #: plugins/formats/ppm/kis_ppm_export.cpp:155
@@ -7214,6 +7209,14 @@ msgstr "Toʻyintirish"
 #| msgid "Shape:"
 msgid "Speed"
 msgstr "Shakl:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, smoothCHBox)
+#: plugins/paintops/experiment/wdgexperimentoptions.ui:70
+#, fuzzy
+#| msgid "Smooth"
+msgctxt "Noun for an experiment brush shape smoothness"
+msgid "Smooth"
+msgstr "Tekis"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPostprocessing)
 #: plugins/paintops/experiment/wdgexperimentoptions.ui:89
@@ -10339,7 +10342,7 @@ msgstr "Ushbu filtr uchun moslamalar mavjud emas"
 msgid "Cleanup resource files"
 msgstr "Manba:"
 
-#: ui/dialogs/kis_dlg_file_layer.cpp:99
+#: ui/dialogs/kis_dlg_file_layer.cpp:97
 msgid "Select file to use as dynamic file layer."
 msgstr ""
 
@@ -10397,12 +10400,12 @@ msgstr "Profil yoʻq"
 msgid "Install Color Profiles"
 msgstr "Profil yoʻq"
 
-#: ui/dialogs/kis_dlg_preferences.cc:273
+#: ui/dialogs/kis_dlg_preferences.cc:272
 #, fuzzy
 msgid "Monitor profile: "
 msgstr "Profil yoʻq"
 
-#: ui/dialogs/kis_dlg_preferences.cc:278
+#: ui/dialogs/kis_dlg_preferences.cc:277
 #, fuzzy
 msgid "&Monitor profile: "
 msgstr "Profil yoʻq"
@@ -12898,17 +12901,17 @@ msgstr "Qatlamni koʻchirish"
 msgid "Export Node"
 msgstr "Ekspozitsiya:"
 
-#: ui/kis_painting_assistants_manager.cc:41
+#: ui/kis_painting_assistants_decoration.cpp:41
 msgid "Painting assistants"
 msgstr ""
 
-#: ui/kis_painting_assistants_manager.cc:107
+#: ui/kis_painting_assistants_decoration.cpp:107
 #, fuzzy
 #| msgid "Show Rulers"
 msgid "Show Painting Assistants"
 msgstr "Lineykalarni koʻrsatish"
 
-#: ui/kis_painting_assistants_manager.cc:111
+#: ui/kis_painting_assistants_decoration.cpp:111
 msgid "Hide Painting Assistants"
 msgstr ""
 
@@ -13543,6 +13546,15 @@ msgstr ""
 #| msgid "Colors"
 msgid "&Close"
 msgstr "Ranglar"
+
+#, fuzzy
+#~ msgid "     Cyan"
+#~ msgstr "Kranlar"
+
+#, fuzzy
+#~| msgid "Yellow"
+#~ msgid "    Yellow"
+#~ msgstr "Sariq"
 
 #, fuzzy
 #~ msgid "New Profile"
