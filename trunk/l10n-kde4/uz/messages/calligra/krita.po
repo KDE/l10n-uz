@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-19 01:27+0000\n"
+"POT-Creation-Date: 2014-05-20 01:29+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1303,13 +1303,6 @@ msgstr "&Qatlam"
 
 #: image/brushengine/kis_paintop_factory.cpp:66
 #, fuzzy
-#| msgid "Radius"
-msgctxt "Category of brush engines"
-msgid "Experimental"
-msgstr "Radius"
-
-#: image/brushengine/kis_paintop_factory.cpp:71
-#, fuzzy
 msgctxt "Category of brush engines"
 msgid "Stable"
 msgstr "Toʻrtburcha&k"
@@ -1475,7 +1468,7 @@ msgid "Generator"
 msgstr "Umumiy"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: image/kis_adjustment_layer.cc:127
+#: image/kis_adjustment_layer.cc:127 plugins/paintops/filterop/filterop.cpp:45
 #: plugins/paintops/libpaintop/kis_filter_option.cpp:50
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:844
 #: ui/dialogs/kis_dlg_filter.cpp:105
@@ -1494,14 +1487,19 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
+#. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
 #: image/kis_base_mask_generator.h:33
+#: plugins/extensions/metadataeditor/editors/exif.ui:860
+#: plugins/extensions/metadataeditor/editors/exif.ui:892
+#: plugins/paintops/libpaintop/kis_pressure_softness_option.cpp:31
 #, fuzzy
-msgid "Soft brush"
-msgstr "Filter boʻyogʻi"
+msgid "Soft"
+msgstr "Yulduz"
 
 #: image/kis_base_mask_generator.h:34
 #, fuzzy
-msgid "Gaussian brush"
+msgid "Gaussian"
 msgstr "Chegara..."
 
 #: image/kis_base_node.cpp:141 ui/kis_node_model.cpp:420
@@ -2655,6 +2653,7 @@ msgstr "&Turi"
 
 #. i18n: ectx: property (text), widget (QRadioButton, shadeSelectorTypeMyPaint)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:234
+#: plugins/paintops/mypaint/mypaint_paintop_factory.h:55
 #, fuzzy
 msgid "MyPaint"
 msgstr "&Rasm chizish"
@@ -3607,7 +3606,7 @@ msgstr "&Nomi:"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, brushNameLbl)
 #: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:188
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:31
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:22
 #: ui/forms/wdgfilternodecreation.ui:17 ui/forms/wdgflipbookselector.ui:28
 #: ui/forms/wdgpaintopsettings.ui:93
 #, fuzzy
@@ -4149,6 +4148,7 @@ msgstr "Ekspozitsiya:"
 #: plugins/extensions/metadataeditor/editors/exif.ui:101
 #: plugins/extensions/metadataeditor/editors/exif.ui:919
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:88
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:58
 #, fuzzy
 #| msgid "Autobrush"
 msgid "Auto"
@@ -4646,15 +4646,6 @@ msgstr "Oddiy"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
 #. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
-#: plugins/extensions/metadataeditor/editors/exif.ui:860
-#: plugins/extensions/metadataeditor/editors/exif.ui:892
-#: plugins/paintops/libpaintop/kis_pressure_softness_option.cpp:31
-#, fuzzy
-msgid "Soft"
-msgstr "Yulduz"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
-#. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
 #: plugins/extensions/metadataeditor/editors/exif.ui:865
 #: plugins/extensions/metadataeditor/editors/exif.ui:897
 #: plugins/paintops/libpaintop/kis_pressure_softness_option.cpp:32
@@ -4676,6 +4667,8 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, editWhiteBalance)
 #. i18n: ectx: property (text), widget (QRadioButton, customRadioButton)
 #: plugins/extensions/metadataeditor/editors/exif.ui:924
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:64
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:66
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1037
 #, fuzzy
 #| msgid "&Custom:"
@@ -7071,7 +7064,7 @@ msgstr "Rang"
 
 #: plugins/paintops/chalk/chalk_paintop_plugin.cpp:43
 #, fuzzy
-msgid "Chalk brush"
+msgid "Chalk"
 msgstr "Nuqta boʻyogʻi"
 
 #. i18n: ectx: attribute (title), widget (QWidget, inkTab)
@@ -7097,7 +7090,7 @@ msgstr "Toʻyintirish"
 
 #: plugins/paintops/colorsmudge/colorsmudge_paintop_plugin.cpp:44
 #, fuzzy
-msgid "Color Smudge Brush"
+msgid "Color Smudge"
 msgstr "Filter boʻyogʻi"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
@@ -7163,8 +7156,9 @@ msgstr "Filter boʻyogʻi"
 
 #: plugins/paintops/curvebrush/curve_paintop_plugin.cpp:43
 #, fuzzy
-msgid "Curve brush"
-msgstr "Filter boʻyogʻi"
+#| msgid "Curved"
+msgid "Curve"
+msgstr "Egri chiziqli"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, selectMainStyle)
 #. i18n: ectx: property (text), item, widget (KComboBox, selectSubdivisionStyle)
@@ -7237,16 +7231,20 @@ msgstr "Tanlash"
 msgid "Smoothing"
 msgstr "Tekis"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
+#. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
 #: plugins/paintops/defaultpaintops/defaultpaintops_plugin.cc:47
-msgid "Pixel Brush"
-msgstr "Nuqta boʻyogʻi"
+#: plugins/paintops/experiment/wdgshapeoptions.ui:75
+#: plugins/paintops/gridbrush/wdgshapeoptions.ui:51
+#: plugins/paintops/spray/wdgshapeoptions.ui:75
+#, fuzzy
+msgid "Pixel"
+msgstr "Piksellash"
 
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_factory.h:50
-#, fuzzy
-#| msgid "Duplicate"
-msgctxt "duplicate paintbrush"
-msgid "Duplicate"
-msgstr "Nusxasini yaratish"
+msgctxt "clone paintbrush (previously \"Duplicate\")"
+msgid "Clone"
+msgstr ""
 
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_option.cpp:45
 #: plugins/paintops/libpaintop/kis_paint_action_type_option.cpp:37
@@ -7280,9 +7278,8 @@ msgstr "Geometriya moslamalari"
 
 #: plugins/paintops/deform/kis_deform_paintop_factory.h:45
 #, fuzzy
-#| msgid "Radius"
-msgid "Deform brush"
-msgstr "Radius"
+msgid "Deform"
+msgstr "Shrift:"
 
 #. i18n: ectx: property (text), widget (QLabel, deformLabel)
 #: plugins/paintops/deform/wdgdeformoptions.ui:35
@@ -7366,9 +7363,8 @@ msgid "Use undeformed image"
 msgstr ""
 
 #: plugins/paintops/dynadraw/dyna_paintop_plugin.cpp:41
-#, fuzzy
-msgid "Dyna brush"
-msgstr "Choʻtkani koʻpaytirish"
+msgid "Dyna"
+msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:51
@@ -7408,6 +7404,7 @@ msgstr "Oʻrnini almashtirishmoq"
 #. i18n: ectx: attribute (title), widget (QWidget, ShapeTab)
 #. i18n: ectx: property (title), widget (QGroupBox, shapeGroup)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:160
+#: plugins/paintops/experiment/experiment_paintop_plugin.cpp:45
 #: plugins/paintops/hairy/wdghairyeoptions.ui:43
 #: plugins/paintops/hairy/wdgshapeoptions.ui:84
 #, fuzzy
@@ -7467,12 +7464,6 @@ msgstr "Palitrani tahrirlash..."
 #, fuzzy
 msgid "Fixed angle"
 msgstr "Burchak"
-
-#: plugins/paintops/experiment/experiment_paintop_plugin.cpp:42
-#, fuzzy
-#| msgid "Radius"
-msgid "Experiment brush"
-msgstr "Radius"
 
 #: plugins/paintops/experiment/kis_experiment_shape_option.cpp:36
 #: plugins/paintops/gridbrush/kis_grid_shape_option.cpp:33
@@ -7537,15 +7528,6 @@ msgstr ""
 msgid "Anti-aliased pixel"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
-#. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
-#: plugins/paintops/experiment/wdgshapeoptions.ui:75
-#: plugins/paintops/gridbrush/wdgshapeoptions.ui:51
-#: plugins/paintops/spray/wdgshapeoptions.ui:75
-#, fuzzy
-msgid "Pixel"
-msgstr "Piksellash"
-
 #. i18n: ectx: property (text), widget (QCheckBox, proportionalBox)
 #: plugins/paintops/experiment/wdgshapeoptions.ui:213
 #: plugins/paintops/spray/wdgshapeoptions.ui:218
@@ -7575,7 +7557,7 @@ msgstr "Burish"
 #. i18n: ectx: property (text), widget (QCheckBox, fixedRotation)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
 #: plugins/paintops/experiment/wdgshapeoptions.ui:241
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:77
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:59
 #: plugins/paintops/spray/wdgshapedynamicsoptions.ui:48
 msgid "Constant"
 msgstr "Doimiy"
@@ -7583,7 +7565,7 @@ msgstr "Doimiy"
 #. i18n: ectx: property (text), widget (QCheckBox, randomRotation)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
 #: plugins/paintops/experiment/wdgshapeoptions.ui:289
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:82
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:64
 #: plugins/paintops/spray/wdgshapedynamicsoptions.ui:58
 msgid "Random"
 msgstr "Tasodifiy"
@@ -7604,14 +7586,11 @@ msgstr "Kursor"
 msgid "Texture:"
 msgstr "Matn"
 
-#: plugins/paintops/filterop/filterop.cpp:45
-msgid "Filter Brush"
-msgstr "Filter boʻyogʻi"
-
 #: plugins/paintops/gridbrush/grid_paintop_plugin.cpp:41
-#, fuzzy
-msgid "Grid brush"
-msgstr "Filter boʻyogʻi"
+#: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:673
+#: ui/dialogs/kis_dlg_preferences.cc:674
+msgid "Grid"
+msgstr "Toʻr"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/gridbrush/wdggridoptions.ui:38
@@ -7679,7 +7658,7 @@ msgstr "Chiziq"
 
 #: plugins/paintops/hairy/hairy_paintop_plugin.cpp:44
 #, fuzzy
-msgid "Hairy brush"
+msgid "Hairy"
 msgstr "Filter boʻyogʻi"
 
 #: plugins/paintops/hairy/kis_hairy_bristle_option.cpp:46
@@ -7886,7 +7865,7 @@ msgstr ""
 
 #: plugins/paintops/hatching/hatching_paintop_plugin.cpp:43
 #, fuzzy
-msgid "Hatching brush"
+msgid "Hatching"
 msgstr "Filter boʻyogʻi"
 
 #: plugins/paintops/hatching/kis_hatching_options.cpp:57
@@ -8067,7 +8046,7 @@ msgstr "Tasodifiy"
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:266
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:152
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:85
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:207
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:180
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:72
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:112
 #: plugins/paintops/spray/wdgsprayoptions.ui:204
@@ -8134,7 +8113,7 @@ msgstr "Tanlangan rangni olib tashlash"
 #. i18n: ectx: property (text), widget (QCheckBox, colorAsMask)
 #. i18n: ectx: property (text), widget (QCheckBox, colorAsmask)
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:19
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:131
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:113
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:119
 #, fuzzy
 msgid "Use color as mask"
@@ -8143,8 +8122,9 @@ msgstr "Rangdan niqob sifatida foydalanish"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:102
 #, fuzzy
-msgid "Save brush:"
-msgstr "Filter boʻyogʻi"
+#| msgid "Plasma"
+msgid "Save Tip:"
+msgstr "Plazma"
 
 #. i18n: ectx: property (text), widget (QPushButton, saveBrush)
 #. i18n: ectx: property (text), widget (QPushButton, bnSave)
@@ -8238,53 +8218,55 @@ msgstr "Filter vositasi"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, labelStyle)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:60
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:42
 #: plugins/tools/tool_text/wdgtextoptions.ui:71
 msgid "Style:"
 msgstr "Uslubi:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:87
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:69
 #, fuzzy
 msgid "Incremental"
 msgstr "Bosib chiqarish oʻlchami"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:92
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:74
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:47
 #: plugins/tools/defaulttools/kis_tool_line.cc:70
 msgid "Pressure"
 msgstr "Bosim"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:97
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:79
 msgid "Angular"
 msgstr "Burchakli"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:105
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:87
 msgid "Selection mode:"
 msgstr "Tanlash usuli:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, brushStyle)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:116
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:98
 msgid "Regular"
 msgstr "Oddiy"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, brushStyle)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:121
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:103
 msgid "Animated"
 msgstr "Animatsiyali"
 
 #. i18n: ectx: property (text), widget (QPushButton, brushButton)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:236
-msgid "Use as Brush"
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:200
+#, fuzzy
+#| msgid "Use as Brush"
+msgid "Use as Tip"
 msgstr "Boʻyoq sifatida ishlatish"
 
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:243
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:207
 #, fuzzy
-msgid "Add to Predefined Brushes"
+msgid "Add to Predefined Tips"
 msgstr "Oldindan aniqlangan boʻyoqlar"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxSmudgeMode)
@@ -8395,8 +8377,9 @@ msgstr ""
 
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:156
 #, fuzzy
-msgid "Reset Brush"
-msgstr "Qatlamni olib tashlash"
+#| msgid "Predefined Brushes"
+msgid "Reset Predefined Tip"
+msgstr "Oldindan aniqlangan boʻyoqlar"
 
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:157
 msgid ""
@@ -8411,29 +8394,23 @@ msgstr ""
 msgid "Brush Tip"
 msgstr "Boʻyoqning oʻlchami"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:58
-msgid "Autobrush"
-msgstr "Avto-boʻyoq"
-
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:62
-msgid "Predefined Brushes"
+#, fuzzy
+#| msgid "Predefined Brushes"
+msgid "Predefined"
 msgstr "Oldindan aniqlangan boʻyoqlar"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:64
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:66
-msgid "Custom Brush"
-msgstr "Boshqa boʻyoq"
-
+#. i18n: ectx: property (title), widget (QGroupBox, grpClipboard)
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:68
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:70
-#, fuzzy
-msgid "Clipboard Brush"
-msgstr "Filter boʻyogʻi"
+#: ui/forms/wdgnewimage.ui:331
+msgid "Clipboard"
+msgstr ""
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:72
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:74
-msgid "Text Brush"
-msgstr "Matn boʻyogʻi"
+msgid "Text"
+msgstr "Matn"
 
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:98
 msgid ""
@@ -9447,14 +9424,9 @@ msgid ""
 "will make it smoother"
 msgstr ""
 
-#: plugins/paintops/mypaint/mypaint_paintop_factory.h:55
-#, fuzzy
-msgid "MyPaint brush"
-msgstr "Filtrli choʻtka"
-
 #: plugins/paintops/particle/particle_paintop_plugin.cpp:42
 #, fuzzy
-msgid "Particle brush"
+msgid "Particle"
 msgstr "Uskuna:"
 
 #. i18n: ectx: property (text), widget (QLabel, particlesLbl)
@@ -9830,7 +9802,7 @@ msgstr "X Ofset:"
 
 #: plugins/paintops/sketch/sketch_paintop_plugin.cpp:43
 #, fuzzy
-msgid "Sketch brush"
+msgid "Sketch"
 msgstr "Filter boʻyogʻi"
 
 #. i18n: ectx: property (suffix), widget (KDoubleNumInput, lineWidthSPBox)
@@ -9901,7 +9873,7 @@ msgstr "Filter boʻyogʻi"
 
 #: plugins/paintops/spray/spray_paintop_plugin.cpp:41
 #, fuzzy
-msgid "Spray brush"
+msgid "Spray"
 msgstr "Filter boʻyogʻi"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -10939,11 +10911,6 @@ msgid ""
 "You are activating wrap-around mode, but have not enabled OpenGL.\n"
 "To visualize wrap-around mode, enable OpenGL."
 msgstr ""
-
-#: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:673
-#: ui/dialogs/kis_dlg_preferences.cc:674
-msgid "Grid"
-msgstr "Toʻr"
 
 #: ui/canvas/kis_grid_manager.cpp:70
 #, fuzzy
@@ -12266,11 +12233,6 @@ msgstr "Shifer"
 msgid "&Predefined:"
 msgstr "Oldindan aniqlangan boʻyoqlar"
 
-#. i18n: ectx: property (title), widget (QGroupBox, grpClipboard)
-#: ui/forms/wdgnewimage.ui:331
-msgid "Clipboard"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, grpContents)
 #: ui/forms/wdgnewimage.ui:373
 #, fuzzy
@@ -12482,7 +12444,7 @@ msgid "No Outline"
 msgstr "Boʻyoqning oʻlchami"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutline)
-#: ui/forms/wdgshapeoptions.ui:38 ui/kis_paintop_option.cpp:26
+#: ui/forms/wdgshapeoptions.ui:38
 msgid "Brush"
 msgstr "Boʻyoq"
 
@@ -13822,6 +13784,12 @@ msgstr ""
 msgid "Select Favorite Presets..."
 msgstr "Filter boʻyogʻi"
 
+#: ui/kis_paintop_option.cpp:26
+#, fuzzy
+#| msgid "Cool Colors"
+msgid "Common"
+msgstr "Sovuq ranglar"
+
 #: ui/kis_paintop_option.cpp:36
 #, fuzzy
 #| msgid "Text"
@@ -14365,12 +14333,12 @@ msgstr "Palitra tanlanmagan."
 msgid "Freehand Stroke"
 msgstr ""
 
-#: ui/tool/kis_tool_paint.cc:89
+#: ui/tool/kis_tool_paint.cc:105
 #, fuzzy
 msgid "Increase Brush Size"
 msgstr "Nuqta boʻyogʻi"
 
-#: ui/tool/kis_tool_paint.cc:95
+#: ui/tool/kis_tool_paint.cc:111
 #, fuzzy
 #| msgid "Brush size"
 msgid "Decrease Brush Size"
@@ -14506,6 +14474,86 @@ msgstr ""
 #| msgid "Colors"
 msgid "&Close"
 msgstr "Ranglar"
+
+#, fuzzy
+#~| msgid "Radius"
+#~ msgctxt "Category of brush engines"
+#~ msgid "Experimental"
+#~ msgstr "Radius"
+
+#, fuzzy
+#~ msgid "Soft brush"
+#~ msgstr "Filter boʻyogʻi"
+
+#, fuzzy
+#~ msgid "Curve brush"
+#~ msgstr "Filter boʻyogʻi"
+
+#~ msgid "Pixel Brush"
+#~ msgstr "Nuqta boʻyogʻi"
+
+#, fuzzy
+#~| msgid "Duplicate"
+#~ msgctxt "duplicate paintbrush"
+#~ msgid "Duplicate"
+#~ msgstr "Nusxasini yaratish"
+
+#, fuzzy
+#~| msgid "Radius"
+#~ msgid "Deform brush"
+#~ msgstr "Radius"
+
+#, fuzzy
+#~ msgid "Dyna brush"
+#~ msgstr "Choʻtkani koʻpaytirish"
+
+#, fuzzy
+#~| msgid "Radius"
+#~ msgid "Experiment brush"
+#~ msgstr "Radius"
+
+#~ msgid "Filter Brush"
+#~ msgstr "Filter boʻyogʻi"
+
+#, fuzzy
+#~ msgid "Grid brush"
+#~ msgstr "Filter boʻyogʻi"
+
+#, fuzzy
+#~ msgid "Save brush:"
+#~ msgstr "Filter boʻyogʻi"
+
+#, fuzzy
+#~ msgid "Reset Brush"
+#~ msgstr "Qatlamni olib tashlash"
+
+#~ msgid "Autobrush"
+#~ msgstr "Avto-boʻyoq"
+
+#~ msgid "Predefined Brushes"
+#~ msgstr "Oldindan aniqlangan boʻyoqlar"
+
+#~ msgid "Custom Brush"
+#~ msgstr "Boshqa boʻyoq"
+
+#, fuzzy
+#~ msgid "Clipboard Brush"
+#~ msgstr "Filter boʻyogʻi"
+
+#~ msgid "Text Brush"
+#~ msgstr "Matn boʻyogʻi"
+
+#, fuzzy
+#~ msgid "MyPaint brush"
+#~ msgstr "Filtrli choʻtka"
+
+#, fuzzy
+#~ msgid "Particle brush"
+#~ msgstr "Uskuna:"
+
+#, fuzzy
+#~ msgid "Spray brush"
+#~ msgstr "Filter boʻyogʻi"
 
 #, fuzzy
 #~| msgid "Description:"
@@ -14935,9 +14983,6 @@ msgstr "Ranglar"
 #, fuzzy
 #~ msgid "A_Angular box soft"
 #~ msgstr "Burchakli"
-
-#~ msgid "Text"
-#~ msgstr "Matn"
 
 #, fuzzy
 #~ msgid "Initial width"
@@ -16039,11 +16084,6 @@ msgstr "Ranglar"
 #~ msgstr "Tanlanganni koʻrsatish"
 
 #, fuzzy
-#~| msgid "Cool Colors"
-#~ msgid "Common Colors"
-#~ msgstr "Sovuq ranglar"
-
-#, fuzzy
 #~| msgid "Main:"
 #~ msgid "Min"
 #~ msgstr "Asosiy:"
@@ -16078,11 +16118,6 @@ msgstr "Ranglar"
 #, fuzzy
 #~ msgid "Ink amount"
 #~ msgstr "Shrift:"
-
-#, fuzzy
-#~| msgid "Curved"
-#~ msgid "Curve"
-#~ msgstr "Egri chiziqli"
 
 #, fuzzy
 #~ msgid "soft brush"
