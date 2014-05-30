@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-26 07:55+0000\n"
+"POT-Creation-Date: 2014-05-30 08:06+0000\n"
 "PO-Revision-Date: 2008-06-02 22:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -294,8 +294,11 @@ msgid "Accessibility"
 msgstr "Qulayliklar"
 
 #: kcms/access/kcmaccess.desktop:108
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Improve accessibility for disabled persons"
 msgctxt "Comment"
-msgid "Improve accessibility for disabled persons"
+msgid "Accessibility Improvements for Disabled Persons"
 msgstr "Nogiron kishilar uchun qulayliklar"
 
 #: kcms/access/kcmaccess.desktop:198
@@ -313,9 +316,12 @@ msgid "Autostart"
 msgstr "Avto-boshlash"
 
 #: kcms/autostart/autostart.desktop:103
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Launcher to start applications"
 msgctxt "Comment"
-msgid "Manage which programs start up automatically with KDE."
-msgstr ""
+msgid "Automatically Started Applications"
+msgstr "Dasturlarni ishga tushiruvchi vosita"
 
 #: kcms/autostart/autostart.desktop:149
 msgctxt "X-KDE-Keywords"
@@ -328,9 +334,12 @@ msgid "System Bell"
 msgstr "Tizim tovush signali"
 
 #: kcms/bell/bell.desktop:109
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "System Bell"
 msgctxt "Comment"
-msgid "System Bell Configuration"
-msgstr "Tizim tovush signalini moslash"
+msgid "System Bell"
+msgstr "Tizim tovush signali"
 
 #: kcms/bell/bell.desktop:201
 msgctxt "X-KDE-Keywords"
@@ -346,11 +355,11 @@ msgstr "Ranglar"
 
 #: kcms/colors/colors.desktop:106
 #, fuzzy
-#| msgctxt "Comment"
-#| msgid "Launcher to start applications"
+#| msgctxt "Name"
+#| msgid "Application Launcher"
 msgctxt "Comment"
-msgid "Change the colors used in applications"
-msgstr "Dasturlarni ishga tushiruvchi vosita"
+msgid "Application Color Scheme"
+msgstr "Dasturlarni ishga tushiruvchi"
 
 #: kcms/colors/colors.desktop:152
 #, fuzzy
@@ -368,9 +377,12 @@ msgid "Default Applications"
 msgstr "Andoza dasturlar"
 
 #: kcms/componentchooser/componentchooser.desktop:96
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Default Applications"
 msgctxt "Comment"
-msgid "Choose the default components for various services"
-msgstr "Turli xizmatlar uchun andoza komponentlarni tanlash"
+msgid "Default Applications"
+msgstr "Andoza dasturlar"
 
 #: kcms/componentchooser/componentchooser.desktop:184
 #, fuzzy
@@ -506,11 +518,11 @@ msgstr "Sana va vaqt"
 
 #: kcms/dateandtime/clock.desktop:107
 #, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure keyboard and mouse settings"
+#| msgctxt "Name"
+#| msgid "Date & Time"
 msgctxt "Comment"
-msgid "Configure date and time settings"
-msgstr "Sichqoncha va tugmatagni moslash"
+msgid "Date and Time"
+msgstr "Sana va vaqt"
 
 #: kcms/dateandtime/clock.desktop:155
 msgctxt "X-KDE-Keywords"
@@ -546,8 +558,8 @@ msgstr "Yoʻllar"
 
 #: kcms/desktoppaths/desktoppath.desktop:106
 msgctxt "Comment"
-msgid "Change the location important files are stored"
-msgstr "Muhim fayllarning joylashgan joyini oʻzgartirish"
+msgid "Paths to Personal Files"
+msgstr ""
 
 #: kcms/desktoppaths/desktoppath.desktop:197
 #, fuzzy
@@ -569,9 +581,12 @@ msgid "Desktop Theme"
 msgstr "Ish stolining peyjeri"
 
 #: kcms/desktoptheme/desktoptheme.desktop:77
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Desktop Pager"
 msgctxt "Comment"
-msgid "Customize the desktop theme"
-msgstr ""
+msgid "Desktop Theme"
+msgstr "Ish stolining peyjeri"
 
 #: kcms/desktoptheme/desktoptheme.desktop:141
 #, fuzzy
@@ -591,7 +606,7 @@ msgstr "His-tuygʻular"
 #| msgctxt "Comment"
 #| msgid "Emoticons Themes Manager"
 msgctxt "Comment"
-msgid "Choose Emoticon Theme"
+msgid "Emoticon Theme"
 msgstr "His-tuygʻular boshqaruvchisi"
 
 #: kcms/emoticons/emoticons.desktop:140
@@ -608,9 +623,12 @@ msgid "Fonts"
 msgstr "Shriftlar"
 
 #: kcms/fonts/fonts.desktop:106
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Fonts"
 msgctxt "Comment"
-msgid "Font settings"
-msgstr "Shriftlarni moslash"
+msgid "Fonts"
+msgstr "Shriftlar"
 
 #: kcms/fonts/fonts.desktop:198
 #, fuzzy
@@ -634,13 +652,9 @@ msgid "Formats"
 msgstr ""
 
 #: kcms/formats/formats.desktop:32
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Language, numeric, and time settings for your particular region"
 msgctxt "Comment"
-msgid ""
-"Numeric, currency and time formatting settings for your particular region"
-msgstr "Davlatingiz uchun til, son va vaqt moslamalari"
+msgid "Numeric, Currency and Time Formats"
+msgstr ""
 
 #: kcms/formats/formats.desktop:50
 #, fuzzy
@@ -667,16 +681,16 @@ msgstr "Displey"
 
 #: kcms/hardware/display/display.desktop:100
 msgctxt "Comment"
-msgid "Display Settings"
-msgstr "Displeyning moslamalari"
+msgid "Displays and Monitors"
+msgstr ""
 
 #: kcms/hardware/joystick/joystick.desktop:17
 #, fuzzy
-#| msgctxt "Comment"
-#| msgid "Font settings"
+#| msgctxt "Name"
+#| msgid "Joystick"
 msgctxt "Comment"
-msgid "Joystick settings"
-msgstr "Shriftlarni moslash"
+msgid "Joystick"
+msgstr "Joystik"
 
 #: kcms/hardware/joystick/joystick.desktop:96
 msgctxt "Name"
@@ -697,9 +711,12 @@ msgid "Icons"
 msgstr "Nishonchalar"
 
 #: kcms/icons/icons.desktop:104
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Cursor Files"
 msgctxt "Comment"
-msgid "Customize KDE Icons"
-msgstr "KDE nishonchalarini moslash"
+msgid "Icon Theme"
+msgstr "Kursor fayllari"
 
 #: kcms/icons/icons.desktop:193
 #, fuzzy
@@ -718,9 +735,12 @@ msgid "Cursor Theme"
 msgstr "Kursor fayllari"
 
 #: kcms/input/cursortheme.desktop:73
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Cursor Files"
 msgctxt "Comment"
-msgid "Customize the mouse cursor appearance"
-msgstr ""
+msgid "Mouse Cursor Theme"
+msgstr "Kursor fayllari"
 
 #: kcms/input/cursortheme.desktop:131
 msgctxt "X-KDE-Keywords"
@@ -736,8 +756,8 @@ msgstr "Sichqoncha"
 
 #: kcms/input/mouse.desktop:108
 msgctxt "Comment"
-msgid "Mouse settings"
-msgstr "Sichqonchaning moslamalari"
+msgid "Mouse Controls"
+msgstr ""
 
 #: kcms/input/mouse.desktop:200
 #, fuzzy
@@ -761,19 +781,19 @@ msgstr ""
 
 #: kcms/kded/kcmkded.desktop:13
 #, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Calendar Manager"
+#| msgctxt "Name"
+#| msgid "Background"
 msgctxt "Name"
-msgid "Service Manager"
-msgstr "Kalendar boshqaruvchisi"
+msgid "Background Services"
+msgstr "Orqa fon"
 
 #: kcms/kded/kcmkded.desktop:43
 #, fuzzy
-#| msgctxt "Comment"
-#| msgid "System Bell Configuration"
+#| msgctxt "Name"
+#| msgid "Background"
 msgctxt "Comment"
-msgid "KDE Services Configuration"
-msgstr "Tizim tovush signalini moslash"
+msgid "Background Services"
+msgstr "Orqa fon"
 
 #: kcms/kded/kcmkded.desktop:70
 #, fuzzy
@@ -789,9 +809,12 @@ msgid "Keyboard"
 msgstr "Tugmatag"
 
 #: kcms/keyboard/kcm_keyboard.desktop:109
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Keyboard Layout"
 msgctxt "Comment"
-msgid "Keyboard settings"
-msgstr "Tugmatagning moslamalari"
+msgid "Keyboard Hardware and Layout"
+msgstr "Tugmalar tartibi"
 
 #: kcms/keyboard/kcm_keyboard.desktop:200
 msgctxt "X-KDE-Keywords"
@@ -829,9 +852,12 @@ msgid "Global Keyboard Shortcuts"
 msgstr "Tugmalar birikmasi"
 
 #: kcms/keys/keys.desktop:95
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Keyboard Shortcuts"
 msgctxt "Comment"
-msgid "Configuration of keybindings"
-msgstr "Tugmalar birikmasini moslash"
+msgid "Global Keyboard Shortcuts"
+msgstr "Tugmalar birikmasi"
 
 #: kcms/keys/keys.desktop:187
 #, fuzzy
@@ -887,8 +913,8 @@ msgstr "Fayl boshqaruvi"
 
 #: kcms/kfontinst/kcmfontinst/fontinst.desktop:64
 msgctxt "Comment"
-msgid "Install, manage, and preview fonts"
-msgstr "Shriftlarni oʻrnatish va koʻrib chiqish"
+msgid "Font Installation, Preview and Removal"
+msgstr ""
 
 #: kcms/kfontinst/kcmfontinst/fontinst.desktop:149
 #, fuzzy
@@ -913,7 +939,7 @@ msgstr "Shrift koʻruvchi"
 #| msgctxt "Name"
 #| msgid "Notifications"
 msgctxt "Name"
-msgid "Manage Notifications"
+msgid "Notifications"
 msgstr "Xabarnomalar"
 
 #: kcms/knotify/kcmnotify.desktop:81
@@ -921,7 +947,7 @@ msgstr "Xabarnomalar"
 #| msgctxt "Comment"
 #| msgid "System Bell Configuration"
 msgctxt "Comment"
-msgid "System Notification Configuration"
+msgid "Event Notifications and Actions"
 msgstr "Tizim tovush signalini moslash"
 
 #: kcms/knotify/kcmnotify.desktop:109
@@ -934,19 +960,16 @@ msgstr "Tizim tovush signallari,Audio,Tovush,Xabar berish,Xabarnomalar"
 
 #: kcms/ksmserver/kcmsmserver.desktop:13
 #, fuzzy
-#| msgctxt "Name"
-#| msgid "File Management"
+#| msgctxt "GenericName"
+#| msgid "Desktop Pager"
 msgctxt "Name"
-msgid "Session Management"
-msgstr "Fayl boshqaruvi"
+msgid "Desktop Session"
+msgstr "Ish stolining peyjeri"
 
 #: kcms/ksmserver/kcmsmserver.desktop:37
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure keyboard and mouse settings"
 msgctxt "Comment"
-msgid "Configure the session manager and logout settings"
-msgstr "Sichqoncha va tugmatagni moslash"
+msgid "Desktop Session Login and Logout"
+msgstr ""
 
 #: kcms/ksmserver/kcmsmserver.desktop:62
 msgctxt "X-KDE-Keywords"
@@ -960,7 +983,7 @@ msgstr ""
 
 #: kcms/ksplash/ksplashthememgr.desktop:37
 msgctxt "Comment"
-msgid "Manager for Splash Screen Themes"
+msgid "Splash Screen Theme"
 msgstr ""
 
 #: kcms/ksplash/ksplashthememgr.desktop:59
@@ -974,9 +997,12 @@ msgid "Launch Feedback"
 msgstr "Dastur ishga tushish xabarnomasi"
 
 #: kcms/launch/kcmlaunch.desktop:102
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
 msgctxt "Comment"
-msgid "Choose application-launch feedback style"
-msgstr "Dastur ishga tushish xabarnomasining turini tanlash"
+msgid "Application Launch Feedback"
+msgstr "Dasturlarni ishga tushiruvchi"
 
 #: kcms/launch/kcmlaunch.desktop:191
 #, fuzzy
@@ -997,13 +1023,16 @@ msgstr ""
 #| msgctxt "Comment"
 #| msgid "Configure keyboard and mouse settings"
 msgctxt "Name"
-msgid "Audio and Video Settings"
+msgid "Audio and Video"
 msgstr "Sichqoncha va tugmatagni moslash"
 
 #: kcms/phonon/kcm_phonon.desktop:40
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure keyboard and mouse settings"
 msgctxt "Comment"
-msgid "Settings for the Phonon multimedia framework"
-msgstr ""
+msgid "Phonon Audio and Video"
+msgstr "Sichqoncha va tugmatagni moslash"
 
 #: kcms/phonon/kcm_phonon.desktop:83
 msgctxt "X-KDE-Keywords"
@@ -1013,14 +1042,17 @@ msgid ""
 msgstr ""
 
 #: kcms/spellchecking/spellchecking.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Spell Checker"
 msgctxt "Name"
-msgid "Spell Checker"
+msgid "Spell Check"
 msgstr "Imloni tekshiruvchi"
 
 #: kcms/spellchecking/spellchecking.desktop:100
 msgctxt "Comment"
-msgid "Configure the spell checker"
-msgstr "Imlo tekshiruvchini moslash"
+msgid "Spell Checker Dictionaries and Options"
+msgstr ""
 
 #: kcms/spellchecking/spellchecking.desktop:185
 #, fuzzy
@@ -1035,16 +1067,16 @@ msgstr "Imlo"
 #| msgctxt "Name"
 #| msgid "Keyboard Shortcuts"
 msgctxt "Name"
-msgid "Standard Keyboard Shortcuts"
+msgid "Application Keyboard Shortcuts"
 msgstr "Tugmalar birikmasi"
 
 #: kcms/standard_actions/standard_actions.desktop:94
 #, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configuration of keybindings"
+#| msgctxt "Name"
+#| msgid "Keyboard Shortcuts"
 msgctxt "Comment"
-msgid "Configuration of standard keybindings"
-msgstr "Tugmalar birikmasini moslash"
+msgid "Standard Keyboard Shortcuts for Applications"
+msgstr "Tugmalar birikmasi"
 
 #: kcms/standard_actions/standard_actions.desktop:172
 #, fuzzy
@@ -1090,8 +1122,7 @@ msgstr "Uslub"
 
 #: kcms/style/style.desktop:106
 msgctxt "Comment"
-msgid ""
-"Allows the manipulation of widget behavior and changing the Style for KDE"
+msgid "Widget Style and Behavior"
 msgstr ""
 
 #: kcms/style/style.desktop:193
@@ -1115,12 +1146,14 @@ msgstr ""
 
 #: kcms/workspaceoptions/workspaceoptions.desktop:41
 msgctxt "Comment"
-msgid "Global options for the Plasma Workspace"
+msgid "Workspace Behavior"
 msgstr ""
 
 #: kcms/workspaceoptions/workspaceoptions.desktop:69
 msgctxt "X-KDE-Keywords"
-msgid "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips"
+msgid ""
+"plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips,"
+"tooltips"
 msgstr ""
 
 #: knetattach/knetattach.desktop:2
@@ -1526,13 +1559,118 @@ msgctxt "Name"
 msgid "Panel toolbox"
 msgstr "Tarmoq vositasi"
 
+#~ msgctxt "Comment"
+#~ msgid "System Bell Configuration"
+#~ msgstr "Tizim tovush signalini moslash"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Launcher to start applications"
+#~ msgctxt "Comment"
+#~ msgid "Change the colors used in applications"
+#~ msgstr "Dasturlarni ishga tushiruvchi vosita"
+
+#~ msgctxt "Comment"
+#~ msgid "Choose the default components for various services"
+#~ msgstr "Turli xizmatlar uchun andoza komponentlarni tanlash"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure keyboard and mouse settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure date and time settings"
+#~ msgstr "Sichqoncha va tugmatagni moslash"
+
+#~ msgctxt "Comment"
+#~ msgid "Change the location important files are stored"
+#~ msgstr "Muhim fayllarning joylashgan joyini oʻzgartirish"
+
+#~ msgctxt "Comment"
+#~ msgid "Font settings"
+#~ msgstr "Shriftlarni moslash"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Language, numeric, and time settings for your particular region"
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Numeric, currency and time formatting settings for your particular region"
+#~ msgstr "Davlatingiz uchun til, son va vaqt moslamalari"
+
+#~ msgctxt "Comment"
+#~ msgid "Display Settings"
+#~ msgstr "Displeyning moslamalari"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Font settings"
+#~ msgctxt "Comment"
+#~ msgid "Joystick settings"
+#~ msgstr "Shriftlarni moslash"
+
+#~ msgctxt "Comment"
+#~ msgid "Customize KDE Icons"
+#~ msgstr "KDE nishonchalarini moslash"
+
+#~ msgctxt "Comment"
+#~ msgid "Mouse settings"
+#~ msgstr "Sichqonchaning moslamalari"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Calendar Manager"
 #~ msgctxt "Name"
-#~ msgid "Country/Region & Language"
-#~ msgstr "Davlat/region va til"
+#~ msgid "Service Manager"
+#~ msgstr "Kalendar boshqaruvchisi"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "System Bell Configuration"
+#~ msgctxt "Comment"
+#~ msgid "KDE Services Configuration"
+#~ msgstr "Tizim tovush signalini moslash"
+
+#~ msgctxt "Comment"
+#~ msgid "Keyboard settings"
+#~ msgstr "Tugmatagning moslamalari"
+
+#~ msgctxt "Comment"
+#~ msgid "Configuration of keybindings"
+#~ msgstr "Tugmalar birikmasini moslash"
+
+#~ msgctxt "Comment"
+#~ msgid "Install, manage, and preview fonts"
+#~ msgstr "Shriftlarni oʻrnatish va koʻrib chiqish"
 
 #, fuzzy
 #~| msgctxt "Name"
-#~| msgid "Background"
+#~| msgid "File Management"
 #~ msgctxt "Name"
-#~ msgid "Background Test"
-#~ msgstr "Orqa fon"
+#~ msgid "Session Management"
+#~ msgstr "Fayl boshqaruvi"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure keyboard and mouse settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure the session manager and logout settings"
+#~ msgstr "Sichqoncha va tugmatagni moslash"
+
+#~ msgctxt "Comment"
+#~ msgid "Choose application-launch feedback style"
+#~ msgstr "Dastur ishga tushish xabarnomasining turini tanlash"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the spell checker"
+#~ msgstr "Imlo tekshiruvchini moslash"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configuration of keybindings"
+#~ msgctxt "Comment"
+#~ msgid "Configuration of standard keybindings"
+#~ msgstr "Tugmalar birikmasini moslash"
+
+#~ msgctxt "Name"
+#~ msgid "Country/Region & Language"
+#~ msgstr "Davlat/region va til"
