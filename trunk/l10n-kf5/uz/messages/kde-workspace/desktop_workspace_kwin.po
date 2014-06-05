@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-24 08:17+0000\n"
+"POT-Creation-Date: 2014-06-05 08:11+0000\n"
 "PO-Revision-Date: 2008-06-02 22:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -294,9 +294,12 @@ msgid "Desktop Effects"
 msgstr "Ish stoli"
 
 #: kcmkwin/kwincompositing/kcmkwineffects.desktop:45
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop"
 msgctxt "Comment"
-msgid "Configure desktop effects"
-msgstr ""
+msgid "Desktop Effects"
+msgstr "Ish stoli"
 
 #: kcmkwin/kwincompositing/kcmkwineffects.desktop:77
 msgctxt "X-KDE-Keywords"
@@ -327,7 +330,7 @@ msgstr ""
 
 #: kcmkwin/kwincompositing/kwincompositing.desktop:44
 msgctxt "Comment"
-msgid "Configure compositor settings for the Desktop effects"
+msgid "Compositor Settings for Desktop Effects"
 msgstr ""
 
 #: kcmkwin/kwincompositing/kwincompositing.desktop:74
@@ -346,8 +349,11 @@ msgid "Window Decorations"
 msgstr "Oynaning bezaklari"
 
 #: kcmkwin/kwindecoration/kwindecoration.desktop:76
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the look and feel of window titles"
 msgctxt "Comment"
-msgid "Configure the look and feel of window titles"
+msgid "Look and Feel of Window Titles"
 msgstr "Oyna sarlavhasining tashqi koʻrinishini moslash"
 
 #: kcmkwin/kwindecoration/kwindecoration.desktop:164
@@ -372,8 +378,8 @@ msgstr "Virtual ish stollari"
 
 #: kcmkwin/kwindesktop/desktop.desktop:78
 msgctxt "Comment"
-msgid "You can configure how many virtual desktops there are."
-msgstr "Bu yerda virtual ish stollarning sonini moslashingiz mumkin"
+msgid "Navigation, Number and Layout of Virtual Desktops"
+msgstr ""
 
 #: kcmkwin/kwindesktop/desktop.desktop:166
 msgctxt "X-KDE-Keywords"
@@ -392,7 +398,7 @@ msgstr "Amallar"
 #| msgctxt "Comment"
 #| msgid "Configure password settings"
 msgctxt "Comment"
-msgid "Configure mouse actions on windows"
+msgid "Mouse Actions on Windows"
 msgstr "Maxfiy soʻz moslamalarini moslash"
 
 #: kcmkwin/kwinoptions/kwinactions.desktop:143
@@ -413,8 +419,11 @@ msgid "Advanced"
 msgstr "Qoʻshimcha"
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:101
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure advanced window management features"
 msgctxt "Comment"
-msgid "Configure advanced window management features"
+msgid "Advanced Window Management Features"
 msgstr "Oyna boshqaruvning koʻshimcha imkoniyatlarini moslash"
 
 #: kcmkwin/kwinoptions/kwinadvanced.desktop:188
@@ -432,8 +441,8 @@ msgstr "Fokus"
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:100
 msgctxt "Comment"
-msgid "Configure the window focus policy"
-msgstr "Oynani fokuslash qoidasini moslash"
+msgid "Active Window Policy"
+msgstr ""
 
 #: kcmkwin/kwinoptions/kwinfocus.desktop:186
 msgctxt "X-KDE-Keywords"
@@ -449,9 +458,12 @@ msgid "Moving"
 msgstr "Koʻchirish"
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:100
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Decorations"
 msgctxt "Comment"
-msgid "Configure the way that windows are moved"
-msgstr "Oynalarni koʻchirish yoʻlini moslash"
+msgid "Window Moving"
+msgstr "Oynaning bezaklari"
 
 #: kcmkwin/kwinoptions/kwinmoving.desktop:187
 #, fuzzy
@@ -467,9 +479,12 @@ msgid "Window Behavior"
 msgstr "Oynaning xususiyatlari"
 
 #: kcmkwin/kwinoptions/kwinoptions.desktop:104
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Behavior"
 msgctxt "Comment"
-msgid "Configure the window behavior"
-msgstr "Oynaning xususiyatlarini moslash"
+msgid "Window Actions and Behavior"
+msgstr "Oynaning xususiyatlari"
 
 #: kcmkwin/kwinoptions/kwinoptions.desktop:192
 #, fuzzy
@@ -479,8 +494,8 @@ msgstr "Oynaning xususiyatlarini moslash"
 #| "titlebar,doubleclick"
 msgctxt "X-KDE-Keywords"
 msgid ""
-"focus,placement,window behavior,animation,raise,auto raise,windows,frame,"
-"titlebar,doubleclick"
+"focus,placement,window behavior,window actions,animation,raise,auto raise,"
+"windows,frame,titlebar,doubleclick"
 msgstr ""
 "fokuslash,joylashish,oynaning xususiyatlari,animatsiya,oldinga,avto-oldinga,"
 "oynalar,freym,sarlavha,ikki marta bosish"
@@ -494,9 +509,12 @@ msgid "Window Rules"
 msgstr "Oynani yopish"
 
 #: kcmkwin/kwinrules/kwinrules.desktop:77
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Behavior"
 msgctxt "Comment"
-msgid "Configure settings specifically for a window"
-msgstr "Oynaga oid boʻlgan moslamalarni moslash"
+msgid "Individual Window Behavior"
+msgstr "Oynaning xususiyatlari"
 
 #: kcmkwin/kwinrules/kwinrules.desktop:163
 #, fuzzy
@@ -520,19 +538,16 @@ msgid "Screen Edges"
 msgstr "Ekran saqlovchilari"
 
 #: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:84
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure web cache settings"
 msgctxt "Comment"
-msgid "Configure active screen edges"
-msgstr "Veb-kesh moslamalarini moslash"
+msgid "Active Screen Corners and Edges"
+msgstr ""
 
 #: kcmkwin/kwinscreenedges/kwinscreenedges.desktop:153
 msgctxt "X-KDE-Keywords"
 msgid ""
-"kwin,window,manager,effect,edge,border,action,switch,desktop,kwin screen "
-"edges,desktop edges,screen edges,maximize windows,tile windows,side of "
-"screen,screen behavior,switch desktop,virtual desktop,screen corners"
+"kwin,window,manager,effect,corner,edge,border,action,switch,desktop,kwin "
+"screen edges,desktop edges,screen edges,maximize windows,tile windows,side "
+"of screen,screen behavior,switch desktop,virtual desktop,screen corners"
 msgstr ""
 
 #: kcmkwin/kwinscripts/kwinscripts.desktop:11
@@ -562,12 +577,9 @@ msgid "Task Switcher"
 msgstr ""
 
 #: kcmkwin/kwintabbox/kwintabbox.desktop:74
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the behavior of Java and JavaScript"
 msgctxt "Comment"
-msgid "Configure the behavior for navigating through windows"
-msgstr "Java va JavaScript xususiyatlarini moslash"
+msgid "Navigation Through Windows"
+msgstr ""
 
 #: kcmkwin/kwintabbox/kwintabbox.desktop:128
 msgctxt "X-KDE-Keywords"
@@ -787,6 +799,40 @@ msgstr "Faylni koʻrib chiqish"
 msgctxt "Comment"
 msgid "A desktop switcher layout with previews of the desktops"
 msgstr ""
+
+#~ msgctxt "Comment"
+#~ msgid "You can configure how many virtual desktops there are."
+#~ msgstr "Bu yerda virtual ish stollarning sonini moslashingiz mumkin"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the window focus policy"
+#~ msgstr "Oynani fokuslash qoidasini moslash"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the way that windows are moved"
+#~ msgstr "Oynalarni koʻchirish yoʻlini moslash"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the window behavior"
+#~ msgstr "Oynaning xususiyatlarini moslash"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure settings specifically for a window"
+#~ msgstr "Oynaga oid boʻlgan moslamalarni moslash"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure web cache settings"
+#~ msgctxt "Comment"
+#~ msgid "Configure active screen edges"
+#~ msgstr "Veb-kesh moslamalarini moslash"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the behavior of Java and JavaScript"
+#~ msgctxt "Comment"
+#~ msgid "Configure the behavior for navigating through windows"
+#~ msgstr "Java va JavaScript xususiyatlarini moslash"
 
 #, fuzzy
 #~| msgctxt "Name"
