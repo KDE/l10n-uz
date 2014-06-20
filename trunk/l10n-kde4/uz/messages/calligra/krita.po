@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-19 01:30+0000\n"
+"POT-Creation-Date: 2014-06-20 01:46+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -194,7 +194,7 @@ msgstr "Teskari qilish"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #. i18n: ectx: Menu (Select)
-#: gemini/kritagemini.rc:126 krita.rc:126
+#: gemini/kritagemini.rc:126 krita.rc:127
 #: plugins/extensions/colorrange/wdg_colorrange.ui:131
 #: plugins/extensions/imagesize/imagesize.rc:12
 #: plugins/extensions/modify_selection/modify_selection.rc:4
@@ -203,23 +203,23 @@ msgid "&Select"
 msgstr "&Tanlash"
 
 #. i18n: ectx: Menu (Filter)
-#: gemini/kritagemini.rc:139 krita.rc:140 sketch/kritasketch.rc:139
+#: gemini/kritagemini.rc:139 krita.rc:141 sketch/kritasketch.rc:139
 msgid "Filte&r"
 msgstr "Filte&r"
 
 #. i18n: ectx: Menu (Tools)
-#: gemini/kritagemini.rc:156 krita.rc:157 sketch/kritasketch.rc:156
+#: gemini/kritagemini.rc:156 krita.rc:158 sketch/kritasketch.rc:156
 #, fuzzy
 msgid "&Tools"
 msgstr "Yulduz vositasi"
 
 #. i18n: ectx: Menu (settings)
-#: gemini/kritagemini.rc:159 krita.rc:160 sketch/kritasketch.rc:159
+#: gemini/kritagemini.rc:159 krita.rc:161 sketch/kritasketch.rc:159
 msgid "Settings"
 msgstr "Moslamalar"
 
 #. i18n: ectx: ToolBar (BrushesAndStuff)
-#: gemini/kritagemini.rc:172 krita.rc:173 sketch/kritasketch.rc:172
+#: gemini/kritagemini.rc:172 krita.rc:174 sketch/kritasketch.rc:172
 #, fuzzy
 msgid "Brushes and Stuff"
 msgstr "Choʻtka va boshqa ish qurollari"
@@ -1681,7 +1681,7 @@ msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr "Silliqlangan rasm"
 
-#: image/kis_image.cc:1656
+#: image/kis_image.cc:1667
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
@@ -1775,7 +1775,7 @@ msgid "Invert Selection"
 msgstr "Tanlanganni bekitish"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: image/kis_selection_mask.cpp:106
+#: image/kis_selection_mask.cpp:122
 #: plugins/paintops/resourcemanager/wdgdlgbundlemanager.ui:225
 #: ui/kis_node_model.cpp:444
 #, fuzzy
@@ -3072,67 +3072,67 @@ msgstr "Kompozitsiyasiz"
 msgid "Layers"
 msgstr "Qatlamlar"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:148
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:150
 msgid "Minimal View"
 msgstr ""
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:150
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:152
 msgid "Detailed View"
 msgstr ""
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:152
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:154
 msgid "Thumbnail View"
 msgstr ""
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:164
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:166
 #, fuzzy
 msgid "View mode"
 msgstr "Yangi qatlam"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:191
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:193
 msgid "&Remove Layer"
 msgstr "Qatlamni &olib tashlash"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:199
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:201
 #, fuzzy
 #| msgid "Move Layer"
 msgid "Move Layer Left"
 msgstr "Qatlamni koʻchirish"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:207
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:209
 #, fuzzy
 #| msgid "Move Layer"
 msgid "Move Layer Right"
 msgstr "Qatlamni koʻchirish"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:214
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:216
 #, fuzzy
 msgid "&Properties..."
 msgstr "Qatlamning xossalari"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:232
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:234
 #, fuzzy
 msgid "&Select Opaque"
 msgstr "Tanlash"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:256
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:258
 #, fuzzy
 msgid "&Show Global Selection Mask"
 msgstr "Tanlash boʻyogʻi"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:258
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:260
 msgctxt "@info:tooltip"
 msgid ""
 "Shows global selection as a usual selection mask in <interface>Layers</"
 "interface> docker"
 msgstr ""
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:487
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:489
 #: ui/kis_layer_manager.cc:283
 msgid "&Merge with Layer Below"
 msgstr "&Pastgi qatlam bilan birlashtirish"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:491
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:493
 #, fuzzy
 #| msgid "&Invert"
 msgid "&Convert"
@@ -3625,7 +3625,7 @@ msgid "Overview"
 msgstr "Koʻrib chiqish"
 
 #: plugins/extensions/dockers/palettedocker/palettedocker_dock.cpp:116
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:294
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:298
 #, fuzzy
 msgid "Palette"
 msgstr "Palitra"
@@ -10533,15 +10533,15 @@ msgstr "Qizgʻish-qoʻngʻir"
 msgid "Freehand Brush Tool"
 msgstr "Boʻyoq vositasi"
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:248
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:252
 msgid "Cannot pick a color as no layer is active."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:253
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:257
 msgid "Cannot pick a color as the active layer is not visible."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:294
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:298
 #, fuzzy, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only."
 msgstr ""
@@ -10631,7 +10631,7 @@ msgstr ""
 msgid "Fill a contiguous area of color with a color, or fill a selection."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:150
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:154
 #, fuzzy
 #| msgid "Gradient"
 msgctxt "(qtundo-format)"
@@ -14203,26 +14203,26 @@ msgstr "Silliqlangan rasm"
 msgid "&Flatten Image"
 msgstr "&Silliqlangan rasm"
 
-#: ui/kis_layer_manager.cc:778
+#: ui/kis_layer_manager.cc:776
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "Qatlamni burish"
 
-#: ui/kis_layer_manager.cc:814
+#: ui/kis_layer_manager.cc:812
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:817
+#: ui/kis_layer_manager.cc:815
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:875
+#: ui/kis_layer_manager.cc:872
 msgid "No file name specified."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:875
+#: ui/kis_layer_manager.cc:872
 msgid "No file specified"
 msgstr ""
 
@@ -14278,162 +14278,186 @@ msgstr "'%1'ning nusxasi"
 msgid "Filter Mask Properties"
 msgstr "Qatlamning xossalari"
 
-#: ui/kis_node_manager.cpp:194
+#: ui/kis_node_manager.cpp:152
+#, fuzzy
+msgid "&Merge Selected Layers"
+msgstr "Yangi qatlam"
+
+#: ui/kis_node_manager.cpp:201
 #, fuzzy
 msgid "Mirror Layer Horizontally"
 msgstr "Ufq 1"
 
-#: ui/kis_node_manager.cpp:200
+#: ui/kis_node_manager.cpp:207
 #, fuzzy
 msgid "Mirror Layer Vertically"
 msgstr "Uskuna:"
 
-#: ui/kis_node_manager.cpp:206
+#: ui/kis_node_manager.cpp:213
 #, fuzzy
 msgid "Activate next layer"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:212
+#: ui/kis_node_manager.cpp:219
 #, fuzzy
 msgid "Activate previous layer"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:218
+#: ui/kis_node_manager.cpp:225
 #, fuzzy
 #| msgid "Save Layer as Image..."
 msgid "Save Layer/Mask..."
 msgstr "Qatlamni rasm sifatida saqlash..."
 
-#: ui/kis_node_manager.cpp:223
+#: ui/kis_node_manager.cpp:230
 #, fuzzy
 #| msgid "Duplicate"
 msgid "&Duplicate Layer or Mask"
 msgstr "Nusxasini yaratish"
 
-#: ui/kis_node_manager.cpp:230
+#: ui/kis_node_manager.cpp:237
 #, fuzzy
 #| msgid "&Layer"
 msgid "&Paint Layer"
 msgstr "&Qatlam"
 
-#: ui/kis_node_manager.cpp:234
+#: ui/kis_node_manager.cpp:241
 #, fuzzy
 #| msgid "New &Group Layer..."
 msgid "&Group Layer"
 msgstr "Yangi qatlamlar &guruhi..."
 
-#: ui/kis_node_manager.cpp:237
+#: ui/kis_node_manager.cpp:244
 #, fuzzy
 #| msgid "New &Object Layer"
 msgid "&Clone Layer"
 msgstr "Yangi &obʼekt qatlami"
 
-#: ui/kis_node_manager.cpp:240
+#: ui/kis_node_manager.cpp:247
 #, fuzzy
 #| msgid "&Object Layer"
 msgid "&Vector Layer"
 msgstr "O&bʼekt qatlami"
 
-#: ui/kis_node_manager.cpp:243
+#: ui/kis_node_manager.cpp:250
 #, fuzzy
 #| msgid "&Filters Gallery"
 msgid "&Filter Layer..."
 msgstr "Filterlar &toʻplami"
 
-#: ui/kis_node_manager.cpp:246
+#: ui/kis_node_manager.cpp:253
 #, fuzzy
 #| msgid "&Filters Gallery"
 msgid "&Fill Layer..."
 msgstr "Filterlar &toʻplami"
 
-#: ui/kis_node_manager.cpp:249
+#: ui/kis_node_manager.cpp:256
 #, fuzzy
 #| msgid "&Filters Gallery"
 msgid "&File Layer..."
 msgstr "Filterlar &toʻplami"
 
-#: ui/kis_node_manager.cpp:252
+#: ui/kis_node_manager.cpp:259
 #, fuzzy
 msgid "&Transparency Mask"
 msgstr "Shaffof"
 
-#: ui/kis_node_manager.cpp:255
+#: ui/kis_node_manager.cpp:262
 #, fuzzy
 #| msgid "Filters"
 msgid "&Filter Mask..."
 msgstr "Filterlar"
 
-#: ui/kis_node_manager.cpp:258
+#: ui/kis_node_manager.cpp:265
 #, fuzzy
 msgid "&Local Selection"
 msgstr "Tanlanganni bekitish"
 
-#: ui/kis_node_manager.cpp:264
+#: ui/kis_node_manager.cpp:271
 #, fuzzy
 #| msgid "&Layer"
 msgid "to &Paint Layer"
 msgstr "&Qatlam"
 
-#: ui/kis_node_manager.cpp:267
+#: ui/kis_node_manager.cpp:274
 #, fuzzy
 msgid "to &Selection Mask"
 msgstr "Tanlash boʻyogʻi"
 
-#: ui/kis_node_manager.cpp:270
+#: ui/kis_node_manager.cpp:277
 #, fuzzy
 #| msgid "Filters"
 msgid "to &Filter Mask..."
 msgstr "Filterlar"
 
-#: ui/kis_node_manager.cpp:273
+#: ui/kis_node_manager.cpp:280
 #, fuzzy
 msgid "to &Transparency Mask"
 msgstr "Shaffof"
 
-#: ui/kis_node_manager.cpp:279
+#: ui/kis_node_manager.cpp:286
 #, fuzzy
 #| msgid "&Filters Gallery"
 msgid "&Isolate Layer"
 msgstr "Filterlar &toʻplami"
 
-#: ui/kis_node_manager.cpp:464
+#: ui/kis_node_manager.cpp:471
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to a Selection Mask"
 msgstr "Tanlanganni bekitish"
 
-#: ui/kis_node_manager.cpp:664
+#: ui/kis_node_manager.cpp:687
 #, fuzzy
 #| msgid "Remove Layer"
 msgctxt "(qtundo-format)"
 msgid "Remove Last Layer"
 msgstr "Qatlamni olib tashlash"
 
-#: ui/kis_node_manager.cpp:683
+#: ui/kis_node_manager.cpp:701
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove Multple Layers and Masks"
+msgstr "Qatlamni olib tashlash"
+
+#: ui/kis_node_manager.cpp:732
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer X"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:685
+#: ui/kis_node_manager.cpp:734
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask X"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:696
+#: ui/kis_node_manager.cpp:745
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Y"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:698
+#: ui/kis_node_manager.cpp:747
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:819
+#: ui/kis_node_manager.cpp:846
+#, fuzzy
+#| msgid "Copy Red"
+msgid "Merged"
+msgstr "Qizildan nusxa olish"
+
+#: ui/kis_node_manager.cpp:849
+#, fuzzy
+#| msgid "Remove Selected Color"
+msgctxt "(qtundo-format)"
+msgid "Merge Selected Nodes"
+msgstr "Tanlangan rangni olib tashlash"
+
+#: ui/kis_node_manager.cpp:940
 #, fuzzy, kde-format
 msgid "Export \"%1\""
 msgstr "Ekspozitsiya:"
@@ -15047,52 +15071,52 @@ msgid ""
 "selection instead"
 msgstr ""
 
-#: ui/tool/kis_tool.cc:121
+#: ui/tool/kis_tool.cc:123
 #, fuzzy
 #| msgid "Foreground Color"
 msgid "Swap Foreground and Background Color"
 msgstr "Oldin fon rangi"
 
-#: ui/tool/kis_tool.cc:127
+#: ui/tool/kis_tool.cc:129
 #, fuzzy
 #| msgid "Foreground Color"
 msgid "Reset Foreground and Background Color"
 msgstr "Oldin fon rangi"
 
-#: ui/tool/kis_tool.cc:545
+#: ui/tool/kis_tool.cc:538
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Clear"
 msgstr "Ayiqlar"
 
-#: ui/tool/kis_tool.cc:574
+#: ui/tool/kis_tool.cc:567
 #, fuzzy
 msgid "No options"
 msgstr "Alfa moslamalari"
 
-#: ui/tool/kis_tool.cc:722
+#: ui/tool/kis_tool.cc:715
 #, fuzzy
 #| msgid "Layer is locked or invisible."
 msgid "Layer is locked and invisible."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/tool/kis_tool.cc:724
+#: ui/tool/kis_tool.cc:717
 #, fuzzy
 #| msgid "Layer is locked or invisible."
 msgid "Layer is locked."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/tool/kis_tool.cc:726
+#: ui/tool/kis_tool.cc:719
 #, fuzzy
 #| msgid "Layer is locked or invisible."
 msgid "Layer is invisible."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/tool/kis_tool.cc:728
+#: ui/tool/kis_tool.cc:721
 msgid "Group not editable."
 msgstr ""
 
-#: ui/tool/kis_tool.cc:743
+#: ui/tool/kis_tool.cc:736
 #, fuzzy
 msgid "Local selection is locked."
 msgstr "Palitra tanlanmagan."
@@ -18478,10 +18502,6 @@ msgstr "Ranglar"
 #, fuzzy
 #~ msgid "&Transform"
 #~ msgstr "Boshqa shaklga almashtirish"
-
-#, fuzzy
-#~ msgid "Remove Layer Mask"
-#~ msgstr "Qatlamni olib tashlash"
 
 #, fuzzy
 #~ msgid "Pixel Size"
