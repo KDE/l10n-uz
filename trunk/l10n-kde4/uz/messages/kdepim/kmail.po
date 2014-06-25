@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-24 01:46+0000\n"
+"POT-Creation-Date: 2014-06-25 01:55+0000\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2611,11 +2611,21 @@ msgstr "Xabar %1 tomonidan imzolangan."
 msgid "Folder Shortcut %1"
 msgstr ""
 
-#: followupreminder/followupreminderselectdatedialog.cpp:30
+#: followupreminder/followupreminderselectdatedialog.cpp:31
 #, fuzzy
 #| msgid "Select Style"
 msgid "Select Date"
 msgstr "Uslubni tanlash"
+
+#: followupreminder/followupreminderselectdatedialog.cpp:79
+msgid "The selected date must be greater than the current date."
+msgstr ""
+
+#: followupreminder/followupreminderselectdatedialog.cpp:79
+#, fuzzy
+#| msgid "&Enable signature"
+msgid "Invalid date"
+msgstr "Im&zoni yoqish"
 
 #: identity/identityaddvcarddialog.cpp:35
 #: identity/identityeditvcarddialog.cpp:38
@@ -9019,11 +9029,6 @@ msgstr[0] ""
 
 #~ msgid "<b>Bad</b> signature."
 #~ msgstr "<b>Xato</b> imzo."
-
-#, fuzzy
-#~| msgid "&Enable signature"
-#~ msgid "Invalid signature."
-#~ msgstr "Im&zoni yoqish"
 
 #, fuzzy
 #~| msgid "Not enough information to check signature. %1"
