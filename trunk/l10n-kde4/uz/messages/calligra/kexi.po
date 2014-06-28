@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-19 01:29+0000\n"
+"POT-Creation-Date: 2014-06-28 01:33+0000\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1246,7 +1246,7 @@ msgstr "Elementni olib tashlash"
 msgid "Contents"
 msgstr "Izohlar"
 
-#: formeditor/editlistviewdialog.cpp:119 formeditor/form.cpp:404
+#: formeditor/editlistviewdialog.cpp:119 formeditor/form_p.cpp:254
 #: plugins/queries/kexiquerydesignerguieditor.cpp:1755
 #: plugins/tables/kexitabledesignerview.cpp:374
 #, fuzzy
@@ -1391,7 +1391,7 @@ msgstr ""
 msgid "A container to group some widgets"
 msgstr ""
 
-#: formeditor/factories/containerfactory.cpp:510 formeditor/form.cpp:428
+#: formeditor/factories/containerfactory.cpp:510 formeditor/form_p.cpp:278
 #: plugins/forms/kexidbfactory.cpp:154
 msgid "Frame"
 msgstr "Freym"
@@ -1617,7 +1617,7 @@ msgctxt "Edit rich text for a widget"
 msgid "Edit Rich Text"
 msgstr ""
 
-#: formeditor/factories/stdwidgetfactory.cpp:187 formeditor/form.cpp:731
+#: formeditor/factories/stdwidgetfactory.cpp:187 formeditor/form.cpp:285
 #: plugins/forms/kexidbfactory.cpp:84
 msgid "Form"
 msgstr "Shakl"
@@ -2245,162 +2245,243 @@ msgctxt "default indent value"
 msgid "default"
 msgstr "Andoza: %1"
 
+#: formeditor/form.cpp:795
+#, fuzzy, kde-format
+msgid "Renaming widget \"%1\" to \"%2\" failed."
+msgstr "\"%1\" obʼektini nomini oʻzgartirib boʻlmadi."
+
+#: formeditor/form.cpp:1366
+#, fuzzy, kde-format
+msgid ""
+"Could not rename widget \"%1\" to \"%2\" because \"%3\" is not a valid name "
+"(identifier) for a widget.\n"
+msgstr "Ushbu nomni qoʻllab boʻlmaydi. \"%1\" nomli obʼekt allaqachon mavjud."
+
+#: formeditor/form.cpp:1377
+#, fuzzy, kde-format
+msgid ""
+"Could not rename widget \"%1\" to \"%2\" because a widget with the name "
+"\"%3\" already exists.\n"
+msgstr "Ushbu nomni qoʻllab boʻlmaydi. \"%1\" nomli obʼekt allaqachon mavjud."
+
+#: formeditor/form.cpp:1491 formeditor/form.cpp:1750
+#, kde-format
+msgid "Multiple Widgets (%1)"
+msgstr ""
+
+#: formeditor/form.cpp:1740
+#, fuzzy, kde-format
+msgid "%1 : Form"
+msgstr "Rasm yoʻq"
+
+#: formeditor/form.cpp:1802
+msgid "No Buddy"
+msgstr ""
+
+#: formeditor/form.cpp:1842
+msgid "Events"
+msgstr ""
+
+#: formeditor/form.cpp:2235
+msgid ""
+"<b>Cannot create the layout.</b>\n"
+"All selected widgets must have the same parent."
+msgstr ""
+
+#: formeditor/form.cpp:2300
+msgctxt "Translators: please keep this string short (less than 20 chars)"
+msgid "Hor. Alignment"
+msgstr ""
+
+#: formeditor/form.cpp:2301
+#, fuzzy
+#| msgid "&Horizontally"
+msgid "Horizontal Alignment"
+msgstr "&Eniga"
+
+#: formeditor/form.cpp:2323
+msgctxt "Translators: please keep this string short (less than 20 chars)"
+msgid "Ver. Alignment"
+msgstr ""
+
+#: formeditor/form.cpp:2324
+#, fuzzy
+#| msgid "&Vertically"
+msgid "Vertical Alignment"
+msgstr "&Boʻyiga"
+
+#: formeditor/form.cpp:2336
+msgid "Word Break"
+msgstr ""
+
+#: formeditor/form.cpp:2407
+msgid "Container's Layout"
+msgstr ""
+
+#: formeditor/form.cpp:2414
+msgid "Layout Margin"
+msgstr ""
+
+#: formeditor/form.cpp:2421
+msgid "Layout Spacing"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: formeditor/form.cpp:402 formeditor/form.cpp:403
+#: formeditor/form_p.cpp:252 formeditor/form_p.cpp:253
 #: plugins/tables/kexitabledesignerview.cpp:337
 #: widget/KexiConnectionSelector.ui:94
 msgid "Name"
 msgstr "Nomi"
 
-#: formeditor/form.cpp:405
+#: formeditor/form_p.cpp:255
 #, fuzzy
 #| msgid "&Window"
 msgid "Window title"
 msgstr "&Oyna"
 
-#: formeditor/form.cpp:406
+#: formeditor/form_p.cpp:256
 msgid "Text"
 msgstr "Matn"
 
-#: formeditor/form.cpp:407
+#: formeditor/form_p.cpp:257
 msgid "Background Pixmap"
 msgstr ""
 
-#: formeditor/form.cpp:408
+#: formeditor/form_p.cpp:258
 #, fuzzy
 #| msgid "Table"
 msgid "Enabled"
 msgstr "Jadval"
 
-#: formeditor/form.cpp:409
+#: formeditor/form_p.cpp:259
 msgid "Geometry"
 msgstr ""
 
-#: formeditor/form.cpp:410
+#: formeditor/form_p.cpp:260
 msgid "Size Policy"
 msgstr ""
 
-#: formeditor/form.cpp:411
+#: formeditor/form_p.cpp:261
 #, fuzzy
 #| msgid "Medium"
 msgid "Minimum Size"
 msgstr "Oʻrtacha"
 
-#: formeditor/form.cpp:412
+#: formeditor/form_p.cpp:262
 #, fuzzy
 #| msgid "Medium"
 msgid "Maximum Size"
 msgstr "Oʻrtacha"
 
-#: formeditor/form.cpp:413
+#: formeditor/form_p.cpp:263
 #, fuzzy
 #| msgid "&Font..."
 msgid "Font"
 msgstr "&Shrift..."
 
-#: formeditor/form.cpp:414
+#: formeditor/form_p.cpp:264
 #, fuzzy
 msgid "Cursor"
 msgstr "Matn"
 
-#: formeditor/form.cpp:415
+#: formeditor/form_p.cpp:265
 #, fuzzy
 msgid "Foreground Color"
 msgstr "Freym"
 
-#: formeditor/form.cpp:416
+#: formeditor/form_p.cpp:266
 #, fuzzy
 msgid "Background Color"
 msgstr "Ustun"
 
-#: formeditor/form.cpp:417
+#: formeditor/form_p.cpp:267
 #, fuzzy
 msgid "Fill Background"
 msgstr "Amalsiz"
 
-#: formeditor/form.cpp:418
+#: formeditor/form_p.cpp:268
 msgid "Focus Policy"
 msgstr ""
 
-#: formeditor/form.cpp:419
+#: formeditor/form_p.cpp:269
 #, fuzzy
 #| msgid "Min"
 msgid "Margin"
 msgstr "Minimum"
 
-#: formeditor/form.cpp:420 plugins/forms/kexidbfactorybase.cpp:64
+#: formeditor/form_p.cpp:270 plugins/forms/kexidbfactorybase.cpp:64
 msgid "Read Only"
 msgstr ""
 
-#: formeditor/form.cpp:421
+#: formeditor/form_p.cpp:271
 msgid "Style Sheet"
 msgstr ""
 
-#: formeditor/form.cpp:422
+#: formeditor/form_p.cpp:272
 #, fuzzy
 msgctxt "Widget's Tooltip"
 msgid "Tooltip"
 msgstr "Jami"
 
-#: formeditor/form.cpp:423
+#: formeditor/form_p.cpp:273
 msgctxt "Widget's Whats This"
 msgid "What's This"
 msgstr ""
 
-#: formeditor/form.cpp:424
+#: formeditor/form_p.cpp:274
 #, fuzzy
 msgid "Layout Direction"
 msgstr "Amalsiz"
 
-#: formeditor/form.cpp:425
+#: formeditor/form_p.cpp:275
 #, fuzzy
 #| msgid "Size"
 msgid "Icon Size"
 msgstr "Oʻlchami"
 
-#: formeditor/form.cpp:429
+#: formeditor/form_p.cpp:279
 #, fuzzy
 #| msgid "Frame"
 msgid "Frame Width"
 msgstr "Freym"
 
-#: formeditor/form.cpp:430
+#: formeditor/form_p.cpp:280
 msgid "Mid Frame Width"
 msgstr ""
 
-#: formeditor/form.cpp:431
+#: formeditor/form_p.cpp:281
 #, fuzzy
 #| msgid "Frame"
 msgid "Frame Shape"
 msgstr "Freym"
 
-#: formeditor/form.cpp:432
+#: formeditor/form_p.cpp:282
 #, fuzzy
 msgid "Frame Shadow"
 msgstr "Freym"
 
-#: formeditor/form.cpp:434
+#: formeditor/form_p.cpp:284
 #, fuzzy
 #| msgid "&Vertically"
 msgid "Vertical Scrollbar"
 msgstr "&Boʻyiga"
 
-#: formeditor/form.cpp:435
+#: formeditor/form_p.cpp:285
 #, fuzzy
 #| msgid "&Horizontally"
 msgid "Horizontal Scrollbar"
 msgstr "&Eniga"
 
-#: formeditor/form.cpp:437
+#: formeditor/form_p.cpp:287
 #, fuzzy
 msgid "No Background"
 msgstr "Amalsiz"
 
-#: formeditor/form.cpp:438
+#: formeditor/form_p.cpp:288
 msgid "Palette Foreground"
 msgstr ""
 
-#: formeditor/form.cpp:439
+#: formeditor/form_p.cpp:289
 #, fuzzy
 #| msgctxt "AutoField editor's type"
 #| msgid "Auto"
@@ -2408,7 +2489,7 @@ msgctxt "Auto (HINT: for AutoText)"
 msgid "Auto"
 msgstr "Avto"
 
-#: formeditor/form.cpp:441
+#: formeditor/form_p.cpp:291
 #, fuzzy
 #| msgctxt "AutoField editor's type"
 #| msgid "Auto"
@@ -2416,7 +2497,7 @@ msgctxt "Auto (HINT: for Align)"
 msgid "Auto"
 msgstr "Avto"
 
-#: formeditor/form.cpp:442
+#: formeditor/form_p.cpp:292
 #, fuzzy
 #| msgctxt "Label Position"
 #| msgid "Left"
@@ -2424,26 +2505,26 @@ msgctxt "Left (HINT: for Align)"
 msgid "Left"
 msgstr "Chapda"
 
-#: formeditor/form.cpp:443
+#: formeditor/form_p.cpp:293
 #, fuzzy
 #| msgid "To Right"
 msgctxt "Right (HINT: for Align)"
 msgid "Right"
 msgstr "Oʻngga"
 
-#: formeditor/form.cpp:444 formeditor/form.cpp:446
+#: formeditor/form_p.cpp:294 formeditor/form_p.cpp:296
 #, fuzzy
 #| msgid "Create"
 msgctxt "Center (HINT: for Align)"
 msgid "Center"
 msgstr "Yaratish"
 
-#: formeditor/form.cpp:445
+#: formeditor/form_p.cpp:295
 msgctxt "Justify (HINT: for Align)"
 msgid "Justify"
 msgstr ""
 
-#: formeditor/form.cpp:447
+#: formeditor/form_p.cpp:297
 #, fuzzy
 #| msgctxt "Label Position"
 #| msgid "Top"
@@ -2451,265 +2532,184 @@ msgctxt "Top (HINT: for Align)"
 msgid "Top"
 msgstr "Yuqorida"
 
-#: formeditor/form.cpp:448
+#: formeditor/form_p.cpp:298
 #, fuzzy
 #| msgid "To Bottom"
 msgctxt "Bottom (HINT: for Align)"
 msgid "Bottom"
 msgstr "Pastga"
 
-#: formeditor/form.cpp:450
+#: formeditor/form_p.cpp:300
 #, fuzzy
 #| msgid "Frame"
 msgctxt "No Frame (HINT: for Frame Shape)"
 msgid "No Frame"
 msgstr "Freym"
 
-#: formeditor/form.cpp:451
+#: formeditor/form_p.cpp:301
 msgctxt "Box (HINT: for Frame Shape)"
 msgid "Box"
 msgstr ""
 
-#: formeditor/form.cpp:452
+#: formeditor/form_p.cpp:302
 #, fuzzy
 #| msgid "Page:"
 msgctxt "Panel (HINT: for Frame Shape)"
 msgid "Panel"
 msgstr "Bet:"
 
-#: formeditor/form.cpp:453
+#: formeditor/form_p.cpp:303
 #, fuzzy
 #| msgid "&Window"
 msgctxt "Windows Panel (HINT: for Frame Shape)"
 msgid "Windows Panel"
 msgstr "&Oyna"
 
-#: formeditor/form.cpp:454
+#: formeditor/form_p.cpp:304
 #, fuzzy
 #| msgid "&Horizontally"
 msgctxt "Horiz. Line (HINT: for Frame Shape)"
 msgid "Horiz. Line"
 msgstr "&Eniga"
 
-#: formeditor/form.cpp:455
+#: formeditor/form_p.cpp:305
 #, fuzzy
 #| msgid "&Vertically"
 msgctxt "Vertical Line (HINT: for Frame Shape)"
 msgid "Vertical Line"
 msgstr "&Boʻyiga"
 
-#: formeditor/form.cpp:456
+#: formeditor/form_p.cpp:306
 msgctxt "Styled (HINT: for Frame Shape)"
 msgid "Styled"
 msgstr ""
 
-#: formeditor/form.cpp:457
+#: formeditor/form_p.cpp:307
 msgctxt "Popup (HINT: for Frame Shape)"
 msgid "Popup"
 msgstr ""
 
-#: formeditor/form.cpp:458
+#: formeditor/form_p.cpp:308
 msgctxt "Menu Bar (HINT: for Frame Shape)"
 msgid "Menu Bar"
 msgstr ""
 
-#: formeditor/form.cpp:459
+#: formeditor/form_p.cpp:309
 #, fuzzy
 msgctxt "Toolbar (HINT: for Frame Shape)"
 msgid "Toolbar"
 msgstr "Jami"
 
-#: formeditor/form.cpp:460
+#: formeditor/form_p.cpp:310
 #, fuzzy
 msgctxt "Text Box (HINT: for Frame Shape)"
 msgid "Text Box"
 msgstr "Matn"
 
-#: formeditor/form.cpp:461
+#: formeditor/form_p.cpp:311
 #, fuzzy
 msgctxt "Tab Widget (HINT: for Frame Shape)"
 msgid "Tab Widget"
 msgstr "Uzunlashishi boʻyicha"
 
-#: formeditor/form.cpp:462
+#: formeditor/form_p.cpp:312
 #, fuzzy
 #| msgid "Group by"
 msgctxt "Group Box (HINT: for Frame Shape)"
 msgid "Group Box"
 msgstr "Guruhlash"
 
-#: formeditor/form.cpp:464
+#: formeditor/form_p.cpp:314
 #, fuzzy
 msgctxt "Plain (HINT: for Frame Shadow)"
 msgid "Plain"
 msgstr "chiziq"
 
-#: formeditor/form.cpp:465
+#: formeditor/form_p.cpp:315
 msgctxt "Raised (HINT: for Frame Shadow)"
 msgid "Raised"
 msgstr ""
 
-#: formeditor/form.cpp:466
+#: formeditor/form_p.cpp:316
 msgctxt "Sunken (HINT: for Frame Shadow)"
 msgid "Sunken"
 msgstr ""
 
-#: formeditor/form.cpp:467
+#: formeditor/form_p.cpp:317
 #, fuzzy
 #| msgid "Create"
 msgctxt "for Frame Shadow"
 msgid "Internal"
 msgstr "Yaratish"
 
-#: formeditor/form.cpp:469
+#: formeditor/form_p.cpp:319
 msgctxt "No Focus (HINT: for Focus)"
 msgid "No Focus"
 msgstr ""
 
-#: formeditor/form.cpp:470
+#: formeditor/form_p.cpp:320
 #, fuzzy
 #| msgid "Table"
 msgctxt "Tab (HINT: for Focus)"
 msgid "Tab"
 msgstr "Jadval"
 
-#: formeditor/form.cpp:471
+#: formeditor/form_p.cpp:321
 #, fuzzy
 msgctxt "Click (HINT: for Focus)"
 msgid "Click"
 msgstr "Soʻrov"
 
-#: formeditor/form.cpp:472
+#: formeditor/form_p.cpp:322
 msgctxt "Tab/Click (HINT: for Focus)"
 msgid "Tab/Click"
 msgstr ""
 
-#: formeditor/form.cpp:473
+#: formeditor/form_p.cpp:323
 msgctxt "Tab/Click/MouseWheel (HINT: for Focus)"
 msgid "Tab/Click/MouseWheel"
 msgstr ""
 
-#: formeditor/form.cpp:475
+#: formeditor/form_p.cpp:325
 #, fuzzy
 #| msgctxt "AutoField editor's type"
 #| msgid "Auto"
 msgid "Auto"
 msgstr "Avto"
 
-#: formeditor/form.cpp:476
+#: formeditor/form_p.cpp:326
 msgid "Always Off"
 msgstr ""
 
-#: formeditor/form.cpp:477
+#: formeditor/form_p.cpp:327
 msgid "Always On"
 msgstr ""
 
-#: formeditor/form.cpp:480
+#: formeditor/form_p.cpp:330
 #, fuzzy
 #| msgid "&Horizontally"
 msgid "Horizontal"
 msgstr "&Eniga"
 
-#: formeditor/form.cpp:481
+#: formeditor/form_p.cpp:331
 #, fuzzy
 #| msgid "&Vertically"
 msgid "Vertical"
 msgstr "&Boʻyiga"
 
-#: formeditor/form.cpp:484
+#: formeditor/form_p.cpp:334
 #, fuzzy
 #| msgid "To Right"
 msgid "Left to Right"
 msgstr "Oʻngga"
 
-#: formeditor/form.cpp:485
+#: formeditor/form_p.cpp:335
 #, fuzzy
 #| msgid "To Left"
 msgid "Right to Left"
 msgstr "Chapga"
 
-#: formeditor/form.cpp:1241
-#, fuzzy, kde-format
-msgid "Renaming widget \"%1\" to \"%2\" failed."
-msgstr "\"%1\" obʼektini nomini oʻzgartirib boʻlmadi."
-
-#: formeditor/form.cpp:1812
-#, fuzzy, kde-format
-msgid ""
-"Could not rename widget \"%1\" to \"%2\" because \"%3\" is not a valid name "
-"(identifier) for a widget.\n"
-msgstr "Ushbu nomni qoʻllab boʻlmaydi. \"%1\" nomli obʼekt allaqachon mavjud."
-
-#: formeditor/form.cpp:1823
-#, fuzzy, kde-format
-msgid ""
-"Could not rename widget \"%1\" to \"%2\" because a widget with the name "
-"\"%3\" already exists.\n"
-msgstr "Ushbu nomni qoʻllab boʻlmaydi. \"%1\" nomli obʼekt allaqachon mavjud."
-
-#: formeditor/form.cpp:1937 formeditor/form.cpp:2196
-#, kde-format
-msgid "Multiple Widgets (%1)"
-msgstr ""
-
-#: formeditor/form.cpp:2186
-#, fuzzy, kde-format
-msgid "%1 : Form"
-msgstr "Rasm yoʻq"
-
-#: formeditor/form.cpp:2248
-msgid "No Buddy"
-msgstr ""
-
-#: formeditor/form.cpp:2288
-msgid "Events"
-msgstr ""
-
-#: formeditor/form.cpp:2681
-msgid ""
-"<b>Cannot create the layout.</b>\n"
-"All selected widgets must have the same parent."
-msgstr ""
-
-#: formeditor/form.cpp:2746
-msgctxt "Translators: please keep this string short (less than 20 chars)"
-msgid "Hor. Alignment"
-msgstr ""
-
-#: formeditor/form.cpp:2747
-#, fuzzy
-#| msgid "&Horizontally"
-msgid "Horizontal Alignment"
-msgstr "&Eniga"
-
-#: formeditor/form.cpp:2769
-msgctxt "Translators: please keep this string short (less than 20 chars)"
-msgid "Ver. Alignment"
-msgstr ""
-
-#: formeditor/form.cpp:2770
-#, fuzzy
-#| msgid "&Vertically"
-msgid "Vertical Alignment"
-msgstr "&Boʻyiga"
-
-#: formeditor/form.cpp:2782
-msgid "Word Break"
-msgstr ""
-
-#: formeditor/form.cpp:2853
-msgid "Container's Layout"
-msgstr ""
-
-#: formeditor/form.cpp:2860
-msgid "Layout Margin"
-msgstr ""
-
-#: formeditor/form.cpp:2867
-msgid "Layout Spacing"
-msgstr ""
-
-#: formeditor/formIO.cpp:141 formeditor/formIO.cpp:321
+#: formeditor/formIO.cpp:140 formeditor/formIO.cpp:320
 msgid "*.ui|Qt Designer UI Files"
 msgstr ""
 
@@ -3163,7 +3163,7 @@ msgid "Fi&nd:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, m_btnReplace)
-#: main/kexifinddialog.ui:107 migration/importwizard.cpp:815
+#: main/kexifinddialog.ui:107 migration/importwizard.cpp:817
 #: widget/KexiNameDialog.cpp:164 widget/utils/kexicontextmenuutils.cpp:155
 msgid "&Replace"
 msgstr "&Almashtirish"
@@ -4101,10 +4101,10 @@ msgstr ""
 msgid "Activates \"What's This\" tool."
 msgstr ""
 
-#: main/KexiMainWindow_p.h:897 migration/importwizard.cpp:970
-#: migration/importwizard.cpp:973 migration/importwizard.cpp:975
-#: migration/importwizard.cpp:977 migration/importwizard.cpp:979
-#: migration/importwizard.cpp:981
+#: main/KexiMainWindow_p.h:897 migration/importwizard.cpp:972
+#: migration/importwizard.cpp:975 migration/importwizard.cpp:977
+#: migration/importwizard.cpp:979 migration/importwizard.cpp:981
+#: migration/importwizard.cpp:983
 msgid "Help"
 msgstr ""
 
@@ -4883,8 +4883,8 @@ msgid "Share"
 msgstr ""
 
 #: migration/AlterSchemaWidget.cpp:51 migration/AlterSchemaWidget.cpp:113
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:166
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1366
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1277
+#: plugins/importexport/csv/KexiCSVImportDialogModel.cpp:75
 #, kde-format
 msgid "Column %1"
 msgstr "Ustun %1"
@@ -4992,7 +4992,7 @@ msgid "Alter the Detected Design"
 msgstr ""
 
 #: migration/importtablewizard.cpp:277 migration/importwizard.cpp:457
-#: migration/importwizard.cpp:834
+#: migration/importwizard.cpp:836
 msgid "Success"
 msgstr "Muvaffaqiyat"
 
@@ -5011,13 +5011,13 @@ msgid ""
 "\n"
 msgstr ""
 
-#: migration/importtablewizard.cpp:463 migration/importwizard.cpp:719
+#: migration/importtablewizard.cpp:463 migration/importwizard.cpp:721
 msgid "No appropriate migration driver found."
 msgstr ""
 
 #: migration/importtablewizard.cpp:552
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:481
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1822
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:392
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1733
 msgid "No project available."
 msgstr "Loyiha mavjud emas."
 
@@ -5133,73 +5133,73 @@ msgid ""
 "Depending on size of the database this may take some time."
 msgstr ""
 
-#: migration/importwizard.cpp:812
+#: migration/importwizard.cpp:814
 #, fuzzy, kde-format
 msgid "Database %1 already exists.<p>Do you want to replace it with a new one?"
 msgstr ""
 "\"%1\" loyihasi allaqachon mavjud.\n"
 "Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
 
-#: migration/importwizard.cpp:815
+#: migration/importwizard.cpp:817
 #, fuzzy
 msgid "No"
 msgstr "Yoʻq"
 
-#: migration/importwizard.cpp:848
+#: migration/importwizard.cpp:850
 msgid "Failure"
 msgstr "Muvaffaqiyatsizlik"
 
-#: migration/importwizard.cpp:851
+#: migration/importwizard.cpp:853
 #, kde-format
 msgid ""
 "<p>Import failed.</p>%1<p>%2</p><p>You can click \"Back\" button and try "
 "again.</p>"
 msgstr ""
 
-#: migration/importwizard.cpp:871
+#: migration/importwizard.cpp:873
 msgid "Select source database filename."
 msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
 
-#: migration/importwizard.cpp:876
+#: migration/importwizard.cpp:878
 msgid "Select source database."
 msgstr "Manba maʼlumotlar bazani tanlang."
 
-#: migration/importwizard.cpp:890
+#: migration/importwizard.cpp:892
 #, fuzzy
 msgid "Could not import database. This type is not supported."
 msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
 
-#: migration/importwizard.cpp:891
+#: migration/importwizard.cpp:893
 #, fuzzy, kde-format
 msgid "Could not import database \"%1\". This type is not supported."
 msgstr "<p><nobr>\"%1\"</nobr> faylini oʻqib boʻlmaydi.</p>"
 
-#: migration/importwizard.cpp:905
+#: migration/importwizard.cpp:907
 msgid "Importing in progress..."
 msgstr "Import qilinmoqda..."
 
-#: migration/importwizard.cpp:909
+#: migration/importwizard.cpp:911
 #, fuzzy, kde-format
 msgid "Database has been imported into Kexi database project \"%1\"."
 msgstr "Maʼlumotlar \"%1\" jadvaliga muvaffaqiyatli import qilindi."
 
-#: migration/importwizard.cpp:970 migration/importwizard.cpp:981
+#: migration/importwizard.cpp:972 migration/importwizard.cpp:983
 msgid "No help is available for this page."
 msgstr "Ushbu oyna uchun yordam mavjud emas."
 
-#: migration/importwizard.cpp:973
+#: migration/importwizard.cpp:975
 msgid "Here you can choose the location to import data from."
 msgstr ""
 
-#: migration/importwizard.cpp:975
+#: migration/importwizard.cpp:977
 msgid "Here you can choose the actual database to import data from."
 msgstr ""
 
-#: migration/importwizard.cpp:977
+#: migration/importwizard.cpp:979
 msgid "Here you can choose the location to save the data."
 msgstr ""
 
-#: migration/importwizard.cpp:979
+#: migration/importwizard.cpp:981
 msgid ""
 "Here you can choose the location to save the data in and the new database "
 "name."
@@ -6155,12 +6155,12 @@ msgid "Show Options >>"
 msgstr "Moslamalarni koʻrsatish >>"
 
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:176
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:663
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:574
 msgid "Delimiter:"
 msgstr "Ajratuvchi:"
 
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:185
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:692
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:603
 msgid "Text quote:"
 msgstr ""
 
@@ -6193,141 +6193,134 @@ msgstr "Eksport qilinmoqda"
 msgid "Hide Options <<"
 msgstr "Moslamalarni bekitish <<"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:178
-#, fuzzy
-#| msgid "Column name"
-msgctxt "@title:row"
-msgid "Column name"
-msgstr "Ustun nomi"
-
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:318
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:229
 msgid "no"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:320
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:231
 #, fuzzy
 #| msgid "file"
 msgid "false"
 msgstr "fayl"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:328
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:239
 #, fuzzy
 #| msgid "Import CSV Data File"
 msgid "Import CSV Data From File"
 msgstr "CSV maʼlumot faylini import qilish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:328
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:239
 #, fuzzy
 #| msgid "Copy Data From Table to Clipboard"
 msgid "Paste CSV Data From Clipboard"
 msgstr "Jadvaldagi maʼlumotlardan xotiraga nusxa olish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:337
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:248
 #: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:154
 msgid "&Import..."
 msgstr "&Import qilish..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:339
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:250
 #, fuzzy
 #| msgid "Next Page"
 msgctxt "Opposite to Back"
 msgid "Next"
 msgstr "Keyingi bet"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:412
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:323
 msgid "Open CSV Data File"
 msgstr "CSV maʼlumot faylini ochish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:461
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:372
 #, fuzzy
 #| msgid "Select source database filename."
 msgctxt "@info"
 msgid "Select source filename."
 msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:474
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:385
 msgid "Data set contains no rows. Do you want to import empty table?"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:487
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1827
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:398
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1738
 #, fuzzy
 msgid "No database connection available."
 msgstr "Loyiha mavjud emas."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:505
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:416
 #: widget/KexiNameDialog.cpp:155
 msgid "Please choose other name."
 msgstr "Iltimos boshqa nom tanlang."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:555
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:466
 #, fuzzy
 #| msgid "Loading CSV Data"
 msgctxt "@title:window"
 msgid "Loading CSV Data"
 msgstr "CSV maʼlumotlarini yuklash"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:556
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:467
 #, fuzzy, kde-format
 #| msgid "Loading CSV Data from \"%1\"..."
 msgctxt "@info"
 msgid "Loading CSV Data from <filename>%1</filename>..."
 msgstr "CSV maʼlumotlari \"%1\"dan yuklanmoqda..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:622
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:836
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:533
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:747
 #, fuzzy
 #| msgid "Table"
 msgid "To table:"
 msgstr "Jadval"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:639
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:550
 #, fuzzy
 #| msgid "Select Type of Import"
 msgid "Select file name for import"
 msgstr "Import qilish usulini tanlang"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:649
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:560
 #, fuzzy
 msgid "Preview of data from file:"
 msgstr "Maʼlumotlar jadvalini fayldan import qilish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:650
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:561
 #, fuzzy
 msgid "Preview of data from clipboard"
 msgstr "Maʼlumotlar jadvalini fayldan import qilish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:684
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:595
 msgid "Primary key"
 msgstr "Birinchi darajali kalit"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:716
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:627
 msgid "Ignore duplicated delimiters"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:721
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:632
 msgid "First row contains column names"
 msgstr "Birinchi satrda ustun nomlari mavjud"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:739
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:650
 #, fuzzy
 #| msgid "CSV Import Options"
 msgid "Import Options"
 msgstr "CSV import qilish moslamalari"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:748
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:659
 #, fuzzy
 #| msgid "New database"
 msgctxt "@action:button"
 msgid "New table"
 msgstr "Yangi maʼlumot bazasi"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:749
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:660
 msgctxt "CSV import: data will be appended to a new table"
 msgid "Data will be appended to a new table"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:751
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:662
 #, fuzzy
 #| msgid ""
 #| "Import Existing\n"
@@ -6338,97 +6331,97 @@ msgstr ""
 "Mavjud maʼlumot bazasini\n"
 "import qilish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:752
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:663
 msgctxt "CSV import: data will be appended to existing table"
 msgid "Data will be appended to existing table"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:763
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:674
 msgid "Choose Method of Saving Imported Data"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:794
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:705
 #, fuzzy
 #| msgid "Caption:"
 msgctxt "@label"
 msgid "Caption:"
 msgstr "Sarlavha:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:795
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:706
 #, fuzzy
 #| msgid "Name:"
 msgctxt "@label"
 msgid "Name:"
 msgstr "Nomi:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:796
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:707
 #, fuzzy
 msgctxt "@label"
 msgid "Row count:"
 msgstr "Maʼlumot manbasi"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:797
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:708
 #, fuzzy
 #| msgid "Column name"
 msgctxt "@label"
 msgid "Column count:"
 msgstr "Ustun nomi"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:823
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:734
 msgctxt "@label"
 msgid "Choose Name of Destination Table"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:831
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:742
 #, fuzzy
 #| msgid "From File..."
 msgid "From CSV file:"
 msgstr "Fayldan"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:831
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:742
 #, fuzzy
 #| msgid "To clipboard:"
 msgid "From Clipboard"
 msgstr "Xotiraga olish:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:850
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:761
 #, fuzzy
 #| msgid "Importing"
 msgid "Importing..."
 msgstr "Import qilinmoqda"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:903
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:814
 #, kde-format
 msgid "Cannot open input file <nobr>\"%1\"</nobr>."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:980
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:891
 #, kde-format
 msgid "Start at line (1-%1):"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:981
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:989
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:892
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:900
 #, fuzzy
 msgid "Start at line:"
 msgstr "yorliq"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1652
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1563
 #: plugins/queries/kexiquerydesignerguieditor.cpp:226
 msgid "Column"
 msgstr "Ustun"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1689
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1600
 msgctxt "@info"
 msgid "An error occurred during insert record."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1770
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1681
 #, kde-format
 msgid "Format for column %1:"
 msgstr "%1 ustuni koʻrinishi:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1842
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1753
 msgid ""
 "No Primary Key (autonumber) has been defined.\n"
 "Should it be automatically defined on import (recommended)?\n"
@@ -6437,73 +6430,80 @@ msgid ""
 "on database type)."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1846
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1757
 msgctxt "Add Database Primary Key to a Table"
 msgid "Add Primary Key"
 msgstr "Birinchi darajali kalit qoʻshish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1847
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1758
 msgctxt "Do Not Add Database Primary Key to a Table"
 msgid "Do Not Add"
 msgstr "Qoʻshilmasin"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1931
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1842
 msgid "<p>Fields count does not match!</p><p>Please choose another table.</p>"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1971
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1882
 #, kde-format
 msgid "Importing CSV Data from <nobr>\"%1\"</nobr> into \"%2\" table..."
 msgstr ""
 "CSV maʼlumotlari <nobr>\"%1\"dan</nobr> \"%2\" jadvaliga import qilinmoqda..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1987
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1898
 msgid "Import has been canceled."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1989
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1900
 msgid "Error occurred during import."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:2023
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1934
 #, kde-format
 msgid "Data has been successfully imported to table \"%1\"."
 msgstr "Maʼlumotlar \"%1\" jadvaliga muvaffaqiyatli import qilindi."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:2049
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1960
 msgctxt "Text type for column"
 msgid "Text"
 msgstr "Matn"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:2051
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1962
 #, fuzzy
 msgctxt "Numeric type for column"
 msgid "Number"
 msgstr "Matn"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:2053
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1964
 #, fuzzy
 msgctxt "Currency type for column"
 msgid "Currency"
 msgstr "Matn"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:2134
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:2045
 #, fuzzy, kde-format
 #| msgid "(columns: %1)"
 msgctxt "row count"
 msgid "(rows: %1)"
 msgstr "(ustun: %1)"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:2138
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:2049
 #, kde-format
 msgctxt "row count"
 msgid "(rows: more than %1)"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:2139
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:2050
 #, fuzzy
 msgid "Not all rows are visible on this preview"
 msgstr "Ushbu oyna uchun yordam mavjud emas."
+
+#: plugins/importexport/csv/KexiCSVImportDialogModel.cpp:88
+#, fuzzy
+#| msgid "Column name"
+msgctxt "@title:row"
+msgid "Column name"
+msgstr "Ustun nomi"
 
 #: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:102
 msgid "CSV Import Options"
