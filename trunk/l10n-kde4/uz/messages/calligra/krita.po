@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-01 01:42+0000\n"
+"POT-Creation-Date: 2014-07-02 01:43+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -126,7 +126,7 @@ msgstr "Ranglar"
 msgid "&Restart Krita"
 msgstr ""
 
-#: gemini/desktopviewproxy.cpp:124 gemini/MainWindow.cpp:534
+#: gemini/desktopviewproxy.cpp:124 gemini/MainWindow.cpp:545
 #, fuzzy
 #| msgid "Open in New Documents"
 msgid "Open Document"
@@ -224,7 +224,7 @@ msgstr "Moslamalar"
 msgid "Brushes and Stuff"
 msgstr "Choʻtka va boshqa ish qurollari"
 
-#: gemini/main.cpp:70 gemini/MainWindow.cpp:245 gemini/MainWindow.cpp:287
+#: gemini/main.cpp:70 gemini/MainWindow.cpp:251 gemini/MainWindow.cpp:293
 #, fuzzy
 #| msgid "Krita"
 msgid "Krita Gemini"
@@ -255,13 +255,17 @@ msgstr ""
 msgid "Use full-screen display"
 msgstr "Bosim effektlari:"
 
-#: gemini/MainWindow.cpp:286 gemini/MainWindow.cpp:625
+#: gemini/main.cpp:85
+msgid "Start with the Sketch interface"
+msgstr ""
+
+#: gemini/MainWindow.cpp:292 gemini/MainWindow.cpp:636
 #: sketch/MainWindow.cpp:150
 #, fuzzy
 msgid "Untitled"
 msgstr "Nomsiz-1"
 
-#: gemini/MainWindow.cpp:628
+#: gemini/MainWindow.cpp:639
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
@@ -8049,7 +8053,6 @@ msgstr "Tasodifiy"
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:46
 #: plugins/paintops/libpaintop/kis_pressure_rotation_option.cpp:29
 #: plugins/paintops/spray/wdgshapedynamicsoptions.ui:42
-#: plugins/tools/defaulttools/kis_tool_line.cc:72
 #, fuzzy
 #| msgid "Rotating"
 msgid "Rotation"
@@ -8725,7 +8728,6 @@ msgstr "Bosib chiqarish oʻlchami"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:74
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:47
-#: plugins/tools/defaulttools/kis_tool_line.cc:70
 msgid "Pressure"
 msgstr "Bosim"
 
@@ -10796,37 +10798,26 @@ msgstr ""
 msgid "Draw a gradient."
 msgstr "Gradient chizish"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:71
-#, fuzzy
-#| msgid "Style:"
-msgid "Tilt"
-msgstr "Uslubi:"
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:73
-#, fuzzy
-#| msgid "Pressure"
-msgid "Tangential Pressure"
-msgstr "Bosim"
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:74
-#, fuzzy
-msgid "Varying End-Points"
-msgstr "Alfa moslamalari"
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:186
+#: plugins/tools/defaulttools/kis_tool_line.cc:54
 #, fuzzy
 #| msgid "Draw a line"
 msgctxt "(qtundo-format)"
 msgid "Draw Line"
 msgstr "Chiziq chizish"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:259
+#: plugins/tools/defaulttools/kis_tool_line.cc:79
+#, fuzzy
+#| msgid "Color"
+msgid "Use sensors"
+msgstr "Rang"
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:240
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_line.h:85
+#: plugins/tools/defaulttools/kis_tool_line.h:93
 #, fuzzy
 #| msgid "Line Tool"
 msgid "Line Tool"
@@ -13404,7 +13395,7 @@ msgid "Edit Mouse Wheel Input"
 msgstr ""
 
 #: ui/input/kis_abstract_input_action.cpp:44
-#: ui/input/kis_tool_invocation_action.cpp:49
+#: ui/input/kis_tool_invocation_action.cpp:50
 #, fuzzy
 msgid "Activate"
 msgstr "Qatlamni koʻchirish"
@@ -13745,26 +13736,31 @@ msgstr "Palitra"
 msgid "The <i>Show Popup Palette</i> displays the popup palette."
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:45
+#: ui/input/kis_tool_invocation_action.cpp:46
 #, fuzzy
 msgid "Tool Invocation"
 msgstr "Moslash..."
 
-#: ui/input/kis_tool_invocation_action.cpp:46
+#: ui/input/kis_tool_invocation_action.cpp:47
 msgid ""
 "The <i>Tool Invocation</i> action invokes the current tool, for example, "
 "using the brush tool, it will start painting."
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:50
+#: ui/input/kis_tool_invocation_action.cpp:51
 #, fuzzy
 msgid "Confirm"
 msgstr "Doimiy"
 
-#: ui/input/kis_tool_invocation_action.cpp:51 ui/kis_view2.cpp:570
+#: ui/input/kis_tool_invocation_action.cpp:52 ui/kis_view2.cpp:570
 #, fuzzy
 msgid "Cancel"
 msgstr "Kanal"
+
+#: ui/input/kis_tool_invocation_action.cpp:53
+#, fuzzy
+msgid "Activate Line Tool"
+msgstr "Qatlamni koʻchirish"
 
 #: ui/input/kis_zoom_action.cpp:112
 #, fuzzy
@@ -15487,6 +15483,20 @@ msgstr ""
 #| msgid "Colors"
 msgid "&Close"
 msgstr "Ranglar"
+
+#, fuzzy
+#~| msgid "Style:"
+#~ msgid "Tilt"
+#~ msgstr "Uslubi:"
+
+#, fuzzy
+#~| msgid "Pressure"
+#~ msgid "Tangential Pressure"
+#~ msgstr "Bosim"
+
+#, fuzzy
+#~ msgid "Varying End-Points"
+#~ msgstr "Alfa moslamalari"
 
 #, fuzzy
 #~| msgid "Gradient Tool"
