@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-03 01:30+0000\n"
+"POT-Creation-Date: 2014-07-04 01:42+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -203,23 +203,23 @@ msgid "&Select"
 msgstr "&Tanlash"
 
 #. i18n: ectx: Menu (Filter)
-#: gemini/kritagemini.rc:139 krita.rc:141 sketch/kritasketch.rc:139
+#: gemini/kritagemini.rc:139 krita.rc:142 sketch/kritasketch.rc:139
 msgid "Filte&r"
 msgstr "Filte&r"
 
 #. i18n: ectx: Menu (Tools)
-#: gemini/kritagemini.rc:156 krita.rc:158 sketch/kritasketch.rc:156
+#: gemini/kritagemini.rc:156 krita.rc:159 sketch/kritasketch.rc:156
 #, fuzzy
 msgid "&Tools"
 msgstr "Yulduz vositasi"
 
 #. i18n: ectx: Menu (settings)
-#: gemini/kritagemini.rc:159 krita.rc:161 sketch/kritasketch.rc:159
+#: gemini/kritagemini.rc:159 krita.rc:162 sketch/kritasketch.rc:159
 msgid "Settings"
 msgstr "Moslamalar"
 
 #. i18n: ectx: ToolBar (BrushesAndStuff)
-#: gemini/kritagemini.rc:172 krita.rc:174 sketch/kritasketch.rc:172
+#: gemini/kritagemini.rc:172 krita.rc:175 sketch/kritasketch.rc:172
 #, fuzzy
 msgid "Brushes and Stuff"
 msgstr "Choʻtka va boshqa ish qurollari"
@@ -2899,8 +2899,8 @@ msgstr "So&yalar"
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:752
 #: plugins/formats/heightmap/kis_wdg_options_heightmap.ui:30
 #: plugins/formats/pdf/pdfimportwidgetbase.ui:214
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:97
-#: ui/forms/wdgdisplaysettings.ui:77 ui/kis_paintop_box.cc:152
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:100
+#: ui/forms/wdgdisplaysettings.ui:77 ui/kis_paintop_box.cc:154
 #, fuzzy
 #| msgid "Size"
 msgid "Size:"
@@ -3864,7 +3864,7 @@ msgstr "Rangi:"
 #: plugins/filters/randompickfilter/wdgrandompickoptions.ui:65
 #: plugins/paintops/libpaintop/forms/wdgflowopacityoption.ui:38
 #: ui/forms/wdgautogradient.ui:81 ui/forms/wdgpaintactioneditor.ui:89
-#: ui/kis_paintop_box.cc:150
+#: ui/kis_paintop_box.cc:152
 msgid "Opacity:"
 msgstr "Xiralik:"
 
@@ -5521,7 +5521,7 @@ msgstr "Radius"
 
 #. i18n: ectx: property (label), widget (KIntNumInput, irisRotationSlider)
 #: plugins/filters/blur/wdg_lens_blur.ui:58
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:106
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:109
 #, fuzzy
 #| msgid "Rotating"
 msgid "Rotation:"
@@ -8551,7 +8551,7 @@ msgstr "Tasodifiy"
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:85
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:180
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:72
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:112
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:115
 #: plugins/paintops/spray/wdgsprayoptions.ui:219
 #, fuzzy
 msgid "Spacing:"
@@ -8611,7 +8611,7 @@ msgstr "Tanlangan rangni olib tashlash"
 #. i18n: ectx: property (text), widget (QCheckBox, colorAsmask)
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:19
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:113
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:119
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:122
 #, fuzzy
 msgid "Use color as mask"
 msgstr "Rangdan niqob sifatida foydalanish"
@@ -8779,7 +8779,7 @@ msgstr "Rang moslamalari"
 
 #. i18n: ectx: property (text), widget (QLabel, flowLabel)
 #: plugins/paintops/libpaintop/forms/wdgflowopacityoption.ui:58
-#: ui/kis_paintop_box.cc:151
+#: ui/kis_paintop_box.cc:153
 #, fuzzy
 msgid "Flow:"
 msgstr "So&yalar"
@@ -8870,13 +8870,13 @@ msgstr ""
 msgid "The mixing option mixes the paint on the brush with that on the canvas."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:156
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:159
 #, fuzzy
 #| msgid "Predefined Brushes"
 msgid "Reset Predefined Tip"
 msgstr "Oldindan aniqlangan boʻyoqlar"
 
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:157
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:160
 msgid ""
 "Reloads Spacing from file\n"
 "Sets Scale to 1.0\n"
@@ -9121,7 +9121,7 @@ msgstr "Rang chegarasi"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:30
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:243
-#: ui/kis_paintop_box.cc:252
+#: ui/kis_paintop_box.cc:254
 #, fuzzy
 msgid "Mirror"
 msgstr "Rasmni kesish"
@@ -9998,7 +9998,7 @@ msgstr "Gradientlar"
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbResourceType)
 #: plugins/paintops/resourcemanager/KoDlgCreateBundle.cpp:85
 #: plugins/paintops/resourcemanager/KoResourceManagerWidget.ui:71
-#: ui/forms/wdgdlgblacklistcleanup.ui:26 ui/kis_paintop_box.cc:256
+#: ui/forms/wdgdlgblacklistcleanup.ui:26 ui/kis_paintop_box.cc:258
 #, fuzzy
 msgid "Workspaces"
 msgstr "Ranglar boʻshligʻi"
@@ -10438,7 +10438,7 @@ msgstr "Filter boʻyogʻi"
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, shearXBox)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, shearYBox)
 #: plugins/paintops/sketch/wdgsketchoptions.ui:68
-#: plugins/tools/defaulttools/kis_tool_brush.cc:259
+#: plugins/tools/defaulttools/kis_tool_brush.cc:260
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:592
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:633
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:687
@@ -10529,43 +10529,43 @@ msgctxt "(qtundo-format)"
 msgid "Freehand Brush Stroke"
 msgstr "Oldindan aniqlangan boʻyoqlar"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:232
+#: plugins/tools/defaulttools/kis_tool_brush.cc:233
 #, fuzzy
 #| msgid "Smooth"
 msgid "No Smoothing"
 msgstr "Tekis"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:233
+#: plugins/tools/defaulttools/kis_tool_brush.cc:234
 #, fuzzy
 #| msgid "Smooth"
 msgid "Basic Smoothing"
 msgstr "Tekis"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:234
+#: plugins/tools/defaulttools/kis_tool_brush.cc:235
 #, fuzzy
 #| msgid "Smooth"
 msgid "Weighted Smoothing"
 msgstr "Tekis"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:235
+#: plugins/tools/defaulttools/kis_tool_brush.cc:236
 #, fuzzy
 msgid "Stabilizer"
 msgstr "Toʻrtburcha&k"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:244
+#: plugins/tools/defaulttools/kis_tool_brush.cc:245
 #, fuzzy
 msgid "Distance:"
 msgstr "Oʻrnini almashtirishmoq"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:252
+#: plugins/tools/defaulttools/kis_tool_brush.cc:253
 msgid "Delay:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:253
+#: plugins/tools/defaulttools/kis_tool_brush.cc:254
 msgid "Delay the brush stroke to make the line smoother"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:257
+#: plugins/tools/defaulttools/kis_tool_brush.cc:258
 msgid "Radius where the brush is blocked"
 msgstr ""
 
@@ -10574,32 +10574,32 @@ msgstr ""
 msgid "Finish line:"
 msgstr "&Siniq chiziq"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:275
+#: plugins/tools/defaulttools/kis_tool_brush.cc:276
 #, fuzzy
 msgid "Stroke Ending:"
 msgstr "Toʻyintirish"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:280
+#: plugins/tools/defaulttools/kis_tool_brush.cc:281
 #, fuzzy
 #| msgid "Pressure"
 msgid "Smooth Pressure"
 msgstr "Bosim"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:285
+#: plugins/tools/defaulttools/kis_tool_brush.cc:286
 #, fuzzy
 msgid "Scalable Distance"
 msgstr "Oʻrnini almashtirishmoq"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:291
+#: plugins/tools/defaulttools/kis_tool_brush.cc:292
 #, fuzzy
 msgid "Assistant:"
 msgstr "Oʻrnini almashtirishmoq"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:292
+#: plugins/tools/defaulttools/kis_tool_brush.cc:293
 msgid "You need to add Ruler Assistants before this tool will work."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:295
+#: plugins/tools/defaulttools/kis_tool_brush.cc:296
 #, fuzzy
 msgid "Assistant Magnetism"
 msgstr "Qizgʻish-qoʻngʻir"
@@ -10798,26 +10798,33 @@ msgstr ""
 msgid "Draw a gradient."
 msgstr "Gradient chizish"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:54
+#: plugins/tools/defaulttools/kis_tool_line.cc:55
 #, fuzzy
 #| msgid "Draw a line"
 msgctxt "(qtundo-format)"
 msgid "Draw Line"
 msgstr "Chiziq chizish"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:79
+#: plugins/tools/defaulttools/kis_tool_line.cc:81
 #, fuzzy
 #| msgid "Color"
 msgid "Use sensors"
 msgstr "Rang"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:240
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
+#. i18n: ectx: property (title), widget (QGroupBox, m_groupBox)
+#: plugins/tools/defaulttools/kis_tool_line.cc:85
+#: ui/forms/kis_previewwidgetbase.ui:36 ui/forms/wdgfilterdialog.ui:64
+msgid "Preview"
+msgstr "Koʻrib chiqish"
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:250
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_line.h:93
+#: plugins/tools/defaulttools/kis_tool_line.h:96
 #, fuzzy
 #| msgid "Line Tool"
 msgid "Line Tool"
@@ -11627,53 +11634,60 @@ msgstr "(C) 1999-2006, Krita jamoasi.\n"
 msgid "Open sketch in a window, otherwise defaults to full-screen"
 msgstr ""
 
-#: ui/actions/kis_selection_action_factories.cpp:102
+#: ui/actions/kis_selection_action_factories.cpp:111
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select All"
 msgstr "&Hammasini tanlash"
 
-#: ui/actions/kis_selection_action_factories.cpp:171
+#: ui/actions/kis_selection_action_factories.cpp:180
 #, fuzzy
 #| msgid "Flood Fill"
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr "Toʻldirish"
 
-#: ui/actions/kis_selection_action_factories.cpp:262
+#: ui/actions/kis_selection_action_factories.cpp:271
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr "Boshqa"
 
-#: ui/actions/kis_selection_action_factories.cpp:263
+#: ui/actions/kis_selection_action_factories.cpp:272
 #, fuzzy
 #| msgid "Copy Green"
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr "Yashildan nusxa olish"
 
-#: ui/actions/kis_selection_action_factories.cpp:287
+#: ui/actions/kis_selection_action_factories.cpp:296
 #, fuzzy
 #| msgid "Copy Red"
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr "Qizildan nusxa olish"
 
-#: ui/actions/kis_selection_action_factories.cpp:297
+#: ui/actions/kis_selection_action_factories.cpp:306
 msgid "(pasted)"
 msgstr ""
 
-#: ui/actions/kis_selection_action_factories.cpp:328
+#: ui/actions/kis_selection_action_factories.cpp:337
 #, fuzzy
 msgid "Pasted"
 msgstr "Palitralar"
 
-#: ui/actions/kis_selection_action_factories.cpp:375
+#: ui/actions/kis_selection_action_factories.cpp:384
 #, fuzzy
 #| msgid "No Selection"
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
+msgstr "Hech narsa tanlanmagan"
+
+#: ui/actions/kis_selection_action_factories.cpp:417
+#, fuzzy
+#| msgid "No Selection"
+msgctxt "(qtundo-format)"
+msgid "Convert shapes to vector selection"
 msgstr "Hech narsa tanlanmagan"
 
 #: ui/canvas/kis_canvas_controller.cpp:164
@@ -11957,12 +11971,6 @@ msgstr "Hech narsa tanlanmagan"
 #, fuzzy
 msgid "Matrix Widget"
 msgstr "Matritsa"
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
-#. i18n: ectx: property (title), widget (QGroupBox, m_groupBox)
-#: ui/forms/kis_previewwidgetbase.ui:36 ui/forms/wdgfilterdialog.ui:64
-msgid "Preview"
-msgstr "Koʻrib chiqish"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioBtnPreview)
 #: ui/forms/kis_previewwidgetbase.ui:80
@@ -13395,7 +13403,7 @@ msgid "Edit Mouse Wheel Input"
 msgstr ""
 
 #: ui/input/kis_abstract_input_action.cpp:44
-#: ui/input/kis_tool_invocation_action.cpp:50
+#: ui/input/kis_tool_invocation_action.cpp:49
 #, fuzzy
 msgid "Activate"
 msgstr "Qatlamni koʻchirish"
@@ -13736,28 +13744,28 @@ msgstr "Palitra"
 msgid "The <i>Show Popup Palette</i> displays the popup palette."
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:46
+#: ui/input/kis_tool_invocation_action.cpp:45
 #, fuzzy
 msgid "Tool Invocation"
 msgstr "Moslash..."
 
-#: ui/input/kis_tool_invocation_action.cpp:47
+#: ui/input/kis_tool_invocation_action.cpp:46
 msgid ""
 "The <i>Tool Invocation</i> action invokes the current tool, for example, "
 "using the brush tool, it will start painting."
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:51
+#: ui/input/kis_tool_invocation_action.cpp:50
 #, fuzzy
 msgid "Confirm"
 msgstr "Doimiy"
 
-#: ui/input/kis_tool_invocation_action.cpp:52 ui/kis_view2.cpp:571
+#: ui/input/kis_tool_invocation_action.cpp:51 ui/kis_view2.cpp:571
 #, fuzzy
 msgid "Cancel"
 msgstr "Kanal"
 
-#: ui/input/kis_tool_invocation_action.cpp:53
+#: ui/input/kis_tool_invocation_action.cpp:52
 #, fuzzy
 msgid "Activate Line Tool"
 msgstr "Qatlamni koʻchirish"
@@ -14546,91 +14554,91 @@ msgstr "Lineykalarni koʻrsatish"
 msgid "Painter's Toolchest"
 msgstr "&Rassom asbob-uskunalari"
 
-#: ui/kis_paintop_box.cc:101
+#: ui/kis_paintop_box.cc:103
 #, fuzzy
 #| msgid "Pressure:"
 msgid "Edit brush settings"
 msgstr "Bosim:"
 
-#: ui/kis_paintop_box.cc:106
+#: ui/kis_paintop_box.cc:108
 #, fuzzy
 #| msgid "Pressure:"
 msgid "Choose brush preset"
 msgstr "Bosim:"
 
-#: ui/kis_paintop_box.cc:113
+#: ui/kis_paintop_box.cc:115
 #, fuzzy
 #| msgid "Selection mode:"
 msgid "Set eraser mode"
 msgstr "Tanlash usuli:"
 
-#: ui/kis_paintop_box.cc:123
+#: ui/kis_paintop_box.cc:125
 #, fuzzy
 msgid "Preserve Alpha"
 msgstr "Rangni palitraga qoʻshish"
 
-#: ui/kis_paintop_box.cc:132
+#: ui/kis_paintop_box.cc:134
 #, fuzzy
 msgid "Set horizontal mirror mode"
 msgstr "Ufq 1"
 
-#: ui/kis_paintop_box.cc:141
+#: ui/kis_paintop_box.cc:143
 #, fuzzy
 #| msgid "Selection mode:"
 msgid "Set vertical mirror mode"
 msgstr "Tanlash usuli:"
 
-#: ui/kis_paintop_box.cc:174
+#: ui/kis_paintop_box.cc:176
 #, fuzzy
 msgid "Mode: "
 msgstr "Usul: "
 
-#: ui/kis_paintop_box.cc:185
+#: ui/kis_paintop_box.cc:187
 #, fuzzy
 msgid "Choose workspace"
 msgstr "Ranglar boʻshligʻi"
 
-#: ui/kis_paintop_box.cc:209
+#: ui/kis_paintop_box.cc:211
 #, fuzzy
 #| msgid "Brush size"
 msgid "Brush composite"
 msgstr "Boʻyoqning oʻlchami"
 
-#: ui/kis_paintop_box.cc:213
+#: ui/kis_paintop_box.cc:215
 #, fuzzy
 #| msgid "Brightness"
 msgid "Brush option slider 1"
 msgstr "Yorugʻlik"
 
-#: ui/kis_paintop_box.cc:218
+#: ui/kis_paintop_box.cc:220
 #, fuzzy
 #| msgid "Brightness"
 msgid "Brush option slider 2"
 msgstr "Yorugʻlik"
 
-#: ui/kis_paintop_box.cc:223
+#: ui/kis_paintop_box.cc:225
 #, fuzzy
 #| msgid "Brightness"
 msgid "Brush option slider 3"
 msgstr "Yorugʻlik"
 
-#: ui/kis_paintop_box.cc:228
+#: ui/kis_paintop_box.cc:230
 #, fuzzy
 #| msgid "Filter Brush"
 msgid "Next Favourite Preset"
 msgstr "Filter boʻyogʻi"
 
-#: ui/kis_paintop_box.cc:233
+#: ui/kis_paintop_box.cc:235
 #, fuzzy
 #| msgid "Filter Brush"
 msgid "Previous Favourite Preset"
 msgstr "Filter boʻyogʻi"
 
-#: ui/kis_paintop_box.cc:238
+#: ui/kis_paintop_box.cc:240
 msgid "Switch to Previous Preset"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:243
+#: ui/kis_paintop_box.cc:245
 #, fuzzy
 #| msgid "Filter Brush"
 msgid "Select Favorite Presets..."
@@ -14763,12 +14771,18 @@ msgstr "Rasm oʻlchamini qatlam oʻlchamiga tenglashtirish"
 msgid "Convert to Vector Selection"
 msgstr "Hech narsa tanlanmagan"
 
-#: ui/kis_selection_manager.cc:500
+#: ui/kis_selection_manager.cc:230
+#, fuzzy
+#| msgid "No Selection"
+msgid "Convert Shapes to Vector Selection"
+msgstr "Hech narsa tanlanmagan"
+
+#: ui/kis_selection_manager.cc:513
 #, fuzzy
 msgid "Stroked Shapes"
 msgstr "Filter boʻyogʻi"
 
-#: ui/kis_selection_manager.cc:502
+#: ui/kis_selection_manager.cc:515
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Stroke Shapes"
@@ -15134,7 +15148,7 @@ msgid ""
 "<i>./0</i> represents the first child of the current layer"
 msgstr ""
 
-#: ui/tool/kis_selection_tool_helper.cpp:129
+#: ui/tool/kis_selection_tool_helper.cpp:136
 msgid ""
 "Shape selection does not fully support wraparound mode. Please use pixel "
 "selection instead"
