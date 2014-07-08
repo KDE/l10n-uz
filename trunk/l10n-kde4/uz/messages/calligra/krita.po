@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-06 01:34+0000\n"
+"POT-Creation-Date: 2014-07-08 01:33+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2601,7 +2601,7 @@ msgstr "Yulduz"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:24
-#: ui/dialogs/kis_dlg_preferences.cc:602 ui/dialogs/kis_dlg_preferences.cc:603
+#: ui/dialogs/kis_dlg_preferences.cc:614 ui/dialogs/kis_dlg_preferences.cc:615
 #: ui/kis_paintop_option.cpp:26
 msgid "General"
 msgstr "Umumiy"
@@ -2905,7 +2905,7 @@ msgstr "So&yalar"
 #: plugins/formats/heightmap/kis_wdg_options_heightmap.ui:30
 #: plugins/formats/pdf/pdfimportwidgetbase.ui:214
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:100
-#: ui/forms/wdgdisplaysettings.ui:77 ui/kis_paintop_box.cc:154
+#: ui/forms/wdgdisplaysettings.ui:65 ui/kis_paintop_box.cc:154
 #, fuzzy
 #| msgid "Size"
 msgid "Size:"
@@ -3231,6 +3231,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KoGroupButton, add)
 #. i18n: ectx: property (text), widget (KoGroupButton, pixel)
 #. i18n: ectx: property (text), widget (KoGroupButton, subtract)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectionOverlayColor)
 #. i18n: ectx: property (text), widget (QToolButton, paintColor)
 #. i18n: ectx: property (text), widget (QToolButton, backgroundColor)
 #. i18n: ectx: property (text), widget (QToolButton, bnPortrait)
@@ -3292,12 +3293,13 @@ msgstr ""
 #: plugins/paintops/resourcemanager/wdg_dlgcreatebundle.ui:262
 #: plugins/paintops/resourcemanager/wdgdlgbundlemanager.ui:55
 #: plugins/paintops/resourcemanager/wdgdlgbundlemanager.ui:62
-#: ui/forms/wdgdlgfilelayer.ui:57 ui/forms/wdgimageproperties.ui:113
-#: ui/forms/wdgnewimage.ui:158 ui/forms/wdgnewimage.ui:180
-#: ui/forms/wdgpaintactioneditor.ui:46 ui/forms/wdgpaintactioneditor.ui:69
-#: ui/forms/wdgselectionoptions.ui:40 ui/forms/wdgselectionoptions.ui:56
-#: ui/forms/wdgselectionoptions.ui:72 ui/forms/wdgselectionoptions.ui:91
-#: ui/forms/wdgselectionoptions.ui:130 ui/forms/wdgselectionoptions.ui:149
+#: ui/forms/wdgdisplaysettings.ui:309 ui/forms/wdgdlgfilelayer.ui:57
+#: ui/forms/wdgimageproperties.ui:113 ui/forms/wdgnewimage.ui:158
+#: ui/forms/wdgnewimage.ui:180 ui/forms/wdgpaintactioneditor.ui:46
+#: ui/forms/wdgpaintactioneditor.ui:69 ui/forms/wdgselectionoptions.ui:40
+#: ui/forms/wdgselectionoptions.ui:56 ui/forms/wdgselectionoptions.ui:72
+#: ui/forms/wdgselectionoptions.ui:91 ui/forms/wdgselectionoptions.ui:130
+#: ui/forms/wdgselectionoptions.ui:149
 #, fuzzy
 msgid "..."
 msgstr "..."
@@ -3842,8 +3844,9 @@ msgstr "Y Ofset:"
 msgid "Blur radius:"
 msgstr "Radius"
 
-#. i18n: ectx: property (text), widget (QLabel, lblCanvasBorderColor)
 #. i18n: ectx: property (text), widget (QLabel, lblColor)
+#. i18n: ectx: property (text), widget (QLabel, lblCanvasBorderColor)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #. i18n: ectx: property (text), widget (QLabel, colorLabel4)
 #. i18n: ectx: property (text), widget (QLabel, colorLabel2)
@@ -3856,7 +3859,8 @@ msgstr "Radius"
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:615
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:807
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:993
-#: ui/forms/wdgdisplaysettings.ui:32 ui/forms/wdgdisplaysettings.ui:113
+#: ui/forms/wdgdisplaysettings.ui:101 ui/forms/wdgdisplaysettings.ui:257
+#: ui/forms/wdgdisplaysettings.ui:302
 msgid "Color:"
 msgstr "Rangi:"
 
@@ -7532,7 +7536,7 @@ msgstr "Rang chegarasi"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpMode)
 #: plugins/generators/solid/colorgenerator.h:53
-#: ui/dialogs/kis_dlg_preferences.cc:619 ui/forms/wdgnewimage.ui:361
+#: ui/dialogs/kis_dlg_preferences.cc:631 ui/forms/wdgnewimage.ui:361
 #: ui/kis_paintop_option.cpp:31
 msgid "Color"
 msgstr "Rang"
@@ -8096,7 +8100,7 @@ msgid "Texture:"
 msgstr "Matn"
 
 #: plugins/paintops/gridbrush/grid_paintop_plugin.cpp:41
-#: ui/dialogs/kis_dlg_preferences.cc:636 ui/dialogs/kis_dlg_preferences.cc:637
+#: ui/dialogs/kis_dlg_preferences.cc:648 ui/dialogs/kis_dlg_preferences.cc:649
 msgid "Grid"
 msgstr "Toʻr"
 
@@ -10181,7 +10185,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/paintops/resourcemanager/KoResourceManagerWidget.ui:727
-#: ui/dialogs/kis_dlg_preferences.cc:664
+#: ui/dialogs/kis_dlg_preferences.cc:676
 msgid "Author"
 msgstr ""
 
@@ -11815,6 +11819,7 @@ msgid "Image Properties"
 msgstr "Rasmning xossalari"
 
 #: ui/dialogs/kis_dlg_image_properties.cc:74
+#: ui/dialogs/kis_dlg_preferences.cc:427
 #, fuzzy
 #| msgid "Background Color"
 msgid "Change the background color of the image"
@@ -11898,62 +11903,62 @@ msgstr "Profil yoʻq"
 msgid "&Monitor profile: "
 msgstr "Profil yoʻq"
 
-#: ui/dialogs/kis_dlg_preferences.cc:594
+#: ui/dialogs/kis_dlg_preferences.cc:606
 msgid "Preferences"
 msgstr "Moslamalar"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplayBlacklist)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, grpDisplay)
-#: ui/dialogs/kis_dlg_preferences.cc:610 ui/dialogs/kis_dlg_preferences.cc:611
+#: ui/dialogs/kis_dlg_preferences.cc:622 ui/dialogs/kis_dlg_preferences.cc:623
 #: ui/forms/wdgcolorsettings.ui:53 ui/forms/wdgdisplaysettings.ui:20
 #: ui/forms/wdgdlgblacklistcleanup.ui:20
 #, fuzzy
 msgid "Display"
 msgstr "Displey"
 
-#: ui/dialogs/kis_dlg_preferences.cc:618
+#: ui/dialogs/kis_dlg_preferences.cc:630
 msgid "Color Management"
 msgstr "Rang boshqaruvi"
 
-#: ui/dialogs/kis_dlg_preferences.cc:627 ui/dialogs/kis_dlg_preferences.cc:628
+#: ui/dialogs/kis_dlg_preferences.cc:639 ui/dialogs/kis_dlg_preferences.cc:640
 msgid "Performance"
 msgstr "Unumdorlik"
 
-#: ui/dialogs/kis_dlg_preferences.cc:644
+#: ui/dialogs/kis_dlg_preferences.cc:656
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Tablet settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:645
+#: ui/dialogs/kis_dlg_preferences.cc:657
 #, fuzzy
 msgid "Tablet"
 msgstr "Yoqish"
 
-#: ui/dialogs/kis_dlg_preferences.cc:653
+#: ui/dialogs/kis_dlg_preferences.cc:665
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Canvas-only settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:654
+#: ui/dialogs/kis_dlg_preferences.cc:666
 #, fuzzy
 msgid "Canvas-only"
 msgstr "Rangi:"
 
-#: ui/dialogs/kis_dlg_preferences.cc:663
+#: ui/dialogs/kis_dlg_preferences.cc:675
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:668
+#: ui/dialogs/kis_dlg_preferences.cc:680
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Canvas Input Settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:669
+#: ui/dialogs/kis_dlg_preferences.cc:681
 #, fuzzy
 msgid "Canvas Input"
 msgstr "Kranlar"
@@ -12375,68 +12380,56 @@ msgstr "Namuna sifatida ishlatish"
 msgid "&Add to Predefined Patterns"
 msgstr "Palitraga qoʻshish:"
 
-#. i18n: ectx: property (title), widget (QGroupBox, grpCanvasBorder)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: ui/forms/wdgdisplaysettings.ui:26
-#, fuzzy
-msgid "Canvas border"
-msgstr "Rangi:"
+msgid "Miscellaneous"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, hideScrollbars)
-#: ui/forms/wdgdisplaysettings.ui:58
-#, fuzzy
-msgid "Hide Scrollbars"
-msgstr "Yulduz vositasi"
+#. i18n: ectx: property (text), widget (QCheckBox, chkChannelsAsColor)
+#: ui/forms/wdgdisplaysettings.ui:32
+msgid "Color Channels in Color"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkCurveAntialiasing)
+#: ui/forms/wdgdisplaysettings.ui:42
+msgid "Enable curve anti-aliasing"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkSelectionOutlineAntialiasing)
+#: ui/forms/wdgdisplaysettings.ui:49
+msgid "Enable selection outline anti-aliasing"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpCheckers)
-#: ui/forms/wdgdisplaysettings.ui:71
+#: ui/forms/wdgdisplaysettings.ui:59
 #, fuzzy
 msgid "Transparency Checkboxes"
 msgstr "Shaffof"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkMoving)
-#: ui/forms/wdgdisplaysettings.ui:142
+#: ui/forms/wdgdisplaysettings.ui:130
 msgid "If checked, the checkers will move when scrolling the canvas."
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkMoving)
-#: ui/forms/wdgdisplaysettings.ui:145
+#: ui/forms/wdgdisplaysettings.ui:133
 msgid ""
 "Determines whether the checks will stay put or whether they will scroll "
 "together with the canvas"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMoving)
-#: ui/forms/wdgdisplaysettings.ui:148
+#: ui/forms/wdgdisplaysettings.ui:136
 msgid "&Move checkers when scrolling"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: ui/forms/wdgdisplaysettings.ui:161
-msgid "Miscellaneous"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkChannelsAsColor)
-#: ui/forms/wdgdisplaysettings.ui:167
-msgid "Color Channels in Color"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkCurveAntialiasing)
-#: ui/forms/wdgdisplaysettings.ui:177
-msgid "Enable curve anti-aliasing"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkSelectionOutlineAntialiasing)
-#: ui/forms/wdgdisplaysettings.ui:184
-msgid "Enable selection outline anti-aliasing"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, grpOpenGL)
-#: ui/forms/wdgdisplaysettings.ui:207
+#: ui/forms/wdgdisplaysettings.ui:162
 msgid "OpenGL"
 msgstr "OpenGL"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkDisableDoubleBuffering)
-#: ui/forms/wdgdisplaysettings.ui:213
+#: ui/forms/wdgdisplaysettings.ui:168
 msgid ""
 "<html><head/><body><p>Try to disable double buffering. This makes painting "
 "more responsive, but might cause crashes with some ATI GPU/driver "
@@ -12444,35 +12437,35 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDisableDoubleBuffering)
-#: ui/forms/wdgdisplaysettings.ui:216
+#: ui/forms/wdgdisplaysettings.ui:171
 msgid "Disable double buffering (needs restart)"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
-#: ui/forms/wdgdisplaysettings.ui:230
+#: ui/forms/wdgdisplaysettings.ui:185
 msgid "Nearest Neighbour"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
-#: ui/forms/wdgdisplaysettings.ui:235
+#: ui/forms/wdgdisplaysettings.ui:190
 #, fuzzy
 msgid "Bilinear Filtering"
 msgstr "&Oʻlchami:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
-#: ui/forms/wdgdisplaysettings.ui:240
+#: ui/forms/wdgdisplaysettings.ui:195
 #, fuzzy
 msgid "Trilinear Filtering"
 msgstr "Ufq 1"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
-#: ui/forms/wdgdisplaysettings.ui:245
+#: ui/forms/wdgdisplaysettings.ui:200
 #, fuzzy
 msgid "High Quality Filtering"
 msgstr "&Oʻlchami:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseTextureBuffer)
-#: ui/forms/wdgdisplaysettings.ui:253
+#: ui/forms/wdgdisplaysettings.ui:208
 msgid ""
 "<html><head/><body><p>Use Texture Buffering. This can be faster on some GPU/"
 "Driver combinations (like Intel) or broken on some others (like AMD/Radeon)."
@@ -12480,23 +12473,23 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseTextureBuffer)
-#: ui/forms/wdgdisplaysettings.ui:256
+#: ui/forms/wdgdisplaysettings.ui:211
 msgid "Use Texture Buffer"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbUseOpenGL)
-#: ui/forms/wdgdisplaysettings.ui:263
+#: ui/forms/wdgdisplaysettings.ui:218
 msgid "Enable OpenGL"
 msgstr "OpenGL imkoniyatini yoqish"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: ui/forms/wdgdisplaysettings.ui:273
+#: ui/forms/wdgdisplaysettings.ui:228
 #, fuzzy
 msgid "Scaling Mode:"
 msgstr "Aralashtirish usuli"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkDisableVsync)
-#: ui/forms/wdgdisplaysettings.ui:280
+#: ui/forms/wdgdisplaysettings.ui:235
 msgid ""
 "<html><head/><body><p>Try to disable vsync for Krita. This makes painting "
 "more responsive. Uncheck only when experiencing crashes with some GPU/driver "
@@ -12504,9 +12497,28 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDisableVsync)
-#: ui/forms/wdgdisplaysettings.ui:283
+#: ui/forms/wdgdisplaysettings.ui:238
 msgid "Disable vsync (needs restart)"
 msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpCanvasBorder)
+#: ui/forms/wdgdisplaysettings.ui:251
+#, fuzzy
+msgid "Canvas border"
+msgstr "Rangi:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, hideScrollbars)
+#: ui/forms/wdgdisplaysettings.ui:283
+#, fuzzy
+msgid "Hide Scrollbars"
+msgstr "Yulduz vositasi"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: ui/forms/wdgdisplaysettings.ui:296
+#, fuzzy
+#| msgid "Selection"
+msgid "Selection Overlay"
+msgstr "Tanlash"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/forms/wdgdlgblacklistcleanup.ui:55
@@ -14782,27 +14794,49 @@ msgstr "Hech narsa tanlanmagan"
 msgid "Convert Shapes to Vector Selection"
 msgstr "Hech narsa tanlanmagan"
 
-#: ui/kis_selection_manager.cc:513
+#: ui/kis_selection_manager.cc:235
+#, fuzzy
+#| msgid "Selection mode:"
+msgid "Toggle Selection Display Mode"
+msgstr "Tanlash usuli:"
+
+#: ui/kis_selection_manager.cc:517
 #, fuzzy
 msgid "Stroked Shapes"
 msgstr "Filter boʻyogʻi"
 
-#: ui/kis_selection_manager.cc:515
+#: ui/kis_selection_manager.cc:519
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Stroke Shapes"
 msgstr "Filter boʻyogʻi"
 
-#: ui/kis_statusbar.cc:123
-#, kde-format
-msgid "Selection Active: x = %1 y = %2 width = %3 height = %4"
+#: ui/kis_statusbar.cc:132
+msgid "Hidden"
 msgstr ""
 
-#: ui/kis_statusbar.cc:127
+#: ui/kis_statusbar.cc:134
+msgid "Ants"
+msgstr ""
+
+#: ui/kis_statusbar.cc:134
+#, fuzzy
+#| msgid "Source"
+msgid "Mask"
+msgstr "Manba"
+
+#: ui/kis_statusbar.cc:137
+#, kde-format
+msgid ""
+"Selection: x = %1 y = %2 width = %3 height = %4\n"
+"Display Mode: %5"
+msgstr ""
+
+#: ui/kis_statusbar.cc:142
 msgid "No Selection"
 msgstr "Hech narsa tanlanmagan"
 
-#: ui/kis_statusbar.cc:139
+#: ui/kis_statusbar.cc:161
 msgid "No profile"
 msgstr "Profil yoʻq"
 
@@ -16318,11 +16352,6 @@ msgstr "Ranglar"
 #~ msgstr "Rasmning nomini oʻzgartirish"
 
 #, fuzzy
-#~| msgid "Source"
-#~ msgid "Mask Out"
-#~ msgstr "Manba"
-
-#, fuzzy
 #~ msgid "Disregard Pattern"
 #~ msgstr "Namuna sifatida ishlatish"
 
@@ -16339,11 +16368,6 @@ msgstr "Ranglar"
 #, fuzzy
 #~ msgid "Apply transformation"
 #~ msgstr "Moslash..."
-
-#, fuzzy
-#~| msgid "Selection"
-#~ msgid "Selection "
-#~ msgstr "Tanlash"
 
 #, fuzzy
 #~ msgid "Mirror Image"
