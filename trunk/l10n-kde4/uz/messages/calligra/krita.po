@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-26 01:39+0000\n"
+"POT-Creation-Date: 2014-07-27 01:40+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2228,6 +2228,7 @@ msgstr "Burchak"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:118
+#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:113
 msgid "Columns:"
 msgstr ""
 
@@ -3681,10 +3682,45 @@ msgstr ""
 msgid "Overview"
 msgstr "Koʻrib chiqish"
 
+#. i18n: ectx: property (text), widget (QPushButton, saveBrush)
+#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:98
+#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:121
+#: ui/widgets/kis_workspace_chooser.cpp:89
+#, fuzzy
+#| msgid "Slate"
+msgid "Save"
+msgstr "Shifer"
+
+#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:102
+#: ui/widgets/kis_workspace_chooser.cpp:93
+#, fuzzy
+#| msgid "Layer name:"
+msgid "Insert name"
+msgstr "Qatlamning nomi:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_15)
+#. i18n: ectx: property (text), widget (QLabel, brushNameLbl)
+#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:111
+#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:188
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:131
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:22
+#: ui/forms/wdgautogradient.ui:25 ui/forms/wdgfilternodecreation.ui:17
+#: ui/forms/wdgflipbookselector.ui:28 ui/forms/wdgpaintopsettings.ui:93
+#, fuzzy
+msgid "Name:"
+msgstr "&Nomi:"
+
+#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:142
 #: plugins/extensions/dockers/palettedocker/palettedocker_dock.cpp:117
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:297
 #, fuzzy
 msgid "Palette"
+msgstr "Palitra"
+
+#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:153
+#, fuzzy, kde-format
+msgid "Palette %1"
 msgstr "Palitra"
 
 #: plugins/extensions/dockers/palettedocker/palettedocker_dock.cpp:162
@@ -3762,18 +3798,6 @@ msgstr "Manba"
 #: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:187
 #, fuzzy
 msgid "Taskset Name"
-msgstr "&Nomi:"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, label_15)
-#. i18n: ectx: property (text), widget (QLabel, brushNameLbl)
-#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:188
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:131
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:22
-#: ui/forms/wdgautogradient.ui:25 ui/forms/wdgfilternodecreation.ui:17
-#: ui/forms/wdgflipbookselector.ui:28 ui/forms/wdgpaintopsettings.ui:93
-#, fuzzy
-msgid "Name:"
 msgstr "&Nomi:"
 
 #: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:209
@@ -8938,14 +8962,6 @@ msgstr "Rangdan niqob sifatida foydalanish"
 #| msgid "Plasma"
 msgid "Save Tip:"
 msgstr "Plazma"
-
-#. i18n: ectx: property (text), widget (QPushButton, saveBrush)
-#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:121
-#: ui/widgets/kis_workspace_chooser.cpp:89
-#, fuzzy
-#| msgid "Slate"
-msgid "Save"
-msgstr "Shifer"
 
 #. i18n: ectx: property (text), widget (QCheckBox, colorPerParticleCHBox)
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:47
@@ -14577,7 +14593,7 @@ msgstr ""
 msgid "Failed to save the selection for local selection %1."
 msgstr ""
 
-#: ui/opengl/kis_opengl_canvas2.cpp:533 ui/opengl/kis_opengl_canvas2.cpp:605
+#: ui/opengl/kis_opengl_canvas2.cpp:519 ui/opengl/kis_opengl_canvas2.cpp:591
 #, kde-format
 msgid ""
 "Krita could not initialize the OpenGL canvas:\n"
@@ -14922,12 +14938,6 @@ msgstr "Asl qatlamni koʻrsatish"
 #, fuzzy
 msgid "No configuration options."
 msgstr "Moslash..."
-
-#: ui/widgets/kis_workspace_chooser.cpp:93
-#, fuzzy
-#| msgid "Layer name:"
-msgid "Insert name"
-msgstr "Qatlamning nomi:"
 
 #: ui/widgets/kis_workspace_chooser.cpp:124
 #, fuzzy
