@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-12 02:24+0000\n"
+"POT-Creation-Date: 2014-08-20 02:11+0000\n"
 "PO-Revision-Date: 2006-10-02 23:59+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -226,6 +226,12 @@ msgstr ""
 msgctxt "Name"
 msgid "OpenDocument Drawings"
 msgstr "OASIS OpenDocument grafika"
+
+#: extras/thumbnail/kritaanimation_kranim_thumbnail.desktop:4
+#, fuzzy
+msgctxt "Name"
+msgid "Krita Animation Documents"
+msgstr "Matn hujjatlari"
 
 #: extras/thumbnail/krita_kra_thumbnail.desktop:3
 #, fuzzy
@@ -8356,6 +8362,46 @@ msgctxt "Name"
 msgid "Table"
 msgstr "Jadvallar"
 
+#: krita/animator/kritaanimation.desktop:2
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Slide Presentations"
+msgctxt "Name"
+msgid "Krita Animation"
+msgstr "Slayd namoyishlari"
+
+#: krita/animator/kritaanimation.desktop:5 krita/gemini/kritagemini.desktop:4
+#: krita/krita.desktop:65 krita/sketch/kritasketch.desktop:30
+msgctxt "GenericName"
+msgid "Digital Painting"
+msgstr ""
+
+#: krita/animator/kritaanimation.desktop:33 krita/krita.desktop:98
+msgctxt "Comment"
+msgid "Digital Painting"
+msgstr ""
+
+#: krita/animator/krita_animationdock.desktop:4
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Command history docker for Krita"
+msgctxt "Comment"
+msgid "Animation Docker for Krita"
+msgstr "Krita uchun buyruqlar tarixi paneli"
+
+#: krita/animator/kritaanimationpart.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Color Filters"
+msgctxt "Name"
+msgid "Calligra Animation Editor"
+msgstr "Rang filterlari"
+
+#: krita/animator/kritaanimationpart.desktop:39 krita/kritapart.desktop:42
+msgctxt "GenericName"
+msgid "Image Object"
+msgstr "Rasm obʼekti"
+
 #: krita/data/krita_brush.desktop:4
 #, fuzzy
 #| msgctxt "Comment"
@@ -8679,12 +8725,6 @@ msgctxt "Name"
 msgid "Texture 8k 8bit srgb"
 msgstr ""
 
-#: krita/gemini/kritagemini.desktop:4 krita/krita.desktop:65
-#: krita/sketch/kritasketch.desktop:30
-msgctxt "GenericName"
-msgid "Digital Painting"
-msgstr ""
-
 #: krita/gemini/kritagemini.desktop:36
 msgctxt "Name"
 msgid "Krita Gemini"
@@ -8712,11 +8752,6 @@ msgctxt "Name"
 msgid "Krita"
 msgstr "Krita"
 
-#: krita/krita.desktop:98
-msgctxt "Comment"
-msgid "Digital Painting"
-msgstr ""
-
 #: krita/kritapart.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -8724,11 +8759,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Calligra Painting and Image Editor Component"
 msgstr "KOffice rasm bilan ishlash komponenti"
-
-#: krita/kritapart.desktop:42
-msgctxt "GenericName"
-msgid "Image Object"
-msgstr "Rasm obʼekti"
 
 #: krita/plugins/assistants/RulerAssistant/kritarulerassistanttool.desktop:2
 msgctxt "Name"
@@ -8778,6 +8808,22 @@ msgstr "Rang filterlari"
 msgctxt "Name"
 msgid "ColorSelectorNG"
 msgstr ""
+
+#: krita/plugins/extensions/dockers/animator/krita_animator.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "General"
+msgctxt "Name"
+msgid "Animator"
+msgstr "Umumiy"
+
+#: krita/plugins/extensions/dockers/animator/krita_animator.desktop:49
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "General"
+msgctxt "Comment"
+msgid "Animator"
+msgstr "Umumiy"
 
 #: krita/plugins/extensions/dockers/artisticcolorselector/krita_artisticcolorselector.desktop:2
 msgctxt "Name"
@@ -9367,6 +9413,14 @@ msgstr "Krita PNG eksport filteri"
 msgctxt "Name"
 msgid "Krita JPEG Import Filter"
 msgstr "Krita PNG import filteri"
+
+#: krita/plugins/formats/kranimseq/kranimseq_export.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Krita PNG Export Filter"
+msgctxt "Name"
+msgid "Krita PNG Sequence Export Filter"
+msgstr "Krita PNG eksport filteri"
 
 #: krita/plugins/formats/odg/krita_odg_import.desktop:3
 #, fuzzy
