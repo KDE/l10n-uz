@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-31 01:41+0000\n"
+"POT-Creation-Date: 2014-09-01 01:46+0000\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2279,42 +2279,6 @@ msgctxt "Next button arrow: next button in assistant (wizard)"
 msgid "%L ›"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, prompt)
-#: kexiutils/kpassworddialog.ui:31
-msgid "Supply a username and password below."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, userNameLabel)
-#: kexiutils/kpassworddialog.ui:73 widget/KexiPasswordWidget.ui:60
-#, fuzzy
-#| msgid "&Username:"
-msgid "Username:"
-msgstr "F&oydalanuvchi:"
-
-#. i18n: ectx: property (text), widget (QCheckBox, anonymousCheckBox)
-#: kexiutils/kpassworddialog.ui:86
-msgid "Anonymous"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, domainLabel)
-#: kexiutils/kpassworddialog.ui:93
-msgid "Domain:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: kexiutils/kpassworddialog.ui:106 widget/KexiPasswordWidget.ui:128
-#, fuzzy
-#| msgid "&Password:"
-msgid "Password:"
-msgstr "&Maxfiy soʻz:"
-
-#. i18n: ectx: property (text), widget (QCheckBox, keepCheckBox)
-#: kexiutils/kpassworddialog.ui:123
-#, fuzzy
-#| msgid "Please enter the password."
-msgid "Remember password"
-msgstr "Iltimos maxfiy soʻzni kiriting."
-
 #: kexiutils/utils.cpp:704
 #, fuzzy, kde-format
 #| msgid ""
@@ -2401,27 +2365,27 @@ msgid "Fi&nd:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, m_btnReplace)
-#: main/kexifinddialog.ui:107 migration/importwizard.cpp:823
+#: main/kexifinddialog.ui:101 migration/importwizard.cpp:823
 #: widget/KexiNameDialog.cpp:164 widget/utils/kexicontextmenuutils.cpp:155
 msgid "&Replace"
 msgstr "&Almashtirish"
 
 #. i18n: ectx: property (text), widget (KPushButton, m_btnReplaceAll)
-#: main/kexifinddialog.ui:120
+#: main/kexifinddialog.ui:114
 #, fuzzy
 msgctxt "Replace All Occurences"
 msgid "Replace All"
 msgstr "&Almashtirish"
 
 #. i18n: ectx: property (text), widget (QLabel, m_replaceLbl)
-#: main/kexifinddialog.ui:151
+#: main/kexifinddialog.ui:145
 #, fuzzy
 msgctxt "Replace all occurences with"
 msgid "Re&place with:"
 msgstr "&Almashtirish"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: main/kexifinddialog.ui:177
+#: main/kexifinddialog.ui:174
 msgctxt "Look in field:"
 msgid "&Look in:"
 msgstr ""
@@ -2432,64 +2396,64 @@ msgid "&Search:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_search)
-#: main/kexifinddialog.ui:214
+#: main/kexifinddialog.ui:217
 msgctxt "Search Up"
 msgid "Up"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_search)
-#: main/kexifinddialog.ui:219
+#: main/kexifinddialog.ui:222
 msgctxt "Search Down"
 msgid "Down"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_search)
-#: main/kexifinddialog.ui:224
+#: main/kexifinddialog.ui:227
 #, fuzzy
 msgctxt "Look In All Rows"
 msgid "All Rows"
 msgstr "Satr:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2_3)
-#: main/kexifinddialog.ui:232
+#: main/kexifinddialog.ui:235
 msgid "&Match:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_match)
-#: main/kexifinddialog.ui:249
+#: main/kexifinddialog.ui:255
 #, fuzzy
 msgctxt "Match: Any Part of Field"
 msgid "Any Part of Field"
 msgstr "Avto-yorliq"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_match)
-#: main/kexifinddialog.ui:254
+#: main/kexifinddialog.ui:260
 #, fuzzy
 msgctxt "Match: Whole Field"
 msgid "Whole Field"
 msgstr "Avto-yorliq"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_match)
-#: main/kexifinddialog.ui:259
+#: main/kexifinddialog.ui:265
 #, fuzzy
 msgctxt "Match: Start of Field"
 msgid "Start of Field"
 msgstr "yorliq"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_caseSensitive)
-#: main/kexifinddialog.ui:270
+#: main/kexifinddialog.ui:276
 msgctxt "Match: Case sensitive"
 msgid "C&ase sensitive"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_wholeWords)
-#: main/kexifinddialog.ui:280
+#: main/kexifinddialog.ui:286
 msgctxt "Match: Whole words only"
 msgid "&Whole words only"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_promptOnReplace)
-#: main/kexifinddialog.ui:290
+#: main/kexifinddialog.ui:296
 #, fuzzy
 msgid "Prompt on replace"
 msgstr "Al&mashtirilmasin"
@@ -4027,7 +3991,7 @@ msgid "Share"
 msgstr ""
 
 #: migration/AlterSchemaWidget.cpp:51 migration/AlterSchemaWidget.cpp:113
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1279
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1275
 #, kde-format
 msgid "Column %1"
 msgstr "Ustun %1"
@@ -4150,8 +4114,8 @@ msgid "No appropriate migration driver found."
 msgstr ""
 
 #: migration/importtablewizard.cpp:554
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:394
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1735
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:390
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1731
 msgid "No project available."
 msgstr "Loyiha mavjud emas."
 
@@ -5333,12 +5297,12 @@ msgid "Show Options &gt;&gt;"
 msgstr "Moslamalarni koʻrsatish >>"
 
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:176
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:576
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:572
 msgid "Delimiter:"
 msgstr "Ajratuvchi:"
 
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:185
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:605
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:601
 msgid "Text quote:"
 msgstr ""
 
@@ -5397,112 +5361,105 @@ msgctxt "@title:window"
 msgid "Paste CSV Data From Clipboard"
 msgstr "Jadvaldagi maʼlumotlardan xotiraga nusxa olish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:250
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:249
 #: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:154
 msgid "&Import..."
 msgstr "&Import qilish..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:252
-#, fuzzy
-#| msgid "Next Page"
-msgctxt "Opposite to Back"
-msgid "Next"
-msgstr "Keyingi bet"
-
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:325
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:321
 msgid "Open CSV Data File"
 msgstr "CSV maʼlumot faylini ochish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:374
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:370
 #, fuzzy
 #| msgid "Select source database filename."
 msgctxt "@info"
 msgid "Select source filename."
 msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:387
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:383
 msgid "Data set contains no rows. Do you want to import empty table?"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:400
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1740
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:396
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1736
 #, fuzzy
 msgid "No database connection available."
 msgstr "Loyiha mavjud emas."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:418
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:414
 #: widget/KexiNameDialog.cpp:155
 msgid "Please choose other name."
 msgstr "Iltimos boshqa nom tanlang."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:468
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:464
 #, fuzzy
 #| msgid "Loading CSV Data"
 msgctxt "@title:window"
 msgid "Loading CSV Data"
 msgstr "CSV maʼlumotlarini yuklash"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:469
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:465
 #, fuzzy, kde-format
 #| msgid "Loading CSV Data from \"%1\"..."
 msgctxt "@info"
 msgid "Loading CSV Data from <filename>%1</filename>..."
 msgstr "CSV maʼlumotlari \"%1\"dan yuklanmoqda..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:535
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:749
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:531
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:745
 #, fuzzy
 #| msgid "Table"
 msgid "To table:"
 msgstr "Jadval"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:552
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:548
 #, fuzzy
 #| msgid "Select Type of Import"
 msgid "Select file name for import"
 msgstr "Import qilish usulini tanlang"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:562
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:558
 #, fuzzy
 msgid "Preview of data from file:"
 msgstr "Maʼlumotlar jadvalini fayldan import qilish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:563
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:559
 #, fuzzy
 msgid "Preview of data from clipboard"
 msgstr "Maʼlumotlar jadvalini fayldan import qilish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:597
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:593
 msgid "Primary key"
 msgstr "Birinchi darajali kalit"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:629
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:625
 msgid "Ignore duplicated delimiters"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:634
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:630
 msgid "First row contains column names"
 msgstr "Birinchi satrda ustun nomlari mavjud"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:652
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:648
 #, fuzzy
 #| msgid "CSV Import Options"
 msgid "Import Options"
 msgstr "CSV import qilish moslamalari"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:661
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:657
 #, fuzzy
 #| msgid "New database"
 msgctxt "@action:button"
 msgid "New table"
 msgstr "Yangi maʼlumot bazasi"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:662
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:658
 msgctxt "CSV import: data will be appended to a new table"
 msgid "Data will be appended to a new table"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:664
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:660
 #, fuzzy
 #| msgid ""
 #| "Import Existing\n"
@@ -5513,97 +5470,97 @@ msgstr ""
 "Mavjud maʼlumot bazasini\n"
 "import qilish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:665
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:661
 msgctxt "CSV import: data will be appended to existing table"
 msgid "Data will be appended to existing table"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:676
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:672
 msgid "Choose Method of Saving Imported Data"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:707
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:703
 #, fuzzy
 #| msgid "Caption:"
 msgctxt "@label"
 msgid "Caption:"
 msgstr "Sarlavha:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:708
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:704
 #, fuzzy
 #| msgid "Name:"
 msgctxt "@label"
 msgid "Name:"
 msgstr "Nomi:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:709
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:705
 #, fuzzy
 msgctxt "@label"
 msgid "Row count:"
 msgstr "Maʼlumot manbasi"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:710
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:706
 #, fuzzy
 #| msgid "Column name"
 msgctxt "@label"
 msgid "Column count:"
 msgstr "Ustun nomi"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:736
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:732
 msgctxt "@label"
 msgid "Choose Name of Destination Table"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:744
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:740
 #, fuzzy
 #| msgid "From File..."
 msgid "From CSV file:"
 msgstr "Fayldan"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:744
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:740
 #, fuzzy
 #| msgid "To clipboard:"
 msgid "From Clipboard"
 msgstr "Xotiraga olish:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:763
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:759
 #, fuzzy
 #| msgid "Importing"
 msgid "Importing..."
 msgstr "Import qilinmoqda"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:816
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:812
 #, kde-format
 msgid "Cannot open input file <nobr>\"%1\"</nobr>."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:893
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:889
 #, kde-format
 msgid "Start at line (1-%1):"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:894
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:902
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:890
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:898
 #, fuzzy
 msgid "Start at line:"
 msgstr "yorliq"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1565
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1561
 #: plugins/queries/kexiquerydesignerguieditor.cpp:225
 msgid "Column"
 msgstr "Ustun"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1602
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1598
 msgctxt "@info"
 msgid "An error occurred during insert record."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1683
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1679
 #, kde-format
 msgid "Format for column %1:"
 msgstr "%1 ustuni koʻrinishi:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1755
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1751
 msgid ""
 "No Primary Key (autonumber) has been defined.\n"
 "Should it be automatically defined on import (recommended)?\n"
@@ -5612,70 +5569,70 @@ msgid ""
 "on database type)."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1759
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1755
 msgctxt "Add Database Primary Key to a Table"
 msgid "Add Primary Key"
 msgstr "Birinchi darajali kalit qoʻshish"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1760
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1756
 msgctxt "Do Not Add Database Primary Key to a Table"
 msgid "Do Not Add"
 msgstr "Qoʻshilmasin"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1844
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1840
 msgid "<p>Fields count does not match!</p><p>Please choose another table.</p>"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1884
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1880
 #, kde-format
 msgid "Importing CSV Data from <nobr>\"%1\"</nobr> into \"%2\" table..."
 msgstr ""
 "CSV maʼlumotlari <nobr>\"%1\"dan</nobr> \"%2\" jadvaliga import qilinmoqda..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1900
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1896
 msgid "Import has been canceled."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1902
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1898
 msgid "Error occurred during import."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1936
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1932
 #, kde-format
 msgid "Data has been successfully imported to table \"%1\"."
 msgstr "Maʼlumotlar \"%1\" jadvaliga muvaffaqiyatli import qilindi."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1962
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1958
 msgctxt "Text type for column"
 msgid "Text"
 msgstr "Matn"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1964
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1960
 #, fuzzy
 msgctxt "Numeric type for column"
 msgid "Number"
 msgstr "Matn"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1966
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1962
 #, fuzzy
 msgctxt "Currency type for column"
 msgid "Currency"
 msgstr "Matn"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:2047
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:2043
 #, fuzzy, kde-format
 #| msgid "(columns: %1)"
 msgctxt "row count"
 msgid "(rows: %1)"
 msgstr "(ustun: %1)"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:2051
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:2047
 #, kde-format
 msgctxt "row count"
 msgid "(rows: more than %1)"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:2052
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:2048
 #, fuzzy
 msgid "Not all rows are visible on this preview"
 msgstr "Ushbu oyna uchun yordam mavjud emas."
@@ -7332,6 +7289,13 @@ msgstr ""
 msgid "Supply a password below."
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, userNameLabel)
+#: widget/KexiPasswordWidget.ui:60
+#, fuzzy
+#| msgid "&Username:"
+msgid "Username:"
+msgstr "F&oydalanuvchi:"
+
 #. i18n: ectx: property (text), widget (QLabel, anonymousLabel)
 #: widget/KexiPasswordWidget.ui:77
 msgid "Anonymous:"
@@ -7342,6 +7306,13 @@ msgstr ""
 #, fuzzy
 msgid "Database name:"
 msgstr "Maʼlumotlar baza serveri"
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: widget/KexiPasswordWidget.ui:128
+#, fuzzy
+#| msgid "&Password:"
+msgid "Password:"
+msgstr "&Maxfiy soʻz:"
 
 #. i18n: ectx: property (text), widget (QLabel, keepCheckBoxLabel)
 #: widget/KexiPasswordWidget.ui:155
@@ -7801,6 +7772,17 @@ msgstr "Birinchi satr"
 #, fuzzy
 msgid "Moves cursor to new record and allows inserting."
 msgstr "Keyingi oyna"
+
+#, fuzzy
+#~| msgid "Please enter the password."
+#~ msgid "Remember password"
+#~ msgstr "Iltimos maxfiy soʻzni kiriting."
+
+#, fuzzy
+#~| msgid "Next Page"
+#~ msgctxt "Opposite to Back"
+#~ msgid "Next"
+#~ msgstr "Keyingi bet"
 
 #, fuzzy
 #~ msgctxt "(qtundo-format)"
