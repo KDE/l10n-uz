@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-12 07:59+0000\n"
+"POT-Creation-Date: 2014-09-27 09:14+0000\n"
 "PO-Revision-Date: 2005-10-19 21:17+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -37,12 +37,12 @@ msgstr "Nomi"
 msgid "Description"
 msgstr "Taʼrifi"
 
-#: core/themepage.cpp:100 xcursor/themepage.cpp:333
+#: core/themepage.cpp:100 xcursor/themepage.cpp:312
 msgid "You have to restart KDE for these changes to take effect."
 msgstr ""
 "Oʻzgarishlar kuchga kirishi uchun KDE'ni qaytadan ishga tushirishingiz kerak."
 
-#: core/themepage.cpp:101 xcursor/themepage.cpp:334
+#: core/themepage.cpp:101 xcursor/themepage.cpp:313
 msgid "Cursor Settings Changed"
 msgstr "Kursor moslamalari oʻzgardi"
 
@@ -521,16 +521,16 @@ msgctxt "@item:inlistbox size"
 msgid "resolution dependent"
 msgstr ""
 
-#: xcursor/themepage.cpp:452
+#: xcursor/themepage.cpp:431
 msgid "Drag or Type Theme URL"
 msgstr ""
 
-#: xcursor/themepage.cpp:463
+#: xcursor/themepage.cpp:442
 #, kde-format
 msgid "Unable to find the cursor theme archive %1."
 msgstr "Kursor mavzusining %1 arxivi topilmadi."
 
-#: xcursor/themepage.cpp:466
+#: xcursor/themepage.cpp:445
 #, kde-format
 msgid ""
 "Unable to download the cursor theme archive; please check that the address "
@@ -539,18 +539,18 @@ msgstr ""
 "Kursor mavzusining arxivini yozib olib boʻlmadi. Iltimos %1 manzili "
 "toʻgʻriligini tekshiring."
 
-#: xcursor/themepage.cpp:475
+#: xcursor/themepage.cpp:454
 #, kde-format
 msgid "The file %1 does not appear to be a valid cursor theme archive."
 msgstr "%1 fayli haqiqiy kursor mavzusining arxiviga oʻxshamaydi."
 
-#: xcursor/themepage.cpp:490
+#: xcursor/themepage.cpp:469
 msgid ""
 "<qt>You cannot delete the theme you are currently using.<br />You have to "
 "switch to another theme first.</qt>"
 msgstr ""
 
-#: xcursor/themepage.cpp:496
+#: xcursor/themepage.cpp:475
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Are you sure you want to remove the <strong>%1</strong> cursor theme?"
@@ -562,18 +562,18 @@ msgstr ""
 "<qt><strong>%1</strong> mavzusini olib tashlashga ishonchingiz komilmi?"
 "<br>Bu mavzuga tegishli hamma fayllar oʻchiriladi.</qt>"
 
-#: xcursor/themepage.cpp:502
+#: xcursor/themepage.cpp:481
 msgid "Confirmation"
 msgstr "Tasdiqlash"
 
-#: xcursor/themepage.cpp:559
+#: xcursor/themepage.cpp:538
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
 "replace it with this one?"
 msgstr "%1 mavzusi allaqachon mavjud. Uni almashtirishni istaysizmi?"
 
-#: xcursor/themepage.cpp:563
+#: xcursor/themepage.cpp:542
 msgid "Overwrite Theme?"
 msgstr "Mavzuni almashtirish"
 
@@ -615,7 +615,7 @@ msgstr ""
 #: xcursor/xcursortheme.cpp:74
 #, kde-format
 msgctxt ""
-"@info/plain The argument is the list of available sizes (in pixel). Example: "
+"@info The argument is the list of available sizes (in pixel). Example: "
 "'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
 msgid "(Available sizes: %1)"
 msgstr ""
