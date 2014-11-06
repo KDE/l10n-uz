@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-05 01:32+0000\n"
+"POT-Creation-Date: 2014-11-06 01:34+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8013,11 +8013,18 @@ msgstr "Chiziqli"
 msgid "Ascii"
 msgstr ""
 
-#: plugins/formats/psd/psd_export.cc:67
+#: plugins/formats/psd/psd_export.cc:90
 msgid ""
 "Unable to save to the Photoshop format.\n"
 "The Photoshop format only supports images that are smaller than 30000x3000 "
 "pixels."
+msgstr ""
+
+#: plugins/formats/psd/psd_export.cc:100
+msgid ""
+"Unable to save to the Photoshop format.\n"
+"The Photoshop format only supports images where all layers have the same "
+"colorspace as the image."
 msgstr ""
 
 #: plugins/formats/psd/psd_loader.cpp:156
@@ -14422,8 +14429,10 @@ msgid "Properties..."
 msgstr "Qatlamning xossalari"
 
 #: ui/kis_image_manager.cc:59
-msgid "Image Background Colorc and Transparency..."
-msgstr ""
+#, fuzzy
+#| msgid "Background Color"
+msgid "Image Background Color and Transparency..."
+msgstr "Orqa fon rangi"
 
 #: ui/kis_image_manager.cc:84
 msgid "Import Image"
@@ -14481,54 +14490,54 @@ msgctxt "(qtundo-format)"
 msgid "Convert to a Paint Layer"
 msgstr "Joriy qatlam"
 
-#: ui/kis_layer_manager.cc:553
+#: ui/kis_layer_manager.cc:554
 #, fuzzy
 #| msgid "Filters"
 msgid "New Filter Layer"
 msgstr "Filterlar"
 
-#: ui/kis_layer_manager.cc:612
+#: ui/kis_layer_manager.cc:613
 msgid "Could not add layer to image."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: ui/kis_layer_manager.cc:612
+#: ui/kis_layer_manager.cc:613
 msgid "Layer Error"
 msgstr "Qatlam xatosi."
 
-#: ui/kis_layer_manager.cc:698
+#: ui/kis_layer_manager.cc:699
 msgid "The image contains hidden layers that will be lost."
 msgstr "Rasmda yashirin qatlamlar mavjud. Ular yoʻqoladi."
 
-#: ui/kis_layer_manager.cc:699
+#: ui/kis_layer_manager.cc:700
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Silliqlangan rasm"
 
-#: ui/kis_layer_manager.cc:700
+#: ui/kis_layer_manager.cc:701
 #, fuzzy
 msgid "&Flatten Image"
 msgstr "&Silliqlangan rasm"
 
-#: ui/kis_layer_manager.cc:766
+#: ui/kis_layer_manager.cc:767
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "Qatlamni burish"
 
-#: ui/kis_layer_manager.cc:802
+#: ui/kis_layer_manager.cc:803
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:805
+#: ui/kis_layer_manager.cc:806
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:862
+#: ui/kis_layer_manager.cc:863
 msgid "No file name specified."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:862
+#: ui/kis_layer_manager.cc:863
 msgid "No file specified"
 msgstr ""
 
@@ -15398,40 +15407,40 @@ msgstr "Oldin fon rangi"
 msgid "Reset Foreground and Background Color"
 msgstr "Oldin fon rangi"
 
-#: ui/tool/kis_tool.cc:548
+#: ui/tool/kis_tool.cc:556
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Clear"
 msgstr "Ayiqlar"
 
-#: ui/tool/kis_tool.cc:577
+#: ui/tool/kis_tool.cc:585
 #, fuzzy
 msgid "No options"
 msgstr "Alfa moslamalari"
 
-#: ui/tool/kis_tool.cc:725
+#: ui/tool/kis_tool.cc:733
 #, fuzzy
 #| msgid "Layer is locked or invisible."
 msgid "Layer is locked and invisible."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/tool/kis_tool.cc:727
+#: ui/tool/kis_tool.cc:735
 #, fuzzy
 #| msgid "Layer is locked or invisible."
 msgid "Layer is locked."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/tool/kis_tool.cc:729
+#: ui/tool/kis_tool.cc:737
 #, fuzzy
 #| msgid "Layer is locked or invisible."
 msgid "Layer is invisible."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/tool/kis_tool.cc:731
+#: ui/tool/kis_tool.cc:739
 msgid "Group not editable."
 msgstr ""
 
-#: ui/tool/kis_tool.cc:746
+#: ui/tool/kis_tool.cc:754
 #, fuzzy
 msgid "Local selection is locked."
 msgstr "Palitra tanlanmagan."
@@ -15614,7 +15623,7 @@ msgstr ""
 msgid "Share Color Profile"
 msgstr "Qatlamning xossalari"
 
-#: ui/widgets/kis_filter_selector_widget.cc:165
+#: ui/widgets/kis_filter_selector_widget.cc:179
 #, fuzzy
 msgid "No configuration option."
 msgstr "Moslash..."
