@@ -1,21 +1,20 @@
-# translation of kio4.po to Uzbek
-# translation of kio4.po to
-# Copyright (C) 2003, 2004, 2005, 2006, 2008 Free Software Foundation, Inc.
+# translation of kcmkio.po to Uzbek
+# Copyright (C) 2003, 2004, 2005 Free Software Foundation, Inc.
+# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003, 2004, 2005.
 #
-# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003, 2004, 2005, 2006, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: kio4\n"
+"Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-12-26 08:15+0000\n"
-"PO-Revision-Date: 2008-06-04 01:21+0200\n"
+"PO-Revision-Date: 2005-10-13 21:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
 "Language: uz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgctxt "NAME OF TRANSLATORS"
@@ -3889,16 +3888,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbUseCache)
 #: kcms/kio/cache.ui:20
-#, fuzzy
-#| msgid "&Username:"
 msgid "&Use cache"
-msgstr "F&oydalanuvchi:"
+msgstr "Keshdan &foydalanish"
 
 #. i18n: ectx: property (title), widget (QGroupBox, bgCachePolicy)
 #. i18n: ectx: property (text), widget (QTreeWidget, policyTreeWidget)
 #: kcms/kio/cache.ui:46 kcms/kio/kcookiespolicies.ui:168
 msgid "Policy"
-msgstr ""
+msgstr "Qoida"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbVerifyCache)
 #: kcms/kio/cache.ui:52
@@ -3922,7 +3919,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, rbCacheIfPossible)
 #: kcms/kio/cache.ui:65
 msgid "Use cache whenever &possible"
-msgstr ""
+msgstr "Iloji boʻ&lsa keshdan foydalanish"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbOfflineMode)
 #: kcms/kio/cache.ui:72
@@ -3939,7 +3936,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lbMaxCacheSize)
 #: kcms/kio/cache.ui:88
 msgid "Disk cache &size:"
-msgstr ""
+msgstr "Keshning ha&jmi:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbMaxCacheSize)
 #: kcms/kio/cache.ui:101
@@ -3950,10 +3947,8 @@ msgstr "%1 Kb"
 
 #. i18n: ectx: property (text), widget (QPushButton, clearCacheButton)
 #: kcms/kio/cache.ui:111
-#, fuzzy
-#| msgid "Clear Search"
 msgid "C&lear Cache"
-msgstr "Qidiruvni tozalash"
+msgstr "Keshni &tozalash"
 
 #: kcms/kio/kcookiesmain.cpp:40
 msgid ""
@@ -3963,13 +3958,11 @@ msgstr ""
 
 #: kcms/kio/kcookiesmain.cpp:50
 msgid "&Policy"
-msgstr ""
+msgstr "Q&oida"
 
 #: kcms/kio/kcookiesmain.cpp:55
-#, fuzzy
-#| msgid "Comment"
 msgid "&Management"
-msgstr "Izoh"
+msgstr "&Boshqaruv"
 
 #: kcms/kio/kcookiesmain.cpp:91
 msgid ""
@@ -3990,20 +3983,23 @@ msgid ""
 msgstr ""
 
 #: kcms/kio/kcookiesmanagement.cpp:138 kcms/kio/kcookiesmanagement.cpp:154
+#, fuzzy
 msgid "D-Bus Communication Error"
-msgstr ""
+msgstr "DCOP aloqa xatosi"
 
 #: kcms/kio/kcookiesmanagement.cpp:139
 msgid "Unable to delete all the cookies as requested."
-msgstr ""
+msgstr "Hamma kukilarni oʻchirib boʻlmadi."
 
 #: kcms/kio/kcookiesmanagement.cpp:155
 msgid "Unable to delete cookies as requested."
-msgstr ""
+msgstr "Kukilarni oʻchirib boʻlmadi."
 
 #: kcms/kio/kcookiesmanagement.cpp:226
+#, fuzzy
+#| msgid "<h1>Cookies Management Quick Help</h1>"
 msgid "<h1>Cookie Management Quick Help</h1>"
-msgstr ""
+msgstr "<h1>Kukilarni boshqarish boʻyicha tez yordam</h1>"
 
 #: kcms/kio/kcookiesmanagement.cpp:236
 msgid "Information Lookup Failure"
@@ -4012,11 +4008,9 @@ msgstr ""
 #: kcms/kio/kcookiesmanagement.cpp:237
 msgid ""
 "Unable to retrieve information about the cookies stored on your computer."
-msgstr ""
+msgstr "Kompyuterda saqlangan kukilar haqida maʼlumotni aniqlab boʻlmadi."
 
 #: kcms/kio/kcookiesmanagement.cpp:327
-#, fuzzy
-#| msgid "End of Session"
 msgid "End of session"
 msgstr "Seans yakuni"
 
@@ -4042,69 +4036,66 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTreeWidget, cookiesTreeWidget)
 #: kcms/kio/kcookiesmanagement.ui:43
 #, fuzzy
-#| msgid "Site:"
+#| msgid "Site Name"
 msgid "Site"
-msgstr "Sayt:"
+msgstr "Saytning nomi"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, cookiesTreeWidget)
 #: kcms/kio/kcookiesmanagement.ui:48
 #, fuzzy
-#| msgid "Cookie Alert"
+#| msgid "Site Name"
 msgid "Cookie Name"
-msgstr "Kuki xabarnomasi"
+msgstr "Saytning nomi"
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
 #: kcms/kio/kcookiesmanagement.ui:56 kcms/kio/kcookiespolicies.ui:190
 #: kcms/kio/useragentdlg.ui:202
-#, fuzzy
-#| msgid "Delete"
 msgid "D&elete"
-msgstr "Oʻchirish"
+msgstr "Oʻ&chirish"
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
 #. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
 #: kcms/kio/kcookiesmanagement.ui:63 kcms/kio/kcookiespolicies.ui:197
 #: kcms/kio/useragentdlg.ui:212
-#, fuzzy
-#| msgid "Delete File"
 msgid "Delete A&ll"
-msgstr "Faylni oʻchirish"
+msgstr "Ham&masini oʻchirish"
 
 #. i18n: ectx: property (text), widget (QPushButton, configPolicyButton)
 #: kcms/kio/kcookiesmanagement.ui:70
 #, fuzzy
+#| msgid "Change &Policy..."
 msgid "Configure &Policy..."
-msgstr "&Davom etish"
+msgstr "Qoidani oʻ&zgartirish"
 
 #. i18n: ectx: property (text), widget (QPushButton, reloadButton)
 #: kcms/kio/kcookiesmanagement.ui:77
-#, fuzzy
-#| msgid "Reload"
 msgid "&Reload List"
-msgstr "Qaytadan yuklash"
+msgstr "&Roʻyxatni qaytadan yuklash"
 
 #. i18n: ectx: property (title), widget (QGroupBox, detailsGroupBox)
 #: kcms/kio/kcookiesmanagement.ui:97
-#, fuzzy
-#| msgid "&Details"
 msgid "Details"
-msgstr "&Tafsilotlar"
+msgstr "Tafsilotlar"
 
 #. i18n: ectx: property (text), widget (QLabel, secureLabel)
 #: kcms/kio/kcookiesmanagement.ui:221
 msgid "Secure:"
-msgstr ""
+msgstr "Xavfsiz:"
 
 #: kcms/kio/kcookiespolicies.cpp:175
+#, fuzzy
+#| msgid "Change Cookie Policy"
 msgctxt "@title:window"
 msgid "Change Cookie Policy"
-msgstr ""
+msgstr "Qoidani oʻzgartirish"
 
 #: kcms/kio/kcookiespolicies.cpp:194
+#, fuzzy
+#| msgid "New Cookie Policy"
 msgctxt "@title:window"
 msgid "New Cookie Policy"
-msgstr ""
+msgstr "Yangi qoida"
 
 #: kcms/kio/kcookiespolicies.cpp:222
 #, kde-format
@@ -4112,11 +4103,15 @@ msgid ""
 "<qt>A policy already exists for<center><b>%1</b></center>Do you want to "
 "replace it?</qt>"
 msgstr ""
+"<qt>Qoida<center><b>%1</b></center> uchun allaqachon mavjud. Uni "
+"almashtirishni istaysizmi?</qt>"
 
 #: kcms/kio/kcookiespolicies.cpp:225
+#, fuzzy
+#| msgid "Duplicate Policy"
 msgctxt "@title:window"
 msgid "Duplicate Policy"
-msgstr ""
+msgstr "Qoida nusxasini yaratish"
 
 #: kcms/kio/kcookiespolicies.cpp:226 kcms/kio/useragentdlg.cpp:199
 #, fuzzy
@@ -4166,10 +4161,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbEnableCookies)
 #: kcms/kio/kcookiespolicies.ui:23
-#, fuzzy
-#| msgid "All &cookies"
 msgid "Enable coo&kies"
-msgstr "&Hamma kukilar"
+msgstr "K&ukilarni yoqish"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRejectCrossDomainCookies)
 #: kcms/kio/kcookiespolicies.ui:35
@@ -4204,7 +4197,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbAutoAcceptSessionCookies)
 #: kcms/kio/kcookiespolicies.ui:49
 msgid "Automaticall&y accept session cookies"
-msgstr ""
+msgstr "Seans kukilarini &avto-qabul qilish"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, bgDefault)
 #: kcms/kio/kcookiespolicies.ui:68
@@ -4228,34 +4221,30 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, bgDefault)
 #: kcms/kio/kcookiespolicies.ui:71
-#, fuzzy
-#| msgid "Default"
 msgid "Default Policy"
-msgstr "Andoza"
+msgstr "Andoza qoida"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAccept)
 #: kcms/kio/kcookiespolicies.ui:77
-#, fuzzy
-#| msgid "All &cookies"
 msgid "Accep&t all cookies"
-msgstr "&Hamma kukilar"
+msgstr "Hamma kukilarni qa&bul qilish"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAcceptForSession)
 #: kcms/kio/kcookiespolicies.ui:84
+#, fuzzy
+#| msgid "End of session"
 msgid "Accept &until end of session"
-msgstr ""
+msgstr "Seans yakuni"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAsk)
 #: kcms/kio/kcookiespolicies.ui:91
 msgid "Ask &for confirmation"
-msgstr ""
+msgstr "Tasd&iqlash uchun soʻrash"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyReject)
 #: kcms/kio/kcookiespolicies.ui:98
-#, fuzzy
-#| msgid "Remove all cookies"
 msgid "Re&ject all cookies"
-msgstr "Hamma kukilarni oʻchirish"
+msgstr "Hamma kukilarni &rad etish"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, gbDomainSpecific)
 #: kcms/kio/kcookiespolicies.ui:123
@@ -4273,7 +4262,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, gbDomainSpecific)
 #: kcms/kio/kcookiespolicies.ui:126
 msgid "Site Policy"
-msgstr ""
+msgstr "Sayt qoidasi"
 
 #. i18n: ectx: property (toolTip), widget (KTreeWidgetSearchLine, kListViewSearchLine)
 #: kcms/kio/kcookiespolicies.ui:135
@@ -4291,36 +4280,28 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QTreeWidget, policyTreeWidget)
 #: kcms/kio/kcookiespolicies.ui:163
-#, fuzzy
-#| msgid "Domain:"
 msgid "Domain"
-msgstr "Domen:"
+msgstr "Domen"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbNew)
 #. i18n: ectx: property (text), widget (QPushButton, newButton)
 #: kcms/kio/kcookiespolicies.ui:176 kcms/kio/useragentdlg.ui:182
 #: urifilters/ikws/ikwsopts_ui.ui:74
-#, fuzzy
-#| msgid "New..."
 msgid "&New..."
-msgstr "Yangi..."
+msgstr "Ya&ngi"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbChange)
 #. i18n: ectx: property (text), widget (QPushButton, changeButton)
 #: kcms/kio/kcookiespolicies.ui:183 kcms/kio/useragentdlg.ui:192
 #: urifilters/ikws/ikwsopts_ui.ui:87
-#, fuzzy
-#| msgid "Calculating..."
 msgid "Chan&ge..."
-msgstr "Hisoblanmoqda..."
+msgstr "Oʻz&gartirish"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.h:36
 #: kcms/kio/kcookiespolicyselectiondlg.ui:81
-#, fuzzy
-#| msgid "&Accept"
 msgid "Accept"
-msgstr "&Qabul qilish"
+msgstr "Qabul qilish"
 
 #: kcms/kio/kcookiespolicyselectiondlg.h:38
 #, fuzzy
@@ -4331,16 +4312,14 @@ msgstr "Seans yakuni"
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.h:40
 #: kcms/kio/kcookiespolicyselectiondlg.ui:91
-#, fuzzy
-#| msgid "&Reject"
 msgid "Reject"
-msgstr "Rad &etish"
+msgstr "Rad etish"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.h:42
 #: kcms/kio/kcookiespolicyselectiondlg.ui:96
 msgid "Ask"
-msgstr ""
+msgstr "Soʻrash"
 
 #: kcms/kio/kcookiespolicyselectiondlg.h:44
 #, fuzzy
@@ -4356,12 +4335,17 @@ msgid ""
 "b> or <b>.kde.org</b>.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Ushbu qoida qoʻllanadigan xost yoki domenning nomini kiriting. Masalan, "
+"<b>www.kde.org</b> yoki <b>.kde.org</b>.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, lbDomain)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:25
 #, fuzzy
+#| msgid "Site Name"
 msgid "Site name:"
-msgstr "Uskuna:"
+msgstr "Saytning nomi"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, leDomain)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:38
@@ -4372,6 +4356,16 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (KComboBox, cbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:53
 #: kcms/kio/kcookiespolicyselectiondlg.ui:77
+#, fuzzy
+#| msgid ""
+#| "<qt>\n"
+#| "Select the desired policy:\n"
+#| "<ul>\n"
+#| "<li><b>Accept</b> - Allows this site to set cookies</li>\n"
+#| "<li><b>Reject</b> - Refuse all cookies sent from this site</li>\n"
+#| "<li><b>Ask</b> - Prompt when cookies are received from this site</li>\n"
+#| "</ul>\n"
+#| "</qt>"
 msgid ""
 "<qt>\n"
 "Select the desired policy:\n"
@@ -4384,16 +4378,28 @@ msgid ""
 "</ul>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Istagan qoidani tanlang:\n"
+"<ul>\n"
+"<li><b>Qabul qilish</b> - Saytdan hamma kukilarni qabul qilish</li>\n"
+"<li><b>Rad etish</b> - Saytdan hamma kukilarni rad etish</li>\n"
+"<li><b>Soʻrash</b> - Saytdan kuki kelganida soʻrash</li>\n"
+"</ul>\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, lbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:56
+#, fuzzy
+#| msgid "&Policy:"
 msgid "Policy:"
-msgstr ""
+msgstr "Q&oida:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:86
+#, fuzzy
+#| msgid "End of session"
 msgid "Accept until end of session"
-msgstr ""
+msgstr "Seans yakuni"
 
 #. i18n: ectx: label, entry (DisablePassiveMode), group (DesktopIcons)
 #: kcms/kio/kio_ftprc.kcfg:10
@@ -4411,7 +4417,7 @@ msgstr ""
 #. i18n: ectx: label, entry (MarkPartial), group (DesktopIcons)
 #: kcms/kio/kio_ftprc.kcfg:16
 msgid "Mark partially uploaded files"
-msgstr ""
+msgstr "Qisman yozib olingan fayllarni belgilash"
 
 #. i18n: ectx: whatsthis, entry (MarkPartial), group (DesktopIcons)
 #: kcms/kio/kio_ftprc.kcfg:17
@@ -4453,14 +4459,14 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, noProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:26
 msgid "Connect to the Internet directly."
-msgstr ""
+msgstr "Internetga toʻgʻridan-toʻgʻri ulanish."
 
 #. i18n: ectx: property (text), widget (QRadioButton, noProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:29
 #, fuzzy
-#| msgid "Proxy:"
+#| msgid "&Proxy"
 msgid "No Proxy"
-msgstr "Proksi:"
+msgstr "&Proksi"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, autoDiscoverProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:46
@@ -4477,25 +4483,31 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoDiscoverProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:49
+#, fuzzy
+#| msgid "U&se the following proxy configuration URL"
 msgid "Detect proxy configuration automatically"
-msgstr ""
+msgstr "Quyida&gi proksi moslama URL'dan foydalanish"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, autoScriptProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:59
+#, fuzzy
+#| msgid "Use the specified proxy script URL to configure the proxy settings."
 msgid "Use the specified proxy script to configure the proxy settings."
 msgstr ""
+"Proksi serverining moslamalarini moslash uchun koʻrsatilgan skript URL'dan "
+"foydalanish."
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoScriptProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:62
 #, fuzzy
-#| msgid "Reload configuration file"
+#| msgid "U&se the following proxy configuration URL"
 msgid "Use proxy auto configuration URL:"
-msgstr "Moslama faylini qaytadan yuklash"
+msgstr "Quyida&gi proksi moslama URL'dan foydalanish"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, proxyScriptUrlRequester)
 #: kcms/kio/kproxydlg.ui:93
 msgid "Enter the address for the proxy configuration script."
-msgstr ""
+msgstr "Proksi moslama skripti joylashgan manzilni kiriting."
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, systemProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:117
@@ -4515,9 +4527,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, systemProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:120
 #, fuzzy
-#| msgid "Updating system configuration."
+#| msgid "U&se the following proxy configuration URL"
 msgid "Use system proxy configuration:"
-msgstr "Tizimning moslamasi yangilanmoqda."
+msgstr "Quyida&gi proksi moslama URL'dan foydalanish"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, autoDetectButton)
 #: kcms/kio/kproxydlg.ui:127
@@ -4530,8 +4542,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, autoDetectButton)
 #: kcms/kio/kproxydlg.ui:130
+#, fuzzy
+#| msgid "Auto &Detect"
 msgid "Auto D&etect"
-msgstr ""
+msgstr "&Avto-aniqlash"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxyHttpLabel)
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxyHttpEdit)
@@ -4549,9 +4563,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, manualProxyHttpEditLabel)
 #: kcms/kio/kproxydlg.ui:161 kcms/kio/kproxydlg.ui:383
 #, fuzzy
-#| msgid "Proxy:"
+#| msgid "&Proxy"
 msgid "HTTP Proxy:"
-msgstr "Proksi:"
+msgstr "&Proksi"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxyHttpsLabel)
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxyHttpsEdit)
@@ -4569,9 +4583,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, manualProxyHttpsEditLabel)
 #: kcms/kio/kproxydlg.ui:196 kcms/kio/kproxydlg.ui:449
 #, fuzzy
-#| msgid "Proxy:"
+#| msgid "&Proxy"
 msgid "SSL Proxy:"
-msgstr "Proksi:"
+msgstr "&Proksi"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxyFtpLabel)
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxyFtpEdit)
@@ -4589,9 +4603,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, manualProxyFtpEditLabel)
 #: kcms/kio/kproxydlg.ui:231 kcms/kio/kproxydlg.ui:499
 #, fuzzy
-#| msgid "Proxy:"
+#| msgid "&Proxy"
 msgid "FTP Proxy:"
-msgstr "Proksi:"
+msgstr "&Proksi"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxySocksLabel)
 #: kcms/kio/kproxydlg.ui:263
@@ -4608,9 +4622,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, manualProxySocksEditLabel)
 #: kcms/kio/kproxydlg.ui:266 kcms/kio/kproxydlg.ui:552
 #, fuzzy
-#| msgid "Proxy:"
+#| msgid "&Proxy"
 msgid "SOCKS Proxy:"
-msgstr "Proksi:"
+msgstr "&Proksi"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxySocksEdit)
 #: kcms/kio/kproxydlg.ui:285
@@ -4637,9 +4651,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, manNoProxyLabel)
 #: kcms/kio/kproxydlg.ui:298 kcms/kio/kproxydlg.ui:602
 #, fuzzy
-#| msgid "Description:"
+#| msgid "E&xceptions"
 msgid "Exceptions:"
-msgstr "Taʼrifi:"
+msgstr "Qoidadan t&ashqari holatlar"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, systemNoProxyEdit)
 #: kcms/kio/kproxydlg.ui:317
@@ -4653,22 +4667,24 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showEnvValueCheckBox)
 #: kcms/kio/kproxydlg.ui:324
 msgid "Show the &value of the environment variables"
-msgstr ""
+msgstr "Muhit oʻzgaruvchilarning qiymatini &koʻrsatish"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, manualProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:343
 msgid "Manually enter proxy server configuration information."
-msgstr ""
+msgstr "Proksi serverni moslash uchun maʼlumotni qoʻlbola kiritish."
 
 #. i18n: ectx: property (text), widget (QRadioButton, manualProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:346
+#, fuzzy
+#| msgid "A&utomatically detect proxy configuration"
 msgid "Use manually specified proxy configuration:"
-msgstr ""
+msgstr "Proksi &moslamasini avto-aniqlash"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyHttpEdit)
 #: kcms/kio/kproxydlg.ui:398
 msgid "Enter the address of the HTTP proxy server."
-msgstr ""
+msgstr "HTTP proksi serverining manzilini kiriting."
 
 #. i18n: ectx: property (text), widget (QLabel, manualProxyHttpSpinBoxLabel)
 #. i18n: ectx: property (text), widget (QLabel, manualProxyHttpsSpinBoxLabel)
@@ -4681,43 +4697,55 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, manualProxyHttpSpinBox)
 #: kcms/kio/kproxydlg.ui:421
+#, fuzzy
+#| msgid "Enter the address of the HTTP proxy server."
 msgid "Enter the port number of the HTTP proxy server."
-msgstr ""
+msgstr "HTTP proksi serverining manzilini kiriting."
 
 #. i18n: ectx: property (text), widget (QCheckBox, useSameProxyCheckBox)
 #: kcms/kio/kproxydlg.ui:436
+#, fuzzy
+#| msgid "&Use the same proxy server for all protocols"
 msgid "Use this proxy server for a&ll protocols"
-msgstr ""
+msgstr "Hamma pro&tokollar uchun bitta proksi serverini ishlatish"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyHttpsEdit)
 #: kcms/kio/kproxydlg.ui:464
 msgid "Enter the address of the HTTPS proxy server."
-msgstr ""
+msgstr "HTTPS proksi serverining manzilini kiriting."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, manualProxyHttpsSpinBox)
 #: kcms/kio/kproxydlg.ui:481
+#, fuzzy
+#| msgid "Enter the address of the HTTPS proxy server."
 msgid "Enter the port number of the HTTPS proxy server."
-msgstr ""
+msgstr "HTTPS proksi serverining manzilini kiriting."
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyFtpEdit)
 #: kcms/kio/kproxydlg.ui:517
 msgid "Enter the address of the FTP proxy server."
-msgstr ""
+msgstr "FTP proksi serverining manzilini kiriting."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, manualProxyFtpSpinBox)
 #: kcms/kio/kproxydlg.ui:534
+#, fuzzy
+#| msgid "Enter the address of the FTP proxy server."
 msgid "Enter the port number of the FTP proxy server."
-msgstr ""
+msgstr "FTP proksi serverining manzilini kiriting."
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxySocksEdit)
 #: kcms/kio/kproxydlg.ui:567
+#, fuzzy
+#| msgid "Enter the address of the HTTPS proxy server."
 msgid "Enter the address of the SOCKS proxy server."
-msgstr ""
+msgstr "HTTPS proksi serverining manzilini kiriting."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, manualProxySocksSpinBox)
 #: kcms/kio/kproxydlg.ui:584
+#, fuzzy
+#| msgid "Enter the address of the HTTPS proxy server."
 msgid "Enter the port number of the SOCKS proxy server."
-msgstr ""
+msgstr "HTTPS proksi serverining manzilini kiriting."
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualNoProxyEdit)
 #: kcms/kio/kproxydlg.ui:628
@@ -4736,38 +4764,44 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, useReverseProxyCheckBox)
 #: kcms/kio/kproxydlg.ui:639
+#, fuzzy
+#| msgid "Use proxy only for entries in this list"
 msgid ""
 "<qt>\n"
 "Check this box if you want the above proxy settings to apply only to the "
 "addresses listed in the <i>Exceptions</i> list.</qt>"
-msgstr ""
+msgstr "Roʻyxatdagilar uchun proksini ishlatish"
 
 #. i18n: ectx: property (text), widget (QCheckBox, useReverseProxyCheckBox)
 #: kcms/kio/kproxydlg.ui:642
+#, fuzzy
+#| msgid "Use proxy only for entries in this list"
 msgid "Use proxy settings only for addresses in the Exceptions list"
-msgstr ""
+msgstr "Roʻyxatdagilar uchun proksini ishlatish"
 
 #: kcms/kio/ksaveioconfig.cpp:222
 msgid ""
 "You have to restart the running applications for these changes to take "
 "effect."
 msgstr ""
+"Oʻzgarishlar kuchga kirishi uchun ishlayotgan dasturlarni qaytadan ishga "
+"tushirishingiz kerak."
 
 #: kcms/kio/ksaveioconfig.cpp:224 kcms/kio/ksaveioconfig.cpp:238
 #, fuzzy
-#| msgid "&Paste File"
-#| msgid_plural "&Paste %1 Files"
+#| msgid "Update Failed"
 msgctxt "@title:window"
 msgid "Update Failed"
-msgstr "%1-ta fay&lni qoʻyish"
+msgstr "Yangilash muvaffaqiyatsiz tugadi"
 
 #: kcms/kio/ksaveioconfig.cpp:237
 msgid "You have to restart KDE for these changes to take effect."
 msgstr ""
+"Oʻzgarishlar kuchga kirishi uchun KDE'ni qaytadan ishga tushirishingiz kerak."
 
 #: kcms/kio/netpref.cpp:32
 msgid "Timeout Values"
-msgstr ""
+msgstr "Taymaut qiymatlari"
 
 #: kcms/kio/netpref.cpp:33
 #, kde-format
@@ -4781,37 +4815,35 @@ msgstr[0] ""
 
 #: kcms/kio/netpref.cpp:45 kcms/kio/netpref.cpp:51 kcms/kio/netpref.cpp:57
 #: kcms/kio/netpref.cpp:63
+#, fuzzy
+#| msgid " sec"
 msgid " second"
 msgid_plural " seconds"
-msgstr[0] ""
+msgstr[0] " soniya"
 
 #: kcms/kio/netpref.cpp:47
 msgid "Soc&ket read:"
-msgstr ""
+msgstr "Oʻq&ish soketi:"
 
 #: kcms/kio/netpref.cpp:53
-#, fuzzy
-#| msgid "Not connected."
 msgid "Pro&xy connect:"
-msgstr "Ulanmagan."
+msgstr "Ulanish &proksisi:"
 
 #: kcms/kio/netpref.cpp:59
 msgid "Server co&nnect:"
-msgstr ""
+msgstr "Ulanish &serveri:"
 
 #: kcms/kio/netpref.cpp:65
 msgid "&Server response:"
 msgstr ""
 
 #: kcms/kio/netpref.cpp:67
-#, fuzzy
-#| msgid "Options"
 msgid "FTP Options"
-msgstr "Moslamalar"
+msgstr "FTP parametrlari"
 
 #: kcms/kio/netpref.cpp:71
 msgid "Enable passive &mode (PASV)"
-msgstr ""
+msgstr "Passiv &usulini (PASV) yoqish"
 
 #: kcms/kio/netpref.cpp:72
 msgid ""
@@ -4821,7 +4853,7 @@ msgstr ""
 
 #: kcms/kio/netpref.cpp:78
 msgid "Mark &partially uploaded files"
-msgstr ""
+msgstr "Qisman yozib olingan fayllarni &belgilash"
 
 #: kcms/kio/netpref.cpp:79
 msgid ""
@@ -4829,6 +4861,9 @@ msgid ""
 "partially uploaded files will have a \".part\" extension. This extension "
 "will be removed once the transfer is complete.</p>"
 msgstr ""
+"<p>Qisman yozib olingan FTP fayllarni belgilaydi.</p><p>Agar bu parametr "
+"yoqilgan boʻlsa, qisman yozib olingan fayllarga \".part\" kengaytmasi "
+"qoʻshiladi. Fayl toʻliq yozib olingach bu kengaytma olib tashlanadi.</p>"
 
 #: kcms/kio/netpref.cpp:147
 msgid ""
@@ -4844,13 +4879,11 @@ msgstr ""
 
 #: kcms/kio/smbrodlg.cpp:49
 msgid "Default user name:"
-msgstr ""
+msgstr "Andoza foydalanuvchi:"
 
 #: kcms/kio/smbrodlg.cpp:57
-#, fuzzy
-#| msgid "&Repeat password:"
 msgid "Default password:"
-msgstr "&Maxfiy soʻzni qaytaring:"
+msgstr "Andoza maxfiy soʻz:"
 
 #: kcms/kio/smbrodlg.cpp:176
 msgid ""
@@ -4894,10 +4927,10 @@ msgstr ""
 
 #: kcms/kio/useragentdlg.cpp:198
 #, fuzzy
-#| msgid "Authentication"
+#| msgid "Duplicate Entry"
 msgctxt "@title:window"
 msgid "Duplicate Identification"
-msgstr "Tasdiqlash"
+msgstr "Bir xil maʼlumot"
 
 #: kcms/kio/useragentdlg.cpp:370
 msgid ""
@@ -4946,9 +4979,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, sendUACheckBox)
 #: kcms/kio/useragentdlg.ui:30
 #, fuzzy
-#| msgid "Send certificate"
+#| msgid "Duplicate Entry"
 msgid "&Send identification"
-msgstr "Sertifikatni joʻnatish"
+msgstr "Bir xil maʼlumot"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, defaultIdGroupBox)
 #: kcms/kio/useragentdlg.ui:43
@@ -4960,9 +4993,9 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, defaultIdGroupBox)
 #: kcms/kio/useragentdlg.ui:46
 #, fuzzy
-#| msgid "Authentication"
+#| msgid "Duplicate Entry"
 msgid "Default Identification"
-msgstr "Tasdiqlash"
+msgstr "Bir xil maʼlumot"
 
 #. i18n: ectx: property (whatsThis), widget (KSqueezedTextLabel, defaultIdLineEdit)
 #: kcms/kio/useragentdlg.ui:58
@@ -4980,7 +5013,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, osNameCheckBox)
 #: kcms/kio/useragentdlg.ui:74
 msgid "Add operating s&ystem name"
-msgstr ""
+msgstr "Operatsion &tizimning nomini qoʻshish"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, osVersionCheckBox)
 #: kcms/kio/useragentdlg.ui:102
@@ -4991,10 +5024,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, osVersionCheckBox)
 #: kcms/kio/useragentdlg.ui:105
-#, fuzzy
-#| msgid "Updating system configuration."
 msgid "Add operating system &version"
-msgstr "Tizimning moslamasi yangilanmoqda."
+msgstr "Operatsion tizimning &versiyasini qoʻshish"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, processorTypeCheckBox)
 #: kcms/kio/useragentdlg.ui:115
@@ -5004,7 +5035,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, processorTypeCheckBox)
 #: kcms/kio/useragentdlg.ui:118
 msgid "Add &machine (processor) type"
-msgstr ""
+msgstr "P&rotsessorning turini qoʻshish"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, languageCheckBox)
 #: kcms/kio/useragentdlg.ui:127
@@ -5015,29 +5046,27 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, languageCheckBox)
 #: kcms/kio/useragentdlg.ui:130
-#, fuzzy
-#| msgid "Sending login information"
 msgid "Add lang&uage information"
-msgstr "Kirish uchun maʼlumot joʻnatilmoqda"
+msgstr "&Til haqida maʼlumotni qoʻshish"
 
 #. i18n: ectx: property (title), widget (QGroupBox, domainPolicyGroupBox)
 #: kcms/kio/useragentdlg.ui:143
+#, fuzzy
+#| msgid "Duplicate Entry"
 msgid "Site Specific Identification"
-msgstr ""
+msgstr "Bir xil maʼlumot"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: kcms/kio/useragentdlg.ui:156
-#, fuzzy
-#| msgid "By Name"
 msgid "Site Name"
-msgstr "Nomi boʻyicha"
+msgstr "Saytning nomi"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: kcms/kio/useragentdlg.ui:161
 #, fuzzy
-#| msgid "Authentication"
+#| msgid "Duplicate Entry"
 msgid "Identification"
-msgstr "Tasdiqlash"
+msgstr "Bir xil maʼlumot"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: kcms/kio/useragentdlg.ui:166
@@ -5053,8 +5082,10 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, changeButton)
 #: kcms/kio/useragentdlg.ui:189
+#, fuzzy
+#| msgid "Change the selected proxy exception address."
 msgid "Change the selected identifier text."
-msgstr ""
+msgstr "Qoidadan tashqari tanlangan proksi manzilini oʻzgartirish."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, deleteButton)
 #: kcms/kio/useragentdlg.ui:199
@@ -5086,7 +5117,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, siteLabel)
 #: kcms/kio/useragentselectordlg.ui:22
 msgid "&When browsing the following site:"
-msgstr ""
+msgstr "Quyidagi &saytlar uchun:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, aliasLabel)
 #. i18n: ectx: property (whatsThis), widget (KComboBox, aliasComboBox)
@@ -5100,8 +5131,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, aliasLabel)
 #: kcms/kio/useragentselectordlg.ui:50
+#, fuzzy
+#| msgid "Use the following lo&gin information."
 msgid "&Use the following identification:"
-msgstr ""
+msgstr "Ulanish uchun quyidagi maʼ&lumotdan foydalanish"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, identityLabel)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, identityLineEdit)
@@ -5116,9 +5149,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, identityLabel)
 #: kcms/kio/useragentselectordlg.ui:77
 #, fuzzy
-#| msgid "Server Authentication"
+#| msgid "Duplicate Entry"
 msgid "Real identification:"
-msgstr "Server tasdiqlashi"
+msgstr "Bir xil maʼlumot"
 
 #: kcms/webshortcuts/main.cpp:41
 msgid "Web Shortcuts"
@@ -5390,10 +5423,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
 #: urifilters/ikws/ikwsopts_ui.ui:100
-#, fuzzy
-#| msgid "Delete"
 msgid "De&lete"
-msgstr "Oʻchirish"
+msgstr "Oʻch&irish"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbDefaultEngine)
 #: urifilters/ikws/ikwsopts_ui.ui:138
@@ -7425,1715 +7456,369 @@ msgid ""
 "Aborting because the identity of the host cannot be established."
 msgstr ""
 
+#, fuzzy
+#~| msgid "Disk cache &size:"
+#~ msgid "Disk cache size:"
+#~ msgstr "Keshning ha&jmi:"
+
+#, fuzzy
+#~| msgid " KB"
+#~ msgid " kB"
+#~ msgstr " Kb"
+
+#, fuzzy
+#~| msgid "C&lear Cache"
+#~ msgid "&Clear Cache"
+#~ msgstr "Keshni &tozalash"
+
 #~ msgid ""
-#~ "<qt>Do you really want to delete\n"
-#~ " <b>'%1'</b>?</qt>"
+#~ "Enter the port number of the HTTP proxy server. Default is 8080. Another "
+#~ "common value is 3128."
 #~ msgstr ""
-#~ "<qt>Quyidagini rostdan oʻchirishni istaysizmi?\n"
-#~ " \"<b>%1</b>\"</qt>"
+#~ "HTTP proksi serverining portini kiriting. Andoza - 8080. Boshqa keng "
+#~ "ishlatiladigan port - 3128."
 
 #~ msgid ""
-#~ "<qt>Do you really want to trash\n"
-#~ " <b>'%1'</b>?</qt>"
+#~ "Enter the port number of the FTP proxy server. Default 8080. Another "
+#~ "common value is 3128."
 #~ msgstr ""
-#~ "<qt>Quyidagini rostdan chiqindilar qutisiga joʻnatishni istaysizmi?\n"
-#~ "<b>'%1'</b></qt>"
-
-#~ msgctxt "to trash"
-#~ msgid "&Trash"
-#~ msgstr "&Chiqindilar qutisiga"
+#~ "FTP proksi serverining portini kiriting. Andoza - 8080. Boshqa keng "
+#~ "ishlatiladigan port - 3128."
 
 #, fuzzy
-#~ msgid "translators: not called for n == 1"
-#~ msgid_plural "Do you really want to trash these %1 items?"
-#~ msgstr[0] ""
-#~ "Rostdan bu elementni chiqindilar qutisiga joʻnatishni istaysizmi?"
+#~| msgid "Variable Proxy Configuration"
+#~ msgctxt "@title:window"
+#~ msgid "Variable Proxy Configuration"
+#~ msgstr "Proksining xar hil moslamalari"
+
+#~ msgid "You must specify at least one valid proxy environment variable."
+#~ msgstr "Kamida bitta proksi muhit oʻzgaruvchisini aniqlashingiz kerak."
 
 #, fuzzy
-#~ msgctxt "@info"
-#~ msgid "Do you really want to empty the Trash? All items will be deleted."
-#~ msgstr "Rostdan bu elementni oʻchirishni istaysizmi?"
+#~| msgid "Invalid Proxy Setup"
+#~ msgctxt "@title:window"
+#~ msgid "Invalid Proxy Setup"
+#~ msgstr "Proksi moslamasi notoʻgʻri"
+
+#~ msgid "Successfully verified."
+#~ msgstr "Tekshirish muvaffaqiyatli tugadi."
 
 #, fuzzy
-#~| msgid "New Folder"
-#~ msgctxt "folder name"
-#~ msgid "New Folder"
-#~ msgstr "Yangi jild"
+#~| msgid "Proxy Setup"
+#~ msgctxt "@title:window"
+#~ msgid "Proxy Setup"
+#~ msgstr "Proksini moslash"
+
+#, fuzzy
+#~| msgid "Automatic Proxy Variable Detection"
+#~ msgctxt "@title:window"
+#~ msgid "Automatic Proxy Variable Detection"
+#~ msgstr "Proksi oʻzgaruvchilarni avto-aniqlash"
+
+#, fuzzy
+#~| msgid "Manual Proxy Configuration"
+#~ msgctxt "@title:window"
+#~ msgid "Manual Proxy Configuration"
+#~ msgstr "Proksini qoʻlbola moslash"
+
+#, fuzzy
+#~| msgid "Invalid Proxy Setting"
+#~ msgctxt "@title:window"
+#~ msgid "Invalid Proxy Setting"
+#~ msgstr "Proksining moslamasi notoʻgʻri"
+
+#~ msgid ""
+#~ "One or more of the specified proxy settings are invalid. The incorrect "
+#~ "entries are highlighted."
+#~ msgstr ""
+#~ "Proksining bitta yoki bir nechta moslamalari xato. Xatolar moslamalar "
+#~ "belgilangan."
+
+#~ msgid "You entered a duplicate address. Please try again."
+#~ msgstr "Ikkita bir xil manzil kiritildi. Iltimos qaytadan urinib koʻring."
+
+#~ msgid "<qt><center><b>%1</b></center> is already in the list.</qt>"
+#~ msgstr "<qt><center><b>%1</b></center> roʻyxatda allaqachon mavjud.</qt>"
+
+#, fuzzy
+#~| msgid "Duplicate Entry"
+#~ msgctxt "@title:window"
+#~ msgid "Duplicate Entry"
+#~ msgstr "Bir xil maʼlumot"
+
+#, fuzzy
+#~| msgid "E&xceptions"
+#~ msgctxt "@title:window"
+#~ msgid "New Exception"
+#~ msgstr "Qoidadan t&ashqari holatlar"
+
+#, fuzzy
+#~| msgid "E&xceptions"
+#~ msgctxt "@title:window"
+#~ msgid "Change Exception"
+#~ msgstr "Qoidadan t&ashqari holatlar"
+
+#, fuzzy
+#~| msgid "Invalid Entry"
+#~ msgctxt "@title:window"
+#~ msgid "Invalid Entry"
+#~ msgstr "Xato maʼlumot"
+
+#~ msgid "The address you have entered is not valid."
+#~ msgstr "Kiritilgan manzil haqiqiy emas."
 
 #, fuzzy
 #~| msgid ""
-#~| "Create new folder in:\n"
-#~| "%1"
-#~ msgctxt "@label:textbox"
+#~| "<qt>Make sure none of the addresses or URLs you specified contain "
+#~| "invalid or wildcard characters such as spaces, asterisks (*), or "
+#~| "question marks(?).<p><u>Examples of VALID entries:</u><br/><code>http://"
+#~| "mycompany.com, 192.168.10.1, mycompany.com, localhost, http://localhost</"
+#~| "code><p><u>Examples of INVALID entries:</u><br/><code>http://my company."
+#~| "com, http:/mycompany,com file:/localhost</code></qt>"
 #~ msgid ""
-#~ "Create new folder in:\n"
-#~ "%1"
+#~ "<qt>Make sure none of the addresses or URLs you specified contain invalid "
+#~ "or wildcard characters such as spaces, asterisks (*), or question "
+#~ "marks(?).<br /><br /><u>Examples of VALID entries:</u><br /><code>http://"
+#~ "mycompany.com, 192.168.10.1, mycompany.com, localhost, http://localhost</"
+#~ "code><br /><br /><u>Examples of INVALID entries:</u><br /><code>http://my "
+#~ "company.com, http:/mycompany,com file:/localhost</code></qt>"
 #~ msgstr ""
-#~ "Quyidagi manzilda yangi jildni yaratish:\n"
-#~ "%1"
-
-#~ msgctxt "@title:window"
-#~ msgid "Select Folder"
-#~ msgstr "Jildni tanlash"
-
-#~ msgctxt "@action:button"
-#~ msgid "New Folder..."
-#~ msgstr "Yangi jild..."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "New Folder..."
-#~ msgstr "Yangi jild..."
+#~ "<qt>Koʻrsatilgan manzil yoki URL'da bosh joy, yulduzcha (*), yoki savol "
+#~ "(?) belgisiga oʻxshagan belgilar boʻlmasligiga ishonch hosil qiling."
+#~ "<p><u>Toʻgʻri maʼlumot misollari:</u><br/><code>http://mycompany.com, "
+#~ "192.168.10.1, mycompany,com, localhost, http://localhost</"
+#~ "code><p><u>Notoʻgʻri maʼlumot misollari:</u><br/><code>http://my company."
+#~ "com, http:/mycompany,com file:/localhost</code>"
 
 #, fuzzy
-#~| msgid "Move to Trash"
-#~ msgctxt "@action:inmenu"
-#~ msgid "Move to Trash"
-#~ msgstr "Chiqindilar qutisiga olib tashlash"
+#~ msgid ""
+#~ "The address of the automatic proxy configuration script is invalid. "
+#~ "Please correct this problem before proceeding. Otherwise, your changes "
+#~ "will be ignored."
+#~ msgstr ""
+#~ "<qt>Proksini avtomatik ravishda moslash skriptining manzili haqiqiy emas."
+#~ "<p>Iltimos davom etishdan oldin muammoni hal qiling. Aks holda, siz "
+#~ "kiritgan oʻzgarishlar eʼtiborga olinmaydi.</qt>"
 
 #, fuzzy
-#~| msgid "Delete"
-#~ msgctxt "@action:inmenu"
-#~ msgid "Delete"
-#~ msgstr "Oʻchirish"
+#~| msgid ""
+#~| "<qt>The proxy settings you specified are invalid.<p>Please click on the "
+#~| "<b>Setup...</b> button and correct the problem before proceeding; "
+#~| "otherwise your changes will be ignored.</qt>"
+#~ msgid ""
+#~ "<qt>The proxy settings you specified are invalid.<br /><br />Please click "
+#~ "on the <b>Setup...</b> button and correct the problem before proceeding; "
+#~ "otherwise your changes will be ignored.</qt>"
+#~ msgstr ""
+#~ "<qt>Proksining koʻrsatilgan moslamalari xato.<p>Iltimos davom etishdan "
+#~ "oldin <b>Moslash</b> tugmasini bosib bu muammoni hal qiling. Aks holda, "
+#~ "siz kiritgan oʻzgarishlar eʼtiborga olinmaydi.</qt>"
 
-#~ msgctxt "@option:check"
-#~ msgid "Show Hidden Folders"
-#~ msgstr "Yashirilgan jildlarni koʻrsatish"
+#~ msgid "H&TTP:"
+#~ msgstr "H&TTP:"
 
-#, fuzzy
-#~| msgid "Properties"
-#~ msgctxt "@action:inmenu"
-#~ msgid "Properties"
-#~ msgstr "Xossalari"
+#~ msgid "HTTP&S:"
+#~ msgstr "HTTP&S:"
 
-#~ msgid "Show Hidden Folders"
-#~ msgstr "Yashirilgan jildlarni koʻrsatish"
+#~ msgid "&FTP:"
+#~ msgstr "&FTP:"
 
-#~ msgid "Empty the cache"
-#~ msgstr "Keshni boʻshatish"
+#~ msgid "&Verify"
+#~ msgstr "&Tekshirish"
 
-#, fuzzy
-#~| msgid "Display SSL &Information"
-#~ msgid "Display information about cache file"
-#~ msgstr "SSL &maʼlumotini koʻrsatish"
+#~ msgid "Connect to the &Internet directly"
+#~ msgstr "Internetga toʻgʻridan-toʻgʻri &ulanish"
 
-#~ msgid "HTTP Cookie Daemon"
-#~ msgstr "HTTP kuki demoni"
+#~ msgid "Use preset proxy environment &variables"
+#~ msgstr "&Oldindan aniqlangan proksi muhit oʻzgaruvchilarini ishlatish"
 
-#~ msgid "HTTP cookie daemon"
-#~ msgstr "HTTP kuki demoni"
-
-#, fuzzy
-#~| msgid "No metainfo for %1"
-#~ msgid "kio_metainfo"
-#~ msgstr "%1 uchun meta maʼlumot yoʻq"
-
-#~ msgid "No metainfo for %1"
-#~ msgstr "%1 uchun meta maʼlumot yoʻq"
-
-#~ msgid "--- separator ---"
-#~ msgstr "--- ajratuvchi ---"
-
-#~ msgctxt "@action:button"
-#~ msgid "Update"
-#~ msgstr "Yangilash"
-
-#~ msgctxt "@title:window"
-#~ msgid "Bookmark Properties"
-#~ msgstr "Xatchoʻpning xossalari"
-
-#~ msgctxt "@action:button"
-#~ msgid "Add"
-#~ msgstr "Qoʻshish"
-
-#~ msgctxt "@title:window"
-#~ msgid "Add Bookmark"
-#~ msgstr "Xatchoʻplarga qoʻshish"
-
-#~ msgctxt "@action:button"
-#~ msgid "&New Folder..."
-#~ msgstr "&Yangi jild..."
-
-#~ msgctxt "@title:window"
-#~ msgid "Add Bookmarks"
-#~ msgstr "Xatchoʻplarga qoʻshish"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Name:"
-#~ msgstr "Nomi:"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Location:"
-#~ msgstr "Manzili:"
-
-#, fuzzy
-#~| msgid "Comment:"
-#~ msgctxt "@label:textbox"
-#~ msgid "Comment:"
-#~ msgstr "Izoh:"
-
-#~ msgctxt "@title:window"
-#~ msgid "Create New Bookmark Folder"
-#~ msgstr "Yangi xatchoʻp jildini yaratish"
-
-#~ msgctxt "@title:window"
-#~ msgid "Create New Bookmark Folder in %1"
-#~ msgstr "Yangi xatchoʻp jildini %1'da yaratish"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "New folder:"
-#~ msgstr "Yangi jild:"
-
-#, fuzzy
-#~| msgid "Bookmarks"
-#~ msgctxt "name of the container of all browser bookmarks"
-#~ msgid "Bookmarks"
-#~ msgstr "Xatchoʻplar"
-
-#~ msgid "*.html|HTML Files (*.html)"
-#~ msgstr "*.html|HTML fayllar (*.html)"
-
-#~ msgid "<!-- This file was generated by Konqueror -->"
-#~ msgstr "<!-- Bu fayl Konqueror tomonidan yaratildi-->"
-
-#~ msgid "*.adr|Opera Bookmark Files (*.adr)"
-#~ msgstr "*.adr|Opera xatchoʻp fayllari (*.adr)"
-
-#~ msgid "Add Bookmark Here"
-#~ msgstr "Xatchoʻpni shu yerga qoʻshish"
-
-#~ msgid "Open Folder in Bookmark Editor"
-#~ msgstr "Jildni xatchoʻp tahrirchida ochish"
-
-#~ msgid "Copy Link Address"
-#~ msgstr "Bogʻ manzilidan nusxa olish"
-
-#~ msgid "Delete Bookmark"
-#~ msgstr "Xatchoʻpni oʻchirish"
-
-#, fuzzy
-#~ msgid "Open Folder in Tabs"
-#~ msgstr "Jildni xatchoʻp tahrirchida ochish"
-
-#~ msgid "Bookmark Folder Deletion"
-#~ msgstr "Xatchoʻplar jildini oʻchirish"
-
-#~ msgid "Bookmark Deletion"
-#~ msgstr "Xatchoʻpni oʻchirish"
-
-#, fuzzy
-#~| msgid "&New Bookmark Folder..."
-#~ msgid "Bookmark Tabs as Folder..."
-#~ msgstr "&Yangi xatchoʻplar jildi"
-
-#~ msgid "Edit your bookmark collection in a separate window"
-#~ msgstr "Xatchoʻplar toʻplamingizni aloxida oynada tuzatish"
-
-#, fuzzy
-#~| msgid "&New Bookmark Folder..."
-#~ msgid "New Bookmark Folder..."
-#~ msgstr "&Yangi xatchoʻplar jildi"
-
-#, fuzzy
-#~| msgid "Hide Bookmarks"
-#~ msgid "Hide in toolbar"
-#~ msgstr "Xatchoʻplarni bekitish"
-
-#~ msgid "Show in toolbar"
-#~ msgstr "Asboblar panelida koʻrsatish"
-
-#~ msgid "Open in New Window"
-#~ msgstr "Yangi oynada ochish"
-
-#, fuzzy
-#~| msgid "Add Entry..."
-#~ msgctxt "@label"
-#~ msgid "Add Comment..."
-#~ msgstr "Qoʻshish"
-
-#, fuzzy
-#~| msgid "Comment"
-#~ msgctxt "@title:window"
-#~ msgid "Add Comment"
-#~ msgstr "Izoh"
-
-#, fuzzy
-#~ msgid "Device name"
-#~ msgstr "Uskuna:"
-
-#, fuzzy
-#~| msgid "*|All Files"
-#~ msgid "*|All files"
-#~ msgstr "*|Hamma fayllar"
-
-#, fuzzy
-#~ msgctxt "@item:intable"
-#~ msgid "%1 item"
-#~ msgid_plural "%1 items"
-#~ msgstr[0] "Hech narsa yoʻq"
-
-#, fuzzy
-#~| msgid "Comment"
-#~ msgctxt "@label"
-#~ msgid "Comment"
-#~ msgstr "Izoh"
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid "Modified"
-#~ msgstr "Oʻzgargan:"
-
-#, fuzzy
-#~| msgid "Owner"
-#~ msgctxt "@label"
-#~ msgid "Owner"
-#~ msgstr "Egasi"
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid "Rating"
-#~ msgstr "Saralash"
-
-#, fuzzy
-#~| msgid "Size"
-#~ msgctxt "@label"
-#~ msgid "Size"
-#~ msgstr "Hajmi"
-
-#, fuzzy
-#~| msgid "Trash"
-#~ msgctxt "@label"
-#~ msgid "Tags"
-#~ msgstr "Chiqindilar qutisi"
-
-#, fuzzy
-#~| msgid "Size:"
-#~ msgctxt "@label"
-#~ msgid "Total Size"
-#~ msgstr "Hajmi:"
-
-#, fuzzy
-#~| msgid "Type"
-#~ msgctxt "@label"
-#~ msgid "Type"
-#~ msgstr "Turi"
-
-#, fuzzy
-#~| msgid "Current location"
-#~ msgid "Current maintainer"
-#~ msgstr "Joriy manzil"
-
-#~ msgid "<Error>"
-#~ msgstr "<Xato>"
-
-#~ msgid "&Share"
-#~ msgstr "&Boʻlishish"
-
-#~ msgid "Only folders in your home folder can be shared."
-#~ msgstr "Faqat uy jildidagi jild bilan boʻlishish mumkin."
-
-#~ msgid "Not shared"
-#~ msgstr "Boʻlishilmagan"
-
-#~ msgid "Shared"
-#~ msgstr "Boʻlishilgan"
-
-#~ msgid "Configure File Sharing..."
+#~ msgid "Setup..."
 #~ msgstr "Moslash"
 
+#~ msgid "&Manually specify the proxy settings"
+#~ msgstr "Proksi moslamalarini qoʻl&bola koʻrsatish"
+
+#~ msgid "Authori&zation"
+#~ msgstr "&Tasdiqlash"
+
+#~ msgid "Prompt for login information whenever it is required."
+#~ msgstr "Talab qilinganda tasdiqlash maʼlumotini soʻrash."
+
+#~ msgid "Prompt as &needed"
+#~ msgstr "Keragida soʻ&rash"
+
+#, fuzzy
+#~| msgid "Use the information below to login into proxy servers as needed."
 #~ msgid ""
-#~ "Error running 'filesharelist'. Check if installed and in $PATH or /usr/"
-#~ "sbin."
+#~ "Use information specified here to login into proxy servers as needed."
 #~ msgstr ""
-#~ "'filesharelist' dasturini ishga tushirib boʻlmadi. Iltimos "
-#~ "'filesharelist' dasturi toʻgʻri oʻtnatilganligini va u oʻrnatilgan "
-#~ "direktoriya sizning $PATH oʻzgaruvchingizga kiritilganligini yoki u /usr/"
-#~ "sbin direktoriyasida joylashganligini tekshiring."
+#~ "Proksi serveriga ulanishda talab qilinganda quyidagi maʼlumotni ishlatish."
 
-#~ msgid "You need to be authorized to share folders."
-#~ msgstr "Jildlarni boʻlishish uchun yetarli huquqlar kerak."
+#~ msgid "Username:"
+#~ msgstr "Foydalanuvchi:"
 
-#~ msgid "File sharing is disabled."
-#~ msgstr "Jildlarni boʻlishish oʻchirilgan."
+#~ msgid "Login name."
+#~ msgstr "Foydalanuvchi."
 
-#~ msgid "Sharing folder '%1' failed."
-#~ msgstr "'%1' jildini boʻlishish muvaffaqiyatsiz tugadi."
+#~ msgid "Login password."
+#~ msgstr "Maxfiy soʻz."
 
-#~ msgid "Select Icon"
-#~ msgstr "Nishonchani tanlash"
+#~ msgid "Password:"
+#~ msgstr "Maxfiy soʻz:"
 
-#~ msgid "Icon Source"
-#~ msgstr "Nishonchalar manbasi"
+#~ msgid "O&ptions"
+#~ msgstr "&Parametrlar"
 
-#~ msgid "S&ystem icons:"
-#~ msgstr "&Tizimning nishonchalari:"
+#~ msgid "Ser&vers"
+#~ msgstr "&Serverlar"
 
-#~ msgid "O&ther icons:"
-#~ msgstr "&Boshqa nishonchalar:"
-
-#~ msgid "Actions"
-#~ msgstr "Amallar"
-
-#~ msgid "Animations"
-#~ msgstr "Animatsiya"
-
-#~ msgid "Applications"
-#~ msgstr "Dasturlar"
-
-#~ msgid "Categories"
-#~ msgstr "Turkumlar"
-
-#~ msgid "Devices"
-#~ msgstr "Uskunalar"
-
-#~ msgid "Filesystems"
-#~ msgstr "Fayl tizimlari"
-
-#~ msgid "International"
-#~ msgstr "Xalqaro"
-
-#~ msgid "Mimetypes"
-#~ msgstr "MIME turlari"
-
-#~ msgid "Status"
-#~ msgstr "Holat"
-
-#~ msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
+#~ msgid "Remove all proxy exception addresses from the list."
 #~ msgstr ""
-#~ "*.png *.xpm *.svg *.svgz|Nishoncha fayllari (*.png *.xpm *.svg *.svgz)"
+#~ "Qoidadan tashqari hamma proksi manzillarini roʻyxatdan olib tashlash."
 
-#, fuzzy
-#~| msgid "Information"
-#~ msgctxt "@title:tab"
-#~ msgid "Information"
-#~ msgstr "Maʼlumot"
+#~ msgid "D&elete All"
+#~ msgstr "Ham&masini oʻchirish"
 
-#, fuzzy
-#~| msgid "Created:"
-#~ msgctxt "@label creation date"
-#~ msgid "Created"
-#~ msgstr "Yaratilgan:"
-
-#, fuzzy
-#~| msgid "Size"
-#~ msgctxt "@label file content size"
-#~ msgid "Size"
-#~ msgstr "Hajmi"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "@label"
-#~ msgid "Description"
-#~ msgstr "Taʼrifi"
-
-#, fuzzy
-#~| msgid "&General"
-#~ msgctxt "@label Software used to generate content"
-#~ msgid "Generator"
-#~ msgstr "&Umumiy"
-
-#, fuzzy
-#~| msgid "Parent Folder"
-#~ msgctxt "@label parent directory"
-#~ msgid "Part of"
-#~ msgstr "Yuqori jild"
-
-#, fuzzy
-#~ msgctxt "@label modified date of file"
-#~ msgid "Modified"
-#~ msgstr "Oʻzgargan:"
-
-#, fuzzy
-#~| msgid "Mime Type"
-#~ msgctxt "@label"
-#~ msgid "MIME Type"
-#~ msgstr "MIME turi"
-
-#, fuzzy
-#~| msgid "Contents:"
-#~ msgctxt "@label"
-#~ msgid "Content"
-#~ msgstr "Tarkibi:"
-
-#, fuzzy
-#~| msgid "created on %1"
-#~ msgctxt "@label"
-#~ msgid "Related To"
-#~ msgstr "%1 da yaratilgan"
-
-#, fuzzy
-#~| msgid "Subject"
-#~ msgctxt "@label"
-#~ msgid "Subject"
-#~ msgstr "Mavzu"
-
-#, fuzzy
-#~| msgid "File"
-#~ msgctxt "@label music title"
-#~ msgid "Title"
-#~ msgstr "Fayl"
-
-#, fuzzy
-#~| msgid "Location:"
-#~ msgctxt "@label file URL"
-#~ msgid "Location"
-#~ msgstr "Manzili:"
-
-#, fuzzy
-#~| msgid "Created:"
-#~ msgctxt "@label"
-#~ msgid "Creator"
-#~ msgstr "Yaratilgan:"
-
-#, fuzzy
-#~| msgid "Categories"
-#~ msgctxt "@label number of characters"
-#~ msgid "Characters"
-#~ msgstr "Turkumlar"
-
-#, fuzzy
-#~| msgid "C&onnect"
-#~ msgctxt "@label"
-#~ msgid "Codec"
-#~ msgstr "U&lanish"
-
-#, fuzzy
-#~| msgid "Destination"
-#~ msgctxt "@label"
-#~ msgid "Duration"
-#~ msgstr "Manzil"
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid "Filename"
-#~ msgstr "Uskuna:"
-
-#, fuzzy
-#~| msgid "Link"
-#~ msgctxt "@label number of lines"
-#~ msgid "Lines"
-#~ msgstr "Bogʻ"
-
-#, fuzzy
-#~| msgid "Write"
-#~ msgctxt "@label"
-#~ msgid "Width"
-#~ msgstr "Yozish"
-
-#, fuzzy
-#~| msgid "Class"
-#~ msgctxt "@label EXIF"
-#~ msgid "Flash"
-#~ msgstr "Sinf"
-
-#, fuzzy
-#~| msgid "Creating Folder"
-#~ msgctxt "@label EXIF"
-#~ msgid "Metering Mode"
-#~ msgstr "Jild yaratish"
-
-#, fuzzy
-#~ msgctxt "@label EXIF"
-#~ msgid "Model"
-#~ msgstr "Oʻzgargan:"
-
-#, fuzzy
-#~| msgid "Organization:"
-#~ msgctxt "@label EXIF"
-#~ msgid "Orientation"
-#~ msgstr "Tashkilot:"
-
-#, fuzzy
-#~| msgid "&General"
-#~ msgctxt "@label music genre"
-#~ msgid "Genre"
-#~ msgstr "&Umumiy"
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid "Release Date"
-#~ msgstr "Elementni oʻ&chirish"
-
-#, fuzzy
-#~| msgid "URL Resource Invalid"
-#~ msgctxt "@label resource created time"
-#~ msgid "Resource Created"
-#~ msgstr "URL manbasi xato"
-
-#, fuzzy
-#~| msgid "Source"
-#~ msgctxt "@label"
-#~ msgid "Sub Resource"
-#~ msgstr "Manba"
-
-#, fuzzy
-#~ msgctxt "@label resource last modified"
-#~ msgid "Resource Modified"
-#~ msgstr "Oʻzgargan:"
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid "Numeric Rating"
-#~ msgstr "Saralash"
-
-#, fuzzy
-#~| msgid "Comment"
-#~ msgctxt "@label"
-#~ msgid "Usage Count"
-#~ msgstr "Izoh"
-
-#, fuzzy
-#~| msgid "Open file dialog"
-#~ msgctxt "@label"
-#~ msgid "Unix File Owner"
-#~ msgstr "Faylni tanlash oynasini ochish"
-
-#, fuzzy
-#~| msgid "Type"
-#~ msgctxt "@label file type"
-#~ msgid "Type"
-#~ msgstr "Turi"
-
-#, fuzzy
-#~| msgid "Created:"
-#~ msgctxt "@label Number of translated strings"
-#~ msgid "Translated"
-#~ msgstr "Yaratilgan:"
-
-#~ msgid "P&review"
-#~ msgstr "&Koʻrib chiqish"
-
-#~ msgid "&Skip File"
-#~ msgstr "&Faylni oʻtkazib yuborish"
-
-#~ msgid "Link to %1 (%2)"
-#~ msgstr "%1 bilan bogʻlangan (%2)"
-
-#~ msgid "Owner:"
-#~ msgstr "Egasi:"
-
-#~ msgid "Permissions:"
-#~ msgstr "Huquqlar:"
-
-#~ msgid "All Pictures"
-#~ msgstr "Hamma rasmlar"
-
-#~ msgid "Mime Type"
-#~ msgstr "MIME turi"
-
-#~ msgid "Comment"
-#~ msgstr "Izoh"
-
-#~ msgid "&Edit..."
-#~ msgstr "&Tahrirlash"
-
-#~ msgid "Click this button to display the familiar KDE mime type editor."
-#~ msgstr "KDE uchun MIME turi tahrirchini koʻrsatish uchun shu yerni bosing."
-
-#~ msgid "File '%1' is not readable"
-#~ msgstr "'%1' faylini oʻqib boʻlmaydi"
-
-#~ msgid "ERROR: Unknown protocol '%1'"
-#~ msgstr "Xato: Nomaʼlum protokol '%1'"
-
-#, fuzzy
-#~| msgid "Organization:"
-#~ msgid "Organization / Common Name"
-#~ msgstr "Tashkilot:"
-
-#, fuzzy
-#~| msgid "Organizational unit:"
-#~ msgid "Organizational Unit"
-#~ msgstr "Boʻlim:"
-
-#, fuzzy
-#~| msgid "Send certificate"
-#~ msgid "System certificates"
-#~ msgstr "Sertifikatni joʻnatish"
-
-#, fuzzy
-#~| msgid "Send certificate"
-#~ msgid "User-added certificates"
-#~ msgstr "Sertifikatni joʻnatish"
-
-#, fuzzy
-#~| msgid "Certificate"
-#~ msgid "Pick Certificates"
-#~ msgstr "Sertifikat"
-
-#, fuzzy
-#~| msgid "Security Information"
-#~ msgid "<b>Subject Information</b>"
-#~ msgstr "Xavfsizlik maʼlumoti"
-
-#, fuzzy
-#~| msgid "<b>Possible solutions</b>:"
-#~ msgid "<b>Issuer Information</b>"
-#~ msgstr "<b>Extimol yechimlar</b>:"
-
-#, fuzzy
-#~| msgid "<b>%1</b>"
-#~ msgid "<b>Other</b>"
-#~ msgstr "<b>%1</b>"
-
-#, fuzzy
-#~| msgid "Valid from:"
-#~ msgid "Validity period"
-#~ msgstr "Dan haqiqiy:"
-
-#, fuzzy
-#~| msgid "Serial number:"
-#~ msgid "Serial number"
-#~ msgstr "Seriya raqami:"
-
-#, fuzzy
-#~| msgid "MD5 digest:"
-#~ msgid "MD5 digest"
-#~ msgstr "MD5 dayjest:"
-
-#, fuzzy
-#~| msgid "MD5 digest:"
-#~ msgid "SHA1 digest"
-#~ msgstr "MD5 dayjest:"
-
-#, fuzzy
-#~| msgid "Reload configuration file"
-#~ msgid "SSL Configuration Module"
-#~ msgstr "Moslama faylini qaytadan yuklash"
-
-#, fuzzy
-#~| msgid "Link"
-#~ msgid "SSL Signers"
-#~ msgstr "Bogʻ"
-
-#~ msgid ""
-#~ "You must now provide a password for the certificate request. Please "
-#~ "choose a very secure password as this will be used to encrypt your "
-#~ "private key."
+#~ msgid "Remove the selected proxy exception address from the list."
 #~ msgstr ""
-#~ "Endi siz sertifikat talabi uchun maxfiy soʻzni tanlashingiz kerak. "
-#~ "Iltimos juda xavfsiz maxfiy soʻzini tanlang, chunki u sizning shaxsiy "
-#~ "kalitingizni kodlashda ishlatiladi."
+#~ "Qoidadan tashqari tanlangan proksi manzilini roʻyxatdan olib tashlash."
 
-#~ msgid "&Choose password:"
-#~ msgstr "Maxfiy soʻzni &tanlang:"
+#~ msgid "Add new proxy exception address to the list."
+#~ msgstr "Qoidadan tashqari yangi proksi manzilini roʻyxatga qoʻshish."
 
-#~ msgid "Certificate"
-#~ msgstr "Sertifikat"
+#~ msgid "C&hange..."
+#~ msgstr "Oʻz&gartirish"
 
-#~ msgid "KDE SSL Certificate Dialog"
-#~ msgstr "KDE SSL sertifikat dialogi"
+#~ msgid "&Domain name:"
+#~ msgstr "&Domenning nomi:"
 
-#~ msgid "Signature Algorithm: "
-#~ msgstr "Imzoning algoritmi: "
+#~ msgid "Add &platform name"
+#~ msgstr "&Platformaning nomini qoʻshish"
 
-#~ msgid "Unknown"
-#~ msgstr "Nomaʼlum"
+#~ msgid "Domain [Group]"
+#~ msgstr "Domen [Guruh]"
 
-#~ msgid "Signature Contents:"
-#~ msgstr "Imzoning tarkibi:"
+#~ msgid "&LISa Daemon"
+#~ msgstr "LISa d&emoni"
 
-#~ msgctxt "Unknown"
-#~ msgid "Unknown key algorithm"
-#~ msgstr "Kalitning algoritmi nomaʼlum"
+#~ msgid "lan:/ Iosla&ve"
+#~ msgstr "lan:/ &KCH-sleyvi"
 
-#~ msgid "Key type: RSA (%1 bit)"
-#~ msgstr "Kalitning turi: RSA (%1 bit)"
+#~ msgid "&Search:"
+#~ msgstr "Q&idirish:"
 
-#~ msgid "Exponent: 0x"
-#~ msgstr "Eksponent: 0x"
+#~ msgid "&SOCKS"
+#~ msgstr "&SOCKS"
 
-#~ msgid "Key type: DSA (%1 bit)"
-#~ msgstr "Kalitning turi: DSA (%1 bit)"
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
 
-#~ msgid "Public key: "
-#~ msgstr "Ommaviy kalit: "
+#~ msgid "&Enable SOCKS support"
+#~ msgstr "SOCKS &qoʻllashni yoqish"
 
-#, fuzzy
-#~| msgid "The certificate is invalid."
-#~ msgid ""
-#~ "The CRL's (Certificate Revocation List) signature is invalid. This means "
-#~ "that the CRL can not be verified."
-#~ msgstr "Sertifikat haqiqiy emas."
+#~ msgid "Click here to test SOCKS support."
+#~ msgstr "SOCKS qoʻllanganini tekshirish uchun shu yerni bosing."
 
-#, fuzzy
-#~| msgid "The certificate is invalid."
-#~ msgid "The CRL (Certificate Revocation List) is not valid, yet."
-#~ msgstr "Sertifikat haqiqiy emas."
+#~ msgid "&Test"
+#~ msgstr "&Sinash"
 
-#, fuzzy
-#~| msgid "The certificate is invalid."
-#~ msgid ""
-#~ "The time format of the CRL's (Certificate Revocation List) 'lastUpdate' "
-#~ "field is invalid."
-#~ msgstr "Sertifikat haqiqiy emas."
+#~ msgid "SOCKS Implementation"
+#~ msgstr "SOCKS amalga oshirilishi"
 
-#, fuzzy
-#~| msgid "The certificate is invalid."
-#~ msgid ""
-#~ "The time format of the CRL's (Certificate Revocation List) 'nextUpdate' "
-#~ "field is invalid."
-#~ msgstr "Sertifikat haqiqiy emas."
+#~ msgid "Use &custom library"
+#~ msgstr "&Boshqa kutubxonani ishlatish"
 
-#, fuzzy
-#~| msgid ""
-#~| "The IP address of the host %1 does not match the one the certificate was "
-#~| "issued to."
-#~ msgid ""
-#~ "The certificate's CA (Certificate Authority) does not match the CA name "
-#~ "of the certificate."
-#~ msgstr "Xostning (%1) IP raqami sertifikat berilgan IP raqamga mos kelmadi."
-
-#~ msgid "Private key test failed."
-#~ msgstr "Shaxsiy kalitni tekshirish muvaffaqiyatsiz tugadi."
-
-#~ msgid "KDE Certificate Request"
-#~ msgstr "KDE sertifikat talabi"
-
-#~ msgid "KDE Certificate Request - Password"
-#~ msgstr "KDE sertifikat talabi - Maxfiy soʻz"
-
-#~ msgid "Unsupported key size."
-#~ msgstr "Kalitning hajmi qoʻllanmagan."
-
-#~ msgid "KDE"
-#~ msgstr "KDE"
-
-#~ msgid "Store"
-#~ msgstr "Saqlash"
-
-#~ msgid "No SSL support."
-#~ msgstr "SSL qoʻllanmagan."
-
-#~ msgid "Certificate password"
-#~ msgstr "Sertifikat uchun maxfiy soʻz"
-
-#~ msgid "GMT"
-#~ msgstr "GMT"
-
-#~ msgid "KMailService"
-#~ msgstr "Xat-xabar xizmati"
-
-#~ msgid "Mail service"
-#~ msgstr "Xat-xabar xizmati"
-
-#~ msgid "Error connecting to server."
-#~ msgstr "Serverga ulanishda xato roʻy berdi."
-
-#~ msgid "Server said: \"%1\""
-#~ msgstr "Serverdan olingan xabar: \"%1\""
-
-#~ msgid "KSendBugMail"
-#~ msgstr "KSendBugMail"
-
-#~ msgid "Author"
-#~ msgstr "Muallif"
-
-#~ msgid "Subject line"
-#~ msgstr "Mavzu"
-
-#~ msgid "Recipient"
-#~ msgstr "Qabul qiluvchi"
-
-#~ msgid "telnet service"
-#~ msgstr "Telnet xizmati"
-
-#~ msgid "Could not read %1"
-#~ msgstr "%1'ni oʻqib boʻlmadi"
-
-#~ msgid "Edit file type"
-#~ msgstr "Faylning turini tahrirlash"
-
-#~ msgid "The specified folder already exists."
-#~ msgstr "Koʻrsatilgan jild allaqachon mavjud."
-
-#~ msgid "Retrieving from %1..."
-#~ msgstr "%1'dan aniqlanmoqda..."
-
-#~ msgid "A newer item named '%1' already exists."
-#~ msgstr "\"%1\" nomli yangi element allaqachon mavjud."
-
-#, fuzzy
-#~| msgid "&Name:"
-#~ msgid "TextLabel"
-#~ msgstr "&Nomi:"
-
-#, fuzzy
-#~| msgid "Size:"
-#~ msgctxt "@label"
-#~ msgid "Size:"
-#~ msgstr "Hajmi:"
-
-#, fuzzy
-#~| msgid "Type:"
-#~ msgctxt "@label file type"
-#~ msgid "Type:"
-#~ msgstr "Turi:"
-
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@label"
-#~ msgid "Modified:"
-#~ msgstr "Oʻzgargan:"
-
-#, fuzzy
-#~| msgid "Owner:"
-#~ msgctxt "@label"
-#~ msgid "Owner:"
-#~ msgstr "Egasi:"
-
-#, fuzzy
-#~| msgid "Permissions:"
-#~ msgctxt "@label"
-#~ msgid "Permissions:"
-#~ msgstr "Huquqlar:"
-
-#, fuzzy
-#~| msgid "Type"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Type"
-#~ msgstr "Turi"
-
-#, fuzzy
-#~| msgid "Size"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Size"
-#~ msgstr "Hajmi"
-
-#, fuzzy
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Modified"
-#~ msgstr "Oʻzgargan:"
-
-#, fuzzy
-#~| msgid "Owner"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Owner"
-#~ msgstr "Egasi"
-
-#, fuzzy
-#~| msgid "Permissions"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Permissions"
-#~ msgstr "Huquqlar"
-
-#~ msgid "Unmounted Icon"
-#~ msgstr "\"Ajratilgan\" nishonchasi"
-
-#~ msgctxt "Available space out of total partition size (percent used)"
-#~ msgid "%1 out of %2 (%3% used)"
-#~ msgstr "%2'dan %1 (%3% ishlatilgan)"
-
-#, fuzzy
-#~| msgid "Folders"
-#~ msgctxt "@label"
-#~ msgid "Folder"
-#~ msgstr "Jildlar"
-
-#, fuzzy
-#~| msgid "%1 (%2)"
-#~ msgid "size %1 (%2)"
-#~ msgstr "%1 (%2)"
-
-#~ msgid "modified on %1"
-#~ msgstr "%1 da oʻzgargan"
-
-#~ msgid "The source file is '%1'"
-#~ msgstr "Manba faylning nomi \"%1\""
-
-#, fuzzy
-#~| msgid "Move to Trash"
-#~ msgctxt "@action:inmenu"
-#~ msgid "Move to trash"
-#~ msgstr "Chiqindilar qutisiga olib tashlash"
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid "Do you really want to empty the trash? All items will be deleted."
-#~ msgstr "Rostdan bu elementni oʻchirishni istaysizmi?"
-
-#, fuzzy
-#~| msgid "Add..."
-#~ msgctxt "@label"
-#~ msgid "Add Tags..."
-#~ msgstr "Qoʻshish..."
-
-#, fuzzy
-#~| msgid "C&reate"
-#~ msgctxt "@label"
-#~ msgid "Create new tag:"
-#~ msgstr "&Yaratish"
-
-#, fuzzy
-#~| msgid "Delete"
-#~ msgctxt "@info"
-#~ msgid "Delete tag"
-#~ msgstr "Oʻchirish"
-
-#, fuzzy
-#~| msgid "Delete"
-#~ msgctxt "@title"
-#~ msgid "Delete tag"
-#~ msgstr "Oʻchirish"
-
-#, fuzzy
-#~| msgid "Delete"
-#~ msgctxt "@action:button"
-#~ msgid "Delete"
-#~ msgstr "Oʻchirish"
-
-#~ msgid "&Meta Info"
-#~ msgstr "&Meta maʼlumot"
-
-#~ msgid "&Auto Skip"
-#~ msgstr "&Avto-oʻtkazib yuborish"
-
-#, fuzzy
-#~| msgid "O&verwrite All"
-#~ msgctxt "Write files into any existing directory"
-#~ msgid "&Write Into All"
-#~ msgstr "Hammasini a&lmashtirish"
-
-#, fuzzy
-#~| msgid "O&verwrite All"
-#~ msgid "&Overwrite All"
-#~ msgstr "Hammasini a&lmashtirish"
-
-#~ msgid "R&esume All"
-#~ msgstr "&Hammasini davom etish"
-
-#~ msgid "Sends a short bug report to submit@bugs.kde.org"
-#~ msgstr "submit@bugs.kde.org'ga xato haqida qisqagina xabar joʻnatadi"
-
-#, fuzzy
-#~| msgid "&Edit..."
-#~ msgid "&Edit '%1'..."
-#~ msgstr "&Tahrirlash"
-
-#, fuzzy
-#~ msgid "&Remove '%1'"
-#~ msgstr "Elementni oʻ&chirish"
-
-#~ msgid "size %1"
-#~ msgstr "hajmi %1"
-
-#, fuzzy
-#~| msgid "No Items"
-#~ msgid "0 Items"
-#~ msgstr "Hech narsa yoʻq"
-
-#~ msgid "Add Bookmark"
-#~ msgstr "Xatchoʻplarga qoʻshish"
-
-#~ msgid "No Files"
-#~ msgstr "Hech qanday fayl"
-
-#~ msgid "One File"
-#~ msgid_plural "%1 Files"
-#~ msgstr[0] "%1-ta fayl"
-
-#~ msgid "No Folders"
-#~ msgstr "Hech qanday jild"
-
-#~ msgid "(%1 Total)"
-#~ msgstr "(Jami %1)"
-
-#, fuzzy
-#~ msgctxt "Items (Folders, Files), Size"
-#~ msgid "%1 (%2, %3), %4"
-#~ msgstr "%1 (%2)"
-
-#, fuzzy
-#~| msgid "Icon View"
-#~ msgid "Icon Size"
-#~ msgstr "Nishonchali koʻrinish"
+#~ msgid "Enter the path to an unsupported SOCKS library."
+#~ msgstr "Qoʻllanmagan SOCKS kutubxonasiga yoʻllni kiriting."
 
 #~ msgid ""
-#~ "%1\n"
-#~ "does not appear to be a valid URL.\n"
+#~ "If you select Autodetect, then KDE will automatically search for an "
+#~ "implementation of SOCKS on your computer."
 #~ msgstr ""
-#~ "%1\n"
-#~ "toʻgʻri URL'ga oʻxshamaydi.\n"
+#~ "\"Avto-aniqlash\" tanlansa, KDE kompyuteda SOCKS qanday amalga "
+#~ "oshirilganini avtomatik ravishda aniqlaydi."
 
-#~ msgid "Invalid URL"
-#~ msgstr "Manzil (URL) haqiqiy emas"
+#~ msgid "A&uto detect"
+#~ msgstr "&Avto-aniqlash"
 
-#~ msgid ""
-#~ "The requested filenames\n"
-#~ "%1\n"
-#~ "do not appear to be valid;\n"
-#~ "make sure every filename is enclosed in double quotes."
-#~ msgstr ""
-#~ "Talab qilingan fayl nomlari\n"
-#~ "%1\n"
-#~ "toʻgʻriga oʻxshamaydi.\n"
-#~ "Fayl nomlari qoʻshtirnoq ichidaligiga ishonch xosil qiling."
+#~ msgid "This will force KDE to use NEC SOCKS if it can be found."
+#~ msgstr "Agar topilsa, KDE NEC SOCKS kutubxonasidan foydalanadi."
 
-#~ msgid "Filename Error"
-#~ msgstr "Faylning nomida xato"
+#~ msgid "&NEC SOCKS"
+#~ msgstr "&NEC SOCKS"
 
-#~ msgid "KDE Wallet Service"
-#~ msgstr "KDE qopchiq xizmati"
+#~ msgid "This will force KDE to use Dante if it can be found."
+#~ msgstr "Agar topilsa, KDE Dante kutubxonasidan foydalanadi."
 
-#, fuzzy
-#~| msgid ""
-#~| "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
-#~| "password for this wallet below."
-#~ msgid ""
-#~ "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
-#~ "password for this wallet below.</qt>"
-#~ msgstr ""
-#~ "<qt>KDE '<b>%1</b>' qopchiqni ochishi kerak. Iltimos ushbu qopchiq uchun "
-#~ "maxfiy soʻzni quyida kiriting."
-
-#, fuzzy
-#~| msgid ""
-#~| "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
-#~| "b>'. Please enter the password for this wallet below."
-#~ msgid ""
-#~ "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
-#~ "b>'. Please enter the password for this wallet below.</qt>"
-#~ msgstr ""
-#~ "<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu "
-#~ "qopchiq uchun maxfiy soʻzni quyida kiriting."
-
-#, fuzzy
-#~| msgid ""
-#~| "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
-#~| "b>'. Please enter the password for this wallet below."
-#~ msgid ""
-#~ "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. "
-#~ "This is used to store sensitive data in a secure fashion. Please enter a "
-#~ "password to use with this wallet or click cancel to deny the "
-#~ "application's request.</qt>"
-#~ msgstr ""
-#~ "<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu "
-#~ "qopchiq uchun maxfiy soʻzni quyida kiriting."
-
-#, fuzzy
-#~| msgid ""
-#~| "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
-#~| "password for this wallet below."
-#~ msgid ""
-#~ "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
-#~ "choose a password for this wallet, or cancel to deny the application's "
-#~ "request.</qt>"
-#~ msgstr ""
-#~ "<qt>KDE '<b>%1</b>' qopchiqni ochishi kerak. Iltimos ushbu qopchiq uchun "
-#~ "maxfiy soʻzni quyida kiriting."
-
-#, fuzzy
-#~| msgid ""
-#~| "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
-#~| "b>'. Please enter the password for this wallet below."
-#~ msgid ""
-#~ "<qt>The application '<b>%1</b>' has requested to create a new wallet "
-#~ "named '<b>%2</b>'. Please choose a password for this wallet, or cancel to "
-#~ "deny the application's request.</qt>"
-#~ msgstr ""
-#~ "<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu "
-#~ "qopchiq uchun maxfiy soʻzni quyida kiriting."
-
-#, fuzzy
-#~| msgid ""
-#~| "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
-#~| "b>'. Please enter the password for this wallet below."
-#~ msgid ""
-#~ "<qt>The application '<b>%1</b>' has requested access to the open wallet "
-#~ "'<b>%2</b>'.</qt>"
-#~ msgstr ""
-#~ "<qt>Dastur '<b>%1</b>' qopchiqni '<b>%2</b>' ochishi kerak. Iltimos ushbu "
-#~ "qopchiq uchun maxfiy soʻzni quyida kiriting."
-
-#~ msgid "Passwords match."
-#~ msgstr "Maxfiy soʻzlar mos keladi."
-
-#~ msgid "Passwords do not match."
-#~ msgstr "Maxfiy soʻzlar mos kelmaydi."
-
-#~ msgid "<u>KWallet</u> - The KDE Wallet System"
-#~ msgstr "<u>KWallet</u> - KDE qopchiq tizimi"
-
-#~ msgid "&Basic setup (recommended)"
-#~ msgstr "&Oddiy oʻrnatish (tavsiya qilinadi)"
-
-#~ msgid "&Advanced setup"
-#~ msgstr "&Qoʻshimcha moslama"
-
-#~ msgid "Yes, I wish to use the KDE wallet to store my personal information."
-#~ msgstr ""
-#~ "Ha, shaxsiy maʼlumotni saqlash uchun men KDE qapchugʻidan "
-#~ "foydalanmoqchiman."
-
-#~ msgid "Enter a new password:"
-#~ msgstr "Yangi maxfiy soʻzni kiriting:"
-
-#~ msgid "Verify password:"
-#~ msgstr "Maxfiy soʻzni tasdiqlang:"
-
-#~ msgid "Allow &Once"
-#~ msgstr "Bir marta ruxsat &berish"
-
-#~ msgid "Allow &Always"
-#~ msgstr "Hamisha &ruxsat berish"
-
-#~ msgid "&Deny"
-#~ msgstr "&Ruxsat berilmasin"
-
-#~ msgid "Deny &Forever"
-#~ msgstr "Hamisha rux&sat berilmasin"
-
-#~ msgid "Locality:"
-#~ msgstr "Shahar/Qishloq va tuman:"
-
-#~ msgid "Email:"
-#~ msgstr "Elektron pochta:"
-
-#, fuzzy
-#~| msgid "Access was denied while attempting to %1."
-#~ msgctxt "%1: code, %2: request type"
-#~ msgid "An unexpected error (%1) occurredwhile attempting to %2."
-#~ msgstr "%1ga ruxsat etilmadi."
-
-#, fuzzy
-#~| msgid "Parent Folder"
-#~ msgctxt "@info:tooltip"
-#~ msgid "Parent Folder"
-#~ msgstr "Yuqori jild"
-
-#~ msgid "Free disk space:"
-#~ msgstr "Diskdagi boʻsh joy:"
-
-#~ msgid "Add a bookmark for the current document"
-#~ msgstr "Joriy hujjat uchun xatchoʻp qoʻshish"
-
-#~ msgid "Please specify the filename to save to."
-#~ msgstr "Iltimos saqlash uchun faylning nomini koʻrsating."
-
-#~ msgid "Please select the file to open."
-#~ msgstr "Iltimos ochish uchun faylning nomini tanlang."
-
-#~ msgid "Signature is untrusted."
-#~ msgstr "Imzo ishonchli emas."
-
-#~ msgid "Signature test failed."
-#~ msgstr "Imzoni tekshirish muvaffaqiyatsiz tugadi."
-
-#, fuzzy
-#~| msgid "Common name:"
-#~ msgid "Common Name:"
-#~ msgstr "Umumiy nomi:"
-
-#~ msgid "Pattern ( example: *.html;*.htm )"
-#~ msgstr "Namuna (misol: *.html;*.htm)"
-
-#~ msgid "Co&nnect"
-#~ msgstr "U&lanish"
-
-#~ msgid "C&ryptography Configuration..."
-#~ msgstr "&Kriptografiyani moslash"
-
-#~ msgid "Chain:"
-#~ msgstr "Zanjir:"
-
-#~ msgid "0 - Site Certificate"
-#~ msgstr "0 - Saytning sertifikati"
-
-#~ msgid "Certificate state:"
-#~ msgstr "Sertifikatning holati:"
-
-#~ msgid "Valid until:"
-#~ msgstr "Gacha haqiqiy:"
-
-#~ msgid "Cipher in use:"
-#~ msgstr "Shifr:"
-
-#~ msgid "Connecting to %1..."
-#~ msgstr "%1 bilan aloqa oʻrnatilmoqda..."
-
-#~ msgid "%1 (port %2)"
-#~ msgstr "%1 (port %2)"
-
-#~ msgid "Unknown View"
-#~ msgstr "Nomaʼlum koʻrinish"
-
-#~ msgid "Root Folder: %1"
-#~ msgstr "Tub jildi: %1"
-
-#~ msgid "Home Folder: %1"
-#~ msgstr "Uy jildi: %1"
-
-#~ msgid "Documents: %1"
-#~ msgstr "Hujjatlar: %1"
-
-#~ msgid "Desktop: %1"
-#~ msgstr "Ish stoli:%1"
-
-#, fuzzy
-#~| msgid ""
-#~| "The desktop entry file\n"
-#~| "%1\n"
-#~| " has an invalid menu entry\n"
-#~| "%2."
-#~ msgid "The desktop menu %1 has an invalid X-KDE-GetActionMenu entry."
-#~ msgstr ""
-#~ ".desktop faylida\n"
-#~ "(%1)\n"
-#~ "menyu yozuvi (%2)\n"
-#~ "notoʻgʻri."
+#~ msgid "&Dante"
+#~ msgstr "&Dante"
 
 #~ msgid ""
-#~ "The desktop entry file\n"
-#~ "%1\n"
-#~ " has an invalid menu entry\n"
-#~ "%2."
+#~ "Here you can specify additional directories to search for the SOCKS "
+#~ "libraries. /usr/lib, /usr/local/lib, /usr/local/socks5/lib and /opt/"
+#~ "socks5/lib are already searched by default."
 #~ msgstr ""
-#~ ".desktop faylida\n"
-#~ "(%1)\n"
-#~ "menyu yozuvi (%2)\n"
-#~ "notoʻgʻri."
+#~ "Bu yerda, qoʻshimcha kutubxonalarini qidirish uchun direktoriyalarni "
+#~ "koʻrsatishingiz mumkin. Quyidagi yoʻllardan andoza boʻyicha "
+#~ "foydalaniladi.\n"
+#~ "/usr/lib, /usr/local/lib, /usr/local/socks5/lib, /opt/socks5/lib"
 
-#~ msgid "Small Icons"
-#~ msgstr "Kichkina nishonchalar"
+#~ msgid "Additional Library Search Paths"
+#~ msgstr "Qoʻshimcha kutubxonalarni qidirish uchun yoʻllar"
 
-#~ msgid "Large Icons"
-#~ msgstr "Katta nishonchalar"
+#~ msgid "kcmsocks"
+#~ msgstr "kcmsocks"
 
-#~ msgid "Thumbnail Previews"
-#~ msgstr "Miniatyurani koʻrsatish"
+#~ msgid "KDE SOCKS Control Module"
+#~ msgstr "KDE SOCKS boshqaruv moduli"
 
-#~ msgid "Preview"
-#~ msgstr "Koʻrib chiqish"
-
-#~ msgid "No preview available."
-#~ msgstr "Koʻrib chiqishni iloji yoʻq."
-
-#~ msgid "Stopped"
-#~ msgstr "Toʻxtatildi"
-
-#~ msgid "&Automatic preview"
-#~ msgstr "&Avtomatik koʻrib chiqish"
-
-#~ msgid "&Preview"
-#~ msgstr "&Koʻrib chiqish"
-
-#~ msgid "&URL:"
-#~ msgstr "&URL:"
-
-#~ msgid "Reverse"
-#~ msgstr "Teskari tartibda"
-
-#~ msgid "Separate Folders"
-#~ msgstr "Jildlarni ajratish"
-
-#~ msgid "Case Insensitive"
-#~ msgstr "Katta-kichik harf farqlanmasin"
-
-#~ msgid "Netscape Bookmarks"
-#~ msgstr "Netscape xatchoʻplari"
+#~ msgid "(c) 2001 George Staikos"
+#~ msgstr "(c) 2001 George Staikos"
 
 #, fuzzy
-#~ msgid "Select Mime Types"
-#~ msgstr "MIME turi"
+#~| msgid "(c) 2001 George Staikos"
+#~ msgid "George Staikos"
+#~ msgstr "(c) 2001 George Staikos"
 
-#, fuzzy
-#~| msgid "Protocol %1 is not a Filesystem"
-#~ msgid "KProtocolinfo Test"
-#~ msgstr "Protokol %1 fayl tizimi emas"
-
-#, fuzzy
-#~ msgid "Source URL"
-#~ msgstr "Manba:"
-
-#, fuzzy
-#~| msgid "Preview"
-#~ msgid "previewtest"
-#~ msgstr "Koʻrib chiqish"
-
-#, fuzzy
-#~| msgid "Progress Dialog"
-#~ msgid "KIO Properties Dialog Test"
-#~ msgstr "Bajarish oynasi"
-
-#, fuzzy
-#~| msgid "Speed"
-#~ msgid "SpeedApp"
-#~ msgstr "Tezlik"
-
-#, fuzzy
-#~| msgid "Cookie Alert"
-#~ msgid "kcookietest"
-#~ msgstr "Kuki xabarnomasi"
-
-#~ msgid "&Add Entry..."
-#~ msgstr "&Elementni qoʻshish"
-
-#~ msgid "%1 (Link)"
-#~ msgstr "%1 (Bogʻ)"
-
-#~ msgid "Hide Preview"
-#~ msgstr "Koʻrib chiqishni bekitish"
-
-#~ msgid "Desktop"
-#~ msgstr "Ish stoli"
-
-#~ msgid "Documents"
-#~ msgstr "Hujjatlar"
-
-#~ msgid "Storage Media"
-#~ msgstr "Saqlash uskunalari"
-
-#~ msgid "Network Folders"
-#~ msgstr "Tarmoq jildlari"
-
-#~ msgid "&Large Icons"
-#~ msgstr "&Katta nishonchalar"
-
-#~ msgid "&Small Icons"
-#~ msgstr "K&ichkina nishonchalar"
-
-#~ msgid "Do not print the mimetype of the given file(s)"
-#~ msgstr "Koʻrsatilgan fayl(lar)ning MIME turini bekitish"
-
-#~ msgid "kfile"
-#~ msgstr "kfile"
-
-#~ msgid "No files specified"
-#~ msgstr "Hech qanday fayl koʻrsatilmagan"
-
-#~ msgid "Cannot determine metadata"
-#~ msgstr "Meta maʼlumotni aniqlab boʻlmadi"
-
-#~ msgid "Menu Editor"
-#~ msgstr "Menyu tahrirchi"
-
-#~ msgid "Move Up"
-#~ msgstr "Yuqoriga"
-
-#~ msgid "Move Down"
-#~ msgstr "Pastga"
-
-#~ msgid ""
-#~ "Could not find mime type\n"
-#~ "%1"
+#~ msgid "These changes will only apply to newly started applications."
 #~ msgstr ""
-#~ "%1\n"
-#~ "MIME turi topilmadi"
+#~ "Kiritilgan oʻzgarishlar faqat yangidan ishga tushirilgan dasturlarga "
+#~ "qoʻllanadi."
 
-#~ msgid "No mime types installed."
-#~ msgstr "MIME turlari oʻrnatilmagan."
+#~ msgid "SOCKS Support"
+#~ msgstr "SOCKS'ni qoʻllash"
 
-#~ msgid "Source:"
-#~ msgstr "Manba:"
+#~ msgid "Success: SOCKS was found and initialized."
+#~ msgstr "SOCKS'ni ishga tayyorlash muvaffaqiyatli tugadi."
 
-#~ msgid "Destination:"
-#~ msgstr "Manzil:"
+#~ msgid "SOCKS could not be loaded."
+#~ msgstr "SOCKS'ni yuklab boʻlmadi."
 
-#~ msgid "&Keep this window open after transfer is complete"
-#~ msgstr "&Koʻchirish tugagach oynani ochiq qoldirish"
+#~ msgid "&Path:"
+#~ msgstr "Yoʻ&l:"
 
-#~ msgid "Open &File"
-#~ msgstr "&Faylni ochish"
+#~ msgid "This is the list of additional paths that will be searched."
+#~ msgstr "Qoʻshimcha kutubxonalarni qidirish uchun yoʻllar roʻyxati."
 
-#~ msgid "Open &Destination"
-#~ msgstr "M&anzilni ochish"
+#~ msgid "Path"
+#~ msgstr "Yoʻl"
 
-#~ msgid "%1 file"
-#~ msgid_plural "%1 files"
-#~ msgstr[0] "%1 fayl"
+#~ msgid "&Add"
+#~ msgstr "&Qoʻshish"
 
-#~ msgid "%1 % of %2 "
-#~ msgstr "%2 dan %1 % "
-
-#, fuzzy
-#~ msgid "%2 % of 1 file"
-#~ msgid_plural "%2 % of %1 files"
-#~ msgstr[0] "Bitta fayldan %2 %"
-
-#~ msgid " (Copying)"
-#~ msgstr " (Nusxa olinmoqda)"
-
-#~ msgid " (Moving)"
-#~ msgstr " (Joyidan koʻchirilmoqda)"
-
-#~ msgid " (Deleting)"
-#~ msgstr " (Oʻchirilmoqda)"
-
-#~ msgid " (Creating)"
-#~ msgstr " (Yaratilmoqda)"
-
-#~ msgid " (Done)"
-#~ msgstr " (Bajarildi)"
-
-#~ msgid "%1 of %2 complete"
-#~ msgstr "%2 dan %1 bajarildi"
-
-#~ msgid "%2 / %1 folder"
-#~ msgid_plural "%2 / %1 folders"
-#~ msgstr[0] "%2 / %1 jild"
-
-#~ msgid "%2 / %1 file"
-#~ msgid_plural "%2 / %1 files"
-#~ msgstr[0] "%2 / %1 fayl"
-
-#~ msgid "Stalled"
-#~ msgstr "Toʻxtab qoldi"
-
-#~ msgid "%1/s ( %2 remaining )"
-#~ msgstr "%1/s ( %2 qoldi )"
-
-#~ msgid "Copy File(s) Progress"
-#~ msgstr "Fayl(lar)dan nusxa olish"
-
-#~ msgid "Move File(s) Progress"
-#~ msgstr "Fayl(lar)ni joyidan koʻchirish"
-
-#~ msgid "Loading Progress"
-#~ msgstr "Yuklanmoqda"
-
-#~ msgid "Examining File Progress"
-#~ msgstr "Fayl tekshirilmoqda"
-
-#~ msgid "Resuming from %1"
-#~ msgstr "%1'dan davom etilmoqda"
-
-#~ msgid "Not resumable"
-#~ msgstr "Davom etib boʻlmaydi"
-
-#~ msgid "%1/s (done)"
-#~ msgstr "%1/s (bajarildi)"
+#~ msgid "This is the configuration for the samba client only, not the server."
+#~ msgstr "Bu moslama faqat SAMBA klienti uchun, server uchun emas."
 
 #, fuzzy
-#~ msgid "Resume"
-#~ msgstr "&Davom etish"
-
-#~ msgid " Stalled "
-#~ msgstr " Toʻxtab qoldi "
-
-#~ msgid " %1/s "
-#~ msgstr " %1/s "
-
-#~ msgid "'command' expected.\n"
-#~ msgstr "\"buyruq\" kutilgan edi.\n"
-
-#~ msgid "s"
-#~ msgstr "s"
-
-#~ msgid "ms"
-#~ msgstr "ms"
-
-#~ msgid "bps"
-#~ msgstr "bps"
-
-#~ msgid "pixels"
-#~ msgstr "piksel"
-
-#~ msgid "in"
-#~ msgstr "in"
-
-#~ msgid "cm"
-#~ msgstr "sm"
-
-#~ msgid "B"
-#~ msgstr "B"
+#~ msgid "&OK"
+#~ msgstr "&SOCKS"
 
 #, fuzzy
-#~ msgid "KiB"
-#~ msgstr "Kb"
+#~ msgid "&Cancel"
+#~ msgstr "&Dante"
 
-#~ msgid "fps"
-#~ msgstr "fps"
+#~ msgid "..."
+#~ msgstr "Tanlash"
 
-#~ msgid "dpi"
-#~ msgstr "dpi"
-
-#~ msgid "bpp"
-#~ msgstr "bpp"
-
-#~ msgid "Hz"
-#~ msgstr "Gs"
-
-#~ msgid "mm"
-#~ msgstr "mm"
-
-#~ msgid "Supported MimeTypes:"
-#~ msgstr "Qoʻllangan MIME turlari:"
-
-#~ msgid "0 B"
-#~ msgstr "0 B"
-
-#~ msgid "Password"
-#~ msgstr "Maxfiy soʻz"
-
-#~ msgid "You need to supply a username and a password"
-#~ msgstr "Foydalanuvchi va maxfiy soʻzni kiritish kerak"
-
-#~ msgid "&Password:"
-#~ msgstr "&Maxfiy soʻz:"
-
-#~ msgid "&Keep password"
-#~ msgstr "Maxfiy soʻzni &eslab qolish"
-
-#~ msgid "Shredding:  pass %1 of 35"
-#~ msgstr "Qirib tashlash: 35 dan %1 bajarildi"
-
-#~ msgid "Settings..."
-#~ msgstr "Moslamalar"
-
-#~ msgid "Show column headers"
-#~ msgstr "Ustun sarlavhasini koʻrsatish"
-
-#~ msgid "Show statusbar"
-#~ msgstr "Holat panelini koʻrsatish"
-
-#~ msgid "Show information:"
-#~ msgstr "Maʼlumotni koʻrsatish:"
-
-#~ msgid "URL"
-#~ msgstr "URL"
-
-#~ msgid "%"
-#~ msgstr "%"
-
-#~ msgid "Count"
-#~ msgstr "Sanash"
-
-#~ msgctxt "Resume"
-#~ msgid "Res."
-#~ msgstr "Davom etish"
-
-#~ msgid "%1/s"
-#~ msgstr "%1/s"
-
-#~ msgid "Creating"
-#~ msgstr "Yaratilmoqda"
-
-#~ msgid "Developer"
-#~ msgstr "Tuzuvchi"
-
-#~ msgid "Clear input field"
-#~ msgstr "Kiritish maydonini tozalash"
-
-#~ msgid "Sounds"
-#~ msgstr "Tovushlar"
-
-#~ msgid "Logging"
-#~ msgstr "Log qilish"
-
-#~ msgid "Program Execution"
-#~ msgstr "Dasturni bajarish"
-
-#~ msgid "Message Windows"
-#~ msgstr "Xabar oynalari"
-
-#~ msgid "Passive Windows"
-#~ msgstr "Passiv oynalar"
-
-#~ msgid "Taskbar"
-#~ msgstr "Vazifalar paneli"
-
-#~ msgid "Execute a program"
-#~ msgstr "Dasturni ishga tushirish"
-
-#~ msgid "Log to a file"
-#~ msgstr "Faylga log qilish"
-
-#~ msgid "Play a sound"
-#~ msgstr "Tovushni oʻynash"
-
-#~ msgid "Notification Settings"
-#~ msgstr "Xabarnoma moslamalari"
-
-#~ msgid "Advanced <<"
-#~ msgstr "Qoʻshimcha <<"
-
-#~ msgid "Hide advanced options"
-#~ msgstr "Qoʻshimcha parametrlarni bekitish"
-
-#~ msgid "Advanced >>"
-#~ msgstr "Qoʻshimcha >>"
-
-#~ msgid "Show advanced options"
-#~ msgstr "Qoʻshimcha parametrlarni koʻrsatish"
-
-#~ msgid "Are You Sure?"
-#~ msgstr "Ishonchingiz komilmi?"
-
-#~ msgid "Select Sound File"
-#~ msgstr "Tovush faylini tanlash"
-
-#~ msgid "Select Log File"
-#~ msgstr "Log-faylini tanlash"
-
-#~ msgid "Select File to Execute"
-#~ msgstr "Bajarish uchun faylni tanlash"
-
-#~ msgid "The specified file does not exist."
-#~ msgstr "Koʻrsatilgan fayl mavjud emas."
-
-#~ msgid "No description available"
-#~ msgstr "Hech qanday taʼrif mavjud emas"
-
-#~ msgid "<never used>"
-#~ msgid_plural "Properties for %1 Selected Items"
-#~ msgstr[0] "Tanlangan element xossalari"
-
-#~ msgid "Comman&d:"
-#~ msgstr "Buy&ruq:"
-
-#~ msgid "&Execute on click:"
-#~ msgstr "Bosganda b&ajarish:"
-
-#~ msgid "&Window title:"
-#~ msgstr "Oynaning &sarlavhasi:"
-
-#~ msgid "KDE Wallet Wizard"
-#~ msgstr "KDE qopchiq yordamchisi"
-
-#~ msgid "Introduction"
-#~ msgstr "Kirish"
-
-#~ msgid "Password Selection"
-#~ msgstr "Maxfiy soʻzni tanlash"
-
-#~ msgid "Security Level"
-#~ msgstr "Xavfsizlik darajasi"
-
-#~ msgid "Events"
-#~ msgstr "Hodisalar"
-
-#~ msgid "Quick Controls"
-#~ msgstr "Tez boshqaruvlar"
-
-#~ msgid "Apply to &all applications"
-#~ msgstr "H&amma dasturlarga qoʻllash"
-
-#~ msgid "Turn O&ff All"
-#~ msgstr "Hammsini oʻchi&rish"
-
-#~ msgid "Turn O&n All"
-#~ msgstr "Hammasini yoq&ish"
-
-#~ msgid "E&xecute a program:"
-#~ msgstr "&Dasturni ishga tushirish:"
-
-#~ msgid "Play a &sound:"
-#~ msgstr "Tovushni oʻ&ynash:"
-
-#~ msgid "Test the Sound"
-#~ msgstr "Tovushni sinash"
-
-#~ msgid "Less Options"
-#~ msgstr "Kamroq parametr"
-
-#~ msgid "Player Settings"
-#~ msgstr "Pleyerning moslamalari"
-
-#~ msgid "Quick Actions"
-#~ msgstr "Tez amallar"
-
-#~ msgid "&Details <<"
-#~ msgstr "&Tafsilotlar <<"
-
-#~ msgid "&Details >>"
-#~ msgstr "&Tafsilotlar >>"
+#~ msgid "Clear Search"
+#~ msgstr "Qidiruvni tozalash"
