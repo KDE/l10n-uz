@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-21 02:00+0000\n"
+"POT-Creation-Date: 2015-02-23 06:13+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -69,12 +69,12 @@ msgstr "&Qatlam"
 #: plugins/formats/jp2/jp2_converter.cc:343
 #: plugins/formats/jp2/jp2_converter.cc:354
 #: plugins/formats/jpeg/kis_jpeg_converter.cc:96
-#: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:68
+#: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:73
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:238
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:243
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:284
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
-#: ui/dialogs/kis_dlg_preferences.cc:191 ui/input/kis_input_manager.cpp:540
+#: ui/dialogs/kis_dlg_preferences.cc:185 ui/input/kis_input_manager.cpp:540
 #: ui/kis_filter_manager.cc:217 ui/kis_filter_manager.cc:226
 #: ui/kis_layer_manager.cc:642 ui/kis_layer_manager.cc:893
 #: ui/KisApplication.cpp:356 ui/KisApplication.cpp:361
@@ -201,19 +201,19 @@ msgstr "&Manbalar"
 
 #. i18n: ectx: Menu (View)
 #. i18n: ectx: Menu (view)
-#: gemini/kritagemini.rc:40 krita.rc:53 sketch/kritasketch.rc:40
+#: gemini/kritagemini.rc:40 krita.rc:51 sketch/kritasketch.rc:40
 #, fuzzy
 msgid "&View"
 msgstr "Sharob"
 
 #. i18n: ectx: Menu (view_fast_grid_config)
-#: gemini/kritagemini.rc:60 krita.rc:74 sketch/kritasketch.rc:60
+#: gemini/kritagemini.rc:60 krita.rc:72 sketch/kritasketch.rc:60
 #, fuzzy
 msgid "Grid Spacing"
 msgstr "Toʻrning qalinligi"
 
 #. i18n: ectx: Menu (Image)
-#: gemini/kritagemini.rc:80 krita.rc:94
+#: gemini/kritagemini.rc:80 krita.rc:92
 #: plugins/extensions/colorspaceconversion/colorspaceconversion.rc:4
 #: plugins/extensions/offsetimage/offsetimage.rc:5
 #: plugins/extensions/rotateimage/rotateimage.rc:4
@@ -222,14 +222,14 @@ msgid "&Image"
 msgstr "&Rasm"
 
 #. i18n: ectx: Menu (Layer)
-#: gemini/kritagemini.rc:91 krita.rc:125
+#: gemini/kritagemini.rc:91 krita.rc:123
 #: plugins/extensions/histogram/histogram.rc:4
 #: plugins/extensions/layersplit/layersplit.rc:4 sketch/kritasketch.rc:91
 msgid "&Layer"
 msgstr "&Qatlam"
 
 #. i18n: ectx: Menu (LayerNew)
-#: gemini/kritagemini.rc:92 krita.rc:127 sketch/kritasketch.rc:92
+#: gemini/kritagemini.rc:92 krita.rc:125 sketch/kritasketch.rc:92
 msgid "New"
 msgstr "Yangi"
 
@@ -241,7 +241,7 @@ msgstr "Teskari qilish"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #. i18n: ectx: Menu (Select)
-#: gemini/kritagemini.rc:126 krita.rc:193
+#: gemini/kritagemini.rc:126 krita.rc:191
 #: plugins/extensions/colorrange/wdg_colorrange.ui:131
 #: plugins/extensions/imagesize/imagesize.rc:12
 #: plugins/extensions/modify_selection/modify_selection.rc:4
@@ -250,12 +250,12 @@ msgid "&Select"
 msgstr "&Tanlash"
 
 #. i18n: ectx: Menu (Filter)
-#: gemini/kritagemini.rc:139 krita.rc:218 sketch/kritasketch.rc:139
+#: gemini/kritagemini.rc:139 krita.rc:216 sketch/kritasketch.rc:139
 msgid "Filte&r"
 msgstr "Filte&r"
 
 #. i18n: ectx: Menu (tools)
-#: gemini/kritagemini.rc:156 krita.rc:238
+#: gemini/kritagemini.rc:156 krita.rc:236
 #: plugins/extensions/bigbrother/bigbrother.rc:4 sketch/kritasketch.rc:156
 #, fuzzy
 msgid "&Tools"
@@ -270,7 +270,7 @@ msgid "Settings"
 msgstr "Moslamalar"
 
 #. i18n: ectx: ToolBar (BrushesAndStuff)
-#: gemini/kritagemini.rc:172 krita.rc:293 sketch/kritasketch.rc:172
+#: gemini/kritagemini.rc:172 krita.rc:291 sketch/kritasketch.rc:172
 #, fuzzy
 msgid "Brushes and Stuff"
 msgstr "Choʻtka va boshqa ish qurollari"
@@ -285,18 +285,18 @@ msgstr "Krita"
 msgid "Krita Gemini: Painting at Home and on the Go for Artists"
 msgstr ""
 
-#: gemini/main.cpp:72
+#: gemini/main.cpp:72 sketch/main.cpp:73
 #, fuzzy, kde-format
-msgid "(c) 1999-%1 The Krita team and KO GmbH.\n"
+msgid "(c) 1999-%1 The Krita team.\n"
 msgstr "(C) 1999-2006, Krita jamoasi.\n"
 
-#: gemini/main.cpp:80 sketch/main.cpp:68
+#: gemini/main.cpp:80 sketch/main.cpp:81
 #, fuzzy
 #| msgid "Image Size"
 msgid "Images to open"
 msgstr "Rasmning oʻlchami"
 
-#: gemini/main.cpp:81 sketch/main.cpp:69
+#: gemini/main.cpp:81 sketch/main.cpp:82
 msgid "Use the virtual keyboard"
 msgstr ""
 
@@ -1986,27 +1986,27 @@ msgid "Rectangle"
 msgstr "Toʻgʻri burchak"
 
 #. i18n: ectx: Menu (Rotate)
-#: krita.rc:104 krita.rc:167 plugins/extensions/rotateimage/rotateimage.rc:5
+#: krita.rc:102 krita.rc:165 plugins/extensions/rotateimage/rotateimage.rc:5
 #: plugins/extensions/rotateimage/rotateimage.rc:18
 msgid "&Rotate"
 msgstr "&Burish"
 
 #. i18n: ectx: Menu (LayerImportExport)
-#: krita.rc:135
+#: krita.rc:133
 #, fuzzy
 #| msgid "Import Image"
 msgid "&Import/Export"
 msgstr "Rasmni import qilish"
 
 #. i18n: ectx: Menu (LayerImportAs)
-#: krita.rc:141
+#: krita.rc:139
 #, fuzzy
 #| msgid "Import Image"
 msgid "Import"
 msgstr "Rasmni import qilish"
 
 #. i18n: ectx: Menu (LayerConvert)
-#: krita.rc:149
+#: krita.rc:147
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:506
 #, fuzzy
 #| msgid "&Invert"
@@ -2014,38 +2014,38 @@ msgid "&Convert"
 msgstr "&Teskari"
 
 #. i18n: ectx: Menu (LayerSplitAlpha)
-#: krita.rc:157
+#: krita.rc:155
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:513
 #, fuzzy
 msgid "S&plit Alpha"
 msgstr "Rangni palitraga qoʻshish"
 
 #. i18n: ectx: Menu (Recording)
-#: krita.rc:240 plugins/extensions/bigbrother/bigbrother.rc:5
+#: krita.rc:238 plugins/extensions/bigbrother/bigbrother.rc:5
 #, fuzzy
 msgid "Recording"
 msgstr "Toʻgʻri burcha&k"
 
 #. i18n: ectx: Menu (Macros)
-#: krita.rc:245 plugins/extensions/bigbrother/bigbrother.rc:9
+#: krita.rc:243 plugins/extensions/bigbrother/bigbrother.rc:9
 msgid "Macros"
 msgstr ""
 
 #. i18n: ectx: Menu (settings)
-#: krita.rc:251
+#: krita.rc:249
 #, fuzzy
 #| msgid "Settings"
 msgid "Setti&ngs"
 msgstr "Moslamalar"
 
 #. i18n: ectx: Menu (help)
-#: krita.rc:270
+#: krita.rc:268
 #, fuzzy
 msgid "&Help"
 msgstr "Koʻrsatish/&bekitish"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: krita.rc:284 ui/kis_file_layer.cpp:89
+#: krita.rc:282 ui/kis_file_layer.cpp:89
 #, fuzzy
 #| msgid "&Filter"
 msgid "File"
@@ -2153,7 +2153,7 @@ msgstr "Boshqa shaklga almashtirish"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, perspectiveTransformButton)
 #. i18n: ectx: property (text), widget (QToolButton, perspectiveTransformButton)
-#: plugins/assistants/RulerAssistant/PerspectiveAssistant.cc:400
+#: plugins/assistants/RulerAssistant/PerspectiveAssistant.cc:404
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:60
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:127
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:130
@@ -2442,7 +2442,7 @@ msgstr "Rang chegarasi"
 msgid "Select Opaque"
 msgstr "Tanlash"
 
-#: plugins/extensions/colorrange/colorrange.cc:83
+#: plugins/extensions/colorrange/colorrange.cc:85
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select Opaque"
@@ -2662,10 +2662,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsyS)
 #. i18n: ectx: property (text), widget (QCheckBox, saturationCBox)
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:87
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1243
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1275
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1307
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1339
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1236
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1268
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1300
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1332
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:64
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:67
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:70
@@ -2746,7 +2746,7 @@ msgstr "Yulduz"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_general)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:24
-#: ui/dialogs/kis_dlg_preferences.cc:701 ui/dialogs/kis_dlg_preferences.cc:702
+#: ui/dialogs/kis_dlg_preferences.cc:695 ui/dialogs/kis_dlg_preferences.cc:696
 #: ui/kis_paintop_option.cpp:26
 msgid "General"
 msgstr "Umumiy"
@@ -2885,8 +2885,8 @@ msgstr "&Turi"
 #. i18n: ectx: property (text), widget (QLabel, HSI_title)
 #. i18n: ectx: property (text), widget (QPushButton, bnHsi)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:320
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:599
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1293
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:592
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1286
 #: plugins/extensions/dockers/artisticcolorselector/forms/wdgColorPreferencesPopup.ui:35
 #, fuzzy
 #| msgid "HSV"
@@ -2898,8 +2898,8 @@ msgstr "HSV"
 #. i18n: ectx: property (text), widget (QLabel, HSV_title)
 #. i18n: ectx: property (text), widget (QPushButton, bnHsv)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:327
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:576
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1229
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:569
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1222
 #: plugins/extensions/dockers/artisticcolorselector/forms/wdgColorPreferencesPopup.ui:61
 msgid "HSV"
 msgstr "HSV"
@@ -2908,8 +2908,8 @@ msgstr "HSV"
 #. i18n: ectx: property (text), widget (QRadioButton, MyPaint_HSY)
 #. i18n: ectx: property (text), widget (QLabel, HSY_title)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:334
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:609
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1325
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:602
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1318
 msgid "HSY'"
 msgstr ""
 
@@ -2972,28 +2972,22 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, HSL_title)
 #. i18n: ectx: property (text), widget (QPushButton, bnHsl)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:458
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:589
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1261
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:582
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1254
 #: plugins/extensions/dockers/artisticcolorselector/forms/wdgColorPreferencesPopup.ui:48
 #, fuzzy
 #| msgid "HSV"
 msgid "HSL"
 msgstr "HSV"
 
-#. i18n: ectx: property (text), widget (QCheckBox, hideColorSelector)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:465
-#, fuzzy
-msgid "Hide color selector"
-msgstr "Tanlanganni koʻrsatish"
-
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:473
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:466
 #, fuzzy
 msgid "Shade Selector"
 msgstr "Tanlanganni bekitish"
 
 #. i18n: ectx: property (text), widget (QLabel, l_shadeType)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:481
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:474
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:106
 #, fuzzy
 #| msgid "&Type"
@@ -3001,76 +2995,76 @@ msgid "Type"
 msgstr "&Turi"
 
 #. i18n: ectx: property (text), widget (QRadioButton, shadeSelectorTypeMyPaint)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:488
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:481
 #, fuzzy
 msgid "MyPaint"
 msgstr "&Rasm chizish"
 
 #. i18n: ectx: property (text), widget (QRadioButton, shadeSelectorTypeMinimal)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:495
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:488
 #, fuzzy
 msgid "Minimal"
 msgstr "Ayirish"
 
 #. i18n: ectx: property (text), widget (QRadioButton, shadeSelectorTypeHidden)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:502
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:495
 #, fuzzy
 msgid "do not show"
 msgstr "Tekis"
 
 #. i18n: ectx: property (title), widget (QGroupBox, b_lineShadeSelector)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:511
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:504
 #, fuzzy
 msgid "Update shade selector when"
 msgstr "Tanlanganni chizish"
 
 #. i18n: ectx: property (text), widget (QCheckBox, shadeSelectorUpdateOnRightClick)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:517
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:510
 #, fuzzy
 msgid "right clicking on shade selector"
 msgstr "Tanlanganni chizish"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, shadeSelectorUpdateOnForeground)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, shadeSelectorUpdateOnBackground)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:524
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:544
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:517
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:537
 msgid "this doesn't include a color change by the shade selector"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, shadeSelectorUpdateOnForeground)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:527
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:520
 #, fuzzy
 #| msgid "Background Color"
 msgid "foreground color changes"
 msgstr "Orqa fon rangi"
 
 #. i18n: ectx: property (text), widget (QCheckBox, shadeSelectorUpdateOnLeftClick)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:537
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:530
 #, fuzzy
 msgid "left clicking on shade selector"
 msgstr "Tanlanganni chizish"
 
 #. i18n: ectx: property (text), widget (QCheckBox, shadeSelectorUpdateOnBackground)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:547
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:540
 #, fuzzy
 #| msgid "Background Color"
 msgid "background color change"
 msgstr "Orqa fon rangi"
 
 #. i18n: ectx: property (title), widget (QGroupBox, b_mypainttype)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:560
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:553
 #, fuzzy
 msgid "MyPaint Shade Selector"
 msgstr "Tanlanganni chizish"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:566
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:559
 #, fuzzy
 msgid "Color-model type:"
 msgstr "Joriy rang modeli:"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, MyPaint_HSV)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:573
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:566
 msgid ""
 "<html><head/><body><p>Use the Hue Saturation Value model.(Default)</p><p><br/"
 "></p><p>This model sets all the most saturated colours at the same level as "
@@ -3078,14 +3072,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, MyPaint_HSL)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:586
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:579
 msgid ""
 "<html><head/><body><p>Use the Hue, Saturation, Lightness model.</p><p>This "
 "model sets all the most saturated colors at lightness 0.5</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, MyPaint_HSI)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:596
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:589
 msgid ""
 "<html><head/><body><p>Use the Hue, Saturation, Intensity model for the "
 "MyPaint Shade Selector</p><p>Intensity marks itself by measuring the sum of "
@@ -3094,7 +3088,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, MyPaint_HSY)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:606
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:599
 msgid ""
 "<html><head/><body><p>Use the Hue, Saturation, Luma model for the MyPaint "
 "Shade Selector</p><p>Luma is similar to Intensity, except it weighs the red "
@@ -3104,53 +3098,53 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, b_minimaltype)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:619
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:612
 #, fuzzy
 msgid "Minimal Shade Selector"
 msgstr "Tanlanganni bekitish"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:629
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:622
 #, fuzzy
 msgid "Line Count"
 msgstr "Namuna sifatida ishlatish"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:652
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:645
 #, fuzzy
 msgid "line height"
 msgstr "Piksel balandligi"
 
 #. i18n: ectx: property (text), widget (QRadioButton, minimalShadeSelectorAsGradient)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:679
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:672
 #, fuzzy
 #| msgid "Gradient"
 msgid "gradient"
 msgstr "Gradient"
 
 #. i18n: ectx: property (text), widget (QRadioButton, minimalShadeSelectorAsColorPatches)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:686
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:679
 #, fuzzy
 #| msgid "Color Picker"
 msgid "color patches"
 msgstr "Rang tanlagich"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:697
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:690
 #, fuzzy
 #| msgid "Update preview"
 msgid "patches per line"
 msgstr "Koʻrib chiqishni yangilash"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_ColorPatches)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:762
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:755
 #, fuzzy
 #| msgid "Color Picker"
 msgid "Color Patches"
 msgstr "Rang tanlagich"
 
 #. i18n: ectx: property (title), widget (QGroupBox, commonColorsShow)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:797
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:790
 #, fuzzy
 #| msgid "Show colors as percentages"
 msgid "Show Colors from the image"
@@ -3162,8 +3156,8 @@ msgstr "Ranglarni foiz hisobida koʻrsatish"
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:811
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1028
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:804
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1021
 #: plugins/formats/heightmap/kis_wdg_options_heightmap.ui:30
 #: plugins/formats/pdf/pdfimportwidgetbase.ui:214
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:103
@@ -3192,10 +3186,10 @@ msgstr "Oʻlchami"
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, intY)
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, intWidth)
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, intHeight)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:821
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:834
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1038
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1051
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:814
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:827
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1031
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1044
 #: plugins/extensions/dropshadow/wdg_dropshadow.ui:103
 #: plugins/extensions/dropshadow/wdg_dropshadow.ui:132
 #: plugins/extensions/dropshadow/wdg_dropshadow.ui:161
@@ -3216,8 +3210,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:848
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1065
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:841
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1058
 #, fuzzy
 #| msgid "Selection"
 msgid "Patch count:"
@@ -3225,31 +3219,31 @@ msgstr "Tanlash"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:885
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1102
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:878
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1095
 msgid "Direction:"
 msgstr "Yoʻnalish:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, commonColorsAlignVertical)
 #. i18n: ectx: property (text), widget (QRadioButton, lastUsedColorsAlignVertical)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:898
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1115
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:891
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1108
 #, fuzzy
 msgid "Vertical"
 msgstr "Uskuna:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, commonColorsAlignHorizontal)
 #. i18n: ectx: property (text), widget (QRadioButton, lastUsedColorsAlignHorizontal)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:905
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1125
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:898
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1118
 #, fuzzy
 msgid "Horizontal"
 msgstr "Ufq 1"
 
 #. i18n: ectx: property (text), widget (QCheckBox, commonColorsAllowScrolling)
 #. i18n: ectx: property (text), widget (QCheckBox, lastUsedColorsAllowScrolling)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:917
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1134
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:910
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1127
 #, fuzzy
 #| msgid "Allow resizing"
 msgid "Allow scrolling"
@@ -3257,8 +3251,8 @@ msgstr "Oʻlchamini oʻzgartirishga ruxsat berish"
 
 #. i18n: ectx: property (text), widget (QLabel, lbl_commonColorsNumCols)
 #. i18n: ectx: property (text), widget (QLabel, lbl_lastUsedNumCols)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:930
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1147
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:923
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1140
 #, fuzzy
 #| msgid "Number of tests:"
 msgid "Number of columns"
@@ -3266,37 +3260,37 @@ msgstr "Tekshirishlar soni:"
 
 #. i18n: ectx: property (text), widget (QLabel, lbl_commonColorsNumRows)
 #. i18n: ectx: property (text), widget (QLabel, lbl_lastUsedNumRows)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:956
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1173
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:949
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1166
 #, fuzzy
 msgid "Number of rows"
 msgstr "Tekshirishlar soni:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, commonColorsAutoUpdate)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:985
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:978
 msgid "this can be slow on big images"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, commonColorsAutoUpdate)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:988
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:981
 #, fuzzy
 msgid "Update after every stroke"
 msgstr "Tanlanganni chizish"
 
 #. i18n: ectx: property (title), widget (QGroupBox, lastUsedColorsShow)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1014
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1007
 #, fuzzy
 msgid "Show Color History"
 msgstr "Tanlanganni koʻrsatish"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1208
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1201
 #, fuzzy
 msgid "Advanced Color Selector Docker Settings"
 msgstr "Tanlanganni koʻrsatish"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_colorSliderSettings)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1216
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1209
 #: plugins/extensions/dockers/colorslider/kis_color_slider_dock.cpp:41
 #, fuzzy
 msgid "Color Sliders"
@@ -3306,10 +3300,10 @@ msgstr "Tanlanganni koʻrsatish"
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hslH)
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsiH)
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsyH)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1236
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1268
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1300
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1332
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1229
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1261
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1293
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1325
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:63
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:66
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:69
@@ -3321,7 +3315,7 @@ msgstr "Rang tusi"
 
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsvV)
 #. i18n: ectx: property (text), widget (QTreeWidget, listViewChannels)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1250
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1243
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:65
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:108
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:35
@@ -3330,14 +3324,14 @@ msgid "Value"
 msgstr "Qiymati"
 
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hslL)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1282
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1275
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:68
 #, fuzzy
 msgid "Lightness"
 msgstr "Yorugʻlik"
 
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsiI)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1314
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1307
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:71
 #, fuzzy
 #| msgid "Description:"
@@ -3345,13 +3339,13 @@ msgid "Intensity"
 msgstr "Taʼrifi:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsyY)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1346
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1339
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:74
 msgid "Luma"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, sliders_info)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1369
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1362
 msgid "These settings affect the color slider docker."
 msgstr ""
 
@@ -3637,7 +3631,7 @@ msgstr ""
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:355
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:434
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:122
-#: ui/forms/wdg_url_requester.ui:35 ui/forms/wdgdisplaysettings.ui:342
+#: ui/forms/wdg_url_requester.ui:38 ui/forms/wdgdisplaysettings.ui:342
 #: ui/forms/wdggeneralsettings.ui:217 ui/forms/wdgimageproperties.ui:113
 #: ui/forms/wdgnewimage.ui:158 ui/forms/wdgnewimage.ui:180
 #: ui/forms/wdgpaintactioneditor.ui:46 ui/forms/wdgpaintactioneditor.ui:69
@@ -3961,7 +3955,7 @@ msgstr "Qatlamning xossalari"
 #. i18n: ectx: property (text), widget (QPushButton, clearBgImageButton)
 #. i18n: ectx: property (text), widget (QToolButton, m_bnClearLut)
 #: plugins/extensions/dockers/lut/wdglut.ui:186
-#: ui/forms/wdggeneralsettings.ui:230 ui/kis_selection_manager.cc:163
+#: ui/forms/wdggeneralsettings.ui:230 ui/kis_selection_manager.cc:153
 #, fuzzy
 msgid "Clear"
 msgstr "Ayiqlar"
@@ -4703,7 +4697,7 @@ msgstr "Yangi qatlam"
 #. i18n: ectx: property (title), widget (QGroupBox, grpMode)
 #: plugins/extensions/layersplit/layersplit.cpp:198
 #: plugins/generators/solid/colorgenerator.h:53
-#: ui/dialogs/kis_dlg_preferences.cc:718 ui/forms/wdgnewimage.ui:361
+#: ui/dialogs/kis_dlg_preferences.cc:712 ui/forms/wdgnewimage.ui:361
 #: ui/kis_paintop_option.cpp:31
 msgid "Color"
 msgstr "Rang"
@@ -6828,7 +6822,7 @@ msgstr "Malla ranglar"
 msgid "&Emboss with Variable Depth..."
 msgstr ""
 
-#: plugins/filters/embossfilter/kis_emboss_filter.cpp:158
+#: plugins/filters/embossfilter/kis_emboss_filter.cpp:159
 msgid "Depth"
 msgstr ""
 
@@ -7333,7 +7327,7 @@ msgstr "Burchakni qirrasizlantirish"
 msgid "&Small Tiles..."
 msgstr "Bitta kichik qadam..."
 
-#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cpp:99
+#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cpp:100
 #, fuzzy
 msgid "Number of tiles"
 msgstr "Tekshirishlar soni:"
@@ -7348,19 +7342,19 @@ msgstr "Bitta kichik qadam..."
 msgid "&Sobel..."
 msgstr "&Saqlash..."
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:198
+#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:199
 msgid "Sobel horizontally"
 msgstr ""
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:199
+#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:200
 msgid "Sobel vertically"
 msgstr ""
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:200
+#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:201
 msgid "Keep sign of result"
 msgstr ""
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:201
+#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:202
 msgid "Make image opaque"
 msgstr ""
 
@@ -7635,7 +7629,7 @@ msgstr "CD"
 
 #: plugins/formats/jp2/jp2_converter.cc:343
 #: plugins/formats/jp2/jp2_converter.cc:354
-#: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:68
+#: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:73
 #, kde-format
 msgid "Cannot export images in %1.\n"
 msgstr ""
@@ -9814,6 +9808,12 @@ msgstr ""
 msgid "Brush tip"
 msgstr "Boʻyoqning oʻlchami"
 
+#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:105
+msgid ""
+"Nothing copied\n"
+" to Clipboard"
+msgstr ""
+
 #: plugins/paintops/libpaintop/kis_color_option.cpp:44
 #, fuzzy
 msgid "Color options"
@@ -11357,7 +11357,7 @@ msgstr "Boʻyoqning oʻlchami"
 
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:339
 msgid ""
-"Sorry, Krita was built without the support of GNU Scientific Library, so you "
+"Sorry, Krita was build without the support of GNU Scientific Library, so you "
 "cannot scale the selection with handles. Please compile Krita with GNU "
 "Scientific Library support, or use options widget for editing scale values "
 "manually."
@@ -11798,22 +11798,17 @@ msgstr "Tanlanganni bekitish"
 msgid "Work Recursively"
 msgstr ""
 
-#: sketch/main.cpp:56 sketch/MainWindow.cpp:85
+#: sketch/main.cpp:69 sketch/MainWindow.cpp:85
 #, fuzzy
 #| msgid "Krita"
 msgid "Krita Sketch"
 msgstr "Krita"
 
-#: sketch/main.cpp:58
+#: sketch/main.cpp:71
 msgid "Krita Sketch: Painting on the Go for Artists"
 msgstr ""
 
-#: sketch/main.cpp:60
-#, fuzzy
-msgid "(c) 1999-2014 The Krita team and KO GmbH.\n"
-msgstr "(C) 1999-2006, Krita jamoasi.\n"
-
-#: sketch/main.cpp:70
+#: sketch/main.cpp:83
 msgid "Open sketch in a window, otherwise defaults to full-screen"
 msgstr ""
 
@@ -12224,7 +12219,7 @@ msgid "Image Properties"
 msgstr "Rasmning xossalari"
 
 #: ui/dialogs/kis_dlg_image_properties.cc:72
-#: ui/dialogs/kis_dlg_preferences.cc:512 ui/kis_image_manager.cc:90
+#: ui/dialogs/kis_dlg_preferences.cc:506 ui/kis_image_manager.cc:90
 #, fuzzy
 #| msgid "Background Color"
 msgid "Change the background color of the image"
@@ -12286,98 +12281,98 @@ msgstr "Boʻyoqning oʻlchami"
 msgid "Brush Outline with Triangle Lefthanded"
 msgstr "Boʻyoqning oʻlchami"
 
-#: ui/dialogs/kis_dlg_preferences.cc:185
+#: ui/dialogs/kis_dlg_preferences.cc:179
 #, fuzzy
 msgid "Select a Background Image"
 msgstr "Tanlash usuli:"
 
-#: ui/dialogs/kis_dlg_preferences.cc:191
+#: ui/dialogs/kis_dlg_preferences.cc:185
 #, fuzzy, kde-format
 #| msgid "Layer is locked or invisible."
 msgid "%1 is not a valid image file!"
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/dialogs/kis_dlg_preferences.cc:234
+#: ui/dialogs/kis_dlg_preferences.cc:228
 #: ui/widgets/kis_color_space_selector.cc:62
 #, fuzzy
 msgid "Open Color Profile"
 msgstr "Profil yoʻq"
 
-#: ui/dialogs/kis_dlg_preferences.cc:244 ui/dialogs/kis_dlg_preferences.cc:394
+#: ui/dialogs/kis_dlg_preferences.cc:238 ui/dialogs/kis_dlg_preferences.cc:388
 #, fuzzy, kde-format
 #| msgid "Screen"
 msgctxt "The number of the screen"
 msgid "Screen: %1"
 msgstr "Ekran"
 
-#: ui/dialogs/kis_dlg_preferences.cc:290
+#: ui/dialogs/kis_dlg_preferences.cc:284
 #: ui/widgets/kis_color_space_selector.cc:180
 #, fuzzy
 msgid "Install Color Profiles"
 msgstr "Profil yoʻq"
 
-#: ui/dialogs/kis_dlg_preferences.cc:336
+#: ui/dialogs/kis_dlg_preferences.cc:330
 #, fuzzy, kde-format
 #| msgid "Screen"
 msgctxt "The display/screen we got from Qt"
 msgid "Screen %1:"
 msgstr "Ekran"
 
-#: ui/dialogs/kis_dlg_preferences.cc:693
+#: ui/dialogs/kis_dlg_preferences.cc:687
 msgid "Preferences"
 msgstr "Moslamalar"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplayBlacklist)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, grpDisplay)
-#: ui/dialogs/kis_dlg_preferences.cc:709 ui/dialogs/kis_dlg_preferences.cc:710
+#: ui/dialogs/kis_dlg_preferences.cc:703 ui/dialogs/kis_dlg_preferences.cc:704
 #: ui/forms/wdgcolorsettings.ui:62 ui/forms/wdgdisplaysettings.ui:20
 #: ui/forms/wdgdlgblacklistcleanup.ui:20
 #, fuzzy
 msgid "Display"
 msgstr "Displey"
 
-#: ui/dialogs/kis_dlg_preferences.cc:717
+#: ui/dialogs/kis_dlg_preferences.cc:711
 msgid "Color Management"
 msgstr "Rang boshqaruvi"
 
-#: ui/dialogs/kis_dlg_preferences.cc:726 ui/dialogs/kis_dlg_preferences.cc:727
+#: ui/dialogs/kis_dlg_preferences.cc:720 ui/dialogs/kis_dlg_preferences.cc:721
 msgid "Performance"
 msgstr "Unumdorlik"
 
-#: ui/dialogs/kis_dlg_preferences.cc:735 ui/dialogs/kis_dlg_preferences.cc:736
+#: ui/dialogs/kis_dlg_preferences.cc:729 ui/dialogs/kis_dlg_preferences.cc:730
 msgid "Grid"
 msgstr "Toʻr"
 
-#: ui/dialogs/kis_dlg_preferences.cc:743
+#: ui/dialogs/kis_dlg_preferences.cc:737
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Tablet settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:744
+#: ui/dialogs/kis_dlg_preferences.cc:738
 #, fuzzy
 msgid "Tablet"
 msgstr "Yoqish"
 
-#: ui/dialogs/kis_dlg_preferences.cc:752
+#: ui/dialogs/kis_dlg_preferences.cc:746
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Canvas-only settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:753
+#: ui/dialogs/kis_dlg_preferences.cc:747
 #, fuzzy
 msgid "Canvas-only"
 msgstr "Rangi:"
 
-#: ui/dialogs/kis_dlg_preferences.cc:761
+#: ui/dialogs/kis_dlg_preferences.cc:755
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Canvas Input Settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:762
+#: ui/dialogs/kis_dlg_preferences.cc:756
 #, fuzzy
 msgid "Canvas Input"
 msgstr "Kranlar"
@@ -12484,15 +12479,21 @@ msgstr "Tasvirning X oʻlchami:"
 msgid "Y resolution:"
 msgstr "Tasvirning Y oʻlchami:"
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgUrlRequester)
+#: ui/forms/wdg_url_requester.ui:20
+#, fuzzy
+msgid "Form"
+msgstr "Filter"
+
 #. i18n: ectx: property (toolTip), widget (QLineEdit, txtFileName)
-#: ui/forms/wdg_url_requester.ui:25
+#: ui/forms/wdg_url_requester.ui:28
 #, fuzzy
 #| msgid "Select"
 msgid "Selected file name"
 msgstr "Tanlash"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, btnSelectFile)
-#: ui/forms/wdg_url_requester.ui:32
+#: ui/forms/wdg_url_requester.ui:35
 #, fuzzy
 msgid "Select file name..."
 msgstr "&Hammasini tanlash"
@@ -13207,11 +13208,6 @@ msgstr "Orqa fon rangi"
 #| msgid "background"
 msgid "Window Background:"
 msgstr "orqa fon"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_hideSplashScreen)
-#: ui/forms/wdggeneralsettings.ui:267
-msgid "Hide splash screen on startup"
-msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgGeometryOptions)
 #: ui/forms/wdggeometryoptions.ui:14
@@ -17581,112 +17577,104 @@ msgid ""
 msgstr ""
 
 #: ui/kis_selection_manager.cc:128
-msgid "Copy (sharp)"
-msgstr ""
-
-#: ui/kis_selection_manager.cc:133
-msgid "Cut (sharp)"
-msgstr ""
-
-#: ui/kis_selection_manager.cc:138
 #, fuzzy
 msgid "Paste into &New Image"
 msgstr "Yangi rasm"
 
-#: ui/kis_selection_manager.cc:142
+#: ui/kis_selection_manager.cc:132
 #, fuzzy
 msgid "Paste at cursor"
 msgstr "Filtrli choʻtka"
 
-#: ui/kis_selection_manager.cc:146
+#: ui/kis_selection_manager.cc:136
 #, fuzzy
 #| msgid "Copy Red"
 msgid "Copy merged"
 msgstr "Qizildan nusxa olish"
 
-#: ui/kis_selection_manager.cc:152
+#: ui/kis_selection_manager.cc:142
 #, fuzzy
 msgid "Select &All"
 msgstr "&Hammasini tanlash"
 
-#: ui/kis_selection_manager.cc:157
+#: ui/kis_selection_manager.cc:147
 #, fuzzy
 #| msgid "Deselect"
 msgid "Deselect"
 msgstr "Tanlashni bekor qilish"
 
-#: ui/kis_selection_manager.cc:168
+#: ui/kis_selection_manager.cc:158
 msgid "&Reselect"
 msgstr "Qaytada&n tanlash"
 
-#: ui/kis_selection_manager.cc:173
+#: ui/kis_selection_manager.cc:163
 #, fuzzy
 msgid "&Invert Selection"
 msgstr "Tanlanganni bekitish"
 
-#: ui/kis_selection_manager.cc:184
+#: ui/kis_selection_manager.cc:174
 msgid "Copy Selection to New Layer"
 msgstr "Tanlangandan yangi qatlamga nusxa olish"
 
-#: ui/kis_selection_manager.cc:190
+#: ui/kis_selection_manager.cc:180
 msgid "Cut Selection to New Layer"
 msgstr "Tanlangani yangi qatlamga koʻchirish"
 
-#: ui/kis_selection_manager.cc:197
+#: ui/kis_selection_manager.cc:187
 msgid "Fill with Foreground Color"
 msgstr "Oldin fon rangi bilan toʻldirish"
 
-#: ui/kis_selection_manager.cc:204
+#: ui/kis_selection_manager.cc:194
 msgid "Fill with Background Color"
 msgstr "Orqa fon rangi bilan toʻldirish"
 
-#: ui/kis_selection_manager.cc:211
+#: ui/kis_selection_manager.cc:201
 #, fuzzy
 msgid "Fill with Pattern"
 msgstr "Namuna bilan toʻldirish"
 
-#: ui/kis_selection_manager.cc:217
+#: ui/kis_selection_manager.cc:207
 #, fuzzy
 msgctxt "@action:inmenu"
 msgid "Stro&ke selected shapes"
 msgstr "Filter boʻyogʻi"
 
-#: ui/kis_selection_manager.cc:222
+#: ui/kis_selection_manager.cc:212
 msgid "Display Selection"
 msgstr "Tanlanganni koʻrsatish"
 
-#: ui/kis_selection_manager.cc:232
+#: ui/kis_selection_manager.cc:222
 #, fuzzy
 msgid "Trim to Selection"
 msgstr "Hech narsa tanlanmagan"
 
-#: ui/kis_selection_manager.cc:237
+#: ui/kis_selection_manager.cc:227
 #, fuzzy
 #| msgid "No Selection"
 msgctxt "@action:inmenu"
 msgid "&Convert to Vector Selection"
 msgstr "Hech narsa tanlanmagan"
 
-#: ui/kis_selection_manager.cc:242
+#: ui/kis_selection_manager.cc:232
 #, fuzzy
 #| msgid "No Selection"
 msgctxt "@action:inmenu"
 msgid "Convert &Shapes to Vector Selection"
 msgstr "Hech narsa tanlanmagan"
 
-#: ui/kis_selection_manager.cc:247
+#: ui/kis_selection_manager.cc:237
 #, fuzzy
 #| msgid "Selection mode:"
 msgctxt "@action:inmenu"
 msgid "&Toggle Selection Display Mode"
 msgstr "Tanlash usuli:"
 
-#: ui/kis_selection_manager.cc:565
+#: ui/kis_selection_manager.cc:543
 #, fuzzy
 msgid "Stroked Shapes"
 msgstr "Filter boʻyogʻi"
 
-#: ui/kis_selection_manager.cc:567
+#: ui/kis_selection_manager.cc:545
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Stroke Shapes"
@@ -19112,7 +19100,7 @@ msgid ""
 "\"Cancel\" to return to the settings dialog."
 msgstr ""
 
-#: ui/widgets/kis_filter_selector_widget.cc:179
+#: ui/widgets/kis_filter_selector_widget.cc:184
 #, fuzzy
 msgid "No configuration option."
 msgstr "Moslash..."
@@ -19229,6 +19217,18 @@ msgstr "Ranglar boʻshligʻi"
 #, fuzzy, kde-format
 msgid "Workspace %1"
 msgstr "Ranglar boʻshligʻi"
+
+#, fuzzy
+#~ msgid "(c) 1999-%1 The Krita team and KO GmbH.\n"
+#~ msgstr "(C) 1999-2006, Krita jamoasi.\n"
+
+#, fuzzy
+#~ msgid "Hide color selector"
+#~ msgstr "Tanlanganni koʻrsatish"
+
+#, fuzzy
+#~ msgid "(c) 1999-2014 The Krita team and KO GmbH.\n"
+#~ msgstr "(C) 1999-2006, Krita jamoasi.\n"
 
 #, fuzzy
 #~| msgid "Smooth"
@@ -19475,10 +19475,6 @@ msgstr "Ranglar boʻshligʻi"
 #, fuzzy
 #~ msgid "Previous Blending Mode"
 #~ msgstr "Aralashtirish usuli"
-
-#, fuzzy
-#~ msgid "Form"
-#~ msgstr "Filter"
 
 #, fuzzy
 #~| msgid "Cursor"
