@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kubuntu-debug-installer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-19 03:52+0000\n"
+"POT-Creation-Date: 2015-04-07 11:39+0000\n"
 "PO-Revision-Date: 2013-10-10 19:21+0000\n"
 "Last-Translator: Jonathan Riddell <riddell@gmail.com>\n"
 "Language-Team: Uzbek <uz@li.org>\n"
@@ -18,73 +18,73 @@ msgstr ""
 "X-Launchpad-Export-Date: 2015-04-03 12:52+0000\n"
 "X-Generator: Launchpad (build 17413)\n"
 
-#: src/DebugInstaller.cpp:49
-msgctxt "@info Error message"
-msgid "No file paths were provided, so no debug packages could be found."
-msgstr ""
-
-#: src/DebugInstaller.cpp:52 src/DebugInstaller.cpp:81
-msgctxt "@title:window"
-msgid "Couldn't find debug packages"
-msgstr "Debug пакетларини топиб бўлмади"
-
-#: src/DebugInstaller.cpp:78
-msgctxt "@info"
-msgid ""
-"No debug packages could be found for the files listed below.\n"
-"Do you want to continue anyway?"
-msgstr ""
-
-#: src/DebugInstaller.cpp:94
-msgctxt "@info"
-msgid ""
-"Do you want to install the following debug packages so that the necessary "
-"debug symbols become available?"
-msgstr ""
-
-#: src/DebugInstaller.cpp:96
-msgctxt "@title:window"
-msgid "Confirm package installation"
-msgstr "Пакетлар ўрнатилишини тасдиқлаш"
-
-#: src/DebugInstaller.cpp:99
-msgctxt "@action:button"
-msgid "Install"
-msgstr "Ўрнатиш"
-
-#: src/DebugInstaller.cpp:161
-msgctxt "@info:progress"
-msgid "Looking for debug packages"
-msgstr "Debug пакетлари қидирилмоқда"
-
-#: src/main.cpp:31
-msgid "A debug package installer for Kubuntu"
-msgstr "Kubuntu учун debug пакетларни ўрнатувчиси"
-
-#: src/main.cpp:35
-msgid "Debug package installer"
-msgstr "Debug пакетларни ўрнатувчиси"
-
-#: src/main.cpp:37
-msgid "(C) 2010 Harald Sitter"
-msgstr "(C) 2010 Harald Sitter"
-
-#: src/main.cpp:39
-msgid "Harald Sitter"
-msgstr "Harald Sitter"
-
-#: src/main.cpp:44
-msgid "Files to find debug packages for"
-msgstr ""
-
-#: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 ",Launchpad Contributions:,Umidjon Almasov, ,Launchpad Contributions:,"
 "Jonathan Riddell,Umidjon Almasov"
 
-#: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ",,u.almasov@gmail.com,,,riddell@gmail.com,u.almasov@gmail.com"
+
+#: src/DebugInstaller.cpp:48
+msgctxt "@info Error message"
+msgid "No file paths were provided, so no debug packages could be found."
+msgstr ""
+
+#: src/DebugInstaller.cpp:51 src/DebugInstaller.cpp:80
+msgctxt "@title:window"
+msgid "Couldn't find debug packages"
+msgstr "Debug пакетларини топиб бўлмади"
+
+#: src/DebugInstaller.cpp:77
+msgctxt "@info"
+msgid ""
+"No debug packages could be found for the files listed below.\n"
+"Do you want to continue anyway?"
+msgstr ""
+
+#: src/DebugInstaller.cpp:93
+msgctxt "@info"
+msgid ""
+"Do you want to install the following debug packages so that the necessary "
+"debug symbols become available?"
+msgstr ""
+
+#: src/DebugInstaller.cpp:95
+msgctxt "@title:window"
+msgid "Confirm package installation"
+msgstr "Пакетлар ўрнатилишини тасдиқлаш"
+
+#: src/DebugInstaller.cpp:98
+msgctxt "@action:button"
+msgid "Install"
+msgstr "Ўрнатиш"
+
+#: src/DebugInstaller.cpp:162
+msgctxt "@info:progress"
+msgid "Looking for debug packages"
+msgstr "Debug пакетлари қидирилмоқда"
+
+#: src/main.cpp:36
+msgid "Debug package installer"
+msgstr "Debug пакетларни ўрнатувчиси"
+
+#: src/main.cpp:38
+msgid "A debug package installer for Kubuntu"
+msgstr "Kubuntu учун debug пакетларни ўрнатувчиси"
+
+#: src/main.cpp:40
+#, fuzzy
+#| msgid "(C) 2010 Harald Sitter"
+msgid "(C) 2010-2014 Harald Sitter"
+msgstr "(C) 2010 Harald Sitter"
+
+#: src/main.cpp:42
+msgid "Harald Sitter"
+msgstr "Harald Sitter"
+
+#: src/main.cpp:48
+msgid "Files to find debug packages for"
+msgstr ""

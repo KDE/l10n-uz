@@ -18,6 +18,26 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Qt-Contexts: true\n"
 
+#. Generic sans serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
+#: fonthelpers.cpp:32
+#, fuzzy
+msgctxt "FontHelpers|@item Font name"
+msgid "Sans Serif"
+msgstr "&Tekshirish:"
+
+#. Generic serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
+#: fonthelpers.cpp:35
+#, fuzzy
+msgctxt "FontHelpers|@item Font name"
+msgid "Serif"
+msgstr "&Tekshirish:"
+
+#. Generic monospace font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
+#: fonthelpers.cpp:38
+msgctxt "FontHelpers|@item Font name"
+msgid "Monospace"
+msgstr ""
+
 #: fonthelpers.cpp:81
 #, fuzzy, qt-format
 msgctxt "FontHelpers|@item Font name"
@@ -2036,6 +2056,76 @@ msgctxt "KLed|Accessible name of a Led whose state is off"
 msgid "LED off"
 msgstr ""
 
+#. Called after the button texts in standard message dialogs have been filtered by the messages above. Not visible to user.
+#: kmessagebox.cpp:77
+msgctxt "KMessageBox|@action:button post-filter"
+msgid "."
+msgstr ""
+
+#: kmessagebox.cpp:180 kmessagebox.cpp:816 kmessagebox.cpp:865
+#, fuzzy
+#| msgid "&Details"
+msgctxt "KMessageBox|"
+msgid "&Details"
+msgstr "&Tafsilotlar"
+
+#: kmessagebox.cpp:317
+#, fuzzy
+#| msgid "Details"
+msgctxt "KMessageBox|"
+msgid "Details"
+msgstr "Tafsilotlar"
+
+#: kmessagebox.cpp:480 kmessagebox.cpp:534
+#, fuzzy
+#| msgid "Question"
+msgctxt "KMessageBox|"
+msgid "Question"
+msgstr "Soʻroq"
+
+#: kmessagebox.cpp:492 kmessagebox.cpp:548 kmessagebox.cpp:619
+#: kmessagebox.cpp:682 kmessagebox.cpp:751
+#, fuzzy
+#| msgid "Do not ask again"
+msgctxt "KMessageBox|"
+msgid "Do not ask again"
+msgstr "Boshqa soʻralmasin"
+
+#: kmessagebox.cpp:607 kmessagebox.cpp:670 kmessagebox.cpp:738
+#, fuzzy
+#| msgid "Warning"
+msgctxt "KMessageBox|"
+msgid "Warning"
+msgstr "Diqqat"
+
+#: kmessagebox.cpp:790 kmessagebox.cpp:811
+#, fuzzy
+#| msgid "Error"
+msgctxt "KMessageBox|"
+msgid "Error"
+msgstr "Xato"
+
+#: kmessagebox.cpp:839 kmessagebox.cpp:860 kmessagebox.cpp:1123
+#, fuzzy
+#| msgid "Sorry"
+msgctxt "KMessageBox|"
+msgid "Sorry"
+msgstr "Uzr"
+
+#: kmessagebox.cpp:899
+#, fuzzy
+#| msgid "Information"
+msgctxt "KMessageBox|"
+msgid "Information"
+msgstr "Maʼlumot"
+
+#: kmessagebox.cpp:910
+#, fuzzy
+#| msgid "Do not show this message again"
+msgctxt "KMessageBox|"
+msgid "Do not show this message again"
+msgstr "Bu xabar boshqa koʻrsatilmasin"
+
 #: kmessagewidget.cpp:90
 #, fuzzy
 #| msgid "&Close"
@@ -2049,6 +2139,38 @@ msgstr "Yo&pish"
 msgctxt "KMessageWidget|"
 msgid "Close message"
 msgstr "Xabarni yopish"
+
+#: kmimetypechooser.cpp:89
+#, fuzzy
+#| msgid "Mime types"
+msgctxt "KMimeTypeChooser|"
+msgid "Mime Type"
+msgstr "MIME turlari"
+
+#: kmimetypechooser.cpp:92
+#, fuzzy
+#| msgid "Comment"
+msgctxt "KMimeTypeChooser|"
+msgid "Comment"
+msgstr "Izoh"
+
+#: kmimetypechooser.cpp:95
+#, fuzzy
+msgctxt "KMimeTypeChooser|"
+msgid "Patterns"
+msgstr "Brayl shrifti"
+
+#: kmimetypechooser.cpp:108
+#, fuzzy
+#| msgid "&Edit..."
+msgctxt "KMimeTypeChooser|"
+msgid "&Edit..."
+msgstr "&Tahrirlash"
+
+#: kmimetypechooser.cpp:118
+msgctxt "KMimeTypeChooser|"
+msgid "Click this button to display the familiar KDE mime type editor."
+msgstr ""
 
 #: knewpassworddialog.cpp:73
 msgctxt "KNewPasswordDialog|"
@@ -3326,9 +3448,6 @@ msgstr ""
 
 #~ msgid "Libraries"
 #~ msgstr "Kutubxonalar"
-
-#~ msgid "Mime types"
-#~ msgstr "MIME turlari"
 
 #~ msgid "Loadable modules"
 #~ msgstr "Yuklab boʻladigan modullar"
@@ -5453,9 +5572,6 @@ msgstr ""
 #~ msgid "modified"
 #~ msgstr "oʻzgargan"
 
-#~ msgid "&Details"
-#~ msgstr "&Tafsilotlar"
-
 #~ msgid "Get help..."
 #~ msgstr "Yordam olish"
 
@@ -5553,30 +5669,6 @@ msgstr ""
 #~ msgctxt "@action:button filter-cancel"
 #~ msgid "%1"
 #~ msgstr "%1%"
-
-#~ msgid "Details"
-#~ msgstr "Tafsilotlar"
-
-#~ msgid "Question"
-#~ msgstr "Soʻroq"
-
-#~ msgid "Do not ask again"
-#~ msgstr "Boshqa soʻralmasin"
-
-#~ msgid "Warning"
-#~ msgstr "Diqqat"
-
-#~ msgid "Error"
-#~ msgstr "Xato"
-
-#~ msgid "Sorry"
-#~ msgstr "Uzr"
-
-#~ msgid "Information"
-#~ msgstr "Maʼlumot"
-
-#~ msgid "Do not show this message again"
-#~ msgstr "Bu xabar boshqa koʻrsatilmasin"
 
 #~ msgid "Default:"
 #~ msgstr "Andoza:"
@@ -5780,9 +5872,6 @@ msgstr ""
 #~ msgid "Regular e&xpression"
 #~ msgstr "Doimiy i&foda"
 
-#~ msgid "&Edit..."
-#~ msgstr "&Tahrirlash"
-
 #~ msgid "Replace With"
 #~ msgstr "Almashtirish"
 
@@ -5921,11 +6010,6 @@ msgstr ""
 #~ msgstr ""
 #~ "\n"
 #~ "Iltimos tuzating."
-
-#, fuzzy
-#~ msgctxt "@item Font name"
-#~ msgid "Serif"
-#~ msgstr "&Tekshirish:"
 
 #, fuzzy
 #~ msgctxt "@item Font name"
@@ -6892,9 +6976,6 @@ msgstr ""
 #~ msgctxt "Time zone"
 #~ msgid "Region"
 #~ msgstr "Viloyat"
-
-#~ msgid "Comment"
-#~ msgstr "Izoh"
 
 #, fuzzy
 #~ msgctxt "@title:menu"
