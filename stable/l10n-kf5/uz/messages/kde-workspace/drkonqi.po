@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2014-12-30 09:51+0000\n"
 "PO-Revision-Date: 2006-12-17 11:59+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -27,6 +27,7 @@ msgstr "kmashrab@uni-bremen.de"
 
 #: aboutbugreportingdialog.cpp:40
 #, fuzzy
+#| msgid "&Bug report"
 msgctxt "@title title of the dialog"
 msgid "About Bug Reporting - Help"
 msgstr "&Xato haqida xabar qilish"
@@ -438,6 +439,7 @@ msgstr ""
 #: backtracewidget.cpp:129
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:629
 #, fuzzy
+#| msgid "Loading symbols..."
 msgctxt "@info:status"
 msgid "Loading..."
 msgstr "Belgilar yuklanmoqda..."
@@ -753,6 +755,7 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_base.cpp:326
 #, fuzzy, kde-format
+#| msgid "The program was started by kdeinit"
 msgctxt "@info"
 msgid "Your problem has already been reported as bug %1."
 msgstr "Dastur kdeinit orqali ishga tushirilgan"
@@ -1175,12 +1178,14 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:846 drkonqi.cpp:171
 #, fuzzy
+#| msgid "Select Filename"
 msgctxt "@title:window"
 msgid "Select Filename"
 msgstr "Faylning nomini tanlash"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:869 drkonqi.cpp:195
 #, fuzzy, kde-format
+#| msgid "Cannot open file %1 for writing"
 msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
 msgstr "%1 faylini yozish uchun ochib boʻlmadi"
@@ -1739,6 +1744,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:135
 #, fuzzy
+#| msgid "Name of the program"
 msgctxt "@item:inlistbox the bug can be reproduced sometimes"
 msgid "Sometimes"
 msgstr "Dasturning nomi"
@@ -2032,6 +2038,7 @@ msgstr ""
 
 #: drkonqi.cpp:161
 #, fuzzy, kde-format
+#| msgid "Cannot open file %1 for writing"
 msgctxt "@info"
 msgid "Report saved to <filename>%1</filename>."
 msgstr "%1 faylini yozish uchun ochib boʻlmadi"
@@ -2100,6 +2107,8 @@ msgstr ""
 
 #: drkonqidialog.cpp:147
 #, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
 msgctxt "@label"
 msgid "Details:"
 msgstr "kmashrab@uni-bremen.de"
@@ -2124,6 +2133,7 @@ msgstr ""
 
 #: drkonqidialog.cpp:195
 #, fuzzy
+#| msgid "&Debugger"
 msgctxt ""
 "@action:button this is the debug menu button label which contains the "
 "debugging applications"
@@ -2199,18 +2209,21 @@ msgstr ""
 
 #: main.cpp:88
 #, fuzzy
+#| msgid "Name of the program"
 msgctxt "@info:shell"
 msgid "<Name> of the program"
 msgstr "Dasturning nomi"
 
 #: main.cpp:89
 #, fuzzy
+#| msgid "Path to the executable"
 msgctxt "@info:shell"
 msgid "<Path> to the executable"
 msgstr "Bajarib boʻladigan faylga yoʻl"
 
 #: main.cpp:90
 #, fuzzy
+#| msgid "The version of the program"
 msgctxt "@info:shell"
 msgid "The <version> of the program"
 msgstr "Dasturning versiyasi"
@@ -2222,24 +2235,28 @@ msgstr ""
 
 #: main.cpp:92
 #, fuzzy
+#| msgid "Translated name of the program"
 msgctxt "@info:shell"
 msgid "Translated <name> of the program"
 msgstr "Dasturning tarjima qilingan nomi"
 
 #: main.cpp:93
 #, fuzzy
+#| msgid "The PID of the program"
 msgctxt "@info:shell"
 msgid "The <PID> of the program"
 msgstr "Dasturning PID'si"
 
 #: main.cpp:94
 #, fuzzy
+#| msgid "The PID of the program"
 msgctxt "@info:shell"
 msgid "Startup <ID> of the program"
 msgstr "Dasturning PID'si"
 
 #: main.cpp:95
 #, fuzzy
+#| msgid "The program was started by kdeinit"
 msgctxt "@info:shell"
 msgid "The program was started by kdeinit"
 msgstr "Dastur kdeinit orqali ishga tushirilgan"
@@ -2251,6 +2268,7 @@ msgstr ""
 
 #: main.cpp:97
 #, fuzzy
+#| msgid "The program was started by kdeinit"
 msgctxt "@info:shell"
 msgid "The program has already been restarted"
 msgstr "Dastur kdeinit orqali ishga tushirilgan"
@@ -2271,36 +2289,43 @@ msgid "Show backtrace content (advanced)"
 msgstr ""
 
 #, fuzzy
+#~| msgid "<p><b>Short description</b></p><p>%1</p>"
 #~ msgctxt "@info bug report label and value"
 #~ msgid "<p><strong>Product:</strong> %1 (%2)</p>"
 #~ msgstr "<p><b>Qisqacha taʼrifi</b></p><p>%1</p>"
 
 #, fuzzy
+#~| msgid "<p><b>Short description</b></p><p>%1</p>"
 #~ msgctxt "@label:textbox bug report label and value"
 #~ msgid "<strong>Title:</strong> %1<br />"
 #~ msgstr "<p><b>Qisqacha taʼrifi</b></p><p>%1</p>"
 
 #, fuzzy
+#~| msgid "<p><b>Short description</b></p><p>%1</p>"
 #~ msgctxt "@label:textbox bug report label and value"
 #~ msgid "<strong>Status:</strong> %1<br />"
 #~ msgstr "<p><b>Qisqacha taʼrifi</b></p><p>%1</p>"
 
 #, fuzzy
+#~| msgid "<p><b>Short description</b></p><p>%1</p>"
 #~ msgctxt "@label:textbox bug report label and value"
 #~ msgid "<strong>Full Description:</strong><br />%1"
 #~ msgstr "<p><b>Qisqacha taʼrifi</b></p><p>%1</p>"
 
 #, fuzzy
+#~| msgid "<p><b>Short description</b></p><p>%1</p>"
 #~ msgctxt "@label:textbox bug report label and value"
 #~ msgid "<br /><br /><strong>Comments:</strong> %1"
 #~ msgstr "<p><b>Qisqacha taʼrifi</b></p><p>%1</p>"
 
 #, fuzzy
+#~| msgid "unknown"
 #~ msgctxt "@info unknown application"
 #~ msgid "unknown"
 #~ msgstr "nomaʼlum"
 
 #, fuzzy
+#~| msgid "Cannot open file %1 for writing"
 #~ msgctxt "@info/rich"
 #~ msgid "<filename>%1</filename>"
 #~ msgstr "%1 faylini yozish uchun ochib boʻlmadi"
@@ -2310,6 +2335,7 @@ msgstr ""
 #
 # Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003, 2004, 2005, 2006.
 #, fuzzy
+#~| msgid ""
 #~ msgctxt "@action:button"
 #~ msgid ""
 #~ msgstr ""
@@ -2326,16 +2352,20 @@ msgstr ""
 #~ "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, fuzzy
+#~| msgid "C&opy"
 #~ msgctxt "@action:button"
 #~ msgid "&Copy"
 #~ msgstr "&Nusxa olish"
 
 #, fuzzy
+#~| msgid "&Bug report"
 #~ msgctxt "@title"
 #~ msgid "Bug Report Keywords"
 #~ msgstr "&Xato haqida xabar qilish"
 
 #, fuzzy
+#~| msgid ""
+#~| "<p><b>Application crashed</b></p><p>The program %appname crashed.</p>"
 #~ msgid ""
 #~ "<p style=\"margin-bottom: 6px;\"><b>Application crashed</b></p><p>The "
 #~ "program %appname crashed.</p>"
@@ -2350,6 +2380,7 @@ msgstr ""
 #~ msgstr "Yaratilmasin"
 
 #, fuzzy
+#~| msgid "Done."
 #~ msgctxt "debugging finished"
 #~ msgid "Done."
 #~ msgstr "Bajarildi."
