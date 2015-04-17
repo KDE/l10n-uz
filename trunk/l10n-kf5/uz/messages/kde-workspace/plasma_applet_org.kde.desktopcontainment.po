@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-08 08:30+0000\n"
+"POT-Creation-Date: 2015-04-17 09:54+0000\n"
 "PO-Revision-Date: 2006-04-07 18:03+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -96,10 +96,12 @@ msgid "Arrange in:"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:75
+#: plugins/folder/viewpropertiesmenu.cpp:34
 msgid "Rows"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:75
+#: plugins/folder/viewpropertiesmenu.cpp:38
 msgid "Columns"
 msgstr ""
 
@@ -108,10 +110,12 @@ msgid "Align:"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:87
+#: plugins/folder/viewpropertiesmenu.cpp:46
 msgid "Left"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:87
+#: plugins/folder/viewpropertiesmenu.cpp:50
 msgid "Right"
 msgstr ""
 
@@ -128,26 +132,32 @@ msgid "Sorting:"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:58
 msgid "Unsorted"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:62
 msgid "Name"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:66
 msgid "Size"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:70
 msgid "Type"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:74
 msgid "Date"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:142
+#: plugins/folder/viewpropertiesmenu.cpp:79
 msgid "Descending"
 msgstr ""
 
@@ -303,97 +313,184 @@ msgstr ""
 msgid "Got it"
 msgstr ""
 
+#: plugins/folder/directorypicker.cpp:45
 #, fuzzy
-#~| msgid "New Folder"
-#~ msgid "Select Folder"
-#~ msgstr "Yangi jild"
+#| msgid "New Folder"
+msgid "Select Folder"
+msgstr "Yangi jild"
 
+#: plugins/folder/foldermodel.cpp:217
+msgid "&Refresh Desktop"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:217 plugins/folder/foldermodel.cpp:1035
+msgid "&Refresh View"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1032
+msgid "&Reload"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1038
 #, fuzzy
-#~ msgid "&Rename"
-#~ msgstr "&Bekor qilish: Bogʻlash"
+msgid "&Rename"
+msgstr "&Bekor qilish: Bogʻlash"
 
+#: plugins/folder/foldermodel.cpp:1041
 #, fuzzy
-#~| msgid "Move to Trash"
-#~ msgid "&Move to Trash"
-#~ msgstr "Chiqindilar qutisiga olib tashlash"
+#| msgid "Move to Trash"
+msgid "&Move to Trash"
+msgstr "Chiqindilar qutisiga olib tashlash"
 
-#~ msgid "&Empty Trash Bin"
-#~ msgstr "Chiqindilar qutisini &boʻshatish"
+#: plugins/folder/foldermodel.cpp:1044
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:350
+msgid "&Empty Trash Bin"
+msgstr "Chiqindilar qutisini &boʻshatish"
 
+#: plugins/folder/foldermodel.cpp:1047
 #, fuzzy
-#~| msgid "Delete Files"
-#~ msgid "&Delete"
-#~ msgstr "Fayllarni oʻchirish"
+#| msgid "Delete Files"
+msgid "&Delete"
+msgstr "Fayllarni oʻchirish"
 
+#: plugins/folder/foldermodel.cpp:1107
+msgid "&Paste"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:82
 #, fuzzy
-#~| msgid "Move to Trash"
-#~ msgctxt "@title:menu"
-#~ msgid "Move To"
-#~ msgstr "Chiqindilar qutisiga olib tashlash"
+#| msgid "&Copy Here"
+msgctxt "@title:menu"
+msgid "Copy To"
+msgstr "Shu yerga &nusxa olish"
 
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:88
 #, fuzzy
-#~| msgid "New Folder"
-#~ msgctxt "@title:menu"
-#~ msgid "Home Folder"
-#~ msgstr "Yangi jild"
+#| msgid "Move to Trash"
+msgctxt "@title:menu"
+msgid "Move To"
+msgstr "Chiqindilar qutisiga olib tashlash"
 
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:112
 #, fuzzy
-#~| msgid "New Folder"
-#~ msgctxt "@title:menu"
-#~ msgid "Root Folder"
-#~ msgstr "Yangi jild"
+#| msgid "New Folder"
+msgctxt "@title:menu"
+msgid "Home Folder"
+msgstr "Yangi jild"
 
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:119
 #, fuzzy
-#~| msgid "&Copy Here"
-#~ msgctxt "@title:menu"
-#~ msgid "Copy Here"
-#~ msgstr "Shu yerga &nusxa olish"
+#| msgid "New Folder"
+msgctxt "@title:menu"
+msgid "Root Folder"
+msgstr "Yangi jild"
 
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:155
+msgctxt "@title:menu in Copy To or Move To submenu"
+msgid "Browse..."
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:228
 #, fuzzy
-#~| msgid "&Move Here"
-#~ msgctxt "@title:menu"
-#~ msgid "Move Here"
-#~ msgstr "Shu yerga &koʻchirish"
+#| msgid "&Copy Here"
+msgctxt "@title:menu"
+msgid "Copy Here"
+msgstr "Shu yerga &nusxa olish"
 
-#~ msgid "&Open"
-#~ msgstr "&Ochish"
-
-#~ msgid "Create &Folder..."
-#~ msgstr "Jildni &yaratish"
-
-#~ msgid "&Restore"
-#~ msgstr "Q&ayta tiklash"
-
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:229
 #, fuzzy
-#~| msgid "&Empty Trash Bin"
-#~ msgid "&Configure Trash Bin"
-#~ msgstr "Chiqindilar qutisini &boʻshatish"
+#| msgid "&Move Here"
+msgctxt "@title:menu"
+msgid "Move Here"
+msgstr "Shu yerga &koʻchirish"
 
-#~ msgid "&Bookmark This Page"
-#~ msgstr "Bu sahifani &xatchoʻplarga qoʻshish"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:254
+msgid "&Open"
+msgstr "&Ochish"
 
-#~ msgid "&Bookmark This Location"
-#~ msgstr "Bu manzilni &xatchoʻplarga qoʻshish"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:281
+msgid "Create &Folder..."
+msgstr "Jildni &yaratish"
 
-#~ msgid "&Bookmark This Folder"
-#~ msgstr "Bu jildni &xatchoʻplarga qoʻshish"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:292
+msgid "&Restore"
+msgstr "Q&ayta tiklash"
 
-#~ msgid "&Bookmark This Link"
-#~ msgstr "Bu bogʻni &xatchoʻplarga qoʻshish"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:315
+msgid "Show Original Directory"
+msgstr ""
 
-#~ msgid "&Bookmark This File"
-#~ msgstr "Bu faylni &xatchoʻplarga qoʻshish"
-
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:315
 #, fuzzy
-#~| msgid "Preview"
-#~ msgid "Preview In"
-#~ msgstr "Koʻrib chiqish"
+#| msgid "Shred Files"
+msgid "Show Original File"
+msgstr "Faylni qirib tashlash"
 
-#~ msgid "&Properties"
-#~ msgstr "&Xossalari"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:363
+#, fuzzy
+#| msgid "&Empty Trash Bin"
+msgid "&Configure Trash Bin"
+msgstr "Chiqindilar qutisini &boʻshatish"
 
-#~ msgid "Share"
-#~ msgstr "Boʻlishish"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:389
+msgid "&Bookmark This Page"
+msgstr "Bu sahifani &xatchoʻplarga qoʻshish"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:391
+msgid "&Bookmark This Location"
+msgstr "Bu manzilni &xatchoʻplarga qoʻshish"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:394
+msgid "&Bookmark This Folder"
+msgstr "Bu jildni &xatchoʻplarga qoʻshish"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:396
+msgid "&Bookmark This Link"
+msgstr "Bu bogʻni &xatchoʻplarga qoʻshish"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:398
+msgid "&Bookmark This File"
+msgstr "Bu faylni &xatchoʻplarga qoʻshish"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:428
+#, fuzzy
+#| msgid "Preview"
+msgid "Preview In"
+msgstr "Koʻrib chiqish"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:463
+msgid "&Properties"
+msgstr "&Xossalari"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:479
+msgid "Share"
+msgstr "Boʻlishish"
+
+#: plugins/folder/labelgenerator.cpp:97
+#, fuzzy
+#| msgid "New Folder"
+msgid "Desktop Folder"
+msgstr "Yangi jild"
+
+#: plugins/folder/viewpropertiesmenu.cpp:31
+msgid "Arrange In"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:43
+msgid "Align"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+msgid "Sort By"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:81
+msgid "Folders First"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+msgid "Locked"
+msgstr ""
 
 #~ msgid "You cannot drop a folder on to itself"
 #~ msgstr "Jildni oʻzidan oʻziga koʻchirib boʻlmaydi"
