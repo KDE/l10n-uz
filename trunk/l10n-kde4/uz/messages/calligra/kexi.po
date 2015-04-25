@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-10 02:01+0000\n"
+"POT-Creation-Date: 2015-04-25 01:54+0000\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1613,43 +1613,43 @@ msgid ""
 "\"%3\" already exists."
 msgstr "Ushbu nomni qoʻllab boʻlmaydi. \"%1\" nomli obʼekt allaqachon mavjud."
 
-#: formeditor/form.cpp:1459 formeditor/form.cpp:1720
+#: formeditor/form.cpp:1459 formeditor/form.cpp:1725
 #, kde-format
 msgid "Multiple Widgets (%1)"
 msgstr ""
 
-#: formeditor/form.cpp:1710
+#: formeditor/form.cpp:1715
 #, fuzzy, kde-format
 msgid "%1 : Form"
 msgstr "Rasm yoʻq"
 
-#: formeditor/form.cpp:1769
+#: formeditor/form.cpp:1774
 msgid "No Buddy"
 msgstr ""
 
-#: formeditor/form.cpp:2178
+#: formeditor/form.cpp:2183
 msgctxt "Translators: please keep this string short (less than 20 chars)"
 msgid "Hor. Alignment"
 msgstr ""
 
-#: formeditor/form.cpp:2179
+#: formeditor/form.cpp:2184
 #, fuzzy
 #| msgid "&Horizontally"
 msgid "Horizontal Alignment"
 msgstr "&Eniga"
 
-#: formeditor/form.cpp:2201
+#: formeditor/form.cpp:2206
 msgctxt "Translators: please keep this string short (less than 20 chars)"
 msgid "Ver. Alignment"
 msgstr ""
 
-#: formeditor/form.cpp:2202
+#: formeditor/form.cpp:2207
 #, fuzzy
 #| msgid "&Vertically"
 msgid "Vertical Alignment"
 msgstr "&Boʻyiga"
 
-#: formeditor/form.cpp:2214
+#: formeditor/form.cpp:2219
 msgid "Word Break"
 msgstr ""
 
@@ -2409,148 +2409,143 @@ msgctxt "<operating system>, <platform>"
 msgid "%1, %2"
 msgstr ""
 
-#: main/kexifinddialog.cpp:178
+#: main/kexifinddialog.cpp:189
 #, fuzzy
 #| msgid "Available fields:"
 msgid "(All fields)"
 msgstr "Mavjud maydonlar:"
 
-#: main/kexifinddialog.cpp:179
+#: main/kexifinddialog.cpp:190
 #, fuzzy
 msgid "(Current field)"
 msgstr "Matn"
 
-#: main/kexifinddialog.cpp:231
+#: main/kexifinddialog.cpp:242
 #, fuzzy
 msgctxt "@title:window"
 msgid "Replace"
 msgstr "&Almashtirish"
 
-#: main/kexifinddialog.cpp:233
+#: main/kexifinddialog.cpp:244
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Replace in <resource>%1</resource>"
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/kexifinddialog.cpp:236
+#: main/kexifinddialog.cpp:247
 msgctxt "@title:window"
 msgid "Find"
 msgstr ""
 
-#: main/kexifinddialog.cpp:238
+#: main/kexifinddialog.cpp:249
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Find in <resource>%1</resource>"
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/kexifinddialog.cpp:261
+#: main/kexifinddialog.cpp:272
 #, fuzzy
 msgid "The search item was not found"
 msgstr "obʼekt topilmadi"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, KexiFindDialog)
-#: main/kexifinddialog.ui:14
-msgid "Find"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: main/kexifinddialog.ui:20
-msgid "Fi&nd:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (KPushButton, m_btnReplace)
-#: main/kexifinddialog.ui:101 migration/importwizard.cpp:853
-#: widget/KexiNameDialog.cpp:165 widget/utils/kexicontextmenuutils.cpp:156
-msgid "&Replace"
-msgstr "&Almashtirish"
-
-#. i18n: ectx: property (text), widget (KPushButton, m_btnReplaceAll)
-#: main/kexifinddialog.ui:114
-#, fuzzy
-msgctxt "Replace All Occurences"
-msgid "Replace All"
-msgstr "&Almashtirish"
-
-#. i18n: ectx: property (text), widget (QLabel, m_replaceLbl)
-#: main/kexifinddialog.ui:145
-#, fuzzy
-msgctxt "Replace all occurences with"
-msgid "Re&place with:"
-msgstr "&Almashtirish"
-
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: main/kexifinddialog.ui:174
+#: main/kexifinddialog.ui:20
 msgctxt "Look in field:"
 msgid "&Look in:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2_2)
-#: main/kexifinddialog.ui:197
+#: main/kexifinddialog.ui:36
 msgid "&Search:"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, m_search)
-#: main/kexifinddialog.ui:217
-msgctxt "Search Up"
-msgid "Up"
+#. i18n: ectx: property (text), widget (QCheckBox, m_wholeWords)
+#: main/kexifinddialog.ui:55
+msgctxt "Match: Whole words only"
+msgid "&Whole words only"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, m_search)
-#: main/kexifinddialog.ui:222
-msgctxt "Search Down"
-msgid "Down"
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: main/kexifinddialog.ui:62
+msgid "Fi&nd:"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, m_search)
-#: main/kexifinddialog.ui:227
+#. i18n: ectx: property (text), widget (QLabel, m_replaceLbl)
+#: main/kexifinddialog.ui:110
 #, fuzzy
-msgctxt "Look In All Rows"
-msgid "All Rows"
-msgstr "Satr:"
+msgctxt "Replace all occurences with"
+msgid "Re&place with:"
+msgstr "&Almashtirish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_promptOnReplace)
+#: main/kexifinddialog.ui:129
+#, fuzzy
+msgid "Prompt on replace"
+msgstr "Al&mashtirilmasin"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2_3)
-#: main/kexifinddialog.ui:235
+#: main/kexifinddialog.ui:152
 msgid "&Match:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, m_caseSensitive)
+#: main/kexifinddialog.ui:171
+msgctxt "Match: Case sensitive"
+msgid "C&ase sensitive"
+msgstr ""
+
 #. i18n: ectx: property (text), item, widget (KComboBox, m_match)
-#: main/kexifinddialog.ui:255
+#: main/kexifinddialog.ui:182
 #, fuzzy
 msgctxt "Match: Any Part of Field"
 msgid "Any Part of Field"
 msgstr "Avto-yorliq"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_match)
-#: main/kexifinddialog.ui:260
+#: main/kexifinddialog.ui:187
 #, fuzzy
 msgctxt "Match: Whole Field"
 msgid "Whole Field"
 msgstr "Avto-yorliq"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_match)
-#: main/kexifinddialog.ui:265
+#: main/kexifinddialog.ui:192
 #, fuzzy
 msgctxt "Match: Start of Field"
 msgid "Start of Field"
 msgstr "yorliq"
 
-#. i18n: ectx: property (text), widget (QCheckBox, m_caseSensitive)
-#: main/kexifinddialog.ui:276
-msgctxt "Match: Case sensitive"
-msgid "C&ase sensitive"
+#. i18n: ectx: property (text), item, widget (KComboBox, m_search)
+#: main/kexifinddialog.ui:204
+msgctxt "Search Up"
+msgid "Up"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, m_wholeWords)
-#: main/kexifinddialog.ui:286
-msgctxt "Match: Whole words only"
-msgid "&Whole words only"
+#. i18n: ectx: property (text), item, widget (KComboBox, m_search)
+#: main/kexifinddialog.ui:209
+msgctxt "Search Down"
+msgid "Down"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, m_promptOnReplace)
-#: main/kexifinddialog.ui:296
+#. i18n: ectx: property (text), item, widget (KComboBox, m_search)
+#: main/kexifinddialog.ui:214
 #, fuzzy
-msgid "Prompt on replace"
-msgstr "Al&mashtirilmasin"
+msgctxt "Look In All Rows"
+msgid "All Rows"
+msgstr "Satr:"
+
+#. i18n: ectx: property (text), widget (KPushButton, m_btnReplace)
+#: main/kexifinddialog.ui:268 migration/importwizard.cpp:853
+#: widget/KexiNameDialog.cpp:165 widget/utils/kexicontextmenuutils.cpp:156
+msgid "&Replace"
+msgstr "&Almashtirish"
+
+#. i18n: ectx: property (text), widget (KPushButton, m_btnReplaceAll)
+#: main/kexifinddialog.ui:281
+#, fuzzy
+msgctxt "Replace All Occurences"
+msgid "Replace All"
+msgstr "&Almashtirish"
 
 #: main/KexiMainWindow.cpp:227
 #, fuzzy
@@ -6097,20 +6092,20 @@ msgid ""
 "Please enter your query and execute \"Check query\" function to verify it."
 msgstr ""
 
-#: plugins/queries/kexiquerydesignersql.cpp:229
+#: plugins/queries/kexiquerydesignersql.cpp:232
 msgid "The query you entered is incorrect."
 msgstr "Siz kiritgan soʻrov notoʻgʻri."
 
-#: plugins/queries/kexiquerydesignersql.cpp:230
+#: plugins/queries/kexiquerydesignersql.cpp:233
 #, fuzzy
 msgid "Do you want to cancel any changes made to this SQL text?"
 msgstr "Bosib chiqarishdan oldin oʻzgarishlarni saqlashni istaysizmi?"
 
-#: plugins/queries/kexiquerydesignersql.cpp:231
+#: plugins/queries/kexiquerydesignersql.cpp:234
 msgid "Answering \"No\" allows you to make corrections."
 msgstr ""
 
-#: plugins/queries/kexiquerydesignersql.cpp:382
+#: plugins/queries/kexiquerydesignersql.cpp:385
 msgid "Do you want to save invalid query?"
 msgstr "Xato soʻrovni saqlashni istaysizmi?"
 
@@ -7084,73 +7079,73 @@ msgstr ""
 msgid "Lookup column"
 msgstr "Soʻrov ustuni"
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:858
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:859
 #, fuzzy, kde-format
 #| msgid "Error: %1"
 msgctxt "Question"
 msgid "Error: %1?"
 msgstr "Xato: %1"
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:868
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:869
 #, fuzzy
 msgid "The column's constraint is declared as NOT NULL (required)."
 msgstr "Ustunlar tarkibi BOʻSH EMAS deb belgilangan."
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:881
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:882
 #, fuzzy
 msgid ""
 "The column's constraint is declared as NOT EMPTY (text should be filled)."
 msgstr "Ustunlar tarkibi BOʻSH EMAS deb belgilangan."
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:891
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:892
 #, fuzzy
 msgid "The column's constraint is declared as NOT EMPTY and NOT NULL."
 msgstr "Ustunlar tarkibi BOʻSH EMAS deb belgilangan."
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1087
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1088
 #, fuzzy
 #| msgid "Do you want to delete selected row?"
 msgid "Do you want to delete selected record?"
 msgstr "Tanlangan satrni olib tashlashni istaysizmi?"
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1088
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1089
 #, fuzzy
 #| msgid "&Delete Row"
 msgid "&Delete Record"
 msgstr "Satrni &olib tashlash"
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1187
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1188
 #, kde-format
 msgid "Do you want to clear the contents of table %1?"
 msgstr "\"%1\" jadval tarkibini tozalashni istaysizmi?"
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1188
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1189
 #, fuzzy
 msgid "&Clear Contents"
 msgstr "Jadval tarkibini tozalash"
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1582
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1587
 #, fuzzy, kde-format
 msgid "Record: %1"
 msgstr "Yozuv qoʻshish"
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1629
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1634
 #, fuzzy
 msgctxt "Correct Changes"
 msgid "Correct"
 msgstr "Matn"
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1631
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1636
 #, fuzzy
 msgid "Correct changes"
 msgstr "Obʼekt oʻzgarishlarini saqlash"
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1632
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1637
 #, fuzzy
 msgid "Discard Changes"
 msgstr "Oʻzgarishlarni saqlash"
 
-#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1938
+#: widget/dataviewcommon/kexidataawareobjectiface.cpp:1950
 #, kde-format
 msgid ""
 "Limit of %2 characters for <resource>%3</resource> field has been exceeded "
@@ -7897,19 +7892,19 @@ msgstr ""
 msgid "Click to show available actions for this cell"
 msgstr "Ushbu oyna uchun yordam mavjud emas."
 
-#: widget/tableview/KexiTableScrollArea.cpp:2396
+#: widget/tableview/KexiTableScrollArea.cpp:2402
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "Contains a pointer to the currently selected record."
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: widget/tableview/KexiTableScrollArea.cpp:2399
+#: widget/tableview/KexiTableScrollArea.cpp:2405
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "Record navigator."
 msgstr "Qator navigatori"
 
-#: widget/tableview/KexiTableScrollArea.cpp:2406
+#: widget/tableview/KexiTableScrollArea.cpp:2412
 #, fuzzy, kde-format
 msgctxt "@info:whatsthis"
 msgid "Column <resource>%1</resource>."
