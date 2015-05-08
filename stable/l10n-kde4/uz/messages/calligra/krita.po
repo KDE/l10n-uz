@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-05-07 05:41+0000\n"
+"POT-Creation-Date: 2015-05-08 05:45+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8218,7 +8218,7 @@ msgstr ""
 msgid "Background"
 msgstr "orqa fon"
 
-#: plugins/formats/psd/psd_loader.cpp:231 ui/kis_mask_manager.cc:195
+#: plugins/formats/psd/psd_loader.cpp:230 ui/kis_mask_manager.cc:195
 #, fuzzy
 msgid "Transparency Mask"
 msgstr "Shaffof"
@@ -12388,18 +12388,23 @@ msgstr "Moslash..."
 msgid "Layer style configuration (*.asl)"
 msgstr "Moslash..."
 
+#: ui/dialogs/kis_dlg_layer_style.cpp:721 ui/widgets/kis_cmb_contour.cpp:25
+#, fuzzy
+msgid "Not Implemented Yet"
+msgstr "Profil yoʻq"
+
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
-#: ui/dialogs/kis_dlg_layer_style.cpp:807 ui/layerstyles/wdglayerstyles.ui:39
+#: ui/dialogs/kis_dlg_layer_style.cpp:811 ui/layerstyles/wdglayerstyles.ui:39
 #, fuzzy
 #| msgid "Drop Shadow"
 msgid "Inner Shadow"
 msgstr "Soya tushirish"
 
-#: ui/dialogs/kis_dlg_layer_style.cpp:808
+#: ui/dialogs/kis_dlg_layer_style.cpp:812
 msgid "Choke"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_layer_style.cpp:1040
+#: ui/dialogs/kis_dlg_layer_style.cpp:1044
 msgctxt "layer styles parameter"
 msgid "Spread"
 msgstr ""
@@ -19150,7 +19155,7 @@ msgstr "Filter"
 msgid "Sh&adow Mode:"
 msgstr "Soya 2"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, grpBlendingOptions)
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
 #: ui/layerstyles/wdgblendingoptions.ui:20 ui/layerstyles/wdglayerstyles.ui:26
 #, fuzzy
@@ -19158,7 +19163,7 @@ msgstr "Soya 2"
 msgid "Blending Options"
 msgstr "Alfa moslamalari"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#. i18n: ectx: property (title), widget (QGroupBox, grpGeneralBlending)
 #: ui/layerstyles/wdgblendingoptions.ui:26
 #, fuzzy
 #| msgid "Color Settings"
@@ -19184,7 +19189,7 @@ msgstr "Aralashtirish usuli"
 msgid "&Opacity"
 msgstr "&Xiralik:"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (title), widget (QGroupBox, grpAdvancedBlending)
 #: ui/layerstyles/wdgblendingoptions.ui:90
 #, fuzzy
 msgid "Advanced Blending"
@@ -19332,7 +19337,7 @@ msgstr "Yangi qatlam yaratish"
 msgid "Vector Mask &Hides Effect"
 msgstr "Yangi qatlam yaratish"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: property (title), widget (QGroupBox, grpBlendIf)
 #: ui/layerstyles/wdgblendingoptions.ui:290
 #, fuzzy
 msgid "Blend If"
@@ -20119,11 +20124,6 @@ msgstr "Aralashtirish usuli"
 #| msgid "Selection mode:"
 msgid "Select Luminosity Blending Mode"
 msgstr "Tanlash usuli:"
-
-#: ui/widgets/kis_cmb_contour.cpp:25
-#, fuzzy
-msgid "Not Implemented Yet"
-msgstr "Profil yoʻq"
 
 #: ui/widgets/kis_color_space_selector.cc:65
 msgid "Download Color Profile"
