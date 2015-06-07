@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-06-06 06:00+0000\n"
+"POT-Creation-Date: 2015-06-07 05:44+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1889,7 +1889,7 @@ msgstr "Qatlamni koʻchirish"
 msgid "Updating..."
 msgstr "Qatlamni rasm sifatida saqlash..."
 
-#: image/layerstyles/kis_ls_bevel_emboss_filter.cpp:59
+#: image/layerstyles/kis_ls_bevel_emboss_filter.cpp:56
 #: image/layerstyles/kis_ls_stroke_filter.cpp:50
 msgid "Stroke (style)"
 msgstr ""
@@ -2486,8 +2486,8 @@ msgstr ""
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:251
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:290
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:300
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:265
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:285
+#: plugins/formats/pdf/pdfimportwidgetbase.ui:153
+#: plugins/formats/pdf/pdfimportwidgetbase.ui:185
 #: plugins/paintops/libpaintop/sensors/SensorDistanceConfiguration.ui:85
 #: plugins/tools/defaulttools/wdgcolorpicker.ui:64
 #: ui/input/wintab/kis_screen_size_choice_dialog.ui:91
@@ -3200,7 +3200,7 @@ msgstr "Filter boʻyogʻi"
 #: plugins/extensions/imagesize/wdg_imagesize.ui:122
 #: plugins/extensions/imagesize/wdg_imagesize.ui:198
 #: plugins/extensions/imagesize/wdg_layersize.ui:154
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:295
+#: plugins/formats/pdf/pdfimportwidgetbase.ui:195
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:129
 #: ui/forms/wdg_resolution.ui:27 ui/forms/wdgimageproperties.ui:58
 #: ui/input/wintab/kis_screen_size_choice_dialog.ui:121
@@ -3221,7 +3221,7 @@ msgstr "Uzunasi:"
 #: plugins/extensions/imagesize/wdg_imagesize.ui:86
 #: plugins/extensions/imagesize/wdg_imagesize.ui:236
 #: plugins/extensions/imagesize/wdg_layersize.ui:58
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:275
+#: plugins/formats/pdf/pdfimportwidgetbase.ui:163
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:94
 #: ui/forms/wdg_resolution.ui:20 ui/forms/wdgimageproperties.ui:41
 #: ui/input/wintab/kis_screen_size_choice_dialog.ui:84
@@ -4334,13 +4334,13 @@ msgstr ""
 msgid "Sorry! G'Mic failed, reason:"
 msgstr ""
 
-#: plugins/extensions/gmic/kis_gmic_settings_widget.cpp:336
+#: plugins/extensions/gmic/kis_gmic_settings_widget.cpp:352
 #, fuzzy
 msgid "All Files"
 msgstr "Bitta kichik qadam..."
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonUpdate)
-#: plugins/extensions/gmic/kis_gmic_settings_widget.cpp:370
+#: plugins/extensions/gmic/kis_gmic_settings_widget.cpp:386
 #: plugins/formats/raw/wdgrawimport.ui:29
 #, fuzzy
 #| msgid "Update preview"
@@ -4390,12 +4390,12 @@ msgstr "Kompozitsiyasiz"
 msgid "&Search:"
 msgstr "Boʻyoqning shakllari"
 
-#. i18n: ectx: property (text), widget (QPushButton, pushButtonPreview)
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBox)
 #. i18n: ectx: property (text), widget (QCheckBox, previewCheckBox)
 #: plugins/extensions/gmic/wdg_gmic_input_output.ui:27
 #: plugins/tools/defaulttools/kis_tool_line.cc:99
-#: ui/forms/kis_previewwidgetbase.ui:36 ui/forms/wdgfilterdialog.ui:43
+#: ui/forms/kis_previewwidgetbase.ui:36 ui/forms/wdgfilterdialog.ui:63
 msgid "Preview"
 msgstr "Koʻrib chiqish"
 
@@ -7711,11 +7711,9 @@ msgid "Source file is not the right size for the specified width and height."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblCheckSize)
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
 #: plugins/formats/heightmap/kis_wdg_options_heightmap.ui:30
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:214
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:100
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1776
 #: ui/forms/wdgdisplaysettings.ui:72 ui/kis_paintop_box.cc:199
@@ -7962,7 +7960,7 @@ msgstr ""
 msgid "PDF Import Options"
 msgstr ""
 
-#: plugins/formats/pdf/kis_pdf_import.cpp:149
+#: plugins/formats/pdf/kis_pdf_import.cpp:151
 #, fuzzy, kde-format
 #| msgid "Image %1"
 msgid "Page %1"
@@ -8005,32 +8003,18 @@ msgstr "Tanlash usuli:"
 msgid "Dimensions"
 msgstr "&Pikselli oʻlcham"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:84
-msgid "Resolution (dots per inch):"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:135
-#, fuzzy
-msgctxt "horizontal resolution"
-msgid "Horizontal:"
-msgstr "Ufq 1"
-
-#. i18n: ectx: property (text), widget (QLabel, intVerticalqsdf)
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:145
-#, fuzzy
-msgctxt "vertical resolution"
-msgid "Vertical:"
-msgstr "Uskuna:"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, intHorizontal)
-#. i18n: ectx: property (suffix), widget (QSpinBox, intVertical)
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:155
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:178
+#. i18n: ectx: property (suffix), widget (QSpinBox, intResolution)
+#: plugins/formats/pdf/pdfimportwidgetbase.ui:300
 #, fuzzy
 msgid "dpi"
 msgstr " dpi"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: plugins/formats/pdf/pdfimportwidgetbase.ui:316
+#, fuzzy
+msgctxt "horizontal resolution"
+msgid "Resolution:"
+msgstr "&Oʻlchami:"
 
 #: plugins/formats/png/kis_png_export.cc:91
 #, fuzzy
@@ -12422,14 +12406,14 @@ msgstr "Ushbu filtr uchun moslamalar mavjud emas"
 msgid "Cleanup resource files"
 msgstr "Manba:"
 
-#: ui/dialogs/kis_dlg_filter.cpp:114
+#: ui/dialogs/kis_dlg_filter.cpp:115
 #, fuzzy
 #| msgid "Filter"
 msgctxt "@title:window"
 msgid "Filter"
 msgstr "Filter"
 
-#: ui/dialogs/kis_dlg_filter.cpp:114
+#: ui/dialogs/kis_dlg_filter.cpp:115
 #, fuzzy, kde-format
 #| msgid "Filter: "
 msgctxt "@title:window"
@@ -13386,12 +13370,12 @@ msgid "Form"
 msgstr "Filter"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, FilterDialog)
-#: ui/forms/wdgfilterdialog.ui:6
+#: ui/forms/wdgfilterdialog.ui:26
 msgid "Dialog"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonCreateMaskEffect)
-#: ui/forms/wdgfilterdialog.ui:69
+#: ui/forms/wdgfilterdialog.ui:86
 #, fuzzy
 #| msgid "Filters"
 msgid "Create Filter Mask"
@@ -20649,6 +20633,16 @@ msgstr "Ranglar boʻshligʻi"
 #, fuzzy, kde-format
 msgid "Workspace %1"
 msgstr "Ranglar boʻshligʻi"
+
+#, fuzzy
+#~ msgctxt "horizontal resolution"
+#~ msgid "Horizontal:"
+#~ msgstr "Ufq 1"
+
+#, fuzzy
+#~ msgctxt "vertical resolution"
+#~ msgid "Vertical:"
+#~ msgstr "Uskuna:"
 
 #, fuzzy
 #~ msgid "hide shade selector"
