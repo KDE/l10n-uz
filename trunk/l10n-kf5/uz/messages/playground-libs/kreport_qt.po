@@ -19,6 +19,20 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: common/KoReportItemBase.cpp:28
+#, fuzzy
+#| msgid "Name:"
+msgctxt "KoReportItemBase|"
+msgid "Name"
+msgstr "Nomi:"
+
+#: common/KoReportItemBase.cpp:28
+#, fuzzy
+#| msgid "Object"
+msgctxt "KoReportItemBase|"
+msgid "Object Name"
+msgstr "Obʼekt"
+
 #: common/KoReportItemLine.cpp:75
 #, fuzzy
 #| msgid "Line width:"
@@ -233,6 +247,71 @@ msgctxt "Page size|"
 msgid "US Tabloid"
 msgstr ""
 
+#: common/KReportUnit.cpp:47
+#, fuzzy
+#| msgid "Millimeters (mm)"
+msgctxt "KReportUnit|"
+msgid "Millimeters (mm)"
+msgstr "Millimetr (mm)"
+
+#: common/KReportUnit.cpp:49
+#, fuzzy
+#| msgid "Centimeters (cm)"
+msgctxt "KReportUnit|"
+msgid "Centimeters (cm)"
+msgstr "Santimetr (sm)"
+
+#: common/KReportUnit.cpp:51
+#, fuzzy
+#| msgid "Decimeters (dm)"
+msgctxt "KReportUnit|"
+msgid "Decimeters (dm)"
+msgstr "Detsimetr (dm)"
+
+#: common/KReportUnit.cpp:53
+#, fuzzy
+#| msgid "Inches (in)"
+msgctxt "KReportUnit|"
+msgid "Inches (in)"
+msgstr "Dyuym (dm)"
+
+#: common/KReportUnit.cpp:55
+#, fuzzy
+#| msgid "Pica (pi)"
+msgctxt "KReportUnit|"
+msgid "Pica (pi)"
+msgstr "Pika (pi)"
+
+#: common/KReportUnit.cpp:57
+msgctxt "KReportUnit|"
+msgid "Cicero (cc)"
+msgstr ""
+
+#: common/KReportUnit.cpp:59
+#, fuzzy
+#| msgid "Points (pt)"
+msgctxt "KReportUnit|"
+msgid "Points (pt)"
+msgstr "Nuqta (pt)"
+
+#: common/KReportUnit.cpp:61
+#, fuzzy
+msgctxt "KReportUnit|"
+msgid "Pixels (px)"
+msgstr "Nuqta (pt)"
+
+#: common/KReportUnit.cpp:63
+msgctxt "KReportUnit|"
+msgid "Unsupported unit"
+msgstr ""
+
+#: common/krpos.cpp:29
+#, fuzzy
+#| msgid "Position"
+msgctxt "KRPos|"
+msgid "Position"
+msgstr "Joylashishi"
+
 #: common/krsectiondata.cpp:109
 #, fuzzy
 msgctxt "KRSectionData|"
@@ -244,6 +323,13 @@ msgstr "&Uzunasi:"
 msgctxt "KRSectionData|"
 msgid "Background Color"
 msgstr "Soniya"
+
+#: common/krsize.cpp:28
+#, fuzzy
+#| msgid "Size:"
+msgctxt "KRSize|"
+msgid "Size"
+msgstr "Oʻlchami:"
 
 #: items/check/KoReportItemCheck.cpp:81
 #, fuzzy
@@ -434,6 +520,142 @@ msgstr ""
 msgctxt "KoReportItemField|"
 msgid "Can Grow"
 msgstr ""
+
+#: items/image/KoReportItemImage.cpp:122
+#, fuzzy
+msgctxt "KoReportItemImage|"
+msgid "Data Source"
+msgstr "Matnni oʻchirish"
+
+#: items/image/KoReportItemImage.cpp:126
+msgctxt "KoReportItemImage|"
+msgid "Clip"
+msgstr ""
+
+#: items/image/KoReportItemImage.cpp:126
+#, fuzzy
+#| msgid "Street:"
+msgctxt "KoReportItemImage|"
+msgid "Stretch"
+msgstr "Koʻcha:"
+
+#: items/image/KoReportItemImage.cpp:127
+#, fuzzy
+msgctxt "KoReportItemImage|"
+msgid "Resize Mode"
+msgstr "Tiklash"
+
+#: items/image/KoReportItemImage.cpp:129
+#, fuzzy
+#| msgid "Value"
+msgctxt "KoReportItemImage|"
+msgid "Value"
+msgstr "Qiymati"
+
+#: items/image/KoReportItemImage.cpp:129
+msgctxt "KoReportItemImage|"
+msgid "Value used if not bound to a field"
+msgstr ""
+
+#: items/label/KoReportItemLabel.cpp:93
+#, fuzzy
+#| msgid "Completion"
+msgctxt "KoReportItemLabel|"
+msgid "Caption"
+msgstr "Toʻldirish"
+
+#: items/label/KoReportItemLabel.cpp:97
+#, fuzzy
+#| msgid "Left:"
+msgctxt "KoReportItemLabel|"
+msgid "Left"
+msgstr "Chap:"
+
+#: items/label/KoReportItemLabel.cpp:97 items/label/KoReportItemLabel.cpp:103
+#, fuzzy
+#| msgid "C&enter"
+msgctxt "KoReportItemLabel|"
+msgid "Center"
+msgstr "&Markaz"
+
+#: items/label/KoReportItemLabel.cpp:97
+#, fuzzy
+msgctxt "KoReportItemLabel|"
+msgid "Right"
+msgstr "&Oʻng"
+
+#: items/label/KoReportItemLabel.cpp:98
+#, fuzzy
+#| msgid "Vertical alignment:"
+msgctxt "KoReportItemLabel|"
+msgid "Horizontal Alignment"
+msgstr "Boʻyiga tekislash:"
+
+#: items/label/KoReportItemLabel.cpp:103
+#, fuzzy
+msgctxt "KoReportItemLabel|"
+msgid "Top"
+msgstr "Yuq&ori:"
+
+#: items/label/KoReportItemLabel.cpp:103
+#, fuzzy
+#| msgid "Align Auto"
+msgctxt "KoReportItemLabel|"
+msgid "Bottom"
+msgstr "Avtomatik tekislash"
+
+#: items/label/KoReportItemLabel.cpp:104
+#, fuzzy
+#| msgid "Vertical alignment:"
+msgctxt "KoReportItemLabel|"
+msgid "Vertical Alignment"
+msgstr "Boʻyiga tekislash:"
+
+#: items/label/KoReportItemLabel.cpp:106
+#, fuzzy
+msgctxt "KoReportItemLabel|"
+msgid "Font"
+msgstr "Shrift:"
+
+#: items/label/KoReportItemLabel.cpp:108
+#, fuzzy
+msgctxt "KoReportItemLabel|"
+msgid "Background Color"
+msgstr "Soniya"
+
+#: items/label/KoReportItemLabel.cpp:109
+#, fuzzy
+msgctxt "KoReportItemLabel|"
+msgid "Foreground Color"
+msgstr "Soniya"
+
+#: items/label/KoReportItemLabel.cpp:111
+#, fuzzy
+#| msgid "Background color:"
+msgctxt "KoReportItemLabel|"
+msgid "Background Opacity"
+msgstr "Orqa fonning rangi:"
+
+#: items/label/KoReportItemLabel.cpp:116
+#, fuzzy
+#| msgid "Line width:"
+msgctxt "KoReportItemLabel|"
+msgid "Line Weight"
+msgstr "Chiziqning eni:"
+
+#: items/label/KoReportItemLabel.cpp:117
+#, fuzzy
+#| msgid "More Line Colors..."
+msgctxt "KoReportItemLabel|"
+msgid "Line Color"
+msgstr "Koʻproq chiziq ranglari"
+
+#: items/label/KoReportItemLabel.cpp:118
+#, fuzzy
+#| msgid "St&yle"
+msgctxt "KoReportItemLabel|"
+msgid "Line Style"
+msgstr "&Uslub"
 
 #: items/text/KoReportItemText.cpp:116
 #, fuzzy
@@ -823,44 +1045,115 @@ msgctxt "KoReportDesigner|"
 msgid "Lower"
 msgstr "Kichik &harf"
 
-#: wrtembed/sectioneditor.cpp:67
+#: wrtembed/KReportRuler.cpp:1263
+#, fuzzy
+#| msgid "First line indent"
+msgctxt "KReportRuler|"
+msgid "First line indent"
+msgstr "Birinchi satrda boʻsh joy"
+
+#: wrtembed/KReportRuler.cpp:1264
+#, fuzzy
+#| msgid "Left indent"
+msgctxt "KReportRuler|"
+msgid "Left indent"
+msgstr "Chapdan boʻsh joy"
+
+#: wrtembed/KReportRuler.cpp:1265
+#, fuzzy
+#| msgid "Right indent"
+msgctxt "KReportRuler|"
+msgid "Right indent"
+msgstr "Oʻngdan boʻsh joy"
+
+#: wrtembed/KReportZoomMode.cpp:27
+#, fuzzy, qt-format
+#| msgid "%1%"
+msgctxt "KReportZoomMode|"
+msgid "%1%"
+msgstr "%1%"
+
+#: wrtembed/KReportZoomMode.cpp:28
+#, fuzzy
+msgctxt "KReportZoomMode|"
+msgid "Fit Page Width"
+msgstr "Eniga moslash"
+
+#: wrtembed/KReportZoomMode.cpp:29
+#, fuzzy
+msgctxt "KReportZoomMode|"
+msgid "Fit Page"
+msgstr "Betga moslash"
+
+#: wrtembed/KReportZoomMode.cpp:31
+msgctxt "KReportZoomMode|"
+msgid "Actual Pixels"
+msgstr ""
+
+#: wrtembed/KReportZoomMode.cpp:35
+#, fuzzy
+msgctxt "KReportZoomMode|"
+msgid "Fit Text Width"
+msgstr "Eniga moslash"
+
+#: wrtembed/reportpropertiesbutton.cpp:26
+#, fuzzy
+#| msgid "Select styles to import:"
+msgctxt "ReportPropertiesButton|"
+msgid "Select entire report"
+msgstr "Import qilish uchun uslubni tanlang:"
+
+#: wrtembed/reportpropertiesbutton.cpp:27
+msgctxt "ReportPropertiesButton|"
+msgid ""
+"A button that allows a report's surface to be selected, allowing its "
+"properties to be seen."
+msgstr ""
+
+#: wrtembed/reportsection.cpp:122
+#, fuzzy
+msgctxt "ReportSection|"
+msgid "Detail"
+msgstr "&Andoza"
+
+#: wrtembed/sectioneditor.cpp:68
 #, fuzzy
 #| msgid "Load..."
 msgctxt "SectionEditor|"
 msgid "Add..."
 msgstr "Yuklash"
 
-#: wrtembed/sectioneditor.cpp:69
+#: wrtembed/sectioneditor.cpp:70
 #, fuzzy
 #| msgid "Add..."
 msgctxt "SectionEditor|"
 msgid "Edit..."
 msgstr "Qoʻshish..."
 
-#: wrtembed/sectioneditor.cpp:71
+#: wrtembed/sectioneditor.cpp:72
 #, fuzzy
 msgctxt "SectionEditor|"
 msgid "Delete"
 msgstr "Matnni oʻchirish"
 
-#: wrtembed/sectioneditor.cpp:73
+#: wrtembed/sectioneditor.cpp:74
 #, fuzzy
 msgctxt "SectionEditor|"
 msgid "Move Up"
 msgstr "Matnni oʻchirish"
 
-#: wrtembed/sectioneditor.cpp:75
+#: wrtembed/sectioneditor.cpp:76
 #, fuzzy
 msgctxt "SectionEditor|"
 msgid "Move Down"
 msgstr "Matnni oʻchirish"
 
-#: wrtembed/sectioneditor.cpp:314
+#: wrtembed/sectioneditor.cpp:315
 msgctxt "SectionEditor|"
 msgid "Ascending"
 msgstr ""
 
-#: wrtembed/sectioneditor.cpp:315
+#: wrtembed/sectioneditor.cpp:316
 msgctxt "SectionEditor|"
 msgid "Descending"
 msgstr ""
@@ -2034,41 +2327,9 @@ msgstr "Joriy boʻlim"
 #~ msgstr "Sana:"
 
 #, fuzzy
-#~| msgid "Name:"
-#~ msgid "Name"
-#~ msgstr "Nomi:"
-
-#, fuzzy
-#~| msgid "Object"
-#~ msgid "Object Name"
-#~ msgstr "Obʼekt"
-
-#~ msgid "Position"
-#~ msgstr "Joylashishi"
-
-#, fuzzy
-#~| msgid "Size:"
-#~ msgid "Size"
-#~ msgstr "Oʻlchami:"
-
-#, fuzzy
 #~| msgid "Field"
 #~ msgid "Field"
 #~ msgstr "Maydon"
-
-#, fuzzy
-#~| msgid "Street:"
-#~ msgid "Stretch"
-#~ msgstr "Koʻcha:"
-
-#, fuzzy
-#~ msgid "Resize Mode"
-#~ msgstr "Tiklash"
-
-#, fuzzy
-#~| msgid "Completion"
-#~ msgid "Caption"
-#~ msgstr "Toʻldirish"
 
 #, fuzzy
 #~ msgid "Label"
@@ -2084,15 +2345,6 @@ msgstr "Joriy boʻlim"
 #~ msgctxt "<data-source>: <object>"
 #~ msgid "%1: %2"
 #~ msgstr "%1%"
-
-#, fuzzy
-#~| msgid "Select styles to import:"
-#~ msgid "Select entire report"
-#~ msgstr "Import qilish uchun uslubni tanlang:"
-
-#, fuzzy
-#~ msgid "Detail"
-#~ msgstr "&Andoza"
 
 #, fuzzy
 #~| msgid "Section Title"
@@ -3164,28 +3416,6 @@ msgstr "Joriy boʻlim"
 #~ msgid "The directory mode is not supported for remote locations."
 #~ msgstr "Masofadagi manzil uchun direktoriya usuli qoʻllanilmaydi."
 
-#~ msgid "Millimeters (mm)"
-#~ msgstr "Millimetr (mm)"
-
-#~ msgid "Centimeters (cm)"
-#~ msgstr "Santimetr (sm)"
-
-#~ msgid "Decimeters (dm)"
-#~ msgstr "Detsimetr (dm)"
-
-#~ msgid "Inches (in)"
-#~ msgstr "Dyuym (dm)"
-
-#~ msgid "Pica (pi)"
-#~ msgstr "Pika (pi)"
-
-#~ msgid "Points (pt)"
-#~ msgstr "Nuqta (pt)"
-
-#, fuzzy
-#~ msgid "Pixels (px)"
-#~ msgstr "Nuqta (pt)"
-
 #, fuzzy
 #~ msgid "Subtract"
 #~ msgstr "Qisqacha mazmuni"
@@ -4151,15 +4381,6 @@ msgstr "Joriy boʻlim"
 #~ msgid "Remove from other tag"
 #~ msgstr "Izohni olib tashlash"
 
-#~ msgid "First line indent"
-#~ msgstr "Birinchi satrda boʻsh joy"
-
-#~ msgid "Left indent"
-#~ msgstr "Chapdan boʻsh joy"
-
-#~ msgid "Right indent"
-#~ msgstr "Oʻngdan boʻsh joy"
-
 #, fuzzy
 #~ msgid "Round cap"
 #~ msgstr "Skript"
@@ -4210,21 +4431,6 @@ msgstr "Joriy boʻlim"
 #~| msgid "Select Character"
 #~ msgid "select item"
 #~ msgstr "Belgini tanlash"
-
-#~ msgid "%1%"
-#~ msgstr "%1%"
-
-#, fuzzy
-#~ msgid "Fit Page Width"
-#~ msgstr "Eniga moslash"
-
-#, fuzzy
-#~ msgid "Fit Page"
-#~ msgstr "Betga moslash"
-
-#, fuzzy
-#~ msgid "Fit Text Width"
-#~ msgstr "Eniga moslash"
 
 #, fuzzy
 #~| msgid "%1%"
