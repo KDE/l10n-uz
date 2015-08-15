@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-14 05:34+0000\n"
+"POT-Creation-Date: 2015-08-15 05:40+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -76,12 +76,12 @@ msgstr "&Qatlam"
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
 #: ui/dialogs/kis_dlg_preferences.cc:233 ui/input/kis_input_manager.cpp:545
 #: ui/kis_filter_manager.cc:218 ui/kis_filter_manager.cc:227
-#: ui/kis_layer_manager.cc:675 ui/kis_layer_manager.cc:931
+#: ui/kis_layer_manager.cc:675 ui/kis_layer_manager.cc:957
 #: ui/KisApplication.cpp:215 ui/KisApplication.cpp:218
 #: ui/KisApplication.cpp:243 ui/KisApplication.cpp:269
 #: ui/KisApplication.cpp:291 ui/KisDocument.cpp:747 ui/KisDocument.cpp:749
-#: ui/KisDocument.cpp:1226 ui/KisDocument.cpp:1270 ui/KisDocument.cpp:1409
-#: ui/KisDocument.cpp:2040 ui/KisDocument.cpp:2043
+#: ui/KisDocument.cpp:1226 ui/KisDocument.cpp:1272 ui/KisDocument.cpp:1411
+#: ui/KisDocument.cpp:2042 ui/KisDocument.cpp:2045
 #: ui/KisImportExportManager.cpp:230 ui/KisImportExportManager.cpp:241
 #: ui/KisImportExportManager.cpp:531 ui/KisMainWindow.cpp:696
 #: ui/KisMainWindow.cpp:748 ui/KisMainWindow.cpp:762 ui/KisMainWindow.cpp:1439
@@ -1462,7 +1462,7 @@ msgctxt "(qtundo-format)"
 msgid "Reselect"
 msgstr "Qaytada&n tanlash"
 
-#: image/commands_new/kis_image_resize_command.cpp:28 image/kis_image.cc:433
+#: image/commands_new/kis_image_resize_command.cpp:28 image/kis_image.cc:443
 #, fuzzy
 #| msgid "Resize Image"
 msgctxt "(qtundo-format)"
@@ -1656,126 +1656,132 @@ msgstr ""
 msgid "Mitchell"
 msgstr ""
 
-#: image/kis_image.cc:334
+#: image/kis_image.cc:344
 msgid "background"
 msgstr "orqa fon"
 
-#: image/kis_image.cc:337
+#: image/kis_image.cc:347
 #, kde-format
 msgid "Layer %1"
 msgstr "Qatlam %1"
 
-#: image/kis_image.cc:432
+#: image/kis_image.cc:442
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr "Rasmni kesish"
 
-#: image/kis_image.cc:474
+#: image/kis_image.cc:484
 #, fuzzy
 #| msgid "New &Group Layer..."
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr "Yangi qatlamlar &guruhi..."
 
-#: image/kis_image.cc:475
+#: image/kis_image.cc:485
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr "Alfa niqob"
 
-#: image/kis_image.cc:507
+#: image/kis_image.cc:517
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr "Yangi rasm"
 
-#: image/kis_image.cc:508
+#: image/kis_image.cc:518
 #, fuzzy
 #| msgid "Image Resolution"
 msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr "Rasmning oʻlchami"
 
-#: image/kis_image.cc:555
+#: image/kis_image.cc:565
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
 msgstr "Yangi qatlam"
 
-#: image/kis_image.cc:643
+#: image/kis_image.cc:653
 #, fuzzy
 #| msgid "Rotate Image"
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr "Rasmni burish"
 
-#: image/kis_image.cc:648
+#: image/kis_image.cc:658
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
 msgstr "Qatlamni burish"
 
-#: image/kis_image.cc:715
+#: image/kis_image.cc:725
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Shear layer"
 msgstr "Yangi qatlam"
 
-#: image/kis_image.cc:721
+#: image/kis_image.cc:731
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr "Yangi rasm"
 
-#: image/kis_image.cc:733
+#: image/kis_image.cc:743
 #, fuzzy
 #| msgid "Convert Image Type"
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr "Rasmning turini oʻzgartirish"
 
-#: image/kis_image.cc:766
+#: image/kis_image.cc:776
 #, fuzzy
 #| msgid "Convert Image Type"
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "Rasmning turini oʻzgartirish"
 
-#: image/kis_image.cc:945
+#: image/kis_image.cc:955
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Image"
 msgstr "Silliqlangan rasm"
 
-#: image/kis_image.cc:1074
+#: image/kis_image.cc:1101
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Merge Selection Masks"
+msgstr "Tanlash boʻyogʻi"
+
+#: image/kis_image.cc:1156
 #, fuzzy
 #| msgid "Copy Red"
 msgid "Merged"
 msgstr "Qizildan nusxa olish"
 
-#: image/kis_image.cc:1085
+#: image/kis_image.cc:1167
 #, fuzzy
 #| msgid "Remove Selected Color"
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr "Tanlangan rangni olib tashlash"
 
-#: image/kis_image.cc:1145
+#: image/kis_image.cc:1238
 #, fuzzy
 #| msgid "Merge with Layer Below"
 msgctxt "(qtundo-format)"
 msgid "Merge with Layer Below"
 msgstr "Pastgi qatlam bilan birlashtirish"
 
-#: image/kis_image.cc:1211
+#: image/kis_image.cc:1308
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr "Silliqlangan rasm"
 
-#: image/kis_image.cc:1791
+#: image/kis_image.cc:1908
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
@@ -1838,7 +1844,7 @@ msgstr "Bosim"
 
 #. i18n: ectx: property (text), widget (QLineEdit, palettename)
 #: image/kis_psd_layer_style.cpp:99 ui/forms/wdgcustompalette.ui:18
-#: ui/KisDocument.cpp:2492 ui/KisMainWindow.cpp:880 ui/KisPart.cpp:579
+#: ui/KisDocument.cpp:2494 ui/KisMainWindow.cpp:880 ui/KisPart.cpp:579
 #: ui/KisPart.cpp:595 ui/kra/kis_kra_saver.cpp:71
 msgid "Unnamed"
 msgstr "Nomsiz"
@@ -6651,7 +6657,7 @@ msgstr "Ranglarni moslash"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:123
 #: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:123
-#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:185
+#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:78
 #, fuzzy
 #| msgid "Value"
 msgid "Value:"
@@ -9869,14 +9875,41 @@ msgstr "Tanlangan rangni olib tashlash"
 msgid "Create mask from color"
 msgstr "Yaratish"
 
+#. i18n: ectx: property (text), widget (QCheckBox, randomHSVCHBox)
+#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:29
+#, fuzzy
+#| msgid "Random"
+msgid "Random HSV"
+msgstr "Tasodifiy"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:38
+#, fuzzy
+msgid "Hue:"
+msgstr "Rang tusi"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:58
+#, fuzzy
+msgid "Saturation:"
+msgstr "Toʻyintirish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, randomOpacityCHbox)
+#. i18n: ectx: property (text), widget (QCheckBox, randomOpacityCHBox)
+#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:100
+#: plugins/paintops/sketch/wdgsketchoptions.ui:158
+#, fuzzy
+msgid "Random opacity"
+msgstr "Tasodifiy"
+
 #. i18n: ectx: property (text), widget (QCheckBox, colorPerParticleCHBox)
-#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:47
+#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:118
 #, fuzzy
 msgid "Color per particle"
 msgstr "Ranglar boʻshligʻi"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, fillBackgroundCHBox)
-#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:76
+#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:147
 msgid ""
 "If checked, grid brush fill every particle's background with background "
 "color. The background of particle is rectangle of grid width and height and "
@@ -9884,51 +9917,24 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, fillBackgroundCHBox)
-#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:79
+#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:150
 #, fuzzy
 #| msgid "background"
 msgid "Fill background"
 msgstr "orqa fon"
 
 #. i18n: ectx: property (text), widget (QCheckBox, sampleInputCHBox)
-#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:92
+#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:163
 #, fuzzy
 msgid "Sample Input layer"
 msgstr "Yangi qatlam"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mixBgColorCHBox)
-#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:105
+#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:176
 #, fuzzy
 #| msgid "Fill with Background Color"
 msgid "Mix with background color"
 msgstr "Orqa fon rangi bilan toʻldirish"
-
-#. i18n: ectx: property (text), widget (QCheckBox, randomHSVCHBox)
-#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:137
-#, fuzzy
-#| msgid "Random"
-msgid "Random HSV"
-msgstr "Tasodifiy"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:165
-#, fuzzy
-msgid "Hue:"
-msgstr "Rang tusi"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:175
-#, fuzzy
-msgid "Saturation:"
-msgstr "Toʻyintirish"
-
-#. i18n: ectx: property (text), widget (QCheckBox, randomOpacityCHbox)
-#. i18n: ectx: property (text), widget (QCheckBox, randomOpacityCHBox)
-#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:214
-#: plugins/paintops/sketch/wdgsketchoptions.ui:158
-#, fuzzy
-msgid "Random opacity"
-msgstr "Tasodifiy"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/paintops/libpaintop/forms/wdgCompositeOpOption.ui:37
@@ -17819,22 +17825,22 @@ msgid ""
 "the image?"
 msgstr "Rasmda yashirin qatlamlar mavjud. Ular yoʻqoladi."
 
-#: ui/kis_layer_manager.cc:835
+#: ui/kis_layer_manager.cc:861
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "Qatlamni burish"
 
-#: ui/kis_layer_manager.cc:871
+#: ui/kis_layer_manager.cc:897
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:874
+#: ui/kis_layer_manager.cc:900
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:931
+#: ui/kis_layer_manager.cc:957
 msgid "No file name specified"
 msgstr ""
 
@@ -18656,93 +18662,93 @@ msgid ""
 "Do you want to open it instead?"
 msgstr ""
 
-#: ui/KisDocument.cpp:1270
+#: ui/KisDocument.cpp:1272
 #, kde-format
 msgid "File %1 does not exist."
 msgstr ""
 
-#: ui/KisDocument.cpp:1333
+#: ui/KisDocument.cpp:1335
 #, fuzzy
 #| msgid "Open in New Documents"
 msgid "Opening Document"
 msgstr "Yangi hujjatlarda ochish"
 
-#: ui/KisDocument.cpp:1348
+#: ui/KisDocument.cpp:1350
 msgid "Could not create the filter plugin"
 msgstr ""
 
-#: ui/KisDocument.cpp:1351
+#: ui/KisDocument.cpp:1353
 msgid "Could not create the output document"
 msgstr ""
 
-#: ui/KisDocument.cpp:1354
+#: ui/KisDocument.cpp:1356
 msgid "File not found"
 msgstr ""
 
-#: ui/KisDocument.cpp:1357
+#: ui/KisDocument.cpp:1359
 msgid "Cannot create storage"
 msgstr ""
 
-#: ui/KisDocument.cpp:1360
+#: ui/KisDocument.cpp:1362
 msgid "Bad MIME type"
 msgstr ""
 
-#: ui/KisDocument.cpp:1363
+#: ui/KisDocument.cpp:1365
 #, fuzzy
 msgid "Error in embedded document"
 msgstr "Oʻrnatilgan hajjat"
 
-#: ui/KisDocument.cpp:1366
+#: ui/KisDocument.cpp:1368
 msgid "Format not recognized"
 msgstr ""
 
-#: ui/KisDocument.cpp:1369
+#: ui/KisDocument.cpp:1371
 #, fuzzy
 msgid "Not implemented"
 msgstr "Profil yoʻq"
 
-#: ui/KisDocument.cpp:1372
+#: ui/KisDocument.cpp:1374
 msgid "Parsing error"
 msgstr ""
 
-#: ui/KisDocument.cpp:1375
+#: ui/KisDocument.cpp:1377
 msgid "Document is password protected"
 msgstr ""
 
-#: ui/KisDocument.cpp:1378
+#: ui/KisDocument.cpp:1380
 #, fuzzy
 msgid "Invalid file format"
 msgstr "Rasmning oʻlchami"
 
-#: ui/KisDocument.cpp:1385
+#: ui/KisDocument.cpp:1387
 #, fuzzy
 msgid "Internal error"
 msgstr "Matnni kiriting:"
 
-#: ui/KisDocument.cpp:1388
+#: ui/KisDocument.cpp:1390
 msgid "Out of memory"
 msgstr ""
 
-#: ui/KisDocument.cpp:1391
+#: ui/KisDocument.cpp:1393
 #, fuzzy
 #| msgid "Apply Filter Again"
 msgid "Empty Filter Plugin"
 msgstr "Filterni yana qoʻllash"
 
-#: ui/KisDocument.cpp:1394
+#: ui/KisDocument.cpp:1396
 msgid "Trying to load into the wrong kind of document"
 msgstr ""
 
-#: ui/KisDocument.cpp:1397
+#: ui/KisDocument.cpp:1399
 msgid "Failed to download remote file"
 msgstr ""
 
-#: ui/KisDocument.cpp:1404
+#: ui/KisDocument.cpp:1406
 #, fuzzy
 msgid "Unknown error"
 msgstr "Namuna sifatida ishlatish"
 
-#: ui/KisDocument.cpp:1408
+#: ui/KisDocument.cpp:1410
 #, fuzzy, kde-format
 #| msgid "Could not add layer to image."
 msgid ""
@@ -18751,82 +18757,82 @@ msgid ""
 "%3"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: ui/KisDocument.cpp:1522
+#: ui/KisDocument.cpp:1524
 #, fuzzy, kde-format
 #| msgid "Cannot find %1"
 msgid "Could not find %1"
 msgstr "%1 topilmadi"
 
-#: ui/KisDocument.cpp:1534
+#: ui/KisDocument.cpp:1536
 #, kde-format
 msgid ""
 "Parsing error in %1 at line %2, column %3\n"
 "Error message: %4"
 msgstr ""
 
-#: ui/KisDocument.cpp:1549 ui/KisMainWindow.cpp:696
+#: ui/KisDocument.cpp:1551 ui/KisMainWindow.cpp:696
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
 
-#: ui/KisDocument.cpp:1556
+#: ui/KisDocument.cpp:1558
 #, fuzzy, kde-format
 #| msgid "Layer is locked or invisible."
 msgid "%1 is not a file."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/KisDocument.cpp:1571
+#: ui/KisDocument.cpp:1573
 msgid "Could not open the file for reading (check read permissions)."
 msgstr ""
 
-#: ui/KisDocument.cpp:1582
+#: ui/KisDocument.cpp:1584
 msgid "Could not read the beginning of the file."
 msgstr ""
 
-#: ui/KisDocument.cpp:1612
+#: ui/KisDocument.cpp:1614
 #, kde-format
 msgid ""
 "parsing error in the main document at line %1, column %2\n"
 "Error message: %3"
 msgstr ""
 
-#: ui/KisDocument.cpp:1628
+#: ui/KisDocument.cpp:1630
 #, fuzzy, kde-format
 #| msgid "Layer is locked or invisible."
 msgid "Not a valid Krita file: %1"
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/KisDocument.cpp:1693
+#: ui/KisDocument.cpp:1695
 msgid "Invalid document: no file 'maindoc.xml'."
 msgstr ""
 
-#: ui/KisDocument.cpp:1750 ui/KisDocument.cpp:1758
+#: ui/KisDocument.cpp:1752 ui/KisDocument.cpp:1760
 msgid "Krita does not support the OpenDocument file format."
 msgstr ""
 
-#: ui/KisDocument.cpp:1846 ui/KisDocument.cpp:1966
+#: ui/KisDocument.cpp:1848 ui/KisDocument.cpp:1968
 #, fuzzy
 msgid "Unknown error."
 msgstr "Namuna sifatida ishlatish"
 
-#: ui/KisDocument.cpp:1941
+#: ui/KisDocument.cpp:1943
 msgid "The format is not supported or the file is corrupted"
 msgstr ""
 
-#: ui/KisDocument.cpp:1947
+#: ui/KisDocument.cpp:1949
 #, kde-format
 msgid "The file is too new for this version of Krita (%1)."
 msgstr ""
 
-#: ui/KisDocument.cpp:1952
+#: ui/KisDocument.cpp:1954
 msgid "The file has no layers."
 msgstr ""
 
-#: ui/KisDocument.cpp:1977
+#: ui/KisDocument.cpp:1979
 msgid "The file does not contain an image."
 msgstr ""
 
-#: ui/KisDocument.cpp:2040
+#: ui/KisDocument.cpp:2042
 #, fuzzy, kde-format
 #| msgid "Could not add layer to image."
 msgid ""
@@ -18834,7 +18840,7 @@ msgid ""
 "%1"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: ui/KisDocument.cpp:2043
+#: ui/KisDocument.cpp:2045
 #, fuzzy, kde-format
 #| msgid "Could not add layer to image."
 msgid ""
@@ -18842,26 +18848,26 @@ msgid ""
 "Reason: %2"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: ui/KisDocument.cpp:2112
+#: ui/KisDocument.cpp:2114
 #, fuzzy
 #| msgid "Pressure"
 msgid "a word processing"
 msgstr "Bosim"
 
-#: ui/KisDocument.cpp:2113
+#: ui/KisDocument.cpp:2115
 msgid "a spreadsheet"
 msgstr ""
 
-#: ui/KisDocument.cpp:2114
+#: ui/KisDocument.cpp:2116
 #, fuzzy
 msgid "a presentation"
 msgstr "Gradient vositasi"
 
-#: ui/KisDocument.cpp:2115
+#: ui/KisDocument.cpp:2117
 msgid "a chart"
 msgstr ""
 
-#: ui/KisDocument.cpp:2116
+#: ui/KisDocument.cpp:2118
 msgid "a drawing"
 msgstr ""
 
