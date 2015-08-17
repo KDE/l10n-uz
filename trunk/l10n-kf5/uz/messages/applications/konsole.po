@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-15 08:34+0000\n"
+"POT-Creation-Date: 2015-08-17 08:20+0000\n"
 "PO-Revision-Date: 2008-06-04 01:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -384,33 +384,37 @@ msgstr[0] ""
 msgid "Select Initial Directory"
 msgstr "Boshlangʻich direktoriyani tanlash"
 
-#: EditProfileDialog.cpp:592
+#: EditProfileDialog.cpp:594
 #, kde-format
 msgid "%1"
 msgstr ""
 
-#: EditProfileDialog.cpp:780
+#: EditProfileDialog.cpp:782
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
 msgstr ""
 
-#: EditProfileDialog.cpp:785
+#: EditProfileDialog.cpp:787
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:889 EditProfileDialog.cpp:899
+#: EditProfileDialog.cpp:891 EditProfileDialog.cpp:901
 msgid "New Key Binding List"
 msgstr ""
 
-#: EditProfileDialog.cpp:891
+#: EditProfileDialog.cpp:893
 msgid "Edit Key Binding List"
 msgstr ""
 
-#: EditProfileDialog.cpp:1221
+#: EditProfileDialog.cpp:1223
 msgid "Select Fixed Width Font"
+msgstr ""
+
+#: EditProfileDialog.cpp:1271
+msgid "AaZz09..."
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
@@ -1134,10 +1138,12 @@ msgctxt "@info:status"
 msgid ""
 "When using this option, the scrollback data will be written unencrypted to "
 "temporary files. Those temporary files will be deleted automatically when "
-"Konsole is closed in a normal manner."
+"Konsole is closed in a normal manner.\n"
+"Use Settings->Configure Konsole->File Location to select the location of the "
+"temporary files."
 msgstr ""
 
-#: HistorySizeWidget.cpp:60
+#: HistorySizeWidget.cpp:62
 msgctxt "Unit of scrollback"
 msgid " line"
 msgid_plural " lines"
@@ -1685,56 +1691,56 @@ msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
 msgstr "Qolgan boshqalarga ham rahmat.\n"
 
-#: MainWindow.cpp:293
+#: MainWindow.cpp:294
 #, fuzzy
 #| msgid "New &Tab"
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "&Yangi tab"
 
-#: MainWindow.cpp:303
+#: MainWindow.cpp:304
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "Tabni &yopish"
 
-#: MainWindow.cpp:310
+#: MainWindow.cpp:311
 #, fuzzy
 #| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "&Yangi oyna"
 
-#: MainWindow.cpp:317
+#: MainWindow.cpp:318
 #, fuzzy
 #| msgid "Konsole"
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "Terminal"
 
-#: MainWindow.cpp:322
+#: MainWindow.cpp:323
 #, fuzzy
 #| msgid "&Bookmarks"
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "&Xatchoʻplar"
 
-#: MainWindow.cpp:340
+#: MainWindow.cpp:341
 #, fuzzy
 #| msgid "Manage Profiles"
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "Profillarni boshqarish"
 
-#: MainWindow.cpp:346
+#: MainWindow.cpp:347
 #, fuzzy
 #| msgid "Activate Menu"
 msgctxt "@item"
 msgid "Activate Menu"
 msgstr "Menyuni aktivlashtirish"
 
-#: MainWindow.cpp:570
+#: MainWindow.cpp:571
 #, kde-format
 msgctxt "@info"
 msgid "There is a process running in this window. Do you still want to quit?"
@@ -1742,38 +1748,45 @@ msgid_plural ""
 "There are %1 processes running in this window. Do you still want to quit?"
 msgstr[0] ""
 
-#: MainWindow.cpp:576
+#: MainWindow.cpp:577
 #, fuzzy
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "Yopishni tasdiqlash"
 
-#: MainWindow.cpp:577
+#: MainWindow.cpp:578
 #, fuzzy
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "Terminal"
 
-#: MainWindow.cpp:578
+#: MainWindow.cpp:579
 #, fuzzy
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "Joriy tabni yopish"
 
-#: MainWindow.cpp:675
+#: MainWindow.cpp:676
 #, fuzzy
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "Umumiy"
 
-#: MainWindow.cpp:680
+#: MainWindow.cpp:681
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
+
+#: MainWindow.cpp:686
+#, fuzzy
+#| msgid "Paste Selection"
+msgctxt "@title Preferences page name"
+msgid "File Location"
+msgstr "Belgilanganni qoʻyish"
 
 #: ManageProfilesDialog.cpp:53
 #, fuzzy
@@ -2382,6 +2395,43 @@ msgctxt "@item:intable The session title"
 msgid "Title"
 msgstr "&Fayl"
 
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, ButtonGroup1)
+#: settings/FileLocationSettings.ui:23
+msgid ""
+"<b>Scrollback File Location</b><p>Use this groupbox to determine where "
+"Konsole will store the scrollback files.</p>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, ButtonGroup1)
+#: settings/FileLocationSettings.ui:26
+#, fuzzy
+msgid "Scrollback File Location"
+msgstr "Tab &parametrlari"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/FileLocationSettings.ui:32
+msgid ""
+"These settings only apply when Profile->Scrolling->Unlimited scrollback is "
+"selected."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_scrollbackUseSystemLocation)
+#: settings/FileLocationSettings.ui:42
+#, fuzzy
+#| msgid "Paste Selection"
+msgid "Use system &location"
+msgstr "Belgilanganni qoʻyish"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_scrollbackUseUsersHomeLocation)
+#: settings/FileLocationSettings.ui:85
+msgid "Use user's ho&me location"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/FileLocationSettings.ui:133
+msgid "For any changes to take effect, quit Konsole and restart."
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
 #: settings/GeneralSettings.ui:28
 #, fuzzy
@@ -2501,6 +2551,16 @@ msgstr ""
 #. i18n: ectx: label, entry (NewTabBehavior), group (TabBar)
 #: settings/konsole.kcfg:74
 msgid "Control where to put the new tab"
+msgstr ""
+
+#. i18n: ectx: label, entry (scrollbackUseSystemLocation), group (FileLocation)
+#: settings/konsole.kcfg:94
+msgid "For scrollback files, use system-wide folder location"
+msgstr ""
+
+#. i18n: ectx: label, entry (scrollbackUseUsersHomeLocation), group (FileLocation)
+#: settings/konsole.kcfg:98
+msgid "For scrollback files, use user's home folder location"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_1)
@@ -2651,32 +2711,32 @@ msgstr "Oʻlcham: XXX x XXX"
 msgid "Size: %1 x %2"
 msgstr "Oʻlcham: %1 x %2"
 
-#: TerminalDisplay.cpp:2796
+#: TerminalDisplay.cpp:2801
 #, fuzzy, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] "Joriy seansni yopishga ishonchingiz komilmi?"
 
-#: TerminalDisplay.cpp:2799
+#: TerminalDisplay.cpp:2804
 #, fuzzy
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "Yopishni tasdiqlash"
 
-#: TerminalDisplay.cpp:2988
+#: TerminalDisplay.cpp:2993
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/"
 "Software_flow_control\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</"
 "b> to resume.  This message will be dismissed in 10 seconds.</qt>"
 msgstr ""
 
-#: TerminalDisplay.cpp:3256
+#: TerminalDisplay.cpp:3261
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "Belgilanganni qoʻyish"
 
-#: TerminalDisplay.cpp:3273
+#: TerminalDisplay.cpp:3278
 msgid "Change &Directory To"
 msgstr ""
 
@@ -2905,10 +2965,6 @@ msgstr "&Toʻxtatish"
 #~| msgid "&Paste"
 #~ msgid "&Paste as text"
 #~ msgstr "&Qoʻyish"
-
-#, fuzzy
-#~ msgid "Scrollback Options"
-#~ msgstr "Tab &parametrlari"
 
 #~ msgid "&Change Profile"
 #~ msgstr "&Profilni oʻzgartirish"
