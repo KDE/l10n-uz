@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-18 07:48+0000\n"
+"POT-Creation-Date: 2015-08-19 05:26+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1802,7 +1802,6 @@ msgstr "%1%"
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:56
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:47
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:42
-#: plugins/paintops/experiment/kis_experiment_paintop_settings_widget.cpp:37
 #: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:50
 #: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:42
 #: plugins/paintops/hairy/wdghairyeoptions.ui:297
@@ -8085,13 +8084,15 @@ msgstr "&Oʻlchami:"
 msgid "PNG Export Options"
 msgstr "Geometriya moslamalari"
 
-#: plugins/formats/png/kis_png_export.cc:112
-msgid "Cannot export images in this colorspace or channel depth to PNG"
-msgstr ""
-
-#: plugins/formats/png/kis_png_export.cc:112
+#: plugins/formats/png/kis_png_export.cc:108
 msgctxt "@title:window"
 msgid "Krita PNG Export"
+msgstr ""
+
+#: plugins/formats/png/kis_png_export.cc:108
+msgid ""
+"You can only save grayscale and RGB images to PNG. Convert your image before "
+"exporting to PNG."
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisWdgOptionsPNG)
@@ -8546,7 +8547,6 @@ msgstr "Nuqta boʻyogʻi"
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:47
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:42
-#: plugins/paintops/experiment/kis_experiment_paintop_settings_widget.cpp:37
 #: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:50
 #: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:42
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:58
@@ -8562,7 +8562,6 @@ msgstr ""
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:47
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:42
-#: plugins/paintops/experiment/kis_experiment_paintop_settings_widget.cpp:37
 #: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:50
 #: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:42
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:58
@@ -11388,13 +11387,13 @@ msgstr "Boʻyoqning oʻlchami"
 msgid "Multibrush Tool"
 msgstr "Boʻyoq vositasi"
 
-#: plugins/tools/defaulttools/kis_tool_path.cc:95
+#: plugins/tools/defaulttools/kis_tool_path.cc:110
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Bezier Curve"
 msgstr "Filter vositasi"
 
-#: plugins/tools/defaulttools/kis_tool_path.h:85
+#: plugins/tools/defaulttools/kis_tool_path.h:87
 msgid "Bezier Curve Tool. Shift-mouseclick ends the curve."
 msgstr ""
 
@@ -11587,13 +11586,13 @@ msgstr "Tanlanganni bekitish"
 msgid "Select path"
 msgstr "Tanlash"
 
-#: plugins/tools/selectiontools/kis_tool_select_path.cc:119
+#: plugins/tools/selectiontools/kis_tool_select_path.cc:133
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select by Bezier Curve"
 msgstr "Filter vositasi"
 
-#: plugins/tools/selectiontools/kis_tool_select_path.h:89
+#: plugins/tools/selectiontools/kis_tool_select_path.h:91
 #, fuzzy
 msgid "Bezier Curve Selection Tool"
 msgstr "Tanlanganni bekitish"
@@ -18605,6 +18604,13 @@ msgstr ""
 msgid "The following autosave files can be recovered:"
 msgstr ""
 
+#: ui/KisAutoSaveRecoveryDialog.cpp:235
+msgid ""
+"If you select Cancel, all recoverable files will be kept.\n"
+"If you press OK, selected files will be recovered, the unselected files "
+"discarded."
+msgstr ""
+
 #: ui/KisDocument.cpp:710
 msgid "Making backup..."
 msgstr ""
@@ -19469,52 +19475,52 @@ msgstr ""
 msgid "Default Author Profile"
 msgstr "Profil yoʻq"
 
-#: ui/kra/kis_kra_load_visitor.cpp:294
+#: ui/kra/kis_kra_load_visitor.cpp:302
 #, fuzzy
 #| msgid "Could not add layer to image."
 msgid "Could not load \"id\" of the transform mask"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: ui/kra/kis_kra_load_visitor.cpp:308
+#: ui/kra/kis_kra_load_visitor.cpp:316
 msgid "Could not create transform mask params"
 msgstr ""
 
-#: ui/kra/kis_kra_load_visitor.cpp:343
+#: ui/kra/kis_kra_load_visitor.cpp:351
 #, fuzzy, kde-format
 #| msgid "Could not add layer to image."
 msgid "Could not read pixel data: %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: ui/kra/kis_kra_load_visitor.cpp:350
+#: ui/kra/kis_kra_load_visitor.cpp:358
 #, fuzzy, kde-format
 #| msgid "Could not add layer to image."
 msgid "Could not load pixel data: %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: ui/kra/kis_kra_load_visitor.cpp:388
+#: ui/kra/kis_kra_load_visitor.cpp:396
 #, fuzzy, kde-format
 #| msgid "Could not add layer to image."
 msgid "Could not load profile %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: ui/kra/kis_kra_load_visitor.cpp:412
+#: ui/kra/kis_kra_load_visitor.cpp:420
 #, fuzzy, kde-format
 msgid "Could not filter configuration %1."
 msgstr "Moslash..."
 
-#: ui/kra/kis_kra_load_visitor.cpp:444
+#: ui/kra/kis_kra_load_visitor.cpp:452
 #, fuzzy, kde-format
 #| msgid "Could not add layer to image."
 msgid "Could not load metadata for layer %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: ui/kra/kis_kra_load_visitor.cpp:461
+#: ui/kra/kis_kra_load_visitor.cpp:469
 #, fuzzy, kde-format
 #| msgid "Could not add layer to image."
 msgid "Could not load raster selection %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: ui/kra/kis_kra_load_visitor.cpp:477
+#: ui/kra/kis_kra_load_visitor.cpp:485
 #, fuzzy, kde-format
 #| msgid "No Selection"
 msgid "Could not load vector selection %1."
