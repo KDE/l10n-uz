@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-30 02:24+0000\n"
+"POT-Creation-Date: 2015-09-02 08:34+0000\n"
 "PO-Revision-Date: 2006-10-02 23:59+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8078,15 +8078,18 @@ msgctxt "Comment"
 msgid "Kexi Project Handlers"
 msgstr ""
 
-#: kexi/formeditor/factories/kformdesigner_containers.desktop:5
+#: kexi/formeditor/factories/kexiforms_standardwidgetsplugin.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Basic Widgets"
 msgctxt "Name"
-msgid "Container Widgets"
-msgstr ""
-
-#: kexi/formeditor/factories/kformdesigner_stdwidgets.desktop:5
-msgctxt "Name"
-msgid "Basic Widgets"
+msgid "Standard Widgets"
 msgstr "Oddiy vidjetlar"
+
+#: kexi/formeditor/factories/kexiforms_standardwidgetsplugin.desktop:3
+msgctxt "Comment"
+msgid "Kexi plugin providing standard form widgets"
+msgstr ""
 
 #: kexi/formeditor/widgetfactory.desktop:4
 msgctxt "Comment"
@@ -8100,12 +8103,15 @@ msgstr "Kexi"
 
 #: kexi/kexi.desktop:65
 msgctxt "GenericName"
-msgid "Database Creator"
-msgstr "Maʼlumot baza yaratuvchi"
+msgid "Visual database apps builder"
+msgstr ""
 
 #: kexi/kexi.desktop:122
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Develop desktop database applications"
 msgctxt "Comment"
-msgid "Develop desktop database applications"
+msgid "Visually develop database applications"
 msgstr "Maʼlumot bazasi asosida dasturlarni tuzish"
 
 #: kexi/migration/keximigration_driver.desktop:4
@@ -8189,12 +8195,7 @@ msgctxt "Comment"
 msgid "xBase Import Plugin for Kexi"
 msgstr "Kexi uchun MySQL migratsiya drayveri"
 
-#: kexi/plugins/forms/kexiformhandler.desktop:5
-msgctxt "GenericName"
-msgid "Forms"
-msgstr "Shakllar"
-
-#: kexi/plugins/forms/kexiformhandler.desktop:66
+#: kexi/plugins/forms/kexi_formplugin.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Forms"
@@ -8202,24 +8203,61 @@ msgctxt "Name"
 msgid "Form"
 msgstr "Shakllar"
 
-#: kexi/plugins/forms/kformdesigner_kexidbfactory.desktop:5
-msgctxt "Name"
-msgid "Widgets Plugin for Kexi Forms"
+#: kexi/plugins/forms/kexi_formplugin.desktop:3
+msgctxt "Comment"
+msgid "Kexi plugin for handling forms"
 msgstr ""
 
-#: kexi/plugins/forms/widgets/mapbrowser/kformdesigner_mapbrowser.desktop:5
+#: kexi/plugins/forms/kexiforms_dbwidgetsplugin.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Basic Widgets"
 msgctxt "Name"
-msgid "Map Browser Plugin for Kexi Forms"
+msgid "Database Widgets"
+msgstr "Oddiy vidjetlar"
+
+#: kexi/plugins/forms/kexiforms_dbwidgetsplugin.desktop:3
+msgctxt "Comment"
+msgid "Kexi plugin providing database form widgets"
 msgstr ""
 
-#: kexi/plugins/forms/widgets/webbrowser/kformdesigner_webbrowser.desktop:7
+#: kexi/plugins/forms/widgets/mapbrowser/kexiforms_mapwidgetplugin.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Basic Widgets"
 msgctxt "Name"
-msgid "Web Browser Plugin for Kexi Forms"
+msgid "Map Widget"
+msgstr "Oddiy vidjetlar"
+
+#: kexi/plugins/forms/widgets/mapbrowser/kexiforms_mapwidgetplugin.desktop:3
+msgctxt "Comment"
+msgid "Kexi plugin providing map browser form widget"
 msgstr ""
 
-#: kexi/plugins/importexport/csv/kexicsv_importexporthandler.desktop:5
+#: kexi/plugins/forms/widgets/webbrowser/kexiforms_webbrowserwidgetplugin.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Wave Filter"
 msgctxt "Name"
-msgid "Kexi CSV Data Import/Export Plugin"
+msgid "Web Browser Widget"
+msgstr "Toʻlqin filteri"
+
+#: kexi/plugins/forms/widgets/webbrowser/kexiforms_webbrowserwidgetplugin.desktop:3
+msgctxt "Comment"
+msgid "Kexi plugin providing web browser form widget"
+msgstr ""
+
+#: kexi/plugins/importexport/csv/kexi_csvimportexportplugin.desktop:2
+msgctxt "Name"
+msgid "CSV import/export"
+msgstr ""
+
+#: kexi/plugins/importexport/csv/kexi_csvimportexportplugin.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Kexi CSV Data Import/Export Plugin"
+msgctxt "Comment"
+msgid "Kexi Plugin for CSV data import/export"
 msgstr "Kexi CSV maʼlumot import/eksport plagini"
 
 #: kexi/plugins/migration/keximigrationhandler.desktop:5
@@ -8232,12 +8270,7 @@ msgctxt "Name"
 msgid "Migration Plugin"
 msgstr "Migratsiya plagini"
 
-#: kexi/plugins/queries/kexiqueryhandler.desktop:5
-msgctxt "GenericName"
-msgid "Queries"
-msgstr "Soʻrovlar"
-
-#: kexi/plugins/queries/kexiqueryhandler.desktop:66
+#: kexi/plugins/queries/kexi_queryplugin.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Queries"
@@ -8245,18 +8278,25 @@ msgctxt "Name"
 msgid "Query"
 msgstr "Talablar"
 
-#: kexi/plugins/reports/kexireporthandler.desktop:4
-msgctxt "GenericName"
-msgid "Reports"
-msgstr "Hisobotlar"
+#: kexi/plugins/queries/kexi_queryplugin.desktop:40
+#, fuzzy
+msgctxt "Comment"
+msgid "Kexi plugin for handling queries"
+msgstr "Krita uchun chizish plagini"
 
-#: kexi/plugins/reports/kexireporthandler.desktop:65
+#: kexi/plugins/reports/kexi_reportplugin.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Reports"
 msgctxt "Name"
 msgid "Report"
 msgstr "Hisobotlar"
+
+#: kexi/plugins/reports/kexi_reportplugin.desktop:3
+#, fuzzy
+msgctxt "Comment"
+msgid "Kexi plugin for handling reports"
+msgstr "Krita uchun chizish plagini"
 
 #: kexi/plugins/scripting/kexiscripting/kexiscripthandler.desktop:5
 msgctxt "GenericName"
@@ -8271,18 +8311,19 @@ msgctxt "Name"
 msgid "Script"
 msgstr "Skriptlar"
 
-#: kexi/plugins/tables/kexitablehandler.desktop:5
-msgctxt "GenericName"
-msgid "Tables"
-msgstr "Jadvallar"
-
-#: kexi/plugins/tables/kexitablehandler.desktop:67
+#: kexi/plugins/tables/kexi_tableplugin.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Tables"
 msgctxt "Name"
 msgid "Table"
 msgstr "Jadvallar"
+
+#: kexi/plugins/tables/kexi_tableplugin.desktop:3
+#, fuzzy
+msgctxt "Comment"
+msgid "Kexi plugin for handling tables"
+msgstr "Krita uchun chizish plagini"
 
 #: krita/data/krita_brush.desktop:4
 #, fuzzy
@@ -11008,6 +11049,26 @@ msgid ""
 "Creates a blank document with wide margins for professional looking documents"
 msgstr "Mukammal koʻrinadigan boʻsh hujjatni yaratish"
 
+#~ msgctxt "GenericName"
+#~ msgid "Database Creator"
+#~ msgstr "Maʼlumot baza yaratuvchi"
+
+#~ msgctxt "GenericName"
+#~ msgid "Forms"
+#~ msgstr "Shakllar"
+
+#~ msgctxt "GenericName"
+#~ msgid "Queries"
+#~ msgstr "Soʻrovlar"
+
+#~ msgctxt "GenericName"
+#~ msgid "Reports"
+#~ msgstr "Hisobotlar"
+
+#~ msgctxt "GenericName"
+#~ msgid "Tables"
+#~ msgstr "Jadvallar"
+
 #, fuzzy
 #~| msgctxt "Comment"
 #~| msgid "KOffice Plugin"
@@ -11908,13 +11969,6 @@ msgstr "Mukammal koʻrinadigan boʻsh hujjatni yaratish"
 #~| msgid "Wave Filter"
 #~ msgctxt "Name"
 #~ msgid "Map Browser"
-#~ msgstr "Toʻlqin filteri"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Wave Filter"
-#~ msgctxt "Name"
-#~ msgid "Web Browser"
 #~ msgstr "Toʻlqin filteri"
 
 #, fuzzy
