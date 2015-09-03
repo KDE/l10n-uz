@@ -54,6 +54,13 @@ msgctxt "KoReportItemLine|"
 msgid "Line Style"
 msgstr "&Uslub"
 
+#: common/KReportDesign.cpp:76
+#, fuzzy
+#| msgid "Could not create the file for saving"
+msgctxt "KReportDesign|"
+msgid "Could not parse XML document."
+msgstr "Saqlash uchun faylni yaratib boʻlmadi"
+
 #: common/KReportPageFormat.cpp:68
 #, fuzzy
 #| msgid "ISO A3"
@@ -246,6 +253,18 @@ msgstr "US Letter"
 msgctxt "KReportPageFormat|"
 msgid "US Tabloid"
 msgstr ""
+
+#: common/KReportSection.cpp:100
+#, fuzzy
+msgctxt "KReportSection|"
+msgid "Height"
+msgstr "&Uzunasi:"
+
+#: common/KReportSection.cpp:101
+#, fuzzy
+msgctxt "KReportSection|"
+msgid "Background Color"
+msgstr "Soniya"
 
 #: common/KReportUnit.cpp:47
 #, fuzzy
@@ -815,279 +834,279 @@ msgctxt "DetailGroupSectionDialog|"
 msgid "Insert page break after group footer:"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:294
+#: wrtembed/KoReportDesigner.cpp:295
+#, qt-format
 msgctxt "KoReportDesigner|"
 msgid ""
-"This report is using a script type other than \"javascript\".  To prevent "
-"loosing the script, the type of script will not be changed unless the script "
-"is changed.  Please be aware that the script will not work unless it is "
-"changed to a \"javascript\" script."
+"This report contains scripts of type \"%1\". Only scripts written in "
+"JavaScript language are supported. To prevent loosing the scripts, their "
+"type and content will not be changed unless you change these scripts."
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:297
+#: wrtembed/KoReportDesigner.cpp:300
 msgctxt "KoReportDesigner|"
 msgid "Unsupported Script Type"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:584
+#: wrtembed/KoReportDesigner.cpp:587
 #, fuzzy
 #| msgid "Page Preview"
 msgctxt "KoReportDesigner|"
 msgid "Page Header (Any)"
 msgstr "Betni koʻrib chiqish"
 
-#: wrtembed/KoReportDesigner.cpp:588
+#: wrtembed/KoReportDesigner.cpp:591
 #, fuzzy
 #| msgid "Page Preview"
 msgctxt "KoReportDesigner|"
 msgid "Page Header (Even)"
 msgstr "Betni koʻrib chiqish"
 
-#: wrtembed/KoReportDesigner.cpp:592
+#: wrtembed/KoReportDesigner.cpp:595
 #, fuzzy
 #| msgid "Page Preview"
 msgctxt "KoReportDesigner|"
 msgid "Page Header (Odd)"
 msgstr "Betni koʻrib chiqish"
 
-#: wrtembed/KoReportDesigner.cpp:596
+#: wrtembed/KoReportDesigner.cpp:599
 #, fuzzy
 #| msgid "Page Preview"
 msgctxt "KoReportDesigner|"
 msgid "Page Header (First)"
 msgstr "Betni koʻrib chiqish"
 
-#: wrtembed/KoReportDesigner.cpp:600
+#: wrtembed/KoReportDesigner.cpp:603
 #, fuzzy
 #| msgid "Page Preview"
 msgctxt "KoReportDesigner|"
 msgid "Page Header (Last)"
 msgstr "Betni koʻrib chiqish"
 
-#: wrtembed/KoReportDesigner.cpp:604
+#: wrtembed/KoReportDesigner.cpp:607
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (Any)"
 msgstr "Pastki kolontitul"
 
-#: wrtembed/KoReportDesigner.cpp:608
+#: wrtembed/KoReportDesigner.cpp:611
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (Even)"
 msgstr "Pastki kolontitul"
 
-#: wrtembed/KoReportDesigner.cpp:612
+#: wrtembed/KoReportDesigner.cpp:615
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (Odd)"
 msgstr "Pastki kolontitul"
 
-#: wrtembed/KoReportDesigner.cpp:616
+#: wrtembed/KoReportDesigner.cpp:619
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (First)"
 msgstr "Pastki kolontitul"
 
-#: wrtembed/KoReportDesigner.cpp:620
+#: wrtembed/KoReportDesigner.cpp:623
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (Last)"
 msgstr "Pastki kolontitul"
 
-#: wrtembed/KoReportDesigner.cpp:624
+#: wrtembed/KoReportDesigner.cpp:627
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "Report Header"
 msgstr "Ustki kolontitul mavjud emas"
 
-#: wrtembed/KoReportDesigner.cpp:628
+#: wrtembed/KoReportDesigner.cpp:631
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "Report Footer"
 msgstr "Pastki kolontitul"
 
-#: wrtembed/KoReportDesigner.cpp:721
+#: wrtembed/KoReportDesigner.cpp:724
 #, fuzzy
 #| msgid "Title:"
 msgctxt "KoReportDesigner|"
 msgid "Title"
 msgstr "Sarlavha:"
 
-#: wrtembed/KoReportDesigner.cpp:721
+#: wrtembed/KoReportDesigner.cpp:724
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "Report Title"
 msgstr "Muallifning ismi"
 
-#: wrtembed/KoReportDesigner.cpp:727
+#: wrtembed/KoReportDesigner.cpp:730
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Size"
 msgstr "Betning oʻlchami"
 
-#: wrtembed/KoReportDesigner.cpp:731
+#: wrtembed/KoReportDesigner.cpp:734
 #, fuzzy
 #| msgid "&Portrait"
 msgctxt "KoReportDesigner|"
 msgid "Portrait"
 msgstr "&Uzunasiga"
 
-#: wrtembed/KoReportDesigner.cpp:731
+#: wrtembed/KoReportDesigner.cpp:734
 #, fuzzy
 #| msgid "La&ndscape"
 msgctxt "KoReportDesigner|"
 msgid "Landscape"
 msgstr "E&niga"
 
-#: wrtembed/KoReportDesigner.cpp:732
+#: wrtembed/KoReportDesigner.cpp:735
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "Page Orientation"
 msgstr "namoyish"
 
-#: wrtembed/KoReportDesigner.cpp:743
+#: wrtembed/KoReportDesigner.cpp:746
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Unit"
 msgstr "Betning oʻlchami"
 
-#: wrtembed/KoReportDesigner.cpp:745
+#: wrtembed/KoReportDesigner.cpp:748
 #, fuzzy
 #| msgid "Show %1"
 msgctxt "KoReportDesigner|"
 msgid "Show Grid"
 msgstr "%1 oynasini koʻrsatish"
 
-#: wrtembed/KoReportDesigner.cpp:746
+#: wrtembed/KoReportDesigner.cpp:749
 #, fuzzy
 #| msgid "Confirm Save"
 msgctxt "KoReportDesigner|"
 msgid "Snap to Grid"
 msgstr "Saqlashni tasdiqlash"
 
-#: wrtembed/KoReportDesigner.cpp:747
+#: wrtembed/KoReportDesigner.cpp:750
 msgctxt "KoReportDesigner|"
 msgid "Grid Divisions"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:750
+#: wrtembed/KoReportDesigner.cpp:753
 #, fuzzy
 #| msgid "Margins"
 msgctxt "KoReportDesigner|"
 msgid "Left Margin"
 msgstr "Boʻsh joy"
 
-#: wrtembed/KoReportDesigner.cpp:752
+#: wrtembed/KoReportDesigner.cpp:755
 #, fuzzy
 #| msgid "Right indent"
 msgctxt "KoReportDesigner|"
 msgid "Right Margin"
 msgstr "Oʻngdan boʻsh joy"
 
-#: wrtembed/KoReportDesigner.cpp:754
+#: wrtembed/KoReportDesigner.cpp:757
 #, fuzzy
 #| msgid "Top margin"
 msgctxt "KoReportDesigner|"
 msgid "Top Margin"
 msgstr "Yuqoridan boʻsh joy"
 
-#: wrtembed/KoReportDesigner.cpp:756
+#: wrtembed/KoReportDesigner.cpp:759
 #, fuzzy
 #| msgid "Bottom margin"
 msgctxt "KoReportDesigner|"
 msgid "Bottom Margin"
 msgstr "Pastdan boʻsh joy"
 
-#: wrtembed/KoReportDesigner.cpp:775
+#: wrtembed/KoReportDesigner.cpp:778
 #, fuzzy
 #| msgid "Object"
 msgctxt "KoReportDesigner|"
 msgid "Object Script"
 msgstr "Obʼekt"
 
-#: wrtembed/KoReportDesigner.cpp:936
+#: wrtembed/KoReportDesigner.cpp:939
 #, fuzzy
 #| msgid "Custom"
 msgctxt "KoReportDesigner|"
 msgid "Cut"
 msgstr "Boshqa"
 
-#: wrtembed/KoReportDesigner.cpp:940
+#: wrtembed/KoReportDesigner.cpp:943
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "Copy"
 msgstr "Tashkilot"
 
-#: wrtembed/KoReportDesigner.cpp:945
+#: wrtembed/KoReportDesigner.cpp:948
 #, fuzzy
 #| msgid "Date"
 msgctxt "KoReportDesigner|"
 msgid "Paste"
 msgstr "Sana"
 
-#: wrtembed/KoReportDesigner.cpp:956
+#: wrtembed/KoReportDesigner.cpp:959
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "Delete"
 msgstr "Matnni oʻchirish"
 
-#: wrtembed/KoReportDesigner.cpp:1332
+#: wrtembed/KoReportDesigner.cpp:1335
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "Line"
 msgstr "Atirgul"
 
-#: wrtembed/KoReportDesigner.cpp:1375
+#: wrtembed/KoReportDesigner.cpp:1378
 msgctxt "KoReportDesigner|"
 msgid "Cu&t"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:1377
+#: wrtembed/KoReportDesigner.cpp:1380
 msgctxt "KoReportDesigner|"
 msgid "Cut selection to clipboard"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:1381
+#: wrtembed/KoReportDesigner.cpp:1384
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "&Copy"
 msgstr "Tashkilot"
 
-#: wrtembed/KoReportDesigner.cpp:1383
+#: wrtembed/KoReportDesigner.cpp:1386
 #, fuzzy
 msgctxt "KoReportDesigner|"
 msgid "Copy selection to clipboard"
 msgstr "Avtomatik tugatish"
 
-#: wrtembed/KoReportDesigner.cpp:1387
+#: wrtembed/KoReportDesigner.cpp:1390
 #, fuzzy
 #| msgid "Date"
 msgctxt "KoReportDesigner|"
 msgid "&Paste"
 msgstr "Sana"
 
-#: wrtembed/KoReportDesigner.cpp:1389
+#: wrtembed/KoReportDesigner.cpp:1392
 msgctxt "KoReportDesigner|"
 msgid "Paste clipboard content"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:1400
+#: wrtembed/KoReportDesigner.cpp:1403
 #, fuzzy
 #| msgid "Exceptions"
 msgctxt "KoReportDesigner|"
 msgid "Edit Sections"
 msgstr "Qoidadan tashqari holat"
 
-#: wrtembed/KoReportDesigner.cpp:1403
+#: wrtembed/KoReportDesigner.cpp:1406
 #, fuzzy
 #| msgid "&Reset"
 msgctxt "KoReportDesigner|"
 msgid "Raise"
 msgstr "&Tiklash"
 
-#: wrtembed/KoReportDesigner.cpp:1405
+#: wrtembed/KoReportDesigner.cpp:1408
 #, fuzzy
 #| msgid "&Lowercase"
 msgctxt "KoReportDesigner|"
@@ -2981,11 +3000,6 @@ msgstr "Joriy boʻlim"
 #, fuzzy
 #~| msgid "Could not create the file for saving"
 #~ msgid "Could not create the filter plugin"
-#~ msgstr "Saqlash uchun faylni yaratib boʻlmadi"
-
-#, fuzzy
-#~| msgid "Could not create the file for saving"
-#~ msgid "Could not create the output document"
 #~ msgstr "Saqlash uchun faylni yaratib boʻlmadi"
 
 #~ msgid "File not found"
