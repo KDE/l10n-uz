@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-16 07:57+0000\n"
+"POT-Creation-Date: 2015-09-17 09:05+0000\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -34,17 +34,17 @@ msgstr "Guruhni olib tashlash"
 msgid "Angle snapping delta:"
 msgstr ""
 
-#: basicflakes/tools/KoCreatePathTool.cpp:466
+#: basicflakes/tools/KoCreatePathTool.cpp:468
 msgid "Activate angle snap:"
 msgstr ""
 
-#: basicflakes/tools/KoCreatePathTool.cpp:474
+#: basicflakes/tools/KoCreatePathTool.cpp:476
 #, fuzzy
 msgid "Angle Constraints"
 msgstr "Tekislashni oʻzgartirish"
 
-#: basicflakes/tools/KoCreatePathTool.cpp:478
-#: basicflakes/tools/KoPencilTool.cpp:349
+#: basicflakes/tools/KoCreatePathTool.cpp:480
+#: basicflakes/tools/KoPencilTool.cpp:349 widgets/KoGradientEditWidget.cpp:164
 #, fuzzy
 msgid "Line"
 msgstr "Atirgul"
@@ -364,6 +364,7 @@ msgstr "Atirgul"
 #. i18n: ectx: property (text), widget (QLabel, lblTypeDesc)
 #: flake/KoConnectionShapeConfigWidget.ui:17
 #: widgets/koDocumentInfoAboutWidget.ui:141
+#: widgets/KoGradientEditWidget.cpp:169
 msgid "Type:"
 msgstr "Turi:"
 
@@ -4192,11 +4193,11 @@ msgstr ""
 msgid "Please enter the password to open this file."
 msgstr ""
 
-#: store/KoEncryptedStore.cpp:736
+#: store/KoEncryptedStore.cpp:738
 msgid "Please enter the password to encrypt the document with."
 msgstr ""
 
-#: store/KoEncryptedStore.cpp:750
+#: store/KoEncryptedStore.cpp:752
 #, fuzzy
 msgid "Do you want to save the password?"
 msgstr "Namunani rostdan olib tashlashni istaysizmi?"
@@ -5129,6 +5130,70 @@ msgstr "Birinchi satrda boʻsh joy"
 
 #: widgets/KoFillConfigWidget.cpp:280
 msgid "Change the filling pattern"
+msgstr ""
+
+#: widgets/KoGradientEditWidget.cpp:162
+msgid "Target:"
+msgstr "Moʻljal:"
+
+#: widgets/KoGradientEditWidget.cpp:165
+#, fuzzy
+#| msgid "&Filling:"
+msgid "Fill"
+msgstr "&Toʻldirish:"
+
+#: widgets/KoGradientEditWidget.cpp:171
+#, fuzzy
+msgctxt "Linear gradient type"
+msgid "Linear"
+msgstr "Atirgul"
+
+#: widgets/KoGradientEditWidget.cpp:172
+msgctxt "Radial gradient type"
+msgid "Radial"
+msgstr ""
+
+#: widgets/KoGradientEditWidget.cpp:173
+msgctxt "Conical gradient type"
+msgid "Conical"
+msgstr ""
+
+#: widgets/KoGradientEditWidget.cpp:176
+msgid "Repeat:"
+msgstr ""
+
+#: widgets/KoGradientEditWidget.cpp:178
+#, fuzzy
+#| msgid "None"
+msgctxt "No gradient spread"
+msgid "None"
+msgstr "Yoʻq"
+
+#: widgets/KoGradientEditWidget.cpp:179
+msgid "Reflect"
+msgstr ""
+
+#: widgets/KoGradientEditWidget.cpp:180
+msgid "Repeat"
+msgstr ""
+
+#: widgets/KoGradientEditWidget.cpp:183
+#, fuzzy
+msgid "Overall opacity:"
+msgstr "Shahar:"
+
+#: widgets/KoGradientEditWidget.cpp:188
+#, fuzzy
+#| msgid "Color:"
+msgid "Color stop:"
+msgstr "Rangi:"
+
+#: widgets/KoGradientEditWidget.cpp:196
+msgid "Stop color."
+msgstr ""
+
+#: widgets/KoGradientEditWidget.cpp:199
+msgid "&Add to Predefined Gradients"
 msgstr ""
 
 #: widgets/KoModeBox.cpp:603
@@ -6225,10 +6290,6 @@ msgstr "%1%"
 #~ msgstr "Qora"
 
 #, fuzzy
-#~ msgid "Opacity:"
-#~ msgstr "Shahar:"
-
-#, fuzzy
 #~ msgctxt "default theme name"
 #~ msgid "Default"
 #~ msgstr "&Andoza"
@@ -6542,9 +6603,6 @@ msgstr "%1%"
 #~| msgid "Shadow:"
 #~ msgid "Offset:"
 #~ msgstr "Soya:"
-
-#~ msgid "Color:"
-#~ msgstr "Rangi:"
 
 #, fuzzy
 #~| msgid "&Style:"
@@ -7220,9 +7278,6 @@ msgstr "%1%"
 
 #~ msgid "Bookmark name:"
 #~ msgstr "Xatchoʻpning nomi:"
-
-#~ msgid "Target:"
-#~ msgstr "Moʻljal:"
 
 #~ msgid "Recent file:"
 #~ msgstr "Yaqinda ochilgan fayllar:"
@@ -8051,9 +8106,6 @@ msgstr "%1%"
 #, fuzzy
 #~ msgid "Tab Leader"
 #~ msgstr "Ustki kolontitul mavjud emas"
-
-#~ msgid "&Filling:"
-#~ msgstr "&Toʻldirish:"
 
 #~ msgid "&New"
 #~ msgstr "&Yangi"
