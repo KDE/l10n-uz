@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-30 05:02+0000\n"
+"POT-Creation-Date: 2015-10-04 05:41+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -6118,8 +6118,8 @@ msgstr "Rasmni &burish..."
 #: plugins/extensions/rotateimage/rotateimage.cc:53
 #, fuzzy
 #| msgid "Rotate Image 1&80"
-msgctxt "rotate image 90 degrees Clockwise"
-msgid "Rotate Image 90° Clockwise"
+msgctxt "rotate image 90 degrees to the right"
+msgid "Rotate Image 90° to the Right"
 msgstr "Rasmni &180 darajaga burish"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:58
@@ -6131,10 +6131,10 @@ msgstr "Rasmni &180 darajaga burish"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:63
 #, fuzzy
-#| msgid "Rotate Image 1&80"
-msgctxt "rotate image 90 degrees Counter-Clockwise"
-msgid "Rotate Image 90° Counter-Clockwise"
-msgstr "Rasmni &180 darajaga burish"
+#| msgid "Rotate Layer"
+msgctxt "rotate image 90 degrees to the left"
+msgid "Rotate Image 90° to the Left"
+msgstr "Qatlamni burish"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:68
 #, fuzzy
@@ -6195,13 +6195,17 @@ msgstr "Gradient vositasi"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioCW)
 #: plugins/extensions/rotateimage/wdg_rotateimage.ui:26
-msgid "C&lockwise"
-msgstr "&Soat koʻrsatgichi boʻyicha"
+#, fuzzy
+#| msgid "Right:"
+msgid "&Right"
+msgstr "Oʻng:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioCCW)
 #: plugins/extensions/rotateimage/wdg_rotateimage.ui:36
-msgid "Cou&nter-clockwise"
-msgstr "Soat &koʻrsatkichiga teskari"
+#, fuzzy
+#| msgid "Left:"
+msgid "&Left"
+msgstr "Chap:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radio90)
 #: plugins/extensions/rotateimage/wdg_rotateimage.ui:52
@@ -6219,7 +6223,7 @@ msgid "270 de&grees"
 msgstr "&270 daraja"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioCustom)
-#: plugins/extensions/rotateimage/wdg_rotateimage.ui:87
+#: plugins/extensions/rotateimage/wdg_rotateimage.ui:78
 msgid "&Custom:"
 msgstr "&Boshqa:"
 
@@ -21553,6 +21557,24 @@ msgid "Workspace %1"
 msgstr "Ranglar boʻshligʻi"
 
 #, fuzzy
+#~| msgid "Rotate Image 1&80"
+#~ msgctxt "rotate image 90 degrees Clockwise"
+#~ msgid "Rotate Image 90° Clockwise"
+#~ msgstr "Rasmni &180 darajaga burish"
+
+#, fuzzy
+#~| msgid "Rotate Image 1&80"
+#~ msgctxt "rotate image 90 degrees Counter-Clockwise"
+#~ msgid "Rotate Image 90° Counter-Clockwise"
+#~ msgstr "Rasmni &180 darajaga burish"
+
+#~ msgid "C&lockwise"
+#~ msgstr "&Soat koʻrsatgichi boʻyicha"
+
+#~ msgid "Cou&nter-clockwise"
+#~ msgstr "Soat &koʻrsatkichiga teskari"
+
+#, fuzzy
 #~ msgid "HDR Layer"
 #~ msgstr "Qatlam"
 
@@ -21871,12 +21893,6 @@ msgstr "Ranglar boʻshligʻi"
 #~ msgstr "Filterlar"
 
 #, fuzzy
-#~| msgid "Rotate Image 1&80"
-#~ msgctxt "rotate image 90 degrees to the right"
-#~ msgid "Rotate Image 90° to the Right"
-#~ msgstr "Rasmni &180 darajaga burish"
-
-#, fuzzy
 #~| msgid "&Smooth:"
 #~ msgid "Smooth Lines"
 #~ msgstr "&Tekis:"
@@ -22121,16 +22137,6 @@ msgstr "Ranglar boʻshligʻi"
 #, fuzzy
 #~ msgid "Limit to Color"
 #~ msgstr "Joriy qatlamni oʻchirish"
-
-#, fuzzy
-#~| msgid "Right:"
-#~ msgid "Right"
-#~ msgstr "Oʻng:"
-
-#, fuzzy
-#~| msgid "Left:"
-#~ msgid "Left"
-#~ msgstr "Chap:"
 
 #, fuzzy
 #~ msgid "Monitor profile: "
