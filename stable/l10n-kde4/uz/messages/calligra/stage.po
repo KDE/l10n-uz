@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-03 05:25+0000\n"
+"POT-Creation-Date: 2015-10-06 07:14+0000\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -373,13 +373,13 @@ msgstr "HTML namoyish yaratish"
 msgid "End of Slide Show"
 msgstr "Namoyish"
 
-#: part/KPrShapeAnimations.cpp:171
+#: part/KPrShapeAnimations.cpp:170
 #: part/tools/animationtool/KPrEditAnimationsWidget.cpp:232
 #: part/tools/animationtool/KPrShapeAnimationDocker.cpp:536
 msgid "start on mouse click"
 msgstr ""
 
-#: part/KPrShapeAnimations.cpp:173
+#: part/KPrShapeAnimations.cpp:172
 #: part/tools/animationtool/KPrEditAnimationsWidget.cpp:235
 #: part/tools/animationtool/KPrShapeAnimationDocker.cpp:539
 #, fuzzy
@@ -387,7 +387,7 @@ msgstr ""
 msgid "start after previous animation"
 msgstr "HTML namoyishni yaratish"
 
-#: part/KPrShapeAnimations.cpp:175
+#: part/KPrShapeAnimations.cpp:174
 #: part/tools/animationtool/KPrEditAnimationsWidget.cpp:238
 #: part/tools/animationtool/KPrShapeAnimationDocker.cpp:542
 #, fuzzy
@@ -395,19 +395,19 @@ msgstr "HTML namoyishni yaratish"
 msgid "start with previous animation"
 msgstr "HTML namoyishni yaratish"
 
-#: part/KPrShapeAnimations.cpp:182
+#: part/KPrShapeAnimations.cpp:181
 #, kde-format
 msgid "Start after %1 seconds. Duration of %2 seconds."
 msgstr ""
 
-#: part/KPrShapeAnimations.cpp:197
+#: part/KPrShapeAnimations.cpp:196
 #: part/tools/animationtool/KPrAnimationToolFactory.cpp:32
 #, fuzzy
 #| msgid "Create HTML Presentation"
 msgid "Animation"
 msgstr "HTML namoyishni yaratish"
 
-#: part/KPrShapeAnimations.cpp:203
+#: part/KPrShapeAnimations.cpp:202
 msgid "Shape"
 msgstr "Shakl"
 
@@ -527,87 +527,92 @@ msgstr "Slaydga oʻtish:"
 msgid "Configure Stage..."
 msgstr "Namoyish &moslamalari..."
 
-#: part/KPrView.cpp:234
+#: part/KPrView.cpp:235
 msgid "Export as HTML..."
 msgstr ""
 
-#: part/KPrView.cpp:260
+#: part/KPrView.cpp:261
 #, fuzzy
 #| msgid "Insert Picture"
 msgid "Insert Pictures as Slides..."
 msgstr "Rasmni qoʻyish"
 
-#: part/KPrView.cpp:269
+#: part/KPrView.cpp:270
 #, fuzzy
 #| msgid "Create HTML Presentation"
 msgid "Create Appear Animation"
 msgstr "HTML namoyishni yaratish"
 
-#: part/KPrView.cpp:273
+#: part/KPrView.cpp:274
 #, fuzzy
 #| msgid "Custom Slide Show..."
 msgid "Edit Custom Slide Shows..."
 msgstr "Boshqa namoyish..."
 
-#: part/KPrView.cpp:277
+#: part/KPrView.cpp:278
 #, fuzzy
 #| msgid "Presentation"
 msgid "Start Presentation"
 msgstr "Namoyish"
 
-#: part/KPrView.cpp:280
+#: part/KPrView.cpp:281
 #, fuzzy
 #| msgid "After Current Slide"
 msgid "From Current Slide"
 msgstr "Joriy slayddan keyin"
 
-#: part/KPrView.cpp:284
+#: part/KPrView.cpp:285
 #, fuzzy
 #| msgid "Start From &First Slide"
 msgid "From First Slide"
 msgstr "&Birinchi slayddan boshlash"
 
-#: part/KPrView.cpp:289
+#: part/KPrView.cpp:290
+#, fuzzy
+msgid "Stop presentation"
+msgstr "Namoyish"
+
+#: part/KPrView.cpp:296
 #, fuzzy
 #| msgid "Show status bar"
 msgid "Show Status Bar"
 msgstr "Holat panelini koʻrsatish"
 
-#: part/KPrView.cpp:290
+#: part/KPrView.cpp:297
 #, fuzzy
 #| msgid "Show status bar"
 msgid "Hide Status Bar"
 msgstr "Holat panelini koʻrsatish"
 
-#: part/KPrView.cpp:291
+#: part/KPrView.cpp:298
 #, fuzzy
 #| msgid "Show status bar"
 msgid "Shows or hides the status bar"
 msgstr "Holat panelini koʻrsatish"
 
-#: part/KPrView.cpp:300
+#: part/KPrView.cpp:307
 #, fuzzy
 #| msgid "&Configure Slide Show..."
 msgid "Configure Slide Show..."
 msgstr "Namoyish &moslamalari..."
 
-#: part/KPrView.cpp:304
+#: part/KPrView.cpp:311
 #, fuzzy
 #| msgid "Configure KPresenter..."
 msgid "Configure Presenter View..."
 msgstr "KPresenter moslamasi..."
 
-#: part/KPrView.cpp:308
+#: part/KPrView.cpp:315
 #, fuzzy
 #| msgid "Overwrite Presentation"
 msgid "Draw on the presentation..."
 msgstr "Namoyish faylini almashtirish"
 
-#: part/KPrView.cpp:315
+#: part/KPrView.cpp:322
 msgid "Highlight the presentation..."
 msgstr ""
 
-#: part/KPrView.cpp:322
+#: part/KPrView.cpp:329
 msgid "Blackscreen on the presentation..."
 msgstr ""
 
@@ -4426,10 +4431,6 @@ msgstr "Izoh"
 #, fuzzy
 #~ msgid "Write footer to the slides"
 #~ msgstr "Slaydlardan rasm yaratish"
-
-#, fuzzy
-#~ msgid "Loop presentation"
-#~ msgstr "Namoyish"
 
 #~ msgid "Create Pictures of the Slides"
 #~ msgstr "Slayd rasmlarini yaratish"
