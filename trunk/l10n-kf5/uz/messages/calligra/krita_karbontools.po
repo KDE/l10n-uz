@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-04 08:16+0000\n"
+"POT-Creation-Date: 2015-10-13 10:02+0000\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -195,51 +195,6 @@ msgstr "Effektlar"
 msgid "Please enter a name for the filter effect"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, FilterEffectEditWidget)
-#: filterEffectTool/FilterEffectEditWidget.ui:32
-#: filterEffectTool/KarbonFilterEffectsTool.cpp:328
-#, fuzzy
-#| msgid "Pattern Tool"
-msgid "Filter Effect Editor"
-msgstr "Namuna moslamasi"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: filterEffectTool/FilterEffectEditWidget.ui:40
-#, fuzzy
-#| msgid "Object Properties"
-msgid "Effects and Connections"
-msgstr "Obʼektning xossalari"
-
-#. i18n: ectx: property (text), widget (QToolButton, removeEffect)
-#. i18n: ectx: property (text), widget (QToolButton, addEffect)
-#. i18n: ectx: property (text), widget (QToolButton, raiseEffect)
-#. i18n: ectx: property (text), widget (QToolButton, lowerEffect)
-#. i18n: ectx: property (text), widget (QToolButton, addPreset)
-#. i18n: ectx: property (text), widget (QToolButton, removePreset)
-#: filterEffectTool/FilterEffectEditWidget.ui:57
-#: filterEffectTool/FilterEffectEditWidget.ui:67
-#: filterEffectTool/FilterEffectEditWidget.ui:74
-#: filterEffectTool/FilterEffectEditWidget.ui:81
-#: filterEffectTool/FilterEffectEditWidget.ui:102
-#: filterEffectTool/FilterEffectEditWidget.ui:109
-msgid "..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: filterEffectTool/FilterEffectEditWidget.ui:92
-#, fuzzy
-#| msgid "&Add to Predefined Gradients"
-msgid "Filter Presets"
-msgstr "Oldindan &aniqlangan gradientlarga qoʻshish"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: filterEffectTool/FilterEffectEditWidget.ui:116
-#: filterEffectTool/KarbonFilterEffectsTool.cpp:484
-#, fuzzy
-#| msgid "Object Properties"
-msgid "Effect Properties"
-msgstr "Obʼektning xossalari"
-
 #: filterEffectTool/FilterRemoveCommand.cpp:32
 #, fuzzy
 #| msgid "Add Layer"
@@ -252,6 +207,12 @@ msgstr "Qatlamni qoʻshish"
 msgctxt "(qtundo-format)"
 msgid "Set filter stack"
 msgstr "Chiziq qalinligini koʻrsatish"
+
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:328
+#, fuzzy
+#| msgid "Pattern Tool"
+msgid "Filter Effect Editor"
+msgstr "Namuna moslamasi"
 
 #: filterEffectTool/KarbonFilterEffectsTool.cpp:447
 #, fuzzy
@@ -274,6 +235,12 @@ msgstr "Qatlamni qoʻshish"
 #| msgid "Add Layer"
 msgid "Add Filter"
 msgstr "Qatlamni qoʻshish"
+
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:484
+#, fuzzy
+#| msgid "Object Properties"
+msgid "Effect Properties"
+msgstr "Obʼektning xossalari"
 
 #: filterEffectTool/KarbonFilterEffectsTool.cpp:496
 msgid "X:"
@@ -416,6 +383,16 @@ msgstr "Namunalar"
 #| msgid "Pattern Tool"
 msgid "Pattern editing"
 msgstr "Namuna moslamasi"
+
+#, fuzzy
+#~| msgid "Object Properties"
+#~ msgid "Effects and Connections"
+#~ msgstr "Obʼektning xossalari"
+
+#, fuzzy
+#~| msgid "&Add to Predefined Gradients"
+#~ msgid "Filter Presets"
+#~ msgstr "Oldindan &aniqlangan gradientlarga qoʻshish"
 
 #~ msgid "Target:"
 #~ msgstr "Moʻljal:"
