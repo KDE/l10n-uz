@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-16 07:55+0000\n"
+"POT-Creation-Date: 2015-10-17 09:24+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -78,16 +78,16 @@ msgstr "&Qatlam"
 #: ui/dialogs/kis_dlg_preferences.cc:226 ui/input/kis_tablet_debugger.cpp:100
 #: ui/kis_filter_manager.cc:217 ui/kis_filter_manager.cc:226
 #: ui/kis_layer_manager.cc:674 ui/kis_layer_manager.cc:950
-#: ui/KisApplication.cpp:240 ui/KisApplication.cpp:243
-#: ui/KisApplication.cpp:268 ui/KisApplication.cpp:294
-#: ui/KisApplication.cpp:315 ui/KisDocument.cpp:617 ui/KisDocument.cpp:619
+#: ui/KisApplication.cpp:238 ui/KisApplication.cpp:241
+#: ui/KisApplication.cpp:266 ui/KisApplication.cpp:292
+#: ui/KisApplication.cpp:313 ui/KisDocument.cpp:617 ui/KisDocument.cpp:619
 #: ui/KisDocument.cpp:1098 ui/KisDocument.cpp:1144 ui/KisDocument.cpp:1285
 #: ui/KisDocument.cpp:1919 ui/KisDocument.cpp:1922
 #: ui/KisImportExportManager.cpp:235 ui/KisImportExportManager.cpp:246
 #: ui/KisImportExportManager.cpp:541 ui/KisMainWindow.cpp:700
 #: ui/KisMainWindow.cpp:764 ui/KisMainWindow.cpp:778 ui/KisMainWindow.cpp:1460
 #: ui/KisMainWindow.cpp:1604 ui/KisMainWindow.cpp:1616
-#: ui/KisTemplateCreateDia.cpp:304 ui/KisView.cpp:788
+#: ui/KisTemplateCreateDia.cpp:303 ui/KisView.cpp:788
 #: ui/opengl/kis_opengl_canvas2.cpp:671
 #: ui/opengl/kis_opengl_image_textures.cpp:578
 #: ui/widgets/kis_custom_image_widget.cc:245
@@ -293,13 +293,13 @@ msgstr ""
 msgid "(c) 1999-%1 The Krita team.\n"
 msgstr "(C) 1999-2006, Krita jamoasi.\n"
 
-#: gemini/main.cpp:80 sketch/main.cpp:89
+#: gemini/main.cpp:80 sketch/main.cpp:96
 #, fuzzy
 #| msgid "Image Size"
 msgid "Images to open"
 msgstr "Rasmning oʻlchami"
 
-#: gemini/main.cpp:81 sketch/main.cpp:86
+#: gemini/main.cpp:81 sketch/main.cpp:93
 msgid "Use the virtual keyboard"
 msgstr ""
 
@@ -12665,7 +12665,7 @@ msgstr "Krita"
 msgid "Krita Sketch: Painting on the Go for Artists"
 msgstr ""
 
-#: sketch/main.cpp:87
+#: sketch/main.cpp:94
 msgid "Open sketch in a window, otherwise defaults to full-screen"
 msgstr ""
 
@@ -13163,7 +13163,7 @@ msgctxt "No shortcut defined"
 msgid "None"
 msgstr "Yoʻq"
 
-#: ui/dialogs/KisShortcutEditWidget.cpp:70 ui/KisTemplateCreateDia.cpp:151
+#: ui/dialogs/KisShortcutEditWidget.cpp:70 ui/KisTemplateCreateDia.cpp:150
 #, fuzzy
 #| msgid "&Custom:"
 msgid "Custom:"
@@ -14416,7 +14416,7 @@ msgid "&Active Channels"
 msgstr "&Kanal:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
-#: ui/forms/wdglayerproperties.ui:164 ui/KisTemplateCreateDia.cpp:146
+#: ui/forms/wdglayerproperties.ui:164 ui/KisTemplateCreateDia.cpp:145
 msgid "&Preview"
 msgstr "Koʻrib &chiqish"
 
@@ -16566,23 +16566,23 @@ msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
 msgstr "Kattalashtirish %1%"
 
-#: ui/KisApplication.cpp:241
+#: ui/KisApplication.cpp:239
 #, fuzzy, kde-format
 #| msgid "No options for %1."
 msgid "No template found for: %1"
 msgstr "%1 uchun moslamalar mavjud emas."
 
-#: ui/KisApplication.cpp:244
+#: ui/KisApplication.cpp:242
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr ""
 
-#: ui/KisApplication.cpp:269
+#: ui/KisApplication.cpp:267
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr ""
 
-#: ui/KisApplication.cpp:295
+#: ui/KisApplication.cpp:293
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -16590,25 +16590,25 @@ msgid ""
 "Please make sure no other program is using the file and try again."
 msgstr ""
 
-#: ui/KisApplication.cpp:316
+#: ui/KisApplication.cpp:314
 msgid "Do you want to clear the settings file?"
 msgstr ""
 
-#: ui/KisApplication.cpp:332 ui/opengl/kis_opengl_canvas2.cpp:306
+#: ui/KisApplication.cpp:330 ui/opengl/kis_opengl_canvas2.cpp:306
 #, fuzzy
 #| msgid "Warning!"
 msgctxt "@title:window"
 msgid "Krita: Warning"
 msgstr "Diqqat!"
 
-#: ui/KisApplication.cpp:333
+#: ui/KisApplication.cpp:331
 msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
 "This is not recommended.\n"
 "Please download and install the x64 build instead."
 msgstr ""
 
-#: ui/KisApplication.cpp:476
+#: ui/KisApplication.cpp:474
 msgid "Mimetype not found, try using the -mimetype option"
 msgstr ""
 
@@ -17197,52 +17197,52 @@ msgstr "Boshqa gradient"
 msgid "Create from Clipboard"
 msgstr "Yaratish"
 
-#: ui/KisTemplateCreateDia.cpp:101
+#: ui/KisTemplateCreateDia.cpp:100
 #, fuzzy
 #| msgid "Create"
 msgid "Create Template"
 msgstr "Yaratish"
 
-#: ui/KisTemplateCreateDia.cpp:110
+#: ui/KisTemplateCreateDia.cpp:109
 #, fuzzy
 msgctxt "Template name"
 msgid "Name:"
 msgstr "&Nomi:"
 
-#: ui/KisTemplateCreateDia.cpp:120
+#: ui/KisTemplateCreateDia.cpp:119
 msgid "Group:"
 msgstr ""
 
-#: ui/KisTemplateCreateDia.cpp:134
+#: ui/KisTemplateCreateDia.cpp:133
 #, fuzzy
 #| msgid "Short"
 msgid "&Add Group..."
 msgstr "Qisqa"
 
-#: ui/KisTemplateCreateDia.cpp:137
+#: ui/KisTemplateCreateDia.cpp:136
 #, fuzzy
 msgid "&Remove"
 msgstr "Qatlamni &olib tashlash"
 
-#: ui/KisTemplateCreateDia.cpp:143
+#: ui/KisTemplateCreateDia.cpp:142
 msgid "Picture"
 msgstr ""
 
-#: ui/KisTemplateCreateDia.cpp:155
+#: ui/KisTemplateCreateDia.cpp:154
 #, fuzzy
 #| msgid "&Select"
 msgid "&Select..."
 msgstr "&Tanlash"
 
-#: ui/KisTemplateCreateDia.cpp:164
+#: ui/KisTemplateCreateDia.cpp:163
 msgid "Use the new template as default"
 msgstr ""
 
-#: ui/KisTemplateCreateDia.cpp:166
+#: ui/KisTemplateCreateDia.cpp:165
 msgid "Use the new template every time Krita starts"
 msgstr ""
 
-#: ui/KisTemplateCreateDia.cpp:305
+#: ui/KisTemplateCreateDia.cpp:304
 #, kde-format
 msgid "Do you really want to overwrite the existing '%1' template?"
 msgstr ""
