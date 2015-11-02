@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-01 08:17+0000\n"
+"POT-Creation-Date: 2015-11-02 07:46+0000\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -701,7 +701,28 @@ msgstr "\"%1\" obʼektini qayta nomlab boʻlmadi."
 msgid "Could not open project \"%1\"."
 msgstr "\"%1\" loyihasini ochib boʻlmadi."
 
-#: core/kexiproject.cpp:336
+#: core/kexiproject.cpp:304
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not remove project.\n"
+#| "The file \"%1\" does not exist."
+msgctxt "@info"
+msgid ""
+"Could not open project file. The file <filename>%1</filename> does not exist."
+msgstr ""
+"Loyihani olib tashlab boʻlmadi.\n"
+"\"%1\" fayli mavjud emas."
+
+#: core/kexiproject.cpp:307 core/kexiproject.cpp:1462
+#: main/startup/KexiStartup.cpp:811 main/startup/KexiStartup.cpp:820
+#: main/startup/KexiStartup.cpp:831
+#, fuzzy
+#| msgid "Could not open \"%1\" project file."
+msgctxt "@title:window"
+msgid "Could Not Open File"
+msgstr "\"%1\" loyiha faylini ochib boʻlmadi."
+
+#: core/kexiproject.cpp:343
 #, kde-format
 msgctxt "@info (don't add tags around %1, it's done already)"
 msgid ""
@@ -709,51 +730,51 @@ msgid ""
 "cannot be opened. It is an SQLite file created using other tools."
 msgstr ""
 
-#: core/kexiproject.cpp:361
+#: core/kexiproject.cpp:368
 #, kde-format
 msgid "Could not create project \"%1\"."
 msgstr "\"%1\" loyihasini yaratib boʻlmadi."
 
-#: core/kexiproject.cpp:404 core/kexiproject.cpp:473
+#: core/kexiproject.cpp:411 core/kexiproject.cpp:480
 #, fuzzy
 msgid "Project major version"
 msgstr "Loyihaning asl versiyasi"
 
-#: core/kexiproject.cpp:406 core/kexiproject.cpp:475
+#: core/kexiproject.cpp:413 core/kexiproject.cpp:482
 #, fuzzy
 msgid "Project minor version"
 msgstr "Loyihaning ikkinchi darajali versiyasi"
 
-#: core/kexiproject.cpp:408
+#: core/kexiproject.cpp:415
 msgid "Project caption"
 msgstr "Loyiha sarlavhasi"
 
-#: core/kexiproject.cpp:410
+#: core/kexiproject.cpp:417
 msgid "Project description"
 msgstr "Loyiha taʼrifi"
 
-#: core/kexiproject.cpp:945
+#: core/kexiproject.cpp:952
 #, fuzzy, kde-format
 msgid ""
 "Opening object \"%1\" failed.\n"
 "%2%3"
 msgstr "\"%1\" obʼektini ochib boʻlmadi."
 
-#: core/kexiproject.cpp:964
+#: core/kexiproject.cpp:971
 msgid "This project is opened as read only."
 msgstr ""
 
-#: core/kexiproject.cpp:996
+#: core/kexiproject.cpp:1003
 #, fuzzy
 #| msgid "Could not remove object's data."
 msgid "Could not remove object's user data."
 msgstr "Obʼekt maʼlumotlarini olib tashlab boʻlmadi."
 
-#: core/kexiproject.cpp:1124
+#: core/kexiproject.cpp:1131
 msgid "Warning: entire project's data will be removed."
 msgstr "Diqqat: loyihaning barcha maʼlumotlari oʻchirib tashlanadi."
 
-#: core/kexiproject.cpp:1140
+#: core/kexiproject.cpp:1147
 #, fuzzy, kde-format
 #| msgid ""
 #| "The project %1 already exists.\n"
@@ -766,51 +787,43 @@ msgstr ""
 "\"%1\" loyihasi allaqachon mavjud.\n"
 "Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
 
-#: core/kexiproject.cpp:1144
+#: core/kexiproject.cpp:1151
 #, fuzzy
 msgctxt "@action:button"
 msgid "Replace"
 msgstr "&Almashtirish"
 
-#: core/kexiproject.cpp:1168
+#: core/kexiproject.cpp:1175
 #, fuzzy, kde-format
 msgid ""
 "Do you want to delete the project \"%1\"?\n"
 "%1"
 msgstr "\"%1\" loyihasini ochib boʻlmadi."
 
-#: core/kexiproject.cpp:1170
+#: core/kexiproject.cpp:1177
 #, fuzzy
 #| msgid "Delete Object"
 msgctxt "@action:button"
 msgid "Delete Project"
 msgstr "Obʼektni olib tashlash"
 
-#: core/kexiproject.cpp:1184
+#: core/kexiproject.cpp:1191
 msgid ""
 "Could not delete this project. Database connection for this project has been "
 "opened as read only."
 msgstr ""
 
-#: core/kexiproject.cpp:1449
+#: core/kexiproject.cpp:1456
 msgid "Open As Read Only"
 msgstr ""
 
-#: core/kexiproject.cpp:1452
+#: core/kexiproject.cpp:1459
 #, kde-format
 msgctxt "@info"
 msgid ""
 "<para>Could not open file <filename>%1</filename> for reading and writing.</"
 "para><para>Do you want to open the file as read only?</para>"
 msgstr ""
-
-#: core/kexiproject.cpp:1455 main/startup/KexiStartup.cpp:811
-#: main/startup/KexiStartup.cpp:820 main/startup/KexiStartup.cpp:831
-#, fuzzy
-#| msgid "Could not open \"%1\" project file."
-msgctxt "@title:window"
-msgid "Could Not Open File"
-msgstr "\"%1\" loyiha faylini ochib boʻlmadi."
 
 #: core/kexiprojectdata.cpp:197
 #, fuzzy, kde-format
