@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-15 08:24+0000\n"
+"POT-Creation-Date: 2015-11-16 07:51+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -32,7 +32,7 @@ msgstr "kmashrab@uni-bremen.de,mavnur@gmail.com"
 #. i18n: context: Action (ArtisticTextTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Actions (Artistic Text Tool), ActionCollection (Tools)
 #. i18n: context: Action (ArtisticTextTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: data/actions/ArtisticTextTool.action:4 krita.action:1587
+#: data/actions/ArtisticTextTool.action:4 krita.action:1591
 #, fuzzy
 #| msgid "Text Tool"
 msgctxt "action"
@@ -3636,7 +3636,7 @@ msgstr ""
 #. i18n: context: Action (fill_selection_foreground_color_opacity), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (fill_selection_foreground_color_opacity), Actions (Unknown), ActionCollection (Krita)
 #. i18n: context: Action (fill_selection_foreground_color_opacity), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:60 krita.action:62 krita.action:2411 krita.action:2413
+#: krita.action:60 krita.action:62 krita.action:2415 krita.action:2417
 #, fuzzy
 #| msgid "Fill with Foreground Color"
 msgctxt "action"
@@ -3651,7 +3651,7 @@ msgstr "Oldin fon rangi bilan toʻldirish"
 #. i18n: context: Action (fill_selection_background_color_opacity), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (fill_selection_background_color_opacity), Actions (Unknown), ActionCollection (Krita)
 #. i18n: context: Action (fill_selection_background_color_opacity), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:73 krita.action:75 krita.action:2424 krita.action:2426
+#: krita.action:73 krita.action:75 krita.action:2428 krita.action:2430
 #, fuzzy
 #| msgid "Fill with Background Color"
 msgctxt "action"
@@ -3666,7 +3666,7 @@ msgstr "Orqa fon rangi bilan toʻldirish"
 #. i18n: context: Action (fill_selection_pattern_opacity), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (fill_selection_pattern_opacity), Actions (Unknown), ActionCollection (Krita)
 #. i18n: context: Action (fill_selection_pattern_opacity), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:86 krita.action:88 krita.action:2437 krita.action:2439
+#: krita.action:86 krita.action:88 krita.action:2441 krita.action:2443
 #, fuzzy
 msgctxt "action"
 msgid "Fill with Pattern (Opacity)"
@@ -3928,25 +3928,16 @@ msgctxt "action"
 msgid "Decrease opacity"
 msgstr "Koʻrib chiqish: "
 
-#. i18n: context: Action (save_incremental_version), Actions (File), ActionCollection (Menu)
 #. i18n: context: Action (erase_action), Actions (General), ActionCollection (Krita)
-#. i18n: context: Action (save_incremental_version), Actions (File), ActionCollection (Menu)
 #. i18n: context: Action (erase_action), Actions (General), ActionCollection (Krita)
-#: krita.action:346 kritamenu.action:136
+#. i18n: context: Action (erase_action), Actions (General), ActionCollection (Krita)
+#. i18n: context: Action (erase_action), Actions (General), ActionCollection (Krita)
+#: krita.action:346 krita.action:348
 #, fuzzy
+#| msgid "Selection mode:"
 msgctxt "action"
-msgid "Save Incremental &Version"
-msgstr "Joriy qatlamni oʻchirish"
-
-#. i18n: context: Action (save_incremental_version), Actions (File), ActionCollection (Menu)
-#. i18n: context: Action (erase_action), Actions (General), ActionCollection (Krita)
-#. i18n: context: Action (save_incremental_version), Actions (File), ActionCollection (Menu)
-#. i18n: context: Action (erase_action), Actions (General), ActionCollection (Krita)
-#: krita.action:348 kritamenu.action:138
-#, fuzzy
-msgctxt "action"
-msgid "Save Incremental Version"
-msgstr "Bosib chiqarish oʻlchami"
+msgid "Set eraser mode"
+msgstr "Tanlash usuli:"
 
 #. i18n: context: Action (reload_preset_action), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (reload_preset_action), Actions (General), ActionCollection (Krita)
@@ -3961,7 +3952,7 @@ msgstr ""
 #. i18n: context: Action (preserve_alpha), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (preserve_alpha), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (preserve_alpha), Actions (General), ActionCollection (Krita)
-#: krita.action:370 krita.action:372
+#: krita.action:371 krita.action:373
 #, fuzzy
 msgctxt "action"
 msgid "Preserve Alpha"
@@ -3971,7 +3962,7 @@ msgstr "Rangni palitraga qoʻshish"
 #. i18n: context: Action (hmirror_action), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (hmirror_action), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (hmirror_action), Actions (General), ActionCollection (Krita)
-#: krita.action:381 krita.action:383
+#: krita.action:383 krita.action:385
 #, fuzzy
 msgctxt "action"
 msgid "Set horizontal mirror mode"
@@ -3981,7 +3972,7 @@ msgstr "Ufq 1"
 #. i18n: context: Action (vmirror_action), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (vmirror_action), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (vmirror_action), Actions (General), ActionCollection (Krita)
-#: krita.action:392 krita.action:394
+#: krita.action:395 krita.action:397
 #, fuzzy
 #| msgid "Selection mode:"
 msgctxt "action"
@@ -3992,7 +3983,7 @@ msgstr "Tanlash usuli:"
 #. i18n: context: Action (brushslider3), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (brushslider3), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (brushslider3), Actions (General), ActionCollection (Krita)
-#: krita.action:403 krita.action:405
+#: krita.action:407 krita.action:409
 #, fuzzy
 #| msgid "Brightness"
 msgctxt "action"
@@ -4003,7 +3994,7 @@ msgstr "Yorugʻlik"
 #. i18n: context: Action (next_favorite_preset), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (next_favorite_preset), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (next_favorite_preset), Actions (General), ActionCollection (Krita)
-#: krita.action:414 krita.action:416
+#: krita.action:418 krita.action:420
 #, fuzzy
 #| msgid "Filter Brush"
 msgctxt "action"
@@ -4014,7 +4005,7 @@ msgstr "Filter boʻyogʻi"
 #. i18n: context: Action (previous_favorite_preset), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (previous_favorite_preset), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (previous_favorite_preset), Actions (General), ActionCollection (Krita)
-#: krita.action:425 krita.action:427
+#: krita.action:429 krita.action:431
 #, fuzzy
 #| msgid "Filter Brush"
 msgctxt "action"
@@ -4025,7 +4016,7 @@ msgstr "Filter boʻyogʻi"
 #. i18n: context: Action (previous_preset), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (previous_preset), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (previous_preset), Actions (General), ActionCollection (Krita)
-#: krita.action:436 krita.action:438
+#: krita.action:440 krita.action:442
 #, fuzzy
 #| msgid "Pressure:"
 msgctxt "action"
@@ -4033,32 +4024,32 @@ msgid "Switch to Previous Preset"
 msgstr "Bosim:"
 
 #. i18n: context: Action (windows_cascade), Actions (General), ActionCollection (Krita)
-#: krita.action:447
+#: krita.action:451
 msgctxt "action"
 msgid "C&ascade"
 msgstr ""
 
 #. i18n: context: Action (windows_cascade), Actions (General), ActionCollection (Krita)
-#: krita.action:449
+#: krita.action:453
 msgctxt "action"
 msgid "Cascade"
 msgstr ""
 
 #. i18n: context: Action (windows_tile), Actions (General), ActionCollection (Krita)
-#: krita.action:460
+#: krita.action:464
 #, fuzzy
 msgctxt "action"
 msgid "&Tile"
 msgstr "Oʻlchami&ni oʻzgartirish"
 
 #. i18n: context: Action (windows_tile), Actions (General), ActionCollection (Krita)
-#: krita.action:462
+#: krita.action:466
 msgctxt "action"
 msgid "Tile"
 msgstr ""
 
 #. i18n: context: Action (windows_next), Actions (General), ActionCollection (Krita)
-#: krita.action:473
+#: krita.action:477
 #, fuzzy
 #| msgid "T&ext"
 msgctxt "action"
@@ -4066,7 +4057,7 @@ msgid "N&ext"
 msgstr "&Matn"
 
 #. i18n: context: Action (windows_next), Actions (General), ActionCollection (Krita)
-#: krita.action:475
+#: krita.action:479
 msgctxt "action"
 msgid "Next"
 msgstr ""
@@ -4075,7 +4066,7 @@ msgstr ""
 #. i18n: context: Action (windows_previous), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (windows_previous), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (windows_previous), Actions (General), ActionCollection (Krita)
-#: krita.action:486 krita.action:488
+#: krita.action:490 krita.action:492
 #, fuzzy
 #| msgid "Filter Brush"
 msgctxt "action"
@@ -4083,7 +4074,7 @@ msgid "Previous"
 msgstr "Filter boʻyogʻi"
 
 #. i18n: context: Action (view_newwindow), Actions (General), ActionCollection (Krita)
-#: krita.action:497
+#: krita.action:501
 #, fuzzy
 #| msgid "&Layer"
 msgctxt "action"
@@ -4091,7 +4082,7 @@ msgid "&New Window"
 msgstr "&Qatlam"
 
 #. i18n: context: Action (view_newwindow), Actions (General), ActionCollection (Krita)
-#: krita.action:499
+#: krita.action:503
 #, fuzzy
 #| msgid "&Layer"
 msgctxt "action"
@@ -4102,7 +4093,7 @@ msgstr "&Qatlam"
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (General), ActionCollection (Krita)
-#: krita.action:510 krita.action:512
+#: krita.action:514 krita.action:516
 #, fuzzy
 #| msgid "Move layer up"
 msgctxt "action"
@@ -4113,7 +4104,7 @@ msgstr "Qatlamni yuqoriga koʻchirish"
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (General), ActionCollection (Krita)
-#: krita.action:523 krita.action:525
+#: krita.action:527 krita.action:529
 #, fuzzy
 #| msgid "Move layer up"
 msgctxt "action"
@@ -4121,28 +4112,28 @@ msgid "Move into next group"
 msgstr "Qatlamni yuqoriga koʻchirish"
 
 #. i18n: context: Action (import_resources), Actions (General), ActionCollection (Krita)
-#: krita.action:536
+#: krita.action:540
 #, fuzzy
 msgctxt "action"
 msgid "Import Resources or Bundles..."
 msgstr "Qatlamni &olib tashlash"
 
 #. i18n: context: Action (import_resources), Actions (General), ActionCollection (Krita)
-#: krita.action:538
+#: krita.action:542
 #, fuzzy
 msgctxt "action"
 msgid "Import Resources or Bundles"
 msgstr "Qatlamni &olib tashlash"
 
 #. i18n: context: Action (create_bundle), Actions (General), ActionCollection (Krita)
-#: krita.action:549
+#: krita.action:553
 #, fuzzy
 msgctxt "action"
 msgid "Create Resource Bundle..."
 msgstr "Qatlamni &olib tashlash"
 
 #. i18n: context: Action (create_bundle), Actions (General), ActionCollection (Krita)
-#: krita.action:551
+#: krita.action:555
 #, fuzzy
 msgctxt "action"
 msgid "Create Resource Bundle"
@@ -4152,7 +4143,7 @@ msgstr "Qatlamni &olib tashlash"
 #. i18n: context: Action (mainToolBar), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (mainToolBar), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (mainToolBar), Actions (General), ActionCollection (Krita)
-#: krita.action:562 krita.action:564
+#: krita.action:566 krita.action:568
 #, fuzzy
 #| msgid "Show original layer"
 msgctxt "action"
@@ -4163,7 +4154,7 @@ msgstr "Asl qatlamni koʻrsatish"
 #. i18n: context: Action (BrushesAndStuff), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (BrushesAndStuff), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (BrushesAndStuff), Actions (General), ActionCollection (Krita)
-#: krita.action:573 krita.action:575
+#: krita.action:577 krita.action:579
 #, fuzzy
 msgctxt "action"
 msgid "Hide Brushes and Stuff Toolbar"
@@ -4173,7 +4164,7 @@ msgstr "Choʻtka va boshqa ish qurollari"
 #. i18n: context: Action (zoom_in), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (view_zoom_in), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (zoom_in), Actions (General), ActionCollection (Krita)
-#: krita.action:584 kritamenu.action:545
+#: krita.action:588 kritamenu.action:545
 #, fuzzy
 #| msgid "Zoom In"
 msgctxt "action"
@@ -4184,7 +4175,7 @@ msgstr "Kattalashtirish"
 #. i18n: context: Action (zoom_in), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (view_zoom_in), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (zoom_in), Actions (General), ActionCollection (Krita)
-#: krita.action:586 kritamenu.action:547
+#: krita.action:590 kritamenu.action:547
 #, fuzzy
 #| msgid "Zoom In"
 msgctxt "action"
@@ -4195,7 +4186,7 @@ msgstr "Kattalashtirish"
 #. i18n: context: Action (zoom_out), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (view_zoom_out), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (zoom_out), Actions (General), ActionCollection (Krita)
-#: krita.action:595 kritamenu.action:558
+#: krita.action:599 kritamenu.action:558
 #, fuzzy
 #| msgid "Zoom Out"
 msgctxt "action"
@@ -4206,7 +4197,7 @@ msgstr "Kichiklashtirish"
 #. i18n: context: Action (zoom_out), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (view_zoom_out), Actions (View), ActionCollection (Menu)
 #. i18n: context: Action (zoom_out), Actions (General), ActionCollection (Krita)
-#: krita.action:597 kritamenu.action:560
+#: krita.action:601 kritamenu.action:560
 #, fuzzy
 #| msgid "Zoom Out"
 msgctxt "action"
@@ -4217,7 +4208,7 @@ msgstr "Kichiklashtirish"
 #. i18n: context: Action (reset_fg_bg), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (reset_fg_bg), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (reset_fg_bg), Actions (General), ActionCollection (Krita)
-#: krita.action:606 krita.action:608
+#: krita.action:610 krita.action:612
 #, fuzzy
 #| msgid "Foreground Color"
 msgctxt "action"
@@ -4228,7 +4219,7 @@ msgstr "Oldin fon rangi"
 #. i18n: context: Action (toggle_fg_bg), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (toggle_fg_bg), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (toggle_fg_bg), Actions (General), ActionCollection (Krita)
-#: krita.action:617 krita.action:619
+#: krita.action:621 krita.action:623
 #, fuzzy
 #| msgid "Foreground Color"
 msgctxt "action"
@@ -4239,7 +4230,7 @@ msgstr "Oldin fon rangi"
 #. i18n: context: Action (set_weighted_brush_smoothing), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (set_weighted_brush_smoothing), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (set_weighted_brush_smoothing), Actions (General), ActionCollection (Krita)
-#: krita.action:628 krita.action:630
+#: krita.action:632 krita.action:634
 #, fuzzy
 #| msgid "Smooth"
 msgctxt "action"
@@ -4250,7 +4241,7 @@ msgstr "Tekis"
 #. i18n: context: Action (set_no_brush_smoothing), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (set_no_brush_smoothing), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (set_no_brush_smoothing), Actions (General), ActionCollection (Krita)
-#: krita.action:639 krita.action:641
+#: krita.action:643 krita.action:645
 #, fuzzy
 #| msgid "Settings"
 msgctxt "action"
@@ -4261,7 +4252,7 @@ msgstr "Moslamalar"
 #. i18n: context: Action (set_stabilizer_brush_smoothing), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (set_stabilizer_brush_smoothing), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (set_stabilizer_brush_smoothing), Actions (General), ActionCollection (Krita)
-#: krita.action:650 krita.action:652
+#: krita.action:654 krita.action:656
 #, fuzzy
 #| msgid "Brightness"
 msgctxt "action"
@@ -4272,7 +4263,7 @@ msgstr "Yorugʻlik"
 #. i18n: context: Action (decrease_brush_size), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (decrease_brush_size), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (decrease_brush_size), Actions (General), ActionCollection (Krita)
-#: krita.action:661 krita.action:663
+#: krita.action:665 krita.action:667
 #, fuzzy
 #| msgid "Brush size"
 msgctxt "action"
@@ -4283,7 +4274,7 @@ msgstr "Boʻyoqning oʻlchami"
 #. i18n: context: Action (set_simple_brush_smoothing), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (set_simple_brush_smoothing), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (set_simple_brush_smoothing), Actions (General), ActionCollection (Krita)
-#: krita.action:674 krita.action:676
+#: krita.action:678 krita.action:680
 #, fuzzy
 #| msgid "Settings"
 msgctxt "action"
@@ -4294,7 +4285,7 @@ msgstr "Moslamalar"
 #. i18n: context: Action (increase_brush_size), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (increase_brush_size), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (increase_brush_size), Actions (General), ActionCollection (Krita)
-#: krita.action:685 krita.action:687
+#: krita.action:689 krita.action:691
 #, fuzzy
 msgctxt "action"
 msgid "Increase Brush Size"
@@ -4304,7 +4295,7 @@ msgstr "Nuqta boʻyogʻi"
 #. i18n: context: Action (show_color_selector), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_color_selector), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_color_selector), Actions (General), ActionCollection (Krita)
-#: krita.action:698 krita.action:700
+#: krita.action:702 krita.action:704
 #, fuzzy
 msgctxt "action"
 msgid "Show color selector"
@@ -4314,7 +4305,7 @@ msgstr "Tanlanganni koʻrsatish"
 #. i18n: context: Action (show_mypaint_shade_selector), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_mypaint_shade_selector), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_mypaint_shade_selector), Actions (General), ActionCollection (Krita)
-#: krita.action:709 krita.action:711
+#: krita.action:713 krita.action:715
 #, fuzzy
 msgctxt "action"
 msgid "Show MyPaint shade selector"
@@ -4324,7 +4315,7 @@ msgstr "Tanlanganni chizish"
 #. i18n: context: Action (show_minimal_shade_selector), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_minimal_shade_selector), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_minimal_shade_selector), Actions (General), ActionCollection (Krita)
-#: krita.action:720 krita.action:722
+#: krita.action:724 krita.action:726
 #, fuzzy
 msgctxt "action"
 msgid "Show minimal shade selector"
@@ -4334,7 +4325,7 @@ msgstr "Tanlanganni bekitish"
 #. i18n: context: Action (show_color_history), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_color_history), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_color_history), Actions (General), ActionCollection (Krita)
-#: krita.action:731 krita.action:733
+#: krita.action:735 krita.action:737
 #, fuzzy
 msgctxt "action"
 msgid "Show color history"
@@ -4344,7 +4335,7 @@ msgstr "Tanlanganni koʻrsatish"
 #. i18n: context: Action (show_common_colors), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_common_colors), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_common_colors), Actions (General), ActionCollection (Krita)
-#: krita.action:742 krita.action:744
+#: krita.action:746 krita.action:748
 #, fuzzy
 #| msgid "Show original layer"
 msgctxt "action"
@@ -4355,7 +4346,7 @@ msgstr "Asl qatlamni koʻrsatish"
 #. i18n: context: Action (toggle_assistant), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (toggle_assistant), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (toggle_assistant), Actions (General), ActionCollection (Krita)
-#: krita.action:753 krita.action:755
+#: krita.action:757 krita.action:759
 #, fuzzy
 msgctxt "action"
 msgid "Toggle Assistant"
@@ -4365,7 +4356,7 @@ msgstr "Oʻrnini almashtirishmoq"
 #. i18n: context: Action (undo_polygon_selection), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (undo_polygon_selection), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (undo_polygon_selection), Actions (General), ActionCollection (Krita)
-#: krita.action:764 krita.action:766
+#: krita.action:768 krita.action:770
 #, fuzzy
 msgctxt "action"
 msgid "Undo Polygon Selection Points"
@@ -4377,7 +4368,7 @@ msgstr "Koʻpburchak vositasi"
 #. i18n: context: Action (previous_frame), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (previous_frame), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (previous_frame), Actions (Animation), ActionCollection (Krita)
-#: krita.action:775 krita.action:777 krita.action:2263
+#: krita.action:779 krita.action:781 krita.action:2267
 #, fuzzy
 #| msgid "Move layer up"
 msgctxt "action"
@@ -4390,7 +4381,7 @@ msgstr "Qatlamni yuqoriga koʻchirish"
 #. i18n: context: Action (next_frame), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (next_frame), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (next_frame), Actions (Animation), ActionCollection (Krita)
-#: krita.action:788 krita.action:790 krita.action:2276
+#: krita.action:792 krita.action:794 krita.action:2280
 #, fuzzy
 #| msgid "Move layer up"
 msgctxt "action"
@@ -4405,7 +4396,7 @@ msgstr "Qatlamni yuqoriga koʻchirish"
 #. i18n: context: Action (toggle_playback), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (toggle_playback), Actions (Animation), ActionCollection (Krita)
 #. i18n: context: Action (toggle_playback), Actions (Animation), ActionCollection (Krita)
-#: krita.action:801 krita.action:803 krita.action:2287 krita.action:2289
+#: krita.action:805 krita.action:807 krita.action:2291 krita.action:2293
 #, fuzzy
 #| msgid "Plasma"
 msgctxt "action"
@@ -4420,7 +4411,7 @@ msgstr "Plazma"
 #. i18n: context: Action (add_blank_frame), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (add_blank_frame), Actions (Animation), ActionCollection (Krita)
 #. i18n: context: Action (add_blank_frame), Actions (Animation), ActionCollection (Krita)
-#: krita.action:814 krita.action:816 krita.action:2300 krita.action:2302
+#: krita.action:818 krita.action:820 krita.action:2304 krita.action:2306
 #, fuzzy
 #| msgid "Layer name:"
 msgctxt "action"
@@ -4435,7 +4426,7 @@ msgstr "Qatlamning nomi:"
 #. i18n: context: Action (add_duplicate_frame), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (add_duplicate_frame), Actions (Animation), ActionCollection (Krita)
 #. i18n: context: Action (add_duplicate_frame), Actions (Animation), ActionCollection (Krita)
-#: krita.action:827 krita.action:829 krita.action:2313 krita.action:2315
+#: krita.action:831 krita.action:833 krita.action:2317 krita.action:2319
 #, fuzzy
 msgctxt "action"
 msgid "Add duplicate frame"
@@ -4445,7 +4436,7 @@ msgstr "Nusxasini yaratish"
 #. i18n: context: Action (show_tool_options), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_tool_options), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_tool_options), Actions (General), ActionCollection (Krita)
-#: krita.action:840 krita.action:842
+#: krita.action:844 krita.action:846
 #, fuzzy
 msgctxt "action"
 msgid "Show Tool Options"
@@ -4455,7 +4446,7 @@ msgstr "Alfa moslamalari"
 #. i18n: context: Action (show_brush_editor), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_brush_editor), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_brush_editor), Actions (General), ActionCollection (Krita)
-#: krita.action:851 krita.action:853
+#: krita.action:855 krita.action:857
 #, fuzzy
 #| msgid "Brush size"
 msgctxt "action"
@@ -4466,7 +4457,7 @@ msgstr "Boʻyoqning oʻlchami"
 #. i18n: context: Action (show_brush_presets), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_brush_presets), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (show_brush_presets), Actions (General), ActionCollection (Krita)
-#: krita.action:862 krita.action:864
+#: krita.action:866 krita.action:868
 #, fuzzy
 #| msgid "Pressure:"
 msgctxt "action"
@@ -4477,13 +4468,13 @@ msgstr "Bosim:"
 #. i18n: context: Action (tablet_debugger), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (tablet_debugger), Actions (General), ActionCollection (Krita)
 #. i18n: context: Action (tablet_debugger), Actions (General), ActionCollection (Krita)
-#: krita.action:873 krita.action:875
+#: krita.action:877 krita.action:879
 msgctxt "action"
 msgid "Toggle Tablet Debugger"
 msgstr ""
 
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
-#: krita.action:887
+#: krita.action:891
 #, fuzzy
 #| msgid "Filters"
 msgctxt "action"
@@ -4491,42 +4482,42 @@ msgid "Filters"
 msgstr "Filterlar"
 
 #. i18n: context: Action (krita_filter_colortoalpha), Actions (Filters), ActionCollection (Krita)
-#: krita.action:890
+#: krita.action:894
 #, fuzzy
 msgctxt "action"
 msgid "&Color to Alpha..."
 msgstr "Rangni palitraga qoʻshish"
 
 #. i18n: context: Action (krita_filter_colortoalpha), Actions (Filters), ActionCollection (Krita)
-#: krita.action:892
+#: krita.action:896
 #, fuzzy
 msgctxt "action"
 msgid "Color to Alpha"
 msgstr "Rangni palitraga qoʻshish"
 
 #. i18n: context: Action (krita_filter_top edge detections), Actions (Filters), ActionCollection (Krita)
-#: krita.action:903
+#: krita.action:907
 #, fuzzy
 msgctxt "action"
 msgid "&Top Edge Detection"
 msgstr "Chegarani aniqlash"
 
 #. i18n: context: Action (krita_filter_top edge detections), Actions (Filters), ActionCollection (Krita)
-#: krita.action:905
+#: krita.action:909
 #, fuzzy
 msgctxt "action"
 msgid "Top Edge Detection"
 msgstr "Chegarani aniqlash"
 
 #. i18n: context: Action (krita_filter_indexcolors), Actions (Filters), ActionCollection (Krita)
-#: krita.action:916
+#: krita.action:920
 #, fuzzy
 msgctxt "action"
 msgid "&Index Colors..."
 msgstr "Rang chegarasi"
 
 #. i18n: context: Action (krita_filter_indexcolors), Actions (Filters), ActionCollection (Krita)
-#: krita.action:918
+#: krita.action:922
 #, fuzzy
 #| msgid "Colors"
 msgctxt "action"
@@ -4534,150 +4525,150 @@ msgid "Index Colors"
 msgstr "Ranglar"
 
 #. i18n: context: Action (krita_filter_emboss horizontal only), Actions (Filters), ActionCollection (Krita)
-#: krita.action:929
+#: krita.action:933
 #, fuzzy
 msgctxt "action"
 msgid "Emboss Horizontal &Only"
 msgstr "Ufq 1"
 
 #. i18n: context: Action (krita_filter_emboss horizontal only), Actions (Filters), ActionCollection (Krita)
-#: krita.action:931
+#: krita.action:935
 #, fuzzy
 msgctxt "action"
 msgid "Emboss Horizontal Only"
 msgstr "Ufq 1"
 
 #. i18n: context: Action (krita_filter_dodge), Actions (Filters), ActionCollection (Krita)
-#: krita.action:942
+#: krita.action:946
 #, fuzzy
 msgctxt "action"
 msgid "D&odge"
 msgstr "Usul"
 
 #. i18n: context: Action (krita_filter_dodge), Actions (Filters), ActionCollection (Krita)
-#: krita.action:944
+#: krita.action:948
 #, fuzzy
 msgctxt "action"
 msgid "Dodge"
 msgstr "Usul"
 
 #. i18n: context: Action (krita_filter_sharpen), Actions (Filters), ActionCollection (Krita)
-#: krita.action:955
+#: krita.action:959
 #, fuzzy
 msgctxt "action"
 msgid "&Sharpen"
 msgstr "Shakllar"
 
 #. i18n: context: Action (krita_filter_sharpen), Actions (Filters), ActionCollection (Krita)
-#: krita.action:957
+#: krita.action:961
 #, fuzzy
 msgctxt "action"
 msgid "Sharpen"
 msgstr "Shakllar"
 
 #. i18n: context: Action (krita_filter_burn), Actions (Filters), ActionCollection (Krita)
-#: krita.action:968
+#: krita.action:972
 msgctxt "action"
 msgid "B&urn"
 msgstr ""
 
 #. i18n: context: Action (krita_filter_burn), Actions (Filters), ActionCollection (Krita)
-#: krita.action:970
+#: krita.action:974
 #, fuzzy
 msgctxt "action"
 msgid "Burn"
 msgstr "Malla ranglar"
 
 #. i18n: context: Action (krita_filter_mean removal), Actions (Filters), ActionCollection (Krita)
-#: krita.action:981
+#: krita.action:985
 #, fuzzy
 msgctxt "action"
 msgid "&Mean Removal"
 msgstr "Qatlamni &olib tashlash"
 
 #. i18n: context: Action (krita_filter_mean removal), Actions (Filters), ActionCollection (Krita)
-#: krita.action:983
+#: krita.action:987
 msgctxt "action"
 msgid "Mean Removal"
 msgstr ""
 
 #. i18n: context: Action (krita_filter_gaussian blur), Actions (Filters), ActionCollection (Krita)
-#: krita.action:994
+#: krita.action:998
 #, fuzzy
 msgctxt "action"
 msgid "&Gaussian Blur..."
 msgstr "Chegara..."
 
 #. i18n: context: Action (krita_filter_gaussian blur), Actions (Filters), ActionCollection (Krita)
-#: krita.action:996
+#: krita.action:1000
 #, fuzzy
 msgctxt "action"
 msgid "Gaussian Blur"
 msgstr "Chegara..."
 
 #. i18n: context: Action (krita_filter_emboss all directions), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1007
+#: krita.action:1011
 msgctxt "action"
 msgid "Emboss &in All Directions"
 msgstr ""
 
 #. i18n: context: Action (krita_filter_emboss all directions), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1009
+#: krita.action:1013
 msgctxt "action"
 msgid "Emboss in All Directions"
 msgstr ""
 
 #. i18n: context: Action (krita_filter_smalltiles), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1020
+#: krita.action:1024
 #, fuzzy
 msgctxt "action"
 msgid "&Small Tiles..."
 msgstr "Bitta kichik qadam..."
 
 #. i18n: context: Action (krita_filter_smalltiles), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1022
+#: krita.action:1026
 #, fuzzy
 msgctxt "action"
 msgid "Small Tiles"
 msgstr "Bitta kichik qadam..."
 
 #. i18n: context: Action (krita_filter_levels), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1033
+#: krita.action:1037
 #, fuzzy
 msgctxt "action"
 msgid "&Levels..."
 msgstr "Gʻildirak:"
 
 #. i18n: context: Action (krita_filter_levels), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1035
+#: krita.action:1039
 #, fuzzy
 msgctxt "action"
 msgid "Levels"
 msgstr "Gʻildirak:"
 
 #. i18n: context: Action (krita_filter_sobel), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1046
+#: krita.action:1050
 #, fuzzy
 msgctxt "action"
 msgid "&Sobel..."
 msgstr "&Saqlash..."
 
 #. i18n: context: Action (krita_filter_sobel), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1048
+#: krita.action:1052
 #, fuzzy
 msgctxt "action"
 msgid "Sobel"
 msgstr "Tosh"
 
 #. i18n: context: Action (krita_filter_wave), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1059
+#: krita.action:1063
 #, fuzzy
 msgctxt "action"
 msgid "&Wave..."
 msgstr "Koʻchi&rish"
 
 #. i18n: context: Action (krita_filter_wave), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1061
+#: krita.action:1065
 #, fuzzy
 #| msgid "Slate"
 msgctxt "action"
@@ -4685,75 +4676,75 @@ msgid "Wave"
 msgstr "Shifer"
 
 #. i18n: context: Action (krita_filter_motion blur), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1072
+#: krita.action:1076
 #, fuzzy
 msgctxt "action"
 msgid "&Motion Blur..."
 msgstr "Chegara..."
 
 #. i18n: context: Action (krita_filter_motion blur), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1074
+#: krita.action:1078
 #, fuzzy
 msgctxt "action"
 msgid "Motion Blur"
 msgstr "Och koʻk"
 
 #. i18n: context: Action (krita_filter_perchannel), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1085
+#: krita.action:1089
 #, fuzzy
 msgctxt "action"
 msgid "&Color Adjustment curves..."
 msgstr "&Ranglarni moslash..."
 
 #. i18n: context: Action (krita_filter_perchannel), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1087
+#: krita.action:1091
 #, fuzzy
 msgctxt "action"
 msgid "Color Adjustment curves"
 msgstr "&Ranglarni moslash..."
 
 #. i18n: context: Action (krita_filter_pixelize), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1098
+#: krita.action:1102
 #, fuzzy
 msgctxt "action"
 msgid "Pi&xelize..."
 msgstr "&Piksellash..."
 
 #. i18n: context: Action (krita_filter_pixelize), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1100
+#: krita.action:1104
 #, fuzzy
 msgctxt "action"
 msgid "Pixelize"
 msgstr "Piksellash"
 
 #. i18n: context: Action (krita_filter_emboss laplascian), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1111
+#: krita.action:1115
 msgctxt "action"
 msgid "Emboss (&Laplacian)"
 msgstr ""
 
 #. i18n: context: Action (krita_filter_emboss laplascian), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1113
+#: krita.action:1117
 msgctxt "action"
 msgid "Emboss (Laplacian)"
 msgstr ""
 
 #. i18n: context: Action (krita_filter_left edge detections), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1124
+#: krita.action:1128
 #, fuzzy
 msgctxt "action"
 msgid "&Left Edge Detection"
 msgstr "Chegarani aniqlash"
 
 #. i18n: context: Action (krita_filter_left edge detections), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1126
+#: krita.action:1130
 #, fuzzy
 msgctxt "action"
 msgid "Left Edge Detection"
 msgstr "Chegarani aniqlash"
 
 #. i18n: context: Action (krita_filter_blur), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1137
+#: krita.action:1141
 #, fuzzy
 msgctxt "action"
 msgid "&Blur..."
@@ -4765,14 +4756,14 @@ msgstr "Chegara..."
 #. i18n: context: Action (blur_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (blur_filters), Actions (Filter), ActionCollection (Menu)
 #. i18n: context: Action (krita_filter_blur), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1139 kritamenu.action:1680 kritamenu.action:1682
+#: krita.action:1143 kritamenu.action:1680 kritamenu.action:1682
 #, fuzzy
 msgctxt "action"
 msgid "Blur"
 msgstr "Koʻk"
 
 #. i18n: context: Action (krita_filter_raindrops), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1150
+#: krita.action:1154
 #, fuzzy
 #| msgid "&Raindrops..."
 msgctxt "action"
@@ -4780,7 +4771,7 @@ msgid "&Raindrops..."
 msgstr "&Yomgʻir tomchilari..."
 
 #. i18n: context: Action (krita_filter_raindrops), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1152
+#: krita.action:1156
 #, fuzzy
 #| msgid "Raindrops"
 msgctxt "action"
@@ -4788,124 +4779,124 @@ msgid "Raindrops"
 msgstr "Yomgʻir tomchilari"
 
 #. i18n: context: Action (krita_filter_bottom edge detections), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1163
+#: krita.action:1167
 #, fuzzy
 msgctxt "action"
 msgid "&Bottom Edge Detection"
 msgstr "Chegarani aniqlash"
 
 #. i18n: context: Action (krita_filter_bottom edge detections), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1165
+#: krita.action:1169
 #, fuzzy
 msgctxt "action"
 msgid "Bottom Edge Detection"
 msgstr "Chegarani aniqlash"
 
 #. i18n: context: Action (krita_filter_noise), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1176
+#: krita.action:1180
 #, fuzzy
 msgctxt "action"
 msgid "&Random Noise..."
 msgstr "Tasodifiy"
 
 #. i18n: context: Action (krita_filter_noise), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1178
+#: krita.action:1182
 #, fuzzy
 msgctxt "action"
 msgid "Random Noise"
 msgstr "Tasodifiy"
 
 #. i18n: context: Action (krita_filter_brightnesscontrast), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1189
+#: krita.action:1193
 #, fuzzy
 msgctxt "action"
 msgid "&Brightness/Contrast curve..."
 msgstr "Yorugʻlik / kontrast"
 
 #. i18n: context: Action (krita_filter_brightnesscontrast), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1191
+#: krita.action:1195
 #, fuzzy
 msgctxt "action"
 msgid "Brightness/Contrast curve"
 msgstr "Yorugʻlik / kontrast"
 
 #. i18n: context: Action (krita_filter_colorbalance), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1202
+#: krita.action:1206
 #, fuzzy
 msgctxt "action"
 msgid "Colo&r Balance.."
 msgstr "Rang chegarasi"
 
 #. i18n: context: Action (krita_filter_colorbalance), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1204
+#: krita.action:1208
 #, fuzzy
 msgctxt "action"
 msgid "Color Balance.."
 msgstr "Rang chegarasi"
 
 #. i18n: context: Action (krita_filter_phongbumpmap), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1215
+#: krita.action:1219
 msgctxt "action"
 msgid "&PhongBumpmap..."
 msgstr ""
 
 #. i18n: context: Action (krita_filter_phongbumpmap), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1217
+#: krita.action:1221
 msgctxt "action"
 msgid "PhongBumpmap"
 msgstr ""
 
 #. i18n: context: Action (krita_filter_desaturate), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1228
+#: krita.action:1232
 #, fuzzy
 msgctxt "action"
 msgid "&Desaturate"
 msgstr "&Toʻyintirish"
 
 #. i18n: context: Action (krita_filter_desaturate), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1230
+#: krita.action:1234
 #, fuzzy
 msgctxt "action"
 msgid "Desaturate"
 msgstr "Toʻyintirish"
 
 #. i18n: context: Action (krita_filter_colortransfer), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1241
+#: krita.action:1245
 #, fuzzy
 msgctxt "action"
 msgid "Color &Transfer..."
 msgstr "Rang chegarasi"
 
 #. i18n: context: Action (krita_filter_colortransfer), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1243
+#: krita.action:1247
 #, fuzzy
 msgctxt "action"
 msgid "Color Transfer"
 msgstr "Rang chegarasi"
 
 #. i18n: context: Action (krita_filter_emboss vertical only), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1254
+#: krita.action:1258
 #, fuzzy
 msgctxt "action"
 msgid "Emboss &Vertical Only"
 msgstr "Uskuna:"
 
 #. i18n: context: Action (krita_filter_emboss vertical only), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1256
+#: krita.action:1260
 #, fuzzy
 msgctxt "action"
 msgid "Emboss Vertical Only"
 msgstr "Uskuna:"
 
 #. i18n: context: Action (krita_filter_lens blur), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1267
+#: krita.action:1271
 #, fuzzy
 msgctxt "action"
 msgid "&Lens Blur..."
 msgstr "Chegara..."
 
 #. i18n: context: Action (krita_filter_lens blur), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1269
+#: krita.action:1273
 #, fuzzy
 #| msgid "Lines"
 msgctxt "action"
@@ -4913,35 +4904,35 @@ msgid "Lens Blur"
 msgstr "Chiziqlar"
 
 #. i18n: context: Action (krita_filter_minimize), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1280
+#: krita.action:1284
 #, fuzzy
 msgctxt "action"
 msgid "M&inimize Channel"
 msgstr "&Kanal:"
 
 #. i18n: context: Action (krita_filter_minimize), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1282
+#: krita.action:1286
 #, fuzzy
 msgctxt "action"
 msgid "Minimize Channel"
 msgstr "&Kanal:"
 
 #. i18n: context: Action (krita_filter_maximize), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1293
+#: krita.action:1297
 #, fuzzy
 msgctxt "action"
 msgid "M&aximize Channel"
 msgstr "&Kanal:"
 
 #. i18n: context: Action (krita_filter_maximize), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1295
+#: krita.action:1299
 #, fuzzy
 msgctxt "action"
 msgid "Maximize Channel"
 msgstr "&Kanal:"
 
 #. i18n: context: Action (krita_filter_oilpaint), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1306
+#: krita.action:1310
 #, fuzzy
 #| msgid "&Oilpaint..."
 msgctxt "action"
@@ -4949,7 +4940,7 @@ msgid "&Oilpaint..."
 msgstr "&Moyboʻyoq..."
 
 #. i18n: context: Action (krita_filter_oilpaint), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1308
+#: krita.action:1312
 #, fuzzy
 #| msgid "Oilpaint"
 msgctxt "action"
@@ -4957,21 +4948,21 @@ msgid "Oilpaint"
 msgstr "Moyboʻyoq"
 
 #. i18n: context: Action (krita_filter_right edge detections), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1319
+#: krita.action:1323
 #, fuzzy
 msgctxt "action"
 msgid "&Right Edge Detection"
 msgstr "Chegarani aniqlash"
 
 #. i18n: context: Action (krita_filter_right edge detections), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1321
+#: krita.action:1325
 #, fuzzy
 msgctxt "action"
 msgid "Right Edge Detection"
 msgstr "Chegarani aniqlash"
 
 #. i18n: context: Action (krita_filter_autocontrast), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1332
+#: krita.action:1336
 #, fuzzy
 #| msgid "&Auto Contrast"
 msgctxt "action"
@@ -4979,7 +4970,7 @@ msgid "&Auto Contrast"
 msgstr "A&vto-kontrast"
 
 #. i18n: context: Action (krita_filter_autocontrast), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1334
+#: krita.action:1338
 #, fuzzy
 #| msgid "Auto Contrast"
 msgctxt "action"
@@ -4987,117 +4978,117 @@ msgid "Auto Contrast"
 msgstr "Avto-kontrast"
 
 #. i18n: context: Action (krita_filter_roundcorners), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1345
+#: krita.action:1349
 #, fuzzy
 msgctxt "action"
 msgid "&Round Corners..."
 msgstr "&Burchakni qirrasizlantirish..."
 
 #. i18n: context: Action (krita_filter_roundcorners), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1347
+#: krita.action:1351
 #, fuzzy
 msgctxt "action"
 msgid "Round Corners"
 msgstr "Burchakni qirrasizlantirish"
 
 #. i18n: context: Action (krita_filter_unsharp), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1358
+#: krita.action:1362
 #, fuzzy
 msgctxt "action"
 msgid "&Unsharp Mask..."
 msgstr "Alfa niqob"
 
 #. i18n: context: Action (krita_filter_unsharp), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1360
+#: krita.action:1364
 #, fuzzy
 msgctxt "action"
 msgid "Unsharp Mask"
 msgstr "Alfa niqob"
 
 #. i18n: context: Action (krita_filter_emboss), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1371
+#: krita.action:1375
 msgctxt "action"
 msgid "&Emboss with Variable Depth..."
 msgstr ""
 
 #. i18n: context: Action (krita_filter_emboss), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1373
+#: krita.action:1377
 msgctxt "action"
 msgid "Emboss with Variable Depth"
 msgstr ""
 
 #. i18n: context: Action (krita_filter_emboss horizontal and vertical), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1384
+#: krita.action:1388
 #, fuzzy
 msgctxt "action"
 msgid "Emboss &Horizontal && Vertical"
 msgstr "Ufq 1"
 
 #. i18n: context: Action (krita_filter_emboss horizontal and vertical), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1386
+#: krita.action:1390
 #, fuzzy
 msgctxt "action"
 msgid "Emboss Horizontal & Vertical"
 msgstr "Ufq 1"
 
 #. i18n: context: Action (krita_filter_randompick), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1397
+#: krita.action:1401
 #, fuzzy
 msgctxt "action"
 msgid "Random &Pick..."
 msgstr "Tasodifiy"
 
 #. i18n: context: Action (krita_filter_randompick), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1399
+#: krita.action:1403
 #, fuzzy
 msgctxt "action"
 msgid "Random Pick"
 msgstr "Tasodifiy"
 
 #. i18n: context: Action (krita_filter_gaussiannoisereducer), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1410
+#: krita.action:1414
 #, fuzzy
 msgctxt "action"
 msgid "&Gaussian Noise Reduction..."
 msgstr "Tanlanganni bekitish"
 
 #. i18n: context: Action (krita_filter_gaussiannoisereducer), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1412
+#: krita.action:1416
 #, fuzzy
 msgctxt "action"
 msgid "Gaussian Noise Reduction"
 msgstr "Tanlanganni bekitish"
 
 #. i18n: context: Action (krita_filter_posterize), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1423
+#: krita.action:1427
 #, fuzzy
 msgctxt "action"
 msgid "&Posterize..."
 msgstr "&Piksellash..."
 
 #. i18n: context: Action (krita_filter_posterize), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1425
+#: krita.action:1429
 #, fuzzy
 msgctxt "action"
 msgid "Posterize"
 msgstr "&Piksellash..."
 
 #. i18n: context: Action (krita_filter_waveletnoisereducer), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1436
+#: krita.action:1440
 #, fuzzy
 msgctxt "action"
 msgid "&Wavelet Noise Reducer..."
 msgstr "Tanlanganni bekitish"
 
 #. i18n: context: Action (krita_filter_waveletnoisereducer), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1438
+#: krita.action:1442
 #, fuzzy
 msgctxt "action"
 msgid "Wavelet Noise Reducer"
 msgstr "Tanlanganni bekitish"
 
 #. i18n: context: Action (krita_filter_hsvadjustment), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1449
+#: krita.action:1453
 #, fuzzy
 #| msgid "Color Adjustment"
 msgctxt "action"
@@ -5105,7 +5096,7 @@ msgid "&HSV Adjustment..."
 msgstr "Ranglarni moslash"
 
 #. i18n: context: Action (krita_filter_hsvadjustment), Actions (Filters), ActionCollection (Krita)
-#: krita.action:1451
+#: krita.action:1455
 #, fuzzy
 #| msgid "Color Adjustment"
 msgctxt "action"
@@ -5113,7 +5104,7 @@ msgid "HSV Adjustment"
 msgstr "Ranglarni moslash"
 
 #. i18n: context: Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1463
+#: krita.action:1467
 #, fuzzy
 #| msgid "Short"
 msgctxt "action"
@@ -5124,7 +5115,7 @@ msgstr "Qisqa"
 #. i18n: context: Action (KritaShape/KisToolDyna), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolDyna), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolDyna), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1466 krita.action:1468
+#: krita.action:1470 krita.action:1472
 #, fuzzy
 #| msgid "Brush Tool"
 msgctxt "action"
@@ -5135,28 +5126,28 @@ msgstr "Boʻyoq vositasi"
 #. i18n: context: Actions (Crop Tool), ActionCollection (Tools)
 #. i18n: context: Action (KisToolCrop), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Actions (Crop Tool), ActionCollection (Tools)
-#: krita.action:1477 plugins/tools/tool_crop/KisToolCrop.action:4
+#: krita.action:1481 plugins/tools/tool_crop/KisToolCrop.action:4
 #, fuzzy
 msgctxt "action"
 msgid "Crop Tool"
 msgstr "Shrift vositasi"
 
 #. i18n: context: Action (KisToolCrop), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1479
+#: krita.action:1483
 #, fuzzy
 msgctxt "action"
 msgid "Crop the image to an area"
 msgstr "Rasmni kesish"
 
 #. i18n: context: Action (KisToolPerspectiveGrid), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1488
+#: krita.action:1492
 #, fuzzy
 msgctxt "action"
 msgid "Perspective Grid"
 msgstr "Boshqa shaklga almashtirish"
 
 #. i18n: context: Action (KisToolPerspectiveGrid), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1490
+#: krita.action:1494
 #, fuzzy
 msgctxt "action"
 msgid "Edit the perspective grid"
@@ -5166,7 +5157,7 @@ msgstr "Boshqa shaklga almashtirish"
 #. i18n: context: Actions (Polygon Tool), ActionCollection (Tools)
 #. i18n: context: Action (KisToolPolygon), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Actions (Polygon Tool), ActionCollection (Tools)
-#: krita.action:1499 plugins/tools/tool_polygon/KisToolPolygon.action:4
+#: krita.action:1503 plugins/tools/tool_polygon/KisToolPolygon.action:4
 #, fuzzy
 #| msgid "Polygon Tool"
 msgctxt "action"
@@ -5174,7 +5165,7 @@ msgid "Polygon Tool"
 msgstr "Koʻpburchak vositasi"
 
 #. i18n: context: Action (KisToolPolygon), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1501
+#: krita.action:1505
 msgctxt "action"
 msgid "Polygon Tool. Shift-mouseclick ends the polygon."
 msgstr ""
@@ -5183,7 +5174,7 @@ msgstr ""
 #. i18n: context: Action (ReferencesTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (ReferencesTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (ReferencesTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1510 krita.action:1512
+#: krita.action:1514 krita.action:1516
 #, fuzzy
 #| msgid "Preferences"
 msgctxt "action"
@@ -5194,7 +5185,7 @@ msgstr "Moslamalar"
 #. i18n: context: Action (KritaShape/KisToolRectangle), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolRectangle), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolRectangle), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1521 krita.action:1523
+#: krita.action:1525 krita.action:1527
 #, fuzzy
 #| msgid "Rectangle Tool"
 msgctxt "action"
@@ -5205,7 +5196,7 @@ msgstr "Toʻgʻri burchak vositasi"
 #. i18n: context: Action (KritaShape/KisToolMultiBrush), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolMultiBrush), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolMultiBrush), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1532 krita.action:1534
+#: krita.action:1536 krita.action:1538
 #, fuzzy
 #| msgid "Brush Tool"
 msgctxt "action"
@@ -5216,7 +5207,7 @@ msgstr "Boʻyoq vositasi"
 #. i18n: context: Action (InteractionTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (InteractionTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (InteractionTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1543 krita.action:1545
+#: krita.action:1547 krita.action:1549
 #, fuzzy
 #| msgid "Rectangular Select Tool"
 msgctxt "action"
@@ -5224,7 +5215,7 @@ msgid "Shape Manipulation Tool"
 msgstr "Toʻgʻri burchak maydonni tanlash vositasi"
 
 #. i18n: context: Action (KritaSelected/KisToolColorPicker), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1554
+#: krita.action:1558
 #, fuzzy
 #| msgid "Color Picker"
 msgctxt "action"
@@ -5232,14 +5223,14 @@ msgid "Color Picker"
 msgstr "Rang tanlagich"
 
 #. i18n: context: Action (KritaSelected/KisToolColorPicker), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1556
+#: krita.action:1560
 #, fuzzy
 msgctxt "action"
 msgid "Select a color from the image or current layer"
 msgstr "Oʻxshash ranglarni tanlash"
 
 #. i18n: context: Action (TextTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1565
+#: krita.action:1569
 #, fuzzy
 #| msgid "Text Tool"
 msgctxt "action"
@@ -5247,7 +5238,7 @@ msgid "Text Editing Tool"
 msgstr "Matn vositasi"
 
 #. i18n: context: Action (TextTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1567
+#: krita.action:1571
 #, fuzzy
 msgctxt "action"
 msgid "Text editing"
@@ -5259,7 +5250,7 @@ msgstr "Alfa moslamalari"
 #. i18n: context: Action (KisToolSelectOutline), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolSelectOutline), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Actions (Outline Selection Tool), ActionCollection (Tools)
-#: krita.action:1576 krita.action:1578
+#: krita.action:1580 krita.action:1582
 #: plugins/tools/selectiontools/KisToolSelectOutline.action:4
 #, fuzzy
 msgctxt "action"
@@ -5267,13 +5258,13 @@ msgid "Outline Selection Tool"
 msgstr "Tanlanganni bekitish"
 
 #. i18n: context: Action (ArtisticTextTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1589
+#: krita.action:1593
 msgctxt "action"
 msgid "Artistic text editing"
 msgstr ""
 
 #. i18n: context: Action (KisToolSelectPath), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1598
+#: krita.action:1602
 #, fuzzy
 msgctxt "action"
 msgid "Bezier Curve Selection Tool"
@@ -5283,21 +5274,21 @@ msgstr "Tanlanganni bekitish"
 #. i18n: context: Action (KisToolSelectSimilar), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolSelectPath), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolSelectSimilar), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1600 krita.action:1611
+#: krita.action:1604 krita.action:1615
 #, fuzzy
 msgctxt "action"
 msgid "Select a "
 msgstr "Tanlash"
 
 #. i18n: context: Action (KisToolSelectSimilar), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1609
+#: krita.action:1613
 #, fuzzy
 msgctxt "action"
 msgid "Similar Color Selection Tool"
 msgstr "Tanlanganni koʻrsatish"
 
 #. i18n: context: Action (KritaFill/KisToolFill), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1620
+#: krita.action:1624
 #, fuzzy
 #| msgid "Ellipse Tool"
 msgctxt "action"
@@ -5305,7 +5296,7 @@ msgid "Fill Tool"
 msgstr "Ellips vositasi"
 
 #. i18n: context: Action (KritaFill/KisToolFill), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1622
+#: krita.action:1626
 msgctxt "action"
 msgid "Fill a contiguous area of color with a color, or fill a selection."
 msgstr ""
@@ -5314,7 +5305,7 @@ msgstr ""
 #. i18n: context: Action (KritaShape/KisToolLine), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolLine), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolLine), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1631 krita.action:1633
+#: krita.action:1635 krita.action:1637
 #, fuzzy
 #| msgid "Line Tool"
 msgctxt "action"
@@ -5325,7 +5316,7 @@ msgstr "Toʻgʻri chiziq vositasi"
 #. i18n: context: Action (KisToolPencil), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolPencil), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolPencil), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1642 krita.action:1644
+#: krita.action:1646 krita.action:1648
 #, fuzzy
 #| msgid "Brush Tool"
 msgctxt "action"
@@ -5336,7 +5327,7 @@ msgstr "Boʻyoq vositasi"
 #. i18n: context: Action (KisToolPath), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolPath), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolPath), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1653 krita.action:1655
+#: krita.action:1657 krita.action:1659
 msgctxt "action"
 msgid "Bezier Curve Tool. Shift-mouseclick ends the curve."
 msgstr ""
@@ -5345,7 +5336,7 @@ msgstr ""
 #. i18n: context: Action (KritaShape/KisToolEllipse), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolEllipse), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolEllipse), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1664 krita.action:1666
+#: krita.action:1668 krita.action:1670
 #, fuzzy
 #| msgid "Ellipse Tool"
 msgctxt "action"
@@ -5356,7 +5347,7 @@ msgstr "Ellips vositasi"
 #. i18n: context: Action (KritaShape/KisToolBrush), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolBrush), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolBrush), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1675 krita.action:1677
+#: krita.action:1679 krita.action:1681
 #, fuzzy
 #| msgid "Brush Tool"
 msgctxt "action"
@@ -5367,7 +5358,7 @@ msgstr "Boʻyoq vositasi"
 #. i18n: context: Action (CreateShapesTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (CreateShapesTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (CreateShapesTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1686 krita.action:1688
+#: krita.action:1690 krita.action:1692
 #, fuzzy
 #| msgid "Create"
 msgctxt "action"
@@ -5380,7 +5371,7 @@ msgstr "Yaratish"
 #. i18n: context: Action (KisToolSelectElliptical), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolSelectElliptical), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Actions (Elliptical Selection Tool), ActionCollection (Tools)
-#: krita.action:1697 krita.action:1699
+#: krita.action:1701 krita.action:1703
 #: plugins/tools/selectiontools/KisToolSelectElliptical.action:4
 #, fuzzy
 msgctxt "action"
@@ -5393,7 +5384,7 @@ msgstr "Ellips maydonni tanlash"
 #. i18n: context: Action (KisToolSelectContiguous), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolSelectContiguous), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Actions (Contiguous Selection Tool), ActionCollection (Tools)
-#: krita.action:1708 krita.action:1710
+#: krita.action:1712 krita.action:1714
 #: plugins/tools/selectiontools/KisToolSelectContiguous.action:4
 #, fuzzy
 msgctxt "action"
@@ -5404,7 +5395,7 @@ msgstr "Choʻtka tanlash"
 #. i18n: context: Action (KarbonPatternTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KarbonPatternTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KarbonPatternTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1719 krita.action:1721
+#: krita.action:1723 krita.action:1725
 #, fuzzy
 msgctxt "action"
 msgid "Pattern editing"
@@ -5414,7 +5405,7 @@ msgstr "Palitraga qoʻshish:"
 #. i18n: context: Action (ReviewTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (ReviewTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (ReviewTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1730 krita.action:1732
+#: krita.action:1734 krita.action:1736
 #, fuzzy
 #| msgid "Preview"
 msgctxt "action"
@@ -5425,7 +5416,7 @@ msgstr "Koʻrib chiqish"
 #. i18n: context: Action (KritaFill/KisToolGradient), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaFill/KisToolGradient), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaFill/KisToolGradient), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1741 krita.action:1743
+#: krita.action:1745 krita.action:1747
 #, fuzzy
 msgctxt "action"
 msgid "Draw a gradient."
@@ -5435,7 +5426,7 @@ msgstr "Gradient chizish"
 #. i18n: context: Action (KisToolGrid), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolGrid), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolGrid), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1752 krita.action:1754
+#: krita.action:1756 krita.action:1758
 #, fuzzy
 msgctxt "action"
 msgid "Edit the grid"
@@ -5447,7 +5438,7 @@ msgstr "Boshqa shaklga almashtirish"
 #. i18n: context: Action (KisToolSelectPolygonal), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolSelectPolygonal), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Actions (Polygonal Selection Tool), ActionCollection (Tools)
-#: krita.action:1763 krita.action:1765
+#: krita.action:1767 krita.action:1769
 #: plugins/tools/selectiontools/KisToolSelectPolygonal.action:4
 #, fuzzy
 msgctxt "action"
@@ -5458,7 +5449,7 @@ msgstr "Koʻpburchak vositasi"
 #. i18n: context: Action (KritaShape/KisToolMeasure), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolMeasure), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolMeasure), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1774 krita.action:1776
+#: krita.action:1778 krita.action:1780
 msgctxt "action"
 msgid "Measure the distance between two points"
 msgstr ""
@@ -5469,7 +5460,7 @@ msgstr ""
 #. i18n: context: Action (KisToolSelectRectangular), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolSelectRectangular), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Actions (Rectangular Selection Tool), ActionCollection (Tools)
-#: krita.action:1785 krita.action:1787
+#: krita.action:1789 krita.action:1791
 #: plugins/tools/selectiontools/KisToolSelectRectangular.action:4
 #, fuzzy
 #| msgid "Rectangular Select Tool"
@@ -5481,7 +5472,7 @@ msgstr "Toʻgʻri burchak maydonni tanlash vositasi"
 #. i18n: context: Action (KritaTransform/KisToolMove), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaTransform/KisToolMove), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaTransform/KisToolMove), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1796 krita.action:1798
+#: krita.action:1800 krita.action:1802
 #, fuzzy
 #| msgid "Move Layer"
 msgctxt "action"
@@ -5492,7 +5483,7 @@ msgstr "Qatlamni koʻchirish"
 #. i18n: context: Action (VectorTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (VectorTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (VectorTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1807 krita.action:1809
+#: krita.action:1811 krita.action:1813
 msgctxt "action"
 msgid "Vector Image (EMF/WMF/SVM/SVG) tool"
 msgstr ""
@@ -5501,7 +5492,7 @@ msgstr ""
 #. i18n: context: Action (KarbonCalligraphyTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KarbonCalligraphyTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KarbonCalligraphyTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1818 krita.action:1820
+#: krita.action:1822 krita.action:1824
 msgctxt "action"
 msgid "Calligraphy"
 msgstr ""
@@ -5510,7 +5501,7 @@ msgstr ""
 #. i18n: context: Action (PathTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (PathTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (PathTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1829 krita.action:1831
+#: krita.action:1833 krita.action:1835
 #, fuzzy
 #| msgid "Selection"
 msgctxt "action"
@@ -5521,7 +5512,7 @@ msgstr "Tanlash"
 #. i18n: context: Action (KisToolPolyline), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolPolyline), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolPolyline), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1840 krita.action:1842
+#: krita.action:1844 krita.action:1846
 msgctxt "action"
 msgid "Polyline Tool. Shift-mouseclick ends the polyline."
 msgstr ""
@@ -5530,7 +5521,7 @@ msgstr ""
 #. i18n: context: Action (KisToolTransform), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolTransform), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolTransform), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1851 krita.action:1853
+#: krita.action:1855 krita.action:1857
 #, fuzzy
 msgctxt "action"
 msgid "Transform a layer or a selection"
@@ -5540,7 +5531,7 @@ msgstr "Tanlanganni chizish"
 #. i18n: context: Action (KisRulerAssistantTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisRulerAssistantTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisRulerAssistantTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1862 krita.action:1864
+#: krita.action:1866 krita.action:1868
 #, fuzzy
 msgctxt "action"
 msgid "Ruler assistant editor tool"
@@ -5550,7 +5541,7 @@ msgstr "Oʻrnini almashtirishmoq"
 #. i18n: context: Action (KritaShape/KisToolText), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolText), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KritaShape/KisToolText), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1873 krita.action:1875
+#: krita.action:1877 krita.action:1879
 #, fuzzy
 #| msgid "Text Tool"
 msgctxt "action"
@@ -5561,7 +5552,7 @@ msgstr "Matn vositasi"
 #. i18n: context: Action (KarbonGradientTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KarbonGradientTool), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KarbonGradientTool), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1884 krita.action:1886
+#: krita.action:1888 krita.action:1890
 #, fuzzy
 #| msgid "Gradients"
 msgctxt "action"
@@ -5572,14 +5563,14 @@ msgstr "Gradientlar"
 #. i18n: context: Action (KisToolSelectBrush), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolSelectBrush), Actions (tool-shortcuts), ActionCollection (Krita)
 #. i18n: context: Action (KisToolSelectBrush), Actions (tool-shortcuts), ActionCollection (Krita)
-#: krita.action:1895 krita.action:1897
+#: krita.action:1899 krita.action:1901
 #, fuzzy
 msgctxt "action"
 msgid "Brush Selection Tool"
 msgstr "Choʻtka tanlash"
 
 #. i18n: context: Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:1907
+#: krita.action:1911
 #, fuzzy
 msgctxt "action"
 msgid "Blending Modes"
@@ -5589,7 +5580,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Next Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Next Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Next Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:1910 krita.action:1912
+#: krita.action:1914 krita.action:1916
 #, fuzzy
 msgctxt "action"
 msgid "Next Blending Mode"
@@ -5599,7 +5590,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Previous Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Previous Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Previous Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:1921 krita.action:1923
+#: krita.action:1925 krita.action:1927
 #, fuzzy
 msgctxt "action"
 msgid "Previous Blending Mode"
@@ -5609,7 +5600,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Normal Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Normal Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Normal Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:1932 krita.action:1934
+#: krita.action:1936 krita.action:1938
 #, fuzzy
 msgctxt "action"
 msgid "Select Normal Blending Mode"
@@ -5619,7 +5610,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Dissolve Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Dissolve Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Dissolve Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:1945 krita.action:1947
+#: krita.action:1949 krita.action:1951
 #, fuzzy
 #| msgid "Selection mode:"
 msgctxt "action"
@@ -5630,7 +5621,7 @@ msgstr "Tanlash usuli:"
 #. i18n: context: Action (Select Behind Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Behind Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Behind Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:1958 krita.action:1960
+#: krita.action:1962 krita.action:1964
 #, fuzzy
 msgctxt "action"
 msgid "Select Behind Blending Mode"
@@ -5640,7 +5631,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Clear Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Clear Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Clear Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:1971 krita.action:1973
+#: krita.action:1975 krita.action:1977
 #, fuzzy
 msgctxt "action"
 msgid "Select Clear Blending Mode"
@@ -5650,7 +5641,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Darken Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Darken Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Darken Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:1984 krita.action:1986
+#: krita.action:1988 krita.action:1990
 #, fuzzy
 msgctxt "action"
 msgid "Select Darken Blending Mode"
@@ -5660,7 +5651,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Multiply Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Multiply Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Multiply Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:1997 krita.action:1999
+#: krita.action:2001 krita.action:2003
 #, fuzzy
 msgctxt "action"
 msgid "Select Multiply Blending Mode"
@@ -5670,7 +5661,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Color Burn Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Color Burn Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Color Burn Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2010 krita.action:2012
+#: krita.action:2014 krita.action:2016
 #, fuzzy
 msgctxt "action"
 msgid "Select Color Burn Blending Mode"
@@ -5680,7 +5671,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Linear Burn Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Linear Burn Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Linear Burn Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2023 krita.action:2025
+#: krita.action:2027 krita.action:2029
 #, fuzzy
 msgctxt "action"
 msgid "Select Linear Burn Blending Mode"
@@ -5690,7 +5681,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Lighten Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Lighten Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Lighten Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2036 krita.action:2038
+#: krita.action:2040 krita.action:2042
 #, fuzzy
 msgctxt "action"
 msgid "Select Lighten Blending Mode"
@@ -5700,7 +5691,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Screen Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Screen Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Screen Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2049 krita.action:2051
+#: krita.action:2053 krita.action:2055
 #, fuzzy
 msgctxt "action"
 msgid "Select Screen Blending Mode"
@@ -5710,7 +5701,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Color Dodge Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Color Dodge Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Color Dodge Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2062 krita.action:2064
+#: krita.action:2066 krita.action:2068
 #, fuzzy
 msgctxt "action"
 msgid "Select Color Dodge Blending Mode"
@@ -5720,7 +5711,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Linear Dodge Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Linear Dodge Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Linear Dodge Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2075 krita.action:2077
+#: krita.action:2079 krita.action:2081
 #, fuzzy
 msgctxt "action"
 msgid "Select Linear Dodge Blending Mode"
@@ -5730,7 +5721,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Overlay Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Overlay Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Overlay Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2088 krita.action:2090
+#: krita.action:2092 krita.action:2094
 #, fuzzy
 msgctxt "action"
 msgid "Select Overlay Blending Mode"
@@ -5740,7 +5731,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Soft Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Soft Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Soft Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2101 krita.action:2103
+#: krita.action:2105 krita.action:2107
 #, fuzzy
 msgctxt "action"
 msgid "Select Soft Light Blending Mode"
@@ -5750,7 +5741,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Hard Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Hard Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Hard Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2114 krita.action:2116
+#: krita.action:2118 krita.action:2120
 #, fuzzy
 msgctxt "action"
 msgid "Select Hard Light Blending Mode"
@@ -5760,7 +5751,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Vivid Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Vivid Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Vivid Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2127 krita.action:2129
+#: krita.action:2131 krita.action:2133
 #, fuzzy
 msgctxt "action"
 msgid "Select Vivid Light Blending Mode"
@@ -5770,7 +5761,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Linear Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Linear Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Linear Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2140 krita.action:2142
+#: krita.action:2144 krita.action:2146
 #, fuzzy
 msgctxt "action"
 msgid "Select Linear Light Blending Mode"
@@ -5780,7 +5771,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Pin Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Pin Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Pin Light Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2153 krita.action:2155
+#: krita.action:2157 krita.action:2159
 #, fuzzy
 msgctxt "action"
 msgid "Select Pin Light Blending Mode"
@@ -5790,7 +5781,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Hard Mix Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Hard Mix Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Hard Mix Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2166 krita.action:2168
+#: krita.action:2170 krita.action:2172
 #, fuzzy
 msgctxt "action"
 msgid "Select Hard Mix Blending Mode"
@@ -5800,7 +5791,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Difference Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Difference Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Difference Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2179 krita.action:2181
+#: krita.action:2183 krita.action:2185
 #, fuzzy
 msgctxt "action"
 msgid "Select Difference Blending Mode"
@@ -5810,7 +5801,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Exclusion Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Exclusion Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Exclusion Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2192 krita.action:2194
+#: krita.action:2196 krita.action:2198
 #, fuzzy
 #| msgid "Selection mode:"
 msgctxt "action"
@@ -5821,7 +5812,7 @@ msgstr "Tanlash usuli:"
 #. i18n: context: Action (Select Hue Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Hue Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Hue Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2205 krita.action:2207
+#: krita.action:2209 krita.action:2211
 #, fuzzy
 msgctxt "action"
 msgid "Select Hue Blending Mode"
@@ -5831,7 +5822,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Saturation Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Saturation Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Saturation Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2218 krita.action:2220
+#: krita.action:2222 krita.action:2224
 #, fuzzy
 #| msgid "Selection mode:"
 msgctxt "action"
@@ -5842,7 +5833,7 @@ msgstr "Tanlash usuli:"
 #. i18n: context: Action (Select Color Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Color Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Color Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2231 krita.action:2233
+#: krita.action:2235 krita.action:2237
 #, fuzzy
 msgctxt "action"
 msgid "Select Color Blending Mode"
@@ -5852,7 +5843,7 @@ msgstr "Aralashtirish usuli"
 #. i18n: context: Action (Select Luminosity Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Luminosity Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
 #. i18n: context: Action (Select Luminosity Blending Mode), Actions (Blending Modes), ActionCollection (Krita)
-#: krita.action:2244 krita.action:2246
+#: krita.action:2248 krita.action:2250
 #, fuzzy
 #| msgid "Selection mode:"
 msgctxt "action"
@@ -5860,7 +5851,7 @@ msgid "Select Luminosity Blending Mode"
 msgstr "Tanlash usuli:"
 
 #. i18n: context: Actions (Animation), ActionCollection (Krita)
-#: krita.action:2258
+#: krita.action:2262
 #, fuzzy
 #| msgid "Animated"
 msgctxt "action"
@@ -5868,7 +5859,7 @@ msgid "Animation"
 msgstr "Animatsiyali"
 
 #. i18n: context: Action (previous_frame), Actions (Animation), ActionCollection (Krita)
-#: krita.action:2261
+#: krita.action:2265
 #, fuzzy
 #| msgid "Filter Brush"
 msgctxt "action"
@@ -5876,7 +5867,7 @@ msgid "Previous frame"
 msgstr "Filter boʻyogʻi"
 
 #. i18n: context: Action (next_frame), Actions (Animation), ActionCollection (Krita)
-#: krita.action:2274
+#: krita.action:2278
 #, fuzzy
 #| msgid "Remove Layer"
 msgctxt "action"
@@ -5887,14 +5878,14 @@ msgstr "Qatlamni olib tashlash"
 #. i18n: context: Action (toggle_onion_skin), Actions (Animation), ActionCollection (Krita)
 #. i18n: context: Action (toggle_onion_skin), Actions (Animation), ActionCollection (Krita)
 #. i18n: context: Action (toggle_onion_skin), Actions (Animation), ActionCollection (Krita)
-#: krita.action:2326 krita.action:2328
+#: krita.action:2330 krita.action:2332
 #, fuzzy
 msgctxt "action"
 msgid "Toggle onion skin"
 msgstr "Oʻrnini almashtirishmoq"
 
 #. i18n: context: Action (previous_keyframe), Actions (Animation), ActionCollection (Krita)
-#: krita.action:2339
+#: krita.action:2343
 #, fuzzy
 #| msgid "Filter Brush"
 msgctxt "action"
@@ -5902,7 +5893,7 @@ msgid "Previous Keyframe"
 msgstr "Filter boʻyogʻi"
 
 #. i18n: context: Action (next_keyframe), Actions (Animation), ActionCollection (Krita)
-#: krita.action:2350
+#: krita.action:2354
 #, fuzzy
 #| msgid "Layer name:"
 msgctxt "action"
@@ -5910,7 +5901,7 @@ msgid "Next Keyframe"
 msgstr "Qatlamning nomi:"
 
 #. i18n: context: Action (first_frame), Actions (Animation), ActionCollection (Krita)
-#: krita.action:2361
+#: krita.action:2365
 #, fuzzy
 #| msgid "Filter Brush"
 msgctxt "action"
@@ -5918,7 +5909,7 @@ msgid "First Frame"
 msgstr "Filter boʻyogʻi"
 
 #. i18n: context: Action (last_frame), Actions (Animation), ActionCollection (Krita)
-#: krita.action:2372
+#: krita.action:2376
 #, fuzzy
 #| msgid "Named Colors"
 msgctxt "action"
@@ -5926,7 +5917,7 @@ msgid "Last Frame"
 msgstr "Nomlangan ranglar"
 
 #. i18n: context: Action (lazy_frame), Actions (Animation), ActionCollection (Krita)
-#: krita.action:2383
+#: krita.action:2387
 #, fuzzy
 #| msgid "&Autoupdate"
 msgctxt "action"
@@ -5934,28 +5925,28 @@ msgid "Auto Frame Mode"
 msgstr "&Avto-yangilash"
 
 #. i18n: context: Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2395
+#: krita.action:2399
 #, fuzzy
 msgctxt "action"
 msgid "Unknown"
 msgstr "Namuna sifatida ishlatish"
 
 #. i18n: context: Action (rename_composition), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2398
+#: krita.action:2402
 #, fuzzy
 msgctxt "action"
 msgid "Rename Composition..."
 msgstr "Kompozitsiyasiz"
 
 #. i18n: context: Action (rename_composition), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2400
+#: krita.action:2404
 #, fuzzy
 msgctxt "action"
 msgid "Rename Composition"
 msgstr "Kompozitsiyasiz"
 
 #. i18n: context: Action (convert_selection_to_shape), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2450
+#: krita.action:2454
 #, fuzzy
 #| msgid "&Invert"
 msgctxt "action"
@@ -5963,7 +5954,7 @@ msgid "Convert &to Shape"
 msgstr "&Teskari"
 
 #. i18n: context: Action (convert_selection_to_shape), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2452
+#: krita.action:2456
 #, fuzzy
 #| msgid "&Invert"
 msgctxt "action"
@@ -5971,7 +5962,7 @@ msgid "Convert to Shape"
 msgstr "&Teskari"
 
 #. i18n: context: Action (remove_layer), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2463
+#: krita.action:2467
 #, fuzzy
 #| msgid "&Remove Layer"
 msgctxt "action"
@@ -5979,7 +5970,7 @@ msgid "&Remove Layer"
 msgstr "Qatlamni &olib tashlash"
 
 #. i18n: context: Action (remove_layer), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2465
+#: krita.action:2469
 #, fuzzy
 #| msgid "Remove Layer"
 msgctxt "action"
@@ -5990,7 +5981,7 @@ msgstr "Qatlamni olib tashlash"
 #. i18n: context: Action (move_layer_left), Actions (Unknown), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_left), Actions (Unknown), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_left), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2476 krita.action:2478
+#: krita.action:2480 krita.action:2482
 #, fuzzy
 #| msgid "Move Layer"
 msgctxt "action"
@@ -6001,7 +5992,7 @@ msgstr "Qatlamni koʻchirish"
 #. i18n: context: Action (move_layer_right), Actions (Unknown), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_right), Actions (Unknown), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_right), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2489 krita.action:2491
+#: krita.action:2493 krita.action:2495
 #, fuzzy
 #| msgid "Move Layer"
 msgctxt "action"
@@ -6012,7 +6003,7 @@ msgstr "Qatlamni koʻchirish"
 #. i18n: context: Action (layer_properties), Actions (Unknown), ActionCollection (Krita)
 #. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
 #. i18n: context: Action (layer_properties), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2502 kritamenu.action:712
+#: krita.action:2506 kritamenu.action:712
 #, fuzzy
 msgctxt "action"
 msgid "&Properties..."
@@ -6022,14 +6013,14 @@ msgstr "Qatlamning xossalari"
 #. i18n: context: Action (layer_properties), Actions (Unknown), ActionCollection (Krita)
 #. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
 #. i18n: context: Action (layer_properties), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2504 kritamenu.action:714
+#: krita.action:2508 kritamenu.action:714
 #, fuzzy
 msgctxt "action"
 msgid "Properties"
 msgstr "Qatlamning xossalari"
 
 #. i18n: context: Action (select_opaque), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2515
+#: krita.action:2519
 #, fuzzy
 msgctxt "action"
 msgid "&Select Opaque"
@@ -6039,21 +6030,21 @@ msgstr "Tanlash"
 #. i18n: context: Action (select_opaque), Actions (Unknown), ActionCollection (Krita)
 #. i18n: context: Action (selectopaque), Actions (Select), ActionCollection (Menu)
 #. i18n: context: Action (select_opaque), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2517 kritamenu.action:1578
+#: krita.action:2521 kritamenu.action:1578
 #, fuzzy
 msgctxt "action"
 msgid "Select Opaque"
 msgstr "Tanlash"
 
 #. i18n: context: Action (show-global-selection-mask), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2528
+#: krita.action:2532
 #, fuzzy
 msgctxt "action"
 msgid "&Show Global Selection Mask"
 msgstr "Tanlash boʻyogʻi"
 
 #. i18n: context: Action (show-global-selection-mask), Actions (Unknown), ActionCollection (Krita)
-#: krita.action:2530
+#: krita.action:2534
 msgctxt "action"
 msgid ""
 "Shows global selection as a usual selection mask in <interface>Layers</"
@@ -6274,6 +6265,20 @@ msgstr "Kompozitsiyasiz"
 msgctxt "action"
 msgid "Export animation"
 msgstr "Kompozitsiyasiz"
+
+#. i18n: context: Action (save_incremental_version), Actions (File), ActionCollection (Menu)
+#: kritamenu.action:136
+#, fuzzy
+msgctxt "action"
+msgid "Save Incremental &Version"
+msgstr "Joriy qatlamni oʻchirish"
+
+#. i18n: context: Action (save_incremental_version), Actions (File), ActionCollection (Menu)
+#: kritamenu.action:138
+#, fuzzy
+msgctxt "action"
+msgid "Save Incremental Version"
+msgstr "Bosib chiqarish oʻlchami"
 
 #. i18n: context: Action (create_template), Actions (File), ActionCollection (Menu)
 #: kritamenu.action:162
@@ -25737,11 +25742,6 @@ msgstr "Ranglar boʻshligʻi"
 #, fuzzy
 #~ msgid "Properties..."
 #~ msgstr "Qatlamning xossalari"
-
-#, fuzzy
-#~| msgid "Selection mode:"
-#~ msgid "Set eraser mode"
-#~ msgstr "Tanlash usuli:"
 
 #, fuzzy
 #~| msgid "Colors"
