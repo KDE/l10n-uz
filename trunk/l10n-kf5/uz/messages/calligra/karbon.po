@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-12-02 06:45+0000\n"
+"POT-Creation-Date: 2015-12-08 07:57+0000\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -195,94 +195,6 @@ msgstr "Burchaklarni qirrasizlantirish"
 #: plugins/whirlpinch/WhirlPinchPlugin.cpp:146
 msgid "Radius:"
 msgstr "Radius:"
-
-#: plugins/stencilbox/CollectionTreeWidget.cpp:304
-#, fuzzy
-#| msgid "End angle:"
-msgid "Expand all"
-msgstr "Tugatish burchagi:"
-
-#: plugins/stencilbox/CollectionTreeWidget.cpp:305
-msgid "Collapse all"
-msgstr ""
-
-#: plugins/stencilbox/CollectionTreeWidget.cpp:308
-msgid "List View"
-msgstr ""
-
-#: plugins/stencilbox/CollectionTreeWidget.cpp:309
-msgid "Icon View"
-msgstr ""
-
-#: plugins/stencilbox/StencilBoxDocker.cpp:69
-#, fuzzy
-#| msgid "Pencil Tool"
-msgid "Stencil Box"
-msgstr "Qalam vositasi"
-
-#: plugins/stencilbox/StencilBoxDocker.cpp:76
-msgid "Stencils Online"
-msgstr ""
-
-#: plugins/stencilbox/StencilBoxDocker.cpp:79
-msgid "Add/Remove Stencil"
-msgstr ""
-
-#: plugins/stencilbox/StencilBoxDocker.cpp:96
-#, fuzzy
-msgid "More shapes"
-msgstr "Obʼektlarni guruhlash"
-
-#: plugins/stencilbox/StencilBoxDocker.cpp:101
-msgid "Filter"
-msgstr ""
-
-#: plugins/stencilbox/StencilBoxDocker.cpp:131
-msgid "Stencils successfully installed."
-msgstr ""
-
-#: plugins/stencilbox/StencilBoxDocker.cpp:134
-msgid "Stencils successfully uninstalled."
-msgstr ""
-
-#: plugins/stencilbox/StencilBoxDocker.cpp:148
-msgid ""
-"This is the user stencils directory.\n"
-"From here you can add / remove stencils for use in the Stencil Box docker.\n"
-"\n"
-"Stencils are organized in collections, a collection is a folder containing a "
-"text file 'collection.desktop':\n"
-"\n"
-"collection.desktop\n"
-"\n"
-"[Desktop Entry]\n"
-"Name=Your Stencil Collection Name\n"
-"\n"
-"A stencil is an ODG/SVG file, a desktop file, an optional PNG icon file, all "
-"with the same name under its collection folder:\n"
-"\n"
-"foo.odg or foo.svgz or foo.svg\n"
-"\n"
-"ODF elements for stencil should be a <draw:g> element or <draw:custom-shape> "
-"element\n"
-"No special requirements to SVG file\n"
-"\n"
-"foo.desktop\n"
-"\n"
-"[Desktop Entry]\n"
-"Name=Foo\n"
-"CS-KeepAspectRatio=1\n"
-"\n"
-"If CS-KeepAspectRatio=1, the stencil added to canvas will have geometry "
-"aspect ratio locked, by default it's 0.\n"
-"\n"
-"foo.png\n"
-"\n"
-"Should have size 32x32 pixel, if the png file is not included, Karbon will "
-"render the ODG/SVG file as the icon,\n"
-"but it won't look good under small pixels when the stencil stroke is "
-"complicated.\n"
-msgstr ""
 
 #: plugins/whirlpinch/KarbonWhirlPinchCommand.cpp:108
 #, fuzzy
@@ -909,6 +821,20 @@ msgstr "Chizish"
 #| msgid "Fill"
 msgid "Fill:"
 msgstr "Toʻldirish"
+
+#, fuzzy
+#~| msgid "End angle:"
+#~ msgid "Expand all"
+#~ msgstr "Tugatish burchagi:"
+
+#, fuzzy
+#~| msgid "Pencil Tool"
+#~ msgid "Stencil Box"
+#~ msgstr "Qalam vositasi"
+
+#, fuzzy
+#~ msgid "More shapes"
+#~ msgstr "Obʼektlarni guruhlash"
 
 #~ msgid "File to open"
 #~ msgstr "Ochish uchun fayl"
