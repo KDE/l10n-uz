@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-12-17 07:23+0000\n"
+"POT-Creation-Date: 2015-12-19 07:06+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3281,7 +3281,7 @@ msgid "Layer Style"
 msgstr "Qatlamning oʻlchami"
 
 #: image/kis_layer_properties_icons.cpp:34 image/kis_paint_layer.cc:208
-#: plugins/extensions/dockers/animation/animation_docker.cpp:126
+#: plugins/extensions/dockers/animation/animation_docker.cpp:148
 #: plugins/extensions/dockers/animation/onion_skins_docker.cpp:37
 #, fuzzy
 msgid "Onion Skins"
@@ -9672,53 +9672,70 @@ msgstr ""
 msgid "Luma"
 msgstr ""
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:43
+#: plugins/extensions/dockers/animation/animation_docker.cpp:57
 #, fuzzy
 #| msgid "Animated"
 msgid "Animation"
 msgstr "Animatsiyali"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:54
+#: plugins/extensions/dockers/animation/animation_docker.cpp:68
+#: ui/input/kis_change_frame_action.cpp:43
 #, fuzzy
 #| msgid "Filter Brush"
 msgid "Previous Frame"
 msgstr "Filter boʻyogʻi"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:58
+#: plugins/extensions/dockers/animation/animation_docker.cpp:72
+#: ui/input/kis_change_frame_action.cpp:42
 #, fuzzy
 #| msgid "Remove Layer"
 msgid "Next Frame"
 msgstr "Qatlamni olib tashlash"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:62
+#: plugins/extensions/dockers/animation/animation_docker.cpp:76
 #, fuzzy
 #| msgid "Filter Brush"
 msgid "Previous Key Frame"
 msgstr "Filter boʻyogʻi"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:66
+#: plugins/extensions/dockers/animation/animation_docker.cpp:80
 #, fuzzy
 #| msgid "Layer name:"
 msgid "Next Key Frame"
 msgstr "Qatlamning nomi:"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:70
+#: plugins/extensions/dockers/animation/animation_docker.cpp:84
 #, fuzzy
 #| msgid "Filter Brush"
 msgid "First Frame"
 msgstr "Filter boʻyogʻi"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:74
+#: plugins/extensions/dockers/animation/animation_docker.cpp:88
 #, fuzzy
 #| msgid "Named Colors"
 msgid "Last Frame"
 msgstr "Nomlangan ranglar"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:78
+#: plugins/extensions/dockers/animation/animation_docker.cpp:92
 #, fuzzy
 #| msgid "Plasma"
 msgid "Play / Pause"
 msgstr "Plazma"
+
+#: plugins/extensions/dockers/animation/animation_docker.cpp:497
+#, kde-format
+msgid "Effective FPS:\t%1"
+msgstr ""
+
+#: plugins/extensions/dockers/animation/animation_docker.cpp:498
+#, kde-format
+msgid "Real FPS:\t%1"
+msgstr ""
+
+#: plugins/extensions/dockers/animation/animation_docker.cpp:499
+#, kde-format
+msgid "Frames dropped:\t%1\\%"
+msgstr ""
 
 #: plugins/extensions/dockers/animation/kis_animation_utils.cpp:32
 #, fuzzy
@@ -9751,11 +9768,17 @@ msgstr "&Avto-yangilash"
 
 #: plugins/extensions/dockers/animation/kis_animation_utils.cpp:37
 #, fuzzy
+#| msgid "Copy Green"
+msgid "Drop Frames"
+msgstr "Yashildan nusxa olish"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:38
+#, fuzzy
 msgid "Show in Timeline"
 msgstr "Piksel eni"
 
-#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:54
-#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:146
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:55
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:147
 #, fuzzy
 #| msgid "Layer name:"
 msgctxt "(qtundo-format)"
@@ -9763,14 +9786,14 @@ msgid "Copy Keyframe"
 msgid_plural "Copy Keyframes"
 msgstr[0] "Qatlamning nomi:"
 
-#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:62
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:63
 #, fuzzy
 #| msgid "Layer name:"
 msgctxt "(qtundo-format)"
 msgid "Add Keyframe"
 msgstr "Qatlamning nomi:"
 
-#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:74
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:75
 #, fuzzy
 #| msgid "Layer name:"
 msgctxt "(qtundo-format)"
@@ -9778,7 +9801,7 @@ msgid "Remove Keyframe"
 msgid_plural "Remove Keyframes"
 msgstr[0] "Qatlamning nomi:"
 
-#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:143
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:144
 #, fuzzy
 #| msgid "Layer name:"
 msgctxt "(qtundo-format)"
@@ -9901,6 +9924,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, btnDeleteKeyframe)
 #. i18n: ectx: property (text), widget (QToolButton, btnOnionSkinOptions)
 #. i18n: ectx: property (text), widget (QToolButton, btnLazyFrame)
+#. i18n: ectx: property (text), widget (QToolButton, btnDropFrames)
 #. i18n: ectx: property (text), widget (QToolButton, m_bnSelectConfigurationFile)
 #. i18n: ectx: property (text), widget (QToolButton, m_bnSelectLut)
 #. i18n: ectx: property (text), widget (QToolButton, bnViewMode)
@@ -9930,6 +9954,7 @@ msgstr ""
 #: plugins/extensions/dockers/animation/wdg_animation.ui:411
 #: plugins/extensions/dockers/animation/wdg_animation.ui:428
 #: plugins/extensions/dockers/animation/wdg_animation.ui:438
+#: plugins/extensions/dockers/animation/wdg_animation.ui:448
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:66
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:151
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:170
@@ -9967,14 +9992,14 @@ msgid "..."
 msgstr "..."
 
 #. i18n: ectx: property (text), widget (QLabel, lblPlaySpeed)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:470
+#: plugins/extensions/dockers/animation/wdg_animation.ui:480
 #, fuzzy
 #| msgid "Shape:"
 msgid "Play Speed:"
 msgstr "Shakl:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFramerate)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:493
+#: plugins/extensions/dockers/animation/wdg_animation.ui:503
 #, fuzzy
 #| msgctxt "NAME OF TRANSLATORS"
 #| msgid "Your names"
@@ -22026,6 +22051,15 @@ msgstr ""
 
 #: ui/input/kis_alternate_invocation_action.cpp:50
 msgid "Pick Background Color from Merged Image"
+msgstr ""
+
+#: ui/input/kis_change_frame_action.cpp:38
+#, fuzzy
+msgid "Switch Time"
+msgstr "Joriy qatlamni oʻchirish"
+
+#: ui/input/kis_change_frame_action.cpp:39
+msgid "The <i>Switch Time</i> action changes the current time of the image."
 msgstr ""
 
 #: ui/input/kis_change_primary_setting_action.cpp:34
