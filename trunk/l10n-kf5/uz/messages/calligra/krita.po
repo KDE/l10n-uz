@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-12-29 07:58+0000\n"
+"POT-Creation-Date: 2015-12-30 06:48+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3299,26 +3299,26 @@ msgctxt "(qtundo-format)"
 msgid "Merge Down"
 msgstr "Alfa moslamalari"
 
-#: image/kis_layer_utils.cpp:689
+#: image/kis_layer_utils.cpp:690
 #, fuzzy
 #| msgid "Remove Selected Color"
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr "Tanlangan rangni olib tashlash"
 
-#: image/kis_layer_utils.cpp:770
+#: image/kis_layer_utils.cpp:771
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Selection Masks"
 msgstr "Tanlash boʻyogʻi"
 
-#: image/kis_layer_utils.cpp:793
+#: image/kis_layer_utils.cpp:794
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr "Silliqlangan rasm"
 
-#: image/kis_layer_utils.cpp:801
+#: image/kis_layer_utils.cpp:802
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Image"
@@ -8788,7 +8788,6 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, columnDistance)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rowDistance)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (suffix), widget (QSpinBox, radius)
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:173
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:186
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:238
@@ -8798,7 +8797,6 @@ msgstr ""
 #: plugins/formats/pdf/pdfimportwidgetbase.ui:153
 #: plugins/formats/pdf/pdfimportwidgetbase.ui:185
 #: plugins/paintops/libpaintop/sensors/SensorDistanceConfiguration.ui:85
-#: plugins/tools/defaulttools/wdgcolorpicker.ui:64
 #: ui/input/wintab/kis_screen_size_choice_dialog.ui:84
 #: ui/input/wintab/kis_screen_size_choice_dialog.ui:101
 #: ui/input/wintab/kis_screen_size_choice_dialog.ui:121
@@ -9309,6 +9307,7 @@ msgstr "Tanlanganni koʻrsatish"
 #. i18n: ectx: property (suffix), widget (QSpinBox, offsetYspinBox)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, sizeToStartFromSpinBox)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, deltaValueSpinBox)
+#. i18n: ectx: property (suffix), widget (QSpinBox, radius)
 #. i18n: ectx: property (suffix), widget (QSpinBox, intX)
 #. i18n: ectx: property (suffix), widget (QSpinBox, intY)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:394
@@ -9323,6 +9322,7 @@ msgstr "Tanlanganni koʻrsatish"
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:105
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:128
 #: plugins/tools/defaulttools/kis_tool_brush.cc:356
+#: plugins/tools/defaulttools/wdgcolorpicker.ui:64
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:57
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:83
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:161
@@ -11264,7 +11264,7 @@ msgstr "Yangi qatlam"
 #. i18n: ectx: property (title), widget (QGroupBox, grpMode)
 #: plugins/extensions/layersplit/layersplit.cpp:196
 #: plugins/generators/solid/colorgenerator.h:53
-#: ui/dialogs/kis_dlg_preferences.cc:904 ui/forms/wdgnewimage.ui:364
+#: ui/dialogs/kis_dlg_preferences.cc:909 ui/forms/wdgnewimage.ui:364
 #: ui/layerstyles/WdgColorOverlay.ui:26 ui/layerstyles/WdgStroke.ui:137
 msgid "Color"
 msgstr "Rang"
@@ -17684,76 +17684,76 @@ msgid ""
 "depending on its size"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:86
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:94
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:87
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:97
 #, fuzzy
 msgid "Random Offset"
 msgstr "Tasodifiy"
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:89
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:90
 #, fuzzy
 msgid "Horizontal Offset:"
 msgstr "Ufq 1"
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:97
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:100
 #, fuzzy
 msgid "Vertical Offset:"
 msgstr "Uskuna:"
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:102
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:105
 #, fuzzy
 msgid "Multiply"
 msgstr "Boʻyoqning oʻlchami"
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:102
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:105
 msgid "Subtract"
 msgstr "Ayirish"
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:104
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:107
 #, fuzzy
 #| msgid "Selection mode:"
 msgid "Texturing Mode:"
 msgstr "Tanlash usuli:"
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:110
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:113
 #, fuzzy
 #| msgid "Custom Brush"
 msgid "Cut Off Brush"
 msgstr "Boshqa boʻyoq"
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:110
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:113
 msgid "Cut Off Disabled"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:110
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:113
 #, fuzzy
 msgid "Cut Off Pattern"
 msgstr "Noananaviy namuna"
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:112
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:115
 #, fuzzy
 #| msgid "Coffee"
 msgid "Cutoff Policy:"
 msgstr "Qahva"
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:118
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:121
 msgid ""
 "When pattern texture values are outside the range specified by the slider, "
 "the cut-off policy will be applied."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:120
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:123
 #, fuzzy
 #| msgid "Coffee"
 msgid "Cutoff:"
 msgstr "Qahva"
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:124
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:127
 #, fuzzy
 msgid "Invert Pattern:"
 msgstr "Toʻyintirish"
 
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:257
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:260
 msgctxt "PaintOp instant preview limitation"
 msgid "Texture -> Pattern (low quality preview)"
 msgstr ""
@@ -20003,74 +20003,74 @@ msgctxt "@title:window"
 msgid "Select a swap directory"
 msgstr "Toʻgʻri burchak maydonni tanlash"
 
-#: ui/dialogs/kis_dlg_preferences.cc:875
+#: ui/dialogs/kis_dlg_preferences.cc:880
 msgid "Preferences"
 msgstr "Moslamalar"
 
-#: ui/dialogs/kis_dlg_preferences.cc:884 ui/dialogs/kis_dlg_preferences.cc:886
+#: ui/dialogs/kis_dlg_preferences.cc:889 ui/dialogs/kis_dlg_preferences.cc:891
 msgid "General"
 msgstr "Umumiy"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplayBlacklist)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, grpDisplay)
-#: ui/dialogs/kis_dlg_preferences.cc:893 ui/dialogs/kis_dlg_preferences.cc:895
+#: ui/dialogs/kis_dlg_preferences.cc:898 ui/dialogs/kis_dlg_preferences.cc:900
 #: ui/forms/wdgcolorsettings.ui:53 ui/forms/wdgdisplaysettings.ui:20
 #: ui/forms/wdgdlgblacklistcleanup.ui:20
 #, fuzzy
 msgid "Display"
 msgstr "Displey"
 
-#: ui/dialogs/kis_dlg_preferences.cc:902
+#: ui/dialogs/kis_dlg_preferences.cc:907
 msgid "Color Management"
 msgstr "Rang boshqaruvi"
 
-#: ui/dialogs/kis_dlg_preferences.cc:911 ui/dialogs/kis_dlg_preferences.cc:913
+#: ui/dialogs/kis_dlg_preferences.cc:916 ui/dialogs/kis_dlg_preferences.cc:918
 msgid "Performance"
 msgstr "Unumdorlik"
 
-#: ui/dialogs/kis_dlg_preferences.cc:920 ui/dialogs/kis_dlg_preferences.cc:922
+#: ui/dialogs/kis_dlg_preferences.cc:925 ui/dialogs/kis_dlg_preferences.cc:927
 msgid "Grid"
 msgstr "Toʻr"
 
-#: ui/dialogs/kis_dlg_preferences.cc:929
+#: ui/dialogs/kis_dlg_preferences.cc:934
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Tablet settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:931
+#: ui/dialogs/kis_dlg_preferences.cc:936
 #, fuzzy
 msgid "Tablet"
 msgstr "Yoqish"
 
-#: ui/dialogs/kis_dlg_preferences.cc:938
+#: ui/dialogs/kis_dlg_preferences.cc:943
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Canvas-only settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:940
+#: ui/dialogs/kis_dlg_preferences.cc:945
 #, fuzzy
 msgid "Canvas-only"
 msgstr "Rangi:"
 
-#: ui/dialogs/kis_dlg_preferences.cc:947
+#: ui/dialogs/kis_dlg_preferences.cc:952
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:949
+#: ui/dialogs/kis_dlg_preferences.cc:954
 msgid "Author"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:955
+#: ui/dialogs/kis_dlg_preferences.cc:960
 #, fuzzy
 #| msgid "Color Settings"
 msgid "Canvas Input Settings"
 msgstr "Rang moslamalari"
 
-#: ui/dialogs/kis_dlg_preferences.cc:956
+#: ui/dialogs/kis_dlg_preferences.cc:961
 #, fuzzy
 msgid "Canvas Input"
 msgstr "Kranlar"
@@ -22666,74 +22666,74 @@ msgstr "Qatlamning xossalari"
 msgid "Mirror View"
 msgstr "Rasmni kesish"
 
-#: ui/kis_node_manager.cpp:481
+#: ui/kis_node_manager.cpp:482
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to a Selection Mask"
 msgstr "Tanlanganni bekitish"
 
-#: ui/kis_node_manager.cpp:756
+#: ui/kis_node_manager.cpp:767
 #, fuzzy
 #| msgid "Remove Layer"
 msgctxt "(qtundo-format)"
 msgid "Remove Last Layer"
 msgstr "Qatlamni olib tashlash"
 
-#: ui/kis_node_manager.cpp:770
+#: ui/kis_node_manager.cpp:781
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Remove Multiple Layers and Masks"
 msgstr "Qatlamni olib tashlash"
 
-#: ui/kis_node_manager.cpp:798
+#: ui/kis_node_manager.cpp:809
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer X"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:800
+#: ui/kis_node_manager.cpp:811
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask X"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:811
+#: ui/kis_node_manager.cpp:822
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Y"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:813
+#: ui/kis_node_manager.cpp:824
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr "Qatlamni koʻchirish"
 
-#: ui/kis_node_manager.cpp:932
+#: ui/kis_node_manager.cpp:943
 #, fuzzy, kde-format
 msgid "Export \"%1\""
 msgstr "Ekspozitsiya:"
 
-#: ui/kis_node_manager.cpp:1006
+#: ui/kis_node_manager.cpp:1017
 msgctxt "(qtundo-format)"
 msgid "Split Alpha into a Mask"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:1036
+#: ui/kis_node_manager.cpp:1047
 #, fuzzy, kde-format
 #| msgid "Layer is locked or invisible."
 msgctxt "@title:window"
 msgid "Layer %1 is not editable"
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/kis_node_manager.cpp:1037
+#: ui/kis_node_manager.cpp:1048
 #, kde-format
 msgid ""
 "Cannot write alpha channel of the parent layer \"%1\".\n"
 "The operation will be cancelled."
 msgstr ""
 
-#: ui/kis_node_manager.cpp:1068
+#: ui/kis_node_manager.cpp:1079
 #, fuzzy
 #| msgid "Create a new layer"
 msgctxt "(qtundo-format)"
