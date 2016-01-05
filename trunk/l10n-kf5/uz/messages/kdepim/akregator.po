@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-02 07:26+0000\n"
+"POT-Creation-Date: 2016-01-05 09:06+0000\n"
 "PO-Revision-Date: 2006-02-08 21:32+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -244,21 +244,21 @@ msgstr "Sichqonchaning chap tugmasi:"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LMBBehaviour)
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MMBBehaviour)
 #: configuration/settings_browser.ui:20 configuration/settings_browser.ui:46
-#: src/actionmanagerimpl.cpp:310
+#: src/actionmanagerimpl.cpp:311
 msgid "Open in Tab"
 msgstr "Tabda ochish"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LMBBehaviour)
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MMBBehaviour)
 #: configuration/settings_browser.ui:25 configuration/settings_browser.ui:51
-#: src/actionmanagerimpl.cpp:316
+#: src/actionmanagerimpl.cpp:317
 msgid "Open in Background Tab"
 msgstr "Orqa fon tabda ochish"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LMBBehaviour)
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MMBBehaviour)
 #: configuration/settings_browser.ui:30 configuration/settings_browser.ui:56
-#: src/actionmanagerimpl.cpp:322
+#: src/actionmanagerimpl.cpp:323
 msgid "Open in External Browser"
 msgstr "Tashqi brauzerda ochish"
 
@@ -391,7 +391,7 @@ msgid "Use the &browser cache (less network traffic)"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (View)
-#: interfaces/akregator.kcfg:9 src/actionmanagerimpl.cpp:304
+#: interfaces/akregator.kcfg:9 src/actionmanagerimpl.cpp:305
 msgid "Show Quick Filter"
 msgstr "Qidirish panelini koʻrsatish"
 
@@ -753,7 +753,7 @@ msgstr ""
 msgid "Metakit"
 msgstr ""
 
-#: src/aboutdata.cpp:36 src/articleviewer.cpp:666 src/trayicon.cpp:56
+#: src/aboutdata.cpp:36 src/articleviewerwidget.cpp:665 src/trayicon.cpp:56
 #: src/trayicon.cpp:57 src/trayicon.cpp:68
 msgid "Akregator"
 msgstr "Akregator"
@@ -879,19 +879,19 @@ msgstr ""
 msgid "Gentoo Ebuild"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:80 src/actionmanagerimpl.cpp:273
+#: src/actionmanagerimpl.cpp:80 src/actionmanagerimpl.cpp:274
 msgid "&Fetch Feed"
 msgstr "Yangiliklar tasmasini &olish"
 
-#: src/actionmanagerimpl.cpp:81 src/actionmanagerimpl.cpp:241
+#: src/actionmanagerimpl.cpp:81 src/actionmanagerimpl.cpp:242
 msgid "&Delete Feed"
 msgstr "Yangi&liklar tasmasini olib tashlash"
 
-#: src/actionmanagerimpl.cpp:82 src/actionmanagerimpl.cpp:247
+#: src/actionmanagerimpl.cpp:82 src/actionmanagerimpl.cpp:248
 msgid "&Edit Feed..."
 msgstr "Yangiliklar tasmasini &tahrirlash..."
 
-#: src/actionmanagerimpl.cpp:83 src/actionmanagerimpl.cpp:292
+#: src/actionmanagerimpl.cpp:83 src/actionmanagerimpl.cpp:293
 msgid "&Mark Feed as Read"
 msgstr "Yangiliklar ta&smasini oʻqilgan deb belgilash"
 
@@ -911,244 +911,244 @@ msgstr "Jildning nomini oʻ&zgartirish"
 msgid "&Mark Feeds as Read"
 msgstr "Yangiliklar tasmalarini oʻqilgan deb &belgilash"
 
-#: src/actionmanagerimpl.cpp:188
+#: src/actionmanagerimpl.cpp:189
 msgid "&Import Feeds..."
 msgstr "Yangiliklar tasmasini &import qilish"
 
-#: src/actionmanagerimpl.cpp:192
+#: src/actionmanagerimpl.cpp:193
 msgid "&Export Feeds..."
 msgstr "Yangiliklar tasmasini &eksport qilish"
 
-#: src/actionmanagerimpl.cpp:197
+#: src/actionmanagerimpl.cpp:198
 #, fuzzy
 #| msgid "Configure &Akregator..."
 msgid "&Configure Akregator..."
 msgstr "Akregator &moslamasi"
 
-#: src/actionmanagerimpl.cpp:217
+#: src/actionmanagerimpl.cpp:218
 msgid "&Open Homepage"
 msgstr "&Veb-sahifani ochish"
 
-#: src/actionmanagerimpl.cpp:223
+#: src/actionmanagerimpl.cpp:224
 msgid "Reload All Tabs"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:229
+#: src/actionmanagerimpl.cpp:230
 msgid "&Add Feed..."
 msgstr "Yangiliklar tasmasini qoʻ&shish"
 
-#: src/actionmanagerimpl.cpp:235
+#: src/actionmanagerimpl.cpp:236
 msgid "Ne&w Folder..."
 msgstr "Yangi &jild"
 
-#: src/actionmanagerimpl.cpp:254
+#: src/actionmanagerimpl.cpp:255
 msgid "&Normal View"
 msgstr "&Andoza koʻrinish"
 
-#: src/actionmanagerimpl.cpp:260
+#: src/actionmanagerimpl.cpp:261
 msgid "&Widescreen View"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:266
+#: src/actionmanagerimpl.cpp:267
 msgid "C&ombined View"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:279
+#: src/actionmanagerimpl.cpp:280
 msgid "Fe&tch All Feeds"
 msgstr "Hamma &yangiliklar tasmasini olish"
 
-#: src/actionmanagerimpl.cpp:285
+#: src/actionmanagerimpl.cpp:286
 #, fuzzy
 #| msgid "&Abort Fetches"
 msgid "C&ancel Feed Fetches"
 msgstr "Olishni toʻ&xtatish"
 
-#: src/actionmanagerimpl.cpp:298
+#: src/actionmanagerimpl.cpp:299
 msgid "Ma&rk All Feeds as Read"
 msgstr "Hamma yangili&klar tasmasini oʻqilgan deb belgilash"
 
-#: src/actionmanagerimpl.cpp:327 src/actionmanagerimpl.cpp:568
+#: src/actionmanagerimpl.cpp:328 src/actionmanagerimpl.cpp:569
 msgid "Copy Link Address"
 msgstr "Bogʻ manzilidan nusxa olish"
 
-#: src/actionmanagerimpl.cpp:332
+#: src/actionmanagerimpl.cpp:333
 msgid "Pre&vious Unread Article"
 msgstr "&Oldingi oʻqilmagan maqola"
 
-#: src/actionmanagerimpl.cpp:338
+#: src/actionmanagerimpl.cpp:339
 msgid "Ne&xt Unread Article"
 msgstr "Keyingi oʻqi&lmagan maqola"
 
-#: src/actionmanagerimpl.cpp:345
+#: src/actionmanagerimpl.cpp:346
 #, fuzzy
 msgid "&Delete"
 msgstr "Yangi&liklar tasmasini olib tashlash"
 
-#: src/actionmanagerimpl.cpp:350
+#: src/actionmanagerimpl.cpp:351
 msgid "&Mark As"
 msgstr "&Belgilash"
 
-#: src/actionmanagerimpl.cpp:358
+#: src/actionmanagerimpl.cpp:359
 msgctxt "as in: mark as read"
 msgid "&Read"
 msgstr "Oʻqi&lgan"
 
-#: src/actionmanagerimpl.cpp:360
+#: src/actionmanagerimpl.cpp:361
 msgid "Mark selected article as read"
 msgstr "Tanlangan maqolani oʻqilgan deb belgilash"
 
-#: src/actionmanagerimpl.cpp:366
+#: src/actionmanagerimpl.cpp:367
 #, fuzzy
 #| msgid "&New"
 msgctxt "as in: mark as new"
 msgid "&New"
 msgstr "&Yangi"
 
-#: src/actionmanagerimpl.cpp:369
+#: src/actionmanagerimpl.cpp:370
 msgid "Mark selected article as new"
 msgstr "Tanlangan maqolani yangi deb belgilash"
 
-#: src/actionmanagerimpl.cpp:374
+#: src/actionmanagerimpl.cpp:375
 #, fuzzy
 #| msgid "&Unread"
 msgctxt "as in: mark as unread"
 msgid "&Unread"
 msgstr "&Oʻqilmagan"
 
-#: src/actionmanagerimpl.cpp:376
+#: src/actionmanagerimpl.cpp:377
 msgid "Mark selected article as unread"
 msgstr "Tanlangan maqolani oʻqilmagan deb belgilash"
 
-#: src/actionmanagerimpl.cpp:382
+#: src/actionmanagerimpl.cpp:383
 msgid "&Mark as Important"
 msgstr "Muhim deb &belgilash"
 
-#: src/actionmanagerimpl.cpp:388
+#: src/actionmanagerimpl.cpp:389
 msgid "Remove &Important Mark"
 msgstr "&Muhimlik belgisini olib tashlash"
 
-#: src/actionmanagerimpl.cpp:392
+#: src/actionmanagerimpl.cpp:393
 msgid "Move Node Up"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:397
+#: src/actionmanagerimpl.cpp:398
 msgid "Move Node Down"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:403
+#: src/actionmanagerimpl.cpp:404
 msgid "Move Node Left"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:408
+#: src/actionmanagerimpl.cpp:409
 msgid "Move Node Right"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:414
+#: src/actionmanagerimpl.cpp:415
 msgid "Send &Link Address..."
 msgstr "&Bogʻ manzilini joʻnatish"
 
-#: src/actionmanagerimpl.cpp:419
+#: src/actionmanagerimpl.cpp:420
 msgid "Send &File..."
 msgstr "&Fayl joʻnatish"
 
-#: src/actionmanagerimpl.cpp:469
+#: src/actionmanagerimpl.cpp:470
 msgid "&Previous Article"
 msgstr "Old&ingi maqola"
 
-#: src/actionmanagerimpl.cpp:473
+#: src/actionmanagerimpl.cpp:474
 msgid "&Next Article"
 msgstr "&Keyingi maqola"
 
-#: src/actionmanagerimpl.cpp:489
+#: src/actionmanagerimpl.cpp:490
 msgid "&Previous Feed"
 msgstr "&Oldingi yangiliklar tasmasi"
 
-#: src/actionmanagerimpl.cpp:494
+#: src/actionmanagerimpl.cpp:495
 msgid "&Next Feed"
 msgstr "&Keyingi yangiliklar tasmasi"
 
-#: src/actionmanagerimpl.cpp:500
+#: src/actionmanagerimpl.cpp:501
 msgid "N&ext Unread Feed"
 msgstr "Keyingi oʻqil&magan yangiliklar tasmasi"
 
-#: src/actionmanagerimpl.cpp:506
+#: src/actionmanagerimpl.cpp:507
 msgid "Prev&ious Unread Feed"
 msgstr "Oldin&gi oʻqilmagan yangiliklar tasmasi"
 
-#: src/actionmanagerimpl.cpp:511
+#: src/actionmanagerimpl.cpp:512
 msgid "Go to Top of Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:516
+#: src/actionmanagerimpl.cpp:517
 msgid "Go to Bottom of Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:521
+#: src/actionmanagerimpl.cpp:522
 msgid "Go Left in Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:526
+#: src/actionmanagerimpl.cpp:527
 msgid "Go Right in Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:531
+#: src/actionmanagerimpl.cpp:532
 msgid "Go Up in Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:536
+#: src/actionmanagerimpl.cpp:537
 msgid "Go Down in Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:552
+#: src/actionmanagerimpl.cpp:553
 msgid "Select Next Tab"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:557
+#: src/actionmanagerimpl.cpp:558
 msgid "Select Previous Tab"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:563
+#: src/actionmanagerimpl.cpp:564
 msgid "Detach Tab"
 msgstr "Tabni ajratish"
 
-#: src/actionmanagerimpl.cpp:573
+#: src/actionmanagerimpl.cpp:574
 #, fuzzy
 #| msgid "&Close Tab"
 msgid "Close Tab"
 msgstr "Tabni &yopish"
 
-#: src/actionmanagerimpl.cpp:579
+#: src/actionmanagerimpl.cpp:580
 msgid "Enlarge Font"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:585
+#: src/actionmanagerimpl.cpp:586
 #, fuzzy
 #| msgid "Serif font:"
 msgid "Shrink Font"
 msgstr "Serif shrift:"
 
-#: src/actionmanagerimpl.cpp:592
+#: src/actionmanagerimpl.cpp:593
 #, kde-format
 msgid "Activate Tab %1"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:610
+#: src/actionmanagerimpl.cpp:611
 msgctxt "Go forward in browser history"
 msgid "Forward"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:617
+#: src/actionmanagerimpl.cpp:618
 msgctxt "Go back in browser history"
 msgid "Back"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:626
+#: src/actionmanagerimpl.cpp:627
 #, fuzzy
 msgctxt "Reload current page"
 msgid "Reload"
 msgstr "Oʻqi&lgan"
 
-#: src/actionmanagerimpl.cpp:631
+#: src/actionmanagerimpl.cpp:632
 msgid "Stop"
 msgstr ""
 
@@ -1478,18 +1478,6 @@ msgid ""
 "a tab or in an external browser window."
 msgstr ""
 
-#: src/articlelistview.cpp:434
-msgid ""
-"<div align=center><h3>No matches</h3>Filter does not match any articles, "
-"please change your criteria and try again.</div>"
-msgstr ""
-
-#: src/articlelistview.cpp:442
-msgid ""
-"<div align=center><h3>No feed selected</h3>This area is article list. Select "
-"a feed from the feed list and you will see its articles here.</div>"
-msgstr ""
-
 #: src/articlemodel.cpp:110
 #, fuzzy
 msgctxt "Articlelist's column header"
@@ -1528,36 +1516,13 @@ msgctxt "Articlelist's column header"
 msgid "Content"
 msgstr "Izohlar"
 
-#: src/articleviewer.cpp:124
-msgid "Copy &Link Address"
-msgstr "&Bogʻ manzilidan nusxa olish"
-
-#: src/articleviewer.cpp:128
-msgid "&Save Link As..."
-msgstr "Bogʻni &saqlash"
-
-#: src/articleviewer.cpp:650
-#, kde-format
-msgctxt "%1: Akregator version; %2: homepage URL; --- end of comment ---"
-msgid ""
-"<h2 style='margin-top: 0px;'>Welcome to Akregator %1</h2><p>Akregator is a "
-"KDE news feed reader. Feed readers provide a convenient way to browse "
-"different kinds of content, including news, blogs, and other content from "
-"online sites. Instead of checking all your favorite web sites manually for "
-"updates, Akregator collects the content for you.</p><p>For more information "
-"about using Akregator, check the <a href=\"%2\">Akregator website</a>. If "
-"you do not want to see this page anymore, <a href=\"config:/"
-"disable_introduction\">click here</a>.</p><p>We hope that you will enjoy "
-"Akregator.</p>\n"
-"<p>Thank you,</p>\n"
-"<p style='margin-bottom: 0px'>&nbsp; &nbsp; The Akregator Team</p>\n"
+#: src/articleviewer-ng/tests/main.cpp:28
+msgid "articleviewerng_Gui"
 msgstr ""
 
-#: src/articleviewer.cpp:668
-#, fuzzy
-#| msgid "A KDE Feed Aggregator"
-msgid "A KDE news feed reader."
-msgstr "KDE uchun yangiliklar tasmasini oʻquvchi"
+#: src/articleviewer-ng/tests/main.cpp:29
+msgid "Test for articleviewer ng"
+msgstr ""
 
 #: src/articleviewerpart.cpp:63
 msgid "Disable"
@@ -1577,6 +1542,37 @@ msgstr "<qt>Tanlangan maqolani oʻchirishni istaysizmi?</qt>"
 #| msgid "Disable Archiving"
 msgid "Disable Introduction Page"
 msgstr "Arxivlashni oʻchirish"
+
+#: src/articleviewerwidget.cpp:124
+msgid "Copy &Link Address"
+msgstr "&Bogʻ manzilidan nusxa olish"
+
+#: src/articleviewerwidget.cpp:128
+msgid "&Save Link As..."
+msgstr "Bogʻni &saqlash"
+
+#: src/articleviewerwidget.cpp:649
+#, kde-format
+msgctxt "%1: Akregator version; %2: homepage URL; --- end of comment ---"
+msgid ""
+"<h2 style='margin-top: 0px;'>Welcome to Akregator %1</h2><p>Akregator is a "
+"KDE news feed reader. Feed readers provide a convenient way to browse "
+"different kinds of content, including news, blogs, and other content from "
+"online sites. Instead of checking all your favorite web sites manually for "
+"updates, Akregator collects the content for you.</p><p>For more information "
+"about using Akregator, check the <a href=\"%2\">Akregator website</a>. If "
+"you do not want to see this page anymore, <a href=\"config:/"
+"disable_introduction\">click here</a>.</p><p>We hope that you will enjoy "
+"Akregator.</p>\n"
+"<p>Thank you,</p>\n"
+"<p style='margin-bottom: 0px'>&nbsp; &nbsp; The Akregator Team</p>\n"
+msgstr ""
+
+#: src/articleviewerwidget.cpp:667
+#, fuzzy
+#| msgid "A KDE Feed Aggregator"
+msgid "A KDE news feed reader."
+msgstr "KDE uchun yangiliklar tasmasini oʻquvchi"
 
 #: src/createfoldercommand.cpp:66
 msgid "Add Folder"
