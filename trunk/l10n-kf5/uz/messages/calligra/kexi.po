@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-12-29 07:58+0000\n"
+"POT-Creation-Date: 2016-01-16 07:44+0000\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -4850,31 +4850,31 @@ msgstr "Maʼlumotlar baza drayverini \"%1\" yuklab boʻlmadi."
 msgid "Kexi Migrate Test"
 msgstr ""
 
-#: plugins/forms/kexidatasourcepage.cpp:47
+#: plugins/forms/kexidatasourcepage.cpp:48
 msgid "No data source could be assigned for this widget."
 msgstr ""
 
-#: plugins/forms/kexidatasourcepage.cpp:49
+#: plugins/forms/kexidatasourcepage.cpp:50
 msgid "No data source could be assigned for multiple widgets."
 msgstr ""
 
-#: plugins/forms/kexidatasourcepage.cpp:72
+#: plugins/forms/kexidatasourcepage.cpp:73
 #, fuzzy
 msgctxt "Table Field or Query Field"
-msgid "Widget's data source"
+msgid "Widget's data source:"
 msgstr "Manba maydoni:"
 
-#: plugins/forms/kexidatasourcepage.cpp:103
+#: plugins/forms/kexidatasourcepage.cpp:105
 #, fuzzy
-msgid "Form's data source"
+msgid "Form's data source:"
 msgstr "Tanlangan maʼlumotlar manbasiga oʻtish"
 
-#: plugins/forms/kexidatasourcepage.cpp:111
+#: plugins/forms/kexidatasourcepage.cpp:113
 #, fuzzy
 msgid "Go to selected form's data source"
 msgstr "Tanlangan maʼlumotlar manbasiga oʻtish"
 
-#: plugins/forms/kexidatasourcepage.cpp:112
+#: plugins/forms/kexidatasourcepage.cpp:114
 #, fuzzy
 msgid "Goes to selected form's data source"
 msgstr "Tanlangan maʼlumotlar manbasiga oʻtish"
@@ -5536,9 +5536,9 @@ msgid "Show Form UI Code"
 msgstr ""
 
 #: plugins/forms/kexiformmanager.cpp:389
-#, kde-format
-msgid "Set Form's Data Source to \"%1\""
-msgstr ""
+#, fuzzy, kde-format
+msgid "Set form's data source to <resource>%1</resource>"
+msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
 #: plugins/forms/kexiformmanager.cpp:473
 #, fuzzy
@@ -6764,19 +6764,18 @@ msgstr "Tashqi faylni ochish"
 
 #: plugins/reports/kexisourceselector.cpp:104
 #, fuzzy
-msgid "Source Type:"
+msgid "Source type:"
 msgstr "Maʼlumot manbasi"
 
 #: plugins/reports/kexisourceselector.cpp:112
 #, fuzzy
-#| msgid "Create"
-msgid "Internal Source:"
-msgstr "Yaratish"
+msgid "Report's data source:"
+msgstr "Tanlangan maʼlumotlar manbasiga oʻtish"
 
 #: plugins/reports/kexisourceselector.cpp:117
 #, fuzzy
 #| msgid "Open External File"
-msgid "External Source:"
+msgid "External source:"
 msgstr "Tashqi faylni ochish"
 
 #: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:119
@@ -8226,19 +8225,19 @@ msgstr ""
 msgid "Click to show available actions for this cell"
 msgstr "Ushbu oyna uchun yordam mavjud emas."
 
-#: widget/tableview/KexiTableScrollArea.cpp:2403
+#: widget/tableview/KexiTableScrollArea.cpp:2405
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "Contains a pointer to the currently selected record."
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: widget/tableview/KexiTableScrollArea.cpp:2406
+#: widget/tableview/KexiTableScrollArea.cpp:2408
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "Record navigator."
 msgstr "Qator navigatori"
 
-#: widget/tableview/KexiTableScrollArea.cpp:2413
+#: widget/tableview/KexiTableScrollArea.cpp:2415
 #, fuzzy, kde-format
 msgctxt "@info:whatsthis"
 msgid "Column <resource>%1</resource>."
@@ -8445,6 +8444,11 @@ msgstr "Birinchi satr"
 #, fuzzy
 msgid "Moves cursor to new record and allows inserting."
 msgstr "Keyingi oyna"
+
+#, fuzzy
+#~| msgid "Create"
+#~ msgid "Internal Source:"
+#~ msgstr "Yaratish"
 
 #, fuzzy
 #~| msgid ""
