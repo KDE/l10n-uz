@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-21 07:30+0000\n"
+"POT-Creation-Date: 2016-01-22 07:30+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1635,7 +1635,7 @@ msgstr "Teskari qilish"
 #. i18n: ectx: Menu (LayerSelect)
 #: gemini/kritagemini.rc:126 krita.rc:170 krita.rc:222
 #: plugins/extensions/colorrange/wdg_colorrange.ui:131
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:502
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:503
 #: plugins/extensions/imagesize/imagesize.rc:12
 #: plugins/extensions/modify_selection/modify_selection.rc:4
 #: sketch/kritasketch.rc:126
@@ -1745,9 +1745,9 @@ msgstr "Nomsiz-1"
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
 #: ui/dialogs/kis_dlg_preferences.cc:234 ui/input/kis_tablet_debugger.cpp:100
 #: ui/kis_filter_manager.cc:214 ui/kis_filter_manager.cc:223
-#: ui/kis_layer_manager.cc:854 ui/KisApplication.cpp:598
-#: ui/KisApplication.cpp:601 ui/KisApplication.cpp:626
-#: ui/KisApplication.cpp:652 ui/KisApplication.cpp:673 ui/KisDocument.cpp:623
+#: ui/kis_layer_manager.cc:859 ui/KisApplication.cpp:601
+#: ui/KisApplication.cpp:604 ui/KisApplication.cpp:629
+#: ui/KisApplication.cpp:655 ui/KisApplication.cpp:676 ui/KisDocument.cpp:623
 #: ui/KisDocument.cpp:625 ui/KisDocument.cpp:1098 ui/KisDocument.cpp:1144
 #: ui/KisDocument.cpp:1285 ui/KisDocument.cpp:1940 ui/KisDocument.cpp:1943
 #: ui/KisImportExportManager.cpp:243 ui/KisImportExportManager.cpp:254
@@ -3339,26 +3339,26 @@ msgstr "Alfa moslamalari"
 msgid "Copy of"
 msgstr "Yashildan nusxa olish"
 
-#: image/kis_layer_utils.cpp:699
+#: image/kis_layer_utils.cpp:716
 #, fuzzy
 #| msgid "Remove Selected Color"
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr "Tanlangan rangni olib tashlash"
 
-#: image/kis_layer_utils.cpp:780
+#: image/kis_layer_utils.cpp:797
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Selection Masks"
 msgstr "Tanlash boʻyogʻi"
 
-#: image/kis_layer_utils.cpp:803
+#: image/kis_layer_utils.cpp:820
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr "Silliqlangan rasm"
 
-#: image/kis_layer_utils.cpp:811
+#: image/kis_layer_utils.cpp:828
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Image"
@@ -6867,7 +6867,7 @@ msgstr "Rasmni import qilish"
 
 #. i18n: ectx: Menu (LayerConvert)
 #: krita.rc:162
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:521
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:522
 #, fuzzy
 #| msgid "&Invert"
 msgid "&Convert"
@@ -6875,7 +6875,7 @@ msgstr "&Teskari"
 
 #. i18n: ectx: Menu (LayerSplitAlpha)
 #: krita.rc:183
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:527
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:528
 #, fuzzy
 msgid "S&plit Alpha"
 msgstr "Rangni palitraga qoʻshish"
@@ -22462,19 +22462,25 @@ msgstr "Burish"
 msgid "Reset Rotation"
 msgstr "Burish"
 
-#: ui/input/kis_select_layer_action.cpp:46
+#: ui/input/kis_select_layer_action.cpp:48
 #, fuzzy
 msgid "Select Layer"
 msgstr "Yangi qatlam"
 
-#: ui/input/kis_select_layer_action.cpp:47
+#: ui/input/kis_select_layer_action.cpp:49
 msgid "Selects a layer under cursor position"
 msgstr ""
 
-#: ui/input/kis_select_layer_action.cpp:50
+#: ui/input/kis_select_layer_action.cpp:52
 #, fuzzy
 #| msgid "Rotate CW"
 msgid "Select Layer Mode"
+msgstr "Soat koʻrsatgichi boʻyicha burish"
+
+#: ui/input/kis_select_layer_action.cpp:53
+#, fuzzy
+#| msgid "Rotate CW"
+msgid "Select Multiple Layer Mode"
 msgstr "Soat koʻrsatgichi boʻyicha burish"
 
 #: ui/input/kis_shortcut_configuration.cpp:234
@@ -22852,37 +22858,37 @@ msgctxt "floating message in layer manager"
 msgid "Layer is empty "
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: ui/kis_layer_manager.cc:379
+#: ui/kis_layer_manager.cc:384
 #, fuzzy
 #| msgid "Layer Properties"
 msgid "Filter Layer Properties"
 msgstr "Qatlamning xossalari"
 
-#: ui/kis_layer_manager.cc:424
+#: ui/kis_layer_manager.cc:429
 #, fuzzy
 #| msgid "Layer Properties"
 msgid "Fill Layer Properties"
 msgstr "Qatlamning xossalari"
 
-#: ui/kis_layer_manager.cc:507
+#: ui/kis_layer_manager.cc:512
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to a Paint Layer"
 msgstr "Joriy qatlam"
 
-#: ui/kis_layer_manager.cc:595
+#: ui/kis_layer_manager.cc:600
 #, fuzzy
 #| msgid "Filters"
 msgid "New Filter Layer"
 msgstr "Filterlar"
 
-#: ui/kis_layer_manager.cc:668
+#: ui/kis_layer_manager.cc:673
 #, fuzzy
 msgctxt "@title:window"
 msgid "Flatten Image"
 msgstr "Silliqlangan rasm"
 
-#: ui/kis_layer_manager.cc:669
+#: ui/kis_layer_manager.cc:674
 #, fuzzy
 #| msgid "The image contains hidden layers that will be lost."
 msgid ""
@@ -22890,22 +22896,22 @@ msgid ""
 "the image?"
 msgstr "Rasmda yashirin qatlamlar mavjud. Ular yoʻqoladi."
 
-#: ui/kis_layer_manager.cc:764
+#: ui/kis_layer_manager.cc:769
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "Qatlamni burish"
 
-#: ui/kis_layer_manager.cc:800
+#: ui/kis_layer_manager.cc:805
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:803
+#: ui/kis_layer_manager.cc:808
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:854
+#: ui/kis_layer_manager.cc:859
 msgid "No file name specified"
 msgstr ""
 
@@ -23294,7 +23300,7 @@ msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
 msgstr "Kattalashtirish %1%"
 
-#: ui/KisApplication.cpp:181 ui/KisApplication.cpp:283
+#: ui/KisApplication.cpp:181 ui/KisApplication.cpp:287
 #, fuzzy
 #| msgid "Warning!"
 msgctxt "@title:window"
@@ -23310,34 +23316,34 @@ msgid ""
 "You can also disable OpenGL rendering in Krita's Settings.\n"
 msgstr ""
 
-#: ui/KisApplication.cpp:284
+#: ui/KisApplication.cpp:288
 msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
 "This is not recommended.\n"
 "Please download and install the x64 build instead."
 msgstr ""
 
-#: ui/KisApplication.cpp:406
+#: ui/KisApplication.cpp:409
 msgid "Mimetype not found, try using the -mimetype option"
 msgstr ""
 
-#: ui/KisApplication.cpp:599
+#: ui/KisApplication.cpp:602
 #, fuzzy, kde-format
 #| msgid "No options for %1."
 msgid "No template found for: %1"
 msgstr "%1 uchun moslamalar mavjud emas."
 
-#: ui/KisApplication.cpp:602
+#: ui/KisApplication.cpp:605
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr ""
 
-#: ui/KisApplication.cpp:627
+#: ui/KisApplication.cpp:630
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr ""
 
-#: ui/KisApplication.cpp:653
+#: ui/KisApplication.cpp:656
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -23345,7 +23351,7 @@ msgid ""
 "Please make sure no other program is using the file and try again."
 msgstr ""
 
-#: ui/KisApplication.cpp:674
+#: ui/KisApplication.cpp:677
 msgid "Do you want to clear the settings file?"
 msgstr ""
 
