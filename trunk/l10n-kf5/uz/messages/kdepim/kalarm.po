@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-23 08:31+0000\n"
+"POT-Creation-Date: 2016-01-29 07:44+0000\n"
 "PO-Revision-Date: 2006-12-17 13:25+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -551,7 +551,7 @@ msgid ""
 "zone set in KAlarm's configuration dialog."
 msgstr ""
 
-#: alarmtimewidget.cpp:214 prefdlg.cpp:618
+#: alarmtimewidget.cpp:214 prefdlg.cpp:617
 #, fuzzy
 msgctxt "@label:listbox"
 msgid "Time zone:"
@@ -620,7 +620,7 @@ msgstr "Tizimga &kirishda avtomatik boshlash"
 msgid "Copyright 2001,2008 David Jarvie"
 msgstr ""
 
-#: autostart/autostart.cpp:49 main.cpp:48
+#: autostart/autostart.cpp:49 main.cpp:54
 msgid "David Jarvie"
 msgstr ""
 
@@ -659,7 +659,7 @@ msgctxt "@title:group"
 msgid "Alarm Text"
 msgstr "Ogohlantirish matni"
 
-#: birthdaydlg.cpp:83 prefdlg.cpp:1738
+#: birthdaydlg.cpp:83 prefdlg.cpp:1737
 #, fuzzy
 #| msgid "Pre&fix:"
 msgctxt "@label:textbox"
@@ -916,28 +916,203 @@ msgctxt "@title:window"
 msgid "Choose Calendar"
 msgstr "Kalendar faylining manzili"
 
-#: commandoptions.cpp:189
+#: commandoptions.cpp:63
+msgid "Prompt for confirmation when alarm is acknowledged"
+msgstr ""
+
+#: commandoptions.cpp:66
+msgid "Attach file to email (repeat as needed)"
+msgstr "Faylni xatga ilova qilish (keragida takrorlash)"
+
+#: commandoptions.cpp:70
+msgid "Auto-close alarm window after --late-cancel period"
+msgstr ""
+
+#: commandoptions.cpp:73
+msgid "Blind copy email to self"
+msgstr ""
+
+#: commandoptions.cpp:76
+msgid "Beep when message is displayed"
+msgstr "Xabar koʻrsatilganda ovoz berish"
+
+#: commandoptions.cpp:79
+msgid "Message background color (name or hex 0xRRGGBB)"
+msgstr "Xabarning orqa fon rangi (nomi yoki 0xRRGGBB koʻrinishda)"
+
+#: commandoptions.cpp:83
+msgid "Message foreground color (name or hex 0xRRGGBB)"
+msgstr "Xabarning oldin fon rangi (nomi yoki 0xRRGGBB koʻrinishda)"
+
+#: commandoptions.cpp:87
+msgid "Cancel alarm with the specified event ID"
+msgstr ""
+
+#: commandoptions.cpp:91
+msgid "Disable the alarm"
+msgstr "Ogohlantirishni oʻchirish"
+
+#: commandoptions.cpp:94
+#, fuzzy
+#| msgid "Disable the alarm"
+msgid "Disable monitoring of all alarms"
+msgstr "Ogohlantirishni oʻchirish"
+
+#: commandoptions.cpp:97
+#, fuzzy
+msgid "Execute a shell command line"
+msgstr "Shell buyruqlar satrini ishga tushirish"
+
+#: commandoptions.cpp:101
+msgid "Command line to generate alarm message text"
+msgstr ""
+
+#: commandoptions.cpp:105
+#, fuzzy
+msgid "Display the alarm edit dialog to edit the specified alarm"
+msgstr "Ogohlantirishni koʻrsatilgan vaqtda rejalashtirish."
+
+#: commandoptions.cpp:109
+#, fuzzy
+msgid "Display the alarm edit dialog to edit a new display alarm"
+msgstr "Ogohlantirish xabarini darhol koʻrsatish"
+
+#: commandoptions.cpp:112
+#, fuzzy
+msgid "Display the alarm edit dialog to edit a new command alarm"
+msgstr "Ogohlantirish xabarini darhol koʻrsatish"
+
+#: commandoptions.cpp:115
+#, fuzzy
+msgid "Display the alarm edit dialog to edit a new email alarm"
+msgstr "Ogohlantirish xabarini darhol koʻrsatish"
+
+#: commandoptions.cpp:118
+#, fuzzy
+msgid "Display the alarm edit dialog to edit a new audio alarm"
+msgstr "Ogohlantirish xabarini darhol koʻrsatish"
+
+#: commandoptions.cpp:121
+msgid "Display the alarm edit dialog, preset with a template"
+msgstr ""
+
+#: commandoptions.cpp:125
+msgid "File to display"
+msgstr "Koʻrsatish uchun fayl"
+
+#: commandoptions.cpp:129
+msgid "KMail identity to use as sender of email"
+msgstr "Joʻnatuvchi sifatida ishlatish uchun KMail shaxsiyatidan foydalanish"
+
+#: commandoptions.cpp:133
+msgid "Interval between alarm repetitions"
+msgstr "Ogohlantirishni takrorlash vaqti"
+
+#: commandoptions.cpp:137
+msgid "Show alarm as an event in KOrganizer"
+msgstr "Ogohlantirishni KOrganizer'da hodisa sifatida koʻrsatish"
+
+#: commandoptions.cpp:140
+msgid "Cancel alarm if more than 'period' late when triggered"
+msgstr ""
+
+#: commandoptions.cpp:145
+#, fuzzy
+#| msgid "List of scheduled alarms"
+msgid "Output list of scheduled alarms to stdout"
+msgstr "Rejalashtirilgan ogohlantirishlar roʻyxati"
+
+#: commandoptions.cpp:148
+msgid "Repeat alarm at every login"
+msgstr "Ogohlantirishni tizimga har kirganda takrorlash"
+
+#: commandoptions.cpp:151
+msgid "Send an email to the given address (repeat as needed)"
+msgstr ""
+
+#: commandoptions.cpp:155
+msgid "Audio file to play once"
+msgstr "Bir marta oʻynash uchun audio fayli"
+
+#: commandoptions.cpp:159
+msgid "Audio file to play repeatedly"
+msgstr "Takrorlab oʻynash uchun audio fayli"
+
+#: commandoptions.cpp:163
+msgid "Specify alarm recurrence using iCalendar syntax"
+msgstr ""
+
+#: commandoptions.cpp:167
+msgid "Display reminder before or after alarm"
+msgstr ""
+
+#: commandoptions.cpp:171
+msgid "Display reminder once, before or after first alarm recurrence"
+msgstr ""
+
+#: commandoptions.cpp:175
+msgid "Number of times to repeat alarm (including initial occasion)"
+msgstr ""
+
+#: commandoptions.cpp:179
+msgid "Speak the message when it is displayed"
+msgstr "Koʻrsatilgan xabarni oʻqib eshittirish"
+
+#: commandoptions.cpp:182
+msgid "Email subject line"
+msgstr "Xatning mavzusi"
+
+#: commandoptions.cpp:187
+msgid "Simulate system time [[[yyyy-]mm-]dd-]hh:mm [TZ] (debug mode)"
+msgstr ""
+
+#: commandoptions.cpp:192
+msgid ""
+"Trigger alarm at time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
+msgstr ""
+
+#: commandoptions.cpp:196
+msgid "Display system tray icon"
+msgstr ""
+
+#: commandoptions.cpp:199
+msgid "Trigger alarm with the specified event ID"
+msgstr ""
+
+#: commandoptions.cpp:203
+msgid "Repeat until time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
+msgstr ""
+
+#: commandoptions.cpp:207
+msgid "Volume to play audio file"
+msgstr "Audio faylning tovushi"
+
+#: commandoptions.cpp:220
+msgid "Message text to display"
+msgstr "Koʻrsatish uchun xabar matni"
+
+#: commandoptions.cpp:384
 #, fuzzy, kde-format
 #| msgid "%1: invalid email address"
 msgctxt "@info:shell"
 msgid "<icode>%1</icode>: invalid email address"
 msgstr "%1: xato elektron pochta manzili"
 
-#: commandoptions.cpp:302 commandoptions.cpp:317 commandoptions.cpp:394
+#: commandoptions.cpp:498 commandoptions.cpp:513 commandoptions.cpp:590
 #, fuzzy, kde-format
 #| msgid "Invalid %1 parameter"
 msgctxt "@info:shell"
 msgid "Invalid <icode>%1</icode> parameter for date-only alarm"
 msgstr "Xato %1 parametr"
 
-#: commandoptions.cpp:306
+#: commandoptions.cpp:502
 #, fuzzy, kde-format
 #| msgid "%1 incompatible with %2"
 msgctxt "@info:shell"
 msgid "<icode>%1</icode> earlier than <icode>%2</icode>"
 msgstr "%1 %2 bilan mos kelmaydi"
 
-#: commandoptions.cpp:328
+#: commandoptions.cpp:524
 #, fuzzy, kde-format
 #| msgid "%1 incompatible with %2"
 msgctxt "@info:shell"
@@ -946,49 +1121,49 @@ msgid ""
 "longer than <icode>%3</icode> interval"
 msgstr "%1 %2 bilan mos kelmaydi"
 
-#: commandoptions.cpp:377
+#: commandoptions.cpp:573
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
 "<icode>%1</icode> requires KAlarm to be compiled with QTextToSpeech support"
 msgstr ""
 
-#: commandoptions.cpp:479
+#: commandoptions.cpp:677
 #, fuzzy
 #| msgid "%1 incompatible with %2"
 msgctxt "@info:shell"
 msgid ": option(s) only valid with an appropriate action option or message"
 msgstr "%1 %2 bilan mos kelmaydi"
 
-#: commandoptions.cpp:499
+#: commandoptions.cpp:697
 msgctxt "@info:shell"
 msgid ""
 "\n"
 "Use --help to get a list of available command line options.\n"
 msgstr ""
 
-#: commandoptions.cpp:528
+#: commandoptions.cpp:726
 #, fuzzy, kde-format
 #| msgid "%1 incompatible with %2"
 msgctxt "@info:shell"
 msgid "<icode>%1</icode> requires <icode>%2</icode>"
 msgstr "%1 %2 bilan mos kelmaydi"
 
-#: commandoptions.cpp:530
+#: commandoptions.cpp:728
 #, fuzzy, kde-format
 #| msgid "%1 incompatible with %2"
 msgctxt "@info:shell"
 msgid "<icode>%1</icode> requires <icode>%2</icode> or <icode>%3</icode>"
 msgstr "%1 %2 bilan mos kelmaydi"
 
-#: commandoptions.cpp:535
+#: commandoptions.cpp:733
 #, fuzzy, kde-format
 #| msgid "Invalid %1 parameter"
 msgctxt "@info:shell"
 msgid "Invalid <icode>%1</icode> parameter"
 msgstr "Xato %1 parametr"
 
-#: commandoptions.cpp:546
+#: commandoptions.cpp:738
 #, fuzzy, kde-format
 #| msgid "%1 incompatible with %2"
 msgctxt "@info:shell"
@@ -2375,19 +2550,19 @@ msgctxt "@info"
 msgid "Error saving alarm template"
 msgstr "Yangi ogohlantirish namunasi yaratish"
 
-#: kalarmapp.cpp:356
+#: kalarmapp.cpp:375
 #, fuzzy, kde-format
 msgctxt "@info:shell"
 msgid "%1: Event <resource>%2</resource> not found, or not unique"
 msgstr "Koʻrinish moslamalari"
 
-#: kalarmapp.cpp:384
+#: kalarmapp.cpp:403
 #, fuzzy, kde-format
 msgctxt "@info:shell"
 msgid "%1: Event <resource>%2</resource> not found, or not editable"
 msgstr "Koʻrinish moslamalari"
 
-#: kalarmapp.cpp:570
+#: kalarmapp.cpp:589
 msgctxt "@info"
 msgid ""
 "Time zones are not accessible:<nl/>KAlarm will use the UTC time zone.<nl/"
@@ -2395,25 +2570,25 @@ msgid ""
 "<application>ktimezoned</application> is installed.)"
 msgstr ""
 
-#: kalarmapp.cpp:649
+#: kalarmapp.cpp:668
 msgctxt "@info"
 msgid ""
 "Quitting will disable alarms (once any alarm message windows are closed)."
 msgstr ""
 
-#: kalarmapp.cpp:658
+#: kalarmapp.cpp:677
 msgctxt "@info"
 msgid "Quitting will cancel the scheduled Wake from Suspend."
 msgstr ""
 
-#: kalarmapp.cpp:670
+#: kalarmapp.cpp:689
 msgctxt "@info"
 msgid ""
 "Do you want to start KAlarm at login?<nl/>(Note that alarms will be disabled "
 "if KAlarm is not started.)"
 msgstr ""
 
-#: kalarmapp.cpp:1130
+#: kalarmapp.cpp:1139
 msgctxt "@info"
 msgid ""
 "Alarms cannot be created or updated, because no writable active alarm "
@@ -2421,20 +2596,20 @@ msgid ""
 "Calendars</interface> to check or change calendar statuses."
 msgstr ""
 
-#: kalarmapp.cpp:2149
+#: kalarmapp.cpp:2158
 #, fuzzy
 msgctxt "@info"
 msgid "Error creating temporary script file"
 msgstr "Ogohlantirishni qayta yaratishda xato"
 
-#: kalarmapp.cpp:2238
+#: kalarmapp.cpp:2247
 #, fuzzy
 #| msgid "Pre-alarm action:"
 msgctxt "@info"
 msgid "Pre-alarm action:"
 msgstr "Ogohlantirishdan oldingi amal:"
 
-#: kalarmapp.cpp:2244
+#: kalarmapp.cpp:2253
 #, fuzzy
 #| msgid "Post-alarm action:"
 msgctxt "@info"
@@ -2698,7 +2873,7 @@ msgid "Show alarm times in system tray tooltip"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (ShowTooltipAlarmTime), group (General)
-#: kalarmconfig.kcfg:157 prefdlg.cpp:1725
+#: kalarmconfig.kcfg:157 prefdlg.cpp:1724
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2716,7 +2891,7 @@ msgid "Show time to alarms in system tray tooltip"
 msgstr "Ogohlantiri&shga qolgan vaqtni koʻrsatish"
 
 #. i18n: ectx: whatsthis, entry (ShowTooltipTimeToAlarm), group (General)
-#: kalarmconfig.kcfg:163 prefdlg.cpp:1731
+#: kalarmconfig.kcfg:163 prefdlg.cpp:1730
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -2733,7 +2908,7 @@ msgid "Time-to-alarm prefix in system tray tooltip"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (TooltipTimeToPrefix), group (General)
-#: kalarmconfig.kcfg:169 prefdlg.cpp:1743
+#: kalarmconfig.kcfg:169 prefdlg.cpp:1742
 msgctxt "@info:whatsthis"
 msgid ""
 "Enter the text to be displayed in front of the time until the alarm, in the "
@@ -2902,7 +3077,7 @@ msgid "Disabled alarm color"
 msgstr "Oʻ&chirilgan ogohlantirishning rangi:"
 
 #. i18n: ectx: whatsthis, entry (DisabledColour), group (General)
-#: kalarmconfig.kcfg:227 prefdlg.cpp:1766
+#: kalarmconfig.kcfg:227 prefdlg.cpp:1765
 #, fuzzy
 #| msgid "Choose the text color in the alarm list for disabled alarms."
 msgctxt "@info:whatsthis"
@@ -2919,7 +3094,7 @@ msgid "Archived alarm color"
 msgstr "&Muddati oʻtgan ogohlantirishning rangi:"
 
 #. i18n: ectx: whatsthis, entry (ArchivedColour), group (General)
-#: kalarmconfig.kcfg:233 prefdlg.cpp:1779
+#: kalarmconfig.kcfg:233 prefdlg.cpp:1778
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "Choose the text color in the alarm list for archived alarms."
@@ -3190,7 +3365,7 @@ msgid "Recurrence period"
 msgstr "Qaytarish"
 
 #. i18n: ectx: whatsthis, entry (DefaultRecurPeriod), group (Defaults)
-#: kalarmconfig.kcfg:334 prefdlg.cpp:1279
+#: kalarmconfig.kcfg:334 prefdlg.cpp:1278
 #, fuzzy
 #| msgid "The default setting for \"%1\" in the alarm edit dialog."
 msgctxt "@info:whatsthis"
@@ -3221,7 +3396,7 @@ msgid "Hourly/minutely"
 msgstr "Har soat/daqiqada"
 
 #. i18n: ectx: label, entry (DefaultFeb29Type), group (Defaults)
-#: kalarmconfig.kcfg:347 prefdlg.cpp:1287
+#: kalarmconfig.kcfg:347 prefdlg.cpp:1286
 msgctxt "@label"
 msgid "In non-leap years, repeat yearly February 29th alarms on:"
 msgstr ""
@@ -3375,7 +3550,7 @@ msgid "Confirm alarm deletions"
 msgstr "Ogohlantirishni oʻchirishda ta&sdiqlash"
 
 #. i18n: ectx: whatsthis, entry (Base_ConfirmAlarmDeletion), group (Notification Messages)
-#: kalarmconfig.kcfg:399 prefdlg.cpp:434
+#: kalarmconfig.kcfg:399 prefdlg.cpp:433
 msgctxt "@info:whatsthis"
 msgid "Check to be prompted for confirmation each time you delete an alarm."
 msgstr ""
@@ -3387,7 +3562,7 @@ msgid "Notify when remote emails are queued"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (Base_EmailQueuedNotify), group (Notification Messages)
-#: kalarmconfig.kcfg:404 prefdlg.cpp:1034
+#: kalarmconfig.kcfg:404 prefdlg.cpp:1033
 msgctxt "@info:whatsthis"
 msgid ""
 "Display a notification message whenever an email alarm has queued an email "
@@ -3758,194 +3933,23 @@ msgid ""
 "larger step (6 hours / 5 minutes)."
 msgstr ""
 
-#: main.cpp:44
+#: main.cpp:48
 msgid "KAlarm"
 msgstr "KAlarm"
 
-#: main.cpp:45
+#: main.cpp:50
 msgid "Personal alarm message, command and email scheduler for KDE"
 msgstr ""
 "KDE uchun ogohlantirish, buyruq va xat joʻnatishni rejalashtirish dasturi"
 
-#: main.cpp:47
+#: main.cpp:52
 #, kde-format
 msgid "Copyright 2001-%1, David Jarvie"
 msgstr ""
 
-#: main.cpp:55
-msgid "Prompt for confirmation when alarm is acknowledged"
-msgstr ""
-
-#: main.cpp:57
-msgid "Attach file to email (repeat as needed)"
-msgstr "Faylni xatga ilova qilish (keragida takrorlash)"
-
-#: main.cpp:58
-msgid "Auto-close alarm window after --late-cancel period"
-msgstr ""
-
-#: main.cpp:59
-msgid "Blind copy email to self"
-msgstr ""
-
-#: main.cpp:61
-msgid "Beep when message is displayed"
-msgstr "Xabar koʻrsatilganda ovoz berish"
-
-#: main.cpp:64
-msgid "Message background color (name or hex 0xRRGGBB)"
-msgstr "Xabarning orqa fon rangi (nomi yoki 0xRRGGBB koʻrinishda)"
-
-#: main.cpp:67
-msgid "Message foreground color (name or hex 0xRRGGBB)"
-msgstr "Xabarning oldin fon rangi (nomi yoki 0xRRGGBB koʻrinishda)"
-
-#: main.cpp:68
-msgid "Cancel alarm with the specified event ID"
-msgstr ""
-
-#: main.cpp:70
-msgid "Disable the alarm"
-msgstr "Ogohlantirishni oʻchirish"
-
-#: main.cpp:71
-#, fuzzy
-#| msgid "Disable the alarm"
-msgid "Disable monitoring of all alarms"
-msgstr "Ogohlantirishni oʻchirish"
-
-#: main.cpp:73
-#, fuzzy
-msgid "Execute a shell command line"
-msgstr "Shell buyruqlar satrini ishga tushirish"
-
-#: main.cpp:75
-msgid "Command line to generate alarm message text"
-msgstr ""
-
-#: main.cpp:76
-#, fuzzy
-msgid "Display the alarm edit dialog to edit the specified alarm"
-msgstr "Ogohlantirishni koʻrsatilgan vaqtda rejalashtirish."
-
-#: main.cpp:77
-#, fuzzy
-msgid "Display the alarm edit dialog to edit a new display alarm"
-msgstr "Ogohlantirish xabarini darhol koʻrsatish"
-
-#: main.cpp:78
-#, fuzzy
-msgid "Display the alarm edit dialog to edit a new command alarm"
-msgstr "Ogohlantirish xabarini darhol koʻrsatish"
-
-#: main.cpp:79
-#, fuzzy
-msgid "Display the alarm edit dialog to edit a new email alarm"
-msgstr "Ogohlantirish xabarini darhol koʻrsatish"
-
-#: main.cpp:80
-#, fuzzy
-msgid "Display the alarm edit dialog to edit a new audio alarm"
-msgstr "Ogohlantirish xabarini darhol koʻrsatish"
-
-#: main.cpp:81
-msgid "Display the alarm edit dialog, preset with a template"
-msgstr ""
-
-#: main.cpp:83
-msgid "File to display"
-msgstr "Koʻrsatish uchun fayl"
-
-#: main.cpp:85
-msgid "KMail identity to use as sender of email"
-msgstr "Joʻnatuvchi sifatida ishlatish uchun KMail shaxsiyatidan foydalanish"
-
-#: main.cpp:87
-msgid "Interval between alarm repetitions"
-msgstr "Ogohlantirishni takrorlash vaqti"
-
-#: main.cpp:89
-msgid "Show alarm as an event in KOrganizer"
-msgstr "Ogohlantirishni KOrganizer'da hodisa sifatida koʻrsatish"
-
-#: main.cpp:91
-msgid "Cancel alarm if more than 'period' late when triggered"
-msgstr ""
-
-#: main.cpp:92
-#, fuzzy
-#| msgid "List of scheduled alarms"
-msgid "Output list of scheduled alarms to stdout"
-msgstr "Rejalashtirilgan ogohlantirishlar roʻyxati"
-
-#: main.cpp:94
-msgid "Repeat alarm at every login"
-msgstr "Ogohlantirishni tizimga har kirganda takrorlash"
-
-#: main.cpp:96
-msgid "Send an email to the given address (repeat as needed)"
-msgstr ""
-
-#: main.cpp:98
-msgid "Audio file to play once"
-msgstr "Bir marta oʻynash uchun audio fayli"
-
-#: main.cpp:100
-msgid "Audio file to play repeatedly"
-msgstr "Takrorlab oʻynash uchun audio fayli"
-
-#: main.cpp:101
-msgid "Specify alarm recurrence using iCalendar syntax"
-msgstr ""
-
-#: main.cpp:103
-msgid "Display reminder before or after alarm"
-msgstr ""
-
-#: main.cpp:104
-msgid "Display reminder once, before or after first alarm recurrence"
-msgstr ""
-
-#: main.cpp:106
-msgid "Number of times to repeat alarm (including initial occasion)"
-msgstr ""
-
-#: main.cpp:108
-msgid "Speak the message when it is displayed"
-msgstr "Koʻrsatilgan xabarni oʻqib eshittirish"
-
-#: main.cpp:110
-msgid "Email subject line"
-msgstr "Xatning mavzusi"
-
-#: main.cpp:112
-msgid "Simulate system time [[[yyyy-]mm-]dd-]hh:mm [TZ] (debug mode)"
-msgstr ""
-
-#: main.cpp:115
-msgid ""
-"Trigger alarm at time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
-msgstr ""
-
-#: main.cpp:116
-msgid "Display system tray icon"
-msgstr ""
-
-#: main.cpp:117
-msgid "Trigger alarm with the specified event ID"
-msgstr ""
-
-#: main.cpp:119
-msgid "Repeat until time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
-msgstr ""
-
-#: main.cpp:121
-msgid "Volume to play audio file"
-msgstr "Audio faylning tovushi"
-
-#: main.cpp:122
-msgid "Message text to display"
-msgstr "Koʻrsatish uchun xabar matni"
+#: main.cpp:54
+msgid "Author"
+msgstr "Muallif"
 
 #: mainwindow.cpp:115
 #, fuzzy
@@ -3974,7 +3978,7 @@ msgctxt "@option:check"
 msgid "Show time until alarm"
 msgstr "Ogohlantiri&shga qolgan vaqtni koʻrsatish"
 
-#: mainwindow.cpp:404
+#: mainwindow.cpp:405
 #, fuzzy, kde-format
 #| msgid ""
 #| "Failed to save calendar to\n"
@@ -3987,122 +3991,122 @@ msgstr ""
 "Kalendarni saqlab boʻlmadi\n"
 "'%1'"
 
-#: mainwindow.cpp:425
+#: mainwindow.cpp:426
 #, fuzzy
 #| msgid "&Templates..."
 msgctxt "@action"
 msgid "&Templates..."
 msgstr "&Namunalar..."
 
-#: mainwindow.cpp:429
+#: mainwindow.cpp:430
 #, fuzzy
 #| msgid "&New..."
 msgctxt "@action"
 msgid "&New"
 msgstr "Ya&ngi..."
 
-#: mainwindow.cpp:460
+#: mainwindow.cpp:461
 #, fuzzy
 #| msgid "Create Tem&plate..."
 msgctxt "@action"
 msgid "Create Tem&plate..."
 msgstr "Na&muna yaratish..."
 
-#: mainwindow.cpp:464
+#: mainwindow.cpp:465
 #, fuzzy
 #| msgid "&Copy..."
 msgctxt "@action"
 msgid "&Copy..."
 msgstr "&Nusxa olish"
 
-#: mainwindow.cpp:469 resourceselector.cpp:363
+#: mainwindow.cpp:470 resourceselector.cpp:363
 #, fuzzy
 #| msgid "&Edit..."
 msgctxt "@action"
 msgid "&Edit..."
 msgstr "&Tahrirlash"
 
-#: mainwindow.cpp:474
+#: mainwindow.cpp:475
 #, fuzzy
 msgctxt "@action"
 msgid "&Delete"
 msgstr "Ogohlantirishni oʻchirish"
 
-#: mainwindow.cpp:480
+#: mainwindow.cpp:481
 #, fuzzy
 msgctxt "@action"
 msgid "Delete Without Confirmation"
 msgstr "Ogohlantirish moslamasi"
 
-#: mainwindow.cpp:485
+#: mainwindow.cpp:486
 #, fuzzy
 #| msgid "Reac&tivate"
 msgctxt "@action"
 msgid "Reac&tivate"
 msgstr "Qayta akti&vlashtirish"
 
-#: mainwindow.cpp:495
+#: mainwindow.cpp:496
 msgctxt "@action"
 msgid "Wake From Suspend..."
 msgstr ""
 
-#: mainwindow.cpp:512
+#: mainwindow.cpp:513
 #, fuzzy
 msgctxt "@action"
 msgid "Show Archi&ved Alarms"
 msgstr "Muddati oʻtgan ogohlantirishlarni koʻrsatish"
 
-#: mainwindow.cpp:517
+#: mainwindow.cpp:518
 msgctxt "@action"
 msgid "Show in System &Tray"
 msgstr ""
 
-#: mainwindow.cpp:521
+#: mainwindow.cpp:522
 #, fuzzy
 msgctxt "@action"
 msgid "Show &Calendars"
 msgstr "Kalendar faylining manzili"
 
-#: mainwindow.cpp:531
+#: mainwindow.cpp:532
 #, fuzzy
 msgctxt "@action"
 msgid "Import &Alarms..."
 msgstr "&Tugʻilgan kunlarni import qilish..."
 
-#: mainwindow.cpp:535
+#: mainwindow.cpp:536
 #, fuzzy
 #| msgid "Import &Birthdays..."
 msgctxt "@action"
 msgid "Import &Birthdays..."
 msgstr "&Tugʻilgan kunlarni import qilish..."
 
-#: mainwindow.cpp:539
+#: mainwindow.cpp:540
 #, fuzzy
 msgctxt "@action"
 msgid "E&xport Selected Alarms..."
 msgstr "&Tugʻilgan kunlarni import qilish..."
 
-#: mainwindow.cpp:543 resourceselector.cpp:381
+#: mainwindow.cpp:544 resourceselector.cpp:381
 #, fuzzy
 msgctxt "@action"
 msgid "E&xport..."
 msgstr "&Tugʻilgan kunlarni import qilish..."
 
-#: mainwindow.cpp:547
+#: mainwindow.cpp:548
 #, fuzzy
 #| msgid "&Refresh Alarms"
 msgctxt "@action"
 msgid "&Refresh Alarms"
 msgstr "Ogohlantirishlarni &yangilash"
 
-#: mainwindow.cpp:757
+#: mainwindow.cpp:758
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Do you really want to delete the selected alarm?"
 msgid_plural "Do you really want to delete the %1 selected alarms?"
 msgstr[0] "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
 
-#: mainwindow.cpp:759
+#: mainwindow.cpp:760
 #, fuzzy
 #| msgid "Delete Alarm"
 #| msgid_plural "Delete Alarms"
@@ -4111,31 +4115,31 @@ msgid "Delete Alarm"
 msgid_plural "Delete Alarms"
 msgstr[0] "Ogohlantirishni oʻchirish"
 
-#: mainwindow.cpp:760 templatedlg.cpp:188
+#: mainwindow.cpp:761 templatedlg.cpp:188
 #, fuzzy
 msgctxt "@action:button"
 msgid "&Delete"
 msgstr "Ogohlantirishni oʻchirish"
 
-#: mainwindow.cpp:873
+#: mainwindow.cpp:874
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Hide Archived Alarms"
 msgstr "Muddati oʻtgan ogohlantirishlarni bekitish"
 
-#: mainwindow.cpp:874
+#: mainwindow.cpp:875
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Show Archived Alarms"
 msgstr "Muddati oʻtgan ogohlantirishlarni koʻrsatish"
 
-#: mainwindow.cpp:947
+#: mainwindow.cpp:948
 #, fuzzy
 msgctxt "@info"
 msgid "Import birthdays"
 msgstr "&Tugʻilgan kunlarni import qilish..."
 
-#: mainwindow.cpp:1117
+#: mainwindow.cpp:1118
 #, fuzzy, kde-format
 #| msgctxt "Undo-action: message"
 #| msgid "%1: %2"
@@ -4143,55 +4147,55 @@ msgctxt "@action Undo/Redo [action]"
 msgid "%1 %2"
 msgstr "%1: %2"
 
-#: mainwindow.cpp:1118
+#: mainwindow.cpp:1119
 #, fuzzy, kde-format
 msgctxt "@action Undo [action]: message"
 msgid "%1 %2: %3"
 msgstr "%1%2:%3"
 
-#: mainwindow.cpp:1384
+#: mainwindow.cpp:1385
 #, fuzzy
 #| msgid "Display Alarms"
 msgctxt "@item:inlistbox"
 msgid "Display Alarm"
 msgstr "Ogohlantirishlarni koʻrsatish"
 
-#: mainwindow.cpp:1386
+#: mainwindow.cpp:1387
 #, fuzzy
 #| msgid "Email Alarms"
 msgctxt "@item:inlistbox"
 msgid "Email Alarm"
 msgstr "Elektron pochta orqali ogohlantirishlar"
 
-#: mainwindow.cpp:1388
+#: mainwindow.cpp:1389
 #, fuzzy
 #| msgid "Command Alarms"
 msgctxt "@item:inlistbox"
 msgid "Command Alarm"
 msgstr "Buyruq orqali ogohlantirishlar"
 
-#: mainwindow.cpp:1390
+#: mainwindow.cpp:1391
 #, fuzzy
 #| msgid "Alarm Type"
 msgctxt "@title:window"
 msgid "Alarm Type"
 msgstr "Ogohlantirish turi"
 
-#: mainwindow.cpp:1391
+#: mainwindow.cpp:1392
 #, fuzzy
 #| msgid "Choose Alarm Font & Color"
 msgctxt "@info"
 msgid "Choose alarm type to create:"
 msgstr "Ogohlantirish shrifti va rangini tanlash"
 
-#: mainwindow.cpp:1522
+#: mainwindow.cpp:1523
 #, fuzzy
 #| msgid "Ena&ble"
 msgctxt "@action"
 msgid "Ena&ble"
 msgstr "Yoq&ish"
 
-#: mainwindow.cpp:1522
+#: mainwindow.cpp:1523
 #, fuzzy
 #| msgid "Disa&ble"
 msgctxt "@action"
@@ -4564,118 +4568,118 @@ msgctxt "@action"
 msgid "New Alarm From &Template"
 msgstr "&Namunadan yangi ogohlantirish"
 
-#: prefdlg.cpp:151
+#: prefdlg.cpp:150
 #, fuzzy
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Tovush faylini tanlash"
 
-#: prefdlg.cpp:158
+#: prefdlg.cpp:157
 #, fuzzy
 #| msgid "General"
 msgctxt "@title:tab General preferences"
 msgid "General"
 msgstr "Umumiy"
 
-#: prefdlg.cpp:159
+#: prefdlg.cpp:158
 #, fuzzy
 #| msgid "General"
 msgctxt "@title General preferences"
 msgid "General"
 msgstr "Umumiy"
 
-#: prefdlg.cpp:164
+#: prefdlg.cpp:163
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Time & Date"
 msgstr "Vaqt:"
 
-#: prefdlg.cpp:165
+#: prefdlg.cpp:164
 #, fuzzy
 msgctxt "@title"
 msgid "Time and Date"
 msgstr "Vaqt"
 
-#: prefdlg.cpp:170
+#: prefdlg.cpp:169
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Storage"
 msgstr "Ogohlantirish turi"
 
-#: prefdlg.cpp:171
+#: prefdlg.cpp:170
 #, fuzzy
 msgctxt "@title"
 msgid "Alarm Storage"
 msgstr "Ogohlantirish turi"
 
-#: prefdlg.cpp:176
+#: prefdlg.cpp:175
 #, fuzzy
 #| msgid "Email"
 msgctxt "@title:tab Email preferences"
 msgid "Email"
 msgstr "Elektron pochta"
 
-#: prefdlg.cpp:177
+#: prefdlg.cpp:176
 #, fuzzy
 #| msgid "Email Alarm Settings"
 msgctxt "@title"
 msgid "Email Alarm Settings"
 msgstr "Xat orqali ogohlantirish moslamalari"
 
-#: prefdlg.cpp:182
+#: prefdlg.cpp:181
 msgctxt "@title:tab"
 msgid "View"
 msgstr ""
 
-#: prefdlg.cpp:183
+#: prefdlg.cpp:182
 #, fuzzy
 #| msgid "View Settings"
 msgctxt "@title"
 msgid "View Settings"
 msgstr "Koʻrinish moslamalari"
 
-#: prefdlg.cpp:188
+#: prefdlg.cpp:187
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Edit"
 msgstr "&Tahrirlash"
 
-#: prefdlg.cpp:189
+#: prefdlg.cpp:188
 #, fuzzy
 #| msgid "Default Alarm Edit Settings"
 msgctxt "@title"
 msgid "Default Alarm Edit Settings"
 msgstr "Ogohlantirishni tahrirlash moslamalari"
 
-#: prefdlg.cpp:264
+#: prefdlg.cpp:263
 msgctxt "@info"
 msgid "Reset all tabs to their default values, or only reset the current tab?"
 msgstr ""
 
-#: prefdlg.cpp:266
+#: prefdlg.cpp:265
 msgctxt "@action:button Reset ALL tabs"
 msgid "&All"
 msgstr ""
 
-#: prefdlg.cpp:267
+#: prefdlg.cpp:266
 msgctxt "@action:button Reset the CURRENT tab"
 msgid "C&urrent"
 msgstr ""
 
-#: prefdlg.cpp:410
+#: prefdlg.cpp:409
 #, fuzzy
 #| msgid "Run Mode"
 msgctxt "@title:group"
 msgid "Run Mode"
 msgstr "Bajarish usuli"
 
-#: prefdlg.cpp:417
+#: prefdlg.cpp:416
 #, fuzzy
 msgctxt "@option:check"
 msgid "Start at login"
 msgstr "Tizimga &kirishda avtomatik boshlash"
 
-#: prefdlg.cpp:420
+#: prefdlg.cpp:419
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Automatically start <application>KAlarm</application> whenever you "
@@ -4683,36 +4687,36 @@ msgid ""
 "intend to discontinue use of <application>KAlarm</application>.</para>"
 msgstr ""
 
-#: prefdlg.cpp:424
+#: prefdlg.cpp:423
 msgctxt "@option:check"
 msgid "Warn before quitting"
 msgstr ""
 
-#: prefdlg.cpp:425
+#: prefdlg.cpp:424
 msgctxt "@info:whatsthis"
 msgid ""
 "Check to display a warning prompt before quitting <application>KAlarm</"
 "application>."
 msgstr ""
 
-#: prefdlg.cpp:429
+#: prefdlg.cpp:428
 #, fuzzy
 msgctxt "@title:group"
 msgid "Deletion"
 msgstr "Ogohlantirishni oʻchirish"
 
-#: prefdlg.cpp:432
+#: prefdlg.cpp:431
 #, fuzzy
 msgctxt "@option:check"
 msgid "Confirm alarm deletions"
 msgstr "Ogohlantirishni oʻchirishda ta&sdiqlash"
 
-#: prefdlg.cpp:442
+#: prefdlg.cpp:441
 msgctxt "@label:spinbox"
 msgid "Default defer time interval:"
 msgstr ""
 
-#: prefdlg.cpp:448
+#: prefdlg.cpp:447
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4720,14 +4724,14 @@ msgid ""
 "the Defer Alarm dialog."
 msgstr "Ogohlantirishni tahrirlash oynasidagi \"%1\" uchun andoza moslama."
 
-#: prefdlg.cpp:453
+#: prefdlg.cpp:452
 #, fuzzy
 #| msgid "Command Alarms"
 msgctxt "@title:group"
 msgid "Terminal for Command Alarms"
 msgstr "Buyruq orqali ogohlantirishlar"
 
-#: prefdlg.cpp:454
+#: prefdlg.cpp:453
 #, fuzzy
 #| msgid "Check to execute the command in a terminal window"
 msgctxt "@info:whatsthis"
@@ -4736,7 +4740,7 @@ msgid ""
 "terminal window"
 msgstr "Terminal oynasida buyruqni ishga tushirish uchun shu yerni belgilang"
 
-#: prefdlg.cpp:481
+#: prefdlg.cpp:480
 #, fuzzy, kde-format
 #| msgid "Check to execute the command in a terminal window"
 msgctxt "@info:whatsthis"
@@ -4744,14 +4748,14 @@ msgid ""
 "Check to execute command alarms in a terminal window by <icode>%1</icode>"
 msgstr "Terminal oynasida buyruqni ishga tushirish uchun shu yerni belgilang"
 
-#: prefdlg.cpp:490
+#: prefdlg.cpp:489
 #, fuzzy
 #| msgid "Other:"
 msgctxt "@option:radio Other terminal window command"
 msgid "Other:"
 msgstr "Boshqa:"
 
-#: prefdlg.cpp:500
+#: prefdlg.cpp:499
 msgctxt "@info:whatsthis"
 msgid ""
 "Enter the full command line needed to execute a command in your chosen "
@@ -4760,38 +4764,38 @@ msgid ""
 "details of special codes to tailor the command line."
 msgstr ""
 
-#: prefdlg.cpp:546
+#: prefdlg.cpp:545
 #, fuzzy, kde-format
 #| msgid "Check to execute the command in a terminal window"
 msgctxt "@info"
 msgid "Command to invoke terminal window not found: <command>%1</command>"
 msgstr "Terminal oynasida buyruqni ishga tushirish uchun shu yerni belgilang"
 
-#: prefdlg.cpp:589
+#: prefdlg.cpp:588
 msgctxt "@info"
 msgid ""
 "You should not uncheck this option unless you intend to discontinue use of "
 "<application>KAlarm</application>"
 msgstr ""
 
-#: prefdlg.cpp:633
+#: prefdlg.cpp:632
 msgctxt "@info:whatsthis"
 msgid ""
 "Select the time zone which <application>KAlarm</application> should use as "
 "its default for displaying and entering dates and times."
 msgstr ""
 
-#: prefdlg.cpp:648
+#: prefdlg.cpp:647
 msgctxt "@label:listbox"
 msgid "Holiday region:"
 msgstr ""
 
-#: prefdlg.cpp:657
+#: prefdlg.cpp:656
 msgctxt "@info:whatsthis"
 msgid "Select which holiday region to use"
 msgstr ""
 
-#: prefdlg.cpp:665
+#: prefdlg.cpp:664
 #, fuzzy, kde-format
 #| msgctxt "Undo-action: message"
 #| msgid "%1: %2"
@@ -4799,19 +4803,19 @@ msgctxt "Holiday region, region language"
 msgid "%1 (%2)"
 msgstr "%1: %2"
 
-#: prefdlg.cpp:669
+#: prefdlg.cpp:668
 #, fuzzy
 #| msgid "None"
 msgctxt "No holiday region"
 msgid "None"
 msgstr "Yoʻq"
 
-#: prefdlg.cpp:686
+#: prefdlg.cpp:685
 msgctxt "@label:spinbox"
 msgid "Start of day for date-only alarms:"
 msgstr ""
 
-#: prefdlg.cpp:693
+#: prefdlg.cpp:692
 #, fuzzy, kde-format
 #| msgid "Enter the name or path of the log file."
 msgctxt "@info:whatsthis"
@@ -4820,33 +4824,33 @@ msgid ""
 "</para><para>%1</para>"
 msgstr "Log faylini nomini yoki yoʻlini kiriting."
 
-#: prefdlg.cpp:698
+#: prefdlg.cpp:697
 msgctxt "@title:group"
 msgid "Working Hours"
 msgstr ""
 
-#: prefdlg.cpp:715
+#: prefdlg.cpp:714
 #, fuzzy
 #| msgid "Select the day of the week on which to repeat the alarm"
 msgctxt "@info:whatsthis"
 msgid "Check the days in the week which are work days"
 msgstr "Ogohlantirish takrorlanadigan hafta kunini tanlang"
 
-#: prefdlg.cpp:726
+#: prefdlg.cpp:725
 #, fuzzy
 #| msgid "&Default time"
 msgctxt "@label:spinbox"
 msgid "Daily start time:"
 msgstr "&Andoza vaqt"
 
-#: prefdlg.cpp:733
+#: prefdlg.cpp:732
 #, fuzzy, kde-format
 #| msgid "Enter the name or path of the log file."
 msgctxt "@info:whatsthis"
 msgid "<para>Enter the start time of the working day.</para><para>%1</para>"
 msgstr "Log faylini nomini yoki yoʻlini kiriting."
 
-#: prefdlg.cpp:746
+#: prefdlg.cpp:745
 #, fuzzy
 #| msgctxt "Time period over which to fade the sound"
 #| msgid "Fade time:"
@@ -4854,26 +4858,26 @@ msgctxt "@label:spinbox"
 msgid "Daily end time:"
 msgstr "Soʻnish vaqti:"
 
-#: prefdlg.cpp:753
+#: prefdlg.cpp:752
 #, fuzzy, kde-format
 #| msgid "Enter the name of the alarm template"
 msgctxt "@info:whatsthis"
 msgid "<para>Enter the end time of the working day.</para><para>%1</para>"
 msgstr "Ogohlantirish namunasi nomini kiritish"
 
-#: prefdlg.cpp:758
+#: prefdlg.cpp:757
 #, fuzzy
 #| msgid "Show in KOrganizer"
 msgctxt "@title:group"
 msgid "KOrganizer"
 msgstr "KOrganizer'da koʻrsatish"
 
-#: prefdlg.cpp:769
+#: prefdlg.cpp:768
 msgctxt "@label:spinbox"
 msgid "KOrganizer event duration:"
 msgstr ""
 
-#: prefdlg.cpp:776
+#: prefdlg.cpp:775
 #, fuzzy, kde-format
 #| msgid "Enter the name of the alarm template"
 msgctxt "@info:whatsthis"
@@ -4882,30 +4886,30 @@ msgid ""
 "copied to KOrganizer.</para><para>%1</para>"
 msgstr "Ogohlantirish namunasi nomini kiritish"
 
-#: prefdlg.cpp:860
+#: prefdlg.cpp:859
 #, fuzzy
 msgctxt "@title:group"
 msgid "New Alarms && Templates"
 msgstr "Yangi ogohlantirish namunasi"
 
-#: prefdlg.cpp:867
+#: prefdlg.cpp:866
 msgctxt "@option:radio"
 msgid "Store in default calendar"
 msgstr ""
 
-#: prefdlg.cpp:869
+#: prefdlg.cpp:868
 msgctxt "@info:whatsthis"
 msgid ""
 "Add all new alarms and alarm templates to the default calendars, without "
 "prompting."
 msgstr ""
 
-#: prefdlg.cpp:871
+#: prefdlg.cpp:870
 msgctxt "@option:radio"
 msgid "Prompt for which calendar to store in"
 msgstr ""
 
-#: prefdlg.cpp:874
+#: prefdlg.cpp:873
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>When saving a new alarm or alarm template, prompt for which calendar "
@@ -4914,59 +4918,59 @@ msgid ""
 "calendar.</para>"
 msgstr ""
 
-#: prefdlg.cpp:879
+#: prefdlg.cpp:878
 #, fuzzy
 msgctxt "@title:group"
 msgid "Archived Alarms"
 msgstr "KAlarm'ni aktivlashtirish"
 
-#: prefdlg.cpp:886
+#: prefdlg.cpp:885
 #, fuzzy
 #| msgid "Keep alarms after e&xpiry"
 msgctxt "@option:check"
 msgid "Keep alarms after expiry"
 msgstr "Ogohlantirishlarni muddatidan soʻn&g ham saqlash"
 
-#: prefdlg.cpp:889
+#: prefdlg.cpp:888
 msgctxt "@info:whatsthis"
 msgid ""
 "Check to archive alarms after expiry or deletion (except deleted alarms "
 "which were never triggered)."
 msgstr ""
 
-#: prefdlg.cpp:896
+#: prefdlg.cpp:895
 #, fuzzy
 msgctxt "@option:check"
 msgid "Discard archived alarms after:"
 msgstr "Oʻ&chirilgan ogohlantirishning rangi:"
 
-#: prefdlg.cpp:905
+#: prefdlg.cpp:904
 #, fuzzy
 #| msgid "days"
 msgctxt "@label Time unit for user-entered number"
 msgid "days"
 msgstr "kun"
 
-#: prefdlg.cpp:909
+#: prefdlg.cpp:908
 msgctxt "@info:whatsthis"
 msgid ""
 "Uncheck to store archived alarms indefinitely. Check to enter how long "
 "archived alarms should be stored."
 msgstr ""
 
-#: prefdlg.cpp:912
+#: prefdlg.cpp:911
 #, fuzzy
 msgctxt "@action:button"
 msgid "Clear Archived Alarms"
 msgstr "Muddati oʻtgan o&gohlantirishlarni tozalash"
 
-#: prefdlg.cpp:915
+#: prefdlg.cpp:914
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "Delete all existing archived alarms."
 msgstr "Mavjud muddati oʻtgan ogohlantirishlarni oʻchirish."
 
-#: prefdlg.cpp:916
+#: prefdlg.cpp:915
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4974,7 +4978,7 @@ msgid ""
 "calendar only)."
 msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
 
-#: prefdlg.cpp:962
+#: prefdlg.cpp:961
 msgctxt "@info"
 msgid ""
 "<para>A default calendar is required in order to archive alarms, but none is "
@@ -4983,13 +4987,13 @@ msgid ""
 "para>"
 msgstr ""
 
-#: prefdlg.cpp:979
+#: prefdlg.cpp:978
 #, fuzzy
 msgctxt "@info"
 msgid "Do you really want to delete all archived alarms?"
 msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
 
-#: prefdlg.cpp:980
+#: prefdlg.cpp:979
 #, fuzzy
 msgctxt "@info"
 msgid ""
@@ -4997,26 +5001,26 @@ msgid ""
 "calendar?"
 msgstr "Rostdan ham ushbu ogohlantirishni tasdiqlaysizmi?"
 
-#: prefdlg.cpp:1000
+#: prefdlg.cpp:999
 #, fuzzy
 #| msgid "Email client:"
 msgctxt "@label"
 msgid "Email client:"
 msgstr "Elektron pochta dasturi:"
 
-#: prefdlg.cpp:1003
+#: prefdlg.cpp:1002
 #, fuzzy
 msgctxt "@option:radio"
 msgid "KMail"
 msgstr "&KMail"
 
-#: prefdlg.cpp:1004
+#: prefdlg.cpp:1003
 #, fuzzy
 msgctxt "@option:radio"
 msgid "Sendmail"
 msgstr "&Sendmail"
 
-#: prefdlg.cpp:1015
+#: prefdlg.cpp:1014
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5029,7 +5033,7 @@ msgid ""
 "compatible mail transport agent.</item></list></para>"
 msgstr ""
 
-#: prefdlg.cpp:1024
+#: prefdlg.cpp:1023
 #, fuzzy, kde-format
 #| msgid "Co&py sent emails into KMail's %1 folder"
 msgctxt "@option:check"
@@ -5038,7 +5042,7 @@ msgid ""
 "resource> folder"
 msgstr "Joʻnatilgan xatlardan KMail %1 jildiga nusxa olish"
 
-#: prefdlg.cpp:1025
+#: prefdlg.cpp:1024
 #, fuzzy, kde-format
 #| msgid "After sending an email, store a copy in KMail's %1 folder"
 msgctxt "@info:whatsthis"
@@ -5047,19 +5051,19 @@ msgid ""
 "<resource>%1</resource> folder"
 msgstr "Xatni joʻnatgandan soʻng undan KMail %1 jildiga nusxa olish"
 
-#: prefdlg.cpp:1032
+#: prefdlg.cpp:1031
 msgctxt "@option:check"
 msgid "Notify when remote emails are queued"
 msgstr ""
 
-#: prefdlg.cpp:1040
+#: prefdlg.cpp:1039
 #, fuzzy
 #| msgid "Your Email Address"
 msgctxt "@title:group"
 msgid "Your Email Address"
 msgstr "Elektron pochtangiz"
 
-#: prefdlg.cpp:1048
+#: prefdlg.cpp:1047
 #, fuzzy
 #| msgctxt "'From' email address"
 #| msgid "From:"
@@ -5067,7 +5071,7 @@ msgctxt "@label 'From' email address"
 msgid "From:"
 msgstr "Kimdan:"
 
-#: prefdlg.cpp:1060
+#: prefdlg.cpp:1059
 #, fuzzy
 #| msgid ""
 #| "Your email address, used to identify you as the sender when sending email "
@@ -5080,14 +5084,14 @@ msgstr ""
 "Ogohlantirish xati joʻnatilganda, joʻnatuvchi sifatida ishlatiladigan "
 "elektron pochta."
 
-#: prefdlg.cpp:1067 prefdlg.cpp:1103
+#: prefdlg.cpp:1066 prefdlg.cpp:1102
 #, fuzzy
 #| msgid "&Use address from Control Center"
 msgctxt "@option:radio"
 msgid "Use address from System Settings"
 msgstr "Boshqaruv markazidagi manzildan f&oydalanish"
 
-#: prefdlg.cpp:1070
+#: prefdlg.cpp:1069
 #, fuzzy
 #| msgid ""
 #| "Your email address, used to identify you as the sender when sending email "
@@ -5100,14 +5104,14 @@ msgstr ""
 "Ogohlantirish xati joʻnatilganda, joʻnatuvchi sifatida ishlatiladigan "
 "elektron pochta."
 
-#: prefdlg.cpp:1074
+#: prefdlg.cpp:1073
 #, fuzzy
 #| msgid "Use KMail &identities"
 msgctxt "@option:radio"
 msgid "Use <application>KMail</application> identities"
 msgstr "KMail &shaxsiyatlaridan foydalanish"
 
-#: prefdlg.cpp:1077
+#: prefdlg.cpp:1076
 msgctxt "@info:whatsthis"
 msgid ""
 "Check to use <application>KMail</application>'s email identities to identify "
@@ -5117,12 +5121,12 @@ msgid ""
 "application>'s identities to use."
 msgstr ""
 
-#: prefdlg.cpp:1084
+#: prefdlg.cpp:1083
 msgctxt "@label 'Bcc' email address"
 msgid "Bcc:"
 msgstr ""
 
-#: prefdlg.cpp:1095
+#: prefdlg.cpp:1094
 msgctxt "@info:whatsthis"
 msgid ""
 "Your email address, used for blind copying email alarms to yourself. If you "
@@ -5131,7 +5135,7 @@ msgid ""
 "login name."
 msgstr ""
 
-#: prefdlg.cpp:1106
+#: prefdlg.cpp:1105
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5139,13 +5143,13 @@ msgid ""
 "email alarms to yourself."
 msgstr "Ogohlantirishni tahrirlash oynasidagi \"%1\" uchun andoza moslama."
 
-#: prefdlg.cpp:1188
+#: prefdlg.cpp:1187
 #, fuzzy
 msgctxt "@info"
 msgid "No valid 'Bcc' email address is specified."
 msgstr "Elektron pochtangiz"
 
-#: prefdlg.cpp:1195
+#: prefdlg.cpp:1194
 #, fuzzy, kde-format
 #| msgid ""
 #| "%1\n"
@@ -5156,21 +5160,21 @@ msgstr ""
 "%1\n"
 "Oʻzgarishlarni saqlashga ishonchingiz komilmi?"
 
-#: prefdlg.cpp:1201
+#: prefdlg.cpp:1200
 #, fuzzy, kde-format
 #| msgid "No email address is currently set in the KDE Control Center. %1"
 msgctxt "@info"
 msgid "No email address is currently set in KDE System Settings. %1"
 msgstr "KDE boshqaruv markazida elektron pochta koʻrsatilmagan. %1"
 
-#: prefdlg.cpp:1206
+#: prefdlg.cpp:1205
 #, fuzzy, kde-format
 #| msgid "No KMail identities currently exist. %1"
 msgctxt "@info"
 msgid "No <application>KMail</application> identities currently exist. %1"
 msgstr "KMail shaxsiyati mavjud emas. %1"
 
-#: prefdlg.cpp:1224
+#: prefdlg.cpp:1223
 #, fuzzy, kde-format
 #| msgid "The default setting for \"%1\" in the alarm edit dialog."
 msgctxt "@info:whatsthis"
@@ -5178,55 +5182,55 @@ msgid ""
 "The default setting for <interface>%1</interface> in the alarm edit dialog."
 msgstr "Ogohlantirishni tahrirlash oynasidagi \"%1\" uchun andoza moslama."
 
-#: prefdlg.cpp:1232 prefdlg.cpp:1633
+#: prefdlg.cpp:1231 prefdlg.cpp:1632
 #, fuzzy
 #| msgid "General"
 msgctxt "@title:tab"
 msgid "General"
 msgstr "Umumiy"
 
-#: prefdlg.cpp:1236
+#: prefdlg.cpp:1235
 #, fuzzy
 #| msgid "Alarm Type"
 msgctxt "@title:tab"
 msgid "Alarm Types"
 msgstr "Ogohlantirish turi"
 
-#: prefdlg.cpp:1240
+#: prefdlg.cpp:1239
 #, fuzzy
 #| msgid "Font & Color"
 msgctxt "@title:tab"
 msgid "Font && Color"
 msgstr "Shrift va rang"
 
-#: prefdlg.cpp:1266
+#: prefdlg.cpp:1265
 #, fuzzy
 #| msgid "Repeat"
 msgctxt "@label:listbox"
 msgid "Recurrence:"
 msgstr "Qaytarish"
 
-#: prefdlg.cpp:1299
+#: prefdlg.cpp:1298
 #, fuzzy
 #| msgid "February 2&8th"
 msgctxt "@option:radio"
 msgid "February 2&8th"
 msgstr "2&8-chi fevral"
 
-#: prefdlg.cpp:1303
+#: prefdlg.cpp:1302
 #, fuzzy
 #| msgid "March &1st"
 msgctxt "@option:radio"
 msgid "March &1st"
 msgstr "&1-chi mart"
 
-#: prefdlg.cpp:1307
+#: prefdlg.cpp:1306
 #, fuzzy
 msgctxt "@option:radio"
 msgid "Do not repeat"
 msgstr "Takror&lanmasin"
 
-#: prefdlg.cpp:1312
+#: prefdlg.cpp:1311
 msgctxt "@info:whatsthis"
 msgid ""
 "For yearly recurrences, choose what date, if any, alarms due on February "
@@ -5234,33 +5238,33 @@ msgid ""
 "existing alarms is not re-evaluated when you change this setting.</note>"
 msgstr ""
 
-#: prefdlg.cpp:1318
+#: prefdlg.cpp:1317
 #, fuzzy
 #| msgid "Display Alarms"
 msgctxt "@title:group"
 msgid "Display Alarms"
 msgstr "Ogohlantirishlarni koʻrsatish"
 
-#: prefdlg.cpp:1339
+#: prefdlg.cpp:1338
 #, fuzzy
 msgctxt "@label:listbox"
 msgid "Reminder units:"
 msgstr "Esga solish"
 
-#: prefdlg.cpp:1342
+#: prefdlg.cpp:1341
 #, fuzzy
 msgctxt "@item:inlistbox"
 msgid "Minutes"
 msgstr "1 daqiqa"
 
-#: prefdlg.cpp:1343
+#: prefdlg.cpp:1342
 #, fuzzy
 #| msgid "Hours/Minutes"
 msgctxt "@item:inlistbox"
 msgid "Hours/Minutes"
 msgstr "Soat/daqiqa"
 
-#: prefdlg.cpp:1346
+#: prefdlg.cpp:1345
 #, fuzzy
 #| msgid "The default setting for \"%1\" in the alarm edit dialog."
 msgctxt "@info:whatsthis"
@@ -5269,19 +5273,19 @@ msgid ""
 "soon."
 msgstr "Ogohlantirishni tahrirlash oynasidagi \"%1\" uchun andoza moslama."
 
-#: prefdlg.cpp:1352
+#: prefdlg.cpp:1351
 #, fuzzy
 msgctxt "@title:group Audio options group"
 msgid "Sound"
 msgstr "Tovush"
 
-#: prefdlg.cpp:1371
+#: prefdlg.cpp:1370
 #, fuzzy
 msgctxt "@option:check"
 msgid "Repeat sound file"
 msgstr "Takrorlash uchun to&vush fayli"
 
-#: prefdlg.cpp:1374
+#: prefdlg.cpp:1373
 #, fuzzy, kde-format
 #| msgid "The default setting for \"%1\" in the alarm edit dialog."
 msgctxt "@info:whatsthis sound file 'Repeat' checkbox"
@@ -5290,48 +5294,48 @@ msgid ""
 "edit dialog."
 msgstr "Ogohlantirishni tahrirlash oynasidagi \"%1\" uchun andoza moslama."
 
-#: prefdlg.cpp:1381
+#: prefdlg.cpp:1380
 #, fuzzy
 #| msgid "Sound &file:"
 msgctxt "@label:textbox"
 msgid "Sound file:"
 msgstr "Tovush f&ayli:"
 
-#: prefdlg.cpp:1389
+#: prefdlg.cpp:1388
 #, fuzzy
 #| msgid "Choose a sound file"
 msgctxt "@info:tooltip"
 msgid "Choose a sound file"
 msgstr "Tovush faylini tanlash"
 
-#: prefdlg.cpp:1391
+#: prefdlg.cpp:1390
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "Enter the default sound file to use in the alarm edit dialog."
 msgstr "Ogohlantirishni tahrirlash oynasidagi \"%1\" uchun andoza moslama."
 
-#: prefdlg.cpp:1395
+#: prefdlg.cpp:1394
 #, fuzzy
 #| msgid "Command Alarms"
 msgctxt "@title:group"
 msgid "Command Alarms"
 msgstr "Buyruq orqali ogohlantirishlar"
 
-#: prefdlg.cpp:1416
+#: prefdlg.cpp:1415
 #, fuzzy
 #| msgid "Email Alarms"
 msgctxt "@title:group"
 msgid "Email Alarms"
 msgstr "Elektron pochta orqali ogohlantirishlar"
 
-#: prefdlg.cpp:1431
+#: prefdlg.cpp:1430
 #, fuzzy
 #| msgid "Message Font && Color"
 msgctxt "@title:group"
 msgid "Message Font && Color"
 msgstr "Xabarning shrift va rangi"
 
-#: prefdlg.cpp:1613
+#: prefdlg.cpp:1612
 #, fuzzy, kde-format
 #| msgid "The default setting for \"%1\" in the alarm edit dialog."
 msgctxt "@info"
@@ -5340,20 +5344,20 @@ msgid ""
 "the default sound type"
 msgstr "Ogohlantirishni tahrirlash oynasidagi \"%1\" uchun andoza moslama."
 
-#: prefdlg.cpp:1639
+#: prefdlg.cpp:1638
 #, fuzzy
 #| msgid "Alarm List"
 msgctxt "@title:tab"
 msgid "Alarm Windows"
 msgstr "Ogohlantirish roʻyxati"
 
-#: prefdlg.cpp:1642
+#: prefdlg.cpp:1641
 #, fuzzy
 msgctxt "@option:check"
 msgid "Show in system tray"
 msgstr "Ogohlantiri&shga qolgan vaqtni koʻrsatish"
 
-#: prefdlg.cpp:1645
+#: prefdlg.cpp:1644
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Check to show <application>KAlarm</application>'s icon in the system "
@@ -5361,24 +5365,24 @@ msgid ""
 "indication.</para>"
 msgstr ""
 
-#: prefdlg.cpp:1657
+#: prefdlg.cpp:1656
 msgctxt "@option:radio Always show KAlarm icon"
 msgid "Always show"
 msgstr ""
 
-#: prefdlg.cpp:1661
+#: prefdlg.cpp:1660
 msgctxt "@info:whatsthis"
 msgid ""
 "Check to show <application>KAlarm</application>'s icon in the system tray "
 "regardless of whether alarms are due."
 msgstr ""
 
-#: prefdlg.cpp:1665
+#: prefdlg.cpp:1664
 msgctxt "@option:radio"
 msgid "Automatically hide if no active alarms"
 msgstr ""
 
-#: prefdlg.cpp:1669
+#: prefdlg.cpp:1668
 msgctxt "@info:whatsthis"
 msgid ""
 "Check to automatically hide <application>KAlarm</application>'s icon in the "
@@ -5386,7 +5390,7 @@ msgid ""
 "be made visible by use of the system tray option to show hidden icons."
 msgstr ""
 
-#: prefdlg.cpp:1675
+#: prefdlg.cpp:1674
 msgctxt "@info:whatsthis"
 msgid ""
 "Check to automatically hide <application>KAlarm</application>'s icon in the "
@@ -5395,24 +5399,24 @@ msgid ""
 "to show hidden icons."
 msgstr ""
 
-#: prefdlg.cpp:1678
+#: prefdlg.cpp:1677
 msgctxt "@option:radio"
 msgid "Automatically hide if no alarm due within time period:"
 msgstr ""
 
-#: prefdlg.cpp:1689
+#: prefdlg.cpp:1688
 msgctxt "@title:group"
 msgid "System Tray Tooltip"
 msgstr ""
 
-#: prefdlg.cpp:1698
+#: prefdlg.cpp:1697
 #, fuzzy
 #| msgid "Show next &24 hours' alarms"
 msgctxt "@option:check"
 msgid "Show next &24 hours' alarms"
 msgstr "Keyingi 24 s&oat ichidagi ogohlantirishlarni koʻrsatish"
 
-#: prefdlg.cpp:1702
+#: prefdlg.cpp:1701
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5422,46 +5426,46 @@ msgstr ""
 "Ogohlantirishlar roʻyxatidagi oʻchirilgan ogohlantirishlar uchun rangni "
 "tanlash."
 
-#: prefdlg.cpp:1709
+#: prefdlg.cpp:1708
 #, fuzzy
 #| msgid "Ma&ximum number of alarms to show:"
 msgctxt "@option:check"
 msgid "Maximum number of alarms to show:"
 msgstr "&Koʻrsatiladigan ogohlantirishlarning maksimal soni:"
 
-#: prefdlg.cpp:1718
+#: prefdlg.cpp:1717
 msgctxt "@info:whatsthis"
 msgid ""
 "Uncheck to display all of the next 24 hours' alarms in the system tray "
 "tooltip. Check to enter an upper limit on the number to be displayed."
 msgstr ""
 
-#: prefdlg.cpp:1747
+#: prefdlg.cpp:1746
 #, fuzzy
 #| msgid "Alarm List"
 msgctxt "@title:group"
 msgid "Alarm List"
 msgstr "Ogohlantirish roʻyxati"
 
-#: prefdlg.cpp:1760
+#: prefdlg.cpp:1759
 #, fuzzy
 #| msgid "Di&sabled alarm color:"
 msgctxt "@label:listbox"
 msgid "Disabled alarm color:"
 msgstr "Oʻ&chirilgan ogohlantirishning rangi:"
 
-#: prefdlg.cpp:1773
+#: prefdlg.cpp:1772
 #, fuzzy
 msgctxt "@label:listbox"
 msgid "Archived alarm color:"
 msgstr "Oʻ&chirilgan ogohlantirishning rangi:"
 
-#: prefdlg.cpp:1786
+#: prefdlg.cpp:1785
 msgctxt "@title:group"
 msgid "Alarm Message Windows"
 msgstr ""
 
-#: prefdlg.cpp:1797
+#: prefdlg.cpp:1796
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Choose how to reduce the chance of alarm messages being accidentally "
@@ -5471,34 +5475,34 @@ msgid ""
 "time after the window is displayed.</item></list></para>"
 msgstr ""
 
-#: prefdlg.cpp:1800
+#: prefdlg.cpp:1799
 msgctxt "@option:radio"
 msgid "Position windows far from mouse cursor"
 msgstr ""
 
-#: prefdlg.cpp:1804
+#: prefdlg.cpp:1803
 msgctxt "@option:radio"
 msgid "Center windows, delay activating window buttons"
 msgstr ""
 
-#: prefdlg.cpp:1813
+#: prefdlg.cpp:1812
 msgctxt "@label:spinbox"
 msgid "Button activation delay (seconds):"
 msgstr ""
 
-#: prefdlg.cpp:1820
+#: prefdlg.cpp:1819
 msgctxt "@info:whatsthis"
 msgid ""
 "Enter how long its buttons should remain disabled after the alarm message "
 "window is shown."
 msgstr ""
 
-#: prefdlg.cpp:1826
+#: prefdlg.cpp:1825
 msgctxt "@option:check"
 msgid "Message windows have a title bar and take keyboard focus"
 msgstr ""
 
-#: prefdlg.cpp:1829
+#: prefdlg.cpp:1828
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Specify the characteristics of alarm message windows:<list><item>If "
@@ -8086,9 +8090,6 @@ msgstr ""
 
 #~ msgid "KAlarm Alarm Daemon"
 #~ msgstr "KAlarm ogohlantirish demoni"
-
-#~ msgid "Author"
-#~ msgstr "Muallif"
 
 #~ msgid "Original Author"
 #~ msgstr "Birinchi muallif"
