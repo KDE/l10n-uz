@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-15 07:25+0000\n"
+"POT-Creation-Date: 2016-04-16 07:36+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1179,11 +1179,11 @@ msgstr "&Qatlam"
 #: libs/ui/KisDocument.cpp:1826 libs/ui/KisDocument.cpp:1829
 #: libs/ui/KisImportExportManager.cpp:198
 #: libs/ui/KisImportExportManager.cpp:210
-#: libs/ui/KisImportExportManager.cpp:267 libs/ui/KisMainWindow.cpp:740
-#: libs/ui/KisMainWindow.cpp:817 libs/ui/KisMainWindow.cpp:831
-#: libs/ui/KisMainWindow.cpp:1599 libs/ui/KisMainWindow.cpp:1631
-#: libs/ui/KisMainWindow.cpp:1655 libs/ui/KisMainWindow.cpp:1802
-#: libs/ui/KisMainWindow.cpp:1814 libs/ui/KisRemoteFileFetcher.cpp:57
+#: libs/ui/KisImportExportManager.cpp:267 libs/ui/KisMainWindow.cpp:750
+#: libs/ui/KisMainWindow.cpp:827 libs/ui/KisMainWindow.cpp:841
+#: libs/ui/KisMainWindow.cpp:1609 libs/ui/KisMainWindow.cpp:1641
+#: libs/ui/KisMainWindow.cpp:1665 libs/ui/KisMainWindow.cpp:1812
+#: libs/ui/KisMainWindow.cpp:1824 libs/ui/KisRemoteFileFetcher.cpp:57
 #: libs/ui/KisTemplateCreateDia.cpp:304 libs/ui/KisView.cpp:801
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:608
 #: libs/ui/opengl/kis_opengl_image_textures.cpp:575
@@ -3016,8 +3016,8 @@ msgid "Krita: No QML Found"
 msgstr ""
 
 #: krita/gemini/MainWindow.cpp:286 krita/gemini/MainWindow.cpp:648
-#: krita/sketch/MainWindow.cpp:142 libs/pigment/resources/KoColorSet.cpp:336
-#: libs/pigment/resources/KoColorSet.cpp:434 libs/ui/KisView.cpp:798
+#: krita/sketch/MainWindow.cpp:142 libs/pigment/resources/KoColorSet.cpp:333
+#: libs/pigment/resources/KoColorSet.cpp:431 libs/ui/KisView.cpp:798
 #, fuzzy
 msgid "Untitled"
 msgstr "Nomsiz-1"
@@ -9190,19 +9190,19 @@ msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr "Tanlangan rangni olib tashlash"
 
-#: libs/image/kis_layer_utils.cpp:1057
+#: libs/image/kis_layer_utils.cpp:1055
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Selection Masks"
 msgstr "Tanlash boʻyogʻi"
 
-#: libs/image/kis_layer_utils.cpp:1080
+#: libs/image/kis_layer_utils.cpp:1078
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr "Silliqlangan rasm"
 
-#: libs/image/kis_layer_utils.cpp:1088
+#: libs/image/kis_layer_utils.cpp:1086
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Image"
@@ -9215,8 +9215,8 @@ msgstr "Bosim"
 
 #. i18n: ectx: property (text), widget (QLineEdit, palettename)
 #: libs/image/kis_psd_layer_style.cpp:99 libs/ui/forms/wdgcustompalette.ui:18
-#: libs/ui/KisDocument.cpp:2226 libs/ui/KisMainWindow.cpp:953
-#: libs/ui/KisMainWindow.cpp:1297 libs/ui/KisMainWindow.cpp:1316
+#: libs/ui/KisDocument.cpp:2226 libs/ui/KisMainWindow.cpp:963
+#: libs/ui/KisMainWindow.cpp:1307 libs/ui/KisMainWindow.cpp:1326
 #: libs/ui/kra/kis_kra_saver.cpp:79
 msgid "Unnamed"
 msgstr "Nomsiz"
@@ -9286,12 +9286,12 @@ msgstr "Oʻrnini almashtirishmoq"
 msgid "Updating..."
 msgstr "Qatlamni rasm sifatida saqlash..."
 
-#: libs/image/krita_utils.cpp:470
+#: libs/image/krita_utils.cpp:452
 #, fuzzy
 msgid "off"
 msgstr "Qahva"
 
-#: libs/image/krita_utils.cpp:470
+#: libs/image/krita_utils.cpp:452
 #, fuzzy
 msgid "on"
 msgstr "Yoʻq"
@@ -14104,12 +14104,12 @@ msgstr ""
 msgid "Export sequence"
 msgstr "Ekspozitsiya:"
 
-#: libs/ui/kis_animation_exporter.cpp:157 libs/ui/KisMainWindow.cpp:1645
+#: libs/ui/kis_animation_exporter.cpp:157 libs/ui/KisMainWindow.cpp:1655
 #, fuzzy
 msgid "Export frames"
 msgstr "Rasmni import qilish"
 
-#: libs/ui/kis_animation_importer.cpp:69 libs/ui/KisMainWindow.cpp:1621
+#: libs/ui/kis_animation_importer.cpp:69 libs/ui/KisMainWindow.cpp:1631
 #, fuzzy
 msgid "Import frames"
 msgstr "Rasmni import qilish"
@@ -14835,7 +14835,7 @@ msgid ""
 "discarded."
 msgstr ""
 
-#: libs/ui/KisColorsetChooser.cpp:97 libs/ui/KisMainWindow.cpp:705
+#: libs/ui/KisColorsetChooser.cpp:97 libs/ui/KisMainWindow.cpp:715
 #: libs/ui/resourcemanager/dlg_create_bundle.cpp:61
 #: libs/ui/widgets/kis_workspace_chooser.cpp:93
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:61
@@ -14961,7 +14961,7 @@ msgid ""
 "Error message: %4"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1315 libs/ui/KisMainWindow.cpp:740
+#: libs/ui/KisDocument.cpp:1315 libs/ui/KisMainWindow.cpp:750
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "%1 fayli mavjud emas."
@@ -15174,74 +15174,74 @@ msgid ""
 "%1. The import filter is missing."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/ui/KisMainWindow.cpp:189
+#: libs/ui/KisMainWindow.cpp:190
 #, fuzzy
 msgctxt "@action:inmenu"
 msgid "&Dockers"
 msgstr "Qulflangan"
 
-#: libs/ui/KisMainWindow.cpp:190
+#: libs/ui/KisMainWindow.cpp:191
 #, fuzzy
 msgctxt "@action:inmenu"
 msgid "&Window"
 msgstr "&Qatlam"
 
-#: libs/ui/KisMainWindow.cpp:191
+#: libs/ui/KisMainWindow.cpp:192
 #, fuzzy
 msgctxt "@action:inmenu"
 msgid "New &View"
 msgstr "Rasmning oʻlchami"
 
-#: libs/ui/KisMainWindow.cpp:469
+#: libs/ui/KisMainWindow.cpp:479
 #, fuzzy, kde-format
 msgid "Show %1 Toolbar"
 msgstr "Asl qatlamni koʻrsatish"
 
-#: libs/ui/KisMainWindow.cpp:471
+#: libs/ui/KisMainWindow.cpp:481
 #, fuzzy, kde-format
 msgid "Hide %1 Toolbar"
 msgstr "Yulduz vositasi"
 
-#: libs/ui/KisMainWindow.cpp:695
+#: libs/ui/KisMainWindow.cpp:705
 #, fuzzy
 msgid "(write protected)"
 msgstr "Faylni yaratish"
 
-#: libs/ui/KisMainWindow.cpp:703
+#: libs/ui/KisMainWindow.cpp:713
 #, fuzzy, kde-format
 msgid "Save as %1"
 msgstr "Plazma"
 
-#: libs/ui/KisMainWindow.cpp:794
+#: libs/ui/KisMainWindow.cpp:804
 #, fuzzy
 msgid "Import Images"
 msgstr "Rasmni import qilish"
 
-#: libs/ui/KisMainWindow.cpp:794
+#: libs/ui/KisMainWindow.cpp:804
 #, fuzzy
 msgid "Open Images"
 msgstr "Rasm"
 
-#: libs/ui/KisMainWindow.cpp:934
+#: libs/ui/KisMainWindow.cpp:944
 #, fuzzy
 msgid "untitled"
 msgstr "Nomsiz-1"
 
-#: libs/ui/KisMainWindow.cpp:1318
+#: libs/ui/KisMainWindow.cpp:1328
 #, fuzzy
 msgid "Create from Clipboard"
 msgstr "Yaratish"
 
-#: libs/ui/KisMainWindow.cpp:1557
+#: libs/ui/KisMainWindow.cpp:1567
 #, fuzzy
 msgid "Export as PDF"
 msgstr "Qatlamni eksport qilish"
 
-#: libs/ui/KisMainWindow.cpp:1599
+#: libs/ui/KisMainWindow.cpp:1609
 msgid "Cannot export to the specified file"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1631
+#: libs/ui/KisMainWindow.cpp:1641
 #, fuzzy, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -15250,14 +15250,14 @@ msgstr ""
 "%1\n"
 "faylini ochib boʻlmadi."
 
-#: libs/ui/KisMainWindow.cpp:1655
+#: libs/ui/KisMainWindow.cpp:1665
 #, fuzzy, kde-format
 msgid ""
 "Could not finish export animation:\n"
 "%1"
 msgstr "Moslash..."
 
-#: libs/ui/KisMainWindow.cpp:1803
+#: libs/ui/KisMainWindow.cpp:1813
 #, fuzzy
 msgid ""
 "You will lose all changes made since your last save\n"
@@ -15266,48 +15266,48 @@ msgstr ""
 "Kiritilgan hamma oʻzgarishlar yoʻqoladi!\n"
 "Davom etishni istaysizmi?"
 
-#: libs/ui/KisMainWindow.cpp:1814
+#: libs/ui/KisMainWindow.cpp:1824
 #, fuzzy
 msgid "Error: Could not reload this document"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/ui/KisMainWindow.cpp:2071
+#: libs/ui/KisMainWindow.cpp:2081
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2074
+#: libs/ui/KisMainWindow.cpp:2084
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2157
+#: libs/ui/KisMainWindow.cpp:2167
 msgid ""
 "The Calligra LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2165
+#: libs/ui/KisMainWindow.cpp:2175
 msgid "Krita cannot find any brush presets! Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2174
+#: libs/ui/KisMainWindow.cpp:2184
 #, fuzzy
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "Qatlam xatosi."
 
-#: libs/ui/KisMainWindow.cpp:2229
+#: libs/ui/KisMainWindow.cpp:2239
 #, fuzzy, kde-format
 msgid "%1 unsaved document (%2)"
 msgstr "Boshqa hujjat sifatida saqlash"
 
-#: libs/ui/KisMainWindow.cpp:2296
+#: libs/ui/KisMainWindow.cpp:2306
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2336
+#: libs/ui/KisMainWindow.cpp:2346
 msgid "Expanding Spacer"
 msgstr ""
 
@@ -18487,15 +18487,15 @@ msgstr ""
 msgid "Tag was not undeleted."
 msgstr ""
 
-#: libs/widgets/KoRuler.cpp:1297
+#: libs/widgets/KoRuler.cpp:1302
 msgid "First line indent"
 msgstr "Birinchi satrda boʻsh joy"
 
-#: libs/widgets/KoRuler.cpp:1298
+#: libs/widgets/KoRuler.cpp:1303
 msgid "Left indent"
 msgstr "Chapdan boʻsh joy"
 
-#: libs/widgets/KoRuler.cpp:1299
+#: libs/widgets/KoRuler.cpp:1304
 msgid "Right indent"
 msgstr "Oʻngdan boʻsh joy"
 
@@ -23951,7 +23951,7 @@ msgstr "Yashil"
 msgid "HSV/HSL Adjustment"
 msgstr "Ranglarni moslash"
 
-#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:456
+#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:460
 #, fuzzy
 msgid "&Color Adjustment curves..."
 msgstr "&Ranglarni moslash..."
