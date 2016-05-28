@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-05-27 07:18+0000\n"
+"POT-Creation-Date: 2016-05-28 07:34+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3251,9 +3251,10 @@ msgstr "Tanlanganni bekitish"
 
 #. i18n: context: Action (invert), Actions (Painting), ActionCollection (Krita)
 #: krita/krita.action:396
+#, fuzzy
 msgctxt "action"
-msgid "foo"
-msgstr ""
+msgid "Invert current selection"
+msgstr "Joriy belgilanganga &qoʻshish"
 
 #. i18n: context: Action (fill_selection_foreground_color_opacity), Actions (Painting), ActionCollection (Krita)
 #. i18n: context: Action (fill_selection_foreground_color_opacity), Actions (Painting), ActionCollection (Krita)
@@ -6021,21 +6022,21 @@ msgstr "Rasmni import qilish"
 msgid "Import"
 msgstr "Rasmni import qilish"
 
-#: krita/krita.xmlgui:175 plugins/dockers/defaultdockers/kis_layer_box.cpp:540
+#: krita/krita.xmlgui:175 plugins/dockers/defaultdockers/kis_layer_box.cpp:537
 #, fuzzy
 msgid "&Convert"
 msgstr "&Teskari"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #: krita/krita.xmlgui:183 krita/krita.xmlgui:236
-#: plugins/dockers/defaultdockers/kis_layer_box.cpp:520
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:517
 #: plugins/extensions/colorrange/wdg_colorrange.ui:131
 #: plugins/extensions/imagesize/imagesize.xmlgui:12
 #: plugins/extensions/modify_selection/modify_selection.xmlgui:4
 msgid "&Select"
 msgstr "&Tanlash"
 
-#: krita/krita.xmlgui:196 plugins/dockers/defaultdockers/kis_layer_box.cpp:546
+#: krita/krita.xmlgui:196 plugins/dockers/defaultdockers/kis_layer_box.cpp:543
 #, fuzzy
 msgid "S&plit Alpha"
 msgstr "Rangni palitraga qoʻshish"
@@ -9450,10 +9451,16 @@ msgstr "Ranglar boʻshligʻi"
 #: libs/koplugin/KisMimeDatabase.cpp:245
 #, fuzzy
 msgctxt "description of a file type"
+msgid "Krita Taskset"
+msgstr "Krita"
+
+#: libs/koplugin/KisMimeDatabase.cpp:251
+#, fuzzy
+msgctxt "description of a file type"
 msgid "Camera Raw Files"
 msgstr "Qatlamning xossalari"
 
-#: libs/koplugin/KisMimeDatabase.cpp:250
+#: libs/koplugin/KisMimeDatabase.cpp:256
 #, fuzzy
 msgctxt "description of a file type"
 msgid "OpenEXR (Extended)"
@@ -16530,12 +16537,6 @@ msgstr "Filterni yana qoʻllash"
 #, fuzzy
 msgid "No configuration option."
 msgstr "Moslash..."
-
-#: libs/ui/thememanager.cpp:76
-#, fuzzy
-msgctxt "default theme name"
-msgid "Default"
-msgstr "Joriy qatlam"
 
 #: libs/ui/tool/kis_selection_tool_helper.cpp:136
 msgid ""
@@ -33499,6 +33500,11 @@ msgid "Work Recursively"
 msgstr ""
 
 #, fuzzy
+#~ msgctxt "default theme name"
+#~ msgid "Default"
+#~ msgstr "Joriy qatlam"
+
+#, fuzzy
 #~ msgctxt "action"
 #~ msgid "Rotate Image &90° to the Right"
 #~ msgstr "Rasmni &180 darajaga burish"
@@ -33530,10 +33536,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Use full-screen display"
 #~ msgstr "Bosim effektlari:"
-
-#, fuzzy
-#~ msgid "Krita Sketch"
-#~ msgstr "Krita"
 
 #, fuzzy
 #~ msgid "Add Resources"
