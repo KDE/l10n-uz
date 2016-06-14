@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-13 08:15+0000\n"
+"POT-Creation-Date: 2016-06-14 08:14+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1184,7 +1184,7 @@ msgstr "&Qatlam"
 #: libs/ui/KisMainWindow.cpp:1671 libs/ui/KisMainWindow.cpp:1703
 #: libs/ui/KisMainWindow.cpp:1727 libs/ui/KisMainWindow.cpp:1878
 #: libs/ui/KisMainWindow.cpp:1890 libs/ui/KisRemoteFileFetcher.cpp:57
-#: libs/ui/KisTemplateCreateDia.cpp:304 libs/ui/KisView.cpp:691
+#: libs/ui/KisTemplateCreateDia.cpp:296 libs/ui/KisView.cpp:691
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:588
 #: libs/ui/opengl/kis_opengl_image_textures.cpp:581
 #: libs/ui/widgets/kis_custom_image_widget.cc:254
@@ -9839,7 +9839,7 @@ msgstr "Yorugʻlik"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: libs/pigment/colorspaces/KoLabColorSpace.cpp:44
-#: libs/pigment/KoBasicHistogramProducers.cpp:442
+#: libs/pigment/KoBasicHistogramProducers.cpp:450
 #: plugins/color/lcms2engine/colorspaces/lab_f32/LabF32ColorSpace.cpp:39
 #: plugins/color/lcms2engine/colorspaces/lab_u16/LabColorSpace.cpp:34
 #: plugins/color/lcms2engine/colorspaces/lab_u8/LabU8ColorSpace.cpp:34
@@ -9849,7 +9849,7 @@ msgstr "a*"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: libs/pigment/colorspaces/KoLabColorSpace.cpp:45
-#: libs/pigment/KoBasicHistogramProducers.cpp:443
+#: libs/pigment/KoBasicHistogramProducers.cpp:451
 #: plugins/color/lcms2engine/colorspaces/lab_f32/LabF32ColorSpace.cpp:40
 #: plugins/color/lcms2engine/colorspaces/lab_u16/LabColorSpace.cpp:35
 #: plugins/color/lcms2engine/colorspaces/lab_u8/LabU8ColorSpace.cpp:35
@@ -10432,25 +10432,25 @@ msgstr "Tekislashni oʻzgartirish"
 msgid "Decrease Value"
 msgstr "Tekislashni oʻzgartirish"
 
-#: libs/pigment/KoBasicHistogramProducers.cpp:364
-#: libs/pigment/KoBasicHistogramProducers.cpp:431
+#: libs/pigment/KoBasicHistogramProducers.cpp:372
+#: libs/pigment/KoBasicHistogramProducers.cpp:439
 #, fuzzy
 msgid "Generic RGB Histogram"
 msgstr "Umumiy RGB gistogramma"
 
-#: libs/pigment/KoBasicHistogramProducers.cpp:368
+#: libs/pigment/KoBasicHistogramProducers.cpp:376
 msgid "R"
 msgstr "R"
 
-#: libs/pigment/KoBasicHistogramProducers.cpp:369
+#: libs/pigment/KoBasicHistogramProducers.cpp:377
 msgid "G"
 msgstr ""
 
-#: libs/pigment/KoBasicHistogramProducers.cpp:370
+#: libs/pigment/KoBasicHistogramProducers.cpp:378
 msgid "B"
 msgstr "B"
 
-#: libs/pigment/KoBasicHistogramProducers.cpp:437
+#: libs/pigment/KoBasicHistogramProducers.cpp:445
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:131
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:135
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:139
@@ -10459,12 +10459,12 @@ msgid "L*a*b* Histogram"
 msgstr "L*a*b* gistogrammasi"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: libs/pigment/KoBasicHistogramProducers.cpp:441
+#: libs/pigment/KoBasicHistogramProducers.cpp:449
 #: plugins/filters/indexcolors/kiswdgindexcolors.ui:156
 msgid "L*"
 msgstr "L*"
 
-#: libs/pigment/KoBasicHistogramProducers.cpp:515
+#: libs/pigment/KoBasicHistogramProducers.cpp:523
 msgid "Generic L*a*b* Histogram"
 msgstr ""
 
@@ -11074,6 +11074,7 @@ msgstr "%"
 #: plugins/filters/blur/wdgblur.ui:42 plugins/filters/blur/wdgblur.ui:78
 #: plugins/paintops/chalk/kis_chalkop_option.cpp:43
 #: plugins/paintops/curvebrush/kis_curve_line_option.cpp:33
+#: plugins/paintops/deform/kis_brush_size_option.cpp:50
 #: plugins/paintops/experiment/kis_experimentop_option.cpp:38
 #: plugins/paintops/gridbrush/kis_gridop_option.cpp:43
 #: plugins/paintops/gridbrush/kis_gridop_option.cpp:49
@@ -11082,7 +11083,6 @@ msgstr "%"
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:128
 #: plugins/paintops/libpaintop/kis_auto_brush_widget.cpp:57
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:111
-#: plugins/paintops/libpaintop/kis_brush_size_option.cpp:50
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:86
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:96
 #: plugins/paintops/sketch/kis_sketchop_option.cpp:44
@@ -15227,101 +15227,101 @@ msgid ""
 "corrupted, for example, during download."
 msgstr ""
 
-#: libs/ui/KisTemplateCreateDia.cpp:101
+#: libs/ui/KisTemplateCreateDia.cpp:100
 #, fuzzy
 msgid "Create Template"
 msgstr "Yaratish"
 
-#: libs/ui/KisTemplateCreateDia.cpp:110
+#: libs/ui/KisTemplateCreateDia.cpp:109
 #, fuzzy
 msgctxt "Template name"
 msgid "Name:"
 msgstr "&Nomi:"
 
-#: libs/ui/KisTemplateCreateDia.cpp:120
+#: libs/ui/KisTemplateCreateDia.cpp:119
 msgid "Group:"
 msgstr "Guruh:"
 
-#: libs/ui/KisTemplateCreateDia.cpp:134
+#: libs/ui/KisTemplateCreateDia.cpp:133
 #, fuzzy
 msgid "&Add Group..."
 msgstr "Qisqa"
 
-#: libs/ui/KisTemplateCreateDia.cpp:137
+#: libs/ui/KisTemplateCreateDia.cpp:136
 #, fuzzy
 msgid "&Remove"
 msgstr "Qatlamni &olib tashlash"
 
-#: libs/ui/KisTemplateCreateDia.cpp:143
+#: libs/ui/KisTemplateCreateDia.cpp:142
 msgid "Picture"
 msgstr "Rasm"
 
-#: libs/ui/KisTemplateCreateDia.cpp:146
+#: libs/ui/KisTemplateCreateDia.cpp:145
 msgid "&Preview"
 msgstr "Koʻrib &chiqish"
 
-#: libs/ui/KisTemplateCreateDia.cpp:151
+#: libs/ui/KisTemplateCreateDia.cpp:150
 #: libs/widgetutils/xmlgui/KisShortcutEditWidget.cpp:71
 #, fuzzy
 msgid "Custom:"
 msgstr "&Boshqa:"
 
-#: libs/ui/KisTemplateCreateDia.cpp:155
+#: libs/ui/KisTemplateCreateDia.cpp:154
 #, fuzzy
 msgid "&Select..."
 msgstr "&Tanlash"
 
-#: libs/ui/KisTemplateCreateDia.cpp:164
+#: libs/ui/KisTemplateCreateDia.cpp:163
 msgid "Use the new template as default"
 msgstr "Yangi namunani andoza sifatida ishlatish"
 
-#: libs/ui/KisTemplateCreateDia.cpp:166
+#: libs/ui/KisTemplateCreateDia.cpp:165
 msgid "Use the new template every time Krita starts"
 msgstr ""
 
-#: libs/ui/KisTemplateCreateDia.cpp:305
+#: libs/ui/KisTemplateCreateDia.cpp:297
 #, kde-format
 msgid "Do you really want to overwrite the existing '%1' template?"
 msgstr "Mavjud boʻlgan \"%1\" namunani rostdan almashtirishni istaysizmi?"
 
-#: libs/ui/KisTemplateCreateDia.cpp:420 libs/ui/KisTemplateCreateDia.cpp:423
+#: libs/ui/KisTemplateCreateDia.cpp:414 libs/ui/KisTemplateCreateDia.cpp:417
 msgid "Add Group"
 msgstr "Guruhni qoʻshish"
 
-#: libs/ui/KisTemplateCreateDia.cpp:420
+#: libs/ui/KisTemplateCreateDia.cpp:414
 msgid "Enter group name:"
 msgstr "Guruhning nomini kiriting:"
 
-#: libs/ui/KisTemplateCreateDia.cpp:423
+#: libs/ui/KisTemplateCreateDia.cpp:417
 msgid "This name is already used."
 msgstr "Bu nom allaqachon ishlatilgan."
 
-#: libs/ui/KisTemplateCreateDia.cpp:447
+#: libs/ui/KisTemplateCreateDia.cpp:441
 msgid "Do you really want to remove that group?"
 msgstr "Guruhni rostdan olib tashlashni istaysizmi?"
 
-#: libs/ui/KisTemplateCreateDia.cpp:448
+#: libs/ui/KisTemplateCreateDia.cpp:442
 #, fuzzy
 msgctxt "@title:window"
 msgid "Remove Group"
 msgstr "Qatlamni olib tashlash"
 
-#: libs/ui/KisTemplateCreateDia.cpp:450
+#: libs/ui/KisTemplateCreateDia.cpp:444
 msgid "Do you really want to remove that template?"
 msgstr "Namunani rostdan olib tashlashni istaysizmi?"
 
-#: libs/ui/KisTemplateCreateDia.cpp:451
+#: libs/ui/KisTemplateCreateDia.cpp:445
 #, fuzzy
 msgctxt "@title:window"
 msgid "Remove Template"
 msgstr "Qatlamni &olib tashlash"
 
-#: libs/ui/KisTemplateCreateDia.cpp:504
+#: libs/ui/KisTemplateCreateDia.cpp:498
 #, fuzzy
 msgid "Could not load picture."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/ui/KisTemplateCreateDia.cpp:507
+#: libs/ui/KisTemplateCreateDia.cpp:501
 msgid "No picture available."
 msgstr "Hech qanday rasm yoʻq."
 
@@ -18734,7 +18734,7 @@ msgstr ""
 msgid "About &KDE"
 msgstr ""
 
-#: libs/widgetutils/KoFileDialog.cpp:375
+#: libs/widgetutils/KoFileDialog.cpp:379
 msgid "All supported formats"
 msgstr ""
 
@@ -20892,6 +20892,12 @@ msgstr "Yordamchi chiziqlar"
 msgid "Grid and Guides"
 msgstr "Yordamchi chiziqlar"
 
+#: plugins/dockers/histogram/histogramdocker_dock.cpp:33
+#: plugins/extensions/histogram/dlg_histogram.cc:34
+#: plugins/extensions/histogram/dlg_histogram.cc:41
+msgid "Histogram"
+msgstr "Gistogramma"
+
 #: plugins/dockers/historydocker/HistoryDock.cpp:30
 #, fuzzy
 msgid "Undo History"
@@ -21922,11 +21928,6 @@ msgstr "Koʻrib chiqish: "
 #, fuzzy
 msgid "Preview size"
 msgstr "Koʻrib chiqish: "
-
-#: plugins/extensions/histogram/dlg_histogram.cc:34
-#: plugins/extensions/histogram/dlg_histogram.cc:41
-msgid "Histogram"
-msgstr "Gistogramma"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpType)
 #: plugins/extensions/histogram/wdghistogram.ui:17
