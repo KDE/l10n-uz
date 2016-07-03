@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-19 07:32+0000\n"
+"POT-Creation-Date: 2016-07-03 07:25+0000\n"
 "PO-Revision-Date: 2005-10-13 21:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -45,12 +45,12 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr "KCH-sleyvni (%1) yaratib boʻlmadi"
 
-#: core/copyjob.cpp:1114 core/job_error.cpp:511
+#: core/copyjob.cpp:1114 core/job_error.cpp:514
 msgid "Folder Already Exists"
 msgstr "Jild allaqachon mavjud"
 
 #: core/copyjob.cpp:1385 core/copyjob.cpp:1949 core/filecopyjob.cpp:360
-#: core/job_error.cpp:501 widgets/paste.cpp:101
+#: core/job_error.cpp:504 widgets/paste.cpp:101
 msgid "File Already Exists"
 msgstr "Fayl allaqachon mavjud"
 
@@ -732,6 +732,10 @@ msgid "A folder cannot be moved into itself"
 msgstr "Fayl yoki jild %1 mavjud emas."
 
 #: core/job_error.cpp:243
+msgid "Communication with the local password server failed"
+msgstr ""
+
+#: core/job_error.cpp:246
 #, kde-format
 msgid ""
 "Unknown error code %1\n"
@@ -742,77 +746,77 @@ msgstr ""
 "%2\n"
 "Iltimos xato haqida toʻliq maʼlumotni http://bugs.kde.org'ga joʻnating."
 
-#: core/job_error.cpp:268
+#: core/job_error.cpp:271
 msgctxt "@info url"
 msgid "(unknown)"
 msgstr "(nomaʼlum)"
 
-#: core/job_error.cpp:275
+#: core/job_error.cpp:278
 #, kde-format
 msgctxt "@info %1 error name, %2 description"
 msgid "<qt><p><b>%1</b></p><p>%2</p></qt>"
 msgstr ""
 
-#: core/job_error.cpp:279
+#: core/job_error.cpp:282
 msgid "<b>Technical reason</b>: "
 msgstr "<b>Texnik sabab</b>: "
 
-#: core/job_error.cpp:281
+#: core/job_error.cpp:284
 #, fuzzy
 #| msgid "</p><p><b>Details of the request</b>:"
 msgid "<b>Details of the request</b>:"
 msgstr "</p><p><b>Talab tafsilotlari</b>:"
 
-#: core/job_error.cpp:282
+#: core/job_error.cpp:285
 #, fuzzy, kde-format
 #| msgid "</p><ul><li>URL: %1</li>"
 msgid "<li>URL: %1</li>"
 msgstr "</p><ul><li>URL: %1</li>"
 
-#: core/job_error.cpp:284
+#: core/job_error.cpp:287
 #, kde-format
 msgid "<li>Protocol: %1</li>"
 msgstr "<li>Protokol: %1</li>"
 
-#: core/job_error.cpp:286
+#: core/job_error.cpp:289
 #, kde-format
 msgid "<li>Date and time: %1</li>"
 msgstr "<li>Sana va vaqt: %1</li>"
 
-#: core/job_error.cpp:287
+#: core/job_error.cpp:290
 #, kde-format
 msgid "<li>Additional information: %1</li>"
 msgstr "<li>Qoʻshimcha maʼlumot: %1</li>"
 
-#: core/job_error.cpp:290
+#: core/job_error.cpp:293
 msgid "<b>Possible causes</b>:"
 msgstr "<b>Extimol sabablar</b>:"
 
-#: core/job_error.cpp:295
+#: core/job_error.cpp:298
 msgid "<b>Possible solutions</b>:"
 msgstr "<b>Extimol yechimlar</b>:"
 
-#: core/job_error.cpp:329
+#: core/job_error.cpp:332
 msgctxt "@info protocol"
 msgid "(unknown)"
 msgstr "(nomaʼlum)"
 
-#: core/job_error.cpp:338
+#: core/job_error.cpp:341
 msgid ""
 "Contact your appropriate computer support system, whether the system "
 "administrator, or technical support group for further assistance."
 msgstr ""
 "Yordam uchun tizim boshqaruvchisiga yoki muhandis hodimga murojaat qiling."
 
-#: core/job_error.cpp:341
+#: core/job_error.cpp:344
 msgid "Contact the administrator of the server for further assistance."
 msgstr "Yordam uchun server boshqaruvchisiga murojaat qiling."
 
-#: core/job_error.cpp:344
+#: core/job_error.cpp:347
 msgid "Check your access permissions on this resource."
 msgstr "Bu manba uchun huquqlaringizni tekshiring."
 
-#: core/job_error.cpp:345
+#: core/job_error.cpp:348
 msgid ""
 "Your access permissions may be inadequate to perform the requested operation "
 "on this resource."
@@ -820,12 +824,12 @@ msgstr ""
 "Bu manba ustida amal bajarish uchun sizni huquqlaringiz yetarli boʻlmasligi "
 "mumkin."
 
-#: core/job_error.cpp:347
+#: core/job_error.cpp:350
 msgid ""
 "The file may be in use (and thus locked) by another user or application."
 msgstr "Faylni boshqa foydalanuvchi yoki dastur ishlatayotgan boʻlishi mumkin."
 
-#: core/job_error.cpp:349
+#: core/job_error.cpp:352
 msgid ""
 "Check to make sure that no other application or user is using the file or "
 "has locked the file."
@@ -833,16 +837,16 @@ msgstr ""
 "Ishonch hosil qilish uchun faylni boshqa dastur yoki foydalanuvchi "
 "ishlatmayotganini yoki uni qulflamaganini tekshiring."
 
-#: core/job_error.cpp:351
+#: core/job_error.cpp:354
 msgid "Although unlikely, a hardware error may have occurred."
 msgstr ""
 "Ehtimoli juda kam boʻlsa ham, asbobda xato roʻy bergan boʻlishi mumkin."
 
-#: core/job_error.cpp:353
+#: core/job_error.cpp:356
 msgid "You may have encountered a bug in the program."
 msgstr "Balki siz dasturdagi xatoga duch keldingiz."
 
-#: core/job_error.cpp:354
+#: core/job_error.cpp:357
 msgid ""
 "This is most likely to be caused by a bug in the program. Please consider "
 "submitting a full bug report as detailed below."
@@ -850,13 +854,13 @@ msgstr ""
 "Bunga dasturdagi xato sababchi boʻlishini extimoli katta. Iltimos, quyida "
 "koʻrsatilgandek xato haqida xabar qiling."
 
-#: core/job_error.cpp:356
+#: core/job_error.cpp:359
 msgid ""
 "Update your software to the latest version. Your distribution should provide "
 "tools to update your software."
 msgstr ""
 
-#: core/job_error.cpp:358
+#: core/job_error.cpp:361
 msgid ""
 "When all else fails, please consider helping the KDE team or the third party "
 "maintainer of this software by submitting a high quality bug report. If the "
@@ -867,17 +871,17 @@ msgid ""
 "in your bug report, along with as many other details as you think might help."
 msgstr ""
 
-#: core/job_error.cpp:366
+#: core/job_error.cpp:369
 msgid "There may have been a problem with your network connection."
 msgstr "Muammo tarmoqga ulanishingizda boʻlishi mumkin."
 
-#: core/job_error.cpp:369
+#: core/job_error.cpp:372
 msgid ""
 "There may have been a problem with your network configuration. If you have "
 "been accessing the Internet with no problems recently, this is unlikely."
 msgstr ""
 
-#: core/job_error.cpp:372
+#: core/job_error.cpp:375
 msgid ""
 "There may have been a problem at some point along the network path between "
 "the server and this computer."
@@ -885,72 +889,72 @@ msgstr ""
 "Muammo server va shu kompyuterni orasidagi tarmoqning bir nuqtasida boʻlishi "
 "mumkin."
 
-#: core/job_error.cpp:374
+#: core/job_error.cpp:377
 msgid "Try again, either now or at a later time."
 msgstr "Hozir yoki keyinroq yana urinib koʻring."
 
-#: core/job_error.cpp:375
+#: core/job_error.cpp:378
 msgid "A protocol error or incompatibility may have occurred."
 msgstr "Protokol xatosi yoki toʻgʻri kelmasligi roʻy bergan boʻlishi mumkin."
 
-#: core/job_error.cpp:376
+#: core/job_error.cpp:379
 msgid "Ensure that the resource exists, and try again."
 msgstr "Manba mavjudligida ishonch hosil qiling va yana urinib koʻring."
 
-#: core/job_error.cpp:377
+#: core/job_error.cpp:380
 msgid "The specified resource may not exist."
 msgstr "Koʻrsatilgan manba balki mavjud emas."
 
-#: core/job_error.cpp:378
+#: core/job_error.cpp:381
 msgid "You may have incorrectly typed the location."
 msgstr "Balki siz manzilni notoʻgʻri kiritdingiz."
 
-#: core/job_error.cpp:379
+#: core/job_error.cpp:382
 msgid "Double-check that you have entered the correct location and try again."
 msgstr ""
 "Toʻgʻri manzilni kiritganingizni yana bir bor tekshiring va yana urinib "
 "koʻring."
 
-#: core/job_error.cpp:381
+#: core/job_error.cpp:384
 msgid "Check your network connection status."
 msgstr "Tarmoqga ulanganingizni tekshirib koʻring."
 
-#: core/job_error.cpp:385
+#: core/job_error.cpp:388
 msgid "Cannot Open Resource For Reading"
 msgstr "Oʻqish uchun manbani ochib boʻlmadi"
 
-#: core/job_error.cpp:386
+#: core/job_error.cpp:389
 #, kde-format
 msgid ""
 "This means that the contents of the requested file or folder <strong>%1</"
 "strong> could not be retrieved, as read access could not be obtained."
 msgstr ""
 
-#: core/job_error.cpp:389
+#: core/job_error.cpp:392
 msgid "You may not have permissions to read the file or open the folder."
 msgstr ""
 
-#: core/job_error.cpp:395
+#: core/job_error.cpp:398
 msgid "Cannot Open Resource For Writing"
 msgstr "Yozish uchun manbani ochib boʻlmadi"
 
-#: core/job_error.cpp:396
+#: core/job_error.cpp:399
 #, kde-format
 msgid ""
 "This means that the file, <strong>%1</strong>, could not be written to as "
 "requested, because access with permission to write could not be obtained."
 msgstr ""
 
-#: core/job_error.cpp:404
+#: core/job_error.cpp:407
 #, kde-format
 msgid "Cannot Initiate the %1 Protocol"
 msgstr "%1 protokolini ishga tayyorlab boʻlmadi"
 
-#: core/job_error.cpp:405
+#: core/job_error.cpp:408
 msgid "Unable to Launch Process"
 msgstr "Jarayonni ishga tushirib boʻlmadi"
 
-#: core/job_error.cpp:406
+#: core/job_error.cpp:409
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -958,29 +962,29 @@ msgid ""
 "reasons."
 msgstr ""
 
-#: core/job_error.cpp:409
+#: core/job_error.cpp:412
 msgid ""
 "The program which provides compatibility with this protocol may not have "
 "been updated with your last update of KDE. This can cause the program to be "
 "incompatible with the current version and thus not start."
 msgstr ""
 
-#: core/job_error.cpp:417
+#: core/job_error.cpp:420
 msgid "Internal Error"
 msgstr "Ichki xato"
 
-#: core/job_error.cpp:418
+#: core/job_error.cpp:421
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has reported an internal error."
 msgstr ""
 
-#: core/job_error.cpp:426
+#: core/job_error.cpp:429
 msgid "Improperly Formatted URL"
 msgstr "URL xato shaklda"
 
-#: core/job_error.cpp:427
+#: core/job_error.cpp:430
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered was not properly formatted. The format "
@@ -989,12 +993,12 @@ msgid ""
 "strong></blockquote>"
 msgstr ""
 
-#: core/job_error.cpp:436
+#: core/job_error.cpp:439
 #, kde-format
 msgid "Unsupported Protocol %1"
 msgstr "%1 protokoli qoʻllanmagan"
 
-#: core/job_error.cpp:437
+#: core/job_error.cpp:440
 #, kde-format
 msgid ""
 "The protocol <strong>%1</strong> is not supported by the KDE programs "
@@ -1003,18 +1007,18 @@ msgstr ""
 "<strong>%1</strong> protokoli bu kompyuterga oʻrnatilgan KDE dasturlari "
 "bilan ishlamaydi."
 
-#: core/job_error.cpp:440
+#: core/job_error.cpp:443
 msgid "The requested protocol may not be supported."
 msgstr "Talab qilingan protokol bu dastur bilan ishlamasligi mumkin."
 
-#: core/job_error.cpp:441
+#: core/job_error.cpp:444
 #, kde-format
 msgid ""
 "The versions of the %1 protocol supported by this computer and the server "
 "may be incompatible."
 msgstr ""
 
-#: core/job_error.cpp:443
+#: core/job_error.cpp:446
 msgid ""
 "You may perform a search on the Internet for a KDE program (called a "
 "kioslave or ioslave) which supports this protocol. Places to search include "
@@ -1022,21 +1026,21 @@ msgid ""
 "\"http://freshmeat.net/\">http://freshmeat.net/</a>."
 msgstr ""
 
-#: core/job_error.cpp:452
+#: core/job_error.cpp:455
 msgid "URL Does Not Refer to a Resource."
 msgstr "URL manbaga tegishli emas."
 
-#: core/job_error.cpp:453
+#: core/job_error.cpp:456
 msgid "Protocol is a Filter Protocol"
 msgstr "Bu protokol filter protokoli"
 
-#: core/job_error.cpp:454
+#: core/job_error.cpp:457
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered did not refer to a specific resource."
 msgstr ""
 
-#: core/job_error.cpp:457
+#: core/job_error.cpp:460
 msgid ""
 "KDE is able to communicate through a protocol within a protocol; the "
 "protocol specified is only for use in such situations, however this is not "
@@ -1044,34 +1048,34 @@ msgid ""
 "programming error."
 msgstr ""
 
-#: core/job_error.cpp:465
+#: core/job_error.cpp:468
 #, kde-format
 msgid "Unsupported Action: %1"
 msgstr "%1 amali qoʻllanmagan"
 
-#: core/job_error.cpp:466
+#: core/job_error.cpp:469
 #, kde-format
 msgid ""
 "The requested action is not supported by the KDE program which is "
 "implementing the <strong>%1</strong> protocol."
 msgstr ""
 
-#: core/job_error.cpp:469
+#: core/job_error.cpp:472
 msgid ""
 "This error is very much dependent on the KDE program. The additional "
 "information should give you more information than is available to the KDE "
 "input/output architecture."
 msgstr ""
 
-#: core/job_error.cpp:472
+#: core/job_error.cpp:475
 msgid "Attempt to find another way to accomplish the same outcome."
 msgstr ""
 
-#: core/job_error.cpp:477
+#: core/job_error.cpp:480
 msgid "File Expected"
 msgstr "Fayl kutilmoqda"
 
-#: core/job_error.cpp:478
+#: core/job_error.cpp:481
 #, kde-format
 msgid ""
 "The request expected a file, however the folder <strong>%1</strong> was "
@@ -1079,15 +1083,15 @@ msgid ""
 msgstr ""
 "Talab natijasida fayl kutilgan edi, ammo <strong>%1</strong> jildi topildi."
 
-#: core/job_error.cpp:480
+#: core/job_error.cpp:483
 msgid "This may be an error on the server side."
 msgstr "Xato server tomonida boʻlishi mumkin."
 
-#: core/job_error.cpp:485
+#: core/job_error.cpp:488
 msgid "Folder Expected"
 msgstr "Jild kutilmoqda"
 
-#: core/job_error.cpp:486
+#: core/job_error.cpp:489
 #, kde-format
 msgid ""
 "The request expected a folder, however the file <strong>%1</strong> was "
@@ -1095,65 +1099,65 @@ msgid ""
 msgstr ""
 "Talab natijasida jild kutilgan edi, ammo <strong>%1</strong> fayli topildi."
 
-#: core/job_error.cpp:493
+#: core/job_error.cpp:496
 msgid "File or Folder Does Not Exist"
 msgstr "Fayl yoki jild mavjud emas"
 
-#: core/job_error.cpp:494
+#: core/job_error.cpp:497
 #, kde-format
 msgid "The specified file or folder <strong>%1</strong> does not exist."
 msgstr "Koʻrsatilgan fayl yoki jild <strong>%1</strong> mavjud emas."
 
-#: core/job_error.cpp:502
+#: core/job_error.cpp:505
 msgid ""
 "The requested file could not be created because a file with the same name "
 "already exists."
 msgstr ""
 "Talab qilingan fayl yaratilmadi. Chunki shu nomli fayl allaqachon mavjud."
 
-#: core/job_error.cpp:504
+#: core/job_error.cpp:507
 msgid "Try moving the current file out of the way first, and then try again."
 msgstr "Faylni boshqa joyga koʻchirib yana urinib koʻring."
 
-#: core/job_error.cpp:506
+#: core/job_error.cpp:509
 msgid "Delete the current file and try again."
 msgstr "Faylni oʻchirib yana urinib koʻring."
 
-#: core/job_error.cpp:507
+#: core/job_error.cpp:510
 msgid "Choose an alternate filename for the new file."
 msgstr "Yangi faylga boshqa nom berib koʻring."
 
-#: core/job_error.cpp:512
+#: core/job_error.cpp:515
 msgid ""
 "The requested folder could not be created because a folder with the same "
 "name already exists."
 msgstr ""
 "Talab qilingan jild yaratilmadi. Chunki shu nomli jild allaqachon mavjud."
 
-#: core/job_error.cpp:514
+#: core/job_error.cpp:517
 msgid "Try moving the current folder out of the way first, and then try again."
 msgstr "Jildni boshqa joyga koʻchirib yana urinib koʻring."
 
-#: core/job_error.cpp:516
+#: core/job_error.cpp:519
 msgid "Delete the current folder and try again."
 msgstr "Jildni oʻchirib yana urinib koʻring."
 
-#: core/job_error.cpp:517
+#: core/job_error.cpp:520
 msgid "Choose an alternate name for the new folder."
 msgstr "Yangi jildga boshqa nom berib koʻring."
 
-#: core/job_error.cpp:521
+#: core/job_error.cpp:524
 msgid "Unknown Host"
 msgstr "Kompyuterning nomi nomaʼlum"
 
-#: core/job_error.cpp:522
+#: core/job_error.cpp:525
 #, kde-format
 msgid ""
 "An unknown host error indicates that the server with the requested name, "
 "<strong>%1</strong>, could not be located on the Internet."
 msgstr ""
 
-#: core/job_error.cpp:525
+#: core/job_error.cpp:528
 #, kde-format
 msgid ""
 "The name that you typed, %1, may not exist: it may be incorrectly typed."
@@ -1161,74 +1165,74 @@ msgstr ""
 "Siz kiritgan nom, %1, balki mavjud emas. U notoʻgʻri yozilgan boʻlishi "
 "mumkin."
 
-#: core/job_error.cpp:532
+#: core/job_error.cpp:535
 msgid "Access Denied"
 msgstr "Ruxsat yoʻq"
 
-#: core/job_error.cpp:533
+#: core/job_error.cpp:536
 #, kde-format
 msgid "Access was denied to the specified resource, <strong>%1</strong>."
 msgstr "Koʻrsatilgan manbaga, <strong>%1</strong>, ruxsat yoʻq."
 
-#: core/job_error.cpp:535 core/job_error.cpp:761
+#: core/job_error.cpp:538 core/job_error.cpp:764
 msgid "You may have supplied incorrect authentication details or none at all."
 msgstr ""
 "Tasdiqlash uchun siz notoʻgʻri yoki hech qanday maʼlumotni kiritmagan "
 "boʻlishingiz mumkin."
 
-#: core/job_error.cpp:537 core/job_error.cpp:763
+#: core/job_error.cpp:540 core/job_error.cpp:766
 msgid "Your account may not have permission to access the specified resource."
 msgstr ""
 
-#: core/job_error.cpp:539 core/job_error.cpp:765 core/job_error.cpp:777
+#: core/job_error.cpp:542 core/job_error.cpp:768 core/job_error.cpp:780
 msgid ""
 "Retry the request and ensure your authentication details are entered "
 "correctly."
 msgstr ""
 
-#: core/job_error.cpp:547
+#: core/job_error.cpp:550
 msgid "Write Access Denied"
 msgstr "Yozishga ruxsat yoʻq"
 
-#: core/job_error.cpp:548
+#: core/job_error.cpp:551
 #, kde-format
 msgid ""
 "This means that an attempt to write to the file <strong>%1</strong> was "
 "rejected."
 msgstr "Bu <strong>%1</strong> fayliga yozish rad etilganligini bildiradi."
 
-#: core/job_error.cpp:555
+#: core/job_error.cpp:558
 msgid "Unable to Enter Folder"
 msgstr "Jildga oʻtib boʻlmadi"
 
-#: core/job_error.cpp:556
+#: core/job_error.cpp:559
 #, kde-format
 msgid ""
 "This means that an attempt to enter (in other words, to open) the requested "
 "folder <strong>%1</strong> was rejected."
 msgstr ""
 
-#: core/job_error.cpp:564
+#: core/job_error.cpp:567
 msgid "Folder Listing Unavailable"
 msgstr ""
 
-#: core/job_error.cpp:565
+#: core/job_error.cpp:568
 #, kde-format
 msgid "Protocol %1 is not a Filesystem"
 msgstr "Protokol %1 fayl tizimi emas"
 
-#: core/job_error.cpp:566
+#: core/job_error.cpp:569
 msgid ""
 "This means that a request was made which requires determining the contents "
 "of the folder, and the KDE program supporting this protocol is unable to do "
 "so."
 msgstr ""
 
-#: core/job_error.cpp:574
+#: core/job_error.cpp:577
 msgid "Cyclic Link Detected"
 msgstr "Cheksiz bogʻ topildi"
 
-#: core/job_error.cpp:575
+#: core/job_error.cpp:578
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
 "name and/or location. KDE detected a link or series of links that results in "
@@ -1236,29 +1240,29 @@ msgid ""
 "itself."
 msgstr ""
 
-#: core/job_error.cpp:579 core/job_error.cpp:601
+#: core/job_error.cpp:582 core/job_error.cpp:604
 msgid ""
 "Delete one part of the loop in order that it does not cause an infinite "
 "loop, and try again."
 msgstr ""
 
-#: core/job_error.cpp:588
+#: core/job_error.cpp:591
 msgid "Request Aborted By User"
 msgstr "Talab foydalanuvchi tomonidan toʻxtatildi"
 
-#: core/job_error.cpp:589 core/job_error.cpp:904
+#: core/job_error.cpp:592 core/job_error.cpp:907
 msgid "The request was not completed because it was aborted."
 msgstr "Talab oxiriga yetkazilmadi. Chunki u toʻxtatildi."
 
-#: core/job_error.cpp:591 core/job_error.cpp:795 core/job_error.cpp:906
+#: core/job_error.cpp:594 core/job_error.cpp:798 core/job_error.cpp:909
 msgid "Retry the request."
 msgstr ""
 
-#: core/job_error.cpp:595
+#: core/job_error.cpp:598
 msgid "Cyclic Link Detected During Copy"
 msgstr "Nusxa olayotganda cheksiz bogʻ topildi"
 
-#: core/job_error.cpp:596
+#: core/job_error.cpp:599
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
 "name and/or location. During the requested copy operation, KDE detected a "
@@ -1266,87 +1270,87 @@ msgid ""
 "(perhaps in a roundabout way) linked to itself."
 msgstr ""
 
-#: core/job_error.cpp:606
+#: core/job_error.cpp:609
 msgid "Could Not Create Network Connection"
 msgstr "Tarmoq orqali ulanishni yaratib boʻlmadi"
 
-#: core/job_error.cpp:607
+#: core/job_error.cpp:610
 msgid "Could Not Create Socket"
 msgstr "Soketni yaratib boʻlmadi"
 
-#: core/job_error.cpp:608
+#: core/job_error.cpp:611
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be created."
 msgstr ""
 "Bu texnik xato. Tarmoq orqali aloqa uchun vositani (soket) yaratib boʻlmadi."
 
-#: core/job_error.cpp:610 core/job_error.cpp:731 core/job_error.cpp:742
-#: core/job_error.cpp:751
+#: core/job_error.cpp:613 core/job_error.cpp:734 core/job_error.cpp:745
+#: core/job_error.cpp:754
 msgid ""
 "The network connection may be incorrectly configured, or the network "
 "interface may not be enabled."
 msgstr ""
 "Tarmoq notoʻgʻri moslangan yoki tarmoq interfeysi yoqilmagan boʻlishi mumkin."
 
-#: core/job_error.cpp:616
+#: core/job_error.cpp:619
 msgid "Connection to Server Refused"
 msgstr "Bogʻlanish server tomonidan rad etildi"
 
-#: core/job_error.cpp:617
+#: core/job_error.cpp:620
 #, kde-format
 msgid ""
 "The server <strong>%1</strong> refused to allow this computer to make a "
 "connection."
 msgstr ""
 
-#: core/job_error.cpp:619
+#: core/job_error.cpp:622
 msgid ""
 "The server, while currently connected to the Internet, may not be configured "
 "to allow requests."
 msgstr ""
 
-#: core/job_error.cpp:621
+#: core/job_error.cpp:624
 #, kde-format
 msgid ""
 "The server, while currently connected to the Internet, may not be running "
 "the requested service (%1)."
 msgstr ""
 
-#: core/job_error.cpp:623
+#: core/job_error.cpp:626
 msgid ""
 "A network firewall (a device which restricts Internet requests), either "
 "protecting your network or the network of the server, may have intervened, "
 "preventing this request."
 msgstr ""
 
-#: core/job_error.cpp:630
+#: core/job_error.cpp:633
 msgid "Connection to Server Closed Unexpectedly"
 msgstr "Server bilan aloqa kutilmaganda uzildi"
 
-#: core/job_error.cpp:631
+#: core/job_error.cpp:634
 #, kde-format
 msgid ""
 "Although a connection was established to <strong>%1</strong>, the connection "
 "was closed at an unexpected point in the communication."
 msgstr ""
 
-#: core/job_error.cpp:634
+#: core/job_error.cpp:637
 msgid ""
 "A protocol error may have occurred, causing the server to close the "
 "connection as a response to the error."
 msgstr ""
 
-#: core/job_error.cpp:640
+#: core/job_error.cpp:643
 msgid "URL Resource Invalid"
 msgstr "URL manbasi xato"
 
-#: core/job_error.cpp:641
+#: core/job_error.cpp:644
 #, kde-format
 msgid "Protocol %1 is not a Filter Protocol"
 msgstr "Protokol %1 filter protokoli emas"
 
-#: core/job_error.cpp:642
+#: core/job_error.cpp:645
 #, kde-format
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
@@ -1354,7 +1358,7 @@ msgid ""
 "accessing the specific resource, <strong>%1%2</strong>."
 msgstr ""
 
-#: core/job_error.cpp:647
+#: core/job_error.cpp:650
 msgid ""
 "KDE is able to communicate through a protocol within a protocol. This "
 "request specified a protocol be used as such, however this protocol is not "
@@ -1362,246 +1366,246 @@ msgid ""
 "programming error."
 msgstr ""
 
-#: core/job_error.cpp:655
+#: core/job_error.cpp:658
 msgid "Unable to Initialize Input/Output Device"
 msgstr ""
 
-#: core/job_error.cpp:656
+#: core/job_error.cpp:659
 msgid "Could Not Mount Device"
 msgstr "Uskunani ulab boʻlmadi"
 
-#: core/job_error.cpp:657
+#: core/job_error.cpp:660
 #, kde-format
 msgid ""
 "The requested device could not be initialized (\"mounted\"). The reported "
 "error was: <strong>%1</strong>"
 msgstr ""
 
-#: core/job_error.cpp:660
+#: core/job_error.cpp:663
 msgid ""
 "The device may not be ready, for example there may be no media in a "
 "removable media device (i.e. no CD-ROM in a CD drive), or in the case of a "
 "peripheral/portable device, the device may not be correctly connected."
 msgstr ""
 
-#: core/job_error.cpp:664
+#: core/job_error.cpp:667
 msgid ""
 "You may not have permissions to initialize (\"mount\") the device. On UNIX "
 "systems, often system administrator privileges are required to initialize a "
 "device."
 msgstr ""
 
-#: core/job_error.cpp:668
+#: core/job_error.cpp:671
 msgid ""
 "Check that the device is ready; removable drives must contain media, and "
 "portable devices must be connected and powered on.; and try again."
 msgstr ""
 
-#: core/job_error.cpp:674
+#: core/job_error.cpp:677
 msgid "Unable to Uninitialize Input/Output Device"
 msgstr ""
 
-#: core/job_error.cpp:675
+#: core/job_error.cpp:678
 msgid "Could Not Unmount Device"
 msgstr "Uskunani ajratib boʻlmadi"
 
-#: core/job_error.cpp:676
+#: core/job_error.cpp:679
 #, kde-format
 msgid ""
 "The requested device could not be uninitialized (\"unmounted\"). The "
 "reported error was: <strong>%1</strong>"
 msgstr ""
 
-#: core/job_error.cpp:679
+#: core/job_error.cpp:682
 msgid ""
 "The device may be busy, that is, still in use by another application or "
 "user. Even such things as having an open browser window on a location on "
 "this device may cause the device to remain in use."
 msgstr ""
 
-#: core/job_error.cpp:683
+#: core/job_error.cpp:686
 msgid ""
 "You may not have permissions to uninitialize (\"unmount\") the device. On "
 "UNIX systems, system administrator privileges are often required to "
 "uninitialize a device."
 msgstr ""
 
-#: core/job_error.cpp:687
+#: core/job_error.cpp:690
 msgid "Check that no applications are accessing the device, and try again."
 msgstr ""
 
-#: core/job_error.cpp:692
+#: core/job_error.cpp:695
 msgid "Cannot Read From Resource"
 msgstr "Manbadan oʻqib boʻlmadi"
 
-#: core/job_error.cpp:693
+#: core/job_error.cpp:696
 #, kde-format
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
 "opened, an error occurred while reading the contents of the resource."
 msgstr ""
 
-#: core/job_error.cpp:696
+#: core/job_error.cpp:699
 msgid "You may not have permissions to read from the resource."
 msgstr "Manbadan oʻqishga huquqingiz yoʻq boʻlishi mumkin."
 
-#: core/job_error.cpp:709
+#: core/job_error.cpp:712
 msgid "Cannot Write to Resource"
 msgstr "Manbaga yozib boʻlmadi"
 
-#: core/job_error.cpp:710
+#: core/job_error.cpp:713
 #, kde-format
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
 "opened, an error occurred while writing to the resource."
 msgstr ""
 
-#: core/job_error.cpp:713
+#: core/job_error.cpp:716
 msgid "You may not have permissions to write to the resource."
 msgstr "Manbaga yozishga huquqingiz yoʻq boʻlishi mumkin."
 
-#: core/job_error.cpp:726 core/job_error.cpp:737
+#: core/job_error.cpp:729 core/job_error.cpp:740
 msgid "Could Not Listen for Network Connections"
 msgstr ""
 
-#: core/job_error.cpp:727
+#: core/job_error.cpp:730
 msgid "Could Not Bind"
 msgstr ""
 
-#: core/job_error.cpp:728 core/job_error.cpp:739
+#: core/job_error.cpp:731 core/job_error.cpp:742
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be established to listen for incoming "
 "network connections."
 msgstr ""
 
-#: core/job_error.cpp:738
+#: core/job_error.cpp:741
 msgid "Could Not Listen"
 msgstr "Quloq solib boʻlmadi"
 
-#: core/job_error.cpp:748
+#: core/job_error.cpp:751
 msgid "Could Not Accept Network Connection"
 msgstr "Tarmoq orqali aloqani qabul qilib boʻlmadi"
 
-#: core/job_error.cpp:749
+#: core/job_error.cpp:752
 msgid ""
 "This is a fairly technical error in which an error occurred while attempting "
 "to accept an incoming network connection."
 msgstr ""
 
-#: core/job_error.cpp:753
+#: core/job_error.cpp:756
 msgid "You may not have permissions to accept the connection."
 msgstr ""
 
-#: core/job_error.cpp:758
+#: core/job_error.cpp:761
 #, kde-format
 msgid "Could Not Login: %1"
 msgstr "%1'ga kirib boʻlmadi"
 
-#: core/job_error.cpp:759
+#: core/job_error.cpp:762
 msgid ""
 "An attempt to login to perform the requested operation was unsuccessful."
 msgstr ""
 "Talab qilingan operatsiyani bajarish uchun tizimga kirish muvaffaqiyatsiz "
 "tugadi."
 
-#: core/job_error.cpp:770
+#: core/job_error.cpp:773
 msgid "Could Not Determine Resource Status"
 msgstr "Manbaning holatini aniqlab boʻlmadi"
 
-#: core/job_error.cpp:771
+#: core/job_error.cpp:774
 msgid "Could Not Stat Resource"
 msgstr ""
 
-#: core/job_error.cpp:772
+#: core/job_error.cpp:775
 #, kde-format
 msgid ""
 "An attempt to determine information about the status of the resource <strong>"
 "%1</strong>, such as the resource name, type, size, etc., was unsuccessful."
 msgstr ""
 
-#: core/job_error.cpp:775
+#: core/job_error.cpp:778
 msgid "The specified resource may not have existed or may not be accessible."
 msgstr ""
 
-#: core/job_error.cpp:783
+#: core/job_error.cpp:786
 msgid "Could Not Cancel Listing"
 msgstr "Quloq solishni bekor qilib boʻlmadi"
 
-#: core/job_error.cpp:784
+#: core/job_error.cpp:787
 msgid "FIXME: Document this"
 msgstr "Bu uchun hech qanday qoʻllanma yoʻq"
 
-#: core/job_error.cpp:788
+#: core/job_error.cpp:791
 msgid "Could Not Create Folder"
 msgstr "Jildni yaratib boʻlmadi"
 
-#: core/job_error.cpp:789
+#: core/job_error.cpp:792
 msgid "An attempt to create the requested folder failed."
 msgstr "Talab qilingan jildni yaratish muvaffaqiyatsiz tugadi."
 
-#: core/job_error.cpp:790
+#: core/job_error.cpp:793
 msgid "The location where the folder was to be created may not exist."
 msgstr ""
 
-#: core/job_error.cpp:799
+#: core/job_error.cpp:802
 msgid "Could Not Remove Folder"
 msgstr "Jildni oʻchirib boʻlmadi"
 
-#: core/job_error.cpp:800
+#: core/job_error.cpp:803
 #, kde-format
 msgid "An attempt to remove the specified folder, <strong>%1</strong>, failed."
 msgstr ""
 "Koʻrsatilgan jildni, <strong>%1</strong>, oʻchirish muvaffaqiyatsiz tugadi."
 
-#: core/job_error.cpp:802
+#: core/job_error.cpp:805
 msgid "The specified folder may not exist."
 msgstr "Koʻrsatilgan jild balki mavjud emas."
 
-#: core/job_error.cpp:803
+#: core/job_error.cpp:806
 msgid "The specified folder may not be empty."
 msgstr "Koʻrsatilgan jild balki boʻsh emas."
 
-#: core/job_error.cpp:808
+#: core/job_error.cpp:811
 msgid "Ensure that the folder exists and is empty, and try again."
 msgstr ""
 "Jild mavjudligiga va boʻshligiga ishonch hosil qiling va yana urinib koʻring."
 
-#: core/job_error.cpp:813
+#: core/job_error.cpp:816
 msgid "Could Not Resume File Transfer"
 msgstr "Faylni koʻchirishni davom etib boʻlmadi"
 
-#: core/job_error.cpp:814
+#: core/job_error.cpp:817
 #, kde-format
 msgid ""
 "The specified request asked that the transfer of file <strong>%1</strong> be "
 "resumed at a certain point of the transfer. This was not possible."
 msgstr ""
 
-#: core/job_error.cpp:817
+#: core/job_error.cpp:820
 msgid "The protocol, or the server, may not support file resuming."
 msgstr ""
 
-#: core/job_error.cpp:819
+#: core/job_error.cpp:822
 msgid "Retry the request without attempting to resume transfer."
 msgstr ""
 
-#: core/job_error.cpp:824
+#: core/job_error.cpp:827
 msgid "Could Not Rename Resource"
 msgstr "Manbaning nomini oʻzgartirib boʻlmadi"
 
-#: core/job_error.cpp:825
+#: core/job_error.cpp:828
 #, kde-format
 msgid "An attempt to rename the specified resource <strong>%1</strong> failed."
 msgstr ""
 "Koʻrsatilgan, <strong>%1</strong>, manbaning nomini oʻzgartirish "
 "muvaffaqiyatsiz tugadi."
 
-#: core/job_error.cpp:835
+#: core/job_error.cpp:838
 msgid "Could Not Alter Permissions of Resource"
 msgstr "Manbaning huquqlarini oʻzgartirib boʻlmadi"
 
-#: core/job_error.cpp:836
+#: core/job_error.cpp:839
 #, kde-format
 msgid ""
 "An attempt to alter the permissions on the specified resource <strong>%1</"
@@ -1610,13 +1614,13 @@ msgstr ""
 "Koʻrsatilgan manbaning, <strong>%1</strong>, huquqlarini oʻzgartirish "
 "muvaffaqiyatsiz tugadi."
 
-#: core/job_error.cpp:843
+#: core/job_error.cpp:846
 #, fuzzy
 #| msgid "Could Not Alter Permissions of Resource"
 msgid "Could Not Change Ownership of Resource"
 msgstr "Manbaning huquqlarini oʻzgartirib boʻlmadi"
 
-#: core/job_error.cpp:844
+#: core/job_error.cpp:847
 #, fuzzy, kde-format
 #| msgid ""
 #| "An attempt to alter the permissions on the specified resource <strong>%1</"
@@ -1628,43 +1632,43 @@ msgstr ""
 "Koʻrsatilgan manbaning, <strong>%1</strong>, huquqlarini oʻzgartirish "
 "muvaffaqiyatsiz tugadi."
 
-#: core/job_error.cpp:851
+#: core/job_error.cpp:854
 msgid "Could Not Delete Resource"
 msgstr "Manbani oʻchirib boʻlmadi"
 
-#: core/job_error.cpp:852
+#: core/job_error.cpp:855
 #, kde-format
 msgid "An attempt to delete the specified resource <strong>%1</strong> failed."
 msgstr ""
 "Koʻrsatilgan, <strong>%1</strong>, manbani oʻchirish muvaffaqiyatsiz tugadi."
 
-#: core/job_error.cpp:859
+#: core/job_error.cpp:862
 msgid "Unexpected Program Termination"
 msgstr "Dastur kutilmaganda ishini toʻxtatdi"
 
-#: core/job_error.cpp:860
+#: core/job_error.cpp:863
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has unexpectedly terminated."
 msgstr ""
 
-#: core/job_error.cpp:868
+#: core/job_error.cpp:871
 msgid "Out of Memory"
 msgstr "Xotira yetishmayapti"
 
-#: core/job_error.cpp:869
+#: core/job_error.cpp:872
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol could not obtain the memory required to continue."
 msgstr ""
 
-#: core/job_error.cpp:877
+#: core/job_error.cpp:880
 msgid "Unknown Proxy Host"
 msgstr "Proksi xostning nomi nomaʼlum"
 
-#: core/job_error.cpp:878
+#: core/job_error.cpp:881
 #, kde-format
 msgid ""
 "While retrieving information about the specified proxy host, <strong>%1</"
@@ -1672,23 +1676,23 @@ msgid ""
 "indicates that the requested name could not be located on the Internet."
 msgstr ""
 
-#: core/job_error.cpp:882
+#: core/job_error.cpp:885
 msgid ""
 "There may have been a problem with your network configuration, specifically "
 "your proxy's hostname. If you have been accessing the Internet with no "
 "problems recently, this is unlikely."
 msgstr ""
 
-#: core/job_error.cpp:886
+#: core/job_error.cpp:889
 msgid "Double-check your proxy settings and try again."
 msgstr "Proksi moslamalaringizni tekshiring va yana bir bor urinib koʻring."
 
-#: core/job_error.cpp:891
+#: core/job_error.cpp:894
 #, kde-format
 msgid "Authentication Failed: Method %1 Not Supported"
 msgstr "Tasdiqlash muvaffaqiyatsiz tugadi. %1 usuli qoʻllanmagan."
 
-#: core/job_error.cpp:893
+#: core/job_error.cpp:896
 #, kde-format
 msgid ""
 "Although you may have supplied the correct authentication details, the "
@@ -1696,28 +1700,28 @@ msgid ""
 "supported by the KDE program implementing the protocol %1."
 msgstr ""
 
-#: core/job_error.cpp:897
+#: core/job_error.cpp:900
 msgid ""
 "Please file a bug at <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</"
 "a> to inform the KDE team of the unsupported authentication method."
 msgstr ""
 
-#: core/job_error.cpp:903
+#: core/job_error.cpp:906
 msgid "Request Aborted"
 msgstr "Talab toʻxtatildi"
 
-#: core/job_error.cpp:910
+#: core/job_error.cpp:913
 msgid "Internal Error in Server"
 msgstr "Serverning ichki xatosi"
 
-#: core/job_error.cpp:911
+#: core/job_error.cpp:914
 #, kde-format
 msgid ""
 "The program on the server which provides access to the <strong>%1</strong> "
 "protocol has reported an internal error: %2."
 msgstr ""
 
-#: core/job_error.cpp:914
+#: core/job_error.cpp:917
 msgid ""
 "This is most likely to be caused by a bug in the server program. Please "
 "consider submitting a full bug report as detailed below."
@@ -1725,11 +1729,11 @@ msgstr ""
 "Bunga server dasturidagi xato sababchi boʻlishini extimoli katta. Iltimos, "
 "quyida koʻrsatilgandek xato haqida xabar qiling."
 
-#: core/job_error.cpp:917
+#: core/job_error.cpp:920
 msgid "Contact the administrator of the server to advise them of the problem."
 msgstr "Muammo haqida serverning boshqaruvchisiga xabar qiling."
 
-#: core/job_error.cpp:919
+#: core/job_error.cpp:922
 msgid ""
 "If you know who the authors of the server software are, submit the bug "
 "report directly to them."
@@ -1737,11 +1741,11 @@ msgstr ""
 "Agar server dasturining mualliflari kimligini bilsangiz, toʻgʻridan-toʻgʻri "
 "ularga xato haqida xabar qiling."
 
-#: core/job_error.cpp:924
+#: core/job_error.cpp:927
 msgid "Timeout Error"
 msgstr "Taymaut xatosi"
 
-#: core/job_error.cpp:925
+#: core/job_error.cpp:928
 #, kde-format
 msgid ""
 "Although contact was made with the server, a response was not received "
@@ -1753,37 +1757,37 @@ msgid ""
 "Connection Preferences."
 msgstr ""
 
-#: core/job_error.cpp:936
+#: core/job_error.cpp:939
 msgid "The server was too busy responding to other requests to respond."
 msgstr "Server boshqa talablarga javob berish bilan juda band edi."
 
-#: core/job_error.cpp:942 core/slavebase.cpp:1420
+#: core/job_error.cpp:945 core/slavebase.cpp:1427
 msgid "Unknown Error"
 msgstr "Nomaʼlum xato"
 
-#: core/job_error.cpp:943
+#: core/job_error.cpp:946
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has reported an unknown error: %2."
 msgstr ""
 
-#: core/job_error.cpp:951
+#: core/job_error.cpp:954
 msgid "Unknown Interruption"
 msgstr "Nomaʼlum toʻxtalish"
 
-#: core/job_error.cpp:952
+#: core/job_error.cpp:955
 #, kde-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has reported an interruption of an unknown type: %2."
 msgstr ""
 
-#: core/job_error.cpp:960
+#: core/job_error.cpp:963
 msgid "Could Not Delete Original File"
 msgstr "Asl faylni oʻchirib boʻlmadi"
 
-#: core/job_error.cpp:961
+#: core/job_error.cpp:964
 #, kde-format
 msgid ""
 "The requested operation required the deleting of the original file, most "
@@ -1791,11 +1795,11 @@ msgid ""
 "strong> could not be deleted."
 msgstr ""
 
-#: core/job_error.cpp:970
+#: core/job_error.cpp:973
 msgid "Could Not Delete Temporary File"
 msgstr "Vaqtinchalik faylni oʻchirib boʻlmadi"
 
-#: core/job_error.cpp:971
+#: core/job_error.cpp:974
 #, kde-format
 msgid ""
 "The requested operation required the creation of a temporary file in which "
@@ -1803,85 +1807,85 @@ msgid ""
 "strong> could not be deleted."
 msgstr ""
 
-#: core/job_error.cpp:980
+#: core/job_error.cpp:983
 msgid "Could Not Rename Original File"
 msgstr "Asl faylning nomini oʻzgartirib boʻlmadi"
 
-#: core/job_error.cpp:981
+#: core/job_error.cpp:984
 #, kde-format
 msgid ""
 "The requested operation required the renaming of the original file <strong>"
 "%1</strong>, however it could not be renamed."
 msgstr ""
 
-#: core/job_error.cpp:989
+#: core/job_error.cpp:992
 msgid "Could Not Rename Temporary File"
 msgstr "Vaqtinchalik faylning nomini oʻzgartirib boʻlmadi"
 
-#: core/job_error.cpp:990
+#: core/job_error.cpp:993
 #, kde-format
 msgid ""
 "The requested operation required the creation of a temporary file <strong>"
 "%1</strong>, however it could not be created."
 msgstr ""
 
-#: core/job_error.cpp:998
+#: core/job_error.cpp:1001
 msgid "Could Not Create Link"
 msgstr "Bogʻni yaratib boʻlmadi"
 
-#: core/job_error.cpp:999
+#: core/job_error.cpp:1002
 msgid "Could Not Create Symbolic Link"
 msgstr "Ramziy bogʻ yaratib boʻlmadi"
 
-#: core/job_error.cpp:1000
+#: core/job_error.cpp:1003
 #, kde-format
 msgid "The requested symbolic link %1 could not be created."
 msgstr ""
 
-#: core/job_error.cpp:1007
+#: core/job_error.cpp:1010
 msgid "No Content"
 msgstr ""
 
-#: core/job_error.cpp:1012
+#: core/job_error.cpp:1015
 msgid "Disk Full"
 msgstr "Diskda boʻsh joy yoʻq"
 
-#: core/job_error.cpp:1013
+#: core/job_error.cpp:1016
 #, kde-format
 msgid ""
 "The requested file <strong>%1</strong> could not be written to as there is "
 "inadequate disk space."
 msgstr ""
 
-#: core/job_error.cpp:1015
+#: core/job_error.cpp:1018
 msgid ""
 "Free up enough disk space by 1) deleting unwanted and temporary files; 2) "
 "archiving files to removable media storage such as CD-Recordable discs; or "
 "3) obtain more storage capacity."
 msgstr ""
 
-#: core/job_error.cpp:1022
+#: core/job_error.cpp:1025
 msgid "Source and Destination Files Identical"
 msgstr "Manba va manzil fayllar bir xil"
 
-#: core/job_error.cpp:1023
+#: core/job_error.cpp:1026
 msgid ""
 "The operation could not be completed because the source and destination "
 "files are the same file."
 msgstr ""
 "Amalni bajarib boʻlmadi, chunki manba va manzil fayllarining nomlari bir xil."
 
-#: core/job_error.cpp:1025
+#: core/job_error.cpp:1028
 msgid "Choose a different filename for the destination file."
 msgstr "Manzil faylining nomini oʻzgartiring."
 
-#: core/job_error.cpp:1029
+#: core/job_error.cpp:1032
 #, fuzzy
 #| msgid "File or Folder Does Not Exist"
 msgid "File or Folder dropped onto itself"
 msgstr "Fayl yoki jild mavjud emas"
 
-#: core/job_error.cpp:1030
+#: core/job_error.cpp:1033
 #, fuzzy
 #| msgid ""
 #| "The operation could not be completed because the source and destination "
@@ -1892,19 +1896,19 @@ msgid ""
 msgstr ""
 "Amalni bajarib boʻlmadi, chunki manba va manzil fayllarining nomlari bir xil."
 
-#: core/job_error.cpp:1032
+#: core/job_error.cpp:1035
 #, fuzzy
 #| msgid "copy the specified file or folder"
 msgid "Drop the item into a different file or folder."
 msgstr "koʻrsatilgan fayl yoki jilddan nusxa olish"
 
-#: core/job_error.cpp:1042
+#: core/job_error.cpp:1045
 #, fuzzy
 #| msgid "File or Folder Does Not Exist"
 msgid "Folder moved into itself"
 msgstr "Fayl yoki jild mavjud emas"
 
-#: core/job_error.cpp:1043
+#: core/job_error.cpp:1046
 #, fuzzy
 #| msgid ""
 #| "The operation could not be completed because the source and destination "
@@ -1915,13 +1919,32 @@ msgid ""
 msgstr ""
 "Amalni bajarib boʻlmadi, chunki manba va manzil fayllarining nomlari bir xil."
 
-#: core/job_error.cpp:1045
+#: core/job_error.cpp:1048
 #, fuzzy
 #| msgid "copy the specified file or folder"
 msgid "Move the item into a different folder."
 msgstr "koʻrsatilgan fayl yoki jilddan nusxa olish"
 
-#: core/job_error.cpp:1050
+#: core/job_error.cpp:1052
+msgid "Could not communicate with password server"
+msgstr ""
+
+#: core/job_error.cpp:1053
+#, fuzzy
+#| msgid ""
+#| "The operation could not be completed because the source and destination "
+#| "files are the same file."
+msgid ""
+"The operation could not be completed because the service for requesting "
+"passwords (kpasswdserver) couldn't be contacted"
+msgstr ""
+"Amalni bajarib boʻlmadi, chunki manba va manzil fayllarining nomlari bir xil."
+
+#: core/job_error.cpp:1055
+msgid "Try restarting your session, or look in the logs for errors from kiod."
+msgstr ""
+
+#: core/job_error.cpp:1060
 msgid "Undocumented Error"
 msgstr "Bu xato uchun koʻllanma yoʻq."
 
@@ -2266,11 +2289,11 @@ msgstr "%1 protokoli bilan jildni yaratish qoʻllanmagan."
 msgid "Protocol %1 does not support action %2."
 msgstr "%1 protokoli %2 amalini qoʻllamaydi."
 
-#: core/slavebase.cpp:954
+#: core/slavebase.cpp:961
 msgid "&Yes"
 msgstr "&Ha"
 
-#: core/slavebase.cpp:955
+#: core/slavebase.cpp:962
 msgid "&No"
 msgstr "&Yoʻq"
 
@@ -3335,12 +3358,12 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ioslaves/ftp/ftp.cpp:581 ioslaves/http/http.cpp:5380
+#: ioslaves/ftp/ftp.cpp:581 ioslaves/http/http.cpp:5381
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Bu saytga kirish uchun foydalanuvchi va maxfiy soʻzni koʻrsatish kerak."
 
-#: ioslaves/ftp/ftp.cpp:583 ioslaves/http/http.cpp:5382
+#: ioslaves/ftp/ftp.cpp:583 ioslaves/http/http.cpp:5383
 msgid "Site:"
 msgstr "Sayt:"
 
@@ -3349,17 +3372,17 @@ msgstr "Sayt:"
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: ioslaves/ftp/ftp.cpp:667
+#: ioslaves/ftp/ftp.cpp:672
 msgid "Login OK"
 msgstr "Kirish OK"
 
-#: ioslaves/ftp/ftp.cpp:696
+#: ioslaves/ftp/ftp.cpp:701
 #, kde-format
 msgid "Could not login to %1."
 msgstr "%1'ga kirib boʻlmadi."
 
-#: ioslaves/ftp/ftp.cpp:2592 ioslaves/http/http.cpp:5262
-#: ioslaves/http/http.cpp:5394
+#: ioslaves/ftp/ftp.cpp:2597 ioslaves/http/http.cpp:5262
+#: ioslaves/http/http.cpp:5395
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -3367,19 +3390,19 @@ msgstr ""
 "Quyida koʻrsatilgan proksi serverga kirish uchun foydalanuvchi va maxfiy "
 "soʻzni koʻrsatish kerak."
 
-#: ioslaves/ftp/ftp.cpp:2596 ioslaves/http/http.cpp:5266
-#: ioslaves/http/http.cpp:5397
+#: ioslaves/ftp/ftp.cpp:2601 ioslaves/http/http.cpp:5266
+#: ioslaves/http/http.cpp:5398
 msgid "Proxy:"
 msgstr "Proksi:"
 
-#: ioslaves/ftp/ftp.cpp:2597 ioslaves/http/http.cpp:5267
-#: ioslaves/http/http.cpp:5503
+#: ioslaves/ftp/ftp.cpp:2602 ioslaves/http/http.cpp:5267
+#: ioslaves/http/http.cpp:5504
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr ""
 
-#: ioslaves/ftp/ftp.cpp:2598 ioslaves/http/http.cpp:5269
-#: ioslaves/http/http.cpp:5414
+#: ioslaves/ftp/ftp.cpp:2603 ioslaves/http/http.cpp:5269
+#: ioslaves/http/http.cpp:5415
 msgid "Proxy Authentication Failed."
 msgstr "Proksi yordamida tasdiqlash muvaffaqiyatsiz tugadi."
 
@@ -3633,17 +3656,17 @@ msgstr "%1'ga maʼlumot joʻnatilmoqda"
 msgid "Retrieving %1 from %2..."
 msgstr "%1 %2'dan aniqlanmoqda..."
 
-#: ioslaves/http/http.cpp:5413
+#: ioslaves/http/http.cpp:5414
 msgid "Authentication Failed."
 msgstr "Tasdiqlash muvaffaqiyatsiz tugadi."
 
-#: ioslaves/http/http.cpp:5542
+#: ioslaves/http/http.cpp:5544
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "Tasdiqlash dialogi"
 
-#: ioslaves/http/http.cpp:5558
+#: ioslaves/http/http.cpp:5560
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
