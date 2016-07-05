@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-25 08:04+0000\n"
+"POT-Creation-Date: 2016-07-05 08:20+0000\n"
 "PO-Revision-Date: 2005-10-19 21:17+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -52,7 +52,7 @@ msgctxt "@item:inlistbox size"
 msgid "Resolution dependent"
 msgstr ""
 
-#: xcursor/themepage.cpp:319
+#: xcursor/themepage.cpp:317
 #, fuzzy
 #| msgid "You have to restart KDE for these changes to take effect."
 msgid ""
@@ -60,20 +60,20 @@ msgid ""
 msgstr ""
 "Oʻzgarishlar kuchga kirishi uchun KDE'ni qaytadan ishga tushirishingiz kerak."
 
-#: xcursor/themepage.cpp:320
+#: xcursor/themepage.cpp:318
 msgid "Cursor Settings Changed"
 msgstr "Kursor moslamalari oʻzgardi"
 
-#: xcursor/themepage.cpp:438
+#: xcursor/themepage.cpp:436
 msgid "Drag or Type Theme URL"
 msgstr ""
 
-#: xcursor/themepage.cpp:449
+#: xcursor/themepage.cpp:447
 #, kde-format
 msgid "Unable to find the cursor theme archive %1."
 msgstr "Kursor mavzusining %1 arxivi topilmadi."
 
-#: xcursor/themepage.cpp:452
+#: xcursor/themepage.cpp:450
 #, kde-format
 msgid ""
 "Unable to download the cursor theme archive; please check that the address "
@@ -82,18 +82,18 @@ msgstr ""
 "Kursor mavzusining arxivini yozib olib boʻlmadi. Iltimos %1 manzili "
 "toʻgʻriligini tekshiring."
 
-#: xcursor/themepage.cpp:461
+#: xcursor/themepage.cpp:459
 #, kde-format
 msgid "The file %1 does not appear to be a valid cursor theme archive."
 msgstr "%1 fayli haqiqiy kursor mavzusining arxiviga oʻxshamaydi."
 
-#: xcursor/themepage.cpp:476
+#: xcursor/themepage.cpp:474
 msgid ""
 "<qt>You cannot delete the theme you are currently using.<br />You have to "
 "switch to another theme first.</qt>"
 msgstr ""
 
-#: xcursor/themepage.cpp:482
+#: xcursor/themepage.cpp:480
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Are you sure you want to remove the <strong>%1</strong> cursor theme?"
@@ -105,55 +105,49 @@ msgstr ""
 "<qt><strong>%1</strong> mavzusini olib tashlashga ishonchingiz komilmi?"
 "<br>Bu mavzuga tegishli hamma fayllar oʻchiriladi.</qt>"
 
-#: xcursor/themepage.cpp:488
+#: xcursor/themepage.cpp:486
 msgid "Confirmation"
 msgstr "Tasdiqlash"
 
-#: xcursor/themepage.cpp:545
+#: xcursor/themepage.cpp:543
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
 "replace it with this one?"
 msgstr "%1 mavzusi allaqachon mavjud. Uni almashtirishni istaysizmi?"
 
-#: xcursor/themepage.cpp:549
+#: xcursor/themepage.cpp:547
 msgid "Overwrite Theme?"
 msgstr "Mavzuni almashtirish"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: xcursor/themepage.ui:17
+#: xcursor/themepage.ui:33
 msgid "Select the cursor theme you want to use (hover preview to test cursor):"
 msgstr "Kursor mavzusini tanlang:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, installKnsButton)
-#: xcursor/themepage.ui:56
+#: xcursor/themepage.ui:40
 msgid "Get new color schemes from the Internet"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, installKnsButton)
-#: xcursor/themepage.ui:59
+#: xcursor/themepage.ui:43
 #, fuzzy
 #| msgid "Install New Theme..."
 msgid "Get New Theme..."
 msgstr "Yangi mavzuni oʻrnatish"
 
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: xcursor/themepage.ui:50
+msgid "Remove Theme"
+msgstr "Mavzuni olib tashlash"
+
 #. i18n: ectx: property (text), widget (QPushButton, installButton)
-#: xcursor/themepage.ui:66
+#: xcursor/themepage.ui:92
 #, fuzzy
 #| msgid "Install New Theme..."
 msgid "Install From File..."
 msgstr "Yangi mavzuni oʻrnatish"
-
-#. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: xcursor/themepage.ui:73
-msgid "Remove Theme"
-msgstr "Mavzuni olib tashlash"
-
-#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
-#: xcursor/themepage.ui:99
-msgctxt "@label:listbox cursor size"
-msgid "Size:"
-msgstr ""
 
 #: xcursor/xcursortheme.cpp:77
 #, kde-format
