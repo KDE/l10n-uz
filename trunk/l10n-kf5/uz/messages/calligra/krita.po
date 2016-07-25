@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-23 07:57+0000\n"
+"POT-Creation-Date: 2016-07-25 07:28+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1728,11 +1728,24 @@ msgctxt "action"
 msgid "Move down"
 msgstr "Koʻchirish vositasi"
 
+#. i18n: context: Action (movetool-show-coordinates), Actions (Path Tool), ActionCollection (Tools)
+#: krita/data/actions/MoveTool.action:28
+msgctxt "action"
+msgid "Show absolute coordinates and offset while move action"
+msgstr ""
+
+#. i18n: context: Action (movetool-show-coordinates), Actions (Path Tool), ActionCollection (Tools)
+#: krita/data/actions/MoveTool.action:33
+#, fuzzy
+msgctxt "action"
+msgid "Show Coordinates"
+msgstr "Tanlanganni koʻrsatish"
+
 #. i18n: context: Action (movetool-move-left), Actions (Path Tool), ActionCollection (Tools)
 #. i18n: context: Action (movetool-move-left), Actions (Path Tool), ActionCollection (Tools)
 #. i18n: context: Action (movetool-move-left), Actions (Path Tool), ActionCollection (Tools)
 #. i18n: context: Action (movetool-move-left), Actions (Path Tool), ActionCollection (Tools)
-#: krita/data/actions/MoveTool.action:28 krita/data/actions/MoveTool.action:33
+#: krita/data/actions/MoveTool.action:38 krita/data/actions/MoveTool.action:43
 #, fuzzy
 msgctxt "action"
 msgid "Move left"
@@ -1742,7 +1755,7 @@ msgstr "Hech narsa tanlanmagan"
 #. i18n: context: Action (movetool-move-right-more), Actions (Path Tool), ActionCollection (Tools)
 #. i18n: context: Action (movetool-move-right), Actions (Path Tool), ActionCollection (Tools)
 #. i18n: context: Action (movetool-move-right-more), Actions (Path Tool), ActionCollection (Tools)
-#: krita/data/actions/MoveTool.action:38 krita/data/actions/MoveTool.action:82
+#: krita/data/actions/MoveTool.action:48 krita/data/actions/MoveTool.action:92
 #, fuzzy
 msgctxt "action"
 msgid "Move right"
@@ -1752,7 +1765,7 @@ msgstr "Qatlamni koʻchirish"
 #. i18n: context: Action (movetool-move-up-more), Actions (Path Tool), ActionCollection (Tools)
 #. i18n: context: Action (movetool-move-up-more), Actions (Path Tool), ActionCollection (Tools)
 #. i18n: context: Action (movetool-move-up-more), Actions (Path Tool), ActionCollection (Tools)
-#: krita/data/actions/MoveTool.action:47 krita/data/actions/MoveTool.action:52
+#: krita/data/actions/MoveTool.action:57 krita/data/actions/MoveTool.action:62
 #, fuzzy
 msgctxt "action"
 msgid "Move up more"
@@ -1762,7 +1775,7 @@ msgstr "Koʻchi&rish"
 #. i18n: context: Action (movetool-move-down-more), Actions (Path Tool), ActionCollection (Tools)
 #. i18n: context: Action (movetool-move-down-more), Actions (Path Tool), ActionCollection (Tools)
 #. i18n: context: Action (movetool-move-down-more), Actions (Path Tool), ActionCollection (Tools)
-#: krita/data/actions/MoveTool.action:57 krita/data/actions/MoveTool.action:62
+#: krita/data/actions/MoveTool.action:67 krita/data/actions/MoveTool.action:72
 #, fuzzy
 msgctxt "action"
 msgid "Move down more"
@@ -1772,14 +1785,14 @@ msgstr "Koʻchirish vositasi"
 #. i18n: context: Action (movetool-move-left-more), Actions (Path Tool), ActionCollection (Tools)
 #. i18n: context: Action (movetool-move-left-more), Actions (Path Tool), ActionCollection (Tools)
 #. i18n: context: Action (movetool-move-left-more), Actions (Path Tool), ActionCollection (Tools)
-#: krita/data/actions/MoveTool.action:67 krita/data/actions/MoveTool.action:72
+#: krita/data/actions/MoveTool.action:77 krita/data/actions/MoveTool.action:82
 #, fuzzy
 msgctxt "action"
 msgid "Move left more"
 msgstr "Hech narsa tanlanmagan"
 
 #. i18n: context: Action (movetool-move-right-more), Actions (Path Tool), ActionCollection (Tools)
-#: krita/data/actions/MoveTool.action:77
+#: krita/data/actions/MoveTool.action:87
 #, fuzzy
 msgctxt "action"
 msgid "Move right more"
@@ -7915,12 +7928,12 @@ msgstr "Aniqlik:"
 msgid "Pencil"
 msgstr "Qalam"
 
-#: libs/brush/kis_auto_brush.cpp:372
+#: libs/brush/kis_auto_brush.cpp:382
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Density recommended value 100.0"
 msgstr ""
 
-#: libs/brush/kis_auto_brush.cpp:376
+#: libs/brush/kis_auto_brush.cpp:386
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr ""
@@ -8791,7 +8804,7 @@ msgstr "&Andoza"
 #: libs/image/kis_base_mask_generator.h:36
 #: plugins/extensions/metadataeditor/editors/exif.ui:860
 #: plugins/extensions/metadataeditor/editors/exif.ui:892
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:63
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:65
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:64
 #, fuzzy
 msgid "Soft"
@@ -8975,7 +8988,7 @@ msgstr "%1%"
 #: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:36
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:56
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:57
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:48
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:42
 #: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:50
@@ -10061,7 +10074,7 @@ msgstr "Chegaralarni oʻzgartirish"
 #: libs/pigment/KoCompositeOp.cpp:37 libs/pigment/KoCompositeOpRegistry.cpp:38
 #: libs/pigment/KoCompositeOpRegistry.cpp:56
 #: plugins/color/lcms2engine/compositeops/RgbCompositeOpDarken.h:33
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:70
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:72
 #: plugins/tools/karbonplugins/filtereffects/BlendEffectConfigWidget.cpp:41
 #, fuzzy
 msgid "Darken"
@@ -10171,7 +10184,7 @@ msgstr "Rang"
 #: plugins/dockers/colorslider/kis_color_slider_input.cpp:68
 #: plugins/dockers/colorslider/kis_color_slider_input.cpp:71
 #: plugins/dockers/colorslider/kis_color_slider_input.cpp:74
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:72
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:74
 #, fuzzy
 msgid "Hue"
 msgstr "Rang tusi"
@@ -10201,7 +10214,7 @@ msgstr "Rang tusi"
 #: plugins/dockers/colorslider/kis_color_slider_input.cpp:72
 #: plugins/dockers/colorslider/kis_color_slider_input.cpp:75
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:87
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:73
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:75
 #: plugins/paintops/hairy/wdghairyeoptions.ui:310
 #: plugins/paintops/hairy/wdgInkOptions.ui:71
 #, fuzzy
@@ -10381,7 +10394,7 @@ msgstr "Toʻyintirish"
 #: plugins/dockers/colorslider/kis_color_slider_input.cpp:67
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:108
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:34
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:74
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:76
 #: plugins/tools/basictools/wdgcolorpicker.ui:29
 msgid "Value"
 msgstr "Qiymati"
@@ -10529,7 +10542,7 @@ msgid "HSV"
 msgstr "HSV"
 
 #: libs/pigment/KoCompositeOp.cpp:42 libs/pigment/KoCompositeOpRegistry.cpp:41
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:73
 #, fuzzy
 msgid "Mix"
 msgstr "Asosiy:"
@@ -11064,6 +11077,8 @@ msgstr "%"
 #: plugins/tools/basictools/kis_tool_brush.cc:356
 #: plugins/tools/basictools/kis_tool_fill.cc:190
 #: plugins/tools/basictools/kis_tool_fill.cc:197
+#: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:63
+#: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:64
 #: plugins/tools/basictools/kis_tool_multihand.cpp:315
 #: plugins/tools/basictools/wdgcolorpicker.ui:64
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:229
@@ -12213,7 +12228,7 @@ msgstr "Gradientlar"
 #: plugins/extensions/metadataeditor/editors/exif.ui:432
 #: plugins/generators/pattern/patterngenerator.h:53
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:66
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:78
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:80
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:52
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:64
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:59
@@ -13229,7 +13244,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgRectangleConstraints)
 #: libs/ui/forms/wdgrectangleconstraints.ui:20
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:58
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:59
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:49
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:43
 #: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:51
@@ -13354,7 +13369,7 @@ msgstr "Bosim"
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:58
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:59
 #: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:33
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:70
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:72
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:55
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:56
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:57
@@ -13370,7 +13385,7 @@ msgstr "100"
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:58
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:59
 #: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:33
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:70
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:72
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:55
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:56
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:57
@@ -17246,7 +17261,7 @@ msgstr "Profil yoʻq"
 #: plugins/dockers/defaultdockers/wdglayerbox.ui:52
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:49
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:38
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:55
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:56
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:47
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:41
 #: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:33
@@ -21114,8 +21129,9 @@ msgstr ""
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:64
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:36
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:37
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:57
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:58
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:59
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:60
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:49
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:43
 #: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:51
@@ -22841,7 +22857,7 @@ msgstr "Shakl:"
 #. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
 #: plugins/extensions/metadataeditor/editors/exif.ui:865
 #: plugins/extensions/metadataeditor/editors/exif.ui:897
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:63
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:65
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:64
 msgid "Hard"
 msgstr ""
@@ -23441,7 +23457,7 @@ msgstr "Joriy rang modeli:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpSource)
 #: plugins/extensions/separate_channels/wdg_separations.ui:46
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
 msgid "Source"
 msgstr "Manba"
 
@@ -25865,6 +25881,7 @@ msgstr "Matnning soyasi"
 #. i18n: ectx: property (text), widget (QRadioButton, freeMoveRadioButton)
 #. i18n: ectx: property (title), widget (QGroupBox, moveGroup)
 #: plugins/flake/textshape/dialogs/FontDecorations.ui:289
+#: plugins/tools/basictools/wdgmovetool.ui:135
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:526
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:976
 #, fuzzy
@@ -26413,7 +26430,7 @@ msgstr "Malla ranglar"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/flake/textshape/dialogs/ParagraphDecorations.ui:31
 #: plugins/impex/psd/psd_loader.cpp:176
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:73
 #, fuzzy
 msgid "Background"
 msgstr "orqa fon"
@@ -29707,7 +29724,7 @@ msgid "Transparent"
 msgstr "Shaffof"
 
 #: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:37
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:75
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:77
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:45
 #: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:34
 #: plugins/paintops/particle/kis_particle_paintop_settings_widget.cpp:37
@@ -29720,7 +29737,7 @@ msgstr "Filter boʻyogʻi"
 
 #: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:38
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:39
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:76
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:78
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:51
 #: plugins/paintops/dynadraw/kis_dyna_paintop_settings_widget.cpp:35
 #: plugins/paintops/gridbrush/kis_grid_paintop_settings_widget.cpp:42
@@ -29770,8 +29787,9 @@ msgstr "Filter boʻyogʻi"
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:64
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:36
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:37
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:57
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:58
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:59
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:60
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:49
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:43
 #: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:51
@@ -29790,14 +29808,14 @@ msgid "0%"
 msgstr "%"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:59
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:61
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:61
 #, fuzzy
 msgid "Spacing"
 msgstr "Boʻsh joy:"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:53
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:60
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:62
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:50
 #: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:53
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:60
@@ -29823,7 +29841,7 @@ msgid "Color Rate"
 msgstr "Rang chegarasi"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:61
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:65
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:67
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:44
 #: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:52
 #: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:44
@@ -29836,7 +29854,7 @@ msgid "-180°"
 msgstr ""
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:61
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:65
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:67
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:44
 #: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:52
 #: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:44
@@ -29849,7 +29867,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, optionRotation)
 #. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:61
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:65
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:67
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:44
 #: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:52
 #: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:44
@@ -29864,7 +29882,7 @@ msgid "Rotation"
 msgstr "Burish"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:62
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:66
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:66
 #, fuzzy
 msgid "Scatter"
@@ -29876,7 +29894,7 @@ msgid "Overlay Mode"
 msgstr "Ustki qoplama"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:67
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:79
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:81
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:53
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:65
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:72
@@ -29885,7 +29903,7 @@ msgid "Strength"
 msgstr "Kuch"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:67
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:79
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:81
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:53
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:65
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:72
@@ -29894,7 +29912,7 @@ msgid "Strong"
 msgstr "Tosh"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:67
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:79
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:81
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:53
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:65
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:72
@@ -29984,25 +30002,32 @@ msgstr "Tanlash"
 msgid "Smoothing"
 msgstr "Tekis"
 
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:57
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:58
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:56
 #, fuzzy
 msgid "Flow"
 msgstr "So&yalar"
 
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:63
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, doubleRatio)
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:60
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:293
+#, fuzzy
+msgid "Ratio"
+msgstr "Amal:"
+
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:65
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:64
 #, fuzzy
 msgid "Softness"
 msgstr "&Tekis:"
 
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:64
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:66
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:65
 #, fuzzy
 msgid "Sharpness"
 msgstr "Shakl:"
 
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:73
 #, fuzzy
 msgid "Foreground"
 msgstr "Oldin fon rangi"
@@ -32250,7 +32275,14 @@ msgstr "Tanlashni bekor qilish"
 msgid "Measure Tool"
 msgstr "Bosim"
 
-#: plugins/tools/basictools/kis_tool_move.h:130
+#: plugins/tools/basictools/kis_tool_move.cc:221
+#: plugins/tools/basictools/kis_tool_move.cc:352
+#, kde-format
+msgctxt "floating message in move tool"
+msgid "X: %1 px, Y: %2 px"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_move.h:146
 msgid "Move Tool"
 msgstr "Koʻchirish vositasi"
 
@@ -32429,24 +32461,76 @@ msgid "Move the whole group"
 msgstr "Hech narsa tanlanmagan"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpMoveStep)
-#: plugins/tools/basictools/wdgmovetool.ui:65
+#: plugins/tools/basictools/wdgmovetool.ui:62
 #, fuzzy
 msgid "Shortcut Move Distance"
 msgstr "Oʻrnini almashtirishmoq"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, spinMoveStep)
-#: plugins/tools/basictools/wdgmovetool.ui:80
+#: plugins/tools/basictools/wdgmovetool.ui:68
 msgid "Number of pixels to move after move shortcut keypress."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, spinMoveScale)
-#: plugins/tools/basictools/wdgmovetool.ui:99
+#: plugins/tools/basictools/wdgmovetool.ui:87
 msgid "When holding shift, move keyboard shortcuts scale up by this amount."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, scaleLabel)
-#: plugins/tools/basictools/wdgmovetool.ui:106
+#: plugins/tools/basictools/wdgmovetool.ui:103
 msgid "Large Move Scale"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowCoordinates)
+#: plugins/tools/basictools/wdgmovetool.ui:113
+#, fuzzy
+msgid "Show coordinates on canvas"
+msgstr "Tanlanganni bekitish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowCoordinates)
+#: plugins/tools/basictools/wdgmovetool.ui:116
+#, fuzzy
+msgid "Show coordinates"
+msgstr "Tanlanganni bekitish"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_offsetX)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, translateXBox)
+#: plugins/tools/basictools/wdgmovetool.ui:173
+#: plugins/tools/basictools/wdgmovetool.ui:195
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1014
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1036
+#, fuzzy
+msgid "Horizontal Translation"
+msgstr "Ufq 1"
+
+#. i18n: ectx: property (text), widget (QLabel, label_rotateX)
+#. i18n: ectx: property (text), widget (QLabel, label_offsetX)
+#. i18n: ectx: property (text), widget (QLabel, label_shearX)
+#: plugins/tools/basictools/wdgmovetool.ui:179
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:706
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1020
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1148
+msgid "x:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, translateYBox)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_offsetY)
+#: plugins/tools/basictools/wdgmovetool.ui:211
+#: plugins/tools/basictools/wdgmovetool.ui:224
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1052
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1065
+#, fuzzy
+msgid "Vertical Translation"
+msgstr "Uskuna:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_rotateY)
+#. i18n: ectx: property (text), widget (QLabel, label_offsetY)
+#. i18n: ectx: property (text), widget (QLabel, label_shearY)
+#: plugins/tools/basictools/wdgmovetool.ui:227
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:741
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1068
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1189
+msgid "y:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, toggleEditMode)
@@ -33392,12 +33476,6 @@ msgstr "Ufq 1"
 msgid "Allow growing the image by dragging outside bounds of the image"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, doubleRatio)
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:293
-#, fuzzy
-msgid "Ratio"
-msgstr "Amal:"
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, lockWidthButton)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:326
 #, fuzzy
@@ -33724,15 +33802,6 @@ msgstr "Kattalashtirish"
 msgid "Rotate around X-Axis"
 msgstr "Rasmni burish"
 
-#. i18n: ectx: property (text), widget (QLabel, label_rotateX)
-#. i18n: ectx: property (text), widget (QLabel, label_offsetX)
-#. i18n: ectx: property (text), widget (QLabel, label_shearX)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:706
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1020
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1148
-msgid "x:"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QLabel, label_rotateY)
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, aYBox)
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:735
@@ -33740,15 +33809,6 @@ msgstr ""
 #, fuzzy
 msgid "Rotate around Y-Axis"
 msgstr "Rasmni burish"
-
-#. i18n: ectx: property (text), widget (QLabel, label_rotateY)
-#. i18n: ectx: property (text), widget (QLabel, label_offsetY)
-#. i18n: ectx: property (text), widget (QLabel, label_shearY)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:741
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1068
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1189
-msgid "y:"
-msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, aZBox)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_rotateZ)
@@ -33790,22 +33850,6 @@ msgstr "Uskuna:"
 #, fuzzy
 msgid "height:"
 msgstr "Uzunasi:"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, label_offsetX)
-#. i18n: ectx: property (toolTip), widget (QSpinBox, translateXBox)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1014
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1036
-#, fuzzy
-msgid "Horizontal Translation"
-msgstr "Ufq 1"
-
-#. i18n: ectx: property (toolTip), widget (QSpinBox, translateYBox)
-#. i18n: ectx: property (toolTip), widget (QLabel, label_offsetY)
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1052
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1065
-#, fuzzy
-msgid "Vertical Translation"
-msgstr "Uskuna:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_shearX)
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, shearXBox)
