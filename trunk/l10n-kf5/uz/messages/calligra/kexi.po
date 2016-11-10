@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-07 07:07+0000\n"
+"POT-Creation-Date: 2016-11-10 07:07+0000\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -4281,7 +4281,7 @@ msgstr ""
 msgid "Possible problems: %1"
 msgstr "Ehtimol muammolar:"
 
-#: main/startup/KexiStartup.cpp:963
+#: main/startup/KexiStartup.cpp:964
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -4289,22 +4289,31 @@ msgid ""
 "Kexi."
 msgstr "\"%1\" faylini oʻqib boʻlmaydi."
 
-#: main/startup/KexiStartup.cpp:966
+#: main/startup/KexiStartup.cpp:968
 #, kde-format
 msgctxt "@info"
 msgid ""
 "<para>Could not find plugin supporting for this file type.</"
-"para><para>Detected MIME type is <resource>%1</resource>%2.</para>%3"
+"para><para>Detected MIME type is <resource>%1</resource>%2.</para>"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:1002
+#: main/startup/KexiStartup.cpp:972
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Could not find plugin supporting for this file type.</"
+"para><para>Detected MIME type is <resource>%1</resource>%2.</para><para>%3</"
+"para>"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:1004
 #, kde-format
 msgid ""
 "Could not load list of available projects for <resource>%1</resource> "
 "database server."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:1043
+#: main/startup/KexiStartup.cpp:1045
 #, fuzzy, kde-format
 msgid "Failed saving connection data to <filename>%1</filename> file."
 msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
