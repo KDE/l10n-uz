@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2007-02-11 00:26+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -185,6 +185,13 @@ msgstr ""
 msgid "Calligraphy"
 msgstr "Ellips vositasi"
 
+#: filterEffectTool/FilterAddCommand.cpp:31
+#, fuzzy
+#| msgid "Add Layer"
+msgctxt "(qtundo-format)"
+msgid "Add filter effect"
+msgstr "Qatlamni qoʻshish"
+
 #: filterEffectTool/FilterEffectEditWidget.cpp:71
 #, kde-format
 msgid "Add effect to current filter stack"
@@ -257,6 +264,19 @@ msgstr "Oldindan &aniqlangan gradientlarga qoʻshish"
 #| msgid "Object Properties"
 msgid "Effect Properties"
 msgstr "Obʼektning xossalari"
+
+#: filterEffectTool/FilterRemoveCommand.cpp:32
+#, fuzzy
+#| msgid "Add Layer"
+msgctxt "(qtundo-format)"
+msgid "Remove filter effect"
+msgstr "Qatlamni qoʻshish"
+
+#: filterEffectTool/FilterStackSetCommand.cpp:36
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set filter stack"
+msgstr "Chiziq qalinligini koʻrsatish"
 
 #: filterEffectTool/KarbonFilterEffectsTool.cpp:446
 #, fuzzy, kde-format
@@ -539,12 +559,6 @@ msgstr "Namuna moslamasi"
 #~ msgstr "Ellips vositasi"
 
 #, fuzzy
-#~| msgid "Add Layer"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add filter effect"
-#~ msgstr "Qatlamni qoʻshish"
-
-#, fuzzy
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Add effect to current filter stack"
 #~ msgstr "Chiziq qalinligini koʻrsatish"
@@ -566,17 +580,6 @@ msgstr "Namuna moslamasi"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Effect name"
 #~ msgstr "Effektlar"
-
-#, fuzzy
-#~| msgid "Add Layer"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove filter effect"
-#~ msgstr "Qatlamni qoʻshish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set filter stack"
-#~ msgstr "Chiziq qalinligini koʻrsatish"
 
 #, fuzzy
 #~| msgid "Pattern Tool"
