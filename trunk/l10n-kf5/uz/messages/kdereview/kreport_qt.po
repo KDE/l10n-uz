@@ -55,21 +55,34 @@ msgctxt "ItemSize|"
 msgid "Size"
 msgstr "Oʻlchami:"
 
-#: common/KReportItemLine.cpp:72
+#: common/KReportItemLine.cpp:73
+#, fuzzy
+msgctxt "StartPosition|"
+msgid "Start Position"
+msgstr "Oʻrnini &belgilash..."
+
+#: common/KReportItemLine.cpp:74
+#, fuzzy
+#| msgid "Position"
+msgctxt "EndPosition|"
+msgid "End Position"
+msgstr "Joylashishi"
+
+#: common/KReportItemLine.cpp:76
 #, fuzzy
 #| msgid "Line width:"
 msgctxt "KReportItemLine|"
 msgid "Line Weight"
 msgstr "Chiziqning eni:"
 
-#: common/KReportItemLine.cpp:73
+#: common/KReportItemLine.cpp:77
 #, fuzzy
 #| msgid "More Line Colors..."
 msgctxt "KReportItemLine|"
 msgid "Line Color"
 msgstr "Koʻproq chiziq ranglari"
 
-#: common/KReportItemLine.cpp:74
+#: common/KReportItemLine.cpp:78
 #, fuzzy
 #| msgid "St&yle"
 msgctxt "KReportItemLine|"
@@ -111,13 +124,6 @@ msgctxt "KReportPageFormat|"
 msgid "Screen"
 msgstr "Ekran"
 
-#: common/KReportPosition.cpp:29
-#, fuzzy
-#| msgid "Position"
-msgctxt "KReportPosition|"
-msgid "Position"
-msgstr "Joylashishi"
-
 #: common/KReportSection.cpp:103
 #, fuzzy
 msgctxt "KReportSection|"
@@ -148,13 +154,6 @@ msgstr "&Uzunasi:"
 msgctxt "KReportSectionData|"
 msgid "Background Color"
 msgstr "Soniya"
-
-#: common/KReportSize.cpp:28
-#, fuzzy
-#| msgid "Size:"
-msgctxt "KReportSize|"
-msgid "Size"
-msgstr "Oʻlchami:"
 
 #: common/KReportUnit.cpp:47
 #, fuzzy
@@ -651,7 +650,7 @@ msgctxt "KReportItemText|"
 msgid "Background Opacity"
 msgstr "Orqa fonning rangi:"
 
-#: items/text/KReportScriptText.cpp:192
+#: items/text/KReportScriptText.cpp:195
 #, qt-format
 msgctxt "Scripting::Text|"
 msgid "$Unable to read %1"
@@ -1170,6 +1169,18 @@ msgstr ""
 msgctxt "KReportZoomMode|"
 msgid "Fit Text Width"
 msgstr "Eniga moslash"
+
+#, fuzzy
+#~| msgid "Position"
+#~ msgctxt "KReportPosition|"
+#~ msgid "Position"
+#~ msgstr "Joylashishi"
+
+#, fuzzy
+#~| msgid "Size:"
+#~ msgctxt "KReportSize|"
+#~ msgid "Size"
+#~ msgstr "Oʻlchami:"
 
 #, fuzzy
 #~| msgid "ISO A3"
@@ -5456,10 +5467,6 @@ msgstr "Eniga moslash"
 
 #~ msgid "Guide Line"
 #~ msgstr "Yordamchi chiziq"
-
-#, fuzzy
-#~ msgid "&Set Position..."
-#~ msgstr "Oʻrnini &belgilash..."
 
 #~ msgid "Guide Lines"
 #~ msgstr "Yordamchi chiziqlar"
