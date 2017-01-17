@@ -528,8 +528,7 @@ msgstr "%1 soniya"
 #| msgid "%1 seconds"
 msgctxt "KFormat|"
 msgid "%n millisecond(s)"
-msgid_plural "%n millisecond(s)"
-msgstr[0] "%1 soniya"
+msgstr "%1 soniya"
 
 #. @item:intext %n is a whole number
 #: lib/util/kformatprivate.cpp:300
@@ -537,16 +536,14 @@ msgstr[0] "%1 soniya"
 #| msgid "Today"
 msgctxt "KFormat|"
 msgid "%n day(s)"
-msgid_plural "%n day(s)"
-msgstr[0] "Bugun"
+msgstr "Bugun"
 
 #. @item:intext %n is a whole number
 #: lib/util/kformatprivate.cpp:305
 #, qt-format
 msgctxt "KFormat|"
 msgid "%n hour(s)"
-msgid_plural "%n hour(s)"
-msgstr[0] ""
+msgstr ""
 
 #. @item:intext %n is a whole number
 #: lib/util/kformatprivate.cpp:310
@@ -554,8 +551,7 @@ msgstr[0] ""
 #| msgid "%1 minutes"
 msgctxt "KFormat|"
 msgid "%n minute(s)"
-msgid_plural "%n minute(s)"
-msgstr[0] "%1 daqiqa"
+msgstr "%1 daqiqa"
 
 #. @item:intext %n is a whole number
 #: lib/util/kformatprivate.cpp:315
@@ -563,8 +559,7 @@ msgstr[0] "%1 daqiqa"
 #| msgid "%1 seconds"
 msgctxt "KFormat|"
 msgid "%n second(s)"
-msgid_plural "%n second(s)"
-msgstr[0] "%1 soniya"
+msgstr "%1 soniya"
 
 #. @item:intext days and hours. This uses the previous item:intext messages. If this does not fit the grammar of your language please contact the i18n team to solve the problem
 #. ----------
@@ -580,46 +575,148 @@ msgctxt "KFormat|"
 msgid "%1 and %2"
 msgstr "%1 %2"
 
-#: lib/util/kformatprivate.cpp:372
+#: lib/util/kformatprivate.cpp:366
+#, fuzzy
+msgctxt ""
+"KFormat|used when a relative date string can't be generated because the date "
+"is invalid"
+msgid "Invalid date"
+msgstr "xato bayroqlar"
+
+#: lib/util/kformatprivate.cpp:376
 msgctxt "KFormat|"
 msgid "Tomorrow"
 msgstr ""
 
-#: lib/util/kformatprivate.cpp:374
+#: lib/util/kformatprivate.cpp:378
 #, fuzzy
 #| msgid "Today"
 msgctxt "KFormat|"
 msgid "Today"
 msgstr "Bugun"
 
-#: lib/util/kformatprivate.cpp:376
+#: lib/util/kformatprivate.cpp:380
 #, fuzzy
 #| msgid "Yesterday"
 msgctxt "KFormat|"
 msgid "Yesterday"
 msgstr "Kecha"
 
-#: lib/util/kformatprivate.cpp:383
-#, fuzzy, qt-format
-#| msgid "Last Name"
-msgctxt "KFormat|"
-msgid "Last %1"
-msgstr "Familiyasi"
+#: lib/util/kformatprivate.cpp:386
+#, fuzzy
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Monday"
+msgstr "Kelasi oy"
 
 #: lib/util/kformatprivate.cpp:388
-#, fuzzy, qt-format
-msgctxt "KFormat|"
-msgid "Next %1"
-msgstr "Keyingi"
+#, fuzzy
+#| msgid "Tuesday"
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Tuesday"
+msgstr "Seshanba"
+
+#: lib/util/kformatprivate.cpp:390
+#, fuzzy
+#| msgid "Wednesday"
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Wednesday"
+msgstr "Chorshanba"
+
+#: lib/util/kformatprivate.cpp:392
+#, fuzzy
+#| msgid "Thursday"
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Thursday"
+msgstr "Payshanba"
+
+#: lib/util/kformatprivate.cpp:394
+#, fuzzy
+#| msgid "Friday"
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Friday"
+msgstr "Juma"
+
+#: lib/util/kformatprivate.cpp:396
+#, fuzzy
+#| msgid "Saturday"
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Saturday"
+msgstr "Shanba"
+
+#: lib/util/kformatprivate.cpp:398
+#, fuzzy
+#| msgid "Sunday"
+msgctxt "KFormat|most recent such day before today"
+msgid "Last Sunday"
+msgstr "Yakshanba"
+
+#: lib/util/kformatprivate.cpp:403
+#, fuzzy
+msgctxt "KFormat|the next such day after today"
+msgid "Next Monday"
+msgstr "Kelasi oy"
+
+#: lib/util/kformatprivate.cpp:405
+#, fuzzy
+#| msgid "Tuesday"
+msgctxt "KFormat|the next such day after today"
+msgid "Next Tuesday"
+msgstr "Seshanba"
+
+#: lib/util/kformatprivate.cpp:407
+#, fuzzy
+#| msgid "Wednesday"
+msgctxt "KFormat|the next such day after today"
+msgid "Next Wednesday"
+msgstr "Chorshanba"
+
+#: lib/util/kformatprivate.cpp:409
+#, fuzzy
+#| msgid "Thursday"
+msgctxt "KFormat|the next such day after today"
+msgid "Next Thursday"
+msgstr "Payshanba"
+
+#: lib/util/kformatprivate.cpp:411
+#, fuzzy
+#| msgid "Friday"
+msgctxt "KFormat|the next such day after today"
+msgid "Next Friday"
+msgstr "Juma"
+
+#: lib/util/kformatprivate.cpp:413
+#, fuzzy
+#| msgid "Saturday"
+msgctxt "KFormat|the next such day after today"
+msgid "Next Saturday"
+msgstr "Shanba"
+
+#: lib/util/kformatprivate.cpp:415
+#, fuzzy
+#| msgid "Sunday"
+msgctxt "KFormat|the next such day after today"
+msgid "Next Sunday"
+msgstr "Yakshanba"
 
 #. relative datetime with %1 result of formatReleativeDate() and %2 the formatted time If this does not fit the grammar of your language please contact the i18n team to solve the problem
-#: lib/util/kformatprivate.cpp:402
+#: lib/util/kformatprivate.cpp:430
 #, fuzzy, qt-format
 #| msgctxt "concatenation of dates and time"
 #| msgid "%1 %2"
 msgctxt "KFormat|"
 msgid "%1, %2"
 msgstr "%1 %2"
+
+#, fuzzy
+#~| msgid "Last Name"
+#~ msgctxt "KFormat|"
+#~ msgid "Last %1"
+#~ msgstr "Familiyasi"
+
+#, fuzzy
+#~ msgctxt "KFormat|"
+#~ msgid "Next %1"
+#~ msgstr "Keyingi"
 
 #, fuzzy
 #~ msgctxt "KPluginLoader|"
@@ -5429,11 +5526,6 @@ msgstr "%1 %2"
 #~ msgstr "Kelasi yil"
 
 #, fuzzy
-#~ msgctxt "@option next month"
-#~ msgid "Next Month"
-#~ msgstr "Kelasi oy"
-
-#, fuzzy
 #~ msgctxt "@option next week"
 #~ msgid "Next Week"
 #~ msgstr "Kelasi yil"
@@ -5447,11 +5539,6 @@ msgstr "%1 %2"
 #~ msgctxt "@option yesterday"
 #~ msgid "Yesterday"
 #~ msgstr "Kecha"
-
-#, fuzzy
-#~ msgctxt "@option last month"
-#~ msgid "Last Month"
-#~ msgstr "Kelasi oy"
 
 #, fuzzy
 #~ msgctxt "@option last year"
@@ -7356,10 +7443,6 @@ msgstr "%1 %2"
 #~ msgstr "Oʻrnatish"
 
 #, fuzzy
-#~ msgid "Invalid item."
-#~ msgstr "xato bayroqlar"
-
-#, fuzzy
 #~ msgid "Possibly bad download link"
 #~ msgstr "Yangi faylni yaratib boʻlmadi."
 
@@ -8599,24 +8682,6 @@ msgstr "%1 %2"
 
 #~ msgid "Monday"
 #~ msgstr "Dushanba"
-
-#~ msgid "Tuesday"
-#~ msgstr "Seshanba"
-
-#~ msgid "Wednesday"
-#~ msgstr "Chorshanba"
-
-#~ msgid "Thursday"
-#~ msgstr "Payshanba"
-
-#~ msgid "Friday"
-#~ msgstr "Juma"
-
-#~ msgid "Saturday"
-#~ msgstr "Shanba"
-
-#~ msgid "Sunday"
-#~ msgstr "Yakshanba"
 
 #, fuzzy
 #~ msgctxt "Indian National month 1 - ShortNamePossessive"
