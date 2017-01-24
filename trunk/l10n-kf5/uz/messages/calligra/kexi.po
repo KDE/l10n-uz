@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-22 03:42+0100\n"
+"POT-Creation-Date: 2017-01-24 09:00+0100\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -19,38 +19,38 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: core/kexi.cpp:140
+#: core/kexi.cpp:141
 #, fuzzy, kde-kuit-format
 msgid "&No View"
 msgstr "Namoishsiz"
 
-#: core/kexi.cpp:142
+#: core/kexi.cpp:143
 #, fuzzy, kde-kuit-format
 msgid "&Data View"
 msgstr "&Matn koʻrinishi"
 
-#: core/kexi.cpp:144
+#: core/kexi.cpp:145
 #, fuzzy, kde-kuit-format
 msgid "D&esign View"
 msgstr "&Matn koʻrinishi"
 
-#: core/kexi.cpp:146
+#: core/kexi.cpp:147
 #, kde-kuit-format
 msgid "&Text View"
 msgstr "&Matn koʻrinishi"
 
-#: core/kexi.cpp:148
+#: core/kexi.cpp:149
 #, fuzzy, kde-kuit-format
 #| msgid "Unknown"
 msgid "&Unknown"
 msgstr "Nomaʼlum"
 
-#: core/kexi.cpp:341
+#: core/kexi.cpp:342
 #, kde-kuit-format
 msgid "This function is not available for version %1 of %2 application."
 msgstr ""
 
-#: core/kexi.cpp:346
+#: core/kexi.cpp:347
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -58,7 +58,7 @@ msgid ""
 "application."
 msgstr ""
 
-#: core/kexi.cpp:399
+#: core/kexi.cpp:400
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -773,7 +773,7 @@ msgctxt "@info"
 msgid "No plugin for ID <resource>%1</resource>"
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: core/kexiproject.cpp:129 main/KexiMainWindow.cpp:3511
+#: core/kexiproject.cpp:129 main/KexiMainWindow.cpp:3505
 #, fuzzy, kde-kuit-format
 msgid "Could not set empty name for this object."
 msgstr "Ushbu loyiha uchun boʻsh nom oʻrnatib boʻlmadi."
@@ -811,8 +811,8 @@ msgstr ""
 "\"%1\" fayli mavjud emas."
 
 #: core/kexiproject.cpp:308 core/kexiproject.cpp:1472
-#: main/startup/KexiStartup.cpp:817 main/startup/KexiStartup.cpp:826
-#: main/startup/KexiStartup.cpp:837
+#: main/startup/KexiStartup.cpp:809 main/startup/KexiStartup.cpp:818
+#: main/startup/KexiStartup.cpp:829
 #, fuzzy, kde-kuit-format
 #| msgid "Could not open \"%1\" project file."
 msgctxt "@title:window"
@@ -975,7 +975,7 @@ msgid ""
 "<filename>%2</filename>."
 msgstr ""
 
-#: core/KexiRecentProjects.cpp:76
+#: core/KexiRecentProjects.cpp:81
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Could not remove project.\n"
@@ -1021,7 +1021,7 @@ msgid ""
 "column is used for sorting."
 msgstr ""
 
-#: core/kexistartupdata.cpp:215
+#: core/kexistartupdata.cpp:232
 #, kde-kuit-format
 msgctxt "<file> argument description for the command line"
 msgid ""
@@ -1137,7 +1137,7 @@ msgstr ""
 "Dizayn oʻzgartirildi. Boshqa koʻrinishga oʻtishdan oldin uni saqlashingiz "
 "lozim."
 
-#: core/KexiWindow.cpp:554 main/KexiMainWindow.cpp:2727
+#: core/KexiWindow.cpp:554 main/KexiMainWindow.cpp:2721
 #, kde-kuit-format
 msgid "Switching to other view failed (%1)."
 msgstr ""
@@ -2542,524 +2542,524 @@ msgstr "&Tozalash"
 msgid "Closes all tabs."
 msgstr "&Tozalash"
 
-#: main/KexiMainWindow.cpp:546
+#: main/KexiMainWindow.cpp:540
 #, kde-kuit-format
 msgctxt "Action name with three dots..."
 msgid "%1..."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:578
+#: main/KexiMainWindow.cpp:572
 #, kde-kuit-format
 msgid "Create a new project"
 msgstr "Yangi loyihani yaratish"
 
-#: main/KexiMainWindow.cpp:580
+#: main/KexiMainWindow.cpp:574
 #, kde-kuit-format
 msgid "Creates a new project. Currently opened project is not affected."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:586
+#: main/KexiMainWindow.cpp:580
 #, kde-kuit-format
 msgid "Open an existing project"
 msgstr "Mavjud loyihani ochish"
 
-#: main/KexiMainWindow.cpp:588
+#: main/KexiMainWindow.cpp:582
 #, kde-kuit-format
 msgid "Opens an existing project. Currently opened project is not affected."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:595
+#: main/KexiMainWindow.cpp:589
 #, kde-kuit-format
 msgid "Welcome"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:599
+#: main/KexiMainWindow.cpp:593
 #, kde-kuit-format
 msgid "Show Welcome page"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:601
+#: main/KexiMainWindow.cpp:595
 #, kde-kuit-format
 msgid ""
 "Shows Welcome page with list of recently opened projects and other "
 "information. "
 msgstr ""
 
-#: main/KexiMainWindow.cpp:606
+#: main/KexiMainWindow.cpp:600
 #, kde-kuit-format
 msgid "Save object changes"
 msgstr "Obʼekt oʻzgarishlarini saqlash"
 
-#: main/KexiMainWindow.cpp:607
+#: main/KexiMainWindow.cpp:601
 #, kde-kuit-format
 msgid "Saves object changes from currently selected window."
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: main/KexiMainWindow.cpp:611
+#: main/KexiMainWindow.cpp:605
 #, kde-kuit-format
 msgid "Save &As..."
 msgstr "...sifatida s&aqlash"
 
-#: main/KexiMainWindow.cpp:612
+#: main/KexiMainWindow.cpp:606
 #, fuzzy, kde-kuit-format
 msgid "Save object as"
 msgstr "Obʼektni quyidagicha saqlash"
 
-#: main/KexiMainWindow.cpp:614
+#: main/KexiMainWindow.cpp:608
 #, fuzzy, kde-kuit-format
 msgid ""
 "Saves object from currently selected window under a new name (within the "
 "same project)."
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: main/KexiMainWindow.cpp:630
+#: main/KexiMainWindow.cpp:624
 #, fuzzy, kde-kuit-format
 #| msgid "Importing in progress..."
 msgid "&Import, Export or Send..."
 msgstr "Import qilinmoqda..."
 
-#: main/KexiMainWindow.cpp:631
+#: main/KexiMainWindow.cpp:625
 #, fuzzy, kde-kuit-format
 #| msgid "Open imported project"
 msgid "Import, export or send project"
 msgstr "Import qilingan loyihani ochish"
 
-#: main/KexiMainWindow.cpp:633
+#: main/KexiMainWindow.cpp:627
 #, fuzzy, kde-kuit-format
 msgid "Imports, exports or sends project."
 msgstr "Butun maʼlumotlar bazasini Kexi loyihasi sifatida import qilish"
 
-#: main/KexiMainWindow.cpp:639
+#: main/KexiMainWindow.cpp:633
 #, fuzzy, kde-kuit-format
 #| msgid "&Clear"
 msgctxt "Close Project"
 msgid "&Close"
 msgstr "&Tozalash"
 
-#: main/KexiMainWindow.cpp:640
+#: main/KexiMainWindow.cpp:634
 #, kde-kuit-format
 msgid "Close the current project"
 msgstr "Joriy loyihani yopish"
 
-#: main/KexiMainWindow.cpp:641
+#: main/KexiMainWindow.cpp:635
 #, fuzzy, kde-kuit-format
 msgid "Closes the current project."
 msgstr "Joriy loyihani yopish"
 
-#: main/KexiMainWindow.cpp:648
+#: main/KexiMainWindow.cpp:642
 #, fuzzy, kde-kuit-format
 #| msgid "Exit Main Application"
 msgid "Quits Kexi application."
 msgstr "Asosiy dasturdan chiqish"
 
-#: main/KexiMainWindow.cpp:663
+#: main/KexiMainWindow.cpp:657
 #, kde-kuit-format
 msgid "&Import Database..."
 msgstr "Maʼlumotlar bazasini &import qilish..."
 
-#: main/KexiMainWindow.cpp:664
+#: main/KexiMainWindow.cpp:658
 #, fuzzy, kde-kuit-format
 msgid "Import entire database as a Kexi project"
 msgstr "Butun maʼlumotlar bazasini Kexi loyihasi sifatida import qilish"
 
-#: main/KexiMainWindow.cpp:666
+#: main/KexiMainWindow.cpp:660
 #, fuzzy, kde-kuit-format
 msgid "Imports entire database as a Kexi project."
 msgstr "Butun maʼlumotlar bazasini Kexi loyihasi sifatida import qilish"
 
-#: main/KexiMainWindow.cpp:671
+#: main/KexiMainWindow.cpp:665
 #, fuzzy, kde-kuit-format
 #| msgid "Import Database"
 msgid "Import Tables..."
 msgstr "Maʼlumotlar bazasini import qilish"
 
-#: main/KexiMainWindow.cpp:672
+#: main/KexiMainWindow.cpp:666
 #, kde-kuit-format
 msgid "Import data from an external source into this project"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:673
+#: main/KexiMainWindow.cpp:667
 #, kde-kuit-format
 msgid "Imports data from an external source into this project."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:679
+#: main/KexiMainWindow.cpp:673
 #, fuzzy, kde-kuit-format
 msgid "&Compact Database..."
 msgstr "Maʼlumotlar bazasini &import qilish..."
 
-#: main/KexiMainWindow.cpp:680
+#: main/KexiMainWindow.cpp:674
 #, fuzzy, kde-kuit-format
 msgid "Compact the current database project"
 msgstr "Joriy loyihani yopish"
 
-#: main/KexiMainWindow.cpp:682
+#: main/KexiMainWindow.cpp:676
 #, kde-kuit-format
 msgid ""
 "Compacts the current database project, so it will take less space and work "
 "faster."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:692
+#: main/KexiMainWindow.cpp:686
 #, fuzzy, kde-kuit-format
 #| msgid "Import CSV Data File"
 msgctxt "Import->Table Data From File..."
 msgid "Import Data From &File..."
 msgstr "CSV maʼlumot faylini import qilish"
 
-#: main/KexiMainWindow.cpp:693
+#: main/KexiMainWindow.cpp:687
 #, kde-kuit-format
 msgid "Import table data from a file"
 msgstr "Maʼlumotlar jadvalini fayldan import qilish"
 
-#: main/KexiMainWindow.cpp:694
+#: main/KexiMainWindow.cpp:688
 #, fuzzy, kde-kuit-format
 msgid "Imports table data from a file."
 msgstr "Maʼlumotlar jadvalini fayldan import qilish"
 
-#: main/KexiMainWindow.cpp:702
+#: main/KexiMainWindow.cpp:696
 #, fuzzy, kde-kuit-format
 #| msgid "Exporting data from table:"
 msgctxt "Export->Table or Query Data to File..."
 msgid "Export Data to &File..."
 msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
 
-#: main/KexiMainWindow.cpp:704
+#: main/KexiMainWindow.cpp:698
 #, fuzzy, kde-kuit-format
 msgid "Export data from the active table or query to a file"
 msgstr "Pastga yangi boʻsh qator qoʻshish"
 
-#: main/KexiMainWindow.cpp:706
+#: main/KexiMainWindow.cpp:700
 #, fuzzy, kde-kuit-format
 msgid "Exports data from the active table or query to a file."
 msgstr "Pastga yangi boʻsh qator qoʻshish"
 
-#: main/KexiMainWindow.cpp:749
+#: main/KexiMainWindow.cpp:743
 #, fuzzy, kde-kuit-format
 msgctxt "Paste Special->As Data &Table..."
 msgid "Paste Special..."
 msgstr "Maʼlumotlar &jadvali..."
 
-#: main/KexiMainWindow.cpp:751
+#: main/KexiMainWindow.cpp:745
 #, kde-kuit-format
 msgid "Paste clipboard data as a table"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:753
+#: main/KexiMainWindow.cpp:747
 #, kde-kuit-format
 msgid "Pastes clipboard data as a table."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:760
+#: main/KexiMainWindow.cpp:754
 #, kde-kuit-format
 msgctxt "Copy Special->Table or Query Data..."
 msgid "Copy Special..."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:762
+#: main/KexiMainWindow.cpp:756
 #, kde-kuit-format
 msgid "Copy selected table or query data to clipboard"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:764
+#: main/KexiMainWindow.cpp:758
 #, kde-kuit-format
 msgid "Copies selected table or query data to clipboard."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:769
+#: main/KexiMainWindow.cpp:763
 #, kde-kuit-format
 msgid "Reverts the most recent editing action."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:771
+#: main/KexiMainWindow.cpp:765
 #, kde-kuit-format
 msgid "Reverts the most recent undo action."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:776
+#: main/KexiMainWindow.cpp:770
 #, kde-kuit-format
 msgid "Find text"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:777
+#: main/KexiMainWindow.cpp:771
 #, kde-kuit-format
 msgid "Looks up the first occurrence of a piece of text."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:793
+#: main/KexiMainWindow.cpp:787
 #, fuzzy, kde-kuit-format
 msgid "&Delete"
 msgstr "Satrni &olib tashlash"
 
-#: main/KexiMainWindow.cpp:795
+#: main/KexiMainWindow.cpp:789
 #, fuzzy, kde-kuit-format
 msgid "Delete selected object"
 msgstr "Joriy tanlangan satrni jadvaldan olib tashlash"
 
-#: main/KexiMainWindow.cpp:796
+#: main/KexiMainWindow.cpp:790
 #, fuzzy, kde-kuit-format
 msgid "Deletes currently selected object."
 msgstr "Joriy tanlangan satrni jadvaldan olib tashlash"
 
-#: main/KexiMainWindow.cpp:798
+#: main/KexiMainWindow.cpp:792
 #, fuzzy, kde-kuit-format
 #| msgid "Delete Row"
 msgid "Delete Record"
 msgstr "Satrni olib tashlash"
 
-#: main/KexiMainWindow.cpp:800
+#: main/KexiMainWindow.cpp:794
 #, fuzzy, kde-kuit-format
 msgid "Delete the current record"
 msgstr "Joriy tanlangan satrni jadvaldan olib tashlash"
 
-#: main/KexiMainWindow.cpp:801
+#: main/KexiMainWindow.cpp:795
 #, fuzzy, kde-kuit-format
 msgid "Deletes the current record."
 msgstr "Joriy loyihani yopish"
 
-#: main/KexiMainWindow.cpp:803
+#: main/KexiMainWindow.cpp:797
 #, fuzzy, kde-kuit-format
 #| msgid "Clear Table Contents"
 msgid "Clear Table Contents..."
 msgstr "Jadval tarkibini tozalash"
 
-#: main/KexiMainWindow.cpp:805
+#: main/KexiMainWindow.cpp:799
 #, kde-kuit-format
 msgid "Clear table contents"
 msgstr "Jadval tarkibini tozalash"
 
-#: main/KexiMainWindow.cpp:806
+#: main/KexiMainWindow.cpp:800
 #, fuzzy, kde-kuit-format
 msgid "Clears table contents."
 msgstr "Jadval tarkibini tozalash"
 
-#: main/KexiMainWindow.cpp:809
+#: main/KexiMainWindow.cpp:803
 #, fuzzy, kde-kuit-format
 msgid "Edit Item"
 msgstr "Elementni oʻzgartirish"
 
-#: main/KexiMainWindow.cpp:812
+#: main/KexiMainWindow.cpp:806
 #, fuzzy, kde-kuit-format
 msgid "Edit currently selected item"
 msgstr "Joriy tanlangan elementni oʻzgartirish"
 
-#: main/KexiMainWindow.cpp:813
+#: main/KexiMainWindow.cpp:807
 #, fuzzy, kde-kuit-format
 msgid "Edits currently selected item."
 msgstr "Joriy tanlangan elementni oʻzgartirish"
 
-#: main/KexiMainWindow.cpp:815
+#: main/KexiMainWindow.cpp:809
 #, fuzzy, kde-kuit-format
 msgid "&Insert Empty Row"
 msgstr "Boʻsh hator &qoʻshish"
 
-#: main/KexiMainWindow.cpp:819
+#: main/KexiMainWindow.cpp:813
 #, fuzzy, kde-kuit-format
 msgid "Insert one empty row above"
 msgstr "Pastga yangi boʻsh qator qoʻshish"
 
-#: main/KexiMainWindow.cpp:821
+#: main/KexiMainWindow.cpp:815
 #, fuzzy, kde-kuit-format
 msgid "Inserts one empty row above currently selected table row."
 msgstr "Pastga yangi boʻsh qator qoʻshish"
 
-#: main/KexiMainWindow.cpp:878
+#: main/KexiMainWindow.cpp:872
 #, fuzzy, kde-kuit-format
 msgid "Show Project Navigator"
 msgstr "Loyiha navigatori"
 
-#: main/KexiMainWindow.cpp:880
+#: main/KexiMainWindow.cpp:874
 #, fuzzy, kde-kuit-format
 msgid "Show the Project Navigator pane"
 msgstr "Loyiha navigatori"
 
-#: main/KexiMainWindow.cpp:881
+#: main/KexiMainWindow.cpp:875
 #, fuzzy, kde-kuit-format
 msgid "Shows the Project Navigator pane."
 msgstr "Loyiha navigatori"
 
-#: main/KexiMainWindow.cpp:891
+#: main/KexiMainWindow.cpp:885
 #, fuzzy, kde-kuit-format
 msgid "Activate Project Navigator"
 msgstr "Loyiha navigatori"
 
-#: main/KexiMainWindow.cpp:893
+#: main/KexiMainWindow.cpp:887
 #, fuzzy, kde-kuit-format
 msgid "Activate the Project Navigator pane"
 msgstr "Loyiha navigatori"
 
-#: main/KexiMainWindow.cpp:894
+#: main/KexiMainWindow.cpp:888
 #, kde-kuit-format
 msgid "Activates the Project Navigator pane. If it is hidden, shows it first."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:902
+#: main/KexiMainWindow.cpp:896
 #, fuzzy, kde-kuit-format
 msgid "Activate main area"
 msgstr "Keyingi oynaga oʻtish."
 
-#: main/KexiMainWindow.cpp:906
+#: main/KexiMainWindow.cpp:900
 #, fuzzy, kde-kuit-format
 msgid "Activate the main area"
 msgstr "Keyingi oynaga oʻtish."
 
-#: main/KexiMainWindow.cpp:907
+#: main/KexiMainWindow.cpp:901
 #, fuzzy, kde-kuit-format
 msgid "Activates the main area."
 msgstr "Keyingi oynaga oʻtish."
 
-#: main/KexiMainWindow.cpp:914
+#: main/KexiMainWindow.cpp:908
 #, fuzzy, kde-kuit-format
 msgid "Show Property Editor"
 msgstr "Loyiha navigatori"
 
-#: main/KexiMainWindow.cpp:915
+#: main/KexiMainWindow.cpp:909
 #, fuzzy, kde-kuit-format
 msgid "Show the Property Editor pane"
 msgstr "Loyiha navigatori"
 
-#: main/KexiMainWindow.cpp:916
+#: main/KexiMainWindow.cpp:910
 #, fuzzy, kde-kuit-format
 msgid "Shows the Property Editor pane."
 msgstr "Loyiha navigatori"
 
-#: main/KexiMainWindow.cpp:925
+#: main/KexiMainWindow.cpp:919
 #, fuzzy, kde-kuit-format
 msgid "Activate Property Editor"
 msgstr "Loyiha navigatori"
 
-#: main/KexiMainWindow.cpp:926
+#: main/KexiMainWindow.cpp:920
 #, fuzzy, kde-kuit-format
 msgid "Activate the Property Editor pane"
 msgstr "Loyiha navigatori"
 
-#: main/KexiMainWindow.cpp:927
+#: main/KexiMainWindow.cpp:921
 #, kde-kuit-format
 msgid "Activates the Property Editor pane. If it is hidden, shows it first."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:935
+#: main/KexiMainWindow.cpp:929
 #, fuzzy, kde-kuit-format
 msgid "Switch to Global Search"
 msgstr "Keyingi oynaga oʻtish."
 
-#: main/KexiMainWindow.cpp:936
+#: main/KexiMainWindow.cpp:930
 #, kde-kuit-format
 msgid "Switch to Global Search box"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:937
+#: main/KexiMainWindow.cpp:931
 #, fuzzy, kde-kuit-format
 msgid "Switches to Global Search box."
 msgstr "Keyingi oynaga oʻtish."
 
-#: main/KexiMainWindow.cpp:941
+#: main/KexiMainWindow.cpp:935
 #, fuzzy, kde-kuit-format
 msgid "&Save Record"
 msgstr "Satrni &olib tashlash"
 
-#: main/KexiMainWindow.cpp:943
+#: main/KexiMainWindow.cpp:937
 #, fuzzy, kde-kuit-format
 msgid "Save changes made to the current record"
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: main/KexiMainWindow.cpp:944
+#: main/KexiMainWindow.cpp:938
 #, fuzzy, kde-kuit-format
 msgid "Saves changes made to the current record."
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: main/KexiMainWindow.cpp:947
+#: main/KexiMainWindow.cpp:941
 #, fuzzy, kde-kuit-format
 msgid "&Cancel Record Changes"
 msgstr "Oʻzgarishlarni saqlash"
 
-#: main/KexiMainWindow.cpp:950
+#: main/KexiMainWindow.cpp:944
 #, fuzzy, kde-kuit-format
 msgid "Cancel changes made to the current record"
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: main/KexiMainWindow.cpp:952
+#: main/KexiMainWindow.cpp:946
 #, fuzzy, kde-kuit-format
 msgid "Cancels changes made to the current record."
 msgstr "Joriy tanlangan oynadan obʼekt oʻzgarishlarini saqlash."
 
-#: main/KexiMainWindow.cpp:956
+#: main/KexiMainWindow.cpp:950
 #, fuzzy, kde-kuit-format
 msgid "&Execute"
 msgstr "Skriptni ishga tushirish"
 
-#: main/KexiMainWindow.cpp:975
+#: main/KexiMainWindow.cpp:969
 #, kde-kuit-format
 msgid "&Font..."
 msgstr "&Shrift..."
 
-#: main/KexiMainWindow.cpp:977
+#: main/KexiMainWindow.cpp:971
 #, kde-kuit-format
 msgid "Change font for selected object"
 msgstr "Tanlangan obʼekt shriftini oʻzgartirish"
 
-#: main/KexiMainWindow.cpp:978
+#: main/KexiMainWindow.cpp:972
 #, fuzzy, kde-kuit-format
 msgid "Changes font for selected object."
 msgstr "Tanlangan obʼekt shriftini oʻzgartirish"
 
-#: main/KexiMainWindow.cpp:985
+#: main/KexiMainWindow.cpp:979
 #, kde-kuit-format
 msgid "&Next Window"
 msgstr "&Keyingi oyna"
 
-#: main/KexiMainWindow.cpp:992
+#: main/KexiMainWindow.cpp:986
 #, kde-kuit-format
 msgid "Next window"
 msgstr "Keyingi oyna"
 
-#: main/KexiMainWindow.cpp:993
+#: main/KexiMainWindow.cpp:987
 #, kde-kuit-format
 msgid "Switches to the next window."
 msgstr "Keyingi oynaga oʻtish."
 
-#: main/KexiMainWindow.cpp:998
+#: main/KexiMainWindow.cpp:992
 #, kde-kuit-format
 msgid "&Previous Window"
 msgstr "&Oldingi oyna"
 
-#: main/KexiMainWindow.cpp:1005
+#: main/KexiMainWindow.cpp:999
 #, kde-kuit-format
 msgid "Previous window"
 msgstr "Oldingi oyna"
 
-#: main/KexiMainWindow.cpp:1006
+#: main/KexiMainWindow.cpp:1000
 #, kde-kuit-format
 msgid "Switches to the previous window."
 msgstr "Oldingi oynaga oʻtish."
 
-#: main/KexiMainWindow.cpp:1059
+#: main/KexiMainWindow.cpp:1053
 #, kde-kuit-format
 msgid "This shows useful tips on the use of this application."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1063
+#: main/KexiMainWindow.cpp:1057
 #, kde-kuit-format
 msgctxt "Help Menu"
 msgid "Help"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1064
+#: main/KexiMainWindow.cpp:1058
 #, fuzzy, kde-kuit-format
 msgid "Show Help menu"
 msgstr "Sahifa moslamasi..."
 
-#: main/KexiMainWindow.cpp:1065
+#: main/KexiMainWindow.cpp:1059
 #, fuzzy, kde-kuit-format
 msgid "Shows Help menu."
 msgstr "Sahifa moslamasi..."
 
-#: main/KexiMainWindow.cpp:1385
+#: main/KexiMainWindow.cpp:1379
 #, kde-kuit-format
 msgid "<br/>(reason: <i>%1</i>)"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1411
+#: main/KexiMainWindow.cpp:1405
 #, kde-kuit-format
 msgctxt "@info (don't add tags around %1, it's done already)"
 msgid ""
@@ -3067,156 +3067,156 @@ msgid ""
 "you want to import it as a new Kexi project?"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1414
+#: main/KexiMainWindow.cpp:1408
 #, fuzzy, kde-kuit-format
 #| msgid "&Import..."
 msgctxt "@action:button Import Database"
 msgid "&Import..."
 msgstr "&Import qilish..."
 
-#: main/KexiMainWindow.cpp:1480
+#: main/KexiMainWindow.cpp:1474
 #, fuzzy, kde-kuit-format
 #| msgid "Select Project's Location"
 msgctxt "@window:title"
 msgid "Select New Project's Location"
 msgstr "Loyiha manzilini tanlang"
 
-#: main/KexiMainWindow.cpp:1558
+#: main/KexiMainWindow.cpp:1552
 #, fuzzy, kde-kuit-format
 msgid "cannot create object - unknown object type \"%1\""
 msgstr "nomaʼlum obʼekt turi \"%1\""
 
-#: main/KexiMainWindow.cpp:1560
+#: main/KexiMainWindow.cpp:1554
 #, kde-kuit-format
 msgid "unknown object type \"%1\""
 msgstr "nomaʼlum obʼekt turi \"%1\""
 
-#: main/KexiMainWindow.cpp:1568
+#: main/KexiMainWindow.cpp:1562
 #, fuzzy, kde-kuit-format
 msgid "cannot create object of type \"%1\""
 msgstr "nomaʼlum obʼekt turi \"%1\""
 
-#: main/KexiMainWindow.cpp:1580
+#: main/KexiMainWindow.cpp:1574
 #, fuzzy, kde-kuit-format
 msgctxt "\"executing object\" action"
 msgid "executing"
 msgstr "Skriptni ishga tushirish"
 
-#: main/KexiMainWindow.cpp:1588
+#: main/KexiMainWindow.cpp:1582
 #, kde-kuit-format
 msgid "opening"
 msgstr "ochilmoqda"
 
-#: main/KexiMainWindow.cpp:1592
+#: main/KexiMainWindow.cpp:1586
 #, kde-kuit-format
 msgid "table not found"
 msgstr "jadval topilmadi"
 
-#: main/KexiMainWindow.cpp:1594
+#: main/KexiMainWindow.cpp:1588
 #, fuzzy, kde-kuit-format
 msgid "query not found"
 msgstr "Jadval topilmadi"
 
-#: main/KexiMainWindow.cpp:1596
+#: main/KexiMainWindow.cpp:1590
 #, fuzzy, kde-kuit-format
 msgid "macro not found"
 msgstr "Jadval topilmadi"
 
-#: main/KexiMainWindow.cpp:1598
+#: main/KexiMainWindow.cpp:1592
 #, fuzzy, kde-kuit-format
 msgid "script not found"
 msgstr "obʼekt topilmadi"
 
-#: main/KexiMainWindow.cpp:1600
+#: main/KexiMainWindow.cpp:1594
 #, kde-kuit-format
 msgid "object not found"
 msgstr "obʼekt topilmadi"
 
-#: main/KexiMainWindow.cpp:1608
+#: main/KexiMainWindow.cpp:1602
 #, fuzzy, kde-kuit-format
 msgid "cannot execute object"
 msgstr "obʼektni ochib boʻlmadi"
 
-#: main/KexiMainWindow.cpp:1647
+#: main/KexiMainWindow.cpp:1641
 #, kde-kuit-format
 msgid "cannot open object"
 msgstr "obʼektni ochib boʻlmadi"
 
-#: main/KexiMainWindow.cpp:1660
+#: main/KexiMainWindow.cpp:1654
 #, kde-kuit-format
 msgid ""
 "You have requested selected objects to be automatically opened or processed "
 "on startup. Several objects cannot be opened or processed."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:1995
+#: main/KexiMainWindow.cpp:1989
 #, fuzzy, kde-kuit-format
 msgid "Property Editor"
 msgstr "Loyiha navigatori"
 
-#: main/KexiMainWindow.cpp:2021 widget/utils/kexicontextmenuutils.cpp:85
+#: main/KexiMainWindow.cpp:2015 widget/utils/kexicontextmenuutils.cpp:85
 #, fuzzy, kde-kuit-format
 msgid "Properties"
 msgstr "Loyiha xossalari"
 
-#: main/KexiMainWindow.cpp:2061
+#: main/KexiMainWindow.cpp:2055
 #, kde-kuit-format
 msgctxt "<project-name> (read only)"
 msgid "%1 (read only)"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:2648
+#: main/KexiMainWindow.cpp:2642
 #, kde-kuit-format
 msgid "From File..."
 msgstr "Fayldan"
 
-#: main/KexiMainWindow.cpp:2653
+#: main/KexiMainWindow.cpp:2647
 #, kde-kuit-format
 msgid "From Server..."
 msgstr "Serverdan"
 
-#: main/KexiMainWindow.cpp:2714
+#: main/KexiMainWindow.cpp:2708
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "Selected view is not supported for <resource>%1</resource> object."
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:2717
+#: main/KexiMainWindow.cpp:2711
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Selected view (%1) is not supported by this object type (%2)."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:2789
+#: main/KexiMainWindow.cpp:2783
 #, kde-kuit-format
 msgctxt "Could not save object under the original name."
 msgid "Could not save under the original name."
 msgstr ""
 
-#: main/KexiMainWindow.cpp:2810
+#: main/KexiMainWindow.cpp:2804
 #, fuzzy, kde-kuit-format
 msgctxt "@action:button Save object"
 msgid "Save"
 msgstr "Satrni &olib tashlash"
 
-#: main/KexiMainWindow.cpp:2816
+#: main/KexiMainWindow.cpp:2810
 #, fuzzy, kde-kuit-format
 msgctxt "@title:window"
 msgid "Save Object As"
 msgstr "Obʼektni quyidagicha saqlash"
 
-#: main/KexiMainWindow.cpp:2866
+#: main/KexiMainWindow.cpp:2860
 #, fuzzy, kde-kuit-format
 msgctxt "@info Saving object failed"
 msgid "Saving <resource>%1</resource> object failed."
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:2984
+#: main/KexiMainWindow.cpp:2978
 #, kde-kuit-format
 msgid "Save changes"
 msgstr "Oʻzgarishlarni saqlash"
 
-#: main/KexiMainWindow.cpp:2986
+#: main/KexiMainWindow.cpp:2980
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Pressing this button will save all recent changes made in \"%1\" object."
@@ -3225,37 +3225,37 @@ msgid "Saves all recent changes made in <resource>%1</resource> object."
 msgstr ""
 "Ushbu tugmani bosish \"%1\" obʼektidagi oxirgi oʻzgarishlarni saqlaydi."
 
-#: main/KexiMainWindow.cpp:2990
+#: main/KexiMainWindow.cpp:2984
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "Discards all recent changes made in <resource>%1</resource> object."
 msgstr ""
 "Ushbu tugmani bosish \"%1\" obʼektidagi oxirgi oʻzgarishlarni saqlaydi."
 
-#: main/KexiMainWindow.cpp:3012
+#: main/KexiMainWindow.cpp:3006
 #, kde-kuit-format
 msgid "Do you want to save changes?"
 msgstr "Oʻzgarishlarni saqlashni istaysizmi?"
 
-#: main/KexiMainWindow.cpp:3205
+#: main/KexiMainWindow.cpp:3199
 #, kde-kuit-format
 msgctxt "opening is not allowed in \"data view/design view/text view\" mode"
 msgid "opening is not allowed in \"%1\" mode"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3260
+#: main/KexiMainWindow.cpp:3254
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "Tab for <resource>%1</resource> (%2)."
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3265
+#: main/KexiMainWindow.cpp:3259
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "Tab for <resource>%1</resource>."
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3437
+#: main/KexiMainWindow.cpp:3431
 #, kde-kuit-format
 msgctxt "@info Remove <objecttype> <objectname>?"
 msgid ""
@@ -3264,18 +3264,18 @@ msgid ""
 "interface>, you will not be able to undo the deletion.</note></para>"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3443
+#: main/KexiMainWindow.cpp:3437
 #, fuzzy, kde-kuit-format
 msgctxt "@title:window Delete Object %1."
 msgid "Delete <resource>%1</resource>?"
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3496
+#: main/KexiMainWindow.cpp:3490
 #, kde-kuit-format
 msgid "Could not remove object."
 msgstr "Obʼektni olib tashlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3519
+#: main/KexiMainWindow.cpp:3513
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3283,30 +3283,30 @@ msgid ""
 "para><para>Do you want to close it?</para>"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3534
+#: main/KexiMainWindow.cpp:3528
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "Renaming object <resource>%1</resource> failed."
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3554
+#: main/KexiMainWindow.cpp:3548
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "Setting caption for object <resource>%1</resource> failed."
 msgstr "\"%1\" obʼektini nomini oʻzgartirib boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3722
+#: main/KexiMainWindow.cpp:3716
 #, fuzzy, kde-kuit-format
 msgid "Compacting database file <filename>%1</filename> is not supported."
 msgstr "<p><nobr>\"%1\"</nobr> faylini oʻqib boʻlmaydi.</p>"
 
-#: main/KexiMainWindow.cpp:3734
+#: main/KexiMainWindow.cpp:3728
 #, kde-kuit-format
 msgctxt "@action:button Compact database"
 msgid "Compact"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3736
+#: main/KexiMainWindow.cpp:3730
 #, kde-kuit-format
 msgid ""
 "The current project has to be closed before compacting the database. It will "
@@ -3315,7 +3315,7 @@ msgid ""
 "Do you want to continue?"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3871
+#: main/KexiMainWindow.cpp:3865
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3324,13 +3324,13 @@ msgid ""
 "query for exporting or from its original (saved) version?"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3876
+#: main/KexiMainWindow.cpp:3870
 #, kde-kuit-format
 msgctxt "@action:button Export query data"
 msgid "Use the Changed Query"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3877
+#: main/KexiMainWindow.cpp:3871
 #, kde-kuit-format
 msgctxt "@action:button Export query data"
 msgid "Use the Original Query"
@@ -3824,53 +3824,53 @@ msgstr "Loyiha sarlavhasi"
 msgid "Project's database name:"
 msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
 
-#: main/startup/KexiStartup.cpp:242
+#: main/startup/KexiStartup.cpp:238
 #, fuzzy, kde-format
 #| msgid "Name:"
 msgctxt "Plugin name"
 msgid "Name:"
 msgstr "Nomi:"
 
-#: main/startup/KexiStartup.cpp:243
+#: main/startup/KexiStartup.cpp:239
 #, fuzzy, kde-format
 #| msgid "&Description:"
 msgctxt "Plugin description"
 msgid "Description:"
 msgstr "&Taʼrifi:"
 
-#: main/startup/KexiStartup.cpp:244
+#: main/startup/KexiStartup.cpp:240
 #, fuzzy, kde-format
 msgctxt "Plugin version"
 msgid "Version:"
 msgstr "Saralash"
 
-#: main/startup/KexiStartup.cpp:245
+#: main/startup/KexiStartup.cpp:241
 #, fuzzy, kde-format
 msgctxt "Plugin fileName"
 msgid "File:"
 msgstr "fayl"
 
-#: main/startup/KexiStartup.cpp:253
+#: main/startup/KexiStartup.cpp:249
 #, kde-format
 msgid "No Kexi plugins found."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:256
+#: main/startup/KexiStartup.cpp:252
 #, kde-format
 msgid "Kexi plugins (%1):"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:265
+#: main/startup/KexiStartup.cpp:261
 #, kde-format
 msgid "No KDb database driver plugins found."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:268
+#: main/startup/KexiStartup.cpp:264
 #, fuzzy, kde-format
 msgid "KDb database driver plugins (%1):"
 msgstr "Maʼlumotlar baza serveri"
 
-#: main/startup/KexiStartup.cpp:324
+#: main/startup/KexiStartup.cpp:316
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3879,7 +3879,7 @@ msgid ""
 "contents.</note></para>"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:349
+#: main/startup/KexiStartup.cpp:341
 #, kde-kuit-format
 msgctxt "Please don't translate the \"type\" word, it's constant."
 msgid ""
@@ -3888,23 +3888,23 @@ msgid ""
 "%4</icode>"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:394
+#: main/startup/KexiStartup.cpp:386
 #, kde-kuit-format
 msgid "Invalid port number <icode>%1</icode> specified."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:399
+#: main/startup/KexiStartup.cpp:391
 #, fuzzy, kde-kuit-format
 #| msgid "Could not find any database drivers."
 msgid "Could not open database. No database driver specified."
 msgstr "Hecha qanday maʼlumot baza drayveri topilmadi."
 
-#: main/startup/KexiStartup.cpp:412
+#: main/startup/KexiStartup.cpp:404
 #, kde-kuit-format
 msgid "Could not start Kexi application this way."
 msgstr "Kexi dasturini ushbu yoʻl bilan ishga tushirib boʻlmaydi."
 
-#: main/startup/KexiStartup.cpp:417
+#: main/startup/KexiStartup.cpp:409
 #, kde-kuit-format
 msgctxt ""
 "Please don't translate the \"createdb\" and \"dropdb\" words, these are "
@@ -3914,12 +3914,12 @@ msgid ""
 "options."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:423
+#: main/startup/KexiStartup.cpp:415
 #, kde-kuit-format
 msgid "No project name specified."
 msgstr "Loyiha nomi koʻrsatilmagan."
 
-#: main/startup/KexiStartup.cpp:462
+#: main/startup/KexiStartup.cpp:454
 #, kde-kuit-format
 msgctxt ""
 "Please don't translate the <icode>user-mode</icode> and <icode>design-mode</"
@@ -3929,7 +3929,7 @@ msgid ""
 "options."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:485
+#: main/startup/KexiStartup.cpp:477
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Could not remove project.\n"
@@ -3941,21 +3941,21 @@ msgstr ""
 "Loyihani olib tashlab boʻlmadi.\n"
 "\"%1\" fayli mavjud emas."
 
-#: main/startup/KexiStartup.cpp:536
+#: main/startup/KexiStartup.cpp:528
 #, fuzzy, kde-kuit-format
 #| msgid "Could not remove file \"%1\"."
 msgctxt "@info"
 msgid "Could not open shortcut file <filename>%1</filename>."
 msgstr "\"%1\" faylini olib tashlab boʻlmadi."
 
-#: main/startup/KexiStartup.cpp:568
+#: main/startup/KexiStartup.cpp:560
 #, fuzzy, kde-kuit-format
 #| msgid "Could not remove file \"%1\"."
 msgctxt "@info"
 msgid "Could not open connection data file <filename>%1</filename>."
 msgstr "\"%1\" faylini olib tashlab boʻlmadi."
 
-#: main/startup/KexiStartup.cpp:667
+#: main/startup/KexiStartup.cpp:659
 #, kde-kuit-format
 msgid ""
 "You have specified a few database objects to be opened automatically, using "
@@ -3964,28 +3964,28 @@ msgid ""
 "or dropping projects."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:685
+#: main/startup/KexiStartup.cpp:677
 #, fuzzy, kde-kuit-format
 #| msgid "Project \"%1\" created successfully."
 msgctxt "@info"
 msgid "Project <resource>%1</resource> created successfully."
 msgstr "\"%1\" loyihasi muvaffaqiyatli yaratildi."
 
-#: main/startup/KexiStartup.cpp:694
+#: main/startup/KexiStartup.cpp:686
 #, fuzzy, kde-kuit-format
 #| msgid "Project \"%1\" dropped successfully."
 msgctxt "@info"
 msgid "Project <resource>%1</resource> dropped successfully."
 msgstr "\"%1\" loyihasi muvaffaqiyatli olib tashlandi."
 
-#: main/startup/KexiStartup.cpp:816
+#: main/startup/KexiStartup.cpp:808
 #, fuzzy, kde-kuit-format
 #| msgid "Could not remove file \"%1\"."
 msgctxt "@info"
 msgid "Could not open file. Missing filename."
 msgstr "\"%1\" faylini olib tashlab boʻlmadi."
 
-#: main/startup/KexiStartup.cpp:823
+#: main/startup/KexiStartup.cpp:815
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Could not remove project.\n"
@@ -3996,7 +3996,7 @@ msgstr ""
 "Loyihani olib tashlab boʻlmadi.\n"
 "\"%1\" fayli mavjud emas."
 
-#: main/startup/KexiStartup.cpp:833
+#: main/startup/KexiStartup.cpp:825
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4005,7 +4005,7 @@ msgid ""
 "opened and locked by another application.</note></para>"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:876
+#: main/startup/KexiStartup.cpp:868
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4014,7 +4014,7 @@ msgid ""
 "opened and locked by another application.</para>"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:900
+#: main/startup/KexiStartup.cpp:892
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4025,19 +4025,19 @@ msgstr ""
 "\"%1\" loyihasi allaqachon mavjud.\n"
 "Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
 
-#: main/startup/KexiStartup.cpp:903
+#: main/startup/KexiStartup.cpp:895
 #, kde-kuit-format
 msgid "Open External File"
 msgstr "Tashqi faylni ochish"
 
-#: main/startup/KexiStartup.cpp:904
+#: main/startup/KexiStartup.cpp:896
 #, fuzzy, kde-kuit-format
 #| msgid "Import..."
 msgctxt "@action:button Import File"
 msgid "Import..."
 msgstr "Import qilish..."
 
-#: main/startup/KexiStartup.cpp:936
+#: main/startup/KexiStartup.cpp:928
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4047,13 +4047,13 @@ msgid ""
 "Do you want to use <resource>%4</resource> database driver?"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:957
+#: main/startup/KexiStartup.cpp:949
 #, fuzzy, kde-kuit-format
 #| msgid "Possible problems:"
 msgid "Possible problems: %1"
 msgstr "Ehtimol muammolar:"
 
-#: main/startup/KexiStartup.cpp:963
+#: main/startup/KexiStartup.cpp:955
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4061,7 +4061,7 @@ msgid ""
 "Kexi."
 msgstr "\"%1\" faylini oʻqib boʻlmaydi."
 
-#: main/startup/KexiStartup.cpp:967
+#: main/startup/KexiStartup.cpp:959
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4069,7 +4069,7 @@ msgid ""
 "para><para>Detected MIME type is <resource>%1</resource>%2.</para>"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:971
+#: main/startup/KexiStartup.cpp:963
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4078,14 +4078,14 @@ msgid ""
 "para>"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:1003
+#: main/startup/KexiStartup.cpp:995
 #, kde-kuit-format
 msgid ""
 "Could not load list of available projects for <resource>%1</resource> "
 "database server."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:1044
+#: main/startup/KexiStartup.cpp:1036
 #, fuzzy, kde-kuit-format
 msgid "Failed saving connection data to <filename>%1</filename> file."
 msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
