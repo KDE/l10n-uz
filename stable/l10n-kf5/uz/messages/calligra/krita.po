@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-28 13:46+0100\n"
+"POT-Creation-Date: 2017-03-14 18:58+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8096,7 +8096,7 @@ msgstr "Tekislashni oʻzgartirish"
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:30
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:47
 #: plugins/tools/defaulttool/connectionTool/ConnectionTool.cpp:837
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1028
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1034
 #, fuzzy, kde-format
 msgid "Line"
 msgstr "Chiziq"
@@ -8311,7 +8311,7 @@ msgid "Distribute shapes"
 msgstr "Matnni oʻchirish"
 
 #: libs/flake/commands/KoShapeGroupCommand.cpp:93
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:893
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:899
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Group shapes"
@@ -8405,7 +8405,7 @@ msgid "Unclip Shapes"
 msgstr "Chapga tekislash"
 
 #: libs/flake/commands/KoShapeUngroupCommand.cpp:57
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:926
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:932
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Ungroup shapes"
@@ -9558,7 +9558,7 @@ msgstr "Silliqlangan rasm"
 msgid "Processing"
 msgstr "Bosim"
 
-#: libs/image/kis_psd_layer_style.cpp:99 libs/ui/KisDocument.cpp:2398
+#: libs/image/kis_psd_layer_style.cpp:99 libs/ui/KisDocument.cpp:2401
 #: libs/ui/KisMainWindow.cpp:986 libs/ui/KisMainWindow.cpp:1336
 #: libs/ui/KisMainWindow.cpp:1355 libs/ui/kra/kis_kra_saver.cpp:83
 #, kde-format
@@ -9774,7 +9774,7 @@ msgstr "Plazma"
 
 #: libs/image/recorder/kis_recorded_fill_paint_action.cpp:42
 #: libs/widgets/KoGradientEditWidget.cpp:165
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1033
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1039
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyTool.cpp:368
 #, kde-format
 msgid "Fill"
@@ -10015,7 +10015,7 @@ msgstr "Namuna sifatida ishlatish"
 msgid "No store backend"
 msgstr ""
 
-#: libs/odf/KoOdfReadStore.cpp:111 libs/ui/KisDocument.cpp:1464
+#: libs/odf/KoOdfReadStore.cpp:111 libs/ui/KisDocument.cpp:1467
 #, fuzzy, kde-format
 msgid "Could not find %1"
 msgstr "%1 topilmadi"
@@ -11827,9 +11827,9 @@ msgstr "Tanlash usuli:"
 #: libs/ui/KisApplication.cpp:679 libs/ui/KisApplication.cpp:682
 #: libs/ui/KisApplication.cpp:708 libs/ui/KisApplication.cpp:734
 #: libs/ui/KisApplication.cpp:755 libs/ui/KisDocument.cpp:789
-#: libs/ui/KisDocument.cpp:791 libs/ui/KisDocument.cpp:1259
-#: libs/ui/KisDocument.cpp:1305 libs/ui/KisDocument.cpp:1353
-#: libs/ui/KisDocument.cpp:2001 libs/ui/KisDocument.cpp:2004
+#: libs/ui/KisDocument.cpp:791 libs/ui/KisDocument.cpp:1262
+#: libs/ui/KisDocument.cpp:1308 libs/ui/KisDocument.cpp:1356
+#: libs/ui/KisDocument.cpp:2004 libs/ui/KisDocument.cpp:2007
 #: libs/ui/KisImportExportManager.cpp:202
 #: libs/ui/KisImportExportManager.cpp:214
 #: libs/ui/KisImportExportManager.cpp:314 libs/ui/KisMainWindow.cpp:755
@@ -15509,12 +15509,12 @@ msgctxt "Auto-generated layer style name for embedded styles (style itself)"
 msgid "<%1> (embedded)"
 msgstr ""
 
-#: libs/ui/kis_selection_manager.cc:549
+#: libs/ui/kis_selection_manager.cc:553
 #, fuzzy, kde-format
 msgid "Stroked Shapes"
 msgstr "Filter boʻyogʻi"
 
-#: libs/ui/kis_selection_manager.cc:551
+#: libs/ui/kis_selection_manager.cc:555
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Stroke Shapes"
@@ -15688,7 +15688,7 @@ msgstr ""
 msgid "Loading Plugins Exiv/IO..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:341 libs/ui/opengl/kis_opengl.cpp:161
+#: libs/ui/KisApplication.cpp:341 libs/ui/opengl/kis_opengl.cpp:159
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
@@ -15907,34 +15907,34 @@ msgid "Error during autosave! Partition full?"
 msgstr ""
 "Avtomatik saqlashda xato roʻy berdi! Ehtimol diskda boʻsh joy qolmagan."
 
-#: libs/ui/KisDocument.cpp:958
+#: libs/ui/KisDocument.cpp:961
 #, kde-format
 msgid ""
 "The image was still busy while saving. Your saved image might be incomplete."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:975
+#: libs/ui/KisDocument.cpp:978
 #, fuzzy, kde-format
 #| msgid "Could not create the file for saving"
 msgid "Could not lock the image for saving."
 msgstr "Saqlash uchun faylni yaratib boʻlmadi"
 
-#: libs/ui/KisDocument.cpp:1024
+#: libs/ui/KisDocument.cpp:1027
 #, kde-format
 msgid "Could not create the file for saving"
 msgstr "Saqlash uchun faylni yaratib boʻlmadi"
 
-#: libs/ui/KisDocument.cpp:1033
+#: libs/ui/KisDocument.cpp:1036
 #, fuzzy, kde-format
 msgid "Saving document..."
 msgstr "Boshqa hujjat sifatida saqlash"
 
-#: libs/ui/KisDocument.cpp:1067
+#: libs/ui/KisDocument.cpp:1070
 #, kde-format
 msgid "Not able to write '%1'. Partition full?"
 msgstr "'%1' faylini yozib boʻlmadi. Ehtimol diskda boʻsh joy qolmagan."
 
-#: libs/ui/KisDocument.cpp:1243
+#: libs/ui/KisDocument.cpp:1246
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -15943,7 +15943,7 @@ msgstr ""
 "Notoʻgri URL\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1260
+#: libs/ui/KisDocument.cpp:1263
 #, kde-format
 msgid ""
 "An autosaved file exists for this document.\n"
@@ -15952,17 +15952,17 @@ msgstr ""
 "Bu hujjatning avto-saqlangan nusxasi mavjud.\n"
 "Uni ochishni istaysizmi?"
 
-#: libs/ui/KisDocument.cpp:1305
+#: libs/ui/KisDocument.cpp:1308
 #, kde-format
 msgid "File %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1340
+#: libs/ui/KisDocument.cpp:1343
 #, fuzzy, kde-format
 msgid "Opening Document"
 msgstr "Yangi hujjatlarda ochish"
 
-#: libs/ui/KisDocument.cpp:1352
+#: libs/ui/KisDocument.cpp:1355
 #, fuzzy, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -15970,115 +15970,115 @@ msgid ""
 "%3"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/ui/KisDocument.cpp:1476
+#: libs/ui/KisDocument.cpp:1479
 #, kde-format
 msgid ""
 "Parsing error in %1 at line %2, column %3\n"
 "Error message: %4"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1491 libs/ui/KisMainWindow.cpp:755
+#: libs/ui/KisDocument.cpp:1494 libs/ui/KisMainWindow.cpp:755
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "%1 fayli mavjud emas."
 
-#: libs/ui/KisDocument.cpp:1498
+#: libs/ui/KisDocument.cpp:1501
 #, fuzzy, kde-format
 msgid "%1 is not a file."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: libs/ui/KisDocument.cpp:1513
+#: libs/ui/KisDocument.cpp:1516
 #, kde-format
 msgid "Could not open the file for reading (check read permissions)."
 msgstr "Faylni oʻqish uchun ochib boʻlmadi (huquqlarni tekshiring)."
 
-#: libs/ui/KisDocument.cpp:1524
+#: libs/ui/KisDocument.cpp:1527
 #, kde-format
 msgid "Could not read the beginning of the file."
 msgstr "Faylning boshini oʻqib boʻlmadi."
 
-#: libs/ui/KisDocument.cpp:1554
+#: libs/ui/KisDocument.cpp:1557
 #, kde-format
 msgid ""
 "parsing error in the main document at line %1, column %2\n"
 "Error message: %3"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1570
+#: libs/ui/KisDocument.cpp:1573
 #, fuzzy, kde-format
 msgid "Not a valid Krita file: %1"
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: libs/ui/KisDocument.cpp:1635
+#: libs/ui/KisDocument.cpp:1638
 #, kde-format
 msgid "Invalid document: no file 'maindoc.xml'."
 msgstr "Notoʻgʻri hujjat: 'maindoc.xml' fayli yoʻq."
 
-#: libs/ui/KisDocument.cpp:1692 libs/ui/KisDocument.cpp:1700
+#: libs/ui/KisDocument.cpp:1695 libs/ui/KisDocument.cpp:1703
 #, kde-format
 msgid "Krita does not support the OpenDocument file format."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1809 libs/ui/KisDocument.cpp:1927
+#: libs/ui/KisDocument.cpp:1812 libs/ui/KisDocument.cpp:1930
 #, fuzzy, kde-format
 msgid "Unknown error."
 msgstr "Namuna sifatida ishlatish"
 
-#: libs/ui/KisDocument.cpp:1902
+#: libs/ui/KisDocument.cpp:1905
 #, kde-format
 msgid "The format is not supported or the file is corrupted"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1908
+#: libs/ui/KisDocument.cpp:1911
 #, kde-format
 msgid "The file is too new for this version of Krita (%1)."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1913
+#: libs/ui/KisDocument.cpp:1916
 #, kde-format
 msgid "The file has no layers."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1938
+#: libs/ui/KisDocument.cpp:1941
 #, kde-format
 msgid "The file does not contain an image."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2001
+#: libs/ui/KisDocument.cpp:2004
 #, fuzzy, kde-format
 msgid ""
 "Could not open\n"
 "%1"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/ui/KisDocument.cpp:2004
+#: libs/ui/KisDocument.cpp:2007
 #, fuzzy, kde-format
 msgid ""
 "Could not open %1\n"
 "Reason: %2"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/ui/KisDocument.cpp:2068
+#: libs/ui/KisDocument.cpp:2071
 #, fuzzy, kde-format
 msgid "a word processing"
 msgstr "Bosim"
 
-#: libs/ui/KisDocument.cpp:2069
+#: libs/ui/KisDocument.cpp:2072
 #, kde-format
 msgid "a spreadsheet"
 msgstr "elektron jadvali"
 
-#: libs/ui/KisDocument.cpp:2070
+#: libs/ui/KisDocument.cpp:2073
 #, fuzzy, kde-format
 msgid "a presentation"
 msgstr "Gradient vositasi"
 
-#: libs/ui/KisDocument.cpp:2071
+#: libs/ui/KisDocument.cpp:2074
 #, fuzzy, kde-format
 msgid "a chart"
 msgstr "diagramma"
 
-#: libs/ui/KisDocument.cpp:2072
+#: libs/ui/KisDocument.cpp:2075
 #, kde-format
 msgid "a drawing"
 msgstr "chizma"
@@ -17777,7 +17777,7 @@ msgstr "&Qatlam"
 msgid "Li&nk with Layer"
 msgstr "&Qatlam"
 
-#: libs/ui/opengl/kis_opengl.cpp:162
+#: libs/ui/opengl/kis_opengl.cpp:160
 #, kde-format
 msgid ""
 "You have an Intel(R) HD Graphics video adapter.\n"
@@ -35166,45 +35166,45 @@ msgstr "Choʻtka tanlash"
 msgid "Connect shapes"
 msgstr "Obʼektlarni guruhlash"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:397
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:400
 #, kde-format
 msgid ""
 "Left click rotates around center, right click around highlighted position."
 msgstr ""
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:400
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:403
 #, fuzzy, kde-format
 msgid "Click and drag to shear selection."
 msgstr "Namuna vektorini tanlash uchun <i>bosib tortish kerak</i>.<br>"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:403
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:406
 #, fuzzy, kde-format
 msgid "Click and drag to resize selection."
 msgstr "Rasm oʻlchamini qatlam oʻlchamiga tenglashtirish"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:438
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:441
 #, fuzzy, kde-format
 msgid "Click and drag to move selection."
 msgstr ""
 "Nuqtalarni joyidan koʻchirish uchun ularni <i>bosib tortish kerak</i>.<br>"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:442
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:445
 #, kde-format
 msgid ""
 "Click and drag to resize selection. Middle click to set highlighted position."
 msgstr ""
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1022
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1028
 #, fuzzy, kde-format
 msgid "Arrange"
 msgstr "Apelsin"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1025
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1031
 #, fuzzy, kde-format
 msgid "Geometry"
 msgstr "Geometriya moslamalari"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1038
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1044
 #, kde-format
 msgid "Shadow"
 msgstr "Soya"
@@ -35290,8 +35290,8 @@ msgstr " soniya"
 msgid "Reset Transformations"
 msgstr "Boshqa shaklga almashtirish"
 
-#: plugins/tools/defaulttool/defaulttool/DefaultToolWidget.cpp:234
-#: plugins/tools/defaulttool/defaulttool/ShapeResizeStrategy.cpp:284
+#: plugins/tools/defaulttool/defaulttool/DefaultToolWidget.cpp:237
+#: plugins/tools/defaulttool/defaulttool/ShapeResizeStrategy.cpp:287
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Resize"
@@ -35302,7 +35302,7 @@ msgstr "Oʻlchami&ni oʻzgartirish"
 msgid "Press ALT to hold x- or y-position."
 msgstr ""
 
-#: plugins/tools/defaulttool/defaulttool/ShapeResizeStrategy.cpp:99
+#: plugins/tools/defaulttool/defaulttool/ShapeResizeStrategy.cpp:102
 #, kde-format
 msgid "Press CTRL to resize from center."
 msgstr ""
@@ -36348,7 +36348,7 @@ msgid ""
 "When in non-buildup mode, shows how fast the deformation limit is reached."
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:222
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:221
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -36357,79 +36357,79 @@ msgid ""
 "deforms the piece to the selected deformation level."
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:230
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:228
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Space between two sequential applications of the deformation"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:234
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:232
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scale <b>Size</b> value according to current stylus pressure"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:238
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:236
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scale <b>Amount</b> value according to current stylus pressure"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:242
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:240
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reverse direction of the current deformation tool"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:257
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:255
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Move: drag the image along the brush stroke"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:258
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:256
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Scale: grow/shrink image under cursor"
 msgstr "Tanlanganni chizish"
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:259
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:257
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Rotate: twirl image under cursor"
 msgstr "Rasmni coat koʻrsatgichi boʻyicha burish"
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:260
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:258
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Offset: shift the image to the right of the stroke direction"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:261
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:259
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Undo: erase actions of other tools"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:608
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:606
 #, kde-format
 msgid "Switch between editing and deforming cage"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, lockUnlockPointsButton)
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:659
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:657
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1595
 #, kde-format
 msgid "Lock Points"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:661
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:659
 #, kde-format
 msgid "Unlock Points"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, cageTransformDirections)
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:748
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:746
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1627
 #, kde-format
 msgid "Create 3 points on the canvas to begin"
