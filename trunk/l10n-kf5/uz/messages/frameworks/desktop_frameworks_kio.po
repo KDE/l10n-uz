@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-03-08 03:15+0000\n"
+"POT-Creation-Date: 2017-03-20 01:49+0000\n"
 "PO-Revision-Date: 2008-06-02 22:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -179,7 +179,7 @@ msgstr "Windows serveri"
 
 #: src/kcms/kio/smb.desktop:98
 msgctxt "Comment"
-msgid "Use to configure which windows (SMB) filesystems you can browse"
+msgid "Credentials used to access SMB shares"
 msgstr ""
 
 #: src/kcms/kio/smb.desktop:182
@@ -249,6 +249,14 @@ msgctxt "Name"
 msgid "UADescription (Google Chrome 5.0)"
 msgstr "UADescription (Windows XP bilan Mozilla 1.7)"
 
+#: src/kcms/kio/uasproviders/chrome570oncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Mozilla 1.7 on Windows XP)"
+msgctxt "Name"
+msgid "UADescription (Google Chrome 57.0)"
+msgstr "UADescription (Windows XP bilan Mozilla 1.7)"
+
 #: src/kcms/kio/uasproviders/firefox15oncurrent.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -287,6 +295,14 @@ msgstr "UADescription (joriy bilan Firefox 1.0)"
 #| msgid "UADescription (Firefox 1.0 on current)"
 msgctxt "Name"
 msgid "UADescription (Firefox 3.6 on current)"
+msgstr "UADescription (joriy bilan Firefox 1.0)"
+
+#: src/kcms/kio/uasproviders/firefox520oncurrent.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "UADescription (Firefox 1.0 on current)"
+msgctxt "Name"
+msgid "UADescription (Firefox 52.0 on current)"
 msgstr "UADescription (joriy bilan Firefox 1.0)"
 
 #: src/kcms/kio/uasproviders/googlebot.desktop:2
@@ -477,10 +493,10 @@ msgstr "Xabarnomalar"
 #: src/kcms/kio/useragent.desktop:99
 #, fuzzy
 #| msgctxt "Comment"
-#| msgid "Configure the browser behavior"
+#| msgid "Configure the arrangement of the panel"
 msgctxt "Comment"
-msgid "Configure the way Konqueror reports itself"
-msgstr "Brauzerning xususiyatlarini moslash"
+msgid "Configure the User Agent exposed by the HTTP kioslave"
+msgstr "Panelning tartibini moslash"
 
 #: src/kcms/kio/useragent.desktop:183
 #, fuzzy
@@ -2350,6 +2366,13 @@ msgstr ""
 msgctxt "Name"
 msgid "Enhanced Browsing Plugin"
 msgstr "Tabli veb koʻrish"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the browser behavior"
+#~ msgctxt "Comment"
+#~ msgid "Configure the way Konqueror reports itself"
+#~ msgstr "Brauzerning xususiyatlarini moslash"
 
 #, fuzzy
 #~| msgctxt "Name"
@@ -13424,10 +13447,6 @@ msgstr "Tabli veb koʻrish"
 #~ msgctxt "Comment"
 #~ msgid "You can configure the menus of the panel here"
 #~ msgstr "Bu yerda panelning menyularini moslash mumkin"
-
-#~ msgctxt "Comment"
-#~ msgid "Configure the arrangement of the panel"
-#~ msgstr "Panelning tartibini moslash"
 
 #, fuzzy
 #~ msgctxt "Name"
