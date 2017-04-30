@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-04-18 05:10+0200\n"
+"POT-Creation-Date: 2017-04-30 02:50+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -810,7 +810,7 @@ msgstr ""
 "Loyihani olib tashlab boʻlmadi.\n"
 "\"%1\" fayli mavjud emas."
 
-#: core/kexiproject.cpp:308 core/kexiproject.cpp:1472
+#: core/kexiproject.cpp:308 core/kexiproject.cpp:1471
 #: main/startup/KexiStartup.cpp:816 main/startup/KexiStartup.cpp:825
 #: main/startup/KexiStartup.cpp:836
 #, fuzzy, kde-kuit-format
@@ -853,7 +853,7 @@ msgstr "Loyiha sarlavhasi"
 msgid "Project description"
 msgstr "Loyiha taʼrifi"
 
-#: core/kexiproject.cpp:957
+#: core/kexiproject.cpp:956
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -861,25 +861,25 @@ msgid ""
 "%2%3"
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: core/kexiproject.cpp:977
+#: core/kexiproject.cpp:976
 #, kde-kuit-format
 msgid "This project is opened as read only."
 msgstr ""
 
-#: core/kexiproject.cpp:1009
+#: core/kexiproject.cpp:1008
 #, fuzzy, kde-kuit-format
 #| msgid "Could not remove object's data."
 msgid "Could not remove object's user data."
 msgstr "Obʼekt maʼlumotlarini olib tashlab boʻlmadi."
 
-#: core/kexiproject.cpp:1137
+#: core/kexiproject.cpp:1136
 #, fuzzy, kde-format
 #| msgid "Warning: entire project's data will be removed."
 msgctxt "warning"
 msgid "Entire project's data and design will be removed."
 msgstr "Diqqat: loyihaning barcha maʼlumotlari oʻchirib tashlanadi."
 
-#: core/kexiproject.cpp:1153
+#: core/kexiproject.cpp:1152
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "The project %1 already exists.\n"
@@ -892,13 +892,13 @@ msgstr ""
 "\"%1\" loyihasi allaqachon mavjud.\n"
 "Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
 
-#: core/kexiproject.cpp:1158
+#: core/kexiproject.cpp:1157
 #, fuzzy, kde-kuit-format
 msgctxt "@action:button"
 msgid "Replace"
 msgstr "&Almashtirish"
 
-#: core/kexiproject.cpp:1183
+#: core/kexiproject.cpp:1182
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -906,26 +906,26 @@ msgid ""
 "para><para><warning>%2</warning></para>"
 msgstr ""
 
-#: core/kexiproject.cpp:1187
+#: core/kexiproject.cpp:1186
 #, fuzzy, kde-kuit-format
 #| msgid "Delete Object"
 msgctxt "@action:button"
 msgid "Delete Project"
 msgstr "Obʼektni olib tashlash"
 
-#: core/kexiproject.cpp:1201
+#: core/kexiproject.cpp:1200
 #, kde-kuit-format
 msgid ""
 "Could not delete this project. Database connection for this project has been "
 "opened as read only."
 msgstr ""
 
-#: core/kexiproject.cpp:1466
+#: core/kexiproject.cpp:1465
 #, kde-kuit-format
 msgid "Open As Read Only"
 msgstr ""
 
-#: core/kexiproject.cpp:1469
+#: core/kexiproject.cpp:1468
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3283,30 +3283,36 @@ msgid ""
 "para><para>Do you want to close it?</para>"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3527
+#: main/KexiMainWindow.cpp:3516
+#, fuzzy, kde-kuit-format
+#| msgid "Close windows"
+msgid "Close Window and Rename"
+msgstr "Oynalarni yopish"
+
+#: main/KexiMainWindow.cpp:3533
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "Renaming object <resource>%1</resource> failed."
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3547
+#: main/KexiMainWindow.cpp:3554
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "Setting caption for object <resource>%1</resource> failed."
 msgstr "\"%1\" obʼektini nomini oʻzgartirib boʻlmadi."
 
-#: main/KexiMainWindow.cpp:3715
+#: main/KexiMainWindow.cpp:3723
 #, fuzzy, kde-kuit-format
 msgid "Compacting database file <filename>%1</filename> is not supported."
 msgstr "<p><nobr>\"%1\"</nobr> faylini oʻqib boʻlmaydi.</p>"
 
-#: main/KexiMainWindow.cpp:3727
+#: main/KexiMainWindow.cpp:3735
 #, kde-kuit-format
 msgctxt "@action:button Compact database"
 msgid "Compact"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3729
+#: main/KexiMainWindow.cpp:3737
 #, kde-kuit-format
 msgid ""
 "The current project has to be closed before compacting the database. It will "
@@ -3315,7 +3321,7 @@ msgid ""
 "Do you want to continue?"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3864
+#: main/KexiMainWindow.cpp:3872
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3324,13 +3330,13 @@ msgid ""
 "query for exporting or from its original (saved) version?"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3869
+#: main/KexiMainWindow.cpp:3877
 #, kde-kuit-format
 msgctxt "@action:button Export query data"
 msgid "Use the Changed Query"
 msgstr ""
 
-#: main/KexiMainWindow.cpp:3870
+#: main/KexiMainWindow.cpp:3878
 #, kde-kuit-format
 msgctxt "@action:button Export query data"
 msgid "Use the Original Query"
@@ -7945,37 +7951,37 @@ msgid ""
 "using this table are opened:"
 msgstr ""
 
-#: plugins/tables/kexitablepart.cpp:195
+#: plugins/tables/kexitablepart.cpp:198
 #, kde-format
 msgctxt "@info"
 msgid "<para>%1</para><para>%2</para>"
 msgstr ""
 
-#: plugins/tables/kexitablepart.cpp:197
+#: plugins/tables/kexitablepart.cpp:200
 #, kde-kuit-format
 msgid "Do you want to close all windows for these objects?"
 msgstr "Ushbu obʼektlar uchun barcha oynalarni yopishni istaysizmi?"
 
-#: plugins/tables/kexitablepart.cpp:199
+#: plugins/tables/kexitablepart.cpp:202
 #, fuzzy, kde-kuit-format
 #| msgid "Close windows"
 msgctxt "@action:button Close All Windows"
 msgid "Close Windows"
 msgstr "Oynalarni yopish"
 
-#: plugins/tables/kexitablepart.cpp:217
+#: plugins/tables/kexitablepart.cpp:220
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Design of table <resource>%1</resource> has been modified."
 msgstr "\"%1\" hisoboti dizayni oʻzgartirildi."
 
-#: plugins/tables/kexitablepart.cpp:220
+#: plugins/tables/kexitablepart.cpp:223
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Table <resource>%1</resource> already exists."
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: plugins/tables/kexitablepart.cpp:224
+#: plugins/tables/kexitablepart.cpp:227
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -7983,7 +7989,7 @@ msgid ""
 "warning>"
 msgstr ""
 
-#: plugins/tables/kexitablepart.cpp:253
+#: plugins/tables/kexitablepart.cpp:256
 #, fuzzy, kde-kuit-format
 msgid "Lookup column"
 msgstr "Soʻrov ustuni"
@@ -9128,12 +9134,6 @@ msgstr "Keyingi oyna"
 #~ msgctxt "@action:button Delete object"
 #~ msgid "Delete"
 #~ msgstr "Satrni olib tashlash"
-
-#, fuzzy
-#~| msgid "Close windows"
-#~ msgctxt "@action:button"
-#~ msgid "Close Window"
-#~ msgstr "Oynalarni yopish"
 
 #, fuzzy
 #~| msgid "Overwrite"
