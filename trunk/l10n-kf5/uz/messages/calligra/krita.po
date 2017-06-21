@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-06-17 02:59+0200\n"
+"POT-Creation-Date: 2017-06-21 06:42+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8774,7 +8774,7 @@ msgstr ""
 msgid "%1 Options"
 msgstr "Qoidadan tashqari holat"
 
-#: libs/flake/KoToolManager.cpp:726
+#: libs/flake/KoToolManager.cpp:720
 #, kde-format
 msgid "Active tool: %1"
 msgstr ""
@@ -8794,11 +8794,6 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Create object"
 msgstr "Hujjatni yaratish"
-
-#: libs/flake/tools/KoPanToolFactory.cpp:30
-#, fuzzy, kde-format
-msgid "Pan"
-msgstr "&Rasm chizish"
 
 #: libs/flake/tools/KoPathSegmentChangeStrategy.cpp:146
 #, fuzzy
@@ -36021,6 +36016,11 @@ msgstr ""
 msgid "Multibrush Tool"
 msgstr "Boʻyoq vositasi"
 
+#: plugins/tools/basictools/kis_tool_pan.cpp:86
+#, fuzzy, kde-format
+msgid "Pan Tool"
+msgstr "Matn vositasi"
+
 #: plugins/tools/basictools/kis_tool_path.cc:118
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -37865,6 +37865,10 @@ msgstr "Tanlanganni bekitish"
 #, kde-format
 msgid "Work Recursively"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Pan"
+#~ msgstr "&Rasm chizish"
 
 #, fuzzy
 #~ msgctxt "action"
