@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-07-16 03:09+0200\n"
+"POT-Creation-Date: 2017-07-17 03:15+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8775,6 +8775,7 @@ msgstr "Chiziqlar"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_16)
+#. i18n: ectx: property (text), widget (QLabel, typeDescLabel)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, axisTypeLabel)
 #: libs/flake/KoConnectionShapeConfigWidget.ui:17
@@ -8788,6 +8789,7 @@ msgstr "Chiziqlar"
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:54
 #: plugins/flake/pathshapes/ellipse/EllipseShapeConfigWidget.ui:35
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.ui:20
+#: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:195
 #: plugins/impex/ppm/kis_wdg_options_ppm.ui:17
 #: plugins/tools/basictools/wdgmultihandtool.ui:57
 #, fuzzy, kde-format
@@ -10368,106 +10370,112 @@ msgstr "Oʻrnini almashtirishmoq"
 #: libs/koplugin/KisMimeDatabase.cpp:181
 #, fuzzy, kde-format
 msgctxt "description of a file type"
-msgid "R16 Heightmap"
+msgid "R32 Heightmap"
 msgstr "Uzunasi:"
 
 #: libs/koplugin/KisMimeDatabase.cpp:186
 #, fuzzy, kde-format
 msgctxt "description of a file type"
-msgid "R8 Heightmap"
+msgid "R16 Heightmap"
 msgstr "Uzunasi:"
 
 #: libs/koplugin/KisMimeDatabase.cpp:191
+#, fuzzy, kde-format
+msgctxt "description of a file type"
+msgid "R8 Heightmap"
+msgstr "Uzunasi:"
+
+#: libs/koplugin/KisMimeDatabase.cpp:196
 #, kde-format
 msgctxt "description of a file type"
 msgid "Spriter SCML"
 msgstr ""
 
-#: libs/koplugin/KisMimeDatabase.cpp:196
+#: libs/koplugin/KisMimeDatabase.cpp:201
 #, kde-format
 msgctxt "description of a file type"
 msgid "Starview Metafile"
 msgstr ""
 
-#: libs/koplugin/KisMimeDatabase.cpp:201
+#: libs/koplugin/KisMimeDatabase.cpp:206
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "OpenRaster Image"
 msgstr "Rasm"
 
-#: libs/koplugin/KisMimeDatabase.cpp:206
+#: libs/koplugin/KisMimeDatabase.cpp:211
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Photoshop Layer Style Library"
 msgstr "Moslash..."
 
-#: libs/koplugin/KisMimeDatabase.cpp:211
+#: libs/koplugin/KisMimeDatabase.cpp:216
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Color Palette"
 msgstr "Rang tanlagich"
 
-#: libs/koplugin/KisMimeDatabase.cpp:216
+#: libs/koplugin/KisMimeDatabase.cpp:221
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "OpenColorIO Configuration"
 msgstr "Moslash..."
 
-#: libs/koplugin/KisMimeDatabase.cpp:221
+#: libs/koplugin/KisMimeDatabase.cpp:226
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Krita Recorded Action"
 msgstr "Krita"
 
-#: libs/koplugin/KisMimeDatabase.cpp:226
+#: libs/koplugin/KisMimeDatabase.cpp:231
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "GIMP Gradients"
 msgstr "Gradientlar"
 
-#: libs/koplugin/KisMimeDatabase.cpp:231
+#: libs/koplugin/KisMimeDatabase.cpp:236
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "GIMP Patterns"
 msgstr "Namunalar"
 
-#: libs/koplugin/KisMimeDatabase.cpp:236
+#: libs/koplugin/KisMimeDatabase.cpp:241
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Karbon Gradients"
 msgstr "Gradientlar"
 
-#: libs/koplugin/KisMimeDatabase.cpp:241
+#: libs/koplugin/KisMimeDatabase.cpp:246
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Krita Resource Bundle"
 msgstr "Qatlamni &olib tashlash"
 
-#: libs/koplugin/KisMimeDatabase.cpp:246
+#: libs/koplugin/KisMimeDatabase.cpp:251
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Krita Workspace"
 msgstr "Ranglar boʻshligʻi"
 
-#: libs/koplugin/KisMimeDatabase.cpp:251
+#: libs/koplugin/KisMimeDatabase.cpp:256
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Krita Taskset"
 msgstr "Krita"
 
-#: libs/koplugin/KisMimeDatabase.cpp:257
+#: libs/koplugin/KisMimeDatabase.cpp:262
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Camera Raw Files"
 msgstr "Qatlamning xossalari"
 
-#: libs/koplugin/KisMimeDatabase.cpp:262
+#: libs/koplugin/KisMimeDatabase.cpp:267
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "OpenEXR (Extended)"
 msgstr "Geometriya moslamalari"
 
-#: libs/koplugin/KisMimeDatabase.cpp:267
+#: libs/koplugin/KisMimeDatabase.cpp:272
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Photoshop Image (Large)"
@@ -11204,7 +11212,7 @@ msgstr "Chiziqning enini oʻzgartirish"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:911 libs/ui/forms/wdgnewimage.ui:375
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:150
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:188
-#: libs/ui/kis_palette_view.cpp:101 libs/ui/kis_palette_view.cpp:272
+#: libs/ui/kis_palette_view.cpp:100 libs/ui/kis_palette_view.cpp:299
 #: libs/ui/layerstyles/WdgColorOverlay.ui:23
 #: libs/ui/layerstyles/WdgStroke.ui:134
 #: plugins/color/lcms2engine/compositeops/RgbCompositeOpColor.h:38
@@ -16132,19 +16140,19 @@ msgctxt "option category"
 msgid "Filter"
 msgstr "Filter"
 
-#: libs/ui/kis_palette_view.cpp:86
+#: libs/ui/kis_palette_view.cpp:85
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Add a new Colorset Entry"
 msgstr "Profil yoʻq"
 
-#: libs/ui/kis_palette_view.cpp:90
+#: libs/ui/kis_palette_view.cpp:89
 #, fuzzy, kde-format
 msgctxt "Name for default group"
 msgid "Default"
 msgstr "&Andoza"
 
-#: libs/ui/kis_palette_view.cpp:97 libs/ui/kis_palette_view.cpp:269
+#: libs/ui/kis_palette_view.cpp:96 libs/ui/kis_palette_view.cpp:296
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -16152,68 +16160,68 @@ msgid ""
 "paints it has available to it. The opposite is called a process color."
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:98
+#: libs/ui/kis_palette_view.cpp:97
 #, fuzzy, kde-format
 #| msgid "Group:"
 msgid "Group"
 msgstr "Guruh:"
 
-#: libs/ui/kis_palette_view.cpp:99 libs/ui/kis_palette_view.cpp:270
+#: libs/ui/kis_palette_view.cpp:98 libs/ui/kis_palette_view.cpp:297
 #, kde-format
 msgid "ID"
 msgstr ""
 
-#: libs/ui/kis_palette_view.cpp:100 libs/ui/kis_palette_view.cpp:271
+#: libs/ui/kis_palette_view.cpp:99 libs/ui/kis_palette_view.cpp:298
 #, fuzzy, kde-format
 msgid "Name"
 msgstr "&Nomi:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: libs/ui/kis_palette_view.cpp:102 libs/ui/kis_palette_view.cpp:273
+#: libs/ui/kis_palette_view.cpp:101 libs/ui/kis_palette_view.cpp:300
 #: plugins/extensions/metadataeditor/editors/exif.ui:422
 #, fuzzy, kde-format
 msgid "Spot"
 msgstr "Qisqa"
 
-#: libs/ui/kis_palette_view.cpp:104
+#: libs/ui/kis_palette_view.cpp:103
 #, fuzzy, kde-format
 #| msgid "Color"
 msgctxt "Part of a default name for a color"
 msgid "Color"
 msgstr "Rang"
 
-#: libs/ui/kis_palette_view.cpp:130
+#: libs/ui/kis_palette_view.cpp:129
 #, fuzzy, kde-format
 #| msgid "Add Group"
 msgctxt "@title:window"
 msgid "Add a new group"
 msgstr "Guruhni qoʻshish"
 
-#: libs/ui/kis_palette_view.cpp:134
+#: libs/ui/kis_palette_view.cpp:133
 #, fuzzy, kde-format
 msgctxt "Name for a group"
 msgid "Name"
 msgstr "&Nomi:"
 
-#: libs/ui/kis_palette_view.cpp:135
+#: libs/ui/kis_palette_view.cpp:134
 #, fuzzy, kde-format
 msgctxt "Part of default name for a new group"
 msgid "Color Group"
 msgstr "Rangi:"
 
-#: libs/ui/kis_palette_view.cpp:150
+#: libs/ui/kis_palette_view.cpp:149
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Removing Group"
 msgstr "Qatlamni olib tashlash"
 
-#: libs/ui/kis_palette_view.cpp:154
+#: libs/ui/kis_palette_view.cpp:153
 #, fuzzy, kde-format
 msgctxt "Shows up when deleting a group"
 msgid "Keep the Colors"
 msgstr "Tanlashni bekor qilish"
 
-#: libs/ui/kis_palette_view.cpp:258
+#: libs/ui/kis_palette_view.cpp:285
 #, fuzzy, kde-format
 msgctxt "Name for a colorgroup"
 msgid "Name"
@@ -16808,6 +16816,7 @@ msgid "Cancelled by user"
 msgstr "Belgi uslubini oʻzgartirish"
 
 #: libs/ui/KisImportExportFilter.cpp:162
+#: plugins/impex/heightmap/kis_heightmap_import.cpp:82
 #, fuzzy, kde-format
 msgid "Unknown file type"
 msgstr "%1 (faylning turi nomaʼlum)"
@@ -23621,7 +23630,7 @@ msgstr ""
 msgid "Overview"
 msgstr "Koʻrib chiqish"
 
-#: plugins/dockers/palettedocker/palettedocker_dock.cpp:99
+#: plugins/dockers/palettedocker/palettedocker_dock.cpp:100
 #, fuzzy, kde-format
 msgid "Choose palette"
 msgstr "Palitra tanlash"
@@ -31107,14 +31116,9 @@ msgstr ""
 msgid "Krita could not create a new image."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/heightmap/kis_heightmap_import.cpp:92
-#, kde-format
-msgid "The file is not 8 or 16 bits raw"
-msgstr ""
-
-#: plugins/impex/heightmap/kis_heightmap_import.cpp:99
+#: plugins/impex/heightmap/kis_heightmap_import.cpp:89
 #, fuzzy, kde-format
-msgid "R16 HeightMap Import Options"
+msgid "Heightmap Import Options"
 msgstr "Geometriya moslamalari"
 
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.cpp:40
