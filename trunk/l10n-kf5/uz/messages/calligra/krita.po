@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-07-22 03:14+0200\n"
+"POT-Creation-Date: 2017-07-23 03:09+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -20154,17 +20154,17 @@ msgstr ""
 msgid "Tag was not undeleted."
 msgstr ""
 
-#: libs/widgets/KoRuler.cpp:1302
+#: libs/widgets/KoRuler.cpp:1305
 #, kde-format
 msgid "First line indent"
 msgstr "Birinchi satrda boʻsh joy"
 
-#: libs/widgets/KoRuler.cpp:1303
+#: libs/widgets/KoRuler.cpp:1306
 #, kde-format
 msgid "Left indent"
 msgstr "Chapdan boʻsh joy"
 
-#: libs/widgets/KoRuler.cpp:1304
+#: libs/widgets/KoRuler.cpp:1307
 #, kde-format
 msgid "Right indent"
 msgstr "Oʻngdan boʻsh joy"
@@ -26726,7 +26726,7 @@ msgstr "Ranglarni moslash"
 msgid "HSV/HSL Adjustment"
 msgstr "Ranglarni moslash"
 
-#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:466
+#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:476
 #, fuzzy, kde-format
 msgid "&Color Adjustment curves..."
 msgstr "&Ranglarni moslash..."
@@ -26906,14 +26906,22 @@ msgstr "Rang tusi"
 msgid "Channel:"
 msgstr "Kanal:"
 
+#. i18n: ectx: property (text), widget (QCheckBox, chkLogarithmic)
+#: plugins/filters/colorsfilters/wdg_perchannel.ui:227
+#: plugins/filters/levelfilter/wdg_level.ui:65
+#: plugins/filters/threshold/wdg_threshold.ui:55
+#, fuzzy, kde-format
+msgid "Logarithmic"
+msgstr "&Logarifmik"
+
 #. i18n: ectx: property (text), widget (QLabel, labelOut)
-#: plugins/filters/colorsfilters/wdg_perchannel.ui:269
+#: plugins/filters/colorsfilters/wdg_perchannel.ui:289
 #, kde-format
 msgid "Output:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelIn)
-#: plugins/filters/colorsfilters/wdg_perchannel.ui:295
+#: plugins/filters/colorsfilters/wdg_perchannel.ui:315
 #, kde-format
 msgid "Input:"
 msgstr ""
@@ -27219,13 +27227,6 @@ msgstr "Gʻildirak:"
 #, kde-format
 msgid "<b>Input Levels</b>"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkLogarithmic)
-#: plugins/filters/levelfilter/wdg_level.ui:65
-#: plugins/filters/threshold/wdg_threshold.ui:55
-#, fuzzy, kde-format
-msgid "Logarithmic"
-msgstr "&Logarifmik"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: plugins/filters/levelfilter/wdg_level.ui:225
