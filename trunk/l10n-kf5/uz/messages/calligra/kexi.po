@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-07-19 06:31+0200\n"
+"POT-Creation-Date: 2017-07-25 03:10+0200\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2005,7 +2005,7 @@ msgid "Open in Data View"
 msgstr "&Matn koʻrinishida ochish"
 
 #: formeditor/kexiactionselectiondialog.cpp:290
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:117
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:131
 #: widget/navigator/KexiProjectNavigator.cpp:201
 #, fuzzy, kde-kuit-format
 msgid "Execute"
@@ -4736,7 +4736,7 @@ msgid "Goes to selected form's data source"
 msgstr "Tanlangan maʼlumotlar manbasiga oʻtish"
 
 #: plugins/forms/kexidbfactorybase.cpp:49 plugins/forms/kexiformpart.cpp:366
-#: plugins/reports/kexireportpart.cpp:165
+#: plugins/reports/kexireportpart.cpp:173
 #, kde-kuit-format
 msgid "Data Source"
 msgstr "Maʼlumot manbasi"
@@ -6967,7 +6967,7 @@ msgstr ""
 msgid "Lower"
 msgstr ""
 
-#: plugins/reports/kexireportpart.cpp:56
+#: plugins/reports/kexireportpart.cpp:64
 #, kde-kuit-format
 msgctxt ""
 "Translate this word using only lowercase alphanumeric characters (a..z, "
@@ -6977,27 +6977,27 @@ msgctxt ""
 msgid "report"
 msgstr "hisobot"
 
-#: plugins/reports/kexireportpart.cpp:57
+#: plugins/reports/kexireportpart.cpp:65
 #, fuzzy, kde-kuit-format
 #| msgid "Create a new project"
 msgctxt "tooltip"
 msgid "Create new report"
 msgstr "Yangi loyihani yaratish"
 
-#: plugins/reports/kexireportpart.cpp:58
+#: plugins/reports/kexireportpart.cpp:66
 #, fuzzy, kde-kuit-format
 #| msgid "Create a new project"
 msgctxt "what's this"
 msgid "Creates new report."
 msgstr "Yangi loyihani yaratish"
 
-#: plugins/reports/kexireportpart.cpp:77
+#: plugins/reports/kexireportpart.cpp:85
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Design of report <resource>%1</resource> has been modified."
 msgstr "\"%1\" hisoboti dizayni oʻzgartirildi."
 
-#: plugins/reports/kexireportpart.cpp:79
+#: plugins/reports/kexireportpart.cpp:87
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Report <resource>%1</resource> already exists."
@@ -7251,12 +7251,12 @@ msgstr "Jadval"
 msgid "Exporting the report as web page to %1 failed."
 msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
 
-#: plugins/reports/kexireportview.cpp:399
+#: plugins/reports/kexireportview.cpp:400
 #, fuzzy, kde-kuit-format
 msgid "Opening failed"
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: plugins/reports/kexireportview.cpp:399
+#: plugins/reports/kexireportview.cpp:400
 #, kde-kuit-format
 msgid "Report schema appears to be invalid or corrupt"
 msgstr ""
@@ -7295,144 +7295,134 @@ msgstr "Tanlangan maʼlumotlar manbasiga oʻtish"
 msgid "External source:"
 msgstr "Tashqi faylni ochish"
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:119
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:133
 #, fuzzy, kde-kuit-format
 #| msgid "Execute Script"
 msgid "Execute the scripting code"
 msgstr "Skriptni ishga tushirish"
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:120
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:134
 #, fuzzy, kde-kuit-format
 #| msgid "Execute Script"
 msgid "Executes the scripting code."
 msgstr "Skriptni ishga tushirish"
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:129
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:143
 #, fuzzy, kde-kuit-format
 msgid "Edit"
 msgstr "&Tahrirlash..."
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:131
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:145
 #, fuzzy, kde-kuit-format
 #| msgid "Edit Collection..."
 msgid "Edit actions"
 msgstr "Toʻplamni tahrirlash..."
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:132
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:146
 #, kde-kuit-format
 msgid "Provides Edit menu."
 msgstr ""
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:139
-#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:189
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:153
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:136
 #, kde-kuit-format
 msgid "Configure Editor..."
 msgstr ""
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:141
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:155
 #, kde-kuit-format
 msgid "Configure the scripting editor"
 msgstr ""
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:142
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:156
 #, fuzzy, kde-kuit-format
 #| msgid "Execute Script"
 msgid "Configures the scripting editor."
 msgstr "Skriptni ishga tushirish"
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:151
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:165
 #, kde-kuit-format
 msgid "&Import..."
 msgstr "&Import qilish..."
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:153
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:167
 #, fuzzy, kde-kuit-format
 #| msgid "Description"
 msgid "Import script"
 msgstr "Taʼrifi"
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:154
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:168
 #, fuzzy, kde-kuit-format
 msgid "Imports script from a file."
 msgstr "Maʼlumotlar jadvalini fayldan import qilish"
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:167
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:181
 #, fuzzy, kde-kuit-format
 #| msgid "&Export"
 msgid "&Export..."
 msgstr "&Eksport qilish"
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:169
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:183
 #, fuzzy, kde-kuit-format
 #| msgid "Description"
 msgid "Export script"
 msgstr "Taʼrifi"
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:170
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:184
 #, fuzzy, kde-kuit-format
 #| msgid "Exporting data from table:"
 msgid "Exports script to a file."
 msgstr "Maʼlumotlar jadvaldan eksport qilinmoqda:"
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:221
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:223
 #, fuzzy, kde-kuit-format
 #| msgid "Importing"
 msgctxt "@title:window"
 msgid "Import Script"
 msgstr "Import qilinmoqda"
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:230
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:232
 #, fuzzy, kde-kuit-format
 #| msgid "Could not remove file \"%1\"."
 msgctxt "@info"
 msgid "Could not read <filename>%1</filename>."
 msgstr "\"%1\" faylini olib tashlab boʻlmadi."
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:245
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:241
 #, fuzzy, kde-kuit-format
 msgctxt "@title:window"
 msgid "Export Script"
 msgstr "&Eksport qilish"
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:251
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:248
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not write <filename>%1</filename>."
 msgstr ""
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:296
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:270
 #, fuzzy, kde-kuit-format
 #| msgid "&Horizontally"
 msgid "Script Type"
 msgstr "&Eniga"
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:297
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:271
 #, kde-kuit-format
 msgid "The type of script"
 msgstr ""
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:311
-#, kde-kuit-format
-msgid "Interpreter"
-msgstr ""
-
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:312
-#, kde-kuit-format
-msgid "The used scripting interpreter."
-msgstr ""
-
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:375
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:308
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "Execution of the script <resource>%1</resource> started."
 msgstr "\"%1\" hisoboti dizayni oʻzgartirildi."
 
-#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:392
+#: plugins/scripting/kexiscripting/kexiscriptdesignview.cpp:329
 #, no-c-format, kde-kuit-format
 msgid "Successfully executed. Time elapsed: %1ms"
 msgstr ""
 
-#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:79
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:70
 #, fuzzy, kde-kuit-format
 #| msgid "Description"
 msgctxt ""
@@ -7443,33 +7433,40 @@ msgctxt ""
 msgid "script"
 msgstr "Taʼrifi"
 
-#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:80
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:71
 #, fuzzy, kde-kuit-format
 #| msgid "Create a new project"
 msgctxt "tooltip"
 msgid "Create new script"
 msgstr "Yangi loyihani yaratish"
 
-#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:81
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:72
 #, fuzzy, kde-kuit-format
 #| msgid "Create a new project"
 msgctxt "what's this"
 msgid "Creates new script."
 msgstr "Yangi loyihani yaratish"
 
-#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:212
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:107
+#, kde-kuit-format
+msgid ""
+"Error executing script at line %1:\n"
+"%2"
+msgstr ""
+
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:107
 #, fuzzy, kde-kuit-format
 #| msgid "Description"
-msgid "Scripts"
+msgid "Kexi Script"
 msgstr "Taʼrifi"
 
-#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:233
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:163
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Design of script <resource>%1</resource> has been modified."
 msgstr "\"%1\" hisoboti dizayni oʻzgartirildi."
 
-#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:235
+#: plugins/scripting/kexiscripting/kexiscriptpart.cpp:165
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Script <resource>%1</resource> already exists."
@@ -8453,12 +8450,12 @@ msgstr "Nomi:"
 msgid "Filter:"
 msgstr "&Filtr"
 
-#: widget/KexiFileWidgetInterface.cpp:227 widget/KexiStartupFileHandler.cpp:376
+#: widget/KexiFileWidgetInterface.cpp:219 widget/KexiStartupFileHandler.cpp:376
 #, kde-kuit-format
 msgid "Enter a filename."
 msgstr "Faylning nomini kiriting."
 
-#: widget/KexiFileWidgetInterface.cpp:263 widget/KexiStartupFileHandler.cpp:421
+#: widget/KexiFileWidgetInterface.cpp:255 widget/KexiStartupFileHandler.cpp:421
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Could not remove project.\n"
@@ -8469,14 +8466,14 @@ msgstr ""
 "Loyihani olib tashlab boʻlmadi.\n"
 "\"%1\" fayli mavjud emas."
 
-#: widget/KexiFileWidgetInterface.cpp:268 widget/KexiStartupFileHandler.cpp:427
+#: widget/KexiFileWidgetInterface.cpp:260 widget/KexiStartupFileHandler.cpp:427
 #, fuzzy, kde-kuit-format
 #| msgid "Enter a filename."
 msgctxt "@info"
 msgid "Enter a filename."
 msgstr "Faylning nomini kiriting."
 
-#: widget/KexiFileWidgetInterface.cpp:273 widget/KexiStartupFileHandler.cpp:431
+#: widget/KexiFileWidgetInterface.cpp:265 widget/KexiStartupFileHandler.cpp:431
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Could not remove project.\n"
