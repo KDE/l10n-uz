@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-10-01 05:48+0200\n"
+"POT-Creation-Date: 2017-10-10 05:27+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -6228,14 +6228,14 @@ msgstr "Rasmni import qilish"
 msgid "Import"
 msgstr "Rasmni import qilish"
 
-#: krita/krita.xmlgui:187 plugins/dockers/defaultdockers/kis_layer_box.cpp:589
+#: krita/krita.xmlgui:187 plugins/dockers/defaultdockers/kis_layer_box.cpp:627
 #, fuzzy, kde-format
 msgid "&Convert"
 msgstr "&Teskari"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #: krita/krita.xmlgui:197 krita/krita.xmlgui:253
-#: plugins/dockers/defaultdockers/kis_layer_box.cpp:561
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:599
 #: plugins/extensions/colorrange/wdg_colorrange.ui:130
 #: plugins/extensions/imagesize/imagesize.xmlgui:12
 #: plugins/extensions/modify_selection/modify_selection.xmlgui:4
@@ -6243,7 +6243,7 @@ msgstr "&Teskari"
 msgid "&Select"
 msgstr "&Tanlash"
 
-#: krita/krita.xmlgui:205 plugins/dockers/defaultdockers/kis_layer_box.cpp:567
+#: krita/krita.xmlgui:205 plugins/dockers/defaultdockers/kis_layer_box.cpp:605
 #, fuzzy, kde-format
 #| msgid "Group:"
 msgid "&Group"
@@ -6259,7 +6259,7 @@ msgstr "Boshqa shaklga almashtirish"
 msgid "S&plit"
 msgstr "Rangni palitraga qoʻshish"
 
-#: krita/krita.xmlgui:229 plugins/dockers/defaultdockers/kis_layer_box.cpp:595
+#: krita/krita.xmlgui:229 plugins/dockers/defaultdockers/kis_layer_box.cpp:633
 #, fuzzy, kde-format
 msgid "S&plit Alpha"
 msgstr "Rangni palitraga qoʻshish"
@@ -9046,7 +9046,7 @@ msgstr ""
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.h:31
 #: libs/image/kis_keyframe_channel.cpp:30 libs/image/kis_layer.cc:218
 #: libs/widgets/KoColorPopupAction.cpp:89
-#: plugins/dockers/defaultdockers/kis_layer_box.cpp:159
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:197
 #: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:36
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
@@ -9592,60 +9592,60 @@ msgstr "Tanlanganni koʻrsatish"
 msgid "Open File"
 msgstr "Asbob oynalari"
 
-#: libs/image/kis_layer_utils.cpp:354
+#: libs/image/kis_layer_utils.cpp:356
 #, fuzzy, kde-format
 msgid "Merged"
 msgstr "Qizildan nusxa olish"
 
-#: libs/image/kis_layer_utils.cpp:807
+#: libs/image/kis_layer_utils.cpp:820
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Down"
 msgstr "Alfa moslamalari"
 
-#: libs/image/kis_layer_utils.cpp:1001
+#: libs/image/kis_layer_utils.cpp:1014
 #, fuzzy, kde-format
 msgid "Copy of"
 msgstr "Yashildan nusxa olish"
 
-#: libs/image/kis_layer_utils.cpp:1063
+#: libs/image/kis_layer_utils.cpp:1076
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change projection color"
 msgstr "Tekislashni oʻzgartirish"
 
-#: libs/image/kis_layer_utils.cpp:1154
+#: libs/image/kis_layer_utils.cpp:1167
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr "Tanlangan rangni olib tashlash"
 
-#: libs/image/kis_layer_utils.cpp:1162
+#: libs/image/kis_layer_utils.cpp:1175
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "New From Visible"
 msgstr "Profil:"
 
-#: libs/image/kis_layer_utils.cpp:1162
+#: libs/image/kis_layer_utils.cpp:1175
 #, fuzzy, kde-format
 #| msgid "Visible"
 msgctxt "New layer created from all the visible layers"
 msgid "Visible"
 msgstr "Koʻrinadigan"
 
-#: libs/image/kis_layer_utils.cpp:1241
+#: libs/image/kis_layer_utils.cpp:1254
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Selection Masks"
 msgstr "Tanlash boʻyogʻi"
 
-#: libs/image/kis_layer_utils.cpp:1264
+#: libs/image/kis_layer_utils.cpp:1277
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr "Silliqlangan rasm"
 
-#: libs/image/kis_layer_utils.cpp:1272
+#: libs/image/kis_layer_utils.cpp:1285
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Image"
@@ -11941,7 +11941,7 @@ msgstr "Tanlash usuli:"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:275
 #: libs/ui/input/kis_tablet_debugger.cpp:103 libs/ui/kis_filter_manager.cc:218
-#: libs/ui/kis_filter_manager.cc:227 libs/ui/kis_layer_manager.cc:814
+#: libs/ui/kis_filter_manager.cc:227 libs/ui/kis_layer_manager.cc:821
 #: libs/ui/KisApplication.cpp:702 libs/ui/KisApplication.cpp:705
 #: libs/ui/KisApplication.cpp:731 libs/ui/KisApplication.cpp:757
 #: libs/ui/KisApplication.cpp:778 libs/ui/KisDocument.cpp:834
@@ -15359,23 +15359,29 @@ msgid ""
 "the image?"
 msgstr "Rasmda yashirin qatlamlar mavjud. Ular yoʻqoladi."
 
-#: libs/ui/kis_layer_manager.cc:722
+#: libs/ui/kis_layer_manager.cc:683
+#, fuzzy, kde-format
+msgctxt "floating message in layer manager"
+msgid "Layer is locked "
+msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
+
+#: libs/ui/kis_layer_manager.cc:729
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "Qatlamni burish"
 
-#: libs/ui/kis_layer_manager.cc:761
+#: libs/ui/kis_layer_manager.cc:768
 #, kde-format
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: libs/ui/kis_layer_manager.cc:764
+#: libs/ui/kis_layer_manager.cc:771
 #, kde-format
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
-#: libs/ui/kis_layer_manager.cc:814
+#: libs/ui/kis_layer_manager.cc:821
 #, kde-format
 msgid "No file name specified"
 msgstr ""
@@ -19511,6 +19517,11 @@ msgstr "Chizish: Rang"
 msgid "&Add to Predefined Gradients"
 msgstr "Oldindan &aniqlangan gradientlarga qoʻshish"
 
+#: libs/widgets/KoIconToolTip.cpp:53
+#, kde-format
+msgid "Tags"
+msgstr ""
+
 #: libs/widgets/KoPageLayoutDialog.cpp:46
 #, kde-format
 msgid "Page Layout"
@@ -19693,11 +19704,6 @@ msgstr "Bogʻni olib tashlash"
 #, fuzzy, kde-format
 msgid "Remove from other tag"
 msgstr "Izohni olib tashlash"
-
-#: libs/widgets/KoResourceModel.cpp:90
-#, kde-format
-msgid "Tags"
-msgstr ""
 
 #: libs/widgets/KoResourceTaggingManager.cpp:157
 #, kde-format
@@ -22686,35 +22692,35 @@ msgstr "&Nomi:"
 msgid "Composition"
 msgstr "Kompozitsiyasiz"
 
-#: plugins/dockers/defaultdockers/kis_layer_box.cpp:114
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:150
 #, kde-format
 msgid "Layers"
 msgstr "Qatlamlar"
 
-#: plugins/dockers/defaultdockers/kis_layer_box.cpp:169
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:207
 #, fuzzy, kde-format
 msgid "&Select Opaque"
 msgstr "Tanlash"
 
-#: plugins/dockers/defaultdockers/kis_layer_box.cpp:196
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:234
 #, fuzzy, kde-format
 msgid "&Show Global Selection Mask"
 msgstr "Tanlash boʻyogʻi"
 
-#: plugins/dockers/defaultdockers/kis_layer_box.cpp:199
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:237
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Shows global selection as a usual selection mask in <b>Layers</b> docker"
 msgstr ""
 
-#: plugins/dockers/defaultdockers/kis_layer_box.cpp:571
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:609
 #, fuzzy, kde-format
 #| msgid "Layer Visibility"
 msgid "&Locks && visibility"
 msgstr "Qatlamni koʻrsatish/bekitish"
 
-#: plugins/dockers/defaultdockers/kis_layer_box.cpp:578
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:616
 #, kde-format
 msgid "&Add"
 msgstr ""
