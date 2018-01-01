@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-31 03:09+0100\n"
+"POT-Creation-Date: 2018-01-01 03:04+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1948,10 +1948,10 @@ msgstr "Rasmni &180 darajaga burish"
 #. i18n: context: Action (object_transform_rotate_180), Actions (Interaction Tool), ActionCollection (Tools)
 #: krita/data/actions/InteractionTool.action:221
 #, fuzzy, kde-format
-#| msgid "Rotate CCW"
+#| msgid "Rotate 1&80"
 msgctxt "action"
-msgid "Rotate 180° CCW"
-msgstr "Soat koʻrsatgichiga teskari burish"
+msgid "Rotate 180°"
+msgstr "1&80 darajaga burish"
 
 #. i18n: context: Action (object_transform_rotate_180), Actions (Interaction Tool), ActionCollection (Tools)
 #: krita/data/actions/InteractionTool.action:222
@@ -6066,491 +6066,505 @@ msgctxt "action"
 msgid "Save Layer/Mask"
 msgstr "Qatlamni rasm sifatida saqlash..."
 
-#. i18n: context: Action (save_groups_as_images), Actions (Layers), ActionCollection (Krita)
+#. i18n: context: Action (save_vector_node_to_svg), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2603
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Save Vector Layer as SVG..."
+msgstr "Yangi qatlamlar &guruhi..."
+
+#. i18n: context: Action (save_vector_node_to_svg), Actions (Layers), ActionCollection (Krita)
+#: krita/krita.action:2605
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Save Vector Layer as SVG"
+msgstr "Qatlam %1"
+
+#. i18n: context: Action (save_groups_as_images), Actions (Layers), ActionCollection (Krita)
+#: krita/krita.action:2615
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Save &Group Layers..."
 msgstr "Yangi qatlamlar &guruhi..."
 
 #. i18n: context: Action (save_groups_as_images), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2605
+#: krita/krita.action:2617
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Save Group Layers"
 msgstr "Yangi qatlamlar &guruhi..."
 
 #. i18n: context: Action (convert_group_to_animated), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2615
+#: krita/krita.action:2627
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Convert group to &animated layer"
 msgstr "Joriy qatlam"
 
 #. i18n: context: Action (convert_group_to_animated), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2617
+#: krita/krita.action:2629
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Convert child layers into animation frames"
 msgstr "Kompozitsiyasiz"
 
 #. i18n: context: Action (convert_layer_to_file_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2627
+#: krita/krita.action:2639
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "to &File Layer"
 msgstr "Filterlar &toʻplami"
 
 #. i18n: context: Action (convert_layer_to_file_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2629
+#: krita/krita.action:2641
 #, kde-format
 msgctxt "action"
 msgid "Saves out the layers into a new image and then references that image."
 msgstr ""
 
 #. i18n: context: Action (import_layer_from_file), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2639
+#: krita/krita.action:2651
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "I&mport Layer..."
 msgstr "&Yangi qatlam..."
 
 #. i18n: context: Action (import_layer_from_file), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2641
+#: krita/krita.action:2653
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Import Layer"
 msgstr "&Yangi qatlam..."
 
 #. i18n: context: Action (import_layer_as_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2651
+#: krita/krita.action:2663
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&as Paint Layer..."
 msgstr "&Qatlam"
 
 #. i18n: context: Action (import_layer_as_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2653
+#: krita/krita.action:2665
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "as Paint Layer"
 msgstr "&Qatlam"
 
 #. i18n: context: Action (import_layer_as_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2663
+#: krita/krita.action:2675
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "as &Transparency Mask..."
 msgstr "Shaffof"
 
 #. i18n: context: Action (import_layer_as_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2665
+#: krita/krita.action:2677
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "as Transparency Mask"
 msgstr "Shaffof"
 
 #. i18n: context: Action (import_layer_as_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2675
+#: krita/krita.action:2687
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "as &Filter Mask..."
 msgstr "Filterlar"
 
 #. i18n: context: Action (import_layer_as_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2677
+#: krita/krita.action:2689
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "as Filter Mask"
 msgstr "Filterlar"
 
 #. i18n: context: Action (import_layer_as_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2687
+#: krita/krita.action:2699
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "as &Selection Mask..."
 msgstr "Tanlash boʻyogʻi"
 
 #. i18n: context: Action (import_layer_as_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2689
+#: krita/krita.action:2701
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "as Selection Mask"
 msgstr "Tanlash boʻyogʻi"
 
 #. i18n: context: Action (convert_to_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2699
+#: krita/krita.action:2711
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "to &Paint Layer"
 msgstr "&Qatlam"
 
 #. i18n: context: Action (convert_to_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2701
+#: krita/krita.action:2713
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "to Paint Layer"
 msgstr "&Qatlam"
 
 #. i18n: context: Action (convert_to_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2711
+#: krita/krita.action:2723
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "to &Transparency Mask"
 msgstr "Shaffof"
 
 #. i18n: context: Action (convert_to_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2713
+#: krita/krita.action:2725
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "to Transparency Mask"
 msgstr "Shaffof"
 
 #. i18n: context: Action (convert_to_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2723
+#: krita/krita.action:2735
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "to &Filter Mask..."
 msgstr "Filterlar"
 
 #. i18n: context: Action (convert_to_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2725
+#: krita/krita.action:2737
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "to Filter Mask"
 msgstr "Filterlar"
 
 #. i18n: context: Action (convert_to_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2735
+#: krita/krita.action:2747
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "to &Selection Mask"
 msgstr "Tanlash boʻyogʻi"
 
 #. i18n: context: Action (convert_to_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2737
+#: krita/krita.action:2749
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "to Selection Mask"
 msgstr "Tanlash boʻyogʻi"
 
 #. i18n: context: Action (split_alpha_into_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2747
+#: krita/krita.action:2759
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&Alpha into Mask"
 msgstr "Alfa moslamalari"
 
 #. i18n: context: Action (split_alpha_into_mask), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2749
+#: krita/krita.action:2761
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Alpha into Mask"
 msgstr "Alfa moslamalari"
 
 #. i18n: context: Action (split_alpha_write), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2759
+#: krita/krita.action:2771
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&Write as Alpha"
 msgstr "Rangni palitraga qoʻshish"
 
 #. i18n: context: Action (split_alpha_write), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2761
+#: krita/krita.action:2773
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Write as Alpha"
 msgstr "Rangni palitraga qoʻshish"
 
 #. i18n: context: Action (split_alpha_save_merged), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2771
+#: krita/krita.action:2783
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&Save Merged..."
 msgstr "Koʻchi&rish"
 
 #. i18n: context: Action (split_alpha_save_merged), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2773
+#: krita/krita.action:2785
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Save Merged"
 msgstr "Koʻchi&rish"
 
 #. i18n: context: Action (layersplit), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2783
+#: krita/krita.action:2795
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Split Layer..."
 msgstr "Yangi qatlam"
 
 #. i18n: context: Action (layersplit), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2785
+#: krita/krita.action:2797
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Split Layer"
 msgstr "Yangi qatlam"
 
 #. i18n: context: Action (waveletdecompose), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2795
+#: krita/krita.action:2807
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Wavelet Decompose ..."
 msgstr "Tanlanganni bekitish"
 
 #. i18n: context: Action (waveletdecompose), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2797
+#: krita/krita.action:2809
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Wavelet Decompose"
 msgstr "Piksel balandligi"
 
 #. i18n: context: Action (mirrorNodeX), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2807
+#: krita/krita.action:2819
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Mirror Layer Hori&zontally"
 msgstr "Ufq 1"
 
 #. i18n: context: Action (mirrorNodeX), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2809
+#: krita/krita.action:2821
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Mirror Layer Horizontally"
 msgstr "Ufq 1"
 
 #. i18n: context: Action (mirrorNodeY), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2819
+#: krita/krita.action:2831
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Mirror Layer &Vertically"
 msgstr "Uskuna:"
 
 #. i18n: context: Action (mirrorNodeY), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2821
+#: krita/krita.action:2833
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Mirror Layer Vertically"
 msgstr "Uskuna:"
 
 #. i18n: context: Action (rotatelayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2831
+#: krita/krita.action:2843
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&Rotate Layer..."
 msgstr "Qatla&mni burish..."
 
 #. i18n: context: Action (rotatelayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2833
+#: krita/krita.action:2845
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Rotate Layer"
 msgstr "Qatlamni burish"
 
 #. i18n: context: Action (rotateLayerCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2843
+#: krita/krita.action:2855
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Rotate &Layer 90° to the Right"
 msgstr "Qatlamni burish"
 
 #. i18n: context: Action (rotateLayerCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2845
+#: krita/krita.action:2857
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Rotate Layer 90° to the Right"
 msgstr "Qatlamni burish"
 
 #. i18n: context: Action (rotateLayerCCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2855
+#: krita/krita.action:2867
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Rotate Layer &90° to the Left"
 msgstr "Qatlamni burish"
 
 #. i18n: context: Action (rotateLayerCCW90), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2857
+#: krita/krita.action:2869
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Rotate Layer 90° to the Left"
 msgstr "Qatlamni burish"
 
 #. i18n: context: Action (rotateLayer180), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2867
+#: krita/krita.action:2879
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Rotate Layer &180°"
 msgstr "Qatlamni burish"
 
 #. i18n: context: Action (rotateLayer180), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2869
+#: krita/krita.action:2881
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Rotate Layer 180°"
 msgstr "Qatlamni burish"
 
 #. i18n: context: Action (layersize), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2879
+#: krita/krita.action:2891
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Scale &Layer to new Size..."
 msgstr "Qatlamni rasm sifatida saqlash..."
 
 #. i18n: context: Action (layersize), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2881
+#: krita/krita.action:2893
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Scale Layer to new Size"
 msgstr "Qatlamni rasm sifatida saqlash..."
 
 #. i18n: context: Action (shearlayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2891
+#: krita/krita.action:2903
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&Shear Layer..."
 msgstr "&Yangi qatlam..."
 
 #. i18n: context: Action (shearlayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2893
+#: krita/krita.action:2905
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Shear Layer"
 msgstr "Yangi qatlam"
 
 #. i18n: context: Action (offsetlayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2903
+#: krita/krita.action:2915
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&Offset Layer..."
 msgstr "&Oʻzgartirib boʻladigan qatlam..."
 
 #. i18n: context: Action (offsetlayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2905
+#: krita/krita.action:2917
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Offset Layer"
 msgstr "X Ofset:"
 
 #. i18n: context: Action (clones_array), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2915
+#: krita/krita.action:2927
 #, kde-format
 msgctxt "action"
 msgid "Clones &Array..."
 msgstr ""
 
 #. i18n: context: Action (clones_array), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2917
+#: krita/krita.action:2929
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Clones Array"
 msgstr "Yangi &obʼekt qatlami"
 
 #. i18n: context: Action (EditLayerMetaData), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2927
+#: krita/krita.action:2939
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&Edit metadata..."
 msgstr "Palitrani oʻzgartirish"
 
 #. i18n: context: Action (EditLayerMetaData), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2929
+#: krita/krita.action:2941
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Edit metadata"
 msgstr "Palitrani oʻzgartirish"
 
 #. i18n: context: Action (histogram), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2939
+#: krita/krita.action:2951
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&Histogram..."
 msgstr "Gistogramma"
 
 #. i18n: context: Action (histogram), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2941
+#: krita/krita.action:2953
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Histogram"
 msgstr "Gistogramma"
 
 #. i18n: context: Action (layercolorspaceconversion), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2951
+#: krita/krita.action:2963
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&Convert Layer Color Space..."
 msgstr "Rasmning turini oʻzgartirish"
 
 #. i18n: context: Action (layercolorspaceconversion), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2953
+#: krita/krita.action:2965
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Convert Layer Color Space"
 msgstr "Rasmning turini oʻzgartirish"
 
 #. i18n: context: Action (merge_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2963
+#: krita/krita.action:2975
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&Merge with Layer Below"
 msgstr "&Pastgi qatlam bilan birlashtirish"
 
 #. i18n: context: Action (merge_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2965
+#: krita/krita.action:2977
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Merge with Layer Below"
 msgstr "Pastgi qatlam bilan birlashtirish"
 
 #. i18n: context: Action (flatten_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2975
+#: krita/krita.action:2987
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&Flatten Layer"
 msgstr "Filterlar &toʻplami"
 
 #. i18n: context: Action (flatten_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2977
+#: krita/krita.action:2989
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Flatten Layer"
 msgstr "Silliqlangan rasm"
 
 #. i18n: context: Action (rasterize_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2987
+#: krita/krita.action:2999
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Ras&terize Layer"
 msgstr "Qatlamni burish"
 
 #. i18n: context: Action (rasterize_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2989
+#: krita/krita.action:3001
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Rasterize Layer"
 msgstr "Qatlamni burish"
 
 #. i18n: context: Action (flatten_image), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2999
+#: krita/krita.action:3011
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Flatten ima&ge"
 msgstr "&Silliqlangan rasm"
 
 #. i18n: context: Action (flatten_image), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3001
+#: krita/krita.action:3013
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Flatten image"
 msgstr "&Silliqlangan rasm"
 
 #. i18n: context: Action (layer_style), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3011
+#: krita/krita.action:3023
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "La&yer Style..."
 msgstr "Qat&lam..."
 
 #. i18n: context: Action (layer_style), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3013
+#: krita/krita.action:3025
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Layer Style"
@@ -6560,7 +6574,7 @@ msgstr "Qatlamning oʻlchami"
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3023 krita/krita.action:3025
+#: krita/krita.action:3035 krita/krita.action:3037
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Move into previous group"
@@ -6570,7 +6584,7 @@ msgstr "Qatlamni yuqoriga koʻchirish"
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3035 krita/krita.action:3037
+#: krita/krita.action:3047 krita/krita.action:3049
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Move into next group"
@@ -6580,21 +6594,21 @@ msgstr "Qatlamni yuqoriga koʻchirish"
 #. i18n: context: Action (RenameCurrentLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (RenameCurrentLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (RenameCurrentLayer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3047 krita/krita.action:3049
+#: krita/krita.action:3059 krita/krita.action:3061
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Rename current layer"
 msgstr "Joriy qatlamni oʻchirish"
 
 #. i18n: context: Action (remove_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3059
+#: krita/krita.action:3071
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&Remove Layer"
 msgstr "Qatlamni &olib tashlash"
 
 #. i18n: context: Action (remove_layer), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3061
+#: krita/krita.action:3073
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Remove Layer"
@@ -6604,7 +6618,7 @@ msgstr "Qatlamni olib tashlash"
 #. i18n: context: Action (move_layer_up), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_up), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_up), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3071 krita/krita.action:3073
+#: krita/krita.action:3083 krita/krita.action:3085
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Move Layer or Mask Up"
@@ -6614,7 +6628,7 @@ msgstr "Qatlamni yuqoriga koʻchirish"
 #. i18n: context: Action (move_layer_down), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_down), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_down), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3081 krita/krita.action:3083
+#: krita/krita.action:3093 krita/krita.action:3095
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Move Layer or Mask Down"
@@ -6624,7 +6638,7 @@ msgstr "Qatlamni pastga koʻchirish"
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3091 krita/kritamenu.action:942
+#: krita/krita.action:3103 krita/kritamenu.action:942
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "&Properties..."
@@ -6634,7 +6648,7 @@ msgstr "Qatlamning xossalari"
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3093 krita/kritamenu.action:944
+#: krita/krita.action:3105 krita/kritamenu.action:944
 #, fuzzy, kde-format
 msgctxt "action"
 msgid "Properties"
@@ -6686,7 +6700,7 @@ msgid "&Image"
 msgstr "&Rasm"
 
 #. i18n: ectx: property (text), widget (QRadioButton, freeRotationRadioButton)
-#: krita/krita4.xmlgui:144 krita/krita4.xmlgui:225
+#: krita/krita4.xmlgui:144 krita/krita4.xmlgui:226
 #: plugins/extensions/rotateimage/rotateimage.xmlgui:5
 #: plugins/extensions/rotateimage/rotateimage.xmlgui:18
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:561
@@ -6712,19 +6726,19 @@ msgid "&Import/Export"
 msgstr "Rasmni import qilish"
 
 #. i18n: ectx: property (text), widget (QPushButton, addPresetButton)
-#: krita/krita4.xmlgui:187
+#: krita/krita4.xmlgui:188
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:64
 #, fuzzy, kde-format
 msgid "Import"
 msgstr "Rasmni import qilish"
 
-#: krita/krita4.xmlgui:195 plugins/dockers/defaultdockers/kis_layer_box.cpp:619
+#: krita/krita4.xmlgui:196 plugins/dockers/defaultdockers/kis_layer_box.cpp:619
 #, fuzzy, kde-format
 msgid "&Convert"
 msgstr "&Teskari"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
-#: krita/krita4.xmlgui:206 krita/krita4.xmlgui:262
+#: krita/krita4.xmlgui:207 krita/krita4.xmlgui:263
 #: plugins/dockers/defaultdockers/kis_layer_box.cpp:595
 #: plugins/extensions/colorrange/wdg_colorrange.ui:130
 #: plugins/extensions/imagesize/imagesize.xmlgui:12
@@ -6733,66 +6747,66 @@ msgstr "&Teskari"
 msgid "&Select"
 msgstr "&Tanlash"
 
-#: krita/krita4.xmlgui:214 plugins/dockers/defaultdockers/kis_layer_box.cpp:601
+#: krita/krita4.xmlgui:215 plugins/dockers/defaultdockers/kis_layer_box.cpp:601
 #, fuzzy, kde-format
 #| msgid "Group:"
 msgid "&Group"
 msgstr "Guruh:"
 
-#: krita/krita4.xmlgui:220
+#: krita/krita4.xmlgui:221
 #, fuzzy, kde-format
 msgid "&Transform"
 msgstr "Boshqa shaklga almashtirish"
 
-#: krita/krita4.xmlgui:236
+#: krita/krita4.xmlgui:237
 #, fuzzy, kde-format
 msgid "S&plit"
 msgstr "Rangni palitraga qoʻshish"
 
-#: krita/krita4.xmlgui:238 plugins/dockers/defaultdockers/kis_layer_box.cpp:626
+#: krita/krita4.xmlgui:239 plugins/dockers/defaultdockers/kis_layer_box.cpp:626
 #, fuzzy, kde-format
 msgid "S&plit Alpha"
 msgstr "Rangni palitraga qoʻshish"
 
-#: krita/krita4.xmlgui:288
+#: krita/krita4.xmlgui:289
 #, kde-format
 msgid "Filte&r"
 msgstr "Filte&r"
 
-#: krita/krita4.xmlgui:308 libs/widgetutils/xmlgui/ui_standards.xmlgui:144
+#: krita/krita4.xmlgui:309 libs/widgetutils/xmlgui/ui_standards.xmlgui:144
 #: plugins/extensions/bigbrother/bigbrother.xmlgui:4
 #, fuzzy, kde-format
 msgid "&Tools"
 msgstr "Yulduz vositasi"
 
-#: krita/krita4.xmlgui:311 plugins/extensions/bigbrother/bigbrother.xmlgui:5
+#: krita/krita4.xmlgui:312 plugins/extensions/bigbrother/bigbrother.xmlgui:5
 #, fuzzy, kde-format
 msgid "Recording"
 msgstr "Toʻgʻri burcha&k"
 
-#: krita/krita4.xmlgui:316 plugins/extensions/bigbrother/bigbrother.xmlgui:9
+#: krita/krita4.xmlgui:317 plugins/extensions/bigbrother/bigbrother.xmlgui:9
 #, kde-format
 msgid "Macros"
 msgstr ""
 
-#: krita/krita4.xmlgui:322 plugins/tools/svgtexttool/svgtexttool.xmlgui:62
+#: krita/krita4.xmlgui:323 plugins/tools/svgtexttool/svgtexttool.xmlgui:62
 #, fuzzy, kde-format
 msgid "Setti&ngs"
 msgstr "Moslamalar"
 
-#: krita/krita4.xmlgui:345 libs/widgetutils/xmlgui/khelpmenu.cpp:155
+#: krita/krita4.xmlgui:346 libs/widgetutils/xmlgui/khelpmenu.cpp:155
 #: libs/widgetutils/xmlgui/ui_standards.xmlgui:177
 #, fuzzy, kde-format
 msgid "&Help"
 msgstr "Koʻrsatish/&bekitish"
 
-#: krita/krita4.xmlgui:360 libs/ui/kis_file_layer.cpp:124
+#: krita/krita4.xmlgui:361 libs/ui/kis_file_layer.cpp:124
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:69
 #, fuzzy, kde-format
 msgid "File"
 msgstr "&Filter"
 
-#: krita/krita4.xmlgui:369
+#: krita/krita4.xmlgui:370
 #, fuzzy, kde-format
 msgid "Brushes and Stuff"
 msgstr "Choʻtka va boshqa ish qurollari"
@@ -9334,7 +9348,7 @@ msgstr ""
 msgid "No 'text' node found!"
 msgstr ""
 
-#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:348
+#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:356
 #, kde-format
 msgid "Unknown error writing SVG text element"
 msgstr ""
@@ -12883,19 +12897,20 @@ msgstr "Tanlash usuli:"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:318
 #: libs/ui/input/kis_tablet_debugger.cpp:104 libs/ui/kis_filter_manager.cc:218
 #: libs/ui/kis_filter_manager.cc:227 libs/ui/kis_layer_manager.cc:347
-#: libs/ui/kis_layer_manager.cc:906 libs/ui/KisApplication.cpp:733
-#: libs/ui/KisApplication.cpp:736 libs/ui/KisApplication.cpp:758
-#: libs/ui/KisApplication.cpp:784 libs/ui/KisApplication.cpp:805
-#: libs/ui/KisDocument.cpp:608 libs/ui/KisDocument.cpp:998
-#: libs/ui/KisDocument.cpp:1080 libs/ui/KisDocument.cpp:1120
-#: libs/ui/KisDocument.cpp:1128 libs/ui/KisMainWindow.cpp:807
-#: libs/ui/KisMainWindow.cpp:893 libs/ui/KisMainWindow.cpp:906
-#: libs/ui/KisMainWindow.cpp:956 libs/ui/KisMainWindow.cpp:1687
-#: libs/ui/KisMainWindow.cpp:1717 libs/ui/KisMainWindow.cpp:1794
-#: libs/ui/KisMainWindow.cpp:1806 libs/ui/KisPart.cpp:428
-#: libs/ui/KisPart.cpp:431 libs/ui/KisRemoteFileFetcher.cpp:56
-#: libs/ui/KisTemplateCreateDia.cpp:298 libs/ui/KisTemplateCreateDia.cpp:404
-#: libs/ui/KisView.cpp:712 libs/ui/opengl/kis_opengl_canvas2.cpp:340
+#: libs/ui/kis_layer_manager.cc:906 libs/ui/kis_node_manager.cpp:1088
+#: libs/ui/KisApplication.cpp:733 libs/ui/KisApplication.cpp:736
+#: libs/ui/KisApplication.cpp:758 libs/ui/KisApplication.cpp:784
+#: libs/ui/KisApplication.cpp:805 libs/ui/KisDocument.cpp:608
+#: libs/ui/KisDocument.cpp:998 libs/ui/KisDocument.cpp:1080
+#: libs/ui/KisDocument.cpp:1120 libs/ui/KisDocument.cpp:1128
+#: libs/ui/KisMainWindow.cpp:807 libs/ui/KisMainWindow.cpp:893
+#: libs/ui/KisMainWindow.cpp:906 libs/ui/KisMainWindow.cpp:956
+#: libs/ui/KisMainWindow.cpp:1687 libs/ui/KisMainWindow.cpp:1717
+#: libs/ui/KisMainWindow.cpp:1794 libs/ui/KisMainWindow.cpp:1806
+#: libs/ui/KisPart.cpp:428 libs/ui/KisPart.cpp:431
+#: libs/ui/KisRemoteFileFetcher.cpp:56 libs/ui/KisTemplateCreateDia.cpp:298
+#: libs/ui/KisTemplateCreateDia.cpp:404 libs/ui/KisView.cpp:712
+#: libs/ui/opengl/kis_opengl_canvas2.cpp:340
 #: libs/ui/opengl/kis_opengl_image_textures.cpp:652
 #: libs/ui/widgets/kis_custom_image_widget.cc:267
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:671
@@ -16759,136 +16774,147 @@ msgstr "Qatlamning xossalari"
 msgid "Mirror View"
 msgstr "Rasmni kesish"
 
-#: libs/ui/kis_node_manager.cpp:432
+#: libs/ui/kis_node_manager.cpp:437
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Move Nodes"
 msgstr "Koʻchirish vositasi"
 
-#: libs/ui/kis_node_manager.cpp:439
+#: libs/ui/kis_node_manager.cpp:444
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Copy Nodes"
 msgstr "Yashildan nusxa olish"
 
-#: libs/ui/kis_node_manager.cpp:446
+#: libs/ui/kis_node_manager.cpp:451
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Add Nodes"
 msgstr "&Manbalar"
 
-#: libs/ui/kis_node_manager.cpp:582
+#: libs/ui/kis_node_manager.cpp:587
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to a Selection Mask"
 msgstr "Tanlanganni bekitish"
 
-#: libs/ui/kis_node_manager.cpp:778
+#: libs/ui/kis_node_manager.cpp:783
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Duplicate Nodes"
 msgstr "Asboblar nusxasini koʻpaytirish"
 
-#: libs/ui/kis_node_manager.cpp:800
+#: libs/ui/kis_node_manager.cpp:805
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Raise Nodes"
 msgstr "Koʻchirish vositasi"
 
-#: libs/ui/kis_node_manager.cpp:807
+#: libs/ui/kis_node_manager.cpp:812
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Lower Nodes"
 msgstr "Koʻchirish vositasi"
 
-#: libs/ui/kis_node_manager.cpp:825
+#: libs/ui/kis_node_manager.cpp:830
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Remove Nodes"
 msgstr "Koʻchirish vositasi"
 
-#: libs/ui/kis_node_manager.cpp:841
+#: libs/ui/kis_node_manager.cpp:846
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer X"
 msgstr "Qatlamni koʻchirish"
 
-#: libs/ui/kis_node_manager.cpp:843
+#: libs/ui/kis_node_manager.cpp:848
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask X"
 msgstr "Qatlamni koʻchirish"
 
-#: libs/ui/kis_node_manager.cpp:854
+#: libs/ui/kis_node_manager.cpp:859
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Y"
 msgstr "Qatlamni koʻchirish"
 
-#: libs/ui/kis_node_manager.cpp:856
+#: libs/ui/kis_node_manager.cpp:861
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr "Qatlamni koʻchirish"
 
-#: libs/ui/kis_node_manager.cpp:999
+#: libs/ui/kis_node_manager.cpp:1004
 #, fuzzy, kde-format
 msgid "Export \"%1\""
 msgstr "Ekspozitsiya:"
 
-#: libs/ui/kis_node_manager.cpp:1069
+#: libs/ui/kis_node_manager.cpp:1068
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Export to SVG"
+msgstr "Ekspozitsiya:"
+
+#: libs/ui/kis_node_manager.cpp:1088
+#, fuzzy, kde-format
+msgid "Could not save to svg: %1"
+msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
+
+#: libs/ui/kis_node_manager.cpp:1108
 msgctxt "(qtundo-format)"
 msgid "Split Alpha into a Mask"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1099
+#: libs/ui/kis_node_manager.cpp:1138
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Layer %1 is not editable"
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: libs/ui/kis_node_manager.cpp:1100
+#: libs/ui/kis_node_manager.cpp:1139
 #, kde-format
 msgid ""
 "Cannot write alpha channel of the parent layer \"%1\".\n"
 "The operation will be cancelled."
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1131
+#: libs/ui/kis_node_manager.cpp:1170
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Write Alpha into a Layer"
 msgstr "Yangi qatlam yaratish"
 
-#: libs/ui/kis_node_manager.cpp:1246
+#: libs/ui/kis_node_manager.cpp:1285
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Cut Nodes"
 msgstr "Asboblar nusxasini koʻpaytirish"
 
-#: libs/ui/kis_node_manager.cpp:1319
+#: libs/ui/kis_node_manager.cpp:1358
 msgctxt "(qtundo-format)"
 msgid "Quick Group"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1330
+#: libs/ui/kis_node_manager.cpp:1369
 msgctxt "(qtundo-format)"
 msgid "Quick Clipping Group"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1337
+#: libs/ui/kis_node_manager.cpp:1376
 #, kde-format
 msgctxt "default name for a clipping group layer"
 msgid "Clipping Group"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1339
+#: libs/ui/kis_node_manager.cpp:1378
 #, fuzzy, kde-format
 msgctxt "default name for quick clip group mask layer"
 msgid "Mask Layer"
 msgstr "&Qatlam"
 
-#: libs/ui/kis_node_manager.cpp:1353
+#: libs/ui/kis_node_manager.cpp:1392
 msgctxt "(qtundo-format)"
 msgid "Quick Ungroup"
 msgstr ""
@@ -16981,7 +17007,7 @@ msgstr "Filter"
 #: libs/ui/kis_paintop_options_model.cpp:49
 #, fuzzy, kde-format
 msgctxt "option category"
-msgid "Masking Brush"
+msgid "Masked Brush"
 msgstr "Filtrli choʻtka"
 
 #: libs/ui/kis_palette_view.cpp:85
@@ -20689,10 +20715,9 @@ msgctxt ""
 "comma"
 msgid ""
 "Adapter,Animator,Artist,Art Director,Author,Assistant,Editor,Background,"
-"Artist,Cartoonist,Colorist,Concept Artist,Corrector,Cover Artist,Creator,"
-"Designer,Editor,Inker,Letterer,Matte Painter,Painter,Penciller,Proofreader,"
-"Pixel Artist,Redliner,Sprite Artist,Typographer,Texture Artist,Translator,"
-"Writer,Other"
+"Cartoonist,Colorist,Concept Artist,Corrector,Cover Artist,Creator,Designer,"
+"Inker,Letterer,Matte Painter,Painter,Penciller,Proofreader,Pixel Artist,"
+"Redliner,Sprite Artist,Typographer,Texture Artist,Translator,Writer,Other"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
@@ -24004,12 +24029,8 @@ msgstr "Qatlamni olib tashlash"
 
 #. i18n: ectx: property (text), widget (QPushButton, zoomIn)
 #. i18n: ectx: property (text), widget (QToolButton, btnShowHide)
-#. i18n: ectx: property (text), widget (QPushButton, pb_more_contrast)
-#. i18n: ectx: property (text), widget (QPushButton, pb_more_brightness)
 #: plugins/dockers/animation/onion_skins_docker.ui:71
 #: plugins/extensions/histogram/wdghistogram.ui:136
-#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:241
-#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:261
 #, kde-format
 msgid "+"
 msgstr "+"
@@ -25522,11 +25543,7 @@ msgid "&Logarithmic"
 msgstr "&Logarifmik"
 
 #. i18n: ectx: property (text), widget (QPushButton, zoomOut)
-#. i18n: ectx: property (text), widget (QPushButton, pb_less_contrast)
-#. i18n: ectx: property (text), widget (QPushButton, pb_less_brightness)
 #: plugins/extensions/histogram/wdghistogram.ui:149
-#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:221
-#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:271
 #, kde-format
 msgid "-"
 msgstr "-"
@@ -27972,7 +27989,7 @@ msgstr "Chegara:"
 msgid "Color Picker:"
 msgstr "Rang tanlagich"
 
-#: plugins/filters/colorsfilters/colorsfilters.cpp:88
+#: plugins/filters/colorsfilters/colorsfilters.cpp:86
 #, kde-format
 msgid "&Auto Contrast"
 msgstr "A&vto-kontrast"
@@ -27981,16 +27998,6 @@ msgstr "A&vto-kontrast"
 #, kde-format
 msgid "Auto Contrast"
 msgstr "Avto-kontrast"
-
-#: plugins/filters/colorsfilters/kis_brightness_contrast_filter.cpp:163
-#, fuzzy, kde-format
-msgid "&Brightness/Contrast curve..."
-msgstr "Yorugʻlik / kontrast"
-
-#: plugins/filters/colorsfilters/kis_brightness_contrast_filter.h:92
-#, kde-format
-msgid "Brightness / Contrast"
-msgstr "Yorugʻlik / kontrast"
 
 #: plugins/filters/colorsfilters/kis_color_balance_filter.cpp:27
 #, fuzzy, kde-format
@@ -28067,26 +28074,6 @@ msgstr "&Ranglarni moslash..."
 #, kde-format
 msgid "Color Adjustment"
 msgstr "Ranglarni moslash"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgPerChannel)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgBrightnessContrast)
-#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:20
-#: plugins/filters/colorsfilters/wdg_perchannel.ui:20
-#, fuzzy, kde-format
-msgid "BrightnessCon"
-msgstr "Yorugʻlik va kontrast"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabelBrightness)
-#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:231
-#, kde-format
-msgid "Brightness"
-msgstr "Yorugʻlik"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabelContrast)
-#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:251
-#, kde-format
-msgid "Contrast"
-msgstr "Kontrast"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushResetShadows)
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:71
@@ -28232,6 +28219,12 @@ msgstr "Toʻyintirish"
 msgid "&Hue:"
 msgstr "Rang tusi"
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgPerChannel)
+#: plugins/filters/colorsfilters/wdg_perchannel.ui:20
+#, fuzzy, kde-format
+msgid "BrightnessCon"
+msgstr "Yorugʻlik va kontrast"
+
 #. i18n: ectx: property (text), widget (QLabel, labelIn)
 #: plugins/filters/colorsfilters/wdg_perchannel.ui:67
 #, kde-format
@@ -28292,68 +28285,48 @@ msgstr ""
 msgid "XYZ"
 msgstr ""
 
-#: plugins/filters/convolutionfilters/convolutionfilters.cpp:64
+#: plugins/filters/convolutionfilters/convolutionfilters.cpp:59
 #, fuzzy, kde-format
 msgid "&Sharpen"
 msgstr "Shakllar"
 
-#: plugins/filters/convolutionfilters/convolutionfilters.cpp:78
+#: plugins/filters/convolutionfilters/convolutionfilters.cpp:73
 #, fuzzy, kde-format
 msgid "&Mean Removal"
 msgstr "Qatlamni &olib tashlash"
 
-#: plugins/filters/convolutionfilters/convolutionfilters.cpp:92
+#: plugins/filters/convolutionfilters/convolutionfilters.cpp:87
 #: plugins/filters/convolutionfilters/convolutionfilters.h:55
 #, fuzzy, kde-format
 msgid "Emboss (Laplacian)"
 msgstr "Ufq 1"
 
-#: plugins/filters/convolutionfilters/convolutionfilters.cpp:107
+#: plugins/filters/convolutionfilters/convolutionfilters.cpp:102
 #: plugins/filters/convolutionfilters/convolutionfilters.h:65
 #, fuzzy, kde-format
 msgid "Emboss in All Directions"
 msgstr "Tanlanganni bekitish"
 
-#: plugins/filters/convolutionfilters/convolutionfilters.cpp:122
+#: plugins/filters/convolutionfilters/convolutionfilters.cpp:117
 #, fuzzy, kde-format
 msgid "Emboss Horizontal && Vertical"
 msgstr "Ufq 1"
 
-#: plugins/filters/convolutionfilters/convolutionfilters.cpp:137
+#: plugins/filters/convolutionfilters/convolutionfilters.cpp:132
 #: plugins/filters/convolutionfilters/convolutionfilters.h:85
 #, fuzzy, kde-format
 msgid "Emboss Vertical Only"
 msgstr "Uskuna:"
 
-#: plugins/filters/convolutionfilters/convolutionfilters.cpp:152
+#: plugins/filters/convolutionfilters/convolutionfilters.cpp:147
 #: plugins/filters/convolutionfilters/convolutionfilters.h:95
 #, fuzzy, kde-format
 msgid "Emboss Horizontal Only"
 msgstr "Ufq 1"
 
-#: plugins/filters/convolutionfilters/convolutionfilters.cpp:167
-#: plugins/filters/convolutionfilters/convolutionfilters.cpp:183
-#: plugins/filters/convolutionfilters/convolutionfilters.h:115
+#: plugins/filters/convolutionfilters/convolutionfilters.cpp:162
 #, fuzzy, kde-format
 msgid "Top Edge Detection"
-msgstr "Chegarani aniqlash"
-
-#: plugins/filters/convolutionfilters/convolutionfilters.cpp:198
-#: plugins/filters/convolutionfilters/convolutionfilters.h:125
-#, fuzzy, kde-format
-msgid "Right Edge Detection"
-msgstr "Chegarani aniqlash"
-
-#: plugins/filters/convolutionfilters/convolutionfilters.cpp:212
-#: plugins/filters/convolutionfilters/convolutionfilters.h:135
-#, fuzzy, kde-format
-msgid "Bottom Edge Detection"
-msgstr "Chegarani aniqlash"
-
-#: plugins/filters/convolutionfilters/convolutionfilters.cpp:226
-#: plugins/filters/convolutionfilters/convolutionfilters.h:145
-#, fuzzy, kde-format
-msgid "Left Edge Detection"
 msgstr "Chegarani aniqlash"
 
 #: plugins/filters/convolutionfilters/convolutionfilters.h:34
@@ -29010,36 +28983,6 @@ msgstr "Tekshirishlar soni:"
 #, fuzzy, kde-format
 msgid "Small Tiles"
 msgstr "Bitta kichik qadam..."
-
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:49
-#, fuzzy, kde-format
-msgid "&Sobel..."
-msgstr "&Saqlash..."
-
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:170
-#, fuzzy, kde-format
-msgid "Sobel horizontally"
-msgstr "Ufq 1"
-
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:171
-#, fuzzy, kde-format
-msgid "Sobel vertically"
-msgstr "Uskuna:"
-
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:172
-#, kde-format
-msgid "Keep sign of result"
-msgstr ""
-
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:173
-#, fuzzy, kde-format
-msgid "Make image opaque"
-msgstr "Ranglar boʻshligʻi"
-
-#: plugins/filters/sobelfilter/kis_sobel_filter.h:39
-#, fuzzy, kde-format
-msgid "Sobel"
-msgstr "Tosh"
 
 #: plugins/filters/threshold/threshold.cpp:64
 #, fuzzy, kde-format
@@ -36650,7 +36593,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/kis_paint_action_type_option.cpp:111
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Wash Mode is explicitly set by Masking Brush feature"
+msgid "Only wash mode is possible when using a masked brush."
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:30
@@ -38938,9 +38881,9 @@ msgid "Svg Text Editor"
 msgstr "Boʻyoqning oʻlchami"
 
 #: plugins/tools/svgtexttool/main.cpp:47
-#, kde-format
-msgid "Test for the Svg Text Tomol"
-msgstr ""
+#, fuzzy, kde-format
+msgid "Test for the Svg Text Tool"
+msgstr "Belgi uslubini oʻzgartirish"
 
 #: plugins/tools/svgtexttool/main.cpp:49
 #, kde-format
@@ -38998,11 +38941,6 @@ msgstr "Matn vositasi"
 #, fuzzy, kde-format
 msgid "Line height"
 msgstr "Piksel balandligi"
-
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:917
-#, kde-format
-msgid " em"
-msgstr ""
 
 #. i18n: context: Actions (Text Tool), ActionCollection (svg_Tools)
 #: plugins/tools/svgtexttool/SvgTextTool.action:4
@@ -39957,6 +39895,57 @@ msgstr "Tanlanganni bekitish"
 #, kde-format
 msgid "Work Recursively"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Rotate CCW"
+#~ msgctxt "action"
+#~ msgid "Rotate 180° CCW"
+#~ msgstr "Soat koʻrsatgichiga teskari burish"
+
+#, fuzzy
+#~ msgid "&Brightness/Contrast curve..."
+#~ msgstr "Yorugʻlik / kontrast"
+
+#~ msgid "Brightness / Contrast"
+#~ msgstr "Yorugʻlik / kontrast"
+
+#~ msgid "Brightness"
+#~ msgstr "Yorugʻlik"
+
+#~ msgid "Contrast"
+#~ msgstr "Kontrast"
+
+#, fuzzy
+#~ msgid "Right Edge Detection"
+#~ msgstr "Chegarani aniqlash"
+
+#, fuzzy
+#~ msgid "Bottom Edge Detection"
+#~ msgstr "Chegarani aniqlash"
+
+#, fuzzy
+#~ msgid "Left Edge Detection"
+#~ msgstr "Chegarani aniqlash"
+
+#, fuzzy
+#~ msgid "&Sobel..."
+#~ msgstr "&Saqlash..."
+
+#, fuzzy
+#~ msgid "Sobel horizontally"
+#~ msgstr "Ufq 1"
+
+#, fuzzy
+#~ msgid "Sobel vertically"
+#~ msgstr "Uskuna:"
+
+#, fuzzy
+#~ msgid "Make image opaque"
+#~ msgstr "Ranglar boʻshligʻi"
+
+#, fuzzy
+#~ msgid "Sobel"
+#~ msgstr "Tosh"
 
 #, fuzzy
 #~ msgid "Adapter"
@@ -63324,9 +63313,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Applying sobel filter..."
 #~ msgstr "Moyboʻyoq filtri qoʻllanilmoqda..."
-
-#~ msgid "Rotate 1&80"
-#~ msgstr "1&80 darajaga burish"
 
 #, fuzzy
 #~ msgid "&Performance Test"
