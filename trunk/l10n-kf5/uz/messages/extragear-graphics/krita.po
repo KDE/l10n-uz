@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-20 03:13+0100\n"
+"POT-Creation-Date: 2018-02-21 03:17+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -7421,17 +7421,17 @@ msgstr "Andoza yoʻl"
 msgid "Freehand path"
 msgstr "Guruhni olib tashlash"
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:475
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:508
 #, kde-format
 msgid "Angle snapping delta:"
 msgstr ""
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:482
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:515
 #, kde-format
 msgid "Activate angle snap:"
 msgstr ""
 
-#: libs/basicflakes/tools/KoCreatePathTool.cpp:490
+#: libs/basicflakes/tools/KoCreatePathTool.cpp:523
 #, fuzzy, kde-format
 msgid "Angle Constraints"
 msgstr "Tekislashni oʻzgartirish"
@@ -29918,12 +29918,6 @@ msgstr "Ran&g:"
 msgid "&Solid Color..."
 msgstr "Rang chegarasi"
 
-#: plugins/impex/bmp/kis_bmp_import.cpp:65
-#, fuzzy, kde-format
-#| msgid "Import Image"
-msgid "Imported Image"
-msgstr "Rasmni import qilish"
-
 #: plugins/impex/brush/KisAnimatedBrushAnnotation.cpp:29
 #, kde-format
 msgid "Brush selection information for animated brushes"
@@ -31019,6 +31013,11 @@ msgctxt "Automatically created layer name when saving into PSD"
 msgid "Background"
 msgstr "orqa fon"
 
+#: plugins/impex/psd/psd_layer_section.cpp:558
+#, fuzzy, kde-format
+msgid "Unnamed Layer"
+msgstr "Qatlamni qulflash"
+
 #: plugins/impex/psd/psd_loader.cpp:159
 #, kde-format
 msgid "Duotone Colormode Block"
@@ -31028,6 +31027,12 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Unparsed Resource Block"
 msgstr "&Manbalar"
+
+#: plugins/impex/qimageio/kis_qimageio_import.cpp:65
+#, fuzzy, kde-format
+#| msgid "Import Image"
+msgid "Imported Image"
+msgstr "Rasmni import qilish"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:224
 #, kde-format
@@ -35169,7 +35174,7 @@ msgstr "Boʻyoq vositasi"
 msgid "Pan Tool"
 msgstr "Matn vositasi"
 
-#: plugins/tools/basictools/kis_tool_path.cc:118
+#: plugins/tools/basictools/kis_tool_path.cc:119
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Bezier Curve"
