@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-14 03:07+0100\n"
+"POT-Creation-Date: 2018-02-24 03:12+0100\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3491,11 +3491,24 @@ msgid ""
 "<application>Kexi</application> is properly installed.</para>"
 msgstr ""
 
-#: main/KexiRegisterResource_p.h:150
+#: main/KexiRegisterResource_p.h:150 main/KexiRegisterResource_p.h:223
 #, kde-kuit-format
 msgctxt "@info Tried to find files in <dir list>"
 msgid "Tried to find in %1."
 msgstr ""
+
+#: main/KexiRegisterResource_p.h:219
+#, fuzzy, kde-kuit-format
+#| msgid ""
+#| "Could not remove project.\n"
+#| "The file \"%1\" does not exist."
+msgctxt "@info"
+msgid ""
+"Could not open icon resource file <filename>%1</filename>. Please check if "
+"<application>%2</application> is properly installed."
+msgstr ""
+"Loyihani olib tashlab boʻlmadi.\n"
+"\"%1\" fayli mavjud emas."
 
 #: main/KexiSearchLineEdit.cpp:402
 #, kde-kuit-format

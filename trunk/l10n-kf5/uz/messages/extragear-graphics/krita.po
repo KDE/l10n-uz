@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-23 03:21+0100\n"
+"POT-Creation-Date: 2018-02-24 03:14+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -7955,12 +7955,6 @@ msgstr "Qoidadan tashqari holat"
 msgid "Active tool: %1"
 msgstr ""
 
-#: libs/flake/KoToolProxy.cpp:423
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Paste Image"
-msgstr "Matnni qoʻyish"
-
 #: libs/flake/svg/SvgShapeFactory.cpp:36
 #, kde-format
 msgid "Embedded svg shape"
@@ -8023,32 +8017,32 @@ msgstr "Tekislashni oʻzgartirish"
 msgid "Edit Shape"
 msgstr "Boʻsh joy qoʻshish"
 
-#: libs/flake/tools/KoPathTool.cpp:622
+#: libs/flake/tools/KoPathTool.cpp:624
 #, kde-format
 msgid "Drag to move handle."
 msgstr ""
 
-#: libs/flake/tools/KoPathTool.cpp:686
+#: libs/flake/tools/KoPathTool.cpp:688
 #, kde-format
 msgid "Drag to move point. Shift click to change point type."
 msgstr ""
 
-#: libs/flake/tools/KoPathTool.cpp:688
+#: libs/flake/tools/KoPathTool.cpp:690
 #, kde-format
 msgid "Drag to move control point."
 msgstr ""
 
-#: libs/flake/tools/KoPathTool.cpp:716
+#: libs/flake/tools/KoPathTool.cpp:718
 #, kde-format
 msgid "Drag to change curve directly. Double click to insert new path point."
 msgstr ""
 
-#: libs/flake/tools/KoPathTool.cpp:724
+#: libs/flake/tools/KoPathTool.cpp:726
 #, kde-format
 msgid "Press B to break path at selected point."
 msgstr ""
 
-#: libs/flake/tools/KoPathTool.cpp:726
+#: libs/flake/tools/KoPathTool.cpp:728
 #, kde-format
 msgid "Press B to break path at selected segments."
 msgstr ""
@@ -8316,7 +8310,7 @@ msgstr ""
 msgid "Error: incorrect type (%2) for value %1. Expected %3"
 msgstr ""
 
-#: libs/image/brushengine/kis_paintop_factory.cpp:48
+#: libs/image/brushengine/kis_paintop_factory.cpp:50
 #, fuzzy, kde-format
 msgctxt "Category of brush engines"
 msgid "Brush engines"
@@ -9078,9 +9072,9 @@ msgid "Processing"
 msgstr "Bosim"
 
 #: libs/image/kis_psd_layer_style.cpp:99
-#: libs/ui/KisApplicationArguments.cpp:335 libs/ui/KisDocument.cpp:1540
-#: libs/ui/KisMainWindow.cpp:1077 libs/ui/KisMainWindow.cpp:1386
-#: libs/ui/KisMainWindow.cpp:1405 plugins/impex/libkra/kis_kra_saver.cpp:83
+#: libs/ui/KisApplicationArguments.cpp:335 libs/ui/KisMainWindow.cpp:1077
+#: libs/ui/KisMainWindow.cpp:1386 libs/ui/KisMainWindow.cpp:1405
+#: plugins/impex/libkra/kis_kra_saver.cpp:83
 #, kde-format
 msgid "Unnamed"
 msgstr "Nomsiz"
@@ -10924,7 +10918,7 @@ msgid "Pasted"
 msgstr "Palitralar"
 
 #: libs/ui/actions/kis_selection_action_factories.cpp:399
-#: libs/ui/actions/KisPasteActionFactory.cpp:187
+#: libs/ui/actions/KisPasteActionFactory.cpp:212
 #, kde-format
 msgid "(pasted)"
 msgstr ""
@@ -10949,7 +10943,7 @@ msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
 msgstr "Siniq chiziq"
 
-#: libs/ui/actions/KisPasteActionFactory.cpp:85
+#: libs/ui/actions/KisPasteActionFactory.cpp:110
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Paste shapes"
@@ -11551,9 +11545,9 @@ msgstr "Tanlash usuli:"
 #: libs/ui/kis_layer_manager.cc:905 libs/ui/kis_node_manager.cpp:1090
 #: libs/ui/KisApplication.cpp:734 libs/ui/KisApplication.cpp:737
 #: libs/ui/KisApplication.cpp:759 libs/ui/KisApplication.cpp:785
-#: libs/ui/KisApplication.cpp:806 libs/ui/KisDocument.cpp:612
-#: libs/ui/KisDocument.cpp:1002 libs/ui/KisDocument.cpp:1084
-#: libs/ui/KisDocument.cpp:1124 libs/ui/KisDocument.cpp:1132
+#: libs/ui/KisApplication.cpp:806 libs/ui/KisDocument.cpp:611
+#: libs/ui/KisDocument.cpp:1001 libs/ui/KisDocument.cpp:1083
+#: libs/ui/KisDocument.cpp:1123 libs/ui/KisDocument.cpp:1131
 #: libs/ui/KisMainWindow.cpp:809 libs/ui/KisMainWindow.cpp:895
 #: libs/ui/KisMainWindow.cpp:908 libs/ui/KisMainWindow.cpp:958
 #: libs/ui/KisMainWindow.cpp:1705 libs/ui/KisMainWindow.cpp:1735
@@ -16200,22 +16194,22 @@ msgstr "Palitra"
 msgid "Palette %1"
 msgstr "Palitra"
 
-#: libs/ui/KisDocument.cpp:515
+#: libs/ui/KisDocument.cpp:514
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:528
+#: libs/ui/KisDocument.cpp:527
 #, fuzzy, kde-format
 msgid "Exporting Document..."
 msgstr "Yangi hujjatlarda ochish"
 
-#: libs/ui/KisDocument.cpp:529
+#: libs/ui/KisDocument.cpp:528
 #, fuzzy, kde-format
 msgid "Saving Document..."
 msgstr "Boshqa hujjat sifatida saqlash"
 
-#: libs/ui/KisDocument.cpp:606
+#: libs/ui/KisDocument.cpp:605
 #, fuzzy, kde-format
 #| msgid "Error during autosave! Partition full?"
 msgctxt "%1 --- failing file name, %2 --- error message"
@@ -16223,30 +16217,30 @@ msgid "Error during saving %1: %2"
 msgstr ""
 "Avtomatik saqlashda xato roʻy berdi! Ehtimol diskda boʻsh joy qolmagan."
 
-#: libs/ui/KisDocument.cpp:612 plugins/extensions/imagesplit/imagesplit.cpp:84
+#: libs/ui/KisDocument.cpp:611 plugins/extensions/imagesplit/imagesplit.cpp:84
 #, fuzzy, kde-format
 msgid ""
 "Could not save %1\n"
 "Reason: %2"
 msgstr "Hech narsa tanlanmagan"
 
-#: libs/ui/KisDocument.cpp:631
+#: libs/ui/KisDocument.cpp:630
 #, fuzzy, kde-format
 msgid "Finished saving %1"
 msgstr "&Siniq chiziq"
 
-#: libs/ui/KisDocument.cpp:763
+#: libs/ui/KisDocument.cpp:762
 #, fuzzy, kde-format
 #| msgid "Autosaving..."
 msgid "Autosaving... %1"
 msgstr "Avto-saqlanmoqda..."
 
-#: libs/ui/KisDocument.cpp:766
+#: libs/ui/KisDocument.cpp:765
 #, kde-format
 msgid "Autosaving..."
 msgstr "Avto-saqlanmoqda..."
 
-#: libs/ui/KisDocument.cpp:789
+#: libs/ui/KisDocument.cpp:788
 #, fuzzy, kde-format
 #| msgid "Error during autosave! Partition full?"
 msgctxt "%1 --- failing file name, %2 --- error message"
@@ -16254,12 +16248,12 @@ msgid "Error during autosaving %1: %2"
 msgstr ""
 "Avtomatik saqlashda xato roʻy berdi! Ehtimol diskda boʻsh joy qolmagan."
 
-#: libs/ui/KisDocument.cpp:802
+#: libs/ui/KisDocument.cpp:801
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:987
+#: libs/ui/KisDocument.cpp:986
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -16268,7 +16262,7 @@ msgstr ""
 "Notoʻgri URL\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1003
+#: libs/ui/KisDocument.cpp:1002
 #, fuzzy, kde-format
 #| msgid ""
 #| "An autosaved file exists for this document.\n"
@@ -16280,34 +16274,34 @@ msgstr ""
 "Bu hujjatning avto-saqlangan nusxasi mavjud.\n"
 "Uni ochishni istaysizmi?"
 
-#: libs/ui/KisDocument.cpp:1084
+#: libs/ui/KisDocument.cpp:1083
 #, kde-format
 msgid "File %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1114
+#: libs/ui/KisDocument.cpp:1113
 #, fuzzy, kde-format
 msgid "Opening document"
 msgstr "Yangi hujjatlarda ochish"
 
-#: libs/ui/KisDocument.cpp:1125
+#: libs/ui/KisDocument.cpp:1124
 #, fuzzy, kde-format
 msgid ""
 "Could not open %2.\n"
 "Reason: %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/ui/KisDocument.cpp:1133
+#: libs/ui/KisDocument.cpp:1132
 #, kde-format
 msgid "There were problems opening %1."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1250
+#: libs/ui/KisDocument.cpp:1249
 #, fuzzy, kde-format
 msgid "Not Saved"
 msgstr "Profil yoʻq"
 
-#: libs/ui/KisDocument.cpp:1597
+#: libs/ui/KisDocument.cpp:1593
 #, fuzzy, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -19136,35 +19130,35 @@ msgstr "Moslash..."
 msgid "Select a color"
 msgstr "Oʻxshash ranglarni tanlash"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:255
+#: libs/ui/widgets/KoFillConfigWidget.cpp:257
 #, fuzzy, kde-format
 msgid "Change the filling color"
 msgstr "Birinchi satrda boʻsh joy"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:290
+#: libs/ui/widgets/KoFillConfigWidget.cpp:292
 #, fuzzy, kde-format
 msgid "Change filling gradient"
 msgstr "Birinchi satrda boʻsh joy"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:311
+#: libs/ui/widgets/KoFillConfigWidget.cpp:313
 #, fuzzy, kde-format
 msgid "Change the filling pattern"
 msgstr "Birinchi satrda boʻsh joy"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:545
+#: libs/ui/widgets/KoFillConfigWidget.cpp:552
 #, fuzzy, kde-format
 #| msgid "Gradient"
 msgctxt "default prefix for the saved gradient"
 msgid "gradient"
 msgstr "Gradient"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:549
+#: libs/ui/widgets/KoFillConfigWidget.cpp:556
 #, fuzzy, kde-format
 #| msgid "Enter group name:"
 msgid "Enter gradient name:"
 msgstr "Guruhning nomini kiriting:"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:549
+#: libs/ui/widgets/KoFillConfigWidget.cpp:556
 #, fuzzy, kde-format
 #| msgid "Gradient"
 msgctxt "@title:window"
@@ -35149,7 +35143,7 @@ msgid "Measure Tool"
 msgstr "Bosim"
 
 #: plugins/tools/basictools/kis_tool_move.cc:209
-#: plugins/tools/basictools/kis_tool_move.cc:365
+#: plugins/tools/basictools/kis_tool_move.cc:376
 #, kde-format
 msgctxt "floating message in move tool"
 msgid "X: %1 px, Y: %2 px"
@@ -35191,7 +35185,7 @@ msgstr "Boʻyoq vositasi"
 msgid "Pan Tool"
 msgstr "Matn vositasi"
 
-#: plugins/tools/basictools/kis_tool_path.cc:119
+#: plugins/tools/basictools/kis_tool_path.cc:113
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Bezier Curve"
@@ -35691,7 +35685,7 @@ msgstr "Boshqa shaklga almashtirish"
 msgid "Press Shift to hold x- or y-position."
 msgstr ""
 
-#: plugins/tools/defaulttool/defaulttool/ShapeResizeStrategy.cpp:113
+#: plugins/tools/defaulttool/defaulttool/ShapeResizeStrategy.cpp:114
 #, kde-format
 msgid "Press CTRL to resize from center."
 msgstr ""
@@ -37488,6 +37482,11 @@ msgstr "Tanlanganni bekitish"
 #, kde-format
 msgid "Work Recursively"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Paste Image"
+#~ msgstr "Matnni qoʻyish"
 
 #, fuzzy
 #~ msgid "Diameter"
