@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-09 03:12+0100\n"
+"POT-Creation-Date: 2018-03-10 03:12+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8028,7 +8028,7 @@ msgstr ""
 msgid "Embedded svg shape"
 msgstr ""
 
-#: libs/flake/text/KoSvgTextShape.cpp:376
+#: libs/flake/text/KoSvgTextShape.cpp:392
 #: plugins/flake/textshape/TextShapeFactory.cpp:44
 #: plugins/flake/textshape/TextShapeFactory.cpp:54
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:61
@@ -8037,13 +8037,13 @@ msgstr ""
 msgid "Text"
 msgstr "Matn"
 
-#: libs/flake/text/KoSvgTextShape.cpp:378
-#: libs/flake/text/KoSvgTextShape.cpp:386
+#: libs/flake/text/KoSvgTextShape.cpp:394
+#: libs/flake/text/KoSvgTextShape.cpp:402
 #, fuzzy, kde-format
 msgid "SVG Text Shape"
 msgstr "Shakl:"
 
-#: libs/flake/text/KoSvgTextShape.cpp:384
+#: libs/flake/text/KoSvgTextShape.cpp:400
 #, fuzzy, kde-format
 msgid "SVG Text"
 msgstr "Matn:"
@@ -8393,7 +8393,7 @@ msgstr ""
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.cpp:51
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.h:30
 #: libs/ui/forms/wdgrectangleconstraints.ui:20
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:53
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:63
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:109
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:50
@@ -8517,7 +8517,7 @@ msgstr ""
 #: libs/image/kis_keyframe_channel.cpp:30 libs/image/kis_layer.cc:227
 #: libs/widgets/KoColorPopupAction.cpp:89
 #: plugins/dockers/defaultdockers/kis_layer_box.cpp:190
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:61
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:115
@@ -8556,7 +8556,7 @@ msgid "Angle"
 msgstr "Burchak"
 
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.h:34
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:53
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:54
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:65
 #: plugins/paintops/roundmarker/kis_roundmarkerop_settings_widget.cpp:44
 #: plugins/paintops/spray/kis_spray_paintop_settings.cpp:115
@@ -10492,6 +10492,7 @@ msgstr "Rang"
 #: plugins/dockers/colorslider/kis_color_slider_input.cpp:70
 #: plugins/dockers/colorslider/kis_color_slider_input.cpp:73
 #: plugins/dockers/colorslider/kis_color_slider_input.cpp:76
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:67
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:78
 #, fuzzy, kde-format
 msgid "Hue"
@@ -10522,6 +10523,7 @@ msgstr "Rang tusi"
 #: plugins/dockers/colorslider/kis_color_slider_input.cpp:74
 #: plugins/dockers/colorslider/kis_color_slider_input.cpp:77
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:87
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:68
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:79
 #: plugins/paintops/hairy/wdghairyeoptions.ui:310
 #: plugins/paintops/hairy/wdgInkOptions.ui:71
@@ -10703,6 +10705,7 @@ msgstr "Toʻyintirish"
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1262
 #: plugins/dockers/colorslider/kis_color_slider_input.cpp:69
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:108
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:69
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:34
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:80
 #: plugins/tools/basictools/wdgcolorpicker.ui:29
@@ -12727,7 +12730,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemoveWorkspaces)
 #: libs/ui/forms/wdgdlgblacklistcleanup.ui:26
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:266
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:274
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:155
 #, fuzzy, kde-format
 msgid "Workspaces"
@@ -12761,7 +12764,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemoveGradients)
 #: libs/ui/forms/wdgdlgblacklistcleanup.ui:73 libs/ui/kis_control_frame.cpp:86
 #: libs/ui/kis_control_frame.cpp:226
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:254
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:262
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:152
 #, kde-format
 msgid "Gradients"
@@ -12776,7 +12779,7 @@ msgstr "Gradientlar"
 #: libs/ui/widgets/KoFillConfigWidget.ui:106
 #: plugins/extensions/metadataeditor/editors/exif.ui:432
 #: plugins/generators/pattern/patterngenerator.h:53
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:67
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:71
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:88
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:54
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:66
@@ -12802,7 +12805,7 @@ msgstr "Ranglar"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemoveBrushes)
 #: libs/ui/forms/wdgdlgblacklistcleanup.ui:113
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:260
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:268
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:150
 #, fuzzy, kde-format
 msgid "Brushes"
@@ -14438,8 +14441,8 @@ msgstr "Bosim"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: libs/ui/forms/wdgtabletsettings.ui:107
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:59
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:60
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:61
 #: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:33
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:76
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:56
@@ -14455,8 +14458,8 @@ msgstr "100"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/ui/forms/wdgtabletsettings.ui:127
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:59
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:60
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:61
 #: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:33
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:76
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:56
@@ -15285,7 +15288,7 @@ msgstr "&Rassom asbob-uskunalari"
 
 #: libs/ui/kis_control_frame.cpp:180
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:31
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:257
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:265
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:153
 #: plugins/tools/karbonplugins/tools/KarbonPatternTool.cpp:306
 #, fuzzy, kde-format
@@ -15812,8 +15815,8 @@ msgid "Canvas Only"
 msgstr "Rangi:"
 
 #: libs/ui/kis_popup_palette.cpp:219
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:65
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:53
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:66
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:36
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:37
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:62
@@ -17662,7 +17665,7 @@ msgstr "&Rassom asbob-uskunalari"
 #: libs/ui/layerstyles/WdgGradientOverlay.ui:23
 #: libs/ui/layerstyles/WdgStroke.ui:139
 #: libs/ui/widgets/KoFillConfigWidget.ui:84
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:65
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:66
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:56
 #, kde-format
 msgid "Gradient"
@@ -18708,7 +18711,7 @@ msgstr "Profil yoʻq"
 #. i18n: ectx: property (toolTip), widget (KisCompositeOpComboBox, cmbComposite)
 #: libs/ui/widgets/kis_cmb_composite.cc:70
 #: plugins/dockers/defaultdockers/wdglayerbox.ui:52
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:38
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:60
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:48
@@ -23471,7 +23474,7 @@ msgid "Add color"
 msgstr "Yangi ran&gni qoʻshish..."
 
 #: plugins/dockers/presetdocker/presetdocker_dock.cpp:37
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:269
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:277
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:151
 #, fuzzy, kde-format
 msgid "Brush Presets"
@@ -25619,32 +25622,32 @@ msgstr ""
 msgid "Plugin:"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:45
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:47
 #, fuzzy, kde-format
 msgid "Manage Resource Bundles"
 msgstr "&Manbalar"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:68
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:70
 #, fuzzy, kde-format
 msgid "Resource"
 msgstr "&Manbalar"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:146
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:152
 #, kde-format
 msgid "Couldn't add bundle to resource server"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:151
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:157
 #, kde-format
 msgid "Couldn't remove bundle from blacklist"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:162
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:168
 #, fuzzy, kde-format
 msgid "Bundle doesn't exist!"
 msgstr "%1 fayli mavjud emas."
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:263
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:271
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:154
 #, fuzzy, kde-format
 msgid "Palettes"
@@ -32094,7 +32097,7 @@ msgstr "Namuna"
 msgid "Dulling"
 msgstr ""
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:49
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:43
@@ -32110,7 +32113,7 @@ msgid "Opaque"
 msgstr "Tanlash"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnTransparent)
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:49
 #: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:43
@@ -32126,8 +32129,8 @@ msgstr "Tanlash"
 msgid "Transparent"
 msgstr "Shaffof"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:65
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:53
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:66
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:36
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:37
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:62
@@ -32160,7 +32163,7 @@ msgstr "Shaffof"
 msgid "0%"
 msgstr "%"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:54
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:55
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:66
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:139
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:52
@@ -32172,22 +32175,22 @@ msgstr "%"
 msgid "Mirror"
 msgstr "Rasmni kesish"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:58
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:59
 #, fuzzy, kde-format
 msgid "Smudge Length"
 msgstr "Filter boʻyogʻi"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:59
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:60
 #, fuzzy, kde-format
 msgid "Smudge Radius"
 msgstr "Filter boʻyogʻi"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:60
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:61
 #, fuzzy, kde-format
 msgid "Color Rate"
 msgstr "Rang chegarasi"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:62
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:63
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:144
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:51
@@ -32203,7 +32206,7 @@ msgstr "Rang chegarasi"
 msgid "-180°"
 msgstr ""
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:62
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:63
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:144
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:51
@@ -32219,7 +32222,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, optionRotation)
 #. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:62
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:63
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:145
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:51
@@ -32236,7 +32239,7 @@ msgstr ""
 msgid "Rotation"
 msgstr "Burish"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:63
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:64
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:72
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:150
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:65
@@ -32244,12 +32247,12 @@ msgstr "Burish"
 msgid "Scatter"
 msgstr "Namuna"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:64
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:65
 #, fuzzy, kde-format
 msgid "Overlay Mode"
 msgstr "Ustki qoplama"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:68
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:72
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:89
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:55
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:67
@@ -32258,7 +32261,7 @@ msgstr "Ustki qoplama"
 msgid "Strength"
 msgstr "Kuch"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:68
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:72
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:89
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:55
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:67
@@ -32267,7 +32270,7 @@ msgstr "Kuch"
 msgid "Strong"
 msgstr "Tosh"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:68
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:72
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:89
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:55
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:67
