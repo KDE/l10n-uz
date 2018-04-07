@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-06 03:29+0200\n"
+"POT-Creation-Date: 2018-04-07 03:21+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8311,7 +8311,7 @@ msgstr "Oʻlchami"
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:63
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:64
 #: plugins/tools/basictools/kis_tool_multihand.cpp:305
-#: plugins/tools/basictools/wdgcolorpicker.ui:64
+#: plugins/tools/basictools/wdgcolorpicker.ui:176
 #: plugins/tools/basictools/wdgmovetool.ui:127
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:224
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:227
@@ -10526,7 +10526,7 @@ msgstr "Toʻyintirish"
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:69
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:34
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:80
-#: plugins/tools/basictools/wdgcolorpicker.ui:29
+#: plugins/tools/basictools/wdgcolorpicker.ui:116
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:164
 #, kde-format
 msgid "Value"
@@ -10753,7 +10753,7 @@ msgstr "Chiziqning enini oʻzgartirish"
 msgid "Untitled"
 msgstr "Nomsiz-1"
 
-#: libs/pigment/resources/KoStopGradient.cpp:442
+#: libs/pigment/resources/KoStopGradient.cpp:454
 #, kde-format
 msgid "SVG Gradient"
 msgstr ""
@@ -10962,56 +10962,56 @@ msgctxt "(qtundo-format)"
 msgid "Edit Guides"
 msgstr "Toʻrni bekitish"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:736
+#: libs/ui/canvas/kis_guides_manager.cpp:747
 #, fuzzy, kde-format
 msgid "Snap to:"
 msgstr "Toʻrga birlashtiradi."
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: libs/ui/canvas/kis_guides_manager.cpp:737
+#: libs/ui/canvas/kis_guides_manager.cpp:748
 #: plugins/dockers/griddocker/grid_config_widget.ui:39
 #, kde-format
 msgid "Grid"
 msgstr "Toʻr"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: libs/ui/canvas/kis_guides_manager.cpp:738
+#: libs/ui/canvas/kis_guides_manager.cpp:749
 #: plugins/dockers/griddocker/grid_config_widget.ui:564
 #, fuzzy, kde-format
 msgid "Guides"
 msgstr "Yordamchi chiziqlar"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:739
+#: libs/ui/canvas/kis_guides_manager.cpp:750
 #, kde-format
 msgid "Orthogonal"
 msgstr ""
 
-#: libs/ui/canvas/kis_guides_manager.cpp:741
+#: libs/ui/canvas/kis_guides_manager.cpp:752
 #, fuzzy, kde-format
 msgid "Node"
 msgstr "Yoʻq"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:742
+#: libs/ui/canvas/kis_guides_manager.cpp:753
 #, fuzzy, kde-format
 msgid "Extension"
 msgstr "Qoidadan tashqari holat"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:743
+#: libs/ui/canvas/kis_guides_manager.cpp:754
 #, fuzzy, kde-format
 msgid "Intersection"
 msgstr "Teskari qilish"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:745
+#: libs/ui/canvas/kis_guides_manager.cpp:756
 #, fuzzy, kde-format
 msgid "Bounding Box"
 msgstr "Aralashtirish usuli"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:746
+#: libs/ui/canvas/kis_guides_manager.cpp:757
 #, fuzzy, kde-format
 msgid "Image Bounds"
 msgstr "Rasm"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:747
+#: libs/ui/canvas/kis_guides_manager.cpp:758
 #, fuzzy, kde-format
 msgid "Image Center"
 msgstr "Markaz:"
@@ -11481,9 +11481,9 @@ msgstr "Tanlash usuli:"
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:203
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:276
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:280
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:216
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:221
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:263
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:206
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:211
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:253
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:824
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
 #, fuzzy, kde-format
@@ -12400,9 +12400,7 @@ msgid "Source:"
 msgstr "Manba:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSource)
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
 #: libs/ui/forms/wdgcustompattern.ui:33
-#: plugins/tools/basictools/wdgcolorpicker.ui:146
 #, kde-format
 msgid "Current Layer"
 msgstr "Joriy qatlam"
@@ -18093,7 +18091,7 @@ msgstr "Nuqta boʻyogʻi"
 msgid "Decrease Brush Size"
 msgstr "Boʻyoqning oʻlchami"
 
-#: libs/ui/tool/kis_tool_utils.cpp:120
+#: libs/ui/tool/kis_tool_utils.cpp:134
 #: plugins/dockers/animation/kis_animation_utils.cpp:89
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -34953,23 +34951,23 @@ msgstr ""
 msgid "Freehand Brush Tool"
 msgstr "Boʻyoq vositasi"
 
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:216
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:206
 #, kde-format
 msgid "Cannot pick a color as no layer is active."
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:221
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:211
 #, kde-format
 msgid "Cannot pick a color as the active layer is not visible."
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:263
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:253
 #, fuzzy, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only."
 msgstr ""
 "%1 paoitra faylig yozib boʻlmadi. Fayl faqat oʻqish uchun boʻlishi mumkin."
 
-#: plugins/tools/basictools/kis_tool_colorpicker.h:130
+#: plugins/tools/basictools/kis_tool_colorpicker.h:127
 #, fuzzy, kde-format
 msgid "Color Selector Tool"
 msgstr "Tanlanganni koʻrsatish"
@@ -35284,41 +35282,103 @@ msgstr "Hech narsa tanlanmagan"
 msgid "Color Picker"
 msgstr "Rang tanlagich"
 
-#. i18n: ectx: property (text), widget (QTreeWidget, listViewChannels)
-#: plugins/tools/basictools/wdgcolorpicker.ui:24
-#, kde-format
-msgid "Channel"
-msgstr "Kanal"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/tools/basictools/wdgcolorpicker.ui:54
+#. i18n: ectx: property (text), widget (QLabel, blendLabel)
+#: plugins/tools/basictools/wdgcolorpicker.ui:25
 #, fuzzy, kde-format
-msgid "Sample radius:"
-msgstr "Filter boʻyogʻi"
+msgid "Blend: "
+msgstr "Qalin"
+
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, blend)
+#: plugins/tools/basictools/wdgcolorpicker.ui:44
+#, kde-format
+msgid ""
+"<nobr>Blending controls the percentage of color that is picked</nobr> and "
+"mixed with your current brush color. A full blending value picks colors "
+"completely, ignoring brush color."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, cmbSources)
+#: plugins/tools/basictools/wdgcolorpicker.ui:71
+#, kde-format
+msgid ""
+"<nobr>Determines whether the color picker will sample</nobr> colors from all "
+"visible layers or only the currently selected layer."
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
+#: plugins/tools/basictools/wdgcolorpicker.ui:78
+#, fuzzy, kde-format
+msgid "Sample All Visible Layers"
+msgstr "Yangi qatlam"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
+#: plugins/tools/basictools/wdgcolorpicker.ui:83
+#, fuzzy, kde-format
+#| msgid "Current Layer"
+msgid "Sample Current Layer"
+msgstr "Joriy qatlam"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbNormaliseValues)
+#: plugins/tools/basictools/wdgcolorpicker.ui:91
+#, kde-format
+msgid ""
+"Displays per-channel color information below as percentages instead of bytes."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbNormaliseValues)
-#: plugins/tools/basictools/wdgcolorpicker.ui:79
+#: plugins/tools/basictools/wdgcolorpicker.ui:94
 #, kde-format
 msgid "Show colors as percentages"
 msgstr "Ranglarni foiz hisobida koʻrsatish"
 
+#. i18n: ectx: property (text), widget (QTreeWidget, listViewChannels)
+#: plugins/tools/basictools/wdgcolorpicker.ui:111
+#, kde-format
+msgid "Channel"
+msgstr "Kanal"
+
+#. i18n: ectx: property (text), widget (QLabel, radiusLabel)
+#: plugins/tools/basictools/wdgcolorpicker.ui:154
+#, fuzzy, kde-format
+msgid "Radius: "
+msgstr "Radius"
+
+#. i18n: ectx: property (toolTip), widget (KisIntParseSpinBox, radius)
+#: plugins/tools/basictools/wdgcolorpicker.ui:173
+#, kde-format
+msgid ""
+"<nobr>Radius controls the color picker's sampling area.</nobr> Pixel colors "
+"within this radius are mixed together."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbPalette)
+#: plugins/tools/basictools/wdgcolorpicker.ui:208
+#, kde-format
+msgid ""
+"<nobr>Checking this box will add a new color swatch</nobr> to a palette each "
+"time you pick a color."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QCheckBox, cbPalette)
-#: plugins/tools/basictools/wdgcolorpicker.ui:103
+#: plugins/tools/basictools/wdgcolorpicker.ui:211
 #, fuzzy, kde-format
 msgid "Add to palette:"
 msgstr "Palitraga qoʻshish:"
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbUpdateCurrentColor)
-#: plugins/tools/basictools/wdgcolorpicker.ui:115
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbUpdateCurrentColor)
+#: plugins/tools/basictools/wdgcolorpicker.ui:225
 #, kde-format
-msgid "Update current color"
-msgstr "Joriy rangni yangilash"
+msgid ""
+"<nobr>Controls whether the color picker updates the</nobr> current "
+"foreground or not."
+msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbSources)
-#: plugins/tools/basictools/wdgcolorpicker.ui:141
+#. i18n: ectx: property (text), widget (QCheckBox, cbUpdateCurrentColor)
+#: plugins/tools/basictools/wdgcolorpicker.ui:228
 #, fuzzy, kde-format
-msgid "Sample All Visible Layers"
-msgstr "Yangi qatlam"
+#| msgid "Update current color"
+msgid "Update color"
+msgstr "Joriy rangni yangilash"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpSelectionMethod)
 #: plugins/tools/basictools/wdgmovetool.ui:23
@@ -37143,19 +37203,19 @@ msgctxt "floating message in transformation tool"
 msgid "Selected layer cannot be transformed with active transformation mode "
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:846
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:850
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Selections are not used when editing transform masks "
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:857
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:861
 #, fuzzy, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Cannot transform empty layer "
 msgstr "Boshqa shaklga almashtirish"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:883
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:890
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid ""
@@ -37577,6 +37637,10 @@ msgstr "Tanlanganni bekitish"
 #, kde-format
 msgid "Work Recursively"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Sample radius:"
+#~ msgstr "Filter boʻyogʻi"
 
 #, fuzzy
 #~ msgctxt "action"
