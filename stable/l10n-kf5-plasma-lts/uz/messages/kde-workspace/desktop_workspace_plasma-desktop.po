@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-20 05:40+0000\n"
+"POT-Creation-Date: 2018-05-26 05:31+0000\n"
 "PO-Revision-Date: 2008-06-02 22:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -64,7 +64,7 @@ msgctxt "Comment"
 msgid "A generic input method panel"
 msgstr ""
 
-#: applets/kimpanel/package/metadata.desktop:82
+#: applets/kimpanel/package/metadata.desktop:81
 msgctxt "Keywords"
 msgid "Input;IM;"
 msgstr ""
@@ -77,7 +77,7 @@ msgctxt "Name"
 msgid "Pager"
 msgstr "KPager"
 
-#: applets/pager/package/metadata.desktop:85
+#: applets/pager/package/metadata.desktop:84
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Preview, manage and switch to multiple virtual desktops"
@@ -136,7 +136,7 @@ msgid "Plasmoid to show list of opened windows."
 msgstr "Hamma ochiq oynalar roʻyxati"
 
 #: containments/desktop/package/metadata.desktop:2
-#: desktoppackage/metadata.desktop:47
+#: desktoppackage/metadata.desktop:46
 msgctxt "Name"
 msgid "Desktop"
 msgstr "Ish stoli"
@@ -391,7 +391,7 @@ msgctxt "Comment"
 msgid "Application Color Scheme"
 msgstr "Dasturlarni ishga tushiruvchi"
 
-#: kcms/colors/colors.desktop:148
+#: kcms/colors/colors.desktop:147
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid "colors,colours,scheme,contrast,Widget colors,Color Scheme"
@@ -406,12 +406,12 @@ msgctxt "GenericName"
 msgid "Color scheme editor"
 msgstr ""
 
-#: kcms/colors/org.kde.kcolorschemeeditor.desktop:42
+#: kcms/colors/org.kde.kcolorschemeeditor.desktop:41
 msgctxt "Name"
 msgid "KColorSchemeEditor"
 msgstr ""
 
-#: kcms/colors/org.kde.kcolorschemeeditor.desktop:79
+#: kcms/colors/org.kde.kcolorschemeeditor.desktop:78
 msgctxt "Comment"
 msgid "Plasma color scheme editor"
 msgstr ""
@@ -522,7 +522,8 @@ msgctxt "Comment"
 msgid "A helpful description of the interface for the top right info box"
 msgstr ""
 
-#: kcms/cursortheme/cursortheme.desktop:13
+#: kcms/cursortheme/kcm_cursortheme.desktop:13
+#: kcms/cursortheme/package/metadata.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Cursor Files"
@@ -530,7 +531,8 @@ msgctxt "Name"
 msgid "Cursor Theme"
 msgstr "Kursor fayllari"
 
-#: kcms/cursortheme/cursortheme.desktop:75
+#: kcms/cursortheme/kcm_cursortheme.desktop:75
+#: kcms/cursortheme/package/metadata.desktop:63
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Cursor Files"
@@ -538,7 +540,7 @@ msgctxt "Comment"
 msgid "Mouse Cursor Theme"
 msgstr "Kursor fayllari"
 
-#: kcms/cursortheme/cursortheme.desktop:122
+#: kcms/cursortheme/kcm_cursortheme.desktop:122
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Mouse,Cursor,Theme,Cursor Appearance,Cursor Color,Cursor Theme,Mouse Theme,"
@@ -669,13 +671,14 @@ msgctxt "X-KDE-Keywords"
 msgid "Emoticons"
 msgstr "His-tuygʻular"
 
-#: kcms/fonts/fonts.desktop:14 kcms/kfontinst/kcmfontinst/kfontinst.knsrc:2
+#: kcms/fonts/kcm_fonts.desktop:14 kcms/fonts/package/metadata.desktop:2
+#: kcms/kfontinst/kcmfontinst/kfontinst.knsrc:2
 #: kcms/kfontinst/kio/fonts.desktop:5
 msgctxt "Name"
 msgid "Fonts"
 msgstr "Shriftlar"
 
-#: kcms/fonts/fonts.desktop:106
+#: kcms/fonts/kcm_fonts.desktop:106 kcms/fonts/package/metadata.desktop:94
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Fonts"
@@ -683,7 +686,7 @@ msgctxt "Comment"
 msgid "Fonts"
 msgstr "Shriftlar"
 
-#: kcms/fonts/fonts.desktop:154
+#: kcms/fonts/kcm_fonts.desktop:154
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid ""
@@ -748,12 +751,13 @@ msgctxt "X-KDE-Keywords"
 msgid "joystick,gamepad,controller"
 msgstr "joystik,geympad"
 
-#: kcms/icons/icons.desktop:14 kcms/icons/icons.knsrc:2
+#: kcms/icons/icons.knsrc:2 kcms/icons/kcm_icons.desktop:14
+#: kcms/icons/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Icons"
 msgstr "Nishonchalar"
 
-#: kcms/icons/icons.desktop:106
+#: kcms/icons/kcm_icons.desktop:106 kcms/icons/package/metadata.desktop:93
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Cursor Files"
@@ -761,7 +765,7 @@ msgctxt "Comment"
 msgid "Icon Theme"
 msgstr "Kursor fayllari"
 
-#: kcms/icons/icons.desktop:153
+#: kcms/icons/kcm_icons.desktop:153
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid "icons,effects,size,hicolor,locolor"
@@ -866,7 +870,7 @@ msgctxt "Name"
 msgid "Global Shortcuts"
 msgstr "Tugmalar birikmasi"
 
-#: kcms/keys/keys.desktop:56
+#: kcms/keys/keys.desktop:55
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Keyboard Shortcuts"
@@ -874,7 +878,7 @@ msgctxt "Comment"
 msgid "Global Keyboard Shortcuts"
 msgstr "Tugmalar birikmasi"
 
-#: kcms/keys/keys.desktop:104
+#: kcms/keys/keys.desktop:103
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid ""
@@ -997,23 +1001,30 @@ msgctxt "Name"
 msgid "Splash Screen"
 msgstr ""
 
-#: kcms/ksplash/kcm_splashscreen.desktop:61
-#: kcms/ksplash/package/metadata.desktop:48
+#: kcms/ksplash/kcm_splashscreen.desktop:60
+#: kcms/ksplash/package/metadata.desktop:47
 msgctxt "Comment"
 msgid "Splash Screen Theme"
 msgstr ""
 
-#: kcms/ksplash/kcm_splashscreen.desktop:105
+#: kcms/ksplash/kcm_splashscreen.desktop:103
 msgctxt "X-KDE-Keywords"
 msgid "splash screen,splash theme,startup"
 msgstr ""
 
-#: kcms/launch/kcmlaunch.desktop:14
+#: kcms/ksplash/ksplash.knsrc:2
+msgctxt "Name"
+msgid "Splash Screens"
+msgstr ""
+
+#: kcms/launch/kcm_launchfeedback.desktop:14
+#: kcms/launch/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Launch Feedback"
 msgstr "Dastur ishga tushish xabarnomasi"
 
-#: kcms/launch/kcmlaunch.desktop:101
+#: kcms/launch/kcm_launchfeedback.desktop:101
+#: kcms/launch/package/metadata.desktop:89
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Application Launcher"
@@ -1021,7 +1032,7 @@ msgctxt "Comment"
 msgid "Application Launch Feedback"
 msgstr "Dasturlarni ishga tushiruvchi"
 
-#: kcms/launch/kcmlaunch.desktop:148
+#: kcms/launch/kcm_launchfeedback.desktop:148
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid ""
@@ -1067,19 +1078,15 @@ msgctxt "Name"
 msgid "Night Color"
 msgstr ""
 
-#: kcms/nightcolor/kcm_nightcolor.desktop:50
+#: kcms/nightcolor/kcm_nightcolor.desktop:49
+#: kcms/nightcolor/package/metadata.desktop:33
 msgctxt "Comment"
 msgid "Adjust color temperature at night to reduce eye strain"
 msgstr ""
 
-#: kcms/nightcolor/kcm_nightcolor.desktop:81
+#: kcms/nightcolor/kcm_nightcolor.desktop:79
 msgctxt "X-KDE-Keywords"
 msgid "kwin,window,manager,night,colors,redshift,eyes"
-msgstr ""
-
-#: kcms/nightcolor/package/metadata.desktop:34
-msgctxt "Comment"
-msgid "Adjust color temperatur at night to reduce eye strain"
 msgstr ""
 
 #: kcms/phonon/kcm_phonon.desktop:13
@@ -1105,6 +1112,11 @@ msgid ""
 "Media,NMM,GStreamer,Xine"
 msgstr ""
 
+#: kcms/qtquicksettings/qtquicksettings.desktop:14
+msgctxt "Name"
+msgid "Plasma Renderer"
+msgstr ""
+
 #: kcms/runners/kcm_plasmasearch.desktop:13
 msgctxt "Name"
 msgid "Plasma Search"
@@ -1118,7 +1130,7 @@ msgctxt "Comment"
 msgid "Configure Search Bar"
 msgstr "Imlo tekshiruvchini moslash"
 
-#: kcms/runners/kcm_plasmasearch.desktop:94
+#: kcms/runners/kcm_plasmasearch.desktop:93
 msgctxt "X-KDE-Keywords"
 msgid "Search, File, Baloo, Runner, krunner"
 msgstr ""
@@ -1152,7 +1164,7 @@ msgid "Type"
 msgstr ""
 
 #: kcms/solid_actions/device-actions/solid-device-Battery.desktop:341
-#: kcms/solid_actions/device-actions/solid-device-Block.desktop:214
+#: kcms/solid_actions/device-actions/solid-device-Block.desktop:211
 #: kcms/solid_actions/device-actions/solid-device-Camera.desktop:145
 #: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:863
 #: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:650
@@ -1176,7 +1188,7 @@ msgctxt "Name"
 msgid "Device"
 msgstr "Uskunalar"
 
-#: kcms/solid_actions/device-actions/solid-device-Block.desktop:75
+#: kcms/solid_actions/device-actions/solid-device-Block.desktop:74
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Moria"
@@ -1184,7 +1196,7 @@ msgctxt "Name"
 msgid "Major"
 msgstr "Moria"
 
-#: kcms/solid_actions/device-actions/solid-device-Block.desktop:144
+#: kcms/solid_actions/device-actions/solid-device-Block.desktop:142
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Moria"
@@ -1459,7 +1471,7 @@ msgctxt "Name"
 msgid "Standard Shortcuts"
 msgstr "Tugmalar birikmasi"
 
-#: kcms/standard_actions/standard_actions.desktop:56
+#: kcms/standard_actions/standard_actions.desktop:55
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Keyboard Shortcuts"
@@ -1467,7 +1479,7 @@ msgctxt "Comment"
 msgid "Standard Keyboard Shortcuts for Applications"
 msgstr "Tugmalar birikmasi"
 
-#: kcms/standard_actions/standard_actions.desktop:102
+#: kcms/standard_actions/standard_actions.desktop:101
 #, fuzzy
 #| msgctxt "Keywords"
 #| msgid ""
@@ -1520,7 +1532,7 @@ msgctxt "Keywords"
 msgid "Touchpad"
 msgstr ""
 
-#: kcms/touchpad/src/applet/qml/metadata.desktop:87
+#: kcms/touchpad/src/applet/qml/metadata.desktop:86
 #: kcms/touchpad/src/kcm/kcm_touchpad.desktop:16
 #: kcms/touchpad/src/kded/kcm_touchpad.notifyrc:2
 #: kcms/touchpad/src/kded/kded_touchpad.desktop:9
@@ -1571,22 +1583,25 @@ msgctxt "Comment"
 msgid "Enables or disables touchpad"
 msgstr ""
 
-#: kcms/translations/translations.desktop:14
+#: kcms/translations/kcm_translations.desktop:14
+#: kcms/translations/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Language"
 msgstr ""
 
-#: kcms/workspaceoptions/workspaceoptions.desktop:13
+#: kcms/workspaceoptions/kcm_workspace.desktop:11
+#: kcms/workspaceoptions/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Workspace"
 msgstr ""
 
-#: kcms/workspaceoptions/workspaceoptions.desktop:60
+#: kcms/workspaceoptions/kcm_workspace.desktop:57
+#: kcms/workspaceoptions/package/metadata.desktop:48
 msgctxt "Comment"
 msgid "Workspace Behavior"
 msgstr ""
 
-#: kcms/workspaceoptions/workspaceoptions.desktop:106
+#: kcms/workspaceoptions/kcm_workspace.desktop:102
 msgctxt "X-KDE-Keywords"
 msgid ""
 "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips,"
@@ -1611,7 +1626,7 @@ msgctxt "Name"
 msgid "Application Menu Bar"
 msgstr "Dasturlarni ishga tushiruvchi"
 
-#: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.desktop:41
+#: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.desktop:40
 msgctxt "Comment"
 msgid "Panel containing the global menu applet"
 msgstr ""
@@ -1643,7 +1658,7 @@ msgctxt "Name"
 msgid "KWin"
 msgstr ""
 
-#: runners/kwin/plasma-runner-kwin.desktop:42
+#: runners/kwin/plasma-runner-kwin.desktop:41
 msgctxt "Comment"
 msgid "Interact with the Plasma Compositor"
 msgstr ""
