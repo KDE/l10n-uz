@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-11 03:29+0200\n"
+"POT-Creation-Date: 2018-06-15 03:32+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8283,6 +8283,8 @@ msgstr ""
 #: libs/image/filter/kis_filter.cc:82
 #: plugins/extensions/metadataeditor/editors/exif.ui:442
 #: plugins/filters/indexcolors/kiswdgindexcolors.ui:290
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
 #, kde-format
 msgid "Other"
 msgstr "Boshqa"
@@ -10778,6 +10780,7 @@ msgid "<html><head/><body><h1 align=\"center\">Created By</h1></p><p>"
 msgstr ""
 
 #: libs/ui/dialogs/kis_about_application.cpp:80
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:372
 #, kde-format
 msgid "Authors"
 msgstr ""
@@ -11356,6 +11359,7 @@ msgstr "Moslash..."
 #: libs/widgets/KoDocumentInfoDlg.cpp:100
 #: libs/widgets/KoDocumentInfoDlg.cpp:101
 #: plugins/flake/textshape/dialogs/CharacterGeneral.ui:27
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:274
 #, kde-format
 msgid "General"
 msgstr "Umumiy"
@@ -11651,6 +11655,8 @@ msgstr "Rasmning oʻlchami"
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:161
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:163
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:94
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:79
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:184
 #: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:91
 #, kde-format
 msgid "Width:"
@@ -11677,6 +11683,8 @@ msgstr "Eni:"
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:108
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:195
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:129
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:80
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:188
 #, kde-format
 msgid "Height:"
 msgstr "Uzunasi:"
@@ -11810,6 +11818,7 @@ msgstr ""
 #: plugins/impex/brush/wdg_export_gih.ui:37
 #: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:106
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:91
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:406
 #, fuzzy, kde-format
 msgid "Name:"
 msgstr "&Nomi:"
@@ -11837,6 +11846,9 @@ msgstr "Xiralik:"
 #. i18n: ectx: property (text), widget (QLabel)
 #: libs/ui/forms/wdgautogradient.ui:99
 #: plugins/flake/textshape/dialogs/ParagraphIndentSpacing.ui:26
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:247
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:210
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:239
 #, kde-format
 msgid "Left:"
 msgstr "Chap:"
@@ -11845,6 +11857,9 @@ msgstr "Chap:"
 #. i18n: ectx: property (text), widget (QLabel)
 #: libs/ui/forms/wdgautogradient.ui:180
 #: plugins/flake/textshape/dialogs/ParagraphIndentSpacing.ui:55
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:255
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:216
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:245
 #, kde-format
 msgid "Right:"
 msgstr "Oʻng:"
@@ -12160,6 +12175,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: libs/ui/forms/wdgcustompattern.ui:19
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:312
 #, kde-format
 msgid "Source:"
 msgstr "Manba:"
@@ -19312,6 +19328,8 @@ msgid ""
 msgstr ""
 
 #: libs/widgets/KoConfigAuthorPage.cpp:100
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:326
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:349
 #, kde-format
 msgid "Email"
 msgstr "Elektron pochta"
@@ -19323,6 +19341,8 @@ msgid "Fax"
 msgstr "Faks:"
 
 #: libs/widgets/KoConfigAuthorPage.cpp:100
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:326
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:349
 #, fuzzy, kde-format
 msgid "Homepage"
 msgstr "Matnni oʻchirish"
@@ -19541,6 +19561,7 @@ msgstr "Mavzu:"
 #: libs/widgets/koDocumentInfoAuthorWidget.ui:50
 #: plugins/extensions/metadataeditor/editors/dublincore.ui:83
 #: plugins/extensions/pykrita/plugin/info.ui:174
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:328
 #, fuzzy, kde-format
 msgid "Title:"
 msgstr "Uslubi:"
@@ -19826,12 +19847,16 @@ msgstr "Oʻngdan boʻsh joy"
 
 #. i18n: ectx: property (title), widget (QGroupBox, margins)
 #: libs/widgets/KoPageLayoutWidget.ui:237
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:222
 #, kde-format
 msgid "Margins"
 msgstr "Boʻsh joy"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: libs/widgets/KoPageLayoutWidget.ui:243
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:251
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:213
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:242
 #, fuzzy, kde-format
 msgid "Top:"
 msgstr "Yuq&ori:"
@@ -20795,6 +20820,7 @@ msgid ""
 msgstr ""
 
 #: libs/widgetutils/xmlgui/kbugreport.cpp:146
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:314
 #, fuzzy, kde-format
 msgid "Version:"
 msgstr "Versiya"
@@ -22979,6 +23005,7 @@ msgid "Composition"
 msgstr "Kompozitsiyasiz"
 
 #: plugins/dockers/defaultdockers/kis_layer_box.cpp:151
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:260
 #, kde-format
 msgid "Layers"
 msgstr "Qatlamlar"
@@ -24366,6 +24393,7 @@ msgstr "&Prefiks matni:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFileType)
 #: plugins/extensions/imagesplit/wdg_imagesplit.ui:86
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:75
 #, fuzzy, kde-format
 msgid "File Type"
 msgstr "Uskuna:"
@@ -24479,6 +24507,7 @@ msgstr "Oʻng:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/extensions/metadataeditor/editors/dublincore.ui:67
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:408
 #, fuzzy, kde-format
 msgid "Date:"
 msgstr "Soat koʻrsatgichi boʻyicha burish"
@@ -25483,13 +25512,13 @@ msgstr ""
 msgid "Python Plugin Manager"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:132
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:133
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Unable to find the module specified <application>%1</application>"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:155
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:156
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -25497,13 +25526,13 @@ msgid ""
 "application>: <icode>%2</icode>. Skipped</p>"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:182
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:183
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<title>Dependency check</title>"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:213
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:214
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -25512,13 +25541,13 @@ msgid ""
 "disabled, but behaviour is unpredictable...</p>"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:227
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:228
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<p><application>%1</application>: Unexpected module's version format"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:240
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:241
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -25526,20 +25555,20 @@ msgid ""
 "version %2 %3, but found %4</p>"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:255
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:256
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "<p>Failure on module load <application>%1</application>:</p><pre>%2</pre>"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:362
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:363
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Internal engine failure"
 msgstr ""
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:366
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:367
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Module not loaded:<br/>%1"
@@ -25840,6 +25869,7 @@ msgstr "Muallif"
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:439
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:300
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:410
 #, kde-format
 msgid "License:"
 msgstr ""
@@ -28525,6 +28555,7 @@ msgstr "Malla ranglar"
 #: plugins/flake/textshape/dialogs/ParagraphDecorations.ui:31
 #: plugins/impex/psd/psd_loader.cpp:173
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:77
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:297
 #, fuzzy, kde-format
 msgid "Background"
 msgstr "orqa fon"
@@ -34349,6 +34380,7 @@ msgid "Sketch brush (differences in connecting lines are possible)"
 msgstr ""
 
 #: plugins/paintops/sketch/sketch_paintop_plugin.cpp:41
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:306
 #, fuzzy, kde-format
 msgid "Sketch"
 msgstr "Filter boʻyogʻi"
@@ -34662,6 +34694,1171 @@ msgstr ""
 msgid "Direction/Tilt Mix Value"
 msgstr "Yoʻnalish"
 
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:46
+#, fuzzy
+msgid "Crop files before resize."
+msgstr "Rasm oʻlchamiga mos qilib qatlamni &kesish"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:50
+#, fuzzy
+#| msgid "Show colors as percentages"
+msgid "Percentage"
+msgstr "Ranglarni foiz hisobida koʻrsatish"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:50
+msgid "DPI"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:50
+#, fuzzy
+msgid "Maximum Width"
+msgstr "Matritsa"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:50
+#, fuzzy
+msgid "Maximum Height"
+msgstr "Yashil"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:54
+msgid " DPI"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:76
+#, fuzzy
+msgid "Method:"
+msgstr "Usul"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:77
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:180
+msgid "DPI:"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:78
+#, fuzzy
+#| msgid "Show colors as percentages"
+msgid "Percentage:"
+msgstr "Ranglarni foiz hisobida koʻrsatish"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:220
+#, fuzzy
+msgid "Export settings"
+msgstr "Ekspozitsiya:"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:233
+#, fuzzy
+#| msgid "Color Settings"
+msgid "Crop settings"
+msgstr "Rang moslamalari"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:236
+#, fuzzy
+msgid "Crop to outmost guides"
+msgstr "Toʻrga birlashtiradi."
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:238
+msgid ""
+"This will crop to the outmost guides if possible and otherwise use the "
+"underlying crop settings."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:240
+#, fuzzy
+msgid "Set margins from active selection"
+msgstr "Joriy belgilangandan &olib tashlash"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:259
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:219
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:248
+#, fuzzy
+msgid "Bottom:"
+msgstr "Avtomatik tekislash"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:264
+msgid "Label for removal:"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:266
+msgid ""
+"These are keywords that can be used to identify text layers. A layer only "
+"needs to contain the keyword to be recognised. Keywords should be comma "
+"separated."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:268
+msgid ""
+"These are keywords that can be used to identify panel layers. A layer only "
+"needs to contain the keyword to be recognised. Keywords should be comma "
+"separated."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:269
+#, fuzzy
+msgid "Text Layer Key:"
+msgstr "Soat koʻrsatgichi boʻyicha burish"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:270
+#, fuzzy
+msgid "Panel Layer Key:"
+msgstr "&Qatlam"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:279
+#, fuzzy
+msgid "Export to CBZ"
+msgstr "Ekspozitsiya:"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:284
+#, fuzzy
+msgid "Metadata to add"
+msgstr "Palitrani oʻzgartirish"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:295
+#, fuzzy
+#| msgid "Document Information"
+msgid "ACBF Document Info"
+msgstr "Hujjat haqida maʼlumot"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:298
+msgid ""
+"Whether the acbf file is an adaption of an existing source, and if so, how "
+"to find information about that source. So for example, for an adapted "
+"webcomic, the official website url should go here."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:300
+msgid ""
+"By default this will be filled with a generated universal unique identifier. "
+"The ID by itself is merely so that comic book library management programs "
+"can figure out if this particular comic is already in their database and "
+"whether it has been rated. Of course, the UUID can be changed into something "
+"else by manually changing the json, but this is advanced usage."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:305
+#, fuzzy
+msgid "Add history entry"
+msgstr "Skript fayli"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:308
+#, fuzzy
+msgid "Include Translator's Comments"
+msgstr "Qatlamning nomi:"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:309
+msgid ""
+"A PO file can contain translator's comments. If this is checked, the "
+"translations comments will be added as references into the ACBF file."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:313
+msgid "ACBF UID:"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:315
+#, fuzzy
+msgid "Version History:"
+msgstr "Versiya"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:318
+#, fuzzy
+msgid "Translator Header:"
+msgstr "Burchak"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:322
+msgid "The people responsible for the generation of the CBZ/ACBF files."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:326
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:349
+#, fuzzy
+msgid "Nick Name"
+msgstr "&Nomi:"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:326
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:349
+#, fuzzy
+msgid "Given Name"
+msgstr "&Nomi:"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:326
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:349
+#, fuzzy
+msgid "Middle Name"
+msgstr "Qatlamning nomi:"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:326
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:349
+#, fuzzy
+msgid "Family Name"
+msgstr "Qatlamning nomi:"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:336
+#, fuzzy
+#| msgid "Author"
+msgid "Add author"
+msgstr "Muallif"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:339
+#, fuzzy
+msgid "Remove author"
+msgstr "Koʻchirish vositasi"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:352
+#, fuzzy
+msgid "Use Font"
+msgstr "Shriftni tanlash"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkBoldKeyword)
+#. i18n: ectx: property (text), widget (QCheckBox, chkBoldElement)
+#. i18n: ectx: property (text), widget (QCheckBox, chkBoldAttribute)
+#. i18n: ectx: property (text), widget (QCheckBox, chkBoldValue)
+#. i18n: ectx: property (text), widget (QCheckBox, chkBoldComment)
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:371
+#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:90
+#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:118
+#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:146
+#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:174
+#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:202
+#, fuzzy, kde-format
+msgid "Bold"
+msgstr "Qalin"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkItalicKeyword)
+#. i18n: ectx: property (text), widget (QCheckBox, chkItalicElement)
+#. i18n: ectx: property (text), widget (QCheckBox, chkItalicAttribute)
+#. i18n: ectx: property (text), widget (QCheckBox, chkItalicValue)
+#. i18n: ectx: property (text), widget (QCheckBox, chkItalicComment)
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:372
+#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:97
+#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:125
+#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:153
+#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:181
+#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:209
+#, fuzzy, kde-format
+msgid "Italic"
+msgstr "Qiya:"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:379
+#, fuzzy
+msgid "Text Colors"
+msgstr "Matn vositasi"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:383
+#, fuzzy
+#| msgid "Regular"
+msgid "Regular Text"
+msgstr "Oddiy"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:385
+#, fuzzy
+#| msgid "Text"
+msgid "Inverted Text"
+msgstr "Matn"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:400
+#, fuzzy
+#| msgid "Document Information"
+msgid "Document Info"
+msgstr "Hujjat haqida maʼlumot"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:401
+#, fuzzy
+#| msgid "Author"
+msgid "Author Info"
+msgstr "Muallif"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:402
+#, fuzzy
+msgid "Style Sheet"
+msgstr "Uslublar"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:404
+msgid "ACBF"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:409
+#, fuzzy
+msgid "Export to EPUB"
+msgstr "Ekspozitsiya:"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:419
+#, fuzzy
+msgid "Export to TIFF"
+msgstr "Ekspozitsiya:"
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:437
+msgid "in this version..."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:460
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:525
+msgid "Anon"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:461
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:526
+msgid "John"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:463
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:528
+#, fuzzy
+msgid "Doe"
+msgstr "Usul"
+
+#: plugins/python/comics_project_management_tools/comics_exporter.py:184
+#: plugins/python/comics_project_management_tools/comics_exporter.py:377
+#, fuzzy
+msgid "Export not possible"
+msgstr "Kompozitsiyasiz"
+
+#: plugins/python/comics_project_management_tools/comics_exporter.py:184
+msgid ""
+"Nothing to export,\n"
+"url not set."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_exporter.py:234
+#, python-brace-format
+msgid ""
+"Time passed: {passedString}\n"
+" Estimated: {estimated}"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_exporter.py:237
+#, python-brace-format
+msgid "{pages} of {pagesTotal} done."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_exporter.py:248
+#, fuzzy
+msgid "Opening next page"
+msgstr "Yangi satr qoʻshish"
+
+#: plugins/python/comics_project_management_tools/comics_exporter.py:256
+#, fuzzy
+msgid "Cleaning up page"
+msgstr "Koʻproq koʻk"
+
+#: plugins/python/comics_project_management_tools/comics_exporter.py:290
+#, fuzzy, python-brace-format
+msgid "Exporting for {key}"
+msgstr "Ekspozitsiya:"
+
+#: plugins/python/comics_project_management_tools/comics_exporter.py:377
+msgid ""
+"Export not happening because\n"
+"there aren't any pages."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+#| msgid "Selection"
+msgid "Science Fiction"
+msgstr "Tanlash"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+msgid "Fantasy"
+msgstr "Qizgʻish-qoʻngʻir"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+msgid "Adventure"
+msgstr "Qogʻoz"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+msgid "Horror"
+msgstr "Rasmni kesish"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+msgid "Mystery"
+msgstr "Sana"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+msgid "Crime"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+msgid "Military"
+msgstr "Aralashish"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+msgid "Real Life"
+msgstr "Piksel balandligi"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+msgid "Superhero"
+msgstr "Satrma-satr"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+msgid "Humor"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+msgid "Western"
+msgstr "Sana"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+msgid "Manga"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+msgid "Politics"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+#| msgid "Picture"
+msgid "Caricature"
+msgstr "Rasm"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+msgid "Sports"
+msgstr "Rasmni import qilish"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+#| msgid "Histogram"
+msgid "History"
+msgstr "Gistogramma"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+msgid "Biography"
+msgstr "Bogʻni qoʻyish"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+msgid "Education"
+msgstr "&Choʻqqi"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+msgid "Computer"
+msgstr "Qatlamning xossalari"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+msgid "Religion"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+#| msgid "Performance"
+msgid "Romance"
+msgstr "Unumdorlik"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+msgid "Children"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+#| msgid "No Selection"
+msgid "Non Fiction"
+msgstr "Hech narsa tanlanmagan"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+msgid "Adult"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+#, fuzzy
+msgid "Alternative"
+msgstr "Burish"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:226
+msgid "Artbook"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
+msgid "Writer"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
+#, fuzzy
+msgid "Adapter"
+msgstr "&Bob"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
+#, fuzzy
+msgid "Artist"
+msgstr "Matn vositasi"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
+#, fuzzy
+#| msgid "Pencil"
+msgid "Penciller"
+msgstr "Qalam"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
+msgid "Inker"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
+#, fuzzy
+#| msgid "Colors"
+msgid "Colorist"
+msgstr "Ranglar"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
+#, fuzzy
+msgid "Letterer"
+msgstr "US Letter"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
+#, fuzzy
+msgid "Cover Artist"
+msgstr "Obʼektning xossalari"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
+#, fuzzy
+#| msgid "Topographic"
+msgid "Photographer"
+msgstr "Topografik"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
+#, fuzzy
+msgid "Editor"
+msgstr "Palitrani tahrirlash..."
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
+#, fuzzy
+msgid "Assistant Editor"
+msgstr "Oʻrnini almashtirishmoq"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
+#, fuzzy
+msgid "Designer"
+msgstr "Oʻrnini almashtirishmoq"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:227
+#, fuzzy
+msgid "Translator"
+msgstr "Burchak"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:251
+#, fuzzy
+msgid "Comic Metadata"
+msgstr "Palitrani oʻzgartirish"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:263
+msgid "The proper title of the comic."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:266
+msgid "What will you tell others to entice them to read your comic?"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:273
+msgid ""
+"The genre of the work. Prefilled values are from the ACBF, but you can fill "
+"in your own. Separate genres with commas. Try to limit the amount to about "
+"two or three"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:281
+msgid ""
+"The names of the characters that this comic revolves around. Comma-separated."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:300
+msgid ""
+"If this is part of a series, enter the name of the series and the number."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:316
+msgid ""
+"Other keywords that don't fit in the previously mentioned sets. As always, "
+"comma-separated"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:322
+#, fuzzy
+msgid "Left to Right"
+msgstr "Qator:"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:323
+#, fuzzy
+msgid "Right to Left"
+msgstr "Oʻngdan boʻsh joy"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:326
+msgid "Which page is the cover page? This will be empty if there's no pages."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:329
+#, fuzzy
+msgid "Cover Page:"
+msgstr "Betga moslash"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:330
+msgid "Summary:"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:331
+#, fuzzy
+msgid "Language:"
+msgstr "Til"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:333
+#, fuzzy
+msgid "Reading Direction:"
+msgstr "Yoʻnalish:"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:334
+msgid "Genre:"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:335
+#, fuzzy
+msgid "Characters:"
+msgstr "diagramma"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:336
+#, fuzzy
+msgid "Format:"
+msgstr "Formati:"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:337
+#, fuzzy
+msgid "Rating:"
+msgstr "Amal:"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:338
+msgid "Series:"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:339
+#, fuzzy
+#| msgid "Other"
+msgid "Other:"
+msgstr "Boshqa"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:341
+#, fuzzy
+msgid "Work"
+msgstr "Ranglar boʻshligʻi"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:346
+msgid ""
+"The following is a table of the authors that contributed to this comic. You "
+"can set their nickname, proper names (first, middle, last), Role (Penciller, "
+"Inker, etc), email and homepage."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:349
+msgid "Role"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:349
+#, fuzzy
+msgid "Language"
+msgstr "Til"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:363
+#, fuzzy
+#| msgid "Author"
+msgid "Add Author"
+msgstr "Muallif"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:365
+#, fuzzy
+msgid "Remove Author"
+msgstr "Guruhni olib tashlash"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:379
+msgid ""
+"The name of the company, group or person who is responsible for the final "
+"version the reader gets."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:383
+#, fuzzy
+msgid "Set Today"
+msgstr "Skript"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:384
+msgid "Sets the publish date to the current date."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:389
+msgid ""
+"Traditional publishers are always mentioned in source with the city they are "
+"located."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:396
+msgid ""
+"If there's an entry in a comics data base, that should be added here. It is "
+"unlikely to be a factor for comics from scratch, but useful when doing a "
+"conversion."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:407
+msgid "City:"
+msgstr "Shahar:"
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:409
+msgid "ISBN:"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:411
+msgid "Database:"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:413
+msgid "Publisher"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:119
+#, fuzzy
+#| msgid "Keywords:"
+msgid "No keywords"
+msgstr "Tayanch soʻzlar:"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:133
+msgid "No last edit timestamp"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:153
+#, fuzzy
+msgid "No description"
+msgstr "Taʼrifi:"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:198
+#, fuzzy
+msgid "Comics Manager"
+msgstr "&Manbalar"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:252
+#, fuzzy
+msgid "New Project"
+msgstr "Filter boʻyogʻi"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:254
+#, fuzzy
+msgid "Open Project"
+msgstr "Filter boʻyogʻi"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:266
+#, fuzzy
+msgid "Project Settings"
+msgstr "Rang moslamalari"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:268
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:124
+#, fuzzy
+msgid "Meta Data"
+msgstr "Palitrani oʻzgartirish"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:270
+#, fuzzy
+msgid "Export Settings"
+msgstr "Rang moslamalari"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:286
+#, fuzzy
+msgid "Add Page"
+msgstr "Palitra qoʻshish"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:288
+msgid "Add Page From Template"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:290
+#, fuzzy
+#| msgid "Move Layer"
+msgid "Add Existing Pages"
+msgstr "Qatlamni koʻchirish"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:292
+#, fuzzy
+msgid "Remove Page"
+msgstr "Qatlamni olib tashlash"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:294
+#, fuzzy
+msgid "Batch Resize"
+msgstr "Oʻlchami&ni oʻzgartirish"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:297
+#, fuzzy
+msgid "View Page In Window"
+msgstr "&Qatlam"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:299
+msgid "Scrape Author Info"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:300
+msgid ""
+"Search for author information in documents and add it to the author list. "
+"This doesn't check for duplicates."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:302
+msgid "Scrape Text for Translation"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:323
+#, fuzzy
+msgid "Export Comic"
+msgstr "Kompozitsiyasiz"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:328
+#, fuzzy
+#| msgid "Rotating"
+msgid "Copy Location"
+msgstr "Burish"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:329
+msgid ""
+"Copies the path of the project to the clipboard. Useful for quickly copying "
+"to a file manager or the like."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:345
+msgid "Please select the json comic config file."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:345
+#, fuzzy
+#| msgid "&Profiles:"
+msgid "json files"
+msgstr "&Profillar:"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:377
+#, fuzzy
+msgid "Loading pages..."
+msgstr "Yangi palitra qoʻshish..."
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:525
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:644
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:129
+#, fuzzy
+msgid "Krita files"
+msgstr "Bosim:"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:525
+msgid "Which existing pages to add?"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:584
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:603
+msgid "Where are the templates located?"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:627
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:124
+msgid "Where should the pages go?"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:644
+msgid "Which image should be the basis the new page?"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:836
+#, fuzzy
+msgid "Risize all pages."
+msgstr "Matnni oʻchirish"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:847
+#, fuzzy
+msgid "Resizing pages..."
+msgstr "Kranlar"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:848
+#, fuzzy
+msgid "Resizing pages."
+msgstr "Betga moslash"
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:862
+#, python-brace-format
+msgid ""
+"{pages} of {pagesTotal} done. \n"
+"Time passed: {passedString}:\n"
+" Estimated:{estimated}"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:910
+msgid "Scraping success!"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_manager_docker.py:910
+msgid "POT file has been written to: "
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:35
+msgid "Which folder?"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:66
+#, fuzzy
+msgid "Change Folder"
+msgstr "Filter"
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:115
+#, fuzzy
+msgid "Comic Project Settings"
+msgstr "Saqlashni tasdiqlash"
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:125
+msgid "Where should the export go?"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:126
+#, fuzzy
+msgid "Where are the templates?"
+msgstr "Yaratish"
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:127
+#, fuzzy
+msgid "Where are the translations?"
+msgstr "Boshqa shaklga almashtirish"
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:128
+msgid "Where are the extra auto-completion keys located?"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:129
+msgid ""
+"The location for extra autocompletion keys in the meta-data editor. Point "
+"this at a folder containing key_characters/key_format/key_genre/key_rating/"
+"key_author_roles/key_other with inside txt files(csv for tating) containing "
+"the extra auto-completion keys, each on a new line. This path is stored in "
+"the krita configuration, and not the project configuration."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:132
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:120
+#, fuzzy
+msgid "Project Name:"
+msgstr "Filter boʻyogʻi"
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:133
+#, fuzzy
+#| msgid "Direction:"
+msgid "Project Concept:"
+msgstr "Yoʻnalish:"
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:134
+#, fuzzy
+msgid "Pages Folder:"
+msgstr "Betning oʻlchami"
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:135
+#, fuzzy
+#| msgid "Export Layer"
+msgid "Export Folder:"
+msgstr "Qatlamni eksport qilish"
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:136
+msgid "Template Folder:"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:137
+#, fuzzy
+msgid "Translation Folder:"
+msgstr "Burchak"
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:138
+#, fuzzy
+msgid "Default Template:"
+msgstr "Yaratish"
+
+#: plugins/python/comics_project_management_tools/comics_project_settings_dialog.py:139
+msgid "Extra Keys Folder:"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:62
+msgid "Where should the comic project go?"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:69
+msgid "Comic Project Setup"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:74
+#, fuzzy
+msgid "Basic Comic Project Settings"
+msgstr "Saqlashni tasdiqlash"
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:80
+msgid "A Project name. This can be different from the eventual title"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:82
+#, fuzzy
+msgid "Generate"
+msgstr "Umumiy"
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:83
+msgid ""
+"If you cannot come up with a project name, our highly sophisticated project "
+"name generator will serve to give a classy yet down to earth name."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:88
+msgid ""
+"What is your comic about? This is mostly for your own convenience so don't "
+"worry about what it says too much."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:90
+msgid "The main language the comic is in"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:100
+msgid "Make a new directory with the project name."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:102
+msgid ""
+"This allows you to select a generic comics project directory, in which a new "
+"folder will be made for the project using the given project name."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:107
+#, fuzzy
+msgid "pages"
+msgstr "Palitralar"
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:108
+msgid ""
+"The name for the folder where the pages are contained. If it doesn't exist, "
+"it will be created."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:110
+#, fuzzy
+msgid "export"
+msgstr "Ekspozitsiya:"
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:111
+msgid ""
+"The name for the folder where the export is put. If it doesn't exist, it "
+"will be created."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:113
+#, fuzzy
+msgid "templates"
+msgstr "Yaratish"
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:114
+msgid "The name for the folder where the page templates are sought in."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:117
+#, fuzzy
+msgid "translations"
+msgstr "Burchak"
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:119
+msgid "Comic Concept:"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:121
+#, fuzzy
+msgid "Main Language:"
+msgstr "Til"
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:130
+msgid "Folder names and other."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:133
+#, fuzzy
+msgid "Project Directory:"
+msgstr "Toʻgʻri burchak maydonni tanlash"
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:135
+#, fuzzy
+msgid "Pages Directory"
+msgstr "Toʻgʻri burchak maydonni tanlash"
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:136
+#, fuzzy
+msgid "Export Directory"
+msgstr "Toʻgʻri burchak maydonni tanlash"
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:137
+#, fuzzy
+msgid "Template Directory"
+msgstr "Toʻgʻri burchak maydonni tanlash"
+
+#: plugins/python/comics_project_management_tools/comics_project_setup_wizard.py:138
+#, fuzzy
+#| msgid "Gravitational Direction"
+msgid "Translation Directory"
+msgstr "Tortish kuchi yoʻnalishi"
+
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:36
+#, fuzzy
+msgid "Pixels"
+msgstr "Piksellash"
+
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:37
+#, fuzzy
+#| msgid "Inches (in)"
+msgid "Inches"
+msgstr "Dyuym (dm)"
+
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:38
+#, fuzzy
+#| msgid "Centimeters (cm)"
+msgid "Centimeter"
+msgstr "Santimetr (sm)"
+
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:39
+#, fuzzy
+#| msgid "Millimeters (mm)"
+msgid "millimeter"
+msgstr "Millimetr (mm)"
+
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:87
+#, fuzzy
+msgid "Add new template"
+msgstr "Qatlamning nomi:"
+
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:103
+#, fuzzy
+msgid "Create a template"
+msgstr "Yaratish"
+
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:105
+#, fuzzy
+msgid "Import templates"
+msgstr "Rasmni import qilish"
+
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:129
+msgid "Which files should be added to the template folder?"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:145
+#, fuzzy
+msgid "Create new template"
+msgstr "Yaratish"
+
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:151
+msgid ""
+"This allows you to make a template document with guides.\n"
+"The width and height are the size of the live-area, the safe area is the "
+"live area minus the margins, and the full image is the live area plus the "
+"bleeds."
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:252
+msgid "Bleeds"
+msgstr ""
+
 #. i18n: context: Actions (Hello), ActionCollection (Hello)
 #: plugins/python/hello/hello.action:4
 #, fuzzy, kde-format
@@ -34678,6 +35875,17 @@ msgstr "Sariq"
 #, kde-format
 msgctxt "action"
 msgid "Say Hello World"
+msgstr ""
+
+#: plugins/python/hello/hello.py:26
+#, fuzzy
+#| msgid "Text"
+msgid "Test"
+msgstr "Matn"
+
+#: plugins/python/hello/hello.py:26
+#, python-format
+msgid "Hello! This is Krita version %s"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
@@ -37198,34 +38406,6 @@ msgstr ""
 msgid "Keyword"
 msgstr "Tayanch soʻzlar:"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkBoldKeyword)
-#. i18n: ectx: property (text), widget (QCheckBox, chkBoldElement)
-#. i18n: ectx: property (text), widget (QCheckBox, chkBoldAttribute)
-#. i18n: ectx: property (text), widget (QCheckBox, chkBoldValue)
-#. i18n: ectx: property (text), widget (QCheckBox, chkBoldComment)
-#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:90
-#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:118
-#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:146
-#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:174
-#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:202
-#, fuzzy, kde-format
-msgid "Bold"
-msgstr "Qalin"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkItalicKeyword)
-#. i18n: ectx: property (text), widget (QCheckBox, chkItalicElement)
-#. i18n: ectx: property (text), widget (QCheckBox, chkItalicAttribute)
-#. i18n: ectx: property (text), widget (QCheckBox, chkItalicValue)
-#. i18n: ectx: property (text), widget (QCheckBox, chkItalicComment)
-#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:97
-#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:125
-#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:153
-#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:181
-#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:209
-#, fuzzy, kde-format
-msgid "Italic"
-msgstr "Qiya:"
-
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:108
 #, fuzzy, kde-format
@@ -38025,10 +39205,6 @@ msgid "Work Recursively"
 msgstr ""
 
 #, fuzzy
-#~ msgid "Language:"
-#~ msgstr "Til"
-
-#, fuzzy
 #~ msgid "Open..."
 #~ msgstr "OpenGL"
 
@@ -38118,11 +39294,6 @@ msgstr ""
 #~ msgctxt "action"
 #~ msgid "Grow To Fit Width"
 #~ msgstr "Eni:"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Insert Comment"
-#~ msgstr "Qatlamning nomi:"
 
 #, fuzzy
 #~ msgctxt "action"
@@ -38461,10 +39632,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Loading Patterns..."
 #~ msgstr "&Namunalar"
-
-#, fuzzy
-#~ msgid "Loading Palettes..."
-#~ msgstr "Yangi palitra qoʻshish..."
 
 #, fuzzy
 #~ msgid "Loading SVG Symbol Collections..."
@@ -39034,10 +40201,6 @@ msgstr ""
 #~ msgstr "&Boshlashi:"
 
 #, fuzzy
-#~ msgid " Format:"
-#~ msgstr "Formati:"
-
-#, fuzzy
 #~ msgid " Suffix:"
 #~ msgstr "&Suffiks matni:"
 
@@ -39456,11 +40619,6 @@ msgstr ""
 #~ msgstr "Matn"
 
 #, fuzzy
-#~ msgctxt "./krita/data/brushes/Real_oil_1.gbr"
-#~ msgid "Real Oil 1"
-#~ msgstr "Piksel balandligi"
-
-#, fuzzy
 #~ msgctxt "./krita/data/brushes/Real_Oil_2.gbr"
 #~ msgid "Real_Oil_2"
 #~ msgstr "Piksel balandligi"
@@ -39606,34 +40764,13 @@ msgstr ""
 #~ msgstr "Ranglar boʻshligʻi"
 
 #, fuzzy
-#~ msgid "Adapter"
-#~ msgstr "&Bob"
-
-#, fuzzy
 #~| msgid "Animated"
 #~ msgid "Animator"
 #~ msgstr "Animatsiyali"
 
 #, fuzzy
-#~ msgid "Artist"
-#~ msgstr "Matn vositasi"
-
-#, fuzzy
-#~ msgid "Art Director"
-#~ msgstr "Toʻgʻri burchak maydonni tanlash"
-
-#, fuzzy
-#~ msgid "Assistant Editor"
-#~ msgstr "Oʻrnini almashtirishmoq"
-
-#, fuzzy
 #~ msgid "Background Artist"
 #~ msgstr "orqa fon"
-
-#, fuzzy
-#~| msgid "Colors"
-#~ msgid "Colorist"
-#~ msgstr "Ranglar"
 
 #, fuzzy
 #~ msgid "Corrector"
@@ -39644,18 +40781,6 @@ msgstr ""
 #~ msgstr "Yaratish"
 
 #, fuzzy
-#~ msgid "Designer"
-#~ msgstr "Oʻrnini almashtirishmoq"
-
-#, fuzzy
-#~ msgid "Editor"
-#~ msgstr "Palitrani tahrirlash..."
-
-#, fuzzy
-#~ msgid "Letterer"
-#~ msgstr "US Letter"
-
-#, fuzzy
 #~ msgid "Matte Painter"
 #~ msgstr "&Qatlam"
 
@@ -39664,30 +40789,12 @@ msgstr ""
 #~ msgstr "&Rasm chizish"
 
 #, fuzzy
-#~| msgid "Pencil"
-#~ msgid "Penciller"
-#~ msgstr "Qalam"
-
-#, fuzzy
 #~ msgid "Pixel Artist"
 #~ msgstr "Piksel eni"
 
 #, fuzzy
 #~ msgid "Redliner"
 #~ msgstr "Chiziqli"
-
-#, fuzzy
-#~ msgid "Texture Artist"
-#~ msgstr "Obʼektning xossalari"
-
-#, fuzzy
-#~ msgid "Translator"
-#~ msgstr "Burchak"
-
-#, fuzzy
-#~| msgid "Topographic"
-#~ msgid "Typographer"
-#~ msgstr "Topografik"
 
 #, fuzzy
 #~ msgid "Text Options"
@@ -39750,9 +40857,6 @@ msgstr ""
 
 #~ msgid "Telephone (work):"
 #~ msgstr "Telefon (ish):"
-
-#~ msgid "City:"
-#~ msgstr "Shahar:"
 
 #, fuzzy
 #~ msgid "Brush Radius:"
@@ -40322,12 +41426,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Save palette"
 #~ msgstr "Asbob oynalari"
-
-#, fuzzy
-#~| msgid "Keywords:"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Keywords:"
-#~ msgstr "Tayanch soʻzlar:"
 
 #, fuzzy
 #~| msgid "Subject:"
@@ -59926,11 +61024,6 @@ msgstr ""
 #~ msgstr "Moslash..."
 
 #, fuzzy
-#~| msgid "Color Settings"
-#~ msgid "Cursor Settings"
-#~ msgstr "Rang moslamalari"
-
-#, fuzzy
 #~| msgid "&Percent:"
 #~ msgid "Placement"
 #~ msgstr "&Foiz:"
@@ -60212,11 +61305,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Wilco Greven"
 #~ msgstr "Och yashil"
-
-#, fuzzy
-#~| msgid "Direction:"
-#~ msgid "Project Vision"
-#~ msgstr "Yoʻnalish:"
 
 #, fuzzy
 #~ msgid "Brushes and Palettes"
@@ -60948,11 +62036,6 @@ msgstr ""
 #~ msgstr "Rasmning oʻlchamini oʻzgartirish"
 
 #, fuzzy
-#~| msgid "Text"
-#~ msgid "Invert Texture:"
-#~ msgstr "Matn"
-
-#, fuzzy
 #~ msgid "Paint with brushes"
 #~ msgstr "Filtrli choʻtka"
 
@@ -61090,10 +62173,6 @@ msgstr ""
 #~ msgstr "Bosim:"
 
 #, fuzzy
-#~ msgid "Resource Manager"
-#~ msgstr "&Manbalar"
-
-#, fuzzy
 #~ msgid "Horizontal Radius"
 #~ msgstr "Ufq 1"
 
@@ -61228,10 +62307,6 @@ msgstr ""
 #~ msgstr "&Foiz:"
 
 #, fuzzy
-#~ msgid "Pixels"
-#~ msgstr "Piksellash"
-
-#, fuzzy
 #~ msgid "Size in Pixels"
 #~ msgstr "Piksellash"
 
@@ -61242,10 +62317,6 @@ msgstr ""
 
 #~ msgid "&Resize"
 #~ msgstr "Oʻlchami&ni oʻzgartirish"
-
-#, fuzzy
-#~ msgid "&Crop layers on image resize"
-#~ msgstr "Rasm oʻlchamiga mos qilib qatlamni &kesish"
 
 #, fuzzy
 #~ msgid "&Scale"
@@ -61563,10 +62634,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Colorspace"
 #~ msgstr "Ranglar boʻshligʻi"
-
-#, fuzzy
-#~ msgid "Equation:"
-#~ msgstr "&Choʻqqi"
 
 #, fuzzy
 #~ msgid "Variance 2:"
@@ -62113,10 +63180,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Initial mode"
 #~ msgstr "Piksel eni"
-
-#, fuzzy
-#~ msgid "Project"
-#~ msgstr "Filter boʻyogʻi"
 
 #, fuzzy
 #~ msgid "Perspective Transformation"
@@ -63062,13 +64125,6 @@ msgstr ""
 #~ msgstr "Quritish tezligi"
 
 #, fuzzy
-#~ msgid "Miscibility"
-#~ msgstr "Aralashish"
-
-#~ msgid "Gravitational Direction"
-#~ msgstr "Tortish kuchi yoʻnalishi"
-
-#, fuzzy
 #~ msgid "Gravitational Strength"
 #~ msgstr "Tortish kuchi"
 
@@ -63096,11 +64152,6 @@ msgstr ""
 #~| msgid "Wheel:"
 #~ msgid "When:"
 #~ msgstr "Gʻildirak:"
-
-#, fuzzy
-#~| msgid "Text"
-#~ msgid "&Test"
-#~ msgstr "Matn"
 
 #, fuzzy
 #~ msgid "Mask From Selection..."
@@ -63347,10 +64398,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Dummy Tool"
 #~ msgstr "Kattalashtirish vositasi"
-
-#, fuzzy
-#~ msgid "Add Palette"
-#~ msgstr "Palitra qoʻshish"
 
 #, fuzzy
 #~ msgid "&Dummy"
