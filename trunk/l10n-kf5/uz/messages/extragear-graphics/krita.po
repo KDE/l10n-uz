@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-25 03:19+0200\n"
+"POT-Creation-Date: 2018-06-26 03:23+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -11114,9 +11114,9 @@ msgstr "Tanlash usuli:"
 #: libs/ui/kis_layer_manager.cc:905 libs/ui/kis_node_manager.cpp:1114
 #: libs/ui/KisApplication.cpp:760 libs/ui/KisApplication.cpp:763
 #: libs/ui/KisApplication.cpp:785 libs/ui/KisApplication.cpp:811
-#: libs/ui/KisApplication.cpp:832 libs/ui/KisDocument.cpp:620
-#: libs/ui/KisDocument.cpp:1086 libs/ui/KisDocument.cpp:1168
-#: libs/ui/KisDocument.cpp:1209 libs/ui/KisDocument.cpp:1217
+#: libs/ui/KisApplication.cpp:832 libs/ui/KisDocument.cpp:625
+#: libs/ui/KisDocument.cpp:1091 libs/ui/KisDocument.cpp:1173
+#: libs/ui/KisDocument.cpp:1214 libs/ui/KisDocument.cpp:1222
 #: libs/ui/KisMainWindow.cpp:818 libs/ui/KisMainWindow.cpp:920
 #: libs/ui/KisMainWindow.cpp:933 libs/ui/KisMainWindow.cpp:993
 #: libs/ui/KisMainWindow.cpp:1793 libs/ui/KisMainWindow.cpp:1823
@@ -11127,8 +11127,8 @@ msgstr "Tanlash usuli:"
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:342
 #: libs/ui/opengl/kis_opengl_image_textures.cpp:560
 #: libs/ui/widgets/kis_custom_image_widget.cc:276
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:816
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:819
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:822
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:825
 #: plugins/extensions/animationrenderer/AnimationRenderer.cpp:159
 #: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:469
 #: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:473
@@ -15716,8 +15716,8 @@ msgid "No profile"
 msgstr "Profil yoʻq"
 
 #: libs/ui/kis_stopgradient_editor.cpp:44
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:929
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:936
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:955
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:961
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:122
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:50
 #, fuzzy, kde-format
@@ -15967,22 +15967,22 @@ msgstr "Palitra"
 msgid "Palette %1"
 msgstr "Palitra"
 
-#: libs/ui/KisDocument.cpp:523
+#: libs/ui/KisDocument.cpp:528
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:536
+#: libs/ui/KisDocument.cpp:541
 #, fuzzy, kde-format
 msgid "Exporting Document..."
 msgstr "Yangi hujjatlarda ochish"
 
-#: libs/ui/KisDocument.cpp:537
+#: libs/ui/KisDocument.cpp:542
 #, fuzzy, kde-format
 msgid "Saving Document..."
 msgstr "Boshqa hujjat sifatida saqlash"
 
-#: libs/ui/KisDocument.cpp:614
+#: libs/ui/KisDocument.cpp:619
 #, fuzzy, kde-format
 #| msgid "Error during autosave! Partition full?"
 msgctxt "%1 --- failing file name, %2 --- error message"
@@ -15990,35 +15990,35 @@ msgid "Error during saving %1: %2"
 msgstr ""
 "Avtomatik saqlashda xato roʻy berdi! Ehtimol diskda boʻsh joy qolmagan."
 
-#: libs/ui/KisDocument.cpp:620 plugins/extensions/imagesplit/imagesplit.cpp:84
+#: libs/ui/KisDocument.cpp:625 plugins/extensions/imagesplit/imagesplit.cpp:84
 #, fuzzy, kde-format
 msgid ""
 "Could not save %1\n"
 "Reason: %2"
 msgstr "Hech narsa tanlanmagan"
 
-#: libs/ui/KisDocument.cpp:639
+#: libs/ui/KisDocument.cpp:644
 #, fuzzy, kde-format
 msgid "Finished saving %1"
 msgstr "&Siniq chiziq"
 
-#: libs/ui/KisDocument.cpp:805
+#: libs/ui/KisDocument.cpp:810
 #, fuzzy, kde-format
 #| msgid "Autosaving..."
 msgid "Autosaving... %1"
 msgstr "Avto-saqlanmoqda..."
 
-#: libs/ui/KisDocument.cpp:811
+#: libs/ui/KisDocument.cpp:816
 #, kde-format
 msgid "Autosaving..."
 msgstr "Avto-saqlanmoqda..."
 
-#: libs/ui/KisDocument.cpp:817
+#: libs/ui/KisDocument.cpp:822
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:857
+#: libs/ui/KisDocument.cpp:862
 #, fuzzy, kde-format
 #| msgid "Error during autosave! Partition full?"
 msgctxt "%1 --- failing file name, %2 --- error message"
@@ -16026,12 +16026,12 @@ msgid "Error during autosaving %1: %2"
 msgstr ""
 "Avtomatik saqlashda xato roʻy berdi! Ehtimol diskda boʻsh joy qolmagan."
 
-#: libs/ui/KisDocument.cpp:871
+#: libs/ui/KisDocument.cpp:876
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1071
+#: libs/ui/KisDocument.cpp:1076
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -16040,7 +16040,7 @@ msgstr ""
 "Notoʻgri URL\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1087
+#: libs/ui/KisDocument.cpp:1092
 #, fuzzy, kde-format
 #| msgid ""
 #| "An autosaved file exists for this document.\n"
@@ -16052,34 +16052,34 @@ msgstr ""
 "Bu hujjatning avto-saqlangan nusxasi mavjud.\n"
 "Uni ochishni istaysizmi?"
 
-#: libs/ui/KisDocument.cpp:1168
+#: libs/ui/KisDocument.cpp:1173
 #, kde-format
 msgid "File %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1198
+#: libs/ui/KisDocument.cpp:1203
 #, fuzzy, kde-format
 msgid "Opening document"
 msgstr "Yangi hujjatlarda ochish"
 
-#: libs/ui/KisDocument.cpp:1210
+#: libs/ui/KisDocument.cpp:1215
 #, fuzzy, kde-format
 msgid ""
 "Could not open %2.\n"
 "Reason: %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/ui/KisDocument.cpp:1218
+#: libs/ui/KisDocument.cpp:1223
 #, kde-format
 msgid "There were problems opening %1."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1335
+#: libs/ui/KisDocument.cpp:1340
 #, fuzzy, kde-format
 msgid "Not Saved"
 msgstr "Profil yoʻq"
 
-#: libs/ui/KisDocument.cpp:1680
+#: libs/ui/KisDocument.cpp:1685
 #, fuzzy, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -21388,27 +21388,27 @@ msgstr "Oʻrnini almashtirishmoq"
 msgid "Infinite Ruler"
 msgstr "Lineykalarni bekitish"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:698
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:703
 #, fuzzy, kde-format
 msgid "Select an Assistant"
 msgstr "Oʻrnini almashtirishmoq"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:819
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:825
 #, kde-format
 msgid "Errors were encountered. Not all assistants were successfully loaded."
 msgstr ""
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:879
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:888
 #, fuzzy, kde-format
 msgid "Save Assistant"
 msgstr "Oʻrnini almashtirishmoq"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:949
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:968
 #, fuzzy, kde-format
 msgid "Density: "
 msgstr "Taʼrifi:"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.h:165
+#: plugins/assistants/Assistants/kis_assistant_tool.h:157
 #, fuzzy, kde-format
 msgid "Assistant Tool"
 msgstr "Oʻrnini almashtirishmoq"
@@ -21454,7 +21454,7 @@ msgstr "Oddiy"
 msgid "Spline assistant"
 msgstr "Oʻrnini almashtirishmoq"
 
-#: plugins/assistants/Assistants/SplineAssistant.cc:218
+#: plugins/assistants/Assistants/SplineAssistant.cc:221
 #, fuzzy, kde-format
 msgid "Spline"
 msgstr "Sinus"
@@ -29770,8 +29770,8 @@ msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 msgid "Could not encode or write image."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/heif/HeifError.cpp:61 plugins/impex/kra/kra_converter.cpp:295
-#: plugins/impex/kra/kra_converter.cpp:323
+#: plugins/impex/heif/HeifError.cpp:61 plugins/impex/kra/kra_converter.cpp:294
+#: plugins/impex/kra/kra_converter.cpp:322
 #, fuzzy, kde-format
 msgid "Unknown error."
 msgstr "Namuna sifatida ishlatish"
@@ -30118,7 +30118,7 @@ msgstr ""
 msgid "The file has no layers."
 msgstr "%1 fayli mavjud emas."
 
-#: plugins/impex/kra/kra_converter.cpp:310
+#: plugins/impex/kra/kra_converter.cpp:309
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "The file does not contain an image."
@@ -30196,27 +30196,27 @@ msgstr ""
 msgid "unknown keyframe channel type: %1 in %2"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:212
+#: plugins/impex/libkra/kis_kra_loader.cpp:213
 #, kde-format
 msgid "Image does not have a name."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:217
+#: plugins/impex/libkra/kis_kra_loader.cpp:218
 #, kde-format
 msgid "Image does not specify a width."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:223
+#: plugins/impex/libkra/kis_kra_loader.cpp:224
 #, kde-format
 msgid "Image does not specify a height."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:273
+#: plugins/impex/libkra/kis_kra_loader.cpp:274
 #, kde-format
 msgid "Image specifies an unsupported color model: %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:440
+#: plugins/impex/libkra/kis_kra_loader.cpp:451
 #: plugins/impex/psd/psd_loader.cpp:349
 #, kde-format
 msgctxt ""
@@ -30224,27 +30224,27 @@ msgctxt ""
 msgid "<%1> (embedded)"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:614
+#: plugins/impex/libkra/kis_kra_loader.cpp:628
 #, fuzzy, kde-format
 msgid "Layer %1 specifies an unsupported color model: %2."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:642
+#: plugins/impex/libkra/kis_kra_loader.cpp:656
 #, fuzzy, kde-format
 msgid "Layer %1 has an unsupported type."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:676
+#: plugins/impex/libkra/kis_kra_loader.cpp:690
 #, fuzzy, kde-format
 msgid "Layer %1 has an unsupported type: %2."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:683
+#: plugins/impex/libkra/kis_kra_loader.cpp:697
 #, kde-format
 msgid "Failure loading layer %1 of type: %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:798
+#: plugins/impex/libkra/kis_kra_loader.cpp:812
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -30256,15 +30256,15 @@ msgid ""
 "Do you want to locate it manually?"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:803
-#: plugins/impex/libkra/kis_kra_loader.cpp:1157
+#: plugins/impex/libkra/kis_kra_loader.cpp:817
+#: plugins/impex/libkra/kis_kra_loader.cpp:1171
 #, fuzzy, kde-format
 #| msgid "File not found"
 msgctxt "@title:window"
 msgid "File not found"
 msgstr "Fayl topilmadi"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1152
+#: plugins/impex/libkra/kis_kra_loader.cpp:1166
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -30372,12 +30372,12 @@ msgstr "Yangi qatlam yaratish"
 msgid "Could not write for %1 metadata to the file."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:181
+#: plugins/impex/libkra/kis_kra_saver.cpp:182
 #, fuzzy, kde-format
 msgid "could not save keyframes"
 msgstr "Hech narsa tanlanmagan"
 
-#: plugins/impex/libkra/kis_kra_saver.cpp:432
+#: plugins/impex/libkra/kis_kra_saver.cpp:444
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "Audio channel file %1 doesn't exist!"
