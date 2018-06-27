@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-26 03:23+0200\n"
+"POT-Creation-Date: 2018-06-27 03:26+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -6953,12 +6953,26 @@ msgctxt "action"
 msgid "Workspaces"
 msgstr "Ranglar boʻshligʻi"
 
-#: krita/main.cc:354 krita/main.cc:359
+#: krita/main.cc:353 libs/ui/KisApplication.cpp:384
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Krita: Warning"
+msgstr "Diqqat!"
+
+#: krita/main.cc:354
+#, kde-format
+msgid ""
+"You are running an unsupported version of Windows: %1.\n"
+"This is not recommended. Do not report any bugs.\n"
+"Please update to a supported version of Windows: Windows 7, 8, 8.1 or 10."
+msgstr ""
+
+#: krita/main.cc:377 krita/main.cc:382
 #, fuzzy, kde-format
 msgid "Krita Tablet Support"
 msgstr "Krita"
 
-#: krita/main.cc:355
+#: krita/main.cc:378
 #, kde-format
 msgid ""
 "Cannot load WinTab driver and no Windows Ink pen devices are found. If you "
@@ -6966,7 +6980,7 @@ msgid ""
 "installed."
 msgstr ""
 
-#: krita/main.cc:360
+#: krita/main.cc:383
 #, kde-format
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
@@ -15772,12 +15786,6 @@ msgstr ""
 msgid "Loading Plugins Exiv/IO..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:384
-#, fuzzy, kde-format
-msgctxt "@title:window"
-msgid "Krita: Warning"
-msgstr "Diqqat!"
-
 #: libs/ui/KisApplication.cpp:385
 #, kde-format
 msgid ""
@@ -21695,11 +21703,7 @@ msgstr "Gistogramma"
 msgid "Advanced Color Selector"
 msgstr "Tanlanganni koʻrsatish"
 
-#: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:55
-#, fuzzy, kde-format
-msgid "Color Sliders"
-msgstr "Tanlanganni koʻrsatish"
-
+#. i18n("Color Sliders"));
 #: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:56
 #, fuzzy, kde-format
 msgid "Color Hotkeys"
@@ -21763,7 +21767,7 @@ msgstr "Tekis"
 msgid "Color Selector Settings"
 msgstr "Tanlanganni koʻrsatish"
 
-#: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:320
+#: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:321
 #, kde-format
 msgid ""
 "Values goes from black to white, or black to the most saturated colour. "
@@ -21771,19 +21775,19 @@ msgid ""
 "black."
 msgstr ""
 
-#: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:323
+#: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:324
 #, kde-format
 msgid ""
 "Lightness goes from black to white, with middle grey being equal to the most "
 "saturated colour."
 msgstr ""
 
-#: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:326
+#: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:327
 #, kde-format
 msgid "Intensity maps to the sum of rgb components"
 msgstr ""
 
-#: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:329
+#: plugins/dockers/advancedcolorselector/kis_color_selector_settings.cpp:330
 #, kde-format
 msgid ""
 "Luma(Y') is weighted by its coefficients which are configurable. Default "
@@ -39472,6 +39476,10 @@ msgstr "Tanlanganni bekitish"
 #, kde-format
 msgid "Work Recursively"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Color Sliders"
+#~ msgstr "Tanlanganni koʻrsatish"
 
 #, fuzzy
 #~ msgctxt "action"
