@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-07-24 03:33+0200\n"
+"POT-Creation-Date: 2018-07-25 03:31+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8315,7 +8315,7 @@ msgid ""
 msgstr ""
 
 #: libs/image/kis_filter_strategy.h:115
-#: libs/ui/canvas/kis_canvas_controller.cpp:309
+#: libs/ui/canvas/kis_canvas_controller.cpp:314
 #, fuzzy, kde-format
 msgid "Bilinear"
 msgstr "Chiziqli"
@@ -10558,13 +10558,13 @@ msgid "Horizontal mirroring: %1 "
 msgstr "Ufq 1"
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:194
-#: libs/ui/canvas/kis_canvas_controller.cpp:297
+#: libs/ui/canvas/kis_canvas_controller.cpp:302
 #, kde-format
 msgid "OFF"
 msgstr ""
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:194
-#: libs/ui/canvas/kis_canvas_controller.cpp:297
+#: libs/ui/canvas/kis_canvas_controller.cpp:302
 #, kde-format
 msgid "ON"
 msgstr ""
@@ -10582,24 +10582,29 @@ msgid ""
 "To visualize wrap-around mode, enable OpenGL."
 msgstr ""
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:296
+#: libs/ui/canvas/kis_canvas_controller.cpp:267
+#, kde-format
+msgid "Entering Wraparound mode. Press '%1' to leave Wraparound mode."
+msgstr ""
+
+#: libs/ui/canvas/kis_canvas_controller.cpp:301
 #, fuzzy, kde-format
 msgid "Instant Preview Mode: %1"
 msgstr "Koʻrib chiqish: "
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:303
+#: libs/ui/canvas/kis_canvas_controller.cpp:308
 #, kde-format
 msgid "Instant Preview is only supported with OpenGL activated"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
-#: libs/ui/canvas/kis_canvas_controller.cpp:309
+#: libs/ui/canvas/kis_canvas_controller.cpp:314
 #: libs/ui/forms/wdgdisplaysettings.ui:54
 #, kde-format
 msgid "Nearest Neighbour"
 msgstr ""
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:310
+#: libs/ui/canvas/kis_canvas_controller.cpp:315
 #, kde-format
 msgid ""
 "Instant Preview is supported\n"
@@ -10607,7 +10612,7 @@ msgid ""
 "Current mode is %1"
 msgstr ""
 
-#: libs/ui/canvas/kis_canvas_controller.cpp:314
+#: libs/ui/canvas/kis_canvas_controller.cpp:319
 #, fuzzy, kde-format
 msgid ""
 "Failed activating Instant Preview mode!\n"
