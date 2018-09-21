@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-20 03:40+0200\n"
+"POT-Creation-Date: 2018-09-21 03:38+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -7327,28 +7327,28 @@ msgid "Spacing > 0.5, consider disabling Instant Preview"
 msgstr ""
 
 #: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1115
-#: libs/ui/KisUndoActionsUpdateManager.cpp:59
-#, fuzzy, kde-format
-msgid "Undo %1"
-msgstr "&Bekor qilish: %1"
-
-#: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1115
 #, fuzzy, kde-format
 msgctxt "Default text for undo action"
 msgid "Undo"
 msgstr "Bekor qilish: %1"
 
-#: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1141
-#: libs/ui/KisUndoActionsUpdateManager.cpp:64
+#: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1115
+#: libs/ui/KisUndoActionsUpdateManager.cpp:59
 #, fuzzy, kde-format
-msgid "Redo %1"
-msgstr "Qaytarish: %1"
+msgid "Undo %1"
+msgstr "&Bekor qilish: %1"
 
 #: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1141
 #, fuzzy, kde-format
 msgctxt "Default text for redo action"
 msgid "Redo"
 msgstr "Qizil"
+
+#: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1141
+#: libs/ui/KisUndoActionsUpdateManager.cpp:64
+#, fuzzy, kde-format
+msgid "Redo %1"
+msgstr "Qaytarish: %1"
 
 #: libs/command/kundo2model.cpp:67
 #: plugins/dockers/historydocker/KisUndoModel.cpp:70
@@ -7369,6 +7369,288 @@ msgstr "Qizil"
 #, fuzzy, kde-format
 msgid "Undo"
 msgstr "Bekor qilish: %1"
+
+#: libs/flake/commands/KoConnectionShapeTypeCommand.cpp:31
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Connection"
+msgstr "Tekislashni oʻzgartirish"
+
+#: libs/flake/commands/KoMultiPathPointJoinCommand.cpp:30
+#: libs/flake/commands/KoSubpathJoinCommand.cpp:56
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Join subpaths"
+msgstr "Chiziqning enini oʻzgartirish"
+
+#: libs/flake/commands/KoMultiPathPointMergeCommand.cpp:50
+#: libs/flake/commands/KoPathPointMergeCommand.cpp:148
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Merge points"
+msgstr "Boʻsh joy"
+
+#: libs/flake/commands/KoParameterHandleMoveCommand.cpp:35
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change parameter"
+msgstr "Tabulyasiyani oʻzgartirish"
+
+#: libs/flake/commands/KoParameterToPathCommand.cpp:44
+#: libs/flake/commands/KoParameterToPathCommand.cpp:53
+#: libs/flake/tools/KoPathTool.cpp:390
+#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:609
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to Path"
+msgstr "Yunonchaga aylantirish"
+
+#: libs/flake/commands/KoPathBreakAtPointCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Break subpath at points"
+msgstr "Moʻljal:"
+
+#: libs/flake/commands/KoPathCombineCommand.cpp:67
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Combine paths"
+msgstr "Chiziqning enini oʻzgartirish"
+
+#: libs/flake/commands/KoPathControlPointMoveCommand.cpp:42
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move control point"
+msgstr "Boʻsh joy"
+
+#: libs/flake/commands/KoPathFillRuleCommand.cpp:44
+msgctxt "(qtundo-format)"
+msgid "Set fill rule"
+msgstr ""
+
+#: libs/flake/commands/KoPathPointInsertCommand.cpp:80
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert points"
+msgstr "Bogʻni qoʻyish"
+
+#: libs/flake/commands/KoPathPointMoveCommand.cpp:43
+#: libs/flake/commands/KoPathPointMoveCommand.cpp:59
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move points"
+msgstr "Bogʻni olib tashlash"
+
+#: libs/flake/commands/KoPathPointRemoveCommand.cpp:104
+#: libs/flake/commands/KoPathPointRemoveCommand.cpp:133
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove points"
+msgstr "Bogʻni olib tashlash"
+
+#: libs/flake/commands/KoPathPointTypeCommand.cpp:49
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set point type"
+msgstr "Shriftni tanlash"
+
+#: libs/flake/commands/KoPathReverseCommand.cpp:51
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reverse paths"
+msgstr "Guruhni olib tashlash"
+
+#: libs/flake/commands/KoPathSegmentBreakCommand.cpp:38
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Break subpath"
+msgstr "Guruhni olib tashlash"
+
+#: libs/flake/commands/KoPathSegmentTypeCommand.cpp:134
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change segments to curves"
+msgstr "Shriftning uslubini oʻzgartirish"
+
+#: libs/flake/commands/KoPathSegmentTypeCommand.cpp:136
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change segments to lines"
+msgstr "Shriftning uslubini oʻzgartirish"
+
+#: libs/flake/commands/KoPathShapeMarkerCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set marker"
+msgstr "Soniya"
+
+#: libs/flake/commands/KoShapeAlignCommand.cpp:84
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Align shapes"
+msgstr "Chapga tekislash"
+
+#: libs/flake/commands/KoShapeBackgroundCommand.cpp:66
+#: libs/flake/commands/KoShapeBackgroundCommand.cpp:77
+#: libs/flake/commands/KoShapeBackgroundCommand.cpp:92
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set background"
+msgstr "Soniya"
+
+#: libs/flake/commands/KoShapeClipCommand.cpp:70
+#: libs/flake/commands/KoShapeClipCommand.cpp:85
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Clip Shape"
+msgstr "Toʻlqin"
+
+#: libs/flake/commands/KoShapeCreateCommand.cpp:66
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Create shape"
+msgid_plural "Create shapes"
+msgstr[0] "Namunani yaratish"
+
+#: libs/flake/commands/KoShapeDeleteCommand.cpp:56
+#: libs/flake/commands/KoShapeDeleteCommand.cpp:69
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete shape"
+msgid_plural "Delete shapes"
+msgstr[0] "Matnni oʻchirish"
+
+#: libs/flake/commands/KoShapeDistributeCommand.cpp:130
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Distribute shapes"
+msgstr "Matnni oʻchirish"
+
+#: libs/flake/commands/KoShapeGroupCommand.cpp:80
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1067
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Group shapes"
+msgstr "Joriy boʻlim"
+
+#: libs/flake/commands/KoShapeGroupCommand.cpp:82
+#, fuzzy
+#| msgid "Add Group"
+msgctxt "(qtundo-format)"
+msgid "Add shapes to group"
+msgstr "Guruhni qoʻshish"
+
+#: libs/flake/commands/KoShapeKeepAspectRatioCommand.cpp:27
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Keep Aspect Ratio"
+msgstr " soniya"
+
+#: libs/flake/commands/KoShapeLockCommand.cpp:36
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Lock shapes"
+msgstr "Chapga tekislash"
+
+#: libs/flake/commands/KoShapeMoveCommand.cpp:36
+#: libs/flake/commands/KoShapeMoveCommand.cpp:48
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move shapes"
+msgstr "Matnni oʻchirish"
+
+#: libs/flake/commands/KoShapeRenameCommand.cpp:41
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rename Shape"
+msgstr "Namunani yaratish"
+
+#: libs/flake/commands/KoShapeReorderCommand.cpp:66
+#: libs/flake/commands/KoShapeReorderCommand.cpp:79
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reorder shapes"
+msgstr "Matnni oʻchirish"
+
+#: libs/flake/commands/KoShapeResizeCommand.cpp:47
+#: plugins/tools/defaulttool/defaulttool/DefaultToolWidget.cpp:239
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Resize"
+msgstr "Oʻlchami&ni oʻzgartirish"
+
+#: libs/flake/commands/KoShapeRunAroundCommand.cpp:72
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Shape RunAround"
+msgstr "Tabulyasiyani oʻzgartirish"
+
+#: libs/flake/commands/KoShapeShadowCommand.cpp:67
+#: libs/flake/commands/KoShapeShadowCommand.cpp:84
+#: libs/flake/commands/KoShapeShadowCommand.cpp:95
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Shadow"
+msgstr "Matnning soyasi"
+
+#: libs/flake/commands/KoShapeShearCommand.cpp:51
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shear shapes"
+msgstr "Matnni oʻchirish"
+
+#: libs/flake/commands/KoShapeSizeCommand.cpp:43
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Resize shapes"
+msgstr "Matnni oʻchirish"
+
+#: libs/flake/commands/KoShapeStrokeCommand.cpp:67
+#: libs/flake/commands/KoShapeStrokeCommand.cpp:86
+#: libs/flake/commands/KoShapeStrokeCommand.cpp:97
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set stroke"
+msgstr "Tosh"
+
+#: libs/flake/commands/KoShapeTransparencyCommand.cpp:49
+#: libs/flake/commands/KoShapeTransparencyCommand.cpp:60
+#: libs/flake/commands/KoShapeTransparencyCommand.cpp:73
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set opacity"
+msgstr "Skript"
+
+#: libs/flake/commands/KoShapeUnclipCommand.cpp:96
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Unclip Shape"
+msgstr "Namunani yaratish"
+
+#: libs/flake/commands/KoShapeUnclipCommand.cpp:105
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Unclip Shapes"
+msgstr "Chapga tekislash"
+
+#: libs/flake/commands/KoShapeUngroupCommand.cpp:55
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1095
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Ungroup shapes"
+msgstr "Chapga tekislash"
+
+#: libs/flake/commands/KoSubpathJoinCommand.cpp:58
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Close subpath"
+msgstr "Guruhni olib tashlash"
+
+#: libs/flake/commands/KoSubpathRemoveCommand.cpp:34
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove subpath"
+msgstr "Guruhni olib tashlash"
 
 #: libs/flake/html/HtmlWriter.cpp:83
 #, kde-format
@@ -7528,6 +7810,12 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Create object"
 msgstr "Hujjatni yaratish"
+
+#: libs/flake/tools/KoPathSegmentChangeStrategy.cpp:146
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Segment"
+msgstr "Tekislashni oʻzgartirish"
 
 #: libs/flake/tools/KoPathTool.cpp:214
 #, fuzzy, kde-format
@@ -8031,6 +8319,63 @@ msgstr "Burchak"
 msgid "Spacing"
 msgstr "Boʻsh joy:"
 
+#: libs/image/commands/kis_change_filter_command.h:45
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Filter"
+msgstr "Filter"
+
+#: libs/image/commands/kis_deselect_global_selection_command.cpp:30
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Deselect"
+msgstr "Tanlashni bekor qilish"
+
+#: libs/image/commands/kis_image_layer_add_command.cpp:32
+#: libs/image/commands/kis_image_layer_add_command.cpp:48
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Layer"
+msgstr "Qatlamni qoʻshish"
+
+#: libs/image/commands/kis_image_layer_move_command.cpp:37
+#: libs/image/commands/kis_image_layer_move_command.cpp:50
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move Layer"
+msgstr "Qatlamni koʻchirish"
+
+#: libs/image/commands/kis_image_layer_remove_command.cpp:30
+#: libs/image/commands/kis_image_layer_remove_command_impl.cpp:47
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove Layer"
+msgstr "Qatlamni olib tashlash"
+
+#: libs/image/commands/kis_image_set_projection_color_space_command.cpp:29
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert Image Type"
+msgstr "Rasmning turini oʻzgartirish"
+
+#: libs/image/commands/kis_node_compositeop_command.cpp:29
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Composition Mode Change"
+msgstr "Qa&erni rasmga olish:"
+
+#: libs/image/commands/kis_node_opacity_command.cpp:26
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Opacity Change"
+msgstr "Xiralik: "
+
+#: libs/image/commands/kis_node_property_list_command.cpp:34
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Property Changes"
+msgstr "Xossalari..."
+
 #: libs/image/commands/kis_node_property_list_command.cpp:151
 #: libs/image/kis_layer_properties_icons.cpp:33
 #, kde-format
@@ -8055,6 +8400,44 @@ msgstr "Qatlamni koʻchirish"
 #, fuzzy, kde-format
 msgid "Alpha Locked"
 msgstr "Qulflangan"
+
+#: libs/image/commands/kis_reselect_global_selection_command.cpp:30
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reselect"
+msgstr "Qaytada&n tanlash"
+
+#: libs/image/commands_new/kis_image_resize_command.cpp:28
+#: libs/image/kis_image.cc:627
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Resize Image"
+msgstr "Rasmning oʻlchamini oʻzgartirish"
+
+#: libs/image/commands_new/kis_image_set_resolution_command.cpp:26
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Image Resolution"
+msgstr "Rasmning oʻlchami"
+
+#: libs/image/commands_new/kis_move_command_common.h:40
+#: libs/ui/tool/strokes/move_stroke_strategy.cpp:33
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move"
+msgstr "Koʻchi&rish"
+
+#: libs/image/commands_new/kis_set_layer_style_command.cpp:27
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Layer Style"
+msgstr "Qatlamni boshqa turga aylantirish"
+
+#: libs/image/commands_new/kis_switch_current_time_command.cpp:27
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Switch current time"
+msgstr "Joriy qatlamni oʻchirish"
 
 #: libs/image/filter/kis_filter_category_ids.cpp:24
 #, fuzzy, kde-format
@@ -8231,17 +8614,107 @@ msgstr ""
 msgid "Pass Through"
 msgstr ""
 
-#: libs/image/kis_image.cc:519
+#: libs/image/kis_image.cc:522
 #, kde-format
 msgid "background"
 msgstr "orqa fon"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/image/kis_image.cc:523 plugins/extensions/imagesize/imagesize.xmlgui:9
+#: libs/image/kis_image.cc:526 plugins/extensions/imagesize/imagesize.xmlgui:9
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:393
 #, kde-format
 msgid "Layer"
 msgstr "Qatlam"
+
+#: libs/image/kis_image.cc:626
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Crop Image"
+msgstr "Rasmni kesish"
+
+#: libs/image/kis_image.cc:668
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Crop Layer"
+msgstr "Yangi qatlamlar &guruhi..."
+
+#: libs/image/kis_image.cc:669
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Crop Mask"
+msgstr "Alfa niqob"
+
+#: libs/image/kis_image.cc:701
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Scale Image"
+msgstr "Yangi rasm"
+
+#: libs/image/kis_image.cc:702
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Image Resolution"
+msgstr "Rasmning oʻlchami"
+
+#: libs/image/kis_image.cc:749
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Scale Layer"
+msgstr "Yangi qatlam"
+
+#: libs/image/kis_image.cc:876
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rotate Image"
+msgstr "Rasmni burish"
+
+#: libs/image/kis_image.cc:882
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rotate Mask"
+msgstr "Yaratish"
+
+#: libs/image/kis_image.cc:884
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rotate Layer"
+msgstr "Qatlamni burish"
+
+#: libs/image/kis_image.cc:966
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shear Mask"
+msgstr "Matnni oʻchirish"
+
+#: libs/image/kis_image.cc:969
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shear Layer"
+msgstr "Yangi qatlam"
+
+#: libs/image/kis_image.cc:976
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shear Image"
+msgstr "Yangi rasm"
+
+#: libs/image/kis_image.cc:988
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert Image Color Space"
+msgstr "Rasmning turini oʻzgartirish"
+
+#: libs/image/kis_image.cc:1023
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert Projection Color Space"
+msgstr "Rasmning turini oʻzgartirish"
+
+#: libs/image/kis_image.cc:1810
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Crop Selections"
+msgstr "Hech narsa tanlanmagan"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: libs/image/kis_keyframe_channel.cpp:29 libs/ui/forms/wdgnewimage.ui:370
@@ -8379,10 +8852,34 @@ msgstr "Asbob oynalari"
 msgid "Merged"
 msgstr "Qizildan nusxa olish"
 
+#: libs/image/kis_layer_utils.cpp:935
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Merge Down"
+msgstr "Alfa moslamalari"
+
 #: libs/image/kis_layer_utils.cpp:1135
 #, fuzzy, kde-format
 msgid "Copy of"
 msgstr "Yashildan nusxa olish"
+
+#: libs/image/kis_layer_utils.cpp:1197
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change projection color"
+msgstr "Tekislashni oʻzgartirish"
+
+#: libs/image/kis_layer_utils.cpp:1296
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Merge Selected Nodes"
+msgstr "Tanlangan rangni olib tashlash"
+
+#: libs/image/kis_layer_utils.cpp:1304
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "New From Visible"
+msgstr "Profil:"
 
 #: libs/image/kis_layer_utils.cpp:1304
 #, fuzzy, kde-format
@@ -8390,6 +8887,24 @@ msgstr "Yashildan nusxa olish"
 msgctxt "New layer created from all the visible layers"
 msgid "Visible"
 msgstr "Koʻrinadigan"
+
+#: libs/image/kis_layer_utils.cpp:1383
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Merge Selection Masks"
+msgstr "Tanlash boʻyogʻi"
+
+#: libs/image/kis_layer_utils.cpp:1406
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Flatten Layer"
+msgstr "Silliqlangan rasm"
+
+#: libs/image/kis_layer_utils.cpp:1419
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Flatten Image"
+msgstr "Silliqlangan rasm"
 
 #: libs/image/kis_processing_visitor.cpp:34
 #, fuzzy, kde-format
@@ -8403,6 +8918,72 @@ msgstr "Bosim"
 #, kde-format
 msgid "Unnamed"
 msgstr "Nomsiz"
+
+#: libs/image/kis_regenerate_frame_stroke_strategy.cpp:105
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Render Animation"
+msgstr "Gradient vositasi"
+
+#: libs/image/kis_selection_filters.cpp:120
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Erode Selection"
+msgstr "Tanlanganni bekitish"
+
+#: libs/image/kis_selection_filters.cpp:184
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Dilate Selection"
+msgstr "Tanlanganni koʻrsatish"
+
+#: libs/image/kis_selection_filters.cpp:254
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Border Selection"
+msgstr "Tanlanganni bekitish"
+
+#: libs/image/kis_selection_filters.cpp:464
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Feather Selection"
+msgstr "Tanlash"
+
+#: libs/image/kis_selection_filters.cpp:511
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Grow Selection"
+msgstr "Hech narsa tanlanmagan"
+
+#: libs/image/kis_selection_filters.cpp:638
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shrink Selection"
+msgstr "Tanlanganni bekitish"
+
+#: libs/image/kis_selection_filters.cpp:781
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Smooth Selection"
+msgstr "Tanlash"
+
+#: libs/image/kis_selection_filters.cpp:842
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Invert Selection"
+msgstr "Tanlanganni bekitish"
+
+#: libs/image/kis_switch_time_stroke_strategy.cpp:44
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Switch Frames"
+msgstr "Joriy qatlamni oʻchirish"
+
+#: libs/image/kis_sync_lod_cache_stroke_strategy.cpp:70
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Instant Preview"
+msgstr "Oʻrnini almashtirishmoq"
 
 #: libs/image/kis_update_scheduler.cpp:138
 #, fuzzy, kde-format
@@ -8437,13 +9018,13 @@ msgstr "Ekspozitsiya:"
 
 #: libs/image/krita_utils.cpp:349
 #, fuzzy, kde-format
-msgid "on"
-msgstr "Yoʻq"
+msgid "off"
+msgstr "Qahva"
 
 #: libs/image/krita_utils.cpp:349
 #, fuzzy, kde-format
-msgid "off"
-msgstr "Qahva"
+msgid "on"
+msgstr "Yoʻq"
 
 #: libs/image/layerstyles/kis_ls_bevel_emboss_filter.cpp:56
 #: libs/image/layerstyles/kis_ls_stroke_filter.cpp:72
@@ -8465,6 +9046,36 @@ msgstr "Ustki qoplama"
 #, fuzzy, kde-format
 msgid "Satin (style)"
 msgstr "Toʻyintirish"
+
+#: libs/image/lazybrush/kis_colorize_mask.cpp:937
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Key Stroke Color"
+msgstr "Tekislashni oʻzgartirish"
+
+#: libs/image/lazybrush/kis_colorize_mask.cpp:964
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove Key Stroke"
+msgstr "Qatlamning nomi:"
+
+#: libs/image/lazybrush/kis_colorize_stroke_strategy.cpp:85
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Colorize"
+msgstr "Rang"
+
+#: libs/image/lazybrush/kis_colorize_stroke_strategy.cpp:85
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Prefilter Colorize Mask"
+msgstr "Rang"
+
+#: libs/image/processing/kis_transform_processing_visitor.cpp:214
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Transform Layer"
+msgstr "Boshqa shaklga almashtirish"
 
 #: libs/impex/AnimationCheck.h:38
 #, kde-format
@@ -10059,6 +10670,18 @@ msgstr "Nomsiz-1"
 msgid "SVG Gradient"
 msgstr "Gradient"
 
+#: libs/ui/actions/kis_selection_action_factories.cpp:143
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select All"
+msgstr "&Hammasini tanlash"
+
+#: libs/ui/actions/kis_selection_action_factories.cpp:217
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Flood Fill Layer"
+msgstr "Toʻldirish"
+
 #: libs/ui/actions/kis_selection_action_factories.cpp:295
 #, kde-format
 msgctxt "floating message when cannot copy from a node"
@@ -10070,6 +10693,25 @@ msgstr ""
 msgctxt "floating message when copying empty selection"
 msgid "Selection is empty: no pixels were copied "
 msgstr ""
+
+#: libs/ui/actions/kis_selection_action_factories.cpp:360
+#: plugins/flake/textshape/TextTool.cpp:1136
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Cut"
+msgstr "Boshqa"
+
+#: libs/ui/actions/kis_selection_action_factories.cpp:361
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Copy"
+msgstr "Yashildan nusxa olish"
+
+#: libs/ui/actions/kis_selection_action_factories.cpp:387
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Copy Merged"
+msgstr "Qizildan nusxa olish"
 
 #: libs/ui/actions/kis_selection_action_factories.cpp:407
 #, fuzzy, kde-format
@@ -10088,6 +10730,13 @@ msgctxt "floating message"
 msgid "Selection is already in a vector format "
 msgstr ""
 
+#: libs/ui/actions/kis_selection_action_factories.cpp:459
+#: libs/ui/actions/kis_selection_action_factories.cpp:479
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to Vector Selection"
+msgstr "Hech narsa tanlanmagan"
+
 #: libs/ui/actions/kis_selection_action_factories.cpp:474
 #, kde-format
 msgctxt "floating message"
@@ -10099,6 +10748,26 @@ msgstr ""
 msgctxt "floating message"
 msgid "The shape already belongs to a selection"
 msgstr "Tanlanganni chizish"
+
+#: libs/ui/actions/kis_selection_action_factories.cpp:526
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert shapes to vector selection"
+msgstr "Hech narsa tanlanmagan"
+
+#: libs/ui/actions/kis_selection_action_factories.cpp:578
+#: libs/ui/actions/kis_selection_action_factories.cpp:638
+#: plugins/tools/tool_polyline/kis_tool_polyline.cc:63
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Polyline"
+msgstr "Siniq chiziq"
+
+#: libs/ui/actions/KisPasteActionFactory.cpp:114
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Paste shapes"
+msgstr "Namunani yaratish"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, KisDlgConfigureBrushHud)
 #: libs/ui/brushhud/kis_dlg_brush_hud_config.ui:20
@@ -10155,10 +10824,10 @@ msgid ""
 msgstr ""
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:194
-#: libs/ui/canvas/kis_canvas_controller.cpp:302
-#, kde-format
-msgid "ON"
-msgstr ""
+#, fuzzy, kde-format
+msgctxt "floating message about mirroring"
+msgid "Horizontal mirroring: %1 "
+msgstr "Ufq 1"
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:194
 #: libs/ui/canvas/kis_canvas_controller.cpp:302
@@ -10167,10 +10836,10 @@ msgid "OFF"
 msgstr ""
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:194
-#, fuzzy, kde-format
-msgctxt "floating message about mirroring"
-msgid "Horizontal mirroring: %1 "
-msgstr "Ufq 1"
+#: libs/ui/canvas/kis_canvas_controller.cpp:302
+#, kde-format
+msgid "ON"
+msgstr ""
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:212
 #, fuzzy, kde-format
@@ -10222,6 +10891,12 @@ msgid ""
 "\n"
 "%1"
 msgstr "Koʻrib chiqish: "
+
+#: libs/ui/canvas/kis_change_guides_command.cpp:38
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Edit Guides"
+msgstr "Toʻrni bekitish"
 
 #: libs/ui/canvas/kis_guides_manager.cpp:746
 #, fuzzy, kde-format
@@ -10513,6 +11188,12 @@ msgstr ""
 #, kde-format
 msgid "*varies*"
 msgstr ""
+
+#: libs/ui/dialogs/kis_dlg_layer_properties.cc:219
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Layer Properties"
+msgstr "Qatlamning xossalari"
 
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:68
 #, fuzzy, kde-format
@@ -11045,6 +11726,18 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Vector Layer %1"
 msgstr "Qatlam %1"
+
+#: libs/ui/flake/kis_take_all_shapes_command.cpp:27
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Clear Vector Selection"
+msgstr "Hech narsa tanlanmagan"
+
+#: libs/ui/flake/KisReferenceImagesLayer.cpp:33
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add reference image"
+msgstr "Rasmning nomini oʻzgartirish"
 
 #: libs/ui/flake/KisReferenceImagesLayer.cpp:127
 #, fuzzy, kde-format
@@ -14687,6 +15380,12 @@ msgstr "&Y ofset:"
 msgid "Do not ask again (hold Shift to ask again)"
 msgstr ""
 
+#: libs/ui/kis_animation_importer.cpp:69
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Import animation"
+msgstr "Kompozitsiyasiz"
+
 #: libs/ui/kis_bookmarked_configurations_editor.cc:69
 #, fuzzy, kde-format
 msgid "New configuration %1"
@@ -14696,6 +15395,12 @@ msgstr "Moslash..."
 #, fuzzy, kde-format
 msgid "Last Used"
 msgstr "Nomlangan ranglar"
+
+#: libs/ui/kis_change_file_layer_command.h:34
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change File Layer"
+msgstr "Filter"
 
 #: libs/ui/kis_clipboard.cc:289
 #, fuzzy, kde-format
@@ -14843,6 +15548,18 @@ msgstr "Qatlamning xossalari"
 msgid "No file name specified"
 msgstr ""
 
+#: libs/ui/kis_layer_manager.cc:434
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to a Paint Layer"
+msgstr "Joriy qatlam"
+
+#: libs/ui/kis_layer_manager.cc:461
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to an animated layer"
+msgstr "Joriy qatlam"
+
 #: libs/ui/kis_layer_manager.cc:478
 #, fuzzy, kde-format
 msgid "Save layers to..."
@@ -14854,6 +15571,12 @@ msgid ""
 "Choose the location where the layer will be saved to. The new file layer "
 "will then reference this location."
 msgstr ""
+
+#: libs/ui/kis_layer_manager.cc:539
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to a file layer"
+msgstr "Joriy qatlam"
 
 #: libs/ui/kis_layer_manager.cc:627
 #, fuzzy, kde-format
@@ -14879,6 +15602,12 @@ msgctxt "floating message in layer manager"
 msgid "Layer is locked "
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
+#: libs/ui/kis_layer_manager.cc:810
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rasterize Layer"
+msgstr "Qatlamni burish"
+
 #: libs/ui/kis_layer_manager.cc:849
 #, kde-format
 msgid "Convert Invisible Groups"
@@ -14890,14 +15619,44 @@ msgid "Export Only Toplevel Groups"
 msgstr ""
 
 #: libs/ui/kis_mask_manager.cc:198
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Selection Mask"
+msgstr "Tanlash boʻyogʻi"
+
+#: libs/ui/kis_mask_manager.cc:198
 #, kde-format
 msgid "Selection"
 msgstr "Tanlash"
+
+#: libs/ui/kis_mask_manager.cc:209
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Transparency Mask"
+msgstr "Shaffof"
+
+#: libs/ui/kis_mask_manager.cc:220
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Filter Mask"
+msgstr "Filterlar"
 
 #: libs/ui/kis_mask_manager.cc:235
 #, fuzzy, kde-format
 msgid "New Filter Mask"
 msgstr "Filterlar"
+
+#: libs/ui/kis_mask_manager.cc:271
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Colorize Mask"
+msgstr "Filterlar"
+
+#: libs/ui/kis_mask_manager.cc:281
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Transform Mask"
+msgstr "Shaffof"
 
 #: libs/ui/kis_mask_manager.cc:301
 #, fuzzy, kde-format
@@ -14908,6 +15667,90 @@ msgstr "Qatlamning xossalari"
 #, fuzzy, kde-format
 msgid "Mirror View"
 msgstr "Rasmni kesish"
+
+#: libs/ui/kis_node_manager.cpp:448
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move Nodes"
+msgstr "Koʻchirish vositasi"
+
+#: libs/ui/kis_node_manager.cpp:455
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Copy Nodes"
+msgstr "Yashildan nusxa olish"
+
+#: libs/ui/kis_node_manager.cpp:462
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Nodes"
+msgstr "&Manbalar"
+
+#: libs/ui/kis_node_manager.cpp:598
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to a Selection Mask"
+msgstr "Tanlanganni bekitish"
+
+#: libs/ui/kis_node_manager.cpp:847
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Duplicate Nodes"
+msgstr "Asboblar nusxasini koʻpaytirish"
+
+#: libs/ui/kis_node_manager.cpp:870
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Raise Nodes"
+msgstr "Koʻchirish vositasi"
+
+#: libs/ui/kis_node_manager.cpp:877
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Lower Nodes"
+msgstr "Koʻchirish vositasi"
+
+#: libs/ui/kis_node_manager.cpp:895
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove Nodes"
+msgstr "Koʻchirish vositasi"
+
+#: libs/ui/kis_node_manager.cpp:911
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Layer X"
+msgstr "Qatlamni koʻchirish"
+
+#: libs/ui/kis_node_manager.cpp:913
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Mask X"
+msgstr "Qatlamni koʻchirish"
+
+#: libs/ui/kis_node_manager.cpp:924
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Layer Y"
+msgstr "Qatlamni koʻchirish"
+
+#: libs/ui/kis_node_manager.cpp:926
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Mask Y"
+msgstr "Qatlamni koʻchirish"
+
+#: libs/ui/kis_node_manager.cpp:934
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror All Layers X"
+msgstr "Qatlamni koʻchirish"
+
+#: libs/ui/kis_node_manager.cpp:941
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror All Layers Y"
+msgstr "Qatlamni koʻchirish"
 
 #: libs/ui/kis_node_manager.cpp:1043
 #, fuzzy, kde-format
@@ -14925,6 +15768,12 @@ msgstr "Ekspozitsiya:"
 msgid "Could not save to svg: %1"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
+#: libs/ui/kis_node_manager.cpp:1147
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Split Alpha into a Mask"
+msgstr "Alfa moslamalari"
+
 #: libs/ui/kis_node_manager.cpp:1177
 #, fuzzy, kde-format
 msgctxt "@title:window"
@@ -14938,6 +15787,30 @@ msgid ""
 "The operation will be cancelled."
 msgstr ""
 
+#: libs/ui/kis_node_manager.cpp:1209
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Write Alpha into a Layer"
+msgstr "Yangi qatlam yaratish"
+
+#: libs/ui/kis_node_manager.cpp:1324
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Cut Nodes"
+msgstr "Asboblar nusxasini koʻpaytirish"
+
+#: libs/ui/kis_node_manager.cpp:1397
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Quick Group"
+msgstr "Choʻtkani koʻpaytirish"
+
+#: libs/ui/kis_node_manager.cpp:1408
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Quick Clipping Group"
+msgstr "Choʻtkani koʻpaytirish"
+
 #: libs/ui/kis_node_manager.cpp:1415
 #, fuzzy, kde-format
 msgctxt "default name for a clipping group layer"
@@ -14949,6 +15822,12 @@ msgstr "Qatlamni olib tashlash"
 msgctxt "default name for quick clip group mask layer"
 msgid "Mask Layer"
 msgstr "&Qatlam"
+
+#: libs/ui/kis_node_manager.cpp:1431
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Quick Ungroup"
+msgstr "Choʻtkani koʻpaytirish"
 
 #: libs/ui/kis_paintop_box.cc:118
 #, fuzzy, kde-format
@@ -15104,6 +15983,36 @@ msgstr ""
 msgid "Stroked Shapes"
 msgstr "Filter boʻyogʻi"
 
+#: libs/ui/kis_selection_manager.cc:603
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Stroke Shapes"
+msgstr "Filter boʻyogʻi"
+
+#: libs/ui/kis_selection_manager.cc:710
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Opaque (Add)"
+msgstr "Tanlash"
+
+#: libs/ui/kis_selection_manager.cc:713
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Opaque (Subtract)"
+msgstr "Tanlash"
+
+#: libs/ui/kis_selection_manager.cc:716
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Opaque (Intersect)"
+msgstr "Tanlash"
+
+#: libs/ui/kis_selection_manager.cc:719
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Opaque"
+msgstr "Tanlash"
+
 #: libs/ui/kis_splash_screen.cpp:122
 #, kde-format
 msgid ""
@@ -15167,15 +16076,15 @@ msgid "Hidden"
 msgstr ""
 
 #: libs/ui/kis_statusbar.cc:334
+#, kde-format
+msgid "Ants"
+msgstr ""
+
+#: libs/ui/kis_statusbar.cc:334
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:339
 #, fuzzy, kde-format
 msgid "Mask"
 msgstr "Manba"
-
-#: libs/ui/kis_statusbar.cc:334
-#, kde-format
-msgid "Ants"
-msgstr ""
 
 #: libs/ui/kis_statusbar.cc:337
 #, kde-format
@@ -15409,6 +16318,13 @@ msgid ""
 "If you press OK, selected files will be recovered, the unselected files "
 "discarded."
 msgstr ""
+
+#: libs/ui/KisCloneDocumentStroke.cpp:37
+#, fuzzy
+#| msgid "Open in New Documents"
+msgctxt "(qtundo-format)"
+msgid "Clone Document"
+msgstr "Yangi hujjatlarda ochish"
 
 #: libs/ui/KisDocument.cpp:525
 #, kde-format
@@ -15968,13 +16884,13 @@ msgstr "%1%"
 
 #: libs/ui/KisNodeToolTip.cpp:52
 #, fuzzy, kde-format
-msgid "Yes"
-msgstr "Sariq ranglar"
+msgid "No"
+msgstr "Yoʻq"
 
 #: libs/ui/KisNodeToolTip.cpp:52
 #, fuzzy, kde-format
-msgid "No"
-msgstr "Yoʻq"
+msgid "Yes"
+msgstr "Sariq ranglar"
 
 #: libs/ui/KisOpenPane.cpp:175
 #, fuzzy, kde-format
@@ -16000,6 +16916,12 @@ msgid ""
 "%1\n"
 "Reason: %2"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
+
+#: libs/ui/KisReferenceImage.cpp:76
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set saturation"
+msgstr "Toʻyintirish"
 
 #: libs/ui/KisReferenceImage.cpp:138
 #, fuzzy, kde-format
@@ -16230,16 +17152,16 @@ msgstr "Profil yoʻq"
 msgid "%1 (Copy)"
 msgstr "Yashildan nusxa olish"
 
+#: libs/ui/KisViewManager.cpp:976 libs/ui/KisViewManager.cpp:1053
+#, kde-format
+msgid "Alternative names exhausted, try manually saving with a higher number"
+msgstr ""
+
 #: libs/ui/KisViewManager.cpp:976
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr "Bosib chiqarish oʻlchami"
-
-#: libs/ui/KisViewManager.cpp:976 libs/ui/KisViewManager.cpp:1053
-#, kde-format
-msgid "Alternative names exhausted, try manually saving with a higher number"
-msgstr ""
 
 #: libs/ui/KisViewManager.cpp:1053
 #, fuzzy, kde-format
@@ -17311,6 +18233,19 @@ msgstr "Nuqta boʻyogʻi"
 msgid "Decrease Brush Size"
 msgstr "Boʻyoqning oʻlchami"
 
+#: libs/ui/tool/kis_tool_utils.cpp:134
+#: plugins/dockers/animation/kis_animation_utils.cpp:88
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Clear"
+msgstr "Ayiqlar"
+
+#: libs/ui/tool/strokes/kis_filter_stroke_strategy.cpp:74
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Filter \"%1\""
+msgstr "Filter: "
+
 #. i18n: ectx: property (text), widget (QLabel, lblLinks)
 #: libs/ui/wdgsplash.ui:435
 #, kde-format
@@ -17850,15 +18785,15 @@ msgid ""
 msgstr ""
 
 #: libs/ui/widgets/kis_categorized_list_view.cpp:152
-#, kde-format
-msgid "Unlock (restore settings from preset)"
-msgstr ""
-
-#: libs/ui/widgets/kis_categorized_list_view.cpp:152
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:78
 #, fuzzy, kde-format
 msgid "Lock"
 msgstr "Qulflangan"
+
+#: libs/ui/widgets/kis_categorized_list_view.cpp:152
+#, kde-format
+msgid "Unlock (restore settings from preset)"
+msgstr ""
 
 #: libs/ui/widgets/kis_categorized_list_view.cpp:157
 #, kde-format
@@ -18389,16 +19324,16 @@ msgstr "Gradient"
 
 #: libs/ui/widgets/KoFillConfigWidget.cpp:566
 #, fuzzy, kde-format
+#| msgid "Enter group name:"
+msgid "Enter gradient name:"
+msgstr "Guruhning nomini kiriting:"
+
+#: libs/ui/widgets/KoFillConfigWidget.cpp:566
+#, fuzzy, kde-format
 #| msgid "Gradient"
 msgctxt "@title:window"
 msgid "Save Gradient"
 msgstr "Gradient"
-
-#: libs/ui/widgets/KoFillConfigWidget.cpp:566
-#, fuzzy, kde-format
-#| msgid "Enter group name:"
-msgid "Enter gradient name:"
-msgstr "Guruhning nomini kiriting:"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, btnNoFill)
 #: libs/ui/widgets/KoFillConfigWidget.ui:34
@@ -18744,16 +19679,22 @@ msgstr ""
 #: libs/widgets/KoConfigAuthorPage.cpp:100
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:323
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:349
+#, kde-format
+msgid "Email"
+msgstr "Elektron pochta"
+
+#: libs/widgets/KoConfigAuthorPage.cpp:100
 #, fuzzy, kde-format
-msgid "Homepage"
-msgstr "Matnni oʻchirish"
+#| msgid "Fax:"
+msgid "Fax"
+msgstr "Faks:"
 
 #: libs/widgets/KoConfigAuthorPage.cpp:100
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:323
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:349
-#, kde-format
-msgid "Email"
-msgstr "Elektron pochta"
+#, fuzzy, kde-format
+msgid "Homepage"
+msgstr "Matnni oʻchirish"
 
 #: libs/widgets/KoConfigAuthorPage.cpp:100
 #, fuzzy, kde-format
@@ -18766,11 +19707,11 @@ msgstr "Bosim"
 msgid "Telephone"
 msgstr "Telefon (uy):"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:100
+#: libs/widgets/KoConfigAuthorPage.cpp:103
 #, fuzzy, kde-format
-#| msgid "Fax:"
-msgid "Fax"
-msgstr "Faks:"
+#| msgid "Country:"
+msgid "Entry"
+msgstr "Davlat:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/widgets/KoConfigAuthorPage.cpp:103
@@ -18780,26 +19721,20 @@ msgstr "Faks:"
 msgid "Type"
 msgstr "&Turi"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:103
-#, fuzzy, kde-format
-#| msgid "Country:"
-msgid "Entry"
-msgstr "Davlat:"
-
 #: libs/widgets/KoConfigAuthorPage.cpp:107
 #, kde-format
 msgid "Anonymous"
 msgstr ""
 
 #: libs/widgets/KoConfigAuthorPage.cpp:291
-#, fuzzy, kde-format
-msgid "Name of Profile"
-msgstr "Rasmlar soni"
-
-#: libs/widgets/KoConfigAuthorPage.cpp:291
 #, kde-format
 msgid "Name (not duplicate or blank name):"
 msgstr ""
+
+#: libs/widgets/KoConfigAuthorPage.cpp:291
+#, fuzzy, kde-format
+msgid "Name of Profile"
+msgstr "Rasmlar soni"
 
 #: libs/widgets/KoConfigAuthorPage.cpp:344
 #, fuzzy, kde-format
@@ -20048,25 +20983,20 @@ msgstr "&Foiz:"
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:207
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:236
 #, fuzzy, kde-format
-msgid "percent of view width (vw)"
-msgstr "Piksel eni"
+msgid "percent of view height (vh)"
+msgstr "Piksel balandligi"
 
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:207
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:236
 #, fuzzy, kde-format
-msgid "percent of view height (vh)"
-msgstr "Piksel balandligi"
+msgid "percent of view width (vw)"
+msgstr "Piksel eni"
 
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:246
 #, fuzzy, kde-format
 #| msgid "90 &degrees"
 msgid "degrees (°)"
 msgstr "&90 daraja"
-
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:246
-#, kde-format
-msgid "radians (rad)"
-msgstr ""
 
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:246
 #, kde-format
@@ -20078,6 +21008,11 @@ msgstr ""
 msgid "percent of circle (%)"
 msgstr "&Foiz:"
 
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:246
+#, kde-format
+msgid "radians (rad)"
+msgstr ""
+
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:255
 #, fuzzy, kde-format
 msgid "frames (f)"
@@ -20085,13 +21020,13 @@ msgstr "Yaratish"
 
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:262
 #, fuzzy, kde-format
-msgid "seconds (s)"
-msgstr "Soniya"
+msgid "percent of animation (%)"
+msgstr "Kompozitsiyasiz"
 
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:262
 #, fuzzy, kde-format
-msgid "percent of animation (%)"
-msgstr "Kompozitsiyasiz"
+msgid "seconds (s)"
+msgstr "Soniya"
 
 #: libs/widgetutils/KoFileDialog.cpp:407
 #, kde-format
@@ -20329,6 +21264,13 @@ msgstr ""
 msgid "Configure Toolbars"
 msgstr "Saqlashni tasdiqlash"
 
+#: libs/widgetutils/xmlgui/kedittoolbar.cpp:685
+#, kde-format
+msgid ""
+"Do you really want to reset all toolbars of this application to their "
+"default? The changes will be applied immediately."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, resetButton)
 #. i18n: ectx: property (text), widget (QPushButton, reset)
 #. i18n: ectx: property (text), widget (QPushButton, btnResetCustomLine)
@@ -20342,13 +21284,6 @@ msgstr "Saqlashni tasdiqlash"
 #, fuzzy, kde-format
 msgid "Reset"
 msgstr "Qaytada&n tanlash"
-
-#: libs/widgetutils/xmlgui/kedittoolbar.cpp:685
-#, kde-format
-msgid ""
-"Do you really want to reset all toolbars of this application to their "
-"default? The changes will be applied immediately."
-msgstr ""
 
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:685
 #, fuzzy, kde-format
@@ -20765,13 +21700,13 @@ msgstr "Fayl:"
 
 #: libs/widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:400
 #, fuzzy, kde-format
-msgid "Primary language:"
-msgstr "Til"
+msgid "Fallback language:"
+msgstr "Hamma tillar"
 
 #: libs/widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:400
 #, fuzzy, kde-format
-msgid "Fallback language:"
-msgstr "Hamma tillar"
+msgid "Primary language:"
+msgstr "Til"
 
 #: libs/widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:430
 #, kde-format
@@ -21829,6 +22764,12 @@ msgstr "Sariq"
 msgid "Animation"
 msgstr "Animatsiyali"
 
+#: plugins/dockers/animation/animation_docker.cpp:166
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add transform keyframe"
+msgstr "Shaffof"
+
 #: plugins/dockers/animation/animation_docker.cpp:409
 #, kde-format
 msgid "Effective FPS:\t%1"
@@ -21874,6 +22815,44 @@ msgstr "Shakl:"
 #| msgid "&Layer"
 msgid "Animation curves"
 msgstr "&Qatlam"
+
+#: plugins/dockers/animation/kis_animation_curves_model.cpp:204
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Adjust keyframe"
+msgstr "Qatlamning nomi:"
+
+#: plugins/dockers/animation/kis_animation_curves_model.cpp:207
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert keyframe"
+msgstr "Qatlamning nomi:"
+
+#: plugins/dockers/animation/kis_animation_curves_model.cpp:223
+#: plugins/dockers/animation/kis_animation_curves_view.cpp:512
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Adjust tangent"
+msgstr "Ranglarni moslash"
+
+#: plugins/dockers/animation/kis_animation_curves_model.cpp:232
+#: plugins/dockers/animation/kis_animation_curves_model.cpp:245
+#: plugins/dockers/animation/kis_animation_curves_view.cpp:642
+#: plugins/dockers/animation/kis_animation_curves_view.cpp:651
+#: plugins/dockers/animation/kis_animation_curves_view.cpp:660
+#: plugins/dockers/animation/kis_animation_curves_view.cpp:669
+#: plugins/dockers/animation/kis_animation_curves_view.cpp:697
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set interpolation mode"
+msgstr "&Oʻlchami:"
+
+#: plugins/dockers/animation/kis_animation_curves_model.cpp:285
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Adjust Keyframe"
+msgid_plural "Adjust %1 Keyframes"
+msgstr[0] "Qatlamning nomi:"
 
 #: plugins/dockers/animation/kis_animation_utils.cpp:36
 #, fuzzy, kde-format
@@ -21946,6 +22925,47 @@ msgstr "Qatlamning nomi:"
 msgid "Remove transform keyframe"
 msgstr "Qatlamning nomi:"
 
+#: plugins/dockers/animation/kis_animation_utils.cpp:55
+#: plugins/dockers/animation/kis_animation_utils.cpp:269
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Copy Keyframe"
+msgid_plural "Copy %1 Keyframes"
+msgstr[0] "Qatlamning nomi:"
+
+#: plugins/dockers/animation/kis_animation_utils.cpp:56
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Keyframe"
+msgstr "Qatlamning nomi:"
+
+#: plugins/dockers/animation/kis_animation_utils.cpp:115
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove Keyframe"
+msgid_plural "Remove Keyframes"
+msgstr[0] "Qatlamning nomi:"
+
+#: plugins/dockers/animation/kis_animation_utils.cpp:266
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Move Keyframe"
+msgid_plural "Move %1 Keyframes"
+msgstr[0] "Qatlamning nomi:"
+
+#: plugins/dockers/animation/kis_time_based_item_model.cpp:337
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Remove frame and shift"
+msgid_plural "Remove %1 frames and shift"
+msgstr[0] "Qatlamni olib tashlash"
+
+#: plugins/dockers/animation/kis_time_based_item_model.cpp:365
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Frames"
+msgstr "Yashildan nusxa olish"
+
 #: plugins/dockers/animation/onion_skins_docker.cpp:53
 #, fuzzy, kde-format
 msgid "Tint: "
@@ -21999,6 +23019,14 @@ msgstr "Qatlamni olib tashlash"
 #, fuzzy, kde-format
 msgid "Timeline"
 msgstr "Piksel eni"
+
+#: plugins/dockers/animation/timeline_frames_model.cpp:802
+#: plugins/dockers/animation/timeline_frames_model.cpp:848
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Insert frame"
+msgid_plural "Insert %1 frames"
+msgstr[0] "Qatlamning nomi:"
 
 #: plugins/dockers/animation/timeline_frames_view.cpp:210
 #, kde-format
@@ -22447,6 +23475,18 @@ msgstr "Qatlamni koʻrsatish/bekitish"
 #, kde-format
 msgid "&Add"
 msgstr ""
+
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:870
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Quick Selection Mask"
+msgstr "Tanlash boʻyogʻi"
+
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:892
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Cancel Quick Selection Mask"
+msgstr "Tanlash boʻyogʻi"
 
 #. i18n: ectx: property (whatsThis), widget (KisCompositeOpComboBox, cmbComposite)
 #: plugins/dockers/defaultdockers/wdglayerbox.ui:55
@@ -23458,6 +24498,12 @@ msgstr "Tanlash"
 msgid "Color Range"
 msgstr "Rang chegarasi"
 
+#: plugins/extensions/colorrange/dlg_colorrange.cc:254
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Color Range Selection"
+msgstr "Tanlanganni koʻrsatish"
+
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSelect)
 #: plugins/extensions/colorrange/wdg_colorrange.ui:23
 #, kde-format
@@ -23566,6 +24612,12 @@ msgstr "Qatlamni boshqa turga aylantirish"
 #, fuzzy, kde-format
 msgid "Convert Current Layer From"
 msgstr "Joriy qatlam"
+
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:117
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert Layer Type"
+msgstr "Qatlamni boshqa turga aylantirish"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgConvertColorSpace)
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:14
@@ -23948,6 +25000,12 @@ msgstr "Yangi qatlam"
 #, fuzzy, kde-format
 msgid "Split into Layers"
 msgstr "&Qatlam"
+
+#: plugins/extensions/layersplit/layersplit.cpp:188
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Split Layer"
+msgstr "Yangi qatlam"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCreateGroupLayer)
 #: plugins/extensions/layersplit/wdg_layersplit.ui:25
@@ -24754,10 +25812,22 @@ msgstr "Shakllar"
 msgid "Shrink from image border"
 msgstr ""
 
+#: plugins/extensions/offsetimage/offsetimage.cpp:68
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Offset Image"
+msgstr "X Ofset:"
+
 #: plugins/extensions/offsetimage/offsetimage.cpp:69
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Offset Image"
+msgstr "X Ofset:"
+
+#: plugins/extensions/offsetimage/offsetimage.cpp:92
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Offset Layer"
 msgstr "X Ofset:"
 
 #: plugins/extensions/offsetimage/offsetimage.cpp:93
@@ -25131,6 +26201,12 @@ msgstr ""
 msgid "G'Mic failed, reason:"
 msgstr ""
 
+#: plugins/extensions/qmic/QMic.cpp:381
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Gmic filter"
+msgstr "Yoʻnalish"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/extensions/qmic/WdgQMicSettings.ui:17
 #, kde-format
@@ -25455,6 +26531,18 @@ msgstr "Plazma"
 msgid "(256 x 256)"
 msgstr ""
 
+#: plugins/extensions/rotateimage/rotateimage.cc:134
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Image Vertically"
+msgstr "Uskuna:"
+
+#: plugins/extensions/rotateimage/rotateimage.cc:143
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Image Horizontally"
+msgstr "Ufq 1"
+
 #: plugins/extensions/rotateimage/rotateimage.cc:158
 #, kde-format
 msgid "Rotate Layer"
@@ -25507,6 +26595,12 @@ msgstr "&Boshqa:"
 #: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:74
 #: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:86
 #, fuzzy, kde-format
+msgid "Separate Image"
+msgstr "Rasmning nomini oʻzgartirish"
+
+#: plugins/extensions/separate_channels/kis_channel_separator.cc:210
+#, fuzzy
+msgctxt "(qtundo-format)"
 msgid "Separate Image"
 msgstr "Rasmning nomini oʻzgartirish"
 
@@ -25665,6 +26759,12 @@ msgstr "Piksel balandligi"
 #: plugins/extensions/waveletdecompose/wdg_waveletdecompose.ui:14
 #, fuzzy, kde-format
 msgid "Wavelet Decompose"
+msgstr "Piksel balandligi"
+
+#: plugins/extensions/waveletdecompose/waveletdecompose.cpp:124
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Wavelet decompose"
 msgstr "Piksel balandligi"
 
 #: plugins/extensions/waveletdecompose/waveletdecompose.cpp:131
@@ -25995,14 +27095,14 @@ msgstr ""
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:84
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:85
 #, fuzzy, kde-format
-msgid "Yellow-Blue:"
-msgstr "Sariq"
+msgid "Green-Red:"
+msgstr "Yashil"
 
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:84
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:85
 #, fuzzy, kde-format
-msgid "Green-Red:"
-msgstr "Yashil"
+msgid "Yellow-Blue:"
+msgstr "Sariq"
 
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:94
 #, fuzzy, kde-format
@@ -26225,14 +27325,14 @@ msgstr ""
 #: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:32
 #: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:31
 #, fuzzy, kde-format
-msgid "Sobel"
-msgstr "Tosh"
+msgid "Simple"
+msgstr "Yoqish"
 
 #: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:32
 #: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:31
 #, fuzzy, kde-format
-msgid "Simple"
-msgstr "Yoqish"
+msgid "Sobel"
+msgstr "Tosh"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/filters/convertheightnormalmap/wdg_convert_height_to_normal_map.ui:51
@@ -26497,6 +27597,12 @@ msgid "&Index Colors..."
 msgstr "Rang chegarasi"
 
 #: plugins/filters/indexcolors/indexcolors.cpp:82
+#, kde-format
+msgctxt "Color palette shade"
+msgid "Base"
+msgstr ""
+
+#: plugins/filters/indexcolors/indexcolors.cpp:82
 #, fuzzy, kde-format
 msgctxt "Color palette shade"
 msgid "Bright"
@@ -26507,12 +27613,6 @@ msgstr "Yorugʻlik"
 msgctxt "Color palette shade"
 msgid "Light"
 msgstr "Oʻng:"
-
-#: plugins/filters/indexcolors/indexcolors.cpp:82
-#, kde-format
-msgctxt "Color palette shade"
-msgid "Base"
-msgstr ""
 
 #: plugins/filters/indexcolors/indexcolors.cpp:82
 #, fuzzy, kde-format
@@ -27046,6 +28146,13 @@ msgstr "Yulduz"
 msgid "Vertical Wave"
 msgstr "Uskuna:"
 
+#: plugins/flake/artistictextshape/AddTextRangeCommand.cpp:33
+#: plugins/flake/artistictextshape/AddTextRangeCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add text range"
+msgstr "Oʻrnini almashtirishmoq"
+
 #: plugins/flake/artistictextshape/ArtisticTextShapeFactory.cpp:32
 #, fuzzy, kde-format
 msgid "ArtisticTextShape"
@@ -27106,6 +28213,50 @@ msgstr "Matnni qoʻshish"
 msgid "Artistic text editing"
 msgstr "Alfa moslamalari"
 
+#: plugins/flake/artistictextshape/AttachTextToPathCommand.cpp:30
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Attach Path"
+msgstr "Burchakni silliqlash"
+
+#: plugins/flake/artistictextshape/ChangeTextAnchorCommand.cpp:28
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change text anchor"
+msgstr "Rasmning oʻlchami"
+
+#: plugins/flake/artistictextshape/ChangeTextFontCommand.cpp:33
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change font"
+msgstr "Tekislashni oʻzgartirish"
+
+#: plugins/flake/artistictextshape/ChangeTextOffsetCommand.cpp:31
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Text Offset"
+msgstr "Belgi uslubini oʻzgartirish"
+
+#: plugins/flake/artistictextshape/DetachTextFromPathCommand.cpp:29
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Detach Path"
+msgstr "Burchakni silliqlash"
+
+#: plugins/flake/artistictextshape/RemoveTextRangeCommand.cpp:32
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove text range"
+msgstr "Qatlamni olib tashlash"
+
+#: plugins/flake/artistictextshape/ReplaceTextRangeCommand.cpp:31
+#: plugins/flake/artistictextshape/ReplaceTextRangeCommand.cpp:43
+#: plugins/flake/artistictextshape/ReplaceTextRangeCommand.cpp:55
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Replace text range"
+msgstr "Matnni almashtirish"
+
 #: plugins/flake/imageshape/ImageShapeFactory.cpp:38
 #, fuzzy, kde-format
 msgid "Image shape"
@@ -27115,6 +28266,12 @@ msgstr "Rasm"
 #, fuzzy, kde-format
 msgid "A shape that shows an image (PNG/JPG/TIFF)"
 msgstr "Toʻgʻri burchak vositasi"
+
+#: plugins/flake/pathshapes/ellipse/EllipseShapeConfigCommand.cpp:33
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change ellipse"
+msgstr "Shriftni oʻzgartirish"
 
 #: plugins/flake/pathshapes/ellipse/EllipseShapeConfigWidget.cpp:32
 #, kde-format
@@ -27224,6 +28381,12 @@ msgstr "Chiziqli"
 msgid "A gearhead"
 msgstr "Chiziqli"
 
+#: plugins/flake/pathshapes/rectangle/RectangleShapeConfigCommand.cpp:34
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change rectangle"
+msgstr "Belgi uslubini oʻzgartirish"
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, RectangleShapeConfigWidget)
 #: plugins/flake/pathshapes/rectangle/RectangleShapeConfigWidget.ui:14
 #, fuzzy, kde-format
@@ -27246,6 +28409,12 @@ msgstr "Ichki radius:"
 #, fuzzy, kde-format
 msgid "A rectangle"
 msgstr "Toʻgʻri burchak"
+
+#: plugins/flake/pathshapes/spiral/SpiralShapeConfigCommand.cpp:32
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change spiral"
+msgstr "Filter"
 
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:36
 #, fuzzy, kde-format
@@ -27286,6 +28455,12 @@ msgstr "Spiral"
 #, fuzzy, kde-format
 msgid "A spiral shape"
 msgstr "Filter boʻyogʻi"
+
+#: plugins/flake/pathshapes/star/StarShapeConfigCommand.cpp:34
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change star"
+msgstr "Shriftni oʻzgartirish"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, StarShapeConfigWidget)
 #: plugins/flake/pathshapes/star/StarShapeConfigWidget.ui:14
@@ -27363,17 +28538,65 @@ msgstr "&Foiz:"
 msgid "A hexagon"
 msgstr "&Foiz:"
 
-#: plugins/flake/textshape/commands/AutoResizeCommand.cpp:35
-#, fuzzy, kde-format
-msgctxt "Enable Shrink To Fit"
-msgid "Enable"
-msgstr "Yoqish"
+#: plugins/flake/textshape/commands/AcceptChangeCommand.cpp:46
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Accept change"
+msgstr "Toʻgʻri burchak maydonni tanlash"
 
 #: plugins/flake/textshape/commands/AutoResizeCommand.cpp:35
 #, fuzzy, kde-format
 msgctxt "Disable Shrink To Fit"
 msgid "Disable"
 msgstr "Ishlatib boʻlmaydi. "
+
+#: plugins/flake/textshape/commands/AutoResizeCommand.cpp:35
+#, fuzzy, kde-format
+msgctxt "Enable Shrink To Fit"
+msgid "Enable"
+msgstr "Yoqish"
+
+#: plugins/flake/textshape/commands/AutoResizeCommand.cpp:38
+#, fuzzy, kde-format
+msgctxt "(qtundo-format) Enable/Disable Grow To Fit Width"
+msgid "%1 Grow To Fit Width"
+msgstr "Eni:"
+
+#: plugins/flake/textshape/commands/AutoResizeCommand.cpp:41
+#, fuzzy, kde-format
+msgctxt "(qtundo-format) Enable/Disable Grow To Fit Height"
+msgid "%1 Grow To Fit Height"
+msgstr "Piksel balandligi"
+
+#: plugins/flake/textshape/commands/AutoResizeCommand.cpp:44
+#, fuzzy, kde-format
+msgctxt "(qtundo-format) Enable/Disable Shrink To Fit"
+msgid "%1 Shrink To Fit"
+msgstr "Shakllar"
+
+#: plugins/flake/textshape/commands/ChangeListLevelCommand.cpp:43
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change List Level"
+msgstr "Shriftni oʻzgartirish"
+
+#: plugins/flake/textshape/commands/RejectChangeCommand.cpp:48
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reject change"
+msgstr "Toʻgʻri burchak maydonni tanlash"
+
+#: plugins/flake/textshape/commands/ShowChangesCommand.cpp:53
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Show Changes"
+msgstr "Toʻr"
+
+#: plugins/flake/textshape/commands/ShowChangesCommand.cpp:55
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Hide Changes"
+msgstr "Oʻrnini almashtirishmoq"
 
 #. i18n: ectx: property (text), widget (QPushButton, acceptButton)
 #: plugins/flake/textshape/dialogs/AcceptRejectChangeDialog.ui:44
@@ -27759,6 +28982,12 @@ msgstr "namoyish"
 #, fuzzy, kde-format
 msgid "Select Font"
 msgstr "Shriftni tanlash"
+
+#: plugins/flake/textshape/dialogs/FontDia.cpp:82
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Font"
+msgstr "Shrift:"
 
 #: plugins/flake/textshape/dialogs/InsertCharacter.cpp:29
 #, fuzzy, kde-format
@@ -28263,13 +29492,13 @@ msgstr "Uslublar"
 
 #: plugins/flake/textshape/dialogs/StyleManager.cpp:427
 #, fuzzy, kde-format
-msgid "Warning"
-msgstr "chizma"
+msgid "Another style named '%1' already exist. Please choose another name."
+msgstr "Bu nom allaqachon mavjud! Iltimos boshqasini tanlang"
 
 #: plugins/flake/textshape/dialogs/StyleManager.cpp:427
 #, fuzzy, kde-format
-msgid "Another style named '%1' already exist. Please choose another name."
-msgstr "Bu nom allaqachon mavjud! Iltimos boshqasini tanlang"
+msgid "Warning"
+msgstr "chizma"
 
 #. i18n: ectx: attribute (title), widget (QListView, paragraphStylesListView)
 #: plugins/flake/textshape/dialogs/StyleManager.ui:46
@@ -28466,11 +29695,162 @@ msgstr "Mundarijaga kiritish"
 msgid "Contents"
 msgstr "Doimiy"
 
+#: plugins/flake/textshape/kotext/commands/ChangeListCommand.cpp:41
+#: plugins/flake/textshape/kotext/commands/ChangeListCommand.cpp:88
+#: plugins/flake/textshape/kotext/commands/ChangeListCommand.cpp:101
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change List"
+msgstr "Shriftni oʻzgartirish"
+
+#: plugins/flake/textshape/kotext/commands/ChangeStylesMacroCommand.cpp:37
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Styles"
+msgstr "Belgi uslubini oʻzgartirish"
+
+#: plugins/flake/textshape/kotext/commands/ChangeTrackedDeleteCommand.cpp:76
+#: plugins/flake/textshape/kotext/commands/DeleteCommand.cpp:68
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete"
+msgstr "Matnni oʻchirish"
+
 #: plugins/flake/textshape/kotext/commands/ChangeTrackedDeleteCommand.cpp:192
 #: plugins/flake/textshape/TextTool.cpp:2634
 #, fuzzy, kde-format
 msgid "Key Press"
 msgstr "Bosim:"
+
+#: plugins/flake/textshape/kotext/commands/ChangeTrackedDeleteCommand.cpp:331
+#: plugins/flake/textshape/kotext/commands/DeleteCommand.cpp:517
+#: plugins/flake/textshape/kotext/KoTextEditor_undo.cpp:87
+#: plugins/flake/textshape/kotext/KoTextEditor_undo.cpp:166
+#: plugins/flake/textshape/kotext/KoTextEditor_undo.cpp:201
+#: plugins/flake/textshape/kotext/KoTextEditor_undo.cpp:218
+#: plugins/flake/textshape/kotext/KoTextEditor_undo.cpp:260
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Text"
+msgstr "Matnni qoʻshish"
+
+#: plugins/flake/textshape/kotext/commands/DeleteTableColumnCommand.cpp:38
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete Column"
+msgstr "Matnni oʻchirish"
+
+#: plugins/flake/textshape/kotext/commands/DeleteTableRowCommand.cpp:38
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete Row"
+msgstr "Matnni oʻchirish"
+
+#: plugins/flake/textshape/kotext/commands/InsertNoteCommand.cpp:36
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Footnote"
+msgstr "Bogʻni qoʻyish"
+
+#: plugins/flake/textshape/kotext/commands/InsertNoteCommand.cpp:38
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Endnote"
+msgstr "Matnni qoʻyish"
+
+#: plugins/flake/textshape/kotext/commands/InsertTableColumnCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Column Right"
+msgstr "Ustunni qoʻyish"
+
+#: plugins/flake/textshape/kotext/commands/InsertTableColumnCommand.cpp:42
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Column Left"
+msgstr "Ustunni qoʻyish"
+
+#: plugins/flake/textshape/kotext/commands/InsertTableRowCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Row Below"
+msgstr "Satrni qoʻyish"
+
+#: plugins/flake/textshape/kotext/commands/InsertTableRowCommand.cpp:42
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Row Above"
+msgstr "Satrni qoʻyish"
+
+#: plugins/flake/textshape/kotext/commands/ListItemNumberingCommand.cpp:35
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change List Numbering"
+msgstr "Satrlar orasidagi masofani oʻzgartirish"
+
+#: plugins/flake/textshape/kotext/commands/NewSectionCommand.cpp:37
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "New Section"
+msgstr "Joriy boʻlim"
+
+#: plugins/flake/textshape/kotext/commands/ParagraphFormattingCommand.cpp:56
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:510
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:531
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Formatting"
+msgstr "Sanani koʻrinishi"
+
+#: plugins/flake/textshape/kotext/commands/ParagraphFormattingCommand.cpp:93
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Direct Paragraph Formatting"
+msgstr "Xat boshi oʻlchamini oʻzgartirish"
+
+#: plugins/flake/textshape/kotext/commands/RenameSectionCommand.cpp:35
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rename Section"
+msgstr "Namunani yaratish"
+
+#: plugins/flake/textshape/kotext/commands/ResizeTableCommand.cpp:45
+#: plugins/flake/textshape/TextTool.cpp:1392
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Adjust Column Width"
+msgstr "Chiziqning enini oʻzgartirish"
+
+#: plugins/flake/textshape/kotext/commands/ResizeTableCommand.cpp:47
+#: plugins/flake/textshape/TextTool.cpp:1434
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Adjust Row Height"
+msgstr "Chiziqning enini oʻzgartirish"
+
+#: plugins/flake/textshape/kotext/commands/SplitSectionsCommand.cpp:39
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Split sections startings"
+msgstr "Tanlash"
+
+#: plugins/flake/textshape/kotext/commands/SplitSectionsCommand.cpp:41
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Split sections endings"
+msgstr "Tanlash"
+
+#: plugins/flake/textshape/kotext/commands/TextPasteCommand.cpp:68
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Paste As Text"
+msgstr "Soya:"
+
+#: plugins/flake/textshape/kotext/commands/TextPasteCommand.cpp:70
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Paste"
+msgstr "Sana"
 
 #: plugins/flake/textshape/kotext/InsertTextLocator.cpp:27
 #, fuzzy, kde-format
@@ -28516,6 +29896,222 @@ msgstr "Bitta"
 msgctxt "Underline Style"
 msgid "Double"
 msgstr "Ikkita"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:193
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1440
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1442
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "New Paragraph"
+msgstr "Oddiy paragraf matni"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:364
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Bookmark"
+msgstr "Xatchoʻp"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:383
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Annotation"
+msgstr "Kasrni qoʻshish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:407
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Index"
+msgstr "Matnni qoʻyish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:433
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Variable"
+msgstr "Matnni qoʻyish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:500
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Break"
+msgstr "Bogʻni qoʻyish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:821
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:823
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:838
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Table"
+msgstr "Matnni qoʻyish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:978
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Merge Cells"
+msgstr "Boʻsh joy"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:995
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Split Cells"
+msgstr "&Boʻyiga"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1024
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Adjust Table Width"
+msgstr "Chiziqning enini oʻzgartirish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1041
+#: plugins/flake/textshape/TextTool.cpp:908
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Border Formatting"
+msgstr "Matnning formatini oʻzgartirish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1088
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1090
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1108
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Table Of Contents"
+msgstr "Mundarijaga kiritish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1147
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Modify Table Of Contents"
+msgstr "Mundarijaga kiritish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1164
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1166
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1185
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Bibliography"
+msgstr "Bogʻni qoʻyish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1222
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1224
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Citation"
+msgstr "Kasrni qoʻshish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1251
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1253
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1291
+msgctxt "(qtundo-format)"
+msgid "Typing"
+msgstr ""
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:67
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Bold"
+msgstr "Qalin"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:80
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Italic"
+msgstr "Qiya:"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:93
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Underline"
+msgstr "Tagini chizish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:112
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Strike Out"
+msgstr "Ustidan chizish:"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:145
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:146
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Alignment"
+msgstr "Tekislashni oʻzgartirish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:163
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Vertical Alignment"
+msgstr "Boʻyiga tekislash:"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:197
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:198
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Decrease Indent"
+msgstr "Tekislashni oʻzgartirish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:233
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:234
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Increase Indent"
+msgstr "Tekislashni oʻzgartirish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:269
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:271
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Decrease font size"
+msgstr "Shriftning oʻlchami oʻzgartirish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:282
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:284
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Increase font size"
+msgstr "Shriftning oʻlchami oʻzgartirish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:295
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Font"
+msgstr "Shriftni tanlash"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:308
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Font Size"
+msgstr "Shriftni tanlash"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:321
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Background Color"
+msgstr "Soniya"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:334
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Text Color"
+msgstr "Matnning rangi"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:362
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:401
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Character Style"
+msgstr "Yangi uslubni yaratish"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:468
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Paragraph Style"
+msgstr "Oddiy paragraf matni"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_p.h:158
+#: plugins/flake/textshape/kotext/KoTextEditor_p.h:194
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Format"
+msgstr "Sanani koʻrinishi"
 
 #: plugins/flake/textshape/textlayout/ListItemsHelper.cpp:223
 #, fuzzy, kde-format
@@ -31155,6 +32751,21 @@ msgstr "Namuna"
 msgid "Dulling"
 msgstr ""
 
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:48
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:43
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:49
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:39
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:59
+#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:38
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:47
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:45
+#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:52
+#, fuzzy, kde-format
+msgid "Opaque"
+msgstr "Tanlash"
+
 #. i18n: ectx: property (text), widget (QPushButton, btnTransparent)
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
@@ -31171,21 +32782,6 @@ msgstr ""
 #, kde-format
 msgid "Transparent"
 msgstr "Shaffof"
-
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
-#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
-#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:48
-#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:43
-#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:49
-#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:39
-#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:59
-#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:38
-#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:47
-#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:45
-#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:52
-#, fuzzy, kde-format
-msgid "Opaque"
-msgstr "Tanlash"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:65
@@ -31248,25 +32844,6 @@ msgstr "Filter boʻyogʻi"
 msgid "Color Rate"
 msgstr "Rang chegarasi"
 
-#. i18n: ectx: property (text), widget (QRadioButton, optionRotation)
-#. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:62
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:70
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:144
-#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:50
-#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:45
-#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:51
-#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:41
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:47
-#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:49
-#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:52
-#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:64
-#: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:249
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:669
-#, fuzzy, kde-format
-msgid "Rotation"
-msgstr "Burish"
-
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:62
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:70
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:143
@@ -31297,6 +32874,25 @@ msgstr ""
 msgid "180°"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QRadioButton, optionRotation)
+#. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:62
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:70
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:144
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:50
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:45
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:51
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:41
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:47
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:49
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:52
+#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:64
+#: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:249
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:669
+#, fuzzy, kde-format
+msgid "Rotation"
+msgstr "Burish"
+
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:63
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:149
@@ -31315,9 +32911,9 @@ msgstr "Ustki qoplama"
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:54
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:66
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:70
-#, kde-format
-msgid "Weak"
-msgstr ""
+#, fuzzy, kde-format
+msgid "Strength"
+msgstr "Kuch"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:71
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:88
@@ -31333,9 +32929,9 @@ msgstr "Tosh"
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:54
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:66
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:70
-#, fuzzy, kde-format
-msgid "Strength"
-msgstr "Kuch"
+#, kde-format
+msgid "Weak"
+msgstr ""
 
 #: plugins/paintops/colorsmudge/kis_overlay_mode_option.h:51
 #, fuzzy, kde-format
@@ -33104,13 +34700,13 @@ msgstr "Yorugʻlik"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:32
 #, fuzzy, kde-format
-msgid "Not mirrored"
-msgstr "Profil yoʻq"
+msgid "Mirrored"
+msgstr "Rasmni kesish"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:32
 #, fuzzy, kde-format
-msgid "Mirrored"
-msgstr "Rasmni kesish"
+msgid "Not mirrored"
+msgstr "Profil yoʻq"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:37
 #, fuzzy, kde-format
@@ -33180,13 +34776,13 @@ msgstr ""
 
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:54
 #, fuzzy, kde-format
-msgid "Cut Off Disabled"
-msgstr "Ishlatib boʻlmaydi. "
+msgid "Cut Off Brush"
+msgstr "Boshqa boʻyoq"
 
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:54
 #, fuzzy, kde-format
-msgid "Cut Off Brush"
-msgstr "Boshqa boʻyoq"
+msgid "Cut Off Disabled"
+msgstr "Ishlatib boʻlmaydi. "
 
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:54
 #, fuzzy, kde-format
@@ -35929,6 +37525,12 @@ msgstr "Joriy qatlamni oʻchirish"
 msgid "Python files (*.py)"
 msgstr "Bitta kichik qadam..."
 
+#: plugins/tools/basictools/kis_tool_brush.cc:68
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Freehand Brush Stroke"
+msgstr "Oldindan aniqlangan boʻyoqlar"
+
 #: plugins/tools/basictools/kis_tool_brush.cc:75
 #, fuzzy, kde-format
 msgctxt "@action"
@@ -36076,6 +37678,12 @@ msgstr ""
 msgid "Color Selector Tool"
 msgstr "Tanlanganni koʻrsatish"
 
+#: plugins/tools/basictools/kis_tool_ellipse.cc:64
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Ellipse"
+msgstr "Ellips chizish"
+
 #: plugins/tools/basictools/kis_tool_ellipse.h:58
 #, fuzzy, kde-format
 msgid "Ellipse Tool"
@@ -36085,6 +37693,12 @@ msgstr "Ellips vositasi"
 #, kde-format
 msgid "You cannot use this tool with the selected layer type"
 msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:132
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Flood Fill"
+msgstr "Toʻldirish"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:162
 #, fuzzy, kde-format
@@ -36147,6 +37761,12 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Fill Tool"
 msgstr "Ellips vositasi"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:164
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Gradient"
+msgstr "Gradient"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:174
 #, fuzzy, kde-format
@@ -36230,6 +37850,12 @@ msgstr "Teskari"
 msgid "Gradient Tool"
 msgstr "Gradient vositasi"
 
+#: plugins/tools/basictools/kis_tool_line.cc:59
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Line"
+msgstr "Chiziq chizish"
+
 #: plugins/tools/basictools/kis_tool_line.cc:98
 #, fuzzy, kde-format
 msgid "Use sensors"
@@ -36280,6 +37906,12 @@ msgstr ""
 msgid "Move Tool"
 msgstr "Koʻchirish vositasi"
 
+#: plugins/tools/basictools/kis_tool_multihand.cpp:63
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Multibrush Stroke"
+msgstr "Boʻyoq"
+
 #: plugins/tools/basictools/kis_tool_multihand.cpp:273
 #, fuzzy, kde-format
 msgid "Symmetry"
@@ -36305,15 +37937,33 @@ msgstr "Boʻyoq vositasi"
 msgid "Pan Tool"
 msgstr "Matn vositasi"
 
+#: plugins/tools/basictools/kis_tool_path.cc:113
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Bezier Curve"
+msgstr "Filter vositasi"
+
 #: plugins/tools/basictools/kis_tool_path.h:87
 #, kde-format
 msgid "Bezier Curve Tool: Shift-mouseclick ends the curve."
 msgstr ""
 
+#: plugins/tools/basictools/kis_tool_pencil.cc:86
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Freehand Path"
+msgstr "Erkin qoʻl bilan chizish"
+
 #: plugins/tools/basictools/kis_tool_pencil.h:79
 #, fuzzy, kde-format
 msgid "Freehand Path Tool"
 msgstr "Boʻyoq vositasi"
+
+#: plugins/tools/basictools/kis_tool_rectangle.cc:65
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Rectangle"
+msgstr "Toʻgʻri burchak chizish"
 
 #: plugins/tools/basictools/kis_tool_rectangle.h:60
 #, kde-format
@@ -36326,6 +37976,12 @@ msgstr "Toʻgʻri burchak vositasi"
 msgctxt "action"
 msgid "Pencil Tool"
 msgstr "Ellips vositasi"
+
+#: plugins/tools/basictools/strokes/move_selection_stroke_strategy.cpp:35
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move Selection"
+msgstr "Hech narsa tanlanmagan"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ColorPickerOptionsWidget)
 #: plugins/tools/basictools/wdgcolorpicker.ui:14
@@ -36683,6 +38339,68 @@ msgstr "Rasm oʻlchamini qatlam oʻlchamiga tenglashtirish"
 msgid "This tool only works on vector layers. You probably want the move tool."
 msgstr ""
 
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1129
+#, fuzzy
+#| msgid "Rotate Image 1&80"
+msgctxt "(qtundo-format)"
+msgid "Rotate Object 90° CW"
+msgstr "Rasmni &180 darajaga burish"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1133
+#, fuzzy
+#| msgid "Rotate Image CCW"
+msgctxt "(qtundo-format)"
+msgid "Rotate Object 90° CCW"
+msgstr "Rasmni soat koʻrsatgichiga teskari burish"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1137
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rotate Object 180°"
+msgstr "Qatlamni burish"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1141
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Object Horizontally"
+msgstr "Ufq 1"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1145
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Object Vertically"
+msgstr "Uskuna:"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1149
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reset Object Transformations"
+msgstr "Boshqa shaklga almashtirish"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1215
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Unite Shapes"
+msgstr "Chapga tekislash"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1229
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Intersect Shapes"
+msgstr "Teskari qilish"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1239
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Subtract Shapes"
+msgstr "Filter boʻyogʻi"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1282
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Split Shapes"
+msgstr "Filter boʻyogʻi"
+
 #: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1680
 #, fuzzy, kde-format
 msgid "Logical Operations"
@@ -36745,6 +38463,38 @@ msgstr "Tanlanganni koʻrsatish"
 msgid "Geometry"
 msgstr "Geometriya moslamalari"
 
+#: plugins/tools/defaulttool/defaulttool/DefaultToolTransformWidget.cpp:111
+#: plugins/tools/defaulttool/defaulttool/ShapeRotateStrategy.cpp:122
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rotate"
+msgstr "&Burish"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultToolTransformWidget.cpp:146
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shear X"
+msgstr "Yangi rasm"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultToolTransformWidget.cpp:181
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shear Y"
+msgstr "Yangi rasm"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultToolTransformWidget.cpp:221
+#: plugins/tools/defaulttool/defaulttool/DefaultToolTransformWidget.cpp:255
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Scale"
+msgstr "Toʻrtburcha&k"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultToolTransformWidget.cpp:284
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reset Transformations"
+msgstr "Boshqa shaklga almashtirish"
+
 #: plugins/tools/defaulttool/defaulttool/ShapeMoveStrategy.cpp:62
 #, kde-format
 msgid "Press Shift to hold x- or y-position."
@@ -36759,6 +38509,12 @@ msgstr ""
 #, kde-format
 msgid "Press ALT to rotate in 45 degree steps."
 msgstr ""
+
+#: plugins/tools/defaulttool/defaulttool/ShapeShearStrategy.cpp:174
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shear"
+msgstr "Yangi rasm"
 
 #: plugins/tools/defaulttool/referenceimagestool/KisReferenceImageCollection.cpp:106
 #, kde-format
@@ -37262,6 +39018,12 @@ msgstr "Toʻlqin"
 msgid "Calligraphy"
 msgstr "Ellips vositasi"
 
+#: plugins/tools/karbonplugins/tools/filterEffectTool/FilterAddCommand.cpp:34
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add filter effect"
+msgstr "Qatlamni qoʻshish"
+
 #: plugins/tools/karbonplugins/tools/filterEffectTool/FilterEffectEditWidget.cpp:75
 #, fuzzy, kde-format
 msgid "Add effect to current filter stack"
@@ -37312,6 +39074,18 @@ msgstr "Oldindan &aniqlangan gradientlarga qoʻshish"
 #, fuzzy, kde-format
 msgid "Effect Properties"
 msgstr "Obʼektning xossalari"
+
+#: plugins/tools/karbonplugins/tools/filterEffectTool/FilterRemoveCommand.cpp:36
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove filter effect"
+msgstr "Qatlamni qoʻshish"
+
+#: plugins/tools/karbonplugins/tools/filterEffectTool/FilterStackSetCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set filter stack"
+msgstr "Chiziq qalinligini koʻrsatish"
 
 #: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:473
 #, kde-format
@@ -37445,6 +39219,12 @@ msgstr "Namuna moslamasi"
 msgid "Contiguous Area Selection"
 msgstr "Tanlanganni koʻrsatish"
 
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:132
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Contiguous Area"
+msgstr "Tanlanganni koʻrsatish"
+
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:176
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:156
 #, fuzzy, kde-format
@@ -37466,6 +39246,12 @@ msgstr "Joriy qatlamni oʻchirish"
 msgid "Contiguous Selection Tool"
 msgstr "Choʻtka tanlash"
 
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:57
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Ellipse"
+msgstr "&Hammasini tanlash"
+
 #: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:94
 #, kde-format
 msgid "Elliptical Selection"
@@ -37481,6 +39267,12 @@ msgstr "Ellips maydonni tanlash"
 msgid "Outline Selection"
 msgstr "Tanlanganni bekitish"
 
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:166
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select by Outline"
+msgstr "Tanlash"
+
 #: plugins/tools/selectiontools/kis_tool_select_outline.h:77
 #, fuzzy, kde-format
 msgid "Outline Selection Tool"
@@ -37491,10 +39283,22 @@ msgstr "Tanlanganni bekitish"
 msgid "Select path"
 msgstr "Tanlash"
 
+#: plugins/tools/selectiontools/kis_tool_select_path.cc:148
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select by Bezier Curve"
+msgstr "Filter vositasi"
+
 #: plugins/tools/selectiontools/kis_tool_select_path.h:92
 #, fuzzy, kde-format
 msgid "Bezier Curve Selection Tool"
 msgstr "Tanlanganni bekitish"
+
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:55
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Polygon"
+msgstr "Hamma&sini tanlash"
 
 #: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:97
 #, fuzzy, kde-format
@@ -37505,6 +39309,12 @@ msgstr "Hech narsa tanlanmagan"
 #, fuzzy, kde-format
 msgid "Polygonal Selection Tool"
 msgstr "Koʻpburchak vositasi"
+
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:56
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Rectangle"
+msgstr "Toʻgʻri burchak maydonni tanlash"
 
 #: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:113
 #, kde-format
@@ -37520,6 +39330,12 @@ msgstr "Toʻgʻri burchak maydonni tanlash vositasi"
 #, fuzzy, kde-format
 msgid "Similar Color Selection"
 msgstr "Tanlanganni koʻrsatish"
+
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:135
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Similar Color"
+msgstr "Oʻxshash ranglarni tanlash"
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.h:61
 #, fuzzy, kde-format
@@ -37544,6 +39360,12 @@ msgstr "Tanlanganni koʻrsatish"
 #, fuzzy, kde-format
 msgid "Font Style"
 msgstr "Bosib chiqarish oʻlchami"
+
+#: plugins/tools/svgtexttool/SvgTextChangeCommand.cpp:37
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change SvgTextTool"
+msgstr "Belgi uslubini oʻzgartirish"
 
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:100
 #, fuzzy, kde-format
@@ -38121,6 +39943,12 @@ msgstr ""
 msgid "Decoration:"
 msgstr "Toʻyintirish"
 
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:49
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Dynamic Brush Stroke"
+msgstr "Choʻtkani koʻpaytirish"
+
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:303
 #, fuzzy, kde-format
 msgid "Fixed angle:"
@@ -38140,6 +39968,12 @@ msgstr "Oʻrnini almashtirishmoq"
 #, fuzzy, kde-format
 msgid "Dynamic Brush Tool"
 msgstr "Boʻyoq vositasi"
+
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.cpp:60
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Colorize Mask Key Stroke"
+msgstr "Rang"
 
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.h:96
 #, fuzzy, kde-format
@@ -38217,6 +40051,12 @@ msgstr "Joriy qatlamni oʻchirish"
 msgid "Key Strokes"
 msgstr "Tosh"
 
+#: plugins/tools/tool_polygon/kis_tool_polygon.cc:59
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Polygon"
+msgstr "Koʻpburchak"
+
 #: plugins/tools/tool_polygon/kis_tool_polygon.h:53
 #, kde-format
 msgid "Polygon Tool: Shift-mouseclick ends the polygon."
@@ -38231,6 +40071,12 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Select a paint layer to use this tool"
 msgstr "Toʻgʻri burchak maydonni tanlash"
+
+#: plugins/tools/tool_smart_patch/kis_tool_smart_patch.cpp:175
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Smart Patch"
+msgstr "Yulduz"
 
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch.h:91
 #, fuzzy, kde-format
@@ -38493,6 +40339,12 @@ msgstr "Alfa moslamalari"
 msgid "Create 3 points on the canvas to begin"
 msgstr ""
 
+#: plugins/tools/tool_transform2/strokes/transform_stroke_strategy.cpp:49
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Transform"
+msgstr "Boshqa shaklga almashtirish"
+
 #. i18n: ectx: property (text), widget (QToolButton, freeTransformButton)
 #. i18n: ectx: property (text), widget (QLabel, lblTransformType)
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:102
@@ -38736,1437 +40588,6 @@ msgstr "Tanlanganni bekitish"
 #, kde-format
 msgid "Work Recursively"
 msgstr ""
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Connection"
-#~ msgstr "Tekislashni oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Join subpaths"
-#~ msgstr "Chiziqning enini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Merge points"
-#~ msgstr "Boʻsh joy"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change parameter"
-#~ msgstr "Tabulyasiyani oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert to Path"
-#~ msgstr "Yunonchaga aylantirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Combine paths"
-#~ msgstr "Chiziqning enini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move control point"
-#~ msgstr "Boʻsh joy"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert points"
-#~ msgstr "Bogʻni qoʻyish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move points"
-#~ msgstr "Bogʻni olib tashlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove points"
-#~ msgstr "Bogʻni olib tashlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set point type"
-#~ msgstr "Shriftni tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reverse paths"
-#~ msgstr "Guruhni olib tashlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Break subpath"
-#~ msgstr "Guruhni olib tashlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change segments to curves"
-#~ msgstr "Shriftning uslubini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change segments to lines"
-#~ msgstr "Shriftning uslubini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set marker"
-#~ msgstr "Soniya"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Align shapes"
-#~ msgstr "Chapga tekislash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set background"
-#~ msgstr "Soniya"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Clip Shape"
-#~ msgstr "Toʻlqin"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Create shape"
-#~ msgid_plural "Create shapes"
-#~ msgstr[0] "Namunani yaratish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete shape"
-#~ msgid_plural "Delete shapes"
-#~ msgstr[0] "Matnni oʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Distribute shapes"
-#~ msgstr "Matnni oʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Group shapes"
-#~ msgstr "Joriy boʻlim"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Lock shapes"
-#~ msgstr "Chapga tekislash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move shapes"
-#~ msgstr "Matnni oʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rename Shape"
-#~ msgstr "Namunani yaratish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reorder shapes"
-#~ msgstr "Matnni oʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Resize"
-#~ msgstr "Oʻlchami&ni oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Shape RunAround"
-#~ msgstr "Tabulyasiyani oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Shadow"
-#~ msgstr "Matnning soyasi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear shapes"
-#~ msgstr "Matnni oʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Resize shapes"
-#~ msgstr "Matnni oʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set opacity"
-#~ msgstr "Skript"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Unclip Shape"
-#~ msgstr "Namunani yaratish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Unclip Shapes"
-#~ msgstr "Chapga tekislash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Ungroup shapes"
-#~ msgstr "Chapga tekislash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Close subpath"
-#~ msgstr "Guruhni olib tashlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove subpath"
-#~ msgstr "Guruhni olib tashlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Segment"
-#~ msgstr "Tekislashni oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Filter"
-#~ msgstr "Filter"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Deselect"
-#~ msgstr "Tanlashni bekor qilish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Layer"
-#~ msgstr "Qatlamni qoʻshish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move Layer"
-#~ msgstr "Qatlamni koʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove Layer"
-#~ msgstr "Qatlamni olib tashlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert Image Type"
-#~ msgstr "Rasmning turini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Composition Mode Change"
-#~ msgstr "Qa&erni rasmga olish:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Opacity Change"
-#~ msgstr "Xiralik: "
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Property Changes"
-#~ msgstr "Xossalari..."
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reselect"
-#~ msgstr "Qaytada&n tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Resize Image"
-#~ msgstr "Rasmning oʻlchamini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Image Resolution"
-#~ msgstr "Rasmning oʻlchami"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move"
-#~ msgstr "Koʻchi&rish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Layer Style"
-#~ msgstr "Qatlamni boshqa turga aylantirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Switch current time"
-#~ msgstr "Joriy qatlamni oʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Crop Image"
-#~ msgstr "Rasmni kesish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Crop Layer"
-#~ msgstr "Yangi qatlamlar &guruhi..."
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Crop Mask"
-#~ msgstr "Alfa niqob"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Scale Image"
-#~ msgstr "Yangi rasm"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Image Resolution"
-#~ msgstr "Rasmning oʻlchami"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Scale Layer"
-#~ msgstr "Yangi qatlam"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate Image"
-#~ msgstr "Rasmni burish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate Mask"
-#~ msgstr "Yaratish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate Layer"
-#~ msgstr "Qatlamni burish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear Mask"
-#~ msgstr "Matnni oʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear Layer"
-#~ msgstr "Yangi qatlam"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear Image"
-#~ msgstr "Yangi rasm"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert Image Color Space"
-#~ msgstr "Rasmning turini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert Projection Color Space"
-#~ msgstr "Rasmning turini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Crop Selections"
-#~ msgstr "Hech narsa tanlanmagan"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Merge Down"
-#~ msgstr "Alfa moslamalari"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change projection color"
-#~ msgstr "Tekislashni oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Merge Selected Nodes"
-#~ msgstr "Tanlangan rangni olib tashlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "New From Visible"
-#~ msgstr "Profil:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Merge Selection Masks"
-#~ msgstr "Tanlash boʻyogʻi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Flatten Layer"
-#~ msgstr "Silliqlangan rasm"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Flatten Image"
-#~ msgstr "Silliqlangan rasm"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Render Animation"
-#~ msgstr "Gradient vositasi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Erode Selection"
-#~ msgstr "Tanlanganni bekitish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Dilate Selection"
-#~ msgstr "Tanlanganni koʻrsatish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Border Selection"
-#~ msgstr "Tanlanganni bekitish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Feather Selection"
-#~ msgstr "Tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Grow Selection"
-#~ msgstr "Hech narsa tanlanmagan"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shrink Selection"
-#~ msgstr "Tanlanganni bekitish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Smooth Selection"
-#~ msgstr "Tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Invert Selection"
-#~ msgstr "Tanlanganni bekitish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Switch Frames"
-#~ msgstr "Joriy qatlamni oʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Instant Preview"
-#~ msgstr "Oʻrnini almashtirishmoq"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Key Stroke Color"
-#~ msgstr "Tekislashni oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove Key Stroke"
-#~ msgstr "Qatlamning nomi:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Colorize"
-#~ msgstr "Rang"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Prefilter Colorize Mask"
-#~ msgstr "Rang"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Transform Layer"
-#~ msgstr "Boshqa shaklga almashtirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select All"
-#~ msgstr "&Hammasini tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Flood Fill Layer"
-#~ msgstr "Toʻldirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Cut"
-#~ msgstr "Boshqa"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Copy"
-#~ msgstr "Yashildan nusxa olish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Copy Merged"
-#~ msgstr "Qizildan nusxa olish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert to Vector Selection"
-#~ msgstr "Hech narsa tanlanmagan"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert shapes to vector selection"
-#~ msgstr "Hech narsa tanlanmagan"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Polyline"
-#~ msgstr "Siniq chiziq"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Paste shapes"
-#~ msgstr "Namunani yaratish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Edit Guides"
-#~ msgstr "Toʻrni bekitish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Layer Properties"
-#~ msgstr "Qatlamning xossalari"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Clear Vector Selection"
-#~ msgstr "Hech narsa tanlanmagan"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add reference image"
-#~ msgstr "Rasmning nomini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Import animation"
-#~ msgstr "Kompozitsiyasiz"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change File Layer"
-#~ msgstr "Filter"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert to a Paint Layer"
-#~ msgstr "Joriy qatlam"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert to an animated layer"
-#~ msgstr "Joriy qatlam"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert to a file layer"
-#~ msgstr "Joriy qatlam"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rasterize Layer"
-#~ msgstr "Qatlamni burish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Selection Mask"
-#~ msgstr "Tanlash boʻyogʻi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Transparency Mask"
-#~ msgstr "Shaffof"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Filter Mask"
-#~ msgstr "Filterlar"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Colorize Mask"
-#~ msgstr "Filterlar"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Transform Mask"
-#~ msgstr "Shaffof"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move Nodes"
-#~ msgstr "Koʻchirish vositasi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Copy Nodes"
-#~ msgstr "Yashildan nusxa olish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Nodes"
-#~ msgstr "&Manbalar"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert to a Selection Mask"
-#~ msgstr "Tanlanganni bekitish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Duplicate Nodes"
-#~ msgstr "Asboblar nusxasini koʻpaytirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Raise Nodes"
-#~ msgstr "Koʻchirish vositasi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Lower Nodes"
-#~ msgstr "Koʻchirish vositasi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove Nodes"
-#~ msgstr "Koʻchirish vositasi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Layer X"
-#~ msgstr "Qatlamni koʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Mask X"
-#~ msgstr "Qatlamni koʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Layer Y"
-#~ msgstr "Qatlamni koʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Mask Y"
-#~ msgstr "Qatlamni koʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror All Layers X"
-#~ msgstr "Qatlamni koʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror All Layers Y"
-#~ msgstr "Qatlamni koʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Write Alpha into a Layer"
-#~ msgstr "Yangi qatlam yaratish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Cut Nodes"
-#~ msgstr "Asboblar nusxasini koʻpaytirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Stroke Shapes"
-#~ msgstr "Filter boʻyogʻi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Opaque (Add)"
-#~ msgstr "Tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Opaque (Subtract)"
-#~ msgstr "Tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Opaque (Intersect)"
-#~ msgstr "Tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Opaque"
-#~ msgstr "Tanlash"
-
-#, fuzzy
-#~| msgid "Open in New Documents"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Clone Document"
-#~ msgstr "Yangi hujjatlarda ochish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set saturation"
-#~ msgstr "Toʻyintirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Clear"
-#~ msgstr "Ayiqlar"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Filter \"%1\""
-#~ msgstr "Filter: "
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add transform keyframe"
-#~ msgstr "Shaffof"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust keyframe"
-#~ msgstr "Qatlamning nomi:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert keyframe"
-#~ msgstr "Qatlamning nomi:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust tangent"
-#~ msgstr "Ranglarni moslash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set interpolation mode"
-#~ msgstr "&Oʻlchami:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust Keyframe"
-#~ msgid_plural "Adjust %1 Keyframes"
-#~ msgstr[0] "Qatlamning nomi:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Copy Keyframe"
-#~ msgid_plural "Copy %1 Keyframes"
-#~ msgstr[0] "Qatlamning nomi:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Keyframe"
-#~ msgstr "Qatlamning nomi:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove Keyframe"
-#~ msgid_plural "Remove Keyframes"
-#~ msgstr[0] "Qatlamning nomi:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move Keyframe"
-#~ msgid_plural "Move %1 Keyframes"
-#~ msgstr[0] "Qatlamning nomi:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove frame and shift"
-#~ msgid_plural "Remove %1 frames and shift"
-#~ msgstr[0] "Qatlamni olib tashlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Frames"
-#~ msgstr "Yashildan nusxa olish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert frame"
-#~ msgid_plural "Insert %1 frames"
-#~ msgstr[0] "Qatlamning nomi:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Quick Selection Mask"
-#~ msgstr "Tanlash boʻyogʻi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Cancel Quick Selection Mask"
-#~ msgstr "Tanlash boʻyogʻi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Color Range Selection"
-#~ msgstr "Tanlanganni koʻrsatish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert Layer Type"
-#~ msgstr "Qatlamni boshqa turga aylantirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Split Layer"
-#~ msgstr "Yangi qatlam"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Offset Image"
-#~ msgstr "X Ofset:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Offset Layer"
-#~ msgstr "X Ofset:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Gmic filter"
-#~ msgstr "Yoʻnalish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Image Vertically"
-#~ msgstr "Uskuna:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Image Horizontally"
-#~ msgstr "Ufq 1"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Separate Image"
-#~ msgstr "Rasmning nomini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Wavelet decompose"
-#~ msgstr "Piksel balandligi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add text range"
-#~ msgstr "Oʻrnini almashtirishmoq"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Attach Path"
-#~ msgstr "Burchakni silliqlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change text anchor"
-#~ msgstr "Rasmning oʻlchami"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change font"
-#~ msgstr "Tekislashni oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Text Offset"
-#~ msgstr "Belgi uslubini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Detach Path"
-#~ msgstr "Burchakni silliqlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove text range"
-#~ msgstr "Qatlamni olib tashlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Replace text range"
-#~ msgstr "Matnni almashtirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change ellipse"
-#~ msgstr "Shriftni oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change rectangle"
-#~ msgstr "Belgi uslubini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change spiral"
-#~ msgstr "Filter"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change star"
-#~ msgstr "Shriftni oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Accept change"
-#~ msgstr "Toʻgʻri burchak maydonni tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format) Enable/Disable Grow To Fit Width"
-#~ msgid "%1 Grow To Fit Width"
-#~ msgstr "Eni:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format) Enable/Disable Grow To Fit Height"
-#~ msgid "%1 Grow To Fit Height"
-#~ msgstr "Piksel balandligi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format) Enable/Disable Shrink To Fit"
-#~ msgid "%1 Shrink To Fit"
-#~ msgstr "Shakllar"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change List Level"
-#~ msgstr "Shriftni oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reject change"
-#~ msgstr "Toʻgʻri burchak maydonni tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Show Changes"
-#~ msgstr "Toʻr"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Hide Changes"
-#~ msgstr "Oʻrnini almashtirishmoq"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Font"
-#~ msgstr "Shrift:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change List"
-#~ msgstr "Shriftni oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Styles"
-#~ msgstr "Belgi uslubini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete"
-#~ msgstr "Matnni oʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Text"
-#~ msgstr "Matnni qoʻshish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete Column"
-#~ msgstr "Matnni oʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete Row"
-#~ msgstr "Matnni oʻchirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Footnote"
-#~ msgstr "Bogʻni qoʻyish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Endnote"
-#~ msgstr "Matnni qoʻyish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Column Right"
-#~ msgstr "Ustunni qoʻyish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Column Left"
-#~ msgstr "Ustunni qoʻyish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Row Below"
-#~ msgstr "Satrni qoʻyish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Row Above"
-#~ msgstr "Satrni qoʻyish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change List Numbering"
-#~ msgstr "Satrlar orasidagi masofani oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "New Section"
-#~ msgstr "Joriy boʻlim"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Formatting"
-#~ msgstr "Sanani koʻrinishi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Direct Paragraph Formatting"
-#~ msgstr "Xat boshi oʻlchamini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rename Section"
-#~ msgstr "Namunani yaratish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust Column Width"
-#~ msgstr "Chiziqning enini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust Row Height"
-#~ msgstr "Chiziqning enini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Split sections startings"
-#~ msgstr "Tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Split sections endings"
-#~ msgstr "Tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Paste As Text"
-#~ msgstr "Soya:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Paste"
-#~ msgstr "Sana"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "New Paragraph"
-#~ msgstr "Oddiy paragraf matni"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Bookmark"
-#~ msgstr "Xatchoʻp"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Annotation"
-#~ msgstr "Kasrni qoʻshish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Index"
-#~ msgstr "Matnni qoʻyish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Variable"
-#~ msgstr "Matnni qoʻyish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Break"
-#~ msgstr "Bogʻni qoʻyish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Table"
-#~ msgstr "Matnni qoʻyish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Merge Cells"
-#~ msgstr "Boʻsh joy"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Split Cells"
-#~ msgstr "&Boʻyiga"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust Table Width"
-#~ msgstr "Chiziqning enini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Border Formatting"
-#~ msgstr "Matnning formatini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Table Of Contents"
-#~ msgstr "Mundarijaga kiritish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Table Of Contents"
-#~ msgstr "Mundarijaga kiritish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Bibliography"
-#~ msgstr "Bogʻni qoʻyish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Citation"
-#~ msgstr "Kasrni qoʻshish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Bold"
-#~ msgstr "Qalin"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Italic"
-#~ msgstr "Qiya:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Underline"
-#~ msgstr "Tagini chizish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Strike Out"
-#~ msgstr "Ustidan chizish:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Alignment"
-#~ msgstr "Tekislashni oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Vertical Alignment"
-#~ msgstr "Boʻyiga tekislash:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Decrease Indent"
-#~ msgstr "Tekislashni oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Increase Indent"
-#~ msgstr "Tekislashni oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Decrease font size"
-#~ msgstr "Shriftning oʻlchami oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Increase font size"
-#~ msgstr "Shriftning oʻlchami oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Font"
-#~ msgstr "Shriftni tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Font Size"
-#~ msgstr "Shriftni tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Background Color"
-#~ msgstr "Soniya"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Text Color"
-#~ msgstr "Matnning rangi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Character Style"
-#~ msgstr "Yangi uslubni yaratish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Paragraph Style"
-#~ msgstr "Oddiy paragraf matni"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Format"
-#~ msgstr "Sanani koʻrinishi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Freehand Brush Stroke"
-#~ msgstr "Oldindan aniqlangan boʻyoqlar"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Ellipse"
-#~ msgstr "Ellips chizish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Flood Fill"
-#~ msgstr "Toʻldirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Gradient"
-#~ msgstr "Gradient"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Line"
-#~ msgstr "Chiziq chizish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Multibrush Stroke"
-#~ msgstr "Boʻyoq"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Bezier Curve"
-#~ msgstr "Filter vositasi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Freehand Path"
-#~ msgstr "Erkin qoʻl bilan chizish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Rectangle"
-#~ msgstr "Toʻgʻri burchak chizish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move Selection"
-#~ msgstr "Hech narsa tanlanmagan"
-
-#, fuzzy
-#~| msgid "Rotate Image 1&80"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate Object 90° CW"
-#~ msgstr "Rasmni &180 darajaga burish"
-
-#, fuzzy
-#~| msgid "Rotate Image CCW"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate Object 90° CCW"
-#~ msgstr "Rasmni soat koʻrsatgichiga teskari burish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate Object 180°"
-#~ msgstr "Qatlamni burish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Object Horizontally"
-#~ msgstr "Ufq 1"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Object Vertically"
-#~ msgstr "Uskuna:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reset Object Transformations"
-#~ msgstr "Boshqa shaklga almashtirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Unite Shapes"
-#~ msgstr "Chapga tekislash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Intersect Shapes"
-#~ msgstr "Teskari qilish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Subtract Shapes"
-#~ msgstr "Filter boʻyogʻi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Split Shapes"
-#~ msgstr "Filter boʻyogʻi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate"
-#~ msgstr "&Burish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear X"
-#~ msgstr "Yangi rasm"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear Y"
-#~ msgstr "Yangi rasm"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Scale"
-#~ msgstr "Toʻrtburcha&k"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reset Transformations"
-#~ msgstr "Boshqa shaklga almashtirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear"
-#~ msgstr "Yangi rasm"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add filter effect"
-#~ msgstr "Qatlamni qoʻshish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove filter effect"
-#~ msgstr "Qatlamni qoʻshish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set filter stack"
-#~ msgstr "Chiziq qalinligini koʻrsatish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Contiguous Area"
-#~ msgstr "Tanlanganni koʻrsatish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Ellipse"
-#~ msgstr "&Hammasini tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select by Outline"
-#~ msgstr "Tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select by Bezier Curve"
-#~ msgstr "Filter vositasi"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Polygon"
-#~ msgstr "Hamma&sini tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Rectangle"
-#~ msgstr "Toʻgʻri burchak maydonni tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Similar Color"
-#~ msgstr "Oʻxshash ranglarni tanlash"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change SvgTextTool"
-#~ msgstr "Belgi uslubini oʻzgartirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Dynamic Brush Stroke"
-#~ msgstr "Choʻtkani koʻpaytirish"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Colorize Mask Key Stroke"
-#~ msgstr "Rang"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Polygon"
-#~ msgstr "Koʻpburchak"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Smart Patch"
-#~ msgstr "Yulduz"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Transform"
-#~ msgstr "Boshqa shaklga almashtirish"
 
 #, fuzzy
 #~ msgid "Fax mode:"
