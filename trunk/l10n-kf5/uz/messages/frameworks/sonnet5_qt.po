@@ -150,82 +150,87 @@ msgctxt "Sonnet::ConfigDialog|"
 msgid "Spell Checking Configuration"
 msgstr "Manbani moslash"
 
-#: ui/configui.ui:41
-#, fuzzy
-#| msgid "Options"
-msgctxt "SonnetConfigUI|"
-msgid "Options"
-msgstr "Parametrlar"
-
-#: ui/configui.ui:47
-msgctxt "SonnetConfigUI|"
-msgid "Enable autodetection of &language"
-msgstr ""
-
-#: ui/configui.ui:54
-#, fuzzy
-#| msgid "Enable &background spellchecking"
-msgctxt "SonnetConfigUI|"
-msgid "Enable &background spellchecking"
-msgstr "&Avto-tekshirishni yoqish"
-
-#: ui/configui.ui:61
-#, fuzzy
-#| msgid "As-you-type spell checking enabled."
-msgctxt "SonnetConfigUI|"
-msgid "&Automatic spell checking enabled by default"
-msgstr "Imloni avto-tekshirish yoqildi."
-
-#: ui/configui.ui:68
-#, fuzzy
-#| msgid "Skip all &uppercase words"
-msgctxt "SonnetConfigUI|"
-msgid "Skip all &uppercase words"
-msgstr "&Katta harflar bilan yozilgan soʻzlarga eʼtibor berilmasin"
-
-#: ui/configui.ui:75
-#, fuzzy
-#| msgid "S&kip run-together words"
-msgctxt "SonnetConfigUI|"
-msgid "S&kip run-together words"
-msgstr "&Birga yozilgan soʻzlarga eʼtibor berilmasin"
-
-#: ui/configui.ui:85
-#, fuzzy
-#| msgid "Default language:"
-msgctxt "SonnetConfigUI|"
-msgid "Default language:"
-msgstr "Andoza til:"
-
-#: ui/configui.ui:95
-#, fuzzy
-#| msgid "Ignore These Words"
-msgctxt "SonnetConfigUI|"
-msgid "Ignored Words:"
-msgstr "Quyidagi soʻzlarga eʼtibor berilmasin"
-
-#: ui/configui.ui:109
-#, fuzzy
-#| msgid "&Add"
-msgctxt "SonnetConfigUI|"
-msgid "&Add"
-msgstr "&Qoʻshish"
-
-#: ui/configui.ui:122
-#, fuzzy
-#| msgid "&Remove"
-msgctxt "SonnetConfigUI|"
-msgid "&Remove"
-msgstr "&Olib tashlash"
-
-#: ui/configui.ui:160
+#: ui/configui.ui:26
 #, fuzzy
 #| msgid "Enable &background spellchecking"
 msgctxt "SonnetConfigUI|"
 msgid "No backend found for spell checking"
 msgstr "&Avto-tekshirishni yoqish"
 
-#: ui/dialog.cpp:100 ui/dialog.cpp:222 ui/dialog.cpp:432
+#: ui/configui.ui:36
+#, fuzzy
+#| msgid "Default language:"
+msgctxt "SonnetConfigUI|"
+msgid "Default language:"
+msgstr "Andoza til:"
+
+#: ui/configui.ui:63
+msgctxt "SonnetConfigUI|"
+msgid "Choose your preferred languages"
+msgstr ""
+
+#: ui/configui.ui:71
+#, fuzzy
+#| msgid "Options"
+msgctxt "SonnetConfigUI|"
+msgid "Options"
+msgstr "Parametrlar"
+
+#: ui/configui.ui:77
+msgctxt "SonnetConfigUI|"
+msgid "Enable autodetection of &language"
+msgstr ""
+
+#: ui/configui.ui:84
+#, fuzzy
+#| msgid "Enable &background spellchecking"
+msgctxt "SonnetConfigUI|"
+msgid "Enable &background spellchecking"
+msgstr "&Avto-tekshirishni yoqish"
+
+#: ui/configui.ui:91
+#, fuzzy
+#| msgid "As-you-type spell checking enabled."
+msgctxt "SonnetConfigUI|"
+msgid "&Automatic spell checking enabled by default"
+msgstr "Imloni avto-tekshirish yoqildi."
+
+#: ui/configui.ui:98
+#, fuzzy
+#| msgid "Skip all &uppercase words"
+msgctxt "SonnetConfigUI|"
+msgid "Skip all &uppercase words"
+msgstr "&Katta harflar bilan yozilgan soʻzlarga eʼtibor berilmasin"
+
+#: ui/configui.ui:105
+#, fuzzy
+#| msgid "S&kip run-together words"
+msgctxt "SonnetConfigUI|"
+msgid "S&kip run-together words"
+msgstr "&Birga yozilgan soʻzlarga eʼtibor berilmasin"
+
+#: ui/configui.ui:115
+#, fuzzy
+#| msgid "Ignore These Words"
+msgctxt "SonnetConfigUI|"
+msgid "Ignored Words:"
+msgstr "Quyidagi soʻzlarga eʼtibor berilmasin"
+
+#: ui/configui.ui:129
+#, fuzzy
+#| msgid "&Add"
+msgctxt "SonnetConfigUI|"
+msgid "&Add"
+msgstr "&Qoʻshish"
+
+#: ui/configui.ui:142
+#, fuzzy
+#| msgid "&Remove"
+msgctxt "SonnetConfigUI|"
+msgid "&Remove"
+msgstr "&Olib tashlash"
+
+#: ui/dialog.cpp:100 ui/dialog.cpp:222 ui/dialog.cpp:433
 #, fuzzy
 #| msgid "Check Spelling"
 msgctxt "Sonnet::Dialog|@title:window"
@@ -250,7 +255,7 @@ msgctxt "Sonnet::Dialog|"
 msgid "Spell check canceled."
 msgstr "Imloni tekshiruvchi"
 
-#: ui/dialog.cpp:428 ui/dialog.cpp:431
+#: ui/dialog.cpp:429 ui/dialog.cpp:432
 #, fuzzy
 msgctxt "Sonnet::Dialog|"
 msgid "Spell check complete."
