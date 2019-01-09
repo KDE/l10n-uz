@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-30 06:30+0200\n"
+"POT-Creation-Date: 2019-01-09 07:09+0100\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -672,11 +672,17 @@ msgstr "\"%1\" faylini olib tashlab boʻlmadi."
 msgid "Could not remove connection file <filename>%1</filename>."
 msgstr "\"%1\" faylini olib tashlab boʻlmadi."
 
-#: core/KexiFileFilters.cpp:240 widget/KexiStartupFileHandler.cpp:282
+#: core/KexiFileFilters.cpp:242 widget/KexiStartupFileHandler.cpp:279
 #, fuzzy, kde-kuit-format
 #| msgid "All Supported Files"
 msgid "All Supported Files"
 msgstr "Barcha qoʻllaniladigan fayllar"
+
+#: core/KexiFileFilters.cpp:246
+#, fuzzy, kde-kuit-format
+#| msgid "&Add File"
+msgid "All Files"
+msgstr "F&ayl qoʻshish"
 
 #: core/KexiGroupButton.cpp:143
 #, fuzzy, kde-format
@@ -751,12 +757,12 @@ msgctxt "@info"
 msgid "You can delete <resource>%1</resource> object and create it again."
 msgstr "\"%1\" obʼektini oʻchirishingiz va yana qayta tiklashingiz mumkin."
 
-#: core/kexipart.cpp:360
+#: core/kexipart.cpp:358
 #, fuzzy, kde-kuit-format
 msgid "Could not load object's data."
 msgstr "Obʼekt maʼumotlarini yuklab boʻlmadi."
 
-#: core/kexipart.cpp:362
+#: core/kexipart.cpp:360
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "Data identifier: <resource>%1</resource>."
@@ -840,7 +846,7 @@ msgstr ""
 "Loyihani olib tashlab boʻlmadi.\n"
 "\"%1\" fayli mavjud emas."
 
-#: core/kexiproject.cpp:309 core/kexiproject.cpp:1487
+#: core/kexiproject.cpp:309 core/kexiproject.cpp:1513
 #: main/startup/KexiStartup.cpp:812 main/startup/KexiStartup.cpp:821
 #: main/startup/KexiStartup.cpp:832
 #, fuzzy, kde-kuit-format
@@ -883,7 +889,12 @@ msgstr "Loyiha sarlavhasi"
 msgid "Project description"
 msgstr "Loyiha taʼrifi"
 
-#: core/kexiproject.cpp:971
+#: core/kexiproject.cpp:824
+#, fuzzy, kde-kuit-format
+msgid "Could not load list of tables."
+msgstr "Maʼlumotlar baza drayverini \"%1\" yuklab boʻlmadi."
+
+#: core/kexiproject.cpp:997
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -891,25 +902,25 @@ msgid ""
 "%2 %3"
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: core/kexiproject.cpp:992
+#: core/kexiproject.cpp:1018
 #, kde-kuit-format
 msgid "This project is opened as read only."
 msgstr ""
 
-#: core/kexiproject.cpp:1024
+#: core/kexiproject.cpp:1050
 #, fuzzy, kde-kuit-format
 #| msgid "Could not remove object's data."
 msgid "Could not delete object's user data."
 msgstr "Obʼekt maʼlumotlarini olib tashlab boʻlmadi."
 
-#: core/kexiproject.cpp:1152
+#: core/kexiproject.cpp:1178
 #, fuzzy, kde-format
 #| msgid "Warning: entire project's data will be removed."
 msgctxt "warning"
 msgid "Entire project's data and design will be deleted."
 msgstr "Diqqat: loyihaning barcha maʼlumotlari oʻchirib tashlanadi."
 
-#: core/kexiproject.cpp:1168
+#: core/kexiproject.cpp:1194
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "The project %1 already exists.\n"
@@ -922,13 +933,13 @@ msgstr ""
 "\"%1\" loyihasi allaqachon mavjud.\n"
 "Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
 
-#: core/kexiproject.cpp:1173
+#: core/kexiproject.cpp:1199
 #, fuzzy, kde-kuit-format
 msgctxt "@action:button"
 msgid "Replace"
 msgstr "&Almashtirish"
 
-#: core/kexiproject.cpp:1198
+#: core/kexiproject.cpp:1224
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -936,26 +947,26 @@ msgid ""
 "para><para><warning>%2</warning></para>"
 msgstr ""
 
-#: core/kexiproject.cpp:1202
+#: core/kexiproject.cpp:1228
 #, fuzzy, kde-kuit-format
 #| msgid "Delete Object"
 msgctxt "@action:button"
 msgid "Delete Project"
 msgstr "Obʼektni olib tashlash"
 
-#: core/kexiproject.cpp:1216
+#: core/kexiproject.cpp:1242
 #, kde-kuit-format
 msgid ""
 "Could not delete this project. Database connection for this project has been "
 "opened as read only."
 msgstr ""
 
-#: core/kexiproject.cpp:1481
+#: core/kexiproject.cpp:1507
 #, kde-kuit-format
 msgid "Open As Read Only"
 msgstr ""
 
-#: core/kexiproject.cpp:1484
+#: core/kexiproject.cpp:1510
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1099,7 +1110,7 @@ msgstr "Joriy loyihani yopish"
 msgid "Shows menu for the current window."
 msgstr "Joriy loyihani yopish"
 
-#: core/KexiView.cpp:267 kexiutils/utils.cpp:319
+#: core/KexiView.cpp:267 kexiutils/utils.cpp:318
 #, fuzzy, kde-format, kde-kuit-format
 msgid "Save"
 msgstr "Satrni &olib tashlash"
@@ -2284,13 +2295,13 @@ msgctxt "Next button arrow: next button in assistant (wizard)"
 msgid "%L ›"
 msgstr ""
 
-#: kexiutils/utils.cpp:305 main/startup/KexiOpenProjectAssistant.cpp:154
+#: kexiutils/utils.cpp:304 main/startup/KexiOpenProjectAssistant.cpp:154
 #, fuzzy, kde-format, kde-kuit-format
 #| msgid "&Open"
 msgid "Open"
 msgstr "&Ochish"
 
-#: kexiutils/utils.cpp:364
+#: kexiutils/utils.cpp:363
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2300,7 +2311,7 @@ msgstr ""
 "\"%1\" loyihasi allaqachon mavjud.\n"
 "Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
 
-#: kexiutils/utils.cpp:760
+#: kexiutils/utils.cpp:759
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Could not remove project.\n"
@@ -2311,25 +2322,25 @@ msgstr ""
 "Loyihani olib tashlab boʻlmadi.\n"
 "\"%1\" fayli mavjud emas."
 
-#: kexiutils/utils.cpp:766
+#: kexiutils/utils.cpp:765
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Invalid hyperlink <link>%1</link>."
 msgstr ""
 
-#: kexiutils/utils.cpp:775
+#: kexiutils/utils.cpp:774
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Executable <link>%1</link> not allowed."
 msgstr ""
 
-#: kexiutils/utils.cpp:781
+#: kexiutils/utils.cpp:780
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Remote hyperlink <link>%1</link> not allowed."
 msgstr ""
 
-#: kexiutils/utils.cpp:788
+#: kexiutils/utils.cpp:787
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2337,27 +2348,33 @@ msgid ""
 "warning>"
 msgstr ""
 
-#: kexiutils/utils.cpp:791
+#: kexiutils/utils.cpp:790
 #, kde-kuit-format
 msgctxt "@action:button Run script file"
 msgid "Run"
 msgstr ""
 
-#: kexiutils/utils.cpp:852
+#: kexiutils/utils.cpp:851
 #, kde-kuit-format
 msgctxt "'Dirty (modified) object' flag"
 msgid "%1*"
 msgstr ""
 
-#: kexiutils/utils.cpp:1140
+#: kexiutils/utils.cpp:1139
 #, kde-kuit-format
 msgid "modified"
 msgstr ""
 
-#: kexiutils/utils.cpp:1151
+#: kexiutils/utils.cpp:1150
 #, kde-kuit-format
 msgctxt "Document/application separator in titlebar"
 msgid " – "
+msgstr ""
+
+#: kexiutils/utils.cpp:1196
+#, kde-kuit-format
+msgctxt "@info/plain Concatenated sentence1 sentence2 ..."
+msgid "<html>%1%2%3%4%5%6</html>"
 msgstr ""
 
 #: main/KexiBugReportDialog.cpp:51
@@ -3397,10 +3414,10 @@ msgstr "Asosiy dasturdan chiqish"
 msgid "Activates a \"What's This?\" tool."
 msgstr ""
 
-#: main/KexiMainWindow_p.cpp:695 migration/importwizard.cpp:1106
-#: migration/importwizard.cpp:1109 migration/importwizard.cpp:1111
-#: migration/importwizard.cpp:1113 migration/importwizard.cpp:1115
-#: migration/importwizard.cpp:1117
+#: main/KexiMainWindow_p.cpp:695 migration/importwizard.cpp:1109
+#: migration/importwizard.cpp:1112 migration/importwizard.cpp:1114
+#: migration/importwizard.cpp:1116 migration/importwizard.cpp:1118
+#: migration/importwizard.cpp:1120
 #, kde-kuit-format
 msgid "Help"
 msgstr ""
@@ -3462,7 +3479,17 @@ msgctxt "@info"
 msgid "Command <command>%1</command> failed."
 msgstr "\"%1\" buyrugʻini bajarib boʻlmadi."
 
-#: main/KexiMenuWidget.cpp:2213
+#: main/KexiMenuWidget.cpp:482
+#, kde-kuit-format
+msgid "Visit KEXI Facebook page at %1"
+msgstr ""
+
+#: main/KexiMenuWidget.cpp:491
+#, kde-kuit-format
+msgid "Visit KEXI Twitter page at %1"
+msgstr ""
+
+#: main/KexiMenuWidget.cpp:2215
 #, kde-kuit-format
 msgid "Visit Calligra home page at %1"
 msgstr ""
@@ -3476,11 +3503,24 @@ msgid ""
 "<application>Kexi</application> is properly installed.</para>"
 msgstr ""
 
-#: main/KexiRegisterResource_p.h:144
+#: main/KexiRegisterResource_p.h:144 main/KexiRegisterResource_p.h:213
 #, kde-kuit-format
 msgctxt "@info Tried to find files in <dir list>"
 msgid "Tried to find in %1."
 msgstr ""
+
+#: main/KexiRegisterResource_p.h:209
+#, fuzzy, kde-kuit-format
+#| msgid ""
+#| "Could not remove project.\n"
+#| "The file \"%1\" does not exist."
+msgctxt "@info"
+msgid ""
+"Could not open icon resource file <filename>%1</filename>. Please check if "
+"<application>%2</application> is properly installed."
+msgstr ""
+"Loyihani olib tashlab boʻlmadi.\n"
+"\"%1\" fayli mavjud emas."
 
 #: main/KexiSearchLineEdit.cpp:436
 #, kde-kuit-format
@@ -3818,37 +3858,42 @@ msgid "Opened one year ago"
 msgid_plural "Opened %1 years ago"
 msgstr[0] ""
 
-#: main/startup/KexiRecentProjectsModel.cpp:116
+#: main/startup/KexiRecentProjectsModel.cpp:118
 #, fuzzy, kde-kuit-format
 #| msgid "Local server"
 msgid "on local server"
 msgstr "Lokal server"
 
-#: main/startup/KexiRecentProjectsModel.cpp:119
+#: main/startup/KexiRecentProjectsModel.cpp:121
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "on <resource>%1</resource> server"
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: main/startup/KexiRecentProjectsModel.cpp:127
+#: main/startup/KexiRecentProjectsModel.cpp:134
 #, fuzzy, kde-kuit-format
 #| msgid "Could not remove file \"%1\"."
 msgctxt "@info File database <file>"
 msgid "File database <filename>%1</filename>"
 msgstr "\"%1\" faylini olib tashlab boʻlmadi."
 
-#: main/startup/KexiRecentProjectsModel.cpp:134
+#: main/startup/KexiRecentProjectsModel.cpp:140
 #, fuzzy, kde-kuit-format
 #| msgid "Database"
 msgid "database"
 msgstr "Maʼlumot bazasi"
 
-#: main/startup/KexiRecentProjectsModel.cpp:136
+#: main/startup/KexiRecentProjectsModel.cpp:142
 #, fuzzy, kde-kuit-format
 #| msgid "New database"
 msgctxt "<type> database, e.g. PostgreSQL database, MySQL database"
 msgid "%1 database"
 msgstr "Yangi maʼlumot bazasi"
+
+#: main/startup/KexiRecentProjectsModel.cpp:147
+#, kde-kuit-format
+msgid "Last opened on %1"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: main/startup/KexiServerDBNamePage.ui:22
@@ -4286,12 +4331,12 @@ msgstr ""
 msgid "Welcome to the Table Importing Assistant"
 msgstr "Maʼlumotlar bazasi import qilish yordamchisiga marhamat"
 
-#: migration/importtablewizard.cpp:201 migration/importwizard.cpp:301
+#: migration/importtablewizard.cpp:201 migration/importwizard.cpp:304
 #, kde-kuit-format
 msgid "Select Location for Source Database"
 msgstr "Manba maʼlumotlar bazasining manzilini koʻrsating"
 
-#: migration/importtablewizard.cpp:211 migration/importwizard.cpp:312
+#: migration/importtablewizard.cpp:211 migration/importwizard.cpp:315
 #, kde-kuit-format
 msgid "Select Source Database"
 msgstr "Manba maʼlumotlar bazasini tanlang"
@@ -4302,12 +4347,12 @@ msgstr "Manba maʼlumotlar bazasini tanlang"
 msgid "Select the Table to Import"
 msgstr "Import qilish usulini tanlang"
 
-#: migration/importtablewizard.cpp:256 migration/importwizard.cpp:470
+#: migration/importtablewizard.cpp:256 migration/importwizard.cpp:473
 #, kde-kuit-format
 msgid "Advanced Options"
 msgstr "Qoʻshimcha moslamalar"
 
-#: migration/importtablewizard.cpp:263 migration/importwizard.cpp:482
+#: migration/importtablewizard.cpp:263 migration/importwizard.cpp:485
 #, kde-kuit-format
 msgid "Importing"
 msgstr "Import qilinmoqda"
@@ -4330,12 +4375,12 @@ msgid "Open imported table"
 msgstr "Import qilingan loyihani ochish"
 
 #: migration/importtablewizard.cpp:327 migration/importtablewizard.cpp:574
-#: migration/importwizard.cpp:507 migration/importwizard.cpp:905
+#: migration/importwizard.cpp:510 migration/importwizard.cpp:908
 #, kde-kuit-format
 msgid "Success"
 msgstr "Muvaffaqiyat"
 
-#: migration/importtablewizard.cpp:384 migration/importwizard.cpp:568
+#: migration/importtablewizard.cpp:384 migration/importwizard.cpp:571
 #, kde-kuit-format
 msgid "Select source database you wish to import:"
 msgstr "Import qilmoqchi boʻlgan manba maʼlumotlar bazasini tanlang:"
@@ -4378,7 +4423,7 @@ msgctxt "@info"
 msgid "Table <resource>%1</resource> has been imported."
 msgstr "\"%1\" hisoboti dizayni oʻzgartirildi."
 
-#: migration/importtablewizard.cpp:579 migration/importwizard.cpp:919
+#: migration/importtablewizard.cpp:579 migration/importwizard.cpp:922
 #, kde-kuit-format
 msgid "Failure"
 msgstr "Muvaffaqiyatsizlik"
@@ -4388,7 +4433,7 @@ msgstr "Muvaffaqiyatsizlik"
 msgid "An error occurred."
 msgstr ""
 
-#: migration/importtablewizard.cpp:601 migration/importwizard.cpp:782
+#: migration/importtablewizard.cpp:601 migration/importwizard.cpp:785
 #, kde-kuit-format
 msgid "No appropriate migration driver found."
 msgstr ""
@@ -4423,122 +4468,122 @@ msgstr "Maʼlumotlar bazasini import qilish"
 msgctxt "@info"
 msgid ""
 "Database Importing Assistant is about to import <resource>%1</resource> "
-"database (connection <resource>%2</resource>) into a Kexi project."
+"database (connection <resource>%2</resource>) into a KEXI project."
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: migration/importwizard.cpp:254
+#: migration/importwizard.cpp:257
 #, fuzzy, kde-kuit-format
 #| msgid "Importing CSV Data from <nobr>\"%1\"</nobr> into \"%2\" table..."
 msgctxt "@info"
 msgid ""
 "Database Importing Assistant is about to import <filename>%1</filename> file "
-"of type <resource>%2</resource> into a Kexi project."
+"of type <resource>%2</resource> into a KEXI project."
 msgstr ""
 "CSV maʼlumotlari <nobr>\"%1\"dan</nobr> \"%2\" jadvaliga import qilinmoqda..."
 
-#: migration/importwizard.cpp:260
+#: migration/importwizard.cpp:263
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "Database Importing Assistant allows you to import an existing database into "
-"a Kexi project."
+"a KEXI project."
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: migration/importwizard.cpp:265
+#: migration/importwizard.cpp:269
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Click \"Next\" button to continue or \"Cancel\" button to exit this "
 #| "wizard."
 msgctxt "@info"
 msgid ""
-"<para>%1</para><para>Click <interface>Next</interface> button to continue or "
+"<para>Click <interface>Next</interface> button to continue or "
 "<interface>Cancel</interface> button to exit this assistant.</para>"
 msgstr ""
 "Davom etish uchun \"Keyingi\" tugmasini bosing yoki yordamchidan chiqish "
 "uchun \"Bekor qilish\" tugmasini bosing."
 
-#: migration/importwizard.cpp:272
+#: migration/importwizard.cpp:275
 #, fuzzy, kde-kuit-format
 #| msgid "Welcome to the Database Importing Wizard"
 msgid "Welcome to the Database Importing Assistant"
 msgstr "Maʼlumotlar bazasi import qilish yordamchisiga marhamat"
 
-#: migration/importwizard.cpp:327
+#: migration/importwizard.cpp:330
 #, fuzzy, kde-kuit-format
 msgid "Destination database type:"
 msgstr "Maʼlumot bazasi ochilmoqda"
 
-#: migration/importwizard.cpp:334
+#: migration/importwizard.cpp:337
 #, kde-kuit-format
 msgid "Database project stored in a file"
 msgstr ""
 
-#: migration/importwizard.cpp:335
+#: migration/importwizard.cpp:338
 #, fuzzy, kde-kuit-format
 msgid "Database project stored on a server"
 msgstr "Maʼlumot bazasi serveriga ulanish"
 
-#: migration/importwizard.cpp:339
+#: migration/importwizard.cpp:342
 #, fuzzy, kde-kuit-format
 msgid "Select Destination Database Type"
 msgstr "Manba maʼlumotlar bazasini tanlang"
 
-#: migration/importwizard.cpp:347
+#: migration/importwizard.cpp:350
 #, fuzzy, kde-kuit-format
 msgid "Destination project's caption:"
 msgstr "Loyiha manzilini tanlang"
 
-#: migration/importwizard.cpp:359
+#: migration/importwizard.cpp:362
 #, fuzzy, kde-kuit-format
 msgid "Destination project's name:"
 msgstr "Loyiha manzilini tanlang"
 
-#: migration/importwizard.cpp:368
+#: migration/importwizard.cpp:371
 #, fuzzy, kde-kuit-format
 msgid "Enter Destination Database Project's Caption"
 msgstr "Loyiha manzilini tanlang"
 
-#: migration/importwizard.cpp:404
+#: migration/importwizard.cpp:407
 #, fuzzy, kde-kuit-format
 msgid "Select Location for Destination Database Project"
 msgstr "Manba maʼlumotlar bazasining manzilini koʻrsating"
 
-#: migration/importwizard.cpp:422
+#: migration/importwizard.cpp:425
 #, kde-kuit-format
 msgctxt "Scope of import"
 msgid "Structure and data"
 msgstr ""
 
-#: migration/importwizard.cpp:427
+#: migration/importwizard.cpp:430
 #, kde-kuit-format
 msgctxt "Scope of import"
 msgid "Structure only"
 msgstr ""
 
-#: migration/importwizard.cpp:433
+#: migration/importwizard.cpp:436
 #, fuzzy, kde-kuit-format
 #| msgid "Select Type of Import"
 msgid "Select Scope of Import"
 msgstr "Import qilish usulini tanlang"
 
-#: migration/importwizard.cpp:500
+#: migration/importwizard.cpp:503
 #, kde-kuit-format
 msgid "Open imported project"
 msgstr "Import qilingan loyihani ochish"
 
-#: migration/importwizard.cpp:518
+#: migration/importwizard.cpp:521
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>No new database name was entered.</para>"
 msgstr ""
 
-#: migration/importwizard.cpp:525
+#: migration/importwizard.cpp:528
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1<para>Source database is the same as destination.</para>"
 msgstr ""
 
-#: migration/importwizard.cpp:532
+#: migration/importwizard.cpp:535
 #, fuzzy, kde-kuit-format
 #| msgid "Please click 'Back' button and correct these errors."
 msgctxt "@info"
@@ -4548,7 +4593,7 @@ msgid ""
 "issues.</para>"
 msgstr "Iltimos \"Orqaga\" tugmasini bosib xatolarni tuzating."
 
-#: migration/importwizard.cpp:628
+#: migration/importwizard.cpp:631
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4557,7 +4602,7 @@ msgid ""
 "the database this may take some time.</note></para>"
 msgstr ""
 
-#: migration/importwizard.cpp:876
+#: migration/importwizard.cpp:879
 #, fuzzy, kde-kuit-format
 msgctxt "@info (don't add tags around %1, it's done already)"
 msgid ""
@@ -4567,14 +4612,14 @@ msgstr ""
 "\"%1\" loyihasi allaqachon mavjud.\n"
 "Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
 
-#: migration/importwizard.cpp:880
+#: migration/importwizard.cpp:883
 #, fuzzy, kde-kuit-format
 #| msgid "&Replace"
 msgctxt "@action:button Replace Database"
 msgid "&Replace"
 msgstr "&Almashtirish"
 
-#: migration/importwizard.cpp:923
+#: migration/importwizard.cpp:926
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4582,22 +4627,22 @@ msgid ""
 "<interface>Back</interface> button and try again.</para>"
 msgstr ""
 
-#: migration/importwizard.cpp:946
+#: migration/importwizard.cpp:949
 #, kde-kuit-format
 msgid "Select source database filename."
 msgstr "Manba maʼlumotlar baza fayl nomini tanlang."
 
-#: migration/importwizard.cpp:952
+#: migration/importwizard.cpp:955
 #, kde-kuit-format
 msgid "Select source database."
 msgstr "Manba maʼlumotlar bazani tanlang."
 
-#: migration/importwizard.cpp:966
+#: migration/importwizard.cpp:969
 #, fuzzy, kde-kuit-format
 msgid "Could not import database. This type is not supported."
 msgstr "\"%1\" maʼlumotlar manbasiga ulanib boʻlmadi."
 
-#: migration/importwizard.cpp:968
+#: migration/importwizard.cpp:971
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4605,38 +4650,38 @@ msgid ""
 "supported."
 msgstr "<p><nobr>\"%1\"</nobr> faylini oʻqib boʻlmaydi.</p>"
 
-#: migration/importwizard.cpp:1027
+#: migration/importwizard.cpp:1030
 #, kde-kuit-format
 msgid "Importing in progress..."
 msgstr "Import qilinmoqda..."
 
-#: migration/importwizard.cpp:1032
+#: migration/importwizard.cpp:1035
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "Database has been imported into Kexi project <resource>%1</resource>."
 msgstr "Maʼlumotlar \"%1\" jadvaliga muvaffaqiyatli import qilindi."
 
-#: migration/importwizard.cpp:1106 migration/importwizard.cpp:1117
+#: migration/importwizard.cpp:1109 migration/importwizard.cpp:1120
 #, kde-kuit-format
 msgid "No help is available for this page."
 msgstr "Ushbu oyna uchun yordam mavjud emas."
 
-#: migration/importwizard.cpp:1109
+#: migration/importwizard.cpp:1112
 #, kde-kuit-format
 msgid "Here you can choose the location to import data from."
 msgstr ""
 
-#: migration/importwizard.cpp:1111
+#: migration/importwizard.cpp:1114
 #, kde-kuit-format
 msgid "Here you can choose the actual database to import data from."
 msgstr ""
 
-#: migration/importwizard.cpp:1113
+#: migration/importwizard.cpp:1116
 #, kde-kuit-format
 msgid "Here you can choose the location to save the data."
 msgstr ""
 
-#: migration/importwizard.cpp:1115
+#: migration/importwizard.cpp:1118
 #, kde-kuit-format
 msgid ""
 "Here you can choose the location to save the data in and the new database "
@@ -8465,12 +8510,12 @@ msgstr "Nomi:"
 msgid "Filter:"
 msgstr "&Filtr"
 
-#: widget/KexiFileWidgetInterface.cpp:235 widget/KexiStartupFileHandler.cpp:375
+#: widget/KexiFileWidgetInterface.cpp:235 widget/KexiStartupFileHandler.cpp:372
 #, kde-kuit-format
 msgid "Enter a filename."
 msgstr "Faylning nomini kiriting."
 
-#: widget/KexiFileWidgetInterface.cpp:271 widget/KexiStartupFileHandler.cpp:420
+#: widget/KexiFileWidgetInterface.cpp:271 widget/KexiStartupFileHandler.cpp:417
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Could not remove project.\n"
@@ -8481,14 +8526,14 @@ msgstr ""
 "Loyihani olib tashlab boʻlmadi.\n"
 "\"%1\" fayli mavjud emas."
 
-#: widget/KexiFileWidgetInterface.cpp:276 widget/KexiStartupFileHandler.cpp:426
+#: widget/KexiFileWidgetInterface.cpp:276 widget/KexiStartupFileHandler.cpp:423
 #, fuzzy, kde-kuit-format
 #| msgid "Enter a filename."
 msgctxt "@info"
 msgid "Enter a filename."
 msgstr "Faylning nomini kiriting."
 
-#: widget/KexiFileWidgetInterface.cpp:281 widget/KexiStartupFileHandler.cpp:430
+#: widget/KexiFileWidgetInterface.cpp:281 widget/KexiStartupFileHandler.cpp:427
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "Could not remove project.\n"
@@ -8522,12 +8567,12 @@ msgstr "Boshqa nom &tanlash..."
 msgid "Caption:"
 msgstr "Sarlavha:"
 
-#: widget/KexiNameWidget.cpp:125
+#: widget/KexiNameWidget.cpp:124
 #, kde-kuit-format
 msgid "Please enter the name."
 msgstr "Iltimos nomini kiriting."
 
-#: widget/KexiNameWidget.cpp:126
+#: widget/KexiNameWidget.cpp:125
 #, kde-kuit-format
 msgid "Please enter the caption."
 msgstr "Iltimos sarlavhani kiriting."
@@ -8655,7 +8700,7 @@ msgid ""
 "on the operating system you use.</para>"
 msgstr ""
 
-#: widget/KexiStartupFileHandler.cpp:475
+#: widget/KexiStartupFileHandler.cpp:472
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "The file \"%1\" already exists.\n"
@@ -8665,7 +8710,7 @@ msgstr ""
 "\"%1\" fayli allaqachon mavjud.\n"
 "Uni almashtirishni istaysizmi?"
 
-#: widget/KexiStartupFileHandler.cpp:476
+#: widget/KexiStartupFileHandler.cpp:473
 #, kde-kuit-format
 msgid "Overwrite"
 msgstr "Almashtirish"
@@ -10187,9 +10232,6 @@ msgstr "Keyingi oyna"
 #~ msgid "Edit Pixmap Collection: %1"
 #~ msgstr "Toʻplamni tahrirlash..."
 
-#~ msgid "&Add File"
-#~ msgstr "F&ayl qoʻshish"
-
 #~ msgid "&Add an Icon"
 #~ msgstr "Nishoncha &qoʻshish"
 
@@ -10736,10 +10778,6 @@ msgstr "Keyingi oyna"
 #, fuzzy
 #~ msgid "Not Exported"
 #~ msgstr "&Eksport qilish"
-
-#, fuzzy
-#~ msgid "Could not load data from table or query."
-#~ msgstr "Maʼlumotlar baza drayverini \"%1\" yuklab boʻlmadi."
 
 #, fuzzy
 #~| msgid "Page %1"
