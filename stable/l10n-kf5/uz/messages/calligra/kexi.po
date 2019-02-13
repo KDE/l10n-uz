@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-16 07:26+0100\n"
+"POT-Creation-Date: 2019-02-13 07:37+0100\n"
 "PO-Revision-Date: 2006-12-17 13:41+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -846,7 +846,7 @@ msgstr ""
 "Loyihani olib tashlab boʻlmadi.\n"
 "\"%1\" fayli mavjud emas."
 
-#: core/kexiproject.cpp:309 core/kexiproject.cpp:1513
+#: core/kexiproject.cpp:309 core/kexiproject.cpp:1532
 #: main/startup/KexiStartup.cpp:812 main/startup/KexiStartup.cpp:821
 #: main/startup/KexiStartup.cpp:832
 #, fuzzy, kde-kuit-format
@@ -894,7 +894,7 @@ msgstr "Loyiha taʼrifi"
 msgid "Could not load list of tables."
 msgstr "Maʼlumotlar baza drayverini \"%1\" yuklab boʻlmadi."
 
-#: core/kexiproject.cpp:997
+#: core/kexiproject.cpp:1016
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -902,25 +902,25 @@ msgid ""
 "%2 %3"
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: core/kexiproject.cpp:1018
+#: core/kexiproject.cpp:1037
 #, kde-kuit-format
 msgid "This project is opened as read only."
 msgstr ""
 
-#: core/kexiproject.cpp:1050
+#: core/kexiproject.cpp:1069
 #, fuzzy, kde-kuit-format
 #| msgid "Could not remove object's data."
 msgid "Could not delete object's user data."
 msgstr "Obʼekt maʼlumotlarini olib tashlab boʻlmadi."
 
-#: core/kexiproject.cpp:1178
+#: core/kexiproject.cpp:1197
 #, fuzzy, kde-format
 #| msgid "Warning: entire project's data will be removed."
 msgctxt "warning"
 msgid "Entire project's data and design will be deleted."
 msgstr "Diqqat: loyihaning barcha maʼlumotlari oʻchirib tashlanadi."
 
-#: core/kexiproject.cpp:1194
+#: core/kexiproject.cpp:1213
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "The project %1 already exists.\n"
@@ -933,13 +933,13 @@ msgstr ""
 "\"%1\" loyihasi allaqachon mavjud.\n"
 "Ushbu loyihani yangi boʻsh loyiha bilan almashtirishni istaysizmi?"
 
-#: core/kexiproject.cpp:1199
+#: core/kexiproject.cpp:1218
 #, fuzzy, kde-kuit-format
 msgctxt "@action:button"
 msgid "Replace"
 msgstr "&Almashtirish"
 
-#: core/kexiproject.cpp:1224
+#: core/kexiproject.cpp:1243
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -947,26 +947,26 @@ msgid ""
 "para><para><warning>%2</warning></para>"
 msgstr ""
 
-#: core/kexiproject.cpp:1228
+#: core/kexiproject.cpp:1247
 #, fuzzy, kde-kuit-format
 #| msgid "Delete Object"
 msgctxt "@action:button"
 msgid "Delete Project"
 msgstr "Obʼektni olib tashlash"
 
-#: core/kexiproject.cpp:1242
+#: core/kexiproject.cpp:1261
 #, kde-kuit-format
 msgid ""
 "Could not delete this project. Database connection for this project has been "
 "opened as read only."
 msgstr ""
 
-#: core/kexiproject.cpp:1507
+#: core/kexiproject.cpp:1526
 #, kde-kuit-format
 msgid "Open As Read Only"
 msgstr ""
 
-#: core/kexiproject.cpp:1510
+#: core/kexiproject.cpp:1529
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4949,25 +4949,11 @@ msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 msgid "Widgets"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:446
+#: plugins/forms/kexiformpart.cpp:464
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "Form <resource>%1</resource>"
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
-
-#: plugins/forms/kexiformview.cpp:246
-#: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:86
-#, fuzzy, kde-kuit-format
-msgctxt ""
-"A prefix for identifiers of forms. Based on that, identifiers such as form1, "
-"form2 are generated. This string can be used to refer the widget object as "
-"variables in programming languages or macros so it must _not_ contain white "
-"spaces and non latin1 characters, should start with lower case letter and if "
-"there are subsequent words, these should start with upper case letter. "
-"Example: smallCamelCase. Moreover, try to make this prefix as short as "
-"possible."
-msgid "form"
-msgstr "hisobot"
 
 #: plugins/forms/widgets/kexidbimagebox.cpp:511
 #, kde-kuit-format
@@ -5000,6 +4986,19 @@ msgctxt "Form widget"
 msgid "Form"
 msgstr "Shakl"
 
+#: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:86
+#, fuzzy, kde-format
+msgctxt ""
+"A prefix for identifiers of forms. Based on that, identifiers such as form1, "
+"form2 are generated. This string can be used to refer the widget object as "
+"variables in programming languages or macros so it must _not_ contain white "
+"spaces and non latin1 characters, should start with lower case letter and if "
+"there are subsequent words, these should start with upper case letter. "
+"Example: smallCamelCase. Moreover, try to make this prefix as short as "
+"possible."
+msgid "form"
+msgstr "hisobot"
+
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:87
 #, fuzzy, kde-kuit-format
 #| msgid "Delete Row"
@@ -5013,7 +5012,7 @@ msgid "Text Box"
 msgstr "Matn"
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:116
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 msgctxt ""
 "A prefix for identifiers of text box widgets. Based on that, identifiers "
 "such as textBox1, textBox2 are generated. This string can be used to refer "
@@ -5037,7 +5036,7 @@ msgid "Text Editor"
 msgstr "hisobot"
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:137
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 msgctxt ""
 "A prefix for identifiers of text editor widgets. Based on that, identifiers "
 "such as textEditor1, textEditor2 are generated. This string can be used to "
@@ -5062,7 +5061,7 @@ msgid "Label"
 msgstr "Yorliq"
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:158
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 #| msgctxt ""
 #| "Widget name. This string will be used to name widgets of this class. It "
 #| "must _not_ contain white spaces and non latin1 characters."
@@ -5090,7 +5089,7 @@ msgid "Image Box"
 msgstr "Tasvir oynasi"
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:179
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 #| msgctxt ""
 #| "Widget name. This string will be used to name widgets of this class. It "
 #| "must _not_ contain white spaces and non latin1 characters."
@@ -5118,7 +5117,7 @@ msgid "Combo Box"
 msgstr "hisobot"
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:205
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 msgctxt ""
 "A prefix for identifiers of combo box widgets. Based on that, identifiers "
 "such as comboBox1, comboBox2 are generated. This string can be used to refer "
@@ -5142,7 +5141,7 @@ msgid "Check Box"
 msgstr "hisobot"
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:223
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 msgctxt ""
 "A prefix for identifiers of combo box widgets. Based on that, identifiers "
 "such as checkBox1, checkBox2 are generated. This string can be used to refer "
@@ -5166,7 +5165,7 @@ msgid "Button"
 msgstr "tugma"
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:259
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 msgctxt ""
 "A prefix for identifiers of button widgets. Based on that, identifiers such "
 "as button1, button2 are generated. This string can be used to refer the "
@@ -5191,7 +5190,7 @@ msgid "Link Button"
 msgstr "Buyruq tugmasi"
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:276
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 msgctxt ""
 "A prefix for identifiers of link button widgets. Based on that, identifiers "
 "such as linkButton1, linkButton2 are generated. This string can be used to "
@@ -5216,7 +5215,7 @@ msgid "Slider"
 msgstr "Oʻlchami"
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:316
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 msgctxt ""
 "A prefix for identifiers of slider widgets. Based on that, identifiers such "
 "as slider1, slider2 are generated. This string can be used to refer the "
@@ -5241,7 +5240,7 @@ msgid "Progress Bar"
 msgstr ""
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:334
-#, kde-kuit-format
+#, kde-format
 msgctxt ""
 "A prefix for identifiers of progress bar widgets. Based on that, identifiers "
 "such as progressBar1, progressBar2 are generated. This string can be used to "
@@ -5264,7 +5263,7 @@ msgid "Line"
 msgstr ""
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:352
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 msgctxt ""
 "A prefix for identifiers of line widgets. Based on that, identifiers such as "
 "line1, line2 are generated. This string can be used to refer the widget "
@@ -5300,7 +5299,7 @@ msgid "Date Picker"
 msgstr "Vaqt/Sana"
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:377
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 #| msgid "date/time"
 msgctxt ""
 "A prefix for identifiers of date picker widgets. Based on that, identifiers "
@@ -5895,7 +5894,7 @@ msgid "Tab Widget"
 msgstr "Uzunlashishi boʻyicha"
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:572
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 msgctxt ""
 "A prefix for identifiers of tab widgets. Based on that, identifiers such as "
 "tab1, tab2 are generated. This string can be used to refer the widget object "
@@ -5920,7 +5919,7 @@ msgid "Frame"
 msgstr "Freym"
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:601
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 msgctxt ""
 "A prefix for identifiers of frame widgets. Based on that, identifiers such "
 "as frame1, frame2 are generated. This string can be used to refer the widget "
@@ -5945,7 +5944,7 @@ msgid "Group Box"
 msgstr "Guruhlash"
 
 #: plugins/forms/widgets/main/KexiMainFormWidgetsFactory.cpp:619
-#, fuzzy, kde-kuit-format
+#, fuzzy, kde-format
 #| msgid "Group by"
 msgctxt ""
 "A prefix for identifiers of group box widgets. Based on that, identifiers "
@@ -7519,27 +7518,27 @@ msgctxt "@info"
 msgid "Script <resource>%1</resource> already exists."
 msgstr "\"%1\" obʼektini saqlab boʻlmadi."
 
-#: plugins/tables/kexilookupcolumnpage.cpp:129
+#: plugins/tables/kexilookupcolumnpage.cpp:139
 #, fuzzy, kde-kuit-format
 msgid "Record source:"
 msgstr "Tanlangan maʼlumotlar manbasiga oʻtish"
 
-#: plugins/tables/kexilookupcolumnpage.cpp:139
+#: plugins/tables/kexilookupcolumnpage.cpp:149
 #, fuzzy, kde-kuit-format
 msgid "Go to selected record source"
 msgstr "Tanlangan maʼlumotlar manbasiga oʻtish"
 
-#: plugins/tables/kexilookupcolumnpage.cpp:150
+#: plugins/tables/kexilookupcolumnpage.cpp:160
 #, fuzzy, kde-kuit-format
 msgid "Bound column:"
 msgstr "Soʻrov ustuni"
 
-#: plugins/tables/kexilookupcolumnpage.cpp:164
+#: plugins/tables/kexilookupcolumnpage.cpp:174
 #, fuzzy, kde-kuit-format
 msgid "Visible column:"
 msgstr "Koʻrinadigan"
 
-#: plugins/tables/kexilookupcolumnpage.cpp:212
+#: plugins/tables/kexilookupcolumnpage.cpp:222
 #, kde-kuit-format
 msgid "No field selected"
 msgstr ""
