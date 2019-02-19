@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-02-14 02:53+0100\n"
+"POT-Creation-Date: 2019-02-19 03:04+0100\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8060,7 +8060,7 @@ msgstr "Kichiklashtirish"
 #: plugins/flake/textshape/dialogs/SimpleTableWidget.ui:144
 #: plugins/flake/textshape/dialogs/SimpleTableWidget.ui:176
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:87
-#: plugins/python/exportlayers/uiexportlayers.py:38
+#: plugins/python/exportlayers/uiexportlayers.py:40
 #: plugins/python/scriptdocker/scriptdocker.py:43
 #: plugins/python/tenscripts/uitenscripts.py:61
 #: plugins/tools/karbonplugins/tools/filterEffectTool/FilterEffectEditWidget.ui:57
@@ -12362,7 +12362,7 @@ msgstr "Tasvirning Y oʻlchami:"
 #: libs/ui/forms/wdgnewimage.ui:223
 #: plugins/extensions/imagesize/wdg_imagesize.ui:240
 #: plugins/python/documenttools/tools/scaletool/scaletool.py:54
-#: plugins/python/exportlayers/uiexportlayers.py:87
+#: plugins/python/exportlayers/uiexportlayers.py:94
 #, fuzzy, kde-format
 msgid "Resolution:"
 msgstr "&Oʻlchami:"
@@ -19935,6 +19935,7 @@ msgid "Mask is disabled"
 msgstr ""
 
 #: libs/ui/widgets/KisGamutMaskToolbar.cpp:39
+#: plugins/dockers/overview/overviewdocker_dock.cpp:103
 #, fuzzy, kde-format
 msgid "Rotation: "
 msgstr "Burish"
@@ -24700,7 +24701,7 @@ msgstr ""
 msgid "Configure black and white points of the view"
 msgstr ""
 
-#: plugins/dockers/overview/overviewdocker_dock.cpp:35
+#: plugins/dockers/overview/overviewdocker_dock.cpp:41
 #, kde-format
 msgid "Overview"
 msgstr "Koʻrib chiqish"
@@ -31549,7 +31550,7 @@ msgstr "Yangi hujjatlarda ochish"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:339
-#: plugins/python/filtermanager/uifiltermanager.py:50
+#: plugins/python/filtermanager/uifiltermanager.py:54
 #, fuzzy, kde-format
 msgid "Filters:"
 msgstr "Filter:"
@@ -35937,14 +35938,14 @@ msgstr ""
 
 #: plugins/python/colorspace/uicolorspace.py:38
 #: plugins/python/documenttools/uidocumenttools.py:31
-#: plugins/python/exportlayers/uiexportlayers.py:35
+#: plugins/python/exportlayers/uiexportlayers.py:37
 #: plugins/python/lastdocumentsdocker/lastdocumentsdocker.py:25
 msgid "Refresh"
 msgstr ""
 
 #: plugins/python/colorspace/uicolorspace.py:71
 #: plugins/python/documenttools/uidocumenttools.py:56
-#: plugins/python/exportlayers/uiexportlayers.py:84
+#: plugins/python/exportlayers/uiexportlayers.py:90
 #, fuzzy
 msgid "Documents:"
 msgstr "Yangi hujjatlarda ochish"
@@ -37518,88 +37519,88 @@ msgstr "Tanlashni bekor qilish"
 msgid "The selected documents has been modified."
 msgstr "Namuna bilan yangi hujjatni ochish"
 
-#: plugins/python/exportlayers/exportlayers.py:25
-#: plugins/python/exportlayers/uiexportlayers.py:99
+#: plugins/python/exportlayers/exportlayers.py:28
+#: plugins/python/exportlayers/uiexportlayers.py:107
 #, fuzzy
 #| msgid "Export Layer"
 msgid "Export Layers"
 msgstr "Qatlamni eksport qilish"
 
-#: plugins/python/exportlayers/exportlayers.py:26
+#: plugins/python/exportlayers/exportlayers.py:29
 msgid "Plugin to export layers from a document."
 msgstr ""
 
-#: plugins/python/exportlayers/uiexportlayers.py:39
+#: plugins/python/exportlayers/uiexportlayers.py:42
 #, fuzzy
 msgid "Export filter layers"
 msgstr "Rasmni import qilish"
 
-#: plugins/python/exportlayers/uiexportlayers.py:40
+#: plugins/python/exportlayers/uiexportlayers.py:43
 #, fuzzy
 msgid "Export in batchmode"
 msgstr "&Eksport qilish"
 
-#: plugins/python/exportlayers/uiexportlayers.py:41
+#: plugins/python/exportlayers/uiexportlayers.py:45
 #, fuzzy
 msgid "Ignore invisible layers"
 msgstr "Filterlar &toʻplami"
 
-#: plugins/python/exportlayers/uiexportlayers.py:68
+#: plugins/python/exportlayers/uiexportlayers.py:74
 msgid "JPEG"
 msgstr ""
 
-#: plugins/python/exportlayers/uiexportlayers.py:69
+#: plugins/python/exportlayers/uiexportlayers.py:75
 msgid "PNG"
 msgstr ""
 
-#: plugins/python/exportlayers/uiexportlayers.py:85
+#: plugins/python/exportlayers/uiexportlayers.py:92
 #, fuzzy
 msgid "Initial directory:"
 msgstr "Piksel eni"
 
-#: plugins/python/exportlayers/uiexportlayers.py:86
+#: plugins/python/exportlayers/uiexportlayers.py:93
 #, fuzzy
 msgid "Export options:"
 msgstr "Geometriya moslamalari"
 
-#: plugins/python/exportlayers/uiexportlayers.py:88
+#: plugins/python/exportlayers/uiexportlayers.py:96
 #, fuzzy
 msgid "Images extensions:"
 msgstr "Tanlanganni bekitish"
 
-#: plugins/python/exportlayers/uiexportlayers.py:121
+#: plugins/python/exportlayers/uiexportlayers.py:136
 #, fuzzy
 msgid "Select one document."
 msgstr "Boʻsh hujjatni yaratish"
 
-#: plugins/python/exportlayers/uiexportlayers.py:123
+#: plugins/python/exportlayers/uiexportlayers.py:138
 #, fuzzy
 msgid "Select the initial directory."
 msgstr "Toʻgʻri burchak maydonni tanlash"
 
-#: plugins/python/exportlayers/uiexportlayers.py:126
+#: plugins/python/exportlayers/uiexportlayers.py:141
 msgid "All layers has been exported."
 msgstr ""
 
-#: plugins/python/exportlayers/uiexportlayers.py:179
+#: plugins/python/exportlayers/uiexportlayers.py:203
 #, fuzzy
 #| msgid "Select similar colors"
 msgid "Select a Folder"
 msgstr "Oʻxshash ranglarni tanlash"
 
-#: plugins/python/filtermanager/filtermanager.py:25
-#: plugins/python/filtermanager/uifiltermanager.py:62
+#: plugins/python/filtermanager/filtermanager.py:28
+#: plugins/python/filtermanager/uifiltermanager.py:66
 #, fuzzy
 msgid "Filter Manager"
 msgstr "Filterlar &toʻplami"
 
-#: plugins/python/filtermanager/filtermanager.py:26
+#: plugins/python/filtermanager/filtermanager.py:29
 #, fuzzy
 #| msgid "Color Management"
 msgid "Plugin to filters management."
 msgstr "Rang boshqaruvi"
 
-#: plugins/python/filtermanager/uifiltermanager.py:45
+#: plugins/python/filtermanager/uifiltermanager.py:49
 #, fuzzy
 #| msgid "Document Information"
 msgid "Document Tree Model"
@@ -37623,18 +37624,18 @@ msgctxt "action"
 msgid "Say Hello World"
 msgstr ""
 
-#: plugins/python/hello/hello.py:26
+#: plugins/python/hello/hello.py:31
 #, fuzzy
 #| msgid "Text"
 msgid "Test"
 msgstr "Matn"
 
-#: plugins/python/hello/hello.py:26
+#: plugins/python/hello/hello.py:32
 #, python-format
 msgid "Hello! This is Krita version %s"
 msgstr ""
 
-#: plugins/python/hello/hello.py:51
+#: plugins/python/hello/hello.py:58
 #, fuzzy
 #| msgid "Yellow"
 msgid "Hello"
