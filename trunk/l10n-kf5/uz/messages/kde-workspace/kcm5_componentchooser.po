@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-03-05 03:36+0100\n"
+"POT-Creation-Date: 2019-03-31 04:34+0200\n"
 "PO-Revision-Date: 2006-03-29 22:24+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -68,7 +68,14 @@ msgstr "Tanlash"
 msgid "Unknown"
 msgstr "Nomaʼlum"
 
-#: componentchooser.cpp:150
+#: componentchooser.cpp:151
+#, kde-format
+msgid ""
+"Choose from the list below which component should be used by default for the "
+"%1 service."
+msgstr "Quyidagi roʻyxatdan \"%1\" xizmati uchun andoza komponentni tanlang."
+
+#: componentchooser.cpp:183
 #, fuzzy, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -77,17 +84,10 @@ msgstr ""
 "<qt>Andoza komponentga oʻzgarish kiritildi. Oʻzgarishni saqlashni istaysizmi?"
 "</qt>"
 
-#: componentchooser.cpp:154
+#: componentchooser.cpp:188
 #, kde-format
 msgid "No description available"
 msgstr "Hech qanday taʼrif yoʻq"
-
-#: componentchooser.cpp:165 componentchooser.cpp:170
-#, kde-format
-msgid ""
-"Choose from the list below which component should be used by default for the "
-"%1 service."
-msgstr "Quyidagi roʻyxatdan \"%1\" xizmati uchun andoza komponentni tanlang."
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
 #: componentchooser_ui.ui:26
