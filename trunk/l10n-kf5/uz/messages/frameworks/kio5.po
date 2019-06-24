@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 02:55+0200\n"
+"POT-Creation-Date: 2019-06-24 02:51+0200\n"
 "PO-Revision-Date: 2005-10-13 21:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3043,7 +3043,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Desktop"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:292 filewidgets/kfileplacesmodel.cpp:346
+#: filewidgets/kfileplacesmodel.cpp:292 filewidgets/kfileplacesmodel.cpp:334
 #, fuzzy, kde-format
 #| msgid "FIXME: Document this"
 msgctxt "KFile System Bookmarks"
@@ -3063,85 +3063,78 @@ msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "Tarmoq"
 
-#: filewidgets/kfileplacesmodel.cpp:315
-#, fuzzy, kde-format
-#| msgid "Root"
-msgctxt "KFile System Bookmarks"
-msgid "Root"
-msgstr "Tub"
-
-#: filewidgets/kfileplacesmodel.cpp:319
+#: filewidgets/kfileplacesmodel.cpp:307
 #, fuzzy, kde-format
 #| msgid "Trash"
 msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "Chiqindilar qutisi"
 
-#: filewidgets/kfileplacesmodel.cpp:340
+#: filewidgets/kfileplacesmodel.cpp:328
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Today"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:343
+#: filewidgets/kfileplacesmodel.cpp:331
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Yesterday"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:349
+#: filewidgets/kfileplacesmodel.cpp:337
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:352
+#: filewidgets/kfileplacesmodel.cpp:340
 #, fuzzy, kde-format
 #| msgid "*|All Files"
 msgctxt "KFile System Bookmarks"
 msgid "Audio Files"
 msgstr "*|Hamma fayllar"
 
-#: filewidgets/kfileplacesmodel.cpp:355
+#: filewidgets/kfileplacesmodel.cpp:343
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1238
+#: filewidgets/kfileplacesmodel.cpp:1226
 #, fuzzy, kde-format
 msgid "&Release '%1'"
 msgstr "Elementni oʻ&chirish"
 
-#: filewidgets/kfileplacesmodel.cpp:1240
+#: filewidgets/kfileplacesmodel.cpp:1228
 #, fuzzy, kde-format
 msgid "&Safely Remove '%1'"
 msgstr "Elementni oʻ&chirish"
 
-#: filewidgets/kfileplacesmodel.cpp:1243
+#: filewidgets/kfileplacesmodel.cpp:1231
 #, fuzzy, kde-format
 #| msgid "Unmount"
 msgid "&Unmount '%1'"
 msgstr "Ajratish"
 
-#: filewidgets/kfileplacesmodel.cpp:1264
+#: filewidgets/kfileplacesmodel.cpp:1252
 #, fuzzy, kde-format
 #| msgid "Eject"
 msgid "&Eject '%1'"
 msgstr "Chiqarish"
 
-#: filewidgets/kfileplacesmodel.cpp:1298
+#: filewidgets/kfileplacesmodel.cpp:1286
 #, fuzzy, kde-format
 #| msgid "The specified resource may not exist."
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Koʻrsatilgan manba balki mavjud emas."
 
-#: filewidgets/kfileplacesmodel.cpp:1334
+#: filewidgets/kfileplacesmodel.cpp:1322
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1338
+#: filewidgets/kfileplacesmodel.cpp:1326
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr ""
@@ -3814,24 +3807,18 @@ msgstr "'%1'ga yozish qoʻllanmagan."
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:381
-#, fuzzy, kde-format
-#| msgid "Could not change permissions for %1."
-msgid "Could not change permissions for '%1'"
-msgstr "%1 uchun huquqlarni oʻzgartirib boʻlmadi."
-
-#: ioslaves/file/file_unix.cpp:515
+#: ioslaves/file/file_unix.cpp:517
 #, kde-format
 msgid "No media in device for %1"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:787
+#: ioslaves/file/file_unix.cpp:789
 #, fuzzy, kde-format
 #| msgid "Could not enter folder %1."
 msgid "Could not get user id for given user name %1"
 msgstr "%1 jildiga oʻtib boʻlmadi."
 
-#: ioslaves/file/file_unix.cpp:800
+#: ioslaves/file/file_unix.cpp:802
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr ""
@@ -8881,6 +8868,17 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Root"
+#~ msgctxt "KFile System Bookmarks"
+#~ msgid "Root"
+#~ msgstr "Tub"
+
+#, fuzzy
+#~| msgid "Could not change permissions for %1."
+#~ msgid "Could not change permissions for '%1'"
+#~ msgstr "%1 uchun huquqlarni oʻzgartirib boʻlmadi."
 
 #, fuzzy
 #~ msgctxt "@action:button"
