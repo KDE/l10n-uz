@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-31 07:44+0200\n"
+"POT-Creation-Date: 2019-08-01 07:19+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8730,7 +8730,7 @@ msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "Rasmning turini oʻzgartirish"
 
-#: libs/image/kis_image.cc:1807
+#: libs/image/kis_image.cc:1827
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
@@ -11040,7 +11040,7 @@ msgstr "Hech narsa tanlanmagan"
 
 #: libs/ui/actions/kis_selection_action_factories.cpp:549
 #: libs/ui/actions/kis_selection_action_factories.cpp:609
-#: plugins/tools/tool_polyline/kis_tool_polyline.cc:63
+#: plugins/tools/tool_polyline/kis_tool_polyline.cc:61
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Polyline"
@@ -11377,7 +11377,7 @@ msgstr "Ranglar"
 #: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:166
 #: libs/ui/forms/wdgpaintopsettings.ui:197
 #: libs/ui/forms/wdgsavebrushpreset.ui:208
-#: libs/ui/input/kis_tool_invocation_action.cpp:58 libs/ui/kis_clipboard.cc:304
+#: libs/ui/input/kis_tool_invocation_action.cpp:60 libs/ui/kis_clipboard.cc:304
 #: libs/ui/KisView.cpp:540
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:174
 #: plugins/flake/textshape/dialogs/AcceptRejectChangeDialog.ui:70
@@ -15712,7 +15712,7 @@ msgid "Edit Mouse Wheel Input"
 msgstr ""
 
 #: libs/ui/input/kis_abstract_input_action.cpp:46
-#: libs/ui/input/kis_tool_invocation_action.cpp:56
+#: libs/ui/input/kis_tool_invocation_action.cpp:58
 #, fuzzy, kde-format
 msgid "Activate"
 msgstr "Qatlamni koʻchirish"
@@ -16106,24 +16106,24 @@ msgstr ""
 msgid "Tablet Event Logging Disabled"
 msgstr ""
 
-#: libs/ui/input/kis_tool_invocation_action.cpp:52
+#: libs/ui/input/kis_tool_invocation_action.cpp:54
 #, fuzzy, kde-format
 msgid "Tool Invocation"
 msgstr "Moslash..."
 
-#: libs/ui/input/kis_tool_invocation_action.cpp:53
+#: libs/ui/input/kis_tool_invocation_action.cpp:55
 #, kde-format
 msgid ""
 "The <i>Tool Invocation</i> action invokes the current tool, for example, "
 "using the brush tool, it will start painting."
 msgstr ""
 
-#: libs/ui/input/kis_tool_invocation_action.cpp:57
+#: libs/ui/input/kis_tool_invocation_action.cpp:59
 #, fuzzy, kde-format
 msgid "Confirm"
 msgstr "Doimiy"
 
-#: libs/ui/input/kis_tool_invocation_action.cpp:59
+#: libs/ui/input/kis_tool_invocation_action.cpp:61
 #, fuzzy, kde-format
 msgid "Activate Line Tool"
 msgstr "Qatlamni koʻchirish"
@@ -19352,37 +19352,37 @@ msgstr ""
 msgid "Selection Actions"
 msgstr "Butun tanlanganni toʻldirish"
 
-#: libs/ui/tool/kis_tool.cc:548
+#: libs/ui/tool/kis_tool.cc:541
 #, fuzzy, kde-format
 msgid "No options"
 msgstr "Alfa moslamalari"
 
-#: libs/ui/tool/kis_tool.cc:647
+#: libs/ui/tool/kis_tool.cc:640
 #, fuzzy, kde-format
 msgid "Layer is locked and invisible."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: libs/ui/tool/kis_tool.cc:649
+#: libs/ui/tool/kis_tool.cc:642
 #, fuzzy, kde-format
 msgid "Layer is locked."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: libs/ui/tool/kis_tool.cc:651
+#: libs/ui/tool/kis_tool.cc:644
 #, fuzzy, kde-format
 msgid "Layer is invisible."
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: libs/ui/tool/kis_tool.cc:653
+#: libs/ui/tool/kis_tool.cc:646
 #, kde-format
 msgid "Layer can be painted in Wash Mode only."
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:655
+#: libs/ui/tool/kis_tool.cc:648
 #, kde-format
 msgid "Group not editable."
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:670
+#: libs/ui/tool/kis_tool.cc:663
 #, fuzzy, kde-format
 msgid "Local selection is locked."
 msgstr "Palitra tanlanmagan."
@@ -20575,7 +20575,7 @@ msgstr "Namuna"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/widgets/KoFillConfigWidget.ui:238
 #: libs/widgets/KoGradientEditWidget.cpp:176
-#: plugins/tools/basictools/kis_tool_gradient.cc:240
+#: plugins/tools/basictools/kis_tool_gradient.cc:257
 #: plugins/tools/karbonplugins/tools/KarbonPatternOptionsWidget.ui:29
 #, kde-format
 msgid "Repeat:"
@@ -28478,7 +28478,7 @@ msgstr "Gʻishtlar"
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:81
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:215
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:46
-#: plugins/tools/basictools/kis_tool_gradient.cc:227
+#: plugins/tools/basictools/kis_tool_gradient.cc:244
 #, kde-format
 msgid "Shape:"
 msgstr "Shakl:"
@@ -39200,84 +39200,78 @@ msgstr ""
 msgid "Fill Tool"
 msgstr "Ellips vositasi"
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:164
+#: plugins/tools/basictools/kis_tool_gradient.cc:172
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Gradient"
 msgstr "Gradient"
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:174
-#, fuzzy, kde-format
-msgctxt "@info:progress"
-msgid "Gradient..."
-msgstr "Gradient"
-
-#: plugins/tools/basictools/kis_tool_gradient.cc:230
+#: plugins/tools/basictools/kis_tool_gradient.cc:247
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn linearly"
 msgid "Linear"
 msgstr "Chiziqli"
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:231
+#: plugins/tools/basictools/kis_tool_gradient.cc:248
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn bilinearly"
 msgid "Bi-Linear"
 msgstr "Chiziqli"
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:232
+#: plugins/tools/basictools/kis_tool_gradient.cc:249
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn radially"
 msgid "Radial"
 msgstr "Nursimon"
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:233
+#: plugins/tools/basictools/kis_tool_gradient.cc:250
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn in a square around a centre"
 msgid "Square"
 msgstr "Toʻrtburchak"
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:234
+#: plugins/tools/basictools/kis_tool_gradient.cc:251
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn as an asymmetric cone"
 msgid "Conical"
 msgstr "Konussimon"
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:235
+#: plugins/tools/basictools/kis_tool_gradient.cc:252
 #, kde-format
 msgctxt "the gradient will be drawn as a symmetric cone"
 msgid "Conical Symmetric"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:236
+#: plugins/tools/basictools/kis_tool_gradient.cc:253
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn in a selection outline"
 msgid "Shaped"
 msgstr "Shakl:"
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:243
+#: plugins/tools/basictools/kis_tool_gradient.cc:260
 #, fuzzy, kde-format
 msgctxt "The gradient will not repeat"
 msgid "None"
 msgstr "Yoʻq"
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:244
+#: plugins/tools/basictools/kis_tool_gradient.cc:261
 #, fuzzy, kde-format
 msgctxt "The gradient will repeat forwards"
 msgid "Forwards"
 msgstr "Rasmlar uchun"
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:245
+#: plugins/tools/basictools/kis_tool_gradient.cc:262
 #, fuzzy, kde-format
 msgctxt "The gradient will repeat alternatingly"
 msgid "Alternating"
 msgstr "Burish"
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:250
+#: plugins/tools/basictools/kis_tool_gradient.cc:267
 #, kde-format
 msgid "Anti-alias threshold:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:257
+#: plugins/tools/basictools/kis_tool_gradient.cc:274
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn with the color order reversed"
 msgid "Reverse"
@@ -39333,13 +39327,13 @@ msgstr "°"
 msgid "Measure Tool"
 msgstr "Bosim"
 
-#: plugins/tools/basictools/kis_tool_move.cc:236
+#: plugins/tools/basictools/kis_tool_move.cc:242
 #, kde-format
 msgctxt "floating message in move tool"
 msgid "X: %1 px, Y: %2 px"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_move.h:184
+#: plugins/tools/basictools/kis_tool_move.h:187
 #, kde-format
 msgid "Move Tool"
 msgstr "Koʻchirish vositasi"
@@ -41573,7 +41567,7 @@ msgstr "Joriy qatlamni oʻchirish"
 msgid "Key Strokes"
 msgstr "Tosh"
 
-#: plugins/tools/tool_polygon/kis_tool_polygon.cc:59
+#: plugins/tools/tool_polygon/kis_tool_polygon.cc:57
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Polygon"
@@ -41699,24 +41693,31 @@ msgstr "Rasmni &180 darajaga burish"
 msgid "Apply"
 msgstr "Alfa niqob"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:349
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:352
 #, fuzzy, kde-format
 msgid "Transform Tool Actions"
 msgstr "Boshqa shaklga almashtirish"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:875
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:773
 #, fuzzy, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Layer type cannot use the transform tool"
 msgstr "Boshqa shaklga almashtirish"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:919
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:795
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Selections are not used when editing transform masks "
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:965
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:837
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:870
+#, fuzzy, kde-format
+msgctxt "floating message in transformation tool"
+msgid "Cannot transform empty layer "
+msgstr "Boshqa shaklga almashtirish"
+
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:858
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid ""
@@ -41724,13 +41725,7 @@ msgid ""
 "them to be transformed "
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:1007
-#, fuzzy, kde-format
-msgctxt "floating message in transformation tool"
-msgid "Cannot transform empty layer "
-msgstr "Boshqa shaklga almashtirish"
-
-#: plugins/tools/tool_transform2/kis_tool_transform.h:362
+#: plugins/tools/tool_transform2/kis_tool_transform.h:334
 #, fuzzy, kde-format
 msgid "Transform a layer or a selection"
 msgstr "Tanlanganni chizish"
@@ -41866,7 +41861,7 @@ msgstr ""
 msgid "Create 3 points on the canvas to begin"
 msgstr ""
 
-#: plugins/tools/tool_transform2/strokes/transform_stroke_strategy.cpp:53
+#: plugins/tools/tool_transform2/strokes/transform_stroke_strategy.cpp:64
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Transform"
@@ -42109,6 +42104,11 @@ msgstr "Tanlanganni bekitish"
 #, kde-format
 msgid "Work Recursively"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "@info:progress"
+#~ msgid "Gradient..."
+#~ msgstr "Gradient"
 
 #, fuzzy
 #~ msgid "Could not load image from clipboard."
