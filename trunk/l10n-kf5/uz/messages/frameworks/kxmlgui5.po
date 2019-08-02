@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-19 02:59+0200\n"
+"POT-Creation-Date: 2019-08-02 02:42+0200\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -695,45 +695,51 @@ msgstr "<h2>Akselerator qoʻshildi (sizning maʼlumotingiz uchun)</h2>"
 msgid "--- separator ---"
 msgstr "--- ajratuvchi ---"
 
-#: kedittoolbar.cpp:331
+#: kedittoolbar.cpp:56
+#, fuzzy, kde-format
+#| msgid "--- separator ---"
+msgid "--- expanding spacer ---"
+msgstr "--- ajratuvchi ---"
+
+#: kedittoolbar.cpp:347
 #, fuzzy, kde-format
 #| msgid "Change Icon"
 msgid "Change Text"
 msgstr "Nishonchani oʻzgartirish"
 
-#: kedittoolbar.cpp:342
+#: kedittoolbar.cpp:358
 #, fuzzy, kde-format
 msgid "Icon te&xt:"
 msgstr "Matnni qidirish"
 
-#: kedittoolbar.cpp:347
+#: kedittoolbar.cpp:363
 #, kde-format
 msgid "&Hide text when toolbar shows text alongside icons"
 msgstr ""
 
-#: kedittoolbar.cpp:601
+#: kedittoolbar.cpp:617
 #, kde-format
 msgid "Configure Toolbars"
 msgstr "Asboblar panellarini moslash"
 
-#: kedittoolbar.cpp:664
+#: kedittoolbar.cpp:680
 #, kde-format
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
 "default? The changes will be applied immediately."
 msgstr ""
 
-#: kedittoolbar.cpp:664
+#: kedittoolbar.cpp:680
 #, fuzzy, kde-format
 msgid "Reset Toolbars"
 msgstr "Asboblar panellari"
 
-#: kedittoolbar.cpp:664
+#: kedittoolbar.cpp:680
 #, kde-format
 msgid "Reset"
 msgstr "Tiklash"
 
-#: kedittoolbar.cpp:987
+#: kedittoolbar.cpp:1003
 #, kde-format
 msgid "&Toolbar:"
 msgstr "&Asboblar paneli:"
@@ -745,73 +751,73 @@ msgstr "&Asboblar paneli:"
 #. del_toolbar->setPixmap(BarIcon("edit-delete", KIconLoader::SizeSmall));
 #. del_toolbar->setEnabled(false); // disabled until implemented
 #. our list of inactive actions
-#: kedittoolbar.cpp:1002
+#: kedittoolbar.cpp:1018
 #, kde-format
 msgid "A&vailable actions:"
 msgstr "&Mavjud boʻlgan amallar:"
 
-#: kedittoolbar.cpp:1017 kedittoolbar.cpp:1036
+#: kedittoolbar.cpp:1033 kedittoolbar.cpp:1052
 #, fuzzy, kde-format
 msgid "Filter"
 msgstr "Filter:"
 
-#: kedittoolbar.cpp:1020
+#: kedittoolbar.cpp:1036
 #, kde-format
 msgid "Curr&ent actions:"
 msgstr "&Joriy amallar:"
 
-#: kedittoolbar.cpp:1039
+#: kedittoolbar.cpp:1055
 #, kde-format
 msgid "Change &Icon..."
 msgstr "Nishonchani oʻ&zgartirish"
 
-#: kedittoolbar.cpp:1047
+#: kedittoolbar.cpp:1063
 #, fuzzy, kde-format
 #| msgid "Change &Icon..."
 msgid "Change Te&xt..."
 msgstr "Nishonchani oʻ&zgartirish"
 
-#: kedittoolbar.cpp:1199
+#: kedittoolbar.cpp:1218
 #, fuzzy, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1%"
 
-#: kedittoolbar.cpp:1219
+#: kedittoolbar.cpp:1245
 #, kde-format
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
-#: kedittoolbar.cpp:1221
+#: kedittoolbar.cpp:1247
 #, kde-format
 msgid "<Merge>"
 msgstr "<Birlashtirish>"
 
-#: kedittoolbar.cpp:1223
+#: kedittoolbar.cpp:1249
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<%1'ni birlashtirish>"
 
-#: kedittoolbar.cpp:1229
+#: kedittoolbar.cpp:1255
 #, kde-format
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
 "will not be able to re-add it."
 msgstr ""
 
-#: kedittoolbar.cpp:1230
+#: kedittoolbar.cpp:1256
 #, kde-format
 msgid "ActionList: %1"
 msgstr "Amallar roʻyxati: %1"
 
-#: kedittoolbar.cpp:1329 kedittoolbar.cpp:1356
+#: kedittoolbar.cpp:1360 kedittoolbar.cpp:1387
 #, fuzzy, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1%"
 
-#: kedittoolbar.cpp:1583
+#: kedittoolbar.cpp:1616
 #, kde-format
 msgid "Change Icon"
 msgstr "Nishonchani oʻzgartirish"
@@ -1503,7 +1509,7 @@ msgstr "Qaytarish"
 msgid "Undo"
 msgstr "Bekor qilish"
 
-#: kxmlguibuilder.cpp:190 kxmlguibuilder.cpp:354
+#: kxmlguibuilder.cpp:192 kxmlguibuilder.cpp:363
 #, fuzzy, kde-format
 msgid "No text"
 msgstr "Hech qanday matn yoʻq!"
