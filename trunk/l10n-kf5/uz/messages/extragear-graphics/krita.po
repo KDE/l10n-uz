@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-14 02:32+0200\n"
+"POT-Creation-Date: 2019-08-15 02:29+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -18063,6 +18063,12 @@ msgstr ""
 msgid "Error: cannot save this image as a %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
+#: libs/ui/KisImportExportManager.cpp:492
+#: libs/ui/KisImportExportManager.cpp:540
+#, fuzzy, kde-format
+msgid "Reasons:"
+msgstr "&Pikselli oʻlcham"
+
 #: libs/ui/KisImportExportManager.cpp:500
 #, fuzzy, kde-format
 msgctxt "@title:window"
@@ -18080,6 +18086,11 @@ msgstr ""
 #| msgid "Could not add layer to image."
 msgid "You will lose information when saving this image as a %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
+
+#: libs/ui/KisImportExportManager.cpp:537
+#, fuzzy, kde-format
+msgid "Reason:"
+msgstr "Oʻrnini almashtirishmoq"
 
 #: libs/ui/KisImportExportManager.cpp:562
 #, kde-format
@@ -41351,7 +41362,7 @@ msgstr "Ellips maydonni tanlash"
 msgid "Outline Selection"
 msgstr "Tanlanganni bekitish"
 
-#: plugins/tools/selectiontools/kis_tool_select_outline.cc:162
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:164
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select by Outline"
