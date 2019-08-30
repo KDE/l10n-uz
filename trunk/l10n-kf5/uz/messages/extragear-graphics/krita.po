@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-29 02:27+0200\n"
+"POT-Creation-Date: 2019-08-30 02:33+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -9155,8 +9155,8 @@ msgid "Processing"
 msgstr "Bosim"
 
 #: libs/image/kis_psd_layer_style.cpp:99
-#: libs/ui/KisApplicationArguments.cpp:342 libs/ui/KisMainWindow.cpp:1208
-#: libs/ui/KisMainWindow.cpp:1475 libs/ui/KisMainWindow.cpp:1494
+#: libs/ui/KisApplicationArguments.cpp:342 libs/ui/KisMainWindow.cpp:1214
+#: libs/ui/KisMainWindow.cpp:1481 libs/ui/KisMainWindow.cpp:1500
 #: plugins/impex/libkra/kis_kra_saver.cpp:91
 #, kde-format
 msgid "Unnamed"
@@ -9619,7 +9619,7 @@ msgctxt "description of a file type"
 msgid "HEIC/HEIF Image"
 msgstr ""
 
-#: libs/libkis/Document.cpp:887 libs/ui/KisMainWindow.cpp:1878
+#: libs/libkis/Document.cpp:887 libs/ui/KisMainWindow.cpp:1884
 #, fuzzy, kde-format
 msgid "Import frames"
 msgstr "Rasmni import qilish"
@@ -9721,7 +9721,7 @@ msgstr "Namuna sifatida ishlatish"
 msgid "No store backend"
 msgstr "orqa fon"
 
-#: libs/odf/KoOdfReadStore.cpp:109
+#: libs/odf/KoOdfReadStore.cpp:109 plugins/impex/kra/kra_converter.cpp:255
 #, fuzzy, kde-format
 msgid "Could not find %1"
 msgstr "%1 topilmadi"
@@ -11708,7 +11708,7 @@ msgid "Numerical"
 msgstr "Uskuna:"
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:125
-#: libs/ui/KisMainWindow.cpp:1002
+#: libs/ui/KisMainWindow.cpp:1008
 #, fuzzy, kde-format
 msgid "Import Images"
 msgstr "Rasmni import qilish"
@@ -11805,7 +11805,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "Guruhning nomini kiriting:"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:287 libs/ui/KisMainWindow.cpp:2252
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:287 libs/ui/KisMainWindow.cpp:2258
 #, fuzzy, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -12007,11 +12007,11 @@ msgstr "Tanlash usuli:"
 #: libs/ui/KisApplication.cpp:845 libs/ui/KisApplication.cpp:866
 #: libs/ui/KisDocument.cpp:770 libs/ui/KisDocument.cpp:1375
 #: libs/ui/KisDocument.cpp:1458 libs/ui/KisDocument.cpp:1501
-#: libs/ui/KisDocument.cpp:1509 libs/ui/KisMainWindow.cpp:921
-#: libs/ui/KisMainWindow.cpp:1025 libs/ui/KisMainWindow.cpp:1038
-#: libs/ui/KisMainWindow.cpp:1098 libs/ui/KisMainWindow.cpp:1856
-#: libs/ui/KisMainWindow.cpp:1885 libs/ui/KisMainWindow.cpp:1960
-#: libs/ui/KisMainWindow.cpp:1972 libs/ui/KisPart.cpp:478
+#: libs/ui/KisDocument.cpp:1509 libs/ui/KisMainWindow.cpp:927
+#: libs/ui/KisMainWindow.cpp:1031 libs/ui/KisMainWindow.cpp:1044
+#: libs/ui/KisMainWindow.cpp:1104 libs/ui/KisMainWindow.cpp:1862
+#: libs/ui/KisMainWindow.cpp:1891 libs/ui/KisMainWindow.cpp:1966
+#: libs/ui/KisMainWindow.cpp:1978 libs/ui/KisPart.cpp:478
 #: libs/ui/KisPart.cpp:481 libs/ui/KisReferenceImage.cpp:148
 #: libs/ui/KisRemoteFileFetcher.cpp:54 libs/ui/KisTemplateCreateDia.cpp:297
 #: libs/ui/KisTemplateCreateDia.cpp:403 libs/ui/KisView.cpp:747
@@ -14922,7 +14922,7 @@ msgstr "Filter boʻyogʻi"
 #. i18n: ectx: property (text), widget (QPushButton, savePresetButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:184
-#: libs/ui/forms/wdgsavebrushpreset.ui:215 libs/ui/KisMainWindow.cpp:871
+#: libs/ui/forms/wdgsavebrushpreset.ui:215 libs/ui/KisMainWindow.cpp:877
 #: libs/ui/widgets/kis_workspace_chooser.cpp:121
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:210
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:61
@@ -17869,7 +17869,8 @@ msgid "The action was cancelled by the user."
 msgstr ""
 
 #: libs/ui/KisImportExportErrorCode.cpp:172 plugins/impex/heif/HeifError.cpp:59
-#: plugins/impex/kra/kra_converter.cpp:334
+#: plugins/impex/kra/kra_converter.cpp:315
+#: plugins/impex/kra/kra_converter.cpp:344
 #, fuzzy, kde-format
 msgid "Unknown error."
 msgstr "Namuna sifatida ishlatish"
@@ -18137,32 +18138,32 @@ msgstr "Asl qatlamni koʻrsatish"
 msgid "Hide %1 Toolbar"
 msgstr "Yulduz vositasi"
 
-#: libs/ui/KisMainWindow.cpp:851
+#: libs/ui/KisMainWindow.cpp:857
 #, fuzzy, kde-format
 msgid "Write Protected"
 msgstr "Faylni yaratish"
 
-#: libs/ui/KisMainWindow.cpp:855
+#: libs/ui/KisMainWindow.cpp:861
 #, fuzzy, kde-format
 msgid "Recovered"
 msgstr "Toʻgʻri burcha&k"
 
-#: libs/ui/KisMainWindow.cpp:868
+#: libs/ui/KisMainWindow.cpp:874
 #, fuzzy, kde-format
 msgid "Save as %1"
 msgstr "Plazma"
 
-#: libs/ui/KisMainWindow.cpp:921
+#: libs/ui/KisMainWindow.cpp:927
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "%1 fayli mavjud emas."
 
-#: libs/ui/KisMainWindow.cpp:1002
+#: libs/ui/KisMainWindow.cpp:1008
 #, fuzzy, kde-format
 msgid "Open Images"
 msgstr "Rasm"
 
-#: libs/ui/KisMainWindow.cpp:1099
+#: libs/ui/KisMainWindow.cpp:1105
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -18171,43 +18172,43 @@ msgid ""
 "Please select a location where the original file will not be overridden!"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1155
+#: libs/ui/KisMainWindow.cpp:1161
 #, fuzzy, kde-format
 msgid "Exporting"
 msgstr "Ekspozitsiya:"
 
-#: libs/ui/KisMainWindow.cpp:1155
+#: libs/ui/KisMainWindow.cpp:1161
 #, fuzzy, kde-format
 msgid "Saving As"
 msgstr "Vaqtni koʻrinishi"
 
-#: libs/ui/KisMainWindow.cpp:1454
+#: libs/ui/KisMainWindow.cpp:1460
 #: libs/widgetutils/config/kstandardaction_p.h:41
 #, fuzzy, kde-format
 msgid "Create new document"
 msgstr "Boʻsh hujjatni yaratish"
 
-#: libs/ui/KisMainWindow.cpp:1478
+#: libs/ui/KisMainWindow.cpp:1484
 #, fuzzy, kde-format
 msgid "Custom Document"
 msgstr "Boshqa gradient"
 
-#: libs/ui/KisMainWindow.cpp:1496
+#: libs/ui/KisMainWindow.cpp:1502
 #, fuzzy, kde-format
 msgid "Create from Clipboard"
 msgstr "Yaratish"
 
-#: libs/ui/KisMainWindow.cpp:1814
+#: libs/ui/KisMainWindow.cpp:1820
 #, fuzzy, kde-format
 msgid "Export as PDF"
 msgstr "Qatlamni eksport qilish"
 
-#: libs/ui/KisMainWindow.cpp:1856
+#: libs/ui/KisMainWindow.cpp:1862
 #, kde-format
 msgid "Cannot export to the specified file"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1885
+#: libs/ui/KisMainWindow.cpp:1891
 #, fuzzy, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -18216,7 +18217,7 @@ msgstr ""
 "%1\n"
 "faylini ochib boʻlmadi."
 
-#: libs/ui/KisMainWindow.cpp:1961
+#: libs/ui/KisMainWindow.cpp:1967
 #, fuzzy, kde-format
 msgid ""
 "You will lose all changes made since your last save\n"
@@ -18225,85 +18226,85 @@ msgstr ""
 "Kiritilgan hamma oʻzgarishlar yoʻqoladi!\n"
 "Davom etishni istaysizmi?"
 
-#: libs/ui/KisMainWindow.cpp:1972
+#: libs/ui/KisMainWindow.cpp:1978
 #, fuzzy, kde-format
 msgid "Error: Could not reload this document"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/ui/KisMainWindow.cpp:2230
+#: libs/ui/KisMainWindow.cpp:2236
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "&Grafikani import qilish"
 
-#: libs/ui/KisMainWindow.cpp:2242 libs/widgets/KoResourceItemChooser.cpp:218
+#: libs/ui/KisMainWindow.cpp:2248 libs/widgets/KoResourceItemChooser.cpp:218
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
 msgstr "Filterni tanlash"
 
-#: libs/ui/KisMainWindow.cpp:2248
+#: libs/ui/KisMainWindow.cpp:2254
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "&Grafikani import qilish"
 
-#: libs/ui/KisMainWindow.cpp:2251
+#: libs/ui/KisMainWindow.cpp:2257
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "&Grafikani import qilish"
 
-#: libs/ui/KisMainWindow.cpp:2265 libs/ui/widgets/kis_workspace_chooser.cpp:159
+#: libs/ui/KisMainWindow.cpp:2271 libs/ui/widgets/kis_workspace_chooser.cpp:159
 #, fuzzy, kde-format
 msgid "Workspace"
 msgstr "Ranglar boʻshligʻi"
 
-#: libs/ui/KisMainWindow.cpp:2276 libs/ui/widgets/kis_workspace_chooser.cpp:170
+#: libs/ui/KisMainWindow.cpp:2282 libs/ui/widgets/kis_workspace_chooser.cpp:170
 #, fuzzy, kde-format
 msgid "Workspace %1"
 msgstr "Ranglar boʻshligʻi"
 
-#: libs/ui/KisMainWindow.cpp:2304
+#: libs/ui/KisMainWindow.cpp:2310
 #, fuzzy, kde-format
 msgid "&%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2307
+#: libs/ui/KisMainWindow.cpp:2313
 #, fuzzy, kde-format
 msgid "%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2439
+#: libs/ui/KisMainWindow.cpp:2445
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2447
+#: libs/ui/KisMainWindow.cpp:2453
 #, kde-format
 msgid "Krita cannot find any brush presets! Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2456
+#: libs/ui/KisMainWindow.cpp:2462
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "Qatlam xatosi."
 
-#: libs/ui/KisMainWindow.cpp:2517
+#: libs/ui/KisMainWindow.cpp:2523
 #, fuzzy, kde-format
 msgid "%1 unsaved document (%2)"
 msgstr "Boshqa hujjat sifatida saqlash"
 
-#: libs/ui/KisMainWindow.cpp:2586
+#: libs/ui/KisMainWindow.cpp:2592
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2629
+#: libs/ui/KisMainWindow.cpp:2635
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -18744,12 +18745,12 @@ msgctxt "choice for author profile"
 msgid "Anonymous"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:335
+#: libs/ui/KisWelcomePageWidget.cpp:352
 #, kde-format
 msgid "DEV BUILD"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:349
+#: libs/ui/KisWelcomePageWidget.cpp:366
 #, kde-format
 msgid "New Version Available!"
 msgstr ""
@@ -33101,17 +33102,45 @@ msgstr "Profil yoʻq"
 msgid "Not a valid Krita file"
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: plugins/impex/kra/kra_converter.cpp:114
+#: plugins/impex/kra/kra_converter.cpp:79
+#, kde-format
+msgid "Invalid document: no file 'maindoc.xml'."
+msgstr "Notoʻgʻri hujjat: 'maindoc.xml' fayli yoʻq."
+
+#: plugins/impex/kra/kra_converter.cpp:115
 #, kde-format
 msgid "Could not create the file for saving"
 msgstr "Saqlash uchun faylni yaratib boʻlmadi"
 
-#: plugins/impex/kra/kra_converter.cpp:163
+#: plugins/impex/kra/kra_converter.cpp:164
 #, kde-format
 msgid "Not able to write '%1'. Partition full?"
 msgstr "'%1' faylini yozib boʻlmadi. Ehtimol diskda boʻsh joy qolmagan."
 
-#: plugins/impex/kra/kra_converter.cpp:321
+#: plugins/impex/kra/kra_converter.cpp:267
+#, kde-format
+msgid ""
+"Parsing error in %1 at line %2, column %3\n"
+"Error message: %4"
+msgstr ""
+
+#: plugins/impex/kra/kra_converter.cpp:285
+#, fuzzy, kde-format
+msgid "The format is not supported or the file is corrupted"
+msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
+
+#: plugins/impex/kra/kra_converter.cpp:292
+#, kde-format
+msgid "The file is too new for this version of Krita (%1)."
+msgstr ""
+
+#: plugins/impex/kra/kra_converter.cpp:298
+#, fuzzy, kde-format
+#| msgid "The file %1 does not exist."
+msgid "The file has no layers."
+msgstr "%1 fayli mavjud emas."
+
+#: plugins/impex/kra/kra_converter.cpp:331
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "The file does not contain an image."
@@ -42933,14 +42962,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Internal libheif API error."
 #~ msgstr "Matnni kiriting:"
-
-#~ msgid "Invalid document: no file 'maindoc.xml'."
-#~ msgstr "Notoʻgʻri hujjat: 'maindoc.xml' fayli yoʻq."
-
-#, fuzzy
-#~| msgid "The file %1 does not exist."
-#~ msgid "The file has no layers."
-#~ msgstr "%1 fayli mavjud emas."
 
 #, fuzzy
 #~ msgid "Application Language Changed"
