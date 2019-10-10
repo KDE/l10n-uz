@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-09 02:34+0200\n"
+"POT-Creation-Date: 2019-10-10 02:39+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -39769,6 +39769,7 @@ msgid ""
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:170
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:635
 #, kde-format
 msgid "Threshold: "
 msgstr "Chegara: "
@@ -41451,6 +41452,44 @@ msgstr "Oʻxshash ranglarni tanlash"
 #, fuzzy, kde-format
 msgid "Similar Color Selection Tool"
 msgstr "Tanlanganni koʻrsatish"
+
+#. i18n: context: Actions (Magnetic Selection Tool), ActionCollection (Tools)
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.action:4
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Magnetic Selection Tool"
+msgstr "Tanlanganni bekitish"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:60
+#, fuzzy, kde-format
+msgid "Magnetic Selection"
+msgstr "Tanlanganni bekitish"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:441
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Magnetic Selection"
+msgstr "Tanlanganni bekitish"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:623
+#, fuzzy, kde-format
+msgid "Filter Radius: "
+msgstr "Tanlash usuli:"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:647
+#, fuzzy, kde-format
+msgid "Search Radius: "
+msgstr "Uskuna:"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:660
+#, fuzzy, kde-format
+msgid "Anchor Gap: "
+msgstr "Alfa moslamalari"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.h:106
+#, fuzzy, kde-format
+msgid "Magnetic Selection Tool"
+msgstr "Tanlanganni bekitish"
 
 #. i18n: context: Actions (Path Selection Tool), ActionCollection (Tools)
 #: plugins/tools/selectiontools/KisToolSelectPath.action:4
@@ -65102,14 +65141,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Select by Brush"
 #~ msgstr "Choʻtkani tanlash"
-
-#, fuzzy
-#~ msgid "Magnetic Selection"
-#~ msgstr "Tanlanganni bekitish"
-
-#, fuzzy
-#~ msgid "Magnetic selection tool"
-#~ msgstr "Tanlanganni bekitish"
 
 #, fuzzy
 #~ msgid "Limit to Color"
