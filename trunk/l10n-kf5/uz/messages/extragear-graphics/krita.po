@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-15 02:38+0200\n"
+"POT-Creation-Date: 2019-10-17 02:34+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8548,7 +8548,7 @@ msgstr "Tanlashni bekor qilish"
 
 #: libs/image/commands/kis_image_layer_add_command.cpp:32
 #: libs/image/commands/kis_image_layer_add_command.cpp:48
-#: libs/ui/kis_layer_manager.cc:660
+#: libs/ui/kis_layer_manager.cc:659
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Add Layer"
@@ -11972,9 +11972,9 @@ msgstr "Tanlash usuli:"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:437
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:131
 #: libs/ui/input/kis_tablet_debugger.cpp:103 libs/ui/kis_filter_manager.cc:226
-#: libs/ui/kis_filter_manager.cc:235 libs/ui/kis_layer_manager.cc:326
-#: libs/ui/kis_layer_manager.cc:953 libs/ui/kis_node_manager.cpp:1132
-#: libs/ui/kis_node_manager.cpp:1188 libs/ui/KisApplication.cpp:792
+#: libs/ui/kis_filter_manager.cc:235 libs/ui/kis_layer_manager.cc:325
+#: libs/ui/kis_layer_manager.cc:952 libs/ui/kis_node_manager.cpp:1130
+#: libs/ui/kis_node_manager.cpp:1186 libs/ui/KisApplication.cpp:792
 #: libs/ui/KisApplication.cpp:795 libs/ui/KisApplication.cpp:820
 #: libs/ui/KisApplication.cpp:846 libs/ui/KisApplication.cpp:867
 #: libs/ui/KisDocument.cpp:782 libs/ui/KisDocument.cpp:1393
@@ -16650,115 +16650,115 @@ msgstr "Rasmni import qilish"
 msgid "Select a Color"
 msgstr "Oʻxshash ranglarni tanlash"
 
-#: libs/ui/kis_layer_manager.cc:200
+#: libs/ui/kis_layer_manager.cc:199
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Merge Group"
 msgstr "Qatlamni olib tashlash"
 
-#: libs/ui/kis_layer_manager.cc:201
+#: libs/ui/kis_layer_manager.cc:200
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Merge with Layer Below"
 msgstr "Pastgi qatlam bilan birlashtirish"
 
-#: libs/ui/kis_layer_manager.cc:220
+#: libs/ui/kis_layer_manager.cc:219
 #, fuzzy, kde-format
 msgctxt "floating message in layer manager"
 msgid "Layer is empty "
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: libs/ui/kis_layer_manager.cc:253
+#: libs/ui/kis_layer_manager.cc:252
 #, fuzzy, kde-format
 msgid "Filter Layer Properties"
 msgstr "Qatlamning xossalari"
 
-#: libs/ui/kis_layer_manager.cc:301
+#: libs/ui/kis_layer_manager.cc:300
 #, fuzzy, kde-format
 msgid "Fill Layer Properties"
 msgstr "Qatlamning xossalari"
 
-#: libs/ui/kis_layer_manager.cc:317
+#: libs/ui/kis_layer_manager.cc:316
 #, fuzzy, kde-format
 msgid "File Layer Properties"
 msgstr "Qatlamning xossalari"
 
-#: libs/ui/kis_layer_manager.cc:326 libs/ui/kis_layer_manager.cc:953
+#: libs/ui/kis_layer_manager.cc:325 libs/ui/kis_layer_manager.cc:952
 #, kde-format
 msgid "No file name specified"
 msgstr ""
 
-#: libs/ui/kis_layer_manager.cc:377
+#: libs/ui/kis_layer_manager.cc:376
 #, fuzzy, kde-format
 msgid "Change Clone Layer"
 msgstr "Filter"
 
-#: libs/ui/kis_layer_manager.cc:446
+#: libs/ui/kis_layer_manager.cc:445
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to a Paint Layer"
 msgstr "Joriy qatlam"
 
-#: libs/ui/kis_layer_manager.cc:473
+#: libs/ui/kis_layer_manager.cc:472
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to an animated layer"
 msgstr "Joriy qatlam"
 
-#: libs/ui/kis_layer_manager.cc:490
+#: libs/ui/kis_layer_manager.cc:489
 #, fuzzy, kde-format
 msgid "Save layers to..."
 msgstr "Qatlamni rasm sifatida saqlash..."
 
-#: libs/ui/kis_layer_manager.cc:491
+#: libs/ui/kis_layer_manager.cc:490
 #, kde-format
 msgid ""
 "Choose the location where the layer will be saved to. The new file layer "
 "will then reference this location."
 msgstr ""
 
-#: libs/ui/kis_layer_manager.cc:554
+#: libs/ui/kis_layer_manager.cc:553
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to a file layer"
 msgstr "Joriy qatlam"
 
-#: libs/ui/kis_layer_manager.cc:667
+#: libs/ui/kis_layer_manager.cc:666
 #, fuzzy, kde-format
 msgid "New Filter Layer"
 msgstr "Filterlar"
 
-#: libs/ui/kis_layer_manager.cc:734
+#: libs/ui/kis_layer_manager.cc:733
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Flatten Image"
 msgstr "Silliqlangan rasm"
 
-#: libs/ui/kis_layer_manager.cc:735
+#: libs/ui/kis_layer_manager.cc:734
 #, fuzzy, kde-format
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
 "the image?"
 msgstr "Rasmda yashirin qatlamlar mavjud. Ular yoʻqoladi."
 
-#: libs/ui/kis_layer_manager.cc:816
+#: libs/ui/kis_layer_manager.cc:815
 #, fuzzy, kde-format
 msgctxt "floating message in layer manager"
 msgid "Layer is locked "
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: libs/ui/kis_layer_manager.cc:862
+#: libs/ui/kis_layer_manager.cc:861
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "Qatlamni burish"
 
-#: libs/ui/kis_layer_manager.cc:901
+#: libs/ui/kis_layer_manager.cc:900
 #, kde-format
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: libs/ui/kis_layer_manager.cc:904
+#: libs/ui/kis_layer_manager.cc:903
 #, kde-format
 msgid "Export Only Toplevel Groups"
 msgstr ""
@@ -16813,172 +16813,172 @@ msgstr "Qatlamning xossalari"
 msgid "Mirror View"
 msgstr "Rasmni kesish"
 
-#: libs/ui/kis_node_manager.cpp:453
+#: libs/ui/kis_node_manager.cpp:451
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Move Nodes"
 msgstr "Koʻchirish vositasi"
 
-#: libs/ui/kis_node_manager.cpp:460
+#: libs/ui/kis_node_manager.cpp:458
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Copy Nodes"
 msgstr "Yashildan nusxa olish"
 
-#: libs/ui/kis_node_manager.cpp:467
+#: libs/ui/kis_node_manager.cpp:465
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Add Nodes"
 msgstr "&Manbalar"
 
-#: libs/ui/kis_node_manager.cpp:629
+#: libs/ui/kis_node_manager.cpp:627
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to a Selection Mask"
 msgstr "Tanlanganni bekitish"
 
-#: libs/ui/kis_node_manager.cpp:879
+#: libs/ui/kis_node_manager.cpp:877
 #, kde-format
 msgid "Onion skins require a layer with transparent background."
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:906
+#: libs/ui/kis_node_manager.cpp:904
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Duplicate Nodes"
 msgstr "Asboblar nusxasini koʻpaytirish"
 
-#: libs/ui/kis_node_manager.cpp:929
+#: libs/ui/kis_node_manager.cpp:927
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Raise Nodes"
 msgstr "Koʻchirish vositasi"
 
-#: libs/ui/kis_node_manager.cpp:936
+#: libs/ui/kis_node_manager.cpp:934
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Lower Nodes"
 msgstr "Koʻchirish vositasi"
 
-#: libs/ui/kis_node_manager.cpp:954
+#: libs/ui/kis_node_manager.cpp:952
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Remove Nodes"
 msgstr "Koʻchirish vositasi"
 
-#: libs/ui/kis_node_manager.cpp:970
+#: libs/ui/kis_node_manager.cpp:968
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer X"
 msgstr "Qatlamni koʻchirish"
 
-#: libs/ui/kis_node_manager.cpp:972
+#: libs/ui/kis_node_manager.cpp:970
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask X"
 msgstr "Qatlamni koʻchirish"
 
-#: libs/ui/kis_node_manager.cpp:983
+#: libs/ui/kis_node_manager.cpp:981
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Y"
 msgstr "Qatlamni koʻchirish"
 
-#: libs/ui/kis_node_manager.cpp:985
+#: libs/ui/kis_node_manager.cpp:983
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr "Qatlamni koʻchirish"
 
-#: libs/ui/kis_node_manager.cpp:993
+#: libs/ui/kis_node_manager.cpp:991
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror All Layers X"
 msgstr "Qatlamni koʻchirish"
 
-#: libs/ui/kis_node_manager.cpp:1000
+#: libs/ui/kis_node_manager.cpp:998
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror All Layers Y"
 msgstr "Qatlamni koʻchirish"
 
-#: libs/ui/kis_node_manager.cpp:1102
+#: libs/ui/kis_node_manager.cpp:1100
 #, fuzzy, kde-format
 msgid "Export \"%1\""
 msgstr "Ekspozitsiya:"
 
-#: libs/ui/kis_node_manager.cpp:1133
+#: libs/ui/kis_node_manager.cpp:1131
 #, fuzzy, kde-format
 msgid "Could not save the layer. %1"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/ui/kis_node_manager.cpp:1168
+#: libs/ui/kis_node_manager.cpp:1166
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Export to SVG"
 msgstr "Ekspozitsiya:"
 
-#: libs/ui/kis_node_manager.cpp:1188
+#: libs/ui/kis_node_manager.cpp:1186
 #, fuzzy, kde-format
 msgid "Could not save to svg: %1"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/ui/kis_node_manager.cpp:1208
+#: libs/ui/kis_node_manager.cpp:1206
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Split Alpha into a Mask"
 msgstr "Alfa moslamalari"
 
-#: libs/ui/kis_node_manager.cpp:1238
+#: libs/ui/kis_node_manager.cpp:1236
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Layer %1 is not editable"
 msgstr "Qatlam qulflangan yoki koʻrinmaydigan."
 
-#: libs/ui/kis_node_manager.cpp:1239
+#: libs/ui/kis_node_manager.cpp:1237
 #, kde-format
 msgid ""
 "Cannot write alpha channel of the parent layer \"%1\".\n"
 "The operation will be cancelled."
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1270
+#: libs/ui/kis_node_manager.cpp:1268
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Write Alpha into a Layer"
 msgstr "Yangi qatlam yaratish"
 
-#: libs/ui/kis_node_manager.cpp:1385
+#: libs/ui/kis_node_manager.cpp:1383
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Cut Nodes"
 msgstr "Asboblar nusxasini koʻpaytirish"
 
-#: libs/ui/kis_node_manager.cpp:1460
+#: libs/ui/kis_node_manager.cpp:1458
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Quick Group"
 msgstr "Choʻtkani koʻpaytirish"
 
-#: libs/ui/kis_node_manager.cpp:1471
+#: libs/ui/kis_node_manager.cpp:1469
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Quick Clipping Group"
 msgstr "Choʻtkani koʻpaytirish"
 
-#: libs/ui/kis_node_manager.cpp:1478
+#: libs/ui/kis_node_manager.cpp:1476
 #, fuzzy, kde-format
 msgctxt "default name for a clipping group layer"
 msgid "Clipping Group"
 msgstr "Qatlamni olib tashlash"
 
-#: libs/ui/kis_node_manager.cpp:1480
+#: libs/ui/kis_node_manager.cpp:1478
 #, fuzzy, kde-format
 msgctxt "default name for quick clip group mask layer"
 msgid "Mask Layer"
 msgstr "&Qatlam"
 
-#: libs/ui/kis_node_manager.cpp:1494
+#: libs/ui/kis_node_manager.cpp:1492
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Quick Ungroup"
@@ -17938,7 +17938,7 @@ msgstr ""
 
 #: libs/ui/KisImportExportManager.cpp:272
 #, fuzzy, kde-format
-msgctxt "@titile:window"
+msgctxt "@title:window"
 msgid "Open Audio"
 msgstr "Yangi hujjatlarda ochish"
 
@@ -24892,42 +24892,42 @@ msgstr "Joriy qatlam"
 msgid "Channels"
 msgstr "Kanal"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:55
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:56
 #, fuzzy, kde-format
 msgid "Compositions"
 msgstr "Kompozitsiyasiz"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:66
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:68
 #, fuzzy, kde-format
 msgid "Delete Composition"
 msgstr "Kompozitsiyasiz"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:67
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:69
 #, fuzzy, kde-format
 msgid "New Composition"
 msgstr "Kompozitsiyasiz"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:68
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:70
 #, fuzzy, kde-format
 msgid "Export Composition"
 msgstr "Kompozitsiyasiz"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:82
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:84
 #, fuzzy, kde-format
 msgid "Insert Name"
 msgstr "Qatlamning nomi:"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:193
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:195
 #, fuzzy, kde-format
 msgid "Select a Directory"
 msgstr "Toʻgʻri burchak maydonni tanlash"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:295
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:305
 #, fuzzy, kde-format
 msgid "Rename Composition"
 msgstr "Kompozitsiyasiz"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:296
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:306
 #, fuzzy, kde-format
 msgid "New Name:"
 msgstr "&Nomi:"
@@ -33111,39 +33111,39 @@ msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 msgid "Could not load profile: %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:610
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:609
 #, fuzzy, kde-format
 msgid "Could not filter configuration %1."
 msgstr "Moslash..."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:651
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:650
 #, fuzzy, kde-format
 msgid "Could not load metadata for layer %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:673
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:672
 #, fuzzy, kde-format
 msgid "Could not load raster selection %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:691
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:690
 #, fuzzy, kde-format
 msgid "Could not load vector selection %1."
 msgstr "Hech narsa tanlanmagan"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:718
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:717
 #, fuzzy, kde-format
 msgid "Could not load keyframes from %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:732
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:731
 #, kde-format
 msgid ""
 "parsing error in the keyframe file %1 at line %2, column %3\n"
 "Error message: %4"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:745
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:744
 #, fuzzy, kde-format
 msgid "unknown keyframe channel type: %1 in %2"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
@@ -37945,7 +37945,7 @@ msgstr ""
 
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:401
 msgid ""
-"Whether the comic is an adaption of an existing source, and if so, how to "
+"Whether the comic is an adaptation of an existing source, and if so, how to "
 "find information about that source. So for example, for an adapted webcomic, "
 "the official website url should go here."
 msgstr ""
@@ -39743,7 +39743,7 @@ msgid ""
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:170
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:645
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:651
 #, kde-format
 msgid "Threshold: "
 msgstr "Chegara: "
@@ -41439,23 +41439,23 @@ msgstr "Tanlanganni bekitish"
 msgid "Magnetic Selection"
 msgstr "Tanlanganni bekitish"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:451
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:452
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Magnetic Selection"
 msgstr "Tanlanganni bekitish"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:633
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:639
 #, fuzzy, kde-format
 msgid "Filter Radius: "
 msgstr "Tanlash usuli:"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:657
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:663
 #, fuzzy, kde-format
 msgid "Search Radius: "
 msgstr "Uskuna:"
 
-#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:670
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:676
 #, fuzzy, kde-format
 msgid "Anchor Gap: "
 msgstr "Alfa moslamalari"
