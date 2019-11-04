@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-28 02:27+0100\n"
+"POT-Creation-Date: 2019-11-04 02:29+0100\n"
 "PO-Revision-Date: 2008-05-31 09:43+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -292,7 +292,7 @@ msgid ""
 "<emphasis>Cut</emphasis> action they are removed from their old location."
 msgstr ""
 
-#: dolphinmainwindow.cpp:1297 search/dolphinsearchbox.cpp:357
+#: dolphinmainwindow.cpp:1297 search/dolphinsearchbox.cpp:347
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
@@ -1262,7 +1262,7 @@ msgstr ""
 msgid "Running Dolphin as root can be dangerous. Please be careful."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:431 search/dolphinsearchbox.cpp:303
+#: dolphinviewcontainer.cpp:431 search/dolphinsearchbox.cpp:296
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
@@ -2385,14 +2385,6 @@ msgstr "Manzili:"
 msgid "What"
 msgstr ""
 
-#. i18n: ectx: label, entry (ShowFacetsWidget), group (Search)
-#: search/dolphin_searchsettings.kcfg:18
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Show hidden files"
-msgid "Show facets widget"
-msgstr "Yashirilgan fayllarni koʻrsatish"
-
 #: search/dolphinfacetswidget.cpp:38
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox Sort"
@@ -2523,31 +2515,31 @@ msgctxt "@item:inlistbox"
 msgid "Highest Rating"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:111
+#: search/dolphinsearchbox.cpp:110
 #, kde-format
 msgctxt "action:button"
 msgid "From Here (%1)"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:112
+#: search/dolphinsearchbox.cpp:111
 #, kde-format
 msgctxt "action:button"
 msgid "Limit search to '%1' and its subfolders"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:352
+#: search/dolphinsearchbox.cpp:342
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Quit searching"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:370
+#: search/dolphinsearchbox.cpp:360
 #, kde-format
 msgctxt "action:button"
 msgid "Save this search to quickly access it again in the future"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:383
+#: search/dolphinsearchbox.cpp:373
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Rename"
@@ -2555,7 +2547,7 @@ msgctxt "action:button"
 msgid "Filename"
 msgstr "Nomini oʻzgartirish"
 
-#: search/dolphinsearchbox.cpp:387
+#: search/dolphinsearchbox.cpp:377
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Add comment..."
@@ -2563,13 +2555,13 @@ msgctxt "action:button"
 msgid "Content"
 msgstr "Izohni qoʻshish..."
 
-#: search/dolphinsearchbox.cpp:398
+#: search/dolphinsearchbox.cpp:388
 #, kde-format
 msgctxt "action:button"
 msgid "From Here"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:402
+#: search/dolphinsearchbox.cpp:392
 #, fuzzy, kde-format
 #| msgctxt "EMAIL OF TRANSLATORS"
 #| msgid "Your emails"
@@ -2577,63 +2569,23 @@ msgctxt "action:button"
 msgid "Your files"
 msgstr "kmashrab@uni-bremen.de"
 
-#: search/dolphinsearchbox.cpp:403
+#: search/dolphinsearchbox.cpp:393
 #, kde-format
 msgctxt "action:button"
 msgid "Search in your home directory"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:417
+#: search/dolphinsearchbox.cpp:407
 #, kde-format
 msgid "More Search Tools"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:507
+#: search/dolphinsearchbox.cpp:491
 #, kde-format
 msgctxt ""
 "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
 "user entered."
 msgid "Query Results from '%1'"
-msgstr ""
-
-#: search/dolphinsearchbox.cpp:576
-#, fuzzy, kde-format
-#| msgctxt "@option:check Additional Information"
-#| msgid "Permissions"
-msgctxt "@action:button"
-msgid "Fewer Options"
-msgstr "Huquqlar"
-
-#: search/dolphinsearchbox.cpp:577
-#, fuzzy, kde-format
-#| msgctxt "@option:check Additional Information"
-#| msgid "Permissions"
-msgctxt "@action:button"
-msgid "More Options"
-msgstr "Huquqlar"
-
-#: search/dolphinsearchbox.cpp:585
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Advanced search options are not available because the file indexing service "
-"is disabled."
-msgstr ""
-
-#: search/dolphinsearchbox.cpp:587
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Advanced search options are not available because this location is not "
-"indexed."
-msgstr ""
-
-#: search/dolphinsearchbox.cpp:590
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Advanced search options are not available because this version of Dolphin "
-"does not support the Baloo file indexer."
 msgstr ""
 
 #. i18n: ectx: label, entry (UseSystemFont), group (CompactMode)
@@ -4482,6 +4434,26 @@ msgstr ""
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "Qoʻshimcha maʼlumot"
+
+#, fuzzy
+#~| msgctxt "@option:check"
+#~| msgid "Show hidden files"
+#~ msgid "Show facets widget"
+#~ msgstr "Yashirilgan fayllarni koʻrsatish"
+
+#, fuzzy
+#~| msgctxt "@option:check Additional Information"
+#~| msgid "Permissions"
+#~ msgctxt "@action:button"
+#~ msgid "Fewer Options"
+#~ msgstr "Huquqlar"
+
+#, fuzzy
+#~| msgctxt "@option:check Additional Information"
+#~| msgid "Permissions"
+#~ msgctxt "@action:button"
+#~ msgid "More Options"
+#~ msgstr "Huquqlar"
 
 #, fuzzy
 #~| msgctxt "@title:window"
