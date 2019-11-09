@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-08 02:56+0100\n"
+"POT-Creation-Date: 2019-11-09 02:48+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -488,21 +488,21 @@ msgid "Configure menu - %1"
 msgstr "%1 &moslamasi"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:185
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "$GenericName - current folder"
-msgstr ""
+#, fuzzy, kde-format
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current folder"
+msgstr "Sarlavhani bosib chiqarish"
 
 #: kmoretools/kmoretoolsmenufactory.cpp:193
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "$GenericName - current device"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - current device"
 msgstr ""
 
 #: kmoretools/kmoretoolsmenufactory.cpp:208
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "$GenericName - all devices"
+msgctxt "@action:inmenu %1=\"$GenericName\""
+msgid "%1 - all devices"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
@@ -750,13 +750,13 @@ msgctxt "Request installation of this item"
 msgid "Install"
 msgstr "Oʻrnatish"
 
-#: qtquick/qml/NewStuffList.qml:83 qtquick/qml/Page.qml:166
+#: qtquick/qml/NewStuffList.qml:83 qtquick/qml/Page.qml:179
 #, kde-format
 msgctxt "List option which will set the filter to show everything"
 msgid "Show Everything"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:167
+#: qtquick/qml/NewStuffList.qml:84 qtquick/qml/Page.qml:180
 #, fuzzy, kde-format
 #| msgid "Installation"
 msgctxt ""
@@ -764,7 +764,7 @@ msgctxt ""
 msgid "Installed Only"
 msgstr "Oʻrnatish"
 
-#: qtquick/qml/NewStuffList.qml:85 qtquick/qml/Page.qml:168
+#: qtquick/qml/NewStuffList.qml:85 qtquick/qml/Page.qml:181
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items with updates "
@@ -772,7 +772,7 @@ msgctxt ""
 msgid "Updateable Only"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:97 qtquick/qml/Page.qml:180
+#: qtquick/qml/NewStuffList.qml:97 qtquick/qml/Page.qml:193
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to based on when items were most "
@@ -780,7 +780,7 @@ msgctxt ""
 msgid "Show most recent first"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:98 qtquick/qml/Page.qml:181
+#: qtquick/qml/NewStuffList.qml:98 qtquick/qml/Page.qml:194
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to be alphabetical based on the "
@@ -788,13 +788,13 @@ msgctxt ""
 msgid "Sort alphabetically"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:99 qtquick/qml/Page.qml:182
+#: qtquick/qml/NewStuffList.qml:99 qtquick/qml/Page.qml:195
 #, kde-format
 msgctxt "List option which will set the sort order to based on user ratings"
 msgid "Show highest rated first"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:100 qtquick/qml/Page.qml:183
+#: qtquick/qml/NewStuffList.qml:100 qtquick/qml/Page.qml:196
 #, fuzzy, kde-format
 #| msgid "Most Downloads"
 msgctxt ""
@@ -811,11 +811,18 @@ msgctxt ""
 msgid "Use"
 msgstr "Soyalashni bekor qilish"
 
-#: qtquick/qml/Page.qml:133
+#: qtquick/qml/Page.qml:146
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Search..."
 msgstr "Qidirish"
+
+#: qtquick/qml/Page.qml:243
+#, fuzzy, kde-format
+msgctxt ""
+"A text shown beside a busy indicator suggesting that data is being fetched"
+msgid "Loading more..."
+msgstr "&Koʻrib chiqish"
 
 #: qtquick/qml/private/EntryCommentDelegate.qml:125
 #, kde-format
@@ -900,7 +907,7 @@ msgstr "Tafsilotlar"
 msgid "None"
 msgstr "Yoʻq"
 
-#: qtquick/quickengine.cpp:97
+#: qtquick/quickengine.cpp:111
 #, kde-format
 msgctxt ""
 "An informational message which is shown to inform the user they are not "
@@ -910,7 +917,7 @@ msgid ""
 "please contact the person in charge of your permissions."
 msgstr ""
 
-#: qtquick/quickitemsmodel.cpp:418
+#: qtquick/quickitemsmodel.cpp:428
 #, fuzzy, kde-format
 msgid "Using %1"
 msgstr "Baho"
@@ -9118,10 +9125,6 @@ msgstr "Almashtirishni boshlash"
 #~ msgid "Tag Exists"
 #~ msgstr "Sinov"
 
-#, fuzzy
-#~ msgid "Loading preview..."
-#~ msgstr "&Koʻrib chiqish"
-
 #~ msgid "Error: HOME environment variable not set.\n"
 #~ msgstr "Xato: muhit oʻzgaruvchi $HOME aniqlanmagan.\n"
 
@@ -11412,10 +11415,6 @@ msgstr "Almashtirishni boshlash"
 #, fuzzy
 #~ msgid "Menu"
 #~ msgstr "Menyu"
-
-#, fuzzy
-#~ msgid "Parent Folder"
-#~ msgstr "Sarlavhani bosib chiqarish"
 
 #, fuzzy
 #~ msgid "Home Folder"
