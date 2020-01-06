@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-11 02:55+0100\n"
+"POT-Creation-Date: 2020-01-06 03:08+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17,14 +17,17 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: kaboutapplicationdialog.cpp:70 kaboutplugindialog.cpp:75 khelpmenu.cpp:280
-#, kde-format
+#: kaboutapplicationdialog.cpp:70 kaboutplugindialog.cpp:75
+#, fuzzy, kde-format
+#| msgid "About %1"
+msgctxt "@title:window"
 msgid "About %1"
 msgstr "%1 haqida"
 
 #: kaboutapplicationdialog.cpp:102 kaboutplugindialog.cpp:92
 #, fuzzy, kde-format
 #| msgid "&About"
+msgctxt "@title:tab"
 msgid "About"
 msgstr "&Haqida"
 
@@ -38,12 +41,14 @@ msgstr ""
 #: kaboutapplicationdialog.cpp:119
 #, fuzzy, kde-format
 #| msgid "Libraries"
+msgctxt "@title:tab"
 msgid "Libraries"
 msgstr "Kutubxonalar"
 
 #: kaboutapplicationdialog.cpp:129 kaboutplugindialog.cpp:103
 #, fuzzy, kde-format
 #| msgid "Author"
+msgctxt "@title:tab"
 msgid "Author"
 msgid_plural "Authors"
 msgstr[0] "Muallif"
@@ -51,12 +56,14 @@ msgstr[0] "Muallif"
 #: kaboutapplicationdialog.cpp:136 kaboutplugindialog.cpp:110
 #, fuzzy, kde-format
 #| msgid "&Thanks To"
+msgctxt "@title:tab"
 msgid "Thanks To"
 msgstr "&Minnatdorchilik"
 
 #: kaboutapplicationdialog.cpp:143 kaboutplugindialog.cpp:116
-#: kbugreport.cpp:251
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgctxt "@title:tab"
 msgid "Translation"
 msgstr "Tarjima"
 
@@ -76,7 +83,7 @@ msgstr "Veb-sahifa"
 #: kaboutapplicationpersonlistdelegate_p.cpp:128
 #, fuzzy, kde-format
 #| msgid "Other Contributors:"
-msgctxt "Action to send an email to a contributor"
+msgctxt "@info:tooltip Action to send an email to a contributor"
 msgid ""
 "Email contributor\n"
 "%1"
@@ -86,6 +93,7 @@ msgstr "Boshqa hissa qoʻshuvchilar:"
 #: kaboutapplicationpersonlistdelegate_p.cpp:171
 #, fuzzy, kde-format
 #| msgid "Homepage"
+msgctxt "@info:tooltip"
 msgid ""
 "Visit contributor's homepage\n"
 "%1"
@@ -93,15 +101,18 @@ msgstr "Veb-sahifa"
 
 #: kaboutapplicationpersonlistdelegate_p.cpp:141
 #: kaboutapplicationpersonlistdelegate_p.cpp:174
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Homepage"
+msgctxt "@info:tooltip"
 msgid ""
 "Visit contributor's profile on %1\n"
 "%2"
-msgstr ""
+msgstr "Veb-sahifa"
 
 #: kaboutapplicationpersonlistdelegate_p.cpp:165
 #, fuzzy, kde-format
 #| msgid "Homepage"
+msgctxt "@info:tooltip"
 msgid ""
 "Visit contributor's page\n"
 "%1"
@@ -110,6 +121,7 @@ msgstr "Veb-sahifa"
 #: kaboutapplicationpersonlistdelegate_p.cpp:168
 #, fuzzy, kde-format
 #| msgid "Homepage"
+msgctxt "@info:tooltip"
 msgid ""
 "Visit contributor's blog\n"
 "%1"
@@ -151,7 +163,9 @@ msgid "Homepage"
 msgstr "Veb-sahifa"
 
 #: kaboutkdedialog_p.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "About KDE"
+msgctxt "@title:window"
 msgid "About KDE"
 msgstr "KDE haqida"
 
@@ -297,24 +311,31 @@ msgstr ""
 "html>"
 
 #: kaboutkdedialog_p.cpp:135
-#, kde-format
-msgctxt "About KDE"
+#, fuzzy, kde-format
+#| msgctxt "About KDE"
+#| msgid "&About"
+msgctxt "@title:tab About KDE"
 msgid "&About"
 msgstr "&Haqida"
 
 #: kaboutkdedialog_p.cpp:136
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Report Bugs or Wishes"
+msgctxt "@title:tab"
 msgid "&Report Bugs or Wishes"
 msgstr "Xato yoki istaklar haqida &xabar qilish"
 
 #: kaboutkdedialog_p.cpp:137
 #, fuzzy, kde-format
 #| msgid "&Join the KDE Team"
+msgctxt "@title:tab"
 msgid "&Join KDE"
 msgstr "KDE jamoasiga &qoʻshiling"
 
 #: kaboutkdedialog_p.cpp:138
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Support KDE"
+msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "KDE'ni &qoʻllab-quvvatlash"
 
@@ -361,11 +382,20 @@ msgid ""
 msgstr ""
 
 #: kactionconflictdetector.cpp:54
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Shortcuts"
+msgctxt "@title:window"
 msgid "Ambiguous shortcut detected"
-msgstr ""
+msgstr "Tugmalar birikmasi"
 
-#: kbugreport.cpp:106 kbugreport.cpp:135
+#: kbugreport.cpp:106
+#, fuzzy, kde-format
+#| msgid "Submit Bug Report"
+msgctxt "@title:window"
+msgid "Submit Bug Report"
+msgstr "Xato haqida xabar qilish"
+
+#: kbugreport.cpp:135
 #, kde-format
 msgid "Submit Bug Report"
 msgstr "Xato haqida xabar qilish"
@@ -386,34 +416,42 @@ msgid "From:"
 msgstr "Kimdan:"
 
 #: kbugreport.cpp:155
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Email..."
+msgctxt "@action:button"
 msgid "Configure Email..."
 msgstr "Elektron pochtani moslash"
 
-#: kbugreport.cpp:162
+#: kbugreport.cpp:161
 #, kde-format
 msgid "The email address this bug report is sent to."
 msgstr "Xato haqida xabar quyidagi manzilga joʻnatiladi."
 
-#: kbugreport.cpp:163
+#: kbugreport.cpp:162
 #, fuzzy, kde-format
 #| msgid "To:"
 msgctxt "Email receiver address"
 msgid "To:"
 msgstr "Kimga:"
 
-#: kbugreport.cpp:172
-#, kde-format
+#: kbugreport.cpp:171
+#, fuzzy, kde-format
+#| msgid "&Send"
+msgctxt "@action:button"
 msgid "&Send"
 msgstr "&Joʻnatish"
 
 #: kbugreport.cpp:172
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Send bug report."
+msgctxt "@info:tooltip"
 msgid "Send bug report."
 msgstr "Xato haqida xabar qilish."
 
 #: kbugreport.cpp:173
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Send this bug report to %1."
+msgctxt "@info:whatsthis"
 msgid "Send this bug report to %1."
 msgstr "Xato haqida xabarni %1'ga yuborish."
 
@@ -460,30 +498,47 @@ msgid "Compiler:"
 msgstr "Kompayler:"
 
 #: kbugreport.cpp:243
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Se&verity"
+msgctxt "@title:group"
 msgid "Se&verity"
 msgstr "&Jiddiylik darajasi"
 
 #: kbugreport.cpp:247
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Critical"
+msgctxt "bug severity"
 msgid "Critical"
 msgstr "Juda jiddiy"
 
 #: kbugreport.cpp:248
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Grave"
+msgctxt "bug severity"
 msgid "Grave"
 msgstr "Jiddiy"
 
 #: kbugreport.cpp:249
-#, kde-format
-msgctxt "normal severity"
+#, fuzzy, kde-format
+#| msgctxt "normal severity"
+#| msgid "Normal"
+msgctxt "bug severity"
 msgid "Normal"
 msgstr "Oddiy"
 
 #: kbugreport.cpp:250
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Wishlist"
+msgctxt "bug severity"
 msgid "Wishlist"
 msgstr "Istaklar roʻyxati"
+
+#: kbugreport.cpp:251
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgctxt "bug severity"
+msgid "Translation"
+msgstr "Tarjima"
 
 #: kbugreport.cpp:269
 #, kde-format
@@ -527,13 +582,16 @@ msgstr ""
 "Yuqoridagi maʼlumot oʻsha serverga uzatiladi."
 
 #: kbugreport.cpp:321
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Launch Bug Report Wizard"
+msgctxt "@action:button"
 msgid "&Launch Bug Report Wizard"
 msgstr "&Yordamchi"
 
 #: kbugreport.cpp:323
 #, fuzzy, kde-format
 #| msgid "Submit Bug Report"
+msgctxt "@action:button"
 msgid "&Submit Bug Report"
 msgstr "Xato haqida xabar qilish"
 
@@ -637,7 +695,9 @@ msgstr ""
 "voz kechaymi?"
 
 #: kbugreport.cpp:499
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Close Message"
+msgctxt "@title:window"
 msgid "Close Message"
 msgstr "Xabarni yopish"
 
@@ -694,6 +754,7 @@ msgstr "--- ajratuvchi ---"
 #: kedittoolbar.cpp:347
 #, fuzzy, kde-format
 #| msgid "Change Icon"
+msgctxt "@title:window"
 msgid "Change Text"
 msgstr "Nishonchani oʻzgartirish"
 
@@ -704,11 +765,14 @@ msgstr "Matnni qidirish"
 
 #: kedittoolbar.cpp:363
 #, kde-format
+msgctxt "@option:check"
 msgid "&Hide text when toolbar shows text alongside icons"
 msgstr ""
 
 #: kedittoolbar.cpp:616
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Toolbars"
+msgctxt "@title:window"
 msgid "Configure Toolbars"
 msgstr "Asboblar panellarini moslash"
 
@@ -757,13 +821,16 @@ msgid "Curr&ent actions:"
 msgstr "&Joriy amallar:"
 
 #: kedittoolbar.cpp:1062
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Change &Icon..."
+msgctxt "@action:button"
 msgid "Change &Icon..."
 msgstr "Nishonchani oʻ&zgartirish"
 
 #: kedittoolbar.cpp:1070
 #, fuzzy, kde-format
 #| msgid "Change &Icon..."
+msgctxt "@action:button"
 msgid "Change Te&xt..."
 msgstr "Nishonchani oʻ&zgartirish"
 
@@ -818,6 +885,11 @@ msgstr "Nishonchani oʻzgartirish"
 msgid "&Help"
 msgstr "&Yordam"
 
+#: khelpmenu.cpp:280
+#, kde-format
+msgid "About %1"
+msgstr "%1 haqida"
+
 #: kkeysequencewidget.cpp:129
 #, kde-format
 msgid "Shortcut '%1' in Application %2 for action %3\n"
@@ -844,6 +916,7 @@ msgstr[0] "Umumiy tugmalar birikmasi bilan muammo"
 #: kkeysequencewidget.cpp:147 kkeysequencewidget.cpp:235
 #: kkeysequencewidget.cpp:626
 #, kde-format
+msgctxt "@action:button"
 msgid "Reassign"
 msgstr ""
 
@@ -877,6 +950,7 @@ msgstr[0] ""
 
 #: kkeysequencewidget.cpp:244
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Shortcut conflict"
 msgstr "Tugmalar birikmasi"
 
@@ -891,6 +965,7 @@ msgstr ""
 
 #: kkeysequencewidget.cpp:275
 #, kde-format
+msgctxt "@info:tooltip"
 msgid ""
 "Click on the button, then enter the shortcut like you would in the program.\n"
 "Example for Ctrl+A: hold the Ctrl key and press A."
@@ -911,7 +986,9 @@ msgid ""
 msgstr ""
 
 #: kkeysequencewidget.cpp:620
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Conflict with Standard Application Shortcut"
+msgctxt "@title:window"
 msgid "Conflict with Standard Application Shortcut"
 msgstr "Dasturning andoza tugmalar birikmasi bilan muammo"
 
@@ -944,11 +1021,14 @@ msgstr ""
 
 #: kkeysequencewidget.cpp:722
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Unsupported Key"
 msgstr "Ishonchsiz"
 
 #: klicensedialog_p.cpp:44
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "License Agreement"
+msgctxt "@title:window"
 msgid "License Agreement"
 msgstr "Litsenziya kelishuvi"
 
@@ -970,7 +1050,9 @@ msgid "Add to Toolbar"
 msgstr "Mening ranglarimga &qoʻshish"
 
 #: kmenumenuhandler_p.cpp:235
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Shortcut..."
+msgctxt "@action:inmenu"
 msgid "Configure Shortcut..."
 msgstr "Tugmalar birikmasini moslash"
 
@@ -1022,18 +1104,22 @@ msgid "The email address to send the bug report to."
 msgstr "Xato haqida xabar quyidagi manzilga joʻnatiladi."
 
 #: kshortcuteditwidget.cpp:67
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Default:"
+msgctxt "@option:radio"
 msgid "Default:"
 msgstr "Andoza:"
 
 #: kshortcuteditwidget.cpp:74
 #, fuzzy, kde-format
+msgctxt "@option:radio"
 msgid "Custom:"
 msgstr "&Tanlash"
 
 #: kshortcutschemeseditor.cpp:44
 #, fuzzy, kde-format
 #| msgid "Shortcuts"
+msgctxt "@title:group"
 msgid "Shortcut Schemes"
 msgstr "Tugmalar birikmasi"
 
@@ -1046,41 +1132,51 @@ msgstr "&Joriy amallar:"
 #: kshortcutschemeseditor.cpp:82
 #, fuzzy, kde-format
 #| msgid "New List..."
+msgctxt "@action:button"
 msgid "New..."
 msgstr "Yangi roʻyxat"
 
 #: kshortcutschemeseditor.cpp:85
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Delete"
+msgctxt "@action:button"
 msgid "Delete"
 msgstr "Oʻchirish"
 
 #: kshortcutschemeseditor.cpp:88
 #, fuzzy, kde-format
 #| msgid "Action"
+msgctxt "@action:button"
 msgid "More Actions"
 msgstr "Amal"
 
 #: kshortcutschemeseditor.cpp:92
 #, fuzzy, kde-format
 #| msgid "Shortcuts"
+msgctxt "@action:inmenu"
 msgid "Save shortcuts to scheme"
 msgstr "Tugmalar birikmasi"
 
 #: kshortcutschemeseditor.cpp:94
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Shortcuts"
+msgctxt "@action:inmenu"
 msgid "Export Scheme..."
-msgstr ""
+msgstr "Tugmalar birikmasi"
 
 #: kshortcutschemeseditor.cpp:96
 #, fuzzy, kde-format
 #| msgid "Shortcuts"
+msgctxt "@action:inmenu"
 msgid "Import Scheme..."
 msgstr "Tugmalar birikmasi"
 
 #: kshortcutschemeseditor.cpp:117
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Curr&ent actions:"
+msgctxt "@title:window"
 msgid "Name for New Scheme"
-msgstr ""
+msgstr "&Joriy amallar:"
 
 #: kshortcutschemeseditor.cpp:118
 #, fuzzy, kde-format
@@ -1109,27 +1205,29 @@ msgstr ""
 #: kshortcutschemeseditor.cpp:185
 #, fuzzy, kde-format
 #| msgid "Shortcuts"
+msgctxt "@title:window"
 msgid "Export Shortcuts"
 msgstr "Tugmalar birikmasi"
 
-#: kshortcutschemeseditor.cpp:185 kshortcutschemeseditor.cpp:196
+#: kshortcutschemeseditor.cpp:186 kshortcutschemeseditor.cpp:198
 #, fuzzy, kde-format
 msgid "Shortcuts (*.shortcuts)"
 msgstr "Tugmalar birikmasi"
 
-#: kshortcutschemeseditor.cpp:196
+#: kshortcutschemeseditor.cpp:197
 #, fuzzy, kde-format
 #| msgid "Shortcuts"
+msgctxt "@title:window"
 msgid "Import Shortcuts"
 msgstr "Tugmalar birikmasi"
 
-#: kshortcutschemeseditor.cpp:207
+#: kshortcutschemeseditor.cpp:209
 #, fuzzy, kde-format
 #| msgid "Successfully uploaded new stuff."
 msgid "Shortcut scheme successfully saved."
 msgstr "Yangi narsalar muvaffaqiyatli yozib qoʻyildi."
 
-#: kshortcutschemeseditor.cpp:210
+#: kshortcutschemeseditor.cpp:212
 #, kde-format
 msgid "Error saving the shortcut scheme."
 msgstr ""
@@ -1150,6 +1248,7 @@ msgstr "&Joriy amallar:"
 #: kshortcutsdialog.cpp:154
 #, fuzzy, kde-format
 #| msgid "Configure Shortcuts"
+msgctxt "@title:window"
 msgid "Configure Keyboard Shortcuts"
 msgstr "Tugmalar birikmasini moslash"
 
@@ -1265,7 +1364,9 @@ msgid "%1"
 msgstr "%1%"
 
 #: kswitchlanguagedialog_p.cpp:159
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Switch Application Language"
+msgctxt "@title:window"
 msgid "Switch Application Language"
 msgstr "Dasturning tilini oʻzgartirish"
 
@@ -1276,11 +1377,13 @@ msgstr ""
 
 #: kswitchlanguagedialog_p.cpp:191
 #, fuzzy, kde-format
+msgctxt "@action:button"
 msgid "Add Fallback Language"
 msgstr "Andoza til:"
 
 #: kswitchlanguagedialog_p.cpp:192
 #, kde-format
+msgctxt "@info:tooltip"
 msgid ""
 "Adds one more language which will be used if other translations do not "
 "contain a proper translation."
@@ -1293,7 +1396,14 @@ msgid ""
 "effect the next time the application is started."
 msgstr ""
 
-#: kswitchlanguagedialog_p.cpp:289 kswitchlanguagedialog_p.cpp:311
+#: kswitchlanguagedialog_p.cpp:289
+#, fuzzy, kde-format
+#| msgid "Application Language Changed"
+msgctxt "@title:window"
+msgid "Application Language Changed"
+msgstr "Dasturning tili oʻzgardi"
+
+#: kswitchlanguagedialog_p.cpp:311
 #, kde-format
 msgid "Application Language Changed"
 msgstr "Dasturning tili oʻzgardi"
@@ -1309,12 +1419,15 @@ msgid "Fallback language:"
 msgstr "Ikkilamchi til:"
 
 #: kswitchlanguagedialog_p.cpp:414
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:button"
 msgid "Remove"
 msgstr "Olib tashlash"
 
 #: kswitchlanguagedialog_p.cpp:421
 #, kde-format
+msgctxt "@info:tooltip"
 msgid ""
 "This is the main application language which will be used first, before any "
 "other languages."
@@ -1322,6 +1435,7 @@ msgstr ""
 
 #: kswitchlanguagedialog_p.cpp:422
 #, kde-format
+msgctxt "@info:tooltip"
 msgid ""
 "This is the language which will be used if any previous languages do not "
 "contain a proper translation."
@@ -1378,22 +1492,30 @@ msgid "Text Position"
 msgstr "Matnning joylashishi"
 
 #: ktoolbar.cpp:331
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Icons Only"
+msgctxt "@item:inmenu"
 msgid "Icons Only"
 msgstr "Faqat nishonchalar"
 
 #: ktoolbar.cpp:332
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text Only"
+msgctxt "@item:inmenu"
 msgid "Text Only"
 msgstr "Faqat matn"
 
 #: ktoolbar.cpp:333
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text Alongside Icons"
+msgctxt "@item:inmenu"
 msgid "Text Alongside Icons"
 msgstr "Matn nishonchalar yonida"
 
 #: ktoolbar.cpp:334
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Text Under Icons"
+msgctxt "@item:inmenu"
 msgid "Text Under Icons"
 msgstr "Matn nishonchalar pastida"
 
@@ -1528,6 +1650,9 @@ msgstr "Mos&lamalar"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Asosiy asboblar paneli"
+
+#~ msgid "Delete"
+#~ msgstr "Oʻchirish"
 
 #~ msgid "Key Conflict"
 #~ msgstr "Tugma muammosi"
@@ -8553,12 +8678,6 @@ msgstr "Asosiy asboblar paneli"
 #~| msgid "Delete"
 #~ msgctxt "@title"
 #~ msgid "Delete tag"
-#~ msgstr "Oʻchirish"
-
-#, fuzzy
-#~| msgid "Delete"
-#~ msgctxt "@action:button"
-#~ msgid "Delete"
 #~ msgstr "Oʻchirish"
 
 #, fuzzy
