@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-24 02:54+0100\n"
+"POT-Creation-Date: 2020-03-22 02:58+0100\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -156,6 +156,16 @@ msgstr "Qabul qilish"
 #, kde-format
 msgid "Reject"
 msgstr "Rad etish"
+
+#: partloader.cpp:177
+#, kde-format
+msgid "The plugin '%1' does not provide an interface '%2' with keyword '%3'"
+msgstr ""
+
+#: partloader.cpp:192
+#, fuzzy, kde-format
+msgid "No part was found for mimeType %1"
+msgstr "%1 uchun dastur topilmadi."
 
 #: readwritepart.cpp:93
 #, kde-format
@@ -6771,10 +6781,6 @@ msgstr "Hujjatni yopish"
 
 #~ msgid "Embeddable component for multipart/mixed"
 #~ msgstr "multipart/mixed uchun ichiga oʻrnatib boʻladigan komponent"
-
-#, fuzzy
-#~ msgid "No handler found for %1."
-#~ msgstr "%1 uchun dastur topilmadi."
 
 #~ msgid "Pause"
 #~ msgstr "Vaqtincha toʻxtatish"
