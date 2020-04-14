@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-11 02:35+0200\n"
+"POT-Creation-Date: 2020-04-14 02:37+0200\n"
 "PO-Revision-Date: 2008-06-04 01:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -57,14 +57,14 @@ msgid "Split View"
 msgstr "Koʻr&inishni boʻlish"
 
 #. i18n: ectx: Menu (settings)
-#: ../desktop/konsoleui.rc:34
+#: ../desktop/konsoleui.rc:35
 #, fuzzy, kde-format
 #| msgid "&Settings"
 msgid "Settings"
 msgstr "&Moslamalar"
 
 #. i18n: ectx: Menu (help)
-#: ../desktop/konsoleui.rc:45
+#: ../desktop/konsoleui.rc:46
 #, fuzzy, kde-format
 #| msgid "&Help"
 msgid "Help"
@@ -2205,56 +2205,56 @@ msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
 msgstr "Qolgan boshqalarga ham rahmat.\n"
 
-#: MainWindow.cpp:320
+#: MainWindow.cpp:310
 #, fuzzy, kde-format
 #| msgid "New &Tab"
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "&Yangi tab"
 
-#: MainWindow.cpp:330
+#: MainWindow.cpp:320
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "Tabni &yopish"
 
-#: MainWindow.cpp:337
+#: MainWindow.cpp:327
 #, fuzzy, kde-format
 #| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "&Yangi oyna"
 
-#: MainWindow.cpp:344
+#: MainWindow.cpp:334
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "Terminal"
 
-#: MainWindow.cpp:349
+#: MainWindow.cpp:339
 #, fuzzy, kde-format
 #| msgid "&Bookmarks"
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "&Xatchoʻplar"
 
-#: MainWindow.cpp:368
+#: MainWindow.cpp:358
 #, fuzzy, kde-format
 #| msgid "Manage Profiles"
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "Profillarni boshqarish"
 
-#: MainWindow.cpp:374
+#: MainWindow.cpp:364
 #, fuzzy, kde-format
 #| msgid "Activate Menu"
 msgctxt "@item"
 msgid "Activate Menu"
 msgstr "Menyuni aktivlashtirish"
 
-#: MainWindow.cpp:604 MainWindow.cpp:623
+#: MainWindow.cpp:594 MainWindow.cpp:613
 #, kde-format
 msgctxt "@info"
 msgid "There is a process running in this window. Do you still want to quit?"
@@ -2262,55 +2262,55 @@ msgid_plural ""
 "There are %1 processes running in this window. Do you still want to quit?"
 msgstr[0] ""
 
-#: MainWindow.cpp:610 MainWindow.cpp:629 MainWindow.cpp:647
+#: MainWindow.cpp:600 MainWindow.cpp:619 MainWindow.cpp:637
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "Yopishni tasdiqlash"
 
-#: MainWindow.cpp:612 MainWindow.cpp:631 MainWindow.cpp:648
+#: MainWindow.cpp:602 MainWindow.cpp:621 MainWindow.cpp:638
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "Terminal"
 
-#: MainWindow.cpp:634 MainWindow.cpp:651
+#: MainWindow.cpp:624 MainWindow.cpp:641
 #, fuzzy, kde-format
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "Joriy tabni yopish"
 
-#: MainWindow.cpp:644
+#: MainWindow.cpp:634
 #, kde-format
 msgctxt "@info"
 msgid "There are %1 open terminals in this window. Do you still want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:762
+#: MainWindow.cpp:752
 #, fuzzy, kde-format
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "Umumiy"
 
-#: MainWindow.cpp:767 Part.cpp:333
+#: MainWindow.cpp:757 Part.cpp:333
 #, fuzzy, kde-format
 #| msgid "New Profile"
 msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr "Yangi profil"
 
-#: MainWindow.cpp:772
+#: MainWindow.cpp:762
 #, fuzzy, kde-format
 #| msgid "&Tab Bar"
 msgctxt "@title Preferences page name"
 msgid "Tab Bar"
 msgstr "&Tab paneli"
 
-#: MainWindow.cpp:777
+#: MainWindow.cpp:767
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Temporary Files"
@@ -2500,41 +2500,41 @@ msgstr "Solaris terminali"
 msgid "Bell in session '%1'"
 msgstr ""
 
-#: Session.cpp:394
+#: Session.cpp:399
 #, fuzzy, kde-format
 #| msgid "Could not save history."
 msgid "Could not find binary: "
 msgstr "Tarixni saqlab boʻlmadi."
 
-#: Session.cpp:403
+#: Session.cpp:408
 #, kde-format
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr ""
 
-#: Session.cpp:461
+#: Session.cpp:466
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
 "settings."
 msgstr ""
 
-#: Session.cpp:464
+#: Session.cpp:469
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr ""
 
-#: Session.cpp:502
+#: Session.cpp:507
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr ""
 
-#: Session.cpp:638
+#: Session.cpp:643
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr ""
 
-#: Session.cpp:900
+#: Session.cpp:905
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -2543,30 +2543,30 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: Session.cpp:928
+#: Session.cpp:933
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "Tugadi"
 
-#: Session.cpp:942 Session.cpp:955
+#: Session.cpp:947 Session.cpp:960
 #, fuzzy, kde-format
 #| msgid "Session '%1' exited unexpectedly."
 msgid "Program '%1' crashed."
 msgstr "Seans \"%1\" kutilmaganda tugadi."
 
-#: Session.cpp:944
+#: Session.cpp:949
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "'%1' dasturi %2 holati bilan tugadi."
 
-#: Session.cpp:1387
+#: Session.cpp:1392
 #, kde-format
 msgid "ZModem Progress"
 msgstr ""
 
-#: Session.cpp:1708
+#: Session.cpp:1713
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr ""
@@ -3813,24 +3813,30 @@ msgstr ""
 #: ViewManager.cpp:224
 #, kde-format
 msgctxt "@action Shortcut entry"
-msgid "Maximize current Terminal"
+msgid "Toggle maximize current view"
 msgstr ""
 
-#: ViewManager.cpp:231
+#: ViewManager.cpp:225
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle maximize current view"
+msgstr ""
+
+#: ViewManager.cpp:233
 #, fuzzy, kde-format
 #| msgid "M&ove Session Right"
 msgctxt "@action Shortcut entry"
 msgid "Move tab to the right"
 msgstr "Sea&nsni oʻngga surish"
 
-#: ViewManager.cpp:237
+#: ViewManager.cpp:239
 #, fuzzy, kde-format
 #| msgid "&Move Session Left"
 msgctxt "@action Shortcut entry"
 msgid "Move tab to the left"
 msgstr "Seansni chapga s&urish"
 
-#: ViewManager.cpp:246
+#: ViewManager.cpp:248
 #, fuzzy, kde-format
 #| msgid "Switch to Tab"
 msgctxt "@action Shortcut entry"
