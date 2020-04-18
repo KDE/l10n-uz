@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-17 08:49+0200\n"
+"POT-Creation-Date: 2020-04-18 09:15+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -4237,18 +4237,18 @@ msgctxt "action"
 msgid "Local Selection"
 msgstr "Tanlanganni bekitish"
 
-#. i18n: context: Action (isolate_layer), Actions (Layers), ActionCollection (Krita)
+#. i18n: context: Action (isolate_active_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2823
 #, fuzzy, kde-format
 msgctxt "action"
-msgid "&Isolate Layer"
+msgid "&Isolate Active Layer"
 msgstr "Filterlar &toʻplami"
 
-#. i18n: context: Action (isolate_layer), Actions (Layers), ActionCollection (Krita)
+#. i18n: context: Action (isolate_active_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2825
 #, fuzzy, kde-format
 msgctxt "action"
-msgid "Isolate Layer"
+msgid "Isolate Active Layer"
 msgstr "Filterlar &toʻplami"
 
 #. i18n: context: Action (toggle_layer_lock), Actions (Layers), ActionCollection (Krita)
@@ -8888,6 +8888,12 @@ msgstr ""
 msgid "Imported Image"
 msgstr "Rasmni import qilish"
 
+#: libs/image/kis_image.cc:605 libs/image/kis_layer_utils.cpp:1426
+#: libs/impex/KisExportCheckRegistry.cpp:121
+#, fuzzy, kde-format
+msgid "Selection Mask"
+msgstr "Tanlash boʻyogʻi"
+
 #: libs/image/kis_image.cc:650
 #, kde-format
 msgid "background"
@@ -9341,13 +9347,13 @@ msgstr "Ustki qoplama"
 msgid "Satin (style)"
 msgstr "Toʻyintirish"
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:942
+#: libs/image/lazybrush/kis_colorize_mask.cpp:943
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Key Stroke Color"
 msgstr "Tekislashni oʻzgartirish"
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:969
+#: libs/image/lazybrush/kis_colorize_mask.cpp:970
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Remove Key Stroke"
@@ -9455,7 +9461,8 @@ msgstr "Umumiy"
 msgid "Colorize Mask"
 msgstr "Rang"
 
-#: libs/impex/KisExportCheckRegistry.cpp:115 libs/ui/kis_mask_manager.cc:234
+#: libs/impex/KisExportCheckRegistry.cpp:115
+#: libs/ui/dialogs/kis_dlg_filter.cpp:201 libs/ui/kis_mask_manager.cc:234
 #, fuzzy, kde-format
 msgid "Filter Mask"
 msgstr "Filterlar"
@@ -9470,11 +9477,6 @@ msgstr "Boshqa shaklga almashtirish"
 #, fuzzy, kde-format
 msgid "Transparency Mask"
 msgstr "Shaffof"
-
-#: libs/impex/KisExportCheckRegistry.cpp:121
-#, fuzzy, kde-format
-msgid "Selection Mask"
-msgstr "Tanlash boʻyogʻi"
 
 #: libs/impex/MultiLayerCheck.h:37
 #, kde-format
@@ -9670,7 +9672,7 @@ msgctxt "description of a file type"
 msgid "JP2 Image"
 msgstr "Rasm"
 
-#: libs/libkis/Document.cpp:896 libs/ui/KisMainWindow.cpp:1951
+#: libs/libkis/Document.cpp:897 libs/ui/KisMainWindow.cpp:1951
 #, fuzzy, kde-format
 msgid "Import frames"
 msgstr "Rasmni import qilish"
