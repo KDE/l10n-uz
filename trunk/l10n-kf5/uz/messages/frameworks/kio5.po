@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-03 03:03+0200\n"
+"POT-Creation-Date: 2020-05-05 02:56+0200\n"
 "PO-Revision-Date: 2005-10-13 21:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -3623,12 +3623,19 @@ msgstr ""
 msgid "Click to Edit Location"
 msgstr ""
 
-#: gui/applicationlauncherjob.cpp:103 gui/kprocessrunner.cpp:183
+#: gui/applicationlauncherjob.cpp:105 gui/kprocessrunner.cpp:183
 #, kde-format
 msgid "You are not authorized to execute this file."
 msgstr "Bu faylni bajarishga sizda yetarli huquqlar yoʻq."
 
-#: gui/applicationlauncherjob.cpp:143
+#: gui/applicationlauncherjob.cpp:111 gui/commandlauncherjob.cpp:100
+#, fuzzy, kde-format
+#| msgid "Launching %1"
+msgctxt "Launching application"
+msgid "Launching %1"
+msgstr "%1'ni ishga tushirish"
+
+#: gui/applicationlauncherjob.cpp:147
 #, kde-format
 msgid ""
 "Unable to make the service %1 executable, aborting execution.\n"
