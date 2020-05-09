@@ -53,40 +53,40 @@ msgstr "%1 - [%2]"
 #: kactionselector.cpp:106
 #, fuzzy
 #| msgid "&Available:"
-msgctxt "KActionSelector|"
+msgctxt "KActionSelector|@label:listbox"
 msgid "&Available:"
 msgstr "&Mavjud:"
 
 #: kactionselector.cpp:123
 #, fuzzy
 #| msgid "&Selected:"
-msgctxt "KActionSelector|"
+msgctxt "KActionSelector|@label:listbox"
 msgid "&Selected:"
 msgstr "&Tanlangan:"
 
 #: kassistantdialog.cpp:105
 #, fuzzy
 #| msgid "&Back"
-msgctxt "KAssistantDialog|go back"
+msgctxt "KAssistantDialog|@action:button go back"
 msgid "&Back"
 msgstr "O&rqaga"
 
 #: kassistantdialog.cpp:107
 #, fuzzy
 #| msgid "Go back one step"
-msgctxt "KAssistantDialog|"
+msgctxt "KAssistantDialog|@info:tooltip"
 msgid "Go back one step"
 msgstr "Bir qadam orqaga"
 
 #: kassistantdialog.cpp:112
 #, fuzzy
-msgctxt "KAssistantDialog|Opposite to Back"
+msgctxt "KAssistantDialog|@action:button Opposite to Back"
 msgid "Next"
 msgstr "Keyingi"
 
 #: kassistantdialog.cpp:119
 #, fuzzy
-msgctxt "KAssistantDialog|"
+msgctxt "KAssistantDialog|@action:button"
 msgid "Finish"
 msgstr "&Tayyor"
 
@@ -1297,15 +1297,21 @@ msgctxt "KCharSelectData|KCharselect unicode block name"
 msgid "Symbols for Legacy Computing"
 msgstr ""
 
-#: kcharselect.cpp:406 kcharselect.cpp:408
-msgctxt "KCharSelect|"
+#: kcharselect.cpp:406
+#, fuzzy
+msgctxt "KCharSelect|@info:placeholder"
+msgid "Enter a search term or character..."
+msgstr "Internetdan qidirish"
+
+#: kcharselect.cpp:408
+msgctxt "KCharSelect|@info:tooltip"
 msgid "Enter a search term or character here"
 msgstr ""
 
 #: kcharselect.cpp:413
 #, fuzzy
 #| msgid "&Find..."
-msgctxt "KCharSelect|"
+msgctxt "KCharSelect|@action"
 msgid "&Find..."
 msgstr "&Qidirish"
 
@@ -1313,36 +1319,36 @@ msgstr "&Qidirish"
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Previous Item in List"
-msgctxt "KCharSelect|Goes to previous character"
+msgctxt "KCharSelect|@action:button Goes to previous character"
 msgid "Previous in History"
 msgstr "Roʻyxatdagi oldingi band"
 
 #: kcharselect.cpp:435
 #, fuzzy
 #| msgid "Previous year"
-msgctxt "KCharSelect|"
-msgid "Previous Character in History"
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Go to previous character in history"
 msgstr "Oʻtgan yil"
 
 #: kcharselect.cpp:440
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Next Item in List"
-msgctxt "KCharSelect|Goes to next character"
+msgctxt "KCharSelect|@action:button Goes to next character"
 msgid "Next in History"
 msgstr "Roʻyxatdagi keyingi band"
 
 #: kcharselect.cpp:442
 #, fuzzy
 #| msgid "Set of Characters"
-msgctxt "KCharSelect|"
-msgid "Next Character in History"
+msgctxt "KCharSelect|info:tooltip"
+msgid "Go to next character in history"
 msgstr "Belgilar toʻplami"
 
 #: kcharselect.cpp:447
 #, fuzzy
 #| msgid "&Back"
-msgctxt "KCharSelect|go back"
+msgctxt "KCharSelect|@action go back"
 msgid "&Back"
 msgstr "O&rqaga"
 
@@ -1350,31 +1356,31 @@ msgstr "O&rqaga"
 #, fuzzy
 #| msgctxt "go forward"
 #| msgid "&Forward"
-msgctxt "KCharSelect|go forward"
+msgctxt "KCharSelect|@action go forward"
 msgid "&Forward"
 msgstr "Ol&dinga"
 
 #: kcharselect.cpp:469
 #, fuzzy
-msgctxt "KCharSelect|"
+msgctxt "KCharSelect|@info:tooltip"
 msgid "Select a category"
 msgstr "Yilni tanlash"
 
 #: kcharselect.cpp:473
 #, fuzzy
-msgctxt "KCharSelect|"
+msgctxt "KCharSelect|@info:tooltip"
 msgid "Select a block to be displayed"
 msgstr "Koʻrsatish uchun xabar"
 
 #: kcharselect.cpp:486
 #, fuzzy
-msgctxt "KCharSelect|"
+msgctxt "KCharSelect|@info:tooltip"
 msgid "Set font"
 msgstr "Shriftni tanlash"
 
 #: kcharselect.cpp:493
 #, fuzzy
-msgctxt "KCharSelect|"
+msgctxt "KCharSelect|@info:tooltip"
 msgid "Set font size"
 msgstr "Shriftning oʻlchamini oʻzgartirishni istaysizmi?"
 
@@ -1745,7 +1751,7 @@ msgstr "Nomaʼlum"
 
 #: kcolorcombo.cpp:341
 #, fuzzy
-msgctxt "KColorCombo|Custom color"
+msgctxt "KColorCombo|@item:inlistbox Custom color"
 msgid "Custom..."
 msgstr "Boshqa..."
 
@@ -1844,56 +1850,56 @@ msgstr "Hafta %1"
 #: kdatepicker.cpp:292
 #, fuzzy
 #| msgid "Next year"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Next year"
 msgstr "Kelasi yil"
 
 #: kdatepicker.cpp:293
 #, fuzzy
 #| msgid "Previous year"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Previous year"
 msgstr "Oʻtgan yil"
 
 #: kdatepicker.cpp:294
 #, fuzzy
 #| msgid "Next month"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Next month"
 msgstr "Kelasi oy"
 
 #: kdatepicker.cpp:295
 #, fuzzy
 #| msgid "Previous month"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Previous month"
 msgstr "Oʻtgan oy"
 
 #: kdatepicker.cpp:296
 #, fuzzy
 #| msgid "Select a week"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Select a week"
 msgstr "Haftani tanlash"
 
 #: kdatepicker.cpp:297
 #, fuzzy
 #| msgid "Select a month"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Select a month"
 msgstr "Oyni tanlash"
 
 #: kdatepicker.cpp:298
 #, fuzzy
 #| msgid "Select a year"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Select a year"
 msgstr "Yilni tanlash"
 
 #: kdatepicker.cpp:299
 #, fuzzy
 #| msgid "Select the current day"
-msgctxt "KDatePicker|"
+msgctxt "KDatePicker|@info:tooltip"
 msgid "Select the current day"
 msgstr "Joriy kunni tanlash"
 
@@ -1905,13 +1911,13 @@ msgid "Close"
 msgstr "Yopish"
 
 #: kdatetimeedit.cpp:186
-msgctxt "KDateTimeEdit|UTC time zone"
+msgctxt "KDateTimeEdit|@item:inlistbox UTC time zone"
 msgid "UTC"
 msgstr ""
 
 #: kdatetimeedit.cpp:187
 #, fuzzy
-msgctxt "KDateTimeEdit|No specific time zone"
+msgctxt "KDateTimeEdit|@item:inlistbox No specific time zone"
 msgid "Floating"
 msgstr "Baho"
 
@@ -1928,35 +1934,35 @@ msgstr ""
 #: keditlistwidget.cpp:305
 #, fuzzy
 #| msgid "&Add"
-msgctxt "KEditListWidget|"
+msgctxt "KEditListWidget|@action:button"
 msgid "&Add"
 msgstr "&Qoʻshish"
 
 #: keditlistwidget.cpp:317
 #, fuzzy
 #| msgid "&Remove"
-msgctxt "KEditListWidget|"
+msgctxt "KEditListWidget|@action:button"
 msgid "&Remove"
 msgstr "&Olib tashlash"
 
 #: keditlistwidget.cpp:329
 #, fuzzy
 #| msgid "Move &Up"
-msgctxt "KEditListWidget|"
+msgctxt "KEditListWidget|@action:button"
 msgid "Move &Up"
 msgstr "&Yuqoriga"
 
 #: keditlistwidget.cpp:334
 #, fuzzy
 #| msgid "Move &Down"
-msgctxt "KEditListWidget|"
+msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "&Pastga"
 
 #: kfontchooser.cpp:189
 #, fuzzy
 #| msgid "Requested Font"
-msgctxt "KFontChooser|"
+msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Talab qilingan shrift"
 
@@ -1987,7 +1993,7 @@ msgstr "Shriftning uslubi"
 #: kfontchooser.cpp:246
 #, fuzzy
 #| msgid "Font style:"
-msgctxt "KFontChooser|"
+msgctxt "KFontChooser|@label"
 msgid "Font style:"
 msgstr "Shriftning uslubi:"
 
@@ -1995,7 +2001,7 @@ msgstr "Shriftning uslubi:"
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
-msgctxt "KFontChooser|QFontDatabase"
+msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Oddiy"
 
@@ -2056,12 +2062,12 @@ msgstr "Nisbiy"
 
 #: kfontchooser.cpp:305
 #, fuzzy
-msgctxt "KFontChooser|"
+msgctxt "KFontChooser|@info:tooltip"
 msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 msgstr "Shriftning<br><i>belgilangan</i> yoki <i>muhitga nisbatan</i> oʻlchami"
 
 #: kfontchooser.cpp:307
-msgctxt "KFontChooser|"
+msgctxt "KFontChooser|@info:whatsthis"
 msgid ""
 "Here you can switch between fixed font size and font size to be calculated "
 "dynamically and adjusted to changing environment (e.g. widget dimensions, "
@@ -2080,7 +2086,7 @@ msgstr "Oq choynakga oq qapqoq koʻk choynakga koʻk qapqoq"
 #| msgid ""
 #| "This sample text illustrates the current settings. You may edit it to "
 #| "test special characters."
-msgctxt "KFontChooser|"
+msgctxt "KFontChooser|@info:whatsthis"
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
 "special characters."
@@ -2102,21 +2108,21 @@ msgstr "%1%"
 #: kfontchooserdialog.cpp:43
 #, fuzzy
 #| msgid "Select Font"
-msgctxt "KFontChooserDialog|"
+msgctxt "KFontChooserDialog|@title:window"
 msgid "Select Font"
 msgstr "Shriftni tanlash"
 
 #: kfontrequester.cpp:215
 #, fuzzy
 #| msgid "Choose..."
-msgctxt "KFontRequester|"
-msgid "Choose Font..."
+msgctxt "KFontRequester|@info:tooltip"
+msgid "Choose font..."
 msgstr "Tanlash"
 
 #: kfontrequester.cpp:221
 #, fuzzy
 #| msgid "Preview of the selected font"
-msgctxt "KFontRequester|"
+msgctxt "KFontRequester|@info:tooltip"
 msgid "Preview of the selected font"
 msgstr "Tanlangan shriftni koʻrib chiqish"
 
@@ -2125,7 +2131,7 @@ msgstr "Tanlangan shriftni koʻrib chiqish"
 #| msgid ""
 #| "This is a preview of the selected font. You can change it by clicking the "
 #| "\"Choose...\" button."
-msgctxt "KFontRequester|"
+msgctxt "KFontRequester|@info:whatsthis"
 msgid ""
 "This is a preview of the selected font. You can change it by clicking the "
 "\"Choose Font...\" button."
@@ -2136,7 +2142,7 @@ msgstr ""
 #: kfontrequester.cpp:225
 #, fuzzy, qt-format
 #| msgid "Preview of the \"%1\" font"
-msgctxt "KFontRequester|"
+msgctxt "KFontRequester|@info:tooltip"
 msgid "Preview of the \"%1\" font"
 msgstr "\"%1\" shriftini koʻrib chiqish"
 
@@ -2145,7 +2151,7 @@ msgstr "\"%1\" shriftini koʻrib chiqish"
 #| msgid ""
 #| "This is a preview of the \"%1\" font. You can change it by clicking the "
 #| "\"Choose...\" button."
-msgctxt "KFontRequester|"
+msgctxt "KFontRequester|@info:whatsthis"
 msgid ""
 "This is a preview of the \"%1\" font. You can change it by clicking the "
 "\"Choose Font...\" button."
@@ -2228,63 +2234,63 @@ msgstr "Bu xabar boshqa koʻrsatilmasin"
 #: kmessagewidget.cpp:88
 #, fuzzy
 #| msgid "&Close"
-msgctxt "KMessageWidget|"
+msgctxt "KMessageWidget|@action:button"
 msgid "&Close"
 msgstr "Yo&pish"
 
 #: kmessagewidget.cpp:89
 #, fuzzy
 #| msgid "Close Message"
-msgctxt "KMessageWidget|"
+msgctxt "KMessageWidget|@info:tooltip"
 msgid "Close message"
 msgstr "Xabarni yopish"
 
 #: kmimetypechooser.cpp:99
-msgctxt "KMimeTypeChooser|"
+msgctxt "KMimeTypeChooser|@info:placeholder"
 msgid "Search for file type or filename pattern..."
 msgstr ""
 
 #: kmimetypechooser.cpp:100
 #, fuzzy
-msgctxt "KMimeTypeChooser|"
+msgctxt "KMimeTypeChooser|@label:textbox"
 msgid "&Filter:"
 msgstr "Filter:"
 
 #: kmimetypechooser.cpp:114
 #, fuzzy
 #| msgid "Mime types"
-msgctxt "KMimeTypeChooser|"
-msgid "Mime Type"
+msgctxt "KMimeTypeChooser|@title:column"
+msgid "MIME Type"
 msgstr "MIME turlari"
 
 #: kmimetypechooser.cpp:117
 #, fuzzy
 #| msgid "Comment"
-msgctxt "KMimeTypeChooser|"
+msgctxt "KMimeTypeChooser|@title:column"
 msgid "Comment"
 msgstr "Izoh"
 
 #: kmimetypechooser.cpp:121
 #, fuzzy
-msgctxt "KMimeTypeChooser|"
+msgctxt "KMimeTypeChooser|@title:column"
 msgid "Patterns"
 msgstr "Brayl shrifti"
 
 #: kmimetypechooser.cpp:137
 #, fuzzy
 #| msgid "&Edit..."
-msgctxt "KMimeTypeChooser|"
+msgctxt "KMimeTypeChooser|@action:button"
 msgid "&Edit..."
 msgstr "&Tahrirlash"
 
 #: kmimetypechooser.cpp:147
-msgctxt "KMimeTypeChooser|"
-msgid "Launch the KDE mime type editor."
+msgctxt "KMimeTypeChooser|@info:tooltip"
+msgid "Launch the MIME type editor"
 msgstr ""
 
 #: knewpassworddialog.cpp:69
 #, fuzzy, qt-format
-msgctxt "KNewPasswordDialog|"
+msgctxt "KNewPasswordDialog|@info"
 msgid "Password must be at least %n character(s) long."
 msgid_plural "Password must be at least %n character(s) long."
 msgstr[0] "Maxfiy soʻz kamida bitta belgidan iborat boʻlishi shart"
@@ -2292,28 +2298,28 @@ msgstr[0] "Maxfiy soʻz kamida bitta belgidan iborat boʻlishi shart"
 #: knewpassworddialog.cpp:73
 #, fuzzy
 #| msgid "Password is empty"
-msgctxt "KNewPasswordDialog|"
+msgctxt "KNewPasswordDialog|@info"
 msgid "Password is empty."
 msgstr "Maxfiy soʻz boʻsh"
 
 #: knewpassworddialog.cpp:77
 #, fuzzy
 #| msgid "Passwords do not match"
-msgctxt "KNewPasswordDialog|"
+msgctxt "KNewPasswordDialog|@info"
 msgid "Passwords do not match."
 msgstr "Maxfiy soʻzlar mos kelmaydi"
 
 #: knewpassworddialog.cpp:82
 #, fuzzy
 #| msgid "Passwords match"
-msgctxt "KNewPasswordDialog|"
+msgctxt "KNewPasswordDialog|@info"
 msgid "Passwords match."
 msgstr "Maxfiy soʻzlar mos keladi"
 
 #: knewpassworddialog.cpp:154
 #, fuzzy
 #| msgid "Low Password Strength"
-msgctxt "KNewPasswordDialog|"
+msgctxt "KNewPasswordDialog|@title:window"
 msgid "Low Password Strength"
 msgstr "Maxfiy soʻz ishonchli emas"
 
@@ -2342,28 +2348,28 @@ msgstr ""
 #: knewpasswordwidget.ui:19
 #, fuzzy
 #| msgid "Password:"
-msgctxt "KNewPasswordWidget|"
+msgctxt "KNewPasswordWidget|@label:textbox"
 msgid "Password:"
 msgstr "Maxfiy soʻz:"
 
 #: knewpasswordwidget.ui:29
 #, fuzzy
 #| msgid "&Verify:"
-msgctxt "KNewPasswordWidget|"
+msgctxt "KNewPasswordWidget|@label:textbox"
 msgid "&Verify:"
 msgstr "&Tekshirish:"
 
 #: knewpasswordwidget.ui:54
 #, fuzzy
 #| msgid "Password strength meter:"
-msgctxt "KNewPasswordWidget|"
+msgctxt "KNewPasswordWidget|@label"
 msgid "Password strength &meter:"
 msgstr "Maxfiy soʻz ishonchligi:"
 
 #: kpassworddialog.cpp:63
 #, fuzzy
 #| msgid "Password"
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@title:window"
 msgid "Password"
 msgstr "Maxfiy soʻz"
 
@@ -2378,86 +2384,86 @@ msgid "Supply a username and password below."
 msgstr ""
 
 #: kpassworddialog.ui:70
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@option:radio"
 msgid "No password, use anonymous (or &guest) login"
 msgstr ""
 
 #: kpassworddialog.ui:77
 #, fuzzy
 #| msgid "&Keep password"
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@option:radio"
 msgid "Use this password:"
 msgstr "Maxfiy soʻzni &eslab qolish"
 
 #: kpassworddialog.ui:102
 #, fuzzy
 #| msgid "Username:"
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@label:textbox"
 msgid "Username:"
 msgstr "Foydalanuvchi:"
 
 #: kpassworddialog.ui:116
 #, fuzzy
 #| msgid "Domain:"
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@label:textbox"
 msgid "Domain:"
 msgstr "Domen:"
 
 #: kpassworddialog.ui:130
 #, fuzzy
 #| msgid "Password:"
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@label:textbox"
 msgid "Password:"
 msgstr "Maxfiy soʻz:"
 
 #: kpassworddialog.ui:144
 #, fuzzy
 #| msgid "Remember password"
-msgctxt "KPasswordDialog|"
+msgctxt "KPasswordDialog|@option:check"
 msgid "Remember password"
 msgstr "Maxfiy soʻzni eslab qolish"
 
 #: kpasswordlineedit.cpp:56
-msgctxt "QObject|"
+msgctxt "QObject|@info:tooltip"
 msgid "Change the visibility of the password"
 msgstr ""
 
 #: kpixmapregionselectordialog.cpp:72
 #, fuzzy
 #| msgid "Select Region of Image"
-msgctxt "KPixmapRegionSelectorDialog|"
+msgctxt "KPixmapRegionSelectorDialog|@title:window"
 msgid "Select Region of Image"
 msgstr "Rasmning qismini tanlang"
 
 #: kpixmapregionselectordialog.cpp:76
-msgctxt "KPixmapRegionSelectorDialog|"
+msgctxt "KPixmapRegionSelectorDialog|@label:chooser"
 msgid "Please click and drag on the image to select the region of interest:"
 msgstr ""
 
 #: kpixmapregionselectorwidget.cpp:192
 #, fuzzy
 #| msgid "Image Operations"
-msgctxt "KPixmapRegionSelectorWidget|"
+msgctxt "KPixmapRegionSelectorWidget|@title:menu"
 msgid "Image Operations"
 msgstr "Rasm amallari"
 
 #: kpixmapregionselectorwidget.cpp:194
 #, fuzzy
 #| msgid "&Rotate Clockwise"
-msgctxt "KPixmapRegionSelectorWidget|"
+msgctxt "KPixmapRegionSelectorWidget|@action:inmenu"
 msgid "&Rotate Clockwise"
 msgstr "Soat koʻrsatgichi &boʻyicha burish"
 
 #: kpixmapregionselectorwidget.cpp:196
 #, fuzzy
 #| msgid "Rotate &Counterclockwise"
-msgctxt "KPixmapRegionSelectorWidget|"
+msgctxt "KPixmapRegionSelectorWidget|@action:inmenu"
 msgid "Rotate &Counterclockwise"
 msgstr "Soat &koʻrsatgichiga qarshi burish"
 
 #: ksqueezedtextlabel.cpp:217
 #, fuzzy
-msgctxt "KSqueezedTextLabel|"
+msgctxt "KSqueezedTextLabel|@action:inmenu"
 msgid "&Copy Full Text"
 msgstr "&Matndan nusxa olish"
 
@@ -2937,6 +2943,18 @@ msgstr "Butun ekranga"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Back"
+#~ msgctxt "KCharSelect|go back"
+#~ msgid "&Back"
+#~ msgstr "O&rqaga"
+
+#, fuzzy
+#~| msgid "Password:"
+#~ msgctxt "KPasswordDialog|"
+#~ msgid "Password:"
+#~ msgstr "Maxfiy soʻz:"
 
 #, fuzzy
 #~ msgctxt "KFontChooser|@info:whatsthis"
@@ -9449,10 +9467,6 @@ msgstr ""
 #~ msgctxt "@title:column The Nepomuk resource's RDF type"
 #~ msgid "Resource Type"
 #~ msgstr "Manbani tanlash"
-
-#, fuzzy
-#~ msgid "Enter Search Terms..."
-#~ msgstr "Internetdan qidirish"
 
 #, fuzzy
 #~ msgctxt "@option:check A filter on resource type"
