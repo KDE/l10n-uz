@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-16 02:28+0200\n"
+"POT-Creation-Date: 2020-06-20 02:17+0200\n"
 "PO-Revision-Date: 2008-06-04 01:01+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1095,14 +1095,18 @@ msgstr "\"%1\" profilini tahrirlash"
 
 #: EditProfileDialog.cpp:455
 #, kde-format
-msgctxt "Suffix of the number of columns (N columns)"
+msgctxt ""
+"Suffix of the number of columns (N columns). The leading space is needed to "
+"separate it from the number value."
 msgid " column"
 msgid_plural " columns"
 msgstr[0] ""
 
 #: EditProfileDialog.cpp:456
 #, kde-format
-msgctxt "Suffix of the number of rows (N rows)"
+msgctxt ""
+"Suffix of the number of rows (N rows). The leading space is needed to "
+"separate it from the number value."
 msgid " row"
 msgid_plural " rows"
 msgstr[0] ""
@@ -2378,9 +2382,10 @@ msgid "Profile #%1"
 msgstr "\"%1\" profilini tahrirlash"
 
 #: RenameTabDialog.cpp:38
-#, kde-format
-msgid "Rename Tab"
-msgstr "Tabning nomini oʻzgartirish"
+#, fuzzy, kde-format
+#| msgid "Character Encoding"
+msgid "Current Tab Settings"
+msgstr "Kodlash usuli"
 
 #: RenameTabWidget.cpp:47
 #, fuzzy, kde-format
@@ -2706,8 +2711,8 @@ msgstr ""
 
 #: SessionController.cpp:719
 #, kde-format
-msgid "&Rename Tab..."
-msgstr "Tabning &nomini oʻzgartirish..."
+msgid "&Current Tab Settings..."
+msgstr ""
 
 #: SessionController.cpp:725
 #, kde-format
@@ -3800,11 +3805,10 @@ msgid "&Detach Tab"
 msgstr "Seansni &ajratish"
 
 #: ViewContainer.cpp:122
-#, fuzzy, kde-format
-#| msgid "&Rename Tab..."
+#, kde-format
 msgctxt "@action:inmenu"
-msgid "&Rename Tab..."
-msgstr "Tabning &nomini oʻzgartirish..."
+msgid "&Current Tab Settings..."
+msgstr ""
 
 #: ViewContainer.cpp:129
 #, fuzzy, kde-format
@@ -3959,6 +3963,18 @@ msgid ""
 "presses into characters to send to the terminal is missing."
 msgstr ""
 
+#~ msgid "Rename Tab"
+#~ msgstr "Tabning nomini oʻzgartirish"
+
+#~ msgid "&Rename Tab..."
+#~ msgstr "Tabning &nomini oʻzgartirish..."
+
+#, fuzzy
+#~| msgid "&Rename Tab..."
+#~ msgctxt "@action:inmenu"
+#~ msgid "&Rename Tab..."
+#~ msgstr "Tabning &nomini oʻzgartirish..."
+
 #, fuzzy
 #~| msgid "Open Link"
 #~ msgid "Open File"
@@ -4001,11 +4017,6 @@ msgstr ""
 #~| msgid "Konsole"
 #~ msgid "Konsole Window"
 #~ msgstr "Terminal"
-
-#, fuzzy
-#~| msgid "Character Encoding"
-#~ msgid "Default Search Settings"
-#~ msgstr "Kodlash usuli"
 
 #, fuzzy
 #~| msgid "Name"
