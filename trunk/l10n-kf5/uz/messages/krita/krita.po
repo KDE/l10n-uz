@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-01 02:08+0200\n"
+"POT-Creation-Date: 2020-07-03 02:05+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -7328,6 +7328,7 @@ msgid "Curve"
 msgstr "Egri chiziqli"
 
 #: libs/basicflakes/tools/KoPencilTool.cpp:320
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:45
 #, fuzzy, kde-format
 msgid "Straight"
 msgstr "Qator:"
@@ -7878,6 +7879,8 @@ msgstr "Kichiklashtirish"
 #. i18n: ectx: property (text), widget (QToolButton, joinSegment)
 #. i18n: ectx: property (text), widget (QToolButton, mergePoints)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectFile)
+#. i18n: ectx: property (text), widget (QToolButton, bnRenderOptions)
+#. i18n: ectx: property (text), widget (QToolButton, bnExportOptions)
 #. i18n: ectx: property (text), widget (QToolButton, capNJoinButton)
 #. i18n: ectx: property (text), widget (KisIconWidget, patternIconWidget)
 #. i18n: ectx: property (text), widget (KoColorPopupButton, btnChooseSolidColor)
@@ -7903,8 +7906,6 @@ msgstr "Kichiklashtirish"
 #. i18n: ectx: property (text), widget (QToolButton, bnRemove)
 #. i18n: ectx: property (text), widget (QToolButton, bnGetPreview)
 #. i18n: ectx: property (text), widget (QToolButton, bnSelectSaveLocation)
-#. i18n: ectx: property (text), widget (QToolButton, bnRenderOptions)
-#. i18n: ectx: property (text), widget (QToolButton, bnExportOptions)
 #. i18n: ectx: property (text), widget (KisLayerFilterWidgetToolButton, bnLayerFilters)
 #. i18n: ectx: property (text), widget (QToolButton, configureLayerDockerToolbar)
 #. i18n: ectx: property (text), widget (KisToolButton, bnAdd)
@@ -7935,6 +7936,8 @@ msgstr "Kichiklashtirish"
 #: libs/flake/tools/PathToolOptionWidgetBase.ui:150
 #: libs/flake/tools/PathToolOptionWidgetBase.ui:157
 #: libs/flake/tools/PathToolOptionWidgetBase.ui:164
+#: libs/ui/animation/wdg_animationrenderer.ui:238
+#: libs/ui/animation/wdg_animationrenderer.ui:363
 #: libs/ui/forms/wdggeneralsettings.ui:253 libs/ui/forms/wdgnewimage.ui:240
 #: libs/ui/forms/wdgnewimage.ui:259 libs/ui/forms/wdgperformancesettings.ui:239
 #: libs/ui/forms/wdgselectionoptions.ui:25
@@ -7972,8 +7975,6 @@ msgstr "Kichiklashtirish"
 #: plugins/dockers/palettedocker/wdgpalettedock.ui:114
 #: plugins/dockers/palettedocker/wdgpalettedock.ui:134
 #: plugins/dockers/svgcollectiondocker/WdgSvgCollection.ui:22
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:238
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:363
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:142
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:149
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:387
@@ -8089,13 +8090,13 @@ msgstr "&Andoza"
 msgid "Size"
 msgstr "Oʻlchami"
 
+#. i18n: ectx: property (suffix), widget (QSpinBox, intWidth)
+#. i18n: ectx: property (suffix), widget (QSpinBox, intHeight)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intHeight)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intWidth)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intRoundCornersX)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intRoundCornersY)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intCheckSize)
-#. i18n: ectx: property (suffix), widget (QSpinBox, intWidth)
-#. i18n: ectx: property (suffix), widget (QSpinBox, intHeight)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intHSpacing)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intVSpacing)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intXOffset)
@@ -8113,6 +8114,8 @@ msgstr "Oʻlchami"
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intY)
 #. i18n: ectx: property (suffix), widget (QSpinBox, patchRadius)
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.cpp:60
+#: libs/ui/animation/wdg_animationrenderer.ui:153
+#: libs/ui/animation/wdg_animationrenderer.ui:192
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:731
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:735
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:943
@@ -8139,13 +8142,15 @@ msgstr "Oʻlchami"
 #: plugins/dockers/griddocker/grid_config_widget.ui:258
 #: plugins/dockers/griddocker/grid_config_widget.ui:472
 #: plugins/dockers/griddocker/grid_config_widget.ui:517
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:153
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:192
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:48
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:56
 #: plugins/filters/blur/wdgblur.ui:42 plugins/filters/blur/wdgblur.ui:84
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:53
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:54
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:54
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:58
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:62
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:67
 #: plugins/paintops/curvebrush/kis_curve_line_option.cpp:33
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:80
 #: plugins/paintops/deform/kis_brush_size_option.cpp:50
@@ -8877,8 +8882,8 @@ msgid "Processing"
 msgstr "Bosim"
 
 #: libs/image/kis_psd_layer_style.cpp:100
-#: libs/ui/KisApplicationArguments.cpp:349 libs/ui/KisMainWindow.cpp:1341
-#: libs/ui/KisMainWindow.cpp:1607 libs/ui/KisMainWindow.cpp:1626
+#: libs/ui/KisApplicationArguments.cpp:349 libs/ui/KisMainWindow.cpp:1346
+#: libs/ui/KisMainWindow.cpp:1612 libs/ui/KisMainWindow.cpp:1631
 #: plugins/impex/libkra/kis_kra_saver.cpp:90
 #, kde-format
 msgid "Unnamed"
@@ -9356,7 +9361,7 @@ msgctxt "description of a file type"
 msgid "JP2 Image"
 msgstr "Rasm"
 
-#: libs/libkis/Document.cpp:918 libs/ui/KisMainWindow.cpp:1889
+#: libs/libkis/Document.cpp:918 libs/ui/KisMainWindow.cpp:1894
 #, fuzzy, kde-format
 msgid "Import frames"
 msgstr "Rasmni import qilish"
@@ -10670,8 +10675,8 @@ msgstr "Chiziqning enini oʻzgartirish"
 #: libs/pigment/resources/KoColorSet.cpp:813
 #: libs/pigment/resources/KoColorSet.cpp:895
 #: libs/pigment/resources/KoColorSet.cpp:1118
-#: libs/ui/actions/KisPasteActionFactories.cpp:276 libs/ui/KisView.cpp:715
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:295
+#: libs/ui/actions/KisPasteActionFactories.cpp:276
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:294 libs/ui/KisView.cpp:715
 #, fuzzy, kde-format
 msgid "Untitled"
 msgstr "Nomsiz-1"
@@ -11066,7 +11071,7 @@ msgid "Delete resource"
 msgstr "Matnni oʻchirish"
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:233
-#: libs/ui/KisMainWindow.cpp:2253
+#: libs/ui/KisMainWindow.cpp:2296
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -11261,6 +11266,829 @@ msgstr "Palitralar"
 msgctxt "(qtundo-format)"
 msgid "Activate transform tool"
 msgstr "Boshqa shaklga almashtirish"
+
+#: libs/ui/animation/KisAnimationRender.cpp:58
+#, kde-format
+msgid ""
+"%1 requires width and height to be even numbers.  Please resize or crop the "
+"image before exporting."
+msgstr ""
+
+#: libs/ui/animation/KisAnimationRender.cpp:59
+#: libs/ui/animation/KisAnimationRender.cpp:111
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:469
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:473
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:481
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:485
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:491
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:494
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:501
+#: libs/ui/dialogs/kis_dlg_preferences.cc:469
+#: libs/ui/input/kis_tablet_debugger.cpp:103 libs/ui/kis_filter_manager.cc:227
+#: libs/ui/kis_filter_manager.cc:236 libs/ui/kis_layer_manager.cc:315
+#: libs/ui/kis_layer_manager.cc:953 libs/ui/kis_node_manager.cpp:1159
+#: libs/ui/kis_node_manager.cpp:1215 libs/ui/KisApplication.cpp:920
+#: libs/ui/KisApplication.cpp:923 libs/ui/KisApplication.cpp:948
+#: libs/ui/KisApplication.cpp:980 libs/ui/KisApplication.cpp:994
+#: libs/ui/KisApplication.cpp:1022 libs/ui/KisDocument.cpp:792
+#: libs/ui/KisDocument.cpp:1518 libs/ui/KisDocument.cpp:1561
+#: libs/ui/KisDocument.cpp:1569 libs/ui/KisMainWindow.cpp:832
+#: libs/ui/KisMainWindow.cpp:1006 libs/ui/KisMainWindow.cpp:1128
+#: libs/ui/KisMainWindow.cpp:1141 libs/ui/KisMainWindow.cpp:1236
+#: libs/ui/KisMainWindow.cpp:1901 libs/ui/KisPart.cpp:549
+#: libs/ui/KisPart.cpp:552 libs/ui/KisReferenceImage.cpp:189
+#: libs/ui/KisRemoteFileFetcher.cpp:54 libs/ui/KisTemplateCreateDia.cpp:297
+#: libs/ui/KisTemplateCreateDia.cpp:403 libs/ui/KisView.cpp:718
+#: libs/ui/KisWelcomePageWidget.cpp:518
+#: libs/ui/opengl/kis_opengl_canvas2.cpp:399
+#: libs/ui/widgets/kis_custom_image_widget.cc:277
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:901
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:904
+#: plugins/dockers/gamutmask/gamutmask_dock.cpp:301
+#: plugins/extensions/imagesplit/imagesplit.cpp:86
+#: plugins/extensions/imagesplit/imagesplit.cpp:88
+#: plugins/extensions/qmic/QMic.cpp:126 plugins/extensions/qmic/QMic.cpp:298
+#: plugins/extensions/qmic/QMic.cpp:327
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:285
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:212
+#: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:394
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:157
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:162
+#: plugins/tools/basictools/kis_tool_colorpicker.cc:209
+#: plugins/tools/defaulttool/referenceimagestool/KisReferenceImageCollection.cpp:107
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:157
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:171
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:198
+#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:207
+#: plugins/tools/svgtexttool/SvgTextEditor.cpp:934
+#: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Krita"
+msgstr "Krita"
+
+#: libs/ui/animation/KisAnimationRender.cpp:59
+#: libs/ui/animation/KisAnimationRender.cpp:111
+#, fuzzy, kde-format
+msgid ""
+"Could not render animation:\n"
+"%1"
+msgstr "Moslash..."
+
+#: libs/ui/animation/KisAnimationRender.cpp:141 libs/ui/KisApplication.cpp:636
+#, fuzzy, kde-format
+msgid "Failed to render animation frames!"
+msgstr "Yangi qatlam yaratish"
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:62
+#: libs/ui/KisMainWindow.cpp:1919
+#, fuzzy, kde-format
+msgid "Render Animation"
+msgstr "Gradient vositasi"
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:469
+#, kde-format
+msgid "Please enter a file name to render to."
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:473
+#, kde-format
+msgid ""
+"<b>Krita can't find FFmpeg!</b><br>                <i>Krita depends on "
+"another free program called FFmpeg to turn frame-by-frame animations into "
+"video files. (<a href=\"https://www.ffmpeg.org\">www.ffmpeg.org</a>)</"
+"i><br><br>               To learn more about setting up Krita for rendering "
+"animations, <a href=\"https://docs.krita.org/en/reference_manual/"
+"render_animation.html#setting-up-krita-for-exporting-animations\">please "
+"visit this section of our User Manual.</a>"
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:481
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:501
+#, kde-format
+msgid ""
+"The location of FFmpeg is invalid. Please select the correct location of the "
+"FFmpeg executable on your system."
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:485
+#, kde-format
+msgid "Please extract ffmpeg from the archive first."
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:492
+#, kde-format
+msgid ""
+"This is a source code archive. Please download the application archive "
+"('Windows Builds'), unpack it and then provide the path to the extracted "
+"ffmpeg file."
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:495
+#, kde-format
+msgid "This is a source code archive. Please install ffmpeg instead."
+msgstr ""
+
+#: libs/ui/animation/KisVideoSaver.cpp:209
+#, fuzzy, kde-format
+msgid "ffmpeg could not be found at %1"
+msgstr "%1 topilmadi"
+
+#: libs/ui/animation/KisVideoSaver.cpp:248
+#, fuzzy, kde-format
+msgid "Fetching palette..."
+msgstr "Yangi palitra qoʻshish..."
+
+#: libs/ui/animation/KisVideoSaver.cpp:279
+#: libs/ui/animation/KisVideoSaver.cpp:318
+#, fuzzy, kde-format
+#| msgid "Export Layer"
+msgid "Encoding frames..."
+msgstr "Qatlamni eksport qilish"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCRFH264)
+#. i18n: ectx: property (text), widget (QLabel, lblCRFH265)
+#: libs/ui/animation/video_export_options_dialog.ui:27
+#: libs/ui/animation/video_export_options_dialog.ui:78
+#, fuzzy, kde-format
+msgid "Constant Rate Factor:"
+msgstr "Alfa moslamalari"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPresetH264)
+#. i18n: ectx: property (text), widget (QLabel, lblPresetH265)
+#. i18n: ectx: property (text), widget (QLabel, presetLabel)
+#: libs/ui/animation/video_export_options_dialog.ui:44
+#: libs/ui/animation/video_export_options_dialog.ui:95
+#: libs/ui/widgets/KoFillConfigWidget.ui:280
+#, fuzzy, kde-format
+#| msgid "Pressure:"
+msgid "Preset:"
+msgstr "Bosim:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblProfileH264)
+#. i18n: ectx: property (text), widget (QLabel, lblProfileH265)
+#. i18n: ectx: property (text), widget (QLabel, lblProfileTitle)
+#. i18n: ectx: property (text), widget (QLabel, lblProfiles)
+#: libs/ui/animation/video_export_options_dialog.ui:54
+#: libs/ui/animation/video_export_options_dialog.ui:105
+#: libs/ui/forms/wdgdlgpngimport.ui:17 libs/ui/forms/wdglayerproperties.ui:131
+#, kde-format
+msgid "Profile:"
+msgstr "Profil:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblTuneH264)
+#. i18n: ectx: property (text), widget (QLabel, lblTuneH265)
+#: libs/ui/animation/video_export_options_dialog.ui:64
+#: libs/ui/animation/video_export_options_dialog.ui:115
+#, kde-format
+msgid "Tune:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkUseHDRMetadata)
+#: libs/ui/animation/video_export_options_dialog.ui:125
+#, fuzzy, kde-format
+#| msgid "Mode"
+msgid "HDR Mode"
+msgstr "Usul"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnHdrMetadata)
+#: libs/ui/animation/video_export_options_dialog.ui:132
+#, fuzzy, kde-format
+msgid "HDR Metadata..."
+msgstr "Palitrani oʻzgartirish"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: libs/ui/animation/video_export_options_dialog.ui:143
+#, fuzzy, kde-format
+msgid "Bitrate:"
+msgstr "Soat koʻrsatgichi boʻyicha burish"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/animation/video_export_options_dialog.ui:164
+#, kde-format
+msgid "Bitrate (MBit/s)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, vp9Lossless)
+#: libs/ui/animation/video_export_options_dialog.ui:178
+#, kde-format
+msgid "Lossless"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkCustomLine)
+#: libs/ui/animation/video_export_options_dialog.ui:191
+#, fuzzy, kde-format
+msgid "Custom Options:"
+msgstr "Geometriya moslamalari"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, txtCustomLine)
+#: libs/ui/animation/video_export_options_dialog.ui:200
+#, kde-format
+msgid ""
+"Add any ffmpeg filtering options here. It will be put between source and "
+"destination streams of the ffmpeg"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, btnResetCustomLine)
+#. i18n: ectx: property (text), widget (QPushButton, resetFilter)
+#. i18n: ectx: property (text), widget (QPushButton, resetButton)
+#. i18n: ectx: property (text), widget (QPushButton, reset)
+#. i18n: ectx: property (text), widget (QPushButton, resetOriginButton)
+#: libs/ui/animation/video_export_options_dialog.ui:207
+#: libs/widgetutils/xmlgui/kedittoolbar.cpp:685
+#: plugins/dockers/animation/onion_skins_docker.ui:95
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:235
+#: plugins/filters/colorsfilters/wdg_perchannel.ui:342
+#: plugins/tools/basictools/wdgmultihandtool.ui:204
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:139
+#, fuzzy, kde-format
+msgid "Reset"
+msgstr "Qaytada&n tanlash"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:37
+#, kde-format
+msgctxt ""
+"theora codec name, check simplescreenrecorder for standard translations"
+msgid "Theora"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:40
+#, kde-format
+msgctxt "VP9 codec name"
+msgid "VP9"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:43
+#, kde-format
+msgctxt "h264 codec name, check simplescreenrecorder for standard translations"
+msgid "H.264, MPEG-4 Part 10"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:44
+#, kde-format
+msgctxt "h265 codec name, check simplescreenrecorder for standard translations"
+msgid "H.265, MPEG-H Part 2 (HEVC)"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:48
+#, fuzzy, kde-format
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "ultrafast"
+msgstr "Satrma-satr"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:49
+#, fuzzy, kde-format
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "superfast"
+msgstr "Satrma-satr"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:50
+#, fuzzy, kde-format
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "veryfast"
+msgstr "Satrma-satr"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:51
+#, fuzzy, kde-format
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "faster"
+msgstr "Sana"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:52
+#, fuzzy, kde-format
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "fast"
+msgstr "Sana"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:53
+#, kde-format
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "medium"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:54
+#, fuzzy, kde-format
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "slow"
+msgstr "So&yalar"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:55
+#, fuzzy, kde-format
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "slower"
+msgstr "So&yalar"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:56
+#, fuzzy, kde-format
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "veryslow"
+msgstr "Satrma-satr"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:57
+#, fuzzy, kde-format
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "placebo"
+msgstr "Displey"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:59
+#, fuzzy, kde-format
+msgctxt ""
+"h264 profile name, check simplescreenrecorder for standard translations"
+msgid "baseline"
+msgstr "Namuna sifatida ishlatish"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:60
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:66
+#, kde-format
+msgctxt ""
+"h264 profile name, check simplescreenrecorder for standard translations"
+msgid "main"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:61
+#, fuzzy, kde-format
+msgctxt ""
+"h264 profile name, check simplescreenrecorder for standard translations"
+msgid "high"
+msgstr "So&yalar"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:62
+#, fuzzy, kde-format
+msgctxt ""
+"h264 profile name, check simplescreenrecorder for standard translations"
+msgid "high10"
+msgstr "So&yalar"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:63
+#, fuzzy, kde-format
+msgctxt ""
+"h264 profile name, check simplescreenrecorder for standard translations"
+msgid "high422"
+msgstr "So&yalar"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:64
+#, fuzzy, kde-format
+msgctxt ""
+"h264 profile name, check simplescreenrecorder for standard translations"
+msgid "high444"
+msgstr "So&yalar"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:67
+#, kde-format
+msgctxt ""
+"h264 profile name, check simplescreenrecorder for standard translations"
+msgid "main10 (HDR)"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:70
+#, kde-format
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "film"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:71
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:80
+#, fuzzy, kde-format
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "animation"
+msgstr "Animatsiyali"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:72
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:81
+#, fuzzy, kde-format
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "grain"
+msgstr "Kul"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:73
+#, fuzzy, kde-format
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "stillimage"
+msgstr "Rasm"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:74
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:82
+#, kde-format
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "psnr"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:75
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:83
+#, kde-format
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "ssim"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:76
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:84
+#, fuzzy, kde-format
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "fastdecode"
+msgstr "Sana"
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:77
+#, kde-format
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "zerolatency"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:79
+#, kde-format
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "none"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:85
+#, kde-format
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "zero-latency"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:135
+#, kde-format
+msgctxt "kilo-bits-per-second, video bitrate suffix"
+msgid "kbps"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:426
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Exported animation format does not support HDR"
+msgstr ""
+
+#: libs/ui/animation/VideoExportOptionsDialog.cpp:428
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "HDR metadata available only with \"main10\" profile"
+msgstr ""
+
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.cpp:34
+#, kde-format
+msgid "Rec. 2100 PQ"
+msgstr ""
+
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.cpp:35
+#, kde-format
+msgid "DCI-P3 D65"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, editWhiteBalance)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.cpp:36
+#: plugins/extensions/metadataeditor/editors/exif.ui:924
+#, fuzzy, kde-format
+msgid "Custom"
+msgstr "&Boshqa:"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, WdgDlgInternalColorSelector)
+#. i18n: ectx: property (windowTitle), widget (QDialog, VideoHDRMetadataOptionsDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog, FilterDialog)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgImportImageSequence)
+#. i18n: ectx: property (windowTitle), widget (QDialog, WdgDlgPaletteEditor)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:14
+#: libs/ui/forms/WdgDlgPaletteEditor.ui:14 libs/ui/forms/wdgfilterdialog.ui:26
+#: libs/ui/forms/wdgimportimagesequence.ui:14
+#: libs/widgets/WdgDlgInternalColorSelector.ui:14
+#, kde-format
+msgid "Dialog"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:22
+#, fuzzy, kde-format
+msgid "Master Display:"
+msgstr "Displey"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpCustomDisplay)
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:34
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1501
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1503
+#: libs/ui/forms/wdgcolorsettings.ui:138 libs/ui/forms/wdgdisplaysettings.ui:20
+#, fuzzy, kde-format
+msgid "Display"
+msgstr "Displey"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:42
+#: libs/ui/kis_paintop_box.cc:289
+#, fuzzy, kde-format
+#| msgid "Fax:"
+msgid "x"
+msgstr "Faks:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:52
+#, fuzzy, kde-format
+msgid "y"
+msgstr "Uslubi:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:64
+#, kde-format
+msgid "Red Primary:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:101
+#, fuzzy, kde-format
+msgid "Green Primary:"
+msgstr "Yashil"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:138
+#, fuzzy, kde-format
+msgid "Blue Primary:"
+msgstr "Yashil-havorang"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: ectx: property (text), widget (QLabel, lblWhitepoint)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:175
+#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:216
+#, fuzzy, kde-format
+msgid "White Point:"
+msgstr "Alfa moslamalari"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:228
+#, fuzzy, kde-format
+msgid "Min Luminance:"
+msgstr "Chiziq"
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, dblMinLuminance)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, dblMaxLuminance)
+#. i18n: ectx: property (suffix), widget (QSpinBox, intMaxCLL)
+#. i18n: ectx: property (suffix), widget (QSpinBox, intMaxFALL)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:235
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:255
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:296
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:313
+#, kde-format
+msgid " cd/m²"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:248
+#, fuzzy, kde-format
+msgid "Max Luminance:"
+msgstr "Chiziq"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:289
+#, kde-format
+msgid "MaxCLL:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:306
+#, kde-format
+msgid "MaxFALL:"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgAnimaterionRenderer)
+#: libs/ui/animation/wdg_animationrenderer.ui:20
+#, fuzzy, kde-format
+#| msgid "Create a new layer"
+msgid "AnimationRenderer Image"
+msgstr "Yangi qatlam yaratish"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: libs/ui/animation/wdg_animationrenderer.ui:35
+#, fuzzy, kde-format
+msgid "Export:"
+msgstr "Ekspozitsiya:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, shouldExportOnlyImageSequence)
+#: libs/ui/animation/wdg_animationrenderer.ui:42
+#, fuzzy, kde-format
+msgid "Image Se&quence"
+msgstr "Markaz:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, shouldExportOnlyVideo)
+#: libs/ui/animation/wdg_animationrenderer.ui:49
+#, kde-format
+msgid "&Video"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, shouldExportAll)
+#. i18n: ectx: property (text), widget (QRadioButton, radioBoth)
+#: libs/ui/animation/wdg_animationrenderer.ui:56
+#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:44
+#, kde-format
+msgid "Both"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: libs/ui/animation/wdg_animationrenderer.ui:91
+#, fuzzy, kde-format
+msgid "First frame:"
+msgstr "Filter boʻyogʻi"
+
+#. i18n: ectx: property (text), widget (QLabel, fpsLabel)
+#: libs/ui/animation/wdg_animationrenderer.ui:104
+#, kde-format
+msgid "FPS:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: libs/ui/animation/wdg_animationrenderer.ui:137
+#, fuzzy, kde-format
+msgid "Last frame:"
+msgstr "Nomlangan ranglar"
+
+#. i18n: ectx: property (text), widget (QLabel, lblWidth)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, lblSize)
+#. i18n: ectx: property (text), widget (QLabel, widthInfoLbl)
+#. i18n: ectx: property (text), widget (QLabel, lblNewWidth)
+#. i18n: ectx: property (text), widget (QLabel, lblPixelWidth)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, widthLabel)
+#. i18n: ectx: property (text), widget (QLabel, intWidthzqffs)
+#. i18n: ectx: property (text), widget (QLabel, label_width)
+#: libs/ui/animation/wdg_animationrenderer.ui:166
+#: libs/ui/dialogs/KisDlgCustomTabletResolution.ui:67
+#: libs/ui/forms/wdg_resolution.ui:20 libs/ui/forms/wdgimageproperties.ui:44
+#: libs/ui/forms/wdgrectangleconstraints.ui:92
+#: libs/ui/forms/wdgstrokeselectionproperties.ui:129
+#: libs/ui/input/wintab/kis_screen_size_choice_dialog.ui:77
+#: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1088
+#: plugins/extensions/imagesize/wdg_canvassize.ui:45
+#: plugins/extensions/imagesize/wdg_imagesize.ui:67
+#: plugins/extensions/imagesize/wdg_layersize.ui:58
+#: plugins/generators/pattern/wdgpatternoptions.ui:106
+#: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:161
+#: plugins/impex/pdf/pdfimportwidgetbase.ui:163
+#: plugins/paintops/spray/wdgsprayshapeoptions.ui:94
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:79
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:192
+#: plugins/python/documenttools/tools/canvassizetool/canvassizetool.py:46
+#: plugins/python/documenttools/tools/scaletool/scaletool.py:52
+#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:91
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:319
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:875
+#, kde-format
+msgid "Width:"
+msgstr "Eni:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblHeight)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, heightInfoLbl)
+#. i18n: ectx: property (text), widget (QLabel, lblNewHeight)
+#. i18n: ectx: property (text), widget (QLabel, lblPixelHeight)
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#. i18n: ectx: property (text), widget (QLabel, heightLabel)
+#. i18n: ectx: property (text), widget (QLabel, intHeightqsdfq)
+#. i18n: ectx: property (text), widget (QLabel, label_height)
+#: libs/ui/animation/wdg_animationrenderer.ui:176
+#: libs/ui/dialogs/KisDlgCustomTabletResolution.ui:104
+#: libs/ui/forms/wdg_resolution.ui:27 libs/ui/forms/wdgimageproperties.ui:67
+#: libs/ui/forms/wdgrectangleconstraints.ui:150
+#: libs/ui/input/wintab/kis_screen_size_choice_dialog.ui:114
+#: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:847
+#: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1065
+#: plugins/extensions/imagesize/wdg_canvassize.ui:29
+#: plugins/extensions/imagesize/wdg_imagesize.ui:97
+#: plugins/extensions/imagesize/wdg_layersize.ui:125
+#: plugins/generators/pattern/wdgpatternoptions.ui:135
+#: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:108
+#: plugins/impex/pdf/pdfimportwidgetbase.ui:195
+#: plugins/paintops/spray/wdgsprayshapeoptions.ui:129
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:80
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:196
+#: plugins/python/documenttools/tools/canvassizetool/canvassizetool.py:47
+#: plugins/python/documenttools/tools/scaletool/scaletool.py:53
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:221
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:935
+#, kde-format
+msgid "Height:"
+msgstr "Uzunasi:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, videoOptionsGroup)
+#: libs/ui/animation/wdg_animationrenderer.ui:212
+#, fuzzy, kde-format
+msgid "Video Options"
+msgstr "Geometriya moslamalari"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnRenderOptions)
+#: libs/ui/animation/wdg_animationrenderer.ui:235
+#, fuzzy, kde-format
+msgid "Select the ffmpeg render options."
+msgstr "Joriy belgilanganga &qoʻshish"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: libs/ui/animation/wdg_animationrenderer.ui:247
+#, kde-format
+msgid "FF&Mpeg: "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: libs/ui/animation/wdg_animationrenderer.ui:263
+#, fuzzy, kde-format
+msgid "Render as:"
+msgstr "Matnni oʻchirish"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: libs/ui/animation/wdg_animationrenderer.ui:273
+#, fuzzy, kde-format
+#| msgid "Rotating"
+msgid "Video Location:"
+msgstr "Burish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkIncludeAudio)
+#: libs/ui/animation/wdg_animationrenderer.ui:289
+#, fuzzy, kde-format
+msgid "Include Audio"
+msgstr "Yangi hujjatlarda ochish"
+
+#. i18n: ectx: property (text), widget (QLabel, lblGifWarning)
+#: libs/ui/animation/wdg_animationrenderer.ui:298
+#, kde-format
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Warning:</span> "
+"animated gif images cannot have a framerate higher than 50. The framerate "
+"will be reduced to 50 frames per second.</p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, imageSequenceOptionsGroup)
+#: libs/ui/animation/wdg_animationrenderer.ui:324
+#, fuzzy, kde-format
+msgid "Image Sequence Options"
+msgstr "Markaz:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: libs/ui/animation/wdg_animationrenderer.ui:332
+#, fuzzy, kde-format
+msgid "Fi&le format:"
+msgstr "Formati:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, cmbMimetype)
+#: libs/ui/animation/wdg_animationrenderer.ui:353
+#, kde-format
+msgid ""
+"Select the file format for the image sequence. If you want to render to "
+"video or animated gif, you can only select PNG"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnExportOptions)
+#: libs/ui/animation/wdg_animationrenderer.ui:360
+#, fuzzy, kde-format
+msgid "Select the frame export options"
+msgstr "Joriy belgilanganga &qoʻshish"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: libs/ui/animation/wdg_animationrenderer.ui:372
+#, fuzzy, kde-format
+#| msgid "Total editing time:"
+msgid "Start numbering at:"
+msgstr "Umumiy tahrirlash vaqti:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libs/ui/animation/wdg_animationrenderer.ui:398
+#, fuzzy, kde-format
+#| msgid "Layer name:"
+msgid "Base name:"
+msgstr "Qatlamning nomi:"
+
+#. i18n: ectx: property (text), widget (QLineEdit, txtBasename)
+#: libs/ui/animation/wdg_animationrenderer.ui:408
+#, fuzzy, kde-format
+msgid "frame"
+msgstr "Yaratish"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/animation/wdg_animationrenderer.ui:415
+#, fuzzy, kde-format
+msgid "Image location:"
+msgstr "Tanlanganni bekitish"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkOnlyUniqueFrames)
+#: libs/ui/animation/wdg_animationrenderer.ui:435
+#, kde-format
+msgid "Only Unique Frames"
+msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, KisDlgConfigureBrushHud)
 #: libs/ui/brushhud/kis_dlg_brush_hud_config.ui:20
@@ -11667,7 +12495,7 @@ msgid "Numerical"
 msgstr "Uskuna:"
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:136
-#: libs/ui/KisMainWindow.cpp:1100
+#: libs/ui/KisMainWindow.cpp:1105
 #, fuzzy, kde-format
 msgid "Import Images"
 msgstr "Rasmni import qilish"
@@ -11700,6 +12528,10 @@ msgstr "Qatlamning xossalari"
 #: plugins/dockers/layerdocker/LayerBox.cpp:199
 #: plugins/generators/pattern/wdgpatternoptions.ui:116
 #: plugins/generators/pattern/wdgpatternoptions.ui:145
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:41
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:44
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:47
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:50
 #: plugins/impex/jpeg/kis_jpeg_export.cc:230
 #: plugins/impex/jpeg/kis_jpeg_export.cc:232
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:142
@@ -11762,7 +12594,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "Guruhning nomini kiriting:"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:280 libs/ui/KisMainWindow.cpp:2276
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:280 libs/ui/KisMainWindow.cpp:2319
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:372
 #, fuzzy, kde-format
 msgctxt "@label:textbox"
@@ -11966,59 +12798,6 @@ msgid "Select a Background Image"
 msgstr "Tanlash usuli:"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:469
-#: libs/ui/input/kis_tablet_debugger.cpp:103 libs/ui/kis_filter_manager.cc:227
-#: libs/ui/kis_filter_manager.cc:236 libs/ui/kis_layer_manager.cc:315
-#: libs/ui/kis_layer_manager.cc:953 libs/ui/kis_node_manager.cpp:1159
-#: libs/ui/kis_node_manager.cpp:1215 libs/ui/KisApplication.cpp:920
-#: libs/ui/KisApplication.cpp:923 libs/ui/KisApplication.cpp:948
-#: libs/ui/KisApplication.cpp:980 libs/ui/KisApplication.cpp:994
-#: libs/ui/KisApplication.cpp:1022 libs/ui/KisDocument.cpp:792
-#: libs/ui/KisDocument.cpp:1518 libs/ui/KisDocument.cpp:1561
-#: libs/ui/KisDocument.cpp:1569 libs/ui/KisMainWindow.cpp:827
-#: libs/ui/KisMainWindow.cpp:1001 libs/ui/KisMainWindow.cpp:1123
-#: libs/ui/KisMainWindow.cpp:1136 libs/ui/KisMainWindow.cpp:1231
-#: libs/ui/KisMainWindow.cpp:1896 libs/ui/KisPart.cpp:549
-#: libs/ui/KisPart.cpp:552 libs/ui/KisReferenceImage.cpp:189
-#: libs/ui/KisRemoteFileFetcher.cpp:54 libs/ui/KisTemplateCreateDia.cpp:297
-#: libs/ui/KisTemplateCreateDia.cpp:403 libs/ui/KisView.cpp:718
-#: libs/ui/KisWelcomePageWidget.cpp:518
-#: libs/ui/opengl/kis_opengl_canvas2.cpp:399
-#: libs/ui/widgets/kis_custom_image_widget.cc:277
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:901
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:904
-#: plugins/dockers/gamutmask/gamutmask_dock.cpp:301
-#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:127
-#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:179
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:472
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:476
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:484
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:488
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:494
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:497
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:504
-#: plugins/extensions/imagesplit/imagesplit.cpp:86
-#: plugins/extensions/imagesplit/imagesplit.cpp:88
-#: plugins/extensions/qmic/QMic.cpp:126 plugins/extensions/qmic/QMic.cpp:298
-#: plugins/extensions/qmic/QMic.cpp:327
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:285
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:212
-#: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:394
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:157
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:162
-#: plugins/tools/basictools/kis_tool_colorpicker.cc:209
-#: plugins/tools/defaulttool/referenceimagestool/KisReferenceImageCollection.cpp:107
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:157
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:171
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:198
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:207
-#: plugins/tools/svgtexttool/SvgTextEditor.cpp:934
-#: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
-#, fuzzy, kde-format
-msgctxt "@title:window"
-msgid "Krita"
-msgstr "Krita"
-
-#: libs/ui/dialogs/kis_dlg_preferences.cc:469
 #: libs/ui/KisTemplateCreateDia.cpp:403
 #, fuzzy, kde-format
 msgid "%1 is not a valid image file!"
@@ -12200,17 +12979,6 @@ msgstr "Rang moslamalari"
 msgid "Canvas Input"
 msgstr "Kranlar"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
-#. i18n: ectx: property (title), widget (QGroupBox, grpCustomDisplay)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1501
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1503
-#: libs/ui/forms/wdgcolorsettings.ui:138 libs/ui/forms/wdgdisplaysettings.ui:20
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:34
-#, fuzzy, kde-format
-msgid "Display"
-msgstr "Displey"
-
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1511
 #: plugins/dockers/logdocker/LogDockerDock.cpp:202
 #, kde-format
@@ -12367,41 +13135,6 @@ msgstr ""
 msgid "Map to custom area"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lblWidth)
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, lblSize)
-#. i18n: ectx: property (text), widget (QLabel, widthInfoLbl)
-#. i18n: ectx: property (text), widget (QLabel, lblNewWidth)
-#. i18n: ectx: property (text), widget (QLabel, lblPixelWidth)
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. i18n: ectx: property (text), widget (QLabel, widthLabel)
-#. i18n: ectx: property (text), widget (QLabel, intWidthzqffs)
-#. i18n: ectx: property (text), widget (QLabel, label_width)
-#: libs/ui/dialogs/KisDlgCustomTabletResolution.ui:67
-#: libs/ui/forms/wdg_resolution.ui:20 libs/ui/forms/wdgimageproperties.ui:44
-#: libs/ui/forms/wdgrectangleconstraints.ui:92
-#: libs/ui/forms/wdgstrokeselectionproperties.ui:129
-#: libs/ui/input/wintab/kis_screen_size_choice_dialog.ui:77
-#: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1088
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:166
-#: plugins/extensions/imagesize/wdg_canvassize.ui:45
-#: plugins/extensions/imagesize/wdg_imagesize.ui:67
-#: plugins/extensions/imagesize/wdg_layersize.ui:58
-#: plugins/generators/pattern/wdgpatternoptions.ui:106
-#: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:161
-#: plugins/impex/pdf/pdfimportwidgetbase.ui:163
-#: plugins/paintops/spray/wdgsprayshapeoptions.ui:94
-#: plugins/python/comics_project_management_tools/comics_export_dialog.py:79
-#: plugins/python/comics_project_management_tools/comics_template_dialog.py:192
-#: plugins/python/documenttools/tools/canvassizetool/canvassizetool.py:46
-#: plugins/python/documenttools/tools/scaletool/scaletool.py:52
-#: plugins/tools/karbonplugins/tools/CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:91
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:319
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:875
-#, kde-format
-msgid "Width:"
-msgstr "Eni:"
-
 #. i18n: ectx: property (suffix), widget (QSpinBox, intWidth)
 #. i18n: ectx: property (suffix), widget (QSpinBox, intXOffset)
 #. i18n: ectx: property (suffix), widget (QSpinBox, intHeight)
@@ -12451,40 +13184,6 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "X offset:"
 msgstr "&X ofset:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblHeight)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), widget (QLabel, heightInfoLbl)
-#. i18n: ectx: property (text), widget (QLabel, lblNewHeight)
-#. i18n: ectx: property (text), widget (QLabel, lblPixelHeight)
-#. i18n: ectx: property (text), widget (QLabel, label_14)
-#. i18n: ectx: property (text), widget (QLabel, label_12)
-#. i18n: ectx: property (text), widget (QLabel, heightLabel)
-#. i18n: ectx: property (text), widget (QLabel, intHeightqsdfq)
-#. i18n: ectx: property (text), widget (QLabel, label_height)
-#: libs/ui/dialogs/KisDlgCustomTabletResolution.ui:104
-#: libs/ui/forms/wdg_resolution.ui:27 libs/ui/forms/wdgimageproperties.ui:67
-#: libs/ui/forms/wdgrectangleconstraints.ui:150
-#: libs/ui/input/wintab/kis_screen_size_choice_dialog.ui:114
-#: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:847
-#: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1065
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:176
-#: plugins/extensions/imagesize/wdg_canvassize.ui:29
-#: plugins/extensions/imagesize/wdg_imagesize.ui:97
-#: plugins/extensions/imagesize/wdg_layersize.ui:125
-#: plugins/generators/pattern/wdgpatternoptions.ui:135
-#: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:108
-#: plugins/impex/pdf/pdfimportwidgetbase.ui:195
-#: plugins/paintops/spray/wdgsprayshapeoptions.ui:129
-#: plugins/python/comics_project_management_tools/comics_export_dialog.py:80
-#: plugins/python/comics_project_management_tools/comics_template_dialog.py:196
-#: plugins/python/documenttools/tools/canvassizetool/canvassizetool.py:47
-#: plugins/python/documenttools/tools/scaletool/scaletool.py:53
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:221
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:935
-#, kde-format
-msgid "Height:"
-msgstr "Uzunasi:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblYOffset)
 #: libs/ui/dialogs/KisDlgCustomTabletResolution.ui:121
@@ -12596,7 +13295,7 @@ msgid "Session name:"
 msgstr "Tanlash usuli:"
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:101
-#: libs/ui/KisMainWindow.cpp:2282 libs/ui/widgets/kis_gradient_chooser.cc:227
+#: libs/ui/KisMainWindow.cpp:2325 libs/ui/widgets/kis_gradient_chooser.cc:227
 #: libs/ui/widgets/KoFillConfigWidget.cpp:630
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:378
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:206
@@ -12606,7 +13305,7 @@ msgid "Name Already Exists"
 msgstr ""
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:102
-#: libs/ui/KisMainWindow.cpp:2283 libs/ui/widgets/kis_gradient_chooser.cc:228
+#: libs/ui/KisMainWindow.cpp:2326 libs/ui/widgets/kis_gradient_chooser.cc:228
 #: libs/ui/widgets/KoFillConfigWidget.cpp:631
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:379
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:207
@@ -12956,8 +13655,10 @@ msgid "Title:"
 msgstr "Uslubi:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPositionDesc)
+#. i18n: ectx: property (text), widget (QLabel, labelTranslation)
 #: libs/ui/forms/koDocumentInfoAuthorWidget.ui:102
 #: libs/widgets/KoConfigAuthorPage.ui:61
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:170
 #, kde-format
 msgid "Position:"
 msgstr "Joylashishi:"
@@ -13197,6 +13898,8 @@ msgstr "Shaffof"
 #: libs/ui/layerstyles/WdgGradientOverlay.ui:134
 #: libs/ui/layerstyles/WdgStroke.ui:227
 #: libs/ui/widgets/KoFillConfigWidget.ui:225
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:60
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:65
 #, kde-format
 msgid "Linear"
 msgstr "Chiziqli"
@@ -13495,14 +14198,6 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Profile Properties"
 msgstr "Qatlamning xossalari"
-
-#. i18n: ectx: property (text), widget (QLabel, lblWhitepoint)
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:216
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:175
-#, fuzzy, kde-format
-msgid "White Point:"
-msgstr "Alfa moslamalari"
 
 #. i18n: ectx: property (text), widget (QLabel, lblXYZ_W)
 #: libs/ui/forms/wdgcolorspaceselectoradvanced.ui:223
@@ -13834,19 +14529,6 @@ msgstr "Rasmning oʻlchami"
 msgid "Layer Name:"
 msgstr "Qatlamning nomi:"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, WdgDlgInternalColorSelector)
-#. i18n: ectx: property (windowTitle), widget (QDialog, FilterDialog)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgImportImageSequence)
-#. i18n: ectx: property (windowTitle), widget (QDialog, WdgDlgPaletteEditor)
-#. i18n: ectx: property (windowTitle), widget (QDialog, VideoHDRMetadataOptionsDialog)
-#: libs/ui/forms/WdgDlgPaletteEditor.ui:14 libs/ui/forms/wdgfilterdialog.ui:26
-#: libs/ui/forms/wdgimportimagesequence.ui:14
-#: libs/widgets/WdgDlgInternalColorSelector.ui:14
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:14
-#, kde-format
-msgid "Dialog"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QRadioButton, rb_global)
 #: libs/ui/forms/WdgDlgPaletteEditor.ui:51
 #, fuzzy, kde-format
@@ -13858,17 +14540,6 @@ msgstr "Qatlamni &olib tashlash"
 #, fuzzy, kde-format
 msgid "Document"
 msgstr "Yangi hujjatlarda ochish"
-
-#. i18n: ectx: property (text), widget (QLabel, lblProfileTitle)
-#. i18n: ectx: property (text), widget (QLabel, lblProfiles)
-#. i18n: ectx: property (text), widget (QLabel, lblProfileH264)
-#. i18n: ectx: property (text), widget (QLabel, lblProfileH265)
-#: libs/ui/forms/wdgdlgpngimport.ui:17 libs/ui/forms/wdglayerproperties.ui:131
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:54
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:105
-#, kde-format
-msgid "Profile:"
-msgstr "Profil:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnPreviewMask)
@@ -14907,7 +15578,9 @@ msgid "Bac&kground Color:"
 msgstr "Orqa fon rangi"
 
 #. i18n: ectx: property (text), widget (QLabel, lblBackgroundStyle)
+#. i18n: ectx: property (text), widget (QLabel, mLabelBackground)
 #: libs/ui/forms/wdgnewimage.ui:487
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:390
 #, fuzzy, kde-format
 msgid "Background:"
 msgstr "orqa fon"
@@ -15016,7 +15689,7 @@ msgstr "Joriy qatlam"
 #. i18n: ectx: property (text), widget (QPushButton, savePresetButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:184
-#: libs/ui/forms/wdgsavebrushpreset.ui:215 libs/ui/KisMainWindow.cpp:951
+#: libs/ui/forms/wdgsavebrushpreset.ui:215 libs/ui/KisMainWindow.cpp:956
 #: libs/ui/widgets/kis_workspace_chooser.cpp:121
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:210
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:62
@@ -17160,9 +17833,11 @@ msgstr "So&yalar"
 
 #. i18n: ectx: property (text), widget (QLabel, brushSizeLabel)
 #. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, labelSize)
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
 #: libs/ui/kis_paintop_box.cc:246 libs/ui/kis_paintop_box.cc:252
 #: plugins/filters/halftone/wdg_halftone_filter.ui:42
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:210
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:198
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1991
 #, fuzzy, kde-format
@@ -17173,14 +17848,6 @@ msgstr "Oʻlchami"
 #, fuzzy, kde-format
 msgid "Pattern Scale:"
 msgstr "Namuna"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: libs/ui/kis_paintop_box.cc:289
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:42
-#, fuzzy, kde-format
-#| msgid "Fax:"
-msgid "x"
-msgstr "Faks:"
 
 #: libs/ui/kis_paintop_box.cc:307
 #, fuzzy, kde-format
@@ -17449,6 +18116,8 @@ msgstr ""
 #: libs/ui/kis_stopgradient_editor.cpp:53
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1051
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1057
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:40
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:43
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:123
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:54
 #, fuzzy, kde-format
@@ -17586,12 +18255,6 @@ msgstr "Gradient"
 #, kde-format
 msgid "Mimetype not found, try using the -mimetype option"
 msgstr ""
-
-#: libs/ui/KisApplication.cpp:636
-#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:209
-#, fuzzy, kde-format
-msgid "Failed to render animation frames!"
-msgstr "Yangi qatlam yaratish"
 
 #: libs/ui/KisApplication.cpp:671 libs/ui/KisApplication.cpp:676
 #: libs/ui/KisApplication.cpp:783 libs/ui/KisApplication.cpp:797
@@ -18245,79 +18908,79 @@ msgstr "Oʻrnini almashtirishmoq"
 msgid "Also save your image as a Krita file."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:187
+#: libs/ui/KisMainWindow.cpp:190
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Styles"
 msgstr "Uslublar"
 
-#: libs/ui/KisMainWindow.cpp:188
+#: libs/ui/KisMainWindow.cpp:191
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&Dockers"
 msgstr "Qulflangan"
 
-#: libs/ui/KisMainWindow.cpp:189
+#: libs/ui/KisMainWindow.cpp:192
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&Window"
 msgstr "&Qatlam"
 
-#: libs/ui/KisMainWindow.cpp:190
+#: libs/ui/KisMainWindow.cpp:193
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "New &View"
 msgstr "Rasmning oʻlchami"
 
-#: libs/ui/KisMainWindow.cpp:191
+#: libs/ui/KisMainWindow.cpp:194
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr "Ranglar boʻshligʻi"
 
-#: libs/ui/KisMainWindow.cpp:548
+#: libs/ui/KisMainWindow.cpp:553
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:156
 #, fuzzy, kde-format
 msgid "Show %1 Toolbar"
 msgstr "Asl qatlamni koʻrsatish"
 
-#: libs/ui/KisMainWindow.cpp:550
+#: libs/ui/KisMainWindow.cpp:555
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:158
 #, fuzzy, kde-format
 msgid "Hide %1 Toolbar"
 msgstr "Yulduz vositasi"
 
-#: libs/ui/KisMainWindow.cpp:827
+#: libs/ui/KisMainWindow.cpp:832
 #, kde-format
 msgid "The chosen file's location could not be found. Does it exist?"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:931
+#: libs/ui/KisMainWindow.cpp:936
 #, fuzzy, kde-format
 msgid "Write Protected"
 msgstr "Faylni yaratish"
 
-#: libs/ui/KisMainWindow.cpp:935
+#: libs/ui/KisMainWindow.cpp:940
 #, fuzzy, kde-format
 msgid "Recovered"
 msgstr "Toʻgʻri burcha&k"
 
-#: libs/ui/KisMainWindow.cpp:948
+#: libs/ui/KisMainWindow.cpp:953
 #, fuzzy, kde-format
 msgid "Save as %1"
 msgstr "Plazma"
 
-#: libs/ui/KisMainWindow.cpp:1001
+#: libs/ui/KisMainWindow.cpp:1006
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "%1 fayli mavjud emas."
 
-#: libs/ui/KisMainWindow.cpp:1100
+#: libs/ui/KisMainWindow.cpp:1105
 #, fuzzy, kde-format
 msgid "Open Images"
 msgstr "Rasm"
 
-#: libs/ui/KisMainWindow.cpp:1232
+#: libs/ui/KisMainWindow.cpp:1237
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -18326,33 +18989,33 @@ msgid ""
 "Please select a location where the original file will not be overridden!"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1288
+#: libs/ui/KisMainWindow.cpp:1293
 #, fuzzy, kde-format
 msgid "Exporting"
 msgstr "Ekspozitsiya:"
 
-#: libs/ui/KisMainWindow.cpp:1288
+#: libs/ui/KisMainWindow.cpp:1293
 #, fuzzy, kde-format
 msgid "Saving As"
 msgstr "Vaqtni koʻrinishi"
 
-#: libs/ui/KisMainWindow.cpp:1586
+#: libs/ui/KisMainWindow.cpp:1591
 #: libs/widgetutils/config/kstandardaction_p.h:41
 #, fuzzy, kde-format
 msgid "Create new document"
 msgstr "Boʻsh hujjatni yaratish"
 
-#: libs/ui/KisMainWindow.cpp:1610
+#: libs/ui/KisMainWindow.cpp:1615
 #, fuzzy, kde-format
 msgid "Custom Document"
 msgstr "Boshqa gradient"
 
-#: libs/ui/KisMainWindow.cpp:1628
+#: libs/ui/KisMainWindow.cpp:1633
 #, fuzzy, kde-format
 msgid "Create from Clipboard"
 msgstr "Yaratish"
 
-#: libs/ui/KisMainWindow.cpp:1896
+#: libs/ui/KisMainWindow.cpp:1901
 #, fuzzy, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -18361,59 +19024,59 @@ msgstr ""
 "%1\n"
 "faylini ochib boʻlmadi."
 
-#: libs/ui/KisMainWindow.cpp:2245
+#: libs/ui/KisMainWindow.cpp:2288
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "&Grafikani import qilish"
 
-#: libs/ui/KisMainWindow.cpp:2259
+#: libs/ui/KisMainWindow.cpp:2302
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "&Grafikani import qilish"
 
-#: libs/ui/KisMainWindow.cpp:2275
+#: libs/ui/KisMainWindow.cpp:2318
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "&Grafikani import qilish"
 
-#: libs/ui/KisMainWindow.cpp:2319
+#: libs/ui/KisMainWindow.cpp:2362
 #, fuzzy, kde-format
 msgid "&%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2322
+#: libs/ui/KisMainWindow.cpp:2365
 #, fuzzy, kde-format
 msgid "%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2472
+#: libs/ui/KisMainWindow.cpp:2515
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2480
+#: libs/ui/KisMainWindow.cpp:2523
 #, kde-format
 msgid "Krita cannot find any brush presets! Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2489
+#: libs/ui/KisMainWindow.cpp:2532
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "Qatlam xatosi."
 
-#: libs/ui/KisMainWindow.cpp:2588
+#: libs/ui/KisMainWindow.cpp:2639
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2636
+#: libs/ui/KisMainWindow.cpp:2687
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -19510,6 +20173,7 @@ msgstr "Tanlash"
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
 #: libs/ui/layerstyles/WdgGradientOverlay.ui:154
 #: libs/ui/layerstyles/WdgStroke.ui:247
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:41
 #, kde-format
 msgid "Diamond"
 msgstr ""
@@ -19608,6 +20272,7 @@ msgstr "Oʻxshash ranglarni tanlash"
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intAngle)
 #: libs/ui/layerstyles/wdgKisLayerStyleAngleSelector.ui:65
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:77
 #, kde-format
 msgid "˚"
 msgstr ""
@@ -19701,8 +20366,10 @@ msgstr "Namuna"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_11)
+#. i18n: ectx: property (text), widget (QLabel, labelPattern)
 #: libs/ui/layerstyles/WdgPatternOverlay.ui:87
 #: libs/ui/layerstyles/WdgStroke.ui:328 libs/ui/layerstyles/wdgTexture.ui:29
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:80
 #, fuzzy, kde-format
 msgid "Pattern:"
 msgstr "&Namunalar"
@@ -21240,17 +21907,6 @@ msgstr "Takrorlash:"
 msgid "Repeat"
 msgstr "Qaytarish"
 
-#. i18n: ectx: property (text), widget (QLabel, presetLabel)
-#. i18n: ectx: property (text), widget (QLabel, lblPresetH264)
-#. i18n: ectx: property (text), widget (QLabel, lblPresetH265)
-#: libs/ui/widgets/KoFillConfigWidget.ui:280
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:44
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:95
-#, fuzzy, kde-format
-#| msgid "Pressure:"
-msgid "Preset:"
-msgstr "Bosim:"
-
 #: libs/ui/widgets/KoStrokeConfigWidget.cpp:103
 #: libs/widgets/KoStrokeConfigWidget.cpp:98
 #, kde-format
@@ -22592,22 +23248,6 @@ msgid ""
 "default? The changes will be applied immediately."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, btnResetCustomLine)
-#. i18n: ectx: property (text), widget (QPushButton, resetFilter)
-#. i18n: ectx: property (text), widget (QPushButton, resetButton)
-#. i18n: ectx: property (text), widget (QPushButton, reset)
-#. i18n: ectx: property (text), widget (QPushButton, resetOriginButton)
-#: libs/widgetutils/xmlgui/kedittoolbar.cpp:685
-#: plugins/dockers/animation/onion_skins_docker.ui:95
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:182
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:235
-#: plugins/filters/colorsfilters/wdg_perchannel.ui:342
-#: plugins/tools/basictools/wdgmultihandtool.ui:204
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:139
-#, fuzzy, kde-format
-msgid "Reset"
-msgstr "Qaytada&n tanlash"
-
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:685
 #, fuzzy, kde-format
 msgid "Reset Toolbars"
@@ -23255,6 +23895,7 @@ msgstr "Oʻrnini almashtirishmoq"
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #: plugins/assistants/Assistants/EllipseAssistant.cc:195
 #: plugins/flake/pathshapes/ellipse/EllipseShapeFactory.cpp:35
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:40
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:37
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:232
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:66
@@ -24715,42 +25356,53 @@ msgstr "Toʻyintirish"
 msgid "Reset to default"
 msgstr "Joriy qatlam"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:56
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:65
 #, fuzzy, kde-format
 msgid "Compositions"
 msgstr "Kompozitsiyasiz"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:68
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:76
 #, fuzzy, kde-format
 msgid "Delete Composition"
 msgstr "Kompozitsiyasiz"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:69
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:77
 #, fuzzy, kde-format
 msgid "New Composition"
 msgstr "Kompozitsiyasiz"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:70
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:78
 #, fuzzy, kde-format
 msgid "Export Composition"
 msgstr "Kompozitsiyasiz"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:84
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:92
+#, fuzzy, kde-format
+msgid "Export Images"
+msgstr "Rasmni import qilish"
+
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:95
+#, fuzzy, kde-format
+msgid "Export Animations"
+msgstr "Kompozitsiyasiz"
+
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:110
 #, fuzzy, kde-format
 msgid "Insert Name"
 msgstr "Qatlamning nomi:"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:195
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:222
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:296
 #, fuzzy, kde-format
 msgid "Select a Directory"
 msgstr "Toʻgʻri burchak maydonni tanlash"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:305
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:400
 #, fuzzy, kde-format
 msgid "Rename Composition"
 msgstr "Kompozitsiyasiz"
 
-#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:306
+#: plugins/dockers/compositiondocker/compositiondocker_dock.cpp:401
 #, fuzzy, kde-format
 msgid "New Name:"
 msgstr "&Nomi:"
@@ -24760,17 +25412,17 @@ msgstr "&Nomi:"
 msgid "Composition"
 msgstr "Kompozitsiyasiz"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, exportButton)
-#: plugins/dockers/compositiondocker/wdgcompositiondocker.ui:34
-#, fuzzy, kde-format
-msgid "Export checked compositions."
-msgstr "Kompozitsiyasiz"
-
 #. i18n: ectx: property (toolTip), widget (QListView, compositionView)
-#: plugins/dockers/compositiondocker/wdgcompositiondocker.ui:44
+#: plugins/dockers/compositiondocker/wdgcompositiondocker.ui:20
 #, kde-format
 msgid "Checked compositions will be exported, unchecked won't."
 msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, exportCompositions)
+#: plugins/dockers/compositiondocker/wdgcompositiondocker.ui:50
+#, fuzzy, kde-format
+msgid "Export checked compositions."
+msgstr "Kompozitsiyasiz"
 
 #: plugins/dockers/digitalmixer/digitalmixer_dock.cc:46
 #, fuzzy, kde-format
@@ -24960,6 +25612,7 @@ msgstr "Uslubi:"
 #: plugins/dockers/griddocker/grid_config_widget.ui:357
 #: plugins/dockers/griddocker/grid_config_widget.ui:398
 #: plugins/dockers/griddocker/grid_config_widget.ui:626
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:32
 #, kde-format
 msgid "Lines"
 msgstr "Chiziqlar"
@@ -24980,6 +25633,7 @@ msgstr ""
 #: plugins/dockers/griddocker/grid_config_widget.ui:367
 #: plugins/dockers/griddocker/grid_config_widget.ui:408
 #: plugins/dockers/griddocker/grid_config_widget.ui:636
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:31
 #, kde-format
 msgid "Dots"
 msgstr ""
@@ -25617,606 +26271,6 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Touch Docker"
 msgstr "Yordamchi chiziqlar"
-
-#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:78
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:62
-#, fuzzy, kde-format
-msgid "Render Animation"
-msgstr "Gradient vositasi"
-
-#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:126
-#, kde-format
-msgid ""
-"%1 requires width and height to be even numbers.  Please resize or crop the "
-"image before exporting."
-msgstr ""
-
-#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:127
-#: plugins/extensions/animationrenderer/AnimationRenderer.cpp:179
-#, fuzzy, kde-format
-msgid ""
-"Could not render animation:\n"
-"%1"
-msgstr "Moslash..."
-
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:472
-#, kde-format
-msgid "Please enter a file name to render to."
-msgstr ""
-
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:476
-#, kde-format
-msgid ""
-"<b>Krita can't find FFmpeg!</b><br>                <i>Krita depends on "
-"another free program called FFmpeg to turn frame-by-frame animations into "
-"video files. (<a href=\"https://www.ffmpeg.org\">www.ffmpeg.org</a>)</"
-"i><br><br>               To learn more about setting up Krita for rendering "
-"animations, <a href=\"https://docs.krita.org/en/reference_manual/"
-"render_animation.html#setting-up-krita-for-exporting-animations\">please "
-"visit this section of our User Manual.</a>"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:484
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:504
-#, kde-format
-msgid ""
-"The location of FFmpeg is invalid. Please select the correct location of the "
-"FFmpeg executable on your system."
-msgstr ""
-
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:488
-#, kde-format
-msgid "Please extract ffmpeg from the archive first."
-msgstr ""
-
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:495
-#, kde-format
-msgid ""
-"This is a source code archive. Please download the application archive "
-"('Windows Builds'), unpack it and then provide the path to the extracted "
-"ffmpeg file."
-msgstr ""
-
-#: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:498
-#, kde-format
-msgid "This is a source code archive. Please install ffmpeg instead."
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:36
-#, kde-format
-msgctxt "h264 codec name, check simplescreenrecorder for standard translations"
-msgid "H.264, MPEG-4 Part 10"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:37
-#, kde-format
-msgctxt "h265 codec name, check simplescreenrecorder for standard translations"
-msgid "H.265, MPEG-H Part 2 (HEVC)"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:39
-#, kde-format
-msgctxt ""
-"theora codec name, check simplescreenrecorder for standard translations"
-msgid "Theora"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:42
-#, fuzzy, kde-format
-msgctxt ""
-"h264 preset name, check simplescreenrecorder for standard translations"
-msgid "ultrafast"
-msgstr "Satrma-satr"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:43
-#, fuzzy, kde-format
-msgctxt ""
-"h264 preset name, check simplescreenrecorder for standard translations"
-msgid "superfast"
-msgstr "Satrma-satr"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:44
-#, fuzzy, kde-format
-msgctxt ""
-"h264 preset name, check simplescreenrecorder for standard translations"
-msgid "veryfast"
-msgstr "Satrma-satr"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:45
-#, fuzzy, kde-format
-msgctxt ""
-"h264 preset name, check simplescreenrecorder for standard translations"
-msgid "faster"
-msgstr "Sana"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:46
-#, fuzzy, kde-format
-msgctxt ""
-"h264 preset name, check simplescreenrecorder for standard translations"
-msgid "fast"
-msgstr "Sana"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:47
-#, kde-format
-msgctxt ""
-"h264 preset name, check simplescreenrecorder for standard translations"
-msgid "medium"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:48
-#, fuzzy, kde-format
-msgctxt ""
-"h264 preset name, check simplescreenrecorder for standard translations"
-msgid "slow"
-msgstr "So&yalar"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:49
-#, fuzzy, kde-format
-msgctxt ""
-"h264 preset name, check simplescreenrecorder for standard translations"
-msgid "slower"
-msgstr "So&yalar"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:50
-#, fuzzy, kde-format
-msgctxt ""
-"h264 preset name, check simplescreenrecorder for standard translations"
-msgid "veryslow"
-msgstr "Satrma-satr"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:51
-#, fuzzy, kde-format
-msgctxt ""
-"h264 preset name, check simplescreenrecorder for standard translations"
-msgid "placebo"
-msgstr "Displey"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:53
-#, fuzzy, kde-format
-msgctxt ""
-"h264 profile name, check simplescreenrecorder for standard translations"
-msgid "baseline"
-msgstr "Namuna sifatida ishlatish"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:54
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:60
-#, kde-format
-msgctxt ""
-"h264 profile name, check simplescreenrecorder for standard translations"
-msgid "main"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:55
-#, fuzzy, kde-format
-msgctxt ""
-"h264 profile name, check simplescreenrecorder for standard translations"
-msgid "high"
-msgstr "So&yalar"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:56
-#, fuzzy, kde-format
-msgctxt ""
-"h264 profile name, check simplescreenrecorder for standard translations"
-msgid "high10"
-msgstr "So&yalar"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:57
-#, fuzzy, kde-format
-msgctxt ""
-"h264 profile name, check simplescreenrecorder for standard translations"
-msgid "high422"
-msgstr "So&yalar"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:58
-#, fuzzy, kde-format
-msgctxt ""
-"h264 profile name, check simplescreenrecorder for standard translations"
-msgid "high444"
-msgstr "So&yalar"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:61
-#, kde-format
-msgctxt ""
-"h264 profile name, check simplescreenrecorder for standard translations"
-msgid "main10 (HDR)"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:64
-#, kde-format
-msgctxt ""
-"h264 tune option name, check simplescreenrecorder for standard translations"
-msgid "film"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:65
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:74
-#, fuzzy, kde-format
-msgctxt ""
-"h264 tune option name, check simplescreenrecorder for standard translations"
-msgid "animation"
-msgstr "Animatsiyali"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:66
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:75
-#, fuzzy, kde-format
-msgctxt ""
-"h264 tune option name, check simplescreenrecorder for standard translations"
-msgid "grain"
-msgstr "Kul"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:67
-#, fuzzy, kde-format
-msgctxt ""
-"h264 tune option name, check simplescreenrecorder for standard translations"
-msgid "stillimage"
-msgstr "Rasm"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:68
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:76
-#, kde-format
-msgctxt ""
-"h264 tune option name, check simplescreenrecorder for standard translations"
-msgid "psnr"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:69
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:77
-#, kde-format
-msgctxt ""
-"h264 tune option name, check simplescreenrecorder for standard translations"
-msgid "ssim"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:70
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:78
-#, fuzzy, kde-format
-msgctxt ""
-"h264 tune option name, check simplescreenrecorder for standard translations"
-msgid "fastdecode"
-msgstr "Sana"
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:71
-#, kde-format
-msgctxt ""
-"h264 tune option name, check simplescreenrecorder for standard translations"
-msgid "zerolatency"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:73
-#, kde-format
-msgctxt ""
-"h264 tune option name, check simplescreenrecorder for standard translations"
-msgid "none"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:79
-#, kde-format
-msgctxt ""
-"h264 tune option name, check simplescreenrecorder for standard translations"
-msgid "zero-latency"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:130
-#, kde-format
-msgctxt "kilo-bits-per-second, video bitrate suffix"
-msgid "kbps"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:401
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Exported animation format does not support HDR"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_export_options_dialog.cpp:403
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "HDR metadata available only with \"main10\" profile"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lblCRFH264)
-#. i18n: ectx: property (text), widget (QLabel, lblCRFH265)
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:27
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:78
-#, fuzzy, kde-format
-msgid "Constant Rate Factor:"
-msgstr "Alfa moslamalari"
-
-#. i18n: ectx: property (text), widget (QLabel, lblTuneH264)
-#. i18n: ectx: property (text), widget (QLabel, lblTuneH265)
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:64
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:115
-#, kde-format
-msgid "Tune:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkUseHDRMetadata)
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:125
-#, fuzzy, kde-format
-#| msgid "Mode"
-msgid "HDR Mode"
-msgstr "Usul"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnHdrMetadata)
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:132
-#, fuzzy, kde-format
-msgid "HDR Metadata..."
-msgstr "Palitrani oʻzgartirish"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:143
-#, fuzzy, kde-format
-msgid "Bitrate:"
-msgstr "Soat koʻrsatgichi boʻyicha burish"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkCustomLine)
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:166
-#, fuzzy, kde-format
-msgid "Custom Options:"
-msgstr "Geometriya moslamalari"
-
-#. i18n: ectx: property (toolTip), widget (QLineEdit, txtCustomLine)
-#: plugins/extensions/animationrenderer/video_export_options_dialog.ui:175
-#, kde-format
-msgid ""
-"Add any ffmpeg filtering options here. It will be put between source and "
-"destination streams of the ffmpeg"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/video_saver.cpp:209
-#, fuzzy, kde-format
-msgid "ffmpeg could not be found at %1"
-msgstr "%1 topilmadi"
-
-#: plugins/extensions/animationrenderer/video_saver.cpp:248
-#, fuzzy, kde-format
-msgid "Fetching palette..."
-msgstr "Yangi palitra qoʻshish..."
-
-#: plugins/extensions/animationrenderer/video_saver.cpp:279
-#: plugins/extensions/animationrenderer/video_saver.cpp:318
-#, fuzzy, kde-format
-#| msgid "Export Layer"
-msgid "Encoding frames..."
-msgstr "Qatlamni eksport qilish"
-
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.cpp:34
-#, kde-format
-msgid "Rec. 2100 PQ"
-msgstr ""
-
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.cpp:35
-#, kde-format
-msgid "DCI-P3 D65"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, editWhiteBalance)
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.cpp:36
-#: plugins/extensions/metadataeditor/editors/exif.ui:924
-#, fuzzy, kde-format
-msgid "Custom"
-msgstr "&Boshqa:"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:22
-#, fuzzy, kde-format
-msgid "Master Display:"
-msgstr "Displey"
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:52
-#, fuzzy, kde-format
-msgid "y"
-msgstr "Uslubi:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:64
-#, kde-format
-msgid "Red Primary:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:101
-#, fuzzy, kde-format
-msgid "Green Primary:"
-msgstr "Yashil"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:138
-#, fuzzy, kde-format
-msgid "Blue Primary:"
-msgstr "Yashil-havorang"
-
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:228
-#, fuzzy, kde-format
-msgid "Min Luminance:"
-msgstr "Chiziq"
-
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, dblMinLuminance)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, dblMaxLuminance)
-#. i18n: ectx: property (suffix), widget (QSpinBox, intMaxCLL)
-#. i18n: ectx: property (suffix), widget (QSpinBox, intMaxFALL)
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:235
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:255
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:296
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:313
-#, kde-format
-msgid " cd/m²"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:248
-#, fuzzy, kde-format
-msgid "Max Luminance:"
-msgstr "Chiziq"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:289
-#, kde-format
-msgid "MaxCLL:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/extensions/animationrenderer/VideoHDRMetadataOptionsDialog.ui:306
-#, kde-format
-msgid "MaxFALL:"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgAnimaterionRenderer)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:20
-#, fuzzy, kde-format
-#| msgid "Create a new layer"
-msgid "AnimationRenderer Image"
-msgstr "Yangi qatlam yaratish"
-
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:35
-#, fuzzy, kde-format
-msgid "Export:"
-msgstr "Ekspozitsiya:"
-
-#. i18n: ectx: property (text), widget (QRadioButton, shouldExportOnlyImageSequence)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:42
-#, fuzzy, kde-format
-msgid "Image Se&quence"
-msgstr "Markaz:"
-
-#. i18n: ectx: property (text), widget (QRadioButton, shouldExportOnlyVideo)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:49
-#, kde-format
-msgid "&Video"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, shouldExportAll)
-#. i18n: ectx: property (text), widget (QRadioButton, radioBoth)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:56
-#: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:44
-#, kde-format
-msgid "Both"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:91
-#, fuzzy, kde-format
-msgid "First frame:"
-msgstr "Filter boʻyogʻi"
-
-#. i18n: ectx: property (text), widget (QLabel, fpsLabel)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:104
-#, kde-format
-msgid "FPS:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:137
-#, fuzzy, kde-format
-msgid "Last frame:"
-msgstr "Nomlangan ranglar"
-
-#. i18n: ectx: property (title), widget (QGroupBox, videoOptionsGroup)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:212
-#, fuzzy, kde-format
-msgid "Video Options"
-msgstr "Geometriya moslamalari"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, bnRenderOptions)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:235
-#, fuzzy, kde-format
-msgid "Select the ffmpeg render options."
-msgstr "Joriy belgilanganga &qoʻshish"
-
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:247
-#, kde-format
-msgid "FF&Mpeg: "
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:263
-#, fuzzy, kde-format
-msgid "Render as:"
-msgstr "Matnni oʻchirish"
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:273
-#, fuzzy, kde-format
-#| msgid "Rotating"
-msgid "Video Location:"
-msgstr "Burish"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkIncludeAudio)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:289
-#, fuzzy, kde-format
-msgid "Include Audio"
-msgstr "Yangi hujjatlarda ochish"
-
-#. i18n: ectx: property (text), widget (QLabel, lblGifWarning)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:298
-#, kde-format
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Warning:</span> "
-"animated gif images cannot have a framerate higher than 50. The framerate "
-"will be reduced to 50 frames per second.</p></body></html>"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, imageSequenceOptionsGroup)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:324
-#, fuzzy, kde-format
-msgid "Image Sequence Options"
-msgstr "Markaz:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:332
-#, fuzzy, kde-format
-msgid "Fi&le format:"
-msgstr "Formati:"
-
-#. i18n: ectx: property (toolTip), widget (QComboBox, cmbMimetype)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:353
-#, kde-format
-msgid ""
-"Select the file format for the image sequence. If you want to render to "
-"video or animated gif, you can only select PNG"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, bnExportOptions)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:360
-#, fuzzy, kde-format
-msgid "Select the frame export options"
-msgstr "Joriy belgilanganga &qoʻshish"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:372
-#, fuzzy, kde-format
-#| msgid "Total editing time:"
-msgid "Start numbering at:"
-msgstr "Umumiy tahrirlash vaqti:"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:398
-#, fuzzy, kde-format
-#| msgid "Layer name:"
-msgid "Base name:"
-msgstr "Qatlamning nomi:"
-
-#. i18n: ectx: property (text), widget (QLineEdit, txtBasename)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:408
-#, fuzzy, kde-format
-msgid "frame"
-msgstr "Yaratish"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:415
-#, fuzzy, kde-format
-msgid "Image location:"
-msgstr "Tanlanganni bekitish"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkOnlyUniqueFrames)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:435
-#, kde-format
-msgid "Only Unique Frames"
-msgstr ""
 
 #: plugins/extensions/buginfo/dlg_buginfo.cpp:42
 #, kde-format
@@ -27269,7 +27323,9 @@ msgid "Flash ener&gy:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#. i18n: ectx: attribute (title), widget (QWidget, tabPostProcessing)
 #: plugins/extensions/metadataeditor/editors/exif.ui:638
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:327
 #, fuzzy, kde-format
 msgid "Postprocessing"
 msgstr "Bosim"
@@ -27442,7 +27498,9 @@ msgstr "&Uzunasi:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAngle)
 #. i18n: ectx: property (text), widget (QLabel, label_20)
+#. i18n: ectx: property (text), widget (QLabel, labelContrast)
 #: plugins/extensions/metadataeditor/editors/exif.ui:873
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:464
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:104
 #, fuzzy, kde-format
 msgid "Contrast:"
@@ -28968,9 +29026,11 @@ msgstr "Gʻishtlar"
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
+#. i18n: ectx: property (text), widget (QLabel, labelShape)
 #: plugins/filters/blur/wdg_lens_blur.ui:29 plugins/filters/blur/wdgblur.ui:146
 #: plugins/filters/wavefilter/wdgwaveoptions.ui:72
 #: plugins/filters/wavefilter/wdgwaveoptions.ui:255
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:97
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:29
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:81
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:215
@@ -28997,10 +29057,12 @@ msgstr "Radius"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (label), widget (KisIntParseSpinBox, irisRotationSlider)
 #. i18n: ectx: property (title), widget (QGroupBox, gbRotation)
+#. i18n: ectx: property (text), widget (QLabel, labelRotation)
 #. i18n: ectx: property (text), widget (QLabel, axisRotationLabel)
 #: plugins/filters/blur/wdg_lens_blur.ui:102
 #: plugins/filters/blur/wdg_lens_blur.ui:124
 #: plugins/generators/pattern/wdgpatternoptions.ui:236
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:297
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:174
 #: plugins/tools/basictools/wdgmultihandtool.ui:125
 #, fuzzy, kde-format
@@ -30644,11 +30706,118 @@ msgstr "Burish"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (title), widget (QGroupBox, gbShear)
+#. i18n: ectx: property (text), widget (QLabel, labelShear)
 #: plugins/generators/pattern/wdgpatternoptions.ui:193
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:257
 #: plugins/paintops/hairy/wdgbristleoptions.ui:114
 #, fuzzy, kde-format
 msgid "Shear:"
 msgstr "Yangi rasm"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:53
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:61
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:71
+#, fuzzy, kde-format
+#| msgid "X:"
+msgid "X: "
+msgstr "X:"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:57
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:66
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:74
+#, fuzzy, kde-format
+#| msgid "Y:"
+msgid "Y: "
+msgstr "Y:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabScreentoneType)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:51
+#, kde-format
+msgid "Screentone Type"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelInterpolation)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:114
+#, fuzzy, kde-format
+msgid "Interpolation:"
+msgstr "Kraterlar"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabTransformation)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:141
+#, fuzzy, kde-format
+msgid "Transformation"
+msgstr "Boshqa shaklga almashtirish"
+
+#. i18n: ectx: property (text), widget (QLabel, labelForeground)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:356
+#, fuzzy, kde-format
+msgid "Foreground:"
+msgstr "Oldin fon rangi"
+
+#. i18n: ectx: property (text), widget (QLabel, labelInvert)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:424
+#, fuzzy, kde-format
+msgid "Invert:"
+msgstr "Teskari qilish"
+
+#. i18n: ectx: property (text), widget (QLabel, lblRatio)
+#. i18n: ectx: property (text), widget (QLabel, labelBrightness)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:438
+#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:130
+#, fuzzy, kde-format
+msgid "Brightness:"
+msgstr "Yorugʻlik"
+
+#: plugins/generators/screentone/KisScreentoneGenerator.cpp:54
+#, fuzzy, kde-format
+msgid "&Screentone..."
+msgstr "Ekran"
+
+#: plugins/generators/screentone/KisScreentoneGenerator.h:65
+#, fuzzy, kde-format
+#| msgid "Screen"
+msgid "Screentone"
+msgstr "Ekran"
+
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:39
+#, fuzzy, kde-format
+msgid "Round"
+msgstr "Skript"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxShape)
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:42
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:97
+#, kde-format
+msgid "Square"
+msgstr "Toʻrtburchak"
+
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:46
+#, fuzzy, kde-format
+#| msgid "Sine"
+msgid "Sine Wave"
+msgstr "Sinus"
+
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:47
+#, fuzzy, kde-format
+msgid "Triangular Wave"
+msgstr "Burchak"
+
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:48
+#, fuzzy, kde-format
+#| msgid "&Smooth:"
+msgid "Sawtooth Wave"
+msgstr "&Tekis:"
+
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:49
+#, kde-format
+msgid "Curtains"
+msgstr ""
+
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:61
+#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:66
+#, fuzzy, kde-format
+msgid "Sinusoidal"
+msgstr "&Sinusoid"
 
 #: plugins/generators/simplexnoise/simplexnoisegenerator.cpp:48
 #, fuzzy, kde-format
@@ -33941,12 +34110,6 @@ msgstr "Toʻrning qalinligi"
 msgid "Mask Type:"
 msgstr "&Turi"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxShape)
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:97
-#, kde-format
-msgid "Square"
-msgstr "Toʻrtburchak"
-
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkInvert)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, btnAntialiasing)
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:105
@@ -34300,12 +34463,6 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Pipe mode"
 msgstr "Yangi qatlam"
-
-#. i18n: ectx: property (text), widget (QLabel, lblRatio)
-#: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:130
-#, fuzzy, kde-format
-msgid "Brightness:"
-msgstr "Yorugʻlik"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSpacing)
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:146
@@ -64449,11 +64606,6 @@ msgstr ""
 #~ msgid "Expor&t animation..."
 #~ msgstr "Kompozitsiyasiz"
 
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Export animation"
-#~ msgstr "Kompozitsiyasiz"
-
 #~ msgid "Add New Color..."
 #~ msgstr "Yangi ran&gni qoʻshish..."
 
@@ -66173,11 +66325,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Watery Mixbrush"
 #~ msgstr "Filter boʻyogʻi"
-
-#, fuzzy
-#~| msgid "&Smooth:"
-#~ msgid "Smooth shapes"
-#~ msgstr "&Tekis:"
 
 #, fuzzy
 #~| msgid "General"
@@ -67983,10 +68130,6 @@ msgstr ""
 
 #~ msgid "Change &Image Size..."
 #~ msgstr "Rasmning oʻlchamini oʻz&gartirish..."
-
-#, fuzzy
-#~ msgid "&Screenshot..."
-#~ msgstr "Ekran"
 
 #, fuzzy
 #~ msgid "Print Screenshot"
