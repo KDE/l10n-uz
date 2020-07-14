@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-12 02:07+0200\n"
+"POT-Creation-Date: 2020-07-14 02:10+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -31546,7 +31546,15 @@ msgctxt "@title:window"
 msgid "File not found"
 msgstr "Fayl topilmadi"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:323
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:267
+#, kde-format
+msgctxt "Warning during loading a kra file with a filter layer"
+msgid ""
+"Selection on layer %s couldn't be loaded. It will be replaced by an empty "
+"selection."
+msgstr ""
+
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:330
 #, kde-format
 msgctxt "Loading a .kra file"
 msgid ""
@@ -31554,74 +31562,74 @@ msgid ""
 "layer will be converted into a paint layer."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:391
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:398
 #, fuzzy, kde-format
 msgid "Could not load \"id\" of the transform mask"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:405
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:412
 #, fuzzy, kde-format
 msgid "Could not create transform mask params"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:524
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:531
 #, fuzzy, kde-format
 msgid "Could not find keyframe pixel data for frame %1 in %2."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:532
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:539
 #, fuzzy, kde-format
 msgid "Could not load keyframe pixel data for frame %1 in %2."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:561
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:568
 #, fuzzy, kde-format
 msgid "Could not read pixel data: %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:568
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:575
 #, fuzzy, kde-format
 msgid "Could not load pixel data: %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:604
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:611
 #, fuzzy, kde-format
 msgid "Could not load profile: %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:628
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:635
 #, fuzzy, kde-format
 msgid "Could not filter configuration %1."
 msgstr "Moslash..."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:669
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:676
 #, fuzzy, kde-format
 msgid "Could not load metadata for layer %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:691
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:698
 #, fuzzy, kde-format
 msgid "Could not load raster selection %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:709
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:716
 #, fuzzy, kde-format
 msgid "Could not load vector selection %1."
 msgstr "Hech narsa tanlanmagan"
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:736
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:743
 #, fuzzy, kde-format
 msgid "Could not load keyframes from %1."
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:750
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:757
 #, kde-format
 msgid ""
 "parsing error in the keyframe file %1 at line %2, column %3\n"
 "Error message: %4"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:763
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:770
 #, fuzzy, kde-format
 msgid "unknown keyframe channel type: %1 in %2"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
