@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-04 08:10+0200\n"
+"POT-Creation-Date: 2020-10-06 08:04+0200\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8366,7 +8366,7 @@ msgid "Set Image Resolution"
 msgstr "Rasmning oʻlchami"
 
 #: libs/image/commands_new/kis_move_command_common.h:40
-#: libs/ui/tool/strokes/move_stroke_strategy.cpp:44
+#: libs/ui/tool/strokes/move_stroke_strategy.cpp:39
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Move"
@@ -8759,8 +8759,8 @@ msgstr "Burish"
 msgid "Rotation (Z)"
 msgstr "Burish"
 
-#: libs/image/kis_layer.cc:288 libs/widgets/KoZoomAction.cpp:203
-#: libs/widgets/KoZoomAction.cpp:215 libs/widgets/KoZoomMode.cpp:26
+#: libs/image/kis_layer.cc:288 libs/widgets/KoZoomAction.cpp:206
+#: libs/widgets/KoZoomAction.cpp:218 libs/widgets/KoZoomMode.cpp:26
 #, kde-format
 msgid "%1%"
 msgstr "%1%"
@@ -17834,6 +17834,11 @@ msgstr ""
 msgid "Fit to Width"
 msgstr "Eni:"
 
+#: libs/ui/input/kis_zoom_action.cpp:130
+#, fuzzy, kde-format
+msgid "Fit to Height"
+msgstr "Eniga moslash"
+
 #: libs/ui/input/kis_zoom_and_rotate_action.cpp:38
 #, fuzzy, kde-format
 msgid "Zoom and Rotate Canvas"
@@ -23301,6 +23306,11 @@ msgstr ""
 #: libs/widgets/KoZoomMode.cpp:34
 #, fuzzy, kde-format
 msgid "Fit Text Width"
+msgstr "Eniga moslash"
+
+#: libs/widgets/KoZoomMode.cpp:42
+#, fuzzy, kde-format
+msgid "Fit Page Height"
 msgstr "Eniga moslash"
 
 #: libs/widgets/KoZoomWidget.cpp:80
