@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-28 02:32+0100\n"
+"POT-Creation-Date: 2020-12-29 02:37+0100\n"
 "PO-Revision-Date: 2008-05-31 09:43+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -28,25 +28,25 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kmashrab@uni-bremen.de"
 
-#: dolphincontextmenu.cpp:142 panels/places/placespanel.cpp:191
+#: dolphincontextmenu.cpp:143 panels/places/placespanel.cpp:191
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Chiqindilar qutisini boʻshatish"
 
-#: dolphincontextmenu.cpp:163
+#: dolphincontextmenu.cpp:164
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "Tiklash"
 
-#: dolphincontextmenu.cpp:208 dolphinmainwindow.cpp:1361
+#: dolphincontextmenu.cpp:211 dolphinmainwindow.cpp:1361
 #, kde-format
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr ""
 
-#: dolphincontextmenu.cpp:238
+#: dolphincontextmenu.cpp:240
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Open With"
@@ -54,7 +54,7 @@ msgctxt "@action:inmenu"
 msgid "Open Path"
 msgstr "Bilan ochish"
 
-#: dolphincontextmenu.cpp:244
+#: dolphincontextmenu.cpp:246
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu File"
 #| msgid "New &Window"
@@ -62,7 +62,7 @@ msgctxt "@action:inmenu"
 msgid "Open Path in New Window"
 msgstr "&Yangi oyna"
 
-#: dolphincontextmenu.cpp:250
+#: dolphincontextmenu.cpp:252
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "New Tab"
@@ -2710,6 +2710,54 @@ msgctxt ""
 msgid "Query Results from '%1'"
 msgstr ""
 
+#: settings/contextmenu/contextmenusettingspage.cpp:55
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Select which services should be shown in the context menu:"
+msgstr ""
+
+#: settings/contextmenu/contextmenusettingspage.cpp:59
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Main Toolbar"
+msgctxt "@label:textbox"
+msgid "Search..."
+msgstr "Asosiy asboblar paneli"
+
+#: settings/contextmenu/contextmenusettingspage.cpp:81
+#, kde-format
+msgctxt "@action:button"
+msgid "Download New Services..."
+msgstr ""
+
+#: settings/contextmenu/contextmenusettingspage.cpp:190
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Dolphin must be restarted to apply the updated version control systems "
+"settings."
+msgstr ""
+
+#: settings/contextmenu/contextmenusettingspage.cpp:222
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Delete"
+msgctxt "@option:check"
+msgid "Delete"
+msgstr "Oʻchirish"
+
+#: settings/contextmenu/contextmenusettingspage.cpp:228
+#, kde-format
+msgctxt "@option:check"
+msgid "'Copy To' and 'Move To' commands"
+msgstr ""
+
+#: settings/contextmenu/contextmenusettingspage.cpp:268
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "%1: %2"
+msgstr ""
+
 #. i18n: ectx: label, entry (UseSystemFont), group (CompactMode)
 #. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
 #. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
@@ -2798,6 +2846,54 @@ msgstr "Koʻrib chiqish"
 #: settings/dolphin_compactmodesettings.kcfg:40
 #, kde-format
 msgid "Maximum text width index (0 means unlimited)"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:10
+#, kde-format
+msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowAddToPlaces), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:14
+#, kde-format
+msgid "Show 'Add to Places' in context menu."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowSortBy), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:18
+#, kde-format
+msgid "Show 'Sort By' in context menu."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowViewMode), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:22
+#, kde-format
+msgid "Show 'View Mode' in context menu."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowOpenInNewTab), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:26
+#, kde-format
+msgid "Show 'Open in New Tab' and 'Open in New Tabs' in context menu."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowOpenInNewWindow), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:30
+#, kde-format
+msgid "Show 'Open in New Window' in context menu."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowCopyLocation), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:34
+#, kde-format
+msgid "Show 'Copy Location' in context menu."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowDuplicateHere), group (ContextMenu)
+#: settings/dolphin_contextmenusettings.kcfg:38
+#, kde-format
+msgid "Show 'Duplicate Here' in context menu."
 msgstr ""
 
 #. i18n: ectx: label, entry (ColumnPositions), group (DetailsMode)
@@ -3119,26 +3215,20 @@ msgstr ""
 msgid "Show tooltips"
 msgstr "Saralash:"
 
-#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: settings/dolphin_generalsettings.kcfg:94
-#, kde-format
-msgid "Show 'Copy To' and 'Move To' commands in context menu"
-msgstr ""
-
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: settings/dolphin_generalsettings.kcfg:98
+#: settings/dolphin_generalsettings.kcfg:94
 #, kde-format
 msgid "Timestamp since when the view properties are valid"
 msgstr ""
 
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: settings/dolphin_generalsettings.kcfg:101
+#: settings/dolphin_generalsettings.kcfg:97
 #, kde-format
 msgid "Use auto-expanding folders for all view types"
 msgstr ""
 
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: settings/dolphin_generalsettings.kcfg:105
+#: settings/dolphin_generalsettings.kcfg:101
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Additional information"
@@ -3146,7 +3236,7 @@ msgid "Show zoom slider in the statusbar"
 msgstr "Qoʻshimcha maʼlumot"
 
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: settings/dolphin_generalsettings.kcfg:109
+#: settings/dolphin_generalsettings.kcfg:105
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Additional information"
@@ -3154,19 +3244,19 @@ msgid "Show the space information in the statusbar"
 msgstr "Qoʻshimcha maʼlumot"
 
 #. i18n: ectx: label, entry (LockPanels), group (General)
-#: settings/dolphin_generalsettings.kcfg:113
+#: settings/dolphin_generalsettings.kcfg:109
 #, kde-format
 msgid "Lock the layout of the panels"
 msgstr ""
 
 #. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
-#: settings/dolphin_generalsettings.kcfg:117
+#: settings/dolphin_generalsettings.kcfg:113
 #, kde-format
 msgid "Enlarge Small Previews"
 msgstr ""
 
 #. i18n: ectx: label, entry (SortingChoice), group (General)
-#: settings/dolphin_generalsettings.kcfg:126
+#: settings/dolphin_generalsettings.kcfg:122
 #, kde-format
 msgid ""
 "Choose Natural, Case Sensitive, or Case Insensitive order of sorting the "
@@ -3223,13 +3313,15 @@ msgctxt "@title:group"
 msgid "Navigation"
 msgstr ""
 
-#: settings/dolphinsettingsdialog.cpp:83
-#, kde-format
+#: settings/dolphinsettingsdialog.cpp:91
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Add comment..."
 msgctxt "@title:group"
-msgid "Services"
-msgstr ""
+msgid "Context Menu"
+msgstr "Izohni qoʻshish..."
 
-#: settings/dolphinsettingsdialog.cpp:94
+#: settings/dolphinsettingsdialog.cpp:102
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Trash"
@@ -3237,19 +3329,19 @@ msgctxt "@title:group"
 msgid "Trash"
 msgstr "Chiqindilar qutisi"
 
-#: settings/dolphinsettingsdialog.cpp:104
+#: settings/dolphinsettingsdialog.cpp:112
 #, kde-format
 msgctxt "@title:group"
 msgid "User Feedback"
 msgstr ""
 
-#: settings/dolphinsettingsdialog.cpp:174
+#: settings/dolphinsettingsdialog.cpp:182
 #, kde-format
 msgid ""
 "You have unsaved changes. Do you want to apply the changes or discard them?"
 msgstr ""
 
-#: settings/dolphinsettingsdialog.cpp:175
+#: settings/dolphinsettingsdialog.cpp:183
 #, kde-format
 msgid "Warning"
 msgstr ""
@@ -3537,54 +3629,6 @@ msgstr ""
 #, kde-format
 msgctxt "option:check"
 msgid "Open folders during drag operations"
-msgstr ""
-
-#: settings/services/servicessettingspage.cpp:50
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Select which services should be shown in the context menu:"
-msgstr ""
-
-#: settings/services/servicessettingspage.cpp:54
-#, fuzzy, kde-format
-#| msgctxt "@title:menu"
-#| msgid "Main Toolbar"
-msgctxt "@label:textbox"
-msgid "Search..."
-msgstr "Asosiy asboblar paneli"
-
-#: settings/services/servicessettingspage.cpp:76
-#, kde-format
-msgctxt "@action:button"
-msgid "Download New Services..."
-msgstr ""
-
-#: settings/services/servicessettingspage.cpp:142
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Dolphin must be restarted to apply the updated version control systems "
-"settings."
-msgstr ""
-
-#: settings/services/servicessettingspage.cpp:174
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Delete"
-msgctxt "@option:check"
-msgid "Delete"
-msgstr "Oʻchirish"
-
-#: settings/services/servicessettingspage.cpp:180
-#, kde-format
-msgctxt "@option:check"
-msgid "'Copy To' and 'Move To' commands"
-msgstr ""
-
-#: settings/services/servicessettingspage.cpp:212
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "%1: %2"
 msgstr ""
 
 #: settings/startup/startupsettingspage.cpp:45
