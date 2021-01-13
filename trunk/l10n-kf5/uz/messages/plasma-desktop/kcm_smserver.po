@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-17 02:36+0100\n"
+"POT-Creation-Date: 2021-01-13 03:39+0100\n"
 "PO-Revision-Date: 2005-10-11 20:31+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -64,19 +64,119 @@ msgstr ""
 msgid "Carl Schwan"
 msgstr ""
 
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid "Failed to request restart to firmware setup: %1"
+msgstr ""
+
+#: package/contents/ui/main.qml:39
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the UEFI setup screen."
+msgstr ""
+
+#: package/contents/ui/main.qml:40
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the firmware setup screen."
+msgstr ""
+
+#: package/contents/ui/main.qml:45
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgid "Restart Now"
+msgstr "K&ompyuterni oʻchirib-yoqish"
+
+#: package/contents/ui/main.qml:51
+#, fuzzy, kde-format
+#| msgid "General"
+msgid "General:"
+msgstr "Umumiy"
+
 #. i18n: ectx: label, entry (confirmLogout), group (General)
-#: smserversettings.kcfg:9
+#: package/contents/ui/main.qml:52 smserversettings.kcfg:9
 #, fuzzy, kde-format
 #| msgid "Conf&irm logout"
 msgid "Confirm logout"
 msgstr "Chiqishni &tasdiqlash"
 
 #. i18n: ectx: label, entry (offerShutdown), group (General)
-#: smserversettings.kcfg:13
+#: package/contents/ui/main.qml:61 smserversettings.kcfg:13
 #, fuzzy, kde-format
 #| msgid "O&ffer shutdown options"
 msgid "Offer shutdown options"
 msgstr "Oʻchirish turlarini &taklif qilish"
+
+#: package/contents/ui/main.qml:78
+#, fuzzy, kde-format
+#| msgid "Default Shutdown Option"
+msgid "Default leave option:"
+msgstr "Andoza oʻchirish turi"
+
+#: package/contents/ui/main.qml:79
+#, fuzzy, kde-format
+#| msgid "&End current session"
+msgid "End current session"
+msgstr "&Joriy seansni tugatish"
+
+#: package/contents/ui/main.qml:89
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgid "Restart computer"
+msgstr "K&ompyuterni oʻchirib-yoqish"
+
+#: package/contents/ui/main.qml:99
+#, fuzzy, kde-format
+#| msgid "&Turn off computer"
+msgid "Turn off computer"
+msgstr "Ko&mpyuterni oʻchirish"
+
+#: package/contents/ui/main.qml:115
+#, kde-format
+msgid "When logging in:"
+msgstr ""
+
+#: package/contents/ui/main.qml:116
+#, fuzzy, kde-format
+#| msgid "Restore &manually saved session"
+msgid "Restore previous saved session"
+msgstr "Qoʻlbola &saqlangan senslarni taklash"
+
+#: package/contents/ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Restore &manually saved session"
+msgid "Restore manually saved session"
+msgstr "Qoʻlbola &saqlangan senslarni taklash"
+
+#: package/contents/ui/main.qml:136
+#, fuzzy, kde-format
+#| msgid "Start with an empty &session"
+msgid "Start with an empty session"
+msgstr "&Boʻsh seans bilan boshlash"
+
+#: package/contents/ui/main.qml:149
+#, kde-format
+msgid "Don't restore these applications:"
+msgstr ""
+
+#: package/contents/ui/main.qml:155
+#, fuzzy, kde-format
+#| msgid ""
+#| "Here you can enter a comma-separated list of applications that should not "
+#| "be saved in sessions, and therefore will not be started when restoring a "
+#| "session. For example 'xterm,xconsole'."
+msgid ""
+"Here you can enter a colon or comma separated list of applications that "
+"should not be saved in sessions, and therefore will not be started when "
+"restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
+msgstr ""
+"Bu yerda vergul bilan ajratilgan dasturlarning nomini kiritish mumkin. Ular "
+"seansni tiklaganda ishga tushirilmaydi. Masalan, 'xterm,xconsole'."
+
+#: package/contents/ui/main.qml:169
+#, kde-format
+msgid "Enter firmware setup screen on next restart"
+msgstr ""
 
 #. i18n: ectx: label, entry (shutdownType), group (General)
 #: smserversettings.kcfg:17
@@ -98,14 +198,6 @@ msgstr "Tizimga kirishda"
 #| msgid "Applications to be e&xcluded from sessions:"
 msgid "Applications to be excluded from session"
 msgstr "Seansga &kirmagan dasturlar:"
-
-#, fuzzy
-#~| msgid "&Restart computer"
-#~ msgid "Restart Now"
-#~ msgstr "K&ompyuterni oʻchirib-yoqish"
-
-#~ msgid "General"
-#~ msgstr "Umumiy"
 
 #~ msgid ""
 #~ "Check this option if you want the session manager to display a logout "
@@ -131,39 +223,11 @@ msgstr "Seansga &kirmagan dasturlar:"
 #~ msgid "Default Leave Option"
 #~ msgstr "Andoza oʻchirish turi"
 
-#~ msgid "&End current session"
-#~ msgstr "&Joriy seansni tugatish"
-
-#~ msgid "&Restart computer"
-#~ msgstr "K&ompyuterni oʻchirib-yoqish"
-
-#~ msgid "&Turn off computer"
-#~ msgstr "Ko&mpyuterni oʻchirish"
-
 #~ msgid "On Login"
 #~ msgstr "Tizimga kirishda"
 
-#~ msgid "Restore &manually saved session"
-#~ msgstr "Qoʻlbola &saqlangan senslarni taklash"
-
-#~ msgid "Start with an empty &session"
-#~ msgstr "&Boʻsh seans bilan boshlash"
-
 #~ msgid "Applications to be e&xcluded from sessions:"
 #~ msgstr "Seansga &kirmagan dasturlar:"
-
-#, fuzzy
-#~| msgid ""
-#~| "Here you can enter a comma-separated list of applications that should "
-#~| "not be saved in sessions, and therefore will not be started when "
-#~| "restoring a session. For example 'xterm,xconsole'."
-#~ msgid ""
-#~ "Here you can enter a colon or comma separated list of applications that "
-#~ "should not be saved in sessions, and therefore will not be started when "
-#~ "restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
-#~ msgstr ""
-#~ "Bu yerda vergul bilan ajratilgan dasturlarning nomini kiritish mumkin. "
-#~ "Ular seansni tiklaganda ishga tushirilmaydi. Masalan, 'xterm,xconsole'."
 
 #~ msgid "Session Manager"
 #~ msgstr "Seans boshqaruvchisi"
