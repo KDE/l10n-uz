@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-26 03:00+0100\n"
+"POT-Creation-Date: 2021-03-01 02:50+0100\n"
 "PO-Revision-Date: 2006-12-17 13:43+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -235,6 +235,11 @@ msgid "Create shape"
 msgstr "Namunani yaratish"
 
 #: flake/commands/KoShapeDeleteCommand.cpp:56
+#, fuzzy
+msgctxt "(qtundo-format) Delete one shape"
+msgid "Delete shape"
+msgstr "Matnni oʻchirish"
+
 #: flake/commands/KoShapeDeleteCommand.cpp:69
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -2248,6 +2253,17 @@ msgid "Hide master shapes"
 msgstr "Namunani yaratish"
 
 #: pageapp/commands/KoPAPageDeleteCommand.cpp:39
+#, fuzzy
+msgctxt "(qtundo-format) Delete one slide"
+msgid "Delete slide"
+msgstr "Matnni oʻchirish"
+
+#: pageapp/commands/KoPAPageDeleteCommand.cpp:42
+#, fuzzy
+msgctxt "(qtundo-format) Delete one page"
+msgid "Delete page"
+msgstr "Matnni oʻchirish"
+
 #: pageapp/commands/KoPAPageDeleteCommand.cpp:63
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -2255,7 +2271,6 @@ msgid "Delete slide"
 msgid_plural "Delete slides"
 msgstr[0] "Matnni oʻchirish"
 
-#: pageapp/commands/KoPAPageDeleteCommand.cpp:42
 #: pageapp/commands/KoPAPageDeleteCommand.cpp:66
 #, fuzzy
 msgctxt "(qtundo-format)"
