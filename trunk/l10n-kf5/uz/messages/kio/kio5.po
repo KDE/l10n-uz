@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-06 00:15+0000\n"
+"POT-Creation-Date: 2021-04-07 00:16+0000\n"
 "PO-Revision-Date: 2005-10-13 21:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2188,7 +2188,7 @@ msgstr "%1 bilan bogʻlangan (%2)"
 msgid " (Points to %1)"
 msgstr "Bilan bogʻlangan:"
 
-#: core/mimetypefinderjob.cpp:57 gui/openurljob.cpp:145 widgets/krun.cpp:402
+#: core/mimetypefinderjob.cpp:57 gui/openurljob.cpp:145 widgets/krun.cpp:403
 #: widgets/paste.cpp:262 widgets/renamedialog.cpp:599
 #, kde-format
 msgid ""
@@ -3373,7 +3373,7 @@ msgid "*|All Files"
 msgstr "*|Hamma fayllar"
 
 #: filewidgets/kfilewidget.cpp:2073 widgets/executablefileopendialog.cpp:30
-#: widgets/kfileitemactions.cpp:360
+#: widgets/kfileitemactions.cpp:361
 #, kde-format
 msgid "&Open"
 msgstr "&Ochish"
@@ -3718,7 +3718,7 @@ msgid ""
 msgstr ""
 
 #: gui/applicationlauncherjob.cpp:249 gui/openurljob.cpp:605
-#: widgets/krun.cpp:199
+#: widgets/krun.cpp:200
 #, fuzzy, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr "Bu faylni ochishga sizda yetarli huquqlar yoʻq."
@@ -3844,7 +3844,7 @@ msgstr ""
 msgid "No Media inserted or Media not recognized."
 msgstr ""
 
-#: ioslaves/file/file.cpp:821 ioslaves/file/file.cpp:1013
+#: ioslaves/file/file.cpp:821 ioslaves/file/file.cpp:1011
 #, kde-format
 msgid "\"vold\" is not running."
 msgstr ""
@@ -3854,18 +3854,18 @@ msgstr ""
 msgid "Could not find program \"mount\""
 msgstr "'mount' dasturini topib boʻlmadi."
 
-#: ioslaves/file/file.cpp:921
+#: ioslaves/file/file.cpp:920
 #, fuzzy, kde-format
 #| msgid "Writing to %1 is not supported."
-msgid "mounting is not supported by wince."
+msgid "mounting is not supported by Windows CE."
 msgstr "'%1'ga yozish qoʻllanmagan."
 
-#: ioslaves/file/file.cpp:1024
+#: ioslaves/file/file.cpp:1022
 #, kde-format
 msgid "Could not find program \"umount\""
 msgstr "'umount' dasturini topib boʻlmadi."
 
-#: ioslaves/file/file.cpp:1039
+#: ioslaves/file/file.cpp:1037
 #, fuzzy, kde-format
 #| msgid "Writing to %1 is not supported."
 msgid "unmounting is not supported by wince."
@@ -4408,9 +4408,7 @@ msgid " [Cross Domain]"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, detailsGroupBox)
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:90
-#: ioslaves/http/kcookiejar/kcookiewin.cpp:357
-#: kcms/kio/kcookiesmanagement.ui:97
+#: ioslaves/http/kcookiejar/kcookiewin.cpp:90 kcms/kio/kcookiesmanagement.ui:97
 #, kde-format
 msgid "Details"
 msgstr "Tafsilotlar"
@@ -4531,6 +4529,9 @@ msgstr "Domen:"
 
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:281
 #, kde-format
+msgctxt ""
+"@label a description string of how 'accessible' the cookie is (e.g. see "
+"exposure string in this file)"
 msgid "Exposure:"
 msgstr ""
 
@@ -4546,36 +4547,61 @@ msgid "Show details of the next cookie"
 msgstr "Keyingi kukining tafsilotlarini koʻrsatish"
 
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:322
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Not specified"
+msgctxt "@label cookie has no explicit 'Domain' value specified"
 msgid "Not specified"
 msgstr "Aniqlanmagan"
 
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:331
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "End of Session"
+msgctxt "@label the cookie expires when the browser session ends"
 msgid "End of Session"
 msgstr "Seans yakuni"
 
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:336
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Secure servers only"
+msgctxt "@label exposure string - the cookie may only be used by https servers"
 msgid "Secure servers only"
 msgstr "Faqat xavfsiz serverlar"
 
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:338
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Secure servers, page scripts"
+msgctxt ""
+"@label exposure string - the cookie may be used by https servers AND client-"
+"side javascripts"
 msgid "Secure servers, page scripts"
 msgstr "Faqat xavfsiz serverlar, sahifa skriptlari"
 
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:342
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Servers"
+msgctxt "@label exposure string - the cookie may only be used by http servers"
 msgid "Servers"
 msgstr "Serverlar"
 
 #: ioslaves/http/kcookiejar/kcookiewin.cpp:344
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Servers, page scripts"
+msgctxt ""
+"@label exposure string - the cookie may be used by http servers AND client-"
+"side javascripts"
 msgid "Servers, page scripts"
 msgstr "Serverlar, sahifa skriptlari"
 
-#: ioslaves/remote/remoteimpl.cpp:97
+#: ioslaves/http/kcookiejar/kcookiewin.cpp:359
+#, fuzzy, kde-format
+#| msgid "Details"
+msgctxt ""
+"@action:button show details about a cookie that needs approval. This string "
+"gets >> and << appended, to visualize if the dialog expands or compacts!"
+msgid "Details"
+msgstr "Tafsilotlar"
+
+#: ioslaves/remote/remoteimpl.cpp:96
 #, fuzzy, kde-format
 #| msgid "Network"
 msgid "Network"
@@ -6470,7 +6496,12 @@ msgctxt "@item:inlistbox No default web search keyword"
 msgid "None"
 msgstr "Yoʻq"
 
-#: urifilters/ikws/ikwsopts.cpp:255
+#: urifilters/ikws/ikwsopts.cpp:230 urifilters/ikws/kurisearchfilter.cpp:83
+#, kde-format
+msgid "Search F&ilters"
+msgstr ""
+
+#: urifilters/ikws/ikwsopts.cpp:258
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6610,11 +6641,6 @@ msgstr ""
 #: urifilters/ikws/kuriikwsfilter.cpp:122
 #, kde-format
 msgid "No search providers were found."
-msgstr ""
-
-#: urifilters/ikws/kurisearchfilter.cpp:81
-#, kde-format
-msgid "Search F&ilters"
 msgstr ""
 
 #: urifilters/ikws/searchproviderdlg.cpp:46
@@ -7360,47 +7386,47 @@ msgctxt "@title:column"
 msgid "Type"
 msgstr "Turi"
 
-#: widgets/kfileitemactions.cpp:349
+#: widgets/kfileitemactions.cpp:350
 #, fuzzy, kde-format
 #| msgid "Open with:"
 msgid "&Open with %1"
 msgstr "Dastur bilan ochish:"
 
-#: widgets/kfileitemactions.cpp:371
+#: widgets/kfileitemactions.cpp:372
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "Dastur bilan ochish"
 
-#: widgets/kfileitemactions.cpp:384
+#: widgets/kfileitemactions.cpp:385
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "Dastur bilan ochish"
 
-#: widgets/kfileitemactions.cpp:395
+#: widgets/kfileitemactions.cpp:396
 #, fuzzy, kde-format
 #| msgid "&Application"
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application..."
 msgstr "&Dastur"
 
-#: widgets/kfileitemactions.cpp:513
+#: widgets/kfileitemactions.cpp:514
 #, fuzzy, kde-format
 #| msgid "Open with:"
 msgid "Open &with %1"
 msgstr "Dastur bilan ochish:"
 
-#: widgets/kfileitemactions.cpp:515
+#: widgets/kfileitemactions.cpp:516
 #, fuzzy, kde-format
 #| msgid "%1 B"
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
 msgstr "%1 B"
 
-#: widgets/kfileitemactions.cpp:706
+#: widgets/kfileitemactions.cpp:707
 #, fuzzy, kde-format
 #| msgid "Actions"
 msgctxt "@title:menu"
@@ -7421,17 +7447,17 @@ msgctxt "@info mimetype"
 msgid "Unknown"
 msgstr "Nomaʼlum"
 
-#: widgets/kopenwithdialog.cpp:296
+#: widgets/kopenwithdialog.cpp:297
 #, kde-format
 msgid "Known Applications"
 msgstr "Maʼlum boʻlgan dasturlar"
 
-#: widgets/kopenwithdialog.cpp:555
+#: widgets/kopenwithdialog.cpp:556
 #, kde-format
 msgid "Open With"
 msgstr "Dastur bilan ochish"
 
-#: widgets/kopenwithdialog.cpp:560
+#: widgets/kopenwithdialog.cpp:561
 #, kde-format
 msgid ""
 "<qt>Select the program that should be used to open <b>%1</b>. If the program "
@@ -7440,34 +7466,34 @@ msgstr ""
 "<qt><b>%1</b> faylini ochish uchun dasturni tanlang. Agar dastur roʻyxatda "
 "boʻlmasa, uning nomini kiriting yoki \"Tanlash\"tugmasini bosing.</qt>"
 
-#: widgets/kopenwithdialog.cpp:567
+#: widgets/kopenwithdialog.cpp:568
 #, kde-format
 msgid "Choose the name of the program with which to open the selected files."
 msgstr "Tanlangan fayllarni ochish uchun dasturni tanlang."
 
-#: widgets/kopenwithdialog.cpp:588
+#: widgets/kopenwithdialog.cpp:589
 #, kde-format
 msgid "<qt>Select the program you want to use to open the file<br/>%1</qt>"
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:590
+#: widgets/kopenwithdialog.cpp:591
 #, kde-format
 msgid "<qt>Select the program you want to use to open the file.</qt>"
 msgid_plural ""
 "<qt>Select the program you want to use to open the %1 files.</qt>"
 msgstr[0] ""
 
-#: widgets/kopenwithdialog.cpp:595 widgets/kopenwithdialog.cpp:626
+#: widgets/kopenwithdialog.cpp:596 widgets/kopenwithdialog.cpp:627
 #, kde-format
 msgid "Choose Application"
 msgstr "Dasturni tanlang"
 
-#: widgets/kopenwithdialog.cpp:610
+#: widgets/kopenwithdialog.cpp:611
 #, kde-format
 msgid "Choose Application for %1"
 msgstr "%1 uchun dasturni tanlang"
 
-#: widgets/kopenwithdialog.cpp:612
+#: widgets/kopenwithdialog.cpp:613
 #, kde-format
 msgid ""
 "<qt>Select the program for the file type: <b>%1</b>. If the program is not "
@@ -7476,7 +7502,7 @@ msgstr ""
 "<qt><b>%1</b> fayl turi uchun dasturni tanlang. Agar dastur roʻyxatda "
 "boʻlmasa, uning nomini kiriting yoki \"Tanlash\"tugmasini bosing.</qt>"
 
-#: widgets/kopenwithdialog.cpp:628
+#: widgets/kopenwithdialog.cpp:629
 #, kde-format
 msgid ""
 "<qt>Select a program. If the program is not listed, enter the name or click "
@@ -7485,14 +7511,14 @@ msgstr ""
 "<qt>Dasturni tanlang. Agar dastur roʻyxatda boʻlmasa, uning nomini kiriting "
 "yoki \"Tanlash\"tugmasini bosing.</qt>"
 
-#: widgets/kopenwithdialog.cpp:674
+#: widgets/kopenwithdialog.cpp:675
 #, kde-format
 msgid ""
 "Type to filter the applications below, or specify the name of a command.\n"
 "Press down arrow to navigate the results."
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:697
+#: widgets/kopenwithdialog.cpp:698
 #, kde-format
 msgid ""
 "Following the command, you can have several place holders which will be "
@@ -7509,7 +7535,7 @@ msgid ""
 "%c - the comment"
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:740
+#: widgets/kopenwithdialog.cpp:741
 #, fuzzy, kde-format
 #| msgid "&Remember application association for this type of file"
 msgid ""
@@ -7517,30 +7543,30 @@ msgid ""
 "\"%1\" (%2)"
 msgstr "Shu fayl turi bilan bogʻliq dasturni &eslab qolish"
 
-#: widgets/kopenwithdialog.cpp:749
+#: widgets/kopenwithdialog.cpp:750
 #, fuzzy, kde-format
 #| msgid "&Terminal options:"
 msgid "Terminal options"
 msgstr "Terminalning &parametrlari:"
 
-#: widgets/kopenwithdialog.cpp:754
+#: widgets/kopenwithdialog.cpp:755
 #, kde-format
 msgid "Run in &terminal"
 msgstr "&Terminalda bajarish"
 
-#: widgets/kopenwithdialog.cpp:772
+#: widgets/kopenwithdialog.cpp:773
 #, kde-format
 msgid "&Do not close when command exits"
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:958
+#: widgets/kopenwithdialog.cpp:959
 #, kde-format
 msgid ""
 "Could not extract executable name from '%1', please type a valid program "
 "name."
 msgstr ""
 
-#: widgets/kopenwithdialog.cpp:1008
+#: widgets/kopenwithdialog.cpp:1009
 #, kde-format
 msgid "'%1' not found, please type a valid program name."
 msgstr ""
@@ -8532,7 +8558,7 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr "%1 uchun qoʻshimcha parametrlar"
 
-#: widgets/krun.cpp:436
+#: widgets/krun.cpp:437
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -8541,7 +8567,7 @@ msgstr ""
 "<qt>Koʻrsatilgan buyruqni bajarib boʻlmadi. Fayl yoki jild (<b>%1</b>) "
 "mavjud emas.</qt>"
 
-#: widgets/krun.cpp:495
+#: widgets/krun.cpp:496
 #, fuzzy, kde-format
 #| msgid "Could not change permissions for %1."
 msgid "Could not find any application or handler for %1"
