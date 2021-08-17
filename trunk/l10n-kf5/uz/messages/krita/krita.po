@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-14 00:15+0000\n"
+"POT-Creation-Date: 2021-08-17 00:15+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17997,11 +17997,9 @@ msgstr "Rasmni import qilish"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
-#. i18n: ectx: property (text), widget (QRadioButton, btnAllView)
 #: libs/resources/KisTagModel.cpp:117 libs/resources/KisTagModel.cpp:279
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:593
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:262
-#: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:70
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:207
 #, kde-format
 msgid "All"
@@ -20134,10 +20132,8 @@ msgid "Snap to:"
 msgstr "Toʻrga birlashtiradi."
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#. i18n: ectx: property (text), widget (QRadioButton, btnGridMode)
 #: libs/ui/canvas/kis_guides_manager.cpp:776
 #: plugins/dockers/griddocker/grid_config_widget.ui:43
-#: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:49
 #, kde-format
 msgid "Grid"
 msgstr "Toʻr"
@@ -21331,11 +21327,6 @@ msgstr "&Nomi:"
 #, fuzzy, kde-format
 msgid "Vector Layer %1"
 msgstr "Qatlam %1"
-
-#: libs/ui/flake/kis_shape_layer.cc:617
-#, fuzzy, kde-format
-msgid "No store backend"
-msgstr "orqa fon"
 
 #: libs/ui/flake/kis_take_all_shapes_command.cpp:15
 #, fuzzy
@@ -36317,45 +36308,62 @@ msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
 msgstr "Tanlangan rangni olib tashlash"
 
-#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup1)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QToolButton, btnArrange)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:28
-#: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:76
-#: plugins/filters/dodgeburn/DodgeBurnConfigurationBaseWidget.ui:21
-#: plugins/python/channels2layers/channels2layers.py:1076
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Mode"
+msgctxt "list view layout mode"
 msgid "Mode"
 msgstr "Usul"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnColumnMode)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:35
 #, fuzzy, kde-format
+msgctxt "list view layout mode"
 msgid "Column"
 msgstr "Qiymati"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnRowMode)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:42
 #, fuzzy, kde-format
+msgctxt "list view layout mode"
 msgid "Row"
 msgstr "Qatlam"
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnGridMode)
+#: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:49
+#, fuzzy, kde-format
+#| msgid "Grid"
+msgctxt "list view layout mode"
+msgid "Grid"
+msgstr "Toʻr"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:63
 #, fuzzy, kde-format
+msgctxt "list view fields visibility"
 msgid "View"
 msgstr "Sharob"
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnAllView)
+#: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:70
+#, kde-format
+msgctxt "list view fields visibility"
+msgid "All"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnThumbnailsView)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:77
 #, fuzzy, kde-format
 #| msgid "Import Image"
+msgctxt "list view fields visibility"
 msgid "Thumbnails Only"
 msgstr "Rasmni import qilish"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnCommentsView)
 #: plugins/dockers/storyboarddocker/wdgarrangemenu.ui:84
 #, fuzzy, kde-format
+msgctxt "list view fields visibility"
 msgid "Comments Only"
 msgstr "Izoh"
 
@@ -36473,6 +36481,15 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Comments"
 msgstr "Izoh"
+
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup1)
+#. i18n: ectx: property (text), widget (QToolButton, btnArrange)
+#: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:76
+#: plugins/filters/dodgeburn/DodgeBurnConfigurationBaseWidget.ui:21
+#: plugins/python/channels2layers/channels2layers.py:1076
+#, kde-format
+msgid "Mode"
+msgstr "Usul"
 
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:156
 #, fuzzy, kde-format
@@ -53878,6 +53895,10 @@ msgstr "Kattalashtirish vositasi"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "Rasmning nomini oʻzgartirish"
+
+#, fuzzy
+#~ msgid "No store backend"
+#~ msgstr "orqa fon"
 
 #, fuzzy
 #~| msgid "Import Image"
