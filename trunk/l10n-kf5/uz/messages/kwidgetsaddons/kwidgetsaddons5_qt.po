@@ -1959,14 +1959,14 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "&Pastga"
 
-#: kfontchooser.cpp:140
+#: kfontchooser.cpp:158
 #, fuzzy
 #| msgid "Requested Font"
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "Talab qilingan shrift"
 
-#: kfontchooser.cpp:185
+#: kfontchooser.cpp:199
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -1974,7 +1974,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "Oddiy"
 
-#: kfontchooser.cpp:186 kfontchooser.cpp:468
+#: kfontchooser.cpp:200 kfontchooser.cpp:479
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Italic"
@@ -1982,7 +1982,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "Qiya"
 
-#: kfontchooser.cpp:187 kfontchooser.cpp:469
+#: kfontchooser.cpp:201 kfontchooser.cpp:480
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Oblique"
@@ -1990,7 +1990,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "Yarim qiya"
 
-#: kfontchooser.cpp:188
+#: kfontchooser.cpp:202
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Bold"
@@ -1998,21 +1998,28 @@ msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "Qalin"
 
-#: kfontchooser.cpp:189
+#: kfontchooser.cpp:203
 #, fuzzy
-#| msgctxt "@item font"
-#| msgid "Bold Italic"
+#| msgctxt "font style"
+#| msgid "Book Oblique"
 msgctxt "KFontChooser|@item font"
-msgid "Bold Italic"
-msgstr "Qalin qiya"
+msgid "Bold Condensed Oblique"
+msgstr "Yarim qiya kitob"
 
-#: kfontchooser.cpp:206
+#: kfontchooser.cpp:247
+#, fuzzy
+#| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
+msgctxt "KFontChooser|"
+msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
+msgstr "Oq choynakga oq qapqoq koʻk choynakga koʻk qapqoq"
+
+#: kfontchooser.cpp:303
 #, fuzzy
 msgctxt "KFontChooser|@info:tooltip"
 msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 msgstr "Shriftning<br><i>belgilangan</i> yoki <i>muhitga nisbatan</i> oʻlchami"
 
-#: kfontchooser.cpp:207
+#: kfontchooser.cpp:304
 msgctxt "KFontChooser|@info:whatsthis"
 msgid ""
 "Here you can switch between fixed font size and font size to be calculated "
@@ -2020,14 +2027,7 @@ msgid ""
 "paper size)."
 msgstr ""
 
-#: kfontchooser.cpp:250
-#, fuzzy
-#| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
-msgctxt "KFontChooser|"
-msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
-msgstr "Oq choynakga oq qapqoq koʻk choynakga koʻk qapqoq"
-
-#: kfontchooser.cpp:453
+#: kfontchooser.cpp:464
 #, fuzzy, qt-format
 msgctxt "KFontChooser|@item Font style"
 msgid "%1"
@@ -3006,6 +3006,13 @@ msgstr "Butun ekranga"
 msgctxt "KToggleFullScreenAction|@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "@item font"
+#~| msgid "Bold Italic"
+#~ msgctxt "KFontChooser|@item font"
+#~ msgid "Bold Italic"
+#~ msgstr "Qalin qiya"
 
 #, fuzzy
 #~| msgid "Yes"
@@ -13076,10 +13083,6 @@ msgstr ""
 #~ msgctxt "font style"
 #~ msgid "Book"
 #~ msgstr "Kitob"
-
-#~ msgctxt "font style"
-#~ msgid "Book Oblique"
-#~ msgstr "Yarim qiya kitob"
 
 #~ msgctxt "window operation"
 #~ msgid "Sticky"
