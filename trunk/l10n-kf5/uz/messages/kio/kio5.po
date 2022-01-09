@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-04 00:41+0000\n"
+"POT-Creation-Date: 2022-01-09 00:41+0000\n"
 "PO-Revision-Date: 2005-10-13 21:27+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -2678,7 +2678,7 @@ msgstr "Koʻrib chiqishni koʻrsatish"
 msgid "Open Containing Folder"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2279 filewidgets/kfileplacesview.cpp:891
+#: filewidgets/kdiroperator.cpp:2279 filewidgets/kfileplacesview.cpp:948
 #, kde-format
 msgid "Properties"
 msgstr "Xossalari"
@@ -3081,49 +3081,72 @@ msgstr ""
 msgid "An error occurred while accessing '%1'"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:488
+#: filewidgets/kfileplacesview.cpp:491
 #, kde-format
 msgid "%1 (hidden)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:843
-#, kde-format
-msgid "Hide Section"
-msgstr ""
-
-#: filewidgets/kfileplacesview.cpp:849
+#: filewidgets/kfileplacesview.cpp:908
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Chiqindilar qutisini boʻshatish"
 
-#: filewidgets/kfileplacesview.cpp:854 filewidgets/kfileplacesview.cpp:888
-#: filewidgets/kfileplacesview.cpp:904
-#, kde-format
-msgid "Add Entry..."
-msgstr "Qoʻshish"
-
-#: filewidgets/kfileplacesview.cpp:880
+#: filewidgets/kfileplacesview.cpp:935
 #, fuzzy, kde-format
 #| msgid "Mount"
 msgctxt "@action:inmenu"
 msgid "Mount"
 msgstr "Ulash"
 
-#: filewidgets/kfileplacesview.cpp:894
+#: filewidgets/kfileplacesview.cpp:941
+#, fuzzy, kde-format
+#| msgid "Open With"
+msgctxt "@item:inmenu"
+msgid "Open in New Tab"
+msgstr "Dastur bilan ochish"
+
+#: filewidgets/kfileplacesview.cpp:944
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Open in New Window"
+msgstr ""
+
+#: filewidgets/kfileplacesview.cpp:953
+#, fuzzy, kde-format
+#| msgid "Add Entry..."
+msgctxt "@action:inmenu"
+msgid "Add Entry…"
+msgstr "Qoʻshish"
+
+#: filewidgets/kfileplacesview.cpp:959
 #, fuzzy, kde-format
 #| msgid "Edit"
 msgctxt "@action:inmenu"
 msgid "&Edit…"
 msgstr "Tahrirlash"
 
-#: filewidgets/kfileplacesview.cpp:897
+#: filewidgets/kfileplacesview.cpp:964
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:inmenu"
+msgid "Remove"
+msgstr "Olib tashlash"
+
+#: filewidgets/kfileplacesview.cpp:968
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Hide"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:909
+#: filewidgets/kfileplacesview.cpp:975
+#, fuzzy, kde-format
+#| msgid "&Add Entry..."
+msgctxt "@item:inmenu"
+msgid "Hide Section '%1'"
+msgstr "&Elementni qoʻshish"
+
+#: filewidgets/kfileplacesview.cpp:982
 #, fuzzy, kde-format
 #| msgid ""
 #| "Show\n"
@@ -3133,21 +3156,14 @@ msgstr ""
 "Elementlarni\n"
 "koʻrsatish"
 
-#: filewidgets/kfileplacesview.cpp:920
-#, fuzzy, kde-format
-#| msgid "Remove"
-msgctxt "@action:inmenu"
-msgid "Remove"
-msgstr "Olib tashlash"
-
-#: filewidgets/kfileplacesview.cpp:923
+#: filewidgets/kfileplacesview.cpp:987
 #, fuzzy, kde-format
 #| msgid "Short View"
 msgctxt "@item:inmenu"
 msgid "Icon Size"
 msgstr "Qisqa koʻrinish"
 
-#: filewidgets/kfileplacesview.cpp:1028
+#: filewidgets/kfileplacesview.cpp:1114
 #, fuzzy, kde-format
 #| msgid "Auto &Detect"
 msgctxt ""
@@ -3156,25 +3172,25 @@ msgctxt ""
 msgid "Auto Resize"
 msgstr "&Avto-aniqlash"
 
-#: filewidgets/kfileplacesview.cpp:1050
+#: filewidgets/kfileplacesview.cpp:1134
 #, kde-format
 msgctxt "Small icon size"
 msgid "Small (%1x%1)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1053
+#: filewidgets/kfileplacesview.cpp:1137
 #, kde-format
 msgctxt "Medium icon size"
 msgid "Medium (%1x%1)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1056
+#: filewidgets/kfileplacesview.cpp:1140
 #, fuzzy, kde-format
 msgctxt "Large icon size"
 msgid "Large (%1x%1)"
 msgstr "hajmi %1"
 
-#: filewidgets/kfileplacesview.cpp:1059
+#: filewidgets/kfileplacesview.cpp:1143
 #, kde-format
 msgctxt "Huge icon size"
 msgid "Huge (%1x%1)"
@@ -8964,11 +8980,6 @@ msgstr ""
 #~| msgid "&Edit Entry..."
 #~ msgid "&Edit Entry '%1'..."
 #~ msgstr "Elementni &tahrirlash"
-
-#, fuzzy
-#~| msgid "&Add Entry..."
-#~ msgid "&Hide Entry '%1'"
-#~ msgstr "&Elementni qoʻshish"
 
 #, fuzzy
 #~| msgid "&Remove Entry"
