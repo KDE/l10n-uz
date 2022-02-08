@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-07 00:42+0000\n"
+"POT-Creation-Date: 2022-02-08 00:42+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -30946,7 +30946,8 @@ msgstr "&Andoza"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:72
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:155
-#: libs/widgets/KoToolBox.cpp:306 libs/widgetutils/xmlgui/ktoolbar.cpp:321
+#: libs/widgets/KoToolBoxDocker.cpp:136
+#: libs/widgetutils/xmlgui/ktoolbar.cpp:321
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:200
 #, fuzzy, kde-format
 msgid "Icon Size"
@@ -32070,13 +32071,13 @@ msgstr "Koʻk"
 msgid "Distance:"
 msgstr "Oʻrnini almashtirishmoq"
 
-#: libs/widgets/KoToolBox.cpp:307 libs/widgetutils/xmlgui/ktoolbar.cpp:323
+#: libs/widgets/KoToolBox.cpp:311 libs/widgetutils/xmlgui/ktoolbar.cpp:323
 #, fuzzy, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "&Andoza"
 
-#: libs/widgets/KoToolBox.cpp:314
+#: libs/widgets/KoToolBox.cpp:318
 #, kde-format
 msgid "%1x%2"
 msgstr ""
@@ -32087,10 +32088,34 @@ msgctxt "@info:tooltip %2 is shortcut"
 msgid "%1 (%2)"
 msgstr "Yashildan nusxa olish"
 
-#: libs/widgets/KoToolBoxDocker.cpp:20
+#: libs/widgets/KoToolBoxDocker.cpp:25
 #, fuzzy, kde-format
 msgid "Toolbox"
 msgstr "Andoza rang"
+
+#: libs/widgets/KoToolBoxDocker.cpp:139
+#, fuzzy, kde-format
+msgctxt "Toolbox layout"
+msgid "Layout"
+msgstr "Sahifa moslamasi"
+
+#: libs/widgets/KoToolBoxDocker.cpp:142
+#, fuzzy, kde-format
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Automatic"
+msgstr "namoyish"
+
+#: libs/widgets/KoToolBoxDocker.cpp:149
+#, fuzzy, kde-format
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Left-to-right"
+msgstr "Qator:"
+
+#: libs/widgets/KoToolBoxDocker.cpp:156
+#, fuzzy, kde-format
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Right-to-left"
+msgstr "Oʻngdan boʻsh joy"
 
 #: libs/widgets/KoToolDocker.cpp:143
 #, fuzzy, kde-format
@@ -56933,18 +56958,6 @@ msgstr "Rasmning nomini oʻzgartirish"
 #, fuzzy
 #~ msgid "&Text direction:"
 #~ msgstr "&Matnning rangi:"
-
-#, fuzzy
-#~ msgid "Automatic"
-#~ msgstr "namoyish"
-
-#, fuzzy
-#~ msgid "Left to right"
-#~ msgstr "Qator:"
-
-#, fuzzy
-#~ msgid "Right to left"
-#~ msgstr "Oʻngdan boʻsh joy"
 
 #, fuzzy
 #~ msgid "&Binding edge:"
