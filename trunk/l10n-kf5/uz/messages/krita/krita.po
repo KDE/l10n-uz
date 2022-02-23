@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-19 00:41+0000\n"
+"POT-Creation-Date: 2022-02-23 00:43+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -17723,7 +17723,7 @@ msgstr "&Manbalar"
 msgid "Local Resources"
 msgstr "Qatlamni &olib tashlash"
 
-#: libs/resources/KisResourceCacheDb.cpp:224
+#: libs/resources/KisResourceCacheDb.cpp:231
 #: libs/resourcewidgets/KisStorageChooserWidget.cpp:167
 #: libs/ui/animation/KisAnimationRender.cpp:47
 #: libs/ui/animation/KisAnimationRender.cpp:99
@@ -17809,70 +17809,70 @@ msgctxt "@title:window"
 msgid "Krita"
 msgstr "Krita"
 
-#: libs/resources/KisResourceCacheDb.cpp:224
+#: libs/resources/KisResourceCacheDb.cpp:231
 #, kde-format
 msgid ""
 "The resource database scheme has changed. Krita will backup your database "
 "and create a new database."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:93
+#: libs/resources/KisResourceLocator.cpp:88
 #, fuzzy, kde-format
 #| msgid "Could not create the file for saving"
 msgid "1. Could not create the resource location at %1."
 msgstr "Saqlash uchun faylni yaratib boʻlmadi"
 
-#: libs/resources/KisResourceLocator.cpp:100
+#: libs/resources/KisResourceLocator.cpp:95
 #, kde-format
 msgid "2. The resource location at %1 is not writable."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:812
+#: libs/resources/KisResourceLocator.cpp:816
 #, fuzzy, kde-format
 msgid "Could not add %1 to the database"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/resources/KisResourceLocator.cpp:856
-#: libs/resources/KisResourceLocator.cpp:1172
+#: libs/resources/KisResourceLocator.cpp:860
+#: libs/resources/KisResourceLocator.cpp:1186
 #, fuzzy, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/resources/KisResourceLocator.cpp:937
+#: libs/resources/KisResourceLocator.cpp:951
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:944
+#: libs/resources/KisResourceLocator.cpp:958
 #, fuzzy, kde-format
 #| msgid "Could not create the file for saving"
 msgid "3. Could not create the resource location at %1."
 msgstr "Saqlash uchun faylni yaratib boʻlmadi"
 
-#: libs/resources/KisResourceLocator.cpp:957
-#: libs/resources/KisResourceLocator.cpp:973
+#: libs/resources/KisResourceLocator.cpp:971
+#: libs/resources/KisResourceLocator.cpp:987
 #, fuzzy, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr "Qatlamni rasmga qoʻshib boʻlmadi."
 
-#: libs/resources/KisResourceLocator.cpp:969
+#: libs/resources/KisResourceLocator.cpp:983
 #, fuzzy, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr "Moslash..."
 
-#: libs/resources/KisResourceLocator.cpp:991
+#: libs/resources/KisResourceLocator.cpp:1005
 #, fuzzy, kde-format
 msgid "Initializing the resources."
 msgstr "&Manbalar"
 
-#: libs/resources/KisResourceLocator.cpp:1025
+#: libs/resources/KisResourceLocator.cpp:1039
 #, fuzzy, kde-format
 msgid "Temporary Resources"
 msgstr "Hujjatni import qilish"
 
-#: libs/resources/KisResourceLocator.cpp:1148
-#: libs/resources/KisResourceLocator.cpp:1154
+#: libs/resources/KisResourceLocator.cpp:1162
+#: libs/resources/KisResourceLocator.cpp:1168
 #, fuzzy, kde-format
 #| msgid "Could not add layer to image."
 msgid "Could not synchronize %1 with the database"
@@ -18484,7 +18484,7 @@ msgid ""
 msgstr ""
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:215
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:114
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:112
 #, fuzzy, kde-format
 msgctxt ""
 "Option in a dialog to undelete (reactivate) existing tag with its old "
@@ -18501,14 +18501,14 @@ msgid "Use existing tag"
 msgstr "Qatlamni koʻchirish"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:218
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:111
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:109
 #, fuzzy, kde-format
 msgctxt "Dialog title"
 msgid "Overwrite tag?"
 msgstr "Bosim:"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:219
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:112
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:110
 #, fuzzy, kde-format
 msgctxt "Question to the user in a dialog about creating a tag"
 msgid "A tag with this unique name already exists. Do you want to replace it?"
@@ -18517,7 +18517,7 @@ msgstr ""
 "Uni almashtirishni istaysizmi?"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:220
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:113
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:111
 #, fuzzy, kde-format
 msgctxt ""
 "Option in a dialog to discard the previously existing tag and creating a new "
@@ -18541,7 +18541,7 @@ msgstr "Matnni almashtirish"
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
 #: plugins/dockers/recorder/recorder_export.ui:788
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:114
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:112
 #: plugins/generators/seexpr/wdgseexpr.ui:179
 #: plugins/python/krita_script_starter/bbdkss.ui:203
 #, fuzzy, kde-format
@@ -26439,7 +26439,7 @@ msgstr "Orqa fon rangi"
 #: libs/ui/kis_control_frame.cpp:190 libs/ui/KisApplication.cpp:346
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:237
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:242
 #, fuzzy, kde-format
 msgid "Patterns"
 msgstr "Namunalar"
@@ -26452,7 +26452,7 @@ msgstr "Noananaviy namuna"
 #: libs/ui/kis_control_frame.cpp:240 libs/ui/KisApplication.cpp:331
 #: libs/ui/KisApplication.cpp:332
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:240
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:245
 #, kde-format
 msgid "Gradients"
 msgstr "Gradientlar"
@@ -27183,14 +27183,14 @@ msgid "Zoom: %1 %"
 msgstr "Kattalashtirish %1%"
 
 #: libs/ui/KisApplication.cpp:323
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:234
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:239
 #, fuzzy, kde-format
 msgid "Brush presets"
 msgstr "Bosim:"
 
 #: libs/ui/KisApplication.cpp:326 libs/ui/KisApplication.cpp:327
 #: libs/ui/KisApplication.cpp:328 libs/ui/KisApplication.cpp:329
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:235
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:240
 #, fuzzy, kde-format
 #| msgid "Brush size"
 msgid "Brush tips"
@@ -27198,14 +27198,14 @@ msgstr "Boʻyoqning oʻlchami"
 
 #: libs/ui/KisApplication.cpp:334
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:66
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:238
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:243
 #, fuzzy, kde-format
 msgid "Palettes"
 msgstr "Palitralar"
 
 #: libs/ui/KisApplication.cpp:347 libs/ui/widgets/kis_workspace_chooser.cpp:79
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:67
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:236
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:241
 #, fuzzy, kde-format
 msgid "Workspaces"
 msgstr "Ranglar boʻshligʻi"
@@ -27221,7 +27221,7 @@ msgid "Window layouts"
 msgstr "Tomchining oʻlchami"
 
 #: libs/ui/KisApplication.cpp:351
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:241
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:246
 #, fuzzy, kde-format
 msgid "Gamut masks"
 msgstr "Yaratish"
@@ -39684,12 +39684,12 @@ msgstr ""
 msgid "Save Tags to Folder"
 msgstr "Oʻxshash ranglarni tanlash"
 
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:239
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:244
 #, fuzzy, kde-format
 msgid "Layer styles"
 msgstr "Qatlamning oʻlchami"
 
-#: plugins/extensions/resourcemanager/wdgtagselection.cpp:242
+#: plugins/extensions/resourcemanager/wdgtagselection.cpp:247
 #, fuzzy, kde-format
 msgid "SeExpr scripts"
 msgstr "Satrma-satr"
