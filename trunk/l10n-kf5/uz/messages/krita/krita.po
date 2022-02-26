@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-25 00:44+0000\n"
+"POT-Creation-Date: 2022-02-26 00:45+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -15375,7 +15375,7 @@ msgctxt "The category of filters that do not fit in a category. Noun."
 msgid "Other"
 msgstr "Boshqa"
 
-#: libs/image/generator/kis_generator_layer.cpp:193
+#: libs/image/generator/kis_generator_layer.cpp:194
 #, fuzzy, kde-format
 msgid "Generator"
 msgstr "Umumiy"
@@ -26495,26 +26495,26 @@ msgstr "Nomlangan ranglar"
 
 #: libs/ui/kis_canvas_controls_manager.cpp:287
 #, fuzzy, kde-format
-msgid "%1 %2%"
-msgstr "%1%"
+msgid "Brush Opacity: %1%"
+msgstr "Xiralik:"
 
 #: libs/ui/kis_canvas_controls_manager.cpp:319
 #, fuzzy, kde-format
 msgctxt "Brush Option Flow"
-msgid "%1 %2%"
-msgstr "%1%"
+msgid "Flow: %1%"
+msgstr "So&yalar"
 
 #: libs/ui/kis_canvas_controls_manager.cpp:351
 #, fuzzy, kde-format
 msgctxt "Edge softness, Brush Option Fade"
-msgid "%1 %2"
-msgstr "%1%"
+msgid "Fade: %1"
+msgstr "Yaratish"
 
 #: libs/ui/kis_canvas_controls_manager.cpp:379
 #, fuzzy, kde-format
 msgctxt "Brush Option Scatter"
-msgid "%1 %2%"
-msgstr "%1%"
+msgid "Scatter: %1%"
+msgstr "Namuna"
 
 #: libs/ui/kis_change_file_layer_command.h:22
 #, fuzzy
@@ -28270,36 +28270,38 @@ msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "&Grafikani import qilish"
 
-#: libs/ui/KisMainWindow.cpp:2509
+#: libs/ui/KisMainWindow.cpp:2510
 #, fuzzy, kde-format
+msgctxt "@item:inmenu opened document, %1=index %2=document path"
 msgid "&%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2512
+#: libs/ui/KisMainWindow.cpp:2513
 #, fuzzy, kde-format
+msgctxt "@item:inmenu opened document, %1=index %2=document path"
 msgid "%1 %2"
 msgstr "%1%"
 
-#: libs/ui/KisMainWindow.cpp:2671
+#: libs/ui/KisMainWindow.cpp:2672
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2687
+#: libs/ui/KisMainWindow.cpp:2688
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "Qatlam xatosi."
 
-#: libs/ui/KisMainWindow.cpp:2796
+#: libs/ui/KisMainWindow.cpp:2797
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2850
+#: libs/ui/KisMainWindow.cpp:2851
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -29882,8 +29884,9 @@ msgstr ""
 
 #: libs/ui/tool/kis_tool_paint.cc:675
 #, fuzzy, kde-format
-msgid "%1 %2 px"
-msgstr "%1%"
+#| msgid "Brush size"
+msgid "Brush Size: %1 px"
+msgstr "Boʻyoqning oʻlchami"
 
 #: libs/ui/tool/kis_tool_polyline_base.cpp:70
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:140
@@ -52196,20 +52199,20 @@ msgstr "Koʻrib chiqish"
 msgid "Show Guideline"
 msgstr "Toʻrni koʻrsatish"
 
-#: plugins/tools/basictools/kis_tool_line.cc:366
+#: plugins/tools/basictools/kis_tool_line.cc:372
 #, fuzzy, kde-format
 #| msgid "Strength:"
 msgid "Length: %1 px"
 msgstr "Kuch:"
 
-#: plugins/tools/basictools/kis_tool_line.cc:384
+#: plugins/tools/basictools/kis_tool_line.cc:390
 #, kde-format
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_line.h:105
+#: plugins/tools/basictools/kis_tool_line.h:106
 #, fuzzy, kde-format
 msgid "Line Tool"
 msgstr "Toʻgʻri chiziq vositasi"
@@ -52223,6 +52226,7 @@ msgstr "°"
 
 #: plugins/tools/basictools/kis_tool_measure.cc:130
 #, fuzzy, kde-format
+msgctxt "%1=distance %2=unit of distance %3=angle in degrees"
 msgid ""
 "%1 %2\n"
 "%3°"
@@ -55224,6 +55228,29 @@ msgstr "Kattalashtirish vositasi"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "Rasmning nomini oʻzgartirish"
+
+#, fuzzy
+#~ msgid "%1 %2%"
+#~ msgstr "%1%"
+
+#, fuzzy
+#~ msgctxt "Brush Option Flow"
+#~ msgid "%1 %2%"
+#~ msgstr "%1%"
+
+#, fuzzy
+#~ msgctxt "Edge softness, Brush Option Fade"
+#~ msgid "%1 %2"
+#~ msgstr "%1%"
+
+#, fuzzy
+#~ msgctxt "Brush Option Scatter"
+#~ msgid "%1 %2%"
+#~ msgstr "%1%"
+
+#, fuzzy
+#~ msgid "%1 %2 px"
+#~ msgstr "%1%"
 
 #, fuzzy
 #~| msgid "General"
