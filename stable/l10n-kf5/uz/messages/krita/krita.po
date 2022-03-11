@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-09 02:10+0000\n"
+"POT-Creation-Date: 2022-03-11 02:23+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -8784,7 +8784,31 @@ msgstr ""
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
 #. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Actions (Filters), ActionCollection (Krita)
 #: krita/krita.action:791 plugins/dockers/logdocker/LogDockerDock.cpp:142
+#: plugins/filters/asccdl/asccdl.action:4
+#: plugins/filters/colorsfilters/colorsfilters.action:4
+#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:4
+#: plugins/filters/gaussianhighpass/gaussianhighpass.action:4
+#: plugins/filters/gradientmap/gradientmap.action:4
+#: plugins/filters/halftone/halftone.action:4
+#: plugins/filters/normalize/normalize.action:4
+#: plugins/filters/palettize/palettize.action:4
 #: plugins/filters/threshold/threshold.action:4
 #, fuzzy, kde-format
 msgctxt "Filter as an effect"
@@ -39481,6 +39505,17 @@ msgstr "Piksel balandligi"
 msgid "Wavelet scales:"
 msgstr "Piksel balandligi"
 
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_asc-cdl), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/asccdl/asccdl.action:7
+#: plugins/filters/asccdl/asccdl.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Slope, Offset, Power Filter"
+msgstr "&Oʻzgartirib boʻladigan qatlam..."
+
 #: plugins/filters/asccdl/kis_asccdl_filter.cpp:31
 #, fuzzy, kde-format
 msgid "&Slope, Offset, Power..."
@@ -39765,6 +39800,17 @@ msgstr "Chegara:"
 msgid "Color Sampler:"
 msgstr "Ranglar boʻshligʻi"
 
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_crosschannel), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/colorsfilters/colorsfilters.action:7
+#: plugins/filters/colorsfilters/colorsfilters.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Cross-channel adjustment Filter"
+msgstr "&Ranglarni moslash..."
+
 #: plugins/filters/colorsfilters/colorsfilters.cpp:77
 #, kde-format
 msgid "&Auto Contrast"
@@ -40033,6 +40079,17 @@ msgstr "Kanal:"
 msgid "Driver channel"
 msgstr "&Kanal:"
 
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_height to normal), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:7
+#: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Height to Normal Map Filter"
+msgstr "Oddiy"
+
 #: plugins/filters/convertheightnormalmap/kis_convert_height_to_normal_map_filter.cpp:29
 #, fuzzy, kde-format
 msgid "&Height to Normal Map..."
@@ -40259,6 +40316,17 @@ msgstr "Rang chegarasi"
 msgid "Reference image:"
 msgstr "Rasmning nomini oʻzgartirish"
 
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/gaussianhighpass/gaussianhighpass.action:7
+#: plugins/filters/gaussianhighpass/gaussianhighpass.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Gaussian High Pass Filter"
+msgstr "Bosim"
+
 #: plugins/filters/gaussianhighpass/gaussianhighpass_filter.cpp:38
 #, fuzzy, kde-format
 msgid "&Gaussian High Pass..."
@@ -40268,6 +40336,20 @@ msgstr "Chegara..."
 #, fuzzy, kde-format
 msgid "Gaussian High Pass"
 msgstr "Bosim"
+
+#. i18n: context: Action (krita_filter_gradientmap), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/gradientmap/gradientmap.action:7
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "gradientmap Filter"
+msgstr "Gradient vositasi"
+
+#. i18n: context: Action (krita_filter_gradientmap), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/gradientmap/gradientmap.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Gradient Map Filter"
+msgstr "Gradient"
 
 #: plugins/filters/gradientmap/KisGradientMapFilter.cpp:32
 #, fuzzy, kde-format
@@ -40327,6 +40409,17 @@ msgstr "Yangi rasm"
 #| msgid "Other"
 msgid "Dither"
 msgstr "Boshqa"
+
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_halftone), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/halftone/halftone.action:7
+#: plugins/filters/halftone/halftone.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Halftone Filter"
+msgstr "Filter"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabScreenGenerator)
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:49
@@ -40576,6 +40669,17 @@ msgstr "Oddiy"
 msgid "&Normalize"
 msgstr "Oddiy"
 
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_normalize), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/normalize/normalize.action:7
+#: plugins/filters/normalize/normalize.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Normalize Filter"
+msgstr "Rasmni &moʻʼtadillashtirish"
+
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:44
 #, kde-format
 msgid "&Oilpaint..."
@@ -40600,6 +40704,17 @@ msgstr "Tekis"
 #, kde-format
 msgid "Oilpaint"
 msgstr "Moyboʻyoq"
+
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#. i18n: context: Action (krita_filter_palettize), Actions (Filters), ActionCollection (Krita)
+#: plugins/filters/palettize/palettize.action:7
+#: plugins/filters/palettize/palettize.action:9
+#, fuzzy, kde-format
+msgctxt "action"
+msgid "Palettize Filter"
+msgstr "Palitra"
 
 #: plugins/filters/palettize/palettize.cpp:110
 #, fuzzy, kde-format
@@ -80730,10 +80845,6 @@ msgstr "Rasmning nomini oʻzgartirish"
 
 #~ msgid "Warning: this filter may take a long time."
 #~ msgstr "Diqqat: bu filterni qoʻllash koʻp vaqtni olishi mumkin."
-
-#, fuzzy
-#~ msgid "&Normalize picture"
-#~ msgstr "Rasmni &moʻʼtadillashtirish"
 
 #, fuzzy
 #~ msgid "Gradient factor:"
