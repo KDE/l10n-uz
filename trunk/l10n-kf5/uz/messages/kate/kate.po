@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-10 00:48+0000\n"
+"POT-Creation-Date: 2022-04-19 00:48+0000\n"
 "PO-Revision-Date: 2006-12-17 12:02+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1029,13 +1029,13 @@ msgstr "Sea&nsni saqlash"
 msgid "Save Session &As..."
 msgstr "Seansni saqlashni istaysizmi?"
 
-#: ../lib/katemainwindow.cpp:496
+#: ../lib/katemainwindow.cpp:496 ../lib/kateviewspace.cpp:60
 #, fuzzy, kde-format
 #| msgid "Restore loca&tion"
 msgid "Go to Previous Location"
 msgstr "Manzillarni &tiklash"
 
-#: ../lib/katemainwindow.cpp:504
+#: ../lib/katemainwindow.cpp:504 ../lib/kateviewspace.cpp:73
 #, fuzzy, kde-format
 msgid "Go to Next Location"
 msgstr "Manzillarni &tiklash"
@@ -1555,17 +1555,6 @@ msgstr "Faylni ochish"
 msgid "This view may have unsaved work. Do you really want to close it?"
 msgstr ""
 
-#: ../lib/kateviewspace.cpp:60
-#, fuzzy, kde-format
-#| msgid "Restore loca&tion"
-msgid "Go to previous edit location"
-msgstr "Manzillarni &tiklash"
-
-#: ../lib/kateviewspace.cpp:73
-#, fuzzy, kde-format
-msgid "Go to next edit location"
-msgstr "Manzillarni &tiklash"
-
 #: ../lib/kateviewspace.cpp:100
 #, kde-format
 msgctxt "indicator for more documents"
@@ -2023,6 +2012,15 @@ msgstr "Ochish uchun hujjat"
 #, kde-format
 msgid "[urls...]"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Restore loca&tion"
+#~ msgid "Go to previous edit location"
+#~ msgstr "Manzillarni &tiklash"
+
+#, fuzzy
+#~ msgid "Go to next edit location"
+#~ msgstr "Manzillarni &tiklash"
 
 #, fuzzy
 #~ msgid "Delete File?"
