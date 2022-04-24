@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-30 00:41+0000\n"
+"POT-Creation-Date: 2022-04-24 00:40+0000\n"
 "PO-Revision-Date: 2008-05-30 17:29+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -115,7 +115,7 @@ msgstr ""
 msgid "Apply Settings"
 msgstr "Moslamalarni qoʻllash"
 
-#: kcmultidialog.cpp:258 kpluginselector.cpp:809 kpluginwidget.cpp:365
+#: kcmultidialog.cpp:258 kpluginselector.cpp:809 kpluginwidget.cpp:327
 #, kde-format
 msgid "Configure"
 msgstr "Moslash"
@@ -172,13 +172,13 @@ msgid "%1 plugin automatically removed due to plugin dependencies"
 msgid_plural "%1 plugins automatically removed due to plugin dependencies"
 msgstr[0] ""
 
-#: kpluginselector.cpp:264 kpluginwidget.cpp:57
+#: kpluginselector.cpp:264 kpluginwidget.cpp:59
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Search..."
 msgstr "Qidirish"
 
-#: kpluginselector.cpp:804 kpluginwidget.cpp:360
+#: kpluginselector.cpp:804 kpluginwidget.cpp:322
 #, fuzzy, kde-format
 #| msgid "&About"
 msgid "About"
@@ -188,6 +188,72 @@ msgstr "&Haqida"
 #, fuzzy, kde-format
 msgid "Enable component"
 msgstr "Ichiga oʻrnatib boʻladigan HTML komponent"
+
+#: qml/components/KPluginDelegate.qml:45
+#, fuzzy, kde-format
+#| msgid "&About"
+msgctxt "@info:tooltip"
+msgid "About"
+msgstr "&Haqida"
+
+#: qml/components/KPluginDelegate.qml:56
+#, fuzzy, kde-format
+#| msgid "Confi&gure..."
+msgctxt "@info:tooltip"
+msgid "Configure..."
+msgstr "&Moslash..."
+
+#: qml/components/KPluginSelector.qml:78
+#, kde-format
+msgid "No matches"
+msgstr ""
+
+#: qml/components/KPluginSelector.qml:78
+#, fuzzy, kde-format
+msgid "No plugins found"
+msgstr "Bitta oʻxshashlik topildi."
+
+#: qml/components/private/AboutPlugin.qml:42
+#, fuzzy, kde-format
+#| msgctxt "concatenation of dates and time"
+#| msgid "%1 %2"
+msgctxt "Plugin name and plugin version"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/components/private/AboutPlugin.qml:64
+#, fuzzy, kde-format
+#| msgid "Copy"
+msgid "Copyright"
+msgstr "Nusxa olish"
+
+#: qml/components/private/AboutPlugin.qml:81
+#, kde-format
+msgid "License:"
+msgstr "Litsenziya:"
+
+#: qml/components/private/AboutPlugin.qml:100
+#, fuzzy, kde-format
+#| msgid "A&uthors"
+msgid "Authors"
+msgstr "&Mualliflar"
+
+#: qml/components/private/AboutPlugin.qml:117
+#, kde-format
+msgid "Credits"
+msgstr ""
+
+#: qml/components/private/AboutPlugin.qml:134
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgid "Translators"
+msgstr "Tarjima"
+
+#: qml/components/private/AboutPlugin.qml:161
+#, fuzzy, kde-format
+#| msgid "&Send Email"
+msgid "Send an email to %1"
+msgstr "Xat &joʻnatish"
 
 #, fuzzy
 #~ msgid "Widget style to use"
@@ -323,9 +389,6 @@ msgstr "Ichiga oʻrnatib boʻladigan HTML komponent"
 
 #~ msgid "A&uthor"
 #~ msgstr "&Muallif"
-
-#~ msgid "A&uthors"
-#~ msgstr "&Mualliflar"
 
 #~ msgid ""
 #~ "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
@@ -1711,10 +1774,6 @@ msgstr "Ichiga oʻrnatib boʻladigan HTML komponent"
 
 #~ msgid "Yesterday"
 #~ msgstr "Kecha"
-
-#~ msgctxt "concatenation of dates and time"
-#~ msgid "%1 %2"
-#~ msgstr "%1 %2"
 
 #, fuzzy
 #~ msgctxt "concatenation of date/time and time zone"
@@ -3116,9 +3175,6 @@ msgstr "Ichiga oʻrnatib boʻladigan HTML komponent"
 
 #~ msgid "Wishlist"
 #~ msgstr "Istaklar roʻyxati"
-
-#~ msgid "Translation"
-#~ msgstr "Tarjima"
 
 #~ msgid "S&ubject: "
 #~ msgstr "&Mavzu: "
@@ -4660,9 +4716,6 @@ msgstr "Ichiga oʻrnatib boʻladigan HTML komponent"
 #~ msgid "Undo"
 #~ msgstr "Bekor qilish"
 
-#~ msgid "Copy"
-#~ msgstr "Nusxa olish"
-
 #~ msgid "Open"
 #~ msgstr "Ochish"
 
@@ -4827,9 +4880,6 @@ msgstr "Ichiga oʻrnatib boʻladigan HTML komponent"
 #~ msgctxt "Verb"
 #~ msgid "&Insert"
 #~ msgstr "Qoʻy&ish"
-
-#~ msgid "Confi&gure..."
-#~ msgstr "&Moslash..."
 
 #~ msgid "Add"
 #~ msgstr "Qoʻshish"
@@ -6746,9 +6796,6 @@ msgstr "Ichiga oʻrnatib boʻladigan HTML komponent"
 #~ "Bu sayt maʼlumotni elektron pochta orqali joʻnatishga urinayapti.\n"
 #~ "Davom etishga ishonchingiz komilmi?"
 
-#~ msgid "&Send Email"
-#~ msgstr "Xat &joʻnatish"
-
 #, fuzzy
 #~ msgid ""
 #~ "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
@@ -6930,10 +6977,6 @@ msgstr "Ichiga oʻrnatib boʻladigan HTML komponent"
 #, fuzzy
 #~ msgid "Testkhtml"
 #~ msgstr "Sinov"
-
-#, fuzzy
-#~ msgid "Not found"
-#~ msgstr "Bitta oʻxshashlik topildi."
 
 #, fuzzy
 #~| msgid "Find:"
@@ -7435,9 +7478,6 @@ msgstr "Ichiga oʻrnatib boʻladigan HTML komponent"
 
 #~ msgid "Email address:"
 #~ msgstr "Elektron pochta:"
-
-#~ msgid "License:"
-#~ msgstr "Litsenziya:"
 
 #~ msgid "GPL"
 #~ msgstr "GPL"
