@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-27 00:43+0000\n"
+"POT-Creation-Date: 2022-04-28 00:42+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -18744,70 +18744,70 @@ msgstr "Matnni oʻchirish"
 msgid "Undelete"
 msgstr "Matnni oʻchirish"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:144
+#: libs/ui/actions/kis_selection_action_factories.cpp:145
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select All"
 msgstr "&Hammasini tanlash"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:220
+#: libs/ui/actions/kis_selection_action_factories.cpp:221
 #: libs/ui/KisView.cpp:661
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr "Toʻldirish"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:368
+#: libs/ui/actions/kis_selection_action_factories.cpp:376
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr "Boshqa"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:369
+#: libs/ui/actions/kis_selection_action_factories.cpp:377
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr "Yashildan nusxa olish"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:454
+#: libs/ui/actions/kis_selection_action_factories.cpp:462
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr "Qizildan nusxa olish"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:471
+#: libs/ui/actions/kis_selection_action_factories.cpp:479
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a vector format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:496
-#: libs/ui/actions/kis_selection_action_factories.cpp:516
+#: libs/ui/actions/kis_selection_action_factories.cpp:504
+#: libs/ui/actions/kis_selection_action_factories.cpp:524
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr "Hech narsa tanlanmagan"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:511
+#: libs/ui/actions/kis_selection_action_factories.cpp:519
 #, kde-format
 msgctxt "floating message"
 msgid "Selection is already in a raster format "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:557
+#: libs/ui/actions/kis_selection_action_factories.cpp:565
 #, fuzzy, kde-format
 msgctxt "floating message"
 msgid "The shape already belongs to a selection"
 msgstr "Tanlanganni chizish"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:563
+#: libs/ui/actions/kis_selection_action_factories.cpp:571
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert shapes to vector selection"
 msgstr "Hech narsa tanlanmagan"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:616
-#: libs/ui/actions/kis_selection_action_factories.cpp:675
+#: libs/ui/actions/kis_selection_action_factories.cpp:624
+#: libs/ui/actions/kis_selection_action_factories.cpp:683
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:49
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -21704,7 +21704,6 @@ msgstr "Bosim:"
 
 #: libs/ui/dialogs/KisDlgSavePreset.cpp:79
 #: plugins/generators/seexpr/kis_wdg_seexpr_presets_save.cpp:74
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:316
 #, fuzzy, kde-format
 msgid "Copy"
 msgstr "Tashkilot"
@@ -26117,11 +26116,13 @@ msgid "The <i>Rotate Canvas</i> action rotates the canvas."
 msgstr ""
 
 #: libs/ui/input/kis_rotate_canvas_action.cpp:43
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:39
 #, fuzzy, kde-format
 msgid "Rotate Mode"
 msgstr "Soat koʻrsatgichi boʻyicha burish"
 
 #: libs/ui/input/kis_rotate_canvas_action.cpp:44
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:40
 #, fuzzy, kde-format
 msgid "Discrete Rotate Mode"
 msgstr "Soat koʻrsatgichi boʻyicha burish"
@@ -26522,7 +26523,7 @@ msgstr "Eni:"
 msgid "Fit to Height"
 msgstr "Eniga moslash"
 
-#: libs/ui/input/kis_zoom_and_rotate_action.cpp:34
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:37
 #, fuzzy, kde-format
 msgid "Zoom and Rotate Canvas"
 msgstr "Rasmni burish"
@@ -36101,7 +36102,7 @@ msgstr "Qatlamni koʻrsatish/bekitish"
 msgid "&Add"
 msgstr ""
 
-#: plugins/dockers/layerdocker/NodeDelegate.cpp:1223
+#: plugins/dockers/layerdocker/NodeDelegate.cpp:1221
 #, fuzzy, kde-format
 msgid "%1 %"
 msgstr "%1%"
@@ -53395,16 +53396,6 @@ msgstr "Rasmning nomini oʻzgartirish"
 msgid "Reference Image Actions"
 msgstr "Rasmning nomini oʻzgartirish"
 
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:314
-#, fuzzy, kde-format
-msgid "Cut"
-msgstr "Boshqa"
-
-#: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:318
-#, fuzzy, kde-format
-msgid "Paste"
-msgstr "Sana"
-
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.h:87
 #, fuzzy, kde-format
 msgid "Reference Images Tool"
@@ -55917,6 +55908,14 @@ msgstr "Kattalashtirish vositasi"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "Rasmning nomini oʻzgartirish"
+
+#, fuzzy
+#~ msgid "Cut"
+#~ msgstr "Boshqa"
+
+#, fuzzy
+#~ msgid "Paste"
+#~ msgstr "Sana"
 
 #, fuzzy
 #~ msgid "Max Gesture"
