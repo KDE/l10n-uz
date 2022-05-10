@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-08 00:47+0000\n"
+"POT-Creation-Date: 2022-05-10 00:47+0000\n"
 "PO-Revision-Date: 2006-12-17 13:32+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -1041,6 +1041,13 @@ msgstr "Eʼtibor berilmasin"
 msgctxt "@action"
 msgid "Send"
 msgstr "&Joʻnatish"
+
+#: mdn/mdnwarningwidget.cpp:16
+#, fuzzy, kde-format
+#| msgid "Send Now"
+msgctxt "@action"
+msgid "Send Deny"
+msgstr "Darhol joʻnatish"
 
 #: messagepartthemes/default/defaultrenderer.cpp:76
 #, kde-format
@@ -2133,7 +2140,7 @@ msgstr "<qt>Rostdan <b>%1</b>'ni ishga tushirishni istaysizmi?</qt>"
 msgid "Execute"
 msgstr "Ishga tushirish"
 
-#: viewer/viewer.cpp:140
+#: viewer/viewer.cpp:138
 #, fuzzy, kde-format
 #| msgid "Moving messages"
 msgid "Loading message..."
@@ -4015,11 +4022,6 @@ msgstr "&Oldingi xabar"
 #, fuzzy
 #~ msgid "Do &Not Encrypt"
 #~ msgstr "Keyingi xabarga oʻtish"
-
-#, fuzzy
-#~| msgid "Send Now"
-#~ msgid "Send Anyway"
-#~ msgstr "Darhol joʻnatish"
 
 #, fuzzy
 #~| msgid "Auto-Detect"
