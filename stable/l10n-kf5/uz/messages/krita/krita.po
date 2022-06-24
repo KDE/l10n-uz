@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-23 02:08+0000\n"
+"POT-Creation-Date: 2022-06-24 02:06+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -36436,6 +36436,7 @@ msgstr ""
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1222
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1252
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1282
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:226
 #: plugins/filters/colorsfilters/virtual_channel_info.cpp:29
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:11
 #, fuzzy, kde-format
@@ -36451,6 +36452,7 @@ msgstr "Rang tusi"
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1229
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1259
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1289
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:227
 #: plugins/filters/colorsfilters/virtual_channel_info.cpp:33
 #: plugins/paintops/hairy/wdghairyeoptions.ui:314
 #: plugins/paintops/hairy/wdgInkOptions.ui:75
@@ -36502,6 +36504,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsyY)
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1296
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:230
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:234
 #, kde-format
 msgid "Luma"
 msgstr ""
@@ -42297,7 +42301,33 @@ msgstr "&Toʻyintirish"
 msgid "Desaturate"
 msgstr "Toʻyintirish"
 
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:252
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:228
+#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
+#, kde-format
+msgid "Value"
+msgstr "Qiymati"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:229
+#, fuzzy, kde-format
+msgid "Lightness"
+msgstr "Yorugʻlik"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:231
+#, fuzzy, kde-format
+msgid "Intensity"
+msgstr "Taʼrifi:"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:232
+#, fuzzy, kde-format
+msgid "Yellow-Blue"
+msgstr "Sariq"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:233
+#, fuzzy, kde-format
+msgid "Green-Red"
+msgstr "Yashil"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:254
 #, fuzzy, kde-format
 msgid "&HSV Adjustment..."
 msgstr "Ranglarni moslash"
@@ -54223,10 +54253,6 @@ msgstr "Shrift:"
 msgid "Scope"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
-msgid "Value"
-msgstr "Qiymati"
-
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stepaction.py:22
 #, fuzzy
 msgid "Step Over"
@@ -58561,14 +58587,6 @@ msgstr "Rasmning nomini oʻzgartirish"
 #, fuzzy
 #~ msgid "Vector Libraries"
 #~ msgstr "O&bʼekt qatlami"
-
-#, fuzzy
-#~ msgid "Green-Red:"
-#~ msgstr "Yashil"
-
-#, fuzzy
-#~ msgid "Yellow-Blue:"
-#~ msgstr "Sariq"
 
 #, fuzzy
 #~ msgid "Colorspace"
