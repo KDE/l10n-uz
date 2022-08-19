@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-18 00:44+0000\n"
+"POT-Creation-Date: 2022-08-19 00:43+0000\n"
 "PO-Revision-Date: 2007-02-11 00:31+0100\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -16615,20 +16615,20 @@ msgstr "Oʻlchami"
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:124
 #: plugins/paintops/spray/kis_sprayop_option.cpp:32
 #: plugins/tools/basictools/kis_tool_brush.cc:391
-#: plugins/tools/basictools/kis_tool_fill.cc:382
-#: plugins/tools/basictools/kis_tool_fill.cc:386
+#: plugins/tools/basictools/kis_tool_fill.cc:388
+#: plugins/tools/basictools/kis_tool_fill.cc:392
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:51
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:52
 #: plugins/tools/basictools/kis_tool_multihand.cpp:451
 #: plugins/tools/basictools/wdgcolorsampler.ui:186
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:258
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:264
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:275
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:281
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:117
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:142
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:250
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:275
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:384
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:388
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:402
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:406
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:106
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:116
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch_options_widget.ui:134
@@ -16975,7 +16975,7 @@ msgid "Imported Image"
 msgstr "Rasmni import qilish"
 
 #: libs/image/kis_image.cc:689 libs/image/kis_layer_utils.cpp:1871
-#: libs/impex/KisExportCheckRegistry.cpp:120
+#: libs/impex/KisExportCheckRegistry.cpp:124
 #, fuzzy, kde-format
 msgid "Selection Mask"
 msgstr "Tanlash boʻyogʻi"
@@ -17722,12 +17722,21 @@ msgid ""
 "the layer will be converted to a paintlayer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:100 libs/ui/kis_layer_manager.cc:647
+#: libs/impex/IntegralFrameDuration.h:32
+#, kde-format
+msgctxt "image conversion warning"
+msgid ""
+"The image is animated with a frame duration in <b>fractions of a "
+"millisecond</b>. The format cannot represent this, and the frame duration "
+"will be rounded to the nearest millisecond."
+msgstr ""
+
+#: libs/impex/KisExportCheckRegistry.cpp:104 libs/ui/kis_layer_manager.cc:647
 #, fuzzy, kde-format
 msgid "Clone Layer"
 msgstr "Yangi &obʼekt qatlami"
 
-#: libs/impex/KisExportCheckRegistry.cpp:102 libs/ui/kis_layer_manager.cc:631
+#: libs/impex/KisExportCheckRegistry.cpp:106 libs/ui/kis_layer_manager.cc:631
 #: libs/ui/kis_node_manager.cpp:1514
 #, fuzzy, kde-format
 #| msgid "Group:"
@@ -17735,45 +17744,45 @@ msgctxt "A group of layers"
 msgid "Group"
 msgstr "Guruh:"
 
-#: libs/impex/KisExportCheckRegistry.cpp:104 libs/ui/kis_layer_manager.cc:956
+#: libs/impex/KisExportCheckRegistry.cpp:108 libs/ui/kis_layer_manager.cc:956
 #, fuzzy, kde-format
 msgid "File Layer"
 msgstr "Filterlar &toʻplami"
 
-#: libs/impex/KisExportCheckRegistry.cpp:106 libs/ui/kis_layer_manager.cc:660
+#: libs/impex/KisExportCheckRegistry.cpp:110 libs/ui/kis_layer_manager.cc:660
 #: plugins/impex/svg/kis_svg_import.cc:90
 #, fuzzy, kde-format
 msgid "Vector Layer"
 msgstr "O&bʼekt qatlami"
 
-#: libs/impex/KisExportCheckRegistry.cpp:108 libs/ui/kis_layer_manager.cc:682
+#: libs/impex/KisExportCheckRegistry.cpp:112 libs/ui/kis_layer_manager.cc:682
 #, fuzzy, kde-format
 msgid "Filter Layer"
 msgstr "Filterlar &toʻplami"
 
-#: libs/impex/KisExportCheckRegistry.cpp:110
+#: libs/impex/KisExportCheckRegistry.cpp:114
 #, fuzzy, kde-format
 #| msgid "&Group Layer..."
 msgid "Generator Layer"
 msgstr "Qatlamlar &guruhi..."
 
-#: libs/impex/KisExportCheckRegistry.cpp:112 libs/ui/kis_mask_manager.cc:274
+#: libs/impex/KisExportCheckRegistry.cpp:116 libs/ui/kis_mask_manager.cc:274
 #, fuzzy, kde-format
 msgid "Colorize Mask"
 msgstr "Rang"
 
-#: libs/impex/KisExportCheckRegistry.cpp:114
+#: libs/impex/KisExportCheckRegistry.cpp:118
 #: libs/ui/dialogs/kis_dlg_filter.cpp:218 libs/ui/kis_mask_manager.cc:223
 #, fuzzy, kde-format
 msgid "Filter Mask"
 msgstr "Filterlar"
 
-#: libs/impex/KisExportCheckRegistry.cpp:116 libs/ui/kis_mask_manager.cc:286
+#: libs/impex/KisExportCheckRegistry.cpp:120 libs/ui/kis_mask_manager.cc:286
 #, fuzzy, kde-format
 msgid "Transform Mask"
 msgstr "Boshqa shaklga almashtirish"
 
-#: libs/impex/KisExportCheckRegistry.cpp:118 libs/ui/kis_mask_manager.cc:210
+#: libs/impex/KisExportCheckRegistry.cpp:122 libs/ui/kis_mask_manager.cc:210
 #: libs/ui/kis_node_manager.cpp:1294
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:214
 #: plugins/impex/psd/psd_loader.cpp:379
@@ -19338,7 +19347,7 @@ msgstr "Qatlamni &olib tashlash"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:776
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:352
 #: libs/ui/dialogs/kis_dlg_preferences.cc:760
-#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_clipboard.cc:707
+#: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_clipboard.cc:708
 #: libs/ui/kis_custom_pattern.cc:131 libs/ui/kis_filter_manager.cc:234
 #: libs/ui/kis_filter_manager.cc:243 libs/ui/kis_layer_manager.cc:314
 #: libs/ui/kis_layer_manager.cc:964 libs/ui/kis_node_manager.cpp:1218
@@ -19707,7 +19716,7 @@ msgstr "Rasmni import qilish"
 #. i18n: ectx: property (text), widget (QLabel, lblBest2)
 #. i18n: ectx: property (text), widget (QLabel, lblMaximumDegradation)
 #: libs/resources/KisTagModel.cpp:121 libs/resources/KisTagModel.cpp:300
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:592
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:599
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:325
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:489
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:541
@@ -20735,10 +20744,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, vp9Lossless)
 #. i18n: ectx: property (text), widget (QCheckBox, webpLossless)
-#. i18n: ectx: property (text), widget (QCheckBox, isLossless)
 #: libs/ui/animation/video_export_options_dialog.ui:182
 #: libs/ui/animation/video_export_options_dialog.ui:289
-#: plugins/impex/webp/dlg_webp_import.ui:77
 #, kde-format
 msgid "Lossless"
 msgstr ""
@@ -21414,7 +21421,7 @@ msgstr "Qatlamni olib tashlash"
 #: plugins/dockers/logdocker/LogDockerDock.cpp:119
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:49
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:31
-#: plugins/impex/webp/dlg_webp_export.ui:31
+#: plugins/impex/webp/kis_wdg_options_webp.ui:31
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:263
 #, kde-format
 msgid "General"
@@ -21475,12 +21482,13 @@ msgid "0"
 msgstr "%"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #. i18n: ectx: attribute (title), widget (QWidget, metadata)
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: libs/ui/animation/VideoImportDialog.ui:197
 #: plugins/dockers/logdocker/LogDockerDock.cpp:187
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:262
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:705
+#: plugins/impex/webp/kis_wdg_options_webp.ui:791
 #, fuzzy, kde-format
 msgid "Metadata"
 msgstr "Palitrani oʻzgartirish"
@@ -21569,8 +21577,7 @@ msgstr ""
 #: libs/ui/animation/VideoImportDialog.ui:532
 #: libs/ui/forms/wdgperformancesettings.ui:251
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:153
-#: plugins/impex/webp/dlg_webp_export.ui:148
-#: plugins/impex/webp/dlg_webp_import.ui:304
+#: plugins/impex/webp/kis_wdg_options_webp.ui:147
 #, fuzzy, kde-format
 msgid "Advanced"
 msgstr "Aralashtirish usuli"
@@ -21590,7 +21597,6 @@ msgstr "Yangi hujjatlarda ochish"
 #. i18n: ectx: property (text), widget (QLabel, widthInfoLbl)
 #. i18n: ectx: property (text), widget (QLabel, widthLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_width)
-#. i18n: ectx: property (text), widget (QLabel, lblCropWidth)
 #. i18n: ectx: property (text), widget (QLabel, intWidthzqffs)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -21608,9 +21614,6 @@ msgstr "Yangi hujjatlarda ochish"
 #: plugins/generators/pattern/wdgpatternoptions.ui:80
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:165
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:167
-#: plugins/impex/webp/dlg_webp_import.ui:46
-#: plugins/impex/webp/dlg_webp_import.ui:155
-#: plugins/impex/webp/dlg_webp_import.ui:188
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:98
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:68
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:181
@@ -21631,7 +21634,6 @@ msgstr "Eni:"
 #. i18n: ectx: property (text), widget (QLabel, heightInfoLbl)
 #. i18n: ectx: property (text), widget (QLabel, heightLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_height)
-#. i18n: ectx: property (text), widget (QLabel, lblCropHeight)
 #. i18n: ectx: property (text), widget (QLabel, intHeightqsdfq)
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #. i18n: ectx: property (text), widget (QLabel, label_12)
@@ -21650,9 +21652,6 @@ msgstr "Eni:"
 #: plugins/generators/pattern/wdgpatternoptions.ui:106
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:112
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:199
-#: plugins/impex/webp/dlg_webp_import.ui:60
-#: plugins/impex/webp/dlg_webp_import.ui:148
-#: plugins/impex/webp/dlg_webp_import.ui:245
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:133
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:69
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:185
@@ -22383,14 +22382,14 @@ msgstr "Qatlamning xossalari"
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:515
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:662
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:277
-#: plugins/impex/webp/dlg_webp_export.ui:79
-#: plugins/impex/webp/dlg_webp_export.ui:320
-#: plugins/impex/webp/dlg_webp_export.ui:343
-#: plugins/impex/webp/dlg_webp_export.ui:481
-#: plugins/impex/webp/dlg_webp_export.ui:611
-#: plugins/impex/webp/dlg_webp_export.ui:699
-#: plugins/impex/webp/dlg_webp_export.ui:765
-#: plugins/impex/webp/dlg_webp_export.ui:788
+#: plugins/impex/webp/kis_wdg_options_webp.ui:82
+#: plugins/impex/webp/kis_wdg_options_webp.ui:305
+#: plugins/impex/webp/kis_wdg_options_webp.ui:328
+#: plugins/impex/webp/kis_wdg_options_webp.ui:466
+#: plugins/impex/webp/kis_wdg_options_webp.ui:596
+#: plugins/impex/webp/kis_wdg_options_webp.ui:684
+#: plugins/impex/webp/kis_wdg_options_webp.ui:750
+#: plugins/impex/webp/kis_wdg_options_webp.ui:773
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:125
 #: plugins/paintops/deform/kis_brush_size_option.cpp:59
 #: plugins/paintops/experiment/kis_experiment_paintop_settings.cpp:82
@@ -22418,12 +22417,12 @@ msgstr "Qatlamning xossalari"
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:279
-#: plugins/tools/basictools/kis_tool_fill.cc:359
-#: plugins/tools/basictools/kis_tool_fill.cc:369
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:244
+#: plugins/tools/basictools/kis_tool_fill.cc:365
+#: plugins/tools/basictools/kis_tool_fill.cc:375
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:261
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1449
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:361
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:371
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:379
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:389
 #, no-c-format, kde-format
 msgid "%"
 msgstr "%"
@@ -22500,8 +22499,6 @@ msgstr ""
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, scaleXBox)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, scaleYBox)
-#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, ditheringStrength)
-#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, alphaDitheringStrength)
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:746
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:764
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:767
@@ -22529,8 +22526,6 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1217
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1221
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1303
-#: plugins/impex/webp/dlg_webp_import.ui:356
-#: plugins/impex/webp/dlg_webp_import.ui:369
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:45
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:52
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:124
@@ -25147,8 +25142,8 @@ msgstr "Orqa fon rangi"
 #: plugins/generators/pattern/wdgpatternoptions.ui:21
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:46
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:54
-#: plugins/tools/basictools/kis_tool_fill.cc:418
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:417
+#: plugins/tools/basictools/kis_tool_fill.cc:424
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:435
 #, fuzzy, kde-format
 msgid "Pattern"
 msgstr "Namuna"
@@ -25169,7 +25164,7 @@ msgstr "Boʻyoqning oʻlchami"
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutline)
 #: libs/ui/forms/wdggeometryoptions.ui:101
 #: plugins/paintops/roundmarker/kis_roundmarker_option.cpp:29
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:411
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:429
 #, kde-format
 msgid "Brush"
 msgstr "Boʻyoq"
@@ -25220,13 +25215,11 @@ msgstr "Yangi rasm"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#. i18n: ectx: attribute (title), widget (QWidget, dimensions)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #. i18n: ectx: property (text), widget (QLabel, dimensionLbl)
 #: libs/ui/forms/wdgimageproperties.ui:28 libs/ui/forms/wdgnewimage.ui:58
 #: plugins/impex/brush/wdg_export_gih.ui:161
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:64
-#: plugins/impex/webp/dlg_webp_import.ui:34
 #, fuzzy, kde-format
 msgid "Dimensions"
 msgstr "&Pikselli oʻlcham"
@@ -26792,8 +26785,8 @@ msgstr "Chiziq"
 #. i18n: ectx: property (text), item, widget (QComboBox, fillBox)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:96
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:224
-#: plugins/tools/basictools/kis_tool_fill.cc:416
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:415
+#: plugins/tools/basictools/kis_tool_fill.cc:422
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:433
 #, fuzzy, kde-format
 #| msgid "Foreground Color"
 msgid "Foreground color"
@@ -26803,8 +26796,8 @@ msgstr "Oldin fon rangi"
 #. i18n: ectx: property (text), item, widget (QComboBox, fillBox)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:101
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:214
-#: plugins/tools/basictools/kis_tool_fill.cc:417
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:416
+#: plugins/tools/basictools/kis_tool_fill.cc:423
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:434
 #, fuzzy, kde-format
 msgid "Background color"
 msgstr "Orqa fon rangi"
@@ -26852,7 +26845,7 @@ msgstr ""
 #: libs/ui/widgets/KoFillConfigWidget.ui:41
 #: libs/ui/widgets/KoFillConfigWidget.ui:275
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:36
-#: plugins/impex/webp/dlg_webp_export.ui:439
+#: plugins/impex/webp/kis_wdg_options_webp.ui:424
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:441
 #, kde-format
 msgid "None"
@@ -27043,7 +27036,6 @@ msgstr "Rasmning oʻlchami"
 #: libs/ui/imagesize/wdg_canvassize.ui:132
 #: libs/ui/imagesize/wdg_imagesize.ui:339
 #: libs/ui/imagesize/wdg_layersize.ui:139
-#: plugins/impex/webp/dlg_webp_import.ui:232
 #, fuzzy, kde-format
 msgid "Constrain aspect ratio"
 msgstr "Alfa moslamalari"
@@ -27054,7 +27046,6 @@ msgstr "Alfa moslamalari"
 #: libs/ui/imagesize/wdg_imagesize.ui:342
 #: libs/ui/imagesize/wdg_layersize.ui:142
 #: plugins/dockers/recorder/recorder_export.ui:359
-#: plugins/impex/webp/dlg_webp_import.ui:235
 #, fuzzy, kde-format
 msgid "Constrain proportions"
 msgstr "Alfa moslamalari"
@@ -27071,7 +27062,6 @@ msgstr "ofset"
 
 #. i18n: ectx: property (text), widget (QLabel, lblXOff)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, lblCropX)
 #. i18n: ectx: property (text), widget (QLabel, xLabel)
 #. i18n: ectx: property (text), widget (QLabel, ratiox_label)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -27083,7 +27073,6 @@ msgstr "ofset"
 #: plugins/generators/pattern/wdgpatternoptions.ui:174
 #: plugins/generators/pattern/wdgpatternoptions.ui:256
 #: plugins/generators/simplexnoise/wdgsimplexnoiseoptions.ui:129
-#: plugins/impex/webp/dlg_webp_import.ui:124
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.ui:35
 #, kde-format
 msgid "X:"
@@ -27091,7 +27080,6 @@ msgstr "X:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblYOff)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), widget (QLabel, lblCropY)
 #. i18n: ectx: property (text), widget (QLabel, yLabel)
 #. i18n: ectx: property (text), widget (QLabel, ratioy_label)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -27103,7 +27091,6 @@ msgstr "X:"
 #: plugins/generators/pattern/wdgpatternoptions.ui:184
 #: plugins/generators/pattern/wdgpatternoptions.ui:263
 #: plugins/generators/simplexnoise/wdgsimplexnoiseoptions.ui:149
-#: plugins/impex/webp/dlg_webp_import.ui:131
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.ui:99
 #, kde-format
 msgid "Y:"
@@ -28122,7 +28109,7 @@ msgctxt "(qtundo-format)"
 msgid "Change File Layer"
 msgstr "Filter"
 
-#: libs/ui/kis_clipboard.cc:708 libs/ui/KisView.cpp:677
+#: libs/ui/kis_clipboard.cc:709 libs/ui/KisView.cpp:677
 #, fuzzy, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -28331,7 +28318,7 @@ msgstr "Joriy qatlam"
 msgid "New Filter Layer"
 msgstr "Filterlar"
 
-#: libs/ui/kis_layer_manager.cc:731 libs/ui/kis_mimedata.cpp:313
+#: libs/ui/kis_layer_manager.cc:731 libs/ui/kis_mimedata.cpp:312
 #, fuzzy, kde-format
 msgid "Fill Layer"
 msgstr "Filterlar &toʻplami"
@@ -29736,9 +29723,7 @@ msgstr "Oʻrnini almashtirishmoq"
 msgid "Options"
 msgstr "Alfa moslamalari"
 
-#. i18n: ectx: property (title), widget (QGroupBox, scale)
 #: libs/ui/KisImportExportManager.cpp:611
-#: plugins/impex/webp/dlg_webp_import.ui:173
 #, fuzzy, kde-format
 msgid "Resize"
 msgstr "Oʻlchami&ni oʻzgartirish"
@@ -30988,7 +30973,7 @@ msgstr ""
 #: libs/ui/layerstyles/wdgInnerGlow.ui:279
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:75
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:236
-#: plugins/impex/webp/dlg_webp_export.ui:68
+#: plugins/impex/webp/kis_wdg_options_webp.ui:71
 #, fuzzy, kde-format
 msgid "Quality"
 msgstr "Xiralik:"
@@ -31832,9 +31817,7 @@ msgctxt "Button to change the gradient stop type to custom color"
 msgid "Custom color"
 msgstr "Chizish: Rang"
 
-#. i18n: ectx: property (text), widget (QCheckBox, hasTransparency)
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:82
-#: plugins/impex/webp/dlg_webp_import.ui:90
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:46
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:22
 #: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:35
@@ -32870,7 +32853,7 @@ msgid "No Preview for this engine"
 msgstr ""
 
 #: libs/ui/widgets/kis_selection_options.cc:177
-#: plugins/tools/basictools/kis_tool_fill.cc:378
+#: plugins/tools/basictools/kis_tool_fill.cc:384
 #, fuzzy, kde-format
 msgctxt "The anti-alias checkbox in fill tool options"
 msgid "Anti-aliasing"
@@ -32937,14 +32920,14 @@ msgid "Symmetric Difference"
 msgstr "Geometriya moslamalari"
 
 #: libs/ui/widgets/kis_selection_options.cc:222
-#: plugins/tools/basictools/kis_tool_fill.cc:428
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:427
+#: plugins/tools/basictools/kis_tool_fill.cc:434
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:445
 #, kde-format
 msgid "Smooth the jagged edges"
 msgstr ""
 
 #: libs/ui/widgets/kis_selection_options.cc:224
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:280
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:297
 #, kde-format
 msgid ""
 "Grow (positive values) or shrink (negative values) the selection by the set "
@@ -32952,7 +32935,7 @@ msgid ""
 msgstr ""
 
 #: libs/ui/widgets/kis_selection_options.cc:227
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:282
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:299
 #, kde-format
 msgid "Blur the selection by the set amount"
 msgstr ""
@@ -35601,7 +35584,7 @@ msgstr "Oʻrnini almashtirishmoq"
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:41
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:262
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:70
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:408
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:426
 #, kde-format
 msgid "Ellipse"
 msgstr "Ellips"
@@ -37424,7 +37407,7 @@ msgstr ""
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:46
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:267
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:75
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:407
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:425
 #, kde-format
 msgid "Rectangle"
 msgstr "Toʻgʻri burchak"
@@ -40701,6 +40684,7 @@ msgstr ""
 #: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:162
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:726
+#: plugins/impex/webp/kis_wdg_options_webp.ui:812
 #: plugins/metadata/exif/kis_exif_io.h:28
 #, kde-format
 msgid "Exif"
@@ -44976,9 +44960,7 @@ msgid "Regular"
 msgstr "Oddiy"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, brushStyle)
-#. i18n: ectx: property (text), widget (QCheckBox, hasAnimation)
 #: plugins/impex/brush/wdg_export_gih.ui:111
-#: plugins/impex/webp/dlg_webp_import.ui:100
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:172
 #, kde-format
 msgid "Animated"
@@ -45573,10 +45555,11 @@ msgctxt "Label of Optimize in JPEG Exporting dialogue"
 msgid "Optimize"
 msgstr "Optimallashtirish"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:268
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:720
+#: plugins/impex/webp/kis_wdg_options_webp.ui:806
 #, fuzzy, kde-format
 msgid "Formats:"
 msgstr "Filter"
@@ -45591,6 +45574,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, xmp)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:294
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:740
+#: plugins/impex/webp/kis_wdg_options_webp.ui:819
 #: plugins/metadata/xmp/kis_xmp_io.h:26
 #, kde-format
 msgid "XMP"
@@ -45604,10 +45588,11 @@ msgid ""
 "information. This will override any layer metadata.</p></body></html>"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkMetaData)
 #. i18n: ectx: property (title), widget (QGroupBox, chkMetadata)
+#. i18n: ectx: property (text), widget (QCheckBox, chkMetaData)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:336
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:711
+#: plugins/impex/webp/kis_wdg_options_webp.ui:797
 #, fuzzy, kde-format
 msgid "Store Document Metadata"
 msgstr "Yangi hujjatlarda ochish"
@@ -45920,35 +45905,38 @@ msgstr ""
 msgid "Save as animated JPEG-XL"
 msgstr ""
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:47
+#: plugins/impex/webp/kis_wdg_options_webp.ui:44
 #, fuzzy, kde-format
 msgid "Encoding options"
 msgstr "Filter boʻyogʻi"
 
 #. i18n: ectx: property (text), widget (QCheckBox, lossless)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:53
+#: plugins/impex/webp/kis_wdg_options_webp.ui:60
 #, fuzzy, kde-format
 msgid "Lossless encoding"
 msgstr "Qatlamning xossalari"
 
 #. i18n: ectx: property (text), widget (QLabel, lblTradeoff)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:60
-#: plugins/impex/webp/dlg_webp_export.ui:92
+#: plugins/impex/webp/kis_wdg_options_webp.ui:95
 #, kde-format
 msgid "Tradeoff"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblFaster)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:69
-#: plugins/impex/webp/dlg_webp_export.ui:101
+#: plugins/impex/webp/kis_wdg_options_webp.ui:104
 #, fuzzy, kde-format
 msgid "Faster"
 msgstr "Sana"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSlowerBetter)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:76
-#: plugins/impex/webp/dlg_webp_export.ui:108
+#: plugins/impex/webp/kis_wdg_options_webp.ui:111
 #, kde-format
 msgid "Slower/Better"
 msgstr ""
@@ -47986,7 +47974,7 @@ msgstr "Bitta kichik qadam..."
 
 #. i18n: ectx: property (text), widget (QLabel, lblBest)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:261
-#: plugins/impex/webp/dlg_webp_export.ui:446
+#: plugins/impex/webp/kis_wdg_options_webp.ui:431
 #, fuzzy, kde-format
 msgid "Best"
 msgstr "Matn"
@@ -48046,127 +48034,105 @@ msgctxt "make a very small file, but take a long time saving"
 msgid "Small"
 msgstr "Bitta kichik qadam..."
 
-#: plugins/impex/webp/dlg_webp_export.cpp:33
+#: plugins/impex/webp/kis_wdg_options_webp.cpp:33
 #, fuzzy, kde-format
 msgctxt "WebP presets"
 msgid "Default"
 msgstr "&Andoza"
 
-#: plugins/impex/webp/dlg_webp_export.cpp:34
+#: plugins/impex/webp/kis_wdg_options_webp.cpp:34
 #, fuzzy, kde-format
 msgctxt "WebP presets"
 msgid "Portrait"
 msgstr "Kontrast"
 
-#: plugins/impex/webp/dlg_webp_export.cpp:35
+#: plugins/impex/webp/kis_wdg_options_webp.cpp:35
 #, kde-format
 msgctxt "WebP presets"
 msgid "Outdoor photo"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:36
+#: plugins/impex/webp/kis_wdg_options_webp.cpp:36
 #, fuzzy, kde-format
 #| msgid "a drawing"
 msgctxt "WebP presets"
 msgid "Line drawing"
 msgstr "chizma"
 
-#: plugins/impex/webp/dlg_webp_export.cpp:37
+#: plugins/impex/webp/kis_wdg_options_webp.cpp:37
 #, fuzzy, kde-format
 msgctxt "WebP presets"
 msgid "Icon"
 msgstr "Matnni qoʻshish"
 
-#: plugins/impex/webp/dlg_webp_export.cpp:38
+#: plugins/impex/webp/kis_wdg_options_webp.cpp:38
 #, fuzzy, kde-format
 #| msgid "Text"
 msgctxt "WebP presets"
 msgid "Text"
 msgstr "Matn"
 
-#: plugins/impex/webp/dlg_webp_export.cpp:40
+#: plugins/impex/webp/kis_wdg_options_webp.cpp:40
 #, fuzzy, kde-format
 msgctxt "WebP filters"
 msgid "Simple"
 msgstr "Yoqish"
 
-#: plugins/impex/webp/dlg_webp_export.cpp:41
+#: plugins/impex/webp/kis_wdg_options_webp.cpp:41
 #, fuzzy, kde-format
 msgctxt "WebP filters"
 msgid "Strong"
 msgstr "Tosh"
 
-#: plugins/impex/webp/dlg_webp_export.cpp:43
+#: plugins/impex/webp/kis_wdg_options_webp.cpp:43
 #, fuzzy, kde-format
 #| msgid "None"
 msgctxt "WebP alpha plane compression"
 msgid "None"
 msgstr "Yoʻq"
 
-#: plugins/impex/webp/dlg_webp_export.cpp:44
+#: plugins/impex/webp/kis_wdg_options_webp.cpp:44
 #, kde-format
 msgctxt "WebP alpha plane compression"
 msgid "Lossless"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:46
+#: plugins/impex/webp/kis_wdg_options_webp.cpp:47
 #, fuzzy, kde-format
 #| msgid "None"
 msgctxt "WebP preprocessing filters"
 msgid "None"
 msgstr "Yoʻq"
 
-#: plugins/impex/webp/dlg_webp_export.cpp:47
+#: plugins/impex/webp/kis_wdg_options_webp.cpp:49
 #, fuzzy, kde-format
 msgctxt "WebP preprocessing filters"
 msgid "Segment-smooth"
 msgstr "Segment rangi"
 
-#: plugins/impex/webp/dlg_webp_export.cpp:48
+#: plugins/impex/webp/kis_wdg_options_webp.cpp:52
 #, kde-format
 msgctxt "WebP preprocessing filters"
 msgid "Pseudo-random dithering"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, haveAnimation)
+#: plugins/impex/webp/kis_wdg_options_webp.ui:37
+#, fuzzy, kde-format
+msgid "Save as animated WebP"
+msgstr "Joriy qatlam"
+
 #. i18n: ectx: property (text), widget (QLabel, lblPreset)
-#: plugins/impex/webp/dlg_webp_export.ui:40
+#: plugins/impex/webp/kis_wdg_options_webp.ui:50
 #, fuzzy, kde-format
 #| msgid "Pressure:"
 msgid "Preset"
 msgstr "Bosim:"
 
-#. i18n: ectx: property (text), widget (QLabel, lblLossless)
-#: plugins/impex/webp/dlg_webp_export.ui:50
-#, fuzzy, kde-format
-msgid "Lossless compression"
-msgstr "Qatlamning xossalari"
-
-#. i18n: ectx: property (text), widget (QCheckBox, lossless)
-#. i18n: ectx: property (text), widget (QCheckBox, dithering)
-#. i18n: ectx: property (text), widget (QCheckBox, autofilter)
-#. i18n: ectx: property (text), widget (QCheckBox, showCompressed)
-#. i18n: ectx: property (text), widget (QCheckBox, emulateJPEGSize)
-#. i18n: ectx: property (text), widget (QCheckBox, threadLevel)
-#. i18n: ectx: property (text), widget (QCheckBox, lowMemory)
-#. i18n: ectx: property (text), widget (QCheckBox, exact)
-#. i18n: ectx: property (text), widget (QCheckBox, useSharpYUV)
-#: plugins/impex/webp/dlg_webp_export.ui:57
-#: plugins/impex/webp/dlg_webp_export.ui:140
-#: plugins/impex/webp/dlg_webp_export.ui:400
-#: plugins/impex/webp/dlg_webp_export.ui:542
-#: plugins/impex/webp/dlg_webp_export.ui:639
-#: plugins/impex/webp/dlg_webp_export.ui:659
-#: plugins/impex/webp/dlg_webp_export.ui:679
-#: plugins/impex/webp/dlg_webp_export.ui:725
-#: plugins/impex/webp/dlg_webp_export.ui:745
-#, fuzzy, kde-format
-msgid "Enabled"
-msgstr "Yoqish"
-
 #. i18n: ectx: property (toolTip), widget (QLabel, lblQuality)
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, quality)
-#: plugins/impex/webp/dlg_webp_export.ui:65
-#: plugins/impex/webp/dlg_webp_export.ui:76
+#: plugins/impex/webp/kis_wdg_options_webp.ui:68
+#: plugins/impex/webp/kis_wdg_options_webp.ui:79
 #, kde-format
 msgid ""
 "If Lossless is enabled: 0 = fastest but larger files, 100 = slower but "
@@ -48175,15 +48141,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, tradeoff)
-#: plugins/impex/webp/dlg_webp_export.ui:118
+#: plugins/impex/webp/kis_wdg_options_webp.ui:121
 #, kde-format
 msgid "Quality/speed trade-off (0 = fast, 6 = slower-better)"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, dithering)
-#. i18n: ectx: property (text), widget (QLabel, lblDithering)
-#: plugins/impex/webp/dlg_webp_export.ui:133
-#: plugins/impex/webp/dlg_webp_import.ui:341
+#. i18n: ectx: property (text), widget (QCheckBox, dithering)
+#: plugins/impex/webp/kis_wdg_options_webp.ui:136
 #, fuzzy, kde-format
 #| msgid "Other"
 msgid "Dithering"
@@ -48191,8 +48155,8 @@ msgstr "Boshqa"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblTargetSize)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, targetSize)
-#: plugins/impex/webp/dlg_webp_export.ui:217
-#: plugins/impex/webp/dlg_webp_export.ui:233
+#: plugins/impex/webp/kis_wdg_options_webp.ui:202
+#: plugins/impex/webp/kis_wdg_options_webp.ui:218
 #, kde-format
 msgid ""
 "If non-zero, sets the desired target size in bytes. Takes precedence over "
@@ -48200,22 +48164,22 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblTargetSize)
-#: plugins/impex/webp/dlg_webp_export.ui:220
+#: plugins/impex/webp/kis_wdg_options_webp.ui:205
 #, fuzzy, kde-format
 #| msgid "Image Size"
 msgid "Target Size"
 msgstr "Rasmning oʻlchami"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, targetSize)
-#: plugins/impex/webp/dlg_webp_export.ui:236
+#: plugins/impex/webp/kis_wdg_options_webp.ui:221
 #, fuzzy, kde-format
 msgid " B"
 msgstr "Qoʻshish"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblTargetPSNR)
 #. i18n: ectx: property (toolTip), widget (KisDoubleParseUnitSpinBox, targetPSNR)
-#: plugins/impex/webp/dlg_webp_export.ui:246
-#: plugins/impex/webp/dlg_webp_export.ui:262
+#: plugins/impex/webp/kis_wdg_options_webp.ui:231
+#: plugins/impex/webp/kis_wdg_options_webp.ui:247
 #, kde-format
 msgid ""
 "If non-zero, specifies the minimal distortion to try to achieve. Takes "
@@ -48223,7 +48187,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblTargetPSNR)
-#: plugins/impex/webp/dlg_webp_export.ui:249
+#: plugins/impex/webp/kis_wdg_options_webp.ui:234
 #, fuzzy, kde-format
 #| msgid "Target:"
 msgid "Target PSNR"
@@ -48231,42 +48195,42 @@ msgstr "Moʻljal:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblSegments)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, segments)
-#: plugins/impex/webp/dlg_webp_export.ui:275
-#: plugins/impex/webp/dlg_webp_export.ui:291
+#: plugins/impex/webp/kis_wdg_options_webp.ui:260
+#: plugins/impex/webp/kis_wdg_options_webp.ui:276
 #, fuzzy, kde-format
 msgid "Maximum number of segments (1 to 4)."
 msgstr "Belgilar soni"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSegments)
-#: plugins/impex/webp/dlg_webp_export.ui:278
+#: plugins/impex/webp/kis_wdg_options_webp.ui:263
 #, fuzzy, kde-format
 msgid "Segments"
 msgstr "&Foiz:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblSNSStrength)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, snsStrength)
-#: plugins/impex/webp/dlg_webp_export.ui:307
-#: plugins/impex/webp/dlg_webp_export.ui:317
+#: plugins/impex/webp/kis_wdg_options_webp.ui:292
+#: plugins/impex/webp/kis_wdg_options_webp.ui:302
 #, kde-format
 msgid "Spatial Noise Shaping: 0 = off, 100 = maximum."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblSNSStrength)
-#: plugins/impex/webp/dlg_webp_export.ui:310
+#: plugins/impex/webp/kis_wdg_options_webp.ui:295
 #, fuzzy, kde-format
 msgid "SNS Strength"
 msgstr "Kuch"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblFilterStrength)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, filterStrength)
-#: plugins/impex/webp/dlg_webp_export.ui:330
-#: plugins/impex/webp/dlg_webp_export.ui:340
+#: plugins/impex/webp/kis_wdg_options_webp.ui:315
+#: plugins/impex/webp/kis_wdg_options_webp.ui:325
 #, kde-format
 msgid "Filter strength: 0 = off, 100 = strongest."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterStrength)
-#: plugins/impex/webp/dlg_webp_export.ui:333
+#: plugins/impex/webp/kis_wdg_options_webp.ui:318
 #, fuzzy, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Filter Strength"
@@ -48274,14 +48238,14 @@ msgstr "Filterlar roʻyxati"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblFilterSharpness)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, filterSharpness)
-#: plugins/impex/webp/dlg_webp_export.ui:353
-#: plugins/impex/webp/dlg_webp_export.ui:363
+#: plugins/impex/webp/kis_wdg_options_webp.ui:338
+#: plugins/impex/webp/kis_wdg_options_webp.ui:348
 #, kde-format
 msgid "Filter sharpness: 0 = off, 7 = least sharp."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterSharpness)
-#: plugins/impex/webp/dlg_webp_export.ui:356
+#: plugins/impex/webp/kis_wdg_options_webp.ui:341
 #, fuzzy, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Filter Sharpness"
@@ -48289,8 +48253,8 @@ msgstr "Rang moslamalari"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblFilterType)
 #. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
-#: plugins/impex/webp/dlg_webp_export.ui:376
-#: plugins/impex/webp/dlg_webp_export.ui:386
+#: plugins/impex/webp/kis_wdg_options_webp.ui:361
+#: plugins/impex/webp/kis_wdg_options_webp.ui:371
 #, kde-format
 msgid ""
 "0 = Simple, 1 = Strong. Only used if Filter Strength is higher than 0 or "
@@ -48298,20 +48262,38 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterType)
-#: plugins/impex/webp/dlg_webp_export.ui:379
+#: plugins/impex/webp/kis_wdg_options_webp.ui:364
 #, fuzzy, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Filter Type"
 msgstr "Uskuna:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAutofilter)
-#: plugins/impex/webp/dlg_webp_export.ui:393
+#: plugins/impex/webp/kis_wdg_options_webp.ui:378
 #, kde-format
 msgid "Auto Adjust Filter Strength"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, autofilter)
+#. i18n: ectx: property (text), widget (QCheckBox, showCompressed)
+#. i18n: ectx: property (text), widget (QCheckBox, emulateJPEGSize)
+#. i18n: ectx: property (text), widget (QCheckBox, threadLevel)
+#. i18n: ectx: property (text), widget (QCheckBox, lowMemory)
+#. i18n: ectx: property (text), widget (QCheckBox, exact)
+#. i18n: ectx: property (text), widget (QCheckBox, useSharpYUV)
+#: plugins/impex/webp/kis_wdg_options_webp.ui:385
+#: plugins/impex/webp/kis_wdg_options_webp.ui:527
+#: plugins/impex/webp/kis_wdg_options_webp.ui:624
+#: plugins/impex/webp/kis_wdg_options_webp.ui:644
+#: plugins/impex/webp/kis_wdg_options_webp.ui:664
+#: plugins/impex/webp/kis_wdg_options_webp.ui:710
+#: plugins/impex/webp/kis_wdg_options_webp.ui:730
+#, fuzzy, kde-format
+msgid "Enabled"
+msgstr "Yoqish"
+
 #. i18n: ectx: property (toolTip), widget (QLabel, lblAlphaCompression)
-#: plugins/impex/webp/dlg_webp_export.ui:407
+#: plugins/impex/webp/kis_wdg_options_webp.ui:392
 #, kde-format
 msgid ""
 "Algorithm for encoding the alpha plane (0 = None, 1 = compressed with WebP "
@@ -48319,20 +48301,20 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaCompression)
-#: plugins/impex/webp/dlg_webp_export.ui:410
+#: plugins/impex/webp/kis_wdg_options_webp.ui:395
 #, fuzzy, kde-format
 msgid "Alpha Plane Compression"
 msgstr "Qatlamning xossalari"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaFiltering)
-#: plugins/impex/webp/dlg_webp_export.ui:420
+#: plugins/impex/webp/kis_wdg_options_webp.ui:405
 #, kde-format
 msgid "Predictive Filtering for Alpha Plane"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbPreviewMode)
 #. i18n: ectx: property (text), widget (QLabel, lblFast)
-#: plugins/impex/webp/dlg_webp_export.ui:429
+#: plugins/impex/webp/kis_wdg_options_webp.ui:414
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:156
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:74
 #, fuzzy, kde-format
@@ -48341,36 +48323,36 @@ msgstr "&Filter:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblAlphaQuality)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, alphaQuality)
-#: plugins/impex/webp/dlg_webp_export.ui:468
-#: plugins/impex/webp/dlg_webp_export.ui:478
+#: plugins/impex/webp/kis_wdg_options_webp.ui:453
+#: plugins/impex/webp/kis_wdg_options_webp.ui:463
 #, kde-format
 msgid "0 = smallest size, 100 = lossless. Default is 100."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblAlphaQuality)
-#: plugins/impex/webp/dlg_webp_export.ui:471
+#: plugins/impex/webp/kis_wdg_options_webp.ui:456
 #, fuzzy, kde-format
 msgid "Alpha Plane Quality"
 msgstr "Aralashtirish usuli"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblPass)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, pass)
-#: plugins/impex/webp/dlg_webp_export.ui:494
-#: plugins/impex/webp/dlg_webp_export.ui:510
+#: plugins/impex/webp/kis_wdg_options_webp.ui:479
+#: plugins/impex/webp/kis_wdg_options_webp.ui:495
 #, kde-format
 msgid "Number of entropy-analysis passes (1 to 10)."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPass)
-#: plugins/impex/webp/dlg_webp_export.ui:497
+#: plugins/impex/webp/kis_wdg_options_webp.ui:482
 #, kde-format
 msgid "Entropy Passes"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblShowCompressed)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showCompressed)
-#: plugins/impex/webp/dlg_webp_export.ui:529
-#: plugins/impex/webp/dlg_webp_export.ui:539
+#: plugins/impex/webp/kis_wdg_options_webp.ui:514
+#: plugins/impex/webp/kis_wdg_options_webp.ui:524
 #, kde-format
 msgid ""
 "If enabled, export the compressed picture back. In-loop filtering is not "
@@ -48378,13 +48360,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblShowCompressed)
-#: plugins/impex/webp/dlg_webp_export.ui:532
+#: plugins/impex/webp/kis_wdg_options_webp.ui:517
 #, fuzzy, kde-format
 msgid "Show Compressed"
 msgstr "Qatlamning xossalari"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPreprocessing)
-#: plugins/impex/webp/dlg_webp_export.ui:549
+#: plugins/impex/webp/kis_wdg_options_webp.ui:534
 #, fuzzy, kde-format
 msgctxt "Filter options specifically for WebP"
 msgid "Preprocessing Filter"
@@ -48392,8 +48374,8 @@ msgstr "Bosim"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblPartitions)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, partitions)
-#: plugins/impex/webp/dlg_webp_export.ui:559
-#: plugins/impex/webp/dlg_webp_export.ui:569
+#: plugins/impex/webp/kis_wdg_options_webp.ui:544
+#: plugins/impex/webp/kis_wdg_options_webp.ui:554
 #, kde-format
 msgid ""
 "log2(number of token partitions) between 0 and 3. Default is 0 for easier "
@@ -48401,15 +48383,15 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPartitions)
-#: plugins/impex/webp/dlg_webp_export.ui:562
+#: plugins/impex/webp/kis_wdg_options_webp.ui:547
 #, fuzzy, kde-format
 msgid "Partitions"
 msgstr "Filter boʻyogʻi"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblPartitionLimit)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, partitionLimit)
-#: plugins/impex/webp/dlg_webp_export.ui:579
-#: plugins/impex/webp/dlg_webp_export.ui:608
+#: plugins/impex/webp/kis_wdg_options_webp.ui:564
+#: plugins/impex/webp/kis_wdg_options_webp.ui:593
 #, kde-format
 msgid ""
 "Quality degradation allowed to fit the 512KB limit on prediction modes "
@@ -48417,27 +48399,27 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPartitionLimit)
-#: plugins/impex/webp/dlg_webp_export.ui:582
+#: plugins/impex/webp/kis_wdg_options_webp.ui:567
 #, kde-format
 msgid "Partition Limit"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblMaximumDegradation)
-#: plugins/impex/webp/dlg_webp_export.ui:591
+#: plugins/impex/webp/kis_wdg_options_webp.ui:576
 #, fuzzy, kde-format
 msgid "Maximum degradation"
 msgstr "Yashil"
 
 #. i18n: ectx: property (text), widget (QLabel, lblNoDegradation)
-#: plugins/impex/webp/dlg_webp_export.ui:601
+#: plugins/impex/webp/kis_wdg_options_webp.ui:586
 #, fuzzy, kde-format
 msgid "No degradation"
 msgstr "Navigatsiya"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblEmulateJPEGSize)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, emulateJPEGSize)
-#: plugins/impex/webp/dlg_webp_export.ui:626
-#: plugins/impex/webp/dlg_webp_export.ui:636
+#: plugins/impex/webp/kis_wdg_options_webp.ui:611
+#: plugins/impex/webp/kis_wdg_options_webp.ui:621
 #, kde-format
 msgid ""
 "If enabled, compression parameters will be remapped to better match the "
@@ -48446,57 +48428,57 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblEmulateJPEGSize)
-#: plugins/impex/webp/dlg_webp_export.ui:629
+#: plugins/impex/webp/kis_wdg_options_webp.ui:614
 #, kde-format
 msgid "Emulate JPEG Size"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblThreadLevel)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, threadLevel)
-#: plugins/impex/webp/dlg_webp_export.ui:646
-#: plugins/impex/webp/dlg_webp_export.ui:656
+#: plugins/impex/webp/kis_wdg_options_webp.ui:631
+#: plugins/impex/webp/kis_wdg_options_webp.ui:641
 #, kde-format
 msgid "If enabled, try and use multithreaded encoding."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblThreadLevel)
-#: plugins/impex/webp/dlg_webp_export.ui:649
+#: plugins/impex/webp/kis_wdg_options_webp.ui:634
 #, fuzzy, kde-format
 msgid "Multithreaded Encoding"
 msgstr "Boʻyoqning oʻlchami"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblLowMemory)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, lowMemory)
-#: plugins/impex/webp/dlg_webp_export.ui:666
-#: plugins/impex/webp/dlg_webp_export.ui:676
+#: plugins/impex/webp/kis_wdg_options_webp.ui:651
+#: plugins/impex/webp/kis_wdg_options_webp.ui:661
 #, kde-format
 msgid "If enabled, reduce memory usage (but increase CPU use)."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblLowMemory)
-#: plugins/impex/webp/dlg_webp_export.ui:669
+#: plugins/impex/webp/kis_wdg_options_webp.ui:654
 #, kde-format
 msgid "Reduce Memory Usage"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblNearLossless)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, nearLossless)
-#: plugins/impex/webp/dlg_webp_export.ui:686
-#: plugins/impex/webp/dlg_webp_export.ui:696
+#: plugins/impex/webp/kis_wdg_options_webp.ui:671
+#: plugins/impex/webp/kis_wdg_options_webp.ui:681
 #, kde-format
 msgid "Near lossless encoding: 0 = max loss, 100 = off. Default is 100."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblNearLossless)
-#: plugins/impex/webp/dlg_webp_export.ui:689
+#: plugins/impex/webp/kis_wdg_options_webp.ui:674
 #, fuzzy, kde-format
 msgid "Near Lossless"
 msgstr "Yangi rasm"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblExact)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, exact)
-#: plugins/impex/webp/dlg_webp_export.ui:712
-#: plugins/impex/webp/dlg_webp_export.ui:722
+#: plugins/impex/webp/kis_wdg_options_webp.ui:697
+#: plugins/impex/webp/kis_wdg_options_webp.ui:707
 #, kde-format
 msgid ""
 "If enabled, preserve the exact RGB values under transparent areas. "
@@ -48505,7 +48487,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblExact)
-#: plugins/impex/webp/dlg_webp_export.ui:715
+#: plugins/impex/webp/kis_wdg_options_webp.ui:700
 #, fuzzy, kde-format
 #| msgid "Exactness:"
 msgid "Exact"
@@ -48513,112 +48495,58 @@ msgstr "Aniqlik:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblUseSharpYUV)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useSharpYUV)
-#: plugins/impex/webp/dlg_webp_export.ui:732
-#: plugins/impex/webp/dlg_webp_export.ui:742
+#: plugins/impex/webp/kis_wdg_options_webp.ui:717
+#: plugins/impex/webp/kis_wdg_options_webp.ui:727
 #, kde-format
 msgid "If enabled, allows use of the sharp (and slow) RGB to YUV conversion."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblUseSharpYUV)
-#: plugins/impex/webp/dlg_webp_export.ui:735
+#: plugins/impex/webp/kis_wdg_options_webp.ui:720
 #, kde-format
 msgid "Use Sharp YUV"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblQMin)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, qMin)
-#: plugins/impex/webp/dlg_webp_export.ui:752
-#: plugins/impex/webp/dlg_webp_export.ui:762
+#: plugins/impex/webp/kis_wdg_options_webp.ui:737
+#: plugins/impex/webp/kis_wdg_options_webp.ui:747
 #, kde-format
 msgid "Minimum permissible quality factor. Default is 0."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblQMin)
-#: plugins/impex/webp/dlg_webp_export.ui:755
+#: plugins/impex/webp/kis_wdg_options_webp.ui:740
 #, fuzzy, kde-format
 msgid "Minimum Quality"
 msgstr "Xiralik:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblQMax)
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, qMax)
-#: plugins/impex/webp/dlg_webp_export.ui:775
-#: plugins/impex/webp/dlg_webp_export.ui:785
+#: plugins/impex/webp/kis_wdg_options_webp.ui:760
+#: plugins/impex/webp/kis_wdg_options_webp.ui:770
 #, kde-format
 msgid "Maximum permissible quality factor. Default is 100."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblQMax)
-#: plugins/impex/webp/dlg_webp_export.ui:778
+#: plugins/impex/webp/kis_wdg_options_webp.ui:763
 #, fuzzy, kde-format
 msgid "Maximum Quality"
 msgstr "Matritsa"
 
-#: plugins/impex/webp/dlg_webp_import.cpp:114
-#: plugins/impex/webp/dlg_webp_import.cpp:115
-#: plugins/impex/webp/dlg_webp_import.cpp:116
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:147
-#, kde-format
-msgid "%1 px"
-msgstr ""
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: plugins/impex/webp/kis_wdg_options_webp.ui:829
+#, fuzzy, kde-format
+msgctxt "WebP metadata options"
+msgid "Filters:"
+msgstr "Filter:"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, DlgWebPImport)
-#: plugins/impex/webp/dlg_webp_import.ui:24
-#: plugins/impex/webp/kis_webp_import.cpp:180
+#: plugins/impex/webp/kis_webp_import.cpp:104
 #, fuzzy, kde-format
 #| msgid "New Image"
 msgid "WebP Image"
 msgstr "Yangi rasm"
-
-#. i18n: ectx: property (title), widget (QGroupBox, original)
-#: plugins/impex/webp/dlg_webp_import.ui:40
-#, fuzzy, kde-format
-msgid "Information"
-msgstr "Moslash..."
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgToolCrop)
-#. i18n: ectx: property (title), widget (QGroupBox, crop)
-#: plugins/impex/webp/dlg_webp_import.ui:110
-#: plugins/tools/tool_crop/kis_tool_crop.cc:114
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:18
-#, fuzzy, kde-format
-msgid "Crop"
-msgstr "Kursor"
-
-#. i18n: ectx: property (text), widget (QCheckBox, flip)
-#: plugins/impex/webp/dlg_webp_import.ui:283
-#, fuzzy, kde-format
-msgid "Flip vertically"
-msgstr "Tanlash"
-
-#. i18n: ectx: property (text), widget (QCheckBox, bypassFiltering)
-#: plugins/impex/webp/dlg_webp_import.ui:312
-#, fuzzy, kde-format
-msgid "Bypass filtering"
-msgstr "&Oʻlchami:"
-
-#. i18n: ectx: property (text), widget (QCheckBox, noFancyUpsampling)
-#: plugins/impex/webp/dlg_webp_import.ui:319
-#, kde-format
-msgid "Use faster pointwise upsampling"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, useThreads)
-#: plugins/impex/webp/dlg_webp_import.ui:326
-#, fuzzy, kde-format
-msgid "Use multithreaded decoding"
-msgstr "Boʻyoqning oʻlchami"
-
-#. i18n: ectx: property (prefix), widget (KisSliderSpinBox, ditheringStrength)
-#: plugins/impex/webp/dlg_webp_import.ui:359
-#, fuzzy, kde-format
-msgid "Color planes: "
-msgstr "Ranglar boʻshligʻi"
-
-#. i18n: ectx: property (prefix), widget (KisSliderSpinBox, alphaDitheringStrength)
-#: plugins/impex/webp/dlg_webp_import.ui:372
-#, fuzzy, kde-format
-msgid "Alpha plane: "
-msgstr "Alfa niqob"
 
 #: plugins/impex/xcf/kis_xcf_import.cpp:156
 #, kde-format
@@ -50383,6 +50311,11 @@ msgstr "%1%"
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:145
 #, kde-format
 msgid "30 px"
+msgstr ""
+
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:147
+#, kde-format
+msgid "%1 px"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:150
@@ -54823,38 +54756,38 @@ msgstr "Ellips chizish"
 msgid "Ellipse Tool"
 msgstr "Ellips vositasi"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:102
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:150
+#: plugins/tools/basictools/kis_tool_fill.cc:104
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:156
 #, kde-format
 msgid "You cannot use this tool with the selected layer type"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:175
+#: plugins/tools/basictools/kis_tool_fill.cc:177
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flood Fill"
 msgstr "Toʻldirish"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:358
+#: plugins/tools/basictools/kis_tool_fill.cc:364
 #, fuzzy, kde-format
 msgctxt "The pattern 'scale' spinbox prefix in fill tool options"
 msgid "Scale: "
 msgstr "Toʻrtburcha&k"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:365
+#: plugins/tools/basictools/kis_tool_fill.cc:371
 #, fuzzy, kde-format
 #| msgid "Threshold: "
 msgctxt "The 'threshold' spinbox prefix in fill tool options"
 msgid "Threshold: "
 msgstr "Chegara: "
 
-#: plugins/tools/basictools/kis_tool_fill.cc:368
+#: plugins/tools/basictools/kis_tool_fill.cc:374
 #, fuzzy, kde-format
 msgctxt "The 'spread' spinbox prefix in fill tool options"
 msgid "Spread: "
 msgstr "Xiralik:"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:374
+#: plugins/tools/basictools/kis_tool_fill.cc:380
 #, fuzzy, kde-format
 msgctxt ""
 "The 'use selection as boundary' checkbox in fill tool to use selection "
@@ -54862,56 +54795,56 @@ msgctxt ""
 msgid "Use selection as boundary"
 msgstr "Tanlanganni bekitish"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:380
+#: plugins/tools/basictools/kis_tool_fill.cc:386
 #, fuzzy, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in fill tool options"
 msgid "Grow: "
 msgstr "Choʻzish"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:384
+#: plugins/tools/basictools/kis_tool_fill.cc:390
 #, fuzzy, kde-format
 msgctxt "The 'feather' spinbox prefix in fill tool options"
 msgid "Feather: "
 msgstr "Teri"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:410
+#: plugins/tools/basictools/kis_tool_fill.cc:416
 #, fuzzy, kde-format
 msgctxt "The 'reset' button in fill tool options"
 msgid "Reset"
 msgstr "Qaytada&n tanlash"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:413
+#: plugins/tools/basictools/kis_tool_fill.cc:419
 #, fuzzy, kde-format
 msgid "Current selection"
 msgstr "Joriy belgilanganga &qoʻshish"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:414
+#: plugins/tools/basictools/kis_tool_fill.cc:420
 #, kde-format
 msgid "Contiguous region obtained from the layers"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:419
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:418
+#: plugins/tools/basictools/kis_tool_fill.cc:425
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:436
 #, fuzzy, kde-format
 msgid "Set the scale of the pattern"
 msgstr "Aralashtirish usuli"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:420
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:419
+#: plugins/tools/basictools/kis_tool_fill.cc:426
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:437
 #, fuzzy, kde-format
 msgid "Set the rotation of the pattern"
 msgstr "Aralashtirish usuli"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:422
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:421
+#: plugins/tools/basictools/kis_tool_fill.cc:428
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:439
 #, kde-format
 msgid ""
 "Set how far the region should extend from the selected pixel in terms of "
 "color similarity"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:423
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:422
+#: plugins/tools/basictools/kis_tool_fill.cc:429
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:440
 #, kde-format
 msgid ""
 "Set how far the fully opaque portion of the region should extend.\n"
@@ -54920,100 +54853,100 @@ msgid ""
 "100% will make opaque all the pixels in the region up to its boundary."
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:426
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:425
+#: plugins/tools/basictools/kis_tool_fill.cc:432
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:443
 #, kde-format
 msgid ""
 "Set if the contour of the current selection should be treated as a boundary "
 "when obtaining the region"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:429
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:428
+#: plugins/tools/basictools/kis_tool_fill.cc:435
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:446
 #, kde-format
 msgid ""
 "Grow (positive values) or shrink (negative values) the region by the set "
 "amount"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:430
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:429
+#: plugins/tools/basictools/kis_tool_fill.cc:436
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:447
 #, kde-format
 msgid "Blur the region by the set amount"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:432
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:431
+#: plugins/tools/basictools/kis_tool_fill.cc:438
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:449
 #, kde-format
 msgid "Obtain the region using the active layer"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:433
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:432
+#: plugins/tools/basictools/kis_tool_fill.cc:439
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:450
 #, kde-format
 msgid "Obtain the region using a merged copy of all layers"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:434
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:433
+#: plugins/tools/basictools/kis_tool_fill.cc:440
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:451
 #, fuzzy, kde-format
 msgid ""
 "Obtain the region using a merged copy of the selected color-labeled layers"
 msgstr "Aralashtirish usuli"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:436
+#: plugins/tools/basictools/kis_tool_fill.cc:442
 #, fuzzy, kde-format
 msgid "Fill regions of any color"
 msgstr "Orqa fon rangi bilan toʻldirish"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:437
+#: plugins/tools/basictools/kis_tool_fill.cc:443
 #, kde-format
 msgid "Fill only regions similar in color to the initial region"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:439
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:435
+#: plugins/tools/basictools/kis_tool_fill.cc:445
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:453
 #, fuzzy, kde-format
 msgid "Reset the options to their default values"
 msgstr "Joriy qatlam"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:448
+#: plugins/tools/basictools/kis_tool_fill.cc:454
 #, fuzzy, kde-format
 msgctxt "The 'what to fill' section label in fill tool options"
 msgid "What to fill"
 msgstr "Palitraga qoʻshish:"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:455
+#: plugins/tools/basictools/kis_tool_fill.cc:461
 #, fuzzy, kde-format
 msgctxt "The 'fill with' section label in fill tool options"
 msgid "Fill with"
 msgstr "Piksel eni"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:466
+#: plugins/tools/basictools/kis_tool_fill.cc:472
 #, fuzzy, kde-format
 msgctxt "The 'region extent' section label in fill tool options"
 msgid "Region extent"
 msgstr "Gradient vositasi"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:475
+#: plugins/tools/basictools/kis_tool_fill.cc:481
 #, fuzzy, kde-format
 msgctxt "The 'adjustments' section label in fill tool options"
 msgid "Adjustments"
 msgstr "Ranglarni moslash"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:484
+#: plugins/tools/basictools/kis_tool_fill.cc:490
 #, fuzzy, kde-format
 msgctxt "The 'reference' section label in fill tool options"
 msgid "Reference"
 msgstr "Moslamalar"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:493
+#: plugins/tools/basictools/kis_tool_fill.cc:499
 #, fuzzy, kde-format
 msgctxt "The 'multiple fill' section label in fill tool options"
 msgid "Multiple fill"
 msgstr "Boʻyoqning oʻlchami"
 
-#: plugins/tools/basictools/kis_tool_fill.h:191
+#: plugins/tools/basictools/kis_tool_fill.h:193
 #, fuzzy, kde-format
 msgid "Fill Tool"
 msgstr "Ellips vositasi"
@@ -56047,32 +55980,32 @@ msgstr "Ellips vositasi"
 msgid "Calligraphy"
 msgstr "Ellips vositasi"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:53
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:52
 #, fuzzy, kde-format
 msgid "Contiguous Area Selection"
 msgstr "Tanlanganni koʻrsatish"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:96
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:186
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:102
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:203
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select Contiguous Area"
 msgstr "Tanlanganni koʻrsatish"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:238
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:255
 #, fuzzy, kde-format
 #| msgid "Threshold: "
 msgctxt "The 'threshold' spinbox prefix in contiguous selection tool options"
 msgid "Threshold: "
 msgstr "Chegara: "
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:243
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:260
 #, fuzzy, kde-format
 msgctxt "The 'spread' spinbox prefix in contiguous selection tool options"
 msgid "Spread: "
 msgstr "Xiralik:"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:249
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:266
 #, fuzzy, kde-format
 msgctxt ""
 "The 'use selection as boundary' checkbox in contiguous selection tool to use "
@@ -56080,26 +56013,26 @@ msgctxt ""
 msgid "Use selection as boundary"
 msgstr "Tanlanganni bekitish"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:256
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:273
 #, fuzzy, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in contiguous selection tool options"
 msgid "Grow: "
 msgstr "Choʻzish"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:262
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:279
 #, fuzzy, kde-format
 msgctxt "The 'feather' spinbox prefix in contiguous selection tool options"
 msgid "Feather: "
 msgstr "Teri"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:268
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:285
 #, kde-format
 msgid ""
 "Set how far the selection should extend from the selected pixel in terms of "
 "color similarity"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:271
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:288
 #, kde-format
 msgid ""
 "Set how far the fully opaque portion of the selection should extend.\n"
@@ -56108,21 +56041,21 @@ msgid ""
 "100% will make all the selection opaque up to its boundary."
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:276
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:293
 #, kde-format
 msgid ""
 "Set if the contour of the current selection should be treated as a boundary "
 "when obtaining the new one"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:289
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:306
 #, fuzzy, kde-format
 msgctxt ""
 "The 'selection extent' section label in contiguous selection tool options"
 msgid "Selection extent"
 msgstr "Gradient vositasi"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.h:70
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.h:74
 #, fuzzy, kde-format
 msgid "Contiguous Selection Tool"
 msgstr "Choʻtka tanlash"
@@ -56212,38 +56145,38 @@ msgstr "Toʻgʻri burchak maydonni tanlash"
 msgid "Rectangular Selection Tool"
 msgstr "Toʻgʻri burchak maydonni tanlash vositasi"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:85
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:84
 #, fuzzy, kde-format
 msgid "Similar Color Selection"
 msgstr "Tanlanganni koʻrsatish"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:130
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:397
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:136
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:415
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select Similar Color"
 msgstr "Oʻxshash ranglarni tanlash"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:429
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:447
 #, fuzzy, kde-format
 #| msgid "Threshold: "
 msgctxt "The 'threshold' spinbox prefix in similar selection tool options"
 msgid "Threshold: "
 msgstr "Chegara: "
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:433
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:451
 #, kde-format
 msgid "Set how far the selection should extend in terms of color similarity"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:440
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:458
 #, fuzzy, kde-format
 msgctxt ""
 "The 'selection extent' section label in similar selection tool options"
 msgid "Selection extent"
 msgstr "Gradient vositasi"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.h:52
+#: plugins/tools/selectiontools/kis_tool_select_similar.h:56
 #, fuzzy, kde-format
 msgid "Similar Color Selection Tool"
 msgstr "Tanlanganni koʻrsatish"
@@ -57093,6 +57026,13 @@ msgid ""
 "html>"
 msgstr ""
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgToolCrop)
+#: plugins/tools/tool_crop/kis_tool_crop.cc:114
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:18
+#, fuzzy, kde-format
+msgid "Crop"
+msgstr "Kursor"
+
 #. i18n: ectx: property (text), widget (QCheckBox, boolCenter)
 #: plugins/tools/tool_crop/kis_tool_crop.cc:116
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:69
@@ -57314,44 +57254,44 @@ msgctxt "action"
 msgid "Enclose and Fill Tool"
 msgstr "Qatlamni koʻchirish"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:240
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:246
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Enclose and Fill"
 msgstr "Toʻldirish"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:340
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:358
 #, fuzzy, kde-format
 msgctxt "The 'invert' checkbox in enclose and fill tool"
 msgid "Invert"
 msgstr "Teskari qilish"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:345
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:363
 #, fuzzy, kde-format
 msgctxt "The 'include contour regions' checkbox in enclose and fill tool"
 msgid "Include contour regions"
 msgstr "Qatlamning nomi:"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:360
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:378
 #, fuzzy, kde-format
 msgctxt "The pattern 'scale' spinbox prefix in enclose and fill tool options"
 msgid "Scale: "
 msgstr "Toʻrtburcha&k"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:367
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:385
 #, fuzzy, kde-format
 #| msgid "Threshold: "
 msgctxt "The 'threshold' spinbox prefix in enclose and fill tool options"
 msgid "Threshold: "
 msgstr "Chegara: "
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:370
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:388
 #, fuzzy, kde-format
 msgctxt "The 'spread' spinbox prefix in enclose and fill tool options"
 msgid "Spread: "
 msgstr "Xiralik:"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:376
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:394
 #, fuzzy, kde-format
 msgctxt ""
 "The 'use selection as boundary' checkbox in enclose and fill tool to use "
@@ -57359,144 +57299,144 @@ msgctxt ""
 msgid "Use selection as boundary"
 msgstr "Tanlanganni bekitish"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:380
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:398
 #, fuzzy, kde-format
 msgctxt "The anti-alias checkbox in enclose and fill tool options"
 msgid "Anti-aliasing"
 msgstr "Uskuna:"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:382
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:400
 #, fuzzy, kde-format
 msgctxt "The 'grow/shrink' spinbox prefix in enclose and fill tool options"
 msgid "Grow: "
 msgstr "Choʻzish"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:386
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:404
 #, fuzzy, kde-format
 msgctxt "The 'feather' spinbox prefix in enclose and fill tool options"
 msgid "Feather: "
 msgstr "Teri"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:404
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:422
 #, fuzzy, kde-format
 msgctxt "The 'reset' button in enclose and fill tool options"
 msgid "Reset"
 msgstr "Qaytada&n tanlash"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:409
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:427
 #, fuzzy, kde-format
 msgid "Bezier Curve"
 msgstr "Filter vositasi"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:410
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:428
 #, kde-format
 msgid "Lasso"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:413
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:431
 #, kde-format
 msgid "Check this option to fill all the regions except the selected ones"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:414
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:432
 #, kde-format
 msgid ""
 "Check this option to also fill the shapes that touch the contour of the "
 "enclosing region"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:444
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:462
 #, fuzzy, kde-format
 msgctxt "The 'enclosing method' section label in enclose and fill tool options"
 msgid "Enclosing method"
 msgstr "Aralashtirish usuli"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:451
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:469
 #, fuzzy, kde-format
 msgctxt "The 'what to fill' section label in enclose and fill tool options"
 msgid "What to fill"
 msgstr "Palitraga qoʻshish:"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:461
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:479
 #, fuzzy, kde-format
 msgctxt "The 'fill with' section label in enclose and fill tool options"
 msgid "Fill with"
 msgstr "Piksel eni"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:472
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:490
 #, fuzzy, kde-format
 msgctxt "The 'region extent' section label in enclose and fill tool options"
 msgid "Region extent"
 msgstr "Gradient vositasi"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:481
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:499
 #, fuzzy, kde-format
 msgctxt "The 'adjustments' section label in enclose and fill tool options"
 msgid "Adjustments"
 msgstr "Ranglarni moslash"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:490
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:508
 #, fuzzy, kde-format
 msgctxt "The 'reference' section label in enclose and fill tool options"
 msgid "Reference"
 msgstr "Moslamalar"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:683
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:701
 #, fuzzy, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All regions"
 msgstr "Tanlanganni koʻrsatish"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:686
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:704
 #, fuzzy, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions of a specific color"
 msgstr "Orqa fon rangi bilan toʻldirish"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:689
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:707
 #, fuzzy, kde-format
 #| msgid "Transparent"
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Transparent regions"
 msgstr "Shaffof"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:692
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:710
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions of a specific color or transparent"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:695
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:713
 #, fuzzy, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All regions except those of a specific color"
 msgstr "Orqa fon rangi bilan toʻldirish"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:698
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:716
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All regions except the transparent ones"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:701
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:719
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "All regions except those of a specific color or transparent"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:704
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:722
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions surrounded by a specific color"
 msgstr ""
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:707
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:725
 #, fuzzy, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions surrounded by transparent"
 msgstr "Orqa fon rangi"
 
-#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:710
+#: plugins/tools/tool_enclose_and_fill/KisToolEncloseAndFill.cpp:728
 #, kde-format
 msgctxt "Region selection method in enclose and fill tool"
 msgid "Regions surrounded by a specific color or transparent"
@@ -58570,6 +58510,34 @@ msgstr "Kattalashtirish vositasi"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "Rasmning nomini oʻzgartirish"
+
+#, fuzzy
+#~ msgid "Lossless compression"
+#~ msgstr "Qatlamning xossalari"
+
+#, fuzzy
+#~ msgid "Information"
+#~ msgstr "Moslash..."
+
+#, fuzzy
+#~ msgid "Flip vertically"
+#~ msgstr "Tanlash"
+
+#, fuzzy
+#~ msgid "Bypass filtering"
+#~ msgstr "&Oʻlchami:"
+
+#, fuzzy
+#~ msgid "Use multithreaded decoding"
+#~ msgstr "Boʻyoqning oʻlchami"
+
+#, fuzzy
+#~ msgid "Color planes: "
+#~ msgstr "Ranglar boʻshligʻi"
+
+#, fuzzy
+#~ msgid "Alpha plane: "
+#~ msgstr "Alfa niqob"
 
 #, fuzzy
 #~ msgid "Cache Location:"
